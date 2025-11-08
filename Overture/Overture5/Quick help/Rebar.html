@@ -1,0 +1,101 @@
+﻿<html>
+	
+<head>
+	<title>Rebar</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("Rebar");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Rebar</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="OvertureMenus.html">Overture Menus</a> &rsaquo;&rsaquo; <a href="MeasuresMenu.html">Measures Menu</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="MeasuresMenu.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="AddOssiaStaffBelow.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="MultiRests.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<h6 class="rvps14"><span class="rvts0"><span class="rvts22">Measures&gt;Rebar</span></span></h6>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Choose this command to rebar the score beginning with the active measure and continuing to the end of the score. Use the </span><span class="rvts12">Rebar</span><span class="rvts6"> command to assure that your score contains the correct number of beats in every measure.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">This command is particularly useful if:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; margin-left: 48px; list-style-position: outside; list-style-type: disc;">
+<li style="margin-left: 0px" class="rvps4"><span class="rvts6">you inserted or deleted a note or rest</span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts6">changed meters after entering notes </span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">When you choose the </span><span class="rvts12">Rebar</span><span class="rvts6"> command, Overture analyzes the active measure and, if necessary, moves the barline so that the measure contains the correct number of beats as defined by its meter. It then analyzes each of the following measures until the end of the score. Any leftover beats are, therefore, confined to the final measure in the score.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">If, for example, the first measure has too few notes or rests, Overture moves the necessary number of beats from the beginning of the second measure to the end of the first measure. On the other hand, if the first measure has too many notes or rests, Overture moves the necessary number of beats from the end of the first measure to the beginning of the second measure.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Overture always divides any notes or rests as required. For instance, if a measure is short an eighth note, and the first note in the next measure is a quarter note, Overture splits the quarter note into two tied eighth notes; the first eighth note appears at the end of the first measure, and the second eighth note appears at the beginning of the second measure.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">The </span><span class="rvts12">Rebar</span><span class="rvts6"> command does not affect MIDI playback, but the Graphic window updates to show the new position of bar lines.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

@@ -1,0 +1,99 @@
+﻿<html>
+	
+<head>
+	<title>Tie</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("Tie");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Tie</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="OvertureMenus.html">Overture Menus</a> &rsaquo;&rsaquo; <a href="NotesMenu.html">Notes Menu</a> &rsaquo;&rsaquo; <a href="Group.html">Group</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="Group.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="Group.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="Slur.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<h6 class="rvps14"><span class="rvts0"><span class="rvts22">Notes&gt;Group&gt;Tie</span></span></h6>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Choose this command to tie together any notes of the same pitch within the selected group. To create a tie in your score:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ol style="text-indent: 0px; margin-left: 48px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Ctrl[</span></span><span class="rvts0"><span class="rvts13">Cmd</span></span><span class="rvts0"><span class="rvts6">]-click each note you want to tie together. </span></span></li>
+<li value="2" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Choose </span></span><span class="rvts0"><span class="rvts12">Notes&gt;Group&gt;Tie</span></span><span class="rvts0"><span class="rvts6">.</span></span><br/><span class="rvts0"><span class="rvts6">Overture ties the selected notes together. </span></span></li>
+</ol>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">If you draw a rectangle around a contiguous group of notes, then choose the </span><span class="rvts12">Tie</span><span class="rvts6"> command, Overture ties together any notes of the same pitch within the selected group.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">You can select a single note and attach a tie mark to it. This lets you create a note that's tied to a different place in the score (such as an ending, coda, etc.).</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Using the </span><span class="rvts12">Tie</span><span class="rvts6"> command is the same as selecting the Tie tool from the Groups palette and grouping notes in the Score View.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">MIDI playback recognizes tie markings. For instance, if you tie two quarter notes together, then your MIDI module plays the tie as though it were a half note.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

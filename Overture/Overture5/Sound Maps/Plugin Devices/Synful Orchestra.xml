@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTNameDocument name="Synful Orchestra">
+  <Version>1</Version>
+  <Author>GenieSoft,Inc.</Author>
+  <Device name="Synful Orchestra" usesPatchNames="1" firstPatchNumber="0" />
+  <ArticulationNames>
+    <Articulation name="Marcato" velocityAdd="10" durationPct="90" />
+    <Articulation name="Marcato Dot" velocityAdd="15" durationPct="50" />
+    <Articulation name="Heavy Attack" velocityAdd="10" durationPct="100" />
+    <Articulation name="SForzando" velocityAdd="20" />
+    <Articulation name="SForzando Dot" velocityAdd="20" durationPct="50" />
+    <Articulation name="Heavier Attack" velocityAdd="20" durationPct="100" />
+    <Articulation name="SForzando Inverted" velocityAdd="20" />
+    <Articulation name="SForzando Dot Inverted" velocityAdd="20" durationPct="50" />
+    <Articulation name="Staccatissimo" velocityAdd="30" durationPct="30" />
+    <Articulation name="Staccato" velocityAdd="20" durationPct="50" />
+    <Articulation name="Tenuto" durationPct="100" />
+    <Articulation name="Up Bow" />
+    <Articulation name="Down Bow" velocityAdd="5" />
+    <Articulation name="Up Bow Inverted" />
+    <Articulation name="Down Bow Inverted" velocityAdd="5" />
+    <Articulation name="Arpeggio" attackFrom="-90" attackTo="0" />
+    <Articulation name="Tremolo Eighths" tremoloNotes="1" />
+    <Articulation name="Tremolo Sixteenths" tremoloNotes="2" />
+    <Articulation name="Tremolo Thirty Seconds" tremoloNotes="3" />
+    <Articulation name="Tremolo Sixty Fourths" tremoloNotes="4" />
+    <Articulation name="pizz" />
+    <Articulation name="arco" durationPct="90" />
+    <Articulation name="legato" durationPct="105" />
+  </ArticulationNames>
+  <ControllerNames>
+    <Controller name="Volume/Timbre" cc="7" />
+    <Controller name="Dynamic Expression (Expression Mode Only)" cc="11" />
+    <Controller name="Panning" cc="10" />
+    <Controller name="Tune Orchestra" cc="110" />
+    <Controller name="Pitch Wheel Range" cc="102" />
+    <Controller name="Harmonic Tilt" cc="103" />
+    <Controller name="Release Trim" cc="104" />
+    <Controller name="Sustain Noise Trim" cc="105" />
+    <Controller name="Gain" cc="106" />
+    <Controller name="Transient Gain" cc="107" />
+    <Controller name="Harmonic Parity" cc="108" />
+    <Controller name="Tune Instrument" cc="109" />
+  </ControllerNames>
+  <Instruments>
+    <Section clef="treble">
+      <Instrument name="Flute" title="Flute" abbr="Fl." prgChg="74" />
+      <Instrument name="Oboe" title="Oboe" abbr="Ob." prgChg="69" />
+      <Instrument name="English Horn" title="English Horn" abbr="E Hn." transpose="7" prgChg="70" />
+      <Instrument name="Clarinet" title="Clarinet" abbr="Cl." transpose="2" prgChg="72" />
+      <Instrument name="Bassoon" title="Bassoon" abbr="Bn." clef="bass" prgChg="71" />
+      <Instrument name="French Horn" title="French Horn" abbr="F Hn." transpose="7" prgChg="61" />
+      <Instrument name="Trumpet" title="Trumpet" abbr="Tpt." prgChg="57" />
+      <Instrument name="Trombone" title="Trombone" abbr="Tbn." clef="bass" prgChg="58" />
+      <Instrument name="Violin" title="Violin" abbr="Vn." prgChg="41" />
+      <Instrument name="Viola" title="Viola" abbr="Va." clef="alto" prgChg="42" />
+      <Instrument name="Cello" title="Cello" abbr="Vc." clef="bass" prgChg="43" />
+      <Instrument name="Contrabass" title="Double Bass" abbr="Db." clef="bass" pitchOffset="-12" prgChg="44" />
+      <Instrument name="Violins 1" title="Violins 1" abbr="Vns 1." prgChg="1" bank="128" />
+      <Instrument name="Violins 2" title="Violins 2" abbr="Vns 2." prgChg="2" bank="128" />
+      <Instrument name="Violas" title="Violas" abbr="Vas." prgChg="3" bank="128" />
+      <Instrument name="Cellos" title="Cellos" abbr="Vcs." prgChg="4" bank="128" />
+      <Instrument name="Double Basses" title="Double Basses" abbr="Dbs." prgChg="5" bank="128" />
+    </Section>
+  </Instruments>
+</VSTNameDocument>

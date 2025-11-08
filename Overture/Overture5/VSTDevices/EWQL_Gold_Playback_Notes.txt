@@ -1,0 +1,41 @@
+EWQL Gold Edition Auto Playback Notes:
+
+Auto-Keyswitch Implementation - (Brass & Woodwinds)
+
+For those keyswitch instruments containing staccato notes, those will keyswitch automatically to staccato when using the staccato articulation on the score.  Staccatissimo is generated when using the staccatissimo marking by affecting the duration of the keyswitched staccato note.
+
+For the majority of the EWQL Gold Edition keyswitch patches marcato is achieved by using the Attack Accent keyswitch and by using the Attack Accent controller (CC#1) to accent the note.  Marcato dot, heavy attack, heavier attack articulation playback is achieved by affecting the midi data in addition to this.
+
+For those keyswitch patches containing sforzando samples, the sforzando marking will playback the appropriate keyswitch.  The sforzando dot, sforzando inverted, and sforzando dot inverted articulations will also trigger the appripriate keyswitch, plus add any additional midi playback as needed.
+
+Note:  Unfortunately, none of the EWQL Gold Edition string keyswitch patches contain either of these, so they will playback using the default midi playback methods.
+
+Auto-Voice Switching Implementation - 
+
+Brass & Woodwinds
+
+Most of the brass and woodwind instruments in EWQL Gold Edition contain staccato samples, and therefor when loading these patches into a 'voice' in Overture 4, when applying a staccato marking to the score, these staccato patches will play back.  Staccatissimo is achieved by playing back the staccato voice, with additional midi manipulation.
+
+There are no marcato patches for the brass and woodwind instruments in EWQL Gold Edition.  Voice playback for the marcato, marcato dot, heavy attack, and heavier attack articulations will occur if you have the Attack Accent patches loaded into a seperate 'voice.'  These will use additional midi data in addition to the Attack Accent controller (CC#1) to achieve the desired results.  These patches are typically labeled 'Accent Mod.'
+
+The sforzando patches when loaded into a 'voice,' will be triggered by the sforzando, sforzando dot, sforzando inverted, and sforzando dot inverted articulations plus any additional midi playback as necessary.
+
+Strings
+
+In place of staccato, the Quick Up/Dn patches were chosen to represent the staccato articulation for EWQL Gold Edition.  If you have the Quick Up/Dn patches loaded into a 'voice' in Overture 4, this will be chosen to playback for the staccato and staccatissimo markings when they are applied to the score.
+
+The Marc/Mart Up/Dn patches will be triggered if loaded into a 'voice' and the marcato, marcato dot, heavy attack, and heavier attack articulations are used.
+
+In addition, the Attack Accent (Accent Mod) patches can optionally be used to represent marcato if loaded into a 'voice.'  Again, these send midi data coupled with the Attack Accent controller (CC#1) to achieve the correct sound.
+
+Pizzicato (where available) will be triggered if loaded into a 'voice' and by using the pizz. expression.  After applying the expression to the score, the expression text may be changed without affecting the playback.  Since the string instrument keyswitches do not have a pizzicato keyswitch, this will be your only way to have pizzicato when using EWQL Gold Edition.
+
+Spiccato samples loaded into a seperate 'voice' will be triggered by apply the staccatissimo articulation on the score.
+
+
+
+Most of the playback has decided on using my discretion.  Since this is the case, I would appreciate feedback from the user base detailing improvements to be made to the playback. 
+
+I appreciate this looks more complicated than it really is, but due to the complexity of these orchestral products I think it will benefit the end user to understand how the process functions, and why it works the way it does. 
+
+If you are not using a keyswitch patch or are not using a patch loaded into a seperate voice for articulation playback, articulation playback will use default midi playback methods to achieve an approximated sound.

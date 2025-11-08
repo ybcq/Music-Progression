@@ -1,0 +1,113 @@
+﻿<html>
+	
+<head>
+	<title>Editing Notes</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("EditingNotes");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Editing Notes</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="GettingStarted.html">Getting Started</a> &rsaquo;&rsaquo; <a href="Enteringnotes.html">Entering notes</a> &rsaquo;&rsaquo; <a href="UsingtheNotespalette.html">Using the Notes palette</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="UsingtheNotespalette.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="UsingtheNotespalette.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="UsingStepInput.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<p class="rvps2"><span class="rvts6">Overture has many tools for adjusting score elements. In many instances, it is not necessary to specially select them; you can just move the pointer over the element and the pointer will change shape to let you know that you can now edit the element.</span></p>
+<h4 class="rvps8"><span class="rvts0"><span class="rvts18">Changing Pitch or Duration</span></span></h4>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Position the pointer over the erroneous note so that it becomes a Drag Cursor, then click. The note head turns red, indicating that it is selected: </span></span></li>
+<li value="2" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Change the</span></span><span class="rvts0"><span class="rvts12"> pitch</span></span><span class="rvts0"><span class="rvts6"> by dragging it up one step. See Preference setting to change either by diatonic or half steps.</span></span></li>
+<li value="3" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">While the note is still selected, change its duration by typing the number 2 (for half note). The note becomes a half note. </span></span></li>
+</ol>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Overture lets you edit multiple notes simultaneously. Select multiple notes by shift-clicking them or by dragging a box around them. Any edit operation affects all selected notes.</span></p>
+<h4 class="rvps8"><span class="rvts0"><span class="rvts18">Changing Existing Note Values</span></span></h4>
+<p class="rvps2"><span class="rvts6">You can change the value of any note in a score by selecting it, then selecting a new note value from the Notes palette. For example, to change a quarter note into an eighth note:</span></p>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Move the Arrow Cursor over the desired note in the score. </span></span></li>
+<li value="2" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">The cursor changes into a Drag Cursor when positioned over a note. </span></span></li>
+<li value="3" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Click the note to select it.</span></span><br/><span class="rvts0"><span class="rvts6">If you want to change more than one note, you can shift-click multiple notes to select them. </span></span></li>
+<li value="4" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Type the keyboard equivalent for the note value to which you wish to change the selected note(s).</span></span><br/><span class="rvts0"><span class="rvts6">In this example, you would type </span></span><span class="rvts0"><span class="rvts12">8</span></span><span class="rvts0"><span class="rvts6"> to change the selected note into an eighth note. </span></span></li>
+</ol>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Effect of Changing Note Values on MIDI Duration</span></p>
+<p class="rvps2"><span class="rvts6">Overture intelligently decides whether or not to change the MIDI duration of an altered note based on how you entered that note into Overture. Specifically:</span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li style="margin-left: 0px" class="rvps4"><span class="rvts6">If you recorded the note in real-time or imported it from a MIDI file, Overture does</span><span class="rvts17"> </span><span class="rvts6">not change the MIDI duration of the altered note, thus preserving the feel of the piece. </span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts6">If you entered the note in any other way, for example from the Notes palette or using the Step Input window, Overture changes the MIDI duration of the note to a percentage of the noted value found in the Step Input settings.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">To adjust the MIDI note duration manually, use either the Data View, use either the Edit MIDI Data mode found under the Edit menu, or </span><span class="rvts12">Notes&gt;Modify Notes</span><span class="rvts6"> (as discussed in </span><a class="rvts11" href="Modify.html">Modify Notes</a><span class="rvts6">).</span></p>
+<h4 class="rvps8"><span class="rvts0"><span class="rvts18">Dragging notes</span></span></h4>
+<p class="rvps2"><span class="rvts6">To drag a note, select the selection cursor from the Control bar (or type </span><span class="rvts12">esc</span><span class="rvts6">). Position the cursor over the note, then click and drag. You can not drag notes past the measure's barline. Note: If you enter any symbol or make any changes that causes the measure spacing to change, the dragged position will be lost. To prevent this you can lock a measure by choosing, </span><a class="rvts11" href="Lock.html">Measures&gt;Breaks&gt;Lock</a></p>
+<h4 class="rvps8"><span class="rvts0"><span class="rvts18">Erasing notes</span></span></h4>
+<p class="rvps2"><span class="rvts6">To erase any item from the score, select the eraser cursor from the tool bar (or type</span><span class="rvts12"> e</span><span class="rvts6">). Position the cursor over the note or symbol you wish to delete and click.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

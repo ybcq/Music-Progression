@@ -1,0 +1,570 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTNameDocument name="Vienna Instruments" middleC="c3">
+  <Version>1</Version>
+  <Author>Sonic Scores,Inc.</Author>
+  <Device name="Vienna Instruments" middleC="c3" />
+  <ControllerNames>
+    <Controller name="Articulation Change" cc="1" />
+    <Controller name="Volume" cc="11" />
+    <Controller name="Panning" cc="10" />
+    <ControllerSwitchList name="Harp">
+      <controller name="Harmonics" cc="1" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="Bosendorfer">
+      <controller name="Pedal" cc="64" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="Organ">
+      <controller name="Manual/Pedal" cc="1" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="E-Guitar">
+      <controller name="Vibrato/Whammy" cc="1" />
+    </ControllerSwitchList>
+  </ControllerNames>
+  <ArticulationNames>
+    <Articulation name="Marcato" velocityAdd="30" />
+    <Articulation name="Marcato Dot" velocityAdd="30" durationPct="50" />
+    <Articulation name="Heavy Attack" velocityAdd="30" durationPct="100" />
+    <Articulation name="SForzando" velocityAdd="40" />
+    <Articulation name="SForzando Dot" velocityAdd="40" durationPct="50" />
+    <Articulation name="Heavier Attack" velocityAdd="40" durationPct="100" />
+    <Articulation name="SForzando Inverted" velocityAdd="40" />
+    <Articulation name="SForzando Dot Inverted" velocityAdd="40" durationPct="50" />
+    <Articulation name="Staccatissimo" velocityAdd="25" durationPct="20" />
+    <Articulation name="Staccato" velocityAdd="20" durationPct="35" />
+    <Articulation name="Tenuto" durationPct="100" />
+    <Articulation name="Down Bow" velocityAdd="10" />
+    <Articulation name="Down Bow Inverted" velocityAdd="10" />
+    <Articulation name="Arpeggio" attackFrom="-90" attackTo="0" />
+    <Articulation name="Tremolo Eighths" tremoloNotes="1" />
+    <Articulation name="Tremolo Sixteenths" tremoloNotes="2" />
+    <Articulation name="Tremolo Thirty Seconds" tremoloNotes="3" />
+    <Articulation name="Tremolo Sixty Fourths" tremoloNotes="4" />
+    <Articulation name="legato" onOffset="10" durationPct="100" />
+    <ArticulationSwitchList name="Strings" keySwitchOff="D(x)">
+      <Articulation name="arco" keySwitch="D(x)" />
+      <Articulation name="Marcato" keySwitch="C(x)" ctrlNum="1" ctrlValue="90" ctrlOffValue="10" durationPct="75" />
+      <Articulation name="Marcato Dot" keySwitch="C(x)" velocityAdd="10" ctrlNum="1" ctrlValue="90" ctrlOffValue="10" durationPct="50" />
+      <Articulation name="Staccato" keySwitch="C(x)" />
+      <Articulation name="Staccatissimo" keySwitch="C(x)" velocityAdd="25" durationPct="75" />
+      <Articulation name="legato" keySwitch="D#(x)" onOffset="-10" durationPct="105" />
+      <Articulation name="SForzando" keySwitch="E(x)" />
+      <Articulation name="SForzando Dot" keySwitch="E(x)" velocityAdd="25" durationPct="75" />
+      <Articulation name="SForzando Inverted" keySwitch="E(x)" />
+      <Articulation name="SForzando Dot Inverted" keySwitch="E(x)" velocityAdd="25" durationPct="75" />
+      <Articulation name="Tremolo Eighths" keySwitch="F(x)" tremoloNotes="0" />
+      <Articulation name="Heavy Attack" keySwitch="C(x)" ctrlNum="1" ctrlValue="90" ctrlOffValue="10" />
+      <Articulation name="Heavier Attack" keySwitch="C(x)" ctrlNum="1" ctrlValue="90" ctrlOffValue="10" durationPct="75" velocityAdd="10" />
+      <Articulation name="pizz" keySwitch="F#(x)" />
+    </ArticulationSwitchList>
+    <ArticulationSwitchList name="Full Strings" keySwitchOff="D(x)">
+      <Articulation name="arco" keySwitch="A0" />
+      <Articulation name="Marcato" keySwitch="A0" ctrlNum="1" ctrlValue="90" ctrlOffValue="10" durationPct="75" />
+      <Articulation name="Marcato Dot" keySwitch="A0" velocityAdd="10" ctrlNum="1" ctrlValue="90" ctrlOffValue="10" durationPct="50" />
+      <Articulation name="Staccato" keySwitch="B0" />
+      <Articulation name="Staccatissimo" keySwitch="B0" velocityAdd="25" durationPct="75" />
+      <Articulation name="legato" keySwitch="A0" durationPct="100" />
+      <Articulation name="SForzando" keySwitch="C1" />
+      <Articulation name="SForzando Dot" keySwitch="C1" velocityAdd="25" durationPct="75" />
+      <Articulation name="SForzando Inverted" keySwitch="C1" />
+      <Articulation name="SForzando Dot Inverted" keySwitch="C1" velocityAdd="25" durationPct="75" />
+      <Articulation name="Tremolo Eighths" keySwitch="C#1" tremoloNotes="0" />
+      <Articulation name="Heavy Attack" keySwitch="A0" ctrlNum="1" ctrlValue="90" ctrlOffValue="10" />
+      <Articulation name="Heavier Attack" keySwitch="A0" ctrlNum="1" ctrlValue="90" ctrlOffValue="10" durationPct="75" velocityAdd="10" />
+      <Articulation name="pizz" keySwitch="D1" />
+    </ArticulationSwitchList>
+    <ArticulationSwitchList name="App Strings"keySwitchOff="D(x)">
+      <Articulation name="arco" keySwitch="C(x)" />
+      <Articulation name="Marcato" keySwitch="C(x)" ctrlNum="1" ctrlValue="90" ctrlOffValue="10" durationPct="75" />
+      <Articulation name="Marcato Dot" keySwitch="C(x)" velocityAdd="10" ctrlNum="1" ctrlValue="90" ctrlOffValue="10" durationPct="50" />
+      <Articulation name="Staccato" keySwitch="C#(x)" />
+      <Articulation name="Staccatissimo" keySwitch="C#(x)" velocityAdd="25" durationPct="75" />
+      <Articulation name="legato" keySwitch="C(x)" durationPct="100" />
+      <Articulation name="Heavy Attack" keySwitch="C(x)" ctrlNum="1" ctrlValue="90" ctrlOffValue="10" />
+      <Articulation name="Heavier Attack" keySwitch="C(x)" ctrlNum="1" ctrlValue="90" ctrlOffValue="10" durationPct="75" velocityAdd="10" />
+    </ArticulationSwitchList>
+    <ArticulationSwitchList name="Full App Strings">
+      <Articulation name="arco" keySwitch="A(x)" />
+      <Articulation name="Marcato" keySwitch="A(x)" ctrlNum="1" ctrlValue="90" ctrlOffValue="10" durationPct="75" />
+      <Articulation name="Marcato Dot" keySwitch="A(x)" velocityAdd="10" ctrlNum="1" ctrlValue="90" ctrlOffValue="10" durationPct="50" />
+      <Articulation name="Staccato" keySwitch="A#(x)" />
+      <Articulation name="Staccatissimo" keySwitch="A#(x)" velocityAdd="25" durationPct="75" />
+      <Articulation name="legato" keySwitch="A(x)" durationPct="100" />
+      <Articulation name="Heavy Attack" keySwitch="A(x)" ctrlNum="1" ctrlValue="90" ctrlOffValue="10" />
+      <Articulation name="Heavier Attack" keySwitch="A(x)" ctrlNum="1" ctrlValue="90" ctrlOffValue="10" durationPct="75" velocityAdd="10" />
+    </ArticulationSwitchList>
+    <ArticulationSwitchList name="Winds Brass" keySwitchOff="C#(x)">
+      <Articulation name="arco" keySwitch="C#(x)" />
+      <Articulation name="Marcato" keySwitch="C(x)" ctrlNum="1" ctrlValue="90" ctrlOffValue="10" durationPct="75" />
+      <Articulation name="Marcato Dot" keySwitch="C(x)" velocityAdd="10" ctrlNum="1" ctrlValue="90" ctrlOffValue="10" durationPct="50" />
+      <Articulation name="Staccato" keySwitch="C(x)" />
+      <Articulation name="Staccatissimo" keySwitch="C(x)" velocityAdd="25" durationPct="75" />
+      <Articulation name="legato" keySwitch="D#(x)" onOffset="-10" durationPct="105" />
+      <Articulation name="SForzando" keySwitch="D(x)" />
+      <Articulation name="SForzando Dot" keySwitch="D(x)" velocityAdd="25" durationPct="75" />
+      <Articulation name="SForzando Inverted" keySwitch="D(x)" />
+      <Articulation name="SForzando Dot Inverted" keySwitch="D(x)" velocityAdd="25" durationPct="75" />
+      <Articulation name="Heavy Attack" keySwitch="C#(x)" ctrlNum="1" ctrlValue="90" ctrlOffValue="10" />
+      <Articulation name="Heavier Attack" keySwitch="C#(x)" ctrlNum="1" ctrlValue="90" ctrlOffValue="10" durationPct="75" velocityAdd="10" />
+    </ArticulationSwitchList>
+  </ArticulationNames>
+  <KeySwitchNames>
+    <KeySwitchList name="Strings" keySwitchOff="D(x)">
+      <KeySwitch name="Staccato" key="C(x)" />
+      <KeySwitch name="Detache" key="C#(x)" />
+      <KeySwitch name="Sustain" key="D(x)" />
+      <KeySwitch name="Legato" key="D#(x)" />
+      <KeySwitch name="Sforzato" key="E(x)" />
+      <KeySwitch name="Tremolo" key="F(x)" />
+      <KeySwitch name="Pizzicato" key="F#(x)" />
+    </KeySwitchList>
+     <KeySwitchList name="Strings+" keySwitchOff="D(x)">
+      <KeySwitch name="Staccato" key="C(x)" />
+      <KeySwitch name="Detache" key="C#(x)" />
+      <KeySwitch name="Sustain" key="D(x)" />
+      <KeySwitch name="Legato" key="D#(x)" />
+      <KeySwitch name="Sforzato" key="E(x)" />
+      <KeySwitch name="Tremolo" key="F(x)" />
+      <KeySwitch name="Pizzicato" key="F#(x)" />
+    </KeySwitchList>
+   <KeySwitchList name="App Strings" keySwitchOff="C#(x)">
+      <KeySwitch name="Staccato" key="C(x)" />
+      <KeySwitch name="Sustain" key="C#(x)" />
+    </KeySwitchList>
+    <KeySwitchList name="Full App Strings" keySwitchOff="A#(x)">
+      <KeySwitch name="Staccato" key="A(x)" />
+      <KeySwitch name="Sustain" key="A#(x)" />
+    </KeySwitchList>
+    <KeySwitchList name="Full Strings" keySwitchOff="A0">
+      <KeySwitch name="Sustain" key="A0" />
+      <KeySwitch name="Detache" key="A#0" />
+      <KeySwitch name="Staccato" key="B0" />
+      <KeySwitch name="Sforzato" key="C1" />
+      <KeySwitch name="Tremolo" key="C#1" />
+      <KeySwitch name="Pizzicato" key="D1" />
+    </KeySwitchList>
+    <KeySwitchList name="Winds Brass" keySwitchOff="C#(x)">
+      <KeySwitch name="Staccato" key="C(x)" />
+      <KeySwitch name="Sustain" key="C#(x)" />
+      <KeySwitch name="Sforzato" key="D(x)" />
+      <KeySwitch name="Legato" key="D#(x)" />
+    </KeySwitchList>
+    <KeySwitchList name="Organ">
+      <KeySwitch name="Plenum" key="C(x)" />
+      <KeySwitch name="Flutes" key="C#(x)" />
+    </KeySwitchList>
+    <KeySwitchList name="Celesta">
+      <KeySwitch name="Hard" key="C(x)" />
+      <KeySwitch name="Soft" key="C#(x)" />
+    </KeySwitchList>
+    <KeySwitchList name="Vibraphone">
+      <KeySwitch name="Motor Off" key="C(x)" />
+      <KeySwitch name="Motor On" key="C#(x)" />
+    </KeySwitchList>
+    <KeySwitchList name="Timpani">
+      <KeySwitch name="Single Hits" key="C(x)" />
+      <KeySwitch name="Single Hits Secco" key="C#(x)" />
+      <KeySwitch name="Rolls" key="D(x)" />
+    </KeySwitchList>
+    <KeySwitchList name="Concert Guitar" keySwitchOff="C#(x)">
+      <KeySwitch name="Staccato" key="C(x)" />
+      <KeySwitch name="Sustain" key="C#(x)" />
+      <KeySwitch name="Sustain Vibrato" key="D(x)" />
+    </KeySwitchList>
+    <KeySwitchList name="E-Guitar" keySwitchOff="C#(x)">
+      <KeySwitch name="Staccato" key="C(x)" />
+      <KeySwitch name="Sustain" key="C#(x)" />
+      <KeySwitch name="Legato" key="D(x)" />
+    </KeySwitchList>
+  </KeySwitchNames>
+  <NoteNameList name="Drums">
+    <NoteName name="Taiko Hit Var 1 L" pitch="C1" pos="-3" head="0" />
+    <NoteName name="Taiko Hit Var 1 R" pitch="D1" />
+    <NoteName name="Taiko Hit Var 2 L" pitch="F1" />
+    <NoteName name="Taiko Hit Var 2 R" pitch="G1" />
+    <NoteName name="Taiko Hit Var 3 L" pitch="A1" />
+    <NoteName name="Taiko Hit Var 3 R" pitch="B1" />
+    <NoteName name="Taiko Drum Roll Var 1" pitch="C#1" />
+    <NoteName name="Taiko Drum Roll Var 2" pitch="F#1" />
+    <NoteName name="Taiko Drum Roll Var 3" pitch="A#1" />
+    <NoteName name="Bass Drum Hit L" pitch="C2" />
+    <NoteName name="Bass Drum Hit R" pitch="D2" />
+    <NoteName name="Bass Drum Roll" pitch="C#2" />
+    <NoteName name="BD Upbeat 1" pitch="F2" />
+    <NoteName name="BD Upbeat 2" pitch="G2" />
+    <NoteName name="BD Upbeat 3" pitch="A2" />
+    <NoteName name="Snare Drum Hit L" pitch="C3" />
+    <NoteName name="Snare Drum Hit R" pitch="D3" />
+    <NoteName name="Snare Drum Roll" pitch="C#3" />
+    <NoteName name="SD Upbeat 1" pitch="F3" />
+    <NoteName name="SD Upbeat 2" pitch="G3" />
+    <NoteName name="SD Upbeat 3" pitch="A3" />
+    <NoteName name="Tambourine Hit L" pitch="C5" />
+    <NoteName name="Tambourine Hit R" pitch="D5" />
+    <NoteName name="Tambourine Shake" pitch="C#5" />
+    <NoteName name="Tamb Upbeat 1" pitch="F5" />
+    <NoteName name="Tamb Upbeat 2" pitch="G5" />
+    <NoteName name="Tamb Upbeat 3" pitch="A5" />
+    <NoteName name="Tom Var 1 L" pitch="C6" />
+    <NoteName name="Tom Var 1 R" pitch="D6" />
+    <NoteName name="Tom Var 2 L" pitch="F6" />
+    <NoteName name="Tom Var 2 R" pitch="G6" />
+    <NoteName name="Tom Var 3 L" pitch="A6" />
+    <NoteName name="Tom Var 3 R" pitch="B6" />
+    <NoteName name="Tom Roll Var 1" pitch="C#6" />
+    <NoteName name="Tom Roll Var 2" pitch="F#6" />
+    <NoteName name="Tom Roll Var 3" pitch="A#6" />
+  </NoteNameList>
+  <NoteNameList name="Cymbals Gongs">
+    <NoteName name="Gong C1" pitch="C1" />
+    <NoteName name="Gong C#1" pitch="C#1" />
+    <NoteName name="Gong D1" pitch="D1" />
+    <NoteName name="Gong D#1" pitch="D#1" />
+    <NoteName name="Gong E1" pitch="E1" />
+    <NoteName name="Gong F1" pitch="F1" />
+    <NoteName name="Gong F#1" pitch="F#1" />
+    <NoteName name="Gong G1" pitch="G1" />
+    <NoteName name="Gong G#1" pitch="G#1" />
+    <NoteName name="Gong A1" pitch="A1" />
+    <NoteName name="Gong A#1" pitch="A#1" />
+    <NoteName name="Gong B1" pitch="B1" />
+    <NoteName name="Gong C2" pitch="C2" />
+    <NoteName name="Gong C#2" pitch="C#2" />
+    <NoteName name="Gong D2" pitch="D2" />
+    <NoteName name="Gong D#2" pitch="D#2" />
+    <NoteName name="Gong E2" pitch="E2" />
+    <NoteName name="Gong F2" pitch="F2" />
+    <NoteName name="Gong F#2" pitch="F#2" />
+    <NoteName name="Gong G2" pitch="G2" />
+    <NoteName name="Gong G#2" pitch="G#2" />
+    <NoteName name="Gong A2" pitch="A2" />
+    <NoteName name="Gong A#2" pitch="A#2" />
+    <NoteName name="Gong B2" pitch="B2" />
+    <NoteName name="Gong C3" pitch="C3" />
+    <NoteName name="Gong C#3" pitch="C#3" />
+    <NoteName name="Gong D3" pitch="D3" />
+    <NoteName name="Gong D#3" pitch="D#3" />
+    <NoteName name="Gong E3" pitch="E3" />
+    <NoteName name="Gong F3" pitch="F3" />
+    <NoteName name="Gong F#3" pitch="F#3" />
+    <NoteName name="Gong G3" pitch="G3" />
+    <NoteName name="Gong G#3" pitch="G#3" />
+    <NoteName name="Gong A3" pitch="A3" />
+    <NoteName name="Gong A#3" pitch="A#3" />
+    <NoteName name="Suspended Cymbal Hit Soft 1" pitch="C4" />
+    <NoteName name="Suspended Cymbal Hit Soft 2" pitch="D4" />
+    <NoteName name="Suspended Cymbal Hit Damped 1" pitch="C#4" />
+    <NoteName name="Suspended Cymbal Hit Damped 2" pitch="D#4" />
+    <NoteName name="Suspended Cymbal Roll" pitch="F4" />
+    <NoteName name="Susp Cymbal Roll 1 Sec Crec" pitch="G4" />
+    <NoteName name="Susp Cymbal Roll 2 Sec Crec" pitch="A4" />
+    <NoteName name="Susp Cymbal Roll 4 Sec Crec" pitch="B4" />
+    <NoteName name="Cymbal Hit Var 1" pitch="C5" />
+    <NoteName name="Cymbal Hit Var 2" pitch="D5" />
+    <NoteName name="Cymbal Hit Damped Var 1" pitch="C#5" />
+    <NoteName name="Cymbal Hit Damped Var 2" pitch="D#5" />
+    <NoteName name="Tam-Tam Hit L" pitch="G5" />
+    <NoteName name="Tam-Tam Hit R" pitch="A5" />
+    <NoteName name="Tam-Tam Roll w Release" pitch="G#5" />
+    <NoteName name="Tam-Tam Scratches Ex. Long" pitch="A#5" />
+  </NoteNameList>
+  <NoteNameList name="Percussion">
+    <NoteName name="Thundersheet Roll" pitch="C0" />
+    <NoteName name="Thundersheet Shake Forte" pitch="C#0" />
+    <NoteName name="Thundersheet Shake Piano" pitch="D#0" />
+    <NoteName name="Thundersheet Rub Var 1" pitch="D0" />
+    <NoteName name="Thundersheet Rub Var 2" pitch="E0" />
+    <NoteName name="Thundersheet Bowed Var 1" pitch="F0" />
+    <NoteName name="Thundersheet Bowed Var 2" pitch="G0" />
+    <NoteName name="Thundersheet Hit Var 1" pitch="F#0" />
+    <NoteName name="Thundersheet Hit Var 2" pitch="G#0" />
+    <NoteName name="Thundersheet Metal Chain Var 1" pitch="A0" />
+    <NoteName name="Thundersheet Metal Chain Var 2" pitch="B0" />
+    <NoteName name="Railway Rail 1 Hit L" pitch="C1" />
+    <NoteName name="Railway Rail 1 Hit R" pitch="D1" />
+    <NoteName name="Railway Rail 2 Hit L" pitch="F1" />
+    <NoteName name="Railway Rail 2 Hit R" pitch="G1" />
+    <NoteName name="Railway Rail 3 Hit L" pitch="A1" />
+    <NoteName name="Railway Rail 3 Hit R" pitch="B1" />
+    <NoteName name="Metal Chime Up Slow" pitch="C2" />
+    <NoteName name="Metal Chime Dn Slow" pitch="D2" />
+    <NoteName name="Metal Chime Up Fast" pitch="F2" />
+    <NoteName name="Metal Chime Dn Fast" pitch="G2" />
+    <NoteName name="Metal Chime High" pitch="A2" />
+    <NoteName name="Metal Chime Low" pitch="B2" />
+    <NoteName name="Castanet Hit L" pitch="C3" />
+    <NoteName name="Castanet Hit R" pitch="D3" />
+    <NoteName name="Castanet Roll 8 Sec" pitch="C#3" />
+    <NoteName name="Castanet Upbeat 1" pitch="E3" />
+    <NoteName name="Castanet Upbeat 2" pitch="F3" />
+    <NoteName name="Castanet Upbeat 3" pitch="G3" />
+    <NoteName name="Castanet Upbeat 4" pitch="A3" />
+    <NoteName name="Castanet 4 Upbeats Fast" pitch="B3" />
+    <NoteName name="Triangle Hit" pitch="C4" />
+    <NoteName name="Triangle Hit" pitch="D4" />
+    <NoteName name="Triangle Hit Damped" pitch="C#4" />
+    <NoteName name="Triangle Hit Damped" pitch="D#4" />
+    <NoteName name="Triangle Roll" pitch="E4" />
+    <NoteName name="Crotales Hit F4" pitch="F4" />
+    <NoteName name="Crotales Hit F#4" pitch="F#4" />
+    <NoteName name="Crotales Hit G4" pitch="G4" />
+    <NoteName name="Crotales Hit G#4" pitch="G#4" />
+    <NoteName name="Crotales Hit A4" pitch="A4" />
+    <NoteName name="Crotales Hit A#4" pitch="A#4" />
+    <NoteName name="Crotales Hit B4" pitch="B4" />
+    <NoteName name="Crotales Hit C5" pitch="C5" />
+    <NoteName name="Crotales Hit C#5" pitch="C#5" />
+    <NoteName name="Crotales Hit D5" pitch="D5" />
+    <NoteName name="Crotales Hit D#5" pitch="D#5" />
+    <NoteName name="Crotales Hit E5" pitch="E5" />
+    <NoteName name="Crotales Hit F5" pitch="F5" />
+    <NoteName name="Crotales Hit F#5" pitch="F#5" />
+    <NoteName name="Crotales Hit G5" pitch="G5" />
+    <NoteName name="Crotales Hit G#5" pitch="G#5" />
+    <NoteName name="Crotales Hit A5" pitch="A5" />
+    <NoteName name="Crotales Hit A#5" pitch="A#5" />
+    <NoteName name="Crotales Hit B5" pitch="B5" />
+    <NoteName name="Crotales Hit C6" pitch="C6" />
+    <NoteName name="Crotales Hit C#6" pitch="C#6" />
+    <NoteName name="Crotales Hit D6" pitch="D6" />
+    <NoteName name="Crotales Hit D#6" pitch="D#6" />
+    <NoteName name="Crotales Hit E6" pitch="E6" />
+    <NoteName name="Crotales Hit F6" pitch="F6" />
+    <NoteName name="Crotales Hit F#6" pitch="F#6" />
+  </NoteNameList>
+  <Instruments>
+    <Section name="Solo Strings">
+      <UsesArticulationSwitchList name="Strings" />
+      <Group name="Violin" title="Violin" abbr="Vn." clef="treble" prgChg="41" lownote="c0" highnote="c9">
+        <Instrument name="*Solo Violin" keySwitchList="Strings" ksoctave="0" soundID="strings.violin" />
+        <Instrument name="Solo Violin +" keySwitchList="Strings" ksoctave="0" soundID="strings.violin" />
+        <Instrument name="Solo Violin + Violin - 8va" title="Violin+Violin" abbr="Vn.+Vn." keySwitchList="Strings" ksoctave="0" soundID="strings.violin+violin.8va" />
+        <Instrument name="Solo Violin + Viola - 8va" title="Violin+Viola" abbr="Vn.+Va." keySwitchList="Strings" ksoctave="0" soundID="strings.violin+viola.8va" />
+        <Instrument name="VI Staccato" prgChg="41" soundID="strings.violin.staccato" />
+        <Instrument name="VI Detache" prgChg="41" soundID="strings.violin.detache" />
+        <Instrument name="VI Sustain" prgChg="41" soundID="strings.violin" />
+        <Instrument name="VI Sforzato" prgChg="41" soundID="strings.violin" />
+        <Instrument name="VI Legato" prgChg="41" soundID="strings.violin" />
+        <Instrument name="VI Portamento" prgChg="41" soundID="strings.violin" />
+        <Instrument name="VI Tremolo" prgChg="41" soundID="strings.violin.tremolo" />
+        <Instrument name="VI Pizz" prgChg="41" soundID="strings.violin.pizz" />
+      </Group>
+      <Group name="Viola" title="Viola" clef="alto" abbr="Va." prgChg="42" lownote="c0" highnote="c9">
+        <Instrument name="*Solo Viola" keySwitchList="Strings" ksoctave="0" soundID="strings.viola" />
+        <Instrument name="Solo Viola +" keySwitchList="Strings" ksoctave="0" soundID="strings.viola" />
+        <Instrument name="Solo Viola + Cello - 8va" title="Viola+Cello" keySwitchList="Strings" ksoctave="0" soundID="strings.viola+violoncello.8va" />
+        <Instrument name="VA Staccato" prgChg="42" soundID="strings.viola.staccato" />
+        <Instrument name="VA Detache" prgChg="42" soundID="strings.viola.detache" />
+        <Instrument name="VA Sustain" prgChg="42" soundID="strings.viola" />
+        <Instrument name="VA Sforzato" prgChg="42" soundID="strings.viola" />
+        <Instrument name="VA Legato" prgChg="42" soundID="strings.viola" />
+        <Instrument name="VA Portamento" prgChg="42" soundID="strings.viola" />
+        <Instrument name="VA Tremolo" prgChg="42" soundID="strings.viola.tremolo" />
+        <Instrument name="VA Pizz" prgChg="42" soundID="strings.viola.pizz" />
+      </Group>
+      <Group name="Cello" title="Cello" abbr="Vc." clef="bass" prgChg="43" lownote="c0" highnote="c9">
+        <Instrument name="*Solo Cello" keySwitchList="Strings" ksoctave="0" soundID="strings.violoncello" />
+        <Instrument name="Solo Cello +" clef="bass" keySwitchList="Strings" ksoctave="0" soundID="strings.violoncello" />
+        <Instrument name="Solo Cello + Bass - 8va" title="Cello+Bass" abbr="Vc.+Db." ksoctave="0" soundID="strings.cello+contrabass.8va" />
+        <Instrument name="VC Staccato" prgChg="43" soundID="strings.cello.staccato" />
+        <Instrument name="VC Detache" prgChg="43" soundID="strings.cello.detache" />
+        <Instrument name="VC Sustain" prgChg="43" soundID="strings.cello" />
+        <Instrument name="VC Sforzato" prgChg="43" soundID="strings.cello" />
+        <Instrument name="VC Legato" prgChg="43" soundID="strings.cello" />
+        <Instrument name="VC Portamento" prgChg="43" soundID="strings.cello" />
+        <Instrument name="VC Tremolo" prgChg="43" soundID="strings.cello.tremolo" />
+        <Instrument name="VC Pizz" prgChg="43" soundID="strings.cello.pizz" />
+      </Group>
+      <Group name="Bass" title="Double Bass" abbr="Db." clef="bass" prgChg="44" pitchOffset="-12" >
+        <Instrument name="*Solo Bass" keySwitchList="Strings" ksoctave="5" soundID="strings.contrabass" />
+        <Instrument name="Solo Bass +" keySwitchList="Strings" ksoctave="5" soundID="strings.contrabass" />
+        <Instrument name="DB Staccato" prgChg="44" soundID="strings.contrabass.staccato" />
+        <Instrument name="DB Detache" prgChg="44" soundID="strings.contrabass.detache" />
+        <Instrument name="DB Sustain" prgChg="44" soundID="strings.contrabass" />
+        <Instrument name="DB Sforzato" prgChg="44" soundID="strings.contrabass" />
+        <Instrument name="DB Legato" prgChg="44" soundID="strings.contrabass" />
+        <Instrument name="DB Portamento" prgChg="44" soundID="strings.contrabass" />
+        <Instrument name="DB Tremolo" prgChg="44" soundID="strings.contrabass.tremolo" />
+        <Instrument name="DB Pizz" prgChg="44" soundID="strings.ccontrabass.pizz" />
+      </Group>
+    </Section>
+    <Section name="Chamber Strings" clef="treble" prgChg="49" lownote="c0" highnote="c9">
+      <UsesKeySwitchList name="Strings" />
+      <UsesArticulationSwitchList name="Strings" />
+      <Instrument name="*Chamber Violins" title="Violins" abbr="Vns." ksoctave="0" soundID="strings.violin.ensemble.chamber" />
+      <Instrument name="*Chamber Violas" title="Violas" abbr="Vas." clef="alto" ksoctave="0" soundID="strings.viola.ensemble.chamber" />
+      <Instrument name="*Chamber Cellos" title="Cellos" abbr="Vcs." clef="bass" ksoctave="0" soundID="strings.violoncello.ensemble.chamber" />
+      <Instrument name="*Chamber Basses" title="Double Basses" abbr="Dbs." clef="bass" pitchOffset="-12" ksoctave="5" soundID="strings.contrabass.ensemble.chamber" />
+      <Instrument name="Chamber Violins + Violins - 8va" title="Violins" abbr="Vns." ksoctave="0" soundID="strings.violin.ensemble.chamber.8va" />
+      <Instrument name="Chamber Violins + Violas - 8va" title="Violins" abbr="Vns." ksoctave="0" soundID="strings.viola.ensemble.chamber.8va" />
+      <Instrument name="Chamber Violas + Cellos - 8va" title="Violas" abbr="Vas." clef="alto" ksoctave="0" soundID="strings.violoncello.ensemble.chamber.8va" />
+      <Instrument name="Chamber Cellos + Basses - 8va" title="Cellos" abbr="Vcs." clef="bass" ksoctave="5" soundID="strings.contrabass.ensemble.chamber.8va" />
+      <Instrument name="Chamber Strings All" title="Strings" abbr="Str." soundID="strings.string orchestra.chamber">
+        <UsesKeySwitchList name="Full Strings" />
+        <UsesArticulationSwitchList name="Full Strings" />
+      </Instrument>
+    </Section>
+    <Section name="Orchestral Strings" clef="treble" prgChg="50" lownote="c0" highnote="c9">
+      <UsesKeySwitchList name="Strings" />
+      <UsesArticulationSwitchList name="Strings" />
+      <Instrument name="*Strings Violins" title="Violins" abbr="Vns." ksoctave="0" soundID="strings.violin.ensemble" />
+      <Instrument name="*Strings Violas" title="Violas" abbr="Vas." clef="alto" ksoctave="0" soundID="strings.viola.ensemble" />
+      <Instrument name="*Strings Cellos" title="Cellos" abbr="Vcs." clef="bass" ksoctave="0" soundID="strings.violoncello.ensemble" />
+      <Instrument name="*Strings Basses" title="Double Basses" abbr="Dbs." clef="bass" pitchOffset="-12" ksoctave="5" soundID="strings.contrabass.ensemble" />
+      <Instrument name="Strings Violins + Violins - 8va" title="Violins" abbr="Vns." ksoctave="0" soundID="strings.violin.ensemble.8va" />
+      <Instrument name="Strings Violins + Violas - 8va" title="Violins" abbr="Vns." ksoctave="0" soundID="strings.viola.ensemble.8va" />
+      <Instrument name="Strings Violas + Cellos - 8va" title="Violas" abbr="Vas." clef="alto" ksoctave="0" soundID="strings.violoncello.ensemble.8va" />
+      <Instrument name="Strings Cellos + Basses - 8va" title="Cellos" abbr="Vcs." clef="bass" ksoctave="0" soundID="strings.contrabass.ensemble.8va" />
+      <Instrument name="Strings All" title="Strings" abbr="Str." soundID="strings.string orchestra">
+        <UsesKeySwitchList name="Full Strings" />
+        <UsesArticulationSwitchList name="Full Strings" />
+      </Instrument>
+    </Section>
+    <Section name="Appassionata Strings" clef="treble" prgChg="51" lownote="c0" highnote="c9">
+      <UsesKeySwitchList name="App Strings" />
+      <UsesArticulationSwitchList name="App Strings" />
+      <Instrument name="App Strings Violins" title="Violins" abbr="Vns." ksoctave="0" soundID="strings.violin.ensemble.appassionata" />
+      <Instrument name="App Strings Violas" title="Violas" abbr="Vas." clef="alto" ksoctave="0" soundID="strings.viola.ensemble.appassionata" />
+      <Instrument name="App Strings Cellos" title="Cellos" abbr="Vcs." clef="bass" ksoctave="0" soundID="strings.violoncello.ensemble.appassionata" />
+      <Instrument name="App Strings Basses" title="Double Basses" abbr="Dbs." clef="bass" pitchOffset="-12" ksoctave="5" soundID="strings.contrabass.ensemble.appassionata" />
+      <Instrument name="App Strings Violins + Violins - 8va" title="Violins" abbr="Vns." ksoctave="0" soundID="strings.violin.ensemble.appassionata.8va" />
+      <Instrument name="App Strings Violins + Violas - 8va" title="Violins" abbr="Vns." ksoctave="0" soundID="strings.viola.ensemble.appassionata.8va" />
+      <Instrument name="App Strings Violas + Cellos - 8va" title="Violas" abbr="Vas." clef="alto" ksoctave="0" soundID="strings.violoncello.ensemble.appassionata.8va" />
+      <Instrument name="App Strings Cellos + Basses - 8va" title="Cellos" abbr="Vcs." clef="bass" ksoctave="5" soundID="strings.contrabass.ensemble.appassionata.8va" />
+      <Instrument name="App strings All" title="Strings" abbr="Str." ksoctave="0" soundID="strings.string orchestra.appassionata">
+        <UsesKeySwitchList name="Full App Strings" />
+        <UsesArticulationSwitchList name="Full App Strings" />
+      </Instrument>
+    </Section>
+    <Section name="Harp" title="Harp" abbr="Hrp." clef="treble" prgChg="47" lownote="c0" highnote="c9" soundID="pitched percussion.stringed.harp">
+      <UsesControllerSwitchList name="Harp" />
+      <Instrument name="*Harp" />
+    </Section>
+    <Section name="Flutes" clef="treble" lownote="c0" highnote="c9">
+      <UsesKeySwitchList name="Winds Brass" />
+      <UsesArticulationSwitchList name="Winds Brass" />
+      <Instrument name="*Piccolo" title="Piccolo" abbr="Picc." pitchOffset="-12" ksoctave="1" prgChg="73" soundID="wind.flutes.flute.piccolo" />
+      <Instrument name="*Flute 1" title="Flute" abbr="Fl." ksoctave="1" prgChg="74" soundID="wind.flutes.flute.1" />
+      <Instrument name="Flute 2" title="Flute" abbr="Fl." ksoctave="1" prgChg="74" soundID="wind.flutes.flute.2" />
+      <Instrument name="*Alto Flute" title="Alto Flute" abbr="AFl." ksoctave="1" prgChg="74" soundID="wind.flutes.flute.alto" />
+      <Instrument name="*Flute Ensemble" title="Flutes" abbr="Fls." ksoctave="1" prgChg="74" soundID="wind.flutes.flute.ensemble" />
+      <Instrument name="Piccolo + Flute 1 - 8va" title="Piccolo" abbr="Picc." pitchOffset="-12" ksoctave="1" prgChg="73" soundID="wind.flutes.flute.piccolo.8va" />
+    </Section>
+    <Section name="Oboes" clef="treble" lownote="c0" highnote="c9">
+      <UsesKeySwitchList name="Winds Brass" />
+      <UsesArticulationSwitchList name="Winds Brass" />
+      <Instrument name="*Oboe French" title="Oboe" abbr="Ob." ksoctave="1" prgChg="69" soundID="wind.oboes.oboe.french" />
+      <Instrument name="Oboe Vienna" title="Oboe" abbr="Ob." ksoctave="1" prgChg="69" soundID="wind.oboes.oboe.vienna" />
+      <Instrument name="Oboe D'Amore" title="Oboe" abbr="Ob." ksoctave="1" prgChg="69" soundID="wind.oboes.oboe.damore" />
+      <Instrument name="*English Horn" title="English Horn" abbr="EHn." transpose="7" ksoctave="1" prgChg="70" soundID="wind.oboes.english horn" />
+      <Instrument name="*Oboe Ensemble" title="Oboes" abbr="Obs." ksoctave="1" prgChg="69" soundID="wind.oboes.oboe.ensemble" />
+      <Instrument name="Oboe + English Horn - 8va" title="Oboe" abbr="Ob." ksoctave="1" prgChg="69" soundID="wind.oboes.oboe.8va" />
+    </Section>
+    <Section name="Clarinets" clef="treble" prgChg="72" lownote="c0" highnote="c9">
+      <UsesKeySwitchList name="Winds Brass" />
+      <UsesArticulationSwitchList name="Winds Brass" />
+      <Instrument name="Clarinet Eb" title="Clarinet Eb" abbr="Cl." transpose="9" ksoctave="1" soundID="wind.clarinets.clarinet.eb" />
+      <Instrument name="*Clarinet Bb" title="Clarinet Bb" abbr="Cl." transpose="2" ksoctave="1" soundID="wind.clarinets.clarinet.bb" />
+      <Instrument name="*Bass Clarinet" title="Bass Clarinet" abbr="BCl." pitchOffset="-12" transpose="2" ksoctave="1" soundID="wind.clarinets.bass" />
+      <Instrument name="Basset Horn" title="Basset Horn" abbr="BHn." transpose="7" ksoctave="1" soundID="wind.clarinets.basset horn" />
+      <Instrument name="*Clarinet Ensemble" title="Clarinets" abbr="Cls." transpose="2" ksoctave="1" soundID="wind.clarinets.clarinet.ensemble" />
+      <Instrument name="Clarinet Bb + Bass - 8va" title="Clarinet Bb" abbr="Cl." transpose="2" ksoctave="1" soundID="wind.clarinets.clarinet.bb.8va" />
+    </Section>
+    <Section name="Bassoons" clef="bass" prgChg="71" lownote="c0" highnote="c9">
+      <UsesKeySwitchList name="Winds Brass" />
+      <UsesArticulationSwitchList name="Winds Brass" />
+      <Instrument name="*Bassoon" title="Bassoon" abbr="Bsn." ksoctave="1" soundID="wind.bassoons.bassoon" />
+      <Instrument name="Contra Bassoon" title="Contra Bassoon" abbr="CBsn." pitchOffset="-12" ksoctave="6" soundID="wind.bassoons.contrabass" />
+      <Instrument name="*Bassoon Ensemble" title="Bassoons" abbr="Bsns." ksoctave="1" soundID="wind.bassoons.bassoon.ensemble" />
+      <Instrument name="Bassoon + Contra - 8va" title="Bassoon" abbr="Bsn." ksoctave="6" soundID="wind.bassoons.bassoon.8va" />
+    </Section>
+    <Section name="Saxophones" clef="treble" lownote="c0" highnote="c9">
+      <UsesKeySwitchList name="Winds Brass" />
+      <UsesArticulationSwitchList name="Winds Brass" />
+      <Instrument name="*Alto Saxophone" title="Alto Sax" abbr="ASx." transpose="9" ksoctave="1" prgChg="66" soundID="wind.saxophones.alto" />
+      <Instrument name="*Tenor Saxophone" title="Tenor Sax" abbr="TSx." pitchOffset="-12" transpose="2" ksoctave="1" prgChg="67" soundID="wind.saxophones.tenor" />
+      <Instrument name="*Baritone Saxophone" title="Baritone Sax" abbr="BSx." pitchOffset="-12" transpose="9" ksoctave="1" prgChg="68" soundID="wind.saxophones.baritone" />
+      <Instrument name="Alto Sax + Tenor - 8va" title="Alto Sax" abbr="ASx." transpose="9" ksoctave="1" prgChg="66" soundID="wind.saxophones.alto.8va" />
+    </Section>
+    <Section name="Horns" clef="treble" ksoctave="1" transpose="7" lownote="c0" highnote="c9">
+      <UsesKeySwitchList name="Winds Brass" />
+      <UsesArticulationSwitchList name="Winds Brass" />
+      <Instrument name="Horn Vienna" title="French Horn" abbr="FHn." prgChg="61" soundID="brass.horns.french horn.vienna" />
+      <Instrument name="*Horn Triple" title="French Horn" abbr="FHn." prgChg="61" soundID="brass.horns.french horn.triple" />
+      <Instrument name="*Horn Ensemble - a4" title="French Horns" abbr="FHns." prgChg="62" soundID="brass.horns.french horn.ensemble.a4" />
+      <Instrument name="*Horn Ensemble - a8" title="French Horns" abbr="FHns." prgChg="62" soundID="brass.horns.french horn.ensemble.a8" />
+    </Section>
+    <Section name="Trumpets" clef="treble" transpose="2" lownote="c0" highnote="c9">
+      <UsesArticulationSwitchList name="Winds Brass" />
+      <Instrument name="*Piccolo Trumpet" title="Piccolo Trumpet" abbr="PiccTpt." pitchOffset="12" prgChg="57" soundID="brass.trumpets.piccolo" />
+      <Instrument name="*Trumpet C" title="Trumpet" abbr="Tpt." keySwitchList="Winds Brass" ksoctave="0" prgChg="57" soundID="brass.trumpets.trumpet.c" />
+      <Instrument name="*Trumpet C +" title="Trumpet" abbr="Tpt." keySwitchList="Winds Brass" prgChg="57" soundID="brass.trumpets.trumpet.c" />
+      <Instrument name="Trumpet C Mute" title="Muted Trumpet" abbr="Tpt." prgChg="60" soundID="brass.trumpets.trumpet.mute.c" />
+      <Instrument name="*Trumpet Ensemble" title="Trumpets" abbr="Tpts." prgChg="62" soundID="brass.trumpets.trumpet.ensemble" />
+      <Instrument name="*Trumpet Ensemble +" title="Trumpets" abbr="Tpts." prgChg="62" soundID="brass.trumpets.trumpet.ensemble" />
+      <Instrument name="Trumpet Ensemble Mute" title="Muted Trumpets" abbr="Tpts." prgChg="62" soundID="brass.trumpets.trumpet.ensemble.mute" />
+    </Section>
+    <Section name="Trombones" clef="bass" lownote="c0" highnote="c9">
+      <UsesKeySwitchList name="Winds Brass" />
+      <UsesArticulationSwitchList name="Winds Brass" />
+      <Instrument name="*Tenor Trombone" title="Trombone" abbr="Tbn." ksoctave="1" prgChg="58" soundID="brass.trombones.tenor" />
+      <Instrument name="Tenor Trombone Mute" title="Muted Trombone" abbr="Tbn." ksoctave="1" prgChg="58" soundID="brass.trombones.tenor.mute" />
+      <Instrument name="*Bass Trombone" title="Bass Trombone" abbr="BTbn." ksoctave="6" prgChg="58" soundID="brass.trombones.bass" />
+      <Instrument name="Contrabass Trombone" title="Contrabass Trombone" abbr="CbTbn." pitchOffset="-12" ksoctave="6" prgChg="58" soundID="brass.trombones.contrabass" />
+      <Instrument name="*Trombone Ensemble" title="Trombones" abbr="Tbns." ksoctave="1" prgChg="62" soundID="brass.trombones.tenor.ensemble" />
+      <Instrument name="Trombone Ensemble Mute" title="Muted Trombones" abbr="Tbns." ksoctave="1" prgChg="62" soundID="brass.trombones.tenor.ensemble.mute" />
+      <Instrument name="Tenor Trombone + Bass - 8va" title="Trombone" abbr="Tbn." ksoctave="1" prgChg="58" soundID="brass.trombones.tenor.8va" />
+    </Section>
+    <Section name="Tubas" title="Tuba" abbr="Tba." clef="bass" ksoctave="6" prgChg="59" lownote="c0" highnote="c9">
+      <UsesKeySwitchList name="Winds Brass" />
+      <UsesArticulationSwitchList name="Winds Brass" />
+      <Instrument name="*Tuba" soundID="brass.tubas.tuba" />
+      <Instrument name="Contrabass Tuba" pitchOffset="-12" soundID="brass.tubas.contrabass" />
+      <Instrument name="Wagner Tuba" soundID="brass.tubas.wagner" />
+    </Section>
+    <Section name="Keyboards" clef="treble" lownote="c0" highnote="c9">
+      <Instrument name="*Bosendorfer" title="Piano" abbr="P." prgChg="1" soundID="keyboard.piano.grand.bosendorfer">
+        <UsesControllerSwitchList name="Bosendorfer" />
+      </Instrument>
+      <Instrument name="*Cembalo" title="Harpsichord" abbr="Hpsd." prgChg="7" soundID="keyboard.harpsichord" />
+      <Instrument name="*Organ" title="Organ" abbr="Organ" ksoctave="1" prgChg="20" soundID="keyboard.organ.pipe">
+        <UsesControllerSwitchList name="Organ" />
+        <UsesKeySwitchList name="Organ" />
+      </Instrument>
+      <Instrument name="*Celesta" title="Celesta" abbr="Clst." pitchOffset="12" transpose="-12" ksoctave="1" prgChg="9" soundID="keyboard.celesta">
+        <UsesKeySwitchList name="Celesta" />
+      </Instrument>
+    </Section>
+    <Section name="Mallets" clef="treble" lownote="c0" highnote="c9">
+      <Instrument name="*Glockenspiel" title="Glockenspiel" abbr="Glck." pitchOffset="24" transpose="-24" prgChg="10" soundID="pitched percussion.metal.glockenspiel" />
+      <Instrument name="*Xylophone" title="Xylophone" abbr="Xyl." pitchOffset="12" transpose="-12" prgChg="14" soundID="pitched percussion.wood.xylophone" />
+      <Instrument name="*Vibraphone" title="Vibraphone" abbr="Vib." ksoctave="1" prgChg="12" soundID="pitched percussion.metal.vibraphone">
+        <UsesKeySwitchList name="Vibraphone" />
+      </Instrument>
+      <Instrument name="*Marimbaphone" title="Marimba" abbr="Mba." clef="treble" prgChg="13" soundID="pitched percussion.wood.marimba" />
+    </Section>
+    <Section name="Percussion" clef="treble" lownote="c0" highnote="c9">
+      <Instrument name="*Timpani" title="Timpani" abbr="Tmp." clef="bass" ksoctave="1" prgChg="49" soundID="pitched percussion.drums.timpani">
+        <UsesKeySwitchList name="Timpani" />
+      </Instrument>
+      <Instrument name="*Drums" title="Percussion" abbr="Perc." clef="percussion" soundID="unpitched.percussion.gm perc">
+        <UsesNoteNameList name="Drums" />
+      </Instrument>
+      <Instrument name="*Cymbals + Gongs" title="Cymbals" abbr="Cym." clef="percussion" soundID="pitched percussion.metal.bells.gamelan.cymbals and gongs">
+        <UsesNoteNameList name="Cymbals Gongs" />
+      </Instrument>
+      <Instrument name="*Percussion" title="Percussion" abbr="Perc." clef="percussion" soundID="unpitched.percussion.orchestra kit">
+        <UsesNoteNameList name="Percussion" />
+      </Instrument>
+      <Instrument name="*Tubular Bells" title="Tubular Bells" abbr="Bells." soundID="pitched percussion.metal.bells.tubular bells" />
+      <Instrument name="*Plate Bells" title="Plate Bells" abbr="Bells." soundID="pitched percussion.metal.bells.plate bells" />
+    </Section>
+    <Section name="Guitars" title="Guitar" abbr="G." clef="treble" pitchOffset="-12" lownote="c0" highnote="c9">
+      <Instrument name="*Concert Guitar" ksoctave="1" prgChg="26" soundID="guitar.acoustic.concert">
+        <UsesKeySwitchList name="Concert Guitar" />
+      </Instrument>
+      <Instrument name="*E-Guitar" ksoctave="1" prgChg="28" soundID="guitar.electric">
+        <UsesKeySwitchList name="E-Guitar" />
+      </Instrument>
+    </Section>
+  </Instruments>
+</VSTNameDocument>

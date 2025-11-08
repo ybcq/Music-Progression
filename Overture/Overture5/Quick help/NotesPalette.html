@@ -1,0 +1,104 @@
+﻿<html>
+	
+<head>
+	<title>Notes Palette</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("NotesPalette");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Notes Palette</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="SymbolPalettes.html">Symbol Palettes</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="SymbolPalettes.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="SymbolPalettes.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="UsingtheNotesPalette1.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<h3 class="rvps13"><span class="rvts0"><span class="rvts21">Palette Overview</span></span></h3>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps12"><img alt="" style="padding : 1px;" src="lib/NewItem61.png"></p>
+<p class="rvps12"><span class="rvts6"><br/></span></p>
+<p class="rvps12"><span class="rvts6">The following describes each of the tools in the Notes palette:</span></p>
+<p class="rvps12"><span class="rvts12"><br/></span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Notes</span><span class="rvts6">: Select one of these tools to insert a note of that value. The palette contains (from left to right): double whole note, whole note, half note, quarter note, 8th note, 16th note, 32nd note, 64th note, 128th note. </span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Rests</span><span class="rvts6">: Select one of these tools to insert a rest of that value. The palette contains (from left to right): double whole rest, whole rest, half rest, quarter rest, 8th rest, 16th rest, 32nd rest, 64th rest, 128th rest. </span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Accidentals</span><span class="rvts6">: Select one of these tools to insert an accidental. The palette contains (from left to right): sharp, flat, natural, double sharp, double flat, courtesy sharp, courtesy flat, courtesy natural, courtesy double sharp, courtesy double flat. </span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts6">Ctrl[</span><span class="rvts13">Cmd</span><span class="rvts6">]-click a note with an Accidental tool to apply that accidental to all notes of the same pitch for the remainder of the measure. </span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Augmentation Dots</span><span class="rvts6">: Select one of the three augmentation dot tools to turn the selected note or rest tool into a dotted note or rest. </span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Tuplet</span><span class="rvts6">: Use this tool to turn the selected note or rest tool into a tuplet whose value was last defined in the Tuplets dialog box. The default tuplet value is a triplet. We discuss the Tuplets dialog box in </span><a class="rvts11" href="Tuplet.html">Group&gt;Tuplet</a><span class="rvts6">. </span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Grace Note</span><span class="rvts6">: Use this tool to insert a grace note into your score. See </span><a class="rvts11" href="EnteringGraceNotes.html">Grace Notes</a><span class="rvts6"> for more information. </span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">For more information, see:</span></p>
+<p class="rvps2"><a class="rvts11" href="UsingtheNotesPalette1.html">Using the Notes Palette</a></p>
+<p class="rvps2"><a class="rvts11" href="EnteringGraceNotes.html">Grace Notes</a></p>
+<p class="rvps2"><a class="rvts11" href="CautionaryAccidentals.html">Cautionary Accidents</a></p>
+<p class="rvps2"><a class="rvts11" href="ChangingExistingNoteValues.html">Changing Existing Notes Values</a></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

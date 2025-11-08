@@ -1,0 +1,2176 @@
+GUITAR PRO 5.1 TRANSLATION FILE
+
+### PATCH CONFIGURATION ###
+AUTHOR NAMES = "Fernando Ponte"
+AUTHOR E-MAIL = "fernando.ponte@sapo.pt"
+VERSION = "5.1"
+AUTOMATIC SHORTCUTS
+ENCODING = "WindowsLatin1"
+###########################
+
+You can use this file to create your own translation file for Guitar Pro.
+To do it, translate ONLY the words between the symbols " ". DON'T CHANGE
+ANYTHING ELSE. Note that the symbols %s, %t... are used to indicate a dynamic value,
+which will be attribuated at running, so do not change it.
+
+The words between the symbols { } are some indications to help you to
+understand the context, don't change it.
+
+After having changing the translations, save the file under your language
+name with the extension .gpl (ie "English.gpl"). Place it in the
+Guitar Pro directory, restart Guitar Pro and you'll have the new language
+proposed in the menu OPTIONS | LANGUAGE.
+
+Don't hesitate to send us your translation files, we'll add them on the site
+for other users.
+
+***********
+* DIALOGS *
+***********
+
+DLG_000
+DLG_001 = "OK"
+DLG_002 = "Cancelar"
+DLG_003 = "Sim"
+DLG_004 = "Não"
+DLG_005 = "Ajuda"
+DLG_006 = "Limpar"
+DLG_007 = "Fechar"
+DLG_008 = "Informação"
+DLG_009 = "Confirmação"
+DLG_010 = "Atenção"
+DLG_011 = "Atenção"
+DLG_012 = "Erro"
+DLG_013 = "Valor inválido!"
+
+***********
+* GENERAL *
+***********
+
+GENE_000
+GENE_001 = "versão"
+GENE_002 = "Todos os direitos reservados"
+GENE_003 = "Licença inválida."
+GENE_004 = "Guitar Pro - versão registada"
+GENE_005 = "Versão de Demonstração do Guitar Pro, limitada em 24 compassos."
+GENE_006 = "Se você gostou do Guitar Pro, por favor efectue o registo."
+GENE_007 = "Pista"
+GENE_008 = "Percussão"
+GENE_009 = "Compasso completo"
+GENE_010 = "Compasso incompleto"
+GENE_011 = "Compasso excedido"
+GENE_012 = "UTILIZADOR NÃO REGISTADO"
+
+*****************
+* MENUS & HINTS *
+*****************
+
+MN_000
+MN_001 = "Arquivo"
+MN_002 = "Novo"
+MN_003 = "Abrir"
+MN_004 = "Guitar Pro Explorer"
+MN_005 = "Gravar"
+MN_006 = "Gravar como"
+MN_007 = "Propriedades"
+MN_008 = "Preferências"
+MN_009 = "Importar"
+MN_010 = "Exportar"
+MN_011 = "MIDI"
+MN_012 = "ASCII Tab"
+MN_013 = "Imprimir"
+MN_014 = "Visualizar impressão"
+MN_015 = "Preparar impressora"
+MN_016 = "Sair"
+MN_017 = "Editar"
+MN_018 = "Cortar"
+MN_019 = "Copiar"
+MN_020 = "Colar"
+MN_021 = "Inserir"
+MN_022 = "Limpar"
+MN_023 = "Mesa de controle e mudança de eventos"
+MN_024 = "Pista"
+MN_025 = "Compasso"
+MN_026 = "Primeiro"
+MN_027 = "Primeiro compasso"
+MN_028 = "Anterior"
+MN_029 = "Compasso Anterior"
+MN_030 = "Ir para"
+MN_031 = "Ir para compasso"
+MN_032 = "Próximo"
+MN_033 = "Próximo compasso"
+MN_034 = "Último"
+MN_035 = "Último compasso"
+MN_036 = "Compasso"
+MN_037 = "Compasso"
+MN_038 = "Início da repetição"
+MN_039 = "Final da repetição"
+MN_040 = "Repetições"
+MN_041 = "Nota"
+MN_042 = "Semibreve"
+MN_043 = "Mínima"
+MN_044 = "Semínima"
+MN_045 = "Colcheia"
+MN_046 = "Semicolcheia"
+MN_047 = "Fusa"
+MN_048 = "Semifusa"
+MN_049 = "Ponto de aumentação"
+MN_050 = "Acorde"
+MN_051 = "Texto"
+MN_052 = "Nota morta"
+MN_053 = "Pausa"
+MN_054 = "Tercina"
+MN_055 = "Ligação com tempo anterior"
+MN_056 = "Inserir um tempo"
+MN_057 = "Apagar o tempo"
+MN_058 = "Copiar tempo/Tercina no final"
+MN_059 = "Subir"
+MN_060 = "Nota para corda mais aguda"
+MN_061 = "Descer"
+MN_062 = "Nota para corda mais grave"
+MN_063 = "Efeitos"
+MN_064 = "Hammer On"
+MN_065 = "Pull Off"
+MN_066 = "Slide Up"
+MN_067 = "Slide Down"
+MN_068 = "Bend"
+MN_069 = "Bend & Release"
+MN_070 = "Deixar soar"
+MN_071 = "Apoggiatura"
+MN_072 = "Nota fantasma (Ghost Note)"
+MN_073 = "Vibrato"
+MN_074 = "Tremolo (alavanca)"
+MN_075 = "Batida (alavanca)"
+MN_076 = "Harmónico Natural"
+MN_077 = "Harmónico Artificial"
+MN_078 = "Fade In"
+MN_079 = "Tapping mão direita"
+MN_080 = "Slap (Baixo)"
+MN_081 = "Pop (Baixo)"
+MN_082 = "Brush para cima"
+MN_083 = "Brush para baixo"
+MN_084 = "Dinâmica"
+MN_085 = "Assistentes"
+MN_086 = "Transpôr"
+MN_087 = "Organizar compassos"
+MN_088 = "Completar/Reduzir o compasso com Pausas"
+MN_089 = "Posicionar automaticamente os dedos"
+MN_090 = "Assistente do Let Ring (Deixar Soar)"
+MN_091 = "Verificar a duração do compasso"
+MN_092 = "Notação padrão (pentagrama)"
+MN_093 = "Percussão"
+MN_094 = "Treinador de velocidade"
+MN_095 = "Som"
+MN_096 = "Tocar do início"
+MN_097 = "Tocar do início (Espaço)"
+MN_098 = "Tocar a partir do compasso actual"
+MN_099 = "Tocar a partir do compasso actual (Ctrl+Espaço)"
+MN_100 = "Tocar o compasso actual"
+MN_101 = "Tocar o compasso actual (Shift+Ctrl+Espaço)"
+MN_102 = "Parar"
+MN_103 = "Parar (Espaço)"
+MN_104 = "Tocar continuamente"
+MN_105 = "Metrónomo"
+MN_106 = "Tocar durante a edição"
+MN_107 = "Exibir"
+MN_108 = "Esconder a janela de edição"
+MN_109 = "Exibir o Let Ring (Deixar Soar)"
+MN_110 = "Exibir as Notas Dinâmicas"
+MN_111 = "Idioma"
+MN_112 = "Idioma da ajuda"
+MN_113 = "Ajuda"
+MN_114 = "Índice"
+MN_115 = "Solicitar o Guitar pro!"
+MN_116 = "Registar a sua cópia!"
+MN_117 = "Sobre"
+
+*********************
+* PROPERTIES WINDOW *
+*********************
+
+DLG_PROP_000
+DLG_PROP_001 = "Propriedades"
+DLG_PROP_002 = "Título"
+DLG_PROP_003 = "Autor"
+DLG_PROP_004 = "Comentário"
+DLG_PROP_005 = "Tempo"
+DLG_PROP_006 = "Terceto:"
+DLG_PROP_007 = "Nome da pista"
+DLG_PROP_008 = "Instrumento"
+DLG_PROP_009 = "Lista de Instrumentos"
+DLG_PROP_010 = "Biblioteca de afinação"
+DLG_PROP_011 = "Cordas"
+DLG_PROP_012 = "Afinação"
+DLG_PROP_013 = "Trastes"
+DLG_PROP_014 = "Solo"
+DLG_PROP_015 = "Pista muda"
+DLG_PROP_016 = "Não exportar"
+DLG_PROP_017 = "12 cordas"
+DLG_PROP_018 = "Volume"
+DLG_PROP_019 = "Pan"
+DLG_PROP_020 = "Reverb"
+DLG_PROP_021 = "Chorus"
+DLG_PROP_022 = "Pista reservada para percussão"
+DLG_PROP_023 = "Use notas de 27 até 87"
+DLG_PROP_024 = "nas linhas da tablatura."
+DLG_PROP_025 = "Uma ou mais notas no compasso %s não podem ser colocadas %s cordas."
+
+***************************
+* MIDI IMPORTATION WINDOW *
+***************************
+
+DLG_IMPM_000
+DLG_IMPM_001 = "Importar MIDI"
+DLG_IMPM_002 = "Selecione a pista para importar:"
+DLG_IMPM_003 = "Excluir pista"
+DLG_IMPM_004 = "Transpôr para uma oitava abaixo"
+DLG_IMPM_005 = "Quantificação:"
+DLG_IMPM_006 = "Aviso: uma pista de percussão importada" { posição 007 }
+DLG_IMPM_007 = "só pode ser escrita para pista 8/Canal 10."
+DLG_IMPM_008 = "Versão experimental do Guitar limitada em 50 notas."
+DLG_IMPM_009 = "Se você gostou do Guitar pro, por favor registe-se."
+DLG_IMPM_010 = "Procurando pistas..."
+DLG_IMPM_011 = "Não especificado"
+DLG_IMPM_012 = "Lendo pista..."
+DLG_IMPM_013 = "Criando lista..."
+DLG_IMPM_014 = "Optimizando posição dos dedos..."
+DLG_IMPM_015 = "Formato MIDI não reconhecido."
+
+***************************
+* MIDI EXPORTATION WINDOW *
+***************************
+
+DLG_EXPM_000
+DLG_EXPM_001 = "Exportar para MIDI"
+DLG_EXPM_002 = "Impossível gravar o arquivo. Operação cancelada."
+
+****************************
+* ASCII IMPORTATION WINDOW *
+****************************
+
+DLG_IMPA_000
+DLG_IMPA_001 = "Importar ASCII Tab"
+DLG_IMPA_002 = "Impossível importar para o arquivo. Operação cancelada."
+DLG_IMPA_003 = "Importar"
+DLG_IMPA_004 = "Abrir"
+DLG_IMPA_005 = "Imprimir"
+DLG_IMPA_006 = "Importar como:"
+DLG_IMPA_007 = "Obs: Importação realizada na pista activa"
+DLG_IMPA_008 = "Versão experimental do Guitar Pro limitada a 50 notas."
+DLG_IMPA_009 = "Se você gostou do Guitar pro, por favor registe-se."
+DLG_IMPA_010 = "<variável>"
+DLG_IMPA_011 = "Mínima"
+DLG_IMPA_012 = "Semínima"
+DLG_IMPA_013 = "Colcheia"
+DLG_IMPA_014 = "Semicolcheia"
+
+****************************
+* ASCII EXPORTATION WINDOW *
+****************************
+
+DLG_EXPA_000
+DLG_EXPA_001 = "Exportar para ASCII Tab"
+DLG_EXPA_002 = "Exportar"
+DLG_EXPA_003 = "Imprimir"
+DLG_EXPA_004 = "Colunas:"
+DLG_EXPA_005 = "Actualizar"
+DLG_EXPA_006 = "Ritmo"
+DLG_EXPA_007 = "Impossível gravar para o arquivo. Operação cancelada."
+
+**********************
+* PREFERENCES WINDOW *
+**********************
+
+DLG_PREF_000
+DLG_PREF_001 = "Preferências"
+DLG_PREF_002 = "Geral"
+DLG_PREF_003 = "Música ao iniciar o programa"
+DLG_PREF_004 = "Nenhuma"
+DLG_PREF_005 = "Seleccione um arquivo WAVE"
+DLG_PREF_006 = "Arquivo WAVE"
+DLG_PREF_007 = "Rodagem de tela enquanto executa a música"
+DLG_PREF_008 = "Tela por Tela"
+DLG_PREF_009 = "Pauta por pauta"
+DLG_PREF_010 = "Metrónomo"
+DLG_PREF_011 = "Volume"
+DLG_PREF_012 = "Durante a música"
+DLG_PREF_013 = "No começo"
+DLG_PREF_014 = "Acentuar o primeiro tempo"
+DLG_PREF_015 = "Sempre usar o metrónomo no Treinador de velocidade"
+DLG_PREF_016 = "Tocar"
+DLG_PREF_017 = "Exportar MIDI"
+DLG_PREF_018 = "Efeitos"
+DLG_PREF_019 = "Repetições"
+DLG_PREF_020 = "Placa de som"
+DLG_PREF_021 = "Bending limitado para 1 tom"
+DLG_PREF_022 = "Use esta opção se o efeito 'Bend' soar mal."
+DLG_PREF_023 = "Reconhecimento de acorde"
+DLG_PREF_024 = "Considerar a inversão da nota grave para formar o nome do acorde"
+DLG_PREF_025 = "Padrão"
+DLG_PREF_026 = "Tela"
+DLG_PREF_027 = "Margem esq."
+DLG_PREF_028 = "Margem dir."
+DLG_PREF_029 = "Espaço linhas"
+DLG_PREF_030 = "Espaço grupos"
+DLG_PREF_031 = "Acordes"
+DLG_PREF_032 = "Acordes (só o nome)"
+DLG_PREF_033 = "Posição do texto"
+DLG_PREF_034 = "Largura da linha rítmica"
+DLG_PREF_035 = "FONTES: Nota:"
+DLG_PREF_036 = "Acorde:"
+DLG_PREF_037 = "Texto:"
+DLG_PREF_038 = "Tempo:"
+DLG_PREF_039 = "Núm. compasso:"
+DLG_PREF_040 = "Repetir:"
+DLG_PREF_041 = "Tamanho diag.:"
+DLG_PREF_042 = "Diagrama:"
+DLG_PREF_043 = "Linhas:"
+DLG_PREF_044 = "Linha rítmica:"
+DLG_PREF_045 = "Efeitos:"
+DLG_PREF_046 = "Cor de fundo:"
+DLG_PREF_047 = "Compasso errado:"
+DLG_PREF_048 = "Selecção:"
+DLG_PREF_049 = "Diagrama de acordes"
+DLG_PREF_050 = "Nome do acorde"
+DLG_PREF_051 = "Lista de acordes no topo"
+DLG_PREF_052 = "Texto"
+DLG_PREF_053 = "Efeitos"
+DLG_PREF_054 = "Linhas de ritmo"
+DLG_PREF_055 = "Número de compassos"
+DLG_PREF_056 = "Espaço notas"
+DLG_PREF_057 = "Ritmos proporção"
+DLG_PREF_058 = "Usuário #1"
+DLG_PREF_059 = "Usuário #2"
+DLG_PREF_060 = "Usuário #3"
+DLG_PREF_061 = "Ver"
+DLG_PREF_062 = "Imprimir"
+DLG_PREF_063 = "Topo"
+DLG_PREF_064 = "Rodapé"
+DLG_PREF_065 = "Esquerda"
+DLG_PREF_066 = "Direita"
+DLG_PREF_067 = "Imprimir página inteira"
+DLG_PREF_068 = "Seleccionar área de impressão :"
+DLG_PREF_069 = "Largura"
+DLG_PREF_070 = "Altura"
+DLG_PREF_071 = "Centralizar"
+DLG_PREF_072 = "Imprimir bordos"
+DLG_PREF_073 = "Proporções globais"
+DLG_PREF_074 = "Entre tablaturas"
+DLG_PREF_075 = "Entre notas"
+DLG_PREF_076 = "Ritmo"
+DLG_PREF_077 = "Diagrama de acordes"
+DLG_PREF_078 = "Posição do diagrama"
+DLG_PREF_079 = "Posição do acorde"
+DLG_PREF_080 = "Posição do texto"
+DLG_PREF_081 = "Título/Autor"
+DLG_PREF_082 = "Autor/Tab"
+DLG_PREF_083 = "Título:"
+DLG_PREF_084 = "Autor:"
+DLG_PREF_085 = "Comentário:"
+DLG_PREF_086 = "Núm. página:"
+DLG_PREF_087 = "Notas:"
+DLG_PREF_088 = "Nome do acorde:"
+DLG_PREF_089 = "Diag. do acorde:"
+DLG_PREF_090 = "Texto:"
+DLG_PREF_091 = "Tempo:"
+DLG_PREF_092 = "Repetição:"
+DLG_PREF_093 = "Título"
+DLG_PREF_094 = "Autor"
+DLG_PREF_095 = "Comentário"
+DLG_PREF_096 = "Tercina, afinação..."
+DLG_PREF_097 = "Núm. pág."
+DLG_PREF_098 = "Núm. de compassos"
+DLG_PREF_099 = "Diagramas de acordes"
+DLG_PREF_100 = "Nomes de acordes"
+DLG_PREF_101 = "Acordes no topo"
+DLG_PREF_102 = "Texto"
+DLG_PREF_103 = "Efeitos"
+DLG_PREF_104 = "Linhas de ritmo"
+DLG_PREF_105 = "Verificar se todos os textos são legíveis"
+DLG_PREF_106 = "Ver"
+DLG_PREF_107 = "Force x Bars per Staff:"
+
+*****************
+* BROWSE WINDOW *
+*****************
+
+DLG_BROWSE_000
+DLG_BROWSE_001 = "Guitar Pro Explorer"
+DLG_BROWSE_002 = "Fechar"
+DLG_BROWSE_003 = "Mapear sub-directórios"
+DLG_BROWSE_004 = "Tocar arquivo seleccionado"
+DLG_BROWSE_005 = "Não saltar"
+DLG_BROWSE_006 = "Saltar após 1 compasso"
+DLG_BROWSE_007 = "Saltar após 2 compassos"
+DLG_BROWSE_008 = "Saltar após 5 compassos"
+DLG_BROWSE_009 = "Saltar após 10 compassos"
+DLG_BROWSE_010 = "Saltar após 25 compassos"
+DLG_BROWSE_011 = "Saltar no final da pista"
+DLG_BROWSE_012 = "Título:"
+DLG_BROWSE_013 = "Autor:"
+DLG_BROWSE_014 = "Nota:"
+DLG_BROWSE_015 = "Comp.:"
+DLG_BROWSE_016 = "G/B/D:" { G=Guitarra / B=Baixo / D=Percussão }
+DLG_BROWSE_017 = "Nome"
+DLG_BROWSE_018 = "Tamanho"
+DLG_BROWSE_019 = "Modificado"
+DLG_BROWSE_020 = "Directório"
+DLG_BROWSE_021 = "Arquivo(s)"
+DLG_BROWSE_022 = "Mapeando..."
+DLG_BROWSE_023 = "Parar"
+DLG_BROWSE_024 = "Pesquisando sub-directórios"
+DLG_BROWSE_025 = "Lendo o arquivo..."
+
+****************
+* BRUSH WINDOW *
+****************
+
+DLG_BRUSH_000
+DLG_BRUSH_001 = "Escovar"
+DLG_BRUSH_002 = "Duração"
+
+**************************
+* MIX TABLE EVENT WINDOW *
+**************************
+
+DLG_MIX_000
+DLG_MIX_001 = "Mesa de controlo e mudança de eventos"
+DLG_MIX_002 = "Escolha os parâmetros para modificar o tempo actual:"
+DLG_MIX_003 = "Instrum."
+DLG_MIX_004 = "Volume"
+DLG_MIX_005 = "Pan"
+DLG_MIX_006 = "Chorus"
+DLG_MIX_007 = "Reverb"
+DLG_MIX_008 = "Tempo"
+DLG_MIX_009 = "Imediatamente"
+DLG_MIX_010 = "1 tempo"
+DLG_MIX_011 = "%s tempos" { use plurial }
+DLG_MIX_012 = "Novo valor"
+DLG_MIX_013 = "Mudança"
+
+
+************************************
+* COMPLETE/REDUCE ASSISTANT WINDOW *
+************************************
+
+DLG_ASS_CR_000
+DLG_ASS_CR_001 = "Confirma a organização dos compassos?"
+
+*****************************
+* LET RING ASSISTANT WINDOW *
+
+*****************************
+
+DLG_ASS_LR_000
+DLG_ASS_LR_001 = "Assistente do Let Ring"
+DLG_ASS_LR_002 = "Esse assistente permite modificar o Let Ring (Deixar Soar) para um grupo de notas em uma só operação."
+DLG_ASS_LR_003 = "Compasso(s):"
+DLG_ASS_LR_004 = "até"
+DLG_ASS_LR_005 = "Seleccione as cordas:"
+DLG_ASS_LR_006 = "Deixar Soar?"
+DLG_ASS_LR_007 = "Sim"
+DLG_ASS_LR_008 = "Não"
+DLG_ASS_LR_009 = "Nenhuma corda seleccionada."
+
+******************************
+* FINGERING ASSISTANT WINDOW *
+******************************
+
+DLG_ASS_FG_000
+DLG_ASS_FG_001 = "Posicionamento automático"
+DLG_ASS_FG_002 = "Compasso:"
+DLG_ASS_FG_003 = "até"
+
+******************************
+* TRANSPOSE ASSISTANT WINDOW *
+******************************
+
+DLG_ASS_TR_000
+DLG_ASS_TR_001 = "Transposição"
+DLG_ASS_TR_002 = "Transpôr:"
+DLG_ASS_TR_003 = "meios tons"
+
+***********************************
+* CHECK DURATION ASSISTANT WINDOW *
+***********************************
+
+DLG_ASS_CD_000
+DLG_ASS_CD_001 = "Verificação completada."
+DLG_ASS_CD_002 = "Tamanho do compasso inválido! Compasso: %s - trilha: %s."
+
+**********************************
+* SPEED TRAINER ASSISTANT WINDOW *
+**********************************
+
+DLG_ASS_ST_000
+DLG_ASS_ST_001 = "Treinador de velocidade"
+DLG_ASS_ST_002 = "Compasso:"
+DLG_ASS_ST_003 = "Tempo:"
+DLG_ASS_ST_004 = "até"
+DLG_ASS_ST_005 = "Variação de tempo por vez:"
+
+**************
+* CUT WINDOW *
+**************
+
+DLG_CUT_000
+DLG_CUT_001 = "Cortar"
+DLG_CUT_002 = "Compasso:"
+DLG_CUT_003 = "até"
+DLG_CUT_004 = "Esta função corta o compasso em todas as pistas. "
+DLG_CUT_005 = "Para cortar o compasso só numa pista, use o Copiar/Colar."
+
+**********************
+* COPY/CLEAR WINDOWS *
+**********************
+
+DLG_COPY_000
+DLG_COPY_001 = "Copiar"
+DLG_COPY_002 = "Limpar"
+DLG_COPY_003 = "Compasso:"
+DLG_COPY_004 = "até"
+DLG_COPY_005 = "Todas as pistas"
+DLG_COPY_006 = "Somente a pista actual"
+
+*****************
+* PASTE WINDOWS *
+*****************
+
+DLG_PASTE_000
+DLG_PASTE_001 = "Colar"
+DLG_PASTE_002 = "Confirma a colagem de  %s do(s) compasso(s) para a pista corrente?"
+DLG_PASTE_003 = "Confirma a colagem de %s do(s) compasso(s) para todas as pistas?"
+DLG_PASTE_004 = "Coloca o conteúdo da memória na selecção"
+DLG_PASTE_005 = "Insere o conteúdo da memória antes da selecção"
+DLG_PASTE_006 = "Adiciona o conteúdo da memória no final da selecção"
+DLG_PASTE_007 = "Número de colagens"
+DLG_PASTE_008 = "Não é permitido colar dados de percussão nas pistas de 1 a 7."
+DLG_PASTE_009 = "Não é permitido colar dados das pistas 1 a 7 na pista reservada para percussão."
+DLG_PASTE_010 = "Operação de colagem não realizada: O número de cordas é diferente da pista original."
+
+******************
+* DYNAMIC WINDOW *
+******************
+
+DLG_DYNA_000
+DLG_DYNA_001 = "Dinâmica"
+DLG_DYNA_002 = "Usar como padrão"
+DLG_DYNA_003 = "Usar a Dinâmica corrente como padrão para novas notas"
+DLG_DYNA_004 = "Aplicar ao acorde"
+DLG_DYNA_005 = "Aplicar a Dinâmica para o acorde inteiro"
+
+*********************
+* GRACE NOTE WINDOW *
+*********************
+
+DLG_GRACE_000
+DLG_GRACE_001 = "Apoggiatura"
+DLG_GRACE_002 = "Nota"
+DLG_GRACE_003 = "Duração"
+DLG_GRACE_004 = "Dinâmica"
+DLG_GRACE_005 = "Nota morta: X"
+DLG_GRACE_006 = "Traste"
+
+
+****************
+* INTRO WINDOW *
+****************
+
+DLG_INTRO_000
+DLG_INTRO_001 = "Você está utilizando uma versão do Guitar Pro limitada a %s dias."
+DLG_INTRO_002 = "Você deverá registar a sua cópia, para então continuar a usar esse programa."
+DLG_INTRO_003 = "Registar agora!"
+DLG_INTRO_004 = "Farei isso mais tarde..."
+DLG_INTRO_005 = "As limitações desta versão são:"
+DLG_INTRO_006 = "- Capacidade de guardar limitada a 24 compassos"
+DLG_INTRO_007 = "- Texto de registo adicionado a impressão"
+DLG_INTRO_008 = "- Import. de arquivos MIDI e ASCII limitados a 50 notas"
+
+******************
+* LICENSE WINDOW *
+******************
+
+DLG_LIC_000
+DLG_LIC_001 = "Licença"
+DLG_LIC_002 = "Antes de tudo os nossos parabéns por ter adquirido o Guitar pro"
+DLG_LIC_003 = "Nós faremos tudo o que estiver ao nosso alcance para garantir a sua satisfação com este produto."
+DLG_LIC_004 = "Para usar o programa você necessitará entrar com o seu USER-ID e a sua KEY-ID"
+DLG_LIC_005 = "Estas informações estão indicadas na caixa do pacote."
+DLG_LIC_006 = "No presente você está a utilizar uma Licença Temporária. Por favor introduza o seu USER ID e Password definitivos assim que os receber  "
+
+************************
+* PRINT PREVIEW WINDOW *
+************************
+
+DLG_PRW_000
+DLG_PRW_001 = "Visualizar impressão"
+DLG_PRW_002 = "Imprimir"
+DLG_PRW_003 = "Pref."
+
+****************
+* PRINT WINDOW *
+****************
+
+DLG_PRT_000
+DLG_PRT_001 = "Imprimir"
+DLG_PRT_002 = "Impressora:"
+DLG_PRT_003 = "Tudo"
+DLG_PRT_004 = "Páginas:"
+DLG_PRT_005 = "para"
+DLG_PRT_006 = "Configurar..."
+
+****************
+* CHORD WINDOW *
+****************
+
+DLG_CHORD_000
+DLG_CHORD_001 = "Acorde"
+DLG_CHORD_002 = "Simples"
+DLG_CHORD_003 = "Médio"
+DLG_CHORD_004 = "Tudo"
+DLG_CHORD_005 = "Inversão"
+DLG_CHORD_006 = "Baixo"
+DLG_CHORD_007 = "Escolha as omissões"
+DLG_CHORD_008 = "Diferentes nomes"
+DLG_CHORD_009 = "Usado"
+DLG_CHORD_010 = "No topo"
+DLG_CHORD_011 = "Biblioteca"
+DLG_CHORD_012 = "Usar diagrama"
+DLG_CHORD_013 = "Adicionar"
+DLG_CHORD_014 = "Apagar"
+DLG_CHORD_015 = "Regravar"
+DLG_CHORD_016 = "Mover para cima"
+DLG_CHORD_017 = "Mover para baixo"
+DLG_CHORD_018 = "Escutar"
+DLG_CHORD_019 = "Usar"
+DLG_CHORD_020 = "Favor nomear esse acorde primeiro."
+DLG_CHORD_021 = "Por favor, primeiro seleccione o acorde para ser excluído."
+DLG_CHORD_022 = "Confirma a delecção do acorde %s ?"
+DLG_CHORD_023 = "Por favor, primeiro seleccione o acorde para ser substituído."
+DLG_CHORD_024 = "Por favor, primeiro seleccione o acorde para ser movido."
+
+***************
+* TEXT WINDOW *
+***************
+
+DLG_TXT_000
+DLG_TXT_001 = "Texto"
+DLG_TXT_002 = "Texto"
+
+********************
+* GO TO BAR WINDOW *
+********************
+
+DLG_GOTOB_000
+DLG_GOTOB_001 = "Ir para o compasso..."
+DLG_GOTOB_002 = "Compasso"
+
+***************
+* BEND WINDOW *
+***************
+
+DLG_BEND_000
+DLG_BEND_001 = "Bend"
+DLG_BEND_002 = "Bend & Release"
+DLG_BEND_003 = "Tom(s)"
+
+*********************
+* STROKE VIB WINDOW *
+*********************
+
+DLG_STROKV_000
+DLG_STROKV_001 = "Tempo do Vibrar"
+DLG_STROKV_002 = "Valor"
+
+**********************
+* INSTRUMENTS WINDOW *
+**********************
+
+DLG_INSTR_000
+DLG_INSTR_001 = "Instrumento (General MIDI)"
+
+*************************
+* TIME SIGNATURE WINDOW *
+*************************
+
+DLG_TIMES_000
+DLG_TIMES_001 = "Tempo"
+DLG_TIMES_002 = "Até o final"
+
+*********************
+* REPEAT END WINDOW *
+*********************
+
+DLG_REPE_000
+DLG_REPE_001 = "Repetir fechar"
+DLG_REPE_002 = "Núm. de repetições"
+
+
+****************************
+* ALTERNATE ENDINGS WINDOW *
+****************************
+
+DLG_DIFE_000
+DLG_DIFE_001 = "Repetições"
+DLG_DIFE_002 = "até"
+
+*********
+* FILES *
+*********
+
+FILES_000
+FILES_001 = "Gravar as modificações no %s ?"
+FILES_002 = "Arquivo %s não foi encontrado."
+FILES_003 = "Arquivo %s já existe."
+FILES_004 = "Você quer regravá-lo ?"
+FILES_005 = "<Sem Nome>" { Nome para o novo ficheiro }
+FILES_006 = "Impossível aceder ao arquivo. Operação interrompida."
+FILES_007 = "Arquivo desconhecido. Operação interrompida."
+FILES_008 = "Para abrir o arquivo, por favor actualize o seu Guitar pro."
+FILES_009 = "MIDI Erro"
+FILES_010 = "Formato MIDI não conhecido."
+FILES_011 = "Arquivos Guitar Pro"
+FILES_012 = "Arquivos MIDI"
+FILES_013 = "Arquivos ASCII Tab"
+FILES_014 = "Todos os arquivos"
+FILES_015 = "Importar MIDI"
+FILES_016 = "Exportar MIDI"
+FILES_017 = "Importar ASCII Tab"
+FILES_018 = "Exportar ASCII Tab"
+
+****************
+* ORDER WINDOW *
+****************
+
+DLG_REG_000
+DLG_REG_001 = "Você gostou do Guitar Pro e quer utilizá-lo com toda a sua potencialidade?"
+DLG_REG_002 = "Se for esse o caso não espere mais e faça logo o seu pedido.V ocê receberá o programa em 1h no máximo!"
+DLG_REG_003 = "Com isso as limitações serão eliminadas e você obterá numerosas vantagens, tais como:"
+DLG_REG_004 = "Acesso a apoio técnico"
+DLG_REG_005 = "Upgrades grátis das versões 4.x "
+DLG_REG_006 = "Oferta de condições especiais no upgrade para versões 5.x "
+DLG_REG_007 = "Para obter informações sobre preços, métodos de pagamento, revendedores, visite o nosso website:"
+
+*****************************
+* REGISTER YOUR COPY WINDOW *
+*****************************
+
+DLG_REGC_000
+DLG_REGC_001 = "Registar sua cópia!"
+DLG_REGC_002 = "Nós recomendamos que você registre sua cópia do Guitar pro"
+DLG_REGC_003 = "Isto durará somente alguns minutos e proporcionará inúmeras vantagens, tais como:"
+DLG_REGC_004 = " Acesso a apoio técnico "
+DLG_REGC_005 = " Upgrades grátis das versões 4.x "
+DLG_REGC_006 = " Oferta de condições especiais no upgrade para versões 5.x "
+DLG_REGC_007 = "Importante: If Se +erder o ficheiro de instalação ou a licença a mesma poderá ser obtida novamente, APENAS se houver o registo do software."
+DLG_REGC_008 = "Registo on-line através do nosso site."
+DLG_REGC_009 = "Registo por carta ou fax "
+DLG_REGC_010 = "Tel:"
+DLG_REGC_011 = "Fax:"
+DLG_REGC_012 = "Mostrar esta janela no StartUp"
+
+********************
+* ORDER PAPER FORM *
+********************
+
+DLG_REGPF_000
+DLG_REGPF_001 = "FORMULÁRIO DE COMPRA DO GUITAR PRO (POR CHEQUE OU EUROCHEQUE NA EUROPA)"
+DLG_REGPF_002 = "Por favor complete os campos  [ ] deste formulário,"
+DLG_REGPF_003 = "imprima-o e envie-nos para o seguinte endereço :"
+DLG_REGPF_004 = "com seu pagamento através de cheque ou Eurocheque na EUROPA"
+DLG_REGPF_005 = "para %s."
+DLG_REGPF_006 = "ORDEM"
+DLG_REGPF_007 = "Guitar Pro %s software por e-mail"
+DLG_REGPF_008 = "CDROM de suporte + envio (TODOS OS PAÍSES)"
+DLG_REGPF_009 = "TOTAL"
+DLG_REGPF_010 = "Em caso de dúvidas não hesite em contactar-nos"
+DLG_REGPF_011 = "SUAS REFERÊNCIAS"
+DLG_REGPF_012 = "DATA:"
+DLG_REGPF_013 = "PRIMEIRO NOME:"
+DLG_REGPF_014 = "ÚLTIMO NOME:"
+DLG_REGPF_015 = "ENDEREÇO:"
+DLG_REGPF_016 = "CEP:"
+DLG_REGPF_017 = "CIDADE:"
+DLG_REGPF_018 = "ESTADO:"
+DLG_REGPF_019 = "PAÍS"
+DLG_REGPF_020 = "Tel:"
+DLG_REGPF_021 = "Fax:"
+DLG_REGPF_022 = "E-mail:"
+DLG_REGPF_023 = "OBSERVAÇÕES:"
+DLG_REGPF_024 = "(OBRIGATÓRIO CASO VOCÊ NÃO QUEIRA O CD-ROM)"
+DLG_REGPF_025 = "Você irá receber o programa em 24h por E-mail e, no caso do CD ROOM, 15 dias no máximo"
+
+*********************************
+* REGISTER YOUR COPY PAPER FORM *
+*********************************
+
+DLG_REGCPF_000
+DLG_REGCPF_001 = "REGISTO - GUITAR PRO SOFTWARE"
+DLG_REGCPF_002 = "Por favor complete os campos  [ ] deste formulário,"
+DLG_REGCPF_003 = "imprima-o e envie-nos no seguinte endereço :"
+DLG_REGCPF_004 = "da França"  { for the fax number }
+DLG_REGCPF_005 = "do exterior"  { for the fax number }
+DLG_REGCPF_006 = "SUAS REFERÊNCIAS"
+DLG_REGCPF_007 = "Data:"
+DLG_REGCPF_008 = "Versão:"
+DLG_REGCPF_009 = "Primeiro nome:"
+DLG_REGCPF_010 = "Último nome:"
+DLG_REGCPF_011 = "Endereço:"
+DLG_REGCPF_012 = "CEP:"
+DLG_REGCPF_013 = "Cidade:"
+DLG_REGCPF_014 = "Estado:"
+DLG_REGCPF_015 = "País:"
+DLG_REGCPF_016 = "Tel:"
+DLG_REGCPF_017 = "Fax:"
+DLG_REGCPF_018 = "E-mail:"
+DLG_REGCPF_019 = "(veja isto no pacote do software)"
+DLG_REGCPF_020 = "RESPONDA SE QUISER (EM INGLÊS OU FRANÇÊS)"
+DLG_REGCPF_021 = "How did you discover Guitar Pro?"
+DLG_REGCPF_022 = "How long did you test Guitar Pro before deciding to buy it?"
+DLG_REGCPF_023 = "How do you use Guitar Pro (notation, training, etc...) ?"
+DLG_REGCPF_024 = "In which store or from which internet site did you buy Guitar Pro ?"
+DLG_REGCPF_025 = "Remarks, suggestions, ..."
+
+********************
+* v3.0 BEND WINDOW *
+********************
+
+DLG300_BEND_000
+DLG300_BEND_001 = "Características do Bend"
+DLG300_BEND_002 = "Tocar"
+DLG300_BEND_003 = "Escolha o tipo de Bend:"
+DLG300_BEND_004 = "Clique para adicionar ou remover pontos (botão direito = vibratos) :"
+DLG300_BEND_005 = "Duração da nota = "
+DLG300_BEND_006 = "Esta opção não pode funcionar porque você limitou o efeito 'Bend' para 1 tom nas configurações Midi (Menu Opções | Configurações Midi)."
+DLG300_BEND_007 = "Esta opção é necessária para placas de som simples, pois elas não suportam variações maiores que 1 tom."
+
+**************************
+* v3.0 GRACE NOTE WINDOW *
+**************************
+
+DLG300_GRACE_000
+DLG300_GRACE_001 = "Transição"
+DLG300_GRACE_002 = "Nenhuma"
+DLG300_GRACE_003 = "Slide"
+DLG300_GRACE_004 = "Bend"
+DLG300_GRACE_005 = "Hammer"
+
+***********************
+* v3.0 MARKERS WINDOW *
+***********************
+
+DLG300_MARKERS_000
+DLG300_MARKERS_001 = "Lista de Marcadores"
+DLG300_MARKERS_002 = "Pos"
+DLG300_MARKERS_003 = "Nome"
+DLG300_MARKERS_004 = "Adicionar"
+DLG300_MARKERS_005 = "Editar"
+DLG300_MARKERS_006 = "Excluir"
+DLG300_MARKERS_007 = "Ir"
+DLG300_MARKERS_008 = "Deseja realmente excluir o Marcador %s ?"
+DLG300_MARKERS_009 = "Inserir um Marcador"
+DLG300_MARKERS_010 = "Editar um Marcador"
+DLG300_MARKERS_011 = "Compasso :"
+DLG300_MARKERS_012 = "Cor :"
+DLG300_MARKERS_013 = "Nome :"
+DLG300_MARKERS_014 = "Marcador"
+
+********************************
+* v3.0 MIDI IMPORTATION WINDOW *
+********************************
+
+DLG300_IMPM_000
+DLG300_IMPM_001 = "Importação MIDI"
+DLG300_IMPM_002 = "Pistas MIDI :"
+DLG300_IMPM_003 = "Arredondar a posição do acorde"
+DLG300_IMPM_004 = "Arredondar a duração da Nota"
+DLG300_IMPM_005 = "Importar descendo uma oitava"
+DLG300_IMPM_006 = "Importação rápida"
+DLG300_IMPM_007 = "Este modo importa as pistas seleccionadas num novo arquivo."
+DLG300_IMPM_008 = "A Afinação é escolhida automaticamente."
+DLG300_IMPM_009 = "Usar 2 canais por pista"
+DLG300_IMPM_010 = "Importar!"
+DLG300_IMPM_011 = "Importação Passo a Passo"
+DLG300_IMPM_012 = "Este modo lhe da maior controle na importação, além de permitir a fusão de pistas."
+DLG300_IMPM_013 = "Importar Título e mudanças de Compasso (Signature)."
+DLG300_IMPM_014 = "Adicionar uma pista no Guitar Pro..."
+DLG300_IMPM_015 = "Importar a(s) pista(s) seleccionada(s) na pista actual do Guitar Pro."
+DLG300_IMPM_016 = "Versão de demonstração limitada a importar apenas 50 notas."
+DLG300_IMPM_017 = "Se você gostou do Guitar Pro, por favor registe-se."
+DLG300_IMPM_018 = "Mostrar Janela"
+DLG300_IMPM_019 = "Ocultar Janela"
+DLG300_IMPM_020 = "Formato MIDI %s não suportado. Use formatos MIDI 0 ou 1."
+DLG300_IMPM_021 = "Seleccione pelo menos uma pista MIDI."
+DLG300_IMPM_022 = "Seleccionar TODAS as pistas"
+DLG300_IMPM_023 = "Selecionar NENHUMA pista"
+DLG300_IMPM_024 = "Tocar a(s) pista(s) seleccionada(s)"
+DLG300_IMPM_025 = "Parar"
+DLG300_IMPM_026 = "Abrir outro arquivo"
+
+**************************
+* v3.0 MIDI SETUP WINDOW *
+**************************
+
+DLG300_MIDISETUP_000
+DLG300_MIDISETUP_001 = "Configurações MIDI"
+DLG300_MIDISETUP_002 = "Saídas MIDI"
+DLG300_MIDISETUP_003 = "Porta"
+DLG300_MIDISETUP_004 = "Dispositivo"
+DLG300_MIDISETUP_005 = "Esquema de Instrumentos"
+DLG300_MIDISETUP_006 = "Limitar variação de Tom"
+DLG300_MIDISETUP_007 = "Tocar um exemplo com esta saída"
+DLG300_MIDISETUP_008 = "Use a opção 'Limitar variação de Tom' se os efeitos 'Bend' ou 'Slide' soarem mal."
+DLG300_MIDISETUP_009 = "Placas de Som simples não suportam variações maiores que 1 tom."
+DLG300_MIDISETUP_010 = "Você não pode usar o mesmo dispositivo em portas diferentes."
+
+**************************
+
+* v3.0 SCORE INFO WINDOW *
+**************************
+
+DLG300_SCORE_INFO_000
+DLG300_SCORE_INFO_001 = "Informações Gerais"
+DLG300_SCORE_INFO_002 = "Informações Padrão"
+DLG300_SCORE_INFO_003 = "Título"
+DLG300_SCORE_INFO_004 = "Subtítulo"
+DLG300_SCORE_INFO_005 = "Artista"
+DLG300_SCORE_INFO_006 = "Álbum"
+DLG300_SCORE_INFO_007 = "Autor"
+DLG300_SCORE_INFO_008 = "Copyright"
+DLG300_SCORE_INFO_009 = "Tab"
+DLG300_SCORE_INFO_010 = "Instruções"
+DLG300_SCORE_INFO_011 = "Notas"
+DLG300_SCORE_INFO_012 = "Tercina :"
+DLG300_SCORE_INFO_013 = "Entre aqui com as informações padrão. Todos os novos arquivos criados utilizarão esses dados como referência :"
+
+**************************
+* v3.0 TRACK INFO WINDOW *
+**************************
+
+DLG300_TRACK_INFO_000
+DLG300_TRACK_INFO_001 = "Adicionar uma pista"
+DLG300_TRACK_INFO_002 = "Tipo"
+DLG300_TRACK_INFO_003 = "Instrumento"
+DLG300_TRACK_INFO_004 = "Posição"
+DLG300_TRACK_INFO_005 = "Primeiro"
+DLG300_TRACK_INFO_006 = "Último"
+DLG300_TRACK_INFO_007 = "Anterior"
+DLG300_TRACK_INFO_008 = "Próximo"
+DLG300_TRACK_INFO_009 = "Propriedades da pista"
+DLG300_TRACK_INFO_010 = "Cor"
+DLG300_TRACK_INFO_011 = "5ª corda somente para Banjo"
+DLG300_TRACK_INFO_012 = "Quer transpôr a pista para a nova afinação?"
+
+***************************
+* v3.0 PREFERENCES WINDOW *
+***************************
+
+DLG300_PREF_000
+DLG300_PREF_001 = "Características da Nota Tocada"
+DLG300_PREF_002 = "Rectângulo ao redor do compasso"
+DLG300_PREF_003 = "Triângulo por baixo da Nota"
+DLG300_PREF_004 = "Nota realçada"
+
+*********************************
+* v3.0 ASCII IMPORTATION WINDOW *
+*********************************
+
+DLG300_IMPA_000
+DLG300_IMPA_001 = "O número de cordas é diferente do da pista actual."
+DLG300_IMPA_002 = "Modifique primeiro o número de cordas da pista actual."
+
+****************
+* v3.0 GENERAL *
+****************
+
+GENE300_000
+GENE300_001 = "Número máximo de pistas suportado :"
+GENE300_002 = "Confirma a exclusão da pista %s ?"
+GENE300_003 = "A versão de demonstração não permite imprimir."
+GENE300_004 = "nenhum" { for the MIDI ports }
+GENE300_005 = "Impossível abrir a porta MIDI [%s]."
+GENE300_006 = "Feche outras aplicações MIDI ou mude suas configurações MIDI."
+GENE300_007 = "Nenhum seleccionado" { instrument patch }
+GENE300_008 = "Não encontrado" { instrument patch }
+GENE300_009 = "Tocar a partir de %s"
+GENE300_010 = "Ir para %s"
+GENE300_011 = "Kit de Percussão"
+GENE300_012 = "Pista só de Percussão"
+GENE300_013 = "Ligar com %s"
+GENE300_014 = "Reservado para %s"
+GENE300_015 = "Livre"
+GENE300_016 = "A versão de demonstração não pode exportar um arquivo para o formato Guitar Pro 2.2."
+GENE300_017 = "Você tem que abrir um arquivo e usar esta função directamente."
+GENE300_018 = "Arquivos Guitar Pro 2.2"
+
+******************
+* v3.0 MIX TABLE *
+******************
+
+MIXT300_000
+MIXT300_001 = "Reduzir tudo"
+MIXT300_002 = "Expandir tudo"
+MIXT300_003 = "Solo"
+MIXT300_004 = "S" {abreviação de "Solo"}
+MIXT300_005 = "Mute"
+MIXT300_006 = "M" {abreviação de "Mute"}
+MIXT300_007 = "Nome" {da faixa}
+MIXT300_008 = "Porta"
+MIXT300_009 = "Port" {abreviação de "Port"}
+MIXT300_010 = "Porta Selecionada"
+MIXT300_011 = "Canal Principal"
+MIXT300_012 = "Ch" {abreviação de "Main Channel"}
+MIXT300_013 = "Selecção do Canal Principal"
+MIXT300_014 = "Canal de Efeitos"
+MIXT300_015 = "Ch2" {abreviação de "Effects Channel"}
+MIXT300_016 = "Selecção do Canal de Efeitos"
+MIXT300_017 = "Instrumento"
+MIXT300_018 = "Volume"
+MIXT300_019 = "Pan"
+MIXT300_020 = "Chorus"
+MIXT300_021 = "Reverb"
+MIXT300_022 = "Phaser"
+MIXT300_023 = "Tremolo"
+MIXT300_024 = "Patch Incompleto"
+MIXT300_025 = "Patch Não Seleccionado"
+MIXT300_026 = "Kit de Percussão"
+
+*********************************
+* v3.0 DYNAMIC ASSISTANT WINDOW *
+*********************************
+
+DLG300_ASS_DY_000
+DLG300_ASS_DY_001 = "Selector de Notas Dinâmicas"
+DLG300_ASS_DY_002 = "Este assistente permite mudar o valor dinâmico de um grupo de notas em uma só operação."
+DLG300_ASS_DY_003 = "Compasso(s):"
+DLG300_ASS_DY_004 = "até"
+DLG300_ASS_DY_005 = "Selecção de cordas:"
+DLG300_ASS_DY_006 = "Valor Dinâmico:"
+DLG300_ASS_DY_007 = "Nenhuma corda seleccionada."
+
+**********************
+* v3.0 MENUS & HINTS *
+**********************
+
+MN300_000
+MN300_001 = "Informações Gerais"
+MN300_002 = "Primeira" {para a faixa}
+MN300_003 = "Anterior" { para a faixa }
+MN300_004 = "Próxima" { para a faixa }
+MN300_005 = "Última" { para a faixa }
+MN300_006 = "Pista Anterior"
+MN300_007 = "Próxima Pista"
+MN300_008 = "Propriedades" { para a faixa }
+MN300_009 = "Propriedades da Pista"
+MN300_010 = "Inserir" { para uma faixa }
+MN300_011 = "Inserir uma Pista"
+MN300_012 = "Excluir" { para a faixa }
+MN300_013 = "Primeiro" { para a faixa }
+MN300_014 = "Anterior" { para a faixa }
+MN300_015 = "Próximo" {para o compasso}
+MN300_016 = "Último" { para o compasso }
+MN300_017 = "Ligar tempo"
+MN300_018 = "Ligar Nota"
+MN300_019 = "Duração do tempo"
+MN300_020 = "Duração da Nota"
+MN300_021 = "-nenhum-" {means "no" triolet, -3-, -5-, ...}
+MN300_022 = "Sem quiáltera"
+MN300_023 = "tempo" {Sem quiáltera no tempo}
+MN300_024 = "nota" {n-tuplet on the note}
+MN300_025 = "Bend (definições)" {includes all "Bend" type effects}
+MN300_026 = "Marcadores"
+MN300_027 = "Inserir um Marcador"
+MN300_028 = "Inserir"
+MN300_029 = "Lista de Marcadores"
+MN300_030 = "Lista"
+MN300_031 = "Ir Para o Marcador Anterior"
+MN300_032 = "Anterior"
+MN300_033 = "Ir Para o Marcador"
+MN300_034 = "Ir Para"
+MN300_035 = "Ir Para o próximo Marcador"
+MN300_036 = "Próximo"
+MN300_037 = "nenhum Marcador definido"
+MN300_038 = "Tocar a partir do Marcador"
+MN300_039 = "Tocar a partir da posição actual (Espaço)"
+MN300_040 = "Ferramentas"
+MN300_041 = "Contar antes de tocar"
+MN300_042 = "Aplicar um coeficiente para o tempo"
+MN300_043 = "Visualizar Todas as Pistas"
+MN300_044 = "Compassos na Vertical"
+MN300_045 = "Compassos na Horizontal"
+MN300_046 = "Espaçamento no Compasso em Edição"
+MN300_047 = "Trocar Modos de Exibição"
+MN300_048 = "Barras de Ferramentas"
+MN300_049 = "Padrão" { nome da barra de ferramentas }
+MN300_050 = "Compasso" { nome da barra de ferramentas }
+MN300_051 = "Marcadores" { nome da barra de ferramentas }
+MN300_052 = "Modos de Exibição" { nome da barra de ferramentas }
+MN300_053 = "Duração de tempo" { nome da barra de ferramentas }
+MN300_054 = "Duração de Nota" { nome da barra de ferramentas }
+MN300_055 = "Tocar" {nome da barra de ferramentas }
+MN300_056 = "Tempo" { nome da barra de ferramentas }
+MN300_057 = "Efeitos" { nome da barra de ferramentas }
+MN300_058 = "Dinâmicas" { nome da barra de ferramentas }
+MN300_059 = "Todas" {aplicar todas as barras de ferramentas}
+MN300_060 = "Nenhuma" {não aplicar nenhuma barra de ferramentas}
+MN300_061 = "Posição Padrão" {das barras de ferramentas}
+MN300_062 = "Configurações MIDI"
+MN300_063 = "Manter visível o compasso actual durante a reprodução"
+MN300_064 = "Formato Guitar Pro 2.2"
+MN300_065 = "Opções"
+MN300_066 = "Hammer On / Pull Off"
+MN300_067 = "Slide"
+MN300_068 = "Tempo"
+MN300_069 = "Selector de Notas Dinâmicas"
+MN300_070 = "Ir Para o Começo"
+MN300_071 = "Ir Para o Final"
+MN300_072 = "Retrocesso Rápido"
+MN300_073 = "Avanço Rápido"
+MN300_074 = "Passo Anterior"
+MN300_075 = "Próximo Passo"
+
+******************
+* v3.0 GP ONLINE *
+******************
+
+DLG300_GPONLINE_000
+DLG300_GPONLINE_001 = "GP Online"
+DLG300_GPONLINE_002 = "Verificar o GP On-line a cada :"
+DLG300_GPONLINE_003 = "Nunca"
+DLG300_GPONLINE_004 = "2 semanas"
+DLG300_GPONLINE_005 = "1 mês"
+DLG300_GPONLINE_006 = "3 meses"
+DLG300_GPONLINE_007 = "6 meses"
+DLG300_GPONLINE_008 = "Verificar novas versões ao iniciar se existir uma conexão com a Internet no momento"
+DLG300_GPONLINE_009 = "Uma nova versão do Guitar Pro está disponível na web!"
+DLG300_GPONLINE_010 = "Quer executar o GP on-line"
+DLG300_GPONLINE_011 = "Nota : Para parar esta verificação, execute o GP On-line ou vá ao Menu [Opções|Preferências]."
+DLG300_GPONLINE_012 = "O GP On-line não é usado há %s dias."
+DLG300_GPONLINE_013 = "Nota : Para parar de usar o GP On-line, vá ao Menu [Opções|Preferências]."
+
+***********************************
+* v4.0 PALM MUTE ASSISTANT WINDOW *
+***********************************
+ 
+DLG400_ASS_PM_000
+DLG400_ASS_PM_001 = "Opções do Palm Mute"
+DLG400_ASS_PM_002 = "Este assistente permite configurar o Palm Mute para um grupo de notas de uma só vez."
+DLG400_ASS_PM_003 = "Compasso:"
+DLG400_ASS_PM_004 = "até"
+DLG400_ASS_PM_005 = "Escolha as cordas:"
+DLG400_ASS_PM_006 = "Palm Mute?"
+DLG400_ASS_PM_007 = "Sim"
+DLG400_ASS_PM_008 = "Não"
+DLG400_ASS_PM_009 = "Nenhuma corda seleccionada."
+ 
+*****************************
+* v4.0 PERCUSSION ASSISTANT *
+*****************************
+ 
+DLG400_ASS_PERCU_000
+DLG400_ASS_PERCU_001 = "Usar sons eléctricos quando disponíveis"
+ 
+*******************************
+* v4.0 MIX TABLE EVENT WINDOW *
+*******************************
+ 
+DLG400_MIX_000
+DLG400_MIX_001 = "Todas as pistas"
+ 
+*********************
+* v4.0 CHORD WINDOW *
+*********************
+ 
+DLG400_CHORD_000
+DLG400_CHORD_001 = "Dedilhando"
+ 
+*********************
+* v4.0 BRUSH WINDOW *
+*********************
+ 
+DLG400_BRUSH_000
+DLG400_BRUSH_001 = "Rasgueado"
+ 
+**************************
+* v4.0 TREMOLOBAR WINDOW *
+**************************
+ 
+DLG400_TREMOLOBAR_000
+DLG400_TREMOLOBAR_001 = "Tremolo Bar"
+DLG400_TREMOLOBAR_002 = "Seleccione a forma:";
+
+ 
+*********************
+* v4.0 TRILL WINDOW *
+*********************
+ 
+DLG400_TRILL_000
+DLG400_TRILL_001 = "Trilo"
+DLG400_TRILL_002 = "Nota do trilo"
+DLG400_TRILL_003 = "Período"
+DLG400_TRILL_004 = "Traste:"
+ 
+*******************************
+* v4.0 BMP EXPORTATION WINDOW *
+*******************************
+ 
+DLG400_EXPBMP_000
+DLG400_EXPBMP_001 = "Exportar BMP"
+DLG400_EXPBMP_002 = "Exportar"
+DLG400_EXPBMP_003 = "Arquivos Bitmap"
+ 
+*******************************
+* v4.0 BMP EXPORTATION WINDOW *
+*******************************
+
+ 
+DLG400_EXPWAV_000
+DLG400_EXPWAV_001 = "Exportar WAVE"
+DLG400_EXPWAV_002 = "Exportar"
+DLG400_EXPWAV_003 = "Qualidade:"
+DLG400_EXPWAV_004 = "Arquivos WAVE"
+ 
+*************************
+* v4.0 FRETBOARD WINDOW *
+*************************
+ 
+DLG400_FRETBOARD_000
+DLG400_FRETBOARD_001 = "Seleccione o modo de exibição"
+DLG400_FRETBOARD_002 = "Mostrar [tempo]"
+DLG400_FRETBOARD_003 = "Mostrar [tempo] + [Compasso]"
+DLG400_FRETBOARD_004 = "Mostrar [tempo] + [Diagrama]"
+DLG400_FRETBOARD_005 = "Mostrar [tempo] + [Próxima]"
+DLG400_FRETBOARD_006 = "Mostrar [tempo] + [Escala]"
+DLG400_FRETBOARD_007 = "Mostrar [Nome da nota]"
+DLG400_FRETBOARD_008 = "Mostrar [Intervalo]"
+DLG400_FRETBOARD_009 = "Mostrar [Grau]"
+DLG400_FRETBOARD_010 = "Indicação do nome da nota"
+DLG400_FRETBOARD_011 = "Sem nome"
+DLG400_FRETBOARD_012 = "Nome para [tempo]"
+DLG400_FRETBOARD_013 = "Nome para [tempo] + [...]"
+DLG400_FRETBOARD_014 = "Estilo do braço do instrumento"
+DLG400_FRETBOARD_015 = "Eléctrico"
+DLG400_FRETBOARD_016 = "Acústico"
+DLG400_FRETBOARD_017 = "Clássico"
+DLG400_FRETBOARD_018 = "Básico"
+DLG400_FRETBOARD_019 = "Inverter a posição do braço"
+DLG400_FRETBOARD_020 = "Abrir a caixa de ferramentas de escalas"
+DLG400_FRETBOARD_021 = "Escalas"
+DLG400_FRETBOARD_022 = "Move Left"
+DLG400_FRETBOARD_023 = "Move Right"
+ 
+************************
+* v4.0 KEYBOARD WINDOW *
+************************
+ 
+DLG400_KEYBOARD_000
+DLG400_KEYBOARD_001 = "Selecione o modo de exibição"
+DLG400_KEYBOARD_002 = "Mostrar [tempo]"
+DLG400_KEYBOARD_003 = "Mostrar [tempo] + [Compasso]"
+DLG400_KEYBOARD_004 = "Mostrar [tempo] + [Próxima]"
+DLG400_KEYBOARD_005 = "Mostrar [tempo] + [Escala]"
+DLG400_KEYBOARD_006 = "Abrir a caixa de ferramentas de escalas"
+DLG400_KEYBOARD_007 = "Escalas"
+DLG400_KEYBOARD_008 = "Mover para esquerda"
+DLG400_KEYBOARD_009 = "Mover para direita"
+ 
+******************************
+* v4.0 KEY SIGNATURE WINDOW *
+******************************
+ 
+DLG400_KEYSIGN_000
+DLG400_KEYSIGN_001 = "Tonalidade"
+DLG400_KEYSIGN_002 = "Até o fim"
+DLG400_KEYSIGN_003 = "Modo"
+DLG400_KEYSIGN_004 = "maior"
+DLG400_KEYSIGN_005 = "menor"
+ 
+***************************
+* v4.0 NEW TUNING WINDOW *
+***************************
+ 
+DLG400_NEWTUNE_000
+DLG400_NEWTUNE_001 = "Nova afinação"
+DLG400_NEWTUNE_002 = "Escolha um nome para a nova afinação:"
+ 
+**************************
+* v4.0 SCORE INFO WINDOW *
+**************************
+ 
+DLG400_SCORE_INFO_000
+DLG400_SCORE_INFO_001 = "Letras"
+DLG400_SCORE_INFO_002 = "Na pista:"
+DLG400_SCORE_INFO_003 = "Se modificar a pista, volte para esta janela e clique em OK para actualizar."
+DLG400_SCORE_INFO_004 = "Linha %s"
+DLG400_SCORE_INFO_005 = "Começar no compasso:"
+DLG400_SCORE_INFO_006 = "Leia o arquivo de ajuda para usar símbolos especiais: -, + e []"
+DLG400_SCORE_INFO_007 = "Cortar"
+DLG400_SCORE_INFO_008 = "Copiar"
+DLG400_SCORE_INFO_009 = "Colar"
+ 
+**************************
+* v4.0 TRACK INFO WINDOW *
+**************************
+ 
+DLG400_TRACK_INFO_000
+DLG400_TRACK_INFO_001 = "Adicionar esta afinação"
+DLG400_TRACK_INFO_002 = "Apagar esta afinação"
+DLG400_TRACK_INFO_003 = "Primeiro seleccione a afinação que deseja apagar."
+DLG400_TRACK_INFO_004 = "Confirma a exclusão da afinação %s?"
+DLG400_TRACK_INFO_005 = "Primeiro defina a nova afinação, depois clique em adicionar."
+DLG400_TRACK_INFO_006 = "Você tem que escolher um nome para esta nova afinação."
+DLG400_TRACK_INFO_007 = "Este nome já está sendo usado."
+ 
+***************************
+* v4.0 PREFERENCES WINDOW *
+***************************
+ 
+DLG400_PREF_000
+DLG400_PREF_001 = "Backup automático"
+DLG400_PREF_002 = "Todas"
+DLG400_PREF_003 = "acções"
+DLG400_PREF_004 = "Letras:"
+DLG400_PREF_005 = "Undo/Redo"
+DLG400_PREF_006 = "Disable Undo/Redo (slow computers)"
+ 
+***********************************
+* v4.0 TRANSPOSE ASSISTANT WINDOW *
+***********************************
+ 
+DLG400_ASS_TR_000
+DLG400_ASS_TR_001 = "Transpôr todas as pistas"
+ 
+*********************************
+* v4.0 SEARCH ON THE WEB WINDOW *
+*********************************
+ 
+DLG400_SEARCHONWEB_000
+DLG400_SEARCHONWEB_001 = "Procurar na Internet"
+DLG400_SEARCHONWEB_002 = "Procurar:"
+DLG400_SEARCHONWEB_003 = "Escreva algum texto simples como por exemplo 'satriani' ou 'sultans' por exemplo"
+DLG400_SEARCHONWEB_004 = "Em:"
+DLG400_SEARCHONWEB_005 = "Procurar!"
+DLG400_SEARCHONWEB_006 = "Actualizar a lista de procura do site"
+DLG400_SEARCHONWEB_007 = "%s site(s)."
+DLG400_SEARCHONWEB_008 = "Você deve entrar com um texto para iniciar a busca."
+DLG400_SEARCHONWEB_009 = "Impossível conectar-se ao site do Guitar Pro."
+ 
+***************************
+* v4.0 SCALES TOOL WINDOW *
+***************************
+ 
+DLG400_SCALES_000
+DLG400_SCALES_001 = "Escalas"
+DLG400_SCALES_002 = "Tocar"
+DLG400_SCALES_003 = "Procurar escalas"
+DLG400_SCALES_004 = "Procurar do compasso:"
+DLG400_SCALES_005 = "até"
+DLG400_SCALES_006 = "Procurar!"
+ 
+**********************
+* v4.0 MENUS & HINTS *
+**********************
+ 
+MN400_000
+MN400_001 = "Primeira pista"
+MN400_002 = "Última pista"
+MN400_003 = "Apagar pista"
+MN400_004 = "Inserir compasso"
+MN400_005 = "Cortar compassos"
+MN400_006 = "Copiar compassos"
+MN400_007 = "Colar compassos"
+MN400_008 = "Limpar compassos"
+MN400_009 = "Tonalidade"
+MN400_010 = "Barra dupla"
+MN400_011 = "Desfazer"
+MN400_012 = "Refazer"
+MN400_013 = "Subir meio tom"
+MN400_014 = "Descer meio tom"
+MN400_015 = "Digitação da mão esquerda"
+MN400_016 = "Digitação da mão direita"
+MN400_017 = "Palhetada para cima"
+MN400_018 = "Palhetada para baixo"
+MN400_019 = "Nota acentuada"
+MN400_020 = "Harmônico"
+MN400_021 = "Harmónico Natural"
+MN400_022 = "Harmónico Artificial"
+MN400_023 = "Tapped Harmónico"
+MN400_024 = "Pitch Harmónico"
+MN400_025 = "Semi Harmónico"
+MN400_026 = "Bend"
+MN400_027 = "Tremolo"
+MN400_028 = "Slide"
+MN400_029 = "Shift slide"
+MN400_030 = "Ligado slide"
+MN400_031 = "Vir em slide descendente"
+MN400_032 = "Vir em slide ascendente"
+MN400_033 = "Fazer slide descendente"
+MN400_034 = "Fazer slide ascendente"
+MN400_035 = "Vibrato mais largo"
+MN400_036 = "Trilo"
+MN400_037 = "Tremolo de palheta"
+MN400_038 = "Palm Mute (Abafado)"
+MN400_039 = "Staccato"
+MN400_040 = "Afinador Digital"
+MN400_041 = "Escalas"
+MN400_042 = "Opções do Palm Mute (Abafado)"
+MN400_043 = "Pentagrama"
+MN400_044 = "Braço do instrumento"
+MN400_045 = "Teclado"
+MN400_046 = "Menus && Barras de ferramentas"
+MN400_047 = "Optimizar"
+MN400_048 = "Voltar a posição padrão das barras de ferramentas"
+MN400_049 = "Antigo GP3 Glyphs"
+MN400_050 = "Barras de ferramentas no estilo XP"
+MN400_051 = "Formato Guitar Pro 3.0"
+MN400_052 = "Arquivo WAVE (áudio)"
+MN400_053 = "Arquivo BMP (Imagem)"
+MN400_054 = "Menu" { nome da barra de ferramentas }
+MN400_055 = "Nota" { nome da barra de ferramentas }
+MN400_056 = "Braço do instrumento" { nome da barra de ferramentas }
+MN400_057 = "Teclado" { nome da barra de ferramentas }
+MN400_058 = "Seleccionador de pistas" { nome da barra de ferramentas }
+MN400_059 = "Barra de status" { nome da barra de ferramentas }
+MN400_060 = "Controle de volume do Windows"
+
+*********************
+* v4.0 INTRO WINDOW *
+*********************
+
+DLG400_INTRO_000
+DLG400_INTRO_001 = "Você está no %s1º dia dos seus %s2 dias de período de avaliação."
+DLG400_INTRO_002 = "Quando o período terminar, pense em registar a sua cópia."
+ 
+****************
+* v4.0 GENERAL *
+****************
+ 
+GENE400_000
+GENE400_001 = "Na versão de demonstração você não pode exportar no formato GP 3.0 se o arquivo for modificado."
+GENE400_002 = "Você deve abrir o arquivo e directamente utilizar esta opção."
+GENE400_003 = "Arquivos Guitar Pro 3.0"
+GENE400_004 = "O Guitar Pro não foi encerrado correctamente na última vez que foi utilizado, ou outra secção do programa já está aberta."
+GENE400_005 = "Você deseja carregar o último backup de arquivo?"
+GENE400_006 = "Na versão de demonstração não está disponível a opção para exportar em BMP."
+GENE400_007 = "Reinicie o Guitar Pro para que as barras de ferramentas voltem aos seus respectivos lugares."
+GENE400_008 = "Use agora o botão TOCAR/PARAR para iniciar e finalizar a gravação."
+GENE400_009 = "Você deve estar no modo de visualização de compassos na vertical."
+GENE400_010 = "Na versão de demonstração o uso das ferramentas Cortar/Copiar/Colar é limitado aos primeiros 24 compassos."
+GENE400_011 = "A área de transferência está vazia."
+GENE400_012 = "O conteúdo da área de transferência não é compatível com a(s) trilha(s)."
+GENE400_013 = "O arquivo [%s] foi gravado com sucesso!."
+GENE400_014 = "Impossível criar a pasta [%s]. Carregamento cancelado."
+GENE400_015 = "O Guitar Pro detectou uma alteração proibida [Code %s]. Carregamento cancelado."
+GENE400_016 = "A fonte [%s] parece não estar instalada correctamente. Nós recomendamos que você reinstale o Guitar Pro."
+
+*********************************
+* v4.0 WAVE EXPORT SETUP WINDOW *
+*********************************
+
+DLG400_WAVEEXPSETUP_000
+DLG400_WAVEEXPSETUP_001 = "WAVE Export Setup"
+DLG400_WAVEEXPSETUP_002 = "WAVE Input"
+DLG400_WAVEEXPSETUP_003 = "Linha para utilizar o MIDI output:"
+DLG400_WAVEEXPSETUP_004 = "Sugestão: se o ficheiro WAVE exportado não tem som, sugere-se que seja testada outra Linha."
+DLG400_WAVEEXPSETUP_005 = "deve selecionar uma Linha."
+
+****************
+* v4.1 MIDI IN *
+****************
+ 
+MI410_000
+MI410_001 = "MIDI Input Activo"
+MI410_002 = "Impossível abrir o MIDI In. Verificar a configuração no Menu Opções | MIDI Setup."
+MI410_003 = "MIDI Input (Nota por Nota)"
+MI410_004 = "Instrumento"
+MI410_005 = "Sensibilidade"
+MI410_006 = "ms  (Espaço para separar duas notas)" { "ms" para milisegundos }
+MI410_007 = "String Affectation utilizando o Canal de detecção"
+MI410_008 = "Primeiro Canal para a Corda mais alta"
+MI410_009 = " Primeiro Canal para a Corda mais baixa "
+MI410_010 = "Sem canal de detecção (Automatic Fingering)"
+MI410_011 = "Sugestões: Utilizar o Menú [Sound | MIDI Input Active] para acpturar as notas tocadas com o seu Instrumento MIDI."
+
+*********************
+* v5.0 ABOUT WINDOW *
+*********************
+ 
+DLG500_ABOUT_000
+DLG500_ABOUT_001 = "%s e %t são ambas marcas registadas por %s para França e / ou outros países."
+DLG500_ABOUT_002 = "Todas as marcas e marcas registadas são da propriedade dos respectivos donos, e não estão de forma alguma associadas com a %s."
+DLG500_ABOUT_003 = "Equipa Guitar Pro"
+DLG500_ABOUT_004 = "Ideia && Software original"
+DLG500_ABOUT_005 = "Ideia RSE Original && Samples de som"
+DLG500_ABOUT_006 = "Desenvolvimento"
+DLG500_ABOUT_007 = "Desenho"
+DLG500_ABOUT_008 = "Tradução [%s]"
+DLG500_ABOUT_009 = "Agradecimentos especiais"
+DLG500_ABOUT_010 = "Tecnologias audio relacionadas"
+
+*********************************
+* v5.0 DYNAMIC ASSISTANT WINDOW *
+*********************************
+ 
+DLG500_ASS_DY_000
+DLG500_ASS_DY_001 = "Selecção"
+DLG500_ASS_DY_002 = "Vozes:"
+DLG500_ASS_DY_003 = "Todas"
+DLG500_ASS_DY_004 = "Voz principal"
+DLG500_ASS_DY_005 = "Baixo"
+
+**********************************
+* v5.0 LET RING ASSISTANT WINDOW *
+**********************************
+ 
+DLG500_ASS_LR_000
+DLG500_ASS_LR_001 = "Selecção"
+DLG500_ASS_LR_002 = "Vozes:"
+DLG500_ASS_LR_003 = "Todas"
+DLG500_ASS_LR_004 = "Voz principal"
+DLG500_ASS_LR_005 = "Baixo"
+
+***********************************
+* v5.0 PALM MUTE ASSISTANT WINDOW *
+***********************************
+ 
+DLG500_ASS_PM_000
+DLG500_ASS_PM_001 = "Selecção"
+DLG500_ASS_PM_002 = "Vozes:"
+DLG500_ASS_PM_003 = "Todas"
+DLG500_ASS_PM_004 = "Voz principal"
+DLG500_ASS_PM_005 = "Baixo"
+
+*******************************
+* v5.0 MIX TABLE EVENT WINDOW *
+*******************************
+ 
+DLG500_MIX_000
+DLG500_MIX_001 = "Usar MIDI"
+DLG500_MIX_002 = "Banco MIDI:"
+DLG500_MIX_003 = "Usar RSE"
+DLG500_MIX_004 = "Nenhum" { usado para lista de Banco de Sons }
+DLG500_MIX_005 = "Nenhum" { Usado para lista de Efeitos }
+
+***************************
+* v5.0 INSTRUMENTS WINDOW *
+***************************
+ 
+DLG500_INSTR_000
+DLG500_INSTR_001 = "Usar MIDI"
+DLG500_INSTR_002 = "Banco MIDI:"
+DLG500_INSTR_003 = "Usar RSE"
+DLG500_INSTR_004 = "Ouvir"
+DLG500_INSTR_005 = "Banco de Sons"
+DLG500_INSTR_006 = "Nenhum" { usado para lista de Banco de Sons }
+DLG500_INSTR_007 = "Efeito"
+DLG500_INSTR_008 = "Nenhum" { Usado para lista de Efeitos }
+DLG500_INSTR_009 = "Acentuação automática no tempo" 
+DLG500_INSTR_010 = "Nenhum" { usado para Acentuação automática }
+DLG500_INSTR_011 = "Muito suave"
+DLG500_INSTR_012 = "Suave"
+DLG500_INSTR_013 = "Medio"
+DLG500_INSTR_014 = "Forte"
+DLG500_INSTR_015 = "Muito forte"
+DLG500_INSTR_016 = "Human Playing"
+DLG500_INSTR_017 = "Todas as marcas de instrumentos, amplificadores e efeitos ou marcas registadas são da propriedade dos respectivos donos, que não estão de alguma forma associados com a %s."
+
+*****************************
+* v5.0 NOTE DURATION WINDOW *
+*****************************
+ 
+DLG500_NOTE_DURATION_000
+DLG500_NOTE_DURATION_001 = "Duração do som"
+
+**************************
+* v5.0 GRACE NOTE WINDOW *
+**************************
+
+DLG500_GRACE_000
+DLG500_GRACE_001 = "Posição"
+DLG500_GRACE_002 = "Antes do tempo"
+DLG500_GRACE_003 = "No tempo"
+
+************************
+* v5.0 HARMONIC WINDOW *
+************************
+
+DLG500_HARM_000
+DLG500_HARM_001 = "Harmónico artificial"
+DLG500_HARM_002 = "Tipo de Harmónico artificial"
+DLG500_HARM_003 = "Harmónico artificial"
+DLG500_HARM_004 = "Harmónico por tapping"
+DLG500_HARM_005 = "Pinch Harmónico"
+DLG500_HARM_006 = "Meio Harmónico"
+DLG500_HARM_007 = "Mão esquerda:"
+DLG500_HARM_008 = "Mão direita:"
+
+**************************
+* v5.0 SCORE INFO WINDOW *
+**************************
+ 
+DLG500_SCORE_INFO_000
+DLG500_SCORE_INFO_001 = "Letra"
+DLG500_SCORE_INFO_002 = "Música"
+DLG500_SCORE_INFO_003 = "RSE Master Efeito (aplicado a todas as pistas)"
+DLG500_SCORE_INFO_004 = "Efeito:"
+
+*********************
+* v5.0 PRINT WINDOW *
+*********************
+
+DLG500_PRT_000
+DLG500_PRT_001 = "Posição"
+DLG500_PRT_002 = "Escala:"
+DLG500_PRT_003 = "Ajustar à página"
+DLG500_PRT_004 = "Centrar documento"
+
+********************************
+* v5.0 WAVE EXPORTATION WINDOW *
+********************************
+ 
+DLG500_EXPWAV_000
+DLG500_EXPWAV_001 = "Exportar WAVE"
+DLG500_EXPWAV_002 = "Driver de gravação"
+DLG500_EXPWAV_003 = "Qualidade"
+DLG500_EXPWAV_004 = "Hz"
+DLG500_EXPWAV_005 = "bits"
+
+*******************************
+* v5.0 PAGE PROPERTIES WINDOW *
+*******************************
+ 
+DLG500_PAGE_PROP_000
+DLG500_PAGE_PROP_001 = "Configurar página"
+DLG500_PAGE_PROP_002 = "Actualizar partitura"
+DLG500_PAGE_PROP_003 = "Gravar como padrão"
+DLG500_PAGE_PROP_004 = "Aplicar config. padrão"
+DLG500_PAGE_PROP_005 = "Formatar página"
+DLG500_PAGE_PROP_006 = "Orientação"
+DLG500_PAGE_PROP_007 = "Vertical"
+DLG500_PAGE_PROP_008 = "Horizontal"
+DLG500_PAGE_PROP_009 = "Tamanho da partitura"
+DLG500_PAGE_PROP_010 = "Proporção:"
+DLG500_PAGE_PROP_011 = "Margens"
+DLG500_PAGE_PROP_012 = "Esquerda"
+DLG500_PAGE_PROP_013 = "Direita"
+DLG500_PAGE_PROP_014 = "Superior"
+DLG500_PAGE_PROP_015 = "Inferior"
+DLG500_PAGE_PROP_016 = "Cabeçalho && Rodapé"
+DLG500_PAGE_PROP_017 = "Título"
+DLG500_PAGE_PROP_018 = "Subtítulo"
+DLG500_PAGE_PROP_019 = "Artista"
+DLG500_PAGE_PROP_020 = "Album"
+DLG500_PAGE_PROP_021 = "Letra"
+DLG500_PAGE_PROP_022 = "Música"
+DLG500_PAGE_PROP_023 = "Letra && Música"
+DLG500_PAGE_PROP_024 = "Copyright"
+DLG500_PAGE_PROP_025 = "Numero de página"
+
+******************************
+* v5.0 TIME SIGNATURE WINDOW *
+******************************
+
+DLG500_TIMES_000
+DLG500_TIMES_001 = "Agrupar colcheias em"
+DLG500_TIMES_002 = "Total"
+
+***********************
+* v5.0 SYNCOPE WINDOW *
+***********************
+
+DLG500_SYNCOPE_000
+DLG500_SYNCOPE_001 = "Swing"
+DLG500_SYNCOPE_002 = "Sem Swing"
+DLG500_SYNCOPE_003 = "À colcheia"
+DLG500_SYNCOPE_004 = "À semicolcheia"
+DLG500_SYNCOPE_005 = "Até ao fim"
+
+**************************
+* v5.0 TRACK INFO WINDOW *
+**************************
+ 
+DLG500_TRACK_INFO_000
+DLG500_TRACK_INFO_001 = "Notação"
+DLG500_TRACK_INFO_002 = "Notatação standard"
+DLG500_TRACK_INFO_003 = "Tablatura"
+DLG500_TRACK_INFO_004 = "Tablatura [Traste = nota midi]"
+DLG500_TRACK_INFO_005 = "Estilo"
+DLG500_TRACK_INFO_006 = "Indicar afinação na partitura"
+DLG500_TRACK_INFO_007 = "Mostrar ritmo com a tablatura"
+DLG500_TRACK_INFO_008 = "Agrupar horizontalmente"
+DLG500_TRACK_INFO_009 = "Lista de diagramas no cimo da partitura"
+DLG500_TRACK_INFO_010 = "Diagramas na partitura"
+DLG500_TRACK_INFO_011 = "Diagramas/Acordes por baixo da notação standard"
+DLG500_TRACK_INFO_012 = "Canais"
+DLG500_TRACK_INFO_013 = "Forçar canais 11 ao 16"
+
+***************************
+* v5.0 PREFERENCES WINDOW *
+***************************
+ 
+DLG500_PREF_000
+DLG500_PREF_001 = "Ao iniciar"
+DLG500_PREF_002 = "Mostrar Splash"
+DLG500_PREF_003 = "Abrir automaticamente o ultimo ficheiro"
+DLG500_PREF_004 = "Ver"
+DLG500_PREF_005 = "Mudar automaticamente vista multipistas"
+DLG500_PREF_006 = "Reproduzir"
+DLG500_PREF_007 = "Reproduzir durante edição"
+DLG500_PREF_008 = "Reproduzir MIDI durante edição"
+
+*********************
+* v5.0 ORDER WINDOW *
+*********************
+
+DLG500_REG_000
+DLG500_REG_001 = "Obter actualizações grátis para as versões 5.x"
+DLG500_REG_002 = "Obter uma oferta especial na actualização para a próxima versão 6"
+
+**********************************
+* v5.0 REGISTER YOUR COPY WINDOW *
+**********************************
+
+DLG500_REGC_000
+DLG500_REGC_001 = "Obter atualizações grátis para as versões 5.x"
+DLG500_REGC_002 = "Obter uma oferta especial na actualização para a próxima versão 6"
+
+************
+* v5.0 RSE *
+************
+
+RSE500_000
+RSE500_001 = "Carregar RSE"
+RSE500_002 = "Carregando %s"
+RSE500_003 = "Erro de RSE %s"
+RSE500_004 = "Sem presets para a pista %s"
+RSE500_005 = "RSE CPU:"
+
+********************
+* v5.0 LOOP WINDOW *
+********************
+
+DLG500_LOOP_000
+DLG500_LOOP_001 = "Tocar com Loop / Praticar velocidade"
+DLG500_LOOP_002 = "Loop simples"
+DLG500_LOOP_003 = "Praticar velocidade"
+
+***********************************
+* v5.0 TRANSPOSE ASSISTANT WINDOW *
+***********************************
+
+DLG500_ASS_TR_000
+DLG500_ASS_TR_001 = "Manter digitação se possível"
+
+**********************
+* v5.0 IMPORT WINDOW *
+**********************
+
+DLG500_IMPORT_000
+DLG500_IMPORT_001 = "%s Importar"
+DLG500_IMPORT_002 = "Informação"
+DLG500_IMPORT_003 = "Nome de Ficheiro:"
+DLG500_IMPORT_004 = "Formato de Ficheiro:"
+DLG500_IMPORT_005 = "Título da partitura:"
+DLG500_IMPORT_006 = "Autor da partitura:"
+DLG500_IMPORT_007 = "Versão:"
+DLG500_IMPORT_008 = "Progressão"
+DLG500_IMPORT_009 = "Resultado"
+
+**************************
+* v5.0 PTB IMPORT WINDOW *
+**************************
+
+DLG500_PTB_IMP_000
+DLG500_PTB_IMP_001 = "Importar PowerTab"
+DLG500_PTB_IMP_002 = "Modo de importar"
+DLG500_PTB_IMP_003 = "Partitura completa"
+DLG500_PTB_IMP_004 = "Só guitarras"
+DLG500_PTB_IMP_005 = "Só baixos"
+DLG500_PTB_IMP_006 = "Opções"
+DLG500_PTB_IMP_007 = "Keep Break lines"
+DLG500_PTB_IMP_008 = "Ficheiro [%s] não encontrado"
+DLG500_PTB_IMP_009 = "Ficheiro [%s] é um ficheiro PowerTab inválido"
+DLG500_PTB_IMP_010 = "Só são suportados ficheiros v1.7"
+DLG500_PTB_IMP_011 = "Informação inválida"
+DLG500_PTB_IMP_012 = "Erro enquanto recuperava [%s] - Ficheiro Powertab inválido"
+DLG500_PTB_IMP_013 = "Informação invalida [ReleaseType]"
+DLG500_PTB_IMP_014 = "Problema enquanto analisava. O Ficheiro é provavelmente inválido"
+DLG500_PTB_IMP_015 = "A analisar cabeçalho..."
+DLG500_PTB_IMP_016 = "A analisar pistas de Guitarra..."
+DLG500_PTB_IMP_017 = "A analisar pistas de Baixo..."
+DLG500_PTB_IMP_018 = "A analisar Fontes..."
+DLG500_PTB_IMP_019 = "Análise completa"
+DLG500_PTB_IMP_020 = "A converter cabeçalho..."
+DLG500_PTB_IMP_021 = "A converter pistas de Guitarra..."
+DLG500_PTB_IMP_022 = "A converter pistas de Baixo..."
+DLG500_PTB_IMP_023 = "Importação completa"
+DLG500_PTB_IMP_024 = "Importação cancelada"
+
+**************************
+* v5.0 TEF IMPORT WINDOW *
+**************************
+
+DLG500_TEF_IMP_000
+DLG500_TEF_IMP_001 = "O ficheiro [%s] não é um ficheiro TablEdit."
+DLG500_TEF_IMP_002 = "Impossível abrir o ficheiro [%s]."
+DLG500_TEF_IMP_003 = "Accesso a um acorde inexistente"
+DLG500_TEF_IMP_004 = "Accesso a um compasso inexistente"
+DLG500_TEF_IMP_005 = "Numero de cordas não pode ser %s - Ficheiro TablEdit falso"
+DLG500_TEF_IMP_006 = "A pista da Harmónica não foi importada"
+DLG500_TEF_IMP_007 = "A pista do Acordeão não foi importada"
+DLG500_TEF_IMP_008 = "Alteração de 'mudança de sincopa' para 'marcação de tercina 8th'"
+DLG500_TEF_IMP_009 = "Triolet erro no compasso %s da pista %t"
+DLG500_TEF_IMP_010 = "Triolet erro no compasso %s na segunda voz da pista %t"
+DLG500_TEF_IMP_011 = "Alteração ritmica no compasso %s da pista %t (Simulação de nota com dois pontos)."
+DLG500_TEF_IMP_012 = "Alteração ritmica no compasso %s da pista %t"
+DLG500_TEF_IMP_013 = "Sem erros"
+
+**************************
+* v5.0 XML IMPORT WINDOW *
+**************************
+
+DLG500_XML_IMP_000
+DLG500_XML_IMP_001 = "Importação falhou: deve ser PARTWISE or TIMEWISE."
+DLG500_XML_IMP_002 = "Ficheiro XML inválido."
+
+**************************
+* v5.0 PDF EXPORT WINDOW *
+**************************
+
+DLG500_PDF_EXP_000
+DLG500_PDF_EXP_001 = "Documento PDF já aberto no PDF viewer. Feche-o antes de usar o PDF Export."
+
+**************************
+* v5.0 BMP EXPORT WINDOW *
+**************************
+
+DLG500_BMP_EXP_000
+DLG500_BMP_EXP_001 = "Impossível escrever o ficheiro. Cancelado o BMP Export."
+DLG500_BMP_EXP_002 = "Sem memória. Cancelado o BMP Export."
+
+*********************************
+* v5.0 SEARCH ON THE WEB WINDOW *
+*********************************
+
+DLG500_TAB_WEB_000
+DLG500_TAB_WEB_001 = "Sem site disponível. Por favor clica primeiro no [Update the Search Site List]."
+
+***************************
+*  v5.0 NEW TUNING WINDOW *
+***************************
+
+DLG500_NEWTUNE_000
+DLG500_NEWTUNE_001 = "Etiquetar a partitura:"
+DLG500_NEWTUNE_002 = "Instrumento MIDI padrão:"
+
+****************************************
+* v5.0 CHECK DURATION ASSISTANT WINDOW *
+****************************************
+
+DLG500_ASS_CD_000
+DLG500_ASS_CD_001 = "Duração de compasso inválida no compasso %s - pista %s - voz %s."
+
+****************
+* v5.0 GENERAL *
+****************
+ 
+GENE500_000
+GENE500_001 = "Na versão Demo não pode exportar para formato GP4 se o ficheiro for modificado."
+GENE500_002 = "Deve abrir o ficheiro e usar directamente esta maneira de exportar."
+GENE500_003 = "Ficheiros Guitar Pro 4"
+GENE500_004 = "Ficheiros Bitmap "
+GENE500_005 = "Ficheiros Wave"
+GENE500_006 = "Ficheiros PDF"
+GENE500_007 = "Ficheiros PowerTab"
+GENE500_008 = "Ficheiros TablEdit"
+GENE500_009 = "Ficheiros MusicXML"
+
+**********************
+* v5.0 MENUS & HINTS *
+**********************
+
+MN500_000
+MN500_001 = "Formato Guitar Pro 4"
+MN500_002 = "Configurar página"
+MN500_003 = "Editar"
+MN500_004 = "Seleccionar tudo"
+MN500_005 = "Vozes"
+MN500_006 = "Editar Voz 1 [Voz principal]"
+MN500_007 = "Editar Voz 2 [Baixo]"
+MN500_008 = "Ocultar vozes inactivas"
+MN500_009 = "Swing"
+MN500_010 = "Direcções músicais"
+MN500_011 = "Parágrafo"
+MN500_012 = "Forçar parágrafo"
+MN500_013 = "Bloquear parágrafo"
+MN500_014 = "Reiniciar organização de parágrafos"
+MN500_015 = "Instrumento"
+MN500_016 = "Mover para cima"
+MN500_017 = "Mover para baixo"
+MN500_018 = "Duração"
+MN500_019 = "Ponto de aumentação"
+MN500_020 = "Impôr chaveta de quiáltera"
+MN500_021 = "Agrupar automaticamente"
+MN500_022 = "Forçar Agrupar"
+MN500_023 = "Desagrupar"
+MN500_024 = "Sub-desagrupar"
+MN500_025 = "Direcção automática"
+MN500_026 = "Inverter direcção"
+MN500_027 = "Nota muito acentuada"
+MN500_028 = "Fechar" { para WahWah }
+MN500_029 = "Abrir" { para WahWah }
+MN500_030 = "Mostrar [Wah On]" { para WahWah => do not change term [Wah On]}
+MN500_031 = "Desligado" { para WahWah }
+MN500_032 = "Tocar com Loop / Treinar velocidade"
+MN500_033 = "Usar RSE [Realistic Sound Engine]"
+MN500_034 = "Modo de página"
+MN500_035 = "Modo estendido"
+MN500_036 = "Modo de ecran Vertical"
+MN500_037 = "Modo de ecran horizontal"
+MN500_038 = "Esconder Notação Standard"
+MN500_039 = "Esconder Tablatura"
+MN500_040 = "Skin"
+MN500_041 = "Duração do som"
+MN500_042 = "Notação" {nome da barra de ferramentas}
+MN500_043 = "Transposição" {nome da barra de ferramentas}
+
+**************************
+* v5.0 REPEAT END WINDOW *
+**************************
+
+DLG500_REPE_000
+DLG500_REPE_001 = "Tocar"
+DLG500_REPE_002 = "vezes"
+
+******************
+* v5.0 ADDTIONAL *
+******************
+
+ADD500_000
+ADD500_001 = "Tocar"
+ADD500_002 = "Capo"
+ADD500_003 = "Guitar Pro na Net"
+ADD500_004 = "Artista:"
+
+*************
+* v5.0 DEMO *
+*************
+
+DEMO500_000
+DEMO500_001 = "A versão demo não te permite exportar no formato MusicXML."
+DEMO500_002 = "O que é RSE?" { instrument window }
+DEMO500_003 = "O período experimental terminou."
+DEMO500_004 = "A função Gravar está limitada a 24 compassos"
+DEMO500_005 = "[Demo Version] é mencionada nas impressões e exportações"
+DEMO500_006 = "MusicXML Exportar desactivado"
+DEMO500_007 = "RSE [Realistic Sound Engine] desactivado"
+DEMO500_008 = "O RSE [Realistic Sound Engine] oferece uma reprodução unica em tempo real, sem a necessidade de uma placa de som especial."
+DEMO500_009 = "Só está disponível na versão completa do Guitar Pro."
+DEMO500_010 = "Sample usando a reprodução Standard MIDI"
+DEMO500_011 = "Sample usando a reprodução RSE"
+DEMO500_012 = "Clica aqui" { clickable part of the sentence }
+DEMO500_013 = "Para ouvir mais samples com RSE" { end of the sentence }
+
+**********************
+* v5.1 MENUS & HINTS *
+*********************
+
+MN510_000
+MN510_001 = "Mudar acidentes"
+MN510_002 = "Configurações Audio  (MIDI/RSE)"
+
+********************************
+* v5.1 WAVE EXPORTATION WINDOW *
+********************************
+ 
+DLG510_EXPWAV_000
+DLG510_EXPWAV_001 = "Informações"
+DLG510_EXPWAV_002 = "Qualidade:"
+DLG510_EXPWAV_003 = "Ajuda:"
+DLG510_EXPWAV_004 = "- Certifica que o [Stereo Mix] está verificado"
+DLG510_EXPWAV_005 = "- Certifica que o volume não está muito baixo"
+DLG510_EXPWAV_006 = "Clica na imagem para abrir a janela de Record Mixtable."
+
+*********************
+* v5.1 DEBUG WINDOW *
+*********************
+ 
+DLG510_DEBUG_000
+DLG510_DEBUG_001 = "Debug"
+DLG510_DEBUG_002 = "Entra na assistência do Guitar Pro"
+DLG510_DEBUG_003 = "Fecha o Guitar Pro"
+DLG510_DEBUG_004 = "Continua a usar o Guitar Pro"
+DLG510_DEBUG_005 = "ERRO FATAL"
+DLG510_DEBUG_006 = "SE QUISERES CONTACTAR A ASSISTÊNCI DO GUITAR PRO,"
+DLG510_DEBUG_007 = "POR FAVOR CLICA NO BOTÃO ABAIXO E COLA"
+DLG510_DEBUG_008 = "ESTE RELATÓRIO NA TUA MENSAGEM USANDO AS TECLAS [CTRL+V]."
+DLG510_DEBUG_009 = "PODES TAMBEM POR EM ANEXO O FICHEIRO EM QUE ESTÁS A TRABALHAR"
+DLG510_DEBUG_010 = "E UMA EXPLICAÇÃO DA ULTIMA ALTERAÇÃO EFECTUADA."
+
+***************************
+* v5.1 INSTRUMENTS WINDOW *
+***************************
+ 
+DLG510_INSTR_000
+DLG510_INSTR_001 = "Por como padrão"
+DLG510_INSTR_002 = "O som [%s] será afectado como padrão ao instrumento Midi [%t]. Confirma?"
+DLG510_INSTR_003 = "Automático"
+DLG510_INSTR_004 = "Auto-Let Ring"
+DLG510_INSTR_005 = "Auto-Brush"
+DLG510_INSTR_006 = "3-Bandas EQ"
+DLG510_INSTR_007 = "Baixo" 
+DLG510_INSTR_008 = "Médio"
+DLG510_INSTR_009 = "Alto" 
+DLG510_INSTR_010 = "PRE" { significa "PRE-AMP" }
+
+**************************
+* v5.1 MIDI SETUP WINDOW *
+**************************
+
+DLG510_MIDISETUP_000
+DLG510_MIDISETUP_001 = "Configurações Audio"
+DLG510_MIDISETUP_002 = "Configurações RSE"
+DLG510_MIDISETUP_003 = "Saida"
+DLG510_MIDISETUP_004 = "Audio"
+DLG510_MIDISETUP_005 = "Placa de som"
+DLG510_MIDISETUP_006 = "DSP/VST Buffers"
+DLG510_MIDISETUP_007 = "Duração dos Buffers (no sample)"
+DLG510_MIDISETUP_008 = "Numero de Buffers"
+DLG510_MIDISETUP_009 = "Formato"
+DLG510_MIDISETUP_010 = "Frequência"
+DLG510_MIDISETUP_011 = "Canais"
+DLG510_MIDISETUP_012 = "Resolução"
+DLG510_MIDISETUP_013 = "Método Resample"
+DLG510_MIDISETUP_014 = "Vozes virtuais"
+DLG510_MIDISETUP_015 = "Latencia"
+DLG510_MIDISETUP_016 = "Padrão"
+DLG510_MIDISETUP_017 = "Mono"
+DLG510_MIDISETUP_018 = "Stereo"
+DLG510_MIDISETUP_019 = "Sem Inserção"
+DLG510_MIDISETUP_020 = "Inserção Linear"
+DLG510_MIDISETUP_021 = "Inserção Cúbica"
+DLG510_MIDISETUP_022 = "5 pontos Spline Inserção"
+
+**************************
+* v5.1 SCORE INFO WINDOW *
+**************************
+ 
+DLG510_SCORE_INFO_000
+DLG510_SCORE_INFO_001 = "Esquerda"
+DLG510_SCORE_INFO_002 = "Spectrum"
+DLG510_SCORE_INFO_003 = "Direita"
+DLG510_SCORE_INFO_004 = "Master Volume"
+DLG510_SCORE_INFO_005 = "Master Reverb"
+DLG510_SCORE_INFO_006 = "10-Bandas Master EQ"
+DLG510_SCORE_INFO_007 = "PRE" { significa "PRE-AMP" }
+DLG510_SCORE_INFO_008 = "- sem equalização -"
+
+**************************
+* v5.1 TRACK INFO WINDOW *
+**************************
+ 
+DLG510_TRACK_INFO_000
+DLG510_TRACK_INFO_001 = "Aumentar a rítmica dentro da Tab"
+
+*********************************
+* v5.1 SEARCH ON THE WEB WINDOW *
+*********************************
+ 
+DLG510_SEARCHONWEB_000
+DLG510_SEARCHONWEB_001 = "no Título"
+DLG510_SEARCHONWEB_002 = "no nome do Compositor"
+
+*********************
+* v5.1 TEMPO WINDOW *
+*********************
+ 
+DLG510_TEMPO_000
+DLG510_TEMPO_001 = "Esconder"
+
+*********************************************
+* v5.1 MAC MAIN TOOLBAR TEXTS UNDER BUTTONS *
+*********************************************
+
+MAC510_MAINTOOLBAR_000
+MAC510_MAINTOOLBAR_001 = "Novo"
+MAC510_MAINTOOLBAR_002 = "Abrir"
+MAC510_MAINTOOLBAR_003 = "Info"
+MAC510_MAINTOOLBAR_004 = "Configuração de página"
+MAC510_MAINTOOLBAR_005 = "Imprimir"
+MAC510_MAINTOOLBAR_006 = "Desfazer"
+MAC510_MAINTOOLBAR_007 = "Refazer"
+MAC510_MAINTOOLBAR_008 = "Cortar"
+MAC510_MAINTOOLBAR_009 = "Copiar"
+MAC510_MAINTOOLBAR_010 = "Colar"
+MAC510_MAINTOOLBAR_011 = "Propriedades da Pista"
+MAC510_MAINTOOLBAR_012 = "Instrumento"
+MAC510_MAINTOOLBAR_013 = "Preferencias"
+MAC510_MAINTOOLBAR_014 = "Tocar"
+MAC510_MAINTOOLBAR_015 = "Parar"
+MAC510_MAINTOOLBAR_016 = "Primeiro compasso"
+MAC510_MAINTOOLBAR_017 = "Compasso anterior"
+MAC510_MAINTOOLBAR_018 = "Compasso seguinte"
+MAC510_MAINTOOLBAR_019 = "Ultimo compasso"
+
+*************************
+* v5.1 MAC ALERT PANELS *
+*************************
+
+MAC510_ALERTPANEL_000
+MAC510_ALERTPANEL_001 = "Quer guardar as alterações efectuadas ao documento ?"
+MAC510_ALERTPANEL_002 = "As alterações serão perdidas se não forem gravadas."
+MAC510_ALERTPANEL_003 = "Não gravar"
+MAC510_ALERTPANEL_004 = "Cancelar"
+MAC510_ALERTPANEL_005 = "Gravar"
+MAC510_ALERTPANEL_006 = "Skin não encontrada"
+
+****************************
+* v5.1 MAC GUITAR PRO MENU *
+****************************
+
+MAC510_GUITARPROMENU_000
+MAC510_GUITARPROMENU_001 = "Acerca do Guitar Pro"
+MAC510_GUITARPROMENU_002 = "Esconder o Guitar Pro"
+MAC510_GUITARPROMENU_003 = "Esconder outros"
+MAC510_GUITARPROMENU_004 = "Mostrar tudo"
+MAC510_GUITARPROMENU_005 = "Sair do Guitar Pro"
+
+**********************
+* v5.1 MAC FILE MENU *
+**********************
+
+MAC510_FILEMENU_000
+MAC510_FILEMENU_001 = "Abrir ultimos"
+MAC510_FILEMENU_002 = "Limpar o Menu"
+MAC510_FILEMENU_003 = "Fechar"
+MAC510_FILEMENU_004 = "Configurações de impressora..."
+
+***********************
+* v5.1 MAC SOUND MENU *
+***********************
+
+MAC510_SOUNDMENU_000
+MAC510_SOUNDMENU_001 = "Configurações RSE..."
+MAC510_SOUNDMENU_002 = "Tempo = "
+
+************************
+* v5.1 MAC WINDOW MENU *
+************************
+
+MAC510_WINDOWMENU_000
+MAC510_WINDOWMENU_001 = "Janela"
+MAC510_WINDOWMENU_002 = "Minimizar"
+MAC510_WINDOWMENU_003 = "Zoom"
+MAC510_WINDOWMENU_004 = "Janela de ferramentas"
+MAC510_WINDOWMENU_005 = "Tocar"
+MAC510_WINDOWMENU_006 = "Pistas"
+MAC510_WINDOWMENU_007 = "Desenhador"
+MAC510_WINDOWMENU_008 = "Organizar a barra de ferramentas..."
+MAC510_WINDOWMENU_009 = "Trazer tudo para a frente"
+
+**********************
+* v5.1 MAC HELP MENU *
+**********************
+
+MAC510_HELPMENU_000
+MAC510_HELPMENU_001 = "Ajuda do Guitar Pro"

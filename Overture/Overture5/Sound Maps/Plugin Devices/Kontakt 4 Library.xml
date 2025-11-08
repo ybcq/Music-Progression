@@ -1,0 +1,1576 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTNameDocument name="Kontakt 4 Library">
+  <Version>1</Version>
+  <Author>Sonic Scores,Inc.</Author>
+  <Device name="Kontakt4" />
+  <ArticulationNames>
+    <Articulation name="Marcato" velocityAdd="10" durationPct="90" />
+    <Articulation name="Marcato Dot" velocityAdd="20" durationPct="50" />
+    <Articulation name="Heavy Attack" velocityAdd="10" durationPct="100" />
+    <Articulation name="SForzando" velocityAdd="30" />
+    <Articulation name="SForzando Dot" velocityAdd="30" durationPct="50" />
+    <Articulation name="Heavier Attack" velocityAdd="30" durationPct="100" />
+    <Articulation name="SForzando Inverted" velocityAdd="30" />
+    <Articulation name="SForzando Dot Inverted" velocityAdd="30" durationPct="50" />
+    <Articulation name="Staccatissimo" velocityAdd="15" durationPct="50" />
+    <Articulation name="Staccato" velocityAdd="15" durationPct="70" />
+    <Articulation name="Tenuto" durationPct="100" />
+    <Articulation name="Up Bow" />
+    <Articulation name="Down Bow" velocityAdd="20" />
+    <Articulation name="Up Bow Inverted" />
+    <Articulation name="Down Bow Inverted" velocityAdd="20" />
+    <Articulation name="Arpeggio" attackFrom="-90" attackTo="0" />
+    <Articulation name="Tremolo Eighths" tremoloNotes="1" />
+    <Articulation name="Tremolo Sixteenths" tremoloNotes="2" />
+    <Articulation name="Tremolo Thirty Seconds" tremoloNotes="3" />
+    <Articulation name="Tremolo Sixty Fourths" tremoloNotes="4" />
+    <Articulation name="pizz" />
+    <Articulation name="arco" durationPct="90" />
+    <Articulation name="legato" durationPct="100" onOffset="0" />
+    <ArticulationSwitchList name="Legato Mode">
+      <Articulation name="legato" durationPct="105" onOffset="0" />
+    </ArticulationSwitchList>
+    <ArticulationSwitchList name="Tremolo">
+      <Articulation name="Tremolo Thirty Seconds" tremoloNotes="0" />
+    </ArticulationSwitchList>
+    <ArticulationSwitchList name="Violins">
+      <Articulation name="Up Bow" keySwitch="C#1" />
+      <Articulation name="Down Bow" keySwitch="C1" />
+      <Articulation name="Up Bow Inverted" keySwitch="C#1" />
+      <Articulation name="Down Bow Inverted" keySwitch="C1" />
+      <Articulation name="Staccato" keySwitch="C1" durationPct="90" />
+      <Articulation name="Staccatissimo" keySwitch="C1" velocityAdd="15" durationPct="50" />
+      <Articulation name="Tenuto" keySwitch="D1" durationPct="100" />
+      <Articulation name="SForzando" keySwitch="E1" durationPct="90" />
+      <Articulation name="SForzando Dot" keySwitch="E1" velocityAdd="15" durationPct="50" />
+      <Articulation name="Heavier Attack" keySwitch="E1" velocityAdd="15" durationPct="100" />
+      <Articulation name="SForzando Inverted" keySwitch="E1" durationPct="90" />
+      <Articulation name="SForzando Dot Inverted" keySwitch="E1" velocityAdd="15" durationPct="50" />
+      <Articulation name="pizz" keySwitch="F#1" />
+      <Articulation name="Tremolo Thirty Seconds" keySwitch="D#1" tremoloNotes="0" />
+    </ArticulationSwitchList>
+    <ArticulationSwitchList name="Piccolo">
+      <Articulation name="Staccato" keySwitch="C1" durationPct="90" />
+      <Articulation name="Staccatissimo" keySwitch="C1" velocityAdd="15" durationPct="50" />
+      <Articulation name="Tenuto" keySwitch="D1" durationPct="100" />
+      <Articulation name="SForzando" keySwitch="D#1" durationPct="90" />
+      <Articulation name="SForzando Dot" keySwitch="D#1" velocityAdd="15" durationPct="50" />
+      <Articulation name="Heavier Attack" keySwitch="D#1" velocityAdd="15" durationPct="100" />
+      <Articulation name="SForzando Inverted" keySwitch="D#1" durationPct="90" />
+      <Articulation name="SForzando Dot Inverted" keySwitch="D#1" velocityAdd="15" durationPct="50" />
+    </ArticulationSwitchList>
+    <ArticulationSwitchList name="DBasses">
+      <Articulation name="Up Bow" keySwitch="C#6" />
+      <Articulation name="Down Bow" keySwitch="C6" />
+      <Articulation name="Up Bow Inverted" keySwitch="C#6" />
+      <Articulation name="Down Bow Inverted" keySwitch="C6" />
+      <Articulation name="Staccato" keySwitch="C6" durationPct="90" />
+      <Articulation name="Staccatissimo" keySwitch="C6" velocityAdd="15" durationPct="50" />
+      <Articulation name="Tenuto" keySwitch="D6" durationPct="100" />
+      <Articulation name="SForzando" keySwitch="E6" durationPct="90" />
+      <Articulation name="SForzando Dot" keySwitch="E6" velocityAdd="15" durationPct="50" />
+      <Articulation name="Heavier Attack" keySwitch="E6" velocityAdd="15" durationPct="100" />
+      <Articulation name="SForzando Inverted" keySwitch="E6" durationPct="90" />
+      <Articulation name="SForzando Dot Inverted" keySwitch="E6" velocityAdd="15" durationPct="50" />
+      <Articulation name="pizz" keySwitch="F#6" />
+      <Articulation name="Tremolo Thirty Seconds" keySwitch="D#6" tremoloNotes="0" />
+    </ArticulationSwitchList>
+    <ArticulationSwitchList name="Bassoons">
+      <Articulation name="Staccato" keySwitch="C6" durationPct="90" />
+      <Articulation name="Staccatissimo" keySwitch="C6" velocityAdd="15" durationPct="50" />
+      <Articulation name="Tenuto" keySwitch="D6" durationPct="100" />
+      <Articulation name="SForzando" keySwitch="D#6" durationPct="90" />
+      <Articulation name="SForzando Dot" keySwitch="D#6" velocityAdd="15" durationPct="50" />
+      <Articulation name="Heavier Attack" keySwitch="D#6" velocityAdd="15" durationPct="100" />
+      <Articulation name="SForzando Inverted" keySwitch="D#6" durationPct="90" />
+      <Articulation name="SForzando Dot Inverted" keySwitch="D#6" velocityAdd="15" durationPct="50" />
+    </ArticulationSwitchList>
+    <ArticulationSwitchList name="Violins Stac">
+      <Articulation name="Staccato" durationPct="90" />
+      <Articulation name="Staccatissimo" velocityAdd="15" durationPct="50" />
+      <Articulation name="Up Bow" keySwitch="C#1" />
+      <Articulation name="Down Bow" keySwitch="C1" />
+      <Articulation name="Up Bow Inverted" keySwitch="C#1" />
+      <Articulation name="Down Bow Inverted" keySwitch="C1" />
+    </ArticulationSwitchList>
+    <ArticulationSwitchList name="DBasses Stac">
+      <Articulation name="Staccato" durationPct="90" />
+      <Articulation name="Staccatissimo" velocityAdd="15" durationPct="50" />
+      <Articulation name="Up Bow" keySwitch="C#1" />
+      <Articulation name="Down Bow" keySwitch="C1" />
+      <Articulation name="Up Bow Inverted" keySwitch="C#1" />
+      <Articulation name="Down Bow Inverted" keySwitch="C1" />
+    </ArticulationSwitchList>
+    <ArticulationSwitchList name="Staccato">
+      <Articulation name="Staccato" durationPct="90" />
+      <Articulation name="Staccatissimo" velocityAdd="15" durationPct="50" />
+    </ArticulationSwitchList>
+    <ArticulationSwitchList name="SForzando">
+      <Articulation name="SForzando" durationPct="90" />
+      <Articulation name="SForzando Dot" velocityAdd="15" durationPct="50" />
+      <Articulation name="Heavier Attack" velocityAdd="15" durationPct="100" />
+      <Articulation name="SForzando Inverted" durationPct="90" />
+      <Articulation name="SForzando Dot Inverted" velocityAdd="15" durationPct="50" />
+    </ArticulationSwitchList>
+  </ArticulationNames>
+  <KeySwitchNames>
+    <KeySwitchList name="Violins">
+      <KeySwitch name="Sustain" key="d1" />
+      <KeySwitch name="Tremolo" key="d#1" />
+      <KeySwitch name="Sforzando" key="e1" />
+      <KeySwitch name="Fortepiano" key="f1" />
+      <KeySwitch name="Pizzicato" key="f#1" />
+      <KeySwitch name="Staccato Downbow" key="c1" />
+      <KeySwitch name="Staccato Upbow" key="c#1" />
+    </KeySwitchList>
+    <KeySwitchList name="Violins Legato">
+      <KeySwitch name="Ghost Note Keyswitch" key="c2" />
+      <KeySwitch name="Release Sample" key="c#2" />
+      <KeySwitch name="Repetition Sample" key="d2" />
+    </KeySwitchList>
+    <KeySwitchList name="Cellos Legato">
+      <KeySwitch name="Ghost Note Keyswitch" key="f1" />
+      <KeySwitch name="Release Sample" key="g1" />
+      <KeySwitch name="Repetition Sample" key="a1" />
+    </KeySwitchList>
+    <KeySwitchList name="Basses Rep">
+      <KeySwitch name="Jump Last" key="b4" />
+      <KeySwitch name="Skip First On" key="a#4" />
+      <KeySwitch name="Skip First Off" key="a4" />
+    </KeySwitchList>
+    <KeySwitchList name="Bones Rep">
+      <KeySwitch name="Jump Last" key="b5" />
+      <KeySwitch name="Skip First On" key="a#5" />
+      <KeySwitch name="Skip First Off" key="a5" />
+    </KeySwitchList>
+    <KeySwitchList name="DBasses">
+      <KeySwitch name="Sustain" key="d6" />
+      <KeySwitch name="Tremolo" key="d#6" />
+      <KeySwitch name="Sforzando" key="e6" />
+      <KeySwitch name="Fortepiano" key="f6" />
+      <KeySwitch name="Pizzicato" key="f#6" />
+      <KeySwitch name="Staccato Downbow" key="c6" />
+      <KeySwitch name="Staccato Upbow" key="c#6" />
+    </KeySwitchList>
+    <KeySwitchList name="Piccolo">
+      <KeySwitch name="Sustain" key="d1" />
+      <KeySwitch name="Sforzando" key="d#1" />
+      <KeySwitch name="Fortepiano" key="e1" />
+      <KeySwitch name="Staccato 1" key="c1" />
+      <KeySwitch name="Staccato 2" key="c#1" />
+    </KeySwitchList>
+    <KeySwitchList name="Bassoon">
+      <KeySwitch name="Sustain" key="d6" />
+      <KeySwitch name="Sforzando" key="d#6" />
+      <KeySwitch name="Fortepiano" key="e6" />
+      <KeySwitch name="Staccato 1" key="c6" />
+      <KeySwitch name="Staccato 2" key="c#6" />
+    </KeySwitchList>
+    <KeySwitchList name="Violins Stac">
+      <KeySwitch name="Staccato Downbow" key="c1" />
+      <KeySwitch name="Staccato Upbow" key="c#1" />
+    </KeySwitchList>
+    <KeySwitchList name="DBasses Stac">
+      <KeySwitch name="Staccato Downbow" key="c6" />
+      <KeySwitch name="Staccato Upbow" key="c#6" />
+    </KeySwitchList>
+    <KeySwitchList name="Piccolo Stac">
+      <KeySwitch name="Staccato 1" key="c1" />
+      <KeySwitch name="Staccato 2" key="c#1" />
+    </KeySwitchList>
+    <KeySwitchList name="Bassoon Stac">
+      <KeySwitch name="Staccato 1" key="c6" />
+      <KeySwitch name="Staccato 2" key="c#6" />
+    </KeySwitchList>
+  </KeySwitchNames>
+  <ControllerNames>
+    <Controller name="Volume" cc="7" />
+    <Controller name="Panning" cc="10" />
+    <Controller name="Sustain" cc="64" />
+    <ControllerSwitchList name="XFades">
+      <Controller name="Volume Crossfade (Mod Wheel)" cc="1" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="MK2Amped">
+      <Controller name="Amplifier Volume" cc="22" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="MK2Chorus">
+      <Controller name="LFO Intensity" cc="1" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="MK2Delay">
+      <Controller name="LFO Intensity" cc="1" />
+      <Controller name="LFO Frequency" cc="20" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="MK2Saturator">
+      <Controller name="LFO Intensity" cc="1" />
+      <Controller name="LFO Frequency" cc="23" />
+      <Controller name="LFO Volume" cc="22" />
+      <Controller name="Gain 1" cc="21" />
+      <Controller name="Gain 2" cc="22" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="MK2Reasons">
+      <Controller name="Effect Volume" cc="1" />
+      <Controller name="LFO Intensity" cc="22" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="Filter">
+      <Controller name="Cutoff Filter (Mod Wheel)" cc="1" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="Flageolet">
+      <Controller name="Flageolet (Mod Wheel)" cc="1" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="Arp">
+      <Controller name="Filter Control" cc="1" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="Elektrik">
+      <Controller name="Filter Control" cc="1" />
+      <Controller name="Pan" cc="35" />
+      <Controller name="(Optional) Pan" cc="10" />
+      <Controller name="Pitch" cc="25" />
+    </ControllerSwitchList>
+  </ControllerNames>
+  <Instruments>
+    <Section name="01 Violin Ensemble" clef="treble">
+      <Group name="01 Standard Instruments" title="Violins" abbr="Vns." lownote="g3" highnote="d7">
+        <Instrument name="Violin ens 14 (all)">
+          <UsesKeySwitchList name="Violins" />
+          <UsesArticulationSwitchList name="Violins" />
+        </Instrument>
+        <Instrument name="Violin ens 14 (fortepiano)" />
+        <Instrument name="Violin ens 14 (pizzicato)" Articulation="pizz" />
+        <Instrument name="Violin ens 14 (sforzando)" Articulation="SForzando, SForzando Dot, SForzando Inverted, SForzando Dot Inverted, Heavier Attack">
+          <UsesArticulationSwitchList name="SForzando" />
+        </Instrument>
+        <Instrument name="Violin ens 14 (stac 1)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Violin ens 14 (stac 1+2 alt)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Violin ens 14 (stac 1+2)" Articulation="Staccato, Staccatissimo">
+          <UsesKeySwitchList name="Violins Stac" />
+          <UsesArticulationSwitchList name="Violins Stac" />
+        </Instrument>
+        <Instrument name="Violin ens 14 (stac 2)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Violin ens 14 (sustain)" />
+        <Instrument name="Violin ens 14 (tremolo)" Articulation="Tremolo Thirty Seconds">
+          <UsesArticulationSwitchList name="Tremolo" />
+        </Instrument>
+      </Group>
+      <Group name="02 Modwheel X-Fades" title="Violins" abbr="Vns." lownote="g3" highnote="d7">
+        <UsesControllerSwitchList name="XFades" />
+        <Instrument name="Violin ens 14 (all X)">
+          <UsesKeySwitchList name="Violins" />
+          <UsesArticulationSwitchList name="Violins" />
+        </Instrument>
+        <Instrument name="Violin ens 14 (fortepiano X)" />
+        <Instrument name="Violin ens 14 (pizzicato X)" Articulation="pizz" />
+        <Instrument name="Violin ens 14 (sforzando X)" Articulation="SForzando, SForzando Dot, SForzando Inverted, SForzando Dot Inverted, Heavier Attack">
+          <UsesArticulationSwitchList name="SForzando" />
+        </Instrument>
+        <Instrument name="Violin ens 14 (stac 1 X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Violin ens 14 (stac 1+2 alt X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Violin ens 14 (stac 1+2 X)" Articulation="Staccato, Staccatissimo">
+          <UsesKeySwitchList name="Violins Stac" />
+          <UsesArticulationSwitchList name="Violins Stac" />
+        </Instrument>
+        <Instrument name="Violin ens 14 (stac 2 X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Violin ens 14 (sustain X)" />
+        <Instrument name="Violin ens 14 (tremolo X)" Articulation="Tremolo Thirty Seconds">
+          <UsesArticulationSwitchList name="Tremolo" />
+        </Instrument>
+      </Group>
+      <Group name="03 Release Triggers" title="Violins" abbr="Vns." lownote="g3" highnote="d7">
+        <Instrument name="Violin ens 14 (sustains + rls)" />
+        <Instrument name="Violin ens 14 (tremolo + rls)" Articulation="Tremolo Thirty Seconds">
+          <UsesArticulationSwitchList name="Tremolo" />
+        </Instrument>
+      </Group>
+      <Group name="04 Legato Instruments" title="Violins" abbr="Vns." lownote="g3" highnote="d7" legato="on">
+        <Instrument name="Violin ens 14 (legato)" Articulation="legato">
+          <UsesArticuationSwitchList name="legato" />
+          <UsesKeySwitchList name="Violins Legato" />
+        </Instrument>
+      </Group>
+    </Section>
+    <Section name="02 Viola Ensemble" clef="alto">
+      <Group name="01 Standard Instruments" title="Violas" abbr="Vas." lownote="c3" highnote="e6">
+        <Instrument name="Viola ens 10 (all)">
+          <UsesKeySwitchList name="Violins" />
+          <UsesArticulationSwitchList name="Violins" />
+        </Instrument>
+        <Instrument name="Viola ens 10 (fortepiano)" />
+        <Instrument name="Viola ens 10 (pizzicato)" Articulation="pizz" />
+        <Instrument name="Viola ens 10 (sforzando)" Articulation="SForzando, SForzando Dot, SForzando Inverted, SForzando Dot Inverted, Heavier Attack">
+          <UsesArticulationSwitchList name="SForzando" />
+        </Instrument>
+        <Instrument name="Viola ens 10 (stac 1)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Viola ens 10 (stac 1+2 alt)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Viola ens 10 (stac 1+2)" Articulation="Staccato, Staccatissimo">
+          <UsesKeySwitchList name="Violins Stac" />
+          <UsesArticulationSwitchList name="Violins Stac" />
+        </Instrument>
+        <Instrument name="Viola ens 10 (stac 2)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Viola ens 10 (sustain)" />
+        <Instrument name="Viola ens 10 (tremolo)" Articulation="Tremolo Thirty Seconds">
+          <UsesArticulationSwitchList name="Tremolo" />
+        </Instrument>
+      </Group>
+      <Group name="02 Modwheel X-Fades" title="Violas" abbr="Vas." lownote="c3" highnote="e6">
+        <UsesControllerSwitchList name="XFades" />
+        <Instrument name="Viola ens 10 (all X)">
+          <UsesKeySwitchList name="Violins" />
+          <UsesArticulationSwitchList name="Violins" />
+        </Instrument>
+        <Instrument name="Viola ens 10 (fortepiano X)" />
+        <Instrument name="Viola ens 10 (pizzicato X)" Articulation="pizz" />
+        <Instrument name="Viola ens 10 (sforzando X)" Articulation="SForzando, SForzando Dot, SForzando Inverted, SForzando Dot Inverted, Heavier Attack">
+          <UsesArticulationSwitchList name="SForzando" />
+        </Instrument>
+        <Instrument name="Viola ens 10 (stac 1 X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Viola ens 10 (stac 1+2 alt X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Viola ens 10 (stac 1+2 X)" Articulation="Staccato, Staccatissimo">
+          <UsesKeySwitchList name="Violins Stac" />
+          <UsesArticulationSwitchList name="Violins Stac" />
+        </Instrument>
+        <Instrument name="Viola ens 10 (stac 2 X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Viola ens 10 (sustain X)" />
+        <Instrument name="Viola ens 10 (tremolo X)" Articulation="Tremolo Thirty Seconds">
+          <UsesArticulationSwitchList name="Tremolo" />
+        </Instrument>
+      </Group>
+      <Group name="03 Release Triggers" title="Violas" abbr="Vas." lownote="c3" highnote="e6">
+        <Instrument name="Viola ens 10 (sustain + rls)" />
+        <Instrument name="Viola ens 10 (tremolo + rls)" Articulation="Tremolo Thirty Seconds">
+          <UsesArticulationSwitchList name="Tremolo" />
+        </Instrument>
+      </Group>
+      <Group name="04 Legato Instruments" title="Violas" abbr="Vas." lownote="c3" highnote="e6">
+        <Instrument name="Viola ens 10 (legato)" Articulation="legato">
+          <UsesArticuationSwitchList name="legato" />
+          <UsesKeySwitchList name="Violins Legato" />
+        </Instrument>
+      </Group>
+    </Section>
+    <Section name="03 Cello Ensemble" clef="bass">
+      <Group name="01 Standard Instruments" title="Cellos" abbr="Vcs." lownote="c2" highnote="e5">
+        <Instrument name="Cello ens 8 (all)">
+          <UsesKeySwitchList name="Violins" />
+          <UsesArticulationSwitchList name="Violins" />
+        </Instrument>
+        <Instrument name="Cello ens 8 (fortepiano)" />
+        <Instrument name="Cello ens 8 (pizzicato)" Articulation="pizz" />
+        <Instrument name="Cello ens 8 (sforzando)" Articulation="SForzando, SForzando Dot, SForzando Inverted, SForzando Dot Inverted, Heavier Attack">
+          <UsesArticulationSwitchList name="SForzando" />
+        </Instrument>
+        <Instrument name="Cello ens 8 (stac 1)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Cello ens 8 (stac 1+2 alt)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Cello ens 8 (stac 1+2)" Articulation="Staccato, Staccatissimo">
+          <UsesKeySwitchList name="Violins Stac" />
+          <UsesArticulationSwitchList name="Violins Stac" />
+        </Instrument>
+        <Instrument name="Cello ens 8 (stac 2)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Cello ens 8 (sustain)" />
+        <Instrument name="Cello ens 8 (tremolo)" Articulation="Tremolo Thirty Seconds">
+          <UsesArticulationSwitchList name="Tremolo" />
+        </Instrument>
+      </Group>
+      <Group name="02 Modwheel X-Fades" title="Cellos" abbr="Vcs." lownote="c2" highnote="e5">
+        <UsesControllerSwitchList name="XFades" />
+        <Instrument name="Cello ens 8 (all X)">
+          <UsesKeySwitchList name="Violins" />
+          <UsesArticulationSwitchList name="Violins" />
+        </Instrument>
+        <Instrument name="Cello ens 8 (fortepiano X)" />
+        <Instrument name="Cello ens 8 (pizzicato X)" Articulation="pizz" />
+        <Instrument name="Cello ens 8 (sforzando X)" Articulation="SForzando, SForzando Dot, SForzando Inverted, SForzando Dot Inverted, Heavier Attack">
+          <UsesArticulationSwitchList name="SForzando" />
+        </Instrument>
+        <Instrument name="Cello ens 8 (stac 1 X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Cello ens 8 (stac 1+2 alt X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Cello ens 8 (stac 1+2 X)" Articulation="Staccato, Staccatissimo">
+          <UsesKeySwitchList name="Violins Stac" />
+          <UsesArticulationSwitchList name="Violins Stac" />
+        </Instrument>
+        <Instrument name="Cello ens 8 (stac 2 X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Cello ens 8 (sustain X)" />
+        <Instrument name="Cello ens 8 (tremolo X)" Articulation="Tremolo Thirty Seconds">
+          <UsesArticulationSwitchList name="Tremolo" />
+        </Instrument>
+      </Group>
+      <Group name="03 Release Triggers" title="Cellos" abbr="Vcs." lownote="c2" highnote="e5">
+        <Instrument name="Cello ens 8 (sustain + rls)" />
+        <Instrument name="Cello ens 8 (tremolo + rls)" Articulation="Tremolo Thirty Seconds">
+          <UsesArticulationSwitchList name="Tremolo" />
+        </Instrument>
+      </Group>
+      <Group name="04 Legato Instruments" title="Cellos" abbr="Vcs." lownote="c2" highnote="e5">
+        <Instrument name="Cello ens 8 (legato)" Articulation="legato">
+          <UsesArticuationSwitchList name="legato" />
+          <UsesKeySwitchList name="Cellos Legato" />
+        </Instrument>
+      </Group>
+    </Section>
+    <Section name="04 Double Bass Ensemble" clef="bass" pitchOffset="-12" >
+      <Group name="01 Standard Instruments" title="Double Basses" abbr="Dbs." lownote="b0" highnote="d4">
+        <Instrument name="Bass ens 6 (all)">
+          <UsesKeySwitchList name="DBasses" />
+          <UsesArticulationSwitchList name="DBasses" />
+        </Instrument>
+        <Instrument name="Bass ens 6 (fortepiano)" />
+        <Instrument name="Bass ens 6 (pizzicato)" Articulation="pizz" />
+        <Instrument name="Bass ens 6 (sforzando)" Articulation="SForzando, SForzando Dot, SForzando Inverted, SForzando Dot Inverted, Heavier Attack">
+          <UsesArticulationSwitchList name="SForzando" />
+        </Instrument>
+        <Instrument name="Bass ens 6 (stac 1)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Bass ens 6 (stac 1+2 alt)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Bass ens 6 (stac 1+2)" Articulation="Staccato, Staccatissimo">
+          <UsesKeySwitchList name="DBasses Stac" />
+          <UsesArticulationSwitchList name="DBasses Stac" />
+        </Instrument>
+        <Instrument name="Bass ens 6 (stac 2)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Bass ens 6 (sustain)" />
+        <Instrument name="Bass ens 6 (tremolo)" Articulation="Tremolo Thirty Seconds">
+          <UsesArticulationSwitchList name="Tremolo" />
+        </Instrument>
+      </Group>
+      <Group name="02 Modwheel X-Fades" title="Double Basses" abbr="Dbs." lownote="b0" highnote="d4">
+        <UsesControllerSwitchList name="XFades" />
+        <Instrument name="Bass ens 6 (all X)">
+          <UsesKeySwitchList name="DBasses" />
+          <UsesArticulationSwitchList name="DBasses" />
+        </Instrument>
+        <Instrument name="Bass ens 6 (fortepiano X)" />
+        <Instrument name="Bass ens 6 (pizzicato X)" Articulation="pizz" />
+        <Instrument name="Bass ens 6 (sforzando X)" Articulation="SForzando, SForzando Dot, SForzando Inverted, SForzando Dot Inverted, Heavier Attack">
+          <UsesArticulationSwitchList name="SForzando" />
+        </Instrument>
+        <Instrument name="Bass ens 6 (stac 1 X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Bass ens 6 (stac 1+2 alt X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Bass ens 6 (stac 1+2 X)" Articulation="Staccato, Staccatissimo">
+          <UsesKeySwitchList name="DBasses Stac" />
+          <UsesArticulationSwitchList name="DBasses Stac" />
+        </Instrument>
+        <Instrument name="Bass ens 6 (stac 2 X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Bass ens 6 (sustain X)" />
+        <Instrument name="Bass ens 6 (tremolo X)" Articulation="Tremolo Thirty Seconds">
+          <UsesArticulationSwitchList name="Tremolo" />
+        </Instrument>
+      </Group>
+      <Group name="03 Release Triggers" title="Double Basses" abbr="Dbs." lownote="b0" highnote="d4">
+        <Instrument name="Bass ens 6 (sustain + rls)" />
+        <Instrument name="Bass ens 6 (tremolo + rls)" Articulation="Tremolo Thirty Seconds">
+          <UsesArticulationSwitchList name="Tremolo" />
+        </Instrument>
+      </Group>
+      <Group name="04 Repetition Instruments" title="Double Basses" abbr="Dbs." lownote="b0" highnote="d4">
+        <Instrument name="Bass ens 6 (repetition)" />
+        <UsesKeySwitchList name="Basses Rep" />
+      </Group>
+    </Section>
+    <Section name="05 Harp" clef="treble">
+      <Group name="01 Standard Instruments" title="Harp" abbr="Hrp." lownote="b0" highnote="a7">
+        <Instrument name="Harp (all)">
+          <UsesControllerSwitchList name="Flageolet" />
+        </Instrument>
+        <Instrument name="Harp (flageolet)" lownote="f3" highnote="g#6" />
+        <Instrument name="Harp (normal)" />
+      </Group>
+    </Section>
+    <Section name="06 Piccolo Flute" clef="treble" pitchOffset="12" transpose="-12">
+      <Group name="01 Standard Instruments" title="Piccolo Flute" abbr="PiccFl." lownote="c5" highnote="d8">
+        <Instrument name="Piccolo (all)">
+          <UsesKeySwitchList name="Piccolo" />
+          <UsesArticulationSwitchList name="Piccolo" />
+        </Instrument>
+        <Instrument name="Piccolo (fortepiano)" />
+        <Instrument name="Piccolo (sforzando)" Articulation="SForzando, SForzando Dot, SForzando Inverted, SForzando Dot Inverted, Heavier Attack">
+          <UsesArticulationSwitchList name="SForzando" />
+        </Instrument>
+        <Instrument name="Piccolo (stac 1)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Piccolo (stac 1+2 alt)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Piccolo (stac 1+2)" Articulation="Staccato, Staccatissimo">
+          <UsesKeySwitchList name="Piccolo Stac" />
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Piccolo (stac 2)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Piccolo (sustain)" />
+      </Group>
+      <Group name="02 Modwheel X-Fades" title="Piccolo Flute" abbr="PiccFl." lownote="c5" highnote="d8">
+        <UsesControllerSwitchList name="XFades" />
+        <Instrument name="Piccolo (all X)">
+          <UsesKeySwitchList name="Piccolo" />
+          <UsesArticulationSwitchList name="Piccolo" />
+        </Instrument>
+        <Instrument name="Piccolo (fortepiano X)" />
+        <Instrument name="Piccolo (sforzando X)" Articulation="SForzando, SForzando Dot, SForzando Inverted, SForzando Dot Inverted, Heavier Attack">
+          <UsesArticulationSwitchList name="SForzando" />
+        </Instrument>
+        <Instrument name="Piccolo (stac 1 X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Piccolo (stac 1+2 alt X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Piccolo (stac 1+2 X)" Articulation="Staccato, Staccatissimo">
+          <UsesKeySwitchList name="Piccolo Stac" />
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Piccolo (stac 2 X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Piccolo (sustain X)" />
+      </Group>
+      <Group name="03 Release Triggers" title="Piccolo Flute" abbr="PiccFl." lownote="c5" highnote="d8">
+        <Instrument name="Piccolo (sustain + rls)" />
+      </Group>
+    </Section>
+    <Section name="07 Flute" clef="treble">
+      <Group name="01 Standard Instruments" title="Flute" abbr="Fl." lownote="b3" highnote="f7">
+        <Instrument name="Flute (all)">
+          <UsesKeySwitchList name="Piccolo" />
+          <UsesArticulationSwitchList name="Piccolo" />
+        </Instrument>
+        <Instrument name="Flute (fortepiano)" />
+        <Instrument name="Flute (sforzando)" Articulation="SForzando, SForzando Dot, SForzando Inverted, SForzando Dot Inverted, Heavier Attack">
+          <UsesArticulationSwitchList name="SForzando" />
+        </Instrument>
+        <Instrument name="Flute (stac 1)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Flute (stac 1+2 alt)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Flute (stac 1+2)" Articulation="Staccato, Staccatissimo">
+          <UsesKeySwitchList name="Piccolo Stac" />
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Flute (stac 2)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Flute (sustain)" />
+      </Group>
+      <Group name="02 Modwheel X-Fades" title="Flute" abbr="Fl." lownote="b3" highnote="f7">
+        <UsesControllerSwitchList name="XFades" />
+        <Instrument name="Flute (all X)">
+          <UsesKeySwitchList name="Piccolo" />
+          <UsesArticulationSwitchList name="Piccolo" />
+        </Instrument>
+        <Instrument name="Flute (fortepiano X)" />
+        <Instrument name="Flute (sforzando X)" Articulation="SForzando, SForzando Dot, SForzando Inverted, SForzando Dot Inverted, Heavier Attack">
+          <UsesArticulationSwitchList name="SForzando" />
+        </Instrument>
+        <Instrument name="Flute (stac 1 X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Flute (stac 1+2 alt X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Flute (stac 1+2 X)" Articulation="Staccato, Staccatissimo">
+          <UsesKeySwitchList name="Piccolo Stac" />
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Flute (stac 2 X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Flute (sustain X)" />
+      </Group>
+      <Group name="03 Release Triggers" title="Flute" abbr="Fl." lownote="b3" highnote="f7">
+        <Instrument name="Flute (sustain + rls)" />
+      </Group>
+      <Group name="04 Legato Instruments" title="Flute" abbr="Fl." lownote="b3" highnote="f7">
+        <Instrument name="Flute (legato)" Articulation="legato">
+          <UsesArticuationSwitchList name="legato" />
+          <UsesKeySwitchList name="Violins Legato" />
+        </Instrument>
+      </Group>
+    </Section>
+    <Section name="08 Oboe" clef="treble">
+      <Group name="01 Standard Instruments" title="Oboe" abbr="Ob." lownote="a#3" highnote="a#6">
+        <Instrument name="Oboe (all)">
+          <UsesKeySwitchList name="Piccolo" />
+          <UsesArticulationSwitchList name="Piccolo" />
+        </Instrument>
+        <Instrument name="Oboe (fortepiano)" />
+        <Instrument name="Oboe (sforzando)" Articulation="SForzando, SForzando Dot, SForzando Inverted, SForzando Dot Inverted, Heavier Attack">
+          <UsesArticulationSwitchList name="SForzando" />
+        </Instrument>
+        <Instrument name="Oboe (stac 1)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Oboe (stac 1+2 alt)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Oboe (stac 1+2)" Articulation="Staccato, Staccatissimo">
+          <UsesKeySwitchList name="Piccolo Stac" />
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Oboe (stac 2)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Oboe (sustain)" />
+      </Group>
+      <Group name="02 Modwheel X-Fades" title="Oboe" abbr="Ob." lownote="a#3" highnote="a#6">
+        <UsesControllerSwitchList name="XFades" />
+        <Instrument name="Oboe (all X)">
+          <UsesKeySwitchList name="Piccolo" />
+          <UsesArticulationSwitchList name="Piccolo" />
+        </Instrument>
+        <Instrument name="Oboe (fortepiano X)" />
+        <Instrument name="Oboe (sforzando X)" Articulation="SForzando, SForzando Dot, SForzando Inverted, SForzando Dot Inverted, Heavier Attack">
+          <UsesArticulationSwitchList name="SForzando" />
+        </Instrument>
+        <Instrument name="Oboe (stac 1 X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Oboe (stac 1+2 alt X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Oboe (stac 1+2 X)" Articulation="Staccato, Staccatissimo">
+          <UsesKeySwitchList name="Piccolo Stac" />
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Oboe (stac 2 X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Oboe (sustain X)" />
+      </Group>
+      <Group name="03 Release Triggers" title="Oboe" abbr="Ob." lownote="a#3" highnote="a#6">
+        <Instrument name="Oboe (sustain + rls)" />
+      </Group>
+    </Section>
+    <Section name="09 French Oboe" clef="treble">
+      <Group name="01 Standard Instruments" title="French Oboe" abbr="Ob." lownote="a#3" highnote="a#6">
+        <Instrument name="French Oboe (all)">
+          <UsesKeySwitchList name="Piccolo" />
+          <UsesArticulationSwitchList name="Piccolo" />
+        </Instrument>
+        <Instrument name="French Oboe (fortepiano)" />
+        <Instrument name="French Oboe (sforzando)" Articulation="SForzando, SForzando Dot, SForzando Inverted, SForzando Dot Inverted, Heavier Attack">
+          <UsesArticulationSwitchList name="SForzando" />
+        </Instrument>
+        <Instrument name="French Oboe (stac 1)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="French Oboe (stac 1+2 alt)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="French Oboe (stac 1+2)" Articulation="Staccato, Staccatissimo">
+          <UsesKeySwitchList name="Piccolo Stac" />
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="French Oboe (stac 2)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="French Oboe (sustain)" />
+      </Group>
+      <Group name="02 Modwheel X-Fades" title="French Oboe" abbr="Ob." lownote="a#3" highnote="a#6">
+        <UsesControllerSwitchList name="XFades" />
+        <Instrument name="French Oboe (all X)">
+          <UsesKeySwitchList name="Piccolo" />
+          <UsesArticulationSwitchList name="Piccolo" />
+        </Instrument>
+        <Instrument name="French Oboe (fortepiano X)" />
+        <Instrument name="French Oboe (sforzando X)" Articulation="SForzando, SForzando Dot, SForzando Inverted, SForzando Dot Inverted, Heavier Attack">
+          <UsesArticulationSwitchList name="SForzando" />
+        </Instrument>
+        <Instrument name="French Oboe (stac 1 X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="French Oboe (stac 1+2 alt X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="French Oboe (stac 1+2 X)" Articulation="Staccato, Staccatissimo">
+          <UsesKeySwitchList name="Piccolo Stac" />
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="French Oboe (stac 2 X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="French Oboe (sustain X)" />
+      </Group>
+      <Group name="03 Release Triggers" title="French Oboe" abbr="Ob." lownote="a#3" highnote="a#6">
+        <Instrument name="French Oboe (sustain + rls)" />
+      </Group>
+    </Section>
+    <Section name="10 English Horn" clef="treble" transpose="7">
+      <Group name="01 Standard Instruments" title="English Horn" abbr="E Hn." lownote="e3" highnote="d6">
+        <Instrument name="English Horn (all)">
+          <UsesKeySwitchList name="Piccolo" />
+          <UsesArticulationSwitchList name="Piccolo" />
+        </Instrument>
+        <Instrument name="English Horn (fortepiano)" />
+        <Instrument name="English Horn (sforzando)" Articulation="SForzando, SForzando Dot, SForzando Inverted, SForzando Dot Inverted, Heavier Attack">
+          <UsesArticulationSwitchList name="SForzando" />
+        </Instrument>
+        <Instrument name="English Horn (stac 1)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="English Horn (stac 1+2 alt)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="English Horn (stac 1+2)" Articulation="Staccato, Staccatissimo">
+          <UsesKeySwitchList name="Piccolo Stac" />
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="English Horn (stac 2)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="English Horn (sustain)" />
+      </Group>
+      <Group name="02 Modwheel X-Fades" title="English Horn" abbr="E Hn." lownote="e3" highnote="d6">
+        <UsesControllerSwitchList name="XFades" />
+        <Instrument name="English Horn (all X)">
+          <UsesKeySwitchList name="Piccolo" />
+          <UsesArticulationSwitchList name="Piccolo" />
+        </Instrument>
+        <Instrument name="English Horn (fortepiano X)" />
+        <Instrument name="English Horn (sforzando X)" Articulation="SForzando, SForzando Dot, SForzando Inverted, SForzando Dot Inverted, Heavier Attack">
+          <UsesArticulationSwitchList name="SForzando" />
+        </Instrument>
+        <Instrument name="English Horn (stac 1 X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="English Horn (stac 1+2 alt X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="English Horn (stac 1+2 X)" Articulation="Staccato, Staccatissimo">
+          <UsesKeySwitchList name="Piccolo Stac" />
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="English Horn (stac 2 X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="English Horn (sustain X)" />
+      </Group>
+      <Group name="03 Release Triggers" title="English Horn" abbr="E Hn." lownote="e3" highnote="d6">
+        <Instrument name="English Horn (sustain + rls)" />
+      </Group>
+    </Section>
+    <Section name="11 Clarinet" clef="treble" transpose="2">
+      <Group name="01 Standard Instruments" title="Clarinet" abbr="Cl." lownote="d3" highnote="a6">
+        <Instrument name="Clarinet (all)">
+          <UsesKeySwitchList name="Piccolo" />
+          <UsesArticulationSwitchList name="Piccolo" />
+        </Instrument>
+        <Instrument name="Clarinet (fortepiano)" />
+        <Instrument name="Clarinet (sforzando)" Articulation="SForzando, SForzando Dot, SForzando Inverted, SForzando Dot Inverted, Heavier Attack">
+          <UsesArticulationSwitchList name="SForzando" />
+        </Instrument>
+        <Instrument name="Clarinet (stac 1)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Clarinet (stac 1+2 alt)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Clarinet (stac 1+2)" Articulation="Staccato, Staccatissimo">
+          <UsesKeySwitchList name="Piccolo Stac" />
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Clarinet (stac 2)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Clarinet (sustain)" />
+      </Group>
+      <Group name="02 Modwheel X-Fades" title="Clarinet" abbr="Cl." lownote="d3" highnote="a6">
+        <UsesControllerSwitchList name="XFades" />
+        <Instrument name="Clarinet (all X)">
+          <UsesKeySwitchList name="Piccolo" />
+          <UsesArticulationSwitchList name="Piccolo" />
+        </Instrument>
+        <Instrument name="Clarinet (fortepiano X)" />
+        <Instrument name="Clarinet (sforzando X)" Articulation="SForzando, SForzando Dot, SForzando Inverted, SForzando Dot Inverted, Heavier Attack">
+          <UsesArticulationSwitchList name="SForzando" />
+        </Instrument>
+        <Instrument name="Clarinet (stac 1 X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Clarinet (stac 1+2 alt X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Clarinet (stac 1+2 X)" Articulation="Staccato, Staccatissimo">
+          <UsesKeySwitchList name="Piccolo Stac" />
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Clarinet (stac 2 X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Clarinet (sustain X)" />
+      </Group>
+      <Group name="03 Release Triggers" title="Clarinet" abbr="Cl." lownote="d3" highnote="a6">
+        <Instrument name="Clarinet (sustain + rls)" />
+      </Group>
+    </Section>
+    <Section name="12 Bass Clarinet" clef="treble" transpose="2" pitchOffset="-12">
+      <Group name="01 Standard Instruments" title="Bass Clarinet" abbr="BCl." lownote="a#1" highnote="c#3">
+        <Instrument name="Bass Clar (all)">
+          <UsesKeySwitchList name="Piccolo" />
+          <UsesArticulationSwitchList name="Piccolo" />
+        </Instrument>
+        <Instrument name="Bass Clar (fortepiano)" />
+        <Instrument name="Bass Clar (sforzando)" Articulation="SForzando, SForzando Dot, SForzando Inverted, SForzando Dot Inverted, Heavier Attack">
+          <UsesArticulationSwitchList name="SForzando" />
+        </Instrument>
+        <Instrument name="Bass Clar (stac 1)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Bass Clar (stac 1+2 alt)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Bass Clar (stac 1+2)" Articulation="Staccato, Staccatissimo">
+          <UsesKeySwitchList name="Piccolo Stac" />
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Bass Clar (stac 2)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Bass Clar (sustain)" />
+      </Group>
+      <Group name="02 Modwheel X-Fades" title="Bass Clarinet" abbr="BCl." lownote="a#1" highnote="c#3">
+        <UsesControllerSwitchList name="XFades" />
+        <Instrument name="Bass Clar (all X)">
+          <UsesKeySwitchList name="Piccolo" />
+          <UsesArticulationSwitchList name="Piccolo" />
+        </Instrument>
+        <Instrument name="Bass Clar (fortepiano X)" />
+        <Instrument name="Bass Clar (sforzando X)" Articulation="SForzando, SForzando Dot, SForzando Inverted, SForzando Dot Inverted, Heavier Attack">
+          <UsesArticulationSwitchList name="SForzando" />
+        </Instrument>
+        <Instrument name="Bass Clar (stac 1 X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Bass Clar (stac 1+2 alt X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Bass Clar (stac 1+2 X)" Articulation="Staccato, Staccatissimo">
+          <UsesKeySwitchList name="Piccolo Stac" />
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Bass Clar (stac 2 X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Bass Clar (sustain X)" />
+      </Group>
+      <Group name="03 Release Triggers" title="Bass Clarinet" abbr="BCl." lownote="a#1" highnote="c#3">
+        <Instrument name="Bass Clar (sustain + rls)" />
+      </Group>
+    </Section>
+    <Section name="13 Clarinet and Bass Clarinet" clef="treble" transpose="2">
+      <Group name="01 Standard Instruments" title="Clarinet" abbr="Cl." lownote="a#1" highnote="a6">
+        <Instrument name="Clar Combi (all)">
+          <UsesKeySwitchList name="Piccolo" />
+          <UsesArticulationSwitchList name="Piccolo" />
+        </Instrument>
+        <Instrument name="Clar Combi (fortepiano)" />
+        <Instrument name="Clar Combi (sforzando)" Articulation="SForzando, SForzando Dot, SForzando Inverted, SForzando Dot Inverted, Heavier Attack">
+          <UsesArticulationSwitchList name="SForzando" />
+        </Instrument>
+        <Instrument name="Clar Combi (stac 1)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Clar Combi (stac 1+2 alt)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Clar Combi (stac 1+2)" Articulation="Staccato, Staccatissimo">
+          <UsesKeySwitchList name="Piccolo Stac" />
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Clar Combi (stac 2)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Clar Combi (sustain)" />
+      </Group>
+      <Group name="02 Modwheel X-Fades" title="Clarinet" abbr="Cl." lownote="a#1" highnote="a6">
+        <UsesControllerSwitchList name="XFades" />
+        <Instrument name="Clar Combi (all X)">
+          <UsesKeySwitchList name="Piccolo" />
+          <UsesArticulationSwitchList name="Piccolo" />
+        </Instrument>
+        <Instrument name="Clar Combi (fortepiano X)" />
+        <Instrument name="Clar Combi (sforzando X)" Articulation="SForzando, SForzando Dot, SForzando Inverted, SForzando Dot Inverted, Heavier Attack">
+          <UsesArticulationSwitchList name="SForzando" />
+        </Instrument>
+        <Instrument name="Clar Combi (stac 1 X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Clar Combi (stac 1+2 alt X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Clar Combi (stac 1+2 X)" Articulation="Staccato, Staccatissimo">
+          <UsesKeySwitchList name="Piccolo Stac" />
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Clar Combi (stac 2 X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Clar Combi (sustain X)" />
+      </Group>
+      <Group name="03 Release Triggers" title="Clarinet" abbr="Cl." lownote="a#1" highnote="a6">
+        <Instrument name="Clar Combi (sustain + rls)" />
+      </Group>
+    </Section>
+    <Section name="14 Bassoon" clef="bass">
+      <Group name="01 Standard Instruments" title="Bassoon" abbr="Bn." lownote="a#1" highnote="f5">
+        <Instrument name="Bassoon (all)">
+          <UsesKeySwitchList name="Bassoon" />
+          <UsesArticulationSwitchList name="Bassoon" />
+        </Instrument>
+        <Instrument name="Bassoon (fortepiano)" />
+        <Instrument name="Bassoon (sforzando)" Articulation="SForzando, SForzando Dot, SForzando Inverted, SForzando Dot Inverted, Heavier Attack">
+          <UsesArticulationSwitchList name="SForzando" />
+        </Instrument>
+        <Instrument name="Bassoon (stac 1)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Bassoon (stac 1+2 alt)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Bassoon (stac 1+2)" Articulation="Staccato, Staccatissimo">
+          <UsesKeySwitchList name="Bassoon Stac" />
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Bassoon (stac 2)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Bassoon (sustain)" />
+      </Group>
+      <Group name="02 Modwheel X-Fades" title="Bassoon" abbr="Bn." lownote="a#1" highnote="f5">
+        <UsesControllerSwitchList name="XFades" />
+        <Instrument name="Bassoon (all X)">
+          <UsesKeySwitchList name="Bassoon" />
+          <UsesArticulationSwitchList name="Bassoon" />
+        </Instrument>
+        <Instrument name="Bassoon (fortepiano X)" />
+        <Instrument name="Bassoon (sforzando X)" Articulation="SForzando, SForzando Dot, SForzando Inverted, SForzando Dot Inverted, Heavier Attack">
+          <UsesArticulationSwitchList name="SForzando" />
+        </Instrument>
+        <Instrument name="Bassoon (stac 1 X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Bassoon (stac 1+2 alt X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Bassoon (stac 1+2 X)" Articulation="Staccato, Staccatissimo">
+          <UsesKeySwitchList name="Bassoon Stac" />
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Bassoon (stac 2 X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Bassoon (sustain X)" />
+      </Group>
+      <Group name="03 Release Triggers" title="Bassoon" abbr="Bn." lownote="a#1" highnote="f5">
+        <Instrument name="Bassoon (sustain + rls)" />
+      </Group>
+    </Section>
+    <Section name="15 Contrabassoon" clef="bass" pitchOffset="-12" >
+      <Group name="01 Standard Instruments" title="Contrabassoon" abbr="CBn." lownote="a#0" highnote="a1">
+        <Instrument name="C-Bassoon (all)">
+          <UsesKeySwitchList name="Bassoon" />
+          <UsesArticulationSwitchList name="Bassoon" />
+        </Instrument>
+        <Instrument name="C-Bassoon (fortepiano)" />
+        <Instrument name="C-Bassoon (sforzando)" Articulation="SForzando, SForzando Dot, SForzando Inverted, SForzando Dot Inverted, Heavier Attack">
+          <UsesArticulationSwitchList name="SForzando" />
+        </Instrument>
+        <Instrument name="C-Bassoon (stac 1)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="C-Bassoon (stac 1+2 alt)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="C-Bassoon (stac 1+2)" Articulation="Staccato, Staccatissimo">
+          <UsesKeySwitchList name="Bassoon Stac" />
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="C-Bassoon (stac 2)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="C-Bassoon (sustain)" />
+      </Group>
+      <Group name="02 Modwheel X-Fades" title="Contrabassoon" abbr="CBn." lownote="a#0" highnote="a1">
+        <UsesControllerSwitchList name="XFades" />
+        <Instrument name="C-Bassoon (all X)">
+          <UsesKeySwitchList name="Bassoon" />
+          <UsesArticulationSwitchList name="Bassoon" />
+        </Instrument>
+        <Instrument name="C-Bassoon (fortepiano X)" />
+        <Instrument name="C-Bassoon (sforzando X)" Articulation="SForzando, SForzando Dot, SForzando Inverted, SForzando Dot Inverted, Heavier Attack">
+          <UsesArticulationSwitchList name="SForzando" />
+        </Instrument>
+        <Instrument name="C-Bassoon (stac 1 X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="C-Bassoon (stac 1+2 alt X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="C-Bassoon (stac 1+2 X)" Articulation="Staccato, Staccatissimo">
+          <UsesKeySwitchList name="Bassoon Stac" />
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="C-Bassoon (stac 2 X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="C-Bassoon (sustain X)" />
+      </Group>
+      <Group name="03 Release Triggers" title="Contrabassoon" abbr="CBn." lownote="a#0" highnote="a1">
+        <Instrument name="C-Bassoon (sustain + rls)" />
+      </Group>
+    </Section>
+    <Section name="16 Bassoon and Contrabasson" clef="bass">
+      <Group name="01 Standard Instruments" title="Bassoon" abbr="Bn." lownote="a#0" highnote="f5">
+        <Instrument name="Bsn Combi (all)">
+          <UsesKeySwitchList name="Bassoon" />
+          <UsesArticulationSwitchList name="Bassoon" />
+        </Instrument>
+        <Instrument name="Bsn Combi (fortepiano)" />
+        <Instrument name="Bsn Combi (sforzando)" Articulation="SForzando, SForzando Dot, SForzando Inverted, SForzando Dot Inverted, Heavier Attack">
+          <UsesArticulationSwitchList name="SForzando" />
+        </Instrument>
+        <Instrument name="Bsn Combi (stac 1)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Bsn Combi (stac 1+2 alt)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Bsn Combi (stac 1+2)" Articulation="Staccato, Staccatissimo">
+          <UsesKeySwitchList name="Bassoon Stac" />
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Bsn Combi (stac 2)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Bsn Combi (sustain)" />
+      </Group>
+      <Group name="02 Modwheel X-Fades" title="Bassoon" abbr="Bn." lownote="a#0" highnote="f5">
+        <UsesControllerSwitchList name="XFades" />
+        <Instrument name="Bsn Combi (all X)">
+          <UsesKeySwitchList name="Bassoon" />
+          <UsesArticulationSwitchList name="Bassoon" />
+        </Instrument>
+        <Instrument name="Bsn Combi (fortepiano X)" />
+        <Instrument name="Bsn Combi (sforzando X)" Articulation="SForzando, SForzando Dot, SForzando Inverted, SForzando Dot Inverted, Heavier Attack">
+          <UsesArticulationSwitchList name="SForzando" />
+        </Instrument>
+        <Instrument name="Bsn Combi (stac 1 X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Bsn Combi (stac 1+2 alt X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Bsn Combi (stac 1+2 X)" Articulation="Staccato, Staccatissimo">
+          <UsesKeySwitchList name="Bassoon Stac" />
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Bsn Combi (stac 2 X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Bsn Combi (sustain X)" />
+      </Group>
+      <Group name="03 Release Triggers" title="Bassoon" abbr="Bn." lownote="a#0" highnote="f5">
+        <Instrument name="Bsn Combi (sustain + rls)" />
+      </Group>
+    </Section>
+    <Section name="17 Trumpet Solo" clef="treble">
+      <Group name="01 Standard Instruments" title="Trumpet" abbr="Tpt." lownote="e3" highnote="d6">
+        <Instrument name="Trumpet (all)">
+          <UsesKeySwitchList name="Piccolo" />
+          <UsesArticulationSwitchList name="Piccolo" />
+        </Instrument>
+        <Instrument name="Trumpet (fortepiano)" />
+        <Instrument name="Trumpet (sforzando)" Articulation="SForzando, SForzando Dot, SForzando Inverted, SForzando Dot Inverted, Heavier Attack">
+          <UsesArticulationSwitchList name="SForzando" />
+        </Instrument>
+        <Instrument name="Trumpet (stac 1)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Trumpet (stac 1+2 alt)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Trumpet (stac 1+2)" Articulation="Staccato, Staccatissimo">
+          <UsesKeySwitchList name="Piccolo Stac" />
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Trumpet (stac 2)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Trumpet (sustain)" />
+        <Instrument name="Trumpet (sustain + flt)">
+          <UsesControllerSwitchList name="Filter" />
+        </Instrument>
+      </Group>
+      <Group name="02 Modwheel X-Fades" title="Trumpet" abbr="Tpt." lownote="e3" highnote="d6">
+        <UsesControllerSwitchList name="XFades" />
+        <Instrument name="Trumpet (all X)">
+          <UsesKeySwitchList name="Piccolo" />
+          <UsesArticulationSwitchList name="Piccolo" />
+        </Instrument>
+        <Instrument name="Trumpet (fortepiano X)" />
+        <Instrument name="Trumpet (sforzando X)" Articulation="SForzando, SForzando Dot, SForzando Inverted, SForzando Dot Inverted, Heavier Attack">
+          <UsesArticulationSwitchList name="SForzando" />
+        </Instrument>
+        <Instrument name="Trumpet (stac 1 X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Trumpet (stac 1+2 alt X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Trumpet (stac 1+2 X)" Articulation="Staccato, Staccatissimo">
+          <UsesKeySwitchList name="Piccolo Stac" />
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Trumpet (stac 2 X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Trumpet (sustain X)" />
+      </Group>
+      <Group name="03 Release Triggers" title="Trumpet" abbr="Tpt." lownote="e3" highnote="d6">
+        <Instrument name="Trumpet (sustain + flt + rls)">
+          <UsesControllerSwitchList name="Filter" />
+        </Instrument>
+        <Instrument name="Trumpet (sustain + rls)" />
+      </Group>
+    </Section>
+    <Section name="18 Trumpet Ensemble" clef="treble">
+      <Group name="01 Standard Instruments" title="Trumpets" abbr="Tpts." lownote="f#3" highnote="d#6">
+        <Instrument name="Trumpet ens 3 (all)">
+          <UsesKeySwitchList name="Piccolo" />
+          <UsesArticulationSwitchList name="Piccolo" />
+        </Instrument>
+        <Instrument name="Trumpet ens 3 (fortepiano)" />
+        <Instrument name="Trumpet ens 3 (sforzando)" Articulation="SForzando, SForzando Dot, SForzando Inverted, SForzando Dot Inverted, Heavier Attack">
+          <UsesArticulationSwitchList name="SForzando" />
+        </Instrument>
+        <Instrument name="Trumpet ens 3 (stac 1)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Trumpet ens 3 (stac 1+2 alt)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Trumpet ens 3 (stac 1+2)" Articulation="Staccato, Staccatissimo">
+          <UsesKeySwitchList name="Piccolo Stac" />
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Trumpet ens 3 (stac 2)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Trumpet ens 3 (sustain)" />
+        <Instrument name="Trumpet ens 3 (sustain + flt)">
+          <UsesControllerSwitchList name="Filter" />
+        </Instrument>
+      </Group>
+      <Group name="02 Modwheel X-Fades" title="Trumpets" abbr="Tpts." lownote="f#3" highnote="d#6">
+        <UsesControllerSwitchList name="XFades" />
+        <Instrument name="Trumpet ens 3 (all X)">
+          <UsesKeySwitchList name="Piccolo" />
+          <UsesArticulationSwitchList name="Piccolo" />
+        </Instrument>
+        <Instrument name="Trumpet ens 3 (fortepiano X)" />
+        <Instrument name="Trumpet ens 3 (sforzando X)" Articulation="SForzando, SForzando Dot, SForzando Inverted, SForzando Dot Inverted, Heavier Attack">
+          <UsesArticulationSwitchList name="SForzando" />
+        </Instrument>
+        <Instrument name="Trumpet ens 3 (stac 1 X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Trumpet ens 3 (stac 1+2 alt X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Trumpet ens 3 (stac 1+2 X)" Articulation="Staccato, Staccatissimo">
+          <UsesKeySwitchList name="Piccolo Stac" />
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Trumpet ens 3 (stac 2 X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Trumpet ens 3 (sustain X)" />
+      </Group>
+      <Group name="03 Release Triggers" title="Trumpets" abbr="Tpts." lownote="f#3" highnote="d#6">
+        <Instrument name="Trumpet ens 3 (sustain + flt + rls)">
+          <UsesControllerSwitchList name="Filter" />
+        </Instrument>
+        <Instrument name="Trumpet ens 3 (sustain + rls)" />
+      </Group>
+    </Section>
+    <Section name="19 French Horn Solo" clef="treble" transpose="7">
+      <Group name="01 Standard Instruments" title="French Horn" abbr="F Hn." lownote="a#1" highnote="g5">
+        <Instrument name="French Horn (all)">
+          <UsesKeySwitchList name="Piccolo" />
+          <UsesArticulationSwitchList name="Piccolo" />
+        </Instrument>
+        <Instrument name="French Horn (fortepiano)" />
+        <Instrument name="French Horn (sforzando)" Articulation="SForzando, SForzando Dot, SForzando Inverted, SForzando Dot Inverted, Heavier Attack">
+          <UsesArticulationSwitchList name="SForzando" />
+        </Instrument>
+        <Instrument name="French Horn (stac 1)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="French Horn (stac 1+2 alt)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="French Horn (stac 1+2)" Articulation="Staccato, Staccatissimo">
+          <UsesKeySwitchList name="Piccolo Stac" />
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="French Horn (stac 2)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="French Horn (sustain)" />
+        <Instrument name="French Horn (sustain + flt)">
+          <UsesControllerSwitchList name="Filter" />
+        </Instrument>
+      </Group>
+      <Group name="02 Modwheel X-Fades" title="French Horn" abbr="F Hn." lownote="a#1" highnote="g5">
+        <UsesControllerSwitchList name="XFades" />
+        <Instrument name="French Horn (all X)">
+          <UsesKeySwitchList name="Piccolo" />
+          <UsesArticulationSwitchList name="Piccolo" />
+        </Instrument>
+        <Instrument name="French Horn (fortepiano X)" />
+        <Instrument name="French Horn (sforzando X)" Articulation="SForzando, SForzando Dot, SForzando Inverted, SForzando Dot Inverted, Heavier Attack">
+          <UsesArticulationSwitchList name="SForzando" />
+        </Instrument>
+        <Instrument name="French Horn (stac 1 X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="French Horn (stac 1+2 alt X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="French Horn (stac 1+2 X)" Articulation="Staccato, Staccatissimo">
+          <UsesKeySwitchList name="Piccolo Stac" />
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="French Horn (stac 2 X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="French Horn (sustain X)" />
+      </Group>
+      <Group name="03 Release Triggers" title="French Horn" abbr="F Hn." lownote="a#1" highnote="g5">
+        <Instrument name="French Horn (sustain + flt + rls)">
+          <UsesControllerSwitchList name="Filter" />
+        </Instrument>
+        <Instrument name="French Horn (sustain + rls)" />
+      </Group>
+    </Section>
+    <Section name="20 French Horn Ensemble" clef="treble" transpose="7">
+      <Group name="01 Standard Instruments" title="French Horns" abbr="F Hns." lownote="g#2" highnote="f5">
+        <Instrument name="Frn Horn ens 4 (all)">
+          <UsesKeySwitchList name="Piccolo" />
+          <UsesArticulationSwitchList name="Piccolo" />
+        </Instrument>
+        <Instrument name="Frn Horn ens 4 (fortepiano)" />
+        <Instrument name="Frn Horn ens 4 (sforzando)" Articulation="SForzando, SForzando Dot, SForzando Inverted, SForzando Dot Inverted, Heavier Attack">
+          <UsesArticulationSwitchList name="SForzando" />
+        </Instrument>
+        <Instrument name="Frn Horn ens 4 (stac 1)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Frn Horn ens 4 (stac 1+2 alt)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Frn Horn ens 4 (stac 1+2)" Articulation="Staccato, Staccatissimo">
+          <UsesKeySwitchList name="Piccolo Stac" />
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Frn Horn ens 4 (stac 2)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Frn Horn ens 4 (sustain)" />
+        <Instrument name="Frn Horn ens 4 (sustain + flt)">
+          <UsesControllerSwitchList name="Filter" />
+        </Instrument>
+      </Group>
+      <Group name="02 Modwheel X-Fades" title="French Horns" abbr="F Hns." lownote="g#2" highnote="f5">
+        <UsesControllerSwitchList name="XFades" />
+        <Instrument name="Frn Horn ens 4 (all X)">
+          <UsesKeySwitchList name="Piccolo" />
+          <UsesArticulationSwitchList name="Piccolo" />
+        </Instrument>
+        <Instrument name="Frn Horn ens 4 (fortepiano X)" />
+        <Instrument name="Frn Horn ens 4 (sforzando X)" Articulation="SForzando, SForzando Dot, SForzando Inverted, SForzando Dot Inverted, Heavier Attack">
+          <UsesArticulationSwitchList name="SForzando" />
+        </Instrument>
+        <Instrument name="Frn Horn ens 4 (stac 1 X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Frn Horn ens 4 (stac 1+2 alt X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Frn Horn ens 4 (stac 1+2 X)" Articulation="Staccato, Staccatissimo">
+          <UsesKeySwitchList name="Piccolo Stac" />
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Frn Horn ens 4 (stac 2 X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Frn Horn ens 4 (sustain X)" />
+      </Group>
+      <Group name="03 Release Triggers" title="French Horns" abbr="F Hns." lownote="g#2" highnote="f5">
+        <Instrument name="Frn Horn ens 4 (sustain + flt + rls)">
+          <UsesControllerSwitchList name="Filter" />
+        </Instrument>
+        <Instrument name="Frn Horn ens 4 (sustain + rls)" />
+      </Group>
+      <Group name="04 Legato Instruments" title="French Horns" abbr="F Hns." lownote="g#2" highnote="f5">
+        <Instrument name="Frn Horn ens 4 (legato)" Articulation="legato">
+          <UsesArticuationSwitchList name="legato" />
+          <UsesKeySwitchList name="Violins Legato" />
+        </Instrument>
+      </Group>
+    </Section>
+    <Section name="21 Trombone Solo" clef="bass">
+      <Group name="01 Standard Instruments" title="Trombone" abbr="Tbn." lownote="e2" highnote="d5">
+        <Instrument name="Trombone (all)">
+          <UsesKeySwitchList name="Piccolo" />
+          <UsesArticulationSwitchList name="Piccolo" />
+        </Instrument>
+        <Instrument name="Trombone (fortepiano)" />
+        <Instrument name="Trombone (sforzando)" Articulation="SForzando, SForzando Dot, SForzando Inverted, SForzando Dot Inverted, Heavier Attack">
+          <UsesArticulationSwitchList name="SForzando" />
+        </Instrument>
+        <Instrument name="Trombone (stac 1)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Trombone (stac 1+2 alt)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Trombone (stac 1+2)" Articulation="Staccato, Staccatissimo">
+          <UsesKeySwitchList name="Piccolo Stac" />
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Trombone (stac 2)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Trombone (sustain)" />
+        <Instrument name="Trombone (sustain + flt)">
+          <UsesControllerSwitchList name="Filter" />
+        </Instrument>
+      </Group>
+      <Group name="02 Modwheel X-Fades" title="Trombone" abbr="Tbn." lownote="e2" highnote="d5">
+        <UsesControllerSwitchList name="XFades" />
+        <Instrument name="Trombone (all X)">
+          <UsesKeySwitchList name="Piccolo" />
+          <UsesArticulationSwitchList name="Piccolo" />
+        </Instrument>
+        <Instrument name="Trombone (fortepiano X)" />
+        <Instrument name="Trombone (sforzando X)" Articulation="SForzando, SForzando Dot, SForzando Inverted, SForzando Dot Inverted, Heavier Attack">
+          <UsesArticulationSwitchList name="SForzando" />
+        </Instrument>
+        <Instrument name="Trombone (stac 1 X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Trombone (stac 1+2 alt X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Trombone (stac 1+2 X)" Articulation="Staccato, Staccatissimo">
+          <UsesKeySwitchList name="Piccolo Stac" />
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Trombone (stac 2 X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Trombone (sustain X)" />
+      </Group>
+      <Group name="03 Release Triggers" title="Trombone" abbr="Tbn." lownote="e2" highnote="d5">
+        <Instrument name="Trombone (sustain + flt + rls)">
+          <UsesControllerSwitchList name="Filter" />
+        </Instrument>
+        <Instrument name="Trombone (sustain + rls)" />
+      </Group>
+    </Section>
+    <Section name="22 Trombone Ensemble" clef="bass">
+      <Group name="01 Standard Instruments" title="Trombones" abbr="Tbns." lownote="c2" highnote="a#4">
+        <Instrument name="Tromb ens 3 (all)">
+          <UsesKeySwitchList name="Piccolo" />
+          <UsesArticulationSwitchList name="Piccolo" />
+        </Instrument>
+        <Instrument name="Tromb ens 3 (fortepiano)" />
+        <Instrument name="Tromb ens 3 (sforzando)" Articulation="SForzando, SForzando Dot, SForzando Inverted, SForzando Dot Inverted, Heavier Attack">
+          <UsesArticulationSwitchList name="SForzando" />
+        </Instrument>
+        <Instrument name="Tromb ens 3 (stac 1)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Tromb ens 3 (stac 1+2 alt)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Tromb ens 3 (stac 1+2)" Articulation="Staccato, Staccatissimo">
+          <UsesKeySwitchList name="Piccolo Stac" />
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Tromb ens 3 (stac 2)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Tromb ens 3 (sustain)" />
+        <Instrument name="Tromb ens 3 (sustain + flt)">
+          <UsesControllerSwitchList name="Filter" />
+        </Instrument>
+      </Group>
+      <Group name="02 Modwheel X-Fades" title="Trombones" abbr="Tbns." lownote="c2" highnote="a#4">
+        <UsesControllerSwitchList name="XFades" />
+        <Instrument name="Tromb ens 3 (all X)">
+          <UsesKeySwitchList name="Piccolo" />
+          <UsesArticulationSwitchList name="Piccolo" />
+        </Instrument>
+        <Instrument name="Tromb ens 3 (fortepiano X)" />
+        <Instrument name="Tromb ens 3 (sforzando X)" Articulation="SForzando, SForzando Dot, SForzando Inverted, SForzando Dot Inverted, Heavier Attack">
+          <UsesArticulationSwitchList name="SForzando" />
+        </Instrument>
+        <Instrument name="Tromb ens 3 (stac 1 X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Tromb ens 3 (stac 1+2 alt X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Tromb ens 3 (stac 1+2 X)" Articulation="Staccato, Staccatissimo">
+          <UsesKeySwitchList name="Piccolo Stac" />
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Tromb ens 3 (stac 2 X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Tromb ens 3 (sustain X)" />
+      </Group>
+      <Group name="03 Release Triggers" title="Trombones" abbr="Tbns." lownote="c2" highnote="a#4">
+        <Instrument name="Tromb ens 3 (sustain + flt + rls)">
+          <UsesControllerSwitchList name="Filter" />
+        </Instrument>
+        <Instrument name="Tromb ens 3 (sustain + rls)" />
+      </Group>
+      <Group name="04 Repetition Instruments" title="Trombones" abbr="Tbns." lownote="c2" highnote="a#4">
+        <Instrument name="Tromb ens 3 (repetition)" />
+        <UsesKeySwitchList name="Bones Rep" />
+      </Group>
+    </Section>
+    <Section name="23 Tuba" clef="bass">
+      <Group name="01 Standard Instruments" title="Tuba" abbr="Tba." lownote="a0" highnote="g4">
+        <Instrument name="Tuba (all)">
+          <UsesKeySwitchList name="Bassoon" />
+          <UsesArticulationSwitchList name="Bassoon" />
+        </Instrument>
+        <Instrument name="Tuba (fortepiano)" />
+        <Instrument name="Tuba (sforzando)" Articulation="SForzando, SForzando Dot, SForzando Inverted, SForzando Dot Inverted, Heavier Attack">
+          <UsesArticulationSwitchList name="SForzando" />
+        </Instrument>
+        <Instrument name="Tuba (stac 1)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Tuba (stac 1+2 alt)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Tuba (stac 1+2)" Articulation="Staccato, Staccatissimo">
+          <UsesKeySwitchList name="Bassoon Stac" />
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Tuba (stac 2)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Tuba (sustain)" />
+      </Group>
+      <Group name="02 Modwheel X-Fades" title="Tuba" abbr="Tba." lownote="a0" highnote="g4">
+        <UsesControllerSwitchList name="XFades" />
+        <Instrument name="Tuba (all X)">
+          <UsesKeySwitchList name="Bassoon" />
+          <UsesArticulationSwitchList name="Bassoon" />
+        </Instrument>
+        <Instrument name="Tuba (fortepiano X)" />
+        <Instrument name="Tuba (sforzando X)" Articulation="SForzando, SForzando Dot, SForzando Inverted, SForzando Dot Inverted, Heavier Attack">
+          <UsesArticulationSwitchList name="SForzando" />
+        </Instrument>
+        <Instrument name="Tuba (stac 1 X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Tuba (stac 1+2 alt X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Tuba (stac 1+2 X)" Articulation="Staccato, Staccatissimo">
+          <UsesKeySwitchList name="Bassoon Stac" />
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Tuba (stac 2 X)" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+        </Instrument>
+        <Instrument name="Tuba (sustain X)" />
+      </Group>
+      <Group name="03 Release Triggers" title="Tuba" abbr="Tba." lownote="a0" highnote="g4">
+        <Instrument name="Tuba (sustain + rls)" />
+      </Group>
+    </Section>
+    <Section name="24 Timpani" clef="bass" legato="off" velocity="on">
+      <Instrument name="Timpani (left)" title="Timpani" abbr="Timp." lownote="a#1" highnote="a#3" />
+      <Instrument name="Timpani (right)" title="Timpani" abbr="Timp." lownote="a#1" highnote="a#3" />
+      <Instrument name="Timpani (tremolo)" title="Timpani" abbr="Timp." lownote="b1" highnote="a#6" />
+    </Section>
+    <Section name="25 Drums" clef="bass" legato="off" velocity="on">
+      <Instrument name="Bass Drum" title="Bass Drum" abbr="BDm." lownote="c3" highnote="d3" />
+      <Instrument name="Snare Drum ens" title="Snare Drums" abbr="Sn." lownote="c3" highnote="c#5" />
+      <Instrument name="Snare Drum" title="Snare Drum" abbr="Sn." lownote="c3" highnote="c#5" />
+      <Instrument name="Tambourine 1" title="Tambourine" abbr="Tamb." lownote="c3" highnote="e5" />
+      <Instrument name="Tambourine 2" title="Tambourine" abbr="Tamb." lownote="c3" highnote="e5" />
+    </Section>
+    <Section name="26 Cymbals" clef="treble" legato="off" velocity="on">
+      <Instrument name="Cymbal half" title="Cymbal" abbr="Cym." lownote="c5" highnote="d6" />
+      <Instrument name="Cymbals a due" title="Cymbals" abbr="Cym." lownote="c3" highnote="c3" clef="bass" />
+      <Instrument name="Tamtam" title="Gong" abbr="Gng." lownote="c2" highnote="d4" clef="bass" />
+    </Section>
+    <Section name="27 Percussion" clef="bass" legato="off" velocity="on">
+      <Instrument name="Triangle 1" title="Triangle" abbr="Tri." lownote="c2" highnote="a#2" />
+      <Instrument name="Triangle 2" title="Triangle" abbr="Tri." lownote="c2" highnote="a#2" />
+    </Section>
+    <Section name="28 Mallets and Bells" clef="treble" legato="off" velocity="on">
+      <Instrument name="Celesta" title="Celesta" abbr="Cel." lownote="c2" highnote="f7" pitchOffset="12" transpose="-12" />
+      <Instrument name="Glockenspiel" title="Glockenspiel" abbr="Glock." lownote="f4" highnote="d7" pitchOffset="24" transpose="-24" />
+      <Instrument name="Marimba" title="Marimba" abbr="Mba." clef="grandStaff" lownote="c2" highnote="c7" />
+      <Instrument name="Tubular Bells (metal)" title="Tubular Bells" abbr="Bells" lownote="e4" highnote="e5" />
+      <Instrument name="Tubular Bells (wood)" title="Tubular Bells" abbr="Bells" lownote="e4" highnote="e5" />
+      <Instrument name="Xylophone" title="Xylophone" abbr="Xylo." lownote="f3" highnote="c7" pitchOffset="12" transpose="-12" />
+    </Section>
+  </Instruments>
+</VSTNameDocument>

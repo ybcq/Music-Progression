@@ -1,0 +1,156 @@
+﻿<html>
+	
+<head>
+	<title>Modify</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("Modify");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Modify</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="OvertureMenus.html">Overture Menus</a> &rsaquo;&rsaquo; <a href="NotesMenu.html">Notes Menu</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="NotesMenu.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="TransposeDownanOctave.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="Humanize.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<p class="rvps2"><span class="rvts6">Choose this command to alter various MIDI playback attributes of the selected notes. When you choose the </span><span class="rvts12">Modify Notes</span><span class="rvts6"> command, Overture produces the Modify Notes dialog box.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NewItem40.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">You can move the Modify Notes dialog box around the desktop by dragging its title bar.</span></p>
+<p class="rvps2"><span class="rvts6">This command affects only the MIDI playback of notes, not their appearance in the score. For you to hear any edits you make to MIDI data, Overture must use the </span><span class="rvts12">As Recorded</span><span class="rvts6"> play style (as selected in the </span><span class="rvts12">Play Style</span><span class="rvts6"> sub menu in the </span><span class="rvts12">Options</span><span class="rvts6"> menu). See </span><a class="rvts11" href="PlayStyle.html">Play Style</a><span class="rvts6"> for more information.</span></p>
+<h4 class="rvps8"><span class="rvts0"><span class="rvts18">About the Modify Notes Dialog Box</span></span></h4>
+<p class="rvps2"><span class="rvts6">The Modify Notes dialog box contains three parameters: </span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; margin-left: 48px; list-style-position: outside; list-style-type: disc;">
+<li style="margin-left: 0px" class="rvps4"><span class="rvts6">the Operation pop-up menu</span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts6">the Note Property pop-up menu</span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts6">the Value Setting </span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">We explain each of these parameters in the following three sections.</span></p>
+<p class="rvps2"><span class="rvts6">The Modify Notes dialog box always reads like a sentence. For instance, the dialog box shown above reads “Set duration to 240 units.”</span></p>
+<h4 class="rvps8"><span class="rvts0"><span class="rvts18">Note Property Pop-Up Menu</span></span></h4>
+<p class="rvps2"><span class="rvts6">Use the Note Property pop-up menu to select which note property you want to modify. Click the current note property and select a new one from the pop-up menu.</span></p>
+<p class="rvps2"><span class="rvts6">The following note properties are available in the Modify Notes dialog box: </span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; margin-left: 48px; list-style-position: outside; list-style-type: disc;">
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Duration</span><span class="rvts6">. Selecting this causes the Modify Notes command to change the durations of selected notes an amount determined by the Operation pop-up menu and the Value setting.</span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Key Velocity</span><span class="rvts6">. Selecting this causes the Modify Notes command to change the key velocities of selected notes an amount determined by the Operation pop-up menu and the Value setting.</span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Release Velocity</span><span class="rvts6">. Selecting this causes the Modify Notes command to change the release velocities of selected notes an amount determined by the Operation pop-up menu and the Value setting. </span></li>
+</ul>
+<h4 class="rvps8"><span class="rvts0"><span class="rvts18">Operation Pop-Up Menu</span></span></h4>
+<p class="rvps2"><span class="rvts6">Use the Operation pop-up menu to select </span><span class="rvts17">how</span><span class="rvts6"> you want to modify a note property. Click the current operation and select a new operation from the pop-up menu.</span></p>
+<p class="rvps2"><span class="rvts6">The following operations are available in the Modify Notes dialog box:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; margin-left: 48px; list-style-position: outside; list-style-type: disc;">
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Set</span><span class="rvts6">. Select this operation to set the note property of all selected notes to the exact value indicated in the Value Setting. </span></li>
+</ul>
+<p class="rvps4"><span class="rvts6">For example, if the note property is Key Velocity and the Value Setting is </span><span class="rvts12">64</span><span class="rvts6">, then selecting Set changes all selected note velocities to </span><span class="rvts12">64</span><span class="rvts6">. </span></p>
+<ul style="text-indent: 0px; margin-left: 48px; list-style-position: outside; list-style-type: disc;">
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Scale</span><span class="rvts6"> Select this operation to multiply the note property of all selected notes by the percentage shown in the Value setting. The Value setting ranges from 0%-999% when you select this operation. Velocities are always limited to a range of 1 to 127. </span></li>
+</ul>
+<p class="rvps4"><span class="rvts6">For example, if the note property is Duration and the Value setting is </span><span class="rvts12">50%</span><span class="rvts6">, then selecting Scale changes all selected note durations to half their current value. </span></p>
+<ul style="text-indent: 0px; margin-left: 48px; list-style-position: outside; list-style-type: disc;">
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Add Amount</span><span class="rvts6"> Select this operation to add the Value setting from the note property of the selected notes. The Value setting ranges from </span><span class="rvts12">1</span><span class="rvts6"> to </span><span class="rvts12">127</span><span class="rvts6"> when you select this operation. </span></li>
+</ul>
+<p class="rvps4"><span class="rvts6">For example, if the note property is Key Velocity and the Value Setting is </span><span class="rvts12">10</span><span class="rvts6">, then selecting Add Amount increases the velocity of all selected notes by a value of </span><span class="rvts12">10</span><span class="rvts6">. </span></p>
+<ul style="text-indent: 0px; margin-left: 48px; list-style-position: outside; list-style-type: disc;">
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Subtract Amount</span><span class="rvts6"> Select this operation to subtract the Value setting from the note property of the selected notes. The Value setting ranges from </span><span class="rvts12">1</span><span class="rvts6"> to </span><span class="rvts12">127</span><span class="rvts6"> when you select this operation. </span></li>
+</ul>
+<p class="rvps4"><span class="rvts6">For example, if the note property is Key Velocity and the Value Setting is </span><span class="rvts12">10</span><span class="rvts6">, then selecting Subtract Amount decreases the velocity of all selected notes by a value of </span><span class="rvts12">10</span><span class="rvts6">. </span></p>
+<ul style="text-indent: 0px; margin-left: 48px; list-style-position: outside; list-style-type: disc;">
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Set Maximum</span><span class="rvts6"> Select this operation to restrict the note property of all selected notes to the maximum limit indicated in the Value setting. Overture lowers any note properties with values above the specified limit to the limit and leaves unchanged any note properties with values below the specified limit. </span></li>
+</ul>
+<p class="rvps4"><span class="rvts6">For example, if the note property is Key Velocity and the Value setting is </span><span class="rvts12">100</span><span class="rvts6">, then selecting Max Limit limits the maximum velocity of any selected note to a value of </span><span class="rvts12">100</span><span class="rvts6">. Overture sets any notes with original velocities greater than </span><span class="rvts12">100</span><span class="rvts6"> to a value of </span><span class="rvts12">100</span><span class="rvts6">, and leaves unchanged notes with original velocities less than </span><span class="rvts12">100</span><span class="rvts6">. </span></p>
+<ul style="text-indent: 0px; margin-left: 48px; list-style-position: outside; list-style-type: disc;">
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Set Minimum</span><span class="rvts6">. Select this operation to restrict the note property of all selected notes to the minimum limit indicated in the Value setting. Overture raises any note properties with values below the specified limit to the limit and leaves unchanged any note properties with values above the specified limit. </span></li>
+</ul>
+<p class="rvps4"><span class="rvts6">For example, if the note property is Key Velocity and the Value Setting is </span><span class="rvts12">50</span><span class="rvts6">, then selecting Min Limit limits the minimum velocity of any selected note to a value of </span><span class="rvts12">50</span><span class="rvts6">. Overture sets any notes with original velocities less than </span><span class="rvts12">50</span><span class="rvts6"> to a value of </span><span class="rvts12">50</span><span class="rvts6"> and leaves unchanged any notes with original velocities greater than </span><span class="rvts12">50</span><span class="rvts6">. </span></p>
+<ul style="text-indent: 0px; margin-left: 48px; list-style-position: outside; list-style-type: disc;">
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Set Legato</span><span class="rvts6"> This operation works only when you set the note property to Duration. Select this operation to set the duration of each selected note so that it extends a certain percentage of the way to the next note. Use the Value setting to set the percentage. </span></li>
+</ul>
+<p class="rvps4"><span class="rvts6">For example, if the note property is Duration and the Value setting is </span><span class="rvts12">50%</span><span class="rvts6">, selecting Legato changes all selected note durations to half their natural values. Quarter notes have the duration of eighth notes (240 units), eighth notes have the duration of sixteenth notes (120 units), and so on. </span></p>
+<h4 class="rvps8"><span class="rvts0"><span class="rvts18">Value Setting</span></span></h4>
+<p class="rvps2"><span class="rvts6">Use the Value setting in the Modify Notes dialog box to define how much the selected operation acts upon the note property.</span></p>
+<p class="rvps2"><span class="rvts6">The Value setting changes depending on which operation and which note property you’ve selected.</span></p>
+<h4 class="rvps8"><span class="rvts0"><span class="rvts18">Using the Modify Notes Command</span></span></h4>
+<p class="rvps2"><span class="rvts6">To modify the MIDI playback of selected notes in your score:</span></p>
+<ol style="text-indent: 0px; margin-left: 48px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Select the notes you wish to modify.</span></span><br/><span class="rvts0"><span class="rvts6">We discuss note selection techniques in </span></span><span class="rvts0"><a class="rvts11" href="SelectingNotationSymbols.html">Selecting Notation Symbols</a></span><span class="rvts0"><span class="rvts6">. </span></span></li>
+<li value="2" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Choose </span></span><span class="rvts0"><span class="rvts12">Notes&gt;Modify Notes</span></span><span class="rvts0"><span class="rvts6">.</span></span><br/><span class="rvts0"><span class="rvts6">The Modify Notes dialog box appears. </span></span></li>
+<li value="3" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Select the desired note property from the Note Property pop-up menu. </span></span></li>
+<li value="4" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Select the desired operation from the Operation pop-up menu. </span></span></li>
+<li value="5" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Use the Value setting numerical to set the desired value for the selected operation. </span></span></li>
+<li value="6" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Click the </span></span><span class="rvts0"><span class="rvts12">Done</span></span><span class="rvts0"><span class="rvts6"> button. </span></span></li>
+</ol>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Overture modifies the MIDI note data of the selected notes.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

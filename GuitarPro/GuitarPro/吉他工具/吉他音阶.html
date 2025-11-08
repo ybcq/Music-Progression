@@ -1,0 +1,960 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>吉他常用音阶模式图-吉他世界网</title>
+<meta name="keywords" content="吉他世界、吉他谱、吉他教学视频、吉他入门" >
+<meta name="description" content="专业吉他谱和免费吉他教学视频分享网站.所有吉他谱和吉他教学视频都经过专业老师审核,确保提供最精准的吉他谱和吉他教程. " >
+<link rel="stylesheet" href="css/comm.css" type="text/css" >
+<link rel="stylesheet" href="css/tools.css" type="text/css" >
+<script src="js/jquery-1.8.0.min.js" type="text/javascript"></script>
+</head>
+<body id="nv_plugin"  onkeydown="if(event.keyCode==27) return false;">
+
+<div class="wrapper" >
+	<div class="main-col">
+		<div class="stream">
+			<script src="js/jquery.cookie.js" type="text/javascript" type="text/javascript"></script>
+			<script src="js/yinjie.js" type="text/javascript"></script>
+			<h1>吉他常用音阶模式图</h1>
+			<div id="yinjie" >
+				<form name="form1">
+					<div class="s">
+						选调:
+						<select id="tom"  name="tom" onchange="var notaEscolhida=this.value;montaEscala(document.form1.comboEscala.value)">
+						<option selected="" value="C">C</option>
+						<option value="C#">C#</option>
+						<option value="D">D</option>
+						<option value="D#">D#</option>
+						<option value="E">E</option>
+						<option value="F">F</option>
+						<option value="F#">F#</option>
+						<option value="G">G</option>
+						<option value="G#">G#</option>
+						<option value="A">A</option>
+						<option value="A#">A#</option>
+						<option value="B">B</option>
+						</select> 音阶:
+						<select id="comboEscala"  name="comboEscala" onchange="var notaEscolhida=document.form1.tom.value;montaEscala(this.value)">
+						<option value="0">大调音阶(Ionian)</option>
+						<option value="1">布鲁斯音阶(Blues)</option>
+						<option value="2">小调音阶(Minor)</option>
+						<option value="3">大调五声音阶(Penta1 Major)</option>
+						<option value="4">小调五声音阶(Penta1 Minor)</option>
+						<option value="5">全音音阶(Whole Tone)</option>
+						<option value="7">利底亚音阶(Lydian)</option>
+						<option value="8">混合利底亚音阶(Mixolydian)</option>
+						<option value="9">自然小调音阶(Aeolian)</option>
+						<option value="10">洛克里亚音阶(Locrian)</option>
+						<option value="11">减音阶(Diminished H-W)</option>
+						<option value="12">减音阶(Diminished W-H)</option>
+						<option value="13">b2多里安音阶(Dorian)</option>
+						<option value="14">增利底亚音阶(Lydian Aug)</option>
+						<option value="15">b7利底亚音阶(Lydian b7)</option>
+						<option value="16">b6混合利底亚音阶(Mixolydian b6)</option>
+						<option value="17">2洛克里亚音阶(Locrian 2)</option>
+						<option value="18">变形音阶(Altered)</option>
+						<option value="19">和声小调音阶(Harmonic Minor)</option>
+						<option value="20">6洛克里亚音阶(Locrian 6)</option>
+						<option value="21">增伊欧尼安音阶(Ionian Aug)</option>
+						<option value="22">#4多里安音阶(Dorian #4)</option>
+						<option value="23">大弗里几亚音阶(Phrygian Major)</option>
+						<option value="24">#9利底亚音阶(Lydian #9)</option>
+						<option value="25">b7变形音阶(Altered b7)</option>
+						<!-- <!-- <option value=26>Penta1 Major</option> -->--&gt;
+						<option value="27">增音阶(Augmented)</option>
+						<option value="28">阿拉伯音阶(Arabian)</option>
+						<option value="29">巴里音阶(Balinese)</option>
+						<option value="30">拜占庭音阶(Byzantine)</option>
+						<option value="31">中国音阶(Chinese)</option>
+						<option value="32">中国蒙古音阶(Chinese Mongolian)</option>
+						<option value="33">双和声音阶(Double Harmonic)</option>
+						<option value="34">埃及音阶(Egyptian)</option>
+						<option value="35">西班牙8度音阶(Eight Tone Spanish)</option>
+						<option value="36">神秘音阶(Enigmatic)</option>
+						<option value="37">印度音阶(Hindu)</option>
+						<option value="38">日本音阶(Hirajoshi)</option>
+						<option value="39">匈牙利大调音阶(Hungarian Major)</option>
+						<option value="40">匈牙利小调音阶(Hungarian Minor)</option>
+						<option value="41">匈牙利吉卜赛音阶(Hungarian Gypsy)</option>
+						<option value="42">日本音阶(Ichikosucho)</option>
+						<option value="43">岩上音阶(Kumoi)</option>
+						<option value="44">主要全音阶(Leading Whole Tone)</option>
+						<option value="45">减利底亚音阶(Lydian Diminished)</option>
+						<option value="46">小利底亚音阶(Lydian Minor)</option>
+						<option value="47">伊斯兰音阶(Mohammedan)</option>
+						<option value="48">拿波里音阶(Neopolitan)</option>
+						<option value="49">大拿波里音阶(Neopolitan Major)</option>
+						<option value="50">小拿波里音阶(Neopolitan Minor)</option>
+						<option value="51">泛音音阶(Overtone)</option>
+						<option value="52">印尼音阶(Pelog)</option>
+						<option value="53">波斯音阶(Persian)</option>
+						<option value="54">希腊音阶(Prometheus)</option>
+						<option value="55">拿波里希腊音阶(Prometheus Neopolitan)</option>
+						<option value="56">印度布尔维音阶(Purvi Theta)</option>
+						<option value="57">对称6度音阶(Six Tone Symmetrical)</option>
+						<option value="58">印度陶笛音阶(Todi Theta)</option>
+						</select>
+						<input id="dots" checked="checked"   name="dots" onclick="shownote();" type="checkbox">
+						<label for="dots">显示音符</label>
+					</div>
+					<div id="notasEscala">
+						<div class="string string_5">
+							<div class="fret fret_0"><a id="nt5_0"><div class="finger hidden">E</div></a></div>
+							<div class="fret fret_1"><a id="nt5_1"><div class="finger hidden">F</div></a></div>
+							<div class="fret fret_2"><a id="nt5_2"><div class="finger hidden">F#</div></a></div>
+							<div class="fret fret_3"><a id="nt5_3"><div class="finger hidden">G</div></a></div>
+							<div class="fret fret_4"><a id="nt5_4"><div class="finger hidden">G#</div></a></div>
+							<div class="fret fret_5"><a id="nt5_5"><div class="finger hidden">A</div></a></div>
+							<div class="fret fret_6"><a id="nt5_6"><div class="finger hidden">A#</div></a></div>
+							<div class="fret fret_7"><a id="nt5_7"><div class="finger hidden">B</div></a></div>
+							<div class="fret fret_8"><a id="nt5_8"><div class="finger hidden">C</div></a></div>
+							<div class="fret fret_9"><a id="nt5_9"><div class="finger hidden">C#</div></a></div>
+							<div class="fret fret_10"><a id="nt5_10"><div class="finger hidden">D</div></a></div>
+							<div class="fret fret_11"><a id="nt5_11"><div class="finger hidden">D#</div></a></div>
+							<div class="fret fret_12"><a id="nt5_12"><div class="finger hidden">E</div></a></div>
+							<div class="fret fret_13"><a id="nt5_13"><div class="finger hidden">F</div></a></div>
+							<div class="fret fret_14"><a id="nt5_14"><div class="finger hidden">F#</div></a></div>
+							<div class="fret fret_15"><a id="nt5_15"><div class="finger hidden">G</div></a></div>
+							<div class="fret fret_16"><a id="nt5_16"><div class="finger hidden">G#</div></a></div>
+							<div class="fret fret_17"><a id="nt5_17"><div class="finger hidden">A</div></a></div>
+							<div class="fret fret_18"><a id="nt5_18"><div class="finger hidden">A#</div></a></div>
+							<div class="fret fret_19"><a id="nt5_19"><div class="finger hidden">B</div></a></div>
+							<div class="fret fret_20"><a id="nt5_20"><div class="finger hidden">C</div></a></div>
+						</div>
+						<div class="string string_4">
+							<div class="fret fret_0"><a id="nt4_0"><div class="finger hidden">B</div></a></div>
+							<div class="fret fret_1"><a id="nt4_1"><div class="finger hidden">C</div></a></div>
+							<div class="fret fret_2"><a id="nt4_2"><div class="finger hidden">C#</div></a></div>
+							<div class="fret fret_3"><a id="nt4_3"><div class="finger hidden">D</div></a></div>
+							<div class="fret fret_4"><a id="nt4_4"><div class="finger hidden">D#</div></a></div>
+							<div class="fret fret_5"><a id="nt4_5"><div class="finger hidden">E</div></a></div>
+							<div class="fret fret_6"><a id="nt4_6"><div class="finger hidden">F</div></a></div>
+							<div class="fret fret_7"><a id="nt4_7"><div class="finger hidden">F#</div></a></div>
+							<div class="fret fret_8"><a id="nt4_8"><div class="finger hidden">G</div></a></div>
+							<div class="fret fret_9"><a id="nt4_9"><div class="finger hidden">G#</div></a></div>
+							<div class="fret fret_10"><a id="nt4_10"><div class="finger hidden">A</div></a></div>
+							<div class="fret fret_11"><a id="nt4_11"><div class="finger hidden">A#</div></a></div>
+							<div class="fret fret_12"><a id="nt4_12"><div class="finger hidden">B</div></a></div>
+							<div class="fret fret_13"><a id="nt4_13"><div class="finger hidden">C</div></a></div>
+							<div class="fret fret_14"><a id="nt4_14"><div class="finger hidden">C#</div></a></div>
+							<div class="fret fret_15"><a id="nt4_15"><div class="finger hidden">D</div></a></div>
+							<div class="fret fret_16"><a id="nt4_16"><div class="finger hidden">D#</div></a></div>
+							<div class="fret fret_17"><a id="nt4_17"><div class="finger hidden">E</div></a></div>
+							<div class="fret fret_18"><a id="nt4_18"><div class="finger hidden">F</div></a></div>
+							<div class="fret fret_19"><a id="nt4_19"><div class="finger hidden">F#</div></a></div>
+							<div class="fret fret_20"><a id="nt4_20"><div class="finger hidden">G</div></a></div>
+						</div>
+						<div class="string string_3">
+							<div class="fret fret_0"><a id="nt3_0"><div class="finger hidden">G</div></a></div>
+							<div class="fret fret_1"><a id="nt3_1"><div class="finger hidden">G#</div></a></div>
+							<div class="fret fret_2"><a id="nt3_2"><div class="finger hidden">A</div></a></div>
+							<div class="fret fret_3"><a id="nt3_3"><div class="finger hidden">A#</div></a></div>
+							<div class="fret fret_4"><a id="nt3_4"><div class="finger hidden">B</div></a></div>
+							<div class="fret fret_5"><a id="nt3_5"><div class="finger hidden">C</div></a></div>
+							<div class="fret fret_6"><a id="nt3_6"><div class="finger hidden">C#</div></a></div>
+							<div class="fret fret_7"><a id="nt3_7"><div class="finger hidden">D</div></a></div>
+							<div class="fret fret_8"><a id="nt3_8"><div class="finger hidden">D#</div></a></div>
+							<div class="fret fret_9"><a id="nt3_9"><div class="finger hidden">E</div></a></div>
+							<div class="fret fret_10"><a id="nt3_10"><div class="finger hidden">F</div></a></div>
+							<div class="fret fret_11"><a id="nt3_11"><div class="finger hidden">F#</div></a></div>
+							<div class="fret fret_12"><a id="nt3_12"><div class="finger hidden">G</div></a></div>
+							<div class="fret fret_13"><a id="nt3_13"><div class="finger hidden">G#</div></a></div>
+							<div class="fret fret_14"><a id="nt3_14"><div class="finger hidden">A</div></a></div>
+							<div class="fret fret_15"><a id="nt3_15"><div class="finger hidden">A#</div></a></div>
+							<div class="fret fret_16"><a id="nt3_16"><div class="finger hidden">B</div></a></div>
+							<div class="fret fret_17"><a id="nt3_17"><div class="finger hidden">C</div></a></div>
+							<div class="fret fret_18"><a id="nt3_18"><div class="finger hidden">C#</div></a></div>
+							<div class="fret fret_19"><a id="nt3_19"><div class="finger hidden">D</div></a></div>
+							<div class="fret fret_20"><a id="nt3_20"><div class="finger hidden">D#</div></a></div>
+						</div>
+						<div class="string string_2">
+							<div class="fret fret_0"><a id="nt2_0"><div class="finger hidden">D</div></a></div>
+							<div class="fret fret_1"><a id="nt2_1"><div class="finger hidden">D#</div></a></div>
+							<div class="fret fret_2"><a id="nt2_2"><div class="finger hidden">E</div></a></div>
+							<div class="fret fret_3"><a id="nt2_3"><div class="finger hidden">F</div></a></div>
+							<div class="fret fret_4"><a id="nt2_4"><div class="finger hidden">F#</div></a></div>
+							<div class="fret fret_5"><a id="nt2_5"><div class="finger hidden">G</div></a></div>
+							<div class="fret fret_6"><a id="nt2_6"><div class="finger hidden">G#</div></a></div>
+							<div class="fret fret_7"><a id="nt2_7"><div class="finger hidden">A</div></a></div>
+							<div class="fret fret_8"><a id="nt2_8"><div class="finger hidden">A#</div></a></div>
+							<div class="fret fret_9"><a id="nt2_9"><div class="finger hidden">B</div></a></div>
+							<div class="fret fret_10"><a id="nt2_10"><div class="finger hidden">C</div></a></div>
+							<div class="fret fret_11"><a id="nt2_11"><div class="finger hidden">C#</div></a></div>
+							<div class="fret fret_12"><a id="nt2_12"><div class="finger hidden">D</div></a></div>
+							<div class="fret fret_13"><a id="nt2_13"><div class="finger hidden">D#</div></a></div>
+							<div class="fret fret_14"><a id="nt2_14"><div class="finger hidden">E</div></a></div>
+							<div class="fret fret_15"><a id="nt2_15"><div class="finger hidden">F</div></a></div>
+							<div class="fret fret_16"><a id="nt2_16"><div class="finger hidden">F#</div></a></div>
+							<div class="fret fret_17"><a id="nt2_17"><div class="finger hidden">G</div></a></div>
+							<div class="fret fret_18"><a id="nt2_18"><div class="finger hidden">G#</div></a></div>
+							<div class="fret fret_19"><a id="nt2_19"><div class="finger hidden">A</div></a></div>
+							<div class="fret fret_20"><a id="nt2_20"><div class="finger hidden">A#</div></a></div>
+						</div>
+						<div class="string string_1">
+							<div class="fret fret_0"><a id="nt1_0"><div class="finger hidden">A</div></a></div>
+							<div class="fret fret_1"><a id="nt1_1"><div class="finger hidden">A#</div></a></div>
+							<div class="fret fret_2"><a id="nt1_2"><div class="finger hidden">B</div></a></div>
+							<div class="fret fret_3"><a id="nt1_3"><div class="finger hidden">C</div></a></div>
+							<div class="fret fret_4"><a id="nt1_4"><div class="finger hidden">C#</div></a></div>
+							<div class="fret fret_5"><a id="nt1_5"><div class="finger hidden">D</div></a></div>
+							<div class="fret fret_6"><a id="nt1_6"><div class="finger hidden">D#</div></a></div>
+							<div class="fret fret_7"><a id="nt1_7"><div class="finger hidden">E</div></a></div>
+							<div class="fret fret_8"><a id="nt1_8"><div class="finger hidden">F</div></a></div>
+							<div class="fret fret_9"><a id="nt1_9"><div class="finger hidden">F#</div></a></div>
+							<div class="fret fret_10"><a id="nt1_10"><div class="finger hidden">G</div></a></div>
+							<div class="fret fret_11"><a id="nt1_11"><div class="finger hidden">G#</div></a></div>
+							<div class="fret fret_12"><a id="nt1_12"><div class="finger hidden">A</div></a></div>
+							<div class="fret fret_13"><a id="nt1_13"><div class="finger hidden">A#</div></a></div>
+							<div class="fret fret_14"><a id="nt1_14"><div class="finger hidden">B</div></a></div>
+							<div class="fret fret_15"><a id="nt1_15"><div class="finger hidden">C</div></a></div>
+							<div class="fret fret_16"><a id="nt1_16"><div class="finger hidden">C#</div></a></div>
+							<div class="fret fret_17"><a id="nt1_17"><div class="finger hidden">D</div></a></div>
+							<div class="fret fret_18"><a id="nt1_18"><div class="finger hidden">D#</div></a></div>
+							<div class="fret fret_19"><a id="nt1_19"><div class="finger hidden">E</div></a></div>
+							<div class="fret fret_20"><a id="nt1_20"><div class="finger hidden">F</div></a></div>
+						</div>
+						<div class="string string_0">
+							<div class="fret fret_0"><a id="nt0_0"><div class="finger hidden">E</div></a></div>
+							<div class="fret fret_1"><a id="nt0_1"><div class="finger hidden">F</div></a></div>
+							<div class="fret fret_2"><a id="nt0_2"><div class="finger hidden">F#</div></a></div>
+							<div class="fret fret_3"><a id="nt0_3"><div class="finger hidden">G</div></a></div>
+							<div class="fret fret_4"><a id="nt0_4"><div class="finger hidden">G#</div></a></div>
+							<div class="fret fret_5"><a id="nt0_5"><div class="finger hidden">A</div></a></div>
+							<div class="fret fret_6"><a id="nt0_6"><div class="finger hidden">A#</div></a></div>
+							<div class="fret fret_7"><a id="nt0_7"><div class="finger hidden">B</div></a></div>
+							<div class="fret fret_8"><a id="nt0_8"><div class="finger hidden">C</div></a></div>
+							<div class="fret fret_9"><a id="nt0_9"><div class="finger hidden">C#</div></a></div>
+							<div class="fret fret_10"><a id="nt0_10"><div class="finger hidden">D</div></a></div>
+							<div class="fret fret_11"><a id="nt0_11"><div class="finger hidden">D#</div></a></div>
+							<div class="fret fret_12"><a id="nt0_12"><div class="finger hidden">E</div></a></div>
+							<div class="fret fret_13"><a id="nt0_13"><div class="finger hidden">F</div></a></div>
+							<div class="fret fret_14"><a id="nt0_14"><div class="finger hidden">F#</div></a></div>
+							<div class="fret fret_15"><a id="nt0_15"><div class="finger hidden">G</div></a></div>
+							<div class="fret fret_16"><a id="nt0_16"><div class="finger hidden">G#</div></a></div>
+							<div class="fret fret_17"><a id="nt0_17"><div class="finger hidden">A</div></a></div>
+							<div class="fret fret_18"><a id="nt0_18"><div class="finger hidden">A#</div></a></div>
+							<div class="fret fret_19"><a id="nt0_19"><div class="finger hidden">B</div></a></div>
+							<div class="fret fret_20"><a id="nt0_20"><div class="finger hidden">C</div></a></div>
+						</div>
+						<div class="fretnum">
+							<div class="fret fret_0"><a><div class="finger">0</div></a></div>
+							<div class="fret fret_1"><a><div class="finger hidden">1</div></a></div>
+							<div class="fret fret_2"><a><div class="finger hidden">2</div></a></div>
+							<div class="fret fret_3"><a><div class="finger">3</div></a></div>
+							<div class="fret fret_4"><a><div class="finger hidden">4</div></a></div>
+							<div class="fret fret_5"><a><div class="finger">5</div></a></div>
+							<div class="fret fret_6"><a><div class="finger hidden">6</div></a></div>
+							<div class="fret fret_7"><a><div class="finger">7</div></a></div>
+							<div class="fret fret_8"><a><div class="finger hidden">8</div></a></div>
+							<div class="fret fret_9"><a><div class="finger">9</div></a></div>
+							<div class="fret fret_10"><a><div class="finger hidden">10</div></a></div>
+							<div class="fret fret_11"><a><div class="finger hidden">11</div></a></div>
+							<div class="fret fret_12"><a><div class="finger">12</div></a></div>
+							<div class="fret fret_13"><a><div class="finger hidden">13</div></a></div>
+							<div class="fret fret_14"><a><div class="finger hidden">14</div></a></div>
+							<div class="fret fret_15"><a><div class="finger">15</div></a></div>
+							<div class="fret fret_16"><a><div class="finger hidden">16</div></a></div>
+							<div class="fret fret_17"><a><div class="finger">17</div></a></div>
+							<div class="fret fret_18"><a><div class="finger hidden">18</div></a></div>
+							<div class="fret fret_19"><a><div class="finger hidden">19</div></a></div>
+							<div class="fret fret_20"><a><div class="finger">20</div></a></div>
+						</div>
+					</div>
+				</form>
+			</div>
+			<table class="notetable">
+				<caption><h2>吉他常用音阶模式构成音表</h2></caption>
+				<thead>
+					<tr>
+						<th class="t1">音阶名称</th>
+						<th class="t2">音1</th>
+						<th class="t2">音2</th>
+						<th class="t2">音3</th>
+						<th class="t2">音4</th>
+						<th class="t2">音5</th>
+						<th class="t2">音6</th>
+						<th class="t2">音7</th>
+						<th class="t2">音8</th>
+					</tr>
+				</thead>
+				<tr class="color2">
+					<th>自然大调音阶(Ionian)</th>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+					<td>4</td>
+					<td>5</td>
+					<td>6</td>
+					<td>7</td>
+					<td></td>
+				</tr>
+				<tr class="color1">
+					<th>布鲁斯音阶(Blues)</th>
+					<td>1</td>
+					<td><sup>b</sup>3</td>
+					<td>4</td>
+					<td><sup>b</sup>5</td>
+					<td>5</td>
+					<td><sup>b</sup>7</td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr class="color2">
+					<th>多里安音阶(Dorian)</th>
+					<td>1</td>
+					<td>2</td>
+					<td><sup>b</sup>3</td>
+					<td>4</td>
+					<td>5</td>
+					<td>6</td>
+					<td><sup>b</sup>7</td>
+					<td></td>
+				</tr>
+				<tr class="color1">
+					<th>弗里几亚音阶(Phrygian)</th>
+					<td>1</td>
+					<td><sup>b</sup>2</td>
+					<td><sup>b</sup>3</td>
+					<td>4</td>
+					<td>5</td>
+					<td><sup>#</sup>5</td>
+					<td><sup>b</sup>7</td>
+					<td></td>
+				</tr>
+				<tr class="color2">
+					<th>利底亚音阶(Lydian)</th>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+					<td><sup>b</sup>5</td>
+					<td>5</td>
+					<td>6</td>
+					<td>7</td>
+					<td></td>
+				</tr>
+				<tr class="color1">
+					<th>混合利底亚音阶(Mixolydian)</th>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+					<td>4</td>
+					<td>5</td>
+					<td>6</td>
+					<td><sup>b</sup>7</td>
+					<td></td>
+				</tr>
+				<tr class="color2">
+					<th>自然小调音阶(Aeolian)</th>
+					<td>1</td>
+					<td>2</td>
+					<td><sup>b</sup>3</td>
+					<td>4</td>
+					<td>5</td>
+					<td><sup>#</sup>5</td>
+					<td><sup>b</sup>7</td>
+					<td></td>
+				</tr>
+				<tr class="color1">
+					<th>洛克里亚音阶(Locrian)</th>
+					<td>1</td>
+					<td><sup>b</sup>2</td>
+					<td><sup>b</sup>3</td>
+					<td>4</td>
+					<td><sup>b</sup>5</td>
+					<td><sup>#</sup>5</td>
+					<td><sup>b</sup>7</td>
+					<td></td>
+				</tr>
+				<tr class="color2">
+					<th>减音阶(Diminished (H-W))</th>
+					<td>1</td>
+					<td><sup>b</sup>2</td>
+					<td><sup>b</sup>3</td>
+					<td>3</td>
+					<td><sup>b</sup>5</td>
+					<td>5</td>
+					<td>6</td>
+					<td><sup>b</sup>7</td>
+				</tr>
+				<tr class="color1">
+					<th>减音阶(Diminished (W-H))</th>
+					<td>1</td>
+					<td>2</td>
+					<td><sup>b</sup>3</td>
+					<td>4</td>
+					<td><sup>b</sup>5</td>
+					<td><sup>#</sup>5</td>
+					<td>6</td>
+					<td>7</td>
+				</tr>
+				<tr class="color2">
+					<th>全音音阶(Whole Tone)</th>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+					<td><sup>b</sup>5</td>
+					<td><sup>#</sup>5</td>
+					<td><sup>b</sup>7</td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr class="color1">
+					<th>曲调小音阶(Melodic Minor)</th>
+					<td>1</td>
+					<td>2</td>
+					<td><sup>b</sup>3</td>
+					<td>4</td>
+					<td>5</td>
+					<td>6</td>
+					<td>7</td>
+					<td></td>
+				</tr>
+				<tr class="color2">
+					<th><sup>b</sup>2多里安音阶(Dorian b2)</th>
+					<td>1</td>
+					<td><sup>b</sup>2</td>
+					<td><sup>b</sup>3</td>
+					<td>4</td>
+					<td>5</td>
+					<td>6</td>
+					<td><sup>b</sup>7</td>
+					<td></td>
+				</tr>
+				<tr class="color1">
+					<th>增利底亚音阶(Lydian Aug)</th>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+					<td><sup>b</sup>5</td>
+					<td><sup>#</sup>5</td>
+					<td>6</td>
+					<td>7</td>
+					<td></td>
+				</tr>
+				<tr class="color2">
+					<th><sup>b</sup>7利底亚音阶(Lydian b7)</th>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+					<td><sup>b</sup>5</td>
+					<td>5</td>
+					<td>6</td>
+					<td><sup>b</sup>7</td>
+					<td></td>
+				</tr>
+				<tr class="color1">
+					<th><sup>b</sup>6混合利底亚音阶(Mixolydian b6)</th>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+					<td>4</td>
+					<td>5</td>
+					<td><sup>#</sup>5</td>
+					<td><sup>b</sup>7</td>
+					<td></td>
+				</tr>
+				<tr class="color2">
+					<th>2洛克里亚音阶(Locrian 2)</th>
+					<td>1</td>
+					<td>2</td>
+					<td><sup>b</sup>3</td>
+					<td>4</td>
+					<td><sup>b</sup>5</td>
+					<td><sup>#</sup>5</td>
+					<td><sup>b</sup>7</td>
+					<td></td>
+				</tr>
+				<tr class="color1">
+					<th>变形音阶(Altered)</th>
+					<td>1</td>
+					<td><sup>b</sup>2</td>
+					<td><sup>b</sup>3</td>
+					<td>3</td>
+					<td><sup>b</sup>5</td>
+					<td><sup>#</sup>5</td>
+					<td><sup>b</sup>7</td>
+					<td></td>
+				</tr>
+				<tr class="color2">
+					<th>和声小调音阶(Harmonic Minor)</th>
+					<td>1</td>
+					<td>2</td>
+					<td><sup>b</sup>3</td>
+					<td>4</td>
+					<td>5</td>
+					<td><sup>#</sup>5</td>
+					<td>7</td>
+					<td></td>
+				</tr>
+				<tr class="color1">
+					<th>6洛克里亚音阶(Locrian 6)</th>
+					<td>1</td>
+					<td><sup>b</sup>2</td>
+					<td><sup>b</sup>3</td>
+					<td>4</td>
+					<td><sup>b</sup>5</td>
+					<td>6</td>
+					<td><sup>b</sup>7</td>
+					<td></td>
+				</tr>
+				<tr class="color2">
+					<th>增伊欧尼安音阶(Ionian Aug)</th>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+					<td>4</td>
+					<td><sup>#</sup>5</td>
+					<td>6</td>
+					<td>7</td>
+					<td></td>
+				</tr>
+				<tr class="color1">
+					<th><sup>#</sup>4多里安音阶(Dorian #4)</th>
+					<td>1</td>
+					<td>2</td>
+					<td><sup>b</sup>3</td>
+					<td><sup>b</sup>5</td>
+					<td>5</td>
+					<td>6</td>
+					<td><sup>b</sup>7</td>
+					<td></td>
+				</tr>
+				<tr class="color2">
+					<th>大弗里几亚音阶(Phrygian Major)</th>
+					<td>1</td>
+					<td><sup>b</sup>2</td>
+					<td>3</td>
+					<td>4</td>
+					<td>5</td>
+					<td><sup>#</sup>5</td>
+					<td><sup>b</sup>7</td>
+					<td></td>
+				</tr>
+				<tr class="color1">
+					<th><sup>#</sup>9利底亚音阶(Lydian #9)</th>
+					<td>1</td>
+					<td><sup>b</sup>3</td>
+					<td>3</td>
+					<td><sup>b</sup>5</td>
+					<td>5</td>
+					<td>6</td>
+					<td>7</td>
+					<td></td>
+				</tr>
+				<tr class="color2">
+					<th><sup>b</sup>7变形音阶(Altered bb7)</th>
+					<td>1</td>
+					<td><sup>b</sup>2</td>
+					<td><sup>b</sup>3</td>
+					<td>3</td>
+					<td><sup>b</sup>5</td>
+					<td><sup>#</sup>5</td>
+					<td>6</td>
+					<td></td>
+				</tr>
+				<tr class="color1">
+					<th>大调五声音阶(Pentanote Major)</th>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+					<td>5</td>
+					<td>6</td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr class="color2">
+					<th>小调五声音阶(Pentanote Minor)</th>
+					<td>1</td>
+					<td><sup>b</sup>3</td>
+					<td>4</td>
+					<td>5</td>
+					<td><sup>b</sup>7</td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr class="color1">
+					<th>增音阶(Augmented)</th>
+					<td>1</td>
+					<td>1</td>
+					<td>3</td>
+					<td>5</td>
+					<td><sup>#</sup>5</td>
+					<td>7</td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr class="color2">
+					<th>阿拉伯音阶(Arabian)</th>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+					<td>4</td>
+					<td><sup>b</sup>5</td>
+					<td><sup>#</sup>5</td>
+					<td><sup>b</sup>7</td>
+					<td></td>
+				</tr>
+				<tr class="color1">
+					<th>巴里音阶(Balinese)</th>
+					<td>1</td>
+					<td><sup>b</sup>2</td>
+					<td><sup>b</sup>3</td>
+					<td>5</td>
+					<td><sup>#</sup>5</td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr class="color2">
+					<th>拜占庭音阶(Byzantine)</th>
+					<td>1</td>
+					<td><sup>b</sup>2</td>
+					<td>3</td>
+					<td>4</td>
+					<td>5</td>
+					<td><sup>#</sup>5</td>
+					<td>7</td>
+					<td></td>
+				</tr>
+				<tr class="color1">
+					<th>中国音阶(Chinese)</th>
+					<td>1</td>
+					<td>3</td>
+					<td><sup>b</sup>5</td>
+					<td>5</td>
+					<td>7</td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr class="color2">
+					<th>中国蒙古音阶(Chinese Mongolian)</th>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+					<td>5</td>
+					<td>6</td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr class="color1">
+					<th>双和声音阶(Double Harmonic)</th>
+					<td>1</td>
+					<td><sup>b</sup>2</td>
+					<td>3</td>
+					<td>4</td>
+					<td>5</td>
+					<td><sup>#</sup>5</td>
+					<td>7</td>
+					<td></td>
+				</tr>
+				<tr class="color2">
+					<th>埃及音阶(Egyptian)</th>
+					<td>1</td>
+					<td>2</td>
+					<td>4</td>
+					<td>5</td>
+					<td><sup>b</sup>7</td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr class="color1">
+					<th>西班牙8度音阶(Eight Tone Spanish)</th>
+					<td>1</td>
+					<td><sup>b</sup>2</td>
+					<td><sup>b</sup>2</td>
+					<td>3</td>
+					<td>4</td>
+					<td><sup>b</sup>5</td>
+					<td><sup>#</sup>5</td>
+					<td><sup>b</sup>7</td>
+				</tr>
+				<tr class="color2">
+					<th>神秘音阶(Enigmatic)</th>
+					<td>1</td>
+					<td><sup>b</sup>2</td>
+					<td>3</td>
+					<td><sup>b</sup>5</td>
+					<td><sup>#</sup>5</td>
+					<td><sup>b</sup>7</td>
+					<td>7</td>
+					<td></td>
+				</tr>
+				<tr class="color1">
+					<th>印度音阶(Hindu)</th>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+					<td>4</td>
+					<td>5</td>
+					<td><sup>#</sup>5</td>
+					<td><sup>b</sup>7</td>
+					<td></td>
+				</tr>
+				<tr class="color2">
+					<th>日本音阶(Hirajoshi)</th>
+					<td>1</td>
+					<td>2</td>
+					<td><sup>b</sup>3</td>
+					<td>5</td>
+					<td><sup>#</sup>5</td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr class="color1">
+					<th>匈牙利大调音阶(Hungarian Major)</th>
+					<td>1</td>
+					<td><sup>b</sup>3</td>
+					<td>3</td>
+					<td><sup>b</sup>5</td>
+					<td>5</td>
+					<td>6</td>
+					<td><sup>b</sup>7</td>
+					<td></td>
+				</tr>
+				<tr class="color2">
+					<th>匈牙利小调音阶(Hungarian Minor)</th>
+					<td>1</td>
+					<td>2</td>
+					<td><sup>b</sup>3</td>
+					<td><sup>b</sup>5</td>
+					<td>5</td>
+					<td><sup>#</sup>5</td>
+					<td>7</td>
+					<td></td>
+				</tr>
+				<tr class="color1">
+					<th>匈牙利吉卜赛音阶(Hungarian Gypsy)</th>
+					<td>1</td>
+					<td>2</td>
+					<td><sup>b</sup>3</td>
+					<td><sup>b</sup>5</td>
+					<td>5</td>
+					<td><sup>#</sup>5</td>
+					<td>7</td>
+					<td></td>
+				</tr>
+				<tr class="color2">
+					<th>日本音阶(Ichikosucho)</th>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+					<td>4</td>
+					<td><sup>b</sup>5</td>
+					<td>5</td>
+					<td>6</td>
+					<td>7</td>
+				</tr>
+				<tr class="color1">
+					<th>岩上音阶(Kumoi)</th>
+					<td>1</td>
+					<td>2</td>
+					<td><sup>b</sup>3</td>
+					<td>5</td>
+					<td>6</td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr class="color2">
+					<th>主要全音阶(Leading Whole Tone)</th>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+					<td><sup>b</sup>5</td>
+					<td><sup>#</sup>5</td>
+					<td><sup>b</sup>7</td>
+					<td>7</td>
+					<td></td>
+				</tr>
+				<tr class="color1">
+					<th>减利底亚音阶(Lydian Diminished)</th>
+					<td>1</td>
+					<td>2</td>
+					<td><sup>b</sup>3</td>
+					<td><sup>b</sup>5</td>
+					<td>5</td>
+					<td>6</td>
+					<td>7</td>
+					<td></td>
+				</tr>
+				<tr class="color2">
+					<th>小利底亚音阶(Lydian Minor)</th>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+					<td><sup>b</sup>5</td>
+					<td>5</td>
+					<td><sup>#</sup>5</td>
+					<td><sup>b</sup>7</td>
+					<td></td>
+				</tr>
+				<tr class="color1">
+					<th>伊斯兰音阶(Mohammedan)</th>
+					<td>1</td>
+					<td>2</td>
+					<td><sup>b</sup>3</td>
+					<td>4</td>
+					<td>5</td>
+					<td><sup>#</sup>5</td>
+					<td>7</td>
+					<td></td>
+				</tr>
+				<tr class="color2">
+					<th>拿波里音阶(Neopolitan)</th>
+					<td>1</td>
+					<td><sup>b</sup>2</td>
+					<td><sup>b</sup>3</td>
+					<td>4</td>
+					<td>5</td>
+					<td><sup>#</sup>5</td>
+					<td>7</td>
+					<td></td>
+				</tr>
+				<tr class="color1">
+					<th>大拿波里音阶(Neopolitan Major)</th>
+					<td>1</td>
+					<td><sup>b</sup>2</td>
+					<td><sup>b</sup>3</td>
+					<td>4</td>
+					<td>5</td>
+					<td>6</td>
+					<td>7</td>
+					<td></td>
+				</tr>
+				<tr class="color2">
+					<th>小拿波里音阶(Neopolitan Minor)</th>
+					<td>1</td>
+					<td><sup>b</sup>2</td>
+					<td><sup>b</sup>3</td>
+					<td>4</td>
+					<td>5</td>
+					<td><sup>#</sup>5</td>
+					<td><sup>b</sup>7</td>
+					<td></td>
+				</tr>
+				<tr class="color1">
+					<th>泛音音阶(Overtone)</th>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+					<td><sup>b</sup>5</td>
+					<td>5</td>
+					<td>6</td>
+					<td><sup>b</sup>7</td>
+					<td></td>
+				</tr>
+				<tr class="color2">
+					<th>印尼音阶(Pelog)</th>
+					<td>1</td>
+					<td><sup>b</sup>2</td>
+					<td><sup>b</sup>3</td>
+					<td>5</td>
+					<td><sup>#</sup>5</td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr class="color1">
+					<th>波斯音阶(Persian)</th>
+					<td>1</td>
+					<td><sup>b</sup>2</td>
+					<td>3</td>
+					<td>4</td>
+					<td><sup>b</sup>5</td>
+					<td><sup>#</sup>5</td>
+					<td>7</td>
+					<td></td>
+				</tr>
+				<tr class="color2">
+					<th>希腊音阶(Prometheus)</th>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+					<td><sup>b</sup>5</td>
+					<td>6</td>
+					<td><sup>b</sup>7</td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr class="color1">
+					<th>拿波里希腊音阶(Prometheus Neopolitan)</th>
+					<td>1</td>
+					<td><sup>b</sup>2</td>
+					<td>3</td>
+					<td><sup>b</sup>5</td>
+					<td>6</td>
+					<td><sup>b</sup>7</td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr class="color2">
+					<th>印度布尔维音阶(Purvi Theta)</th>
+					<td>1</td>
+					<td><sup>b</sup>2</td>
+					<td>3</td>
+					<td><sup>b</sup>5</td>
+					<td>5</td>
+					<td><sup>#</sup>5</td>
+					<td>7</td>
+					<td></td>
+				</tr>
+				<tr class="color1">
+					<th>对称6度音阶(Six Tone Symmetrical)</th>
+					<td>1</td>
+					<td><sup>b</sup>2</td>
+					<td>3</td>
+					<td>4</td>
+					<td><sup>#</sup>5</td>
+					<td>6</td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr class="color2">
+					<th>印度陶笛音阶(Todi Theta)</th>
+					<td>1</td>
+					<td><sup>b</sup>2</td>
+					<td><sup>b</sup>3</td>
+					<td><sup>b</sup>5</td>
+					<td>5</td>
+					<td><sup>#</sup>5</td>
+					<td>7</td>
+					<td></td>
+				</tr>
+			</table>
+			<script>
+		    if(jQuery.cookie('yinjie_yinfu')==0)
+		        {
+		            jQuery('#dots').removeAttr('checked');
+		        }
+		    else{
+		        jQuery('#dots').attr('checked','true');
+		    }
+		    if(jQuery.cookie('yinjie_zhuyin'))
+		        {
+		            jQuery('#tom').val(jQuery.cookie('yinjie_zhuyin'));
+		        }
+		     if(jQuery.cookie('yinjie_diao'))
+		         {
+		             jQuery('#comboEscala').val(jQuery.cookie('yinjie_diao'));
+		         }
+		         var diao=document.form1.comboEscala.value;
+		montaEscala(diao);
+		</script>
+		
+			
+		</div>
+	
+	</div>
+	<div class="clear"></div>
+</div>
+
+</body>
+</html>
+//--></SCRIPT>

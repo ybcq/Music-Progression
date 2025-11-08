@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTNameDocument name="Super Quartet">
+  <Version>1</Version>
+  <Author>GenieSoft,Inc.</Author>
+  <Device name="Super Quartet" usesPatchNames="1" firstPatchNumber="1" />
+  <ArticulationNames>
+    <Articulation name="Marcato" velocityAdd="10" durationPct="90" />
+    <Articulation name="Marcato Dot" velocityAdd="15" durationPct="50" />
+    <Articulation name="Heavy Attack" velocityAdd="10" durationPct="100" />
+    <Articulation name="SForzando" velocityAdd="20" />
+    <Articulation name="SForzando Dot" velocityAdd="20" durationPct="50" />
+    <Articulation name="Heavier Attack" velocityAdd="20" durationPct="100" />
+    <Articulation name="SForzando Inverted" velocityAdd="20" />
+    <Articulation name="SForzando Dot Inverted" velocityAdd="20" durationPct="50" />
+    <Articulation name="Staccatissimo" velocityAdd="15" durationPct="30" />
+    <Articulation name="Staccato" velocityAdd="15" durationPct="50" />
+    <Articulation name="Tenuto" durationPct="100" />
+    <Articulation name="Up Bow" />
+    <Articulation name="Down Bow" velocityAdd="5" />
+    <Articulation name="Up Bow Inverted" />
+    <Articulation name="Down Bow Inverted" velocityAdd="5" />
+    <Articulation name="Arpeggio" attackFrom="-90" attackTo="0" />
+    <Articulation name="Tremolo Eighths" tremoloNotes="1" />
+    <Articulation name="Tremolo Sixteenths" tremoloNotes="2" />
+    <Articulation name="Tremolo Thirty Seconds" tremoloNotes="3" />
+    <Articulation name="Tremolo Sixty Fourths" tremoloNotes="4" />
+    <Articulation name="pizz" />
+    <Articulation name="arco" durationPct="90" />
+    <Articulation name="legato" durationPct="100" />
+  </ArticulationNames>
+  <ControllerNames>
+    <Controller name="Modulation" cc="1" />
+    <Controller name="Volume (Expression)" cc="11" />
+    <Controller name="Part Volume" cc="7" />
+    <Controller name="Part Panning" cc="10" />
+    <Controller name="Pedal (Sustain)" cc="64" />
+    <Controller name="Sostenuto" cc="66" />
+    <Controller name="Soft (Piano)" cc="67" />
+    <Controller name="Master Volume" cc="3" />
+    <Controller name="Portamento Time" cc="5" />
+    <Controller name="Part Course Tuning" cc="16" />
+    <Controller name="Part Fine Tuning" cc="17" />
+    <Controller name="Character" cc="18" />
+    <Controller name="Pan Keyfollow" cc="19" />
+    <Controller name="Velocity Sens Dynamics" cc="20" />
+    <Controller name="Velocity Switch Sens" cc="21" />
+    <Controller name="Velocity Switch Attack" cc="22" />
+    <Controller name="Modulation Depth" cc="23" />
+    <Controller name="Random Modulation Rate" cc="24" />
+    <Controller name="Random Modulation Depth" cc="25" />
+    <Controller name="Bend Range" cc="26" />
+    <Controller name="EQ Switch" cc="27" />
+    <Controller name="EQ Low Gain" cc="28" />
+    <Controller name="EQ Mid Gain" cc="29" />
+    <Controller name="EQ High Gain" cc="30" />
+    <Controller name="Legato Retrigger Switch" cc="31" />
+    <Controller name="Patch Stereo Mode" cc="33" />
+    <Controller name="Portamento Switch" cc="65" />
+    <Controller name="Patch Decrement" cc="68" />
+    <Controller name="Patch Increment" cc="69" />
+    <Controller name="Filter Resonance" cc="71" />
+    <Controller name="Envelope Release Time" cc="72" />
+    <Controller name="Envelope Attack Time" cc="73" />
+    <Controller name="Filter Cutoff" cc="74" />
+    <Controller name="Envelope Decay Time" cc="75" />
+    <Controller name="Vibrato Rate" cc="76" />
+    <Controller name="Vibrato Depth" cc="77" />
+    <Controller name="Vibrato Delay" cc="78" />
+    <Controller name="Part Reverb Send" cc="91" />
+    <Controller name="Part Chorus Send" cc="93" />
+  </ControllerNames>
+  <Instruments>
+    <Section name="Pianos" bank="0" title="Piano" abbr="Pf." lownote="c-1" highnote="c9" clef="treble">
+      <Instrument name="St. Concert" prgChg="1" />
+      <Instrument name="Forte Grand" prgChg="2" />
+      <Instrument name="Concert Grand" prgChg="3" />
+      <Instrument name="Bright Piano" prgChg="4" />
+      <Instrument name="Rock Piano" prgChg="5" />
+      <Instrument name="Mellow Piano" prgChg="6" />
+      <Instrument name="Soft Piano" prgChg="7" />
+      <Instrument name="Rock Acoustic" prgChg="8" />
+      <Instrument name="Stage Grand" prgChg="9" />
+      <Instrument name="Rock Grand" prgChg="10" />
+      <Instrument name="Brite Honky" prgChg="11" />
+      <Instrument name="Old Honky" prgChg="12" />
+      <Instrument name="70s Blend" prgChg="13" title="Electric Piano" abbr="EPf." />
+      <Instrument name="Retro Rhodes" prgChg="14" title="Electric Piano" abbr="EPf." />
+      <Instrument name="Sweet Tynes" prgChg="15" title="Electric Piano" abbr="EPf." />
+      <Instrument name="Rhodes Trip" prgChg="16" title="Electric Piano" abbr="EPf." />
+      <Instrument name="Rholitzer" prgChg="17" title="Electric Piano" abbr="EPf." />
+      <Instrument name="Taxi Rhodes" prgChg="18" title="Electric Piano" abbr="EPf." />
+      <Instrument name="US Rhodes" prgChg="19" title="Electric Piano" abbr="EPf." />
+      <Instrument name="Studio Rhodes" prgChg="20" title="Electric Piano" abbr="EPf." />
+      <Instrument name="All Rhodez" prgChg="21" title="Electric Piano" abbr="EPf." />
+      <Instrument name="Sens. Rhodes" prgChg="22" title="Electric Piano" abbr="EPf." />
+      <Instrument name="Touch Rhodes" prgChg="23" title="Electric Piano" abbr="EPf." />
+      <Instrument name="Suitcase 88" prgChg="24" title="Electric Piano" abbr="EPf." />
+      <Instrument name="Joes Rhodes" prgChg="25" title="Electric Piano" abbr="EPf." />
+      <Instrument name="Mr. Suitcase" prgChg="26" title="Electric Piano" abbr="EPf." />
+      <Instrument name="Whirly" prgChg="27" title="Electric Piano" abbr="EPf." />
+      <Instrument name="Wurlie" prgChg="28" title="Electric Piano" abbr="EPf." />
+    </Section>
+    <Section name="Guitar" bank="1" title="Guitar" abbr="Gtr." lownote="c-1" highnote="c9" clef="treble" pitchOffset="-12">
+      <Instrument name="Steel Guitar 1" prgChg="1" />
+      <Instrument name="Steel Guitar 2" prgChg="2" />
+      <Instrument name="Folk Guitar 1" prgChg="3" />
+      <Instrument name="Folk Guitar 2" prgChg="4" />
+      <Instrument name="Steel Harm." prgChg="5" />
+      <Instrument name="OV Steel Gt 1" prgChg="6" />
+      <Instrument name="OV Steel Gt 2" prgChg="7" />
+      <Instrument name="Double Steel" prgChg="8" />
+      <Instrument name="South Border" prgChg="9" />
+      <Instrument name="Nylon Guitar 1" prgChg="10" />
+      <Instrument name="Nylon Guitar 2" prgChg="11" />
+      <Instrument name="Bright Nylon" prgChg="12" />
+      <Instrument name="Soft Gut Gt" prgChg="13" />
+      <Instrument name="Rolin Fingers" prgChg="14" />
+      <Instrument name="Flamenco and Gtr" prgChg="15" />
+      <Instrument name="12-Str Steel" prgChg="16" />
+      <Instrument name="Wide 12-Str" prgChg="17" />
+      <Instrument name="Jazzy Slide" prgChg="18" />
+      <Instrument name="Jazz Clean" prgChg="19" />
+      <Instrument name="Jazz VelOct" prgChg="20" />
+      <Instrument name="Soft Jazz Gtr" prgChg="21" />
+      <Instrument name="Blues Grunge" prgChg="22" />
+      <Instrument name="Clean Rear" prgChg="23" />
+      <Instrument name="Clean Harf" prgChg="24" />
+      <Instrument name="JC Clean" prgChg="25" />
+      <Instrument name="335" prgChg="26" />
+      <Instrument name="Gt/BsNz MENU" prgChg="27" />
+      <Instrument name="Gt/BsNzMENU2" prgChg="28" />
+    </Section>
+    <Section name="Bass" bank="2" title="Bass Guitar" abbr="BGtr." lownote="c-1" highnote="c9" clef="bass">
+      <Instrument name="Upright Pizz" prgChg="1" />
+      <Instrument name="Ac. Upright" prgChg="2" />
+      <Instrument name="Rockabilly" prgChg="3" />
+      <Instrument name="6-Str Bass" prgChg="4" />
+      <Instrument name="Thumb and Pull Bs" prgChg="5" />
+      <Instrument name="42nd Bass" prgChg="6" />
+      <Instrument name="Jazz Bass" prgChg="7" />
+      <Instrument name="Rock Bass" prgChg="8" />
+      <Instrument name="Picked JBass" prgChg="9" />
+      <Instrument name="Picked JzBs" prgChg="10" />
+      <Instrument name="Fretless" prgChg="11" />
+    </Section>
+    <Section name="Drums" bank="3" title="Percussion" abbr="Perc." clef="percussion" lownote="c-1" highnote="c9" velocity="on">
+      <Instrument name="Ambient Set" prgChg="1" />
+      <Instrument name="Acoustic Set" prgChg="2" />
+      <Instrument name="Brush Set" prgChg="3" />
+    </Section>
+  </Instruments>
+</VSTNameDocument>

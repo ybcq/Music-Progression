@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTNameDocument name="UVI Demo Packs">
+  <Version>2</Version>
+  <Author>Sonic Scores, Inc.</Author>
+  <Device name="UVIWorkstation" usesPatchNames="1" firstPatchNumber="0" middleC="c3" />
+  <ArticulationNames>
+    <Articulation name="Marcato" velocityAdd="10" durationPct="90" />
+    <Articulation name="Marcato Dot" velocityAdd="15" durationPct="50" />
+    <Articulation name="Heavy Attack" velocityAdd="10" durationPct="100" />
+    <Articulation name="SForzando" velocityAdd="20" />
+    <Articulation name="SForzando Dot" velocityAdd="20" durationPct="50" />
+    <Articulation name="Heavier Attack" velocityAdd="20" durationPct="100" />
+    <Articulation name="SForzando Inverted" velocityAdd="20" />
+    <Articulation name="SForzando Dot Inverted" velocityAdd="20" durationPct="50" />
+    <Articulation name="Staccatissimo" durationPct="30" />
+    <Articulation name="Staccato" durationPct="50" />
+    <Articulation name="Tenuto" durationPct="100" />
+    <Articulation name="Up Bow" />
+    <Articulation name="Down Bow" velocityAdd="5" />
+    <Articulation name="Up Bow Inverted" />
+    <Articulation name="Down Bow Inverted" velocityAdd="5" />
+    <Articulation name="Arpeggio" attackFrom="-90" attackTo="0" />
+    <Articulation name="Tremolo Eighths" tremoloNotes="1" />
+    <Articulation name="Tremolo Sixteenths" tremoloNotes="2" />
+    <Articulation name="Tremolo Thirty Seconds" tremoloNotes="3" />
+    <Articulation name="Tremolo Sixty Fourths" tremoloNotes="4" />
+    <Articulation name="pizz" />
+    <Articulation name="arco" durationPct="90" />
+    <Articulation name="legato" durationPct="100" />
+  </ArticulationNames>
+  <ControllerNames>
+    <Controller name="Volume" cc="7" />
+    <Controller name="Panning" cc="10" />
+    <Controller name="Expression" cc="11" />
+    <Controller name="Pedal (Sustain)" cc="64" />
+    <Controller name="Modulation" cc="1" />
+    <Controller name="Breath" cc="2" />
+    <Controller name="Foot Controller" cc="4" />
+    <Controller name="Portamento Time" cc="5" />
+    <Controller name="Balance" cc="8" />
+    <Controller name="Portamento" cc="65" />
+    <Controller name="Pedal (Sostenuto)" cc="66" />
+    <Controller name="Pedal (Soft)" cc="67" />
+    <Controller name="Hold 2" cc="69" />
+    <Controller name="External Effects Depth" cc="91" />
+    <Controller name="Tremolo Depth" cc="92" />
+    <Controller name="Chorus Depth" cc="93" />
+    <Controller name="Celeste Detune Depth" cc="94" />
+    <Controller name="Phaser Depth" cc="95" />
+    <Controller name="Reset All Controllers" cc="121" />
+    <Controller name="All Notes Off " cc="123" />
+  </ControllerNames>
+  <Instruments>
+    <Section name="Drum Kits" title="Drums" abbr="Dr." lownote="c-1" highnote="c9" clef="percussion" soundID="unpitched.drum">
+      <Instrument name="Brushed Kit-light" />
+      <Instrument name="Drumstick Brushed-light" />
+    </Section>
+    <Section name="Hip Hop Kits" title="Drums" abbr="Dr." lownote="c-1" highnote="c9" clef="percussion" soundID="unpitched.drum">
+      <Instrument name="Demo HipHop Kit 1" />
+      <Instrument name="Demo HipHop Kit 2" />
+    </Section>
+    <Section name="Instruments" lownote="c-1" highnote="c9" clef="treble">
+      <Instrument name="Mini Jazz Piano-light" title="Piano" abbr="Pn." soundID="keyboard.piano.jazz" />
+      <Instrument name="Spanish Guitar Fingered-light" title="Guitar" abbr="Gtr." soundID="guitar.nylon string" />
+      <Instrument name="West Indies Bass long-light" title="Bass" abbr="B. Gtr." soundID="guitar.bass" />
+    </Section>
+    <Section name="Synths Anthology" title="Synth" abbr="Syn." lownote="c-1" highnote="c9" clef="treble">
+      <Instrument name="01 Pure Pulse Lead" title="Piano" soundID="synth.tone.pulse" />
+      <Instrument name="02 From the Eighties" soundID="synth.tone.eighties" />
+      <Instrument name="03 Ion Flux Vox" soundID="synth.tone.vox" />
+      <Instrument name="04 Angel Sweep" soundID="synth.sweep" />
+      <Instrument name="05 My TB is Big" soundID="synth" />
+      <Instrument name="06 X Vision Glide" soundID="synth.glide" />
+    </Section>
+    <Section name="Retro Organs" title="Organ" abbr="Org." lownote="c-1" highnote="c9" clef="treble">
+      <Instrument name="Baby Jazz-light" soundID="keyboard.organ.drawbar.tremolo" />
+      <Instrument name="Lord Full-light" soundID="keyboard.organ.drawbar.with rotary speaker" />
+    </Section>
+  </Instruments>
+</VSTNameDocument>

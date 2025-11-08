@@ -1,0 +1,111 @@
+
+<VSTNameDocument name="Alesis MIDIVerb II">
+<Version>1</Version>
+<Author>Sonic Scores</Author>
+<Device type="MIDI"/>
+<Instruments>
+  <Section name="BANK 0, 1, 2, REVERB" bankHigh="0" bankLow="0" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="SMALL  BRIGHT   .1 sec" prgChg="1"/>
+    <Instrument name="SMALL  BRIGHT   .2 sec" prgChg="2"/>
+    <Instrument name="SMALL  BRIGHT   .3 sec" prgChg="3"/>
+    <Instrument name="MEDIUM WARM   1.1 sec" prgChg="4"/>
+    <Instrument name="MEDIUM BRIGHT   .6 sec" prgChg="5"/>
+    <Instrument name="LARGE  BRIGHT  1.2 sec" prgChg="6"/>
+    <Instrument name="LARGE  DARK    1.0 sec" prgChg="7"/>
+    <Instrument name="MEDIUM DARK     .6 sec" prgChg="8"/>
+    <Instrument name="MEDIUM DARK     .5 sec" prgChg="9"/>
+    <Instrument name="MEDIUM BRIGHT   .6 sec" prgChg="10"/>
+    <Instrument name="MEDIUM BRIGHT   .8 sec" prgChg="11"/>
+    <Instrument name="LARGE  WARM   1.0 sec" prgChg="12"/>
+    <Instrument name="LARGE  WARM   1.1 sec" prgChg="13"/>
+    <Instrument name="MEDIUM DARK    1.0 sec" prgChg="14"/>
+    <Instrument name="MEDIUM BRIGHT  1.1 sec" prgChg="15"/>
+    <Instrument name="MEDIUM BRIGHT 1.15 sec" prgChg="16"/>
+    <Instrument name="LARGE  BRIGHT  1.6 sec" prgChg="17"/>
+    <Instrument name="LARGE  DARK    1.7 sec" prgChg="18"/>
+    <Instrument name="MEDIUM BRIGHT 1.65 sec" prgChg="19"/>
+    <Instrument name="MEDIUM BRIGHT  1.9 sec" prgChg="20"/>
+    <Instrument name="LARGE  WARM    2.2 sec" prgChg="21"/>
+    <Instrument name="LARGE  WARM   1.75 sec" prgChg="22"/>
+    <Instrument name="LARGE  BRIGHT 1.45 sec" prgChg="23"/>
+    <Instrument name="LARGE  DARK    2.2 sec" prgChg="24"/>
+    <Instrument name="LARGE  WARM    2.3 sec" prgChg="25"/>
+    <Instrument name="LARGE  BRIGHT  2.4 sec" prgChg="26"/>
+    <Instrument name="LARGE  BRIGHT  2.5 sec" prgChg="27"/>
+    <Instrument name="XLARGE WARM    5.0 sec" prgChg="28"/>
+    <Instrument name="XLARGE WARM  15.0 sec" prgChg="29"/>
+    <Instrument name="SLOW GATE 100ms" prgChg="30"/>
+    <Instrument name="SLOW GATE 200ms" prgChg="31"/>
+    <Instrument name="SLOW GATE 250ms" prgChg="32"/>
+    <Instrument name="SLOW GATE 400ms" prgChg="33"/>
+    <Instrument name="SLOW GATE 450ms" prgChg="34"/>
+    <Instrument name="FAST GATE 150ms" prgChg="35"/>
+    <Instrument name="FAST GATE   75ms" prgChg="36"/>
+    <Instrument name="FAST GATE 200ms" prgChg="37"/>
+    <Instrument name="FAST GATE 100ms" prgChg="38"/>
+    <Instrument name="FAST GATE 175ms" prgChg="39"/>
+    <Instrument name="REVERSE 400ms" prgChg="40"/>
+    <Instrument name="REVERSE 450ms" prgChg="41"/>
+    <Instrument name="REVERSE 250ms" prgChg="42"/>
+    <Instrument name="REVERSE 200ms" prgChg="43"/>
+    <Instrument name="REVERSE 150ms" prgChg="44"/>
+    <Instrument name="BLOOM 1    8ms" prgChg="45"/>
+    <Instrument name="REVERSE 500ms" prgChg="46"/>
+    <Instrument name="REVERSE REGEN 2 sec" prgChg="47"/>
+    <Instrument name="REVERSE REGEN 8 sec" prgChg="48"/>
+    <Instrument name="BLOOM 2      7 sec" prgChg="49"/>
+    <Instrument name="TRIGGERED FLANGE 1" prgChg="50"/>
+    <Instrument name="FLANGE PAN 1" prgChg="51"/>
+    <Instrument name="FLANGE PAN 2" prgChg="52"/>
+    <Instrument name="TRIGGERED FLANGE 2" prgChg="53"/>
+    <Instrument name="FLANGE PAN 3" prgChg="54"/>
+    <Instrument name="FLANGE PAN 4" prgChg="55"/>
+    <Instrument name="FLANGE PAN 5" prgChg="56"/>
+    <Instrument name="TRIGGERED FLANGE 3" prgChg="57"/>
+    <Instrument name="FLANGE PAN 6" prgChg="58"/>
+    <Instrument name="FLANGE PAN 7" prgChg="59"/>
+    <Instrument name="LIGHT CHORUS 1" prgChg="60"/>
+    <Instrument name="LIGHT CHORUS 2" prgChg="61"/>
+    <Instrument name="MEDIUM CHORUS 1" prgChg="62"/>
+    <Instrument name="MEDIUM CHORUS 2" prgChg="63"/>
+    <Instrument name="MEDIUM CHORUS 3" prgChg="64"/>
+    <Instrument name="DEEP CHORUS 1" prgChg="65"/>
+    <Instrument name="DEEP CHORUS 2" prgChg="66"/>
+    <Instrument name="DEEP CHORUS 3" prgChg="67"/>
+    <Instrument name="FAST CHORUS 1" prgChg="68"/>
+    <Instrument name="FAST CHORUS 2" prgChg="69"/>
+    <Instrument name="  35ms" prgChg="70"/>
+    <Instrument name="  55ms" prgChg="71"/>
+    <Instrument name="  75ms" prgChg="72"/>
+    <Instrument name="115ms" prgChg="73"/>
+    <Instrument name="140ms" prgChg="74"/>
+    <Instrument name="155ms" prgChg="75"/>
+    <Instrument name="160ms" prgChg="76"/>
+    <Instrument name="170ms" prgChg="77"/>
+    <Instrument name="175ms" prgChg="78"/>
+    <Instrument name="180ms" prgChg="79"/>
+    <Instrument name="185ms" prgChg="80"/>
+    <Instrument name="195ms" prgChg="81"/>
+    <Instrument name="205ms" prgChg="82"/>
+    <Instrument name="210ms" prgChg="83"/>
+    <Instrument name="220ms" prgChg="84"/>
+    <Instrument name="240ms" prgChg="85"/>
+    <Instrument name="250ms" prgChg="86"/>
+    <Instrument name="275ms" prgChg="87"/>
+    <Instrument name="375ms" prgChg="88"/>
+    <Instrument name="460ms" prgChg="89"/>
+    <Instrument name="2 TAP AMBIENT" prgChg="90"/>
+    <Instrument name="3 TAP PAN" prgChg="91"/>
+    <Instrument name="MULTITAP" prgChg="92"/>
+    <Instrument name="MULTITAP REVERSE PAN" prgChg="93"/>
+    <Instrument name="THICKENER/FROZEN FLANGE" prgChg="94"/>
+    <Instrument name="STEREO GENERATION" prgChg="95"/>
+    <Instrument name="STEREO GENERATION WIDE" prgChg="96"/>
+    <Instrument name="REGENERATED DELAY 2  sec" prgChg="97"/>
+    <Instrument name="REGENERATED DELAY 3  sec" prgChg="98"/>
+    <Instrument name="REGENERATED DELAY 4  sec" prgChg="99"/>
+    <Instrument name="DEFEAT" prgChg="100"/>
+  </Section>
+</Instruments>
+</VSTNameDocument>
+

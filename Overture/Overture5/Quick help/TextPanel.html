@@ -1,0 +1,144 @@
+﻿<html>
+	
+<head>
+	<title>Text Panel</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("TextPanel");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Text Panel</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="GettingStarted.html">Getting Started</a> &rsaquo;&rsaquo; <a href="MainScoreWindow.html">Main Score Window</a> &rsaquo;&rsaquo; <a href="TheControlbar.html">The Control bar</a> &rsaquo;&rsaquo; <a href="ScoreToolsPanel.html">Score Tools Panel</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="ScoreToolsPanel.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="SymbolsPanel.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="RehearsalText.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<p class="rvps2"><img alt="" style="vertical-align: middle; padding : 1px;" src="lib/NewItem76.png"><span class="rvts6"> </span><span class="rvts12">Tools Panel - Text</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">If Tools Panel is not showing click on the </span><span class="rvts12">Score Tools</span><span class="rvts6"> button at top left of Control Bar and then click on the Text section in the header if it's not active.</span></p>
+<p class="rvps2"><span class="rvts6">You can also type "Ctrl[</span><span class="rvts13">Cmd]</span><span class="rvts6">-Shift-T" to go directly to the Text section.</span></p>
+<p class="rvps12"><span class="rvts6"><br/></span></p>
+<div class="rvps12"><table border="0" cellpadding="1" cellspacing="2" style="border-width: 0px; border-spacing: 2px;">
+<tr valign="top">
+<td width="50" style="padding: 1px;"><p class="rvps12"><img alt="" style="padding : 1px;" src="lib/NewItem157.png"></p>
+</td>
+<td width="1067" style="padding: 1px;"><p class="rvps2"><span class="rvts12">Text Type</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts12">Measure</span><span class="rvts6">. - Text that is attached to a specific measure.</span></li>
+<li class="rvps2"><span class="rvts12">System</span><span class="rvts6"> - Text that is attached to a specific measure and is always displayed above the first staff.</span></li>
+<li class="rvps2"><span class="rvts12">Rehearsal</span><span class="rvts6"> - Text is attached to a specific measure, is always displayed above first staff, and has an enclosure.</span></li>
+<li class="rvps2"><span class="rvts12">Page</span><span class="rvts6"> - Text is attached to a specific page.</span></li>
+<li class="rvps2"><span class="rvts12">Expression</span><span class="rvts6"> - Text is attached to a specific measure and can control playback.</span></li>
+<li class="rvps2"><span class="rvts12">Part Extraction</span><span class="rvts6"> - Text for controlling how multiple instruments sharing a track are created, like solo, a1, a2, etc.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Text Font</span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts12">Font</span><span class="rvts6"> - Sets the current font for new text to be entered.</span></li>
+<li class="rvps2"><span class="rvts12">Size and Style</span><span class="rvts6"> - Sets current font size and style &nbsp;for new text to be entered.</span></li>
+<li class="rvps2"><span class="rvts12">Make Default</span><span class="rvts6"> - Makes this the default font for text style.</span></li>
+<li class="rvps2"><span class="rvts12">Replace in Score</span><span class="rvts6"> - Replaces all text of this type with current font settings.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+</td>
+</tr>
+</table>
+</div>
+<h4 class="rvps8"><span class="rvts0"><span class="rvts18">To enter text:</span></span></h4>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" class="rvps2"><span class="rvts6">Select the Text type from the six choices.</span><br/><span class="rvts6">If the text type is </span><span class="rvts12">Expression</span><span class="rvts6">, a list of common expressions will appear below, then click on the expression text to enter.</span></li>
+<li value="2" class="rvps2"><span class="rvts6">Click in the score view to enter the text. If the text was not an expression a text dialog as shown below appears for you to enter the text and the it's style.</span></li>
+<li value="3" class="rvps2"><span class="rvts6">Double click the newly entered expression to change it's settings.</span></li>
+</ol>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Note</span><span class="rvts6">: You can drag and drop </span><span class="rvts12">Expression</span><span class="rvts6"> text and </span><span class="rvts12">Part Expression</span><span class="rvts6"> text directly onto the score.</span></p>
+<h4 class="rvps8"><span class="rvts0"><span class="rvts18">To duplicate Expression text and Part Expression text:</span></span></h4>
+<p class="rvps2"><span class="rvts6">Right click on text and and choose the destination tracks from the popup menu.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NewItem303.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<h4 class="rvps8"><span class="rvts0"><span class="rvts18">The Edit Text dialog</span></span></h4>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NewItem21.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Font Section:</span></p>
+<p class="rvps2"><span class="rvts6">This is where you set the font typeface size and style.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Text</span></p>
+<p class="rvps2"><span class="rvts6">Type in this area to enter the text and how it is justified.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Enclosure</span></p>
+<p class="rvps2"><span class="rvts6">Change these setting to enclose the text.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

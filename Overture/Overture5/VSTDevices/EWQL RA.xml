@@ -1,0 +1,1758 @@
+<VSTNameDocument>
+	<Version>1</Version>
+	<Author>GenieSoft,Inc.</Author>
+
+	<Device name="RA">
+
+		<ArticulationNames>			
+				<Articulation name="Marcato" velocityAdd="10" durationPct="90"/>
+				<Articulation name="Marcato Dot" velocityAdd="15" durationPct="50"/>
+				<Articulation name="Heavy Attack" velocityAdd="10" durationPct="100"/>
+				<Articulation name="SForzando" velocityAdd="20"/>
+				<Articulation name="SForzando Dot" velocityAdd="20" durationPct="50"/>
+				<Articulation name="Heavier Attack" velocityAdd="20" durationPct="100"/>
+				<Articulation name="SForzando Inverted" velocityAdd="20"/>
+				<Articulation name="SForzando Dot Inverted" velocityAdd="20" durationPct="50"/>
+				<Articulation name="Staccatissimo" velocityAdd="15" durationPct="30"/>
+				<Articulation name="Staccato" velocityAdd="15" durationPct="50"/>
+				<Articulation name="Tenuto" durationPct="100"/>
+				<Articulation name="Up Bow"/>
+				<Articulation name="Down Bow" velocityAdd="5"/>
+				<Articulation name="Up Bow Inverted"/>
+				<Articulation name="Down Bow Inverted" velocityAdd="5"/>
+				<Articulation name="Arpeggio" attackFrom="-90" attackTo="0"/>
+				<Articulation name="Tremolo Eighths" tremoloNotes="1"/>
+				<Articulation name="Tremolo Sixteenths" tremoloNotes="2"/>
+				<Articulation name="Tremolo Thirty Seconds" tremoloNotes="3"/>
+				<Articulation name="Tremolo Sixty Fourths" tremoloNotes="4"/>
+				<Articulation name="pizz"/>
+				<Articulation name="arco" durationPct="90"/>
+				<Articulation name="legato" durationPct="100" onOffset="0"/>
+
+			<ArticulationSwitchList name="Staccato">
+					<Articulation name="Staccato" durationPct="90"/>
+					<Articulation name="Staccatissimo"  velocityAdd="15" durationPct="50"/>
+			</ArticulationSwitchList>
+
+			<ArticulationSwitchList name="Staccatissimo">
+					<Articulation name="Staccatissimo"  durationPct="90"/>
+			</ArticulationSwitchList>
+
+			<ArticulationSwitchList name="Marcato">
+					<Articulation name="Marcato" durationPct="90"/>
+					<Articulation name="Marcato Dot" velocityAdd="15" durationPct="50"/>
+					<Articulation name="Heavy Attack" durationPct="100"/>
+			</ArticulationSwitchList>
+
+			<ArticulationSwitchList name="FNC Flute KS 1">
+					<Articulation name="Staccato" keySwitch="F1" durationPct="90"/>
+					<Articulation name="Staccatissimo" keySwitch="F1" velocityAdd="15" durationPct="50"/>
+			</ArticulationSwitchList>
+
+			<ArticulationSwitchList name="Pan Flute KS 1">
+					<Articulation name="Staccato" keySwitch="D#1" durationPct="90"/>
+					<Articulation name="Staccatissimo" keySwitch="D#1" velocityAdd="15" durationPct="50"/>
+			</ArticulationSwitchList>
+
+			<ArticulationSwitchList name="Gadulka KS 1">
+					<Articulation name="Staccato" keySwitch="F1" durationPct="90"/>
+					<Articulation name="Staccatissimo" keySwitch="F1" velocityAdd="15" durationPct="50"/>
+			</ArticulationSwitchList>
+
+			<ArticulationSwitchList name="Hardanger KS 1">
+					<Articulation name="Staccato" keySwitch="E1" durationPct="90"/>
+					<Articulation name="Staccatissimo" keySwitch="F1" durationPct="90"/>
+			</ArticulationSwitchList>
+
+			<ArticulationSwitchList name="Alpenhorn KS 1">
+					<Articulation name="Staccato" keySwitch="G6" durationPct="90"/>
+					<Articulation name="Staccatissimo" keySwitch="G6" velocityAdd="15" durationPct="50"/>
+			</ArticulationSwitchList>
+
+			<ArticulationSwitchList name="Irish Low Whistle KS 1">
+					<Articulation name="Marcato" keySwitch="F1" durationPct="90"/>
+					<Articulation name="Marcato Dot" keySwitch="F1" velocityAdd="15" durationPct="50"/>
+					<Articulation name="Heavy Attack" keySwitch="F1" durationPct="100"/>
+					<Articulation name="Staccato" keySwitch="F#1" durationPct="90"/>
+					<Articulation name="Staccatissimo" keySwitch="F#1" velocityAdd="15" durationPct="50"/>
+			</ArticulationSwitchList>
+
+			<ArticulationSwitchList name="Erhu KS 1">
+					<Articulation name="Staccato" keySwitch="G#1" durationPct="90"/>
+					<Articulation name="Staccatissimo" keySwitch="G#1" velocityAdd="15" durationPct="50"/>
+					<Articulation name="legato" keySwitch="E1" durationPct="100"/>
+			</ArticulationSwitchList>
+
+			<ArticulationSwitchList name="Dizi KS 1">
+					<Articulation name="Staccato" keySwitch="F1" durationPct="90"/>
+					<Articulation name="Staccatissimo" keySwitch="F1" velocityAdd="15" durationPct="50"/>
+					<Articulation name="legato" keySwitch="D#1" durationPct="100"/>
+			</ArticulationSwitchList>
+			
+			<ArticulationSwitchList name="Esraj KS">
+					<Articulation name="legato" keySwitch="C#1" durationPct="100"/>
+			</ArticulationSwitchList>
+			
+			<ArticulationSwitchList name="Sarangi KS">
+					<Articulation name="legato" keySwitch="D1" durationPct="100"/>
+			</ArticulationSwitchList>
+			
+			<ArticulationSwitchList name="MidEastStrings KS">
+					<Articulation name="legato" keySwitch="D1" durationPct="100"/>
+			</ArticulationSwitchList>
+			
+			<ArticulationSwitchList name="Ney Flute KS">
+					<Articulation name="legato" keySwitch="D1" durationPct="100"/>
+			</ArticulationSwitchList>
+			
+			<ArticulationSwitchList name="Zourna KS">
+					<Articulation name="legato" keySwitch="D#1" durationPct="100"/>
+			</ArticulationSwitchList>
+
+			<ArticulationSwitchList name="Baritone Violin KS 1">
+					<Articulation name="Marcato" keySwitch="F#1" durationPct="90"/>
+					<Articulation name="Marcato Dot" keySwitch="F#1" velocityAdd="15" durationPct="50"/>
+					<Articulation name="Heavy Attack" keySwitch="F#1" durationPct="100"/>
+					<Articulation name="Staccato" keySwitch="G1" durationPct="90"/>
+					<Articulation name="Staccatissimo" keySwitch="G#1" velocityAdd="15" durationPct="90"/>
+			</ArticulationSwitchList>
+
+			<ArticulationSwitchList name="B Duduk KS 1">
+					<Articulation name="Staccato" keySwitch="F#1" durationPct="90"/>
+					<Articulation name="Staccatissimo" keySwitch="F#1" velocityAdd="15" durationPct="50"/>
+					<Articulation name="legato" keySwitch="D1" durationPct="100"/>
+			</ArticulationSwitchList>
+
+			<ArticulationSwitchList name="T Duduk KS 1">
+					<Articulation name="Staccato" keySwitch="A1" durationPct="90"/>
+					<Articulation name="Staccatissimo" keySwitch="A1" velocityAdd="15" durationPct="50"/>
+					<Articulation name="legato" keySwitch="C#1" durationPct="100"/>
+			</ArticulationSwitchList>
+			
+			<ArticulationSwitchList name="Shakuhachi KS 1">
+					<Articulation name="Staccato" keySwitch="G1" durationPct="90"/>
+					<Articulation name="Staccatissimo" keySwitch="G1" velocityAdd="15" durationPct="50"/>
+			</ArticulationSwitchList>
+			
+			<ArticulationSwitchList name="Bansuri KS 1">
+					<Articulation name="Staccato" keySwitch="A1" durationPct="90"/>
+					<Articulation name="Staccatissimo" keySwitch="A#1" velocityAdd="0" durationPct="90"/>
+					<Articulation name="legato" keySwitch="C#1" durationPct="100"/>
+			</ArticulationSwitchList>
+
+
+		</ArticulationNames>
+
+	
+		<KeySwitchNames>
+
+    		<KeySwitchList name="Washburn GTR 1">
+    			<KeySwitch name="Finger" key="C1"/>
+    			<KeySwitch name="Pick RR" key="C#1"/>
+    			<KeySwitch name="Strum RR" key="D1"/>
+				<KeySwitch name="Harm" key="D#1"/>
+			</KeySwitchList>
+
+    		<KeySwitchList name="Dobro KS 1">
+    			<KeySwitch name="Open" key="C1"/>
+    			<KeySwitch name="Slide Slw DN" key="C#1"/>
+    			<KeySwitch name="Slide P4th Up NVB" key="D1"/>
+				<KeySwitch name="Slide P4th Up Vib" key="D#1"/>
+				<KeySwitch name="Slur UP DN" key="E1"/>
+				<KeySwitch name="Slide WT UP Fall" key="F1"/>
+				<KeySwitch name="Slide WT UP" key="F#1"/>
+				<KeySwitch name="Trem FX WT UP" key="G1"/>
+				<KeySwitch name="Trem FX" key="G#1"/>
+				<KeySwitch name="Slide Fst DN" key="A1"/>
+				<KeySwitch name="Slide Fst UP" key="A#1"/>
+				<KeySwitch name="Slide PWR UP A" key="B1"/>
+				<KeySwitch name="Slide PWR UP B" key="C2"/>
+				<KeySwitch name="Slide Full DN" key="C#2"/>
+				<KeySwitch name="Slide Full UP" key="D2"/>
+			</KeySwitchList>
+
+			<KeySwitchList name="Mandolin KS 1">
+    			<KeySwitch name="Sus RR" key="C1"/>
+    			<KeySwitch name="Slide UP" key="C#1"/>
+    			<KeySwitch name="Trem Slw" key="D1"/>
+				<KeySwitch name="Trem Fst" key="D#1"/>
+				<KeySwitch name="Live 2" key="E1"/>
+			</KeySwitchList>
+
+    		<KeySwitchList name="FNC Flute KS 1">
+    			<KeySwitch name="Leg Vib Exp" key="C1"/>
+    			<KeySwitch name="Leg Non Vib" key="C#1"/>
+    			<KeySwitch name="Leg Exp 2 RR" key="D1"/>
+				<KeySwitch name="Non Vib Exp" key="D#1"/>
+				<KeySwitch name="Exp Vib 1" key="E1"/>
+				<KeySwitch name="Stac" key="F1"/>
+				<KeySwitch name="Exp Melody 1" key="F#1"/>
+				<KeySwitch name="Exp Melody 2" key="G1"/>
+				<KeySwitch name="Flutter" key="G#1"/>
+			</KeySwitchList>
+
+    		<KeySwitchList name="Pan Flute KS 1">
+    			<KeySwitch name="Sus Vib" key="C1"/>
+    			<KeySwitch name="Non Vib" key="C#1"/>
+    			<KeySwitch name="NV VB MOD" key="D1"/>
+				<KeySwitch name="Stac RR" key="D#1"/>
+			</KeySwitchList>
+
+    		<KeySwitchList name="Gadulka KS 1">
+    			<KeySwitch name="Sus Vib 1" key="C1"/>
+    			<KeySwitch name="Non Vib 1+2 RR" key="C#1"/>
+    			<KeySwitch name="DBL Bow Exp" key="D1"/>
+				<KeySwitch name="Bow DN+UP RR" key="D#1"/>
+				<KeySwitch name="Trem" key="E1"/>
+				<KeySwitch name="Stac" key="F1"/>
+			</KeySwitchList>
+
+			<KeySwitchList name="Gadulka Live KS 1">
+    			<KeySwitch name="Leg Vib 1" key="C1"/>
+    			<KeySwitch name="DBL Bow Exp" key="C#1"/>
+			</KeySwitchList>
+
+			<KeySwitchList name="Hardanger KS 1">
+    			<KeySwitch name="Sus Vib" key="C1"/>
+    			<KeySwitch name="Leg Non Vib RR" key="C#1"/>
+    			<KeySwitch name="Exp Vib" key="D1"/>
+				<KeySwitch name="Exp Non Vib" key="D#1"/>
+				<KeySwitch name="Short RR" key="E1"/>
+				<KeySwitch name="Spic RR" key="F1"/>
+				<KeySwitch name="Melody" key="F#1"/>
+				<KeySwitch name="Trill HT" key="G1"/>
+				<KeySwitch name="Trill WT" key="G#1"/>
+			</KeySwitchList>
+
+			<KeySwitchList name="Hurdy Gurdy KS 1">
+    			<KeySwitch name="Non Vib VS" key="C1"/>
+    			<KeySwitch name="DBL Low" key="C#1"/>
+    			<KeySwitch name="DBL Hi" key="D1"/>
+				<KeySwitch name="Drone 1" key="D#1"/>
+				<KeySwitch name="Drone 3" key="E1"/>
+				<KeySwitch name="Drone 5" key="F1"/>
+			</KeySwitchList>
+
+			<KeySwitchList name="Alpenhorn KS 1">
+    			<KeySwitch name="Sus Vib" key="C6"/>
+    			<KeySwitch name="Sus" key="C#6"/>
+    			<KeySwitch name="Non Vib" key="D6"/>
+				<KeySwitch name="Exp" key="D#6"/>
+				<KeySwitch name="Exp Fst" key="E6"/>
+				<KeySwitch name="Slide Oct DN" key="F6"/>
+				<KeySwitch name="Slide Oct UP" key="F#6"/>
+				<KeySwitch name="Stac" key="G6"/>
+			</KeySwitchList>
+
+			<KeySwitchList name="Bass Recorder KS 1">
+    			<KeySwitch name="Sus Vib" key="C1"/>
+    			<KeySwitch name="Exp Vib Fst" key="C#1"/>
+    			<KeySwitch name="Exp Vib" key="D1"/>
+			</KeySwitchList>
+
+			<KeySwitchList name="Irish Low Whistle KS 1">
+    			<KeySwitch name="Irish Vib" key="C1"/>
+    			<KeySwitch name="Western Vib" key="C#1"/>
+    			<KeySwitch name="Non Vib" key="D1"/>
+				<KeySwitch name="Bnd WT UP" key="D#1"/>
+				<KeySwitch name="Bnd HT UP" key="E1"/>
+				<KeySwitch name="Short" key="F1"/>
+				<KeySwitch name="Stac 3RR" key="F#1"/>
+				<KeySwitch name="Exp Melody 1" key="G1"/>
+				<KeySwitch name="Exp Melody 2" key="G#1"/>
+				<KeySwitch name="Exp Melody 3" key="A1"/>
+				<KeySwitch name="Exp Melody 4" key="A#1"/>
+				<KeySwitch name="Exp Melody 5" key="B1"/>
+			</KeySwitchList>
+
+			<KeySwitchList name="Launeddas KS 1">
+    			<KeySwitch name="Non Vib" key="C1"/>
+    			<KeySwitch name="Grace" key="C#1"/>
+    			<KeySwitch name="Exp Mldy" key="D1"/>
+			</KeySwitchList>
+
+			<KeySwitchList name="Uilleann Pipes KS 1">
+    			<KeySwitch name="Basic VS" key="C1"/>
+    			<KeySwitch name="Vib VS" key="C#1"/>
+    			<KeySwitch name="Exp Bend VS" key="D1"/>
+				<KeySwitch name="Live" key="D#1"/>
+			</KeySwitchList>
+
+			<KeySwitchList name="Erhu KS 1">
+    			<KeySwitch name="Sus Vib" key="C1"/>
+    			<KeySwitch name="Exp Vib Sft" key="C#1"/>
+    			<KeySwitch name="Exp Vib Slw" key="D1"/>
+				<KeySwitch name="Exp Vib Fst" key="D#1"/>
+				<KeySwitch name="Leg" key="E1"/>
+				<KeySwitch name="Non Vib Hrd" key="F1"/>
+				<KeySwitch name="Slide Dn 1" key="F#1"/>
+				<KeySwitch name="Slide Up 2" key="G1"/>
+				<KeySwitch name="Stac RR" key="G#1"/>
+				<KeySwitch name="Trill" key="A1"/>
+			</KeySwitchList>
+
+			<KeySwitchList name="Koto KS 1">
+    			<KeySwitch name="Sus Vib" key="C1"/>
+    			<KeySwitch name="Exp Vib" key="C#1"/>
+    			<KeySwitch name="Non Vib" key="D1"/>
+				<KeySwitch name="HT UP" key="D#1"/>
+				<KeySwitch name="Pick Scrape" key="E1"/>
+				<KeySwitch name="DBL Hit" key="F1"/>
+				<KeySwitch name="Trem" key="F#1"/>
+			</KeySwitchList>
+
+			<KeySwitchList name="Shamisen KS 1">
+    			<KeySwitch name="Pick Soft" key="C1"/>
+    			<KeySwitch name="Sus" key="C#1"/>
+    			<KeySwitch name="Vib Fst" key="D1"/>
+				<KeySwitch name="Sft Vib" key="D#1"/>
+				<KeySwitch name="Slur" key="E1"/>
+			</KeySwitchList>
+
+			<KeySwitchList name="Dizi KS 1">
+    			<KeySwitch name="Sus Vib" key="C1"/>
+    			<KeySwitch name="Exp Vib 1" key="C#1"/>
+    			<KeySwitch name="Exp Vib 2" key="D1"/>
+				<KeySwitch name="Legato" key="D#1"/>
+				<KeySwitch name="Non Vib" key="E1"/>
+				<KeySwitch name="Stac Trill" key="F1"/>
+				<KeySwitch name="Trill" key="F#1"/>
+				<KeySwitch name="Trem" key="G1"/>
+				<KeySwitch name="Flutter" key="G#1"/>
+				<KeySwitch name="Melody 1" key="A1"/>
+				<KeySwitch name="Melody 2" key="A#1"/>
+			</KeySwitchList>
+
+			<KeySwitchList name="Rag Dung KS 1">
+    			<KeySwitch name="Non Vib 1,2,3" key="C1"/>
+    			<KeySwitch name="Sus Vib Slw" key="C#1"/>
+    			<KeySwitch name="Sus Vib 1,2,3" key="D1"/>
+			</KeySwitchList>
+
+			<KeySwitchList name="Shakuhachi KS 1">
+    			<KeySwitch name="Sus Vib" key="C1"/>
+    			<KeySwitch name="Exp Vib" key="C#1"/>
+    			<KeySwitch name="Leg Vib" key="D1"/>
+				<KeySwitch name="Leg Non Vib" key="D#1"/>
+				<KeySwitch name="Non Vib" key="E1"/>
+				<KeySwitch name="Overblown 2" key="F1"/>
+				<KeySwitch name="Overblown 1" key="F#1"/>
+				<KeySwitch name="Spit 4RR" key="G1"/>
+				<KeySwitch name="Harm FX" key="G#1"/>
+				<KeySwitch name="Trill" key="A1"/>
+				<KeySwitch name="Mldy 1" key="A#1"/>
+				<KeySwitch name="Mldy 2" key="B1"/>
+				<KeySwitch name="Mldy 3" key="C2"/>
+				<KeySwitch name="Mldy 4" key="C#2"/>
+			</KeySwitchList>
+
+			<KeySwitchList name="Baritone Violin KS 1">
+    			<KeySwitch name="Leg NV RR" key="C1"/>
+    			<KeySwitch name="Sus Leg RR" key="C#1"/>
+    			<KeySwitch name="Leg Exp" key="D1"/>
+				<KeySwitch name="Lyrical" key="D#1"/>
+				<KeySwitch name="Exp Vib" key="E1"/>
+				<KeySwitch name="Fls Harm" key="F1"/>
+				<KeySwitch name="Marc" key="F#1"/>
+				<KeySwitch name="Stac RR" key="G1"/>
+				<KeySwitch name="Spic RR" key="G#1"/>
+				<KeySwitch name="Ornament" key="A1"/>
+			</KeySwitchList>
+
+			<KeySwitchList name="Esraj KS 1">
+    			<KeySwitch name="Sus" key="C1"/>
+    			<KeySwitch name="Leg Fst" key="C#1"/>
+    			<KeySwitch name="Leg 2" key="D1"/>
+				<KeySwitch name="Leg 3" key="D#1"/>
+				<KeySwitch name="Leg 4" key="E1"/>
+				<KeySwitch name="Slide HT UP" key="F1"/>
+				<KeySwitch name="Slide HT DN" key="F#1"/>
+				<KeySwitch name="Slide WT UP" key="G1"/>
+				<KeySwitch name="Slide WT DN" key="G#1"/>
+				<KeySwitch name="Slide Min3rd UP" key="A1"/>
+				<KeySwitch name="Slide Min3rd DN" key="A#1"/>
+				<KeySwitch name="Slide Maj3rd UP" key="B1"/>
+				<KeySwitch name="Slide Maj3rd DN" key="C2"/>
+				<KeySwitch name="Slide P4th UP" key="C#2"/>
+				<KeySwitch name="Slide P4th DN" key="D2"/>
+				<KeySwitch name="Trill HT UP" key="D#2"/>
+				<KeySwitch name="Trill HT DN" key="E2"/>
+			</KeySwitchList>
+
+			<KeySwitchList name="Sarangi KS 1">
+    			<KeySwitch name="Vib" key="C1"/>
+    			<KeySwitch name="Leg Vib 1" key="C#1"/>
+    			<KeySwitch name="Leg Vib 2" key="D1"/>
+				<KeySwitch name="Non Vib 2" key="D#1"/>
+				<KeySwitch name="Bend DN" key="E1"/>
+				<KeySwitch name="Bend UP" key="F1"/>
+				<KeySwitch name="Trem" key="F#1"/>
+				<KeySwitch name="Mldy 1" key="G1"/>
+				<KeySwitch name="Mldy 2" key="G#1"/>
+				<KeySwitch name="Mldy 3" key="A1"/>
+				<KeySwitch name="Mldy 4" key="A#1"/>
+				<KeySwitch name="Mldy 6" key="B1"/>
+				<KeySwitch name="Mldy 7" key="C2"/>
+				<KeySwitch name="Mldy 8" key="C#2"/>
+			</KeySwitchList>
+
+			<KeySwitchList name="Sarangi KS 2">
+    			<KeySwitch name="Mldy 1" key="C1"/>
+    			<KeySwitch name="Mldy 2" key="C#1"/>
+    			<KeySwitch name="Mldy 3" key="D1"/>
+				<KeySwitch name="Mldy 4" key="D#1"/>
+				<KeySwitch name="Mldy 6" key="E1"/>
+				<KeySwitch name="Mldy 7" key="F1"/>
+				<KeySwitch name="Mldy 8" key="F#1"/>
+				<KeySwitch name="Mldy 9" key="G1"/>
+				<KeySwitch name="Mldy 10" key="G#1"/>
+				<KeySwitch name="Mldy 11" key="A1"/>
+			</KeySwitchList>
+
+			<KeySwitchList name="Sitar KS 1">
+    			<KeySwitch name="Sus RR" key="C1"/>
+    			<KeySwitch name="Slide HT UP" key="C#1"/>
+    			<KeySwitch name="Slide WT UP" key="D1"/>
+				<KeySwitch name="FX 3" key="D#1"/>
+				<KeySwitch name="FX 1" key="E1"/>
+				<KeySwitch name="Trem" key="F1"/>
+				<KeySwitch name="Trill HT" key="F#1"/>
+				<KeySwitch name="Trill WT" key="G1"/>
+			</KeySwitchList>
+
+			<KeySwitchList name="Bansuri KS 1">
+    			<KeySwitch name="Sus Vib" key="c1"/>
+    			<KeySwitch name="Leg" key="C#1"/>
+    			<KeySwitch name="Sus Non Vib" key="D1"/>
+				<KeySwitch name="Exp Harm 1" key="D#1"/>
+				<KeySwitch name="Exp Harm FX" key="E1"/>
+				<KeySwitch name="Bnd Lng" key="F1"/>
+				<KeySwitch name="Bnd WT UP" key="F#1"/>
+				<KeySwitch name="Flutter Exp" key="G1"/>
+				<KeySwitch name="Flutter" key="G#1"/>
+				<KeySwitch name="Spit LNG RR" key="A1"/>
+				<KeySwitch name="Spit SHT RR" key="A#1"/>
+				<KeySwitch name="Turn" key="B1"/>
+			</KeySwitchList>
+
+			<KeySwitchList name="MidEast Fiddle KS 1">
+    			<KeySwitch name="Sus Vib" key="C1"/>
+    			<KeySwitch name="Non Vib" key="C#1"/>
+    			<KeySwitch name="Exp sFz" key="D1"/>
+				<KeySwitch name="Slur UP 1" key="D#1"/>
+				<KeySwitch name="Slur UP 2" key="E1"/>
+				<KeySwitch name="Slur DN 1" key="F1"/>
+				<KeySwitch name="Slur DN 2" key="F#1"/>
+				<KeySwitch name="Turn 1" key="G1"/>
+				<KeySwitch name="Turn 2" key="G#1"/>
+				<KeySwitch name="Mldy Slw" key="A1"/>
+			</KeySwitchList>
+
+			<KeySwitchList name="MidEast Strings KS 1">
+    			<KeySwitch name="Sus Vib" key="C1"/>
+    			<KeySwitch name="Exp Vib" key="C#1"/>
+    			<KeySwitch name="Leg" key="D1"/>
+				<KeySwitch name="Slur UP" key="D#1"/>
+				<KeySwitch name="Slur DN" key="E1"/>
+				<KeySwitch name="Turn" key="F1"/>
+			</KeySwitchList>
+
+			<KeySwitchList name="Yalli Tambur KS 1">
+    			<KeySwitch name="Leg" key="C1"/>
+    			<KeySwitch name="Leg Fst" key="C#1"/>
+    			<KeySwitch name="Exp" key="D1"/>
+				<KeySwitch name="Exp Vib" key="D#1"/>
+				<KeySwitch name="Grace HT" key="E1"/>
+				<KeySwitch name="Slide WT UP" key="F1"/>
+				<KeySwitch name="Trill HT" key="F#1"/>
+				<KeySwitch name="Trill WT" key="G1"/>
+				<KeySwitch name="Mldy HT" key="G#1"/>
+				<KeySwitch name="Slide FX" key="A1"/>
+			</KeySwitchList>
+
+			<KeySwitchList name="Oud KS 1">
+    			<KeySwitch name="Non Vib RR" key="C1"/>
+    			<KeySwitch name="Vib RR" key="C#1"/>
+    			<KeySwitch name="Wide Vib" key="D1"/>
+				<KeySwitch name="Slide UP" key="D#1"/>
+				<KeySwitch name="Slide DN" key="E1"/>
+				<KeySwitch name="Trem" key="F1"/>
+				<KeySwitch name="Trem Vib" key="F#1"/>
+			</KeySwitchList>
+
+			<KeySwitchList name="Santoor KS 1">
+    			<KeySwitch name="Sus RR" key="C1"/>
+    			<KeySwitch name="Mute" key="C#1"/>
+    			<KeySwitch name="sFz Exp" key="D1"/>
+				<KeySwitch name="Exp SHT" key="D#1"/>
+				<KeySwitch name="Exp Lng" key="E1"/>
+				<KeySwitch name="Exp sFz" key="F1"/>
+				<KeySwitch name="Exp WT Hrd" key="F#1"/>
+				<KeySwitch name="Exp WT Sft" key="G1"/>
+				<KeySwitch name="Trem" key="G#1"/>
+			</KeySwitchList>
+
+			<KeySwitchList name="A Duduk KS 1">
+    			<KeySwitch name="Sus Vib 1" key="C1"/>
+    			<KeySwitch name="Non Vib 1" key="C#1"/>
+    			<KeySwitch name="Non Vib 2" key="D1"/>
+				<KeySwitch name="Exp Vib" key="D#1"/>
+				<KeySwitch name="Exp Vib SHT 1" key="E1"/>
+				<KeySwitch name="Exp Vib SHT 2" key="F1"/>
+				<KeySwitch name="Exp Vib SHT 3" key="F#1"/>
+				<KeySwitch name="Exp Vib Grace" key="G1"/>
+				<KeySwitch name="Exp SHT HT UP" key="G#1"/>
+				<KeySwitch name="Exp Lng HT UP" key="A1"/>
+				<KeySwitch name="Exp WT UP" key="A#1"/>
+				<KeySwitch name="Exp Melody 1" key="B1"/>
+				<KeySwitch name="Exp Melody 2" key="C2"/>
+				<KeySwitch name="Exp Melody 3" key="C#2"/>
+			</KeySwitchList>
+
+			<KeySwitchList name="A Duduk KS 2">
+    			<KeySwitch name="Mldy 1" key="C1"/>
+    			<KeySwitch name="Mldy 2" key="C#1"/>
+    			<KeySwitch name="Mldy 3" key="D1"/>
+				<KeySwitch name="Mldy 4" key="D#1"/>
+				<KeySwitch name="Mldy 5" key="E1"/>
+				<KeySwitch name="Mldy 6" key="F1"/>
+				<KeySwitch name="Mldy 7" key="F#1"/>
+				<KeySwitch name="Mldy 8" key="G1"/>
+				<KeySwitch name="Mldy 9" key="G#1"/>
+				<KeySwitch name="Mldy 10" key="A1"/>
+				<KeySwitch name="Mldy 11" key="A#1"/>
+				<KeySwitch name="Mldy 12" key="B1"/>
+				<KeySwitch name="Mldy 13" key="C2"/>
+				<KeySwitch name="Mldy 14" key="C#2"/>
+				<KeySwitch name="Mldy 15" key="D2"/>
+				<KeySwitch name="Mldy 16" key="D#2"/>
+				<KeySwitch name="Mldy 17" key="E2"/>
+				<KeySwitch name="Mldy 18" key="F2"/>
+				<KeySwitch name="Mldy 19" key="F#2"/>
+				<KeySwitch name="Mldy 20" key="G2"/>
+				<KeySwitch name="Mldy 21" key="G#2"/>
+				<KeySwitch name="Mldy 22" key="A2"/>
+				<KeySwitch name="Mldy 23" key="A#2"/>
+				<KeySwitch name="Mldy 24" key="B2"/>
+				<KeySwitch name="Mldy 25" key="C3"/>
+			</KeySwitchList>
+
+			<KeySwitchList name="A Duduk KS 3">
+    			<KeySwitch name="Mldy 26" key="C1"/>
+    			<KeySwitch name="Mldy 27" key="C#1"/>
+    			<KeySwitch name="Mldy 28" key="D1"/>
+				<KeySwitch name="Mldy 29" key="D#1"/>
+				<KeySwitch name="Mldy 30" key="E1"/>
+				<KeySwitch name="Mldy 31" key="F1"/>
+				<KeySwitch name="Mldy 32" key="F#1"/>
+				<KeySwitch name="Mldy 33" key="G1"/>
+				<KeySwitch name="Mldy 34" key="G#1"/>
+				<KeySwitch name="Mldy 35" key="A1"/>
+				<KeySwitch name="Mldy 36" key="A#1"/>
+				<KeySwitch name="Mldy 37" key="B1"/>
+			</KeySwitchList>
+
+			<KeySwitchList name="B Duduk KS 1">
+    			<KeySwitch name="Sus Vib Slw" key="C1"/>
+    			<KeySwitch name="Sus Non Vib" key="C#1"/>
+    			<KeySwitch name="Leg" key="D1"/>
+				<KeySwitch name="Exp Vib Slw" key="D#1"/>
+				<KeySwitch name="Exp Vib Fst" key="E1"/>
+				<KeySwitch name="Exp Vib" key="F1"/>
+				<KeySwitch name="Stac" key="F#1"/>
+				<KeySwitch name="Fst Bnd UP" key="G1"/>
+				<KeySwitch name="SHT HT UP" key="G#1"/>
+				<KeySwitch name="Exp Slw Trill" key="A1"/>
+				<KeySwitch name="Vib Bnd UP 1" key="A#1"/>
+				<KeySwitch name="Vib Bnd UP 2" key="B1"/>
+				<KeySwitch name="Vib Bnd 3" key="C2"/>
+				<KeySwitch name="Ornament" key="C#2"/>
+			</KeySwitchList>
+
+			<KeySwitchList name="Ney Flute KS 1">
+    			<KeySwitch name="Sus Vib" key="C1"/>
+    			<KeySwitch name="Exp Vib" key="C#1"/>
+    			<KeySwitch name="Leg" key="D1"/>
+				<KeySwitch name="Non Vib" key="D#1"/>
+				<KeySwitch name="sFz" key="E1"/>
+				<KeySwitch name="Sus Vib Fall" key="F1"/>
+				<KeySwitch name="Grace 1" key="F#1"/>
+				<KeySwitch name="Grace 2" key="G1"/>
+				<KeySwitch name="Grace 3" key="G#1"/>
+				<KeySwitch name="Exp Mldy" key="A1"/>
+			</KeySwitchList>
+			
+			<KeySwitchList name="T Duduk KS 1">
+    			<KeySwitch name="Vib Bnd UP" key="C1"/>
+    			<KeySwitch name="Leg Exp 2" key="C#1"/>
+    			<KeySwitch name="Exp Vib Slw" key="D1"/>
+				<KeySwitch name="Leg Exp 1" key="D#1"/>
+				<KeySwitch name="Bnd UP Fst 3" key="E1"/>
+				<KeySwitch name="Bnd UP Fst 2" key="F1"/>
+				<KeySwitch name="Sus Bnd DN" key="F#1"/>
+				<KeySwitch name="Slur DN" key="G1"/>
+				<KeySwitch name="Slur UP" key="G#1"/>
+				<KeySwitch name="Stac RR" key="A1"/>
+				<KeySwitch name="Exp Mldy 1" key="A#1"/>
+				<KeySwitch name="Exp Mldy 2" key="B1"/>
+				<KeySwitch name="Exp Mldy 3" key="C2"/>
+				<KeySwitch name="Bnd UP Slw" key="C#2"/>
+				<KeySwitch name="Bnd UP Fst 1" key="D2"/>
+			</KeySwitchList>
+
+			<KeySwitchList name="Zourna KS 1">
+    			<KeySwitch name="Sus Vib RR" key="C1"/>
+    			<KeySwitch name="Non Vib" key="C#1"/>
+    			<KeySwitch name="Exp" key="D1"/>
+				<KeySwitch name="Leg 1" key="D#1"/>
+				<KeySwitch name="Leg 2" key="E1"/>
+				<KeySwitch name="Grace" key="F1"/>
+				<KeySwitch name="Trill" key="F#1"/>
+				<KeySwitch name="Exp Mldy 1" key="G1"/>
+				<KeySwitch name="Exp Mldy 2" key="G#1"/>
+				<KeySwitch name="Exp Mldy 3" key="A1"/>
+				<KeySwitch name="Exp Mldy 4" key="A#1"/>
+			</KeySwitchList>
+ 
+		</KeySwitchNames>
+
+		<ControllerNames>				
+ 			<Controller name="Volume Control (Expression)" cc="11"/>
+ 			<Controller name="(Optional) Volume" cc="7"/>
+			<Controller name="(Optional) Panning" cc="10"/>
+ 			<Controller name="Sustain" cc="64"/>
+ 			<Controller name="Filter Control" cc="1"/>
+
+			<ControllerSwitchList name="XFade Vib">
+ 				<Controller name="Crossfade to Vibrato" cc="1"/>
+			</ControllerSwitchList> 
+
+		</ControllerNames>
+		 
+		<Instruments>			
+
+			<Section name="Africa - Bells" clef="bass" legato="off" velocity="on">
+				
+				<Group name="Ewe" title="Ewe" lownote="c2" highnote="e2">
+					<Instrument name="Ewe Large Bombshell" title="Ewe" abbr="Ewe"/>
+					<Instrument name="Ewe Medium Bombshell" title="Ewe" abbr="Ewe"/>
+				</Group>
+
+				<Group name="Gankokwe" title="Gankokwe" lownote="c2" highnote="e2">
+					<Instrument name="Gankokwe Large" title="Gankokwe" abbr="Gan."/>
+					<Instrument name="Gankokwe Small" title="Gankokwe" abbr="Gan"/>
+				</Group>
+
+			</Section>
+
+			<Section name="Africa - Drums" clef="bass" legato="off" velocity="on">
+
+				<Group name="Drums" title="Drums">
+					<Instrument name="3Ft FromTonFrom" title="FromTonFrom" abbr="FTF." lownote="c2" highnote="f2"/>
+					<Instrument name="5Ft FromTonFrom" title="FromTonFrom" abbr="FTF." lownote="c2" highnote="f2"/>
+					<Instrument name="Atsimevu" title="Atsimevu" abbr="Ats." lownote="c2" highnote="c3"/>
+					<Instrument name="Batas" title="Batas" abbr="Bat." lownote="c2" highnote="g3"/>
+					<Instrument name="Berkete" title="Berkete" abbr="Berk." lownote="c2" highnote="f2"/>
+					<Instrument name="Dejembe Ensemble" title="Dejembe" abbr="Djm." lownote="c2" highnote="g5"/>
+					<Instrument name="Ewe Drum Ensemble" title="Ewe Drum" abbr="EwDr." lownote="c2" highnote="a4"/>
+					<Instrument name="Kidi" title="Kidi" abbr="Kidi" lownote="c2" highnote="e3"/>
+					<Instrument name="Large Udu" title="Udu" abbr="Udu" lownote="c2" highnote="e2"/>
+					<Instrument name="Log Drums" title="Log Drum" abbr="LogDr." lownote="c2" highnote="a2" />
+				</Group>
+
+			</Section>
+
+			<Section name="Africa - Pitched Percussion" legato="off" clef="bass" velocity="on">
+
+				<Group name="Gyil" title="Gyil" lownote="e2" highnote="g5">
+					<Instrument name="Gyil Mallet + Stick" title="Gyil" abbr="Gyil"/>
+					<Instrument name="Gyil Mallet Untuned" title="Gyil" abbr="Gyil"/>
+					<Instrument name="Gyil Mallet" title="Gyil" abbr="Gyil"/>
+					<Instrument name="Gyil Stick" title="Gyil" abbr="Gyil"/>
+				</Group>
+
+				<Group name="Kalimba" title="Kalimba">
+					<Instrument name="Kalimba Low Untuned" title="Kalimba" abbr="Kal." lownote="b2" highnote="c5"/>
+					<Instrument name="Kalimba Low" title="Kalimba" abbr="Kal." lownote="b2" highnote="c5"/>
+					<Instrument name="Kalimba Hi Untuned" title="Kalimba" abbr="Kal." lownote="a#3" highnote="c#7" clef="treble"/>
+					<Instrument name="Kalimba Hi" title="Kalimba" abbr="Kal." lownote="a#3" highnote="c#7" clef="treble"/>
+					<Instrument name="Kalimba Hi-Wah Untuned" title="Kalimba" abbr="Kal." lownote="a#3" highnote="c#7" clef="treble"/>
+					<Instrument name="Kalimba Hi-Wah" title="Kalimba" abbr="Kal." lownote="a#3" highnote="c#7" clef="treble"/>
+				</Group>
+
+				<Group name="Log Drums" title="Log Drums" lownote="c3" highnote="c5" clef="bass">
+					<Instrument name="Log Drums Melodic" title="Log Drum" abbr="LogDr."/>
+				</Group>
+
+			</Section>
+
+			<Section name="Africa - Plucked" legato="off" velocity="on">
+
+				<Group name="Plucked Instruments" title="Plucked Instruments">
+					<Instrument name="Kora" title="Kora" abbr="Kora"  lownote="c2" highnote="g5" clef="bass"/>
+					<Instrument name="Ngoni RR" title="Ngoni" abbr="Ngoni" lownote="c3" highnote="d6" clef="treble"/>
+				</Group>
+
+			</Section>
+
+			<Section name="Africa - Shakers and Rattles" legato="off" clef="bass" velocity="on">
+
+				<Group name="Shakers and Rattles" title="Shakers and Rattles">
+					<Instrument name="African Dual Wooden" title="Wooden Shakers" abbr="Shkrs." lownote="c2" highnote="f3"/>
+					<Instrument name="African Metal" title="Metal Shakers" abbr="Shkrs." lownote="c2" highnote="b3"/>
+					<Instrument name="Axatse" title="Axatse" abbr="Axat." lownote="c2" highnote="e2"/>
+					<Instrument name="Ekpiri Shelled BODY" title="Ekpiri" abbr="Ekpi." lownote="c2" highnote="c3"/>
+					<Instrument name="Ekpiri Shelled Sht." title="Ekpiri" abbr="Ekpi." lownote="c2" highnote="c2"/>
+				</Group>
+
+			</Section>
+
+			<Section name="Americas/Australia - Percussion" legato="off" clef="treble" velocity="on">
+				
+				<Group name="Percussion" title="Percussion">
+
+					<Instrument name="Berimbau Basic" title="Berimbau" abbr="Berim." lownote="f#2" highnote="g#5"/>
+					<Instrument name="Berimbau Chrom" title="Berimbau" abbr="Berim." lownote="c2" highnote="c#7"/>
+					<Instrument name="Berimbau FX" title="Berimbau" abbr="Berim." lownote="c2" highnote="b3" clef="bass"/>
+					<Instrument name="Berimbau RR Chrom" title="Berimbau" abbr="Berim." lownote="c2" highnote="b6"/>
+				</Group>
+
+				<Group name="Cuban Percussion" title="Cuban Percussion" lownote="c4" highnote="f#4" clef="bass">
+					<Instrument name="Cuban Percussion RR" title="Cuban Perc." abbr="CubPerc."/>
+				</Group>
+			
+			</Section>
+
+			<Section name="Americas/Australia - Plucked" legato="off" velocity="on">
+
+				<Group name="1890 Washburn Guitar" title="1890 Washburn Guitar" lownote="c2" highnote="e6" clef="treble">
+					<Instrument name="Washbrn GTR KS C0-D#0" title="Washburn Guitar" abbr="Gtr.">
+					<UsesKeySwitchList name="Washburn GTR 1"/>
+					</Instrument>	
+					<Instrument name="Washbrn GTR Live" title="Washburn Guitar" abbr="Gtr."/>
+					<Instrument name="Washbrn GTR Finger" title="Washburn Guitar" abbr="Gtr."/>
+					<Instrument name="Washbrn GTR Harm" title="Washburn Guitar" abbr="Gtr."/>
+					<Instrument name="Washbrn GTR Pick RR" title="Washburn Guitar" abbr="Gtr."/>
+					<Instrument name="Washbrn GTR Strum DN" title="Washburn Guitar" abbr="Gtr."/>
+					<Instrument name="Washbrn GTR Strum RR" title="Washburn Guitar" abbr="Gtr."/>
+					<Instrument name="Washbrn GTR Strum UP" title="Washburn Guitar" abbr="Gtr."/>
+				</Group>
+
+				<Group name="American Jaw Harp" title="American Jaw Harp" lownote="c2" highnote="e5" clef="treble">
+					<Instrument name="American Jaw Harp VS" title="Jaw Harp" abbr="JawHrp." lownote="c4" highnote="d#4" clef="bass"/>
+					<Instrument name="American Jaw Harp" title="Jaw Harp" abbr="JawHrp."/>
+				</Group>
+
+				<Group name="Banjo" title="Banjo" lownote="d3" highnote="c6" clef="treble">
+					<Instrument name="Banjo Bridge" title="Banjo" abbr="Bjo."/>
+					<Instrument name="Banjo Neck" title="Banjo" abbr="Bjo."/>
+					<Instrument name="Banjo RR" title="Banjo" abbr="Bjo."/>
+
+				</Group>
+
+				<Group name="Dobro" title="Dobro" lownote="c2" highnote="c7" clef="treble">
+					<Instrument name="Dobro KS C0-D1" title="Dobro" abbr="Dobro">
+						<UsesKeySwitchList name="Dobro KS 1"/>
+					</Instrument>
+					<Instrument name="Dobro Live 1" title="Dobro" abbr="Dobro"/>
+					<Instrument name="Dobro Live 2" title="Dobro" abbr="Dobro"/>
+					<Instrument name="Dobro Live 3" title="Dobro" abbr="Dobro"/>
+					<Instrument name="Dobro Live 4" title="Dobro" abbr="Dobro"/>
+					<Instrument name="Dobro Live 5" title="Dobro" abbr="Dobro"/>
+					<Instrument name="Dobro Live 6" title="Dobro" abbr="Dobro"/>
+					<Instrument name="Dobro Mute FX" title="Dobro" abbr="Dobro"/>
+					<Instrument name="Dobro Open" title="Dobro" abbr="Dobro"/>
+					<Instrument name="Dobro Slide Fst DN" title="Dobro" abbr="Dobro"/>
+					<Instrument name="Dobro Slide Fst UP" title="Dobro" abbr="Dobro"/>
+					<Instrument name="Dobro Slide Full DN" title="Dobro" abbr="Dobro"/>
+					<Instrument name="Dobro Slide Full UP" title="Dobro" abbr="Dobro"/>
+					<Instrument name="Dobro Slide P4th NV" title="Dobro" abbr="Dobro"/>
+					<Instrument name="Dobro Slide P4th Vib" title="Dobro" abbr="Dobro"/>
+					<Instrument name="Dobro Slide Pwr UP A" title="Dobro" abbr="Dobro"/>
+					<Instrument name="Dobro Slide Pwr UP B" title="Dobro" abbr="Dobro"/>
+					<Instrument name="Dobro Slide Slw DN" title="Dobro" abbr="Dobro"/>
+					<Instrument name="Dobro Slide WT UP Fall" title="Dobro" abbr="Dobro"/>
+					<Instrument name="Dobro Slide WT UP" title="Dobro" abbr="Dobro"/>
+					<Instrument name="Dobro Slur UP DN" title="Dobro" abbr="Dobro"/>
+					<Instrument name="Dobro Trem FX WT UP" title="Dobro" abbr="Dobro"/>
+					<Instrument name="Dobro Trem FX" title="Dobro" abbr="Dobro"/>
+				</Group>
+
+				<Group name="Mandolin" title="Mandolin" lownote="g3" highnote="c7" clef="treble">
+					<Instrument name="Mandolin KS C0-E0" title="Mandolin" abbr="Man.">
+						<UsesKeySwitchList name="Mandolin KS 1"/>
+					</Instrument>
+					<Instrument name="Mandolin Live 1" title="Mandolin" abbr="Man."/>
+					<Instrument name="Mandolin Live 2" title="Mandolin" abbr="Man."/>
+					<Instrument name="Mandolin Noises" title="Mandolin" abbr="Man."/>
+					<Instrument name="Mandolin Slide UP" title="Mandolin" abbr="Man."/>
+					<Instrument name="Mandolin Sus RR" title="Mandolin" abbr="Man."/>
+					<Instrument name="Mandolin Trm Fst" title="Mandolin" abbr="Man."/>
+					<Instrument name="Mandolin Trm Slw" title="Mandolin" abbr="Man."/>
+				</Group>
+
+				<Group name="Ukelele" title="Ukelele" lownote="c4" highnote="a5" clef="treble">
+					<Instrument name="Ukelele PK DN" title="Ukelele" abbr="Uke."/>
+					<Instrument name="Ukelele PK RR" title="Ukelele" abbr="Uke."/>
+					<Instrument name="Ukelele PK UP" title="Ukelele" abbr="Uke."/>
+				</Group>
+			
+			</Section>
+
+			<Section name="Americas/Australia - Wind">
+
+				<Group name="First Nations Cedar Flute" title="First Nations Cedar Flute" lownote="e4" highnote="g6" clef="treble">
+					<Instrument name="FNC Flute KS C0-G#0" title="Flute" abbr="Fl.">
+						<UsesKeySwitchList name="FNC Flute KS 1"/>
+						<UsesArticulationSwitchList name="FNC Flute KS 1"/>
+					</Instrument>
+					<Instrument name="FNC Flute Live" title="Flute" abbr="Fl."/>						
+					<Instrument name="FNC Flute Exp Mldy 1" title="Flute" abbr="Fl."/>
+					<Instrument name="FNC Flute Exp Mldy 2" title="Flute" abbr="Fl."/>
+					<Instrument name="FNC Flute Flutter" title="Flute" abbr="Fl."/>
+					<Instrument name="FNC Flute Leg Non Vib" title="Flute" abbr="Fl." Articulation="legato"/>
+					<Instrument name="FNC Flute Leg Vib Exp" title="Flute" abbr="Fl." Articulation="legato"/>
+					<Instrument name="FNC Flute Non Vib Exp" title="Flute" abbr="Fl."/>
+					<Instrument name="FNC Flute Stac" title="Flute" abbr="Fl." Articulation="Staccato, Staccatissimo">
+						<UsesArticulationSwitchList name="Staccato"/>
+					</Instrument>
+					<Instrument name="FNC Flute Vib Exp 1" title="Flute" abbr="Fl."/>
+					<Instrument name="FNC Flute Vib Exp 2 RR" title="Flute" abbr="Fl."/>
+
+				</Group>
+
+				<Group name="Pan Flute" title="Pan Flute" lownote="g3" highnote="e7" clef="treble">
+					<Instrument name="Pan Flute KS C0-D#0" title="Flute" abbr="Fl.">
+						<UsesKeySwitchList name="Pan Flute KS 1"/>
+						<UsesArticulationSwitchList name="Pan Flute KS 1"/>
+					</Instrument>
+					<Instrument name="Pan Flute Non Vib" title="Flute" abbr="Fl."/>
+					<Instrument name="Pan Flute NV VB MOD Acc" title="Flute" abbr="Fl.">
+						<UsesControllerSwitchList name="XFade Vib"/>
+					</Instrument>
+					<Instrument name="Pan Flute NV VB MOD" title="Flute" abbr="Fl.">
+						<UsesControllerSwitchList name="XFade Vib"/>
+					</Instrument>
+					<Instrument name="Pan Flute Stac NV RR" title="Flute" abbr="Fl." Articulation="Staccato, Staccatissimo">
+						<UsesArticulationSwitchList name="Staccato"/>
+					</Instrument>
+					<Instrument name="Pan Flute Stac" title="Flute" abbr="Fl." Articulation="Staccato, Staccatissimo">
+						<UsesArticulationSwitchList name="Staccato"/>
+					</Instrument>
+					<Instrument name="Pan Flute Sus Vib" title="Flute" abbr="Fl."/>
+				</Group>
+
+				<Group name="Didjeridoo" title="Didjeridoo" lownote="g1" highnote="c8" clef="treble">
+					<Instrument name="Didj Drones A" title="Didjeridoo" abbr="Djdo."/>
+					<Instrument name="Didj Drones C#" title="Didjeridoo" abbr="Djdo."/>
+					<Instrument name="Didj Drones D" title="Didjeridoo" abbr="Djdo."/>
+					<Instrument name="Didj Drones F#" title="Didjeridoo" abbr="Djdo."/>
+					<Instrument name="Didj Drones Live" title="Didjeridoo" abbr="Djdo."/>
+					<Instrument name="Didj Drones Fx A" title="Didjeridoo" abbr="Djdo." clef="bass"/>
+					<Instrument name="Didj Drones Fx C#" title="Didjeridoo" abbr="Djdo." clef="bass"/>
+					<Instrument name="Didj Drones Fx D" title="Didjeridoo" abbr="Djdo." clef="bass"/>
+					<Instrument name="Didj Drones Fx F#" title="Didjeridoo" abbr="Djdo." clef="bass"/>
+				</Group>
+
+				<Group name="Didjeridoo Loops" title="Didjeridoo Loops" lownote="g1" highnote="c8" clef="bass">
+					<Instrument name="Didj Loop A 100bpm" title="Didjeridoo" abbr="Djdo."/>
+					<Instrument name="Didj Loop A 135bpm" title="Didjeridoo" abbr="Djdo."/>
+					<Instrument name="Didj Loop A 160bpm" title="Didjeridoo" abbr="Djdo."/>
+					<Instrument name="Didj Loop A 165bpm" title="Didjeridoo" abbr="Djdo."/>
+					<Instrument name="Didj Loop A 95bpm" title="Didjeridoo" abbr="Djdo."/>
+					<Instrument name="Didj Loop C# 100bpm" title="Didjeridoo" abbr="Djdo."/>
+					<Instrument name="Didj Loop C# 115bpm" title="Didjeridoo" abbr="Djdo."/>
+					<Instrument name="Didj Loop C# 120bpm" title="Didjeridoo" abbr="Djdo."/>
+					<Instrument name="Didj Loop C# 125bpm" title="Didjeridoo" abbr="Djdo."/>
+					<Instrument name="Didj Loop C# 139bpm" title="Didjeridoo" abbr="Djdo."/>
+					<Instrument name="Didj Loop C# 140bpm" title="Didjeridoo" abbr="Djdo."/>
+					<Instrument name="Didj Loop C# 160bpm" title="Didjeridoo" abbr="Djdo."/>
+					<Instrument name="Didj Loop C# 165bpm" title="Didjeridoo" abbr="Djdo."/>
+					<Instrument name="Didj Loop C# 185bpm" title="Didjeridoo" abbr="Djdo."/>
+					<Instrument name="Didj Loop C# 201bpm" title="Didjeridoo" abbr="Djdo."/>
+					<Instrument name="Didj Loop C# 73bpm" title="Didjeridoo" abbr="Djdo."/>
+					<Instrument name="Didj Loop C# 74bpm" title="Didjeridoo" abbr="Djdo."/>
+					<Instrument name="Didj Loop C# 80bpm" title="Didjeridoo" abbr="Djdo."/>
+					<Instrument name="Didj Loop D 100bpm" title="Didjeridoo" abbr="Djdo."/>
+					<Instrument name="Didj Loop D 103bpm" title="Didjeridoo" abbr="Djdo."/>
+					<Instrument name="Didj Loop D 122bpm" title="Didjeridoo" abbr="Djdo."/>
+					<Instrument name="Didj Loop D 128bpm" title="Didjeridoo" abbr="Djdo."/>
+					<Instrument name="Didj Loop D 130bpm" title="Didjeridoo" abbr="Djdo."/>
+					<Instrument name="Didj Loop D 150bpm" title="Didjeridoo" abbr="Djdo."/>
+					<Instrument name="Didj Loop D 156bpm" title="Didjeridoo" abbr="Djdo."/>
+					<Instrument name="Didj Loop D 170bpm" title="Didjeridoo" abbr="Djdo."/>
+					<Instrument name="Didj Loop D 77bpm" title="Didjeridoo" abbr="Djdo."/>
+					<Instrument name="Didj Loop D 80bpm" title="Didjeridoo" abbr="Djdo."/>
+					<Instrument name="Didj Loop D 88bpm" title="Didjeridoo" abbr="Djdo."/>
+					<Instrument name="Didj Loop F# 105bpm" title="Didjeridoo" abbr="Djdo."/>
+					<Instrument name="Didj Loop F# 115 6-4" title="Didjeridoo" abbr="Djdo."/>
+					<Instrument name="Didj Loop F# 115bpm" title="Didjeridoo" abbr="Djdo."/>
+					<Instrument name="Didj Loop F# 130bpm" title="Didjeridoo" abbr="Djdo."/>
+					<Instrument name="Didj Loop F# 74bpm" title="Didjeridoo" abbr="Djdo."/>
+					<Instrument name="Didj Loop F# 80bpm" title="Didjeridoo" abbr="Djdo."/>
+					<Instrument name="Didj Loop F# 85bpm" title="Didjeridoo" abbr="Djdo."/>
+					<Instrument name="Didj Loop F# 95bpm" title="Didjeridoo" abbr="Djdo."/>
+				</Group>
+
+			</Section>
+
+			<Section name="Europe - Bowed" clef="treble">
+
+				<Group name="Gadulka" title="Gadulka" lownote="d3" highnote="a5" clef="treble">
+					<Instrument name="Gadulka KS C0-F0" title="Gadulka" abbr="Gadul.">
+						<UsesKeySwitchList name="Gadulka KS 1"/>
+						<UsesArticulationSwitchList name="Gadulka KS 1"/>
+					</Instrument>
+					<Instrument name="Gadulka Live" title="Gadulka" abbr="Gadul.">
+						<UsesKeySwitchList name="Gadulka KS 2"/>
+					</Instrument>
+					<Instrument name="Gadulka Bow DN" title="Gadulka" abbr="Gadul."/>
+					<Instrument name="Gadulka Bow UP" title="Gadulka" abbr="Gadul."/>
+					<Instrument name="Gadulka Dbl Bow Exp" title="Gadulka" abbr="Gadul."/>
+					<Instrument name="Gadulka Non Vib 1" title="Gadulka" abbr="Gadul."/>
+					<Instrument name="Gadulka Non Vib 2" title="Gadulka" abbr="Gadul."/>
+					<Instrument name="Gadulka Resonance" title="Gadulka" abbr="Gadul."/>
+					<Instrument name="Gadulka Stac" title="Gadulka" abbr="Gadul." Articulation="Staccato, Staccatissimo">
+						<UsesArticulationSwitchList name="Staccato"/>
+					</Instrument>
+					<Instrument name="Gadulka Sus Vib 1" title="Gadulka" abbr="Gadul."/>
+					<Instrument name="Gadulka Sus Vib 2" title="Gadulka" abbr="Gadul."/>
+					<Instrument name="Gadulka Trem" title="Gadulka" abbr="Gadul."/>
+				</Group>
+
+				<Group name="Hardanger Fiddle" title="Hardanger Fiddle" lownote="a3" highnote="d6" clef="treble">
+					<Instrument name="Hardanger KS C0-G#0" title="Fiddle" abbr="Fdl.">
+						<UsesKeySwitchList name="Hardanger KS 1"/>
+						<UsesArticulationSwitchList name="Hardanger KS 1"/>
+					</Instrument>
+					<Instrument name="Hardanger Live" title="Fiddle" abbr="Fdl."/>
+					<Instrument name="Hardanger 5ths" title="Fiddle" abbr="Fdl."/>
+					<Instrument name="Hardanger Exp NV" title="Fiddle" abbr="Fdl."/>
+					<Instrument name="Hardanger Exp Vib" title="Fiddle" abbr="Fdl."/>
+					<Instrument name="Hardanger Legato NV RR" title="Fiddle" abbr="Fdl." Articulation="legato"/>
+					<Instrument name="Hardanger Mldy" title="Fiddle" abbr="Fdl."/>
+					<Instrument name="Hardanger NV VB MOD" title="Fiddle" abbr="Fdl.">
+						<UsesControllerSwitchList name="XFade Vib"/>
+					</Instrument>
+					<Instrument name="Hardanger Short RR" title="Fiddle" abbr="Fdl." Articulation="Staccato, Staccatissimo">
+						<UsesArticulationSwitchList name="Staccato"/>
+					</Instrument>
+					<Instrument name="Hardanger Spic RR" title="Fiddle" abbr="Fdl." Articulation="Staccatissimo">
+						<UsesArticulationSwitchList name="Staccatissimo"/>
+					</Instrument>
+					<Instrument name="Hardanger Sus Vib" title="Fiddle" abbr="Fdl."/>
+					<Instrument name="Hardanger Trl HT" title="Fiddle" abbr="Fdl."/>
+					<Instrument name="Hardanger Trl WT" title="Fiddle" abbr="Fdl."/>
+
+				</Group>
+
+				<Group name="Hurdy Gurdy" title="Hurdy Gurdy" lownote="g1" highnote="g6" clef="treble">
+					<Instrument name="Hurdy Gurdy KS C0-F0" title="Hurdy Gurdy" abbr="HurGur.">
+						<UsesKeySwitchList name="Hurdy Gurdy KS 1"/>
+					</Instrument>
+					<Instrument name="Hurdy Gurdy Live" title="Hurdy Gurdy" abbr="HurGur."/>
+					<Instrument name="Hurdy Gurdy Dbl Hi" title="Hurdy Gurdy" abbr="HurGur."/>
+					<Instrument name="Hurdy Gurdy Dbl Low" title="Hurdy Gurdy" abbr="HurGur."/>
+					<Instrument name="Hurdy Gurdy Drone 1" title="Hurdy Gurdy" abbr="HurGur." clef="bass"/>
+					<Instrument name="Hurdy Gurdy Drone 2" title="Hurdy Gurdy" abbr="HurGur." clef="bass"/>
+					<Instrument name="Hurdy Gurdy Drone 3" title="Hurdy Gurdy" abbr="HurGur." clef="bass"/>
+					<Instrument name="Hurdy Gurdy Drone 4" title="Hurdy Gurdy" abbr="HurGur." clef="bass"/>
+					<Instrument name="Hurdy Gurdy Drone 5" title="Hurdy Gurdy" abbr="HurGur." clef="bass"/>
+					<Instrument name="Hurdy Gurdy Non Vib f" title="Hurdy Gurdy" abbr="HurGur."/>
+					<Instrument name="Hurdy Gurdy Non Vib mf" title="Hurdy Gurdy" abbr="HurGur."/>
+					<Instrument name="Hurdy Gurdy Non Vib mp" title="Hurdy Gurdy" abbr="HurGur."/>
+					<Instrument name="Hurdy Gurdy Non Vib p" title="Hurdy Gurdy" abbr="HurGur."/>
+					<Instrument name="Hurdy Gurdy Non Vib VS" title="Hurdy Gurdy" abbr="HurGur."/>
+				</Group>
+				
+				<Group name="Hurdy Gurdy Grooves" title="Hurdy Gurdy Grooves" lownote="c3" highnote="e4" clef="bass">
+					<Instrument name="Hurdy Gurdy Groove 01" title="Hurdy Gurdy" abbr="HurGur."/>
+					<Instrument name="Hurdy Gurdy Groove 02" title="Hurdy Gurdy" abbr="HurGur."/>
+					<Instrument name="Hurdy Gurdy Groove 03" title="Hurdy Gurdy" abbr="HurGur."/>
+					<Instrument name="Hurdy Gurdy Groove 04" title="Hurdy Gurdy" abbr="HurGur."/>
+					<Instrument name="Hurdy Gurdy Groove 05" title="Hurdy Gurdy" abbr="HurGur."/>
+					<Instrument name="Hurdy Gurdy Groove 06" title="Hurdy Gurdy" abbr="HurGur."/>
+					<Instrument name="Hurdy Gurdy Groove 07" title="Hurdy Gurdy" abbr="HurGur."/>
+					<Instrument name="Hurdy Gurdy Groove 08" title="Hurdy Gurdy" abbr="HurGur."/>
+					<Instrument name="Hurdy Gurdy Groove 09" title="Hurdy Gurdy" abbr="HurGur."/>
+					<Instrument name="Hurdy Gurdy Groove 10" title="Hurdy Gurdy" abbr="HurGur."/>
+				</Group>
+
+			</Section>
+
+			<Section name="Europe - Percussion" legato="off" clef="bass" velocity="on">
+
+				<Group name="Frame Drum" title="Frame Drum" lownote="c2" highnote="a3">
+					<Instrument name="Large Frame Drm Basic" title="Frame Drum" abbr="FrameDrm."/>
+					<Instrument name="Large Frame Drm FX" title="Frame Drum" abbr="FrameDrm." lownote="c2" highnote="e7" clef="treble"/>
+					<Instrument name="Medium Frame Drm" title="Frame Drum" abbr="FrameDrm."/>
+					<Instrument name="Small Frame Drm" title="Frame Drum" abbr="FrameDrm."/>
+				</Group>
+
+			</Section>
+
+			<Section name="Europe - Winds and Reeds">
+
+				<Group name="Alpenhorn" title="Alpenhorn" lownote="c1" highnote="e5" clef="bass">
+					<Instrument name="Alpenhorn KS C5-G5" title="Alpenhorn" abbr="AlpenHrn.">
+						<UsesKeySwitchList name="Alpenhorn KS 1"/>
+						<UsesArticulationSwitchList name="Alpenhorn KS 1"/>
+					</Instrument>
+					<Instrument name="Alpenhorn Exp Fst" title="Alpenhorn" abbr="AlpenHrn."/>
+					<Instrument name="Alpenhorn Exp Slw" title="Alpenhorn" abbr="AlpenHrn."/>
+					<Instrument name="Alpenhorn Exp" title="Alpenhorn" abbr="AlpenHrn."/>
+					<Instrument name="Alpenhorn Non Vib" title="Alpenhorn" abbr="AlpenHrn."/>
+					<Instrument name="Alpenhorn Slide Oct DN" title="Alpenhorn" abbr="AlpenHrn."/>
+					<Instrument name="Alpenhorn Slide Oct UP" title="Alpenhorn" abbr="AlpenHrn."/>
+					<Instrument name="Alpenhorn Stac" title="Alpenhorn" abbr="AlpenHrn." Articulation="Staccato, Staccatissimo">
+						<UsesArticulationSwitchList name="Staccato"/>
+					</Instrument>
+					<Instrument name="Alpenhorn Sus Vib" title="Alpenhorn" abbr="AlpenHrn."/>
+					<Instrument name="Alpenhorn Sus" title="Alpenhorn" abbr="AlpenHrn."/>
+				</Group>
+
+				<Group name="Bag Pipe Ensemble" title="Bag Pipe Ensemble" lownote="c2" highnote="c6" clef="treble">
+					<Instrument name="Bag Pipe Ens VS Untuned" title="Bagpipes" abbr="Bag."/>
+					<Instrument name="Bag Pipe Ens VS" title="Bagpipes" abbr="Bag."/>
+				</Group>
+
+				<Group name="Bass Recorder" title="Bass Recorder" lownote="f3" highnote="g5" clef="treble">
+					<Instrument name="Bass Recorder KS C0-D0" title="Bass Recorder" abbr="BRec.">
+						<UsesKeySwitchList name="Bass Recorder KS 1"/>
+					</Instrument>
+					<Instrument name="Bass Recorder Exp Fst" title="Bass Recorder" abbr="BRec."/>
+					<Instrument name="Bass Recorder Exp Vib" title="Bass Recorder" abbr="BRec."/>
+					<Instrument name="Bass Recorder Sus Vib" title="Bass Recorder" abbr="BRec."/>
+				</Group>
+
+				<Group name="Highland Pipes" title="Highland Pipes" lownote="e2" highnote="d6" clef="treble">
+					<Instrument name="Highland Pipes VS" title="Highland Pipes" abbr="HiPipes."/>
+				</Group>
+
+				<Group name="Irish Low Whistle" title="Irish Low Whistle" lownote="g3" highnote="e6" clef="treble">
+					<Instrument name="IRL Lo Whs KS C0-B0" title="Irish Low Whistle" abbr="LwWhstl.">
+						<UsesKeySwitchList name="Irish Low Whistle KS 1"/>
+						<UsesArticulationSwitchList name="Irish Low Whistle KS 1"/>
+					</Instrument>
+					<Instrument name="IRL Lo Whs Live 1" title="Irish Low Whistle" abbr="LwWhstl."/>
+					<Instrument name="IRL Lo Whs Live 2" title="Irish Low Whistle" abbr="LwWhstl."/>
+					<Instrument name="IRL Lo Whs Live 3" title="Irish Low Whistle" abbr="LwWhstl."/>
+					<Instrument name="IRL Lo Whs Bnd HT UP" title="Irish Low Whistle" abbr="LwWhstl."/>
+					<Instrument name="IRL Lo Whs Bnd WT UP" title="Irish Low Whistle" abbr="LwWhstl."/>
+					<Instrument name="IRL Lo Whs Exp Mldy 1" title="Irish Low Whistle" abbr="LwWhstl."/>
+					<Instrument name="IRL Lo Whs Exp Mldy 2" title="Irish Low Whistle" abbr="LwWhstl."/>
+					<Instrument name="IRL Lo Whs Exp Mldy 3" title="Irish Low Whistle" abbr="LwWhstl."/>
+					<Instrument name="IRL Lo Whs Exp Mldy 4" title="Irish Low Whistle" abbr="LwWhstl."/>
+					<Instrument name="IRL Lo Whs Exp Mldy 5" title="Irish Low Whistle" abbr="LwWhstl."/>
+					<Instrument name="IRL Lo Whs Irish Vib" title="Irish Low Whistle" abbr="LwWhstl."/>
+					<Instrument name="IRL Lo Whs Non Vib" title="Irish Low Whistle" abbr="LwWhstl."/>
+					<Instrument name="IRL Lo Whs Sht" title="Irish Low Whistle" abbr="LwWhstl." Articulation="Marcato, Marcato Dot, Heavy Attack">
+						<UsesArticulationSwitchList name="Marcato"/>
+					</Instrument>
+					<Instrument name="IRL Lo Whs Stac 1" title="Irish Low Whistle" abbr="LwWhstl." Articulation="Staccato, Staccatissimo">
+						<UsesArticulationSwitchList name="Staccato"/>
+					</Instrument>
+					<Instrument name="IRL Lo Whs Stac 2" title="Irish Low Whistle" abbr="LwWhstl." Articulation="Staccato, Staccatissimo">
+						<UsesArticulationSwitchList name="Staccato"/>
+					</Instrument>
+					<Instrument name="IRL Lo Whs Stac RR" title="Irish Low Whistle" abbr="LwWhstl." Articulation="Staccato, Staccatissimo">
+						<UsesArticulationSwitchList name="Staccato"/>
+					</Instrument>
+					<Instrument name="IRL Lo Whs Sus Acc" title="Irish Low Whistle" abbr="LwWhstl."/>
+					<Instrument name="IRL Lo Whs Western Vib" title="Irish Low Whistle" abbr="LwWhstl."/>
+				</Group>
+
+				<Group name="Launeddas" title="Launeddas" lownote="e1" highnote="a5" clef="treble">
+					<Instrument name="Launeddas KS C0-D0" title="Launeddas" abbr="Launed.">
+						<UsesKeySwitchList name="Launeddas KS 1"/>
+					</Instrument>
+					<Instrument name="Launeddas Live" title="Launeddas" abbr="Launed."/>
+					<Instrument name="Launeddas Exp Mldy" title="Launeddas" abbr="Launed."/>
+					<Instrument name="Launeddas Grace" title="Launeddas" abbr="Launed."/>
+					<Instrument name="Launeddas Non Vib" title="Launeddas" abbr="Launed."/>
+
+				</Group>
+
+				<Group name="Uilleann Pipes" title="Uilleann Pipes" lownote="f2" highnote="c6" clef="treble">
+					<Instrument name="Uilleann Pipes KS C0-D#0" title="Uilleann Pipes" abbr="UlPipes.">
+						<UsesKeySwitchList name="Uilleann Pipes KS 1"/>
+					</Instrument>
+					<Instrument name="Uilleann Pipes Live" title="Uilleann Pipes" abbr="UlPipes."/>
+					<Instrument name="Uilleann Drn and Regulators" title="Uilleann Pipes" abbr="UlPipes."/>
+					<Instrument name="Uilleann Pipes Vib VS" title="Uilleann Pipes" abbr="UlPipes."/>
+					<Instrument name="Uilleann Pipes Exp Bend VS" title="Uilleann Pipes" abbr="UlPipes."/>
+					<Instrument name="Uilleann Pipes Basic VS" title="Uilleann Pipes" abbr="UlPipes."/>
+				</Group>
+
+			</Section>
+
+			<Section name="Far East - Bowed">
+
+				<Group name="Erhu" title="Erhu" lownote="c4" highnote="e6" clef="treble">
+					<Instrument name="Erhu KS C0-A0" title="Erhu" abbr="Ehru">
+						<UsesKeySwitchList name="Erhu KS 1"/>
+						<UsesArticulationSwitchList name="Erhu KS 1"/>
+					</Instrument>
+					<Instrument name="Erhu Live" title="Erhu" abbr="Ehru"/>
+					<Instrument name="Erhu Exp Vib Sft" title="Erhu" abbr="Ehru"/>
+					<Instrument name="Erhu Stac DN" title="Erhu" abbr="Ehru" Articulation="Staccato, Staccatissimo">
+						<UsesArticulationSwitchList name="Staccato"/>
+					</Instrument>
+					<Instrument name="Erhu Non Vib Sft" title="Erhu" abbr="Ehru"/>
+					<Instrument name="Erhu Non Vib Hrd" title="Erhu" abbr="Ehru"/>
+					<Instrument name="Erhu Exp Vib Fst" title="Erhu" abbr="Ehru"/>
+					<Instrument name="Erhu Non Vib Med" title="Erhu" abbr="Ehru"/>
+					<Instrument name="Erhu Slide DN 2" title="Erhu" abbr="Ehru"/>
+					<Instrument name="Erhu Stac RR" title="Erhu" abbr="Ehru" Articulation="Staccato, Staccatissimo">
+						<UsesArticulationSwitchList name="Staccato"/>
+					</Instrument>
+					<Instrument name="Erhu Exp Vib Slw" title="Erhu" abbr="Ehru"/>
+					<Instrument name="Erhu Leg" title="Erhu" abbr="Ehru" Articulation="legato"/>
+					<Instrument name="Erhu Slide UP 2" title="Erhu" abbr="Ehru"/>
+					<Instrument name="Erhu Trill" title="Erhu" abbr="Ehru"/>
+					<Instrument name="Erhu Slide UP 1" title="Erhu" abbr="Ehru"/>
+					<Instrument name="Erhu Slide DN 1" title="Erhu" abbr="Ehru"/>
+					<Instrument name="Erhu Sus Vib" title="Erhu" abbr="Ehru"/>
+					<Instrument name="Erhu Stac UP" title="Erhu" abbr="Ehru" Articulation="Staccato, Staccatissimo">
+						<UsesArticulationSwitchList name="Staccato"/>
+					</Instrument>
+				</Group>
+
+			</Section>
+
+			<Section name="Far East - Percussion" legato="off" velocity="on">
+
+				<Group name="Gamelan" title="Gamelan" clef="bass">
+					<Instrument name="Byeon FX" title="Byeon" abbr="Byeon" lownote="c2" highnote="c4"/>
+					<Instrument name="Byeon Group Tuned" title="Byeon" abbr="Byeon" lownote="c2" highnote="f7" clef="treble"/>
+					<Instrument name="Byeon Group Untuned" title="Byeon" abbr="Byeon" lownote="c2" highnote="f7" clef="treble"/>
+					<Instrument name="Calung Tuned" title="Calung" abbr="Calung" lownote="c3" highnote="c4"/>
+					<Instrument name="Calung Untuned" title="Calung" abbr="Calung" lownote="c3" highnote="c4" />
+					<Instrument name="Gamelan Ensemble Tuned" title="Gamelan Ens." abbr="Gamelan" lownote="c2" highnote="c#4"/>
+					<Instrument name="Gamelan Ensemble Untuned" title="Gamelan Ens." abbr="Gamelan" lownote="c2" highnote="c#4"/>
+					<Instrument name="Gamelan Gong and Kajar" title="Gamelan Ens." abbr="Gamelan" lownote="c2" highnote="c4"/>
+					<Instrument name="Katana Group Tuned" title="Katana" abbr="Katana" lownote="c2" highnote="c#4"/>
+					<Instrument name="Katana Group Untuned" title="Katana" abbr="Katana" lownote="c2" highnote="c#4"/>
+					<Instrument name="Pamade Tuned" title="Pamade" abbr="Pamade" lownote="c2" highnote="c#4"/>
+					<Instrument name="Pamade Untuned" title="Pamade" abbr="Pamade" lownote="c2" highnote="c#4"/>
+				</Group>
+
+				<Group name="Gongs" title="Gongs" clef="bass">
+					<Instrument name="Chinese Gong 34 Inches" title="Gong" abbr="Gng." lownote="c2" highnote="c#5"/>
+					<Instrument name="Chinese Gong VS" title="Gong" abbr="Gng." lownote="c2" highnote="c6"/>
+					<Instrument name="Thai Gong 23 Inches" title="Gong" abbr="Gng." lownote="c2" highnote="g#4"/>
+					<Instrument name="Thai Gong VS" title="Gong" abbr="Gng." lownote="c2" highnote="c6"/>
+				</Group>
+
+				<Group name="Taiko Drums" title="Taiko Drums" lownote="e3" highnote="e4" clef="bass">
+					<Instrument name="Taiko Drums ALL" title="Taiko Drum" abbr="TaikoDrm." lownote="c2" highnote="c7"/>
+					<Instrument name="Dragon Taiko 1" title="Taiko Drum" abbr="TaikoDrm."/>
+					<Instrument name="Dragon Taiko 2" title="Taiko Drum" abbr="TaikoDrm."/>
+					<Instrument name="Taiko Bass Drum" title="Taiko Drum" abbr="TaikoDrm."/>
+					<Instrument name="Taiko Big and Bassy" title="Taiko Drum" abbr="TaikoDrm."/>
+					<Instrument name="Taiko Big Punch" title="Taiko Drum" abbr="TaikoDrm."/>
+					<Instrument name="Taiko Big Resonance" title="Taiko Drum" abbr="TaikoDrm."/>
+					<Instrument name="Taiko Deep and Woody" title="Taiko Drum" abbr="TaikoDrm."/>
+					<Instrument name="Taiko Earthquake" title="Taiko Drum" abbr="TaikoDrm."/>
+					<Instrument name="Taiko Ensemble" title="Taiko Drums" abbr="TaikoDrms."/>
+					<Instrument name="Taiko Hands" title="Taiko Drum" abbr="TaikoDrm."/>
+					<Instrument name="Taiko Light and Bassy" title="Taiko Drum" abbr="TaikoDrm."/>
+					<Instrument name="Taiko Light Sticks" title="Taiko Drum" abbr="TaikoDrm."/>
+					<Instrument name="Taiko Medium Room" title="Taiko Drum" abbr="TaikoDrm."/>
+					<Instrument name="Taiko Medium Sticks" title="Taiko Drum" abbr="TaikoDrm."/>
+					<Instrument name="Taiko Punchy 2" title="Taiko Drum" abbr="TaikoDrm."/>
+					<Instrument name="Taiko Punchy" title="Taiko Drum" abbr="TaikoDrm."/>
+					<Instrument name="Taiko Room ambient" title="Taiko Drum" abbr="TaikoDrm."/>
+					<Instrument name="Taiko Soft 2x Hits" title="Taiko Drum" abbr="TaikoDrm."/>
+					<Instrument name="Taiko Thunder" title="Taiko Drum" abbr="TaikoDrm."/>
+				</Group>
+
+			</Section>
+
+			<Section name="Far East - Plucked" legato="off" velocity="on">
+
+				<Group name="Koto" title="Koto" lownote="d#2" highnote="e6" clef="treble">
+					<Instrument name="Koto KS C0-F#0" title="Koto" abbr="Koto">
+						<UsesKeySwitchList name="Koto KS 1"/>
+					</Instrument>
+					<Instrument name="Koto Live 1" title="Koto" abbr="Koto"/>
+					<Instrument name="Koto Live 2" title="Koto" abbr="Koto"/>
+					<Instrument name="Koto Arp" title="Koto" abbr="Koto"/>
+					<Instrument name="Koto DBL" title="Koto" abbr="Koto"/>
+					<Instrument name="Koto Exp Vib" title="Koto" abbr="Koto"/>
+					<Instrument name="Koto HT UP" title="Koto" abbr="Koto"/>
+					<Instrument name="Koto Non Vib" title="Koto" abbr="Koto"/>
+					<Instrument name="Koto Pick Scrape" title="Koto" abbr="Koto"/>
+					<Instrument name="Koto Sus Vib" title="Koto" abbr="Koto"/>
+					<Instrument name="Koto Trem" title="Koto" abbr="Koto"/>
+				</Group>
+
+				<Group name="Shamisen" title="Shamisen" lownote="g3" highnote="g6" clef="treble">
+					<Instrument name="Shamisen KS C0-E0" title="Shamisen" abbr="Sham.">
+						<UsesKeySwitchList name="Shamisen KS 1"/>
+					</Instrument>
+					<Instrument name="Shamisen Live" title="Shamisen" abbr="Sham."/>
+					<Instrument name="Shamisen Pick Sft" title="Shamisen" abbr="Sham."/>
+					<Instrument name="Shamisen Slur Vib Fst" title="Shamisen" abbr="Sham."/>
+					<Instrument name="Shamisen Slur" title="Shamisen" abbr="Sham."/>
+					<Instrument name="Shamisen Sus" title="Shamisen" abbr="Sham."/>
+					<Instrument name="Shamisen Vib Fst" title="Shamisen" abbr="Sham."/>
+					<Instrument name="Shamisen Vib Sft" title="Shamisen" abbr="Sham."/>
+				</Group>
+
+				<Group name="Vietnamese Jawharp" title="Vietnamese Jawharp">
+					<Instrument name="Vietnamese Jawharp RR" title="Jawharp" abbr="Jawhrp." lownote="c4" highnote="d#4" clef="bass"/>
+					<Instrument name="Vietnamese Jawharp" title="Jawharp" abbr="Jawhrp." lownote="c2" highnote="c#7"/>
+				</Group>
+
+			</Section>
+
+			<Section name="Far East - Wind">
+
+				<Group name="Dizi" title="Dizi" lownote="c5" highnote="b6" clef="treble">
+					<Instrument name="Dizi KS C0-A#0" title="Dizi" abbr="Dizi">
+						<UsesKeySwitchList name="Dizi KS 1"/>
+						<UsesArticulationSwitchList name="Dizi KS 1"/>
+					</Instrument>
+					<Instrument name="Dizi Live 1" title="Dizi" abbr="Dizi"/>
+					<Instrument name="Dizi Live 2" title="Dizi" abbr="Dizi"/>
+					<Instrument name="Dizi Exp Vib 1" title="Dizi" abbr="Dizi"/>
+					<Instrument name="Dizi Exp Vib 2" title="Dizi" abbr="Dizi"/>
+					<Instrument name="Dizi Flutter" title="Dizi" abbr="Dizi"/>
+					<Instrument name="Dizi Legato" title="Dizi" abbr="Dizi" Articulation="legato"/>
+					<Instrument name="Dizi Mldy 1" title="Dizi" abbr="Dizi"/>
+					<Instrument name="Dizi Mldy 2" title="Dizi" abbr="Dizi"/>
+					<Instrument name="Dizi Non-vib" title="Dizi" abbr="Dizi"/>
+					<Instrument name="Dizi Stac Trill" title="Dizi" abbr="Dizi" Articulation="Staccato, Staccatissimo">
+						<UsesArticulationSwitchList name="Staccato"/>
+					</Instrument>
+					<Instrument name="Dizi Sus Vib" title="Dizi" abbr="Dizi"/>
+					<Instrument name="Dizi Trem" title="Dizi" abbr="Dizi"/>
+					<Instrument name="Dizi Trill" title="Dizi" abbr="Dizi"/>
+				</Group>
+
+				<Group name="Rag Dung" title="Rag Dung" lownote="a1" highnote="a4" clef="bass">
+					<Instrument name="Rag Dung KS C0-D0" title="Rag Dung" abbr="RagDng.">
+						<UsesKeySwitchList name="Rag Dung KS 1"/>
+					</Instrument>
+					<Instrument name="Rag Dung Non Vib 1" title="Rag Dung" abbr="RagDng."/>
+					<Instrument name="Rag Dung Non Vib 2" title="Rag Dung" abbr="RagDng."/>
+					<Instrument name="Rag Dung Non Vib 3" title="Rag Dung" abbr="RagDng."/>
+					<Instrument name="Rag Dung Non Vib 4" title="Rag Dung" abbr="RagDng."/>
+					<Instrument name="Rag Dung NV 4-Way RR" title="Rag Dung" abbr="RagDng."/>
+					<Instrument name="Rag Dung Stac 1" title="Rag Dung" abbr="RagDng." Articulation="Staccato, Staccatissimo">
+						<UsesArticulationSwitchList name="Staccato"/>
+					</Instrument>
+					<Instrument name="Rag Dung Stac 2" title="Rag Dung" abbr="RagDng."  Articulation="Staccato, Staccatissimo">
+						<UsesArticulationSwitchList name="Staccato"/>
+					</Instrument>
+					<Instrument name="Rag Dung Stac 3" title="Rag Dung" abbr="RagDng."  Articulation="Staccato, Staccatissimo">
+						<UsesArticulationSwitchList name="Staccato"/>
+					</Instrument>
+					<Instrument name="Rag Dung Stac RR" title="Rag Dung" abbr="RagDng." Articulation="Staccato, Staccatissimo">
+						<UsesArticulationSwitchList name="Staccato"/>
+					</Instrument>
+					<Instrument name="Rag Dung Sus Vib Slw" title="Rag Dung" abbr="RagDng."/>
+				</Group>
+
+				<Group name="Shakuhachi" title="Shakuhachi" lownote="g3" highnote="e6" clef="treble">
+					<Instrument name="Shakuhachi KS C0-C#1" title="Shakuhachi" abbr="Shk.">
+						<UsesKeySwitchList name="Shakuhachi KS 1"/>
+						<UsesArticulationSwitchList name="Shakuhachi KS 1"/>
+					</Instrument>
+					<Instrument name="Shakuhachi Live" title="Shakuhachi" abbr="Shk."/>
+					<Instrument name="Shakuhachi Exp NV" title="Shakuhachi" abbr="Shk."/>
+					<Instrument name="Shakuhachi Harm FX" title="Shakuhachi" abbr="Shk."/>
+					<Instrument name="Shakuhachi Leg NV" title="Shakuhachi" abbr="Shk." Articulation="legato"/>
+					<Instrument name="Shakuhachi Leg Vib" title="Shakuhachi" abbr="Shk." Articulation="legato"/>
+					<Instrument name="Shakuhachi Lg NV VB MOD" title="Shakuhachi" abbr="Shk." Articulation="legato">
+						<UsesControllerSwitchList name="XFade Vib"/>
+					</Instrument>
+					<Instrument name="Shakuhachi Mldy 1" title="Shakuhachi" abbr="Shk."/>
+					<Instrument name="Shakuhachi Mldy 2" title="Shakuhachi" abbr="Shk."/>
+					<Instrument name="Shakuhachi Mldy 3" title="Shakuhachi" abbr="Shk."/>
+					<Instrument name="Shakuhachi Mldy 4" title="Shakuhachi" abbr="Shk."/>
+					<Instrument name="Shakuhachi Non Vib" title="Shakuhachi" abbr="Shk."/>
+					<Instrument name="Shakuhachi Ovrblwn 1" title="Shakuhachi" abbr="Shk."/>
+					<Instrument name="Shakuhachi Ovrblwn 2" title="Shakuhachi" abbr="Shk."/>
+					<Instrument name="Shakuhachi Spit 2RR" title="Shakuhachi" abbr="Shk." Articulation="Staccato, Staccatissimo">
+						<UsesArticulationSwitchList name="Staccato"/>
+					</Instrument>
+					<Instrument name="Shakuhachi Spit 4RR" title="Shakuhachi" abbr="Shk." Articulation="Staccato, Staccatissimo">
+						<UsesArticulationSwitchList name="Staccato"/>
+					</Instrument>
+					<Instrument name="Shakuhachi Spit 6RR" title="Shakuhachi" abbr="Shk." Articulation="Staccato, Staccatissimo">
+						<UsesArticulationSwitchList name="Staccato"/>
+					</Instrument>
+					<Instrument name="Shakuhachi Sus Vib" title="Shakuhachi" abbr="Shk."/>
+					<Instrument name="Shakuhachi Trill" title="Shakuhachi" abbr="Shk."/>
+				</Group>
+
+			</Section>
+
+			<Section name="India - Bowed">
+
+				<Group name="Baritone Violin" title="Baritone Violin" lownote="c2" highnote="c7" clef="treble">
+					<Instrument name="Baritone VLN KS C0-A0" title="Violin" abbr="Vn.">
+						<UsesKeySwitchList name="Baritone Violin KS 1"/>
+						<UsesArticulationSwitchList name="Baritone Violin KS 1"/>
+					</Instrument>
+					<Instrument name="Baritone VLN Live 1" title="Violin" abbr="Vn."/>
+					<Instrument name="Baritone VLN Live 2" title="Violin" abbr="Vn."/>
+					<Instrument name="Baritone VLN Exp Vib" title="Violin" abbr="Vn."/>
+					<Instrument name="Baritone VLN Lyrical" title="Violin" abbr="Vn."/>
+					<Instrument name="Baritone VLN Marc" title="Violin" abbr="Vn."  Articulation="Marcato, Marcato Dot, Heavy Attack">
+						<UsesArticulationSwitchList name="Marcato"/>
+					</Instrument>
+					<Instrument name="Baritone VLN Ornament" title="Violin" abbr="Vn."/>
+					<Instrument name="Baritone VLN Fls Harm" title="Violin" abbr="Vn."/>
+					<Instrument name="Baritone VLN Leg Exp" title="Violin" abbr="Vn." Articulation="legato"/>
+					<Instrument name="Baritone VLN Leg NV RR" title="Violin" abbr="Vn." Articulation="legato"/>
+					<Instrument name="Baritone VLN Spic RR" title="Violin" abbr="Vn." Articulation="Staccatissimo">
+						<UsesArticulationSwitchList name="Staccatissimo"/>
+					</Instrument>
+					<Instrument name="Baritone VLN Stac RR" title="Violin" abbr="Vn." Articulation="Staccato, Staccatissimo">
+						<UsesArticulationSwitchList name="Staccato"/>
+					</Instrument>
+					<Instrument name="Baritone VLN Sus Leg RR" title="Violin" abbr="Vn."/>
+				</Group>
+
+				<Group name="Esraj" title="Esraj" lownote="f3" highnote="g5" clef="treble">
+					<Instrument name="Esraj KS C0-E1" title="Esraj" abbr="Esraj">
+						<UsesKeySwitchList name="Esraj KS 1"/>
+						<UsesArticulationSwitchList name="Esraj KS"/>
+					</Instrument>
+					<Instrument name="Esraj Live 1" title="Esraj" abbr="Esraj"/>
+					<Instrument name="Esraj Live 2" title="Esraj" abbr="Esraj"/>
+					<Instrument name="Esraj Leg 1" title="Esraj" abbr="Esraj" Articulation="legato"/>
+					<Instrument name="Esraj Leg 2" title="Esraj" abbr="Esraj" Articulation="legato"/>
+					<Instrument name="Esraj Leg 3" title="Esraj" abbr="Esraj" Articulation="legato"/>
+					<Instrument name="Esraj Leg 4" title="Esraj" abbr="Esraj" Articulation="legato"/>
+					<Instrument name="Esraj SLD 4th DN" title="Esraj" abbr="Esraj"/>
+					<Instrument name="Esraj SLD 4th UP" title="Esraj" abbr="Esraj"/>
+					<Instrument name="Esraj SLD HT DN" title="Esraj" abbr="Esraj"/>
+					<Instrument name="Esraj SLD HT UP" title="Esraj" abbr="Esraj"/>
+					<Instrument name="Esraj Maj3rd DN" title="Esraj" abbr="Esraj"/>
+					<Instrument name="Esraj Maj3rd UP" title="Esraj" abbr="Esraj"/>
+					<Instrument name="Esraj Min3rd DN" title="Esraj" abbr="Esraj"/>
+					<Instrument name="Esraj Min3rd UP" title="Esraj" abbr="Esraj"/>
+					<Instrument name="Esraj WT DN" title="Esraj" abbr="Esraj"/>
+					<Instrument name="Esraj WT UP" title="Esraj" abbr="Esraj"/>
+					<Instrument name="Esraj Sus" title="Esraj" abbr="Esraj"/>
+					<Instrument name="Esraj Trill HT UP" title="Esraj" abbr="Esraj"/>
+					<Instrument name="Esraj Trill WT DN" title="Esraj" abbr="Esraj"/>
+				</Group>
+
+				<Group name="Sarangi" title="Sarangi" lownote="a3" highnote="c6" clef="treble">
+					<Instrument name="Sarangi KS C0-C#1" title="Sarangi" abbr="Srn.">
+						<UsesKeySwitchList name="Sarangi KS 1"/>
+						<UsesArticulationSwitchList name="Sarangi KS"/>
+					</Instrument>
+					<Instrument name="Sarangi Live" title="Sarangi" abbr="Srn."/>
+					<Instrument name="Sarangi Mldy KS C0-C#1" title="Sarangi" abbr="Srn.">
+						<UsesKeySwitchList name="Sarangi KS 2"/>
+					</Instrument>
+					<Instrument name="Sarangi RT" title="Sarangi" abbr="Srn."/>
+					<Instrument name="Sarangi Bend DN" title="Sarangi" abbr="Srn."/>
+					<Instrument name="Sarangi Bend UP" title="Sarangi" abbr="Srn."/>
+					<Instrument name="Sarangi Leg Vib 1" title="Sarangi" abbr="Srn." Articulation="legato"/>
+					<Instrument name="Sarangi Leg Vib 2" title="Sarangi" abbr="Srn." Articulation="legato"/>
+					<Instrument name="Sarangi Mldy 01" title="Sarangi" abbr="Srn."/>
+					<Instrument name="Sarangi Mldy 02" title="Sarangi" abbr="Srn."/>
+					<Instrument name="Sarangi Mldy 03" title="Sarangi" abbr="Srn."/>
+					<Instrument name="Sarangi Mldy 04" title="Sarangi" abbr="Srn."/>
+					<Instrument name="Sarangi Mldy 05" title="Sarangi" abbr="Srn."/>
+					<Instrument name="Sarangi Mldy 06" title="Sarangi" abbr="Srn."/>
+					<Instrument name="Sarangi Mldy 07" title="Sarangi" abbr="Srn."/>
+					<Instrument name="Sarangi Mldy 08" title="Sarangi" abbr="Srn."/>
+					<Instrument name="Sarangi Mldy 09" title="Sarangi" abbr="Srn."/>
+					<Instrument name="Sarangi Mldy 10" title="Sarangi" abbr="Srn."/>
+					<Instrument name="Sarangi Mldy 11" title="Sarangi" abbr="Srn."/>
+					<Instrument name="Sarangi Non Vib 1" title="Sarangi" abbr="Srn."/>
+					<Instrument name="Sarangi Non Vib 2" title="Sarangi" abbr="Srn."/>
+					<Instrument name="Sarangi Non Vib 3" title="Sarangi" abbr="Srn."/>
+					<Instrument name="Sarangi Non Vib 4" title="Sarangi" abbr="Srn."/>
+					<Instrument name="Sarangi Non Vib 5" title="Sarangi" abbr="Srn."/>
+					<Instrument name="Sarangi Non Vib 6" title="Sarangi" abbr="Srn."/>
+					<Instrument name="Sarangi Non Vib 7" title="Sarangi" abbr="Srn."/>
+					<Instrument name="Sarangi Trem" title="Sarangi" abbr="Srn."/>
+					<Instrument name="Sarangi Vib" title="Sarangi" abbr="Srn."/>
+				</Group>
+
+			</Section>
+
+			<Section name="India - Percussion" legato="off" velocity="on">
+
+				<Group name="Tablas" title="Tablas" lownote="c0" highnote="c8" clef="treble">
+					<Instrument name="Tabla and Baya" title="Percussion" abbr="Perc."/>
+					<Instrument name="Tabla Funky" title="Tabla" abbr="Tbl."/>
+					<Instrument name="Tabla Only" title="Tabla" abbr="Tbl."/>
+					<Instrument name="Tabla Basic" title="Tabla" abbr="Tbl." lownote="e3" highnote="g4" clef="bass"/>
+				</Group>
+
+			</Section>
+
+			<Section name="India - Plucked" legato="off" velocity="on">
+
+				<Group name="Sitar" title="Sitar" lownote="e2" highnote="c6" clef="treble">
+					<Instrument name="Sitar KS C0-G0" title="Sitar" abbr="Sit.">
+						<UsesKeySwitchList name="Sitar KS 1"/>
+					</Instrument>
+					<Instrument name="Sitar Live 1" title="Sitar" abbr="Sit."/>
+					<Instrument name="Sitar Live 2" title="Sitar" abbr="Sit."/>
+					<Instrument name="Sitar Bends" title="Sitar" abbr="Sit."/>
+					<Instrument name="Sitar Drone" title="Sitar" abbr="Sit."/>
+					<Instrument name="Sitar Drop FX" title="Sitar" abbr="Sit."/>
+					<Instrument name="Sitar FX 1" title="Sitar" abbr="Sit."/>
+					<Instrument name="Sitar FX 2" title="Sitar" abbr="Sit."/>
+					<Instrument name="Sitar FX 3" title="Sitar" abbr="Sit."/>
+					<Instrument name="Sitar Gliss" title="Sitar" abbr="Sit."/>
+					<Instrument name="Sitar Slide HT UP" title="Sitar" abbr="Sit."/>
+					<Instrument name="Sitar Slide WT UP" title="Sitar" abbr="Sit."/>
+					<Instrument name="Sitar Sus DN" title="Sitar" abbr="Sit."/>
+					<Instrument name="Sitar Sus RR" title="Sitar" abbr="Sit."/>
+					<Instrument name="Sitar Sus UP" title="Sitar" abbr="Sit."/>
+					<Instrument name="Sitar Trem" title="Sitar" abbr="Sit."/>
+					<Instrument name="Sitar Trill HT" title="Sitar" abbr="Sit."/>
+					<Instrument name="Sitar Trill WT" title="Sitar" abbr="Sit."/>
+				</Group>
+
+				<Group name="Tambura" title="Tambura" lownote="c2" highnote="c4" clef="bass">
+					<Instrument name="Tambura 4-Way RR" title="Tambura" abbr="Tambur."/>
+				</Group>
+
+			</Section>
+
+			<Section name="India - Wind">
+
+				<Group name="Bansuri" title="Bansuri" lownote="g3" highnote="f6" clef="treble">
+					<Instrument name="Bansuri KS C0-B0" title="Bansuri" abbr="Ban.">
+						<UsesKeySwitchList name="Bansuri KS 1"/>
+						<UsesArticulationSwitchList name="Bansuri KS 1"/>
+					</Instrument>
+					<Instrument name="Bansuri Live 1" title="Bansuri" abbr="Ban."/>
+					<Instrument name="Bansuri Live 2" title="Bansuri" abbr="Ban."/>
+					<Instrument name="Bansuri Bnd Lng" title="Bansuri" abbr="Ban."/>
+					<Instrument name="Bansuri Bnd WT UP" title="Bansuri" abbr="Ban."/>
+					<Instrument name="Bansuri Exp Harm 1" title="Bansuri" abbr="Ban."/>
+					<Instrument name="Bansuri Exp Harm 2" title="Bansuri" abbr="Ban."/>
+					<Instrument name="Bansuri Flutter Exp" title="Bansuri" abbr="Ban."/>
+					<Instrument name="Bansuri Flutter" title="Bansuri" abbr="Ban."/>
+					<Instrument name="Bansuri Harm FX" title="Bansuri" abbr="Ban."/>
+					<Instrument name="Bansuri Leg" title="Bansuri" abbr="Ban." Articulation="legato"/>
+					<Instrument name="Bansuri Short Spit 1" title="Bansuri" abbr="Ban." Articulation="Staccatissimo">
+						<UsesArticulationSwitchList name="Staccatissimo"/>
+					</Instrument>
+					<Instrument name="Bansuri Spit Lng 1" title="Bansuri" abbr="Ban." Articulation="Staccato, Staccatissimo">
+						<UsesArticulationSwitchList name="Staccato"/>
+					</Instrument>
+					<Instrument name="Bansuri Spit Lng 1+2 RR" title="Bansuri" abbr="Ban." Articulation="Staccato, Staccatissimo">
+						<UsesArticulationSwitchList name="Staccato"/>
+					</Instrument>
+					<Instrument name="Bansuri Spit Lng 2" title="Bansuri" abbr="Ban." Articulation="Staccato, Staccatissimo">
+						<UsesArticulationSwitchList name="Staccato"/>
+					</Instrument>
+					<Instrument name="Bansuri Spit Sht 1+2 RR" title="Bansuri" abbr="Ban." Articulation="Staccatissimo">
+						<UsesArticulationSwitchList name="Staccatissimo"/>
+					</Instrument>
+					<Instrument name="Bansuri Spit Sht 2" title="Bansuri" abbr="Ban." Articulation="Staccatissimo">
+						<UsesArticulationSwitchList name="Staccatissimo"/>
+					</Instrument>
+					<Instrument name="Bansuri Sus Non Vib" title="Bansuri" abbr="Ban."/>
+					<Instrument name="Bansuri Sus Vib" title="Bansuri" abbr="Ban."/>
+					<Instrument name="Bansuri Turn" title="Bansuri" abbr="Ban."/>
+				</Group>
+
+			</Section>
+
+			<Section name="Mid East/Turkish Empire - Bowed">	
+
+				<Group name="Mid East Fiddle" title="Mid East Fiddle" lownote="e3" highnote="c6" clef="treble">
+					<Instrument name="MidEast FDL KS C0-A0" title="Fiddle" abbr="Fdl.">
+						<UsesKeySwitchList name="MidEast Fiddle KS 1"/>
+					</Instrument>
+					<Instrument name="MidEast FDL Live 1" title="Fiddle" abbr="Fdl."/>
+					<Instrument name="MidEast FDL Exp Sfz" title="Fiddle" abbr="Fdl."/>
+					<Instrument name="MidEast FDL Mldy Slw" title="Fiddle" abbr="Fdl."/>
+					<Instrument name="MidEast FDL Non Vib F" title="Fiddle" abbr="Fdl."/>
+					<Instrument name="MidEast FDL Non Vib M" title="Fiddle" abbr="Fdl."/>
+					<Instrument name="MidEast FDL Non Vib P" title="Fiddle" abbr="Fdl."/>
+					<Instrument name="MidEast FDL Non Vib VS" title="Fiddle" abbr="Fdl."/>
+					<Instrument name="MidEast FDL Slur DN 1" title="Fiddle" abbr="Fdl."/>
+					<Instrument name="MidEast FDL Slur DN 2" title="Fiddle" abbr="Fdl."/>
+					<Instrument name="MidEast FDL Slur UP 1" title="Fiddle" abbr="Fdl."/>
+					<Instrument name="MidEast FDL Slur UP 2" title="Fiddle" abbr="Fdl."/>
+					<Instrument name="MidEast FDL Sus Vib" title="Fiddle" abbr="Fdl."/>
+					<Instrument name="MidEast FDL Turn 1" title="Fiddle" abbr="Fdl."/>
+					<Instrument name="MidEast FDL Turn 2" title="Fiddle" abbr="Fdl."/>
+				</Group>
+
+				<Group name="Mid East String Section" title="Mid East String Section" lownote="c2" highnote="c6" clef="treble">
+					<Instrument name="MidEast Strings BIG 1" title="Strings" abbr="Str."/>
+					<Instrument name="MidEast Strings BIG 2" title="Strings" abbr="Str."/>
+					<Instrument name="MidEast Strings BIG 3" title="Strings" abbr="Str."/>
+					<Instrument name="MidEast Strings KS C0-F0" title="Strings" abbr="Str.">
+						<UsesKeySwitchList name="MidEast Strings KS 1"/>
+						<UsesArticulationSwitchList name="MidEastStrings KS"/>
+					</Instrument>
+					<Instrument name="MidEast Strings Live 1" title="Strings" abbr="Str."/>
+					<Instrument name="MidEast Strings Live 2" title="Strings" abbr="Str."/>
+					<Instrument name="MidEast Strings Exp Vib" title="Strings" abbr="Str."/>
+					<Instrument name="MidEast Strings Leg" title="Strings" abbr="Str." Articulation="legato"/>
+					<Instrument name="MidEast Strings Slur DN" title="Strings" abbr="Str."/>
+					<Instrument name="MidEast Strings Slur UP" title="Strings" abbr="Str."/>
+					<Instrument name="MidEast Strings Sus Vib" title="Strings" abbr="Str."/>
+					<Instrument name="MidEast Strings Turn" title="Strings" abbr="Str."/>
+
+				</Group>
+
+				<Group name="Yalli Timbur" title="Yalli Timbur" lownote="c#2" highnote="g6" clef="treble">
+					<Instrument name="Yalli Timbur Live 1" title="Yalli Timbur" abbr="YaliTimb."/>
+					<Instrument name="Yalli Timbur Live 2" title="Yalli Timbur" abbr="YaliTimb."/>
+					<Instrument name="Yalli Timbur KS C0-A0" title="Yalli Timbur" abbr="YaliTimb.">
+						<UsesKeySwitchList name="Yalli Timbur KS 1"/>
+					</Instrument>
+					<Instrument name="Yalli Timbur Drone" title="Yalli Timbur" abbr="YaliTimb."/>
+					<Instrument name="Yalli Timbur Exp Non Vib" title="Yalli Timbur" abbr="YaliTimb."/>
+					<Instrument name="Yalli Timbur Exp Vib" title="Yalli Timbur" abbr="YaliTimb."/>
+					<Instrument name="Yalli Timbur Exp" title="Yalli Timbur" abbr="YaliTimb."/>
+					<Instrument name="Yalli Timbur Grace HT" title="Yalli Timbur" abbr="YaliTimb."/>
+					<Instrument name="Yalli Timbur Leg Fst" title="Yalli Timbur" abbr="YaliTimb." Articulation="legato"/>
+					<Instrument name="Yalli Timbur Leg Sht" title="Yalli Timbur" abbr="YaliTimb." Articulation="legato"/>
+					<Instrument name="Yalli Timbur Leg" title="Yalli Timbur" abbr="YaliTimb." Articulation="legato"/>
+					<Instrument name="Yalli Timbur Mldy HT" title="Yalli Timbur" abbr="YaliTimb."/>
+					<Instrument name="Yalli Timbur SLD FX" title="Yalli Timbur" abbr="YaliTimb."/>
+					<Instrument name="Yalli Timbur SLD UP HT" title="Yalli Timbur" abbr="YaliTimb."/>
+					<Instrument name="Yalli Timbur SLD UP WT" title="Yalli Timbur" abbr="YaliTimb."/>
+					<Instrument name="Yalli Timbur Trill HT" title="Yalli Timbur" abbr="YaliTimb."/>
+					<Instrument name="Yalli Timbur Trill WT" title="Yalli Timbur" abbr="YaliTimb."/>
+				</Group>
+
+			</Section>
+
+			<Section name="Mid East/Turkish Empire - Hammered Plucked" legato="off" velocity="on">
+
+				<Group name="Oud" title="Oud" lownote="c#2" highnote="c5" clef="bass">
+					<Instrument name="Oud KS C0-F#0" title="Oud" abbr="Oud">
+						<UsesKeySwitchList name="Oud KS 1"/>
+					</Instrument>
+					<Instrument name="Oud Live 1" title="Oud" abbr="Oud"/>
+					<Instrument name="Oud Live 2" title="Oud" abbr="Oud"/>
+					<Instrument name="Oud Live 3" title="Oud" abbr="Oud"/>
+					<Instrument name="Oud Live 4" title="Oud" abbr="Oud"/>
+					<Instrument name="Oud Live 5" title="Oud" abbr="Oud"/>
+					<Instrument name="Oud Non Vib RR" title="Oud" abbr="Oud"/>
+					<Instrument name="Oud SLD DN" title="Oud" abbr="Oud"/>
+					<Instrument name="Oud SLD UP" title="Oud" abbr="Oud"/>
+					<Instrument name="Oud Trem Vib" title="Oud" abbr="Oud"/>
+					<Instrument name="Oud Trem" title="Oud" abbr="Oud"/>
+					<Instrument name="Oud Wide Vib" title="Oud" abbr="Oud"/>
+				</Group>
+
+				<Group name="Santoor" title="Santoor" lownote="g2" highnote="e7" clef="treble">
+					<Instrument name="Santoor KS C0-G#0" title="Santoor" abbr="Santor.">
+						<UsesKeySwitchList name="Santoor KS 1"/>
+					</Instrument>
+					<Instrument name="Santoor Live 1" title="Santoor" abbr="Santor."/>
+					<Instrument name="Santoor Live 2" title="Santoor" abbr="Santor."/>
+					<Instrument name="Santoor Exp HT Hrd" title="Santoor" abbr="Santor."/>
+					<Instrument name="Santoor Exp HT Sft" title="Santoor" abbr="Santor."/>
+					<Instrument name="Santoor Exp Lng" title="Santoor" abbr="Santor."/>
+					<Instrument name="Santoor Exp sFz" title="Santoor" abbr="Santor."/>
+					<Instrument name="Santoor Exp Sht" title="Santoor" abbr="Santor."/>
+					<Instrument name="Santoor Exp WT Hrd" title="Santoor" abbr="Santor."/>
+					<Instrument name="Santoor Exp WT Sft" title="Santoor" abbr="Santor."/>
+					<Instrument name="Santoor Mute" title="Santoor" abbr="Santor."/>
+					<Instrument name="Santoor sFz Exp" title="Santoor" abbr="Santor."/>
+					<Instrument name="Santoor Sus 1" title="Santoor" abbr="Santor."/>
+					<Instrument name="Santoor Sus 2" title="Santoor" abbr="Santor."/>
+					<Instrument name="Santoor Sus RR" title="Santoor" abbr="Santor."/>
+					<Instrument name="Santoor Trem" title="Santoor" abbr="Santor."/>
+				</Group>
+
+			</Section>
+
+			<Section name="Mid East/Turkish Empire - Percussion" legato="off" velocity="on">
+
+				<Group name="Qandahar Dumbek" title="Qandahar Dumbek" lownote="c2" highnote="f3" clef="bass">
+					<Instrument name="Qandahar Dumbek" title="Qandahar Dumbek" abbr="Dmb."/>
+				</Group>
+
+			</Section>
+
+			<Section name="Mid East/Turkish Empire - Wind">
+
+				<Group name="Armenian Duduk" title="Armenian Duduk" lownote="d3" highnote="d5" clef="treble">
+					<Instrument name="A Duduk KS C0-C#1" title="Duduk" abbr="Duduk">
+						<UsesKeySwitchList name="A Duduk KS 1"/>
+					</Instrument>
+					<Instrument name="A Duduk Live 1" title="Duduk" abbr="Duduk"/>
+					<Instrument name="A Duduk Live 2" title="Duduk" abbr="Duduk"/>
+					<Instrument name="A Duduk Mldy KS 1 C0-C2" title="Duduk" abbr="Duduk">
+						<UsesKeySwitchList name="A Duduk KS 2"/>
+					</Instrument>
+					<Instrument name="A Duduk Mldy KS 2 C0-B0" title="Duduk" abbr="Duduk">
+						<UsesKeySwitchList name="A Duduk KS 3"/>
+					</Instrument>
+					<Instrument name="A Duduk Drone Exp Vib" title="Duduk" abbr="Duduk"/>
+					<Instrument name="A Duduk Drone Non Vib" title="Duduk" abbr="Duduk"/>
+					<Instrument name="A Duduk Drone Sus Sft" title="Duduk" abbr="Duduk"/>
+					<Instrument name="A Duduk Drone Sus Vib" title="Duduk" abbr="Duduk"/>
+					<Instrument name="A Duduk Exp Lng HT UP" title="Duduk" abbr="Duduk"/>
+					<Instrument name="A Duduk Exp Mldy 1" title="Duduk" abbr="Duduk"/>
+					<Instrument name="A Duduk Exp Mldy 2" title="Duduk" abbr="Duduk"/>
+					<Instrument name="A Duduk Exp Mldy 3" title="Duduk" abbr="Duduk"/>
+					<Instrument name="A Duduk Exp Sht HT UP 1" title="Duduk" abbr="Duduk"/>
+					<Instrument name="A Duduk Exp Sht HT UP 2" title="Duduk" abbr="Duduk"/>
+					<Instrument name="A Duduk Exp Vib Grace" title="Duduk" abbr="Duduk"/>
+					<Instrument name="A Duduk Exp Vib SHT 1" title="Duduk" abbr="Duduk"/>
+					<Instrument name="A Duduk Exp Vib SHT 2" title="Duduk" abbr="Duduk"/>
+					<Instrument name="A Duduk Exp Vib SHT 3" title="Duduk" abbr="Duduk"/>
+					<Instrument name="A Duduk Exp Vib" title="Duduk" abbr="Duduk"/>
+					<Instrument name="A Duduk Exp WT UP" title="Duduk" abbr="Duduk"/>
+					<Instrument name="A Duduk Non Vib 1" title="Duduk" abbr="Duduk"/>
+					<Instrument name="A Duduk Non Vib 2" title="Duduk" abbr="Duduk"/>
+					<Instrument name="A Duduk Sus Vib 1" title="Duduk" abbr="Duduk"/>
+				</Group>
+
+				<Group name="Armenian Duduk Melodies" title="Armenian Duduk Melodies" lownote="d3" highnote="d5" clef="treble">
+					<Instrument name="A Duduk Mldy 01" title="Duduk" abbr="Duduk"/>
+					<Instrument name="A Duduk Mldy 02" title="Duduk" abbr="Duduk"/>
+					<Instrument name="A Duduk Mldy 03" title="Duduk" abbr="Duduk"/>
+					<Instrument name="A Duduk Mldy 04" title="Duduk" abbr="Duduk"/>
+					<Instrument name="A Duduk Mldy 05" title="Duduk" abbr="Duduk"/>
+					<Instrument name="A Duduk Mldy 06" title="Duduk" abbr="Duduk"/>
+					<Instrument name="A Duduk Mldy 07" title="Duduk" abbr="Duduk"/>
+					<Instrument name="A Duduk Mldy 08" title="Duduk" abbr="Duduk"/>
+					<Instrument name="A Duduk Mldy 09" title="Duduk" abbr="Duduk"/>
+					<Instrument name="A Duduk Mldy 10" title="Duduk" abbr="Duduk"/>
+					<Instrument name="A Duduk Mldy 11" title="Duduk" abbr="Duduk"/>
+					<Instrument name="A Duduk Mldy 12" title="Duduk" abbr="Duduk"/>
+					<Instrument name="A Duduk Mldy 13" title="Duduk" abbr="Duduk"/>
+					<Instrument name="A Duduk Mldy 14" title="Duduk" abbr="Duduk"/>
+					<Instrument name="A Duduk Mldy 15" title="Duduk" abbr="Duduk"/>
+					<Instrument name="A Duduk Mldy 16" title="Duduk" abbr="Duduk"/>
+					<Instrument name="A Duduk Mldy 17" title="Duduk" abbr="Duduk"/>
+					<Instrument name="A Duduk Mldy 18" title="Duduk" abbr="Duduk"/>
+					<Instrument name="A Duduk Mldy 19" title="Duduk" abbr="Duduk"/>
+					<Instrument name="A Duduk Mldy 20" title="Duduk" abbr="Duduk"/>
+					<Instrument name="A Duduk Mldy 21" title="Duduk" abbr="Duduk"/>
+					<Instrument name="A Duduk Mldy 22" title="Duduk" abbr="Duduk"/>
+					<Instrument name="A Duduk Mldy 23" title="Duduk" abbr="Duduk"/>
+					<Instrument name="A Duduk Mldy 24" title="Duduk" abbr="Duduk"/>
+					<Instrument name="A Duduk Mldy 25" title="Duduk" abbr="Duduk"/>
+					<Instrument name="A Duduk Mldy 26" title="Duduk" abbr="Duduk"/>
+					<Instrument name="A Duduk Mldy 27" title="Duduk" abbr="Duduk"/>
+					<Instrument name="A Duduk Mldy 28" title="Duduk" abbr="Duduk"/>
+					<Instrument name="A Duduk Mldy 29" title="Duduk" abbr="Duduk"/>
+					<Instrument name="A Duduk Mldy 30" title="Duduk" abbr="Duduk"/>
+					<Instrument name="A Duduk Mldy 31" title="Duduk" abbr="Duduk"/>
+					<Instrument name="A Duduk Mldy 32" title="Duduk" abbr="Duduk"/>
+					<Instrument name="A Duduk Mldy 33" title="Duduk" abbr="Duduk"/>
+					<Instrument name="A Duduk Mldy 34" title="Duduk" abbr="Duduk"/>
+					<Instrument name="A Duduk Mldy 35" title="Duduk" abbr="Duduk"/>
+					<Instrument name="A Duduk Mldy 36" title="Duduk" abbr="Duduk"/>
+					<Instrument name="A Duduk Mldy 37" title="Duduk" abbr="Duduk"/>
+
+				</Group>
+
+				<Group name="Bulgarian Duduk" title="Buglarian Duduk" lownote="f3" highnote="c5" clef="treble">
+					<Instrument name="B Duduk KS C0-C#1" title="Duduk" abbr="Duduk">
+						<UsesKeySwitchList name="B Duduk KS 1"/>
+						<UsesArticulationSwitchList name="B Duduk KS 1"/>
+					</Instrument>
+					<Instrument name="B Duduk Live 1" title="Duduk" abbr="Duduk"/>
+					<Instrument name="B Duduk Live 2" title="Duduk" abbr="Duduk"/>
+					<Instrument name="B Duduk Exp Slw Trill" title="Duduk" abbr="Duduk"/>
+					<Instrument name="B Duduk Exp Vib Fst 2" title="Duduk" abbr="Duduk"/>
+					<Instrument name="B Duduk Exp Vib Fst" title="Duduk" abbr="Duduk"/>
+					<Instrument name="B Duduk Exp Vib SLW" title="Duduk" abbr="Duduk"/>
+					<Instrument name="B Duduk Exp Vib" title="Duduk" abbr="Duduk"/>
+					<Instrument name="B Duduk Fst Bnd Up" title="Duduk" abbr="Duduk"/>
+					<Instrument name="B Duduk Leg" title="Duduk" abbr="Duduk" Articulation="legato"/>
+					<Instrument name="B Duduk Ornament" title="Duduk" abbr="Duduk"/>
+					<Instrument name="B Duduk Sht HT UP" title="Duduk" abbr="Duduk"/>
+					<Instrument name="B Duduk Stac RR" title="Duduk" abbr="Duduk"  Articulation="Staccato, Staccatissimo">
+						<UsesArticulationSwitchList name="Staccato"/>
+					</Instrument>
+					<Instrument name="B Duduk Sus Non Vib" title="Duduk" abbr="Duduk"/>
+					<Instrument name="B Duduk Sus Vib Slw" title="Duduk" abbr="Duduk"/>
+					<Instrument name="B Duduk Vib Bnd Up 1" title="Duduk" abbr="Duduk"/>
+					<Instrument name="B Duduk Vib Bnd Up 2" title="Duduk" abbr="Duduk"/>
+					<Instrument name="B Duduk Vib Bnd Up 3" title="Duduk" abbr="Duduk"/>
+				</Group>
+
+				<Group name="Ney Flute" title="Ney Flute" lownote="g4" highnote="g6" clef="treble">
+					<Instrument name="Ney Flute Live 2" title="Flute" abbr="Fl."/>
+					<Instrument name="Ney Flute Live 1" title="Flute" abbr="Fl."/>
+					<Instrument name="Ney Flute KS C0-A0" title="Flute" abbr="Fl.">
+						<UsesKeySwitchList name="Ney Flute KS 1"/>
+						<UsesArticulationSwitchList name="Ney Flute KS"/>
+					</Instrument>
+					<Instrument name="Ney Flute Exp Mldy" title="Flute" abbr="Fl."/>
+					<Instrument name="Ney Flute Exp Vib" title="Flute" abbr="Fl."/>
+					<Instrument name="Ney Flute Grace 1" title="Flute" abbr="Fl."/>
+					<Instrument name="Ney Flute Grace 2" title="Flute" abbr="Fl."/>
+					<Instrument name="Ney Flute Grace 3" title="Flute" abbr="Fl."/>
+					<Instrument name="Ney Flute Leg" title="Flute" abbr="Fl." Articulation="legato"/>
+					<Instrument name="Ney Flute Non Vib" title="Flute" abbr="Fl."/>
+					<Instrument name="Ney Flute sFz" title="Flute" abbr="Fl."/>
+					<Instrument name="Ney Flute Sus Slur" title="Flute" abbr="Fl."/>
+					<Instrument name="Ney Flute Sus Vib Fall" title="Flute" abbr="Fl."/>
+					<Instrument name="Ney Flute Sus Vib" title="Flute" abbr="Fl."/>
+
+				</Group>
+
+				<Group name="Turkish Duduk" title="Turkish Duduk" lownote="f3" highnote="c5" clef="treble">
+					<Instrument name="T Duduk KS C0-D1" title="Duduk" abbr="Duduk">
+						<UsesKeySwitchList name="T Duduk KS 1"/>
+						<UsesArticulationSwitchList name="T Duduk KS 1"/>
+					</Instrument>
+					<Instrument name="T Duduk Live 2" title="Duduk" abbr="Duduk"/>
+					<Instrument name="T Duduk Live 1" title="Duduk" abbr="Duduk"/>
+					<Instrument name="T Duduk Bnd Up Fst 1" title="Duduk" abbr="Duduk"/>
+					<Instrument name="T Duduk Bnd Up Fst 2" title="Duduk" abbr="Duduk"/>
+					<Instrument name="T Duduk Bnd Up Fst 3" title="Duduk" abbr="Duduk"/>
+					<Instrument name="T Duduk Bnd Up Slw" title="Duduk" abbr="Duduk"/>
+					<Instrument name="T Duduk Exp Mldy 1" title="Duduk" abbr="Duduk"/>
+					<Instrument name="T Duduk Exp Mldy 2" title="Duduk" abbr="Duduk"/>
+					<Instrument name="T Duduk Exp Mldy 3" title="Duduk" abbr="Duduk"/>
+					<Instrument name="T Duduk Leg Exp 1" title="Duduk" abbr="Duduk" Articulation="legato"/>
+					<Instrument name="T Duduk Leg Exp 2" title="Duduk" abbr="Duduk" Articulation="legato"/>
+					<Instrument name="T Duduk Slur DN" title="Duduk" abbr="Duduk"/>
+					<Instrument name="T Duduk Slur UP" title="Duduk" abbr="Duduk"/>
+					<Instrument name="T Duduk Stac 2RR" title="Duduk" abbr="Duduk" Articulation="Staccato, Staccatissimo">
+						<UsesArticulationSwitchList name="Staccato"/>
+					</Instrument>
+					<Instrument name="T Duduk Stac 3RR" title="Duduk" abbr="Duduk" Articulation="Staccato, Staccatissimo">
+						<UsesArticulationSwitchList name="Staccato"/>
+					</Instrument>
+					<Instrument name="T Duduk Sus Bnd DN" title="Duduk" abbr="Duduk"/>
+					<Instrument name="T Duduk Sus Bnd UP" title="Duduk" abbr="Duduk"/>
+				</Group>
+
+				<Group name="Zourna" title="Zourna" lownote="g4" highnote="c6" clef="treble">
+					<Instrument name="Zourna KS C0-A#0" title="Zourna" abbr="Zour.">
+						<UsesKeySwitchList name="Zourna KS 1"/>
+						<UsesArticulationSwitchList name="Zourna KS"/>
+					</Instrument>
+					<Instrument name="Zourna Live" title="Zourna" abbr="Zour."/>
+					<Instrument name="Zourna Exp Mldy 1" title="Zourna" abbr="Zour."/>
+					<Instrument name="Zourna Exp Mldy 2" title="Zourna" abbr="Zour."/>
+					<Instrument name="Zourna Exp Mldy 3" title="Zourna" abbr="Zour."/>
+					<Instrument name="Zourna Exp Mldy 4" title="Zourna" abbr="Zour."/>
+					<Instrument name="Zourna Exp" title="Zourna" abbr="Zour."/>
+					<Instrument name="Zourna Grace" title="Zourna" abbr="Zour."/>
+					<Instrument name="Zourna Leg 1" title="Zourna" abbr="Zour." Articulation="legato"/>
+					<Instrument name="Zourna Leg 2" title="Zourna" abbr="Zour." Articulation="legato"/>
+					<Instrument name="Zourna Non Vib" title="Zourna" abbr="Zour."/>
+					<Instrument name="Zourna Sus Vib RR" title="Zourna" abbr="Zour."/>
+					<Instrument name="Zourna Trill" title="Zourna" abbr="Zour."/>
+				</Group>
+
+			</Section>
+
+		</Instruments>
+	</Device>
+	
+</VSTNameDocument>

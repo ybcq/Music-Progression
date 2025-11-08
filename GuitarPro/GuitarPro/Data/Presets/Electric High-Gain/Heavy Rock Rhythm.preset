@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<variation version="1.0">
+<description><name>Variation 0</name></description> 
+<slots>
+<slot index="0" effect="E03_OverdriveScreamer" bypass="0" >
+<parameters><parameter id="0" value="0.74"/>
+<parameter id="1" value="0.67"/>
+<parameter id="2" value="0.86"/>
+</parameters>
+</slot>
+<slot index="1" effect="A08_StackModern" bypass="0" >
+<parameters><parameter id="0" value="1"/>
+<parameter id="1" value="0.7"/>
+<parameter id="2" value="0.69"/>
+<parameter id="3" value="0.34"/>
+<parameter id="4" value="0.69"/>
+<parameter id="5" value="0.2"/>
+<parameter id="6" value="0.7"/>
+</parameters>
+</slot>
+<slot index="2" effect="E30_EqGEq" bypass="0" >
+<parameters><parameter id="0" value="0.685714"/>
+<parameter id="1" value="0.571429"/>
+<parameter id="2" value="0.4"/>
+<parameter id="3" value="0.4"/>
+<parameter id="4" value="0.428571"/>
+<parameter id="5" value="0.542857"/>
+<parameter id="6" value="0.628571"/>
+<parameter id="7" value="0.5"/>
+</parameters>
+</slot>
+</slots>
+</variation>

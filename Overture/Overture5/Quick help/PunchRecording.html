@@ -1,0 +1,91 @@
+﻿<html>
+	
+<head>
+	<title>Punch Recording</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("PunchRecording");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Punch Recording</h1>
+				
+				</div>
+			<div id="topic_header_nav">
+				<a href="RealTimeRecording.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="AdvancedLyricEntry.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts14">Punch Recording</span></span></h1>
+<p class="rvps2"><span class="rvts12">Historical Origins</span></p>
+<p class="rvps2"><span class="rvts6">The technique of Punch recording originated from tape recording studios. Recording engineers discovered that they could improve sections or fix mistakes in a recorded track without re-recording the entire track. They could correct only the area in which the mistake occurred. Punch recording saved time and conserved the creativity of the musicians by retaining most of an acceptable (or even inspiring) performance. It didn't require the musician to start from the beginning each time he or she made a small mistake.</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">General Procedure</span></p>
+<p class="rvps2"><span class="rvts6">Punch recording begins by rewinding the tape to the beginning of the section that needs modification. When the tape starts playing, the musician begins playing as if he or she were recording, in order to get into the flow of the music. Recording does not actually begin, however, until the engineer </span><span class="rvts17">punches in </span><span class="rvts6">to</span><span class="rvts17"> </span><span class="rvts6">activate recording. The musician continues playing, blissfully unaware of the mechanics of the process until the tape arrives at the end of the section being replaced. The engineer then </span><span class="rvts17">punches out </span><span class="rvts6">to stop recording. </span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Punch Recording in Overture</span></p>
+<p class="rvps2"><span class="rvts6">Punch recording is a standard feature in professional MIDI sequencers and is available in Overture. </span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">You enable punch recording by selecting a range of measures. Start by double clicking on the punch in measure and the shift double click on the punch out measure. Now press the </span><span class="rvts12">Record</span><span class="rvts6"> button in the normal manner. Overture begins </span><span class="rvts17">playback</span><span class="rvts6"> one Count off Bar prior to the Punch In measure but begins </span><span class="rvts17">recording</span><span class="rvts6"> at the Punch In point. Overture stops recording after the Punch Out measure. </span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

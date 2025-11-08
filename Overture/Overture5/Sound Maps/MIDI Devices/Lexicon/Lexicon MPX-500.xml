@@ -1,0 +1,297 @@
+
+<VSTNameDocument name="Lexicon MPX-500">
+<Version>1</Version>
+<Author>Sonic Scores</Author>
+<Device type="MIDI"/>
+<Instruments>
+  <Section name="Ambience" bankHigh="0" bankLow="4" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="Announcer" prgChg="1"/>
+    <Instrument name="Very Small Ambience" prgChg="2"/>
+    <Instrument name="Small Ambience" prgChg="3"/>
+    <Instrument name="Mid Size Ambience" prgChg="4"/>
+    <Instrument name="Studio D" prgChg="5"/>
+    <Instrument name="Bright Ambience" prgChg="6"/>
+    <Instrument name="Dark Ambience" prgChg="7"/>
+    <Instrument name="Marble Foyer" prgChg="8"/>
+    <Instrument name="Smooth Ambience" prgChg="9"/>
+    <Instrument name="Guitar Ambience" prgChg="10"/>
+  </Section>
+  <Section name="Chamber" bankHigh="0" bankLow="3" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="Brick Wall" prgChg="1"/>
+    <Instrument name="Basement" prgChg="2"/>
+    <Instrument name="Live Concert" prgChg="3"/>
+    <Instrument name="Drum Chamber" prgChg="4"/>
+    <Instrument name="Moves on..." prgChg="5"/>
+    <Instrument name="Live Chamber" prgChg="6"/>
+    <Instrument name="Vocal Chamber1" prgChg="7"/>
+    <Instrument name="Vocal Chamber2" prgChg="8"/>
+    <Instrument name="Wide Chamber" prgChg="9"/>
+    <Instrument name="PCM60: Large" prgChg="10"/>
+  </Section>
+  <Section name="Chorus" bankHigh="0" bankLow="8" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="Chorus1" prgChg="1"/>
+    <Instrument name="Chorus2" prgChg="2"/>
+    <Instrument name="Chorus3" prgChg="3"/>
+    <Instrument name="Slap Chorus1" prgChg="4"/>
+    <Instrument name="Slap Chorus2" prgChg="5"/>
+  </Section>
+  <Section name="Chorus - Delay" bankHigh="0" bankLow="16" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="Chorus Tap" prgChg="1"/>
+    <Instrument name="Chorus 8Tap" prgChg="2"/>
+    <Instrument name="Chorus 8+Triplet" prgChg="3"/>
+    <Instrument name="Chorus Pong" prgChg="4"/>
+    <Instrument name="Chorus Repeat" prgChg="5"/>
+    <Instrument name="Chorus Bounce" prgChg="6"/>
+    <Instrument name="Chorus-&gt;Tap" prgChg="7"/>
+    <Instrument name="Chorus-&gt;Repeat" prgChg="8"/>
+    <Instrument name="Chorus-&gt;Pong" prgChg="9"/>
+    <Instrument name="Chorus-&gt;Bounce" prgChg="10"/>
+  </Section>
+  <Section name="Chorus - Reverb" bankHigh="0" bankLow="20" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="Chorus1 Small" prgChg="1"/>
+    <Instrument name="Chorus1 MidSize" prgChg="2"/>
+    <Instrument name="Chorus1 Large" prgChg="3"/>
+    <Instrument name="Chorus2 Small" prgChg="4"/>
+    <Instrument name="Chorus2 MidSize" prgChg="5"/>
+    <Instrument name="Chorus2 Large" prgChg="6"/>
+    <Instrument name="Chorus1-&gt;Room" prgChg="7"/>
+    <Instrument name="Chorus2-&gt;Room" prgChg="8"/>
+    <Instrument name="Chorus3-&gt;Room" prgChg="9"/>
+    <Instrument name="Chorus1-&gt;Small" prgChg="10"/>
+  </Section>
+  <Section name="Delay - Reverb" bankHigh="0" bankLow="17" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="Tap Small" prgChg="1"/>
+    <Instrument name="3plTapMidSize" prgChg="2"/>
+    <Instrument name="8+Triplet Large" prgChg="3"/>
+    <Instrument name="Pong Small" prgChg="4"/>
+    <Instrument name="Xfeed Mid Size" prgChg="5"/>
+    <Instrument name="Xfeed Large" prgChg="6"/>
+    <Instrument name="Tap-&gt;Room" prgChg="7"/>
+    <Instrument name="8+Triplet-&gt;Large" prgChg="8"/>
+    <Instrument name="Xfeed-&gt;Room" prgChg="9"/>
+    <Instrument name="Xfeed-&gt;Large" prgChg="10"/>
+  </Section>
+  <Section name="Delay, Echo" bankHigh="0" bankLow="12" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="Delay Mono Tap" prgChg="1"/>
+    <Instrument name="Delay Stereo Tap" prgChg="2"/>
+    <Instrument name="Delay Shuffle Tap" prgChg="3"/>
+    <Instrument name="Delay Dot 8 Tap" prgChg="4"/>
+    <Instrument name="Delay 8+Triplet Tap" prgChg="5"/>
+    <Instrument name="Delay Pong Tap" prgChg="6"/>
+    <Instrument name="Delay Xfbk Tap1" prgChg="7"/>
+    <Instrument name="Delay Xfbk Tap2" prgChg="8"/>
+    <Instrument name="Delay Mono" prgChg="9"/>
+    <Instrument name="Delay Stereo" prgChg="10"/>
+    <Instrument name="Delay Tape Slap" prgChg="11"/>
+    <Instrument name="Multi Bounce" prgChg="12"/>
+    <Instrument name="Multi Inverse" prgChg="13"/>
+    <Instrument name="Multi Linear" prgChg="14"/>
+    <Instrument name="Multi Pong" prgChg="15"/>
+  </Section>
+  <Section name="Detune" bankHigh="0" bankLow="10" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="Detune Mild" prgChg="1"/>
+    <Instrument name="Detune Medium 38; Warm" prgChg="2"/>
+    <Instrument name="Detune Heavy" prgChg="3"/>
+    <Instrument name="Detune Xtreme" prgChg="4"/>
+    <Instrument name="Pitch Detune" prgChg="5"/>
+  </Section>
+  <Section name="Dual Mono" bankHigh="0" bankLow="23" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="Tap &#124; Small" prgChg="1"/>
+    <Instrument name="Tap &#124; MidSize" prgChg="2"/>
+    <Instrument name="Tap &#124; Large" prgChg="3"/>
+    <Instrument name="Tap &#124; Room" prgChg="4"/>
+    <Instrument name="Deep Flange &#124; Tap" prgChg="5"/>
+    <Instrument name="Deep Flange &#124; Dot8" prgChg="6"/>
+    <Instrument name="8ves &#124; Tap" prgChg="7"/>
+    <Instrument name="8ves &#124; Triplet" prgChg="8"/>
+    <Instrument name="Chorus &#124; Tap" prgChg="9"/>
+    <Instrument name="Chorus2 &#124; Dot8" prgChg="10"/>
+    <Instrument name="Lite Flange &#124; Large" prgChg="11"/>
+    <Instrument name="Deep Flange &#124; Large" prgChg="12"/>
+    <Instrument name="8ves &#124; MidSize" prgChg="13"/>
+    <Instrument name="4ths &#124; Large" prgChg="14"/>
+    <Instrument name="Chorus1 &#124; Room" prgChg="15"/>
+    <Instrument name="Chorus2 &#124; Room" prgChg="16"/>
+  </Section>
+  <Section name="Flange" bankHigh="0" bankLow="9" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="Flange Lite" prgChg="1"/>
+    <Instrument name="Flange Lite 180" prgChg="2"/>
+    <Instrument name="Flange Medium 180" prgChg="3"/>
+    <Instrument name="Flange Deep" prgChg="4"/>
+    <Instrument name="Flange Deep 180" prgChg="5"/>
+  </Section>
+  <Section name="Flange - Delay" bankHigh="0" bankLow="14" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="Flange Tap" prgChg="1"/>
+    <Instrument name="Flange Dotted Eighth Tap" prgChg="2"/>
+    <Instrument name="Flange Triplet Tap" prgChg="3"/>
+    <Instrument name="Flange Pong Tap" prgChg="4"/>
+    <Instrument name="Flange Xfeed" prgChg="5"/>
+    <Instrument name="Flange Bounce" prgChg="6"/>
+    <Instrument name="Flange-&gt;Tap" prgChg="7"/>
+    <Instrument name="Flange-&gt;Fbk" prgChg="8"/>
+    <Instrument name="Flange-&gt;Pong" prgChg="9"/>
+    <Instrument name="Flange-&gt;Bounce" prgChg="10"/>
+  </Section>
+  <Section name="Flange - Reverb" bankHigh="0" bankLow="18" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="Lite Flange Small" prgChg="1"/>
+    <Instrument name="Lite Flange MidSize" prgChg="2"/>
+    <Instrument name="Lite Flange Large" prgChg="3"/>
+    <Instrument name="Deep Flange Small" prgChg="4"/>
+    <Instrument name="Deep Flange MidSize" prgChg="5"/>
+    <Instrument name="Deep Flange Large" prgChg="6"/>
+    <Instrument name="Lite Flange-&gt;Small" prgChg="7"/>
+    <Instrument name="Lite Flange-&gt;Room" prgChg="8"/>
+    <Instrument name="Deep Flange-&gt;Large" prgChg="9"/>
+    <Instrument name="Deep Flange-&gt;Room" prgChg="10"/>
+  </Section>
+  <Section name="Gate" bankHigh="0" bankLow="1" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="Straight Gate" prgChg="1"/>
+    <Instrument name="Slope Down" prgChg="2"/>
+    <Instrument name="Drum Gate" prgChg="3"/>
+    <Instrument name="140ms Tap Predelay" prgChg="4"/>
+    <Instrument name="240ms Tap Predelay" prgChg="5"/>
+    <Instrument name="340ms Tap Predelay" prgChg="6"/>
+    <Instrument name="440ms Tap Predelay" prgChg="7"/>
+    <Instrument name="540ms Tap Predelay" prgChg="8"/>
+    <Instrument name="Inverse" prgChg="9"/>
+    <Instrument name="Dark Inverse" prgChg="10"/>
+  </Section>
+  <Section name="Hall" bankHigh="0" bankLow="2" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="Small Hall" prgChg="1"/>
+    <Instrument name="Medium Hall" prgChg="2"/>
+    <Instrument name="Large Hall" prgChg="3"/>
+    <Instrument name="Small Church" prgChg="4"/>
+    <Instrument name="Large Church" prgChg="5"/>
+    <Instrument name="Jazz Hall" prgChg="6"/>
+    <Instrument name="Dance Hall" prgChg="7"/>
+    <Instrument name="Synth Hall" prgChg="8"/>
+    <Instrument name="Concert Hall" prgChg="9"/>
+    <Instrument name="Gothic Hall" prgChg="10"/>
+  </Section>
+  <Section name="Mono Split Delay" bankHigh="0" bankLow="21" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="Flange+Tap" prgChg="1"/>
+    <Instrument name="Flange+Pong" prgChg="2"/>
+    <Instrument name="Flange+Xfeed" prgChg="3"/>
+    <Instrument name="Flange+Bounce" prgChg="4"/>
+    <Instrument name="Deep Flange+Delay" prgChg="5"/>
+    <Instrument name="5th+Tap" prgChg="6"/>
+    <Instrument name="8ve+Triplet Tap" prgChg="7"/>
+    <Instrument name="4th5th+Xfeed" prgChg="8"/>
+    <Instrument name="5th6th+Xfeed" prgChg="9"/>
+    <Instrument name="Pitch Fine+Tap" prgChg="10"/>
+    <Instrument name="Chorus+Tap" prgChg="11"/>
+    <Instrument name="Chorus+Pong" prgChg="12"/>
+    <Instrument name="Chorus+Xfeed" prgChg="13"/>
+    <Instrument name="Chorus+Bounce" prgChg="14"/>
+    <Instrument name="Chorus+Inverse" prgChg="15"/>
+  </Section>
+  <Section name="Mono Split Reverb" bankHigh="0" bankLow="22" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="Tap+MidSize" prgChg="1"/>
+    <Instrument name="Pong+Large" prgChg="2"/>
+    <Instrument name="Bounce+MidSize" prgChg="3"/>
+    <Instrument name="Xfeed+Small" prgChg="4"/>
+    <Instrument name="Xfeed+MidSize" prgChg="5"/>
+    <Instrument name="Lite Flange+MidSize" prgChg="6"/>
+    <Instrument name="Lite Flange+Large" prgChg="7"/>
+    <Instrument name="Deep Flange+Small" prgChg="8"/>
+    <Instrument name="Deep Flange+MidSize" prgChg="9"/>
+    <Instrument name="Deep Flange+Room" prgChg="10"/>
+    <Instrument name="4th5th+Room" prgChg="11"/>
+    <Instrument name="5th6th+Room" prgChg="12"/>
+    <Instrument name="4ths+Large" prgChg="13"/>
+    <Instrument name="8ve+MidSize" prgChg="14"/>
+    <Instrument name="Pitch Fine+MidSize" prgChg="15"/>
+    <Instrument name="Chorus1+Small" prgChg="16"/>
+    <Instrument name="Chorus1+Large" prgChg="17"/>
+    <Instrument name="Chorus2+MidSize" prgChg="18"/>
+    <Instrument name="Chorus2+Large" prgChg="19"/>
+    <Instrument name="Chorus3+MidSize" prgChg="20"/>
+  </Section>
+  <Section name="Pitch" bankHigh="0" bankLow="11" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="Pitch Chromatic" prgChg="1"/>
+    <Instrument name="Pitch Fine" prgChg="2"/>
+    <Instrument name="Pitch 4th-5ths" prgChg="3"/>
+    <Instrument name="Pitch PowerInV" prgChg="4"/>
+    <Instrument name="Vocal Chorus" prgChg="5"/>
+  </Section>
+  <Section name="Pitch - Delay" bankHigh="0" bankLow="15" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="5th Tap" prgChg="1"/>
+    <Instrument name="8ve Triplet Tap" prgChg="2"/>
+    <Instrument name="8ve 8+Triplet Tap" prgChg="3"/>
+    <Instrument name="3rd4th Pong" prgChg="4"/>
+    <Instrument name="4th5th Xfeed" prgChg="5"/>
+    <Instrument name="5th6th Xfeed" prgChg="6"/>
+    <Instrument name="8ve-&gt;Xfeed" prgChg="7"/>
+    <Instrument name="5th-&gt;Xfeed" prgChg="8"/>
+    <Instrument name="MajMin-&gt;Fbk" prgChg="9"/>
+    <Instrument name="StepUp-&gt;Tap" prgChg="10"/>
+  </Section>
+  <Section name="Pitch - Reverb" bankHigh="0" bankLow="19" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="3rd4th Room" prgChg="1"/>
+    <Instrument name="4th5th Room" prgChg="2"/>
+    <Instrument name="5th6th Room" prgChg="3"/>
+    <Instrument name="8ve MidSize" prgChg="4"/>
+    <Instrument name="Power MidSize" prgChg="5"/>
+    <Instrument name="Detune Room" prgChg="6"/>
+    <Instrument name="Fine-&gt;Small" prgChg="7"/>
+    <Instrument name="Power-&gt;Large" prgChg="8"/>
+    <Instrument name="4th-&gt;MidSize" prgChg="9"/>
+    <Instrument name="8ve-&gt;MidSize" prgChg="10"/>
+  </Section>
+  <Section name="Plate" bankHigh="0" bankLow="0" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="Small Plate" prgChg="1"/>
+    <Instrument name="Medium Plate" prgChg="2"/>
+    <Instrument name="Large Plate" prgChg="3"/>
+    <Instrument name="Tap PreDelay" prgChg="4"/>
+    <Instrument name="Tape Slap" prgChg="5"/>
+    <Instrument name="Rich Plate" prgChg="6"/>
+    <Instrument name="Large 38; Bright" prgChg="7"/>
+    <Instrument name="Vocal Plate" prgChg="8"/>
+    <Instrument name="Drum Plate" prgChg="9"/>
+  </Section>
+  <Section name="Room" bankHigh="0" bankLow="5" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="Bedroom" prgChg="1"/>
+    <Instrument name="Tiled Room" prgChg="2"/>
+    <Instrument name="Studio C" prgChg="3"/>
+    <Instrument name="Small Room" prgChg="4"/>
+    <Instrument name="Studio B" prgChg="5"/>
+    <Instrument name="Rehearsal Room" prgChg="6"/>
+    <Instrument name="Studio A" prgChg="7"/>
+    <Instrument name="Large Room" prgChg="8"/>
+    <Instrument name="Fat Space" prgChg="9"/>
+    <Instrument name="Chunky Space" prgChg="10"/>
+  </Section>
+  <Section name="Rotary" bankHigh="0" bankLow="7" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="Rotary: Slow Fast" prgChg="1"/>
+    <Instrument name="Rotary Slow" prgChg="2"/>
+    <Instrument name="Rotary Speed Adjust" prgChg="3"/>
+    <Instrument name="Rotary Tap Rate1" prgChg="4"/>
+    <Instrument name="Rotary Tap Rate2" prgChg="5"/>
+  </Section>
+  <Section name="Special FX" bankHigh="0" bankLow="13" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="Infinite" prgChg="1"/>
+    <Instrument name="The Abyss" prgChg="2"/>
+    <Instrument name="Jet Flange" prgChg="3"/>
+    <Instrument name="Chorus-&gt;Verb" prgChg="4"/>
+    <Instrument name="Tap Rotary Delay" prgChg="5"/>
+    <Instrument name="Fader Verb" prgChg="6"/>
+    <Instrument name="Low Rumble" prgChg="7"/>
+    <Instrument name="Ducker Verb" prgChg="8"/>
+    <Instrument name="Ducker Chorus" prgChg="9"/>
+    <Instrument name="Ducker Xfeed" prgChg="10"/>
+    <Instrument name="Echoes:Beats" prgChg="11"/>
+    <Instrument name="Panning Delays" prgChg="12"/>
+    <Instrument name="Dream Sequence" prgChg="13"/>
+    <Instrument name="Infinite Delay" prgChg="14"/>
+    <Instrument name="Diffusor" prgChg="15"/>
+  </Section>
+  <Section name="Tremolo" bankHigh="0" bankLow="6" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="RectSine Tap" prgChg="1"/>
+    <Instrument name="Square Tap" prgChg="2"/>
+    <Instrument name="Sine Tap Triplet" prgChg="3"/>
+    <Instrument name="Triangle" prgChg="4"/>
+    <Instrument name="Sawtooth" prgChg="5"/>
+  </Section>
+</Instruments>
+</VSTNameDocument>
+

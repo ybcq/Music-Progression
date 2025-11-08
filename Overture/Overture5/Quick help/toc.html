@@ -1,0 +1,2798 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+	<title>Overture 5- Table of Contents</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/silver-theme/jquery-ui-1.8.12.custom.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/dynatree/chm/ui.dynatree.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+    <link type="text/css" rel="stylesheet" media="all" href="css/toc.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#tabs .ui-widget-header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui-1.8.17.custom.min.js"></script>
+    <script type="text/javascript" src="js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="js/jquery.dynatree.min.js"></script>
+	<script type="text/javascript" src="js/hndjsse.js"></script>
+	<script type="text/javascript">
+	
+		window.bSearchDataLoaded = false;
+		var sHelpIdToActivate = '';
+	
+		$(document).ready(function()
+		{
+			var sAnchorName = '';
+			try { sAnchorName = top.location.href.substring(top.location.href.lastIndexOf("#") + 1, top.location.href.length); }
+			catch(err) { sAnchorName = ''; }
+			var nSelectedTab = 0;
+			if (sAnchorName == '_index') nSelectedTab = 1
+			else if (sAnchorName == '_search') nSelectedTab = 2;			
+			$("#tabs").tabs({
+				selected: nSelectedTab,
+				select: function(event, ui) { HideKwPopup(); }
+			});
+			
+			// Toc
+			if ($("#tab-toc").length) {
+				$("#tab-toc").dynatree({
+					clickFolderMode: 1,
+					debugLevel: 0,
+					imagePath: 'css/dynatree/chm/',
+					onActivate: function(node){
+						if ($("#tab-keywords").length && $("#tab-keywords").dynatree && $("#tab-keywords").dynatree("getTree") && $("#tab-keywords").dynatree("getTree").activateKey)
+							$("#tab-keywords").dynatree("getTree").activateKey(null);
+						if(node.data.href && node.data.href != '#'){
+							window.open(node.data.href, node.data.target);
+						}
+					}
+				});
+				// Expand all nodes if required
+				$("#tab-toc").dynatree("getRoot").visit(function(node){
+						node.expand(true);
+					});
+				// Select the active help id
+				if (sHelpIdToActivate != '') $("#tab-toc").dynatree("getTree").activateKey(sHelpIdToActivate);
+			}
+			
+			// Keywords
+			
+			if ($("#tab-keywords").length) {
+				$("#tab-keywords").dynatree({
+					clickFolderMode: 1,
+					debugLevel: 0,
+					imagePath: 'css/dynatree/chm/',
+					onClick: function(node, event){
+						HideKwPopup();
+						if (node.data && node.data.click)
+						{
+							var aRefList = null;
+							eval('aRefList=' + node.data.click);
+							if (ShowKwPopup(node.li, aRefList))
+							{
+								if ($("#tab-toc") && $("#tab-toc").dynatree && $("#tab-toc").dynatree("getTree") && $("#tab-toc").dynatree("getTree").activateKey)
+									$("#tab-toc").dynatree("getTree").activateKey(null);
+								if(node.data.href && node.data.href != '#'){
+									window.open(node.data.href, node.data.target);
+								}
+							}
+						}
+					}
+				});
+				// Expand all nodes if required
+				$("#tab-keywords").dynatree("getRoot").visit(function(node){
+						node.expand(true);
+					});
+				}
+			
+			// Load search data
+			(function() {
+				var se = document.createElement('script'); se.type = 'text/javascript'; se.async = true;
+				se.src = 'js/hndsd.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(se, s);
+			})();
+		});
+		
+		$('body').click(function() {
+			HideKwPopup();
+		});
+		
+		function SelectTocItem(sHelpId)
+		{
+			if ($("#tab-toc").length && $("#tab-toc").dynatree && $("#tab-toc").dynatree("getTree") && $("#tab-toc").dynatree("getTree").getNodeByKey) {
+				$("#tab-toc").dynatree("getTree").getNodeByKey(sHelpId).activateSilently();
+			}
+			else {
+				sHelpIdToActivate = sHelpId;
+			}
+		}
+		
+		function HideKwPopup()
+		{
+			if($("#popupMenu")) $("#popupMenu").remove();
+		}
+		
+		function ShowKwPopup(oSender, aLinks)
+		{
+			HideKwPopup();
+			if (!aLinks || !aLinks.length || aLinks.length == 0) return false
+			else if (aLinks.length == 1) return true
+			else
+			{
+				var oParentDiv = document.createElement("DIV");
+				oParentDiv.id = "popupMenu";
+				var oLink = null;
+				// Close button
+				oLink = document.createElement("SPAN");
+				oLink.className = "close-button";
+				oLink.innerHTML = "X";
+				oLink.href = "#";
+				oLink.onclick = HideKwPopup;
+				oParentDiv.appendChild(oLink);
+				// Items
+				for (var nCnt=0; nCnt<aLinks.length; nCnt++)
+				{
+					oLink = document.createElement("A");
+					oLink.innerHTML = aLinks[nCnt][0];
+					oLink.href = aLinks[nCnt][1];
+					oLink.target = "FrameMain";
+					oLink.onclick = HideKwPopup;
+					oParentDiv.appendChild(oLink);
+				}
+				document.body.appendChild(oParentDiv);
+				var pos = $(oSender).offset(); 
+				var height = $(oSender).height();
+				$(oParentDiv).css({
+					"left": (pos.left+20) + "px",
+					"top": (pos.top + height + 5) + "px"
+				});
+				$(oParentDiv).show();
+				return false;
+			}
+		}
+		
+		function PerformSearch()
+		{
+			if (!window.bSearchDataLoaded) {
+				$("#search_results").html("Search engine data hasn't been fully loaded yet or an error occurred while loading it. This usually happens when documentation is browsed locally.");
+				return;
+			}
+			sValue = $("#search_value").val();
+			$("#search_results").html('Searching...');
+			var oSearchEngine = new HndJsSe;
+			oSearchEngine.ParseInput(sValue);			
+			oSearchEngine.PerformSearch();
+			if (!oSearchEngine.aResults || !oSearchEngine.aResults.length)
+			{
+				$("#search_results").html('No results found.');
+			}
+			else
+			{
+				$("#search_results").html('<div id="search_results_content"></div>');
+				var oUl = $("#search_results_content").append("<ul id='lr'></ul>").find("ul");
+				for (var nCnt = 0; nCnt < oSearchEngine.aResults.length; nCnt++)
+				{
+					if (oSearchEngine.aResults[nCnt][0] < aTl.length)
+					{
+						oUl.append("<li><a href='" + aTl[oSearchEngine.aResults[nCnt][0]][0] + "?search=" + escape(sValue) + "' target='FrameMain'>" + unescape(aTl[oSearchEngine.aResults[nCnt][0]][1]) + "</a></li>");
+					}
+				}
+				// Tree
+				$("#search_results_content").dynatree({
+					clickFolderMode: 1,
+					debugLevel: 0,
+					imagePath: 'css/dynatree/chm/',
+					onActivate: function(node){
+						if ($("#search_results_content") && $("#search_results_content").dynatree && $("#search_results_content").dynatree("getTree") && $("#search_results_content").dynatree("getTree").activateKey)
+							$("#search_results_content").dynatree("getTree").activateKey(null);
+						if(node.data.href && node.data.href != '#'){
+							window.open(node.data.href, node.data.target);
+						}
+					}
+				});
+			}
+		}
+	</script>
+</head>
+
+<body>
+
+	<div id="tabs">
+		<ul>
+			<li><a href="#tab-toc">Contents</a></li>
+			<li><a href="#tab-keywords">Index</a></li>
+			<li><a href="#tab-search">Search</a></li>
+			</ul>
+		<div id="tab-toc">
+			<ul id="toc" class="">
+
+				<li class="" id="Introduction" data="">
+							<a
+							href="Introduction.html"
+							target="FrameMain">
+								Introduction</a>
+
+				</li><li class="" id="WhatsNewinOverture5" data="">
+							<a
+							href="WhatsNewinOverture5.html"
+							target="FrameMain">
+								What's New in Overture 5</a>
+
+				</li><li class="" id="OvertureTerms" data="">
+							<a
+							href="OvertureTerms.html"
+							target="FrameMain">
+								Overture Terms</a>
+
+				</li><li class="" id="OfflineActivation" data="">
+							<a
+							href="OfflineActivation.html"
+							target="FrameMain">
+								Offline Activation</a>
+
+				</li><li class="folder" id="GettingStarted" data="">
+							<a
+							href="GettingStarted.html"
+							target="FrameMain">
+								Getting Started</a>
+
+				<ul><li class="" id="CreatefromTemplate" data="">
+							<a
+							href="CreatefromTemplate.html"
+							target="FrameMain">
+								Create from Template</a>
+
+				</li><li class="" id="OpenRecentScore" data="">
+							<a
+							href="OpenRecentScore.html"
+							target="FrameMain">
+								Open Recent Score</a>
+
+				</li><li class="" id="OpenExistingScore" data="">
+							<a
+							href="OpenExistingScore.html"
+							target="FrameMain">
+								Open Existing Score</a>
+
+				</li><li class="" id="ImportaMIDIorMusicXMLFile" data="">
+							<a
+							href="ImportaMIDIorMusicXMLFile.html"
+							target="FrameMain">
+								Import a MIDI or MusicXML File</a>
+
+				</li><li class="folder" id="MainScoreWindow" data="">
+							<a
+							href="MainScoreWindow.html"
+							target="FrameMain">
+								Main Score Window</a>
+
+				<ul><li class="folder" id="TheControlbar" data="">
+							<a
+							href="TheControlbar.html"
+							target="FrameMain">
+								The Control bar</a>
+
+				<ul><li class="" id="InstrumentLibraryPanel" data="">
+							<a
+							href="InstrumentLibraryPanel.html"
+							target="FrameMain">
+								Instrument Library Panel</a>
+
+				</li><li class="folder" id="ScoreToolsPanel" data="">
+							<a
+							href="ScoreToolsPanel.html"
+							target="FrameMain">
+								Score Tools Panel</a>
+
+				<ul><li class="" id="SymbolsPanel" data="">
+							<a
+							href="SymbolsPanel.html"
+							target="FrameMain">
+								Symbols Panel</a>
+
+				</li><li class="folder" id="TextPanel" data="">
+							<a
+							href="TextPanel.html"
+							target="FrameMain">
+								Text Panel</a>
+
+				<ul><li class="" id="RehearsalText" data="">
+							<a
+							href="RehearsalText.html"
+							target="FrameMain">
+								Rehearsal Text</a>
+
+				</li><li class="" id="ExpressionText" data="">
+							<a
+							href="ExpressionText.html"
+							target="FrameMain">
+								Expression Text</a>
+
+				</li><li class="" id="PartExtractionText" data="">
+							<a
+							href="PartExtractionText.html"
+							target="FrameMain">
+								Part Extraction Text</a>
+
+				</li></ul></li><li class="folder" id="ChordPanel" data="">
+							<a
+							href="ChordPanel.html"
+							target="FrameMain">
+								Chord Panel</a>
+
+				<ul><li class="" id="Settings" data="">
+							<a
+							href="Settings.html"
+							target="FrameMain">
+								Settings</a>
+
+				</li></ul></li><li class="" id="LyricPanel" data="">
+							<a
+							href="LyricPanel.html"
+							target="FrameMain">
+								Lyric Panel</a>
+
+				</li></ul></li><li class="folder" id="ScoreViewButtons" data="">
+							<a
+							href="ScoreViewButtons.html"
+							target="FrameMain">
+								Score View Buttons</a>
+
+				<ul><li class="" id="ScoreView" data="">
+							<a
+							href="ScoreView.html"
+							target="FrameMain">
+								Score View</a>
+
+				</li><li class="" id="DataView1" data="">
+							<a
+							href="DataView1.html"
+							target="FrameMain">
+								Data View</a>
+
+				</li><li class="" id="MixerView" data="">
+							<a
+							href="MixerView.html"
+							target="FrameMain">
+								Mixer View</a>
+
+				</li></ul></li><li class="folder" id="SelectionButton" data="">
+							<a
+							href="SelectionButton.html"
+							target="FrameMain">
+								Selection Button</a>
+
+				<ul><li class="" id="HandTool" data="">
+							<a
+							href="HandTool.html"
+							target="FrameMain">
+								Hand Tool</a>
+
+				</li><li class="" id="ScaleTool" data="">
+							<a
+							href="ScaleTool.html"
+							target="FrameMain">
+								Scale Tool</a>
+
+				</li><li class="" id="ZoomTool" data="">
+							<a
+							href="ZoomTool.html"
+							target="FrameMain">
+								Zoom Tool</a>
+
+				</li></ul></li><li class="folder" id="PencilButton" data="">
+							<a
+							href="PencilButton.html"
+							target="FrameMain">
+								Pencil Button</a>
+
+				<ul><li class="" id="Volume" data="">
+							<a
+							href="Volume.html"
+							target="FrameMain">
+								Volume</a>
+
+				</li><li class="" id="Expression" data="">
+							<a
+							href="Expression.html"
+							target="FrameMain">
+								Expression</a>
+
+				</li><li class="" id="Controller" data="">
+							<a
+							href="Controller.html"
+							target="FrameMain">
+								Controller</a>
+
+				</li></ul></li><li class="" id="EraserButton" data="">
+							<a
+							href="EraserButton.html"
+							target="FrameMain">
+								Eraser Button</a>
+
+				</li><li class="" id="TransportButtons" data="">
+							<a
+							href="TransportButtons.html"
+							target="FrameMain">
+								Transport Buttons</a>
+
+				</li><li class="" id="TimeDisplay" data="">
+							<a
+							href="TimeDisplay.html"
+							target="FrameMain">
+								Time Display</a>
+
+				</li><li class="folder" id="MiscButtons" data="">
+							<a
+							href="MiscButtons.html"
+							target="FrameMain">
+								Misc Buttons</a>
+
+				<ul><li class="" id="MetronomeButton" data="">
+							<a
+							href="MetronomeButton.html"
+							target="FrameMain">
+								Metronome Button</a>
+
+				</li><li class="" id="LoopButton" data="">
+							<a
+							href="LoopButton.html"
+							target="FrameMain">
+								Loop Button</a>
+
+				</li><li class="" id="QuantizeButton" data="">
+							<a
+							href="QuantizeButton.html"
+							target="FrameMain">
+								Quantize Button</a>
+
+				</li><li class="" id="TransposeScoreButton" data="">
+							<a
+							href="TransposeScoreButton.html"
+							target="FrameMain">
+								Transpose Score Button</a>
+
+				</li><li class="" id="ZoomSlider" data="">
+							<a
+							href="ZoomSlider.html"
+							target="FrameMain">
+								Zoom Slider</a>
+
+				</li><li class="" id="TempoSlider" data="">
+							<a
+							href="TempoSlider.html"
+							target="FrameMain">
+								Tempo Slider</a>
+
+				</li></ul></li></ul></li><li class="" id="LinearViewButton" data="">
+							<a
+							href="LinearViewButton.html"
+							target="FrameMain">
+								Linear View Button</a>
+
+				</li><li class="" id="ScoreandPartsButton" data="">
+							<a
+							href="ScoreandPartsButton.html"
+							target="FrameMain">
+								Score and Parts Button</a>
+
+				</li><li class="" id="ActivePartsMenu" data="">
+							<a
+							href="ActivePartsMenu.html"
+							target="FrameMain">
+								Active Parts Menu</a>
+
+				</li><li class="" id="ViewMenu" data="">
+							<a
+							href="ViewMenu.html"
+							target="FrameMain">
+								View Menu</a>
+
+				</li><li class="folder" id="ScoreLayoutPanel" data="">
+							<a
+							href="ScoreLayoutPanel.html"
+							target="FrameMain">
+								Score Layout Panel</a>
+
+				<ul><li class="folder" id="ScorePanel" data="">
+							<a
+							href="ScorePanel.html"
+							target="FrameMain">
+								Score Panel</a>
+
+				<ul><li class="" id="Style" data="">
+							<a
+							href="Style.html"
+							target="FrameMain">
+								Style</a>
+
+				</li><li class="" id="FontMap" data="">
+							<a
+							href="FontMap.html"
+							target="FrameMain">
+								Font Map</a>
+
+				</li><li class="" id="TimeCode" data="">
+							<a
+							href="TimeCode.html"
+							target="FrameMain">
+								Time Code</a>
+
+				</li><li class="" id="Background" data="">
+							<a
+							href="Background.html"
+							target="FrameMain">
+								Background</a>
+
+				</li></ul></li><li class="folder" id="ActivePartsPanel" data="">
+							<a
+							href="ActivePartsPanel.html"
+							target="FrameMain">
+								Active Parts Panel</a>
+
+				<ul><li class="" id="Page" data="">
+							<a
+							href="Page.html"
+							target="FrameMain">
+								Page</a>
+
+				</li><li class="" id="Layout" data="">
+							<a
+							href="Layout.html"
+							target="FrameMain">
+								Layout</a>
+
+				</li><li class="" id="Text" data="">
+							<a
+							href="Text.html"
+							target="FrameMain">
+								Text</a>
+
+				</li><li class="" id="CreatingActiveParts" data="">
+							<a
+							href="CreatingActiveParts.html"
+							target="FrameMain">
+								Creating Active Parts</a>
+
+				</li></ul></li><li class="folder" id="EngraverPanel" data="">
+							<a
+							href="EngraverPanel.html"
+							target="FrameMain">
+								Engraver Panel</a>
+
+				<ul><li class="" id="Notes1" data="">
+							<a
+							href="Notes1.html"
+							target="FrameMain">
+								Notes</a>
+
+				</li><li class="" id="Symbols1" data="">
+							<a
+							href="Symbols1.html"
+							target="FrameMain">
+								Symbols</a>
+
+				</li></ul></li></ul></li><li class="" id="BrowserPanel" data="">
+							<a
+							href="BrowserPanel.html"
+							target="FrameMain">
+								Browser Panel</a>
+
+				</li><li class="folder" id="TrackInspectorPanel" data="">
+							<a
+							href="TrackInspectorPanel.html"
+							target="FrameMain">
+								Track Inspector Panel</a>
+
+				<ul><li class="folder" id="TrackSection" data="">
+							<a
+							href="TrackSection.html"
+							target="FrameMain">
+								Track Section</a>
+
+				<ul><li class="" id="Playback1" data="">
+							<a
+							href="Playback1.html"
+							target="FrameMain">
+								Playback</a>
+
+				</li><li class="" id="Settings1" data="">
+							<a
+							href="Settings1.html"
+							target="FrameMain">
+								Settings</a>
+
+				</li><li class="" id="Show1" data="">
+							<a
+							href="Show1.html"
+							target="FrameMain">
+								Show</a>
+
+				</li><li class="" id="Tuning" data="">
+							<a
+							href="Tuning.html"
+							target="FrameMain">
+								Tuning</a>
+
+				</li><li class="" id="DrumMap" data="">
+							<a
+							href="DrumMap.html"
+							target="FrameMain">
+								Drum Map</a>
+
+				</li></ul></li><li class="" id="ArticulationsSection" data="">
+							<a
+							href="ArticulationsSection.html"
+							target="FrameMain">
+								Articulations Section</a>
+
+				</li><li class="" id="ExpressionsSection" data="">
+							<a
+							href="ExpressionsSection.html"
+							target="FrameMain">
+								Expressions Section</a>
+
+				</li></ul></li></ul></li><li class="folder" id="Enteringnotes" data="">
+							<a
+							href="Enteringnotes.html"
+							target="FrameMain">
+								Entering notes</a>
+
+				<ul><li class="folder" id="UsingtheNotespalette" data="">
+							<a
+							href="UsingtheNotespalette.html"
+							target="FrameMain">
+								Using the Notes palette</a>
+
+				<ul><li class="" id="EditingNotes" data="">
+							<a
+							href="EditingNotes.html"
+							target="FrameMain">
+								Editing Notes</a>
+
+				</li></ul></li><li class="folder" id="UsingStepInput" data="">
+							<a
+							href="UsingStepInput.html"
+							target="FrameMain">
+								Using Step Input</a>
+
+				<ul><li class="" id="StepInputOptions" data="">
+							<a
+							href="StepInputOptions.html"
+							target="FrameMain">
+								Step Input Options</a>
+
+				</li><li class="" id="StepInputtingSlashes" data="">
+							<a
+							href="StepInputtingSlashes.html"
+							target="FrameMain">
+								Step Inputting Slashes</a>
+
+				</li></ul></li><li class="" id="RealTimeNoteEntry" data="">
+							<a
+							href="RealTimeNoteEntry.html"
+							target="FrameMain">
+								Real Time Note Entry</a>
+
+				</li></ul></li><li class="folder" id="Enteringsymbols" data="">
+							<a
+							href="Enteringsymbols.html"
+							target="FrameMain">
+								Entering symbols</a>
+
+				<ul><li class="" id="InsertSymbols" data="">
+							<a
+							href="InsertSymbols.html"
+							target="FrameMain">
+								Insert Symbols</a>
+
+				</li><li class="" id="InsertText" data="">
+							<a
+							href="InsertText.html"
+							target="FrameMain">
+								Insert Text</a>
+
+				</li><li class="" id="InsertChords" data="">
+							<a
+							href="InsertChords.html"
+							target="FrameMain">
+								Insert Chords</a>
+
+				</li><li class="" id="InsertLyrics" data="">
+							<a
+							href="InsertLyrics.html"
+							target="FrameMain">
+								Insert Lyrics</a>
+
+				</li><li class="" id="AddingaSlur" data="">
+							<a
+							href="AddingaSlur.html"
+							target="FrameMain">
+								Adding a Slur</a>
+
+				</li><li class="" id="Editingexistingsymbols" data="">
+							<a
+							href="Editingexistingsymbols.html"
+							target="FrameMain">
+								Editing existing symbols</a>
+
+				</li></ul></li><li class="" id="Printing1" data="">
+							<a
+							href="Printing1.html"
+							target="FrameMain">
+								Printing</a>
+
+				</li></ul></li><li class="folder" id="Makingchangesonyourscore" data="">
+							<a
+							href="Makingchangesonyourscore.html"
+							target="FrameMain">
+								Making changes on your score</a>
+
+				<ul><li class="" id="Changingkeyandtimesignatures" data="">
+							<a
+							href="Changingkeyandtimesignatures.html"
+							target="FrameMain">
+								Changing key and time signatures</a>
+
+				</li><li class="" id="Movingsymbols" data="">
+							<a
+							href="Movingsymbols.html"
+							target="FrameMain">
+								Moving symbols</a>
+
+				</li><li class="" id="Changingvalues" data="">
+							<a
+							href="Changingvalues.html"
+							target="FrameMain">
+								Changing values</a>
+
+				</li><li class="" id="Cutcopyandpaste" data="">
+							<a
+							href="Cutcopyandpaste.html"
+							target="FrameMain">
+								Cut, copy, and paste</a>
+
+				</li></ul></li><li class="folder" id="AllaboutTracks" data="">
+							<a
+							href="AllaboutTracks.html"
+							target="FrameMain">
+								All about Tracks</a>
+
+				<ul><li class="" id="Insertingnewtracks" data="">
+							<a
+							href="Insertingnewtracks.html"
+							target="FrameMain">
+								Inserting new tracks</a>
+
+				</li><li class="" id="Changingatracksinstrument" data="">
+							<a
+							href="Changingatracksinstrument.html"
+							target="FrameMain">
+								Changing a track's instrument</a>
+
+				</li><li class="" id="TrackInspector" data="">
+							<a
+							href="TrackInspector.html"
+							target="FrameMain">
+								Track Inspector</a>
+
+				</li><li class="" id="InsertInstrumentDialog" data="">
+							<a
+							href="InsertInstrumentDialog.html"
+							target="FrameMain">
+								Insert Instrument Dialog</a>
+
+				</li><li class="" id="Tablaturetracks" data="">
+							<a
+							href="Tablaturetracks.html"
+							target="FrameMain">
+								Tablature tracks</a>
+
+				</li><li class="" id="Selectingtracks" data="">
+							<a
+							href="Selectingtracks.html"
+							target="FrameMain">
+								Selecting tracks</a>
+
+				</li><li class="" id="Conectinggroupsoftracks" data="">
+							<a
+							href="Conectinggroupsoftracks.html"
+							target="FrameMain">
+								Conecting groups of tracks</a>
+
+				</li><li class="" id="Reorderingtracks" data="">
+							<a
+							href="Reorderingtracks.html"
+							target="FrameMain">
+								Reordering tracks</a>
+
+				</li><li class="" id="Displayingatracksplugin" data="">
+							<a
+							href="Displayingatracksplugin.html"
+							target="FrameMain">
+								Displaying a track's plugin</a>
+
+				</li></ul></li><li class="folder" id="OvertureMenus" data="">
+							<a
+							href="OvertureMenus.html"
+							target="FrameMain">
+								Overture Menus</a>
+
+				<ul><li class="folder" id="FileMenu" data="">
+							<a
+							href="FileMenu.html"
+							target="FrameMain">
+								File Menu</a>
+
+				<ul><li class="" id="New" data="">
+							<a
+							href="New.html"
+							target="FrameMain">
+								New</a>
+
+				</li><li class="" id="Open" data="">
+							<a
+							href="Open.html"
+							target="FrameMain">
+								Open</a>
+
+				</li><li class="" id="RecentlyOpenedFiles" data="">
+							<a
+							href="RecentlyOpenedFiles.html"
+							target="FrameMain">
+								Recently Opened Files</a>
+
+				</li><li class="" id="Close" data="">
+							<a
+							href="Close.html"
+							target="FrameMain">
+								Close</a>
+
+				</li><li class="" id="Save" data="">
+							<a
+							href="Save.html"
+							target="FrameMain">
+								Save</a>
+
+				</li><li class="" id="SaveAs" data="">
+							<a
+							href="SaveAs.html"
+							target="FrameMain">
+								Save As</a>
+
+				</li><li class="" id="ExtractParts" data="">
+							<a
+							href="ExtractParts.html"
+							target="FrameMain">
+								Extract Parts</a>
+
+				</li><li class="" id="Revert" data="">
+							<a
+							href="Revert.html"
+							target="FrameMain">
+								Revert</a>
+
+				</li><li class="" id="Import" data="">
+							<a
+							href="Import.html"
+							target="FrameMain">
+								Import</a>
+
+				</li><li class="folder" id="Export" data="">
+							<a
+							href="Export.html"
+							target="FrameMain">
+								Export</a>
+
+				<ul><li class="" id="ExportasMIDIFile" data="">
+							<a
+							href="ExportasMIDIFile.html"
+							target="FrameMain">
+								Export as MIDI File</a>
+
+				</li><li class="" id="ExportasMusicXMLFile" data="">
+							<a
+							href="ExportasMusicXMLFile.html"
+							target="FrameMain">
+								Export as MusicXML File</a>
+
+				</li></ul></li><li class="" id="LoadImage" data="">
+							<a
+							href="LoadImage.html"
+							target="FrameMain">
+								Load Image</a>
+
+				</li><li class="" id="SaveasImage" data="">
+							<a
+							href="SaveasImage.html"
+							target="FrameMain">
+								Save as Image</a>
+
+				</li><li class="" id="Print" data="">
+							<a
+							href="Print.html"
+							target="FrameMain">
+								Print</a>
+
+				</li><li class="" id="Quit" data="">
+							<a
+							href="Quit.html"
+							target="FrameMain">
+								Quit</a>
+
+				</li></ul></li><li class="folder" id="EditMenu" data="">
+							<a
+							href="EditMenu.html"
+							target="FrameMain">
+								Edit Menu</a>
+
+				<ul><li class="" id="Undo" data="">
+							<a
+							href="Undo.html"
+							target="FrameMain">
+								Undo</a>
+
+				</li><li class="" id="Redo" data="">
+							<a
+							href="Redo.html"
+							target="FrameMain">
+								Redo</a>
+
+				</li><li class="" id="RepeatLastCommand" data="">
+							<a
+							href="RepeatLastCommand.html"
+							target="FrameMain">
+								Repeat Last Command</a>
+
+				</li><li class="" id="Cut" data="">
+							<a
+							href="Cut.html"
+							target="FrameMain">
+								Cut</a>
+
+				</li><li class="" id="Copy" data="">
+							<a
+							href="Copy.html"
+							target="FrameMain">
+								Copy</a>
+
+				</li><li class="" id="Paste" data="">
+							<a
+							href="Paste.html"
+							target="FrameMain">
+								Paste</a>
+
+				</li><li class="" id="Clear" data="">
+							<a
+							href="Clear.html"
+							target="FrameMain">
+								Clear</a>
+
+				</li><li class="" id="Merge" data="">
+							<a
+							href="Merge.html"
+							target="FrameMain">
+								Merge</a>
+
+				</li><li class="" id="PasteSpecial" data="">
+							<a
+							href="PasteSpecial.html"
+							target="FrameMain">
+								Paste Special</a>
+
+				</li><li class="" id="PasteasCue" data="">
+							<a
+							href="PasteasCue.html"
+							target="FrameMain">
+								Paste as Cue</a>
+
+				</li><li class="folder" id="Select" data="">
+							<a
+							href="Select.html"
+							target="FrameMain">
+								Select</a>
+
+				<ul><li class="" id="SelectAll" data="">
+							<a
+							href="SelectAll.html"
+							target="FrameMain">
+								Select All</a>
+
+				</li><li class="" id="CurrentTrack" data="">
+							<a
+							href="CurrentTrack.html"
+							target="FrameMain">
+								Current Track</a>
+
+				</li><li class="folder" id="ByFilter" data="">
+							<a
+							href="ByFilter.html"
+							target="FrameMain">
+								By Filter</a>
+
+				<ul><li class="" id="NoteFilter" data="">
+							<a
+							href="NoteFilter.html"
+							target="FrameMain">
+								Note Filter</a>
+
+				</li><li class="" id="DataFilter" data="">
+							<a
+							href="DataFilter.html"
+							target="FrameMain">
+								Data Filter</a>
+
+				</li><li class="" id="Notes" data="">
+							<a
+							href="Notes.html"
+							target="FrameMain">
+								Notes</a>
+
+				</li><li class="" id="Rests" data="">
+							<a
+							href="Rests.html"
+							target="FrameMain">
+								Rests</a>
+
+				</li><li class="" id="Chords" data="">
+							<a
+							href="Chords.html"
+							target="FrameMain">
+								Chords</a>
+
+				</li><li class="" id="Slurs" data="">
+							<a
+							href="Slurs.html"
+							target="FrameMain">
+								Slurs</a>
+
+				</li><li class="" id="Ties" data="">
+							<a
+							href="Ties.html"
+							target="FrameMain">
+								Ties</a>
+
+				</li><li class="" id="Lyrics" data="">
+							<a
+							href="Lyrics.html"
+							target="FrameMain">
+								Lyrics</a>
+
+				</li><li class="" id="Dynamics" data="">
+							<a
+							href="Dynamics.html"
+							target="FrameMain">
+								Dynamics</a>
+
+				</li><li class="" id="Expressions" data="">
+							<a
+							href="Expressions.html"
+							target="FrameMain">
+								Expressions</a>
+
+				</li><li class="" id="Hairpins" data="">
+							<a
+							href="Hairpins.html"
+							target="FrameMain">
+								Hairpins</a>
+
+				</li><li class="" id="Graphics" data="">
+							<a
+							href="Graphics.html"
+							target="FrameMain">
+								Graphics</a>
+
+				</li><li class="" id="GuitarFrames" data="">
+							<a
+							href="GuitarFrames.html"
+							target="FrameMain">
+								Guitar Frames</a>
+
+				</li><li class="" id="PedalMarks" data="">
+							<a
+							href="PedalMarks.html"
+							target="FrameMain">
+								Pedal Marks</a>
+
+				</li><li class="" id="Symbols" data="">
+							<a
+							href="Symbols.html"
+							target="FrameMain">
+								Symbols</a>
+
+				</li><li class="" id="Tuplets" data="">
+							<a
+							href="Tuplets.html"
+							target="FrameMain">
+								Tuplets</a>
+
+				</li></ul></li><li class="" id="None" data="">
+							<a
+							href="None.html"
+							target="FrameMain">
+								None</a>
+
+				</li></ul></li><li class="" id="Find" data="">
+							<a
+							href="Find.html"
+							target="FrameMain">
+								Find</a>
+
+				</li><li class="" id="FindNext" data="">
+							<a
+							href="FindNext.html"
+							target="FrameMain">
+								Find Next</a>
+
+				</li><li class="" id="MakeVisible" data="">
+							<a
+							href="MakeVisible.html"
+							target="FrameMain">
+								Make Visible</a>
+
+				</li><li class="" id="MakeInvisible" data="">
+							<a
+							href="MakeInvisible.html"
+							target="FrameMain">
+								Make Invisible</a>
+
+				</li><li class="" id="SetColor" data="">
+							<a
+							href="SetColor.html"
+							target="FrameMain">
+								Set Color</a>
+
+				</li><li class="" id="Scale" data="">
+							<a
+							href="Scale.html"
+							target="FrameMain">
+								Scale</a>
+
+				</li><li class="" id="EnablePlayback" data="">
+							<a
+							href="EnablePlayback.html"
+							target="FrameMain">
+								Enable Playback</a>
+
+				</li><li class="" id="DisablePlayback" data="">
+							<a
+							href="DisablePlayback.html"
+							target="FrameMain">
+								Disable Playback</a>
+
+				</li><li class="" id="SetPlaybackTime" data="">
+							<a
+							href="SetPlaybackTime.html"
+							target="FrameMain">
+								Set Playback Time</a>
+
+				</li><li class="" id="ModifyController" data="">
+							<a
+							href="ModifyController.html"
+							target="FrameMain">
+								Modify Controller</a>
+
+				</li><li class="" id="EditMIDIData" data="">
+							<a
+							href="EditMIDIData.html"
+							target="FrameMain">
+								Edit MIDI Data</a>
+
+				</li></ul></li><li class="folder" id="ScoreMenu" data="">
+							<a
+							href="ScoreMenu.html"
+							target="FrameMain">
+								Score Menu</a>
+
+				<ul><li class="" id="InsertPage" data="">
+							<a
+							href="InsertPage.html"
+							target="FrameMain">
+								Insert Page</a>
+
+				</li><li class="" id="InsertBlankPage" data="">
+							<a
+							href="InsertBlankPage.html"
+							target="FrameMain">
+								Insert Blank Page</a>
+
+				</li><li class="" id="DeletePage" data="">
+							<a
+							href="DeletePage.html"
+							target="FrameMain">
+								Delete Page</a>
+
+				</li><li class="" id="IncreaseSystemsonPage" data="">
+							<a
+							href="IncreaseSystemsonPage.html"
+							target="FrameMain">
+								Increase Systems on Page</a>
+
+				</li><li class="" id="DecreaseSystemsonPage" data="">
+							<a
+							href="DecreaseSystemsonPage.html"
+							target="FrameMain">
+								Decrease Systems on Page</a>
+
+				</li><li class="" id="RespaceStaves" data="">
+							<a
+							href="RespaceStaves.html"
+							target="FrameMain">
+								Re-space Staves</a>
+
+				</li><li class="" id="RecalcLayout" data="">
+							<a
+							href="RecalcLayout.html"
+							target="FrameMain">
+								Recalc Layout</a>
+
+				</li><li class="" id="HideShowStaves" data="">
+							<a
+							href="HideShowStaves.html"
+							target="FrameMain">
+								Hide/Show Staves</a>
+
+				</li></ul></li><li class="folder" id="TracksMenu" data="">
+							<a
+							href="TracksMenu.html"
+							target="FrameMain">
+								Tracks Menu</a>
+
+				<ul><li class="" id="InsertTrack" data="">
+							<a
+							href="InsertTrack.html"
+							target="FrameMain">
+								Insert Track</a>
+
+				</li><li class="" id="DeleteTrack" data="">
+							<a
+							href="DeleteTrack.html"
+							target="FrameMain">
+								Delete Track</a>
+
+				</li><li class="" id="RemapPlayback" data="">
+							<a
+							href="RemapPlayback.html"
+							target="FrameMain">
+								Remap Playback</a>
+
+				</li><li class="" id="ExplodeTrack" data="">
+							<a
+							href="ExplodeTrack.html"
+							target="FrameMain">
+								Explode Track</a>
+
+				</li></ul></li><li class="folder" id="MeasuresMenu" data="">
+							<a
+							href="MeasuresMenu.html"
+							target="FrameMain">
+								Measures Menu</a>
+
+				<ul><li class="" id="InsertMeasure" data="">
+							<a
+							href="InsertMeasure.html"
+							target="FrameMain">
+								Insert Measure</a>
+
+				</li><li class="" id="DeleteMeasure" data="">
+							<a
+							href="DeleteMeasure.html"
+							target="FrameMain">
+								Delete Measure</a>
+
+				</li><li class="" id="IncreaseMeasuresonSystem" data="">
+							<a
+							href="IncreaseMeasuresonSystem.html"
+							target="FrameMain">
+								Increase Measures on System</a>
+
+				</li><li class="" id="DecreaseMeasuresonSystem" data="">
+							<a
+							href="DecreaseMeasuresonSystem.html"
+							target="FrameMain">
+								Decrease Measures on System</a>
+
+				</li><li class="folder" id="Breaks" data="">
+							<a
+							href="Breaks.html"
+							target="FrameMain">
+								Breaks</a>
+
+				<ul><li class="" id="CombinewithNextSystem" data="">
+							<a
+							href="CombinewithNextSystem.html"
+							target="FrameMain">
+								Combine with Next System</a>
+
+				</li><li class="" id="SplitSystems" data="">
+							<a
+							href="SplitSystems.html"
+							target="FrameMain">
+								Split Systems</a>
+
+				</li><li class="" id="MakeIntoSystem" data="">
+							<a
+							href="MakeIntoSystem.html"
+							target="FrameMain">
+								Make Into System</a>
+
+				</li><li class="" id="SystemBreakAfterMeasure" data="">
+							<a
+							href="SystemBreakAfterMeasure.html"
+							target="FrameMain">
+								System Break After Measure</a>
+
+				</li><li class="" id="PageBreakAfterMeasure" data="">
+							<a
+							href="PageBreakAfterMeasure.html"
+							target="FrameMain">
+								Page Break After Measure</a>
+
+				</li><li class="" id="Lock" data="">
+							<a
+							href="Lock.html"
+							target="FrameMain">
+								Lock</a>
+
+				</li><li class="" id="Unlock" data="">
+							<a
+							href="Unlock.html"
+							target="FrameMain">
+								Unlock</a>
+
+				</li></ul></li><li class="" id="SetKeySignature" data="">
+							<a
+							href="SetKeySignature.html"
+							target="FrameMain">
+								Set Key Signature</a>
+
+				</li><li class="" id="SetTimeSignature" data="">
+							<a
+							href="SetTimeSignature.html"
+							target="FrameMain">
+								Set Time Signature</a>
+
+				</li><li class="" id="SetTempo" data="">
+							<a
+							href="SetTempo.html"
+							target="FrameMain">
+								Set Tempo</a>
+
+				</li><li class="" id="SetCodasSegnosetc" data="">
+							<a
+							href="SetCodasSegnosetc.html"
+							target="FrameMain">
+								Set Codas, Segnos, etc.</a>
+
+				</li><li class="" id="SetMeasureNumbers" data="">
+							<a
+							href="SetMeasureNumbers.html"
+							target="FrameMain">
+								Set Measure Numbers</a>
+
+				</li><li class="" id="AddOssiaStaffAbove" data="">
+							<a
+							href="AddOssiaStaffAbove.html"
+							target="FrameMain">
+								Add Ossia Staff Above</a>
+
+				</li><li class="" id="AddOssiaStaffBelow" data="">
+							<a
+							href="AddOssiaStaffBelow.html"
+							target="FrameMain">
+								Add Ossia Staff Below</a>
+
+				</li><li class="" id="Rebar" data="">
+							<a
+							href="Rebar.html"
+							target="FrameMain">
+								Rebar</a>
+
+				</li><li class="" id="MultiRests" data="">
+							<a
+							href="MultiRests.html"
+							target="FrameMain">
+								Multi-Rests</a>
+
+				</li><li class="" id="FillRests" data="">
+							<a
+							href="FillRests.html"
+							target="FrameMain">
+								Fill Rests</a>
+
+				</li><li class="" id="Justify" data="">
+							<a
+							href="Justify.html"
+							target="FrameMain">
+								Justify</a>
+
+				</li></ul></li><li class="folder" id="NotesMenu" data="">
+							<a
+							href="NotesMenu.html"
+							target="FrameMain">
+								Notes Menu</a>
+
+				<ul><li class="folder" id="Transpose" data="">
+							<a
+							href="Transpose.html"
+							target="FrameMain">
+								Transpose</a>
+
+				<ul><li class="" id="Transpose1" data="">
+							<a
+							href="Transpose1.html"
+							target="FrameMain">
+								Transpose</a>
+
+				</li><li class="" id="TransposeUpanOctave" data="">
+							<a
+							href="TransposeUpanOctave.html"
+							target="FrameMain">
+								Transpose Up an Octave</a>
+
+				</li><li class="" id="TransposeDownanOctave" data="">
+							<a
+							href="TransposeDownanOctave.html"
+							target="FrameMain">
+								Transpose Down an Octave</a>
+
+				</li></ul></li><li class="" id="Modify" data="">
+							<a
+							href="Modify.html"
+							target="FrameMain">
+								Modify</a>
+
+				</li><li class="" id="Humanize" data="">
+							<a
+							href="Humanize.html"
+							target="FrameMain">
+								Humanize</a>
+
+				</li><li class="" id="Quantize" data="">
+							<a
+							href="Quantize.html"
+							target="FrameMain">
+								Quantize</a>
+
+				</li><li class="" id="RedoPitches" data="">
+							<a
+							href="RedoPitches.html"
+							target="FrameMain">
+								Redo Pitches</a>
+
+				</li><li class="" id="ComposerTools" data="">
+							<a
+							href="ComposerTools.html"
+							target="FrameMain">
+								Composer Tools</a>
+
+				</li><li class="" id="AddInterval" data="">
+							<a
+							href="AddInterval.html"
+							target="FrameMain">
+								Add Interval</a>
+
+				</li><li class="folder" id="Delete" data="">
+							<a
+							href="Delete.html"
+							target="FrameMain">
+								Delete</a>
+
+				<ul><li class="" id="ArticulationsOrnaments" data="">
+							<a
+							href="ArticulationsOrnaments.html"
+							target="FrameMain">
+								Articulations/Ornaments</a>
+
+				</li><li class="" id="Beams" data="">
+							<a
+							href="Beams.html"
+							target="FrameMain">
+								Beams</a>
+
+				</li><li class="" id="DuplicateNotes" data="">
+							<a
+							href="DuplicateNotes.html"
+							target="FrameMain">
+								Duplicate Notes</a>
+
+				</li></ul></li><li class="folder" id="Beam1" data="">
+							<a
+							href="Beam1.html"
+							target="FrameMain">
+								Beam</a>
+
+				<ul><li class="" id="BasedonMeter" data="">
+							<a
+							href="BasedonMeter.html"
+							target="FrameMain">
+								Based on Meter</a>
+
+				</li><li class="" id="Manually" data="">
+							<a
+							href="Manually.html"
+							target="FrameMain">
+								Manually</a>
+
+				</li><li class="" id="BreakinMiddle" data="">
+							<a
+							href="BreakinMiddle.html"
+							target="FrameMain">
+								Break in Middle</a>
+
+				</li><li class="" id="HideTuplet" data="">
+							<a
+							href="HideTuplet.html"
+							target="FrameMain">
+								Hide Tuplet</a>
+
+				</li><li class="" id="BeamTremolo8ths" data="">
+							<a
+							href="BeamTremolo8ths.html"
+							target="FrameMain">
+								Beam Tremolo 8ths</a>
+
+				</li><li class="" id="BeamTremolo16ths" data="">
+							<a
+							href="BeamTremolo16ths.html"
+							target="FrameMain">
+								Beam Tremolo 16ths</a>
+
+				</li><li class="" id="BeamTremolo32nds" data="">
+							<a
+							href="BeamTremolo32nds.html"
+							target="FrameMain">
+								Beam Tremolo 32nds</a>
+
+				</li><li class="" id="BeamTremolo64ths" data="">
+							<a
+							href="BeamTremolo64ths.html"
+							target="FrameMain">
+								Beam Tremolo 64ths</a>
+
+				</li></ul></li><li class="folder" id="Group" data="">
+							<a
+							href="Group.html"
+							target="FrameMain">
+								Group</a>
+
+				<ul><li class="" id="Tie" data="">
+							<a
+							href="Tie.html"
+							target="FrameMain">
+								Tie</a>
+
+				</li><li class="" id="Slur" data="">
+							<a
+							href="Slur.html"
+							target="FrameMain">
+								Slur</a>
+
+				</li><li class="" id="Ottava" data="">
+							<a
+							href="Ottava.html"
+							target="FrameMain">
+								Ottava</a>
+
+				</li><li class="" id="Tuplet" data="">
+							<a
+							href="Tuplet.html"
+							target="FrameMain">
+								Tuplet</a>
+
+				</li><li class="" id="Triplet" data="">
+							<a
+							href="Triplet.html"
+							target="FrameMain">
+								Triplet</a>
+
+				</li><li class="" id="Quintuplet" data="">
+							<a
+							href="Quintuplet.html"
+							target="FrameMain">
+								Quintuplet</a>
+
+				</li><li class="" id="Septuplet" data="">
+							<a
+							href="Septuplet.html"
+							target="FrameMain">
+								Septuplet</a>
+
+				</li><li class="" id="Glissando" data="">
+							<a
+							href="Glissando.html"
+							target="FrameMain">
+								Glissando</a>
+
+				</li><li class="" id="GlissandoWavy" data="">
+							<a
+							href="GlissandoWavy.html"
+							target="FrameMain">
+								Glissando Wavy</a>
+
+				</li></ul></li><li class="folder" id="Flip" data="">
+							<a
+							href="Flip.html"
+							target="FrameMain">
+								Flip</a>
+
+				<ul><li class="" id="Direction" data="">
+							<a
+							href="Direction.html"
+							target="FrameMain">
+								Direction</a>
+
+				</li><li class="" id="Enharmonic" data="">
+							<a
+							href="Enharmonic.html"
+							target="FrameMain">
+								Enharmonic</a>
+
+				</li><li class="" id="SharpstoFlats" data="">
+							<a
+							href="SharpstoFlats.html"
+							target="FrameMain">
+								Sharps to Flats</a>
+
+				</li><li class="" id="FlatstoSharps" data="">
+							<a
+							href="FlatstoSharps.html"
+							target="FrameMain">
+								Flats to Sharps</a>
+
+				</li><li class="" id="Articulations1" data="">
+							<a
+							href="Articulations1.html"
+							target="FrameMain">
+								Articulations</a>
+
+				</li></ul></li><li class="folder" id="Stem" data="">
+							<a
+							href="Stem.html"
+							target="FrameMain">
+								Stem</a>
+
+				<ul><li class="" id="StemUp" data="">
+							<a
+							href="StemUp.html"
+							target="FrameMain">
+								Stem Up</a>
+
+				</li><li class="" id="StemDown" data="">
+							<a
+							href="StemDown.html"
+							target="FrameMain">
+								Stem Down</a>
+
+				</li><li class="" id="HideStem" data="">
+							<a
+							href="HideStem.html"
+							target="FrameMain">
+								Hide Stem</a>
+
+				</li><li class="" id="ShowStem" data="">
+							<a
+							href="ShowStem.html"
+							target="FrameMain">
+								Show Stem</a>
+
+				</li><li class="" id="ResetStemHeight" data="">
+							<a
+							href="ResetStemHeight.html"
+							target="FrameMain">
+								Reset Stem Height</a>
+
+				</li></ul></li><li class="" id="DisplayonPreviousStaff" data="">
+							<a
+							href="DisplayonPreviousStaff.html"
+							target="FrameMain">
+								Display on Previous Staff</a>
+
+				</li><li class="" id="DisplayonNextStaff" data="">
+							<a
+							href="DisplayonNextStaff.html"
+							target="FrameMain">
+								Display on Next Staff</a>
+
+				</li><li class="" id="MovetoPreviousStaff1" data="">
+							<a
+							href="MovetoPreviousStaff1.html"
+							target="FrameMain">
+								Move to Previous Staff</a>
+
+				</li><li class="" id="MovetoNextStaff" data="">
+							<a
+							href="MovetoNextStaff.html"
+							target="FrameMain">
+								Move to Next Staff</a>
+
+				</li><li class="folder" id="NotateAs" data="">
+							<a
+							href="NotateAs.html"
+							target="FrameMain">
+								Notate As</a>
+
+				<ul><li class="" id="Arpeggio" data="">
+							<a
+							href="Arpeggio.html"
+							target="FrameMain">
+								Arpeggio</a>
+
+				</li><li class="" id="ReducedRests" data="">
+							<a
+							href="ReducedRests.html"
+							target="FrameMain">
+								Reduced Rests</a>
+
+				</li><li class="" id="SwingEighths" data="">
+							<a
+							href="SwingEighths.html"
+							target="FrameMain">
+								Swing Eighths</a>
+
+				</li><li class="" id="Trill" data="">
+							<a
+							href="Trill.html"
+							target="FrameMain">
+								Trill</a>
+
+				</li><li class="" id="Triplet1" data="">
+							<a
+							href="Triplet1.html"
+							target="FrameMain">
+								Triplet</a>
+
+				</li><li class="" id="Turn" data="">
+							<a
+							href="Turn.html"
+							target="FrameMain">
+								Turn</a>
+
+				</li><li class="" id="CueNotes" data="">
+							<a
+							href="CueNotes.html"
+							target="FrameMain">
+								Cue Notes</a>
+
+				</li><li class="" id="GraceNotes1" data="">
+							<a
+							href="GraceNotes1.html"
+							target="FrameMain">
+								Grace Notes</a>
+
+				</li><li class="" id="AppoggiaturaNotes" data="">
+							<a
+							href="AppoggiaturaNotes.html"
+							target="FrameMain">
+								Appoggiatura Notes</a>
+
+				</li><li class="" id="SingleNote" data="">
+							<a
+							href="SingleNote.html"
+							target="FrameMain">
+								Single Note</a>
+
+				</li><li class="" id="TwoTiedNoets" data="">
+							<a
+							href="TwoTiedNoets.html"
+							target="FrameMain">
+								Two Tied Noets</a>
+
+				</li></ul></li><li class="" id="Transcribe" data="">
+							<a
+							href="Transcribe.html"
+							target="FrameMain">
+								Transcribe</a>
+
+				</li><li class="" id="NotestoTablature" data="">
+							<a
+							href="NotestoTablature.html"
+							target="FrameMain">
+								Notes to Tablature</a>
+
+				</li><li class="" id="SetGuitarFrameCapo" data="">
+							<a
+							href="SetGuitarFrameCapo.html"
+							target="FrameMain">
+								Set Guitar Frame Capo</a>
+
+				</li><li class="" id="SettoVoice" data="">
+							<a
+							href="SettoVoice.html"
+							target="FrameMain">
+								Set to Voice</a>
+
+				</li><li class="" id="SetPlaybackVoice" data="">
+							<a
+							href="SetPlaybackVoice.html"
+							target="FrameMain">
+								Set Playback Voice</a>
+
+				</li></ul></li><li class="folder" id="OptionsMenu" data="">
+							<a
+							href="OptionsMenu.html"
+							target="FrameMain">
+								Options Menu</a>
+
+				<ul><li class="folder" id="Auto" data="">
+							<a
+							href="Auto.html"
+							target="FrameMain">
+								Auto</a>
+
+				<ul><li class="" id="Correct" data="">
+							<a
+							href="Correct.html"
+							target="FrameMain">
+								Correct</a>
+
+				</li><li class="" id="SpaceNotes" data="">
+							<a
+							href="SpaceNotes.html"
+							target="FrameMain">
+								Space Notes</a>
+
+				</li><li class="" id="FillRests1" data="">
+							<a
+							href="FillRests1.html"
+							target="FrameMain">
+								Fill Rests</a>
+
+				</li><li class="" id="WrapMeasures" data="">
+							<a
+							href="WrapMeasures.html"
+							target="FrameMain">
+								Wrap Measures</a>
+
+				</li><li class="" id="ActiveSymbolSpacing" data="">
+							<a
+							href="ActiveSymbolSpacing.html"
+							target="FrameMain">
+								Active Symbol Spacing</a>
+
+				</li><li class="" id="FillHairpins" data="">
+							<a
+							href="FillHairpins.html"
+							target="FrameMain">
+								Fill Hairpins</a>
+
+				</li></ul></li><li class="folder" id="Show" data="">
+							<a
+							href="Show.html"
+							target="FrameMain">
+								Show</a>
+
+				<ul><li class="" id="Handles" data="">
+							<a
+							href="Handles.html"
+							target="FrameMain">
+								Handles</a>
+
+				</li><li class="" id="Margin" data="">
+							<a
+							href="Margin.html"
+							target="FrameMain">
+								Margin</a>
+
+				</li><li class="" id="Rulers" data="">
+							<a
+							href="Rulers.html"
+							target="FrameMain">
+								Rulers</a>
+
+				</li><li class="" id="Grid" data="">
+							<a
+							href="Grid.html"
+							target="FrameMain">
+								Grid</a>
+
+				</li><li class="" id="InvisibleSymbols" data="">
+							<a
+							href="InvisibleSymbols.html"
+							target="FrameMain">
+								Invisible Symbols</a>
+
+				</li><li class="" id="SymbolsinColor" data="">
+							<a
+							href="SymbolsinColor.html"
+							target="FrameMain">
+								Symbols in Color</a>
+
+				</li><li class="" id="TrackVoiceNames" data="">
+							<a
+							href="TrackVoiceNames.html"
+							target="FrameMain">
+								Track Voice Names</a>
+
+				</li><li class="" id="SecondaryTrackNames" data="">
+							<a
+							href="SecondaryTrackNames.html"
+							target="FrameMain">
+								Secondary Track Names</a>
+
+				</li><li class="" id="IncorrectRhythms" data="">
+							<a
+							href="IncorrectRhythms.html"
+							target="FrameMain">
+								Incorrect Rhythms</a>
+
+				</li><li class="" id="RangeErrors" data="">
+							<a
+							href="RangeErrors.html"
+							target="FrameMain">
+								Range Errors</a>
+
+				</li></ul></li><li class="folder" id="MIDI" data="">
+							<a
+							href="MIDI.html"
+							target="FrameMain">
+								MIDI</a>
+
+				<ul><li class="" id="KeyboardThru" data="">
+							<a
+							href="KeyboardThru.html"
+							target="FrameMain">
+								Keyboard Thru</a>
+
+				</li><li class="" id="SendLocalOn" data="">
+							<a
+							href="SendLocalOn.html"
+							target="FrameMain">
+								Send Local On</a>
+
+				</li><li class="" id="SendLocalOff" data="">
+							<a
+							href="SendLocalOff.html"
+							target="FrameMain">
+								Send Local Off</a>
+
+				</li><li class="" id="SendAllNotesOff" data="">
+							<a
+							href="SendAllNotesOff.html"
+							target="FrameMain">
+								Send All Notes Off</a>
+
+				</li></ul></li><li class="" id="HoldNoteValues" data="">
+							<a
+							href="HoldNoteValues.html"
+							target="FrameMain">
+								Hold Note Values</a>
+
+				</li><li class="folder" id="Metronome" data="">
+							<a
+							href="Metronome.html"
+							target="FrameMain">
+								Metronome</a>
+
+				<ul><li class="" id="ClickinRecord" data="">
+							<a
+							href="ClickinRecord.html"
+							target="FrameMain">
+								Click in Record</a>
+
+				</li><li class="" id="ClickinPlay" data="">
+							<a
+							href="ClickinPlay.html"
+							target="FrameMain">
+								Click in Play</a>
+
+				</li><li class="" id="ClickinCountOffOnly" data="">
+							<a
+							href="ClickinCountOffOnly.html"
+							target="FrameMain">
+								Click in Count Off Only</a>
+
+				</li></ul></li><li class="folder" id="PlayStyle" data="">
+							<a
+							href="PlayStyle.html"
+							target="FrameMain">
+								Play Style</a>
+
+				<ul><li class="" id="AsRecorded" data="">
+							<a
+							href="AsRecorded.html"
+							target="FrameMain">
+								As Recorded</a>
+
+				</li><li class="" id="InSwing" data="">
+							<a
+							href="InSwing.html"
+							target="FrameMain">
+								In Swing</a>
+
+				</li><li class="" id="AsWritten" data="">
+							<a
+							href="AsWritten.html"
+							target="FrameMain">
+								As Written</a>
+
+				</li><li class="" id="Repeats" data="">
+							<a
+							href="Repeats.html"
+							target="FrameMain">
+								Repeats</a>
+
+				</li></ul></li><li class="" id="EditKeyBindings" data="">
+							<a
+							href="EditKeyBindings.html"
+							target="FrameMain">
+								Edit Key Bindings</a>
+
+				</li><li class="" id="SaveToolPaletteStates" data="">
+							<a
+							href="SaveToolPaletteStates.html"
+							target="FrameMain">
+								Save Tool Palette States</a>
+
+				</li><li class="folder" id="Preferences" data="">
+							<a
+							href="Preferences.html"
+							target="FrameMain">
+								Preferences</a>
+
+				<ul><li class="" id="General" data="">
+							<a
+							href="General.html"
+							target="FrameMain">
+								General</a>
+
+				</li><li class="" id="Playback" data="">
+							<a
+							href="Playback.html"
+							target="FrameMain">
+								Playback</a>
+
+				</li><li class="" id="Record" data="">
+							<a
+							href="Record.html"
+							target="FrameMain">
+								Record</a>
+
+				</li><li class="" id="Colors" data="">
+							<a
+							href="Colors.html"
+							target="FrameMain">
+								Colors</a>
+
+				</li></ul></li></ul></li><li class="folder" id="AudioMIDI" data="">
+							<a
+							href="AudioMIDI.html"
+							target="FrameMain">
+								Audio/MIDI</a>
+
+				<ul><li class="" id="AudioSettings" data="">
+							<a
+							href="AudioSettings.html"
+							target="FrameMain">
+								Audio Settings</a>
+
+				</li><li class="" id="MIDISettings" data="">
+							<a
+							href="MIDISettings.html"
+							target="FrameMain">
+								MIDI Settings</a>
+
+				</li><li class="" id="PluginManager" data="">
+							<a
+							href="PluginManager.html"
+							target="FrameMain">
+								Plugin Manager</a>
+
+				</li><li class="" id="ExporttoFile" data="">
+							<a
+							href="ExporttoFile.html"
+							target="FrameMain">
+								Export to File</a>
+
+				</li></ul></li><li class="folder" id="WindowsMenu" data="">
+							<a
+							href="WindowsMenu.html"
+							target="FrameMain">
+								Windows Menu</a>
+
+				<ul><li class="" id="ToolsPanel" data="">
+							<a
+							href="ToolsPanel.html"
+							target="FrameMain">
+								Tools Panel</a>
+
+				</li><li class="" id="InspectorPanel" data="">
+							<a
+							href="InspectorPanel.html"
+							target="FrameMain">
+								Inspector Panel</a>
+
+				</li><li class="" id="PartsPanel" data="">
+							<a
+							href="PartsPanel.html"
+							target="FrameMain">
+								Parts Panel</a>
+
+				</li><li class="" id="LibraryPanel" data="">
+							<a
+							href="LibraryPanel.html"
+							target="FrameMain">
+								Library Panel</a>
+
+				</li><li class="" id="DataView" data="">
+							<a
+							href="DataView.html"
+							target="FrameMain">
+								Data View</a>
+
+				</li><li class="" id="LinearView" data="">
+							<a
+							href="LinearView.html"
+							target="FrameMain">
+								Linear View</a>
+
+				</li><li class="" id="MixerView1" data="">
+							<a
+							href="MixerView1.html"
+							target="FrameMain">
+								Mixer View</a>
+
+				</li><li class="" id="KeyboardWindow" data="">
+							<a
+							href="KeyboardWindow.html"
+							target="FrameMain">
+								Keyboard Window</a>
+
+				</li><li class="" id="VideoWindow" data="">
+							<a
+							href="VideoWindow.html"
+							target="FrameMain">
+								Video Window</a>
+
+				</li></ul></li><li class="folder" id="HelpMenu" data="">
+							<a
+							href="HelpMenu.html"
+							target="FrameMain">
+								Help Menu</a>
+
+				<ul><li class="" id="AboutOverture" data="">
+							<a
+							href="AboutOverture.html"
+							target="FrameMain">
+								About Overture</a>
+
+				</li><li class="" id="QuickReferenceGuide" data="">
+							<a
+							href="QuickReferenceGuide.html"
+							target="FrameMain">
+								Quick Reference Guide</a>
+
+				</li></ul></li></ul></li><li class="folder" id="SymbolPalettes" data="">
+							<a
+							href="SymbolPalettes.html"
+							target="FrameMain">
+								Symbol Palettes</a>
+
+				<ul><li class="folder" id="NotesPalette" data="">
+							<a
+							href="NotesPalette.html"
+							target="FrameMain">
+								Notes Palette</a>
+
+				<ul><li class="" id="UsingtheNotesPalette1" data="">
+							<a
+							href="UsingtheNotesPalette1.html"
+							target="FrameMain">
+								Using the Notes Palette</a>
+
+				</li><li class="" id="EnteringGraceNotes" data="">
+							<a
+							href="EnteringGraceNotes.html"
+							target="FrameMain">
+								Entering Grace Notes</a>
+
+				</li><li class="" id="CautionaryAccidentals" data="">
+							<a
+							href="CautionaryAccidentals.html"
+							target="FrameMain">
+								Cautionary Accidentals</a>
+
+				</li><li class="" id="ChangingExistingNoteValues" data="">
+							<a
+							href="ChangingExistingNoteValues.html"
+							target="FrameMain">
+								Changing Existing Note Values</a>
+
+				</li></ul></li><li class="folder" id="GroupsPalette" data="">
+							<a
+							href="GroupsPalette.html"
+							target="FrameMain">
+								Groups Palette</a>
+
+				<ul><li class="" id="UsingtheGroupsPalette" data="">
+							<a
+							href="UsingtheGroupsPalette.html"
+							target="FrameMain">
+								Using the Groups Palette</a>
+
+				</li><li class="" id="HarpPedalDialog" data="">
+							<a
+							href="HarpPedalDialog.html"
+							target="FrameMain">
+								Harp Pedal Dialog</a>
+
+				</li><li class="" id="OttavaSettings" data="">
+							<a
+							href="OttavaSettings.html"
+							target="FrameMain">
+								Ottava Settings</a>
+
+				</li><li class="" id="UsingBracketsndBraces" data="">
+							<a
+							href="UsingBracketsndBraces.html"
+							target="FrameMain">
+								Using Brackets nd Braces</a>
+
+				</li></ul></li><li class="folder" id="OrnamentsPalette" data="">
+							<a
+							href="OrnamentsPalette.html"
+							target="FrameMain">
+								Ornaments Palette</a>
+
+				<ul><li class="" id="UsingtheOrnamentsPalette" data="">
+							<a
+							href="UsingtheOrnamentsPalette.html"
+							target="FrameMain">
+								Using the Ornaments Palette</a>
+
+				</li><li class="" id="UsingTrillTools" data="">
+							<a
+							href="UsingTrillTools.html"
+							target="FrameMain">
+								Using Trill Tools</a>
+
+				</li><li class="" id="UsingtheMordentTools" data="">
+							<a
+							href="UsingtheMordentTools.html"
+							target="FrameMain">
+								Using the Mordent Tools</a>
+
+				</li><li class="" id="UsingtheFingeringsTools" data="">
+							<a
+							href="UsingtheFingeringsTools.html"
+							target="FrameMain">
+								Using the Fingerings Tools</a>
+
+				</li></ul></li><li class="folder" id="ArticulationsPalette" data="">
+							<a
+							href="ArticulationsPalette.html"
+							target="FrameMain">
+								Articulations Palette</a>
+
+				<ul><li class="" id="UsingtheArticulationsPalette" data="">
+							<a
+							href="UsingtheArticulationsPalette.html"
+							target="FrameMain">
+								Using the Articulations Palette</a>
+
+				</li><li class="" id="UsingtheArpeggioTool" data="">
+							<a
+							href="UsingtheArpeggioTool.html"
+							target="FrameMain">
+								Using the Arpeggio Tool</a>
+
+				</li><li class="" id="UsingtheTremoloTool" data="">
+							<a
+							href="UsingtheTremoloTool.html"
+							target="FrameMain">
+								Using the Tremolo Tool</a>
+
+				</li><li class="" id="UsingthePauseTool" data="">
+							<a
+							href="UsingthePauseTool.html"
+							target="FrameMain">
+								Using the Pause Tool</a>
+
+				</li></ul></li><li class="folder" id="DynamicsPalette" data="">
+							<a
+							href="DynamicsPalette.html"
+							target="FrameMain">
+								Dynamics Palette</a>
+
+				<ul><li class="" id="UsingAbsoluteDynamics" data="">
+							<a
+							href="UsingAbsoluteDynamics.html"
+							target="FrameMain">
+								Using Absolute Dynamics</a>
+
+				</li><li class="" id="UsingHairpins" data="">
+							<a
+							href="UsingHairpins.html"
+							target="FrameMain">
+								Using Hairpins</a>
+
+				</li></ul></li><li class="" id="NoteHeadsPalette" data="">
+							<a
+							href="NoteHeadsPalette.html"
+							target="FrameMain">
+								Note Heads Palette</a>
+
+				</li><li class="" id="GuitarPalette" data="">
+							<a
+							href="GuitarPalette.html"
+							target="FrameMain">
+								Guitar Palette</a>
+
+				</li><li class="" id="JazzPalette" data="">
+							<a
+							href="JazzPalette.html"
+							target="FrameMain">
+								Jazz Palette</a>
+
+				</li><li class="" id="GraphicsPalette" data="">
+							<a
+							href="GraphicsPalette.html"
+							target="FrameMain">
+								Graphics Palette</a>
+
+				</li><li class="" id="ClefsPalette" data="">
+							<a
+							href="ClefsPalette.html"
+							target="FrameMain">
+								Clefs Palette</a>
+
+				</li><li class="folder" id="BarlinesPalette" data="">
+							<a
+							href="BarlinesPalette.html"
+							target="FrameMain">
+								Barlines Palette</a>
+
+				<ul><li class="" id="UsingtheBarlinesPalette" data="">
+							<a
+							href="UsingtheBarlinesPalette.html"
+							target="FrameMain">
+								Using the Barlines Palette</a>
+
+				</li><li class="" id="UsingRepeats" data="">
+							<a
+							href="UsingRepeats.html"
+							target="FrameMain">
+								Using Repeats</a>
+
+				</li><li class="" id="UsingtheEndingsTool" data="">
+							<a
+							href="UsingtheEndingsTool.html"
+							target="FrameMain">
+								Using the Endings Tool</a>
+
+				</li><li class="" id="DeletingBarlines" data="">
+							<a
+							href="DeletingBarlines.html"
+							target="FrameMain">
+								Deleting Barlines</a>
+
+				</li></ul></li></ul></li><li class="folder" id="FrequentlyAskedQuestions" data="">
+							<a
+							href="FrequentlyAskedQuestions.html"
+							target="FrameMain">
+								Frequently Asked Questions</a>
+
+				<ul><li class="" id="HowdoIaddnotesonebyone" data="">
+							<a
+							href="HowdoIaddnotesonebyone.html"
+							target="FrameMain">
+								How do I add notes one by one?</a>
+
+				</li><li class="" id="HowdoIcreateafeatheredbeam" data="">
+							<a
+							href="HowdoIcreateafeatheredbeam.html"
+							target="FrameMain">
+								How do I create a feathered beam?</a>
+
+				</li><li class="" id="HowdoIrecordnotesandrests" data="">
+							<a
+							href="HowdoIrecordnotesandrests.html"
+							target="FrameMain">
+								How do I record notes and rests?</a>
+
+				</li><li class="" id="HowdoIentermultiplevoices" data="">
+							<a
+							href="HowdoIentermultiplevoices.html"
+							target="FrameMain">
+								How do I enter multiple voices?</a>
+
+				</li><li class="" id="HowdoIenterchordsbyplayingthem" data="">
+							<a
+							href="HowdoIenterchordsbyplayingthem.html"
+							target="FrameMain">
+								How do I enter chords by playing them?</a>
+
+				</li><li class="" id="HowdoIenterchordsusingthemouse" data="">
+							<a
+							href="HowdoIenterchordsusingthemouse.html"
+							target="FrameMain">
+								How do I enter chords using the mouse?</a>
+
+				</li><li class="" id="HowdoIenterlyrics" data="">
+							<a
+							href="HowdoIenterlyrics.html"
+							target="FrameMain">
+								How do I enter lyrics?</a>
+
+				</li><li class="" id="HowdoIaddatitletothefirstpage" data="">
+							<a
+							href="HowdoIaddatitletothefirstpage.html"
+							target="FrameMain">
+								How do I add a title to the first page?</a>
+
+				</li><li class="" id="HowdoIaddcomposercreditsorcopyri" data="">
+							<a
+							href="HowdoIaddcomposercreditsorcopyri.html"
+							target="FrameMain">
+								How do I add composer credits or copyrights to the page?</a>
+
+				</li><li class="" id="HowdoIaddpagenumbers" data="">
+							<a
+							href="HowdoIaddpagenumbers.html"
+							target="FrameMain">
+								How do I add page numbers?</a>
+
+				</li><li class="" id="HowdoIaddtexttoameasureorapage" data="">
+							<a
+							href="HowdoIaddtexttoameasureorapage.html"
+							target="FrameMain">
+								How do I add text to a measure or a page?</a>
+
+				</li><li class="" id="HowdoIaddstavestothepage" data="">
+							<a
+							href="HowdoIaddstavestothepage.html"
+							target="FrameMain">
+								How do I add staves to the page?</a>
+
+				</li><li class="" id="HowdoIremoveastaff" data="">
+							<a
+							href="HowdoIremoveastaff.html"
+							target="FrameMain">
+								How do I remove a staff?</a>
+
+				</li><li class="" id="HowdoIchangetheverticalorderofth" data="">
+							<a
+							href="HowdoIchangetheverticalorderofth.html"
+							target="FrameMain">
+								How do I change the vertical order of the staves? </a>
+
+				</li><li class="" id="HowdoImovestavesaroundonthepage" data="">
+							<a
+							href="HowdoImovestavesaroundonthepage.html"
+							target="FrameMain">
+								How do I move staves around on the page?</a>
+
+				</li><li class="" id="HowdoIadjuststaffpositionsthroug" data="">
+							<a
+							href="HowdoIadjuststaffpositionsthroug.html"
+							target="FrameMain">
+								How do I adjust staff positions through the whole score?</a>
+
+				</li><li class="" id="HowdoIextractseparatepartsfromac" data="">
+							<a
+							href="HowdoIextractseparatepartsfromac.html"
+							target="FrameMain">
+								How do I extract separate parts from a complete score?</a>
+
+				</li><li class="" id="HowdoIimportaMIDIfile" data="">
+							<a
+							href="HowdoIimportaMIDIfile.html"
+							target="FrameMain">
+								How do I import a MIDI file?</a>
+
+				</li><li class="" id="HowdoIopenasongImadeinanothermus" data="">
+							<a
+							href="HowdoIopenasongImadeinanothermus.html"
+							target="FrameMain">
+								How do I open a song I made in another music software program? </a>
+
+				</li><li class="" id="HowdoIopenaOverturesonginanother" data="">
+							<a
+							href="HowdoIopenaOverturesonginanother.html"
+							target="FrameMain">
+								How do I open a Overture song in another music program?</a>
+
+				</li><li class="" id="HowdoImakethemusicsmalleronthepa" data="">
+							<a
+							href="HowdoImakethemusicsmalleronthepa.html"
+							target="FrameMain">
+								How do I make the music smaller on the page?</a>
+
+				</li><li class="" id="HowdoImakecuenotes" data="">
+							<a
+							href="HowdoImakecuenotes.html"
+							target="FrameMain">
+								How do I make cue notes?</a>
+
+				</li><li class="" id="HowdoIconvertanoteintoagracenote" data="">
+							<a
+							href="HowdoIconvertanoteintoagracenote.html"
+							target="FrameMain">
+								How do I convert a note into a grace note?</a>
+
+				</li><li class="" id="HowdoIaddendingsorrepeatbarlines" data="">
+							<a
+							href="HowdoIaddendingsorrepeatbarlines.html"
+							target="FrameMain">
+								How do I add endings or repeat barlines to my score?</a>
+
+				</li><li class="" id="HowdoIaddarepeatlikeDSalFineorTo" data="">
+							<a
+							href="HowdoIaddarepeatlikeDSalFineorTo.html"
+							target="FrameMain">
+								How do I add a repeat like D.S. al Fine or To Coda to my score?</a>
+
+				</li><li class="" id="HowdoImakedrumstaves" data="">
+							<a
+							href="HowdoImakedrumstaves.html"
+							target="FrameMain">
+								How do I make drum staves?</a>
+
+				</li><li class="" id="HowdoIcreatecopyrightandtrademar" data="">
+							<a
+							href="HowdoIcreatecopyrightandtrademar.html"
+							target="FrameMain">
+								How do I create copyright and trademark symbols in text?</a>
+
+				</li></ul></li><li class="" id="RealTimeRecording" data="">
+							<a
+							href="RealTimeRecording.html"
+							target="FrameMain">
+								Real Time Recording</a>
+
+				</li><li class="" id="PunchRecording" data="">
+							<a
+							href="PunchRecording.html"
+							target="FrameMain">
+								Punch Recording</a>
+
+				</li><li class="" id="AdvancedLyricEntry" data="">
+							<a
+							href="AdvancedLyricEntry.html"
+							target="FrameMain">
+								Advanced Lyric Entry</a>
+
+				</li><li class="" id="ArrangingStavesandSystems" data="">
+							<a
+							href="ArrangingStavesandSystems.html"
+							target="FrameMain">
+								Arranging Staves and Systems</a>
+
+				</li><li class="" id="AdjustingNoteSpacing" data="">
+							<a
+							href="AdjustingNoteSpacing.html"
+							target="FrameMain">
+								Adjusting Note Spacing</a>
+
+				</li><li class="" id="EditHairpinDialog" data="">
+							<a
+							href="EditHairpinDialog.html"
+							target="FrameMain">
+								Edit Hairpin Dialog</a>
+
+				</li><li class="" id="UsingAbsoluteDynamicTools" data="">
+							<a
+							href="UsingAbsoluteDynamicTools.html"
+							target="FrameMain">
+								Using Absolute Dynamic Tools</a>
+
+				</li><li class="" id="UsingCrescendosandDecrescendos" data="">
+							<a
+							href="UsingCrescendosandDecrescendos.html"
+							target="FrameMain">
+								Using Crescendos and Decrescendos</a>
+
+				</li><li class="" id="FermataSettingsDialog" data="">
+							<a
+							href="FermataSettingsDialog.html"
+							target="FrameMain">
+								Fermata Settings Dialog</a>
+
+				</li><li class="" id="SelectingNotationSymbols" data="">
+							<a
+							href="SelectingNotationSymbols.html"
+							target="FrameMain">
+								Selecting Notation Symbols</a>
+
+				</li><li class="" id="EditingNotationSymbols" data="">
+							<a
+							href="EditingNotationSymbols.html"
+							target="FrameMain">
+								Editing Notation Symbols</a>
+
+				</li><li class="" id="EditGlissandoDialog" data="">
+							<a
+							href="EditGlissandoDialog.html"
+							target="FrameMain">
+								Edit Glissando Dialog</a>
+
+				</li><li class="" id="MovingChordNames" data="">
+							<a
+							href="MovingChordNames.html"
+							target="FrameMain">
+								Moving Chord Names</a>
+
+				</li><li class="" id="CursorsintheScoreView" data="">
+							<a
+							href="CursorsintheScoreView.html"
+							target="FrameMain">
+								Cursors in the Score View</a>
+
+				</li></ul>
+		</div>
+		
+		<div id="tab-keywords">
+			<ul id="keywords">
+
+				<li class="file" data="click:'[[\'Create from Template\',\'CreatefromTemplate.html\'],[\'Open Recent Score\',\'OpenRecentScore.html\'],[\'Open Existing Score\',\'OpenExistingScore.html\'],[\'Import a MIDI or MusicXML File\',\'ImportaMIDIorMusicXMLFile.html\']]'">
+							<a
+								href="CreatefromTemplate.html"
+								target="FrameMain"
+								onClick="[['Create from Template','CreatefromTemplate.html'],['Open Recent Score','OpenRecentScore.html'],['Open Existing Score','OpenExistingScore.html'],['Import a MIDI or MusicXML File','ImportaMIDIorMusicXMLFile.html']]"
+								>
+								Creating</a>
+
+				</li><li class="file" data="click:'[[\'Slur\',\'Slur.html\']]'">
+							<a
+								href="Slur.html"
+								target="FrameMain"
+								onClick="[['Slur','Slur.html']]"
+								>
+								Edit Slur Dialog</a>
+
+				</li><li class="file" data="click:'[[\'\',\'.html\'],[\'Inserting new tracks\',\'Insertingnewtracks.html\'],[\'Entering notes\',\'Enteringnotes.html\'],[\'Entering symbols\',\'Enteringsymbols.html\'],[\'\',\'.html\'],[\'\',\'.html\']]'">
+							<a
+								href=".html"
+								target="FrameMain"
+								onClick="[['','.html'],['Inserting new tracks','Insertingnewtracks.html'],['Entering notes','Enteringnotes.html'],['Entering symbols','Enteringsymbols.html'],['','.html'],['','.html']]"
+								>
+								Editing</a>
+
+				</li><li class="file" data="click:'[[\'Symbols Panel\',\'SymbolsPanel.html\']]'">
+							<a
+								href="SymbolsPanel.html"
+								target="FrameMain"
+								onClick="[['Symbols Panel','SymbolsPanel.html']]"
+								>
+								Entering symbols</a>
+
+				</li><li class="file" data="click:'[[\'\',\'.html\'],[\'\',\'.html\'],[\'\',\'.html\']]'">
+							<a
+								href=".html"
+								target="FrameMain"
+								onClick="[['','.html'],['','.html'],['','.html']]"
+								>
+								Exporting</a>
+
+				</li><li class="file" data="click:'[[\'Inserting new tracks\',\'Insertingnewtracks.html\'],[\'Entering notes\',\'Enteringnotes.html\'],[\'Entering symbols\',\'Enteringsymbols.html\']]'">
+							<a
+								href="Insertingnewtracks.html"
+								target="FrameMain"
+								onClick="[['Inserting new tracks','Insertingnewtracks.html'],['Entering notes','Enteringnotes.html'],['Entering symbols','Enteringsymbols.html']]"
+								>
+								Inserting</a>
+
+				</li><li class="file" data="click:'[[\'Changing key and time signatures\',\'Changingkeyandtimesignatures.html\']]'">
+							<a
+								href="Changingkeyandtimesignatures.html"
+								target="FrameMain"
+								onClick="[['Changing key and time signatures','Changingkeyandtimesignatures.html']]"
+								>
+								Key signature</a>
+
+				</li><li class="file" data="click:'[[\'\',\'.html\'],[\'\',\'.html\'],[\'\',\'.html\']]'">
+							<a
+								href=".html"
+								target="FrameMain"
+								onClick="[['','.html'],['','.html'],['','.html']]"
+								>
+								Layout</a>
+
+				</li><li class="file" data="click:'[[\'Changing key and time signatures\',\'Changingkeyandtimesignatures.html\']]'">
+							<a
+								href="Changingkeyandtimesignatures.html"
+								target="FrameMain"
+								onClick="[['Changing key and time signatures','Changingkeyandtimesignatures.html']]"
+								>
+								Meter</a>
+
+				</li><li class="file" data="click:'[[\'\',\'.html\'],[\'\',\'.html\'],[\'\',\'.html\'],[\'\',\'.html\']]'">
+							<a
+								href=".html"
+								target="FrameMain"
+								onClick="[['','.html'],['','.html'],['','.html'],['','.html']]"
+								>
+								MIDI</a>
+
+				</li><li class="file" data="click:'[[\'\',\'.html\'],[\'\',\'.html\'],[\'\',\'.html\']]'">
+							<a
+								href=".html"
+								target="FrameMain"
+								onClick="[['','.html'],['','.html'],['','.html']]"
+								>
+								Mixing</a>
+
+				</li><li class="file" data="click:'[[\'Moving symbols\',\'Movingsymbols.html\']]'">
+							<a
+								href="Movingsymbols.html"
+								target="FrameMain"
+								onClick="[['Moving symbols','Movingsymbols.html']]"
+								>
+								Moving</a>
+
+				</li><li class="file" data="click:'[[\'Entering notes\',\'Enteringnotes.html\'],[\'Moving symbols\',\'Movingsymbols.html\'],[\'Changing values\',\'Changingvalues.html\']]'">
+							<a
+								href="Enteringnotes.html"
+								target="FrameMain"
+								onClick="[['Entering notes','Enteringnotes.html'],['Moving symbols','Movingsymbols.html'],['Changing values','Changingvalues.html']]"
+								>
+								Notes</a>
+
+				</li><li class="file" data="click:'[[\'Changing key and time signatures\',\'Changingkeyandtimesignatures.html\']]'">
+							<a
+								href="Changingkeyandtimesignatures.html"
+								target="FrameMain"
+								onClick="[['Changing key and time signatures','Changingkeyandtimesignatures.html']]"
+								>
+								Signatures</a>
+
+				</li><li class="file" data="click:'[[\'Slur\',\'Slur.html\']]'">
+							<a
+								href="Slur.html"
+								target="FrameMain"
+								onClick="[['Slur','Slur.html']]"
+								>
+								Slur Dialog</a>
+
+				</li><li class="file" data="click:'[[\'Entering symbols\',\'Enteringsymbols.html\'],[\'Moving symbols\',\'Movingsymbols.html\'],[\'Changing values\',\'Changingvalues.html\']]'">
+							<a
+								href="Enteringsymbols.html"
+								target="FrameMain"
+								onClick="[['Entering symbols','Enteringsymbols.html'],['Moving symbols','Movingsymbols.html'],['Changing values','Changingvalues.html']]"
+								>
+								Symbols</a>
+
+				</li><li class="file" data="click:'[[\'Changing key and time signatures\',\'Changingkeyandtimesignatures.html\']]'">
+							<a
+								href="Changingkeyandtimesignatures.html"
+								target="FrameMain"
+								onClick="[['Changing key and time signatures','Changingkeyandtimesignatures.html']]"
+								>
+								Time signature</a>
+
+				</li><li class="file" data="click:'[[\'\',\'.html\'],[\'\',\'.html\']]'">
+							<a
+								href=".html"
+								target="FrameMain"
+								onClick="[['','.html'],['','.html']]"
+								>
+								Tracks</a>
+
+				</li></ul>
+		</div>
+		
+		<div id="tab-search">
+			<form onsubmit="PerformSearch(); return false;">
+				<label for="search_value">Search:</label>
+				<input id="search_value" name="search_value"></input>
+				<input type="submit" value="Search"/>
+			</form>
+			<div id="search_results"></div>
+		</div>
+		
+		</div>
+    
+</body>
+
+</html>
+

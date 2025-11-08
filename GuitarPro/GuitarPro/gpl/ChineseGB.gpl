@@ -1,0 +1,2171 @@
+GUITAR PRO 5.1 TRANSLATION FILE
+
+### PATCH CONFIGURATION ###
+AUTHOR NAMES = "Huang Shuo"
+AUHTOR E-MAIL = "ucudbm@yahoo.com.cn"
+VERSION = "5.1"
+ENCODING = "ChineseGB"
+###########################
+
+You can use this file to create your own translation file for Guitar Pro.
+To do it, translate ONLY the words between the symbols " ". DON'T CHANGE
+ANYTHING ELSE. Note that the symbol %s is used to indicate a dynamic value,
+which will be attribuated at running, so don't change it.
+
+The words between the symbols { } are some indications to help you to
+understand the context, don't change it.
+
+After having changing the translations, save the file under your language
+name with the extension .gpl (ie "English.gpl"). Place it in the
+Guitar Pro directory, restart Guitar Pro and you'll have the new language
+proposed in the menu OPTIONS | LANGUAGE.
+
+Don't hesitate to send us your translation files, we'll add them on the site
+for other users.
+
+***********
+* DIALOGS *
+***********
+
+DLG_000
+DLG_001 = "确定(&O)"
+DLG_002 = "取消(&C)"
+DLG_003 = "是(&Y)"
+DLG_004 = "否(&N)"
+DLG_005 = "说明(&H)"
+DLG_006 = "清除(&L)"
+DLG_007 = "关闭(&C)"
+DLG_008 = "信息"
+DLG_009 = "确认"
+DLG_010 = "警告"
+DLG_011 = "警告"
+DLG_012 = "错误"
+DLG_013 = "错误输入."
+
+***********
+* GENERAL *
+***********
+
+GENE_000
+GENE_001 = "版本"
+GENE_002 = "版权所有"
+GENE_003 = "无效的许可证."
+GENE_004 = "Guitar Pro - 试用版本"
+GENE_005 = "Guitar Pro 试用版有 24 小节限制."
+GENE_006 = "如果您喜欢 Guitar Pro, 请不吝注册."
+GENE_007 = "音轨"
+GENE_008 = "敲击乐器"
+GENE_009 = "小节已完成"
+GENE_010 = "小节未完成"
+GENE_011 = "超出小节范围"
+GENE_012 = "未注册使用者"
+
+*****************
+* MENUS & HINTS *
+*****************
+
+MN_000
+MN_001 = "文件(&F)"
+MN_002 = "开新文件(&N)"
+MN_003 = "开启旧文件(&O)"
+MN_004 = "浏览(&B)"
+MN_005 = "保存文件(&S)"
+MN_006 = "另存新档(&A)"
+MN_007 = "乐谱性质(&P)"
+MN_008 = "偏好设定(&R)"
+MN_009 = "导入(&I)"
+MN_010 = "导出(&E)"
+MN_011 = "MIDI格式"
+MN_012 = "ASCII Tab格式"
+MN_013 = "打印(&T)"
+MN_014 = "预览打印(&V)"
+MN_015 = "打印机设定(&U)"
+MN_016 = "结束(&X)"
+MN_017 = "编辑(&E)"
+MN_018 = "剪下(&C)"
+MN_019 = "复制(&O)"
+MN_020 = "粘贴(&P)"
+MN_021 = "插入(&I)"
+MN_022 = "清除(&L)"
+MN_023 = "综合叁数变化表(&M)"
+MN_024 = "音轨(&T)"
+MN_025 = "小节(&B)"
+MN_026 = "第一(&F)"
+MN_027 = "第一小节"
+MN_028 = "上一(&P)"
+MN_029 = "上一小节"
+MN_030 = "移至(&G)"
+MN_031 = "移至小节"
+MN_032 = "下一(&N)"
+MN_033 = "下一小节"
+MN_034 = "最末(&L)"
+MN_035 = "最末小节"
+MN_036 = "拍号(&T)"
+MN_037 = "小节的拍号"
+MN_038 = "重复始端(&R)"
+MN_039 = "重复终端(&E)"
+MN_040 = "交替结束(&A)"
+MN_041 = "音符(&N)"
+MN_042 = "全音符(&W)"
+MN_043 = "二分音符(&H)"
+MN_044 = "四分音符(&Q)"
+MN_045 = "八分音符(&E)"
+MN_046 = "十六分音符(&S)"
+MN_047 = "三十二分音符(&T)"
+MN_048 = "六十四分音符(&I)"
+MN_049 = "附点(&D)"
+MN_050 = "和弦(&C)"
+MN_051 = "注解(&A)"
+MN_052 = "闷音(&N)"
+MN_053 = "休止符(&R)"
+MN_054 = "三连音(&P)"
+MN_055 = "延长音(&L)"
+MN_056 = "插入一拍(&B)"
+MN_057 = "删除此拍"
+MN_058 = "复制 拍/三连音 至小节末(&O)"
+MN_059 = "上移一弦(&F)"
+MN_060 = "音符上移一弦"
+MN_061 = "下移一弦"
+MN_062 = "音符下移一弦"
+MN_063 = "音效(&C)"
+MN_064 = "捶弦(&H)"
+MN_065 = "勾弦(&P)"
+MN_066 = "向上滑弦(&S)"
+MN_067 = "向下滑弦(&L)"
+MN_068 = "推弦(&B)"
+MN_069 = "推弦再释放(&R)"
+MN_070 = "持续发声(&E)"
+MN_071 = "装饰音(&G)"
+MN_072 = "幽灵音(&O)"
+MN_073 = "左手颤音(&V)"
+MN_074 = "摇杆颤音(&R)"
+MN_075 = "压摇杆(&T)"
+MN_076 = "自然泛音(&N)"
+MN_077 = "人工泛音(&A)"
+MN_078 = "渐强(&F)"
+MN_079 = "右手点弦(&I)"
+MN_080 = "贝斯拍弹 (Slap)"
+MN_081 = "贝斯勾弹 (Pop)"
+MN_082 = "上扫(&U)"
+MN_083 = "下扫(&D)"
+MN_084 = "力度(&Y)"
+MN_085 = "辅助工具(&A)"
+MN_086 = "移调(&T)"
+MN_087 = "小节排列工具(&B)"
+MN_088 = "以休止符完成或缩减小节(&C)"
+MN_089 = "自动调整指位(&A)"
+MN_090 = "持续发声设定工具(&L)"
+MN_091 = "检查小节音长(&H)"
+MN_092 = "标准记谱法(&S)"
+MN_093 = "敲击乐器(&P)"
+MN_094 = "速度教练(&E)"
+MN_095 = "音乐(&S)"
+MN_096 = "由开头演奏(&E)"
+MN_097 = "由开头演奏 (空格键)"
+MN_098 = "由目前小节演奏(&L)"
+MN_099 = "由目前小节演奏 (Ctrl+空格键)"
+MN_100 = "演奏目前小节(&A)"
+MN_101 = "演奏目前小节 (Maj+Ctrl+空格键)"
+MN_102 = "停止(&S)"
+MN_103 = "停止 (空格键)"
+MN_104 = "重复演奏(&Y)"
+MN_105 = "节拍器(&M)"
+MN_106 = "输入时监听(&W)"
+MN_107 = "显示(&D)"
+MN_108 = "隐藏编辑窗口(&H)"
+MN_109 = "显示持续发声音符(&S)"
+MN_110 = "显示音符力度(&O)"
+MN_111 = "语言(&L)"
+MN_112 = "说明档语言"
+MN_113 = "说明(&H)"
+MN_114 = "索引(&I)"
+MN_115 = "订购 Guitar Pro!(&O)"
+MN_116 = "注册您的软件!(&R)"
+MN_117 = "关于(&A)"
+
+*********************
+* PROPERTIES WINDOW *
+*********************
+
+DLG_PROP_000
+DLG_PROP_001 = "乐谱的性质"
+DLG_PROP_002 = "标题(&T)"
+DLG_PROP_003 = "作者(&A)"
+DLG_PROP_004 = "注释(&M)"
+DLG_PROP_005 = "拍速(&E)"
+DLG_PROP_006 = "三连音式:"
+DLG_PROP_007 = "音轨名称(&N)"
+DLG_PROP_008 = "乐器(&I)"
+DLG_PROP_009 = "乐器清单"
+DLG_PROP_010 = "调音资料库(&L)"
+DLG_PROP_011 = "弦数(&S)"
+DLG_PROP_012 = "调音(&U)"
+DLG_PROP_013 = "琴品数(&F)"
+DLG_PROP_014 = "独奏"
+DLG_PROP_015 = "静音"
+DLG_PROP_016 = "不要导出"
+DLG_PROP_017 = "模拟十二弦吉他"
+DLG_PROP_018 = "音量"
+DLG_PROP_019 = "左右平衡"
+DLG_PROP_020 = "和声"
+DLG_PROP_021 = "回音"
+DLG_PROP_022 = "保留敲击乐器音轨"
+DLG_PROP_023 = "使用音符 27 至 87"
+DLG_PROP_024 = "于吉他谱线上."
+DLG_PROP_025 = "小节 %s 内一或多个音符无法置于 %s 弦上."
+
+***************************
+* MIDI IMPORTATION WINDOW *
+***************************
+
+DLG_IMPM_000
+DLG_IMPM_001 = "MIDI 导入"
+DLG_IMPM_002 = "选取欲导入的音轨(&E):"
+DLG_IMPM_003 = "取消选取的音轨(&D)"
+DLG_IMPM_004 = "下移八度(&R)"
+DLG_IMPM_005 = "量化:"
+DLG_IMPM_006 = "警告: 导入的敲击乐器音轨" { end at 007 }
+DLG_IMPM_007 = "只能写入音轨8/声道10."
+DLG_IMPM_008 = "Guitar Pro 试用版限制仅能导入50个音符."
+DLG_IMPM_009 = "如果您喜欢 Guitar Pro, 请不吝注册."
+DLG_IMPM_010 = "搜寻音轨..."
+DLG_IMPM_011 = "未指定"
+DLG_IMPM_012 = "读取音轨..."
+DLG_IMPM_013 = "产生乐谱..."
+DLG_IMPM_014 = "指位最佳化..."
+DLG_IMPM_015 = "MIDI 格式无法辨识."
+
+***************************
+* MIDI EXPORTATION WINDOW *
+***************************
+
+DLG_EXPM_000
+DLG_EXPM_001 = "MIDI 导出"
+DLG_EXPM_002 = "无法写入文件. 存档取消."
+
+****************************
+* ASCII IMPORTATION WINDOW *
+****************************
+
+DLG_IMPA_000
+DLG_IMPA_001 = "ASCII Tab 导入"
+DLG_IMPA_002 = "无法开启文件. 导入取消."
+DLG_IMPA_003 = "导入(&I)"
+DLG_IMPA_004 = "开启"
+DLG_IMPA_005 = "打印"
+DLG_IMPA_006 = "导入对应(&M):"
+DLG_IMPA_007 = "注意: 导入将作用于目前的音轨"
+DLG_IMPA_008 = "Guitar Pro 试用版限制仅能导入50个音符."
+DLG_IMPA_009 = "如果您喜欢 Guitar Pro, 请不吝注册."
+DLG_IMPA_010 = "<可变的>"
+DLG_IMPA_011 = "二分音符"
+DLG_IMPA_012 = "四分音符"
+DLG_IMPA_013 = "八分音符"
+DLG_IMPA_014 = "十六分音符"
+
+****************************
+* ASCII EXPORTATION WINDOW *
+****************************
+
+DLG_EXPA_000
+DLG_EXPA_001 = "ASCII Tab 导出"
+DLG_EXPA_002 = "导出(&E)"
+DLG_EXPA_003 = "打印"
+DLG_EXPA_004 = "列(&C):"
+DLG_EXPA_005 = "重新整理乐谱"
+DLG_EXPA_006 = "节奏"
+DLG_EXPA_007 = "无法写入指定文件. 导出取消."
+
+**********************
+* PREFERENCES WINDOW *
+**********************
+
+DLG_PREF_000
+DLG_PREF_001 = "偏好设定"
+DLG_PREF_002 = "一般"
+DLG_PREF_003 = "起始音乐"
+DLG_PREF_004 = "无"
+DLG_PREF_005 = "选取 WAVE 文件"
+DLG_PREF_006 = "Wave 文件"
+DLG_PREF_007 = "演奏时的卷动模式"
+DLG_PREF_008 = "屏幕接着屏幕"
+DLG_PREF_009 = "乐谱接着乐谱"
+DLG_PREF_010 = "节拍器"
+DLG_PREF_011 = "音量"
+DLG_PREF_012 = "使用于乐谱进行中"
+DLG_PREF_013 = "谱前提示进入"
+DLG_PREF_014 = "加重第一拍"
+DLG_PREF_015 = "使用速度教练时总是以节拍器提示进入"
+DLG_PREF_016 = "演奏"
+DLG_PREF_017 = "导出 (MIDI)"
+DLG_PREF_018 = "音效"
+DLG_PREF_019 = "重复"
+DLG_PREF_020 = "声卡"
+DLG_PREF_021 = "限制推弦范围为 1 全音"
+DLG_PREF_022 = "当推弦音效发声错误时, 选取此选项."
+DLG_PREF_023 = "和弦辨识"
+DLG_PREF_024 = "当低音与根音不同时, 总是将低音加入和弦名称"
+DLG_PREF_025 = "内定值"
+DLG_PREF_026 = "显示"
+DLG_PREF_027 = "左缘"
+DLG_PREF_028 = "右缘"
+DLG_PREF_029 = "谱线间隔"
+DLG_PREF_030 = "谱表间隔"
+DLG_PREF_031 = "和弦 (图示) 位置"
+DLG_PREF_032 = "和弦 (仅名称) 位置"
+DLG_PREF_033 = "文字内容位置"
+DLG_PREF_034 = "节奏水平线宽度"
+DLG_PREF_035 = "音符字体:"
+DLG_PREF_036 = "和弦名称字体:"
+DLG_PREF_037 = "文字内容字体:"
+DLG_PREF_038 = "拍号字体:"
+DLG_PREF_039 = "小节数字体:"
+DLG_PREF_040 = "重复字体:"
+DLG_PREF_041 = "图示大小:"
+DLG_PREF_042 = "和弦图示颜色:"
+DLG_PREF_043 = "吉他谱线颜色:"
+DLG_PREF_044 = "节奏线颜色:"
+DLG_PREF_045 = "音效颜色:"
+DLG_PREF_046 = "背景颜色:"
+DLG_PREF_047 = "时间错误小节颜色:"
+DLG_PREF_048 = "选取范围颜色:"
+DLG_PREF_049 = "和弦图示"
+DLG_PREF_050 = "和弦名称"
+DLG_PREF_051 = "和弦列于最上方"
+DLG_PREF_052 = "文字内容"
+DLG_PREF_053 = "音效"
+DLG_PREF_054 = "节奏线"
+DLG_PREF_055 = "小节数"
+DLG_PREF_056 = "音符间隔"
+DLG_PREF_057 = "节奏比例"
+DLG_PREF_058 = "使用者 1"
+DLG_PREF_059 = "使用者 2"
+DLG_PREF_060 = "使用者 3"
+DLG_PREF_061 = "套用(&L)"
+DLG_PREF_062 = "打印"
+DLG_PREF_063 = "上缘"
+DLG_PREF_064 = "下缘"
+DLG_PREF_065 = "左缘"
+DLG_PREF_066 = "右缘"
+DLG_PREF_067 = "整页为打印区"
+DLG_PREF_068 = "选取打印区:"
+DLG_PREF_069 = "宽度"
+DLG_PREF_070 = "高度"
+DLG_PREF_071 = "打印区置中"
+DLG_PREF_072 = "打印周边"
+DLG_PREF_073 = "一般比例"
+DLG_PREF_074 = "谱表间隔"
+DLG_PREF_075 = "音符间隔"
+DLG_PREF_076 = "节奏比例"
+DLG_PREF_077 = "和弦图示大小"
+DLG_PREF_078 = "图示位置"
+DLG_PREF_079 = "和弦名称位置'"
+DLG_PREF_080 = "文字内容位置"
+DLG_PREF_081 = "标题/作者 间隔"
+DLG_PREF_082 = "作者/吉他谱 间隔"
+DLG_PREF_083 = "标题字体:"
+DLG_PREF_084 = "作者字体:"
+DLG_PREF_085 = "注释字体:"
+DLG_PREF_086 = "页码字体:"
+DLG_PREF_087 = "音符字体:"
+DLG_PREF_088 = "和弦名称字体:"
+DLG_PREF_089 = "和弦图示字体:"
+DLG_PREF_090 = "文字内容字体:"
+DLG_PREF_091 = "拍号字体:"
+DLG_PREF_092 = "重复字体:"
+DLG_PREF_093 = "标题"
+DLG_PREF_094 = "作者"
+DLG_PREF_095 = "注释"
+DLG_PREF_096 = "三连音式, 调音..."
+DLG_PREF_097 = "页码"
+DLG_PREF_098 = "小节序数"
+DLG_PREF_099 = "和弦图示"
+DLG_PREF_100 = "和弦名称"
+DLG_PREF_101 = "和弦列于最上方"
+DLG_PREF_102 = "文字内容"
+DLG_PREF_103 = "音效"
+DLG_PREF_104 = "节奏线"
+DLG_PREF_105 = "检查是否所有文字内容看起来像黑方块"
+DLG_PREF_106 = "预览(&P)"
+DLG_PREF_107 = "??每小节强制Force x Bars per Staff:"
+
+*****************
+* BROWSE WINDOW *
+*****************
+
+DLG_BROWSE_000
+DLG_BROWSE_001 = "浏览工具"
+DLG_BROWSE_002 = "关闭"
+DLG_BROWSE_003 = "扫描子目录"
+DLG_BROWSE_004 = "演奏选取的文件"
+DLG_BROWSE_005 = "不跳下一首"
+DLG_BROWSE_006 = "1 小节后跳下一首"
+DLG_BROWSE_007 = "2 小节后跳下一首"
+DLG_BROWSE_008 = "5 小节后跳下一首"
+DLG_BROWSE_009 = "10 小节后跳下一首"
+DLG_BROWSE_010 = "25 小节后跳下一首"
+DLG_BROWSE_011 = "全曲完后跳下一首"
+DLG_BROWSE_012 = "标题:"
+DLG_BROWSE_013 = "作者:"
+DLG_BROWSE_014 = "注释:"
+DLG_BROWSE_015 = "小节数:"
+DLG_BROWSE_016 = "吉他/贝司/打击器:" { G=Guitar / B=Bass / P=Percussion }
+DLG_BROWSE_017 = "名称"
+DLG_BROWSE_018 = "大小"
+DLG_BROWSE_019 = "修改日期"
+DLG_BROWSE_020 = "位置"
+DLG_BROWSE_021 = "个文件"
+DLG_BROWSE_022 = "扫描..."
+DLG_BROWSE_023 = "停止"
+DLG_BROWSE_024 = "扫描子目录"
+DLG_BROWSE_025 = "读取文件..."
+
+****************
+* BRUSH WINDOW *
+****************
+
+DLG_BRUSH_000
+DLG_BRUSH_001 = "扫弦"
+DLG_BRUSH_002 = "扫弦音长"
+
+**************************
+* MIX TABLE EVENT WINDOW *
+**************************
+
+DLG_MIX_000
+DLG_MIX_001 = "综合叁数变化表"
+DLG_MIX_002 = "选取由此拍起欲改变的项目的新值, 以及转换所需时间 :"
+DLG_MIX_003 = "乐器"
+DLG_MIX_004 = "音量"
+DLG_MIX_005 = "左右平衡"
+DLG_MIX_006 = "和声"
+DLG_MIX_007 = "回音"
+DLG_MIX_008 = "拍速"
+DLG_MIX_009 = "立即"
+DLG_MIX_010 = "1 拍"
+DLG_MIX_011 = "%s 拍" { use plurial }
+DLG_MIX_012 = "新值"
+DLG_MIX_013 = "转换"
+
+************************************
+* COMPLETE/REDUCE ASSISTANT WINDOW *
+************************************
+
+DLG_ASS_CR_000
+DLG_ASS_CR_001 = "确认小节的排列?"
+
+*****************************
+* LET RING ASSISTANT WINDOW *
+*****************************
+
+DLG_ASS_LR_000
+DLG_ASS_LR_001 = "持续发声设定工具"
+DLG_ASS_LR_002 = "这个辅助工具让您可以一次对一群音符是否持续发声作处理."
+DLG_ASS_LR_003 = "小节范围(&B):"
+DLG_ASS_LR_004 = "至"
+DLG_ASS_LR_005 = "适用的弦:"
+DLG_ASS_LR_006 = "持续发声选项:"
+DLG_ASS_LR_007 = "是"
+DLG_ASS_LR_008 = "否"
+DLG_ASS_LR_009 = "未选取任何弦."
+
+******************************
+* FINGERING ASSISTANT WINDOW *
+******************************
+
+DLG_ASS_FG_000
+DLG_ASS_FG_001 = "自动调整指位"
+DLG_ASS_FG_002 = "小节(&B):"
+DLG_ASS_FG_003 = "至"
+
+******************************
+* TRANSPOSE ASSISTANT WINDOW *
+******************************
+
+DLG_ASS_TR_000
+DLG_ASS_TR_001 = "移调"
+DLG_ASS_TR_002 = "移调(&T):"
+DLG_ASS_TR_003 = "半音"
+
+***********************************
+* CHECK DURATION ASSISTANT WINDOW *
+***********************************
+
+DLG_ASS_CD_000
+DLG_ASS_CD_001 = "检查完毕."
+DLG_ASS_CD_002 = "小节 %s 的长度无效 - 音轨 %s."
+
+**********************************
+* SPEED TRAINER ASSISTANT WINDOW *
+**********************************
+
+DLG_ASS_ST_000
+DLG_ASS_ST_001 = "速度教练"
+DLG_ASS_ST_002 = "小节(&B):"
+DLG_ASS_ST_003 = "拍速(&T):"
+DLG_ASS_ST_004 = "至"
+DLG_ASS_ST_005 = "每一回合拍速改变(&E):"
+
+**************
+* CUT WINDOW *
+**************
+
+DLG_CUT_000
+DLG_CUT_001 = "剪下"
+DLG_CUT_002 = "小节(&B):"
+DLG_CUT_003 = "至"
+DLG_CUT_004 = "这项功能会剪下所有音轨中的小节. "
+DLG_CUT_005 = "若只是要剪下某音轨中的小节, 请使用 [复制]/[粘贴]."
+
+**********************
+* COPY/CLEAR WINDOWS *
+**********************
+
+DLG_COPY_000
+DLG_COPY_001 = "复制"
+DLG_COPY_002 = "清除"
+DLG_COPY_003 = "小节(&B):"
+DLG_COPY_004 = "至"
+DLG_COPY_005 = "全部音轨(&A)"
+DLG_COPY_006 = "仅目前音轨(&N)"
+
+*****************
+* PASTE WINDOWS *
+*****************
+
+DLG_PASTE_000
+DLG_PASTE_001 = "粘贴"
+DLG_PASTE_002 = "确认粘贴 %s 小节至目前音轨?"
+DLG_PASTE_003 = "确认粘贴 %s 小节至全部音轨?"
+DLG_PASTE_004 = "将剪贴板置入选取区(&P)"
+DLG_PASTE_005 = "将剪贴板插至选取区前(&I)"
+DLG_PASTE_006 = "将剪贴板加在乐谱结尾之后(&D)"
+DLG_PASTE_007 = "粘贴的次数(&U)"
+DLG_PASTE_008 = "不可将敲击乐器资料贴至音轨 1-7."
+DLG_PASTE_009 = "不可将音轨 1-7 资料贴至敲击乐器轨."
+DLG_PASTE_010 = "无法粘贴: 弦数与原音轨不同."
+
+******************
+* DYNAMIC WINDOW *
+******************
+
+DLG_DYNA_000
+DLG_DYNA_001 = "力度"
+DLG_DYNA_002 = "设为内定值"
+DLG_DYNA_003 = "将目前力度设定为新音符的内定力度"
+DLG_DYNA_004 = "用于和弦"
+DLG_DYNA_005 = "将力度用于整个和弦"
+
+*********************
+* GRACE NOTE WINDOW *
+*********************
+
+DLG_GRACE_000
+DLG_GRACE_001 = "装饰音"
+DLG_GRACE_002 = "音符(&N)"
+DLG_GRACE_003 = "音长(&D)"
+DLG_GRACE_004 = "力度"
+DLG_GRACE_005 = "闷音: X"
+DLG_GRACE_006 = "琴品:"
+
+****************
+* INTRO WINDOW *
+****************
+
+DLG_INTRO_000
+DLG_INTRO_001 = "您正使用的 Guitar Pro 试用版有 30 天的使用限制."
+DLG_INTRO_002 = "在这之后, 您必须注册才能够继续使用 Guitar Pro."
+DLG_INTRO_003 = "订购 Guitar Pro !"
+DLG_INTRO_004 = "让我试用直至..."
+DLG_INTRO_005 = "这试用版的限制是 :"
+DLG_INTRO_006 = "- 保存限于 24 小节"
+DLG_INTRO_007 = "- 打印时会加入注册相关文字"
+DLG_INTRO_008 = "- MIDI 及 ASCII 导入限于 50 音符"
+
+******************
+* LICENSE WINDOW *
+******************
+
+DLG_LIC_000
+DLG_LIC_001 = "许可证"
+DLG_LIC_002 = "您好, 首先谢谢您选用 Guitar Pro."
+DLG_LIC_003 = "我们希望您在使用时能感到完全满足."
+DLG_LIC_004 = "使用时, 您须要输入 USER ID 及 KEY ID 等资料."
+DLG_LIC_005 = "这些资料在包装盒上有列出."
+DLG_LIC_006 = "您现在正在使用临时许可证.若收到注册信息,请立即输入你的最终用户号(USER ID)和注册号(KEY ID)."
+
+************************
+* PRINT PREVIEW WINDOW *
+************************
+
+DLG_PRW_000
+DLG_PRW_001 = "预览打印"
+DLG_PRW_002 = "打印(&P)"
+DLG_PRW_003 = "偏好(&R)"
+
+****************
+* PRINT WINDOW *
+****************
+
+DLG_PRT_000
+DLG_PRT_001 = "打印"
+DLG_PRT_002 = "打印机:"
+DLG_PRT_003 = "全部"
+DLG_PRT_004 = "页数:"
+DLG_PRT_005 = "至"
+DLG_PRT_006 = "设定(&N)..."
+
+****************
+* CHORD WINDOW *
+****************
+
+DLG_CHORD_000
+DLG_CHORD_001 = "和弦"
+DLG_CHORD_002 = "初级"
+DLG_CHORD_003 = "中级"
+DLG_CHORD_004 = "全部"
+DLG_CHORD_005 = "转位"
+DLG_CHORD_006 = "低音"
+DLG_CHORD_007 = "请选择欲省略项目"
+DLG_CHORD_008 = "不同名称"
+DLG_CHORD_009 = "已使用"
+DLG_CHORD_010 = "列在上方"
+DLG_CHORD_011 = "资料库"
+DLG_CHORD_012 = "使用图示(&U)"
+DLG_CHORD_013 = "新增"
+DLG_CHORD_014 = "删除"
+DLG_CHORD_015 = "取代"
+DLG_CHORD_016 = "移上"
+DLG_CHORD_017 = "移下"
+DLG_CHORD_018 = "监听"
+DLG_CHORD_019 = "使用者"
+DLG_CHORD_020 = "首先, 请为和弦命名."
+DLG_CHORD_021 = "首先, 请选择欲删除的和弦."
+DLG_CHORD_022 = "确认删除和弦 %s ?"
+DLG_CHORD_023 = "首先, 请选择欲更新的和弦."
+DLG_CHORD_024 = "首先, 请选择欲移动的和弦."
+
+***************
+* TEXT WINDOW *
+***************
+
+DLG_TXT_000
+DLG_TXT_001 = "注解"
+DLG_TXT_002 = "文字内容(&T)"
+
+********************
+* GO TO BAR WINDOW *
+********************
+
+DLG_GOTOB_000
+DLG_GOTOB_001 = "移至小节..."
+DLG_GOTOB_002 = "小节(&B)"
+
+***************
+* BEND WINDOW *
+***************
+
+DLG_BEND_000
+DLG_BEND_001 = "推弦"
+DLG_BEND_002 = "推弦再释放"
+DLG_BEND_003 = "值(&V)"
+
+*********************
+* STROKE VIB WINDOW *
+*********************
+
+DLG_STROKV_000
+DLG_STROKV_001 = "压摇杆"
+DLG_STROKV_002 = "值(&V)"
+
+**********************
+* INSTRUMENTS WINDOW *
+**********************
+
+DLG_INSTR_000
+DLG_INSTR_001 = "乐器 (General MIDI)"
+
+*************************
+* TIME SIGNATURE WINDOW *
+*************************
+
+DLG_TIMES_000
+DLG_TIMES_001 = "拍号"
+DLG_TIMES_002 = "直到结束(&U)"
+
+*********************
+* REPEAT END WINDOW *
+*********************
+
+DLG_REPE_000
+DLG_REPE_001 = "重复终端"
+DLG_REPE_002 = "重复次数(&N)"
+
+****************************
+* ALTERNATE ENDINGS WINDOW *
+****************************
+
+DLG_DIFE_000
+DLG_DIFE_001 = "交替结束"
+DLG_DIFE_002 = "至"
+
+*********
+* FILES *
+*********
+
+FILES_000
+FILES_001 = "保存 %s 吗?"
+FILES_002 = "找不到文件 %s."
+FILES_003 = "文件 %s 已存在."
+FILES_004 = "您要取代它吗?"
+FILES_005 = "<未命名>" { name for a new file }
+FILES_006 = "无法开启文件. 放弃载入."
+FILES_007 = "不明文件. 放弃载入."
+FILES_008 = "欲开启此档, 请先升级您的 Guitar Pro."
+FILES_009 = "MIDI 错误"
+FILES_010 = "MIDI 格式无法辨识."
+FILES_011 = "Guitar Pro 文件"
+FILES_012 = "MIDI 文件"
+FILES_013 = "ASCII Tab 文件"
+FILES_014 = "所有文件"
+FILES_015 = "MIDI 导入"
+FILES_016 = "MIDI 导出"
+FILES_017 = "ASCII Tab 导入"
+FILES_018 = "ASCII Tab 导出"
+
+****************
+* ORDER WINDOW *
+****************
+
+DLG_REG_000
+DLG_REG_001 = "您喜欢 Guitar Pro 并且希望使用功能完全的版本?"
+DLG_REG_002 = "勿迟疑, 立即订购, 1小时内您将收到完全版本!"
+DLG_REG_003 = "除了没有任何限制外, 注册还有许多好处, 如:"
+DLG_REG_004 = "有权使用技术支持"
+DLG_REG_005 = "免费升级到4.x版本"
+DLG_REG_006 = "优惠的价格升级到以后的5.x版本"
+DLG_REG_007 = "获得更多关于软件价格,付款方式和分销商信息,清查阅我们的网站:"
+
+*****************************
+* REGISTER YOUR COPY WINDOW *
+*****************************
+
+DLG_REGC_000
+DLG_REGC_001 = "注册您的软件!"
+DLG_REGC_002 = "我们强烈建议您注册,注册后您能得到Guitar Pro完全版."
+DLG_REGC_003 = "注册只要几分钟,并且将带给您更多的好处, 如:"
+DLG_REGC_004 = "获取软件技术支持"
+DLG_REGC_005 = "免费升级到4.x版本"
+DLG_REGC_006 = "优惠的价格升级到以后的5.x版本"
+DLG_REGC_007 = "重要信息: 只有注册的正版软件用户,才能通过Guitar Pro,重新找回您丢失安装文件或软件许可证."
+DLG_REGC_008 = "网上注册."
+DLG_REGC_009 = "邮寄或传真注册"
+DLG_REGC_010 = "电话:"
+DLG_REGC_011 = "传真:"
+DLG_REGC_012 = "每次启动时显示此页"
+
+********************
+* ORDER PAPER FORM *
+********************
+
+DLG_REGPF_000
+DLG_REGPF_001 = "GUITAR PRO 订购表格 (使用 支票 或 欧元支票, 仅限法币)"
+DLG_REGPF_002 = "请完成表格中的项目 [ ],"
+DLG_REGPF_003 = "打印表格, 并邮寄或传真至 :"
+DLG_REGPF_004 = ""
+DLG_REGPF_005 = "至 %s."
+DLG_REGPF_006 = "订购"
+DLG_REGPF_007 = "使用 电子邮件 订购 Guitar Pro %s (升级版)"
+DLG_REGPF_008 = "使用 电子邮件 订购 Guitar Pro %s"
+DLG_REGPF_009 = "订购 Guitar Pro %s 光盘 + 运费"
+DLG_REGPF_010 = "有问题请立即与我们联系"
+DLG_REGPF_011 = "您的相关资料"
+DLG_REGPF_012 = "日期:"
+DLG_REGPF_013 = "名:"
+DLG_REGPF_014 = "姓:"
+DLG_REGPF_015 = "用户号码(USER ID):"
+DLG_REGPF_016 = "注册号(KEY ID):"
+DLG_REGPF_017 = "住址:"
+DLG_REGPF_018 = "邮递区号:"
+DLG_REGPF_019 = "城/市:"
+DLG_REGPF_020 = "州/省:"
+DLG_REGPF_021 = "国家"
+DLG_REGPF_022 = "电话:"
+DLG_REGPF_023 = "传真:"
+DLG_REGPF_024 = "电子邮件:"
+DLG_REGPF_025 = "评论:"
+DLG_REGPF_026 = "(若是您未订购 光盘, 请注意)"
+DLG_REGPF_027 = "您将于24小时内经由电子邮件收到软件，15天内收到光盘"
+DLG_REGPF_028 = "(如果您订购升级版)"
+
+*********************************
+* REGISTER YOUR COPY PAPER FORM *
+*********************************
+
+DLG_REGCPF_000
+DLG_REGCPF_001 = "注册 - GUITAR PRO 软件"
+DLG_REGCPF_002 = "请完成表格中的项目 [ ],"
+DLG_REGCPF_003 = "打印表格, 并邮寄或传真至 :"
+DLG_REGCPF_004 = "来自法国的传真号码"  { for the fax number }
+DLG_REGCPF_005 = "来自法国以外的传真号码"  { for the fax number }
+DLG_REGCPF_006 = "您的相关资料"
+DLG_REGCPF_007 = "日期:"
+DLG_REGCPF_008 = "版本:"
+DLG_REGCPF_009 = "名:"
+DLG_REGCPF_010 = "姓:"
+DLG_REGCPF_011 = "住址:"
+DLG_REGCPF_012 = "邮递区号:"
+DLG_REGCPF_013 = "城市:"
+DLG_REGCPF_014 = "州/省:"
+DLG_REGCPF_015 = "国家:"
+DLG_REGCPF_016 = "电话:"
+DLG_REGCPF_017 = "传真:"
+DLG_REGCPF_018 = "电子邮件:"
+DLG_REGCPF_019 = "(可见于软件包装上)"
+DLG_REGCPF_020 = "产品意见 (使用英文或法文)"
+DLG_REGCPF_021 = "您如何知道 Guitar Pro?"
+DLG_REGCPF_022 = "花了多少时间测试后，您才决定购买 Guitar Pro?"
+DLG_REGCPF_023 = "您如何使用 Guitar Pro (记谱, 练习, 其他...) ?"
+DLG_REGCPF_024 = "您由哪家店或哪个网站购买 Guitar Pro ?"
+DLG_REGCPF_025 = "评论, 建议, ..."
+
+********************
+* v3.0 BEND WINDOW *
+********************
+
+DLG300_BEND_000
+DLG300_BEND_001 = "推弦"
+DLG300_BEND_002 = "试听"
+DLG300_BEND_003 = "选取推弦方式 :"
+DLG300_BEND_004 = "按鼠标左键来增加或移除节点 (鼠标右键 = 颤音) :"
+DLG300_BEND_005 = "音长 = "
+DLG300_BEND_006 = "您的 MIDI 设定中 ([选项][Midi 设定])，推弦的上限为一个全音，所以无法试听音效."
+DLG300_BEND_007 = "对仅具基本功能的声卡而言，这个选项是必须的."
+
+**************************
+* v3.0 GRACE NOTE WINDOW *
+**************************
+
+DLG300_GRACE_000
+DLG300_GRACE_001 = "奏法"
+DLG300_GRACE_002 = "无"
+DLG300_GRACE_003 = "滑弦"
+DLG300_GRACE_004 = "推弦"
+DLG300_GRACE_005 = "捶弦"
+
+***********************
+* v3.0 MARKERS WINDOW *
+***********************
+
+DLG300_MARKERS_000
+DLG300_MARKERS_001 = "标记清单"
+DLG300_MARKERS_002 = "位置"
+DLG300_MARKERS_003 = "名称"
+DLG300_MARKERS_004 = "新增"
+DLG300_MARKERS_005 = "编辑"
+DLG300_MARKERS_006 = "删除"
+DLG300_MARKERS_007 = "位移"
+DLG300_MARKERS_008 = "确定删除标记 %s ?"
+DLG300_MARKERS_009 = "插入标记"
+DLG300_MARKERS_010 = "编辑标记"
+DLG300_MARKERS_011 = "小节 :"
+DLG300_MARKERS_012 = "颜色 :"
+DLG300_MARKERS_013 = "名称 :"
+DLG300_MARKERS_014 = "段落"
+
+********************************
+* v3.0 MIDI IMPORTATION WINDOW *
+********************************
+
+DLG300_IMPM_000
+DLG300_IMPM_001 = "MIDI 导入"
+DLG300_IMPM_002 = "MIDI 音轨 :"
+DLG300_IMPM_003 = "和弦位置最小单位"
+DLG300_IMPM_004 = "音长最小单位"
+DLG300_IMPM_005 = "下移八度音"
+DLG300_IMPM_006 = "快速导入"
+DLG300_IMPM_007 = "本模式将导入选取的音轨至新文件."
+DLG300_IMPM_008 = "调音会根据音轨的名称自动选定完成."
+DLG300_IMPM_009 = "每个音轨使用两个声道"
+DLG300_IMPM_010 = "导入 !"
+DLG300_IMPM_011 = "循序导入"
+DLG300_IMPM_012 = "本模式中您可以调整导入的方式，融合新旧音轨."
+DLG300_IMPM_013 = "导入主题与拍号变化."
+DLG300_IMPM_014 = "在 Guitar Pro 新增音轨..."
+DLG300_IMPM_015 = "导入选取的音轨至 Guitar Pro 目前的音轨."
+DLG300_IMPM_016 = "Guitar Pro 试用版只能导入 50 个音."
+DLG300_IMPM_017 = "若您喜欢 Guitar Pro, 请注册."
+DLG300_IMPM_018 = "显示窗口"
+DLG300_IMPM_019 = "隐藏窗口"
+DLG300_IMPM_020 = "不支持 MIDI 格式 %s . 请使用 MIDI 格式 0 或 1."
+DLG300_IMPM_021 = "请至少选取一 MIDI 音轨."
+DLG300_IMPM_022 = "选取全部音轨"
+DLG300_IMPM_023 = "取消所有选取的音轨"
+DLG300_IMPM_024 = "演奏选取的音轨"
+DLG300_IMPM_025 = "停止"
+DLG300_IMPM_026 = "开启另一文件"
+
+**************************
+* v3.0 MIDI SETUP WINDOW *
+**************************
+
+DLG300_MIDISETUP_000
+DLG300_MIDISETUP_001 = "MIDI 设定"
+DLG300_MIDISETUP_002 = "MIDI 输出"
+DLG300_MIDISETUP_003 = "端口"
+DLG300_MIDISETUP_004 = "设备"
+DLG300_MIDISETUP_005 = "乐器音色"
+DLG300_MIDISETUP_006 = "限制音高变化"
+DLG300_MIDISETUP_007 = "试听"
+DLG300_MIDISETUP_008 = "推弦或滑弦声音不对时请勾选 '限制音高变化' ."
+DLG300_MIDISETUP_009 = "对于低档声卡而言，并不支持音高变化超过一个全音."
+DLG300_MIDISETUP_010 = "不同的端口不能使用同一个设备."
+
+**************************
+* v3.0 SCORE INFO WINDOW *
+**************************
+
+DLG300_SCORE_INFO_000
+DLG300_SCORE_INFO_001 = "谱表信息"
+DLG300_SCORE_INFO_002 = "内定信息"
+DLG300_SCORE_INFO_003 = "主题"
+DLG300_SCORE_INFO_004 = "次主题"
+DLG300_SCORE_INFO_005 = "艺人"
+DLG300_SCORE_INFO_006 = "专辑"
+DLG300_SCORE_INFO_007 = "作者"
+DLG300_SCORE_INFO_008 = "版权"
+DLG300_SCORE_INFO_009 = "弦谱"
+DLG300_SCORE_INFO_010 = "指示"
+DLG300_SCORE_INFO_011 = "附注"
+DLG300_SCORE_INFO_012 = "三连音式 :"
+DLG300_SCORE_INFO_013 = "在此处填入用于新谱表的内定信息 :"
+
+**************************
+* v3.0 TRACK INFO WINDOW *
+**************************
+
+DLG300_TRACK_INFO_000
+DLG300_TRACK_INFO_001 = "新增音轨"
+DLG300_TRACK_INFO_002 = "类型"
+DLG300_TRACK_INFO_003 = "乐器"
+DLG300_TRACK_INFO_004 = "位置"
+DLG300_TRACK_INFO_005 = "最前面"
+DLG300_TRACK_INFO_006 = "最后面"
+DLG300_TRACK_INFO_007 = "置于前"
+DLG300_TRACK_INFO_008 = "置于后"
+DLG300_TRACK_INFO_009 = "音轨特性"
+DLG300_TRACK_INFO_010 = "颜色"
+DLG300_TRACK_INFO_011 = "班卓琴第五弦专用"
+DLG300_TRACK_INFO_012 = "将音轨配合新的调音移调 ?"
+
+***************************
+* v3.0 PREFERENCES WINDOW *
+***************************
+
+DLG300_PREF_000
+DLG300_PREF_001 = "Note Played Following"
+DLG300_PREF_002 = "Rectangle around the Bar"
+DLG300_PREF_003 = "Triangle under the Note"
+DLG300_PREF_004 = "音符高亮"
+
+*********************************
+* v3.0 ASCII IMPORTATION WINDOW *
+*********************************
+
+DLG300_IMPA_000
+DLG300_IMPA_001 = "弦的数目与目前音轨不同."
+DLG300_IMPA_002 = "请先修正目前音轨弦的数目."
+
+****************
+* v3.0 GENERAL *
+****************
+
+GENE300_000
+GENE300_001 = "最大支持音轨数目 :"
+GENE300_002 = "确定删除音轨 %s ?"
+GENE300_003 = "试用版无法打印谱表."
+GENE300_004 = "无" { for the MIDI ports }
+GENE300_005 = "无法开启 MIDI 端口 [%s]."
+GENE300_006 = "请关闭其他 MIDI 软件或修正 MIDI 设定."
+GENE300_007 = "未选取任何音色" { instrument patch }
+GENE300_008 = "找不到音色" { instrument patch }
+GENE300_009 = "由 %s 弹奏"
+GENE300_010 = "移至 %s"
+GENE300_011 = "鼓组"
+GENE300_012 = "仅限于鼓的音轨"
+GENE300_013 = "与 %s 连结"
+GENE300_014 = "保留给 %s"
+GENE300_015 = "免费"
+GENE300_016 = "试用版无法输出 GP 2.2 格式的文件."
+GENE300_017 = "请先开启文件并直接使用此功能."
+GENE300_018 = "Guitar Pro 2.2 文件"
+
+******************
+* v3.0 MIX TABLE *
+******************
+
+MIXT300_000
+MIXT300_001 = "全部缩排"
+MIXT300_002 = "全部展开"
+MIXT300_003 = "独奏"
+MIXT300_004 = "S" {abreviation of "Solo"}
+MIXT300_005 = "消音"
+MIXT300_006 = "M" {abreviation of "Mute"}
+MIXT300_007 = "名称" {of the track}
+MIXT300_008 = "端口"
+MIXT300_009 = "端口" {abreviation of "Port"}
+MIXT300_010 = "选取端口"
+MIXT300_011 = "主声道"
+MIXT300_012 = "Ch" {abreviation of "Main Channel"}
+MIXT300_013 = "主声道设定"
+MIXT300_014 = "音效声道"
+MIXT300_015 = "Ch2" {abreviation of "Effects Channel"}
+MIXT300_016 = "音效声道设定"
+MIXT300_017 = "乐器"
+MIXT300_018 = "音量"
+MIXT300_019 = "左右平衡"
+MIXT300_020 = "和声"
+MIXT300_021 = "回音"
+MIXT300_022 = "相位"
+MIXT300_023 = "颤音"
+MIXT300_024 = "不完整的音色"
+MIXT300_025 = "未选取任何音色"
+MIXT300_026 = "鼓组"
+
+*********************************
+* v3.0 DYNAMIC ASSISTANT WINDOW *
+*********************************
+
+DLG300_ASS_DY_000
+DLG300_ASS_DY_001 = "力度设定工具"
+DLG300_ASS_DY_002 = "这个工具帮助您一次改变一群音符的力度设定."
+DLG300_ASS_DY_003 = "小节范围:"
+DLG300_ASS_DY_004 = "至"
+DLG300_ASS_DY_005 = "欲设定的弦:"
+DLG300_ASS_DY_006 = "力度值:"
+DLG300_ASS_DY_007 = "未选取任何弦."
+
+**********************
+* v3.0 MENUS & HINTS *
+**********************
+
+MN300_000
+MN300_001 = "谱表信息"
+MN300_002 = "第一个" {for the track}
+MN300_003 = "上一个" {for the track}
+MN300_004 = "下一个" {for the track}
+MN300_005 = "最后" {for the track}
+MN300_006 = "上一轨"
+MN300_007 = "下一轨"
+MN300_008 = "性质" {for the track}
+MN300_009 = "音轨性质"
+MN300_010 = "新增" {for a track}
+MN300_011 = "新增音轨"
+MN300_012 = "删除" {for the track}
+MN300_013 = "第一个" {for the bar}
+MN300_014 = "上一个" {for the bar}
+MN300_015 = "下一个" {for the bar}
+MN300_016 = "最后" {for the bar}
+MN300_017 = "连结拍"
+MN300_018 = "连结音"
+MN300_019 = "拍长"
+MN300_020 = "音长"
+MN300_021 = "-无-" {means "no" triolet, -3-, -5-, ...}
+MN300_022 = "n-连音"
+MN300_023 = "拍" {n-tuplet on the beat}
+MN300_024 = "音" {n-tuplet on the note}
+MN300_025 = "推弦" {includes all "Bend" type effects}
+MN300_026 = "标记(&M)"
+MN300_027 = "插入标记"
+MN300_028 = "插入"
+MN300_029 = "标记清单"
+MN300_030 = "清单"
+MN300_031 = "移至上一个标记"
+MN300_032 = "上一个"
+MN300_033 = "移至标记"
+MN300_034 = "移至"
+MN300_035 = "移至下一个标记"
+MN300_036 = "下一个"
+MN300_037 = "未定义任何标记"
+MN300_038 = "由标记开始演奏"
+MN300_039 = "由目前位置开始演奏 (空格键)"
+MN300_040 = "工具(&O)"
+MN300_041 = "倒数"
+MN300_042 = "将系数套用于拍速"
+MN300_043 = "多轨显示"
+MN300_044 = "垂直卷动"
+MN300_045 = "水平卷动"
+MN300_046 = "编辑小节时显示规则间距"
+MN300_047 = "变换显示"
+MN300_048 = "工具列"
+MN300_049 = "标准" {name of the toolbar}
+MN300_050 = "小节" {name of the toolbar}
+MN300_051 = "标记" {name of the toolbar}
+MN300_052 = "显示" {name of the toolbar}
+MN300_053 = "拍长" {name of the toolbar}
+MN300_054 = "音长" {name of the toolbar}
+MN300_055 = "弹奏" {name of the toolbar}
+MN300_056 = "拍速" {name of the toolbar}
+MN300_057 = "音效" {name of the toolbar}
+MN300_058 = "力度" {name of the toolbar}
+MN300_059 = "全部" {afficher toutes les barres d'outils}
+MN300_060 = "全无" {n'afficher aucune barre d'outil}
+MN300_061 = "内定位置" {des barres d'outil}
+MN300_062 = "MIDI 设定"
+MN300_063 = "演奏时仍显示目前所在小节"
+MN300_064 = "Guitar Pro 2.2 格式"
+MN300_065 = "选项(&P)"
+MN300_066 = "捶弦 / 勾弦"
+MN300_067 = "滑弦"
+MN300_068 = "拍速"
+MN300_069 = "力度设定工具"
+MN300_070 = "移到开头"
+MN300_071 = "移到结尾"
+MN300_072 = "快速倒退"
+MN300_073 = "快速前进"
+MN300_074 = "循序倒退"
+MN300_075 = "循序前进"
+
+******************
+* v3.0 GP在线 *
+******************
+
+DLG300_GPONLINE_000
+DLG300_GPONLINE_001 = "GP 在线 (查看新版本)"
+DLG300_GPONLINE_002 = "GP 在线查看:"
+DLG300_GPONLINE_003 = "从不"
+DLG300_GPONLINE_004 = "每2个星期"
+DLG300_GPONLINE_005 = "每个月"
+DLG300_GPONLINE_006 = "每3个月"
+DLG300_GPONLINE_007 = "每6个月"
+DLG300_GPONLINE_008 = "如果已经上网,每次启动软件时,自动检查新的软件版本."
+DLG300_GPONLINE_009 = "网络上是否有了新的版本Guitar Pro?"
+DLG300_GPONLINE_010 = "你是否想启动GP在线?"
+DLG300_GPONLINE_011 = "注释 : To stop this verification, start GP在线 or go to the [Options|Preferences] menu item."
+DLG300_GPONLINE_012 = "You haven't used GP在线 for %s days."
+DLG300_GPONLINE_013 = "Note : To stop using GP在线 Reminder, go to the [Options|Preferences] menu item."
+
+***********************************
+* v4.0 PALM MUTE ASSISTANT WINDOW *
+***********************************
+ 
+DLG400_ASS_PM_000
+DLG400_ASS_PM_001 = "手掌制音选项"
+DLG400_ASS_PM_002 = "帮助使您可以改变一This assistant enables you to change the Palm Mute option for a group of note in just one move."
+DLG400_ASS_PM_003 = "Bar Range:"
+DLG400_ASS_PM_004 = "to"
+DLG400_ASS_PM_005 = "Strings concerned:"
+DLG400_ASS_PM_006 = "手掌制音选项:"
+DLG400_ASS_PM_007 = "Yes"
+DLG400_ASS_PM_008 = "No"
+DLG400_ASS_PM_009 = "No string selected."
+ 
+*****************************
+* v4.0 PERCUSSION ASSISTANT *
+*****************************
+ 
+DLG400_ASS_PERCU_000
+DLG400_ASS_PERCU_001 = "Use electric sounds when available"
+ 
+*******************************
+* v4.0 MIX TABLE EVENT WINDOW *
+*******************************
+ 
+DLG400_MIX_000
+DLG400_MIX_001 = "所有音轨"
+ 
+*********************
+* v4.0 CHORD WINDOW *
+*********************
+ 
+DLG400_CHORD_000
+DLG400_CHORD_001 = "指弹"
+ 
+*********************
+* v4.0 BRUSH WINDOW *
+*********************
+ 
+DLG400_BRUSH_000
+DLG400_BRUSH_001 = "Rasgueado"
+ 
+**************************
+* v4.0 TREMOLOBAR WINDOW *
+**************************
+ 
+DLG400_TREMOLOBAR_000
+DLG400_TREMOLOBAR_001 = "摇棒"
+DLG400_TREMOLOBAR_002 = "Select a Shape:";
+ 
+*********************
+* v4.0 TRILL WINDOW *
+*********************
+ 
+DLG400_TRILL_000
+DLG400_TRILL_001 = "颤音"
+DLG400_TRILL_002 = "颤音Note"
+DLG400_TRILL_003 = "周期"
+DLG400_TRILL_004 = "Fret:"
+ 
+*******************************
+* v4.0 BMP EXPORTATION WINDOW *
+*******************************
+ 
+DLG400_EXPBMP_000
+DLG400_EXPBMP_001 = "BMP Export"
+DLG400_EXPBMP_002 = "Export"
+DLG400_EXPBMP_003 = "Bitmap Files"
+ 
+*******************************
+* v4.0 BMP EXPORTATION WINDOW *
+*******************************
+ 
+DLG400_EXPWAV_000
+DLG400_EXPWAV_001 = "WAVE Export"
+DLG400_EXPWAV_002 = "Export"
+DLG400_EXPWAV_003 = "Quality:"
+DLG400_EXPWAV_004 = "WAVE Files"
+ 
+*************************
+* v4.0 FRETBOARD WINDOW *
+*************************
+ 
+DLG400_FRETBOARD_000
+DLG400_FRETBOARD_001 = "Selection of the display mode"
+DLG400_FRETBOARD_002 = "Show [Beat]"
+DLG400_FRETBOARD_003 = "Show [Beat] + [Bar]"
+DLG400_FRETBOARD_004 = "Show [Beat] + [Diagram]"
+DLG400_FRETBOARD_005 = "Show [Beat] + [Next Beat]"
+DLG400_FRETBOARD_006 = "Show [Beat] + [Scale]"
+DLG400_FRETBOARD_007 = "Show [Note Name]"
+DLG400_FRETBOARD_008 = "Show [Interval]"
+DLG400_FRETBOARD_009 = "Show [Degre]"
+DLG400_FRETBOARD_010 = "Indication of the note抯 name"
+DLG400_FRETBOARD_011 = "No name"
+DLG400_FRETBOARD_012 = "Name for [Beat]"
+DLG400_FRETBOARD_013 = "Name for [Beat] + [...]"
+DLG400_FRETBOARD_014 = "Background image for the fretboard"
+DLG400_FRETBOARD_015 = "Electric"
+DLG400_FRETBOARD_016 = "Acoustic"
+DLG400_FRETBOARD_017 = "Classical"
+DLG400_FRETBOARD_018 = "Basic"
+DLG400_FRETBOARD_019 = "Reverse the fretboard"
+DLG400_FRETBOARD_020 = "Open the scale tool"
+DLG400_FRETBOARD_021 = "Scales"
+DLG400_FRETBOARD_022 = "Move Left"
+DLG400_FRETBOARD_023 = "Move Right"
+ 
+************************
+* v4.0 KEYBOARD WINDOW *
+************************
+ 
+DLG400_KEYBOARD_000
+DLG400_KEYBOARD_001 = "Selection of the display mode"
+DLG400_KEYBOARD_002 = "Show [Beat]"
+DLG400_KEYBOARD_003 = "Show [Beat] + [Bar]"
+DLG400_KEYBOARD_004 = "Show [Beat] + [Next Beat]"
+DLG400_KEYBOARD_005 = "Show [Beat] + [Scale]"
+DLG400_KEYBOARD_006 = "Open the scale tool"
+DLG400_KEYBOARD_007 = "Scales"
+DLG400_KEYBOARD_008 = "Move Left"
+DLG400_KEYBOARD_009 = "Move Right"
+ 
+******************************
+* v4.0 KEY SIGNATURE WINDOW *
+******************************
+ 
+DLG400_KEYSIGN_000
+DLG400_KEYSIGN_001 = "Key Signature"
+DLG400_KEYSIGN_002 = "Until the End"
+DLG400_KEYSIGN_003 = "Mode"
+DLG400_KEYSIGN_004 = "major"
+DLG400_KEYSIGN_005 = "minor"
+ 
+***************************
+* v4.0 NEW TUNING WINDOW *
+***************************
+ 
+DLG400_NEWTUNE_000
+DLG400_NEWTUNE_001 = "New Tuning"
+DLG400_NEWTUNE_002 = "Choose a name for this new tuning:"
+ 
+**************************
+* v4.0 SCORE INFO WINDOW *
+**************************
+ 
+DLG400_SCORE_INFO_000
+DLG400_SCORE_INFO_001 = "Lyrics"
+DLG400_SCORE_INFO_002 = "Apply to Track:"
+DLG400_SCORE_INFO_003 = "If you modify the score, go back to this window and press OK to update the lyrics."
+DLG400_SCORE_INFO_004 = "Line %s"
+DLG400_SCORE_INFO_005 = "Start from Bar:"
+DLG400_SCORE_INFO_006 = "Read help file to use special symbols: -, + and []"
+DLG400_SCORE_INFO_007 = "Cut"
+DLG400_SCORE_INFO_008 = "Copy"
+DLG400_SCORE_INFO_009 = "Paste"
+ 
+**************************
+* v4.0 TRACK INFO WINDOW *
+**************************
+ 
+DLG400_TRACK_INFO_000
+DLG400_TRACK_INFO_001 = "Add this Tuning"
+DLG400_TRACK_INFO_002 = "Delete this Tuning"
+DLG400_TRACK_INFO_003 = "First select the Tuning you want to delete."
+DLG400_TRACK_INFO_004 = "Confirm the deletion of the Tuning %s?"
+DLG400_TRACK_INFO_005 = "You must first define the new Tuning, and then click on the ADD button to name it."
+DLG400_TRACK_INFO_006 = "You must choose a name for this new Tuning."
+DLG400_TRACK_INFO_007 = "This name is already being used."
+ 
+***************************
+* v4.0 PREFERENCES WINDOW *
+***************************
+ 
+DLG400_PREF_000
+DLG400_PREF_001 = "Automatic Backup"
+DLG400_PREF_002 = "Every"
+DLG400_PREF_003 = "actions"
+DLG400_PREF_004 = "Lyrics:"
+DLG400_PREF_005 = "Undo/Redo"
+DLG400_PREF_006 = "Disable Undo/Redo (slow computers)"
+ 
+***********************************
+* v4.0 TRANSPOSE ASSISTANT WINDOW *
+***********************************
+ 
+DLG400_ASS_TR_000
+DLG400_ASS_TR_001 = "Transpose all Tracks"
+ 
+*********************************
+* v4.0 SEARCH ON THE WEB WINDOW *
+*********************************
+ 
+DLG400_SEARCHONWEB_000
+DLG400_SEARCHONWEB_001 = "网上搜索"
+DLG400_SEARCHONWEB_002 = "搜索内容:"
+DLG400_SEARCHONWEB_003 = "输入你要要搜索的信息例如'satriani' 或 'elise' 或 ‘刘义君’"
+DLG400_SEARCHONWEB_004 = "位置:"
+DLG400_SEARCHONWEB_005 = "搜索!"
+DLG400_SEARCHONWEB_006 = "更新搜索网站列表"
+DLG400_SEARCHONWEB_007 = "找到 %s 个站点."
+DLG400_SEARCHONWEB_008 = "你必须先输入要搜索的信息,才能开始搜索."
+DLG400_SEARCHONWEB_009 = "无法连接到Guitar Pro 网站."
+ 
+***************************
+* v4.0 SCALES TOOL WINDOW *
+***************************
+ 
+DLG400_SCALES_000
+DLG400_SCALES_001 = "Scales"
+DLG400_SCALES_002 = "Listen"
+DLG400_SCALES_003 = "Scale Finder"
+DLG400_SCALES_004 = "Scan from Bar:"
+DLG400_SCALES_005 = "to"
+DLG400_SCALES_006 = "Find!"
+ 
+**********************
+* v4.0 MENUS & HINTS *
+**********************
+ 
+MN400_000
+MN400_001 = "First Track"
+MN400_002 = "Last Track"
+MN400_003 = "Delete the Track"
+MN400_004 = "插入一小节"
+MN400_005 = "Cut Bars"
+MN400_006 = "Copy Bars"
+MN400_007 = "Paste Bars"
+MN400_008 = "清空.."
+MN400_009 = "音调符号"
+MN400_010 = "双小结线"
+MN400_011 = "撤消"
+MN400_012 = "重做"
+MN400_013 = "升高半音"
+MN400_014 = "降低半音"
+MN400_015 = "左手弹奏"
+MN400_016 = "右手弹奏"
+MN400_017 = "拨片向上"
+MN400_018 = "拨片向下"
+MN400_019 = "重音"
+MN400_020 = "泛音"
+MN400_021 = "自然泛音"
+MN400_022 = "手工泛音"
+MN400_023 = "点弦泛音"
+MN400_024 = "拨片泛音"
+MN400_025 = "半拨片泛音"
+MN400_026 = "推弦"
+MN400_027 = "摇杆"
+MN400_028 = "滑"
+MN400_029 = "上滑"
+MN400_030 = "连音滑"
+MN400_031 = "Slide In from Below"
+MN400_032 = "Slide In from Above"
+MN400_033 = "Slide Out Downwards"
+MN400_034 = "Slide Out Upwards"
+MN400_035 = "大幅度颤音"
+MN400_036 = "颤音"
+MN400_037 = "拨片颤音"
+MN400_038 = "手掌制音"
+MN400_039 = "断音"
+MN400_040 = "数字调弦器"
+MN400_041 = "音阶"
+MN400_042 = "手掌制音选项"
+MN400_043 = "标准记谱"
+MN400_044 = "指板"
+MN400_045 = "键盘"
+MN400_046 = "菜单和工具栏"
+MN400_047 = "定制"
+MN400_048 = "重置工具栏位置"
+MN400_049 = "Old GP3 Glyphs"
+MN400_050 = "XP工具栏样式"
+MN400_051 = "Guitar Pro 3.0 Format"
+MN400_052 = "WAVE File (Audio)"
+MN400_053 = "BMP File (Image)"
+MN400_054 = "Menu" {name of the toolbar}
+MN400_055 = "Note" {name of the toolbar}
+MN400_056 = "指板" {name of the toolbar}
+MN400_057 = "键盘" {name of the toolbar}
+MN400_058 = "Track Selector" {name of the toolbar}
+MN400_059 = "Status Bar" {name of the toolbar}
+MN400_060 = "Windows音量控制"
+
+*********************
+* v4.0 INTRO WINDOW *
+*********************
+
+DLG400_INTRO_000
+DLG400_INTRO_001 = "你还有 %s1 天的使用期（共 %s2 天）."
+DLG400_INTRO_002 = "使用期已过。请准备注册."
+ 
+****************
+* v4.0 GENERAL *
+****************
+ 
+GENE400_000
+GENE400_001 = "In the demo version you cannot export into GP 3.0 format if the file has been modified."
+GENE400_002 = "You must open the file and directly use this export feature."
+GENE400_003 = "Guitar Pro 3.0 Files"
+GENE400_004 = "Guitar Pro did not close correctly during the last session, or another session is already open."
+GENE400_005 = "Do you want to restore the last backup file?"
+GENE400_006 = "The demo version does not allow you to export into BMP format."
+GENE400_007 = "Close Guitar Pro now and restart it in order to reset the Toolbars?respective positions."
+GENE400_008 = "You can now use the PLAY/STOP button to start and stop the recording."
+GENE400_009 = "You must be in vertical scrolling mode in order to use the BMP export."
+GENE400_010 = "The Cut/Copy/Paste features are limited to the 24 first bars in the demo version."
+GENE400_011 = "The clipboard is empty."
+GENE400_012 = "The clipboard抯 content is not compatible with the track(s)."
+GENE400_013 = "The file [%s] has been recorded."
+GENE400_014 = "Impossible to create the folder [%s]. Loading aborted."
+GENE400_015 = "Guitar Pro detected a prohibited modification [Code %s]. Loading aborted."
+GENE400_016 = "The font [%s] seems not to be correctly installed. We recommand that you install again Guitar Pro."
+
+*********************************
+* v4.0 WAVE EXPORT SETUP WINDOW *
+*********************************
+
+DLG400_WAVEEXPSETUP_000
+DLG400_WAVEEXPSETUP_001 = "WAVE Export Setup"
+DLG400_WAVEEXPSETUP_002 = "WAVE Input"
+DLG400_WAVEEXPSETUP_003 = "Line to use to record the MIDI output:"
+DLG400_WAVEEXPSETUP_004 = "Tip: If the WAVE exported file has no sound, test another line."
+DLG400_WAVEEXPSETUP_005 = "You must select a line."
+
+****************
+* v4.1 MIDI IN *
+****************
+ 
+MI410_000
+MI410_001 = "MIDI输入打开"
+MI410_002 = "不能打开MIDI设备. 检查设置”选项“菜单=>MIDI设置."
+MI410_003 = "MIDI 输入 (逐个音符)"
+MI410_004 = "设备"
+MI410_005 = "灵敏度"
+MI410_006 = "毫秒(两个音符间隔)" { "ms" for milliseconds }
+MI410_007 = "使用通道确定琴弦音效"
+MI410_008 = "第一个通道高音弦"
+MI410_009 = "第一个通道低音弦"
+MI410_010 = "没找到任何通道 (自动弹奏)"
+MI410_011 = "提示: 使用菜单'音乐->MIDI输入打开',直接捕捉MIDI乐器演奏."
+
+*********************
+* v5.0 ABOUT WINDOW *
+*********************
+ 
+DLG500_ABOUT_000
+DLG500_ABOUT_001 = "%s 和 %t 都是 %s 已在法国和其他国家注册的商标."
+DLG500_ABOUT_002 = "所有商标和以注册商标均归各自所有人所有, 并不属于%s公司所有."
+DLG500_ABOUT_003 = "Guitar Pro 小组"
+DLG500_ABOUT_004 = "原创概念＆原创软件"
+DLG500_ABOUT_005 = "RSE 原创概念＆原创声音采样"
+DLG500_ABOUT_006 = "开发"
+DLG500_ABOUT_007 = "设计"
+DLG500_ABOUT_008 = "翻译[%s]"
+DLG500_ABOUT_009 = "鸣谢"
+DLG500_ABOUT_010 = "相关音频技术"
+
+*********************************
+* v5.0 DYNAMIC ASSISTANT WINDOW *
+*********************************
+ 
+DLG500_ASS_DY_000
+DLG500_ASS_DY_001 = "选项"
+DLG500_ASS_DY_002 = "人声:"
+DLG500_ASS_DY_003 = "所有"
+DLG500_ASS_DY_004 = "主Lead"
+DLG500_ASS_DY_005 = "贝司"
+
+**********************************
+* v5.0 LET RING ASSISTANT WINDOW *
+**********************************
+ 
+DLG500_ASS_LR_000
+DLG500_ASS_LR_001 = "选项"
+DLG500_ASS_LR_002 = "人声:"
+DLG500_ASS_LR_003 = "所有"
+DLG500_ASS_LR_004 = "主Lead"
+DLG500_ASS_LR_005 = "贝司"
+
+***********************************
+* v5.0 PALM MUTE ASSISTANT WINDOW *
+***********************************
+ 
+DLG500_ASS_PM_000
+DLG500_ASS_PM_001 = "选项"
+DLG500_ASS_PM_002 = "人声:"
+DLG500_ASS_PM_003 = "所有"
+DLG500_ASS_PM_004 = "主Lead"
+DLG500_ASS_PM_005 = "贝司"
+
+*******************************
+* v5.0 MIX TABLE EVENT WINDOW *
+*******************************
+ 
+DLG500_MIX_000
+DLG500_MIX_001 = "使用 MIDI"
+DLG500_MIX_002 = "MIDI 库:"
+DLG500_MIX_003 = "使用 RSE"
+DLG500_MIX_004 = "无None" { used for Sound Bank list }
+DLG500_MIX_005 = "无None" { used for Effects list }
+
+***************************
+* v5.0 INSTRUMENTS WINDOW *
+***************************
+ 
+DLG500_INSTR_000
+DLG500_INSTR_001 = "使用 MIDI"
+DLG500_INSTR_002 = "MIDI 库:"
+DLG500_INSTR_003 = "使用 RSE"
+DLG500_INSTR_004 = "试听"
+DLG500_INSTR_005 = "声音库"
+DLG500_INSTR_006 = "无" { used for Sound Bank list }
+DLG500_INSTR_007 = "音效"
+DLG500_INSTR_008 = "无" { used for Effects list }
+DLG500_INSTR_009 = "节奏处自动加速" 
+DLG500_INSTR_010 = "否" { used for AutoAccentuation }
+DLG500_INSTR_011 = "非常轻柔"
+DLG500_INSTR_012 = "轻柔"
+DLG500_INSTR_013 = "中等"
+DLG500_INSTR_014 = "强"
+DLG500_INSTR_015 = "非常强"
+DLG500_INSTR_016 = "模拟乐手演奏"
+DLG500_INSTR_017 = "所有乐曲,放大器和效果器的注册商标都归其各自所有人所有,which are in no way associated or affiliated with %s."
+
+*****************************
+* v5.0 NOTE DURATION WINDOW *
+*****************************
+ 
+DLG500_NOTE_DURATION_000
+DLG500_NOTE_DURATION_001 = "声音延续"
+
+**************************
+* v5.0 GRACE NOTE WINDOW *
+**************************
+
+DLG500_GRACE_000
+DLG500_GRACE_001 = "Position"
+DLG500_GRACE_002 = "Before the Beat"
+DLG500_GRACE_003 = "On the Beat"
+
+************************
+* v5.0 HARMONIC WINDOW *
+************************
+
+DLG500_HARM_000
+DLG500_HARM_001 = "人工泛音"
+DLG500_HARM_002 = "人工泛音类型"
+DLG500_HARM_003 = "人工泛音"
+DLG500_HARM_004 = "点弦泛音"
+DLG500_HARM_005 = "紧缩泛音"
+DLG500_HARM_006 = "半泛音"
+DLG500_HARM_007 = "左手:"
+DLG500_HARM_008 = "右手:"
+
+**************************
+* v5.0 SCORE INFO WINDOW *
+**************************
+ 
+DLG500_SCORE_INFO_000
+DLG500_SCORE_INFO_001 = "文字"
+DLG500_SCORE_INFO_002 = "音乐"
+DLG500_SCORE_INFO_003 = "RSE 处理音效 (对所有音轨适用)"
+DLG500_SCORE_INFO_004 = "效果:"
+
+*********************
+* v5.0 PRINT WINDOW *
+*********************
+
+DLG500_PRT_000
+DLG500_PRT_001 = "位置"
+DLG500_PRT_002 = "大小:"
+DLG500_PRT_003 = "适于页面"
+DLG500_PRT_004 = "文档居中"
+
+********************************
+* v5.0 WAVE EXPORTATION WINDOW *
+********************************
+ 
+DLG500_EXPWAV_000
+DLG500_EXPWAV_001 = "波形文件导出"
+DLG500_EXPWAV_002 = "录音设备"
+DLG500_EXPWAV_003 = "声音音质"
+DLG500_EXPWAV_004 = "赫兹"
+DLG500_EXPWAV_005 = "比特"
+
+*******************************
+* v5.0 PAGE PROPERTIES WINDOW *
+*******************************
+ 
+DLG500_PAGE_PROP_000
+DLG500_PAGE_PROP_001 = "页面设置"
+DLG500_PAGE_PROP_002 = "刷新乐谱"
+DLG500_PAGE_PROP_003 = "存为默认设置"
+DLG500_PAGE_PROP_004 = "应用默认设置"
+DLG500_PAGE_PROP_005 = "页面格式"
+DLG500_PAGE_PROP_006 = "方向"
+DLG500_PAGE_PROP_007 = "纵向"
+DLG500_PAGE_PROP_008 = "横向"
+DLG500_PAGE_PROP_009 = "乐谱大小"
+DLG500_PAGE_PROP_010 = "缩放:"
+DLG500_PAGE_PROP_011 = "边缘"
+DLG500_PAGE_PROP_012 = "左"
+DLG500_PAGE_PROP_013 = "右"
+DLG500_PAGE_PROP_014 = "顶"
+DLG500_PAGE_PROP_015 = "底"
+DLG500_PAGE_PROP_016 = "页眉 和 页脚"
+DLG500_PAGE_PROP_017 = "标题"
+DLG500_PAGE_PROP_018 = "副标题"
+DLG500_PAGE_PROP_019 = "艺术家"
+DLG500_PAGE_PROP_020 = "专辑"
+DLG500_PAGE_PROP_021 = "歌词"
+DLG500_PAGE_PROP_022 = "作曲"
+DLG500_PAGE_PROP_023 = "词曲"
+DLG500_PAGE_PROP_024 = "版权"
+DLG500_PAGE_PROP_025 = "页号"
+
+******************************
+* v5.0 TIME SIGNATURE WINDOW *
+******************************
+
+DLG500_TIMES_000
+DLG500_TIMES_001 = "Beam Eighth Notes By"
+DLG500_TIMES_002 = "Total"
+
+***********************
+* v5.0 SYNCOPE WINDOW *
+***********************
+
+DLG500_SYNCOPE_000
+DLG500_SYNCOPE_001 = "模拟三连音"
+DLG500_SYNCOPE_002 = "不模拟三连音"
+DLG500_SYNCOPE_003 = "三连音 8th"
+DLG500_SYNCOPE_004 = "三连音 16th"
+DLG500_SYNCOPE_005 = "直到末尾"
+
+**************************
+* v5.0 TRACK INFO WINDOW *
+**************************
+ 
+DLG500_TRACK_INFO_000
+DLG500_TRACK_INFO_001 = "记谱号"
+DLG500_TRACK_INFO_002 = "标准记谱号"
+DLG500_TRACK_INFO_003 = "古记谱法"
+DLG500_TRACK_INFO_004 = "古记谱法 [品格 = midi 记谱]"
+DLG500_TRACK_INFO_005 = "Style"
+DLG500_TRACK_INFO_006 = "Indicate Tuning on the Score"
+DLG500_TRACK_INFO_007 = "Show Rhythmic with Tab"
+DLG500_TRACK_INFO_008 = "Force Horizontal Beams"
+DLG500_TRACK_INFO_009 = "Diagrams List On Top of the Score"
+DLG500_TRACK_INFO_010 = "Diagrams In the Score"
+DLG500_TRACK_INFO_011 = "Diagrams/Chords Below the Standard Notation"
+DLG500_TRACK_INFO_012 = "Channels"
+DLG500_TRACK_INFO_013 = "Force Channels 11 to 16"
+
+***************************
+* v5.0 PREFERENCES WINDOW *
+***************************
+ 
+DLG500_PREF_000
+DLG500_PREF_001 = "启动时"
+DLG500_PREF_002 = "显示欢迎屏"
+DLG500_PREF_003 = "自动打开上次编辑的文件"
+DLG500_PREF_004 = "视图"
+DLG500_PREF_005 = "自动切换多轨视图"
+DLG500_PREF_006 = "回放"
+DLG500_PREF_007 = "编辑时回放"
+DLG500_PREF_008 = "编辑时强制使用MIDI回放"
+
+*********************
+* v5.0 ORDER WINDOW *
+*********************
+
+DLG500_REG_000
+DLG500_REG_001 = "免费得到5.x版所有的升级"
+DLG500_REG_002 = "优惠升级到6版"
+
+**********************************
+* v5.0 REGISTER YOUR COPY WINDOW *
+**********************************
+
+DLG500_REGC_000
+DLG500_REGC_001 = "免费得到5.x版所有的升级"
+DLG500_REGC_002 = "优惠升级到6版"
+
+************
+* v5.0 RSE *
+************
+
+RSE500_000
+RSE500_001 = "RSE 读取中"
+RSE500_002 = "读取 %s"
+RSE500_003 = "RSE 错误 %s"
+RSE500_004 = "No Default Preset for Track %s"
+RSE500_005 = "RSE CPU:"
+
+********************
+* v5.0 LOOP WINDOW *
+********************
+
+DLG500_LOOP_000
+DLG500_LOOP_001 = "重复播放 / 速度教练"
+DLG500_LOOP_002 = "简单重复"
+DLG500_LOOP_003 = "速度教练"
+
+***********************************
+* v5.0 TRANSPOSE ASSISTANT WINDOW *
+***********************************
+
+DLG500_ASS_TR_000
+DLG500_ASS_TR_001 = "如果可能保持弹奏"
+
+**********************
+* v5.0 IMPORT WINDOW *
+**********************
+
+DLG500_IMPORT_000
+DLG500_IMPORT_001 = "%s 导入"
+DLG500_IMPORT_002 = "信息"
+DLG500_IMPORT_003 = "文件名:"
+DLG500_IMPORT_004 = "文件格式:"
+DLG500_IMPORT_005 = "乐谱标题:"
+DLG500_IMPORT_006 = "乐谱作者:"
+DLG500_IMPORT_007 = "版本:"
+DLG500_IMPORT_008 = "Progression"
+DLG500_IMPORT_009 = "Result"
+
+**************************
+* v5.0 PTB IMPORT WINDOW *
+**************************
+
+DLG500_PTB_IMP_000
+DLG500_PTB_IMP_001 = "PowerTab Import"
+DLG500_PTB_IMP_002 = "Import Mode"
+DLG500_PTB_IMP_003 = "Complete Score"
+DLG500_PTB_IMP_004 = "Guitars Only"
+DLG500_PTB_IMP_005 = "Basses Only"
+DLG500_PTB_IMP_006 = "Options"
+DLG500_PTB_IMP_007 = "Keep Break Lines"
+DLG500_PTB_IMP_008 = "File [%s] not found"
+DLG500_PTB_IMP_009 = "File [%s] is not a valid PowerTab File"
+DLG500_PTB_IMP_010 = "Only v1.7 Files are supported"
+DLG500_PTB_IMP_011 = "Invalid Data"
+DLG500_PTB_IMP_012 = "Error while retrieving element [%s] - Invalid Powertab File"
+DLG500_PTB_IMP_013 = "Invalid Data [ReleaseType]"
+DLG500_PTB_IMP_014 = "Problem while parsing data. File is probably invalid"
+DLG500_PTB_IMP_015 = "Parsing Header..."
+DLG500_PTB_IMP_016 = "Parsing Guitar Tracks..."
+DLG500_PTB_IMP_017 = "Parsing Bass Tracks..."
+DLG500_PTB_IMP_018 = "Parsing Fonts..."
+DLG500_PTB_IMP_019 = "Parsing Completed"
+DLG500_PTB_IMP_020 = "Converting Header..."
+DLG500_PTB_IMP_021 = "Converting Guitar Tracks..."
+DLG500_PTB_IMP_022 = "Converting Bass Tracks..."
+DLG500_PTB_IMP_023 = "Import Completed"
+DLG500_PTB_IMP_024 = "Import Aborted"
+
+**************************
+* v5.0 TEF IMPORT WINDOW *
+**************************
+
+DLG500_TEF_IMP_000
+DLG500_TEF_IMP_001 = "The file [%s] is not a TablEdit file."
+DLG500_TEF_IMP_002 = "Cannot open the file [%s]."
+DLG500_TEF_IMP_003 = "Access to an inexistant chord"
+DLG500_TEF_IMP_004 = "Access to an inexistant bar"
+DLG500_TEF_IMP_005 = "Number of strings cannot be %s - Erroneous TablEdit file"
+DLG500_TEF_IMP_006 = "The harmonica's track has not been imported"
+DLG500_TEF_IMP_007 = "The accordion's track has not been imported"
+DLG500_TEF_IMP_008 = "Transformation from 'syncopation change' to 'triplet feel 8th'"
+DLG500_TEF_IMP_009 = "Triolet error in the bar %s of the track %t"
+DLG500_TEF_IMP_010 = "Triolet error in the bar %s on the second voice of the track %t"
+DLG500_TEF_IMP_011 = "Rhythmic modification on the bar %s of the track %t (double dotted note simulation)."
+DLG500_TEF_IMP_012 = "Rhythmic modification on the bar %s of the track %t"
+DLG500_TEF_IMP_013 = "No Error"
+
+**************************
+* v5.0 XML IMPORT WINDOW *
+**************************
+
+DLG500_XML_IMP_000
+DLG500_XML_IMP_001 = "Import failed: must be PARTWISE or TIMEWISE."
+DLG500_XML_IMP_002 = "Invalid XML file."
+
+**************************
+* v5.0 PDF EXPORT WINDOW *
+**************************
+
+DLG500_PDF_EXP_000
+DLG500_PDF_EXP_001 = "PDF Document already opened in PDF viewer. Close it before using PDF Export."
+
+**************************
+* v5.0 BMP EXPORT WINDOW *
+**************************
+
+DLG500_BMP_EXP_000
+DLG500_BMP_EXP_001 = "Impossible to write the file. BMP Export aborted."
+DLG500_BMP_EXP_002 = "Out Of Memory. BMP Export aborted."
+
+*********************************
+* v5.0 SEARCH ON THE WEB WINDOW *
+*********************************
+
+DLG500_TAB_WEB_000
+DLG500_TAB_WEB_001 = "没有可用站点.请先使用[升级搜索站点]功能."
+
+***************************
+*  v5.0 NEW TUNING WINDOW *
+***************************
+
+DLG500_NEWTUNE_000
+DLG500_NEWTUNE_001 = "Label on the score:"
+DLG500_NEWTUNE_002 = "Default MIDI Instrument:"
+
+****************************************
+* v5.0 CHECK DURATION ASSISTANT WINDOW *
+****************************************
+
+DLG500_ASS_CD_000
+DLG500_ASS_CD_001 = "Invalid bar-length at bar %s - track %s - voice %s."
+
+****************
+* v5.0 GENERAL *
+****************
+ 
+GENE500_000
+GENE500_001 = "In the demo version you cannot export into GP4 format if the file has been modified."
+GENE500_002 = "You must open the file and directly use this export feature."
+GENE500_003 = "Guitar Pro 4 Files"
+GENE500_004 = "Bitmap Files"
+GENE500_005 = "Wave Files"
+GENE500_006 = "PDF Files"
+GENE500_007 = "PowerTab Files"
+GENE500_008 = "TablEdit Files"
+GENE500_009 = "MusicXML Files"
+
+**********************
+* v5.0 MENUS & HINTS *
+**********************
+
+MN500_000
+MN500_001 = "Guitar Pro 4文件格式"
+MN500_002 = "页面设置"
+MN500_003 = "编辑"
+MN500_004 = "全选"
+MN500_005 = "Voices"
+MN500_006 = "Edit Voice 1 [Lead]"
+MN500_007 = "Edit Voice 2 [Bass]"
+MN500_008 = "Gray Inactive Voice"
+MN500_009 = "三连音"
+MN500_010 = "乐谱表记"
+MN500_011 = "Break Line"
+MN500_012 = "Force Break Line"
+MN500_013 = "Prevent Break Line"
+MN500_014 = "Reset Bar Organization"
+MN500_015 = "乐器"
+MN500_016 = "向上"
+MN500_017 = "向下"
+MN500_018 = "持久发声"
+MN500_019 = "符点音符"
+MN500_020 = "强制三连音括号"
+MN500_021 = "自动"
+MN500_022 = "Force Beams"
+MN500_023 = "断开"
+MN500_024 = "Break Secondary Beams"
+MN500_025 = "自动调整"
+MN500_026 = "方向翻转"
+MN500_027 = "加强音符力度"
+MN500_028 = "关闭" { for WahWah }
+MN500_029 = "打开" { for WahWah }
+MN500_030 = "显示 [Wah On]" { for WahWah => do not change term [Wah On]}
+MN500_031 = "关闭" { for WahWah }
+MN500_032 = "循环播放 / 速度教练"
+MN500_033 = "使用RSE音效[仿真声音引擎]"
+MN500_034 = "页面模式"
+MN500_035 = "连续纸模式"
+MN500_036 = "垂直屏幕显示"
+MN500_037 = "水平屏幕显示"
+MN500_038 = "隐藏标准五线谱"
+MN500_039 = "隐藏六线谱"
+MN500_040 = "工具图标"
+MN500_041 = "声音持续时间"
+MN500_042 = "乐谱" {name of the toolbar}
+MN500_043 = "移调" {name of the toolbar}
+
+**************************
+* v5.0 REPEAT END WINDOW *
+**************************
+
+DLG500_REPE_000
+DLG500_REPE_001 = "播放"
+DLG500_REPE_002 = "次数"
+
+******************
+* v5.0 ADDTIONAL *
+******************
+
+ADD500_000
+ADD500_001 = "播放"
+ADD500_002 = "品柱"
+ADD500_003 = "访问Guitar Pro官方网站"
+ADD500_004 = "艺术家:"
+
+*************
+* v5.0 DEMO *
+*************
+
+DEMO500_000
+DEMO500_001 = "The demo version does not allow you to export into MusicXML format."
+DEMO500_002 = "What's RSE?" { instrument window }
+DEMO500_003 = "The evaluation period has ended."
+DEMO500_004 = "Saving limited to 24 bars"
+DEMO500_005 = "[Demo Version] mention on the Printing and Exports"
+DEMO500_006 = "MusicXML Export disabled"
+DEMO500_007 = "RSE [Realistic Sound Engine] disabled"
+DEMO500_008 = "The RSE [Realistic Sound Engine] offers a unique playback rendering in real time, without any special sound card or additional material."
+DEMO500_009 = "It is only available in the complete version of Guitar Pro."
+DEMO500_010 = "Sample using Standard MIDI Playback"
+DEMO500_011 = "Sample using RSE Playback"
+DEMO500_012 = "Click here" { clickable part of the sentence }
+DEMO500_013 = "to listen to more RSE Samples" { end of the sentence }
+
+**********************
+* v5.1 MENUS & HINTS *
+*********************
+
+MN510_000
+MN510_001 = "Change Accidental"
+MN510_002 = "声音设置 (MIDI/RSE)"
+
+********************************
+* v5.1 WAVE EXPORTATION WINDOW *
+********************************
+ 
+DLG510_EXPWAV_000
+DLG510_EXPWAV_001 = "提示信息"
+DLG510_EXPWAV_002 = "音质:"
+DLG510_EXPWAV_003 = "帮助:"
+DLG510_EXPWAV_004 = "- 确保 [Stereo Mix]录音音量下面的'选择'框被选中"
+DLG510_EXPWAV_005 = "- 确保 [Stereo Mix]录音音量足够大"
+DLG510_EXPWAV_006 = "单击右边的图片打开 录音音量设置."
+
+*********************
+* v5.1 DEBUG WINDOW *
+*********************
+ 
+DLG510_DEBUG_000
+DLG510_DEBUG_001 = "调试"
+DLG510_DEBUG_002 = "登陆Guitar Pro网站,获得支持(英文)"
+DLG510_DEBUG_003 = "关闭Guitar Pro"
+DLG510_DEBUG_004 = "继续使用Guitar Pro"
+DLG510_DEBUG_005 = "致命错误"
+DLG510_DEBUG_006 = "如果您需要联系GUITAR PRO寻求支持,"
+DLG510_DEBUG_007 = "请单击下面的按钮并且粘贴"
+DLG510_DEBUG_008 = "这个报告到你的消息,使用Ctrl+v键."
+DLG510_DEBUG_009 = "您还可以把正在编辑的GUITAR PRO文件作为附件,于电子邮件同时发出,"
+DLG510_DEBUG_010 = "简要介绍您最后执行的操作,帮助我们判断问题原因."
+
+***************************
+* v5.1 INSTRUMENTS WINDOW *
+***************************
+ 
+DLG510_INSTR_000
+DLG510_INSTR_001 = "设为默认值"
+DLG510_INSTR_002 = "声音 [%s] 所作的修改将影响到默认的MIDI乐曲 [%t]. 您确定吗?"
+DLG510_INSTR_003 = "自动"
+DLG510_INSTR_004 = "自动发声"
+DLG510_INSTR_005 = "自动扫弦"
+DLG510_INSTR_006 = "3段 EQ"
+DLG510_INSTR_007 = "低音" 
+DLG510_INSTR_008 = "中音"
+DLG510_INSTR_009 = "高音" 
+DLG510_INSTR_010 = "预放大" { means "PRE-AMP" }
+
+**************************
+* v5.1 MIDI SETUP WINDOW *
+**************************
+
+DLG510_MIDISETUP_000
+DLG510_MIDISETUP_001 = "声音设置"
+DLG510_MIDISETUP_002 = "RSE 设置"
+DLG510_MIDISETUP_003 = "输出"
+DLG510_MIDISETUP_004 = "声音"
+DLG510_MIDISETUP_005 = "声卡"
+DLG510_MIDISETUP_006 = "DSP/VST 缓存"
+DLG510_MIDISETUP_007 = "缓存大小(采样数为单位)"
+DLG510_MIDISETUP_008 = "缓存数"
+DLG510_MIDISETUP_009 = "格式"
+DLG510_MIDISETUP_010 = "频率"
+DLG510_MIDISETUP_011 = "通道"
+DLG510_MIDISETUP_012 = "采样精度"
+DLG510_MIDISETUP_013 = "采样方法"
+DLG510_MIDISETUP_014 = "虚拟和声数"
+DLG510_MIDISETUP_015 = "延时"
+DLG510_MIDISETUP_016 = "默认"
+DLG510_MIDISETUP_017 = "单声道"
+DLG510_MIDISETUP_018 = "立体声"
+DLG510_MIDISETUP_019 = "不内插"
+DLG510_MIDISETUP_020 = "线性内插法"
+DLG510_MIDISETUP_021 = "三次插值"
+DLG510_MIDISETUP_022 = "5次插值"
+
+**************************
+* v5.1 SCORE INFO WINDOW *
+**************************
+ 
+DLG510_SCORE_INFO_000
+DLG510_SCORE_INFO_001 = "左"
+DLG510_SCORE_INFO_002 = "声谱"
+DLG510_SCORE_INFO_003 = "右"
+DLG510_SCORE_INFO_004 = "主音量"
+DLG510_SCORE_INFO_005 = "主混响"
+DLG510_SCORE_INFO_006 = "10段 EQ"
+DLG510_SCORE_INFO_007 = "预放大" { means "PRE-AMP" }
+DLG510_SCORE_INFO_008 = "- 平均化 -"
+
+**************************
+* v5.1 TRACK INFO WINDOW *
+**************************
+ 
+DLG510_TRACK_INFO_000
+DLG510_TRACK_INFO_001 = "在乐谱中扩展节奏"
+
+*********************************
+* v5.1 SEARCH ON THE WEB WINDOW *
+*********************************
+ 
+DLG510_SEARCHONWEB_000
+DLG510_SEARCHONWEB_001 = "按歌曲名"
+DLG510_SEARCHONWEB_002 = "按歌手名"
+
+*********************
+* v5.1 TEMPO WINDOW *
+*********************
+ 
+DLG510_TEMPO_000
+DLG510_TEMPO_001 = "隐藏"
+
+*********************************************
+* v5.1 MAC MAIN TOOLBAR TEXTS UNDER BUTTONS *
+*********************************************
+
+MAC510_MAINTOOLBAR_000
+MAC510_MAINTOOLBAR_001 = "新建"
+MAC510_MAINTOOLBAR_002 = "打开"
+MAC510_MAINTOOLBAR_003 = "信息"
+MAC510_MAINTOOLBAR_004 = "页面设置"
+MAC510_MAINTOOLBAR_005 = "打印"
+MAC510_MAINTOOLBAR_006 = "撤消"
+MAC510_MAINTOOLBAR_007 = "重做"
+MAC510_MAINTOOLBAR_008 = "剪切"
+MAC510_MAINTOOLBAR_009 = "复制"
+MAC510_MAINTOOLBAR_010 = "粘贴"
+MAC510_MAINTOOLBAR_011 = "音轨属性"
+MAC510_MAINTOOLBAR_012 = "乐器"
+MAC510_MAINTOOLBAR_013 = "属性"
+MAC510_MAINTOOLBAR_014 = "播放"
+MAC510_MAINTOOLBAR_015 = "停止"
+MAC510_MAINTOOLBAR_016 = "第1小节"
+MAC510_MAINTOOLBAR_017 = "前一小节"
+MAC510_MAINTOOLBAR_018 = "下一小节"
+MAC510_MAINTOOLBAR_019 = "最后"
+
+*************************
+* v5.1 MAC ALERT PANELS *
+*************************
+
+MAC510_ALERTPANEL_000
+MAC510_ALERTPANEL_001 = "是否在文档中,保存您所做修改?"
+MAC510_ALERTPANEL_002 = "如果不保存,您所作的修改,将全部丢失."
+MAC510_ALERTPANEL_003 = "不保存"
+MAC510_ALERTPANEL_004 = "取消"
+MAC510_ALERTPANEL_005 = "保存"
+MAC510_ALERTPANEL_006 = "皮肤没找到"
+
+****************************
+* v5.1 MAC GUITAR PRO MENU *
+****************************
+
+MAC510_GUITARPROMENU_000
+MAC510_GUITARPROMENU_001 = "关于Guitar Pro"
+MAC510_GUITARPROMENU_002 = "隐藏Guitar Pro"
+MAC510_GUITARPROMENU_003 = "隐藏其它"
+MAC510_GUITARPROMENU_004 = "显示所有"
+MAC510_GUITARPROMENU_005 = "退出程序"
+
+**********************
+* v5.1 MAC FILE MENU *
+**********************
+
+MAC510_FILEMENU_000
+MAC510_FILEMENU_001 = "打开最近文件"
+MAC510_FILEMENU_002 = "清除菜单"
+MAC510_FILEMENU_003 = "关闭"
+MAC510_FILEMENU_004 = "打印设置..."
+
+***********************
+* v5.1 MAC SOUND MENU *
+***********************
+
+MAC510_SOUNDMENU_000
+MAC510_SOUNDMENU_001 = "RSE 设置..."
+MAC510_SOUNDMENU_002 = "速度 = "
+
+************************
+* v5.1 MAC WINDOW MENU *
+************************
+
+MAC510_WINDOWMENU_000
+MAC510_WINDOWMENU_001 = "窗口"
+MAC510_WINDOWMENU_002 = "最小化"
+MAC510_WINDOWMENU_003 = "放大"
+MAC510_WINDOWMENU_004 = "工具窗口"
+MAC510_WINDOWMENU_005 = "播放"
+MAC510_WINDOWMENU_006 = "音轨"
+MAC510_WINDOWMENU_007 = "Drawer"
+MAC510_WINDOWMENU_008 = "定制工具栏..."
+MAC510_WINDOWMENU_009 = "全部置于顶层"
+
+**********************
+* v5.1 MAC HELP MENU *
+**********************
+
+MAC510_HELPMENU_000
+MAC510_HELPMENU_001 = "Guitar Pro软件帮助"

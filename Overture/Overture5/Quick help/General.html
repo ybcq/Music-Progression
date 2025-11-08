@@ -1,0 +1,175 @@
+﻿<html>
+	
+<head>
+	<title>General</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("General");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">General</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="OvertureMenus.html">Overture Menus</a> &rsaquo;&rsaquo; <a href="OptionsMenu.html">Options Menu</a> &rsaquo;&rsaquo; <a href="Preferences.html">Preferences</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="Preferences.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="Preferences.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="Playback.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<h3 class="rvps13"><span class="rvts0"><span class="rvts21">Preferences&gt;General Tab</span></span></h3>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">To view the general preferences, [click the </span><span class="rvts12">General</span><span class="rvts6"> tab].</span></p>
+<p class="rvps2"><span class="rvts6">Use the check boxes to enable (check) or disable (uncheck) various general options. The following sections discuss these options.</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/Preferences-General.png"></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Default document folder</span></p>
+<p class="rvps2"><span class="rvts6">Set this path to tell Overture where to open and save scores.</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Middle C Is</span></p>
+<p class="rvps2"><span class="rvts6">Use this option to establish how Overture names middle C.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">C3</span><span class="rvts6">. Overture displays Middle C (MIDI note #60) as C3—a convention adopted by Yamaha and some other manufacturers. </span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">C4</span><span class="rvts6">. Overture displays Middle C (MIDI note #60) as C4—the standard MIDI convention. </span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">C5</span><span class="rvts6">. Overture displays Middle C (MIDI note #60) as C5—a convention adopted by some other manufactures. </span></li>
+</ul>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Note type</span></p>
+<p class="rvps2"><span class="rvts6">Use this option to establish how Overture names middle C.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Standard</span><span class="rvts6">. Uses the normal display technique with respect to note names. Overture identifies pitches by the note name and octave (C#3). </span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">B=H</span><span class="rvts6">. Overture identifies pitch B as H and the pitch Bb as B. It identifies other pitches normally. This convention is prevalent in Germany and other parts of Europe. </span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Solfege</span><span class="rvts6">. Overture identifies pitches based on the Do, Re, Mi, Fa, So, La, Ti, Do convention for the C major scale. The pitch description includes the octave number and Overture identifies chromatic pitches as sharp or flat from the C major scale intervals. For example, F#4 is identified as Fa#4. </span></li>
+</ul>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Drag Notes Chromatically</span></p>
+<p class="rvps2"><span class="rvts6">Use this option to determine whether Overture changes notes chromatically or diatonically when you drag them in the Score View. </span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Checked</span><span class="rvts6">. When you drag a note vertically in the Score View, its pitch changes chromatically (according to the twelve-tone scale). </span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Unchecked</span><span class="rvts6">. When you drag a note vertically in the Score View, its pitch changes diatonically (according to the key of the measure). </span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">For more information, see </span><a class="rvts11" href="EditingNotationSymbols.html">Editing Notes</a><span class="rvts6">.</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Skip tied notes in lyrics</span></p>
+<p class="rvps2"><span class="rvts6">Use this option to specify that lyrics should treat tied notes as a single entity by placing only one word under the first of the tied notes.</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Add double bar for key changes</span></p>
+<p class="rvps2"><span class="rvts6">Use this option to insert double bar lines automatically before key changes.</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Advance cursor when entering notes</span></p>
+<p class="rvps2"><span class="rvts6">Use this option if you want the mouse cursor to automatically move to the next note position after entering a note or rest with the mouse.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Advance cursor after paste</span></p>
+<p class="rvps2"><span class="rvts6">Use this option if you want the mouse cursor to automatically move to the next end of the pasted section.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Don't draw rehearsal mark enclosures</span></p>
+<p class="rvps2"><span class="rvts6">Use this option if you do want an enclosure draw around rehearsal marks.</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Show all controller and key switch names in menus</span></p>
+<p class="rvps2"><span class="rvts6">Use this option if you want all names to be shown in the pop-up menus when choosing controllers and key switches. If this option is unchecked only the appropriate names will be shown for the current track and voice.</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Save palette positions with score</span></p>
+<p class="rvps2"><span class="rvts6">Use this option if you want Overture to save the current palette states with a score. This will tell Overture to restore the palette states when the score is opened.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Draw slurs while inserting</span></p>
+<p class="rvps2"><span class="rvts6">Use this option if you want to draw the actual slur curve when using the Slur Tool. If not selected, the Slur Tool will be used to select the notes first and then attach a slur to them.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Leave inserted symbol selected</span></p>
+<p class="rvps2"><span class="rvts6">Use this option if you want the new inserted symbol to remain selected. This allows you to reposition or delete the symbols using your computer keyboard,</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Show Undo/Redo buttons</span></p>
+<p class="rvps2"><span class="rvts6">Use this option if you want Undo and Redo buttons to be shown on the Control Bar. This is useful for touch screen computers that are not using a keyboard,</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Show large symbol palettes</span></p>
+<p class="rvps2"><span class="rvts6">Use this option to enlarge the symbol palettes when you are using a high definition monitor and the palette symbols appear small,</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Use full screen during playback</span></p>
+<p class="rvps2"><span class="rvts6">Use this option to enlarge the symbol palettes when you are using a high definition monitor and the palette symbols appear small.</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Open graphic data with linear view</span></p>
+<p class="rvps2"><span class="rvts6">Use this option if you want the Graphic Data view to open when switching to Linear view.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Fit imported files entirely in view</span></p>
+<p class="rvps2"><span class="rvts6">Use this option to have Overture fit the entire score in the view after importing,</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Enter Notes directly in Step Input</span></p>
+<p class="rvps2"><span class="rvts6">Use this option to have Overture enter the note immediately after you type a pitch (A-G)</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Place plugin windows on top</span></p>
+<p class="rvps2"><span class="rvts6">Use this option to force plugin windows to remain on top of your main window. If, they will be moved behind when you click on the main window.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Show guitar frames on new scores</span></p>
+<p class="rvps2"><span class="rvts6">Use this option if you want to have chords shown with their guitar fingering on new scores,</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Auto Save Score Every [x] Minutes</span></p>
+<p class="rvps2"><span class="rvts6">Use this option if you want to backup your score at a set interval. Set the path to tell Overture where to save the scores as a backup.</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

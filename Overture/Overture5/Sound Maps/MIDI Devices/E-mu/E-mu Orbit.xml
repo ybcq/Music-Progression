@@ -1,0 +1,659 @@
+
+<VSTNameDocument name="E-mu Orbit">
+<Version>1</Version>
+<Author>Sonic Scores</Author>
+<Device type="MIDI"/>
+<Instruments>
+  <Section name="Presets RAM A" bankHigh="0" bankLow="0" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="bas:Membrace" prgChg="1"/>
+    <Instrument name="syn:Raunch" prgChg="2"/>
+    <Instrument name="pad:AmbiWind" prgChg="3"/>
+    <Instrument name="org:OrgyOrg" prgChg="4"/>
+    <Instrument name="led:SqurAnim" prgChg="5"/>
+    <Instrument name="hit:Da Hits" prgChg="6"/>
+    <Instrument name="vox:Jaxvox" prgChg="7"/>
+    <Instrument name="sfx:LFOrbit" prgChg="8"/>
+    <Instrument name="scr:SkrachIt" prgChg="9"/>
+    <Instrument name="drm:YinYank" prgChg="10"/>
+    <Instrument name="bas:Rounder" prgChg="11"/>
+    <Instrument name="bas:Chirp" prgChg="12"/>
+    <Instrument name="bas:Phazy" prgChg="13"/>
+    <Instrument name="bas:MuthaFun" prgChg="14"/>
+    <Instrument name="bas:Subking" prgChg="15"/>
+    <Instrument name="bas:Juno 1" prgChg="16"/>
+    <Instrument name="bas:Juno 2" prgChg="17"/>
+    <Instrument name="bas:Sawzy" prgChg="18"/>
+    <Instrument name="bas:TeeBee 1" prgChg="19"/>
+    <Instrument name="bas:TeeBee 2" prgChg="20"/>
+    <Instrument name="bas:Orbiting" prgChg="21"/>
+    <Instrument name="bas:CZish" prgChg="22"/>
+    <Instrument name="bas:Squinky" prgChg="23"/>
+    <Instrument name="bas:Bottomer" prgChg="24"/>
+    <Instrument name="bas:Housed" prgChg="25"/>
+    <Instrument name="bas:Add Dist" prgChg="26"/>
+    <Instrument name="bas:Lowdown" prgChg="27"/>
+    <Instrument name="bas:Phlappy" prgChg="28"/>
+    <Instrument name="bas:Quaked" prgChg="29"/>
+    <Instrument name="bas:Funk Up" prgChg="30"/>
+    <Instrument name="bas:Upwrong" prgChg="31"/>
+    <Instrument name="bas:DB9 And" prgChg="32"/>
+    <Instrument name="bas:SuperSub" prgChg="33"/>
+    <Instrument name="bas:Thick Q" prgChg="34"/>
+    <Instrument name="bas:Punch" prgChg="35"/>
+    <Instrument name="bas:Dualrezz" prgChg="36"/>
+    <Instrument name="syn:303 Love" prgChg="37"/>
+    <Instrument name="syn:Modestal" prgChg="38"/>
+    <Instrument name="syn:Wheely 1" prgChg="39"/>
+    <Instrument name="syn:Wheely 2" prgChg="40"/>
+    <Instrument name="syn:Wheely 3" prgChg="41"/>
+    <Instrument name="syn:Wheely 4" prgChg="42"/>
+    <Instrument name="syn:Wheely 5" prgChg="43"/>
+    <Instrument name="syn:CZisms" prgChg="44"/>
+    <Instrument name="syn:5 Oclock" prgChg="45"/>
+    <Instrument name="syn:Air Head" prgChg="46"/>
+    <Instrument name="syn:Dig-it-o" prgChg="47"/>
+    <Instrument name="syn:Q-Rex" prgChg="48"/>
+    <Instrument name="syn:SynBrass" prgChg="49"/>
+    <Instrument name="syn:BrssSwll" prgChg="50"/>
+    <Instrument name="syn:Whiziwig" prgChg="51"/>
+    <Instrument name="syn:1KeyRush" prgChg="52"/>
+    <Instrument name="syn:1KeyStak" prgChg="53"/>
+    <Instrument name="syn:StarCykl" prgChg="54"/>
+    <Instrument name="syn:1KeyBobi" prgChg="55"/>
+    <Instrument name="syn:Lo NaNa" prgChg="56"/>
+    <Instrument name="syn:Hard" prgChg="57"/>
+    <Instrument name="syn:Numb" prgChg="58"/>
+    <Instrument name="syn:D-struct" prgChg="59"/>
+    <Instrument name="syn:Technal1" prgChg="60"/>
+    <Instrument name="syn:Technal2" prgChg="61"/>
+    <Instrument name="syn:Technal3" prgChg="62"/>
+    <Instrument name="syn:Technal4" prgChg="63"/>
+    <Instrument name="syn:Technal5" prgChg="64"/>
+    <Instrument name="syn:Technal6" prgChg="65"/>
+    <Instrument name="syn:Technal7" prgChg="66"/>
+    <Instrument name="syn:Technal8" prgChg="67"/>
+    <Instrument name="syn:Technal9" prgChg="68"/>
+    <Instrument name="syn:Technl10" prgChg="69"/>
+    <Instrument name="syn:Droopers" prgChg="70"/>
+    <Instrument name="syn:Galladme" prgChg="71"/>
+    <Instrument name="syn:Grungorg" prgChg="72"/>
+    <Instrument name="syn:Vowler" prgChg="73"/>
+    <Instrument name="syn:Lowdown" prgChg="74"/>
+    <Instrument name="syn:Nostril" prgChg="75"/>
+    <Instrument name="syn:Alienar" prgChg="76"/>
+    <Instrument name="syn:SkitchMe" prgChg="77"/>
+    <Instrument name="syn:Toxen" prgChg="78"/>
+    <Instrument name="syn:Excapes" prgChg="79"/>
+    <Instrument name="syn:Motion" prgChg="80"/>
+    <Instrument name="syn:Meltdown" prgChg="81"/>
+    <Instrument name="syn:Pizzaz" prgChg="82"/>
+    <Instrument name="syn:Algy" prgChg="83"/>
+    <Instrument name="syn:Lazerine" prgChg="84"/>
+    <Instrument name="syn:Tracklin" prgChg="85"/>
+    <Instrument name="syn:Bewitchd" prgChg="86"/>
+    <Instrument name="syn:PianoSax" prgChg="87"/>
+    <Instrument name="syn:Bigpoly" prgChg="88"/>
+    <Instrument name="syn:Syntuari" prgChg="89"/>
+    <Instrument name="syn:LogBlock" prgChg="90"/>
+    <Instrument name="syn:OB,Oh My" prgChg="91"/>
+    <Instrument name="syn:SweptSaw" prgChg="92"/>
+    <Instrument name="syn:OB Padd" prgChg="93"/>
+    <Instrument name="syn:SquareHi" prgChg="94"/>
+    <Instrument name="syn:JunPhase" prgChg="95"/>
+    <Instrument name="syn:Cyberan" prgChg="96"/>
+    <Instrument name="syn:BatPhaze" prgChg="97"/>
+    <Instrument name="syn:Whoolva" prgChg="98"/>
+    <Instrument name="syn:PowerJP6" prgChg="99"/>
+    <Instrument name="syn:WizBrass" prgChg="100"/>
+    <Instrument name="syn:Reckers" prgChg="101"/>
+    <Instrument name="syn:Blip" prgChg="102"/>
+    <Instrument name="syn:Arpleed" prgChg="103"/>
+    <Instrument name="syn:CZsyncer" prgChg="104"/>
+    <Instrument name="pad:Falling" prgChg="105"/>
+    <Instrument name="pad:Swirls" prgChg="106"/>
+    <Instrument name="pad:JP Pad" prgChg="107"/>
+    <Instrument name="pad:Padjump" prgChg="108"/>
+    <Instrument name="pad:Chordal" prgChg="109"/>
+    <Instrument name="pad:Qxtenu" prgChg="110"/>
+    <Instrument name="pad:Zayer" prgChg="111"/>
+    <Instrument name="pad:Histeria" prgChg="112"/>
+    <Instrument name="pad:Swipe" prgChg="113"/>
+    <Instrument name="pad:Oh Yes" prgChg="114"/>
+    <Instrument name="pad:Ican" prgChg="115"/>
+    <Instrument name="pad:SawEkoes" prgChg="116"/>
+    <Instrument name="pad:Twilight" prgChg="117"/>
+    <Instrument name="pad:Classico" prgChg="118"/>
+    <Instrument name="pad:BetaBlok" prgChg="119"/>
+    <Instrument name="pad:CybaQlok" prgChg="120"/>
+    <Instrument name="pad:Krystals" prgChg="121"/>
+    <Instrument name="pad:WispaSor" prgChg="122"/>
+    <Instrument name="pad:Fizzikal" prgChg="123"/>
+    <Instrument name="pad:Cellular" prgChg="124"/>
+    <Instrument name="pad:CloudsHi" prgChg="125"/>
+    <Instrument name="pad:Globules" prgChg="126"/>
+    <Instrument name="pad:Glimmers" prgChg="127"/>
+    <Instrument name="pad:Squarz" prgChg="128"/>
+  </Section>
+  <Section name="Presets RAM B" bankHigh="0" bankLow="1" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="pad:KoolMoov" prgChg="1"/>
+    <Instrument name="org:Cheezoid" prgChg="2"/>
+    <Instrument name="org:OtherOrg" prgChg="3"/>
+    <Instrument name="org:QpidsOrg" prgChg="4"/>
+    <Instrument name="org:ModBusta" prgChg="5"/>
+    <Instrument name="org:Stroller" prgChg="6"/>
+    <Instrument name="org:FatPumps" prgChg="7"/>
+    <Instrument name="org:AirRotor" prgChg="8"/>
+    <Instrument name="org:Synorgy" prgChg="9"/>
+    <Instrument name="org:Orby O" prgChg="10"/>
+    <Instrument name="cmp:Slap Org" prgChg="11"/>
+    <Instrument name="cmp:DigiLog" prgChg="12"/>
+    <Instrument name="cmp:At U" prgChg="13"/>
+    <Instrument name="cmp:P Wave" prgChg="14"/>
+    <Instrument name="cmp:Klavit" prgChg="15"/>
+    <Instrument name="cmp:Danscomp" prgChg="16"/>
+    <Instrument name="led:Asidic" prgChg="17"/>
+    <Instrument name="led:5th Lead" prgChg="18"/>
+    <Instrument name="led:OrbiTar" prgChg="19"/>
+    <Instrument name="led:FazeWarp" prgChg="20"/>
+    <Instrument name="led:Squeege" prgChg="21"/>
+    <Instrument name="led:Ekophase" prgChg="22"/>
+    <Instrument name="led:Hiweed" prgChg="23"/>
+    <Instrument name="led:M12Lead" prgChg="24"/>
+    <Instrument name="led:Blipee" prgChg="25"/>
+    <Instrument name="led:SynkOsci" prgChg="26"/>
+    <Instrument name="led:5Brass" prgChg="27"/>
+    <Instrument name="led:Crunched" prgChg="28"/>
+    <Instrument name="led:DancTalk" prgChg="29"/>
+    <Instrument name="led:SquareJn" prgChg="30"/>
+    <Instrument name="led:Realsync" prgChg="31"/>
+    <Instrument name="led:Nervosa" prgChg="32"/>
+    <Instrument name="led:OBe Lead" prgChg="33"/>
+    <Instrument name="led:Saxxen" prgChg="34"/>
+    <Instrument name="led:Jawzer" prgChg="35"/>
+    <Instrument name="led:Syntuar" prgChg="36"/>
+    <Instrument name="led:Avalanch" prgChg="37"/>
+    <Instrument name="led:Dig In" prgChg="38"/>
+    <Instrument name="led:DistFuel" prgChg="39"/>
+    <Instrument name="led:Raze" prgChg="40"/>
+    <Instrument name="led:PulzHard" prgChg="41"/>
+    <Instrument name="led:SawzHard" prgChg="42"/>
+    <Instrument name="hit:BadBreth" prgChg="43"/>
+    <Instrument name="hit:AmString" prgChg="44"/>
+    <Instrument name="hit:Big Hits" prgChg="45"/>
+    <Instrument name="hit:Crashed" prgChg="46"/>
+    <Instrument name="hit:Suspense" prgChg="47"/>
+    <Instrument name="hit:VoxFinal" prgChg="48"/>
+    <Instrument name="hit:StringIt" prgChg="49"/>
+    <Instrument name="hit:HornyHit" prgChg="50"/>
+    <Instrument name="hit:Honk" prgChg="51"/>
+    <Instrument name="hit:Carhorn" prgChg="52"/>
+    <Instrument name="hit:HomeVox" prgChg="53"/>
+    <Instrument name="hit:DanceHit" prgChg="54"/>
+    <Instrument name="hit:Cluster" prgChg="55"/>
+    <Instrument name="hit:Airz Eez" prgChg="56"/>
+    <Instrument name="hit:WiggleIt" prgChg="57"/>
+    <Instrument name="hit:RazzyHit" prgChg="58"/>
+    <Instrument name="hit:BlipWhip" prgChg="59"/>
+    <Instrument name="hit:Thataboy" prgChg="60"/>
+    <Instrument name="hit:Pan'dVox" prgChg="61"/>
+    <Instrument name="hit:FrettedQ" prgChg="62"/>
+    <Instrument name="hit:X Hit" prgChg="63"/>
+    <Instrument name="hit:PJChaos" prgChg="64"/>
+    <Instrument name="hit:String" prgChg="65"/>
+    <Instrument name="hit:Techyes" prgChg="66"/>
+    <Instrument name="hit:Volt" prgChg="67"/>
+    <Instrument name="hit:Wazzer" prgChg="68"/>
+    <Instrument name="hit:Mell" prgChg="69"/>
+    <Instrument name="hit:Smoky" prgChg="70"/>
+    <Instrument name="hit:Zapt" prgChg="71"/>
+    <Instrument name="hit:StatU" prgChg="72"/>
+    <Instrument name="hit:Parade" prgChg="73"/>
+    <Instrument name="hit:WoodShed" prgChg="74"/>
+    <Instrument name="hit:Krytal" prgChg="75"/>
+    <Instrument name="vox:StarFall" prgChg="76"/>
+    <Instrument name="vox:Dweller" prgChg="77"/>
+    <Instrument name="vox:Alanis" prgChg="78"/>
+    <Instrument name="vox:Voxerize" prgChg="79"/>
+    <Instrument name="vox:MoonKiss" prgChg="80"/>
+    <Instrument name="vox:BreathIt" prgChg="81"/>
+    <Instrument name="vox:Chiffons" prgChg="82"/>
+    <Instrument name="vox:Hissvox" prgChg="83"/>
+    <Instrument name="vox:Gotham" prgChg="84"/>
+    <Instrument name="vox:Wahvox" prgChg="85"/>
+    <Instrument name="sfx:ChaosHit" prgChg="86"/>
+    <Instrument name="sfx:ScrapHit" prgChg="87"/>
+    <Instrument name="sfx:Orbifone" prgChg="88"/>
+    <Instrument name="sfx:Rainman" prgChg="89"/>
+    <Instrument name="sfx:Quixotic" prgChg="90"/>
+    <Instrument name="sfx:Zipup" prgChg="91"/>
+    <Instrument name="sfx:Vinylist" prgChg="92"/>
+    <Instrument name="sfx:FeelnDwn" prgChg="93"/>
+    <Instrument name="sfx:Iklesal" prgChg="94"/>
+    <Instrument name="sfx:Metadump" prgChg="95"/>
+    <Instrument name="sfx:Qwhipper" prgChg="96"/>
+    <Instrument name="drm:Split  1" prgChg="97"/>
+    <Instrument name="drm:Split  2" prgChg="98"/>
+    <Instrument name="drm:Split  3" prgChg="99"/>
+    <Instrument name="drm:Randhous" prgChg="100"/>
+    <Instrument name="drm:LayaBeat" prgChg="101"/>
+    <Instrument name="drm:LayaHipz" prgChg="102"/>
+    <Instrument name="drm:Skratcha" prgChg="103"/>
+    <Instrument name="drm:ToneItUp" prgChg="104"/>
+    <Instrument name="drm:WeirdKit" prgChg="105"/>
+    <Instrument name="drm:Itchinz" prgChg="106"/>
+    <Instrument name="drm:F Drum" prgChg="107"/>
+    <Instrument name="drm:NoyzSlap" prgChg="108"/>
+    <Instrument name="drm:Clavfone" prgChg="109"/>
+    <Instrument name="drm:Electro" prgChg="110"/>
+    <Instrument name="drm:Javava" prgChg="111"/>
+    <Instrument name="drm:SnareGun" prgChg="112"/>
+    <Instrument name="drm:WhlRollz" prgChg="113"/>
+    <Instrument name="drm:CongaGun" prgChg="114"/>
+    <Instrument name="drm:CongaWhl" prgChg="115"/>
+    <Instrument name="drm:Rollz" prgChg="116"/>
+    <Instrument name="drm:SpltRoll" prgChg="117"/>
+    <Instrument name="drm:Raw Tomz" prgChg="118"/>
+    <Instrument name="drm:Raw Timz" prgChg="119"/>
+    <Instrument name="drm:RawCongz" prgChg="120"/>
+    <Instrument name="drm:Raw Hatz" prgChg="121"/>
+    <Instrument name="drm:Raw Cymz" prgChg="122"/>
+    <Instrument name="drm:RawClapz" prgChg="123"/>
+    <Instrument name="drm:RawRacaz" prgChg="124"/>
+    <Instrument name="drm:Raw Kick" prgChg="125"/>
+    <Instrument name="drm:RawSnare" prgChg="126"/>
+    <Instrument name="drm:Raw Tom" prgChg="127"/>
+    <Instrument name="drm:RawSplit" prgChg="128"/>
+  </Section>
+  <Section name="Presets ROM A" bankHigh="0" bankLow="2" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="bas:Membrace" prgChg="1"/>
+    <Instrument name="syn:Raunch" prgChg="2"/>
+    <Instrument name="pad:AmbiWind" prgChg="3"/>
+    <Instrument name="org:OrgyOrg" prgChg="4"/>
+    <Instrument name="led:SqurAnim" prgChg="5"/>
+    <Instrument name="hit:Da Hits" prgChg="6"/>
+    <Instrument name="vox:Jaxvox" prgChg="7"/>
+    <Instrument name="sfx:LFOrbit" prgChg="8"/>
+    <Instrument name="scr:SkrachIt" prgChg="9"/>
+    <Instrument name="drm:YinYank" prgChg="10"/>
+    <Instrument name="bas:Sweepy" prgChg="11"/>
+    <Instrument name="bas:Peaker" prgChg="12"/>
+    <Instrument name="bas:Wheely" prgChg="13"/>
+    <Instrument name="bas:Rahleese" prgChg="14"/>
+    <Instrument name="bas:2600Down" prgChg="15"/>
+    <Instrument name="bas:Detuner" prgChg="16"/>
+    <Instrument name="bas:Q Bass" prgChg="17"/>
+    <Instrument name="bas:Hybrid" prgChg="18"/>
+    <Instrument name="bas:PPG" prgChg="19"/>
+    <Instrument name="bas:Wetnick" prgChg="20"/>
+    <Instrument name="bas:Closer" prgChg="21"/>
+    <Instrument name="bas:Buttnick" prgChg="22"/>
+    <Instrument name="bas:Organic" prgChg="23"/>
+    <Instrument name="bas:Funkt Up" prgChg="24"/>
+    <Instrument name="bas:SpaceOut" prgChg="25"/>
+    <Instrument name="bas:Spikehed" prgChg="26"/>
+    <Instrument name="bas:Grunger" prgChg="27"/>
+    <Instrument name="bas:DB Wow" prgChg="28"/>
+    <Instrument name="bas:Place" prgChg="29"/>
+    <Instrument name="bas:Gruz" prgChg="30"/>
+    <Instrument name="bas:Krypton" prgChg="31"/>
+    <Instrument name="bas:Attacker" prgChg="32"/>
+    <Instrument name="bas:Shandar" prgChg="33"/>
+    <Instrument name="bas:Subelube" prgChg="34"/>
+    <Instrument name="bas:Tapistry" prgChg="35"/>
+    <Instrument name="bas:Sighn" prgChg="36"/>
+    <Instrument name="bas:Piggy" prgChg="37"/>
+    <Instrument name="bas:Tap" prgChg="38"/>
+    <Instrument name="bas:Fazinate" prgChg="39"/>
+    <Instrument name="bas:Hurt" prgChg="40"/>
+    <Instrument name="bas:FM Bass" prgChg="41"/>
+    <Instrument name="bas:Oddman" prgChg="42"/>
+    <Instrument name="bas:Stonker" prgChg="43"/>
+    <Instrument name="bas:KinElSqr" prgChg="44"/>
+    <Instrument name="bas:FinkSink" prgChg="45"/>
+    <Instrument name="bas:Spank Me" prgChg="46"/>
+    <Instrument name="bas:CeeZeeIt" prgChg="47"/>
+    <Instrument name="bas:SpiceGut" prgChg="48"/>
+    <Instrument name="syn:Zoomwave" prgChg="49"/>
+    <Instrument name="syn:Synthi 1" prgChg="50"/>
+    <Instrument name="syn:Synthi 2" prgChg="51"/>
+    <Instrument name="syn:Synthi 3" prgChg="52"/>
+    <Instrument name="syn:Synthi 4" prgChg="53"/>
+    <Instrument name="syn:Synthi 5" prgChg="54"/>
+    <Instrument name="syn:Synthi 6" prgChg="55"/>
+    <Instrument name="syn:Synthi 7" prgChg="56"/>
+    <Instrument name="syn:Synthi 8" prgChg="57"/>
+    <Instrument name="syn:Synthi 9" prgChg="58"/>
+    <Instrument name="syn:SnSplt 1" prgChg="59"/>
+    <Instrument name="syn:SnSplt 2" prgChg="60"/>
+    <Instrument name="syn:SnSplt 3" prgChg="61"/>
+    <Instrument name="syn:SnSplt 4" prgChg="62"/>
+    <Instrument name="syn:SnSplt 5" prgChg="63"/>
+    <Instrument name="syn:SnSplt 6" prgChg="64"/>
+    <Instrument name="syn:Cheziano" prgChg="65"/>
+    <Instrument name="syn:Starlett" prgChg="66"/>
+    <Instrument name="syn:Catapila" prgChg="67"/>
+    <Instrument name="syn:Rezeler" prgChg="68"/>
+    <Instrument name="syn:Clusterd" prgChg="69"/>
+    <Instrument name="syn:Orgawine" prgChg="70"/>
+    <Instrument name="syn:Gringe" prgChg="71"/>
+    <Instrument name="syn:Classic" prgChg="72"/>
+    <Instrument name="syn:SevenSaw" prgChg="73"/>
+    <Instrument name="syn:Raunch 1" prgChg="74"/>
+    <Instrument name="syn:Raunch 2" prgChg="75"/>
+    <Instrument name="syn:Raunch 3" prgChg="76"/>
+    <Instrument name="syn:Raunch 4" prgChg="77"/>
+    <Instrument name="syn:Raunch 5" prgChg="78"/>
+    <Instrument name="syn:Raunch 6" prgChg="79"/>
+    <Instrument name="syn:Raunch 7" prgChg="80"/>
+    <Instrument name="syn:Raunch 8" prgChg="81"/>
+    <Instrument name="syn:Raunch 9" prgChg="82"/>
+    <Instrument name="syn:Seq Me" prgChg="83"/>
+    <Instrument name="syn:Grunted" prgChg="84"/>
+    <Instrument name="syn:NoizeWhl" prgChg="85"/>
+    <Instrument name="syn:Echos" prgChg="86"/>
+    <Instrument name="syn:Voxsweep" prgChg="87"/>
+    <Instrument name="syn:Rasty" prgChg="88"/>
+    <Instrument name="syn:RezFeast" prgChg="89"/>
+    <Instrument name="syn:Squelchy" prgChg="90"/>
+    <Instrument name="syn:Sintexx" prgChg="91"/>
+    <Instrument name="syn:Bladez" prgChg="92"/>
+    <Instrument name="syn:Alien" prgChg="93"/>
+    <Instrument name="syn:Danzo" prgChg="94"/>
+    <Instrument name="syn:Flarts" prgChg="95"/>
+    <Instrument name="syn:SH Flnge" prgChg="96"/>
+    <Instrument name="syn:Core" prgChg="97"/>
+    <Instrument name="syn:SOS" prgChg="98"/>
+    <Instrument name="syn:Omega" prgChg="99"/>
+    <Instrument name="syn:Sawdust" prgChg="100"/>
+    <Instrument name="syn:SkrcthMC" prgChg="101"/>
+    <Instrument name="syn:JunkyFnk" prgChg="102"/>
+    <Instrument name="syn:Monster" prgChg="103"/>
+    <Instrument name="syn:Hot Top" prgChg="104"/>
+    <Instrument name="syn:Plosion" prgChg="105"/>
+    <Instrument name="syn:Zingez" prgChg="106"/>
+    <Instrument name="syn:WealBlip" prgChg="107"/>
+    <Instrument name="syn:Formants" prgChg="108"/>
+    <Instrument name="syn:Drange" prgChg="109"/>
+    <Instrument name="syn:Cheapnes" prgChg="110"/>
+    <Instrument name="syn:Syn Sect" prgChg="111"/>
+    <Instrument name="syn:Syn Nock" prgChg="112"/>
+    <Instrument name="syn:Metalman" prgChg="113"/>
+    <Instrument name="syn:Reztick" prgChg="114"/>
+    <Instrument name="syn:Hot Wind" prgChg="115"/>
+    <Instrument name="syn:DepechIt" prgChg="116"/>
+    <Instrument name="syn:Synclav" prgChg="117"/>
+    <Instrument name="cmp:PnoSynth" prgChg="118"/>
+    <Instrument name="cmp:RubberJ" prgChg="119"/>
+    <Instrument name="cmp:Dive" prgChg="120"/>
+    <Instrument name="cmp:CWestern" prgChg="121"/>
+    <Instrument name="cmp:Poly O" prgChg="122"/>
+    <Instrument name="cmp:DigiPno" prgChg="123"/>
+    <Instrument name="pad:Brand Y" prgChg="124"/>
+    <Instrument name="pad:JustSqr" prgChg="125"/>
+    <Instrument name="pad:Buzzie" prgChg="126"/>
+    <Instrument name="pad:Co Ordal" prgChg="127"/>
+    <Instrument name="pad:Icykalls" prgChg="128"/>
+  </Section>
+  <Section name="Presets ROM B" bankHigh="0" bankLow="3" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="pad:PulsTrip" prgChg="1"/>
+    <Instrument name="pad:ChillROM" prgChg="2"/>
+    <Instrument name="pad:SplitZip" prgChg="3"/>
+    <Instrument name="pad:Melting" prgChg="4"/>
+    <Instrument name="pad:MetaMelt" prgChg="5"/>
+    <Instrument name="pad:TrueBlue" prgChg="6"/>
+    <Instrument name="pad:Orged" prgChg="7"/>
+    <Instrument name="led:HevyHiss" prgChg="8"/>
+    <Instrument name="led:MonoDMDM" prgChg="9"/>
+    <Instrument name="led:Buzztard" prgChg="10"/>
+    <Instrument name="led:Higher" prgChg="11"/>
+    <Instrument name="led:Arplead" prgChg="12"/>
+    <Instrument name="led:Rad Life" prgChg="13"/>
+    <Instrument name="hit:Liquid" prgChg="14"/>
+    <Instrument name="hit:Kit Hitz" prgChg="15"/>
+    <Instrument name="hit:Minoring" prgChg="16"/>
+    <Instrument name="hit:NiceShot" prgChg="17"/>
+    <Instrument name="hit:Not Five" prgChg="18"/>
+    <Instrument name="hit:Morn" prgChg="19"/>
+    <Instrument name="hit:Stabber" prgChg="20"/>
+    <Instrument name="hit:Rip Hit" prgChg="21"/>
+    <Instrument name="vox:EerieVox" prgChg="22"/>
+    <Instrument name="vox:AirKolum" prgChg="23"/>
+    <Instrument name="vox:RoboLung" prgChg="24"/>
+    <Instrument name="vox:HissHalo" prgChg="25"/>
+    <Instrument name="sfx:FazdVynl" prgChg="26"/>
+    <Instrument name="sfx:Squeel" prgChg="27"/>
+    <Instrument name="sfx:Visualiz" prgChg="28"/>
+    <Instrument name="sfx:Get Off" prgChg="29"/>
+    <Instrument name="sfx:NarowdIn" prgChg="30"/>
+    <Instrument name="sfx:MindWarp" prgChg="31"/>
+    <Instrument name="sfx:Klingons" prgChg="32"/>
+    <Instrument name="sfx:KrazyGog" prgChg="33"/>
+    <Instrument name="sfx:LFOut" prgChg="34"/>
+    <Instrument name="sfx:PhatCrwd" prgChg="35"/>
+    <Instrument name="sfx:Groovlng" prgChg="36"/>
+    <Instrument name="sfx:Strobe" prgChg="37"/>
+    <Instrument name="sfx:Ah Ow" prgChg="38"/>
+    <Instrument name="sfx:Winder" prgChg="39"/>
+    <Instrument name="drm:Wetdrums" prgChg="40"/>
+    <Instrument name="drm:Split It" prgChg="41"/>
+    <Instrument name="drm:Glider" prgChg="42"/>
+    <Instrument name="drm:Logger" prgChg="43"/>
+    <Instrument name="drm:Metaling" prgChg="44"/>
+    <Instrument name="drm:PrahsPrk" prgChg="45"/>
+    <Instrument name="bts:Redux" prgChg="46"/>
+    <Instrument name="bts:Mod Bak" prgChg="47"/>
+    <Instrument name="bts:Lost" prgChg="48"/>
+    <Instrument name="bts:Missing" prgChg="49"/>
+    <Instrument name="bts:Bizarre" prgChg="50"/>
+    <Instrument name="bts:Fazer" prgChg="51"/>
+    <Instrument name="bts:PhazeOut" prgChg="52"/>
+    <Instrument name="bts:Massive" prgChg="53"/>
+    <Instrument name="bts:Wicked" prgChg="54"/>
+    <Instrument name="bts:Drmz&amp;Bss" prgChg="55"/>
+    <Instrument name="bts:Hyper" prgChg="56"/>
+    <Instrument name="bts:Danzin" prgChg="57"/>
+    <Instrument name="bts:Clubbin" prgChg="58"/>
+    <Instrument name="bts:Deep" prgChg="59"/>
+    <Instrument name="bts:Deeper" prgChg="60"/>
+    <Instrument name="bts:Jungle" prgChg="61"/>
+    <Instrument name="bts:Hardkore" prgChg="62"/>
+    <Instrument name="bts:Break" prgChg="63"/>
+    <Instrument name="bts:House" prgChg="64"/>
+    <Instrument name="bts:E Beat" prgChg="65"/>
+    <Instrument name="bts:RecrdHop" prgChg="66"/>
+    <Instrument name="bts:NRG" prgChg="67"/>
+    <Instrument name="bts:More" prgChg="68"/>
+    <Instrument name="bts:Working" prgChg="69"/>
+    <Instrument name="bts:Phat" prgChg="70"/>
+    <Instrument name="bts:Industry" prgChg="71"/>
+    <Instrument name="bts:DblFuzz" prgChg="72"/>
+    <Instrument name="lnk:Deep1b" prgChg="73"/>
+    <Instrument name="lnk:Deep2" prgChg="74"/>
+    <Instrument name="lnk:Echos" prgChg="75"/>
+    <Instrument name="lnk:Rad Life" prgChg="76"/>
+    <Instrument name="lnk:Visualiz" prgChg="77"/>
+    <Instrument name="seq:Klavit" prgChg="78"/>
+    <Instrument name="seq:Kicker" prgChg="79"/>
+    <Instrument name="seq:GruzTek" prgChg="80"/>
+    <Instrument name="seq:CMIstepx" prgChg="81"/>
+    <Instrument name="seq:Rezswime" prgChg="82"/>
+    <Instrument name="seq:Voxall" prgChg="83"/>
+    <Instrument name="seq:GruzBlip" prgChg="84"/>
+    <Instrument name="seq:BackForm" prgChg="85"/>
+    <Instrument name="seq:Roamans" prgChg="86"/>
+    <Instrument name="seq:WindSong" prgChg="87"/>
+    <Instrument name="seq:Sweltert" prgChg="88"/>
+    <Instrument name="seq:Synthi" prgChg="89"/>
+    <Instrument name="seq:NuttrVox" prgChg="90"/>
+    <Instrument name="seq:DncSyn1" prgChg="91"/>
+    <Instrument name="seq:DncSyn2" prgChg="92"/>
+    <Instrument name="seq:Deepest" prgChg="93"/>
+    <Instrument name="seq:Hipity" prgChg="94"/>
+    <Instrument name="seq:Sub Bass" prgChg="95"/>
+    <Instrument name="seq:Perkoid" prgChg="96"/>
+    <Instrument name="seq:Simpler" prgChg="97"/>
+    <Instrument name="seq:DncSyn3" prgChg="98"/>
+    <Instrument name="seq:DncSyn4" prgChg="99"/>
+    <Instrument name="seq:RiffTrip" prgChg="100"/>
+    <Instrument name="seq:Hardkore" prgChg="101"/>
+    <Instrument name="seq:House" prgChg="102"/>
+    <Instrument name="seq:GoldnPad" prgChg="103"/>
+    <Instrument name="seq:Bassssin" prgChg="104"/>
+    <Instrument name="seq:Q-Rex" prgChg="105"/>
+    <Instrument name="seq:Pharfees" prgChg="106"/>
+    <Instrument name="seq:Clave" prgChg="107"/>
+    <Instrument name="seq:DanceTrx" prgChg="108"/>
+    <Instrument name="seq:Realize" prgChg="109"/>
+    <Instrument name="seq:DanceHit" prgChg="110"/>
+    <Instrument name="seq:Vokalia" prgChg="111"/>
+    <Instrument name="seq:Raga Dub" prgChg="112"/>
+    <Instrument name="seq:Org Day" prgChg="113"/>
+    <Instrument name="seq:Alienorg" prgChg="114"/>
+    <Instrument name="seq:Key FX" prgChg="115"/>
+    <Instrument name="seq:Kicks" prgChg="116"/>
+    <Instrument name="seq:Snares" prgChg="117"/>
+    <Instrument name="seq:Syn Splt" prgChg="118"/>
+    <Instrument name="seq:Arp" prgChg="119"/>
+    <Instrument name="seq:303" prgChg="120"/>
+    <Instrument name="seq:Wacked" prgChg="121"/>
+    <Instrument name="seq:Dream" prgChg="122"/>
+    <Instrument name="seq:Subbed" prgChg="123"/>
+    <Instrument name="seq:Xelite" prgChg="124"/>
+    <Instrument name="seq:SplitSyn" prgChg="125"/>
+    <Instrument name="seq:Tomohiro" prgChg="126"/>
+    <Instrument name="seq:DancPlan" prgChg="127"/>
+    <Instrument name="-default-" prgChg="128"/>
+  </Section>
+  <Section name="Presets ROM C" bankHigh="0" bankLow="4" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="lfo:J Day" prgChg="1"/>
+    <Instrument name="lfo:Kiss Me" prgChg="2"/>
+    <Instrument name="lfo:The Love" prgChg="3"/>
+    <Instrument name="lfo:Winter" prgChg="4"/>
+    <Instrument name="lfo:Night2Fa" prgChg="5"/>
+    <Instrument name="lfo:Treasure" prgChg="6"/>
+    <Instrument name="lfo:Metal" prgChg="7"/>
+    <Instrument name="lfo:Victor" prgChg="8"/>
+    <Instrument name="lfo:Floating" prgChg="9"/>
+    <Instrument name="lfo:Fumes" prgChg="10"/>
+    <Instrument name="lfo:Minus 12" prgChg="11"/>
+    <Instrument name="lfo:Ruiner" prgChg="12"/>
+    <Instrument name="lfo:Quick-e" prgChg="13"/>
+    <Instrument name="lfo:Beyond" prgChg="14"/>
+    <Instrument name="lfo:March" prgChg="15"/>
+    <Instrument name="lfo:Pitch B!" prgChg="16"/>
+    <Instrument name="lfo:FeelGood" prgChg="17"/>
+    <Instrument name="lfo:Praise" prgChg="18"/>
+    <Instrument name="lfo:Breath" prgChg="19"/>
+    <Instrument name="lfo:303 PHD" prgChg="20"/>
+    <Instrument name="lfo:Higher" prgChg="21"/>
+    <Instrument name="lfo:B Arp" prgChg="22"/>
+    <Instrument name="lfo:In It" prgChg="23"/>
+    <Instrument name="lfo:Horizon" prgChg="24"/>
+    <Instrument name="lfo:Savior" prgChg="25"/>
+    <Instrument name="lfo:E T" prgChg="26"/>
+    <Instrument name="lfo:Box" prgChg="27"/>
+    <Instrument name="lfo:303 DDD" prgChg="28"/>
+    <Instrument name="lfo:Left" prgChg="29"/>
+    <Instrument name="lfo:Q" prgChg="30"/>
+    <Instrument name="lfo:Control" prgChg="31"/>
+    <Instrument name="lfo:Nine" prgChg="32"/>
+    <Instrument name="lfo:Tunnel" prgChg="33"/>
+    <Instrument name="lfo:Up Hill" prgChg="34"/>
+    <Instrument name="lfo:Dive" prgChg="35"/>
+    <Instrument name="lfo:Sunday" prgChg="36"/>
+    <Instrument name="lfo:The Pulp" prgChg="37"/>
+    <Instrument name="lfo:1 On 1" prgChg="38"/>
+    <Instrument name="lfo:Sinner" prgChg="39"/>
+    <Instrument name="lfo:DX ddly" prgChg="40"/>
+    <Instrument name="lfo:Fizzy" prgChg="41"/>
+    <Instrument name="lfo:Feeder" prgChg="42"/>
+    <Instrument name="lfo:Leader" prgChg="43"/>
+    <Instrument name="lfo:Rondo" prgChg="44"/>
+    <Instrument name="lfo:17" prgChg="45"/>
+    <Instrument name="lfo:Bubbles" prgChg="46"/>
+    <Instrument name="lfo:Industry" prgChg="47"/>
+    <Instrument name="mlt:Splity 1" prgChg="48"/>
+    <Instrument name="mlt:Splity 2" prgChg="49"/>
+    <Instrument name="bas:Tubed" prgChg="50"/>
+    <Instrument name="bas:PRDGY" prgChg="51"/>
+    <Instrument name="bas:Paris" prgChg="52"/>
+    <Instrument name="bas:Mission" prgChg="53"/>
+    <Instrument name="bas:Handy" prgChg="54"/>
+    <Instrument name="syn:Vapor" prgChg="55"/>
+    <Instrument name="syn:Flix" prgChg="56"/>
+    <Instrument name="syn:Cometh" prgChg="57"/>
+    <Instrument name="syn:Dizzy" prgChg="58"/>
+    <Instrument name="syn:Dying O" prgChg="59"/>
+    <Instrument name="syn:Smoker" prgChg="60"/>
+    <Instrument name="syn:Last 1" prgChg="61"/>
+    <Instrument name="syn:Dagger" prgChg="62"/>
+    <Instrument name="syn:Wave" prgChg="63"/>
+    <Instrument name="pad:Slyrize" prgChg="64"/>
+    <Instrument name="pad:Klassic" prgChg="65"/>
+    <Instrument name="pad:sweetner" prgChg="66"/>
+    <Instrument name="pad:Flam" prgChg="67"/>
+    <Instrument name="pad:Wish" prgChg="68"/>
+    <Instrument name="pad:Birds" prgChg="69"/>
+    <Instrument name="pad:Stripped" prgChg="70"/>
+    <Instrument name="led:Khord" prgChg="71"/>
+    <Instrument name="led:Zoovy" prgChg="72"/>
+    <Instrument name="led:Clyber" prgChg="73"/>
+    <Instrument name="led:Screege" prgChg="74"/>
+    <Instrument name="led:Buzz" prgChg="75"/>
+    <Instrument name="led:LavaLead" prgChg="76"/>
+    <Instrument name="led:FreeWily" prgChg="77"/>
+    <Instrument name="hit:Revit-" prgChg="78"/>
+    <Instrument name="hit:Dusted" prgChg="79"/>
+    <Instrument name="hit:Dusted 2" prgChg="80"/>
+    <Instrument name="vox:Dgration" prgChg="81"/>
+    <Instrument name="vox:Faith" prgChg="82"/>
+    <Instrument name="sfx:reFact" prgChg="83"/>
+    <Instrument name="sfx:Brain 1" prgChg="84"/>
+    <Instrument name="sfx:Brain 2" prgChg="85"/>
+    <Instrument name="bts:Landing" prgChg="86"/>
+    <Instrument name="bts:Fazer 3" prgChg="87"/>
+    <Instrument name="bts:Dan 1oct" prgChg="88"/>
+    <Instrument name="bts:Jun 1oct" prgChg="89"/>
+    <Instrument name="bts:Faz 1oct" prgChg="90"/>
+    <Instrument name="bts:Har 1oct" prgChg="91"/>
+    <Instrument name="bts:Hou 1oct" prgChg="92"/>
+    <Instrument name="bts:Wic 1oct" prgChg="93"/>
+    <Instrument name="bts:Cool 1" prgChg="94"/>
+    <Instrument name="bts:Cool 2" prgChg="95"/>
+    <Instrument name="bts:Cool 3" prgChg="96"/>
+    <Instrument name="bts:Cool 4" prgChg="97"/>
+    <Instrument name="bts:Cool 5" prgChg="98"/>
+    <Instrument name="bts:Cool 6" prgChg="99"/>
+    <Instrument name="bts:Cool 7" prgChg="100"/>
+    <Instrument name="bts:Cool 8" prgChg="101"/>
+    <Instrument name="bts:Cool 9" prgChg="102"/>
+    <Instrument name="bts:Cool 10" prgChg="103"/>
+    <Instrument name="bts:Synth 1" prgChg="104"/>
+    <Instrument name="bts:Synth 2" prgChg="105"/>
+    <Instrument name="bts:sytnh 3" prgChg="106"/>
+    <Instrument name="bts:Traps 1" prgChg="107"/>
+    <Instrument name="bts:Traps 2" prgChg="108"/>
+    <Instrument name="bts:Traps 3" prgChg="109"/>
+    <Instrument name="bts:Traps 4" prgChg="110"/>
+    <Instrument name="bts:Traps 5" prgChg="111"/>
+    <Instrument name="bts:Traps 6" prgChg="112"/>
+    <Instrument name="bts:Traps 7" prgChg="113"/>
+    <Instrument name="bts:Split 1" prgChg="114"/>
+    <Instrument name="bts:Split 2" prgChg="115"/>
+    <Instrument name="bts:Split 3" prgChg="116"/>
+    <Instrument name="bts:Split 4" prgChg="117"/>
+    <Instrument name="bts:Split 5" prgChg="118"/>
+    <Instrument name="bts:Split 6" prgChg="119"/>
+    <Instrument name="bts:Split 7" prgChg="120"/>
+    <Instrument name="bts:Split 8" prgChg="121"/>
+    <Instrument name="bts:Split 9" prgChg="122"/>
+    <Instrument name="bts:Split 10" prgChg="123"/>
+    <Instrument name="bts:Split 11" prgChg="124"/>
+    <Instrument name="bts:Split 12" prgChg="125"/>
+    <Instrument name="bts:Split 13" prgChg="126"/>
+    <Instrument name="bts:Split 14" prgChg="127"/>
+    <Instrument name="bts:Split 15" prgChg="128"/>
+  </Section>
+</Instruments>
+</VSTNameDocument>
+

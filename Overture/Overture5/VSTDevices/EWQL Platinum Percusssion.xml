@@ -1,0 +1,1150 @@
+<VSTNameDocument>
+	<Version>1</Version>
+	<Author>GenieSoft,Inc.</Author>
+
+	<Device name="SOPercussion">
+	
+		<ArticulationNames>			
+				<Articulation name="Marcato" velocityAdd="10" durationPct="90"/>
+				<Articulation name="Marcato Dot" velocityAdd="15" durationPct="50"/>
+				<Articulation name="Heavy Attack" velocityAdd="10" durationPct="100"/>
+				<Articulation name="SForzando" velocityAdd="20"/>
+				<Articulation name="SForzando Dot" velocityAdd="20" durationPct="50"/>
+				<Articulation name="Heavier Attack" velocityAdd="20" durationPct="100"/>
+				<Articulation name="SForzando Inverted" velocityAdd="20"/>
+				<Articulation name="SForzando Dot Inverted" velocityAdd="20" durationPct="50"/>
+				<Articulation name="Staccatissimo" velocityAdd="15" durationPct="30"/>
+				<Articulation name="Staccato" velocityAdd="15" durationPct="50"/>
+				<Articulation name="Tenuto" durationPct="100"/>
+				<Articulation name="Up Bow"/>
+				<Articulation name="Down Bow" velocityAdd="5"/>
+				<Articulation name="Up Bow Inverted"/>
+				<Articulation name="Down Bow Inverted" velocityAdd="5"/>
+				<Articulation name="Arpeggio" attackFrom="-90" attackTo="0"/>
+				<Articulation name="Tremolo Eighths" tremoloNotes="1"/>
+				<Articulation name="Tremolo Sixteenths" tremoloNotes="2"/>
+				<Articulation name="Tremolo Thirty Seconds" tremoloNotes="3"/>
+				<Articulation name="Tremolo Sixty Fourths" tremoloNotes="4"/>
+				<Articulation name="pizz"/>
+				<Articulation name="arco" durationPct="90"/>
+				<Articulation name="legato" velocityPct="75" durationPct="100"/>
+				
+				<ArticulationSwitchList name="Tremolo">
+					<Articulation name="Tremolo Thirty Seconds" tremoloNotes="0"/>
+				</ArticulationSwitchList>
+
+				<ArticulationSwitchList name="10 Cellos Sordino">
+					<Articulation name="legato" keySwitch="D1"/>
+				</ArticulationSwitchList>
+
+				<ArticulationSwitchList name="18 1st Violin Fast">
+					<Articulation name="legato" keySwitch="D1" durationPct="100"/>
+					<Articulation name="Staccato" keySwitch="G1" durationPct="90"/>
+					<Articulation name="Staccatissimo" keySwitch="G#1" durationPct="50"/>
+					<Articulation name="Marcato" keySwitch="A1" durationPct="90"/>
+					<Articulation name="Marcato Dot" keySwitch="F#1" durationPct="90"/>
+					<Articulation name="Heavy Attack" keySwitch="A1" durationPct="100"/>
+				</ArticulationSwitchList>
+
+				<ArticulationSwitchList name="18 1st Violin 2">
+					<Articulation name="legato" keySwitch="G#1"/>
+				</ArticulationSwitchList>
+				
+				<ArticulationSwitchList name="Tremolo XF">
+					<Articulation name="Tremolo Thirty Seconds" ctrlNum="1" ctrlValue="127" tremoloNotes="0"/>
+				</ArticulationSwitchList>
+				
+				<ArticulationSwitchList name="Attack Accent">
+					<Articulation name="Staccato" ctrlNum="1" ctrlValue="100" durationPct="50"/>
+					<Articulation name="Staccatissimo" ctrlNum="1" ctrlValue="127" velocityAdd="15" durationPct="30"/>
+					<Articulation name="Tenuto" ctrlNum="1" ctrlValue="50" durationPct="100"/>
+					<Articulation name="Heavy Attack" ctrlNum="1" ctrlValue="100" durationPct="100"/>
+					<Articulation name="Marcato" ctrlNum="1" ctrlValue="100" durationPct="70"/>
+					<Articulation name="Marcato Dot" ctrlNum="1" ctrlValue="127" durationPct="50"/>
+					<Articulation name="Heavier Attack" ctrlNum="1" ctrlValue="127" velocityAdd="15" durationPct="100"/>
+				</ArticulationSwitchList>
+				
+				<ArticulationSwitchList name="Staccato">
+					<Articulation name="Staccato" durationPct="90"/>
+					<Articulation name="Staccatissimo" velocityAdd="15" durationPct="50"/>
+				</ArticulationSwitchList>
+				
+				<ArticulationSwitchList name="Marcato Dot">
+					<Articulation name="Marcato Dot" durationPct="90"/>
+				</ArticulationSwitchList>
+				
+				<ArticulationSwitchList name="Portato">
+					<Articulation name="Tenuto" durationPct="90"/>
+				</ArticulationSwitchList>
+				
+				<ArticulationSwitchList name="Portato XF">
+					<Articulation name="Tenuto" ctrlNum="1" ctrlValue="127" durationPct="90"/>
+				</ArticulationSwitchList>
+				
+				<ArticulationSwitchList name="Staccatissimo">
+					<Articulation name="Staccatissimo" velocityAdd="0" durationPct="90"/>
+				</ArticulationSwitchList>
+				
+				<ArticulationSwitchList name="SForzando">
+					<Articulation name="SForzando" velocityAdd="0" durationPct="90"/>
+					<Articulation name="SForzando Dot" velocityAdd="15" durationPct="50"/>
+					<Articulation name="SForzando Inverted" velocityAdd="0" durationPct="90"/>
+					<Articulation name="SForzando Dot Inverted" velocityAdd="15" durationPct="50"/>
+					<Articulation name="Heavier Attack" velocityAdd="15" durationPct="100"/>
+				</ArticulationSwitchList>
+				
+				<ArticulationSwitchList name="Marcato">
+					<Articulation name="Marcato" velocityAdd="0" durationPct="90"/>
+					<Articulation name="Marcato Dot" velocityAdd="15" durationPct="50"/>
+					<Articulation name="Heavy Attack" velocityAdd="0" durationPct="100"/>
+					<Articulation name="Heavier Attack" velocityAdd="30" durationPct="100"/>
+				</ArticulationSwitchList>
+				
+				<ArticulationSwitchList name="3 Clarinets">
+					<Articulation name="Staccato" keySwitch="C#1"/>
+					<Articulation name="Staccatissimo" keySwitch="C#1" velocityAdd="15" durationPct="50"/>
+					<Articulation name="Tenuto" keySwitch="C1" durationPct="100"/>
+					<Articulation name="Heavy Attack" keySwitch="D1" ctrlNum="1" ctrlValue="100" durationPct="100"/>
+					<Articulation name="Marcato" keySwitch="D1" ctrlNum="1" ctrlValue="100" durationPct="70"/>
+					<Articulation name="Marcato Dot" keySwitch="D1" ctrlNum="1" ctrlValue="127" durationPct="50"/>
+					<Articulation name="Heavier Attack" keySwitch="D1" ctrlNum="1" ctrlValue="127" velocityAdd="15" durationPct="100"/>
+				</ArticulationSwitchList>
+	
+				<ArticulationSwitchList name="3 Flutes Trill">
+					<Articulation name="Staccato" keySwitch="C#1"/>
+					<Articulation name="Staccatissimo" keySwitch="C#1" velocityAdd="15" durationPct="50"/>
+					<Articulation name="Tenuto" keySwitch="C1" durationPct="100"/>
+					<Articulation name="Heavy Attack" keySwitch="D1" ctrlNum="1" ctrlValue="100" durationPct="100"/>
+					<Articulation name="Marcato" keySwitch="D1" ctrlNum="1" ctrlValue="100" durationPct="70"/>
+					<Articulation name="Marcato Dot" keySwitch="D1" ctrlNum="1" ctrlValue="127" durationPct="50"/>
+					<Articulation name="Heavier Attack" keySwitch="D1" ctrlNum="1" ctrlValue="127" velocityAdd="15" durationPct="100"/>
+				</ArticulationSwitchList>
+	
+				<ArticulationSwitchList name="3 Flutes">
+					<Articulation name="Staccato" keySwitch="C#1"/>
+					<Articulation name="Staccatissimo" keySwitch="C#1" velocityAdd="15" durationPct="50"/>
+					<Articulation name="Tenuto" keySwitch="C1" durationPct="100"/>
+					<Articulation name="Heavy Attack" keySwitch="D1" ctrlNum="1" ctrlValue="100" durationPct="100"/>
+					<Articulation name="Marcato" keySwitch="D1" ctrlNum="1" ctrlValue="100" durationPct="70"/>
+					<Articulation name="Marcato Dot" keySwitch="D1" ctrlNum="1" ctrlValue="127" durationPct="50"/>
+					<Articulation name="Heavier Attack" keySwitch="D1" ctrlNum="1" ctrlValue="127" velocityAdd="15" durationPct="100"/>
+				</ArticulationSwitchList>
+	
+				<ArticulationSwitchList name="Bass Clarinet">
+					<Articulation name="Staccato" keySwitch="D#1"/>
+					<Articulation name="Staccatissimo" keySwitch="D#1" velocityAdd="15" durationPct="50"/>
+					<Articulation name="Tenuto" keySwitch="C1" durationPct="100"/>
+					<Articulation name="Heavy Attack" keySwitch="E1" ctrlNum="1" ctrlValue="100" durationPct="100"/>
+					<Articulation name="Marcato" keySwitch="E1" ctrlNum="1" ctrlValue="100" durationPct="70"/>
+					<Articulation name="Marcato Dot" keySwitch="E1" ctrlNum="1" ctrlValue="127" durationPct="50"/>
+					<Articulation name="Heavier Attack" keySwitch="E1" ctrlNum="1" ctrlValue="127" velocityAdd="15" durationPct="100"/>
+				</ArticulationSwitchList>
+	
+				<ArticulationSwitchList name="Bassoon C0-D0">
+					<Articulation name="Staccato" keySwitch="C#1"/>
+					<Articulation name="Staccatissimo" keySwitch="C#1" velocityAdd="15" durationPct="50"/>
+					<Articulation name="Tenuto" keySwitch="C1" durationPct="100"/>
+					<Articulation name="Heavy Attack" keySwitch="D1" ctrlNum="1" ctrlValue="100" durationPct="100"/>
+					<Articulation name="Marcato" keySwitch="D1" ctrlNum="1" ctrlValue="100" durationPct="70"/>
+					<Articulation name="Marcato Dot" keySwitch="D1" ctrlNum="1" ctrlValue="127" durationPct="50"/>
+					<Articulation name="Heavier Attack" keySwitch="D1" ctrlNum="1" ctrlValue="127" velocityAdd="15" durationPct="100"/>
+				</ArticulationSwitchList>
+	
+				<ArticulationSwitchList name="Bassoon C0-G0">
+					<Articulation name="Staccato" keySwitch="C#1"/>
+					<Articulation name="Staccatissimo" keySwitch="C#1" velocityAdd="15" durationPct="50"/>
+					<Articulation name="Tenuto" keySwitch="D#1" durationPct="90"/>
+				</ArticulationSwitchList>
+	
+				<ArticulationSwitchList name="Clarinet C0-D0">
+					<Articulation name="Staccato" keySwitch="C#1"/>
+					<Articulation name="Staccatissimo" keySwitch="C#1" velocityAdd="15" durationPct="50"/>
+					<Articulation name="Tenuto" keySwitch="C1" durationPct="100"/>
+					<Articulation name="Heavy Attack" keySwitch="D1" ctrlNum="1" ctrlValue="100" durationPct="100"/>
+					<Articulation name="Marcato" keySwitch="D1" ctrlNum="1" ctrlValue="100" durationPct="70"/>
+					<Articulation name="Marcato Dot" keySwitch="D1" ctrlNum="1" ctrlValue="127" durationPct="50"/>
+					<Articulation name="Heavier Attack" keySwitch="D1" ctrlNum="1" ctrlValue="127" velocityAdd="15" durationPct="100"/>
+				</ArticulationSwitchList>
+	
+				<ArticulationSwitchList name="Clarinet C0-F#0">
+					<Articulation name="Staccato" keySwitch="C#1"/>
+					<Articulation name="Staccatissimo" keySwitch="C#1" velocityAdd="15" durationPct="50"/>
+					<Articulation name="Tenuto" keySwitch="D#1" durationPct="100"/>
+					<Articulation name="Heavy Attack" keySwitch="D1" ctrlNum="1" ctrlValue="100" durationPct="100"/>
+					<Articulation name="Marcato" keySwitch="D1" ctrlNum="1" ctrlValue="100" durationPct="70"/>
+					<Articulation name="Marcato Dot" keySwitch="D1" ctrlNum="1" ctrlValue="127" durationPct="50"/>
+					<Articulation name="Heavier Attack" keySwitch="D1" ctrlNum="1" ctrlValue="127" velocityAdd="15" durationPct="100"/>
+				</ArticulationSwitchList>
+	
+				<ArticulationSwitchList name="Flute C0-D0">
+					<Articulation name="Staccato" keySwitch="C#1"/>
+					<Articulation name="Staccatissimo" keySwitch="C#1" velocityAdd="15" durationPct="50"/>
+					<Articulation name="Tenuto" keySwitch="C1" durationPct="100"/>
+					<Articulation name="Heavy Attack" keySwitch="D1" ctrlNum="1" ctrlValue="100" durationPct="100"/>
+					<Articulation name="Marcato" keySwitch="D1" ctrlNum="1" ctrlValue="100" durationPct="70"/>
+					<Articulation name="Marcato Dot" keySwitch="D1" ctrlNum="1" ctrlValue="127" durationPct="50"/>
+					<Articulation name="Heavier Attack" keySwitch="D1" ctrlNum="1" ctrlValue="127" velocityAdd="15" durationPct="100"/>
+				</ArticulationSwitchList>
+	
+				<ArticulationSwitchList name="Flute C0-F#0">
+					<Articulation name="Staccato" keySwitch="C#1"/>
+					<Articulation name="Staccatissimo" keySwitch="C#1" velocityAdd="15" durationPct="50"/>
+					<Articulation name="Tenuto" keySwitch="C1" durationPct="100"/>
+					<Articulation name="Heavy Attack" keySwitch="D1" ctrlNum="1" ctrlValue="100" durationPct="100"/>
+					<Articulation name="Marcato" keySwitch="D1" ctrlNum="1" ctrlValue="100" durationPct="70"/>
+					<Articulation name="Marcato Dot" keySwitch="D1" ctrlNum="1" ctrlValue="127" durationPct="50"/>
+					<Articulation name="Heavier Attack" keySwitch="D1" ctrlNum="1" ctrlValue="127" velocityAdd="15" durationPct="100"/>
+				</ArticulationSwitchList>
+	
+				<ArticulationSwitchList name="English Horn C0-D0">
+					<Articulation name="Staccato" keySwitch="C#1"/>
+					<Articulation name="Staccatissimo" keySwitch="C#1" velocityAdd="15" durationPct="50"/>
+					<Articulation name="Tenuto" keySwitch="C1" durationPct="100"/>
+					<Articulation name="Heavy Attack" keySwitch="D1" ctrlNum="1" ctrlValue="100" durationPct="100"/>
+					<Articulation name="Marcato" keySwitch="D1" ctrlNum="1" ctrlValue="100" durationPct="70"/>
+					<Articulation name="Marcato Dot" keySwitch="D1" ctrlNum="1" ctrlValue="127" durationPct="50"/>
+					<Articulation name="Heavier Attack" keySwitch="D1" ctrlNum="1" ctrlValue="127" velocityAdd="15" durationPct="100"/>
+				</ArticulationSwitchList>
+	
+				<ArticulationSwitchList name="English Horn C0-F#0">
+					<Articulation name="Staccato" keySwitch="C#1"/>
+					<Articulation name="Staccatissimo" keySwitch="C#1" velocityAdd="15" durationPct="50"/>
+					<Articulation name="Tenuto" keySwitch="C1" durationPct="100"/>
+					<Articulation name="Heavy Attack" keySwitch="D1" ctrlNum="1" ctrlValue="100" durationPct="100"/>
+					<Articulation name="Marcato" keySwitch="D1" ctrlNum="1" ctrlValue="100" durationPct="70"/>
+					<Articulation name="Marcato Dot" keySwitch="D1" ctrlNum="1" ctrlValue="127" durationPct="50"/>
+					<Articulation name="Heavier Attack" keySwitch="D1" ctrlNum="1" ctrlValue="127" velocityAdd="15" durationPct="100"/>
+				</ArticulationSwitchList>
+	
+				<ArticulationSwitchList name="Oboe C0-D0">
+					<Articulation name="Staccato" keySwitch="C#1"/>
+					<Articulation name="Staccatissimo" keySwitch="C#1" velocityAdd="15" durationPct="50"/>
+					<Articulation name="Tenuto" keySwitch="C1" durationPct="100"/>
+					<Articulation name="Heavy Attack" keySwitch="D1" ctrlNum="1" ctrlValue="100" durationPct="100"/>
+					<Articulation name="Marcato" keySwitch="D1" ctrlNum="1" ctrlValue="100" durationPct="70"/>
+					<Articulation name="Marcato Dot" keySwitch="D1" ctrlNum="1" ctrlValue="127" durationPct="50"/>
+					<Articulation name="Heavier Attack" keySwitch="D1" ctrlNum="1" ctrlValue="127" velocityAdd="15" durationPct="100"/>
+				</ArticulationSwitchList>
+	
+				<ArticulationSwitchList name="Oboe C0-G0">
+					<Articulation name="Staccato" keySwitch="C#1"/>
+					<Articulation name="Staccatissimo" keySwitch="C#1" velocityAdd="15" durationPct="50"/>
+					<Articulation name="Tenuto" keySwitch="C1" durationPct="100"/>
+					<Articulation name="Heavy Attack" keySwitch="D1" ctrlNum="1" ctrlValue="100" durationPct="100"/>
+					<Articulation name="Marcato" keySwitch="D1" ctrlNum="1" ctrlValue="100" durationPct="70"/>
+					<Articulation name="Marcato Dot" keySwitch="D1" ctrlNum="1" ctrlValue="127" durationPct="50"/>
+					<Articulation name="Heavier Attack" keySwitch="D1" ctrlNum="1" ctrlValue="127" velocityAdd="15" durationPct="100"/>
+				</ArticulationSwitchList>
+	
+				<ArticulationSwitchList name="Oboe Trill">
+					<Articulation name="Staccato" keySwitch="C#1"/>
+					<Articulation name="Staccatissimo" keySwitch="C#1" velocityAdd="15" durationPct="50"/>
+					<Articulation name="Tenuto" keySwitch="C1" durationPct="100"/>
+					<Articulation name="Heavy Attack" keySwitch="D1" ctrlNum="1" ctrlValue="100" durationPct="100"/>
+					<Articulation name="Marcato" keySwitch="D1" ctrlNum="1" ctrlValue="100" durationPct="70"/>
+					<Articulation name="Marcato Dot" keySwitch="D1" ctrlNum="1" ctrlValue="127" durationPct="50"/>
+					<Articulation name="Heavier Attack" keySwitch="D1" ctrlNum="1" ctrlValue="127" velocityAdd="15" durationPct="100"/>
+				</ArticulationSwitchList>
+	
+				<ArticulationSwitchList name="Piccolo Flute Trill">
+					<Articulation name="Staccato" keySwitch="C#1"/>
+					<Articulation name="Staccatissimo" keySwitch="C#1" velocityAdd="15" durationPct="50"/>
+					<Articulation name="Tenuto" keySwitch="C1" durationPct="100"/>
+					<Articulation name="Heavy Attack" keySwitch="D1" ctrlNum="1" ctrlValue="100" durationPct="100"/>
+					<Articulation name="Marcato" keySwitch="D1" ctrlNum="1" ctrlValue="100" durationPct="70"/>
+					<Articulation name="Marcato Dot" keySwitch="D1" ctrlNum="1" ctrlValue="127" durationPct="50"/>
+					<Articulation name="Heavier Attack" keySwitch="D1" ctrlNum="1" ctrlValue="127" velocityAdd="15" durationPct="100"/>
+				</ArticulationSwitchList>
+	
+				<ArticulationSwitchList name="4 Trombones A-1-B-1">
+					<Articulation name="Staccato" keySwitch="A#0"/>
+					<Articulation name="Staccatissimo" keySwitch="A#0" velocityAdd="15" durationPct="50"/>
+					<Articulation name="Tenuto" keySwitch="A0" durationPct="100"/>
+					<Articulation name="Heavy Attack" keySwitch="B0" ctrlNum="1" ctrlValue="100" durationPct="100"/>
+					<Articulation name="Marcato" keySwitch="B0" ctrlNum="1" ctrlValue="100" durationPct="70"/>
+					<Articulation name="Marcato Dot" keySwitch="B0" ctrlNum="1" ctrlValue="127" durationPct="50"/>
+					<Articulation name="Heavier Attack" keySwitch="B0" ctrlNum="1" ctrlValue="127" velocityAdd="15" durationPct="100"/>
+				</ArticulationSwitchList>
+	
+				<ArticulationSwitchList name="4 Trombones A-1-D#0">
+					<Articulation name="Staccato" keySwitch="A#0"/>
+					<Articulation name="Staccatissimo" keySwitch="A#0" velocityAdd="15" durationPct="50"/>
+					<Articulation name="Tenuto" keySwitch="D#1" ctrlNum="1" cntrlValue="127" durationPct="90"/>
+					<Articulation name="Heavy Attack" keySwitch="B0" ctrlNum="1" ctrlValue="100" durationPct="100"/>
+					<Articulation name="Marcato" keySwitch="B0" ctrlNum="1" ctrlValue="100" durationPct="70"/>
+					<Articulation name="Marcato Dot" keySwitch="B0" ctrlNum="1" ctrlValue="127" durationPct="50"/>
+					<Articulation name="Heavier Attack" keySwitch="B0" ctrlNum="1" ctrlValue="127" velocityAdd="15" durationPct="100"/>
+				</ArticulationSwitchList>
+	
+				<ArticulationSwitchList name="4 Trumpets C0-A0">
+					<Articulation name="Staccato" keySwitch="C#1"/>
+					<Articulation name="Staccatissimo" keySwitch="C#1" velocityAdd="15" durationPct="50"/>
+					<Articulation name="Tenuto" keySwitch="C1" durationPct="100"/>
+					<Articulation name="Heavy Attack" keySwitch="D1" ctrlNum="1" ctrlValue="100" durationPct="100"/>
+					<Articulation name="Marcato" keySwitch="D1" ctrlNum="1" ctrlValue="100" durationPct="70"/>
+					<Articulation name="Marcato Dot" keySwitch="D1" ctrlNum="1" ctrlValue="127" durationPct="50"/>
+					<Articulation name="Heavier Attack" keySwitch="E1" velocityAdd="15" durationPct="100"/>
+					<Articulation name="SForzando" keySwitch="E1"/>
+					<Articulation name="SForzando Dot" keySwitch="E1" velocityAdd="15" durationPct="50"/>
+					<Articulation name="SForzando Inverted" keySwitch="E1"/>
+					<Articulation name="SForzando Dot Inverted" keySwitch="E1" velocityAdd="15" durationPct="50"/>
+				</ArticulationSwitchList>
+	
+				<ArticulationSwitchList name="4 Trumpets C0-D0">
+					<Articulation name="Staccato" keySwitch="C#1"/>
+					<Articulation name="Staccatissimo" keySwitch="C#1" velocityAdd="15" durationPct="50"/>
+					<Articulation name="Tenuto" keySwitch="C1" durationPct="100"/>
+					<Articulation name="Heavy Attack" keySwitch="D1" ctrlNum="1" ctrlValue="100" durationPct="100"/>
+					<Articulation name="Marcato" keySwitch="D1" ctrlNum="1" ctrlValue="100" durationPct="70"/>
+					<Articulation name="Marcato Dot" keySwitch="D1" ctrlNum="1" ctrlValue="127" durationPct="50"/>
+					<Articulation name="Heavier Attack" keySwitch="D1" ctrlNum="1" ctrlValue="127" velocityAdd="15" durationPct="100"/>
+				</ArticulationSwitchList>
+	
+				<ArticulationSwitchList name="6 French Horns Sus C0-D#0">
+					<Articulation name="Staccato" keySwitch="C#1"/>
+					<Articulation name="Staccatissimo" keySwitch="C#1" velocityAdd="15" durationPct="50"/>
+					<Articulation name="Tenuto" keySwitch="C1" durationPct="100"/>
+					<Articulation name="Heavy Attack" keySwitch="D#1" ctrlNum="1" ctrlValue="100" durationPct="100"/>
+					<Articulation name="Marcato" keySwitch="D#1" ctrlNum="1" ctrlValue="100" durationPct="70"/>
+					<Articulation name="Marcato Dot" keySwitch="D#1" ctrlNum="1" ctrlValue="127" durationPct="50"/>
+					<Articulation name="Heavier Attack" keySwitch="D#1" ctrlNum="1" ctrlValue="127" velocityAdd="15" durationPct="100"/>
+				</ArticulationSwitchList>
+	
+				<ArticulationSwitchList name="6 French Horns C0-A0">
+					<Articulation name="Staccato" keySwitch="C#1"/>
+					<Articulation name="Staccatissimo" keySwitch="C#1" velocityAdd="15" durationPct="50"/>
+					<Articulation name="Tenuto" keySwitch="E1" durationPct="90"/>
+					<Articulation name="Heavy Attack" keySwitch="D#1" ctrlNum="1" ctrlValue="100" durationPct="100"/>
+					<Articulation name="Marcato" keySwitch="D#1" ctrlNum="1" ctrlValue="100" durationPct="70"/>
+					<Articulation name="Marcato Dot" keySwitch="D#1" ctrlNum="1" ctrlValue="127" durationPct="50"/>
+					<Articulation name="Heavier Attack" keySwitch="A1" velocityAdd="15" durationPct="100"/>
+					<Articulation name="SForzando" keySwitch="A1"/>
+					<Articulation name="SForzando Dot" keySwitch="A1" velocityAdd="15" durationPct="50"/>
+					<Articulation name="SForzando Inverted" keySwitch="A1"/>
+					<Articulation name="SForzando Dot Inverted" keySwitch="A1" velocityAdd="15" durationPct="50"/>
+				</ArticulationSwitchList>
+	
+				<ArticulationSwitchList name="6 French Horns C0-E0">
+					<Articulation name="Staccato" keySwitch="C#1"/>
+					<Articulation name="Staccatissimo" keySwitch="C#1" velocityAdd="15" durationPct="50"/>
+					<Articulation name="Tenuto" keySwitch="C1" durationPct="100"/>
+					<Articulation name="Heavy Attack" keySwitch="D#1" ctrlNum="1" ctrlValue="100" durationPct="100"/>
+					<Articulation name="Marcato" keySwitch="D#1" ctrlNum="1" ctrlValue="100" durationPct="70"/>
+					<Articulation name="Marcato Dot" keySwitch="D#1" ctrlNum="1" ctrlValue="127" durationPct="50"/>
+					<Articulation name="Heavier Attack" keySwitch="D#1" ctrlNum="1" ctrlValue="127" velocityAdd="15" durationPct="100"/>
+				</ArticulationSwitchList>
+	
+				<ArticulationSwitchList name="French Horn C0-D0">
+					<Articulation name="Staccato" keySwitch="C#1"/>
+					<Articulation name="Staccatissimo" keySwitch="C#1" velocityAdd="15" durationPct="50"/>
+					<Articulation name="Tenuto" keySwitch="C1" durationPct="100"/>
+					<Articulation name="Heavy Attack" keySwitch="D1" ctrlNum="1" ctrlValue="100" durationPct="100"/>
+					<Articulation name="Marcato" keySwitch="D1" ctrlNum="1" ctrlValue="100" durationPct="70"/>
+					<Articulation name="Marcato Dot" keySwitch="D1" ctrlNum="1" ctrlValue="127" durationPct="50"/>
+					<Articulation name="Heavier Attack" keySwitch="D1" ctrlNum="1" ctrlValue="127" velocityAdd="15" durationPct="100"/>
+				</ArticulationSwitchList>
+	
+				<ArticulationSwitchList name="French Horn C0-E0">
+					<Articulation name="Staccato" keySwitch="C#1"/>
+					<Articulation name="Staccatissimo" keySwitch="C#1" velocityAdd="15" durationPct="50"/>
+					<Articulation name="Tenuto" keySwitch="E1" durationPct="90"/>
+					<Articulation name="Heavy Attack" keySwitch="D1" ctrlNum="1" ctrlValue="100" durationPct="100"/>
+					<Articulation name="Marcato" keySwitch="D1" ctrlNum="1" ctrlValue="100" durationPct="70"/>
+					<Articulation name="Marcato Dot" keySwitch="D1" ctrlNum="1" ctrlValue="127" durationPct="50"/>
+					<Articulation name="Heavier Attack" keySwitch="D#1" velocityAdd="15" durationPct="100"/>
+					<Articulation name="SForzando" keySwitch="D#1"/>
+					<Articulation name="SForzando Dot" keySwitch="D#1" velocityAdd="15" durationPct="50"/>
+					<Articulation name="SForzando Inverted" keySwitch="D#1"/>
+					<Articulation name="SForzando Dot Inverted" keySwitch="D#1" velocityAdd="15" durationPct="50"/>
+				</ArticulationSwitchList>
+	
+				<ArticulationSwitchList name="Trombone">
+					<Articulation name="Staccato" keySwitch="C#1"/>
+					<Articulation name="Staccatissimo" keySwitch="C#1" velocityAdd="15" durationPct="50"/>
+					<Articulation name="Tenuto" keySwitch="C1" durationPct="100"/>
+					<Articulation name="Heavy Attack" keySwitch="D1" ctrlNum="1" ctrlValue="100" durationPct="100"/>
+					<Articulation name="Marcato" keySwitch="D1" ctrlNum="1" ctrlValue="100" durationPct="70"/>
+					<Articulation name="Marcato Dot" keySwitch="D1" ctrlNum="1" ctrlValue="127" durationPct="50"/>
+					<Articulation name="Heavier Attack" keySwitch="D1" ctrlNum="1" ctrlValue="127" velocityAdd="15" durationPct="100"/>
+				</ArticulationSwitchList>
+	
+				<ArticulationSwitchList name="Trumpet C0-D0">
+					<Articulation name="Staccato" keySwitch="C#1"/>
+					<Articulation name="Staccatissimo" keySwitch="C#1" velocityAdd="15" durationPct="50"/>
+					<Articulation name="Tenuto" keySwitch="C1" durationPct="100"/>
+					<Articulation name="Heavy Attack" keySwitch="D1" ctrlNum="1" ctrlValue="100" durationPct="100"/>
+					<Articulation name="Marcato" keySwitch="D1" ctrlNum="1" ctrlValue="100" durationPct="70"/>
+					<Articulation name="Marcato Dot" keySwitch="D1" ctrlNum="1" ctrlValue="127" durationPct="50"/>
+					<Articulation name="Heavier Attack" keySwitch="D1" ctrlNum="1" ctrlValue="127" velocityAdd="15" durationPct="100"/>
+				</ArticulationSwitchList>
+	
+				<ArticulationSwitchList name="Trumpet C0-G#0">
+					<Articulation name="Staccato" keySwitch="C#1"/>
+					<Articulation name="Staccatissimo" keySwitch="C#1" velocityAdd="15" durationPct="50"/>
+					<Articulation name="Tenuto" keySwitch="D#1" durationPct="90"/>
+					<Articulation name="Heavy Attack" keySwitch="D1" ctrlNum="1" ctrlValue="100" durationPct="100"/>
+					<Articulation name="Marcato" keySwitch="D1" ctrlNum="1" ctrlValue="100" durationPct="70"/>
+					<Articulation name="Marcato Dot" keySwitch="D1" ctrlNum="1" ctrlValue="127" durationPct="50"/>
+					<Articulation name="Heavier Attack" keySwitch="F1" velocityAdd="15" durationPct="100"/>
+					<Articulation name="SForzando" keySwitch="F1"/>
+					<Articulation name="SForzando Dot" keySwitch="F1" velocityAdd="15" durationPct="50"/>
+					<Articulation name="SForzando Inverted" keySwitch="F1"/>
+					<Articulation name="SForzando Dot Inverted" keySwitch="F1" velocityAdd="15" durationPct="50"/>
+				</ArticulationSwitchList>
+	
+				<ArticulationSwitchList name="Tuba C4-D4">
+					<Articulation name="Staccato" keySwitch="C#5"/>
+					<Articulation name="Staccatissimo" keySwitch="C#5" velocityAdd="15" durationPct="50"/>
+					<Articulation name="Tenuto" keySwitch="C5" durationPct="100"/>
+					<Articulation name="Heavy Attack" keySwitch="D5" ctrlNum="1" ctrlValue="100" durationPct="100"/>
+					<Articulation name="Marcato" keySwitch="D5" ctrlNum="1" ctrlValue="100" durationPct="70"/>
+					<Articulation name="Marcato Dot" keySwitch="D5" ctrlNum="1" ctrlValue="127" durationPct="50"/>
+					<Articulation name="Heavier Attack" keySwitch="D5" ctrlNum="1" ctrlValue="127" velocityAdd="15" durationPct="100"/>
+				</ArticulationSwitchList>
+
+				<ArticulationSwitchList name="Solo Cello">
+					<Articulation name="legato" keySwitch="C#1"/>
+					<Articulation name="Up Bow" keySwitch="E1"/>
+					<Articulation name="Up Bow Inverted" keySwitch="E1"/>
+					<Articulation name="Down Bow" keySwitch="D#1"/>
+					<Articulation name="Down Bow Inverted"/>
+				</ArticulationSwitchList>
+
+				<ArticulationSwitchList name="3 Oboes Trill">
+					<Articulation name="legato" keySwitch="F1" durationPct="100"/>
+					<Articulation name="Staccato" keySwitch="C#1" durationPct="90"/>
+					<Articulation name="Staccatissimo" keySwitch="C#1" durationPct="50"/>
+				</ArticulationSwitchList>
+
+				<ArticulationSwitchList name="3 Oboes">
+					<Articulation name="legato" keySwitch="F1" durationPct="100"/>
+					<Articulation name="Staccato" keySwitch="C#1" durationPct="90"/>
+					<Articulation name="Staccatissimo" keySwitch="C#1" durationPct="50"/>
+					<Articulation name="Marcato" keySwitch="D1" ctrlNum="1" ctrlValue="100" durationPct="90"/>
+					<Articulation name="Marcato Dot" keySwitch="D1" ctrlNum="1" ctrlValue="127" durationPct="50"/>
+					<Articulation name="Heavy Attack" keySwitch="D1" ctrlNum="1" ctrlValue="100" durationPct="100"/>
+				</ArticulationSwitchList>
+
+				<ArticulationSwitchList name="Alto Flute">
+					<Articulation name="legato" keySwitch="E1" durationPct="100"/>
+					<Articulation name="Staccato" keySwitch="C#1" durationPct="90"/>
+					<Articulation name="Staccatissimo" keySwitch="C#1" durationPct="50"/>
+				</ArticulationSwitchList>
+
+				<ArticulationSwitchList name="Contrabassoon">
+					<Articulation name="legato" keySwitch="F#1" durationPct="100"/>
+					<Articulation name="Staccato" keySwitch="C#1" durationPct="90"/>
+					<Articulation name="Staccatissimo" keySwitch="C#1" durationPct="50"/>
+					<Articulation name="Marcato" keySwitch="D1" ctrlNum="1" ctrlValue="100" durationPct="90"/>
+					<Articulation name="Marcato Dot" keySwitch="D1" ctrlNum="1" ctrlValue="127" durationPct="50"/>
+					<Articulation name="Heavy Attack" keySwitch="D1" ctrlNum="1" ctrlValue="100" durationPct="100"/>
+				</ArticulationSwitchList>
+
+				<ArticulationSwitchList name="Piccolo Flute">
+					<Articulation name="legato" keySwitch="F1" durationPct="100"/>
+					<Articulation name="Staccato" keySwitch="C#1" durationPct="90"/>
+					<Articulation name="Staccatissimo" keySwitch="C#1" durationPct="50"/>
+					<Articulation name="Marcato" keySwitch="D1" ctrlNum="1" ctrlValue="100" durationPct="90"/>
+					<Articulation name="Marcato Dot" keySwitch="D1" ctrlNum="1" ctrlValue="127" durationPct="50"/>
+					<Articulation name="Heavy Attack" keySwitch="D1" ctrlNum="1" ctrlValue="100" durationPct="100"/>
+				</ArticulationSwitchList>
+
+				<ArticulationSwitchList name="Tuba C4-D#4">
+					<Articulation name="Staccato" keySwitch="C#5" durationPct="90"/>
+					<Articulation name="Staccatissimo" keySwitch="C#5" durationPct="50"/>
+					<Articulation name="Marcato" keySwitch="D5" ctrlNum="1" ctrlValue="100" durationPct="90"/>
+					<Articulation name="Marcato Dot" keySwitch="D5" ctrlNum="1" ctrlValue="127" durationPct="50"/>
+					<Articulation name="Heavy Attack" keySwitch="D5" ctrlNum="1" ctrlValue="100" durationPct="100"/>
+					<Articulation name="Sforzando" keySwitch="D#5" durationPct="90"/>
+					<Articulation name="Sforzando Dot" keySwitch="D#5" durationPct="50"/>
+					<Articulation name="Heavier Attack" keySwitch="D#5" velocityAdd="15" durationPct="100"/>
+				</ArticulationSwitchList>
+	
+		</ArticulationNames>
+
+		<KeySwitchNames>
+    		<KeySwitchList name="10 Cellos C0-E0">
+    			<KeySwitch name="Legato" key="e1"/>
+    			<KeySwitch name="Vibrato EXP Legato" key="d#1"/>
+    			<KeySwitch name="Big Sustain" key="D1"/>
+				<KeySwitch name="Vibrato EXP Fast Attack" key="C#1"/>
+			</KeySwitchList>
+
+    		<KeySwitchList name="10 Cellos C0-G0">
+    			<KeySwitch name="EXP Legato" key="G1"/>
+    			<KeySwitch name="Vibrato Legato" key="F#1"/>
+    			<KeySwitch name="Big Sustain" key="F1"/>
+				<KeySwitch name="N Vibrato Sustain (MW Crossfade)" key="E1"/>
+				<KeySwitch name="Lyrical Sustain" key="D#1"/>
+				<KeySwitch name="Vibrato EXP Slow Attack" key="D1"/>
+				<KeySwitch name="Vibrato EXP Fast Attack" key="C#1"/>
+				<KeySwitch name="Vibrato Sustain" key="C1"/>
+    		</KeySwitchList>
+
+		<KeySwitchList name="10 Cellos Sordino">
+    			<KeySwitch name="Sordino Legato" key="D1"/>
+    			<KeySwitch name="Sordino Sustain" key="C#1"/>
+    			<KeySwitch name="Sordino Expressive" key="C1"/>
+    		</KeySwitchList>
+
+			<KeySwitchList name="10 Cellos Trill C0-F#0">
+    			<KeySwitch name="Whole Step Trill" key="F#1"/>
+    			<KeySwitch name="Half Step Trill" key="F1"/>
+    			<KeySwitch name="Legato" key="E1"/>
+				<KeySwitch name="Vibrato EXP Legato" key="D#1"/>
+				<KeySwitch name="Big Sustain" key="D1"/>
+				<KeySwitch name="Vibrato EXP Fast Attack" key="C#1"/>
+				<KeySwitch name="Vibrato Sustain" key="C1"/>
+    		</KeySwitchList>
+
+			<KeySwitchList name="10 Violas C0-F0">
+    			<KeySwitch name="N Vibrato (MW Crossfade)" key="F1"/>
+    			<KeySwitch name="EXP Legato (MW Accent)" key="E1"/>
+    			<KeySwitch name="EXP Legato" key="D#1"/>
+    			<KeySwitch name="Vibrato EXP Slow Attack" key="D1"/>
+    			<KeySwitch name="Vibrato EXP Fast Attack" key="C#1"/>
+				<KeySwitch name="Vibrato Sustain" key="C1"/>
+    		</KeySwitchList>
+
+    		<KeySwitchList name="11 2nd Violin Trill">
+    			<KeySwitch name="Whole Step Trill" key="E1"/>
+    			<KeySwitch name="Half Step Trill" key="D#1"/>
+    			<KeySwitch name="Vibrato Legato" key="D1"/>
+				<KeySwitch name="Lyrical Sustain B" key="C#1"/>
+				<KeySwitch name="Vibrato Sustain" key="C1"/>
+    		</KeySwitchList>
+
+		<KeySwitchList name="11 2nd Violin">
+    			<KeySwitch name="Vibrato Legato" key="D1"/>
+    			<KeySwitch name="Lyrical Sustain B" key="C#1"/>
+    			<KeySwitch name="Vibrato Sustain" key="C1"/>
+    		</KeySwitchList>
+
+		<KeySwitchList name="11 2nd Violin 2">
+    			<KeySwitch name="Vibrato Legato" key="D1"/>
+    			<KeySwitch name="Lyrical Sustain B" key="C#1"/>
+    			<KeySwitch name="Vibrato Sustain" key="C1"/>
+    		</KeySwitchList>
+
+		<KeySwitchList name="18 1st Violin">
+    			<KeySwitch name="EXP Legato" key="D#1"/>
+    			<KeySwitch name="Legato" key="D1"/>
+    			<KeySwitch name="Vibrato EXP Fast Attack" key="C#1"/>
+    			<KeySwitch name="Vibrato Sustain" key="C1"/>
+    		</KeySwitchList>
+ 
+		<KeySwitchList name="18 1st Violin 2">
+    			<KeySwitch name="Vibrato Sustain" key="C1"/>
+    			<KeySwitch name="Vibrato Expressive, Fast Attack" key="C#1"/>
+    			<KeySwitch name="Lyrical Sustain, Fast Attack" key="D1"/>
+    			<KeySwitch name="Lyrical Sustain, Slow Attack" key="D#1"/>
+			<KeySwitch name="Vibrato Expressive, Slow Attack" key="E1"/>
+    			<KeySwitch name="Non-Vibrato" key="F1"/>
+    			<KeySwitch name="Slurred Sustain" key="F#1"/>
+    			<KeySwitch name="Slurred Sustain, Fast Attack" key="G1"/>
+			<KeySwitch name="Legato" key="G#1"/>
+    			<KeySwitch name="Expressive Legato" key="A1"/>
+     		</KeySwitchList>
+
+		<KeySwitchList name="18 1st Violin Fast">
+    			<KeySwitch name="Vibrato Sustain" key="C1"/>
+    			<KeySwitch name="Vibrato Expressive, Fast Attack" key="C#1"/>
+    			<KeySwitch name="Legato" key="D1"/>
+    			<KeySwitch name="Expressive Legato" key="D#1"/>
+			<KeySwitch name="Legato MF" key="E1"/>
+    			<KeySwitch name="Tremolo" key="F1"/>
+    			<KeySwitch name="Short Marcato" key="F#1"/>
+    			<KeySwitch name="Staccato Up Bow" key="G1"/>
+			<KeySwitch name="Staccato Down Bow" key="G#1"/>
+    			<KeySwitch name="Martele Up Bow" key="A1"/>
+    			<KeySwitch name="Martele Down Bow" key="A#1"/>
+     		</KeySwitchList>
+
+			<KeySwitchList name="18 1st Violin Sordino">
+    			<KeySwitch name="Sordino Legato" key="D1"/>
+    			<KeySwitch name="Sordino Sustain" key="C#1"/>
+    			<KeySwitch name="Sordino EXP" key="C1"/>
+    		</KeySwitchList>
+
+		<KeySwitchList name="Solo Cello">
+    			<KeySwitch name="Vibrato Sustain Smooth" key="C1"/>
+    			<KeySwitch name="Vibrato Legato" key="C#1"/>
+    			<KeySwitch name="Double Bow" key="D1"/>
+    			<KeySwitch name="Vibrato Expressive, Down Bow" key="D#1"/>
+			<KeySwitch name="Vibrato Expressive, Up Bow" key="E1"/>
+    			<KeySwitch name="Vibrato Expressive" key="F1"/>
+    			<KeySwitch name="Slur" key="F#1"/>
+    			<KeySwitch name="Non-Vibrato" key="G1"/>
+			<KeySwitch name="Vibrato Sustain, Hard Attack" key="G#1"/>
+    			<KeySwitch name="Non-Vib Sustain, Attack Accent" key="A1"/>
+     		</KeySwitchList>
+
+		<KeySwitchList name="Solo Cello 2">
+    			<KeySwitch name="Vibrato Sustain Smooth" key="C1"/>
+    			<KeySwitch name="Vibrato Legato" key="C#1"/>
+    			<KeySwitch name="Double Bow" key="D1"/>
+    			<KeySwitch name="Vibrato Expressive, Up Bow" key="D#1"/>
+			<KeySwitch name="Vibrato Expressive" key="E1"/>
+     		</KeySwitchList>
+
+		<KeySwitchList name="Solo Violin">
+    			<KeySwitch name="Legato" key="C1"/>
+    			<KeySwitch name="Vibrato Sustain Soft" key="C#1"/>
+    			<KeySwitch name="Vibrato Expressive 1" key="D1"/>
+    			<KeySwitch name="Vibrato Expressive 2" key="D#1"/>
+			<KeySwitch name="Vibrato Expressive Crescendo" key="E1"/>
+    			<KeySwitch name="Slur" key="F1"/>
+    			<KeySwitch name="Non-Vibrato Soft" key="F#1"/>
+    			<KeySwitch name="Non-Vibrato Hard" key="G1"/>
+			<KeySwitch name="Vibrato Sustain Hard" key="G#1"/>
+    			<KeySwitch name="Vibrato Sustain Crec. Rel." key="A1"/>
+     		</KeySwitchList>
+		
+		<KeySwitchList name="Solo Violin 2">
+    			<KeySwitch name="Legato" key="C1"/>
+    			<KeySwitch name="Vibrato Sustain Soft" key="C#1"/>
+    			<KeySwitch name="Vibrato Sustain Hard" key="D1"/>
+     		</KeySwitchList>
+ 
+			<KeySwitchList name="9 Double Basses C3-C#3">
+    			<KeySwitch name="Legato" key="D#4"/>
+    			<KeySwitch name="Vibrato EXP Fast Attack" key="D4"/>
+    			<KeySwitch name="Big Sustain" key="C#4"/>
+    			<KeySwitch name="Vibrato Sustain" key="C4"/>
+     		</KeySwitchList>
+
+			<KeySwitchList name="9 Double Basses C3-F#3">
+    			<KeySwitch name="Legato" key="F#4"/>
+    			<KeySwitch name="Sforzando" key="F4"/>
+    			<KeySwitch name="Vibrato EXP 2 Swells" key="E4"/>
+    			<KeySwitch name="Vibrato EXP Slow Attack" key="D#4"/>
+    			<KeySwitch name="Forte Piano" key="D4"/>
+				<KeySwitch name="Big Sustain" key="C#4"/>
+				<KeySwitch name="Vibrato Sustain" key="C4"/>
+    		</KeySwitchList>
+
+			<KeySwitchList name="3 Clarinets">
+				<KeySwitch name="Sustain" key="C1"/>
+    			<KeySwitch name="Legato" key="F1"/>
+    			<KeySwitch name="Sustain (MW Crossfade ATK Accent)" key="E1"/>
+    			<KeySwitch name="Sustain (MW Crossfade)" key="D#1"/>
+    			<KeySwitch name="Sustain (MW Attack Accent)" key="D1"/>
+    			<KeySwitch name="Staccato" key="C#1"/>
+    		</KeySwitchList>
+
+			<KeySwitchList name="3 Flutes Trill">
+				<KeySwitch name="Vibrato Sustain" key="C1"/>
+    			<KeySwitch name="Vibrato Legato" key="G1"/>
+    			<KeySwitch name="Whole Step Trill" key="F#1"/>
+    			<KeySwitch name="Half Step Trill" key="F1"/>
+    			<KeySwitch name="EXP Diminuendo" key="E1"/>
+    			<KeySwitch name="N Vibrato Sustain (MW Crossfade Vib)" key="D#1"/>
+				<KeySwitch name="Sustain (MW Attack Accent)" key="D1"/>
+				<KeySwitch name="Staccato" key="C#1"/>
+    		</KeySwitchList>
+
+			<KeySwitchList name="3 Flutes">
+				<KeySwitch name="Vibrato Sustain" key="C1"/>
+    			<KeySwitch name="Vibrato Legato" key="F1"/>
+    			<KeySwitch name="EXP Diminuendo" key="E1"/>
+    			<KeySwitch name="N Vibrato Sustain (MW Crossfade Vib)" key="D#1"/>
+    			<KeySwitch name="Sustain (MW Attack Accent)" key="D1"/>
+    			<KeySwitch name="Staccato" key="C#1"/>
+    		</KeySwitchList>
+
+			<KeySwitchList name="3 Oboes Trill">
+				<KeySwitch name="Vibrato Sustain" key="C1"/>
+    				<KeySwitch name="Staccato" key="C#1"/>
+    				<KeySwitch name="Vibrato Sustain Mod Accent" key="D1"/>
+    				<KeySwitch name="Half-step Trill" key="D#1"/>
+    				<KeySwitch name="Whole-step Trill" key="E1"/>
+    				<KeySwitch name="Legato" key="F1"/>
+    			</KeySwitchList>
+
+			<KeySwitchList name="3 Oboes">
+				<KeySwitch name="Vibrato Sustain" key="C1"/>
+    				<KeySwitch name="Staccato" key="C#1"/>
+    				<KeySwitch name="Sustain Mod Accent" key="D1"/>
+     			</KeySwitchList>
+
+			<KeySwitchList name="3 Oboes 2">
+				<KeySwitch name="Vibrato Sustain" key="C1"/>
+    				<KeySwitch name="Staccato" key="C#1"/>
+    				<KeySwitch name="Sustain Mod Accent" key="D1"/>
+    				<KeySwitch name="Non-Vib Sustain" key="D#1"/>
+    				<KeySwitch name="Vibrato Expressive" key="E1"/>
+    				<KeySwitch name="Legato" key="F1"/>
+    			</KeySwitchList>
+
+			<KeySwitchList name="Alto Flute">
+				<KeySwitch name="Vibrato Sustain" key="C1"/>
+    				<KeySwitch name="Staccato" key="C#1"/>
+    				<KeySwitch name="Non-Vibrato" key="D1"/>
+    				<KeySwitch name="Vibrato Expressive" key="D#1"/>
+    				<KeySwitch name="Legato" key="E1"/>
+    			</KeySwitchList>
+
+			<KeySwitchList name="Contrabassoon">
+				<KeySwitch name="Vibrato Sustain" key="C1"/>
+    				<KeySwitch name="Staccato" key="C#1"/>
+    				<KeySwitch name="Vibrato Sustain Mod Accent" key="D1"/>
+     			</KeySwitchList>
+
+			<KeySwitchList name="Contrabassoon 2">
+				<KeySwitch name="Vibrato Sustain" key="C1"/>
+    				<KeySwitch name="Staccato" key="C#1"/>
+    				<KeySwitch name="Vibrato Sustain Mod Accent" key="D1"/>
+    				<KeySwitch name="Portato" key="D#1"/>
+    				<KeySwitch name="Vibrato Expressive Short" key="E1"/>
+				<KeySwitch name="Vibrato Expressive Long" key="F1"/>
+    				<KeySwitch name="Legato" key="F#1"/>
+    			</KeySwitchList>
+
+			<KeySwitchList name="Bass Clarinet">
+				<KeySwitch name="N Vibrato Sustain p" key="C1"/>
+    			<KeySwitch name="Legato" key="F#1"/>
+    			<KeySwitch name="EXP Crescendo (MW Attack Accent)" key="F1"/>
+    			<KeySwitch name="N Vibrato Sustain (MW Atk Accent)" key="E1"/>
+    			<KeySwitch name="Staccato" key="D#1"/>
+    			<KeySwitch name="N Vibrato Sustain f" key="D1"/>
+				<KeySwitch name="N Vibrato Sustain mf" key="C#1"/>
+    		</KeySwitchList>
+
+			<KeySwitchList name="Bassoon C0-D0">
+				<KeySwitch name="Vibrato Sustain" key="C1"/>
+    			<KeySwitch name="Vibrato Sustain (MW Attack Accent)" key="D1"/>
+    			<KeySwitch name="Staccato" key="C#1"/>
+    		</KeySwitchList>
+
+			<KeySwitchList name="Bassoon C0-G0">
+				<KeySwitch name="Vibrato Sustain" key="C1"/>
+    			<KeySwitch name="Legato" key="G1"/>
+    			<KeySwitch name="Vibrato EXP Long" key="F#1"/>
+    			<KeySwitch name="Vibrato EXP Short" key="F1"/>
+    			<KeySwitch name="N Vibrato" key="E1"/>
+    			<KeySwitch name="Portato" key="D#1"/>
+				<KeySwitch name="Vibrato Sustain" key="D1"/>
+				<KeySwitch name="Staccato" key="C#1"/>
+    		</KeySwitchList>
+		
+			<KeySwitchList name="Clarinet C0-D0">
+				<KeySwitch name="N Vibrato Sustain" key="C1"/>
+    			<KeySwitch name="N Vibrato Sustain (MW Attack Accent)" key="D1"/>
+    			<KeySwitch name="Staccato" key="C#1"/>
+    		</KeySwitchList>
+
+			<KeySwitchList name="Clarinet C0-F#0">
+				<KeySwitch name="N Vibrato Sustain" key="C1"/>
+    			<KeySwitch name="Legato" key="F#1"/>
+    			<KeySwitch name="EXP Slow Attack" key="F1"/>
+    			<KeySwitch name="EXP Fast Attack (MW Attack Accent)" key="E1"/>
+    			<KeySwitch name="Portato" key="D#1"/>
+				<KeySwitch name="N Vibrato Sustain (MW Attack Accent)" key="D1"/>
+				<KeySwitch name="Staccato" key="C#1"/>
+    		</KeySwitchList>
+
+			<KeySwitchList name="Flute C0-D0">
+				<KeySwitch name="Vibrato Sustain" key="C1"/>
+    			<KeySwitch name="Vibrato Sustain (MW Attack Accent)" key="D1"/>
+    			<KeySwitch name="Staccato" key="C#1"/>
+    		</KeySwitchList>
+
+			<KeySwitchList name="Flute C0-F#0">
+				<KeySwitch name="Vibrato Sustain" key="C1"/>
+    			<KeySwitch name="Legato (MW Crossfade)" key="F#1"/>
+    			<KeySwitch name="Vibrato EXP" key="F1"/>
+    			<KeySwitch name="Vibrato EXP Legato" key="E1"/>
+    			<KeySwitch name="N Vibrato" key="D#1"/>
+				<KeySwitch name="Vibrato Sustain (MW Attack Accent)" key="D1"/>
+				<KeySwitch name="Staccato" key="C#1"/>
+    		</KeySwitchList>
+
+			<KeySwitchList name="English Horn C0-D0">
+				<KeySwitch name="Vibrato Sustain" key="C1"/>
+				<KeySwitch name="Vibrato Sustain (MW Attack Accent)" key="D1"/>
+				<KeySwitch name="Staccato" key="C#1"/>
+    		</KeySwitchList>
+
+			<KeySwitchList name="English Horn C0-F#0">
+				<KeySwitch name="Vibrato Sustain" key="C1"/>
+    			<KeySwitch name="Legato" key="F#1"/>
+    			<KeySwitch name="Legato Slide" key="F1"/>
+    			<KeySwitch name="N Vibrato" key="E1"/>
+    			<KeySwitch name="Vibrato EXP" key="D#1"/>
+				<KeySwitch name="Vibrato Sustain (MW Attack Accent)" key="D1"/>
+				<KeySwitch name="Staccato" key="C#1"/>
+    		</KeySwitchList>
+		
+			<KeySwitchList name="Oboe C0-D0">
+				<KeySwitch name="Vibrato Sustain" key="C1"/>
+				<KeySwitch name="Vibrato Sustain (MW Attack Accent)" key="D1"/>
+				<KeySwitch name="Staccato" key="C#1"/>
+    		</KeySwitchList>
+		
+			<KeySwitchList name="Oboe C0-G0">
+				<KeySwitch name="Vibrato Sustain" key="C1"/>
+				<KeySwitch name="Legato" key="G1"/>
+    			<KeySwitch name="Vibrato EXP" key="F#1"/>
+    			<KeySwitch name="N Vibrato" key="F1"/>
+    			<KeySwitch name="Legato Slide" key="E1"/>
+    			<KeySwitch name="Sforzando" key="D#1"/>
+				<KeySwitch name="Vibrato Sustain (MW Attack Accent)" key="D1"/>
+				<KeySwitch name="Staccato" key="C#1"/>
+    		</KeySwitchList>
+
+			<KeySwitchList name="Oboe Trill">
+				<KeySwitch name="Vibrato Sustain" key="C1"/>
+    			<KeySwitch name="Legato" key="F1"/>
+    			<KeySwitch name="Whole Step Trill" key="E1"/>
+    			<KeySwitch name="Half Step Trill" key="D#1"/>
+				<KeySwitch name="Vibrato Sustain (MW Attack Accent)" key="D1"/>
+				<KeySwitch name="Staccato" key="C#1"/>
+    		</KeySwitchList>
+
+			<KeySwitchList name="Piccolo Flute Trill">
+				<KeySwitch name="Vibrato Sustain" key="C1"/>
+    				<KeySwitch name="Whole Step Trill" key="E1"/>
+    				<KeySwitch name="Half Step Trill" key="D#1"/>
+				<KeySwitch name="Vibrato Sustain (MW Attack Accent)" key="D1"/>
+				<KeySwitch name="Staccato" key="C#1"/>
+    			</KeySwitchList>
+
+		<KeySwitchList name="Piccolo Flute">
+				<KeySwitch name="Vibrato Sustain" key="C1"/>
+    				<KeySwitch name="Staccato" key="C#1"/>
+    				<KeySwitch name="Vibrato Sustain (MW Attack Accent)" key="D1"/>
+				<KeySwitch name="Vibrato Expressive" key="E1"/>
+				<KeySwitch name="Legato" key="F1"/>
+    		</KeySwitchList>
+
+			<KeySwitchList name="4 Trombones A-1-B-1">
+				<KeySwitch name="Sustain" key="A0"/>
+				<KeySwitch name="Sustain (MW Attack Accent)" key="B0"/>
+    			<KeySwitch name="Staccato" key="A#0"/>
+    		</KeySwitchList>
+	
+			<KeySwitchList name="4 Trombones A-1-D#0">
+				<KeySwitch name="Sustain" key="A0"/>
+				<KeySwitch name="Portato/Sustain (MW Crossfade)" key="D#1"/>
+    			<KeySwitch name="Forte Piano Rel. Cresc." key="D1"/>
+    			<KeySwitch name="Forte Piano" key="C#1"/>
+    			<KeySwitch name="Sustain (MW Crossfade Atk Accent)" key="C1"/>
+    			<KeySwitch name="Sustain (MW Attack Accent)" key="B0"/>
+				<KeySwitch name="Staccato" key="A#0"/>
+    		</KeySwitchList>
+
+			<KeySwitchList name="4 Trumpets C0-A0">
+				<KeySwitch name="Sustain" key="C1"/>
+				<KeySwitch name="Fast Slur" key="A1"/>
+				<KeySwitch name="Slow Slur" key="G#1"/>
+				<KeySwitch name="Crescendo" key="G1"/>
+    			<KeySwitch name="Forte Piano Rel. Cresc." key="F#1"/>
+    			<KeySwitch name="Forte Piano" key="F1"/>
+    			<KeySwitch name="Sforzando" key="E1"/>
+    			<KeySwitch name="Sustain (MW Crossfade Atk Accent)" key="D#1"/>
+				<KeySwitch name="Sustain (MW Attack Accent)" key="D1"/>
+				<KeySwitch name="Staccato" key="C#1"/>
+    		</KeySwitchList>
+
+			<KeySwitchList name="4 Trumpets C0-D0">
+				<KeySwitch name="Vibrato Sustain" key="C1"/>
+				<KeySwitch name="Sustain (MW Attack Accent)" key="D1"/>
+				<KeySwitch name="Staccato" key="C#1"/>
+    		</KeySwitchList>
+
+			<KeySwitchList name="6 French Horns Sus C0-D#0">
+				<KeySwitch name="Sustain" key="C1"/>
+    			<KeySwitch name="Sustain Faster Attack (MW Crossfade)" key="D#1"/>
+				<KeySwitch name="Sustain (MW Crossfade)" key="D1"/>
+				<KeySwitch name="Sustain Faster Attack" key="C#1"/>
+    		</KeySwitchList>
+
+			<KeySwitchList name="6 French Horns C0-A0">
+				<KeySwitch name="Sustain" key="C1"/>
+				<KeySwitch name="Long Sforzando" key="A1"/>
+				<KeySwitch name="Mellow Sustain" key="G#1"/>
+				<KeySwitch name="Forte Piano (MW Crossfade Sustain)" key="G1"/>
+    			<KeySwitch name="Fast Slide to Sustain" key="F#1"/>
+    			<KeySwitch name="Sustain (MW Crossfade Portato)" key="F1"/>
+    			<KeySwitch name="Portato" key="E1"/>
+    			<KeySwitch name="Sustain and Attack Accent (MW Crossfade)" key="D#1"/>
+				<KeySwitch name="Sustain (MW Crossfade)" key="D1"/>
+				<KeySwitch name="Staccato" key="C#1"/>
+    		</KeySwitchList>
+
+			<KeySwitchList name="6 French Horns C0-E0">
+				<KeySwitch name="Sustain" key="C1"/>
+    			<KeySwitch name="Mellow Sustain" key="E1"/>
+    			<KeySwitch name="Sustain (MW Crossfade Atk Accent)" key="D#1"/>
+				<KeySwitch name="Sustain (MW Crossfade)" key="D1"/>
+				<KeySwitch name="Staccato" key="C#1"/>
+    		</KeySwitchList>
+
+			<KeySwitchList name="6 French Horns C0-D#0">
+    			<KeySwitch name="Sustain (MW Crossfade Portato)" key="D#1"/>
+				<KeySwitch name="Portato" key="D1"/>
+				<KeySwitch name="Sustain (MW Crossfade)" key="C#1"/>
+				<KeySwitch name="Sustain Smooth" key="C1"/>
+    		</KeySwitchList>
+
+			<KeySwitchList name="6 French Horns FX">
+    			<KeySwitch name="Shakes" key="D#1"/>
+				<KeySwitch name="Rips Long" key="D1"/>
+				<KeySwitch name="Rips Short, Alternate" key="C#1"/>
+				<KeySwitch name="Rips Short" key="C1"/>
+    		</KeySwitchList>
+
+			<KeySwitchList name="French Horn C0-D0">
+				<KeySwitch name="Sustain" key="C1"/>
+				<KeySwitch name="Sustain (MW Attack Accent)" key="D1"/>
+				<KeySwitch name="Staccato" key="C#1"/>
+    		</KeySwitchList>
+
+			<KeySwitchList name="French Horn C0-E0">
+				<KeySwitch name="Sustain" key="C1"/>
+    			<KeySwitch name="Portato" key="E1"/>
+    			<KeySwitch name="Sforzando" key="D#1"/>
+				<KeySwitch name="Sustain (MW Attack Accent)" key="D1"/>
+				<KeySwitch name="Staccato" key="C#1"/>
+    		</KeySwitchList>
+
+			<KeySwitchList name="Trombone">
+				<KeySwitch name="Sustain" key="C1"/>
+				<KeySwitch name="Sustain (MW Attack Accent)" key="D1"/>
+				<KeySwitch name="Staccato" key="C#1"/>
+    		</KeySwitchList>
+
+			<KeySwitchList name="Trumpet C0-D0">
+				<KeySwitch name="Sustain" key="C1"/>
+				<KeySwitch name="Sustain (MW Attack Accent)" key="D1"/>
+				<KeySwitch name="Staccato" key="C#1"/>
+    		</KeySwitchList>
+
+			<KeySwitchList name="Trumpet C0-G#0">
+				<KeySwitch name="Sustain" key="C1"/>
+				<KeySwitch name="Crescendo" key="G#1"/>
+				<KeySwitch name="Slur" key="G1"/>
+    			<KeySwitch name="Fast Slur" key="F#1"/>
+    			<KeySwitch name="Sforzando" key="F1"/>
+    			<KeySwitch name="Vibrato Sustain" key="E1"/>
+    			<KeySwitch name="Portato" key="D#1"/>
+				<KeySwitch name="Sustain (MW Attack Accent)" key="D1"/>
+				<KeySwitch name="Staccato" key="C#1"/>
+    		</KeySwitchList>
+
+			<KeySwitchList name="Tuba C4-D4">
+				<KeySwitch name="Sustain" key="C5"/>
+				<KeySwitch name="Sustain (MW Attack Accent)" key="D5"/>
+				<KeySwitch name="Staccato" key="C#5"/>
+    		</KeySwitchList>
+
+			<KeySwitchList name="Tuba C4-D#4">
+				<KeySwitch name="Sustain" key="C5"/>
+				<KeySwitch name="Staccato" key="C#5"/>
+				<KeySwitch name="Sustain (MW Attack Accent)" key="D5"/>
+				<KeySwitch name="Sforzando" key="D#5"/>
+    		</KeySwitchList>
+
+
+		</KeySwitchNames>
+
+		<ControllerNames>				
+ 			<Controller name="Volume Control (Expression)" cc="11"/>
+ 			<Controller name="(Optional) Volume" cc="7"/>
+			<Controller name="(Optional) Panning" cc="10"/>
+ 			<Controller name="Sustain" cc="64"/>
+ 			<Controller name="Modulation" cc="1"/>
+
+			<ControllerSwitchList name="DXF">
+ 				<Controller name="Dynamic Volume XFade" cc="1"/>
+			</ControllerSwitchList> 
+
+			<ControllerSwitchList name="EXP">
+ 				<Controller name="Dynamic Expression Control" cc="11"/>
+			</ControllerSwitchList> 
+	
+			<ControllerSwitchList name="Mod Attack">
+ 				<Controller name="Attack Accent" cc="1"/>
+			</ControllerSwitchList> 
+
+			<ControllerSwitchList name="XF Vib">
+ 				<Controller name="XFade to Vibrato" cc="1"/>
+			</ControllerSwitchList> 
+
+			<ControllerSwitchList name="XF Trem">
+ 				<Controller name="XFade to Tremolo" cc="1"/>
+			</ControllerSwitchList> 
+
+			<ControllerSwitchList name="XF EXP Vib">
+ 				<Controller name="XFade to Exp. Vibrato" cc="1"/>
+			</ControllerSwitchList> 
+
+			<ControllerSwitchList name="Volume + Crossfade">
+ 				<Controller name="Volume + Crossfade" cc="1"/>
+			</ControllerSwitchList> 
+
+			<ControllerSwitchList name="Slaps">
+ 				<Controller name="Add Bow Slaps" cc="1"/>
+			</ControllerSwitchList> 
+
+			<ControllerSwitchList name="XF Non Vib">
+ 				<Controller name="XFade to Non Vibrato" cc="1"/>
+			</ControllerSwitchList> 
+			
+			<ControllerSwitchList name="Volume XF Vib">
+ 				<Controller name="Volume XFade to Vibrato" cc="1"/>
+			</ControllerSwitchList> 
+		
+			<ControllerSwitchList name="Add Flutter">
+ 				<Controller name="Add Flutter-tounging" cc="1"/>
+			</ControllerSwitchList> 
+
+			<ControllerSwitchList name="XF Accent">
+ 				<Controller name="XFade to Accented" cc="1"/>
+			</ControllerSwitchList> 
+
+			<ControllerSwitchList name="XF Port">
+ 				<Controller name="XFade to Portato" cc="1"/>
+			</ControllerSwitchList> 
+
+			<ControllerSwitchList name="XF Stac">
+ 				<Controller name="XFade to Stacatto" cc="1"/>
+			</ControllerSwitchList> 
+
+			<ControllerSwitchList name="Dynamic Attack">
+ 				<Controller name="Dynamic Attack Accent" cc="1"/>
+			</ControllerSwitchList> 
+
+			<ControllerSwitchList name="Double Tounge Attk">
+ 				<Controller name="Dble Tounging Attk Accent" cc="1"/>
+			</ControllerSwitchList> 
+
+			<ControllerSwitchList name="Handmuff">
+ 				<Controller name="Handmuffle Percussion" cc="1"/>
+			</ControllerSwitchList> 
+
+			<ControllerSwitchList name="Keyswitches">
+ 				<Controller name="Various Crossfade Controls" cc="1"/>
+			</ControllerSwitchList> 
+
+			<ControllerSwitchList name="EXP MW Attk">
+ 				<Controller name="Attack Accent" cc="1"/>
+				<Controller name="Dynamic Expression Control" cc="11"/>
+			</ControllerSwitchList> 
+
+			<ControllerSwitchList name="EXP DXF">
+ 				<Controller name="Dynamic Volume XFade" cc="1"/>
+				<Controller name="Dynamic Expression Control" cc="11"/>
+			</ControllerSwitchList> 
+
+			<ControllerSwitchList name="XF Sus">
+ 				<Controller name="XFade to Sustain" cc="1"/>
+			</ControllerSwitchList> 
+
+			<ControllerSwitchList name="XF 2Way">
+ 				<Controller name="2 Way Crossfade" cc="1"/>
+			</ControllerSwitchList> 
+
+		</ControllerNames>	
+ 
+		<Instruments>
+
+			<Section name="Percussion" lownote="c-1" highnote="c9" clef="treble" velocity="on" legato="off">
+				<UsesKeySwitchList name="Percussion"/>
+				<UsesControllerSwitchList name="Percussion"/>
+
+			<Group name="Cymbals">
+				<Instrument name="12 Band Cymbal" title="Cymbals" abbr="Cym."/>
+				<Instrument name="12 Cymbal" title="Cymbals" abbr="Cym."/>
+				<Instrument name="16 German Cymbal" title="Cymbals" abbr="Cym."/>
+				<Instrument name="18 Cymbal" title="Cymbals" abbr="Cym."/>
+				<Instrument name="18 German Cymbal" title="Cymbals" abbr="Cym."/>
+				<Instrument name="18 Viennese Cymbal" title="Cymbals" abbr="Cym."/>
+				<Instrument name="19 French Cymbal" title="Cymbals" abbr="Cym."/>
+				<Instrument name="20 Cymbal" title="Cymbals" abbr="Cym."/>
+				<Instrument name="20 French Cymbal" title="Cymbals" abbr="Cym."/>
+				<Instrument name="21 French Cymbal" title="Cymbals" abbr="Cym."/>
+				<Instrument name="22 Cymbal" title="Cymbals" abbr="Cym."/>
+			</Group>
+			
+			<Group name="Gongs">
+				<Instrument name="23 Gong" title="Gongs" abbr="Gong"/>
+				<Instrument name="28 Gong" title="Gongs" abbr="Gong"/>
+				<Instrument name="48 Gong" title="Gongs" abbr="Gong"/>
+				<Instrument name="60 Gong" title="Gongs" abbr="Gong"/>
+				<Instrument name="Gongs" title="Gongs" abbr="Gong"/>
+			</Group>
+
+			<Group name="Snares">
+				<Instrument name="3 Snares DXF Rolls" title="Snares" abbr="Sd.">
+					<UsesControllerSwitchList name="DXF"/>
+				</Instrument>
+				<Instrument name="3 Snares" title="Snares" abbr="Sd."/>
+				<Instrument name="Snare Ens Large" title="Snares" abbr="Sd."/>
+				<Instrument name="Snare Ens Small" title="Snares" abbr="Sd."/>
+			</Group>
+
+			<Group name="Anvils">
+				<Instrument name="Anvil Low" title="Anvils" abbr="Anvil"/>
+				<Instrument name="Anvil" title="Anvils" abbr="Anvil"/>
+			</Group>
+
+			<Group name="Bass Drum">
+				<Instrument name="Bass Drum Concert" title="Bass Drum" abbr="Bdm." clef="bass"/>
+				<Instrument name="Bass Drum Wagner" title="Bass Drum" abbr="Bdm." clef="bass"/>
+			</Group>
+
+
+			<Group name="Timpani">
+				<Instrument name="Timp Crec L" title="Timpani" abbr="Timp." clef="bass"/>
+				<Instrument name="Timp Crec S" title="Timpani" abbr="Timp." clef="bass"/>
+				<Instrument name="Timp Hits Crec L" title="Timpani" abbr="Timp." clef="bass"/>
+				<Instrument name="Timp Hits Crec S" title="Timpani" abbr="Timp." clef="bass"/>
+				<Instrument name="Timp Hits" title="Timpani" abbr="Timp." clef="bass"/>
+				<Instrument name="Timp Roll DXF Mod" title="Timpani" abbr="Timp." clef="bass">
+					<UsesControllerSwitchList name="DXF"/>
+				</Instrument>
+				<Instrument name="Timp Roll Rel Crec" title="Timpani" abbr="Timp." clef="bass"/>
+				<Instrument name="Timp Roll" title="Timpani" abbr="Timp." clef="bass"/>
+				<Instrument name="Timp Soft Hits" title="Timpani" abbr="Timp." clef="bass"/>
+			</Group>
+
+			<Group name="Other Drums">
+				<Instrument name="5 Toms" title="Toms" abbr="Toms"/>
+				<Instrument name="Field Ens" title="Field Drums" abbr="FldDrs."/>
+				<Instrument name="Field Funeral Tenor" title="Field Drums" abbr="FldDrs."/>
+			</Group>
+
+			<Group name="Other Percussion">
+				<Instrument name="Castanets" title="Castanets" abbr="Cast."/>
+				<Instrument name="Crotales" title="Crotales" abbr="Crot."/>
+				<Instrument name="Orch Chimes" title="Orch. Chimes" abbr="OChm."/>
+				<Instrument name="Tambourine" title="Tambourine" abbr="Tamb."/>
+				<Instrument name="Triangle" title="Triangle" abbr="Tri."/>
+				<Instrument name="Various Metals" title="Bells" abbr="Bells"/>
+				<Instrument name="Various Perc" title="Percussion" abbr="Perc."/>
+			</Group>
+				
+			<Group name="Glock, Vibes, Xylo">
+				<Instrument name="Glock Mellow" title="Glockenspiel" abbr="Glsp." pitch="24"/>
+				<Instrument name="Glock" title="Glockenspiel" abbr="Glsp." pitch="24"/>
+				<Instrument name="Vibes" title="Vibraphone" abbr="Vibes"/>
+				<Instrument name="Xylophone" title="Xylophone" abbr="Xylo." pitch="12"/>
+			</Group>
+
+			<Group name="Handmuffled Percussion">
+			<UsesControllerSwitchList name="Handmuff"/>
+				<Instrument name="Crotales Handmuf Mod" title="Crotales" abbr="Crot."/>
+				<Instrument name="Glock Handmuf Mod" title="Glockenspiel" abbr="Glsp." pitch="24"/>
+				<Instrument name="Orch Chimes HMuf Mod" title="Orch. Chimes" abbr="OChm."/>
+				<Instrument name="Timp Hits Handmuf Mod" title="Timpani" abbr="Timp." clef="bass"/>
+				<Instrument name="Vibes Acc Handmuf Mod" title="Vibraphone" abbr="Vibes"/>
+				<Instrument name="Vibes Handmuf Mod" title="Vibraphone" abbr="Vibes"/>
+			</Group>
+
+			</Section>
+
+		</Instruments>
+	</Device>
+	
+</VSTNameDocument>

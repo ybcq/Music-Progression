@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTNameDocument name="Beast">
+  <Version>1</Version>
+  <Author>GenieSoft,Inc.</Author>
+  <Device name="Beast" usesPatchNames="1" firstPatchNumber="0" />
+  <ControllerNames>
+    <Controller name="Volume" cc="7" />
+    <Controller name="Panning" cc="10" />
+    <Controller name="Portamento Control" cc="5" />
+    <Controller name="Wave 1 Control" cc="70" />
+    <Controller name="Wave 2 Control" cc="71" />
+    <Controller name="Wave 3 Control" cc="72" />
+    <Controller name="Wave 4 Control" cc="73" />
+    <Controller name="Cutoff 1 Control" cc="74" />
+    <Controller name="Resonance 1 Control" cc="75" />
+    <Controller name="Envelope Mod. 1 Control" cc="76" />
+    <Controller name="Envelope Decay 1 Control" cc="77" />
+    <Controller name="Amplifier Accent 1 Control" cc="11" />
+    <Controller name="Amplifier Drive 1 Control" cc="6" />
+    <Controller name="Amplifier Volume 1 Control" cc="85" />
+    <Controller name="Amplifier Panning 1 Control" cc="8" />
+    <Controller name="Cutoff 2 Control" cc="78" />
+    <Controller name="Resonance 2 Control" cc="79" />
+    <Controller name="Envelope Mod. 2 Control" cc="80" />
+    <Controller name="Envelope Decay 2 Control" cc="81" />
+    <Controller name="Amplifier Accent 2 Control" cc="12" />
+    <Controller name="Amplifier Drive 2 Control" cc="82" />
+    <Controller name="Amplifier Volume 2 Control" cc="83" />
+    <Controller name="Amplifier Panning 2 Control" cc="84" />
+    <Controller name="Delay Mix Control" cc="91" />
+    <Controller name="Delay Time Control" cc="92" />
+    <Controller name="Delay Feedback Control" cc="93" />
+    <Controller name="Reverb Mix Control" cc="94" />
+    <Controller name="Reverb Room-Size Control" cc="95" />
+    <Controller name="Reverb Damping Control" cc="96" />
+  </ControllerNames>
+  <Instruments>
+    <Section name="Default Presets" title="Beast-Synth" abbr="Synth" clef="treble" lownote="c-1" highnote="c9">
+      <Group name="Presets 1-20" title="Beast-Synth" abbr="Synth" clef="treble" lownote="c-1" highnote="c9">
+        <Instrument name="I Need More" prgChg="1" />
+        <Instrument name="Almost JunoX" prgChg="2" />
+        <Instrument name="Fat Dancefloor" prgChg="3" />
+        <Instrument name="ATARI in Space" prgChg="4" />
+        <Instrument name="Cat Bass" prgChg="5" />
+        <Instrument name="4 OSC Drone" prgChg="6" />
+        <Instrument name="Mosquitos" prgChg="7" />
+        <Instrument name="Mini Moog Like" prgChg="8" />
+        <Instrument name="High Again" prgChg="9" />
+        <Instrument name="Sitar Harmonics" prgChg="10" />
+        <Instrument name="Industrial" prgChg="11" />
+        <Instrument name="Resowave" prgChg="12" />
+        <Instrument name="Resowave 2" prgChg="13" />
+        <Instrument name="Subwoofer" prgChg="14" />
+        <Instrument name="Holy Church" prgChg="15" />
+        <Instrument name="303" prgChg="16" />
+        <Instrument name="Kommander Keen" prgChg="17" />
+        <Instrument name="Scrap Bass" prgChg="18" />
+        <Instrument name="Leada" prgChg="19" />
+        <Instrument name="Super Nova" prgChg="20" />
+      </Group>
+      <Group name="Presets 21-40" title="Beast-Synth" abbr="Synth" clef="treble" lownote="c-1" highnote="c9">
+        <Instrument name="Charlie Horse" prgChg="21" />
+        <Instrument name="Space Violin" prgChg="22" />
+        <Instrument name="Take Me Higher" prgChg="23" />
+        <Instrument name="Lights in Green" prgChg="24" />
+        <Instrument name="Arp Glider" prgChg="25" />
+        <Instrument name="Metal Hammer" prgChg="26" />
+        <Instrument name="Distorted Reality" prgChg="27" />
+        <Instrument name="Y Boyz" prgChg="28" />
+        <Instrument name="Falling Starship" prgChg="29" />
+        <Instrument name="Background 303s..." prgChg="30" />
+        <Instrument name="Goanaut" prgChg="31" />
+        <Instrument name="Little Sister" prgChg="32" />
+        <Instrument name="Space Kid" prgChg="33" />
+        <Instrument name="Borg Cube" prgChg="34" />
+        <Instrument name="Electricity" prgChg="35" />
+        <Instrument name="FXBass" prgChg="36" />
+        <Instrument name="2oscBass" prgChg="37" />
+        <Instrument name="AmbientLead2" prgChg="38" />
+        <Instrument name="BassOrLead" prgChg="39" />
+        <Instrument name="BeastBass" prgChg="40" />
+      </Group>
+      <Group name="Presets 41-63" title="Beast-Synth" abbr="Synth" clef="treble" lownote="c-1" highnote="c9">
+        <Instrument name="BriteLead2" prgChg="41" />
+        <Instrument name="DelayBnL" prgChg="42" />
+        <Instrument name="DriveLead" prgChg="43" />
+        <Instrument name="DryBass" prgChg="44" />
+        <Instrument name="FullBeast" prgChg="45" />
+        <Instrument name="FuzzQ" prgChg="46" />
+        <Instrument name="ItDoesScream" prgChg="47" />
+        <Instrument name="JunoXish2" prgChg="48" />
+        <Instrument name="JunoXish-BnL" prgChg="49" />
+        <Instrument name="MetalBass-Lead" prgChg="50" />
+        <Instrument name="Octavius" prgChg="51" />
+        <Instrument name="PoweBass" prgChg="52" />
+        <Instrument name="QBass2" prgChg="53" />
+        <Instrument name="SawsLead2" prgChg="54" />
+        <Instrument name="ScreamerBnL" prgChg="55" />
+        <Instrument name="Stinger+Oct" prgChg="56" />
+        <Instrument name="TriLead" prgChg="57" />
+        <Instrument name="UltraHi-Lead" prgChg="58" />
+        <Instrument name="ZipperEFX" prgChg="59" />
+        <Instrument name="darthCommeth" prgChg="60" />
+        <Instrument name="Dr. HardASS" prgChg="61" />
+        <Instrument name="Floyd" prgChg="62" />
+        <Instrument name="Hell" prgChg="63" />
+      </Group>
+    </Section>
+    <Section name="User Presets"></Section>
+  </Instruments>
+</VSTNameDocument>

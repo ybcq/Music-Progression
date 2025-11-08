@@ -1,0 +1,434 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTNameDocument name="EWQLSO Platinum Brass">
+  <Version>1</Version>
+  <Author>Sonic Scores</Author>
+  <Device name="EWQLSO Platinum Brass" />
+  <ControllerNames>
+    <Controller name="Modulation" cc="1" />
+    <Controller name="Panning" cc="10" />
+    <Controller name="Sustain" cc="64" />
+    <ControllerSwitchList name="EWQLSO Brass">
+      <Controller name="Volume (Expression)" cc="11" />
+      <Controller name="Master Volume" cc="7" />
+      <Controller name="Crossfade (Modulation)" cc="1" />
+      <Controller name="Legato Time / Portamento Time" cc="5" />
+      <Controller name="Portamento On/Off" cc="65" />
+      <Controller name="Legato On/Off" cc="68" />
+      <Controller name="Repetition On/Off" cc="69" />
+    </ControllerSwitchList>
+  </ControllerNames>
+  <KeySwitchNames>
+    <KeySwitchList name="2TP KS Master">
+      <KeySwitch name="Mute Sus" key="C#1" />
+      <KeySwitch name="Port-Leg" key="D#1" />
+      <KeySwitch name="Portato" key="G1" />
+      <KeySwitch name="QLeg" key="E1" />
+      <KeySwitch name="Sus-Leg" key="D1" />
+      <KeySwitch name="Sus" key="C1" />
+      <KeySwitch name="Marc" key="G#1" />
+      <KeySwitch name="Mute Stac RR" key="A1" />
+      <KeySwitch name="Repetitions" key="A#1" />
+      <KeySwitch name="Stac RR x4" key="B1" />
+      <KeySwitch name="1sec Cres" key="C2" />
+      <KeySwitch name="2sec Cres" key="C#2" />
+      <KeySwitch name="Arp FX" key="F2" />
+      <KeySwitch name="Mute Cres Fltr" key="D2" />
+      <KeySwitch name="Mute Cres Fst" key="D#2" />
+      <KeySwitch name="Mute Rip" key="E2" />
+      <KeySwitch name="Trill HT" key="F1" />
+      <KeySwitch name="Trill WT" key="F#1" />
+    </KeySwitchList>
+    <KeySwitchList name="4TP KS Master">
+      <KeySwitch name="Forte Piano" key="C#1" />
+      <KeySwitch name="Sfz" key="D#1" />
+      <KeySwitch name="Sus-Leg" key="D1" />
+      <KeySwitch name="Sus" key="C1" />
+      <KeySwitch name="Stac RR x3" key="E1" />
+      <KeySwitch name="Crec" key="F1" />
+    </KeySwitchList>
+    <KeySwitchList name="6FH KS Master">
+      <KeySwitch name="3Sec Marc" key="C#6" />
+      <KeySwitch name="Mute Sus" key="C#1" />
+      <KeySwitch name="Port-Leg" key="F#1" />
+      <KeySwitch name="Portato" key="A#1" />
+      <KeySwitch name="QLeg" key="G1" />
+      <KeySwitch name="Sus" key="C1" />
+      <KeySwitch name="Sus Accent" key="D1" />
+      <KeySwitch name="Sus Forte Piano" key="D#1" />
+      <KeySwitch name="Sus Mellow" key="E1" />
+      <KeySwitch name="Sus-Leg" key="F1" />
+      <KeySwitch name="1sec Marc" key="C6" />
+      <KeySwitch name="Stac Long" key="D6" />
+      <KeySwitch name="Stac Short" key="D#6" />
+      <KeySwitch name="1sec Cres" key="E6" />
+      <KeySwitch name="2sec Cres" key="F6" />
+      <KeySwitch name="3sec Cres Fltr" key="F#6" />
+      <KeySwitch name="Clstr Bend WT" key="A6" />
+      <KeySwitch name="Clstr" key="G#6" />
+      <KeySwitch name="Flutter Cres Fst" key="G6" />
+      <KeySwitch name="FX Hell" key="B6" />
+      <KeySwitch name="Rips F" key="D#7" />
+      <KeySwitch name="Rips L" key="D7" />
+      <KeySwitch name="Rips S" key="C7" />
+      <KeySwitch name="Rips X" key="C#7" />
+      <KeySwitch name="Shake" key="A#6" />
+      <KeySwitch name="Trill HT" key="G#1" />
+      <KeySwitch name="Trill WT" key="A1" />
+    </KeySwitchList>
+    <KeySwitchList name="4TB KS Master">
+      <KeySwitch name="Forte Piano" key="D6" />
+      <KeySwitch name="Mute Sus" key="C#6" />
+      <KeySwitch name="Port-Leg" key="E6" />
+      <KeySwitch name="Portato" key="G6" />
+      <KeySwitch name="QLeg" key="F6" />
+      <KeySwitch name="Sus-Leg" key="D#6" />
+      <KeySwitch name="Sus" key="C6" />
+      <KeySwitch name="Marc S Accent" key="A6" />
+      <KeySwitch name="Marc" key="G#6" />
+      <KeySwitch name="Mute Stac RR" key="A#6" />
+      <KeySwitch name="Stac RR" key="B6" />
+      <KeySwitch name="1Sec Cres" key="C7" />
+      <KeySwitch name="2Sec Cres" key="C#7" />
+      <KeySwitch name="3Sec Cres" key="D7" />
+      <KeySwitch name="Bend Dn HT" key="F7" />
+      <KeySwitch name="Clusters" key="E7" />
+      <KeySwitch name="Flutter" key="F#6" />
+      <KeySwitch name="Mute Fltr Cres Fst" key="D#7" />
+    </KeySwitchList>
+    <KeySwitchList name="3WT KS Master">
+      <KeySwitch name="Big Sus" key="C1" />
+      <KeySwitch name="Port-Leg" key="E1" />
+      <KeySwitch name="Sus Port" key="C#1" />
+      <KeySwitch name="Sus-Leg" key="D#1" />
+      <KeySwitch name="Rip" key="F1" />
+      <KeySwitch name="Sus X-Fade 2-Way" key="D1" />
+    </KeySwitchList>
+    <KeySwitchList name="STP KS Master">
+      <KeySwitch name="Exp-Leg" key="D#1" />
+      <KeySwitch name="Exp" key="F1" />
+      <KeySwitch name="Port-Leg" key="D1" />
+      <KeySwitch name="Port" key="E1" />
+      <KeySwitch name="Sus Vib" key="F#1" />
+      <KeySwitch name="Sus-Leg" key="C#1" />
+      <KeySwitch name="Sus" key="C1" />
+      <KeySwitch name="Stac RR" key="G1" />
+      <KeySwitch name="Sfz Crec" key="G#1" />
+      <KeySwitch name="Slur" key="A1" />
+    </KeySwitchList>
+    <KeySwitchList name="ST2 KS Master">
+      <KeySwitch name="Exp Vib" key="G#1" />
+      <KeySwitch name="Marc Vib Long" key="G1" />
+      <KeySwitch name="Port-Leg" key="D1" />
+      <KeySwitch name="Portato" key="F1" />
+      <KeySwitch name="QLeg NV" key="D#1" />
+      <KeySwitch name="QLeg Vib" key="E1" />
+      <KeySwitch name="Sus NV" key="C1" />
+      <KeySwitch name="Sus-Leg" key="C#1" />
+      <KeySwitch name="Stac RR x5" key="A1" />
+      <KeySwitch name="8va Sl Up" key="A#1" />
+      <KeySwitch name="Cres 1 Sec" key="B1" />
+      <KeySwitch name="Cres 2 Sec" key="C2" />
+      <KeySwitch name="Cres 3 Sec Fltr" key="C#2" />
+      <KeySwitch name="Falls" key="D2" />
+      <KeySwitch name="Flutter Cres Fst" key="D#2" />
+      <KeySwitch name="Rips" key="E2" />
+    </KeySwitchList>
+    <KeySwitchList name="PTP KS Master">
+      <KeySwitch name="Sus-Leg" key="C#1" />
+      <KeySwitch name="Sus" key="C1" />
+      <KeySwitch name="Marc" key="E1" />
+      <KeySwitch name="Stac RR" key="F1" />
+      <KeySwitch name="Trill HT" key="D1" />
+      <KeySwitch name="Trill WT" key="D#1" />
+    </KeySwitchList>
+    <KeySwitchList name="SFH KS Master">
+      <KeySwitch name="QLeg" key="D1" />
+      <KeySwitch name="Sfz Crec" key="E1" />
+      <KeySwitch name="Sus-Leg" key="C#1" />
+      <KeySwitch name="Sus" key="C1" />
+      <KeySwitch name="Marc" key="D#1" />
+      <KeySwitch name="Stac RR" key="F1" />
+    </KeySwitchList>
+    <KeySwitchList name="STB KS Master">
+      <KeySwitch name="Mute Sus" key="C#6" />
+      <KeySwitch name="Port-Leg" key="D#6" />
+      <KeySwitch name="Portato" key="F6" />
+      <KeySwitch name="QLeg" key="E6" />
+      <KeySwitch name="Sus-Leg" key="D6" />
+      <KeySwitch name="Sus" key="C6" />
+      <KeySwitch name="Marc F" key="F#6" />
+      <KeySwitch name="Stac RR x3" key="G6" />
+      <KeySwitch name="Bass Sfz Crec" key="G#6" />
+    </KeySwitchList>
+    <KeySwitchList name="STU KS Master">
+      <KeySwitch name="Exp-Leg" key="D#5" />
+      <KeySwitch name="Exp" key="F5" />
+      <KeySwitch name="Mute Sus" key="C#5" />
+      <KeySwitch name="Sfz" key="F#5" />
+      <KeySwitch name="Sus-Leg" key="D5" />
+      <KeySwitch name="Sus" key="C5" />
+      <KeySwitch name="Marc" key="E5" />
+      <KeySwitch name="Stac RR x3" key="G5" />
+    </KeySwitchList>
+  </KeySwitchNames>
+  <ArticulationNames>
+    <Articulation name="Marcato" velocityAdd="10" durationPct="90" />
+    <Articulation name="Marcato Dot" velocityAdd="15" durationPct="40" />
+    <Articulation name="Heavy Attack" velocityAdd="10" durationPct="100" />
+    <Articulation name="SForzando" velocityAdd="20" />
+    <Articulation name="SForzando Dot" velocityAdd="20" durationPct="50" />
+    <Articulation name="Heavier Attack" velocityAdd="20" durationPct="100" />
+    <Articulation name="SForzando Inverted" velocityAdd="20" />
+    <Articulation name="SForzando Dot Inverted" velocityAdd="20" durationPct="50" />
+    <Articulation name="Staccatissimo" velocityAdd="15" durationPct="20" />
+    <Articulation name="Staccato" velocityAdd="15" durationPct="40" />
+    <Articulation name="Tenuto" durationPct="100" />
+    <Articulation name="Up Bow" />
+    <Articulation name="Down Bow" velocityAdd="5" />
+    <Articulation name="Up Bow Inverted" />
+    <Articulation name="Down Bow Inverted" velocityAdd="5" />
+    <Articulation name="Arpeggio" attackFrom="-90" attackTo="0" />
+    <Articulation name="Tremolo Eighths" tremoloNotes="1" />
+    <Articulation name="Tremolo Sixteenths" tremoloNotes="2" />
+    <Articulation name="Tremolo Thirty Seconds" tremoloNotes="3" />
+    <Articulation name="Tremolo Sixty Fourths" tremoloNotes="4" />
+    <Articulation name="pizz" />
+    <Articulation name="arco" durationPct="90" />
+    <Articulation name="legato" velocityPct="75" durationPct="100" />
+    <ArticulationSwitchList name="2TP KS">
+      <Articulation name="Marcato" keySwitch="G#1" />
+      <Articulation name="Marcato Dot" durationPct="20" keySwitch="G#1" />
+      <Articulation name="Tenuto" durationPct="100" keySwitch="G1" />
+      <Articulation name="Staccato" durationPct="40" keySwitch="B1" />
+      <Articulation name="legato" velocityPct="75" durationPct="100" onOffset="10" keySwitch="D1" />
+    </ArticulationSwitchList>
+    <ArticulationSwitchList name="4TP KS">
+      <Articulation name="Staccato" durationPct="40" keySwitch="E1" />
+      <Articulation name="legato" velocityPct="75" durationPct="100" onOffset="10" keySwitch="D1" />
+    </ArticulationSwitchList>
+    <ArticulationSwitchList name="6FH KS">
+      <Articulation name="Marcato" keySwitch="C#6" />
+      <Articulation name="Marcato Dot" keySwitch="C6" />
+      <Articulation name="Tenuto" durationPct="100" keySwitch="A#1" />
+      <Articulation name="Staccato" durationPct="40" keySwitch="D6" />
+      <Articulation name="legato" velocityPct="75" durationPct="100" onOffset="10" keySwitch="F1" />
+    </ArticulationSwitchList>
+    <ArticulationSwitchList name="4TB KS">
+      <Articulation name="Marcato" keySwitch="G#6" />
+      <Articulation name="Marcato Dot" keySwitch="A6" />
+      <Articulation name="Tenuto" durationPct="100" keySwitch="G6" />
+      <Articulation name="Staccato" durationPct="40" keySwitch="B6" />
+      <Articulation name="legato" velocityPct="75" durationPct="100" onOffset="10" keySwitch="D#6" />
+    </ArticulationSwitchList>
+    <ArticulationSwitchList name="3WT KS">
+      <Articulation name="Tenuto" durationPct="100" keySwitch="C#1" />
+      <Articulation name="legato" velocityPct="75" durationPct="100" onOffset="10" keySwitch="D#1" />
+    </ArticulationSwitchList>
+    <ArticulationSwitchList name="STP KS">
+      <Articulation name="Tenuto" durationPct="100" keySwitch="E1" />
+      <Articulation name="Staccato" durationPct="40" keySwitch="G1" />
+      <Articulation name="legato" velocityPct="75" durationPct="100" onOffset="10" keySwitch="C#1" />
+    </ArticulationSwitchList>
+    <ArticulationSwitchList name="ST2 KS">
+      <Articulation name="Marcato" keySwitch="G1" />
+      <Articulation name="Marcato Dot" durationPct="20" keySwitch="G1" />
+      <Articulation name="Tenuto" durationPct="100" keySwitch="F1" />
+      <Articulation name="Staccato" durationPct="40" keySwitch="A1" />
+      <Articulation name="legato" velocityPct="75" durationPct="100" onOffset="10" keySwitch="C#1" />
+    </ArticulationSwitchList>
+    <ArticulationSwitchList name="PTP KS">
+      <Articulation name="Marcato" keySwitch="E1" />
+      <Articulation name="Marcato Dot" durationPct="20" keySwitch="E1" />
+      <Articulation name="Staccato" durationPct="40" keySwitch="F1" />
+      <Articulation name="legato" velocityPct="75" durationPct="100" onOffset="10" keySwitch="C#1" />
+    </ArticulationSwitchList>
+    <ArticulationSwitchList name="SFH KS">
+      <Articulation name="Marcato" keySwitch="D#1" />
+      <Articulation name="Marcato Dot" durationPct="20" keySwitch="D#1" />
+      <Articulation name="Staccato" durationPct="40" keySwitch="F1" />
+      <Articulation name="legato" velocityPct="75" durationPct="100" onOffset="10" keySwitch="C#1" />
+    </ArticulationSwitchList>
+    <ArticulationSwitchList name="STB KS">
+      <Articulation name="Marcato" keySwitch="F#6" />
+      <Articulation name="Marcato Dot" durationPct="20" keySwitch="F#6" />
+      <Articulation name="Staccato" durationPct="40" keySwitch="G6" />
+      <Articulation name="legato" velocityPct="75" durationPct="100" onOffset="10" keySwitch="D6" />
+    </ArticulationSwitchList>
+    <ArticulationSwitchList name="STU KS">
+      <Articulation name="Marcato" keySwitch="E5" />
+      <Articulation name="Marcato Dot" durationPct="20" keySwitch="E5" />
+      <Articulation name="Staccato" durationPct="40" keySwitch="G5" />
+      <Articulation name="legato" velocityPct="75" durationPct="100" onOffset="10" keySwitch="D5" />
+    </ArticulationSwitchList>
+  </ArticulationNames>
+  <Instruments>
+    <Section name="2 Trumpets" title="Trumpets" legato="on" abbr="Tpts." clef="treble">
+      <UsesControllerSwitchList name="EWQLSO Brass" />
+      <Group name="1 Long">
+        <Instrument name="2TP Mute Sus"></Instrument>
+        <Instrument name="2TP Port-Leg"></Instrument>
+        <Instrument name="2TP Portato"></Instrument>
+        <Instrument name="2TP QLeg"></Instrument>
+        <Instrument name="2 TP Sus-Leg"></Instrument>
+        <Instrument name="2TP Sus"></Instrument>
+      </Group>
+      <Group name="2 Short">
+        <Instrument name="2TP Marc"></Instrument>
+        <Instrument name="Mute Stac RR x6"></Instrument>
+        <Instrument name="Mute Stac RR"></Instrument>
+        <Instrument name="2TP Repetitions"></Instrument>
+        <Instrument name="2TP Shrt Script"></Instrument>
+        <Instrument name="2TP Stac RR x4"></Instrument>
+        <Instrument name="2TP Stac RR x8"></Instrument>
+      </Group>
+      <Group name="3 Effects">
+        <Instrument name="2 TP 1sec Cres"></Instrument>
+        <Instrument name="2 TP 2sec Cres"></Instrument>
+        <Instrument name="2 TP Arp FX"></Instrument>
+        <Instrument name="2 TP Mute Cres Fltr"></Instrument>
+        <Instrument name="2 TP Mute Cres Fst"></Instrument>
+        <Instrument name="2 TP Mute Rip"></Instrument>
+        <Instrument name="2 TP Trill HT"></Instrument>
+        <Instrument name="2 TP Trill WT"></Instrument>
+      </Group>
+      <Group name="4 Modfxd">
+        <Instrument name="2TP Mute Sus DXF"></Instrument>
+        <Instrument name="2TP QLeg DXF slud vs"></Instrument>
+        <Instrument name="2TP QLeg DXF"></Instrument>
+        <Instrument name="2TP Sus Acc MOD"></Instrument>
+        <Instrument name="2TP Sus DXF Acc Vel"></Instrument>
+        <Instrument name="2TP Sus DXF"></Instrument>
+      </Group>
+      <Group name="5 Keysw">
+        <Instrument name="2TP KS Elements"></Instrument>
+        <Instrument name="2TP KS Master">
+          <UsesKeySwitchList name="2TP KS Master" />
+        </Instrument>
+      </Group>
+      <Group name="6 Old Keysw">
+        <Instrument name="2TP KS Cresc C0-D#0"></Instrument>
+        <Instrument name="2TP KS Sus C0-F#0"></Instrument>
+      </Group>
+    </Section>
+    <Section name="3 Wagner Tuben" legato="on" clef="bass">
+      <UsesControllerSwitchList name="EWQLSO Brass" />
+      <Group name="1 Long" title="Tubas" abbr="Tbas." lownote="b0" highnote="e4">
+        <Instrument name="3WT KS Master">
+          <UsesArticulationSwitchList name="3WT KS" />
+          <UsesKeySwitchList name="3WT KS Master" />
+        </Instrument>
+      </Group>
+      <Group name="9 Miscellaneous" title="Tubas" abbr="Tbas." lownote="b0" highnote="e4">
+        <Instrument name="3WT"></Instrument>
+      </Group>
+    </Section>
+    <Section name="4 Trombones" legato="on" clef="bass">
+      <UsesControllerSwitchList name="EWQLSO Brass" />
+      <Group name="5 Keysw" title="Trombones" abbr="Tbns." lownote="e1" highnote="c5">
+        <Instrument name="4TB KS Master">
+          <UsesArticulationSwitchList name="4TB KS" />
+          <UsesKeySwitchList name="4TB KS Master" />
+        </Instrument>
+      </Group>
+      <Group name="9 Miscellaneous" title="Trombones" abbr="Tbns." lownote="e1" highnote="c5">
+        <Instrument name="4TB"></Instrument>
+      </Group>
+    </Section>
+    <Section name="4 Trumpets" legato="on" clef="treble">
+      <UsesControllerSwitchList name="EWQLSO Brass" />
+      <Group name="5 Keysw" title="Trumpets" abbr="Tpts." lownote="e3" highnote="e6">
+        <Instrument name="4TP KS Master">
+          <UsesArticulationSwitchList name="4TP KS" />
+          <UsesKeySwitchList name="4TP KS Master" />
+        </Instrument>
+      </Group>
+      <Group name="9 Miscellaneous" title="Trumpets" abbr="Tpts." lownote="e3" highnote="e6">
+        <Instrument name="2TP"></Instrument>
+      </Group>
+    </Section>
+    <Section name="6 French Horns" legato="on" clef="treble">
+      <UsesControllerSwitchList name="EWQLSO Brass" />
+      <Group name="5 Keysw" title="French Horns" abbr="F Hns." lownote="c2" highnote="f5" transpose="7">
+        <Instrument name="6FH KS Master">
+          <UsesArticulationSwitchList name="6FH KS" />
+          <UsesKeySwitchList name="6FH KS Master" />
+        </Instrument>
+      </Group>
+      <Group name="9 Miscellaneous" title="French Horns" abbr="F Hns." lownote="c2" highnote="f5" transpose="7">
+        <Instrument name="6FH"></Instrument>
+      </Group>
+    </Section>
+    <Section name="Solo French Horn" legato="on" clef="treble">
+      <UsesControllerSwitchList name="EWQLSO Brass" />
+      <Group name="5 Keysw" title="French Horn" abbr="F Hn." lownote="c2" highnote="a5" transpose="7">
+        <Instrument name="SFH KS Master">
+          <UsesArticulationSwitchList name="SFH KS" />
+          <UsesKeySwitchList name="SFH KS Master" />
+        </Instrument>
+      </Group>
+      <Group name="9 Miscellaneous" title="French Horn" abbr="F Hn." lownote="c2" highnote="a5" transpose="7">
+        <Instrument name="SFH"></Instrument>
+      </Group>
+    </Section>
+    <Section name="Solo Piccolo Trumpet" legato="on" clef="treble">
+      <UsesControllerSwitchList name="EWQLSO Brass" />
+      <Group name="5 Keysw" title="Piccolo Trumpet" abbr="P.Tpt." lownote="e4" highnote="g6">
+        <Instrument name="PTP KS Master">
+          <UsesArticulationSwitchList name="PTP KS" />
+          <UsesKeySwitchList name="PTP KS Master" />
+        </Instrument>
+      </Group>
+      <Group name="9 Miscellaneous" title="Piccolo Trumpet" abbr="P.Tpt." lownote="e4" highnote="g6">
+        <Instrument name="PTP"></Instrument>
+      </Group>
+    </Section>
+    <Section name="Solo Trombone" legato="on" clef="bass">
+      <UsesControllerSwitchList name="EWQLSO Brass" />
+      <Group name="5 Keysw" title="Trombone" abbr="Tbn." lownote="e1" highnote="e5">
+        <Instrument name="STB KS Master">
+          <UsesArticulationSwitchList name="STB KS" />
+          <UsesKeySwitchList name="STB KS Master" />
+        </Instrument>
+      </Group>
+      <Group name="9 Miscellaneous" title="Trombone" abbr="Tbn." lownote="e1" highnote="e5">
+        <Instrument name="STB"></Instrument>
+      </Group>
+    </Section>
+    <Section name="Solo Trumpet 1" legato="on" clef="treble">
+      <UsesControllerSwitchList name="EWQLSO Brass" />
+      <Group name="5 Keysw" title="Trumpet" abbr="Tpt." lownote="e3" highnote="e6">
+        <Instrument name="STP KS Master">
+          <UsesArticulationSwitchList name="STP KS" />
+          <UsesKeySwitchList name="STP KS Master" />
+        </Instrument>
+      </Group>
+      <Group name="9 Miscellaneous" title="Trumpet" abbr="Tpt." lownote="e3" highnote="e6">
+        <Instrument name="STP"></Instrument>
+      </Group>
+    </Section>
+    <Section name="Solo Trumpet 2" legato="on" clef="treble">
+      <UsesControllerSwitchList name="EWQLSO Brass" />
+      <Group name="5 Keysw" title="Trumpet" abbr="Tpt." lownote="e3" highnote="e6">
+        <Instrument name="ST2 KS Master">
+          <UsesArticulationSwitchList name="ST2 KS" />
+          <UsesKeySwitchList name="ST2 KS Master" />
+        </Instrument>
+      </Group>
+      <Group name="9 Miscellaneous" title="Trumpet" abbr="Tpt." lownote="e3" highnote="e6">
+        <Instrument name="ST2"></Instrument>
+      </Group>
+    </Section>
+    <Section name="Solo Tuba" legato="on" clef="bass">
+      <UsesControllerSwitchList name="EWQLSO Brass" />
+      <Group name="5 Keysw" title="Tuba" abbr="Tba." lownote="b0" highnote="e4">
+        <Instrument name="STU KS Master">
+          <UsesArticulationSwitchList name="STU KS" />
+          <UsesKeySwitchList name="STU KS Master" />
+        </Instrument>
+      </Group>
+      <Group name="9 Miscellaneous" title="Tuba" abbr="Tba." lownote="b0" highnote="e4">
+        <Instrument name="STU"></Instrument>
+      </Group>
+    </Section>
+  </Instruments>
+</VSTNameDocument>

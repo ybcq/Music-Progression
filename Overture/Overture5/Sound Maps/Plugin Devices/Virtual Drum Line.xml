@@ -1,0 +1,2363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTNameDocument name="Virtual Drumline">
+  <Version>1</Version>
+  <Author>Sonic Scores,Inc.</Author>
+  <Device name="Kontakt 5" usesPatchNames="1" firstPatchNumber="1" middleC="c3" />
+  <ArticulationNames>
+    <Articulation name="Marcato" velocityAdd="10" durationPct="90" />
+    <Articulation name="Marcato Dot" velocityAdd="15" durationPct="50" />
+    <Articulation name="Heavy Attack" velocityAdd="10" durationPct="100" />
+    <Articulation name="SForzando" velocityAdd="20" />
+    <Articulation name="SForzando Dot" velocityAdd="20" durationPct="50" />
+    <Articulation name="Heavier Attack" velocityAdd="20" durationPct="100" />
+    <Articulation name="SForzando Inverted" velocityAdd="20" />
+    <Articulation name="SForzando Dot Inverted" velocityAdd="20" durationPct="50" />
+    <Articulation name="Staccatissimo" velocityAdd="15" durationPct="30" />
+    <Articulation name="Staccato" velocityAdd="15" durationPct="50" />
+    <Articulation name="Tenuto" durationPct="100" />
+    <Articulation name="Up Bow" />
+    <Articulation name="Down Bow" velocityAdd="5" />
+    <Articulation name="Up Bow Inverted" />
+    <Articulation name="Down Bow Inverted" velocityAdd="5" />
+    <Articulation name="Arpeggio" attackFrom="-90" attackTo="0" />
+    <Articulation name="Tremolo Eighths" tremoloNotes="1" />
+    <Articulation name="Tremolo Sixteenths" tremoloNotes="2" />
+    <Articulation name="Tremolo Thirty Seconds" tremoloNotes="3" />
+    <Articulation name="Tremolo Sixty Fourths" tremoloNotes="4" />
+    <Articulation name="pizz" />
+    <Articulation name="arco" durationPct="90" />
+    <Articulation name="legato" durationPct="100" />
+  </ArticulationNames>
+  <ArticulationSwitchList name="Metronome">
+    <Articulation name="Marcato" ctrlNum="64" ctrlValue="127" ctrlOffValue="0" />
+  </ArticulationSwitchList>
+  <ArticulationSwitchList name="Crash Cymbal">
+    <Articulation name="Staccato" ctrlNum="64" ctrlValue="127" ctrlOffValue="0" />
+  </ArticulationSwitchList>
+  <ControllerNames>
+    <Controller name="Volume" cc="7" />
+    <Controller name="Panning" cc="10" />
+    <Controller name="Expression" cc="11" />
+    <Controller name="Pedal (Sustain)" cc="64" />
+    <Controller name="Modulation" cc="1" />
+    <Controller name="Breath" cc="2" />
+    <Controller name="Foot Controller" cc="4" />
+    <Controller name="Portamento Time" cc="5" />
+    <Controller name="Balance" cc="8" />
+    <Controller name="Portamento" cc="65" />
+    <Controller name="Pedal (Sostenuto)" cc="66" />
+    <Controller name="Pedal (Soft)" cc="67" />
+    <Controller name="Hold 2" cc="69" />
+    <Controller name="External Effects Depth" cc="91" />
+    <Controller name="Tremolo Depth" cc="92" />
+    <Controller name="Chorus Depth" cc="93" />
+    <Controller name="Celeste Detune Depth" cc="94" />
+    <Controller name="Phaser Depth" cc="95" />
+    <Controller name="Reset All Controllers" cc="121" />
+    <Controller name="All Notes Off " cc="123" />
+  </ControllerNames>
+  <ControllerNames>
+    <Controller name="Volume (Mod Wheel)" cc="1" />
+    <Controller name="(Optional) Volume" cc="7" />
+    <Controller name="(Optional) Panning" cc="10" />
+    <Controller name="Legato/Sustain" cc="64" on="127" off="0" />
+    <Controller name="Legato Notation Set" cc="68" />
+    <Controller name="Portamento" cc="20" />
+    <Controller name="Var1" cc="22" />
+    <Controller name="Var2" cc="23" />
+    <Controller name="Length" cc="21" />
+    <Controller name="Reverb (Wet Instruments Only)" cc="24" />
+    <ControllerSwitchList name="SnareLine Manual">
+      <Controller name="center" cc="1" value="0" />
+      <Controller name="halfway" cc="1" value="44" />
+      <Controller name="edge" cc="1" value="90" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="SnareLine VDL1">
+      <Controller name="decresc/dim" cc="1" value="0" />
+      <Controller name="cresc" cc="1" value="65" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="TenorLine (AutoRL)">
+      <Controller name="short" cc="1" value="0" />
+      <Controller name="medium" cc="1" value="43" />
+      <Controller name="long" cc="1" value="85" />
+      <Controller name="rim shots" cc="1" value="0" />
+      <Controller name="rims" cc="1" value="65" />
+      <Controller name="dreads" cc="1" value="0" />
+      <Controller name="rods" cc="1" value="65" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="TenorLine Manual">
+      <Controller name="short" cc="1" value="0" />
+      <Controller name="medium" cc="1" value="43" />
+      <Controller name="long" cc="1" value="85" />
+      <Controller name="snenor" cc="1" value="0" />
+      <Controller name="stick" cc="1" value="65" />
+      <Controller name="shots" cc="1" value="0" />
+      <Controller name="dreads" cc="1" value="33" />
+      <Controller name="rods" cc="1" value="65" />
+      <Controller name="rims" cc="1" value="96" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="TenorLine VDL1">
+      <Controller name="decresc/dim" cc="1" value="0" />
+      <Controller name="cresc" cc="1" value="65" />
+      <Controller name="shots" cc="1" value="0" />
+      <Controller name="dreads" cc="1" value="33" />
+      <Controller name="rims" cc="1" value="64" />
+      <Controller name="regular" cc="1" value="43" />
+      <Controller name="puffies" cc="1" value="85" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="Tenor Solo">
+      <Controller name="fat" cc="1" value="0" />
+      <Controller name="dry" cc="1" value="65" />
+      <Controller name="short" cc="1" value="0" />
+      <Controller name="medium" cc="1" value="43" />
+      <Controller name="long" cc="1" value="85" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="Bassline (AutoRL)">
+      <Controller name="rims" cc="1" value="0" />
+      <Controller name="rods" cc="1" value="43" />
+      <Controller name="dreads" cc="1" value="86" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="Cymbal Line All">
+      <Controller name="20 inch" cc="1" value="0" />
+      <Controller name="18 inch" cc="1" value="41" />
+      <Controller name="16 inch" cc="1" value="81" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="Ringing/Damp">
+      <Controller name="ringing" cc="1" value="0" />
+      <Controller name="damp" cc="1" value="65" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="Mallets">
+      <Controller name="sticks" cc="1" value="0" />
+      <Controller name="mallets" cc="1" value="65" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="Chimes (PED)">
+      <Controller name="dampened" cc="64" value="0" />
+      <Controller name="ringing" cc="64" value="65" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="Electric Guitar">
+      <Controller name="dist on" cc="26" value="64" off="0" />
+      <Controller name="dist off" cc="26" value="0" />
+      <Controller name="dist damp" cc="20" value="50" />
+      <Controller name="chorus on" cc="21" value="127" off="0" />
+      <Controller name="chorus off" cc="21" value="0" />
+      <Controller name="chorus speed" cc="22" value="50" />
+      <Controller name="trem on" cc="1" value="127" off="0" />
+      <Controller name="trem off" cc="1" value="0" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="Xylophones">
+      <Controller name="natural" cc="1" value="0" />
+      <Controller name="gliss down" cc="1" value="36" />
+      <Controller name="gliss up" cc="1" value="65" />
+      <Controller name="rolls (4/8 tremolos)" cc="1" value="91" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="Rools Only">
+      <Controller name="rolls (4/8 tremolos)" cc="1" value="91" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="Marimbas">
+      <Controller name="natural" cc="1" value="0" />
+      <Controller name="dead" cc="1" value="33" />
+      <Controller name="birch" cc="1" value="65" />
+      <Controller name="rolls (4/8 tremolos)" cc="1" value="96" />
+      <Controller name="Release w/full, natural decay" cc="1" value="0" />
+      <Controller name="Muted release" cc="1" value="65" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="SteelDrums">
+      <Controller name="natural" cc="1" value="0" />
+      <Controller name="rolls (4/8 tremolos)" cc="1" value="65" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="Timpani">
+      <Controller name="natural" cc="1" value="0" />
+      <Controller name="muffle" cc="1" value="33" />
+      <Controller name="hit center" cc="1" value="65" />
+      <Controller name="rolls (4/8 tremolos)" cc="1" value="97" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="Vibes (MW)">
+      <Controller name="ringing" cc="1" value="0" />
+      <Controller name="damp" cc="1" value="65" />
+      <Controller name="motor on" cc="21" value="100" />
+      <Controller name="motor off" cc="21" value="0" />
+      <Controller name="motor speed" cc="22" value="50" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="Vibes (PED)">
+      <Controller name="motor on" cc="21" value="127" />
+      <Controller name="motor off" cc="21" value="0" />
+      <Controller name="dampened" cc="64" value="0" />
+      <Controller name="ringing" cc="64" value="65" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="Chinas All">
+      <Controller name="China Cym 14in" cc="1" value="0" />
+      <Controller name="China K 19in" cc="1" value="45" />
+      <Controller name="Oriental Trash 18in" cc="1" value="89" />
+    </ControllerSwitchList>
+  </ControllerNames>
+  <KeySwitchNames>
+    <KeySwitchList name="Mallets">
+      <KeySwitch name="puffy mallets" key="C0" />
+      <KeySwitch name="regular mallets" key="D0" />
+    </KeySwitchList>
+    <KeySwitchList name="Snares On/Off">
+      <KeySwitch name="snares on" key="C0" />
+      <KeySwitch name="snares off" key="D0" />
+    </KeySwitchList>
+    <KeySwitchList name="Electric Guitar">
+      <KeySwitch name="open" key="C1" />
+      <KeySwitch name="mute" key="D1" />
+    </KeySwitchList>
+  </KeySwitchNames>
+  <NoteNames>
+    <NoteNameList name="Bell Tree">
+      <NoteName name="C2" pitch="C2" pos="-5" head="0" />
+      <NoteName name="D2" pitch="D2" pos="-4" head="0" />
+      <NoteName name="E2" pitch="E2" pos="-3" head="0" />
+      <NoteName name="F2" pitch="F2" pos="-2" head="0" />
+      <NoteName name="G2" pitch="G2" pos="-1" head="0" />
+      <NoteName name="A2" pitch="A2" pos="0" head="0" />
+      <NoteName name="B2" pitch="B2" pos="1" head="0" />
+      <NoteName name="C3" pitch="C3" pos="2" head="0" />
+      <NoteName name="D3" pitch="D3" pos="3" head="0" />
+      <NoteName name="E3" pitch="E3" pos="4" head="0" />
+      <NoteName name="Aluminum mallet descending" pitch="C4" pos="3" head="6" />
+      <NoteName name="Aluminum mallet ascending" pitch="C4" pos="-3" head="6" />
+      <NoteName name="Aluminum slow" pitch="C4" pos="0" head="6" />
+      <NoteName name="Brass mallet descending" pitch="C4" pos="0" head="15" />
+      <NoteName name="Brass mallet ascending" pitch="C4" pos="0" head="15" />
+      <NoteName name="Brass slow" pitch="C4" pos="0" head="15" />
+      <NoteName name="Plastic mallet descending" pitch="C4" pos="3" head="21" />
+      <NoteName name="Plastic mallet ascending" pitch="C4" pos="-3" head="21" />
+      <NoteName name="Plastic slow" pitch="C4" pos="0" head="21" />
+    </NoteNameList>
+    <NoteNameList name="Brake Drums">
+      <NoteName name="Br Dr 1" pitch="F3" pos="-3" head="41" />
+      <NoteName name="Br Dr 2" pitch="A3" pos="-1" head="41" />
+      <NoteName name="Br Dr 3" pitch="C4" pos="1" head="41" />
+      <NoteName name="LH Br Dr 1" pitch="F4" pos="-3" head="40" />
+      <NoteName name="RH Br Dr 1" pitch="G4" pos="-3" head="1" />
+      <NoteName name="LH Br Dr 2" pitch="F4" pos="-1" head="40" />
+      <NoteName name="RH Br Dr 2" pitch="G4" pos="-1" head="1" />
+      <NoteName name="LH Br Dr 3" pitch="F4" pos="1" head="40" />
+      <NoteName name="RH Br Dr 3" pitch="G4" pos="1" head="1" />
+    </NoteNameList>
+    <NoteNameList name="Castanets All">
+      <NoteName name="--Castanet Machine (plastic)--" pitch="-1" menuBreak="1" />
+      <NoteName name="LH 4-stroke ruff" pitch="C3" pos="-2" head="35" />
+      <NoteName name="LH Flam" pitch="D3" pos="-2" head="33" />
+      <NoteName name="LH Hit" pitch="E3" pos="-2" head="31" />
+      <NoteName name="RH Hit" pitch="F3" pos="-2" head="0" />
+      <NoteName name="RH Flam" pitch="G3" pos="-2" head="32" />
+      <NoteName name="RH 4-stroke ruff" pitch="A3" pos="-2" head="34" />
+      <NoteName name="Roll" pitch="B3" pos="-2" head="20" />
+      <NoteName name="Roll w/paddle castanets" pitch="C4" pos="0" head="18" />
+      <NoteName name="--Hand Castanets (Epstein Rosewood)--" pitch="-1" menuBreak="1" />
+      <NoteName name="LH Flam" pitch="D4" pos="2" head="33" />
+      <NoteName name="LH Hit" pitch="E4" pos="2" head="31" />
+      <NoteName name="RH Hit" pitch="F4" pos="2" head="0" />
+      <NoteName name="RH Flam" pitch="G4" pos="2" head="32" />
+      <NoteName name="Roll" pitch="A4" pos="2" head="20" />
+    </NoteNameList>
+    <NoteNameList name="Castanet Machine">
+      <NoteName name="LH 4-stroke ruff" pitch="C3" pos="-2" head="35" />
+      <NoteName name="LH Flam" pitch="D3" pos="-2" head="33" />
+      <NoteName name="LH Hit" pitch="E3" pos="-2" head="31" />
+      <NoteName name="RH Hit" pitch="F3" pos="-2" head="0" />
+      <NoteName name="RH Flam" pitch="G3" pos="-2" head="32" />
+      <NoteName name="RH 4-stroke ruff" pitch="A3" pos="-2" head="34" />
+      <NoteName name="Roll" pitch="B3" pos="-2" head="20" />
+      <NoteName name="Roll w/paddle castanets" pitch="C4" pos="0" head="18" />
+    </NoteNameList>
+    <NoteNameList name="Castanets Rosewood Hand">
+      <NoteName name="Roll w/paddle castanets" pitch="C4" pos="0" head="18" />
+      <NoteName name="LH Flam" pitch="D4" pos="2" head="33" />
+      <NoteName name="LH Hit" pitch="E4" pos="2" head="31" />
+      <NoteName name="RH Hit" pitch="F4" pos="2" head="0" />
+      <NoteName name="RH Flam" pitch="G4" pos="2" head="32" />
+      <NoteName name="Roll" pitch="A4" pos="2" head="20" />
+    </NoteNameList>
+    <NoteNameList name="Claves Pearl Synthetic">
+      <NoteName name="Hits" pitch="C4" pos="0" head="0" />
+      <NoteName name="Rubato 1" pitch="D4" pos="0" head="0" />
+      <NoteName name="Rubato 2" pitch="E4" pos="0" head="0" />
+    </NoteNameList>
+    <NoteNameList name="Claves Rosewood">
+      <NoteName name="Hits" pitch="C4" pos="0" head="0" />
+      <NoteName name="Rubato 1" pitch="D4" pos="0" head="0" />
+      <NoteName name="Rubato 2" pitch="E4" pos="0" head="0" />
+      <NoteName name="Quasi Roll" pitch="F4" pos="0" head="0" />
+    </NoteNameList>
+    <NoteNameList name="Cowbells">
+      <NoteName name="--Large Cowbell--" pitch="-1" menuBreak="1" />
+      <NoteName name="Mouth" pitch="C2" pos="-3" head="16" />
+      <NoteName name="Tip" pitch="D2" pos="-3" head="54" />
+      <NoteName name="Mute" pitch="E2" pos="-3" head="16" />
+      <NoteName name="Roll" pitch="F2" pos="-3" head="14" />
+      <NoteName name="--Medium Cowbell--" pitch="-1" menuBreak="1" />
+      <NoteName name="Mouth" pitch="C3" pos="-1" head="16" />
+      <NoteName name="Tip" pitch="D3" pos="-1" head="54" />
+      <NoteName name="Mute" pitch="E3" pos="-1" head="16" />
+      <NoteName name="Roll" pitch="F3" pos="-1" head="14" />
+      <NoteName name="--Blackberry Cowbell--" pitch="-1" menuBreak="1" />
+      <NoteName name="Mouth" pitch="C4" pos="1" head="16" />
+      <NoteName name="Tip" pitch="D4" pos="1" head="54" />
+      <NoteName name="Mute" pitch="E4" pos="1" head="16" />
+      <NoteName name="Roll" pitch="F4" pos="1" head="14" />
+      <NoteName name="--Small Cowbell--" pitch="-1" menuBreak="1" />
+      <NoteName name="Mouth" pitch="C5" pos="3" head="16" />
+      <NoteName name="Tip" pitch="D5" pos="3" head="54" />
+      <NoteName name="Mute" pitch="E5" pos="3" head="16" />
+      <NoteName name="Roll" pitch="F5" pos="3" head="14" />
+    </NoteNameList>
+    <NoteNameList name="Finger Cymbals">
+      <NoteName name="Clasped" pitch="F3" pos="4" head="1" />
+      <NoteName name="Muted Clap" pitch="A3" pos="4" head="42" />
+      <NoteName name="Edge against Edge" pitch="C4" pos="4" head="40" />
+      <NoteName name="Muted Clap" pitch="F4" pos="4" head="42" />
+      <NoteName name="Scrape" pitch="G4" pos="4" head="11" />
+    </NoteNameList>
+    <NoteNameList name="Guiro">
+      <NoteName name="Flam Long Scrape" pitch="C3" pos="-2" head="11" />
+      <NoteName name="Long Scrape" pitch="D3" pos="-2" head="50" />
+      <NoteName name="Medium Scrape 1" pitch="E3" pos="-1" head="11" />
+      <NoteName name="Medium Scrape 2" pitch="F3" pos="-1" head="50" />
+      <NoteName name="Short Scrape 1" pitch="G3" pos="0" head="11" />
+      <NoteName name="Short Scrape 2" pitch="A3" pos="0" head="50" />
+      <NoteName name="Tap" pitch="B3" pos="-2" head="0" />
+      <NoteName name="Roll" pitch="C4" pos="-2" head="31" />
+    </NoteNameList>
+    <NoteNameList name="Maracas Rawhide">
+      <NoteName name="One Stroke IN" pitch="F3" pos="0" head="16" />
+      <NoteName name="One Stroke OUT" pitch="G3" pos="0" head="15" />
+      <NoteName name="Flam Stroke 1" pitch="A3" pos="0" head="6" />
+      <NoteName name="Flam Stroke  2" pitch="B3" pos="0" head="62" />
+      <NoteName name="Tremolo Softer" pitch="C4" pos="0" head="0" />
+      <NoteName name="Tremolo Loud" pitch="D4" pos="0" head="31" />
+      <NoteName name="Tremolo ff" pitch="E4" pos="0" head="32" />
+      <NoteName name="Stir" pitch="F4" pos="0" head="2" />
+    </NoteNameList>
+    <NoteNameList name="Metal Guiro">
+      <NoteName name="Long Scrape" pitch="C3" pos="-2" head="11" />
+      <NoteName name="Average Scrape" pitch="D3" pos="-2" head="50" />
+      <NoteName name="Short Scrape IN" pitch="E3" pos="-1" head="11" />
+      <NoteName name="Short Scrape OUT" pitch="F3" pos="-1" head="50" />
+      <NoteName name="Tap" pitch="G3" pos="-2" head="0" />
+      <NoteName name="Legato Scrape" pitch="A3" pos="-3" head="11" />
+    </NoteNameList>
+    <NoteNameList name="Rainsticks All">
+      <NoteName name="Cactus Long Low" pitch="C3" pos="-4" head="6" />
+      <NoteName name="Cactus Fast Low" pitch="D3" pos="-4" head="62" />
+      <NoteName name="Plastic Low" pitch="E3" pos="-4" head="21" />
+      <NoteName name="Cactus Long High" pitch="C3" pos="-2" head="6" />
+      <NoteName name="Cactus Fast High" pitch="D3" pos="-2" head="62" />
+      <NoteName name="Plastic High" pitch="E3" pos="-2" head="21" />
+    </NoteNameList>
+    <NoteNameList name="Rainsticks Cactus">
+      <NoteName name="Long Low" pitch="C3" pos="-4" head="6" />
+      <NoteName name="Fast Low" pitch="D3" pos="-4" head="62" />
+      <NoteName name="Long High" pitch="C4" pos="-2" head="6" />
+      <NoteName name="Fast High" pitch="D4" pos="-2" head="62" />
+    </NoteNameList>
+    <NoteNameList name="Rainsticks Plastic">
+      <NoteName name="Long Low" pitch="E3" pos="-4" head="21" />
+      <NoteName name="Fast Low" pitch="E4" pos="-2" head="21" />
+    </NoteNameList>
+    <NoteNameList name="Shakers All">
+      <NoteName name="Shaker Plastic" pitch="-1" menuBreak="1" />
+      <NoteName name="One Shake IN" pitch="C1" pos="-3" head="16" />
+      <NoteName name="One Shake OUT" pitch="D1" pos="-3" head="15" />
+      <NoteName name="Roll" pitch="E1" pos="-3" head="6" />
+      <NoteName name="Back/Forth Shake" pitch="F1" pos="-3" head="21" />
+      <NoteName name="Shaker Metal Canister" pitch="-1" menuBreak="1" />
+      <NoteName name="One Shake IN" pitch="C2" pos="-1" head="16" />
+      <NoteName name="One Shake OUT" pitch="D2" pos="-1" head="15" />
+      <NoteName name="Roll" pitch="E2" pos="-1" head="6" />
+      <NoteName name="Back/Forth Shake" pitch="F2" pos="-1" head="21" />
+      <NoteName name="Ganza" pitch="-1" menuBreak="1" />
+      <NoteName name="One Shake IN" pitch="C3" pos="1" head="16" />
+      <NoteName name="One Shake OUT" pitch="D3" pos="1" head="15" />
+      <NoteName name="Roll" pitch="E3" pos="1" head="6" />
+      <NoteName name="Back/Forth Shake" pitch="F3" pos="1" head="21" />
+      <NoteName name="Egg Shaker" pitch="-1" menuBreak="1" />
+      <NoteName name="One Shake IN" pitch="C4" pos="3" head="16" />
+      <NoteName name="One Shake OUT" pitch="D4" pos="3" head="15" />
+      <NoteName name="Roll" pitch="E4" pos="3" head="6" />
+      <NoteName name="Back/Forth Shake" pitch="F4" pos="3" head="21" />
+    </NoteNameList>
+    <NoteNameList name="Shaker Plastic">
+      <NoteName name="One Shake IN" pitch="C1" pos="-3" head="16" />
+      <NoteName name="One Shake OUT" pitch="D1" pos="-3" head="15" />
+      <NoteName name="Roll" pitch="D1" pos="-3" head="6" />
+      <NoteName name="Back/Forth Shake" pitch="E1" pos="-3" head="21" />
+    </NoteNameList>
+    <NoteNameList name="Shaker Metal Canister">
+      <NoteName name="One Shake IN" pitch="C2" pos="-1" head="16" />
+      <NoteName name="One Shake OUT" pitch="D2" pos="-1" head="15" />
+      <NoteName name="Roll" pitch="E2" pos="-1" head="6" />
+      <NoteName name="Back/Forth Shake" pitch="F2" pos="-1" head="21" />
+    </NoteNameList>
+    <NoteNameList name="Ganza">
+      <NoteName name="One Shake IN" pitch="C3" pos="1" head="16" />
+      <NoteName name="One Shake OUT" pitch="D3" pos="1" head="15" />
+      <NoteName name="Roll" pitch="E3" pos="1" head="6" />
+      <NoteName name="Back/Forth Shake" pitch="F3" pos="1" head="21" />
+    </NoteNameList>
+    <NoteNameList name="Egg Shaker">
+      <NoteName name="One Shake IN" pitch="C4" pos="3" head="16" />
+      <NoteName name="One Shake OUT" pitch="D4" pos="3" head="15" />
+      <NoteName name="Roll" pitch="E4" pos="3" head="6" />
+      <NoteName name="Back/Forth Shake" pitch="F4" pos="3" head="21" />
+    </NoteNameList>
+    <NoteNameList name="SleighBells All">
+      <NoteName name="Chrome" pitch="-1" menuBreak="1" />
+      <NoteName name="Hit" pitch="F3" pos="-3" head="16" />
+      <NoteName name="Roll" pitch="G3" pos="-3" head="15" />
+      <NoteName name="Dark Brass" pitch="-1" menuBreak="1" />
+      <NoteName name="Hit" pitch="A3" pos="-3" head="16" />
+      <NoteName name="Roll" pitch="B3" pos="-3" head="15" />
+    </NoteNameList>
+    <NoteNameList name="SleighBells Chrome">
+      <NoteName name="Hit" pitch="F3" pos="-3" head="16" />
+      <NoteName name="Roll" pitch="G3" pos="-3" head="15" />
+    </NoteNameList>
+    <NoteNameList name="SleighBells Dark Brass">
+      <NoteName name="Hit" pitch="A3" pos="-3" head="16" />
+      <NoteName name="Roll" pitch="B3" pos="-3" head="15" />
+    </NoteNameList>
+    <NoteNameList name="Ratchet">
+      <NoteName name="Very Short 1" pitch="C3" pos="3" head="0" />
+      <NoteName name="Very Short 2" pitch="D3" pos="3" head="31" />
+      <NoteName name="Short 1" pitch="E3" pos="3" head="32" />
+      <NoteName name="Short 2" pitch="F3" pos="3" head="33" />
+      <NoteName name="Medium 1" pitch="G3" pos="1" head="0" />
+      <NoteName name="Medium 2" pitch="A3" pos="1" head="31" />
+      <NoteName name="Long 1" pitch="B3" pos="-1" head="0" />
+      <NoteName name="Long 2" pitch="C4" pos="-1" head="31" />
+      <NoteName name="Long Slow 1" pitch="D4" pos="-1" head="31" />
+      <NoteName name="Long Slow 2" pitch="E4" pos="-1" head="32" />
+      <NoteName name="Slow Sustained" pitch="F4" pos="-3" head="0" />
+      <NoteName name="Fast Sustained" pitch="G4" pos="-3" head="31" />
+      <NoteName name="Fast Long 1" pitch="A4" pos="-1" head="34" />
+      <NoteName name="Fast Long 2" pitch="B4" pos="-1" head="35" />
+      <NoteName name="Fast Medium 1" pitch="C5" pos="1" head="32" />
+      <NoteName name="Fast Medium 2" pitch="D5" pos="1" head="33" />
+      <NoteName name="Fast Short 1" pitch="E5" pos="3" head="34" />
+      <NoteName name="Fast Short 2" pitch="F5" pos="3" head="35" />
+    </NoteNameList>
+    <NoteNameList name="Slapsticks">
+      <NoteName name="Sound 1" pitch="C3" pos="0" head="1" />
+      <NoteName name="Sound 2" pitch="D3" pos="2" head="1" />
+    </NoteNameList>
+    <NoteNameList name="Tambourine Orchestral">
+      <NoteName name="Fingers on Shell LH" pitch="A2" pos="0" head="62" />
+      <NoteName name="Fingers on Shell RH" pitch="B2" pos="0" head="6" />
+      <NoteName name="Thumb roll short crescendo" pitch="C3" pos="-3" head="0" />
+      <NoteName name="Thumb roll w/fingertip release" pitch="C#3" pos="-3" head="33" />
+      <NoteName name="Thumb roll SHORT" pitch="D3" pos="-3" head="32" />
+      <NoteName name="Thumb roll w/heel of hand release" pitch="D#3" pos="-3" head="31" />
+      <NoteName name="Thumb roll LONG" pitch="E3" pos="-3" head="34" />
+      <NoteName name="FINGERTIP on head" pitch="F3" pos="-2" head="10" />
+      <NoteName name="Fist/Knee DOWN" pitch="F#3" pos="-1" head="13" />
+      <NoteName name="Fist on head" pitch="G3" pos="-2" head="19" />
+      <NoteName name="Fist/Knee UP" pitch="G#3" pos="-1" head="14" />
+      <NoteName name="PALM on head" pitch="A3" pos="-2" head="23" />
+      <NoteName name="ROLL (shaken)" pitch="C4" pos="2" head="0" />
+      <NoteName name="ROLL (smooth shake)" pitch="D4" pos="2" head="0" />
+      <NoteName name="Crescendo roll SHORT" pitch="E4" pos="3" head="0" />
+      <NoteName name="Crescendo roll MEDIUM" pitch="F4" pos="3" head="0" />
+      <NoteName name="Crescendo roll LONG" pitch="G4" pos="3" head="0" />
+      <NoteName name="Diminuendo roll LONG" pitch="A4" pos="3" head="0" />
+      <NoteName name="Diminuendo roll MEDIUM" pitch="B4" pos="3" head="0" />
+      <NoteName name="Diminuendo roll SHORT" pitch="C5" pos="3" head="0" />
+    </NoteNameList>
+    <NoteNameList name="Tambourine Rock">
+      <NoteName name="Groove shake OUT" pitch="C3" pos="0" head="14" />
+      <NoteName name="Groove shake IN" pitch="D3" pos="0" head="13" />
+      <NoteName name="Backbeat Accent" pitch="E3" pos="0" head="22" />
+      <NoteName name="Strike with hand" pitch="F3" pos="0" head="6" />
+      <NoteName name="Roll Shaken" pitch="G3" pos="0" head="0" />
+      <NoteName name="Roll Lite" pitch="A3" pos="0" head="31" />
+      <NoteName name="Strike w/stick LH" pitch="C4" pos="0" head="40" />
+      <NoteName name="Strike w/stick RH" pitch="D4" pos="0" head="1" />
+    </NoteNameList>
+    <NoteNameList name="Triangles">
+      <NoteName name="Open hit w/overtones" pitch="C3" pos="4" head="22" />
+      <NoteName name="Dampened after attack w/overtones" pitch="D3" pos="4" head="63" />
+      <NoteName name="Dampened after attack w/overtones" pitch="E3" pos="4" head="22" />
+      <NoteName name="Muffled hit" pitch="F3" pos="4" head="14" />
+      <NoteName name="Open hit w/no overtones" pitch="G3" pos="4" head="16" />
+      <NoteName name="Dampened after attack w/no overtones" pitch="A3" pos="4" head="54" />
+      <NoteName name="Roll - let ring on release" pitch="C4" pos="4" head="6" />
+      <NoteName name="Roll - dampened on release" pitch="D4" pos="4" head="62" />
+    </NoteNameList>
+    <NoteNameList name="Vibra Slaps">
+      <NoteName name="Vibraslap Wood 1" pitch="C3" pos="0" head="0" />
+      <NoteName name="Vibraslap Wood 2" pitch="D3" pos="0" head="31" />
+      <NoteName name="Vibraslap Metal" pitch="E3" pos="0" head="18" />
+      <NoteName name="Wood/Metal Together" pitch="F3" pos="0" head="21" />
+    </NoteNameList>
+    <NoteNameList name="Wind Chimes All">
+      <NoteName name="--WChimes with Mallet--" pitch="-1" menuBreak="1" />
+      <NoteName name="C3" pitch="C2" pos="-6" head="0" />
+      <NoteName name="D3" pitch="D2" pos="-5" head="0" />
+      <NoteName name="E3" pitch="E2" pos="-4" head="0" />
+      <NoteName name="F3" pitch="F2" pos="-3" head="0" />
+      <NoteName name="G3" pitch="G2" pos="-2" head="0" />
+      <NoteName name="A3" pitch="A2" pos="-1" head="0" />
+      <NoteName name="B3" pitch="B2" pos="-0" head="0" />
+      <NoteName name="C4" pitch="C3" pos="1" head="0" />
+      <NoteName name="D4" pitch="D3" pos="2" head="0" />
+      <NoteName name="E4" pitch="E3" pos="3" head="0" />
+      <NoteName name="--Echo Chimes--" pitch="-1" menuBreak="1" default="1" />
+      <NoteName name="Ascending" pitch="C4" pos="-4" head="22" default="1" />
+      <NoteName name="Descending" pitch="D4" pos="4" head="22" default="1" />
+      <NoteName name="Ascending and Descending" pitch="E4" pos="0" head="22" />
+      <NoteName name="--Double Row Chimes--" pitch="-1" menuBreak="1" />
+      <NoteName name="Ascending" pitch="C5" pos="-4" head="22" default="1" />
+      <NoteName name="Descending" pitch="D5" pos="4" head="22" default="1" />
+      <NoteName name="Ascending and Descending" pitch="E5" pos="0" head="22" />
+      <NoteName name="--Single Row Chimes--" pitch="-1" menuBreak="1" />
+      <NoteName name="Ascending" pitch="C6" pos="-4" head="22" default="1" />
+      <NoteName name="Descending" pitch="D6" pos="4" head="22" default="1" />
+      <NoteName name="Ascending and Descending" pitch="E6" pos="0" head="22" default="1" />
+      <NoteName name="Slow Descend" pitch="F6" pos="2" head="22" />
+    </NoteNameList>
+    <NoteNameList name="Echo Chimes">
+      <NoteName name="Ascending" pitch="C4" pos="-4" head="22" />
+      <NoteName name="Descending" pitch="D4" pos="4" head="22" />
+      <NoteName name="Ascending and Descending" pitch="E4" pos="0" head="22" />
+    </NoteNameList>
+    <NoteNameList name="Double Row Chimes">
+      <NoteName name="Ascending" pitch="C5" pos="-4" head="22" />
+      <NoteName name="Descending" pitch="D5" pos="4" head="22" />
+      <NoteName name="Ascending and Descending" pitch="E5" pos="0" head="22" />
+    </NoteNameList>
+    <NoteNameList name="Single Row Chimes">
+      <NoteName name="Ascending" pitch="C6" pos="-4" head="22" />
+      <NoteName name="Descending" pitch="D6" pos="4" head="22" />
+      <NoteName name="Ascending and Descending" pitch="E6" pos="0" head="22" />
+      <NoteName name="Slow Descend" pitch="F6" pos="2" head="22" />
+    </NoteNameList>
+    <NoteNameList name="Patio Chimes">
+      <NoteName name="All f" pitch="C3" pos="0" head="0" />
+      <NoteName name="All p" pitch="D3" pos="0" head="31" />
+      <NoteName name="Large f" pitch="E3" pos="-2" head="0" />
+      <NoteName name="Large p" pitch="F3" pos="-2" head="31" />
+      <NoteName name="Small f" pitch="G3" pos="2" head="0" />
+      <NoteName name="Small p" pitch="A3" pos="2" head="31" />
+    </NoteNameList>
+    <NoteNameList name="Granite Blocks">
+      <NoteName name="Block 5 Rubato Swell" pitch="E1" pos="-4" head="29" />
+      <NoteName name="Block 5 Rubato Accel-Dim" pitch="F1" pos="-4" head="29" />
+      <NoteName name="Block 4 Rubato Swell" pitch="G1" pos="-2" head="29" />
+      <NoteName name="Block 4 Rubato Accel-Dim" pitch="A1" pos="-2" head="29" />
+      <NoteName name="Block 3 Rubato Swell" pitch="B1" pos="0" head="29" />
+      <NoteName name="Block 3 Rubato Accel-Dim" pitch="C2" pos="0" head="29" />
+      <NoteName name="Block 2 Rubato Swell" pitch="D2" pos="2" head="29" />
+      <NoteName name="Block 2 Rubato Accel-Dim" pitch="E2" pos="2" head="29" />
+      <NoteName name="Block 1 Rubato Swell" pitch="F2" pos="4" head="29" />
+      <NoteName name="Block 1 Rubato Accel-Dim" pitch="G2" pos="4" head="29" />
+      <NoteName name="Random Tremelo" pitch="A2" pos="-1" head="29" />
+      <NoteName name="Block 5 Mallets" pitch="E3" pos="-4" head="22" />
+      <NoteName name="Block 5 Sticks" pitch="F3" pos="-4" head="22" />
+      <NoteName name="Block 4 Mallets" pitch="G3" pos="-2" head="22" />
+      <NoteName name="Block 4 Sticks" pitch="A3" pos="-2" head="22" />
+      <NoteName name="Block 3 Mallets" pitch="B3" pos="0" head="22" />
+      <NoteName name="Block 3 Sticks" pitch="C4" pos="0" head="22" />
+      <NoteName name="Block 2 Mallets" pitch="D4" pos="2" head="22" />
+      <NoteName name="Block 2 Sticks" pitch="E4" pos="2" head="22" />
+      <NoteName name="Block 1 Mallets" pitch="F4" pos="4" head="22" />
+      <NoteName name="Block 1 Sticks" pitch="G4" pos="4" head="22" />
+    </NoteNameList>
+    <NoteNameList name="Temple Blocks">
+      <NoteName name="Block 5 Rubato Swell" pitch="E1" pos="-4" head="29" />
+      <NoteName name="Block 5 Rubato Accel-Dim" pitch="F1" pos="-4" head="51" />
+      <NoteName name="Block 4 Rubato Swell" pitch="G1" pos="-2" head="29" />
+      <NoteName name="Block 4 Rubato Accel-Dim" pitch="A1" pos="-2" head="51" />
+      <NoteName name="Block 3 Rubato Swell" pitch="B1" pos="0" head="29" />
+      <NoteName name="Block 3 Rubato Accel-Dim" pitch="C2" pos="0" head="51" />
+      <NoteName name="Block 2 Rubato Swell" pitch="D2" pos="2" head="29" />
+      <NoteName name="Block 2 Rubato Accel-Dim" pitch="E2" pos="2" head="51" />
+      <NoteName name="Block 1 Rubato Swell" pitch="F2" pos="4" head="29" />
+      <NoteName name="Block 1 Rubato Accel-Dim" pitch="G2" pos="4" head="51" />
+      <NoteName name="Random Tremelo 1" pitch="A2" pos="-1" head="29" />
+      <NoteName name="Random Tremelo 2" pitch="A2" pos="-1" head="29" />
+      <NoteName name="Block 5 Mallets" pitch="E3" pos="-4" head="41" />
+      <NoteName name="Block 5 Sticks" pitch="F3" pos="-4" head="42" />
+      <NoteName name="Block 4 Mallets" pitch="G3" pos="-2" head="41" />
+      <NoteName name="Block 4 Sticks" pitch="A3" pos="-2" head="42" />
+      <NoteName name="Block 3 Mallets" pitch="B3" pos="0" head="41" />
+      <NoteName name="Block 3 Sticks" pitch="C4" pos="0" head="42" />
+      <NoteName name="Block 2 Mallets" pitch="D4" pos="2" head="41" />
+      <NoteName name="Block 2 Sticks" pitch="E4" pos="2" head="42" />
+      <NoteName name="Block 1 Mallets" pitch="F4" pos="4" head="41" />
+      <NoteName name="Block 1 Sticks" pitch="G4" pos="4" head="42" />
+    </NoteNameList>
+    <NoteNameList name="Jam Blocks">
+      <NoteName name="LH LOW Block" pitch="C3" pos="-2" head="40" />
+      <NoteName name="RH LOW Block" pitch="D3" pos="-2" head="1" />
+      <NoteName name="Tip of Stick LOW Block" pitch="E3" pos="-2" head="41" />
+      <NoteName name="LH HIGH Block" pitch="E3" pos="2" head="40" />
+      <NoteName name="RH HIGH Block" pitch="F3" pos="2" head="1" />
+      <NoteName name="Tip of Stick HIGH Block" pitch="G3" pos="2" head="41" />
+    </NoteNameList>
+    <NoteNameList name="Woodblocks Three">
+      <NoteName name="--LOW Block--" pitch="-1" menuBreak="1" />
+      <NoteName name="Soft Mallet Hits AutoRL" pitch="C3" pos="-4" head="41" />
+      <NoteName name="LH Soft Mallet Hit" pitch="C#3" pos="-4" head="40" />
+      <NoteName name="Rubato dim-rit. w/soft mallet" pitch="D3" pos="-4" head="29" />
+      <NoteName name="RH Soft Mallet Hit" pitch="D#3" pos="-4" head="1" />
+      <NoteName name="Hard Mallet Hits AutoRL" pitch="F3" pos="-4" head="44" />
+      <NoteName name="LH Hard Mallet Hit" pitch="F#3" pos="-4" head="43" />
+      <NoteName name="Rubato dim-rit. w/hard mallet" pitch="G3" pos="-4" head="51" />
+      <NoteName name="RH Hard Mallet Hit" pitch="G#3" pos="-4" head="42" />
+      <NoteName name="--MED Block--" pitch="-1" menuBreak="1" />
+      <NoteName name="Soft Mallet Hits AutoRL" pitch="C4" pos="0" head="41" />
+      <NoteName name="LH Soft Mallet Hit" pitch="C#4" pos="0" head="40" />
+      <NoteName name="Rubato dim-rit. w/soft mallet" pitch="D4" pos="0" head="29" />
+      <NoteName name="RH Soft Mallet Hit" pitch="D#4" pos="0" head="1" />
+      <NoteName name="Hard Mallet Hits AutoRL" pitch="F4" pos="0" head="44" />
+      <NoteName name="LH Hard Mallet Hit" pitch="F#4" pos="0" head="43" />
+      <NoteName name="Rubato dim-rit. w/hard mallet" pitch="G4" pos="0" head="51" />
+      <NoteName name="RH Hard Mallet Hit" pitch="G#4" pos="0" head="42" />
+      <NoteName name="--HIGH Block--" pitch="-1" menuBreak="1" />
+      <NoteName name="Soft Mallet Hits AutoRL" pitch="C5" pos="4" head="41" />
+      <NoteName name="LH Soft Mallet Hit" pitch="C#5" pos="4" head="40" />
+      <NoteName name="Rubato dim-rit. w/soft mallet" pitch="D5" pos="4" head="29" />
+      <NoteName name="RH Soft Mallet Hit" pitch="D#5" pos="4" head="1" />
+      <NoteName name="Hard Mallet Hits AutoRL" pitch="F5" pos="4" head="44" />
+      <NoteName name="LH Hard Mallet Hit" pitch="F#5" pos="4" head="43" />
+      <NoteName name="Rubato dim-rit. w/hard mallet" pitch="G5" pos="4" head="51" />
+      <NoteName name="RH Hard Mallet Hit" pitch="G#5" pos="4" head="42" />
+    </NoteNameList>
+    <NoteNameList name="BD and Tam Tam">
+      <NoteName name="Bass Drum sustained roll" pitch="F2" pos="-3" head="20" />
+      <NoteName name="Stacatto mallet full" pitch="G2" pos="-3" head="0" />
+      <NoteName name="Stacatto mallet dampened" pitch="A2" pos="-3" head="33" />
+      <NoteName name="Bass Drum w/Towel muffling" pitch="B2" pos="-3" head="034" />
+      <NoteName name="Regular mallet dampened" pitch="C3" pos="-3" head="35" />
+      <NoteName name="Regular mallet full" pitch="E3" pos="-3" head="31" />
+      <NoteName name="Tam Tam hit" pitch="F3" pos="-1" head="43" />
+      <NoteName name="Medium Crescendo Forte" pitch="G3" pos="-1" head="1" />
+      <NoteName name="Long Crescendo Forte" pitch="A3" pos="-1" head="40" />
+      <NoteName name="Medium Crescendo Mezzo" pitch="B3" pos="-1" head="41" />
+      <NoteName name="Long Crescendo Mezzo" pitch="C4" pos="-1" head="42" />
+    </NoteNameList>
+    <NoteNameList name="SnareLine Manual">
+      <NoteName name="--Snares On--" pitch="-1" />
+      <NoteName name="Metronome Click" pitch="A0" pos="-3" head="19" />
+      <NoteName name="Metronome Accent" pitch="A#0" pos="-3" head="61" />
+      <NoteName name="Sticks In" pitch="C1" pos="-2" head="21" />
+      <NoteName name="Vocal 'Dut' 2" pitch="C#1" pos="-2" head="15" />
+      <NoteName name="Snare Shell" pitch="D1" pos="-2" head="17" />
+      <NoteName name="Vocal 'Dut' 1" pitch="D#1" pos="-2" head="59" />
+      <NoteName name="Stick Click" pitch="E1" pos="2" head="1" />
+      <NoteName name="Dress Center Harness Hit" pitch="F1" pos="-2" head="29" />
+      <NoteName name="Crash" pitch="C2" menuBreak="1" pos="6" head="1" default="1" />
+      <NoteName name="Ride Cym Roll" pitch="C#2" pos="5" head="40" default="1" />
+      <NoteName name="Bell of Ride Cym" pitch="D2" pos="5" head="6" />
+      <NoteName name="Hi Hat Press Roll" pitch="D#2" pos="4" head="45" />
+      <NoteName name="Ride Cym" pitch="E2" pos="5" head="0" default="1" />
+      <NoteName name="High Hat LH Tight" pitch="F2" pos="4" head="40" default="1" />
+      <NoteName name="High Hat RH Tight" pitch="F#2" pos="4" head="1" default="1" />
+      <NoteName name="High Hat LH Med" pitch="G2" pos="4" head="42" />
+      <NoteName name="High Hat RH Med" pitch="G#2" pos="4" head="41" />
+      <NoteName name="High Hat LH Loose" pitch="A2" pos="4" head="44" />
+      <NoteName name="High Hat RH Loose" pitch="A#2" pos="4" head="43" />
+      <NoteName name="Solo Dry Crush" pitch="B2" pos="0" head="32" />
+      <NoteName name="Solo LH Shot" pitch="C3" pos="0" head="51" default="1" />
+      <NoteName name="Solo LH Hit" pitch="C#3" pos="0" head="21" default="1" />
+      <NoteName name="Solo RH Shot" pitch="D3" pos="0" head="29" default="1" />
+      <NoteName name="Solo RH Hit" pitch="D#3" pos="0" head="0" default="1" />
+      <NoteName name="Solo Fat Crush" pitch="E3" pos="0" head="33" />
+      <NoteName name="Rods LH" pitch="F3" pos="-1" head="62" />
+      <NoteName name="Dreads LH" pitch="F#3" pos="1" head="58" />
+      <NoteName name="Rods RH" pitch="G3" pos="-1" head="62" />
+      <NoteName name="Dreads RH" pitch="G#3" pos="1" head="14" />
+      <NoteName name="Cowbell w/Tip" pitch="A3" pos="3" head="54" />
+      <NoteName name="Cowbell Mouth" pitch="A#3" pos="3" head="16" />
+      <NoteName name="Ribbon Crasher" pitch="B3" pos="3" head="23" />
+      <NoteName name="Stick Shot" pitch="C4" menuBreak="1" pos="-1" head="12" />
+      <NoteName name="LH Rim" pitch="C#4" pos="2" head="40" />
+      <NoteName name="Cross Stick Rim Knock" pitch="D4" pos="0" head="11" />
+      <NoteName name="RH Rim" pitch="D#4" pos="0" head="1" />
+      <NoteName name="OTH Double Shot OFF" pitch="E4" pos="0" head="52" />
+      <NoteName name="LH Shot" pitch="F4" pos="0" head="51" default="1" />
+      <NoteName name="LH Hit" pitch="F#4" pos="1" head="31" default="1" />
+      <NoteName name="RH Shot" pitch="G4" pos="1" head="29" default="1" />
+      <NoteName name="RH Hit" pitch="G#4" pos="1" head="0" default="1" />
+      <NoteName name="RH Ping" pitch="A4" pos="1" head="30" default="1" />
+      <NoteName name="LH Back Stick" pitch="A#4" pos="1" head="-1" />
+      <NoteName name="RH Back Stick" pitch="B4" pos="1" head="-1" />
+      <NoteName name="Dry Crush" pitch="C#5" pos="-1" head="32" />
+      <NoteName name="Fat Crush" pitch="D#5" pos="-1" head="33" />
+      <NoteName name="Sustained Roll" pitch="E5" pos="-1" head="20" default="1" />
+      <NoteName name="Short Decresc. Rool Roll" pitch="F5" pos="-1" head="31" default="1" />
+      <NoteName name="Short Cresc. Roll" pitch="F#5" pos="-1" head="32" default="1" />
+      <NoteName name="Med Decresc. Roll" pitch="G5" pos="-1" head="33" />
+      <NoteName name="Med Cresc. Roll" pitch="G#5" pos="-1" head="34" />
+      <NoteName name="Long Decresc. Roll" pitch="A5" pos="-1" head="35" />
+      <NoteName name="Long Cresc. Roll" pitch="A#5" pos="-1" head="36" />
+      <NoteName name="--Snares Off--" pitch="-1" menuBreak="1" />
+      <NoteName name="Stick Shot" pitch="C6" pos="1" head="12" />
+      <NoteName name="Throwoff ON" pitch="C#6" pos="-1" head="2" />
+      <NoteName name="Cross Stick Rim Knock" pitch="D6" pos="1" head="11" />
+      <NoteName name="Throwoff OFF" pitch="D#6" pos="1" head="2" />
+      <NoteName name="OTH Double Shot OFF" pitch="E6" pos="1" head="52" />
+      <NoteName name="LH Shot" pitch="F6" pos="1" head="29" />
+      <NoteName name="LH Hit" pitch="F#6" pos="1" head="0" />
+      <NoteName name="RH Shot" pitch="G6" pos="1" head="29" />
+      <NoteName name="RH Hit" pitch="G#6" pos="1" head="0" />
+      <NoteName name="RH Ping" pitch="A6" pos="1" head="30" />
+      <NoteName name="Dry Crush" pitch="C#7" pos="1" head="32" />
+      <NoteName name="Fat Crush" pitch="D#7" pos="1" head="33" />
+      <NoteName name="Sustained Roll" pitch="E7" pos="1" head="20" />
+      <NoteName name="Short Decresc. Roll" pitch="F7" pos="1" head="31" />
+      <NoteName name="Short Cresc. Roll" pitch="F#7" pos="1" head="32" />
+      <NoteName name="Med Decresc. Roll" pitch="G7" pos="1" head="33" />
+      <NoteName name="Med Cresc. Roll" pitch="G#7" pos="1" head="34" />
+      <NoteName name="Long Decresc. Roll" pitch="A7" pos="1" head="35" />
+      <NoteName name="Long Cresc. Roll" pitch="A#7" pos="1" head="36" />
+    </NoteNameList>
+    <NoteNameList name="SnareLine (AutoRL)">
+      <NoteName name="--Snares On--" pitch="-1" />
+      <NoteName name="Metronome Click" pitch="A0" pos="-3" head="19" />
+      <NoteName name="Metronome Accent" pitch="A#0" pos="-3" head="61" />
+      <NoteName name="Sticks In" pitch="C1" pos="-2" head="21" />
+      <NoteName name="Vocal 'Dut' 2" pitch="C#1" pos="-2" head="15" />
+      <NoteName name="Snare Shell" pitch="D1" pos="-2" head="17" />
+      <NoteName name="Vocal 'Dut' 1" pitch="D#1" pos="-2" head="59" />
+      <NoteName name="Stick Click" pitch="E1" pos="2" head="1" />
+      <NoteName name="Dress Center Harness Hit" pitch="F1" pos="-2" head="29" />
+      <NoteName name="Crash" pitch="C2" pos="6" head="1" default="1" />
+      <NoteName name="Ride Cym Roll" pitch="C#2" pos="5" head="40" default="1" />
+      <NoteName name="Bell of Ride Cym" pitch="D2" pos="5" head="6" />
+      <NoteName name="Hi Hat Press Roll" pitch="D#2" pos="4" head="45" />
+      <NoteName name="Ride Cym" pitch="E2" pos="5" head="1" default="1" />
+      <NoteName name="Hi Hat Tight" pitch="F2" pos="4" head="1" default="1" />
+      <NoteName name="Hi Hat Medium " pitch="G2" pos="4" head="41" />
+      <NoteName name="Hi Hat Loose" pitch="A2" pos="4" head="43" />
+      <NoteName name="Solo Hits" pitch="B2" pos="0" head="0" />
+      <NoteName name="Solo Shots" pitch="C3" pos="0" head="29" />
+      <NoteName name="Solo Dry Crush" pitch="C#3" pos="0" head="32" />
+      <NoteName name="Solo Fat Crush" pitch="D#3" pos="0" head="33" />
+      <NoteName name="Rods" pitch="F3" menuBreak="1" pos="1" head="6" />
+      <NoteName name="Stick Shot" pitch="F#3" pos="1" head="12" />
+      <NoteName name="Dreads" pitch="G3" pos="1" head="14" />
+      <NoteName name="Cross stick Rim Knocks" pitch="G#3" pos="1" head="11" />
+      <NoteName name="Rims" pitch="A3" pos="3" head="1" />
+      <NoteName name="Backsticks" pitch="A#3" pos="2" head="22" />
+      <NoteName name="Main Hits" pitch="B3" pos="1" head="0" />
+      <NoteName name="Rim Shots" pitch="C4" pos="1" head="29" />
+      <NoteName name="Dry Crush" pitch="C#4" pos="1" head="32" />
+      <NoteName name="Ping Shot" pitch="D4" pos="1" head="30" />
+      <NoteName name="Fat Crush" pitch="D#4" pos="1" head="33" />
+      <NoteName name="OTH Double Shot" pitch="E4" pos="1" head="52" />
+      <NoteName name="Decresc Short" pitch="F4" pos="1" head="31" />
+      <NoteName name="Decresc Medium" pitch="G4" pos="1" head="32" />
+      <NoteName name="Decresc Long" pitch="A4" pos="1" head="33" />
+      <NoteName name="Buzz Roll Sustained" pitch="B4" pos="1" head="20" />
+      <NoteName name="Cresc Long" pitch="C5" pos="1" head="34" />
+      <NoteName name="Cresc Medium" pitch="D5" pos="1" head="35" />
+      <NoteName name="Cresc Short" pitch="E5" pos="1" head="36" />
+      <NoteName name="--Snares Off--" pitch="-1" menuBreak="1" />
+      <NoteName name="Throwoff On" pitch="F5" pos="1" head="2" />
+      <NoteName name="Stick Shot" pitch="F#5" pos="-1" head="12" />
+      <NoteName name="Throwoff Off" pitch="G5" pos="-1" head="2" />
+      <NoteName name="Cross stick Rim Knock" pitch="G#5" pos="-1" head="11" />
+      <NoteName name="Main Hits" pitch="B5" pos="-1" head="0" />
+      <NoteName name="Rim Shots" pitch="C6" pos="-1" head="29" />
+      <NoteName name="Dry Crush" pitch="C#6" pos="-1" head="32" />
+      <NoteName name="Ping Shot" pitch="D6" pos="-1" head="30" />
+      <NoteName name="Fat Crush" pitch="D#6" pos="-1" head="33" />
+      <NoteName name="OTH Double Shots" pitch="E6" pos="-1" head="52" />
+      <NoteName name="Decresc Short" pitch="F6" pos="-1" head="31" />
+      <NoteName name="Decresc Medium" pitch="G6" pos="-1" head="32" />
+      <NoteName name="Decresc Long" pitch="A6" pos="-1" head="33" />
+      <NoteName name="Buzz Roll Sustained" pitch="B6" pos="-1" head="20" />
+      <NoteName name="Cresc Long" pitch="C7" pos="-1" head="34" />
+      <NoteName name="Cresc Medium" pitch="D7" pos="-1" head="35" />
+      <NoteName name="Cresc Short" pitch="E7" pos="-1" head="36" />
+    </NoteNameList>
+    <NoteNameList name="SnareLine VDL1">
+      <NoteName name="Sticks In" pitch="C1" pos="-2" head="21" />
+      <NoteName name="Snare Shell" pitch="D1" pos="-2" head="17" />
+      <NoteName name="Stick Click" pitch="E1" pos="2" head="1" />
+      <NoteName name="Crash" pitch="C2" pos="6" head="1" />
+      <NoteName name="Ride Cym Bell" pitch="D2" pos="5" head="6" />
+      <NoteName name="Ride Cym" pitch="E2" pos="5" head="1" />
+      <NoteName name="LH Dread" pitch="F#3" pos="1" head="58" />
+      <NoteName name="RH Dread" pitch="G#3" pos="1" head="14" />
+      <NoteName name="Stick Shot" pitch="C4" pos="1" head="12" />
+      <NoteName name="LH Rim" pitch="C#4" pos="3" head="40" />
+      <NoteName name="Rim Knock" pitch="D4" pos="1" head="11" />
+      <NoteName name="RH Rim" pitch="D#4" pos="3" head="1" />
+      <NoteName name="OTH Double Shots" pitch="E4" menuBreak="1" pos="1" head="52" />
+      <NoteName name="LH Rim Shot" pitch="F4" pos="1" head="51" />
+      <NoteName name="LH Hit" pitch="F#4" pos="1" head="31" />
+      <NoteName name="RH Rim Shot" pitch="G4" pos="1" head="29" />
+      <NoteName name="RH Hit" pitch="G#4" pos="1" head="0" />
+      <NoteName name="Ping Shot" pitch="A4" pos="1" head="30" />
+      <NoteName name="Buzz Short Dec/Crc" pitch="C5" pos="1" head="31" />
+      <NoteName name="Dry Crush" pitch="C#5" pos="1" head="32" />
+      <NoteName name="Buzz Medium Dec/Crc" pitch="D5" pos="1" head="32" />
+      <NoteName name="Fat Crush" pitch="D#5" pos="1" head="33" />
+      <NoteName name="Buzz Long Dec/Crc" pitch="E5" pos="1" head="33" />
+      <NoteName name="Buzz Sustained" pitch="F5" pos="1" head="20" />
+    </NoteNameList>
+    <NoteNameList name="Solo Mylar Snare">
+      <NoteName name="--Snares On--" pitch="-1" menuBreak="1" />
+      <NoteName name="Stick Snap" pitch="C1" pos="-2" head="2" />
+      <NoteName name="LH on cage" pitch="D2" pos="-2" head="40" />
+      <NoteName name="RH on cage" pitch="D#2" pos="-2" head="1" />
+      <NoteName name="LH Butt (Vertical)" pitch="F#2" pos="-2" head="63" />
+      <NoteName name="RH Butt (Vertical)" pitch="G#2" pos="-2" head="22" />
+      <NoteName name="LH Felt" pitch="C#3" pos="1" head="59" />
+      <NoteName name="Friction Slide 1" pitch="D3" pos="1" head="34" />
+      <NoteName name="RH Felt" pitch="D#3" pos="1" head="15" />
+      <NoteName name="Friction Slide 2" pitch="E3" pos="1" head="35" />
+      <NoteName name="Rods LH" pitch="F3" pos="1" head="62" />
+      <NoteName name="Dreads LH" pitch="F#3" pos="1" head="58" />
+      <NoteName name="Rods RH" pitch="G3" pos="1" head="6" />
+      <NoteName name="Dreads RH" pitch="G#3" pos="1" head="14" />
+      <NoteName name="Stick shot Low" pitch="B3" pos="1" head="12" />
+      <NoteName name="Stick shot High" pitch="C4" pos="1" head="49" />
+      <NoteName name="LH Rims" pitch="C#4" pos="3" head="40" />
+      <NoteName name="Rim Knock" menuBreak="1" pitch="D4" pos="1" head="11" />
+      <NoteName name="RH Rims" pitch="D#4" pos="3" head="1" />
+      <NoteName name="OTH Double Shots" pitch="E4" pos="1" head="52" />
+      <NoteName name="LH Shot" pitch="F4" pos="1" head="51" />
+      <NoteName name="LH Hit" pitch="F#4" pos="1" head="31" />
+      <NoteName name="RH Shot" pitch="G4" pos="1" head="29" />
+      <NoteName name="RH Hit" pitch="G#4" pos="1" head="0" />
+      <NoteName name="Ping Shot" pitch="A4" pos="1" head="30" />
+      <NoteName name="LH Backstick" pitch="A#4" pos="2" head="63" />
+      <NoteName name="RH Backstick" pitch="B4" pos="2" head="22" />
+      <NoteName name="Dry Crush" pitch="C#5" pos="1" head="32" />
+      <NoteName name="Fat Crush" pitch="D#5" pos="1" head="33" />
+      <NoteName name="Sustained Roll" pitch="E5" pos="1" head="20" />
+      <NoteName name="Decresc Short" pitch="F5" pos="1" head="31" />
+      <NoteName name="Cresc Short" pitch="F#5" pos="1" head="32" />
+      <NoteName name="Decresc Medium" pitch="G5" pos="1" head="33" />
+      <NoteName name="Cresc Medium" pitch="G#5" pos="1" head="34" />
+      <NoteName name="--Snares Off--" pitch="-1" menuBreak="1" />
+      <NoteName name="Stick shot LOW" pitch="B5" pos="-1" head="12" />
+      <NoteName name="Stick shot HIGH" pitch="C6" pos="-1" head="49" />
+      <NoteName name="Throwoff ON" pitch="C#6" pos="1" head="2" />
+      <NoteName name="Rim Knock" pitch="D6" pos="-1" head="11" />
+      <NoteName name="Throwoff OFF" pitch="D#6" pos="-1" head="2" />
+      <NoteName name="OTH Double Shot" pitch="E6" pos="-1" head="52" />
+      <NoteName name="LH Shot" pitch="F6" pos="-1" head="51" />
+      <NoteName name="LH Hit" pitch="F#6" pos="-1" head="31" />
+      <NoteName name="RH Shot" pitch="G6" pos="-1" head="29" />
+      <NoteName name="RH Hit" pitch="G#6" pos="-1" head="0" />
+      <NoteName name="Ping Shot" pitch="A6" pos="-1" head="30" />
+      <NoteName name="LH Backstick" pitch="A#6" pos="0" head="63" />
+      <NoteName name="RH Backstick" pitch="B6" pos="0" head="22" />
+      <NoteName name="LH edge Rebound" pitch="C7" pos="0" head="59" />
+      <NoteName name="Dry Crush" pitch="C#7" pos="-1" head="32" />
+      <NoteName name="RH edge Rebound" pitch="D7" pos="0" head="15" />
+      <NoteName name="Fat Crush" menuBreak="1" pitch="D#7" pos="-1" head="33" />
+      <NoteName name="Sustained Roll" pitch="E7" pos="-1" head="20" />
+      <NoteName name="Decresc Short" pitch="F7" pos="-1" head="31" />
+      <NoteName name="Cresc Short" pitch="F#7" pos="-1" head="32" />
+      <NoteName name="Decresc Medium" pitch="G7" pos="-1" head="33" />
+      <NoteName name="Cresc Medium" pitch="G#7" pos="-1" head="34" />
+      <NoteName name="Decresc Long" pitch="A7" pos="-1" head="35" />
+      <NoteName name="Cresc Long" pitch="A#7" pos="-1" head="36" />
+    </NoteNameList>
+    <NoteNameList name="Solo Kevlar Snare">
+      <NoteName name="Stick Snap" pitch="C1" pos="-2" head="2" />
+      <NoteName name="LH on Cage" pitch="D1" pos="-2" head="40" />
+      <NoteName name="RH on Cage" pitch="D#1" pos="-2" head="1" />
+      <NoteName name="LH Butt" pitch="F#2" pos="-2" head="63" />
+      <NoteName name="RH Butt" pitch="G#2" pos="-2" head="22" />
+      <NoteName name="LH Felt" pitch="C#3" pos="-1" head="59" />
+      <NoteName name="Friction Slide 1" pitch="D3" pos="-1" head="34" />
+      <NoteName name="RH Felt" pitch="D#3" pos="-1" head="15" />
+      <NoteName name="Friction Slide 2" pitch="E3" pos="-1" head="35" />
+      <NoteName name="Rods LH" pitch="F3" pos="-1" head="62" />
+      <NoteName name="Dreads LH" pitch="F#3" pos="-1" head="58" />
+      <NoteName name="Rods RH" pitch="G3" pos="-1" head="6" />
+      <NoteName name="Dreads RH" pitch="G#3" pos="-1" head="14" />
+      <NoteName name="Stick Shot LOW" pitch="B3" pos="-1" head="152" />
+      <NoteName name="Stick Shot HIGH" pitch="C4" pos="-1" head="49" />
+      <NoteName name="LH Rims" pitch="C#4" pos="3" head="40" />
+      <NoteName name="Cross Sticks Knocks" pitch="D4" pos="-1" head="255" />
+      <NoteName name="RH Rims" pitch="D#4" pos="3" head="1" />
+      <NoteName name="Over the Head Double Shots" pitch="E4" pos="-1" head="52" />
+      <NoteName name="LH Shots" menuBreak="1" pitch="F4" pos="-1" head="51" />
+      <NoteName name="LH Main Hits" pitch="F#4" pos="-1" head="31" />
+      <NoteName name="RH Shots" pitch="G4" pos="-1" head="29" />
+      <NoteName name="RH Main Hits" pitch="G#4" pos="-1" head="0" />
+      <NoteName name="Ping Shot" pitch="A4" pos="-1" head="30" />
+      <NoteName name="LH Backstick" pitch="A#4" pos="0" head="63" />
+      <NoteName name="RH Backstick" pitch="B4" pos="0" head="22" />
+      <NoteName name="Dry Crushes" pitch="C#5" pos="-1" head="32" />
+      <NoteName name="Fat Crushes" pitch="D#5" pos="-1" head="33" />
+      <NoteName name="Sustained Rolls" pitch="E5" pos="-1" head="20" />
+      <NoteName name="Short Decrescendo Rolls" pitch="F5" pos="-1" head="31" />
+      <NoteName name="Short Crescendo Rolls" pitch="F#5" pos="-1" head="32" />
+      <NoteName name="Medium Decrescendo Rolls" pitch="G5" pos="-1" head="33" />
+      <NoteName name="Medium Crescendo Rolls" pitch="G#5" pos="-1" head="34" />
+      <NoteName name="Long Decrescendo Rolls" pitch="A5" pos="-1" head="41" />
+      <NoteName name="Long Crescendo Rolls" pitch="A#5" pos="-1" head="36" />
+      <NoteName name="Stick on Stick Doubles" pitch="B5" pos="0" head="18" />
+      <NoteName name="Rim Buzz Roll" pitch="C6" pos="3" head="41" />
+      <NoteName name="Twisted Motion Rim Roll" pitch="D6" pos="3" head="2" />
+    </NoteNameList>
+    <NoteNameList name="TenorLine Manual">
+      <NoteName name="Tenor Stand Hit" pitch="F0" pos="-4" head="15" />
+      <NoteName name="Cowbell" pitch="F#0" pos="4" head="16" default="1" />
+      <NoteName name="Hand Claps" pitch="G0" pos="0" head="19" />
+      <NoteName name="Low Jam Block" pitch="G#0" pos="-2" head="15" />
+      <NoteName name="Aluminum Mallet Click" pitch="A0" pos="2" head="1" />
+      <NoteName name="High Jam Block" pitch="A#0" pos="0" head="15" />
+      <NoteName name="Double Stop on Shells" pitch="B0" pos="-5" head="30" />
+      <NoteName name="Drum 4 'Snenor'/Stick Shots" pitch="C1" pos="-3" head="19" />
+      <NoteName name="Drum 3 'Snenor'/Stick Shots" pitch="C#1" pos="-1" head="19" />
+      <NoteName name="Drum 2 'Snenor'/Stick Shots" pitch="D1" pos="1" head="19" />
+      <NoteName name="Drum 1 'Snenor'/Stick Shots" pitch="D#1" pos="3" head="19" default="1" />
+      <NoteName name="Spock 'Snenor'/Stick Shots" pitch="E1" pos="5" head="12" />
+      <NoteName name="Drum 4 LH Shot/Dread/Rod/Rim" pitch="F1" pos="-3" head="12" />
+      <NoteName name="Drum 4 RH Shot/Dread/Rod/Rim" pitch="F#1" pos="-3" head="12" />
+      <NoteName name="Drum 3 LH Shot/Dread/Rod/Rim" pitch="G1" pos="-3" head="12" />
+      <NoteName name="Drum 3 RH Shot/Dread/Rod/Rim" pitch="G#1" pos="-3" head="12" />
+      <NoteName name="Drum 2 LH Shot/Dread/Rod/Rim" pitch="A1" pos="-3" head="12" />
+      <NoteName name="Drum 2 RH Shot/Dread/Rod/Rim" pitch="A#1" pos="-3" head="12" />
+      <NoteName name="Drum 1 LH Shot/Dread/Rod/Rim" pitch="B1" pos="-3" head="12" default="1" />
+      <NoteName name="Drum 1 RH Shot/Dread/Rod/Rim" pitch="C2" menuBreak="1" pos="-3" head="12" default="1" />
+      <NoteName name="Spock 2 LH Shot/Dread/Rod/Rim" pitch="C#2" pos="5" head="12" />
+      <NoteName name="Spock 2 RH Shot/Dread/Rod/Rim" pitch="D2" pos="5" head="12" />
+      <NoteName name="Spock 1 LH Shot/Dread/Rod/Rim" pitch="D#2" pos="4" head="12" />
+      <NoteName name="Spock 1 RH Shot/Dread/Rod/Rim" pitch="E2" pos="5" head="12" />
+      <NoteName name="Sustain Buzz Roll Drum 4" pitch="F2" pos="4" head="20" />
+      <NoteName name="Sustain Buzz Roll Drum 3" pitch="F#2" pos="4" head="20" />
+      <NoteName name="Sustain Buzz Roll Drum 2" pitch="G2" pos="4" head="20" />
+      <NoteName name="Sustain Buzz Roll Drum 1" pitch="G#2" pos="4" head="20" default="1" />
+      <NoteName name="Sustain Buzz Roll Spock 2" pitch="A2" pos="4" head="20" />
+      <NoteName name="Sustain Buzz Roll Spock 1" pitch="A#2" pos="4" head="43" />
+      <NoteName name="Muted Drum 4 Taps" pitch="C#3" pos="0" head="10" />
+      <NoteName name="Hand Muffle" pitch="D3" pos="0" head="17" />
+      <NoteName name="Drum 4 'Skank'" pitch="D#3" pos="0" head="52" />
+      <NoteName name="Drum 4 LH Hits" pitch="F3" pos="1" head="62" />
+      <NoteName name="Drum 4 RH Hits" pitch="F#3" pos="1" head="58" />
+      <NoteName name="Drum 3 LH Hits" pitch="G3" pos="1" head="6" />
+      <NoteName name="Drum 3 RH Hits" pitch="G#3" pos="1" head="14" />
+      <NoteName name="Drum 2 LH Hits" pitch="A3" pos="3" head="54" />
+      <NoteName name="Drum 2 RH Hits" pitch="A#3" pos="3" head="16" />
+      <NoteName name="Drum 1 LH Hits" pitch="B3" pos="3" head="23" default="1" />
+      <NoteName name="Drum 1 RH Hits" pitch="C4" menuBreak="1" pos="-1" head="12" default="1" />
+      <NoteName name="Spock 2 LH Hits" pitch="C#4" pos="2" head="40" />
+      <NoteName name="Spock 2 RH Hits" pitch="D4" pos="0" head="11" />
+      <NoteName name="Spock 1 LH Hits" pitch="D#4" pos="0" head="1" />
+      <NoteName name="Spock 1 RH Hits" pitch="E4" pos="0" head="52" />
+      <NoteName name="Drum 4 Decrescendo Rolls" pitch="F4" pos="0" head="35" />
+      <NoteName name="Drum 4 Crescendo Rolls" pitch="F#4" pos="1" head="36" />
+      <NoteName name="Drum 3 Decrescendo Rolls" pitch="G4" pos="1" head="35" />
+      <NoteName name="Drum 3 Crescendo Rolls" pitch="G#4" pos="1" head="36" />
+      <NoteName name="Drum 2 Decrescendo Rolls" pitch="A4" pos="1" head="35" />
+      <NoteName name="Drum 2 Crescendo Rolls" pitch="A#4" pos="1" head="36" />
+      <NoteName name="Drum 1 Decrescendo Rolls" pitch="B4" pos="1" head="35" default="1" />
+      <NoteName name="Drum 1 Crescendo Rolls" pitch="C5" pos="-1" head="36" default="1" />
+      <NoteName name="Spock 2 Decrescendo Rolls" pitch="C#5" pos="-1" head="35" />
+      <NoteName name="Spock 2 Crescendo Rolls" pitch="D5" pos="-1" head="36" />
+      <NoteName name="Spock 1 Decrescendo Rolls" pitch="D#5" pos="-1" head="35" />
+      <NoteName name="Spock 1 Crescendo Rolls" pitch="E5" pos="-1" head="36" />
+      <NoteName name="Drum 4 Dry Crush" pitch="F5" pos="-1" head="32" />
+      <NoteName name="Drum 4 Fat Crush" pitch="F#5" pos="-1" head="33" />
+      <NoteName name="Drum 3 Dry Crush" pitch="G5" pos="-1" head="32" />
+      <NoteName name="Drum 3 Fat Crush" pitch="G#5" pos="-1" head="33" />
+      <NoteName name="Drum 2 Dry Crush" pitch="A5" pos="-1" head="32" />
+      <NoteName name="Drum 2 Fat Crush" pitch="A#5" pos="-1" head="33" />
+      <NoteName name="Drum 1 Dry Crush" pitch="B5" pos="-1" head="32" default="1" />
+      <NoteName name="Drum 1 Fat Crush" pitch="C6" menuBreak="1" pos="-1" head="33" default="1" />
+      <NoteName name="Spock 2 Dry Crush" pitch="C#6" pos="-1" head="12" />
+      <NoteName name="Spock 2 Fat Crush" pitch="D6" pos="-1" head="12" />
+      <NoteName name="Spock 1 Dry Crush" pitch="D#6" pos="-1" head="12" />
+      <NoteName name="Spock 2 Fat Crush" pitch="E6" pos="-1" head="12" />
+      <NoteName name="Rods on Rim LH Drum 4" pitch="F6" pos="-1" head="63" />
+      <NoteName name="Rods on Rim RH Drum 4" pitch="F#6" pos="-1" head="22" />
+      <NoteName name="Rods on Rim LH Drum 3" pitch="G6" pos="-1" head="63" />
+      <NoteName name="Rods on Rim RH Drum 3" pitch="G#6" pos="-1" head="22" />
+      <NoteName name="Rods on Rim LH Drum 2" pitch="A6" pos="-1" head="63" />
+      <NoteName name="Rods on Rim RH Drum 2" pitch="A#6" pos="-1" head="22" />
+      <NoteName name="Rods on Rim LH Drum 1" pitch="B6" pos="-1" head="63" default="1" />
+      <NoteName name="Rods on Rim RH Drum 1" pitch="C7" pos="-1" head="22" default="1" />
+      <NoteName name="Rods on Rim LH Spock 2" pitch="C#7" pos="-1" head="63" />
+      <NoteName name="Rods on Rim RH Spock 2" pitch="D7" pos="-1" head="22" />
+      <NoteName name="Rods on Rim LH Spock 1" pitch="D#7" pos="-1" head="63" default="1" />
+      <NoteName name="Rods on Rim RH Spock 1" pitch="E7" pos="-1" head="22" default="1" />
+      <NoteName name="Dred Stir Drum 4" pitch="F7" pos="-1" head="2" />
+      <NoteName name="Dred Stir Drum 3" pitch="F#7" pos="-1" head="2" />
+      <NoteName name="Dred Stir Drum 2" pitch="G7" pos="-1" head="2" />
+      <NoteName name="Dred Stir Drum 1" pitch="G#7" pos="-1" head="2" default="1" />
+    </NoteNameList>
+    <NoteNameList name="TenorLine (Auto RL)">
+      <NoteName name="Tenor Stand Hit" pitch="F0" pos="-4" head="15" />
+      <NoteName name="Cowbell" pitch="F#0" pos="4" head="16" default="1" />
+      <NoteName name="Hand Claps" pitch="G0" pos="0" head="19" />
+      <NoteName name="Low Jam Block" pitch="G#0" pos="-2" head="15" />
+      <NoteName name="Aluminum Mallet Click" pitch="A0" pos="2" head="1" />
+      <NoteName name="High Jam Block" pitch="A#0" pos="0" head="15" />
+      <NoteName name="Double Stop on Lower Shells" pitch="B0" pos="-5" head="30" />
+      <NoteName name="Stir Drum w/Dread 4" pitch="C1" pos="-3" head="2" />
+      <NoteName name="Stir Drum w/Dread 3" pitch="C#1" pos="-1" head="2" />
+      <NoteName name="Stir Drum w/Dread 2" pitch="D1" pos="1" head="2" />
+      <NoteName name="Stir Drum w/Dread 1" pitch="D#1" pos="3" head="2" default="1" />
+      <NoteName name="Sustained Buzz Roll Drum 4" pitch="E1" pos="-3" head="20" />
+      <NoteName name="Diminuendo Roll Drum 4" pitch="F1" pos="-3" head="35" />
+      <NoteName name="Crescendo Roll Drum 4" pitch="F#1" pos="-3" head="36" />
+      <NoteName name="Sustained Buzz Roll Drum 3" pitch="G1" pos="-1" head="20" />
+      <NoteName name="Diminuendo Roll Drum 3" pitch="A1" pos="-1" head="35" />
+      <NoteName name="Crescendo Roll Drum 3" pitch="A#1" pos="-1" head="36" />
+      <NoteName name="Sustained Buzz Roll Drum 2" pitch="B1" pos="1" head="20" default="1" />
+      <NoteName name="Diminuendo Roll Drum 2" pitch="C2" menuBreak="1" pos="1" head="35" default="1" />
+      <NoteName name="Crescendo Roll Drum 2" pitch="C#2" pos="1" head="36" />
+      <NoteName name="Sustained Buzz Roll Drum 1" pitch="D2" pos="3" head="20" />
+      <NoteName name="Diminuendo Roll Drum 1" pitch="E2" pos="3" head="35" />
+      <NoteName name="Sustained Buzz Roll Spock 2" pitch="F2" pos="5" head="20" />
+      <NoteName name="Crescendo Roll Drum 1" pitch="F#2" pos="3" head="36" />
+      <NoteName name="Diminuendo Roll Spock 2" pitch="G2" pos="5" head="35" />
+      <NoteName name="Crescendo Roll Spock 2" pitch="G#2" pos="5" head="36" default="1" />
+      <NoteName name="Sustained Buzz Roll Spock 1" pitch="A2" pos="6" head="20" />
+      <NoteName name="Diminuendo Roll Spock 1" pitch="B2" pos="6" head="35" />
+      <NoteName name="Crescendo Roll Spock 1" pitch="C#3" pos="6" head="36" />
+      <NoteName name="Dreads/Rods Drum 4" pitch="E3" pos="-3" head="14" />
+      <NoteName name="Hits Drum 4" pitch="F3" pos="-3" head="0" />
+      <NoteName name="Shots/Rims Drum 4" pitch="F#3" pos="-3" head="6" />
+      <NoteName name="Dreads/Rods Drum 3" pitch="G3" pos="-1" head="14" />
+      <NoteName name="Hits Drum 3" pitch="A3" pos="-1" head="0" />
+      <NoteName name="Shots/Rims Drum 3" pitch="A#3" pos="-1" head="6" />
+      <NoteName name="Dreads/Rods Drum 2" pitch="B3" pos="1" head="14" default="1" />
+      <NoteName name="Hits Drum 2" pitch="C4" menuBreak="1" pos="1" head="0" default="1" />
+      <NoteName name="Shots/Rims Drum 2" pitch="C#4" pos="1" head="6" />
+      <NoteName name="Dreads/Rods Drum 1" pitch="D4" pos="3" head="14" />
+      <NoteName name="Hits Drum 1" pitch="E4" pos="3" head="0" />
+      <NoteName name="Dreads/Rods Spock 2" pitch="F4" pos="5" head="14" />
+      <NoteName name="Shots/Rims Drum 1" pitch="F#4" pos="3" head="6" />
+      <NoteName name="Hits Spock 2" pitch="G4" pos="5" head="0" />
+      <NoteName name="Shots/Rims Spock 2" pitch="G#4" pos="5" head="6" />
+      <NoteName name="Dreads/Rods Spock 1" pitch="A4" pos="6" head="14" />
+      <NoteName name="Hits Spock 1" pitch="B4" pos="6" head="0" default="1" />
+      <NoteName name="Hand Muffle on Drum 4" pitch="C5" pos="-3" head="17" default="1" />
+      <NoteName name="Shots/Rims Spock 1" pitch="C#5" pos="-1" head="35" />
+      <NoteName name="'Skank' Drum 4" pitch="D5" pos="-3" head="52" />
+      <NoteName name="Muffled Taps Drum 4" pitch="D#5" pos="-3" head="10" />
+      <NoteName name="Rod on Rim Drum 4" pitch="E5" pos="-3" head="22" />
+      <NoteName name="Dry Crush Drum 4" pitch="F5" pos="-3" head="32" />
+      <NoteName name="Wet Crush Drum 4" pitch="F#5" pos="-3" head="33" />
+      <NoteName name="Rod on Rim Drum 3" pitch="G5" pos="-1" head="22" />
+      <NoteName name="Dry Crush Drum 3" pitch="A5" pos="-1" head="32" />
+      <NoteName name="Wet Crush Drum 3" pitch="A#5" pos="-1" head="33" />
+      <NoteName name="Rod on Rim Drum 2" pitch="B5" pos="1" head="22" default="1" />
+      <NoteName name="Dry Crush Drum 2" pitch="C6" menuBreak="1" pos="1" head="32" default="1" />
+      <NoteName name="Wet Crush Drum 2" pitch="C#6" pos="1" head="33" />
+      <NoteName name="Rod on Rim Drum 1" pitch="D6" pos="3" head="22" />
+      <NoteName name="Dry Crush Drum 1" pitch="E6" pos="3" head="32" />
+      <NoteName name="Rod on Rim Spock 2" pitch="F6" pos="5" head="22" />
+      <NoteName name="Wet Crush Drum 1" pitch="F#6" pos="3" head="33" />
+      <NoteName name="Dry Crush Spock 2" pitch="G6" pos="5" head="32" />
+      <NoteName name="Wet Crush Spock 2" pitch="G#6" pos="5" head="33" />
+      <NoteName name="Rod on Rim Spock 1" pitch="A6" pos="6" head="22" />
+      <NoteName name="Dry Crush Spock 1" pitch="B6" pos="6" head="32" default="1" />
+      <NoteName name="Wet Crush Spock 1" pitch="C#7" pos="6" head="33" />
+      <NoteName name="'Snenor' Drum 4" pitch="F7" pos="-3" head="19" />
+      <NoteName name="'Snenor' Drum 3" pitch="F#7" pos="-1" head="19" />
+      <NoteName name="'Snenor' Drum 2" pitch="G7" pos="1" head="19" />
+      <NoteName name="'Snenor' Drum 1" pitch="G#7" pos="3" head="19" default="1" />
+      <NoteName name="'Snenor' Spock" pitch="A7" pos="5" head="19" default="1" />
+    </NoteNameList>
+    <NoteNameList name="TenorLine Solo Manual">
+      <NoteName name="Cowbell" pitch="F#0" pos="4" head="16" default="1" />
+      <NoteName name="Shell Drum 4" pitch="G0" pos="-4" head="30" />
+      <NoteName name="Low Jam Block" pitch="G#0" pos="-2" head="15" />
+      <NoteName name="Shell Drum 3" pitch="A0" pos="-2" head="30" />
+      <NoteName name="High Jam Block" pitch="A#0" pos="0" head="15" />
+      <NoteName name="Double Stop on Shells" pitch="B0" pos="-5" head="30" />
+      <NoteName name="'Snenor'/Stick Shots Drum 4" pitch="C1" pos="-3" head="??" />
+      <NoteName name="'Snenor'/Stick Shots Drum 3" pitch="C#1" pos="-1" head="??" />
+      <NoteName name="'Snenor'/Stick Shots Drum 2" pitch="D1" pos="1" head="??" />
+      <NoteName name="'Snenor'/Stick Shots Drum 1" pitch="D#1" pos="3" head="??" default="1" />
+      <NoteName name="'Snenor'/Stick Shots Spock" pitch="E1" pos="5" head="??" />
+      <NoteName name="LH Shot/Dread/Rod/Rim Drum 4" pitch="F1" pos="-3" head="??" />
+      <NoteName name="RH Shot/Dread/Rod/Rim Drum 4" pitch="F#1" pos="-3" head="??" />
+      <NoteName name="LH Shot/Dread/Rod/Rim Drum 3" pitch="G1" pos="-1" head="??" />
+      <NoteName name="RH Shot/Dread/Rod/Rim Drum 3" pitch="G#1" pos="-1" head="??" />
+      <NoteName name="LH Shot/Dread/Rod/Rim Drum 2" pitch="A1" pos="1" head="??" />
+      <NoteName name="RH Shot/Dread/Rod/Rim Drum 2" pitch="A#1" pos="1" head="??" />
+      <NoteName name="LH Shot/Dread/Rod/Rim Drum 1" pitch="B1" pos="3" head="??" default="1" />
+      <NoteName name="RH Shot/Dread/Rod/Rim Drum 1" pitch="C2" menuBreak="1" pos="3" head="??" default="1" />
+      <NoteName name="LH Shot/Dread/Rod/Rim Spock 2" pitch="C#2" pos="5" head="??" />
+      <NoteName name="RH Shot/Dread/Rod/Rim Spock 2" pitch="D2" pos="5" head="??" />
+      <NoteName name="LH Shot/Dread/Rod/Rim Spock 1" pitch="D2" pos="6" head="??" />
+      <NoteName name="RH Shot/Dread/Rod/Rim Spock 1" pitch="E2" pos="6" head="??" />
+      <NoteName name="Sustain Buzz Roll Drum 4" pitch="F2" pos="-3" head="20" />
+      <NoteName name="Sustain Buzz Roll Drum 3" pitch="F#2" pos="-1" head="20" />
+      <NoteName name="Sustain Buzz Roll Drum 2" pitch="G2" pos="1" head="20" />
+      <NoteName name="Sustain Buzz Roll Drum 1" pitch="G#2" pos="3" head="20" default="1" />
+      <NoteName name="Sustain Buzz Roll Spock 2" pitch="A2" pos="5" head="20" />
+      <NoteName name="Sustain Buzz Roll Spock 1" pitch="A#2" pos="6" head="20" />
+      <NoteName name="Muted Taps Drum 4" pitch="C#3" pos="-3" head="10" />
+      <NoteName name="Hand Muffle" pitch="D3" pos="-3" head="17" />
+      <NoteName name="'Skank' Fast Muffle Drum 4" pitch="D#3" pos="-3" head="52" />
+      <NoteName name="'Skank' Late Muffle Drum 4" pitch="E3" pos="-3" head="53" />
+      <NoteName name="LH Hits Drum 4" pitch="F3" pos="-3" head="31" />
+      <NoteName name="RH Hits Drum 4" pitch="F#3" pos="-3" head="0" />
+      <NoteName name="LH Hits Drum 3" pitch="G3" pos="-1" head="31" />
+      <NoteName name="RH Hits Drum 3" pitch="G#3" pos="-1" head="0" />
+      <NoteName name="LH Hits Drum 2" pitch="A3" pos="1" head="31" />
+      <NoteName name="RH Hits Drum 2" pitch="A#3" pos="1" head="0" />
+      <NoteName name="LH Hits Drum 1" pitch="B3" pos="3" head="31" default="1" />
+      <NoteName name="RH Hits Drum 1" pitch="C4" menuBreak="1" pos="3" head="0" default="1" />
+      <NoteName name="LH Hits Spock 2" pitch="C#4" pos="5" head="31" />
+      <NoteName name="RH Hits Spock 2" pitch="D4" pos="5" head="0" />
+      <NoteName name="LH Hits Spock 1" pitch="D#4" pos="6" head="31" />
+      <NoteName name="RH Hits Spock 1" pitch="E4" pos="6" head="0" />
+      <NoteName name="Decrescendo Rolls Drum 4" pitch="F4" pos="-3" head="35" />
+      <NoteName name="Crescendo Rolls Drum 4" pitch="F#4" pos="-3" head="36" />
+      <NoteName name="Decrescendo Rolls Drum 3" pitch="G4" pos="-1" head="35" />
+      <NoteName name="Crescendo Rolls Drum 3" pitch="G#4" pos="-1" head="36" />
+      <NoteName name="Decrescendo Rolls Drum 2" pitch="A4" pos="1" head="35" />
+      <NoteName name="Crescendo Rolls Drum 2" pitch="A#4" pos="1" head="36" />
+      <NoteName name="Decrescendo Rolls Drum 1" pitch="B4" pos="3" head="35" default="1" />
+      <NoteName name="Crescendo Rolls Drum 1" pitch="C5" pos="3" head="36" default="1" />
+      <NoteName name="Decrescendo Rolls Spock 2" pitch="C#5" pos="5" head="35" />
+      <NoteName name="Crescendo Rolls Spock 2" pitch="D5" pos="5" head="36" />
+      <NoteName name="Decrescendo Rolls Spock 1" pitch="D#5" pos="6" head="35" />
+      <NoteName name="Crescendo Rolls Spock 1" pitch="E5" pos="6" head="36" />
+      <NoteName name="Crush Fat/Dry LH Drum 4" pitch="F5" pos="-3" head="33" />
+      <NoteName name="Crush Fat/Dry RH Drum 4" pitch="F#5" pos="-3" head="32" />
+      <NoteName name="Crush Fat/Dry LH Drum 3" pitch="G5" pos="-1" head="33" />
+      <NoteName name="Crush Fat/Dry RH Drum 3" pitch="G#5" pos="-1" head="32" />
+      <NoteName name="Crush Fat/Dry LH Drum 2" pitch="A5" pos="1" head="33" />
+      <NoteName name="Crush Fat/Dry RH Drum 2" pitch="A#5" pos="1" head="32" />
+      <NoteName name="Crush Fat/Dry LH Drum 1" pitch="B5" pos="3" head="33" default="1" />
+      <NoteName name="Crush Fat/Dry RH Drum 1" pitch="C6" menuBreak="1" pos="3" head="32" default="1" />
+      <NoteName name="Crush Fat/Dry LH Spock 2" pitch="C#6" pos="5" head="33" />
+      <NoteName name="Crush Fat/Dry RH Spock 2" pitch="D6" pos="5" head="32" />
+      <NoteName name="Crush Fat/Dry LH Spock 1" pitch="D#6" pos="6" head="33" />
+      <NoteName name="Crush Fat/Dry RH Spock 1" pitch="E6" pos="6" head="32" />
+      <NoteName name="Rods on Rim LH Drum 4" pitch="F6" pos="-3" head="63" />
+      <NoteName name="Rods on Rim RH Drum 4" pitch="F#6" pos="-3" head="22" />
+      <NoteName name="Rods on Rim LH Drum 3" pitch="G6" pos="-1" head="63" />
+      <NoteName name="Rods on Rim RH Drum 3" pitch="G#6" pos="-1" head="22" />
+      <NoteName name="Rods on Rim LH Drum 2" pitch="A6" pos="1" head="63" />
+      <NoteName name="Rods on Rim RH Drum 2" pitch="A#6" pos="1" head="22" />
+      <NoteName name="Rods on Rim LH Drum 1" pitch="B6" pos="3" head="63" default="1" />
+      <NoteName name="Rods on Rim RH Drum 1" pitch="C7" pos="3" head="22" default="1" />
+      <NoteName name="Rods on Rim LH Spock 2" pitch="C#7" pos="5" head="63" />
+      <NoteName name="Rods on Rim RH Spock 2" pitch="D7" pos="5" head="22" />
+      <NoteName name="Rods on Rim LH Spock 1" pitch="D#7" pos="6" head="63" default="1" />
+      <NoteName name="Rods on Rim RH Spock 1" pitch="E7" pos="6" head="22" default="1" />
+    </NoteNameList>
+    <NoteNameList name="TenorLine VDL1">
+      <NoteName name="Stick on Stick Drum 4" pitch="F0" pos="-3" head="12" />
+      <NoteName name="Stick on Stick Drum 3" pitch="F#0" pos="-1" head="12" default="1" />
+      <NoteName name="Stick on Stick Drum 2" pitch="G0" pos="1" head="12" />
+      <NoteName name="Stick on Stick Drum 1" pitch="G#0" pos="3" head="12" />
+      <NoteName name="Stick on Stick 6in Drum" pitch="A0" pos="5" head="12" />
+      <NoteName name="Side of Drum" pitch="A#0" pos="-5" head="30" />
+      <NoteName name="Stick Click" pitch="B0" pos="2" head="1" />
+      <NoteName name="Cowbell" pitch="C1" pos="4" head="16" />
+      <NoteName name="Woodblock Low" pitch="D1" pos="-2" head="15" />
+      <NoteName name="Woodblock High" pitch="E1" pos="0" head="15" />
+      <NoteName name="LH Shot/Dread/Rim Drum 4" pitch="F1" pos="-3" head="??" />
+      <NoteName name="RH Shot/Dread/Rim Drum 4" pitch="F#1" pos="-3" head="??" />
+      <NoteName name="LH Shot/Dread/Rim Drum 3" pitch="G1" pos="-1" head="??" />
+      <NoteName name="RH Shot/Dread/Rim Drum 3" pitch="G#1" pos="-1" head="??" />
+      <NoteName name="LH Shot/Dread/Rim Drum 2" pitch="A1" pos="1" head="??" />
+      <NoteName name="RH Shot/Dread/Rim Drum 2" pitch="A#1" pos="1" head="??" />
+      <NoteName name="LH Shot/Dread/Rim Drum 1" pitch="C2" pos="3" head="??" />
+      <NoteName name="RH Shot/Dread/Rim Drum 1" pitch="C#2" pos="3" head="??" />
+      <NoteName name="LH Shot/Dread/Rim Spock" pitch="D2" pos="5" head="??" />
+      <NoteName name="RH Shot/Dread/Rim Spock" pitch="D#2" pos="5" head="??" />
+      <NoteName name="Sustain Buzz Roll Drum 4" pitch="F2" pos="-3" head="20" />
+      <NoteName name="Sustain Buzz Roll Drum 3" pitch="F#2" pos="-1" head="20" />
+      <NoteName name="Sustain Buzz Roll Drum 2" pitch="G2" pos="1" head="20" />
+      <NoteName name="Sustain Buzz Roll Drum 1" pitch="G#2" pos="3" head="20" default="1" />
+      <NoteName name="Sustain Buzz Roll Spock" pitch="A2" pos="5" head="20" />
+      <NoteName name="Muted Drum 4" pitch="D3" pos="-3" head="17" />
+      <NoteName name="'Skank' Drum 4" pitch="D#3" pos="-3" head="52" />
+      <NoteName name="LH Hits Sticks/Puffs Drum 4" pitch="F3" pos="-3" head="31" />
+      <NoteName name="RH Hits Sticks/Puffs Drum 4" pitch="F#3" pos="-3" head="0" />
+      <NoteName name="LH Hits Sticks/Puffs Drum 3" pitch="G3" pos="-1" head="31" />
+      <NoteName name="RH Hits Sticks/Puffs Drum 3" pitch="G#3" pos="-1" head="0" />
+      <NoteName name="LH Hits Sticks/Puffs Drum 2" pitch="A3" pos="1" head="31" />
+      <NoteName name="RH Hits Sticks/Puffs Drum 2" pitch="A#3" pos="1" head="0" />
+      <NoteName name="LH Hits Sticks/Puffs Drum 1" pitch="C4" menuBreak="1" pos="3" head="31" default="1" />
+      <NoteName name="RH Hits Sticks/Puffs Drum 1" pitch="C#4" pos="3" head="0" />
+      <NoteName name="LH Hits Sticks/Puffs Spock" pitch="D4" pos="5" head="31" />
+      <NoteName name="RH Hits Sticks/Puffs Spock" pitch="D#4" pos="5" head="0" />
+      <NoteName name="Long Decresc/Cresc Drum 4" pitch="F4" pos="-3" head="34" />
+      <NoteName name="Med Decresc/Cresc Drum 4" pitch="F#4" pos="-3" head="35" />
+      <NoteName name="Long Decresc/Cresc Drum 3" pitch="G4" pos="-1" head="34" />
+      <NoteName name="Med Decresc/Cresc Drum 3" pitch="G#4" pos="-1" head="35" />
+      <NoteName name="Long Decresc/Cresc Drum 2" pitch="A4" pos="1" head="34" />
+      <NoteName name="Med Decresc/Cresc Drum 2" pitch="A#4" pos="1" head="35" />
+      <NoteName name="Long Decresc/Cresc Drum 1" pitch="C5" pos="3" head="34" default="1" />
+      <NoteName name="Med Decresc/Cresc Drum 1" pitch="C#5" pos="3" head="35" />
+      <NoteName name="Long Decresc/Cresc Spock" pitch="D5" pos="5" head="34" />
+      <NoteName name="Med Decresc/Cresc Spock" pitch="D#5" pos="5" head="35" />
+      <NoteName name="Crush Drum 4" pitch="F5" pos="-3" head="32" />
+      <NoteName name="Short Decresc/Cresc Drum 4" pitch="F#5" pos="-3" head="36" />
+      <NoteName name="Crush Drum 3" pitch="G5" pos="-1" head="32" />
+      <NoteName name="Short Decresc/Cresc Drum 3" pitch="G#5" pos="-1" head="36" />
+      <NoteName name="Crush Drum 2" pitch="A5" pos="1" head="32" />
+      <NoteName name="Short Decresc/Cresc Drum 2" pitch="A#5" pos="1" head="36" />
+      <NoteName name="Crush Drum 1" pitch="C6" pos="3" head="32" />
+      <NoteName name="Short Decresc/Cresc Drum 1" pitch="C#6" pos="3" head="36" />
+      <NoteName name="Crush Spock" pitch="D6" pos="5" head="32" />
+      <NoteName name="Short Decresc/Cresc Spock" pitch="D#6" pos="5" head="36" />
+    </NoteNameList>
+    <NoteNameList name="Chinas All">
+      <NoteName name="Crash w/mallet" pitch="C4" pos="2" head="29" />
+      <NoteName name="Choke w/mallet" pitch="C#4" pos="2" head="51" />
+      <NoteName name="Crash w/stick" pitch="D4" pos="2" head="1" />
+      <NoteName name="Choke w/stick" pitch="D#4" pos="2" head="40" />
+      <NoteName name="Roll crescendo short" pitch="E0" pos="2" head="0" />
+      <NoteName name="Roll crescendo medium" pitch="F0" pos="2" head="31" />
+      <NoteName name="Roll crescendo long" pitch="G0" pos="2" head="32" />
+      <NoteName name="Muted crescendo short" pitch="A0" pos="2" head="33" />
+      <NoteName name="Muted crescendo medium" pitch="B0" pos="2" head="34" />
+    </NoteNameList>
+    <NoteNameList name="Hi Hat Manual">
+      <NoteName name="HiHat closed w/foot 1" pitch="D0" pos="-5" head="1" />
+      <NoteName name="HiHat closed w/foot 2" pitch="E0" pos="-5" head="40" />
+      <NoteName name="HiHat closed w/foot 3" pitch="F0" pos="-5" head="41" />
+      <NoteName name="HiHat foot splash 1" pitch="G0" pos="-3" head="1" />
+      <NoteName name="HiHat foot splash 2" pitch="A0" pos="-3" head="40" />
+      <NoteName name="LH very tightly closed (w/tip of stick)" pitch="C1" pos="2" head="40" />
+      <NoteName name="RH very tightly closed (w/tip of stick)" pitch="C#1" pos="2" head="1" />
+      <NoteName name="LH (w/tip of stick)" pitch="D1" pos="2" head="42" />
+      <NoteName name="RH (w/tip of stick)" pitch="D#1" pos="2" head="41" />
+      <NoteName name="LH (w/tip of stick)" pitch="F1" pos="2" head="44" />
+      <NoteName name="RH (w/tip of stick)" pitch="F#1" pos="2" head="43" />
+      <NoteName name="LH (w/tip of stick)" pitch="G1" pos="2" head="40" />
+      <NoteName name="RH (w/tip of stick)" pitch="G#1" pos="2" head="1" />
+      <NoteName name="LH (w/tip of stick)" pitch="A1" pos="2" head="42" />
+      <NoteName name="RH (w/tip of stick)" pitch="A#1" pos="2" head="41" />
+      <NoteName name="LH (w/tip of stick)" pitch="C2" pos="3" head="40" />
+      <NoteName name="RH (w/tip of stick)" pitch="C#2" pos="3" head="1" />
+      <NoteName name="LH (w/tip of stick)" pitch="D2" pos="3" head="42" />
+      <NoteName name="RH (w/tip of stick)" pitch="D#2" pos="3" head="41" />
+      <NoteName name="LH (w/tip of stick)" pitch="F2" pos="3" head="40" />
+      <NoteName name="RH (w/tip of stick)" pitch="F#2" pos="3" head="1" />
+      <NoteName name="LH (w/tip of stick)" pitch="G2" pos="3" head="42" />
+      <NoteName name="RH (w/tip of stick)" pitch="G#2" pos="3" head="41" />
+      <NoteName name="LH completely open (w/tip of stick)" pitch="A2" pos="3" head="44" />
+      <NoteName name="RH completely open (w/tip of stick)" pitch="A#2" pos="3" head="43" />
+      <NoteName name="LH very tightly closed (w/shoulder of stick)" pitch="C3" pos="5" head="40" />
+      <NoteName name="RH very tightly closed (w/shoulder of stick)" pitch="C#3" pos="5" head="1" />
+      <NoteName name="LH (w/shoulder of stick)" pitch="D3" pos="5" head="42" />
+      <NoteName name="RH (w/shoulder of stick)" pitch="D#3" pos="5" head="41" />
+      <NoteName name="LH (w/shoulder of stick)" pitch="F3" pos="5" head="40" />
+      <NoteName name="RH (w/shoulder of stick)" pitch="F#3" pos="5" head="1" />
+      <NoteName name="LH (w/shoulder of stick)" pitch="G3" pos="5" head="42" />
+      <NoteName name="RH (w/shoulder of stick)" pitch="G#3" pos="5" head="41" />
+      <NoteName name="LH (w/shoulder of stick)" pitch="A3" pos="5" head="44" />
+      <NoteName name="RH (w/shoulder of stick)" pitch="A#3" pos="5" head="43" />
+      <NoteName name="LH (w/shoulder of stick)" pitch="C4" pos="5" head="40" />
+      <NoteName name="RH (w/shoulder of stick)" pitch="C#4" pos="5" head="1" />
+      <NoteName name="LH completely open (w/shoulder of stick)" pitch="D4" pos="5" head="42" />
+      <NoteName name="RH completely open (w/shoulder of stick)" pitch="D#4" pos="5" head="41" />
+      <NoteName name="LH on closed HH bell (w/shoulder of stick)" pitch="F4" pos="4" head="62" />
+      <NoteName name="RH on closed HH bell (w/shoulder of stick)" pitch="F#4" pos="4" head="6" />
+      <NoteName name="LH on HH stand (w/shoulder of stick)" pitch="G4" pos="0" head="58" />
+      <NoteName name="RH on HH stand (w/shoulder of stick)" pitch="G#4" pos="0" head="14" />
+    </NoteNameList>
+    <NoteNameList name="Hi Hat (MW)">
+      <NoteName name="Foot splash" pitch="C3" pos="-3" head="1" />
+      <NoteName name="Closed HH w/foot" pitch="D3" pos="-5" head="1" />
+      <NoteName name="LH hit w/tip of stick" pitch="F4" pos="3" head="40" />
+      <NoteName name="LH hit w/shoulder of stick" pitch="F#4" pos="3" head="1" />
+      <NoteName name="RH hit w/tip of stick" pitch="G4" pos="5" head="40" />
+      <NoteName name="RH hit w/shoulder of stick" pitch="G#4" pos="5" head="1" />
+      <NoteName name="LH hit on closed bell" pitch="A4" pos="4" head="62" />
+      <NoteName name="RH hit on closed bell" pitch="B4" pos="4" head="6" />
+      <NoteName name="LH hit on HH stand" pitch="C5" pos="0" head="58" />
+      <NoteName name="RH hit on HH stand" pitch="D5" pos="0" head="14" />
+    </NoteNameList>
+    <NoteNameList name="Ride Cymbal">
+      <NoteName name="With tip of stick near edge" pitch="E4" pos="3" head="1" />
+      <NoteName name="With tip of stick further in" pitch="F4" pos="4" head="1" />
+      <NoteName name="Shoulder of stick on bell" pitch="G4" pos="5" head="6" />
+    </NoteNameList>
+    <NoteNameList name="Concert Bass Drum">
+      <NoteName name="Open hit w/warm mallet" pitch="C2" pos="-3" head="0" />
+      <NoteName name="Dampened w/warm mallet" pitch="D2" pos="-3" head="32" />
+      <NoteName name="Hit w/muffled head" pitch="E2" pos="-3" head="34" />
+      <NoteName name="Open hit w/staccato mallet" pitch="F2" pos="-3" head="31" />
+      <NoteName name="Dampened w/staccato mallet" pitch="G2" pos="-3" head="33" />
+      <NoteName name="Dampened w/staccato mallet" pitch="G2" pos="-3" head="31" />
+      <NoteName name="Roll sustained" pitch="A2" pos="-3" head="20" />
+      <NoteName name="Crescendo roll short 1" pitch="B2" pos="-3" head="31" />
+      <NoteName name="Crescendo roll short 2" pitch="C3" pos="-3" head="32" />
+      <NoteName name="Crescendo roll long 1" pitch="D3" pos="-3" head="33" />
+      <NoteName name="Crescendo roll long 2" pitch="E3" pos="-3" head="34" />
+    </NoteNameList>
+    <NoteNameList name="Concert Snare Drum">
+      <NoteName name="LH Hit - Snares off" pitch="G2" pos="-1" head="31" />
+      <NoteName name="RH Hit - Snares off" pitch="G#2" pos="-1" head="0" />
+      <NoteName name="Roll - Snares off" pitch="A2" pos="-1" head="20" />
+      <NoteName name="Snare roll" pitch="B2" pos="1" head="20" />
+      <NoteName name="Snare LH Hit" pitch="C3" pos="1" head="31" />
+      <NoteName name="Snare RH Hit" pitch="C#3" pos="1" head="0" />
+      <NoteName name="Rim LH Hit" pitch="D3" pos="6" head="40" />
+      <NoteName name="Rim RH Hit" pitch="D#3" pos="3" head="1" />
+      <NoteName name="Rim Shot" pitch="E3" pos="1" head="29" />
+      <NoteName name="Hits - Snares off (AutoRL)" pitch="G3" pos="-1" head="33" />
+      <NoteName name="Roll Snares off (AutoRL)" pitch="A3" pos="1" head="34" />
+      <NoteName name="Snare Roll (AutoRL)" pitch="B3" pos="3" head="41" />
+      <NoteName name="Snare Hits (AutoRL)" pitch="C4" pos="1" head="51" />
+      <NoteName name="Rims (AutoRL)" pitch="D4" pos="1" head="51" />
+      <NoteName name="Rim Shot (AutoRL)" pitch="E4" pos="1" head="51" />
+    </NoteNameList>
+    <NoteNameList name="Concert Toms Full">
+      <NoteName name="LH Drum 6" pitch="D1" pos="31" head="-5" />
+      <NoteName name="RH Drum 6" pitch="D#1" pos="0" head="-5" />
+      <NoteName name="LH Drum 5" pitch="F1" pos="31" head="-3" />
+      <NoteName name="RH Drum 5" pitch="F#1" pos="0" head="-3" />
+      <NoteName name="LH Drum 4" pitch="G1" pos="31" head="-1" />
+      <NoteName name="RH Drum 4" pitch="G#1" pos="0" head="-1" />
+      <NoteName name="LH Drum 3" pitch="A1" pos="31" head="1" />
+      <NoteName name="RH Drum 3" pitch="A#1" pos="0" head="1" />
+      <NoteName name="LH Drum 2" pitch="C2" pos="31" head="3" />
+      <NoteName name="RH Drum 2" pitch="C#2" pos="0" head="3" />
+      <NoteName name="LH Drum 1" pitch="D2" pos="31" head="5" />
+      <NoteName name="RH Drum 1" pitch="D#2" pos="0" head="5" />
+      <NoteName name="Concert Tom 6 (AutoRL)" pitch="D3" pos="-5" head="32" />
+      <NoteName name="Concert Tom 5(AutoRL)" pitch="F3" pos="-3" head="32" />
+      <NoteName name="Concert Tom 4(AutoRL)" pitch="A3" pos="-1" head="32" />
+      <NoteName name="Concert Tom 3(AutoRL)" pitch="C4" pos="1" head="32" />
+      <NoteName name="Concert Tom 2(AutoRL)" pitch="E4" pos="3" head="32" />
+      <NoteName name="Concert Tom 1(AutoRL)" pitch="G4" pos="5" head="32" />
+    </NoteNameList>
+    <NoteNameList name="Drum Set (Auto RL)">
+      <NoteName name="Hi Hat w/foot pedal" pitch="C2" pos="-5" head="1" />
+      <NoteName name="Bass Drum 1" pitch="D2" pos="-3" head="0" />
+      <NoteName name="Floor Tom" pitch="F2" pos="-1" head="-" />
+      <NoteName name="Rim of Floor Tom" pitch="F#2" pos="-2" head="1" />
+      <NoteName name="Mid Tom" pitch="G2" pos="0" head="0" />
+      <NoteName name="Rim of Mid Tom" pitch="G#2" pos="0" head="1" />
+      <NoteName name="High Tom" pitch="A2" pos="2" head="0" />
+      <NoteName name="Rim of High Tom" pitch="A#2" pos="2" head="1" />
+      <NoteName name="Snare Drum" pitch="B2" pos="0" head="0" />
+      <NoteName name="Snare Rimshot" pitch="C3" pos="0" head="29" />
+      <NoteName name="Snaredrum Rim" pitch="C#3" pos="1" head="1" />
+      <NoteName name="Snare Roll" pitch="D3" pos="1" head="20" />
+      <NoteName name="Snare Crush" pitch="D#3" pos="1" head="32" />
+      <NoteName name="Cross Stick" pitch="E3" pos="1" head="11" />
+      <NoteName name="High Hit Closed" pitch="F3" pos="5" head="1" />
+      <NoteName name="High Hat Open" pitch="F#3" pos="5" head="41" />
+      <NoteName name="Ride Cymbal w/tip Rimshot" pitch="G3" pos="4" head="1" />
+      <NoteName name="Ride Cymbal Bell" pitch="G#3" pos="4" head="6" />
+      <NoteName name="17in Dark K Crash" pitch="A3" pos="6" head="1" />
+      <NoteName name="15in A Custom Crash" pitch="A#3" pos="6" head="40" />
+      <NoteName name="19in K China Cymbal" pitch="B3" pos="6" head="41" />
+      <NoteName name="8in K Splash" pitch="C4" pos="6" head="42" />
+    </NoteNameList>
+    <NoteNameList name="Drum Set Manual">
+      <NoteName name="Hi Hat w/foot pedal" pitch="C2" pos="-5" head="1" />
+      <NoteName name="Bass Drum 1" pitch="D2" pos="-3" head="0" />
+      <NoteName name="Bass Drum 2" pitch="D#2" pos="-3" head="31" />
+      <NoteName name="Floor Tom LH" pitch="F2" pos="-2" head="31" />
+      <NoteName name="Floor Tom RH" pitch="F#2" pos="-2" head="0" />
+      <NoteName name="Mid Tom LH" pitch="G2" pos="0" head="31" />
+      <NoteName name="Mid Tom RH" pitch="G#2" pos="0" head="0" />
+      <NoteName name="High Tom LH" pitch="A2" pos="2" head="31" />
+      <NoteName name="High Tom RH" pitch="A#2" pos="2" head="0" />
+      <NoteName name="Snare Roll" pitch="B2" pos="1" head="20" />
+      <NoteName name="Snare Drum LH" pitch="C3" pos="1" head="31" />
+      <NoteName name="Snare Drum RH" pitch="C#3" pos="1" head="0" />
+      <NoteName name="Snare Rimshot LH" pitch="D3" pos="1" head="51" />
+      <NoteName name="Snare Rimshot RH" pitch="D#3" pos="1" head="29" />
+      <NoteName name="Snare Roll" pitch="E3" pos="1" head="20" />
+      <NoteName name="Snare crush (snares on only)" pitch="F3" pos="1" head="32" />
+      <NoteName name="Snare crush (snares on only)" pitch="F#3" pos="1" head="33" />
+      <NoteName name="High Hat Closed LH" pitch="G3" pos="5" head="40" />
+      <NoteName name="High Hat Closed RH" pitch="G#3" pos="5" head="1" />
+      <NoteName name="High Hat Open LH" pitch="A3" pos="5" head="42" />
+      <NoteName name="High Hat Open RH" pitch="A#3" pos="5" head="41" />
+      <NoteName name="Ride Cymbal Tip" pitch="B3" pos="4" head="1" />
+      <NoteName name="Ride Cymbal Bell" pitch="C4" pos="4" head="6" />
+      <NoteName name="Ride Cymbal w/tip toward crown" pitch="C#4" pos="4" head="41" />
+      <NoteName name="17in Dark K Crash" pitch="D4" pos="6" head="1" />
+      <NoteName name="15in A Custom Crash" pitch="D#4" pos="6" head="40" />
+      <NoteName name="19in K China Cymbal" pitch="E4" pos="6" head="41" />
+      <NoteName name="8in K Splash" pitch="F4" pos="6" head="42" />
+      <NoteName name="Floor Tom Rim LH" pitch="G4" pos="-2" head="40" />
+      <NoteName name="Floor Tom Rim RH" pitch="G#4" pos="-2" head="1" />
+      <NoteName name="Mid Tom Rim LH" pitch="A4" pos="0" head="40" />
+      <NoteName name="Mid Tom Rim RH" pitch="A#4" pos="0" head="1" />
+      <NoteName name="High Tom Rim LH" pitch="C5" pos="2" head="40" />
+      <NoteName name="High Tom Rim RH" pitch="C#5" pos="2" head="1" />
+      <NoteName name="Snare Tom Rim LH" pitch="D5" pos="1" head="40" />
+      <NoteName name="Snare Tom Rim RH" pitch="D#5" pos="1" head="1" />
+    </NoteNameList>
+    <NoteNameList name="General MIDI Set">
+      <NoteName name="Bass Drum 1" pitch="B0" pos="-3" head="0" default="1" voice="1" />
+      <NoteName name="Bass Drum 2" pitch="C1" pos="-3" head="31" default="1" voice="1" />
+      <NoteName name="Cross Stick" pitch="C#1" pos="1" head="11" />
+      <NoteName name="Snare Drum" pitch="D1" pos="1" head="0" default="1" />
+      <NoteName name="Hand Clap" pitch="D#1" pos="1" head="19" />
+      <NoteName name="Snare Drum Rimshot" pitch="E1" pos="1" head="29" default="1" />
+      <NoteName name="Low Floor Tom" pitch="F1" pos="-2" head="0" default="1" />
+      <NoteName name="Closed Hi-Hat" pitch="F#1" pos="5" head="40" default="1" />
+      <NoteName name="High Floor Tom" pitch="G1" pos="-1" head="0" default="1" />
+      <NoteName name="Pedal Hi-Hat" pitch="G#1" pos="-5" head="1" default="1" />
+      <NoteName name="Low Tom" pitch="A1" pos="0" head="0" default="1" />
+      <NoteName name="Open Hi-Hat" pitch="A#1" pos="5" head="41" default="1" />
+      <NoteName name="Low-Mid Tom" pitch="B1" pos="2" head="0" />
+      <NoteName name="Hi-Mid Tom" pitch="C2" menuBreak="1" pos="3" head="0" default="1" />
+      <NoteName name="Crash Cymbal 1" pitch="C#2" pos="6" head="1" default="1" />
+      <NoteName name="High Tom" pitch="D2" pos="4" head="0" />
+      <NoteName name="Ride Cymbal 1" pitch="D#2" pos="4" head="1" default="1" />
+      <NoteName name="Chinese Cymbal" pitch="E2" pos="9" head="1" default="1" />
+      <NoteName name="Ride Bell" pitch="F2" pos="6" head="4" />
+      <NoteName name="Tambourine" pitch="F#2" pos="-2" head="14" />
+      <NoteName name="Splash Cymbal" pitch="G2" pos="7" head="1" default="1" />
+      <NoteName name="Cowbell" pitch="G#2" pos="3" head="16" />
+      <NoteName name="Crash Cymbal 2" pitch="A2" pos="6" head="40" default="1" />
+      <NoteName name="Vibraslap" pitch="A#2" pos="0" head="18" />
+      <NoteName name="Ride Cymbal 2" pitch="B2" pos="4" head="40" />
+      <NoteName name="Hi Bongo" pitch="C3" menuBreak="1" pos="2" head="31" />
+      <NoteName name="Low Bongo" pitch="C#3" pos="0" head="31" />
+      <NoteName name="Mute Hi Conga" pitch="D3" pos="-2" head="31" />
+      <NoteName name="Open Hi Conga" pitch="D#3" pos="-2" head="31" />
+      <NoteName name="Low Conga" pitch="E3" pos="-4" head="0" />
+      <NoteName name="High Timbale" pitch="F3" pos="-1" head="31" />
+      <NoteName name="Low Timbale" pitch="F#3" pos="-3" head="32" />
+      <NoteName name="High Agogo" pitch="G3" pos="4" head="14" />
+      <NoteName name="Low Agogo" pitch="G#3" pos="2" head="14" />
+      <NoteName name="Cabasa" pitch="A3" pos="2" head="1" />
+      <NoteName name="Maracas" pitch="A#3" pos="3" head="18" />
+      <NoteName name="Short Whistle" pitch="B3" pos="4" head="31" />
+      <NoteName name="Long Whistle" pitch="C4" menuBreak="1" pos="4" head="32" />
+      <NoteName name="Short Guiro Scrape" pitch="C#4" pos="-1" head="11" />
+      <NoteName name="Long Guiro Scrape" pitch="D4" pos="-1" head="50" />
+      <NoteName name="Claves" pitch="D#4" pos="0" head="22" />
+      <NoteName name="High Wood Block" pitch="E4" pos="2" head="16" />
+      <NoteName name="Low Wood Block" pitch="F4" pos="0" head="16" />
+      <NoteName name="Muted Triangle" pitch="G#4" pos="4" head="54" />
+      <NoteName name="Open Triangle" pitch="A4" pos="4" head="16" />
+    </NoteNameList>
+    <NoteNameList name="Impact Drums">
+      <NoteName name="LH Drum 1" pitch="C3" pos="-1" head="31" />
+      <NoteName name="RH Drum 1" pitch="D3" pos="-1" head="0" />
+      <NoteName name="LH Drum 2" pitch="E3" pos="1" head="31" />
+      <NoteName name="RH Drum 2" pitch="F3" pos="1" head="0" />
+    </NoteNameList>
+    <NoteNameList name="Roto Drums">
+      <NoteName name="Low RotoTom LH" pitch="F2" pos="-3" head="31" />
+      <NoteName name="Low RotoTom RH" pitch="F#2" pos="-3" head="0" />
+      <NoteName name="Mid-Low RotoTom LH" pitch="G2" pos="-1" head="31" />
+      <NoteName name="Mid-Low RotoTom LH" pitch="G#2" pos="-1" head="0" />
+      <NoteName name="Mid-High RotoTom LH" pitch="A2" pos="1" head="31" />
+      <NoteName name="Mid-High RotoTom RH" pitch="A#2" pos="1" head="0" />
+      <NoteName name="High RotoTom LH" pitch="C3" pos="3" head="31" />
+      <NoteName name="High RotoTom RH" pitch="C#3" pos="3" head="0" />
+      <NoteName name="Low RotoTom (Auto RL)" pitch="C#3" pos="-3" head="32" />
+      <NoteName name="Mid-Low RotoTom (Auto RL)" pitch="C#3" pos="-1" head="32" />
+      <NoteName name="Mid-High RotoTom (Auto RL)" pitch="C#3" pos="1" head="32" />
+      <NoteName name="High RotoTom (Auto RL)" pitch="C#3" pos="3" head="32" />
+    </NoteNameList>
+    <NoteNameList name="Crash Cymbals">
+      <NoteName name="Crash" pitch="F3" pos="6" head="1" />
+      <NoteName name="Crash Choke" pitch="G3" pos="6" head="40" />
+      <NoteName name="Sizzle Crash" pitch="A3" pos="6" head="41" />
+      <NoteName name="Zing (scrape)" pitch="B3" pos="6" head="11" />
+    </NoteNameList>
+    <NoteNameList name="Suspended Cymbals">
+      <NoteName name="Soft Crescendo short" pitch="C2" pos="3" head="0" />
+      <NoteName name="Soft Crescendo medium" pitch="D2" pos="3" head="20" />
+      <NoteName name="Soft Crescendo long" pitch="E2" pos="3" head="31" />
+      <NoteName name="Crescendo MUTE short" pitch="F2" pos="3" head="32" />
+      <NoteName name="Crescendo MUTE medium" pitch="G2" pos="3" head="33" />
+      <NoteName name="Crescendo MUTE long" pitch="A2" pos="3" head="34" />
+      <NoteName name="Loud crescendo short" pitch="C3" pos="3" head="35" />
+      <NoteName name="Loud crescendo medium" pitch="D3" pos="3" head="36" />
+      <NoteName name="Loud crescendo long" pitch="E3" pos="3" head="37" />
+      <NoteName name="Soft hit with mallet" pitch="F3" pos="4" head="29" />
+      <NoteName name="Loud hit with mallet" pitch="G3" pos="4" head="51" />
+      <NoteName name="Fat choke with mallet" pitch="A3" pos="4" head="52" />
+      <NoteName name="Short choke with mallet" pitch="B3" pos="4" head="53" />
+      <NoteName name="Sustained roll - natural release" pitch="C4" pos="2" head="0" />
+      <NoteName name="Sustained roll - mute release" pitch="D4" pos="2" head="31" />
+      <NoteName name="LH w/tip of stick" pitch="E4" pos="4" head="40" />
+      <NoteName name="RH w/tip of stick" pitch="F4" pos="4" head="1" />
+      <NoteName name="Shoulder of stick on Bell" pitch="G4" pos="4" head="6" />
+      <NoteName name="Strike w/stick" pitch="A4" pos="4" head="41" />
+      <NoteName name="Fat choke w/stick" pitch="B4" pos="4" head="43" />
+      <NoteName name="Short choke w/stick" pitch="C5" pos="4" head="42" />
+      <NoteName name="Coin Scrape short" pitch="D5" pos="6" head="40" />
+      <NoteName name="Coin Scrape long" pitch="E5" pos="6" head="41" />
+    </NoteNameList>
+    <NoteNameList name="Sizzle Cymbal">
+      <NoteName name="Stroke softly w/finger" pitch="C3" pos="-2" head="1" />
+      <NoteName name="Stroke softly w/mallet" pitch="D3" pos="2" head="1" />
+      <NoteName name="Stroke louder w/mallet" pitch="E3" pos="-2" head="1" />
+      <NoteName name="Sustained roll w/mallet 1" pitch="F3" pos="2" head="1" />
+      <NoteName name="Sustained roll w/mallet 2" pitch="G3" pos="-2" head="1" />
+    </NoteNameList>
+    <NoteNameList name="Splash Cymbals">
+      <NoteName name="Strike w/mallet (12in K Splash)" pitch="C3" pos="-2" head="1" />
+      <NoteName name="Strike w/stick (12in K Splash)" pitch="D3" pos="2" head="1" />
+      <NoteName name="Choke w/stick (12in K Splash)" pitch="E3" pos="-2" head="1" />
+      <NoteName name="Strike w/mallet (10in K Splash)" pitch="C3" pos="-2" head="1" />
+      <NoteName name="Strike w/stick (10in K Splash)" pitch="D3" pos="2" head="1" />
+      <NoteName name="Choke w/stick (10in K Splash)" pitch="E3" pos="-2" head="1" />
+      <NoteName name="Strike w/mallet (10in A Splash)" pitch="C3" pos="-2" head="1" />
+      <NoteName name="Strike w/stick (10in A Splash)" pitch="D3" pos="2" head="1" />
+      <NoteName name="Choke w/stick (10in A Splash)" pitch="E3" pos="-2" head="1" />
+      <NoteName name="Strike w/mallet (8in A Splash)" pitch="C3" pos="-2" head="1" />
+      <NoteName name="Strike w/stick (8in A Splash)" pitch="D3" pos="2" head="1" />
+      <NoteName name="Choke w/stick (8in A Splash)" pitch="E3" pos="-2" head="1" />
+    </NoteNameList>
+    <NoteNameList name="Swish Knockers">
+      <NoteName name="Low Swish Knocker" pitch="F3" pos="-2" head="1" />
+      <NoteName name="High Swish Knocker" pitch="A3" pos="2" head="1" />
+    </NoteNameList>
+    <NoteNameList name="Zil-Bells Hi Lo">
+      <NoteName name="LH Hit" pitch="C3" pos="6" head="1" />
+      <NoteName name="RH Hit" pitch="D3" pos="6" head="1" />
+      <NoteName name="Choke after hit" pitch="E3" pos="6" head="1" />
+      <NoteName name="Muffled hit" pitch="F3" pos="6" head="1" />
+      <NoteName name="Roll w/quick release" pitch="G3" pos="6" head="1" />
+      <NoteName name="Roll - let ring" pitch="A3" pos="6" head="1" />
+      <NoteName name="LH Hit (Small)" pitch="C4" pos="6" head="1" />
+      <NoteName name="RH Hit (Small)" pitch="D4" pos="6" head="1" />
+      <NoteName name="Choke after hit (Small)" pitch="E4" pos="6" head="1" />
+      <NoteName name="Muffled hit (Small)" pitch="F4" pos="6" head="1" />
+      <NoteName name="Roll w/quick release (Small)" pitch="G4" pos="6" head="1" />
+      <NoteName name="Roll - let ring (Small)" pitch="A4" pos="6" head="1" />
+    </NoteNameList>
+    <NoteNameList name="Bowed Gongs">
+      <NoteName name="Sound 1" pitch="C3" pos="0" head="1" />
+      <NoteName name="Sound 2" pitch="D3" pos="0" head="40" />
+      <NoteName name="Sound 3" pitch="E3" pos="0" head="41" />
+      <NoteName name="Sound 4" pitch="F3" pos="0" head="41" />
+      <NoteName name="Sound 5" pitch="G3" pos="0" head="42" />
+    </NoteNameList>
+    <NoteNameList name="Chinese Gongs">
+      <NoteName name="Soft" pitch="C3" pos="0" head="1" />
+      <NoteName name="Louder 1" pitch="D3" pos="0" head="40" />
+      <NoteName name="Louder 2" pitch="E3" pos="0" head="41" />
+      <NoteName name="Loudest" pitch="F3" pos="0" head="42" />
+    </NoteNameList>
+    <NoteNameList name="Fuyin Gong">
+      <NoteName name="Soft" pitch="C3" pos="0" head="1" />
+      <NoteName name="Louder 1" pitch="D3" pos="0" head="40" />
+      <NoteName name="Louder 2" pitch="E3" pos="0" head="41" />
+    </NoteNameList>
+    <NoteNameList name="Opera Gong">
+      <NoteName name="Loud" pitch="C3" pos="1" head="1" />
+      <NoteName name="Loudest" pitch="D3" pos="1" head="40" />
+      <NoteName name="Half Mute" pitch="E3" pos="1" head="41" />
+      <NoteName name="Bend Mute 1" pitch="F3" pos="1" head="42" />
+      <NoteName name="Bend Mute 2" pitch="G3" pos="1" head="43" />
+      <NoteName name="No-Bend Mute 1" pitch="A3" pos="1" head="44" />
+      <NoteName name="No-Bend Mute 2" pitch="B3" pos="1" head="45" />
+    </NoteNameList>
+    <NoteNameList name="Tam Tam 34in Zildjian">
+      <NoteName name="Soft Crescendo Medium" pitch="C3" pos="0" head="1" />
+      <NoteName name="Soft Crescendo Long" pitch="D3" pos="0" head="40" />
+      <NoteName name="Loud Crescendo Medium" pitch="E3" pos="0" head="41" />
+      <NoteName name="Loud Crescendo Long" pitch="F3" pos="0" head="42" />
+      <NoteName name="Dampened Crescendo Short" pitch="G3" pos="0" head="43" />
+      <NoteName name="Dampened Crescendo Medium" pitch="A3" pos="0" head="44" />
+      <NoteName name="Dampened Crescendo Long" pitch="B3" pos="0" head="45" />
+      <NoteName name="Tam Tam Regular Hit" pitch="C3" pos="-1" head="1" />
+      <NoteName name="Regular Hit Dampened" pitch="D3" pos="-1" head="40" />
+      <NoteName name="Wood Stick Hit LH" pitch="E3" pos="-1" head="62" />
+      <NoteName name="Wood Stick Hit RH" pitch="F3" pos="-1" head="6" />
+      <NoteName name="Triangle Beater Hit LH" pitch="G3" pos="-1" head="59" />
+      <NoteName name="Triangle Beater Hit RH" pitch="A3" pos="-1" head="15" />
+      <NoteName name="Scrape Short" pitch="B3" pos="-1" head="11" />
+      <NoteName name="Scrape Medium" pitch="C4" pos="-2" head="11" />
+      <NoteName name="Scrape Long" pitch="D4" pos="-3" head="11" />
+      <NoteName name="Scrape Rubato" pitch="E4" pos="-1" head="23" />
+    </NoteNameList>
+    <NoteNameList name="Tam Tam 30in European">
+      <NoteName name="Soft Crescendo Medium" pitch="C3" pos="0" head="1" />
+      <NoteName name="Soft Crescendo Long" pitch="D3" pos="0" head="40" />
+      <NoteName name="Loud Crescendo Medium" pitch="E3" pos="0" head="41" />
+      <NoteName name="Loud Crescendo Long" pitch="F3" pos="0" head="42" />
+      <NoteName name="Tam Tam Regular Hit" pitch="C3" pos="-1" head="1" />
+      <NoteName name="Regular Hit Dampened" pitch="D3" pos="-1" head="40" />
+      <NoteName name="Wood Stick Hit LH" pitch="E3" pos="-1" head="62" />
+      <NoteName name="Wood Stick Hit RH" pitch="F3" pos="-1" head="6" />
+      <NoteName name="Scrape Short" pitch="B3" pos="-1" head="11" />
+      <NoteName name="Scrape Medium" pitch="C4" pos="-2" head="11" />
+      <NoteName name="Scrape Long" pitch="D4" pos="-3" head="11" />
+      <NoteName name="Scrape Rubato" pitch="E4" pos="-1" head="23" />
+    </NoteNameList>
+    <NoteNameList name="Wind Gongs">
+      <NoteName name="Roll p" pitch="C3" pos="0" head="1" />
+      <NoteName name="Roll f Long" pitch="D3" pos="0" head="40" />
+      <NoteName name="Roll f Medium" pitch="E3" pos="0" head="41" />
+      <NoteName name="Roll f Short" pitch="F3" pos="0" head="42" />
+      <NoteName name="Soft Hit" pitch="C3" pos="-1" head="43" />
+      <NoteName name="Mezzo Hit" pitch="D3" pos="-1" head="44" />
+      <NoteName name="Forte Hit" pitch="E3" pos="-1" head="45" />
+    </NoteNameList>
+    <NoteNameList name="Firecracker Drum">
+      <NoteName name="Snare Roll Manual" pitch="B2" pos="1" head="20" />
+      <NoteName name="Snare Roll Manual" pitch="B2" pos="1" head="0" />
+      <NoteName name="Snare Roll Manual" pitch="B2" pos="1" head="0" />
+      <NoteName name="Snare LH Hit Manual" pitch="C3" pos="1" head="31" />
+      <NoteName name="Snare RH HIt Manual" pitch="C#3" pos="1" head="0" />
+      <NoteName name="Rim LH Hit Manual" pitch="D3" pos="3" head="40" />
+      <NoteName name="Rim RH Hit Manual" pitch="D#3" pos="3" head="1" />
+      <NoteName name="LH Rimshot Manual" pitch="F3" pos="1" head="51" />
+      <NoteName name="RH Rimshot Manual" pitch="F#3" pos="1" head="29" />
+      <NoteName name="Snare Roll AutoRL" pitch="B3" pos="1" head="34" />
+      <NoteName name="Snare Roll AutoRL" pitch="B3" pos="1" head="33" />
+      <NoteName name="Snare Roll AutoRL" pitch="B3" pos="1" head="33" />
+      <NoteName name="Snare Hits AutoRL" pitch="C4" pos="1" head="33" />
+      <NoteName name="Rims AutoRL" pitch="D4" pos="3" head="41" />
+      <NoteName name="Rimshot AutoRL" pitch="E4" pos="1" head="52" />
+    </NoteNameList>
+    <NoteNameList name="Chime Rakes">
+      <NoteName name="Both Directions" pitch="B4" pos="0" head="17" />
+      <NoteName name="Ascending (Slow)" pitch="C5" pos="-3" head="17" />
+      <NoteName name="Ascending (Fast)" pitch="D5" pos="-4" head="17" />
+      <NoteName name="Descending (Slow)" pitch="E5" pos="3" head="17" />
+      <NoteName name="Descending (Fast)" pitch="F5" pos="4" head="17" />
+    </NoteNameList>
+    <NoteNameList name="Timpani FX">
+      <NoteName name="32'' Bowl LH" pitch="C3" pos="-3" head="40" />
+      <NoteName name="32'' Bowl RH" pitch="C#3" pos="-3" head="1" />
+      <NoteName name="29'' Bowl LH" pitch="D3" pos="-1" head="40" />
+      <NoteName name="29'' Bowl RH" pitch="D#3" pos="-1" head="1" />
+      <NoteName name="26'' Bowl LH" pitch="F3" pos="1" head="40" />
+      <NoteName name="26'' Bowl RH" pitch="F#3" pos="1" head="1" />
+      <NoteName name="23'' Bowl LH" pitch="G3" pos="3" head="40" />
+      <NoteName name="23'' Bowl RH" pitch="G#3" pos="3" head="1" />
+      <NoteName name="32'' Spooky Glissandi Rolls" pitch="C4" pos="-3" head="0" />
+      <NoteName name="29'' Spooky Glissandi Rolls" pitch="D4" pos="-1" head="0" />
+      <NoteName name="26'' Spooky Glissandi Rolls" pitch="E4" pos="1" head="0" />
+      <NoteName name="23'' Spooky Glissandi Rolls" pitch="F4" pos="3" head="0" />
+      <NoteName name="Cymbal on Timpani Head 1" pitch="G4" pos="4" head="30" />
+      <NoteName name="Cymbal on Timpani Head 2" pitch="A4" pos="4" head="30" />
+      <NoteName name="Fast downward gliss hit 1" pitch="C5" pos="2" head="22" />
+      <NoteName name="Fast downward gliss hit 1" pitch="D5" pos="4" head="22" />
+    </NoteNameList>
+    <NoteNameList name="Vibe FX">
+      <NoteName name="Slow Up Down" pitch="C3" pos="0" head="2" />
+      <NoteName name="Med Up Down 1" pitch="D3" pos="0" head="6" />
+      <NoteName name="Med Up Down 2" pitch="E3" pos="0" head="62" />
+      <NoteName name="Random Rakes 1" pitch="F3" pos="-1" head="6" />
+      <NoteName name="Random Rakes 2" pitch="G3" pos="1" head="6" />
+      <NoteName name="Descend" pitch="A3" pos="4" head="6" />
+      <NoteName name="Ascend" pitch="B3" pos="-4" head="6" />
+    </NoteNameList>
+    <NoteNameList name="Drum Major">
+      <NoteName name="Resume!" pitch="B2" pos="-3" head="0" />
+      <NoteName name="Mark!" pitch="C3" pos="-1" head="0" />
+      <NoteName name="Time!" pitch="D3" pos="-1" head="32" />
+      <NoteName name="Hut!" pitch="E3" pos="-1" head="32" />
+      <NoteName name="Ten!" pitch="F3" pos="-3" head="31" />
+      <NoteName name="Band!" pitch="G3" pos="-3" head="32" />
+      <NoteName name="Corps!" pitch="A3" pos="-3" head="33" />
+      <NoteName name="Drum Major hand claps" pitch="B3" pos="0" head="6" />
+      <NoteName name="One!" pitch="C4" pos="1" head="0" />
+      <NoteName name="Two!" pitch="D4" pos="1" head="31" />
+      <NoteName name="Three!" pitch="E4" pos="1" head="32" />
+      <NoteName name="Four!" pitch="F4" pos="1" head="33" />
+      <NoteName name="Ready!" pitch="G4" pos="3" head="0" />
+      <NoteName name="Go!" pitch="A4" pos="3" head="31" />
+      <NoteName name="Front!" pitch="B4" pos="3" head="32" />
+    </NoteNameList>
+    <NoteNameList name="Vocals">
+      <NoteName name="A" pitch="C2" pos="-1" head="0" />
+      <NoteName name="B" pitch="C#2" pos="0" head="0" />
+      <NoteName name="C" pitch="D2" pos="1" head="0" />
+      <NoteName name="D" pitch="D#2" pos="2" head="0" />
+      <NoteName name="E" pitch="E2" pos="3" head="0" />
+      <NoteName name="F" pitch="F2" pos="4" head="0" />
+      <NoteName name="G" pitch="F#2" pos="5" head="0" />
+      <NoteName name="H" pitch="G2" pos="-1" head="31" />
+      <NoteName name="I" pitch="G#2" pos="0" head="31" />
+      <NoteName name="J" pitch="A2" pos="1" head="31" />
+      <NoteName name="K" pitch="A#2" pos="2" head="31" />
+      <NoteName name="L" pitch="B2" pos="3" head="31" />
+      <NoteName name="M" pitch="C3" menuBreak="1" pos="4" head="31" />
+      <NoteName name="N" pitch="C#3" pos="5" head="31" />
+      <NoteName name="O" pitch="D3" pos="-1" head="32" />
+      <NoteName name="P" pitch="D#3" pos="0" head="32" />
+      <NoteName name="Q" pitch="E3" pos="1" head="32" />
+      <NoteName name="R" pitch="F3" pos="2" head="32" />
+      <NoteName name="S" pitch="F#3" pos="3" head="32" />
+      <NoteName name="T" pitch="G3" pos="4" head="32" />
+      <NoteName name="U" pitch="G#3" pos="5" head="32" />
+      <NoteName name="V" pitch="A3" pos="-1" head="33" />
+      <NoteName name="W" pitch="A#3" pos="0" head="33" />
+      <NoteName name="Dub!" pitch="B3" pos="-4" head="17" />
+      <NoteName name="X" pitch="C4" menuBreak="1" pos="1" head="33" />
+      <NoteName name="Y" pitch="C#4" pos="2" head="33" />
+      <NoteName name="Z" pitch="D4" pos="3" head="33" />
+      <NoteName name="Yah! 1" pitch="E4" pos="6" head="6" />
+      <NoteName name="Yah! 2" pitch="F4" pos="6" head="62" />
+      <NoteName name="fp cresc. 'Ohhhhh!'" pitch="F#4" pos="2" head="30" />
+      <NoteName name="Cresc. 'Ohhhhh!'" pitch="G4" pos="4" head="30" />
+      <NoteName name="CH!" pitch="G#4" pos="-2" head="1" />
+      <NoteName name="Go!" pitch="A4" pos="2" head="23" />
+      <NoteName name="Shhh!" pitch="A#4" pos="-4" head="19" />
+      <NoteName name="Yo! 1" pitch="B4" pos="0" head="22" />
+      <NoteName name="Yo! 2" pitch="C5" pos="0" head="63" />
+      <NoteName name="Ha! 1" pitch="C#5" menuBreak="1" pos="-1" head="14" />
+      <NoteName name="Ha! 2" pitch="D5" pos="-1" head="58" />
+      <NoteName name="Hey! 1" pitch="D#5" pos="-3" head="15" />
+      <NoteName name="Hey! 2" pitch="E5" pos="-3" head="59" />
+      <NoteName name="Hiss!" pitch="F5" pos="-2" head="19" />
+      <NoteName name="Hoo! 1" pitch="F#5" pos="2" head="21" />
+      <NoteName name="Hoo! 2" pitch="G5" pos="2" head="57" />
+      <NoteName name="Yeah! 1" pitch="G#5" pos="4" head="22" />
+      <NoteName name="Yeah! 2" pitch="A5" pos="4" head="63" />
+      <NoteName name="'Dut'" pitch="A#5" pos="-2" head="0" />
+      <NoteName name="'Dut' 2" pitch="B5" pos="-2" head="31" />
+      <NoteName name="'Dut' 3" pitch="C6" pos="-2" head="32" />
+    </NoteNameList>
+    <NoteNameList name="Agogo Bells">
+      <NoteName name="Roll" pitch="E3" pos="-2" head="14" />
+      <NoteName name="Muted Stroke" pitch="F3" pos="-2" head="16" />
+      <NoteName name="Open Stroke" pitch="G3" pos="-2" head="16" />
+      <NoteName name="Tip Stroke" pitch="A3" pos="-2" head="54" />
+      <NoteName name="Clasp Bells together" pitch="B3" pos="0" head="23" />
+      <NoteName name="Muted Stroke" pitch="C4" pos="2" head="54" />
+      <NoteName name="Open Stroke" pitch="D4" pos="2" head="16" />
+      <NoteName name="Tip stroke" pitch="E4" pos="2" head="16" />
+      <NoteName name="Roll" pitch="F4" pos="2" head="14" />
+    </NoteNameList>
+    <NoteNameList name="Ankle Bells">
+      <NoteName name="Single Shake" pitch="??" pos="-1" head="1" />
+      <NoteName name="Strike" pitch="C3" pos="-1" head="6" />
+      <NoteName name="Short" pitch="D3" pos="-1" head="40" />
+      <NoteName name="Medium" pitch="E3" pos="-1" head="41" />
+      <NoteName name="Long 1" pitch="F3" pos="-1" head="42" />
+      <NoteName name="Long 2" pitch="G3" pos="-1" head="43" />
+    </NoteNameList>
+    <NoteNameList name="Cabasa Hi and Low">
+      <NoteName name="--Cabasa Large Cabasa --" pitch="-1" menuBreak="1" />
+      <NoteName name="Scrape In" pitch="C2" pos="-1" head="1" />
+      <NoteName name="Scrape Out" pitch="D2" pos="-1" head="40" />
+      <NoteName name="Tap LH" pitch="E2" pos="-1" head="59" />
+      <NoteName name="Tap RH" pitch="F2" pos="-1" head="15" />
+      <NoteName name="Shake Roll" pitch="G2" pos="-1" head="6" />
+      <NoteName name="Spin Roll" pitch="A2" pos="-1" head="41" />
+      <NoteName name="--Cabasa Medium Cabasa --" pitch="-1" menuBreak="1" />
+      <NoteName name="Scrape In" pitch="C3" pos="4" head="1" />
+      <NoteName name="Scrape Out" pitch="D3" pos="4" head="40" />
+      <NoteName name="Tap LH" pitch="E3" pos="4" head="59" />
+      <NoteName name="Tap RH" pitch="F3" pos="4" head="15" />
+      <NoteName name="Shake Roll" pitch="G3" pos="4" head="6" />
+      <NoteName name="Spin Roll" pitch="A3" pos="4" head="41" />
+    </NoteNameList>
+    <NoteNameList name="Congas (AutoRL)">
+      <NoteName name="--Congas w/mallets--" pitch="-1" menuBreak="1" />
+      <NoteName name="ROLL w/mallets Low Conga" pitch="C2" pos="-2" head="20" />
+      <NoteName name="ROLL w/mallets Low Conga" pitch="C2" pos="-2" head="0" />
+      <NoteName name="ROLL w/mallets Low Conga" pitch="C2" pos="-2" head="0" />
+      <NoteName name="Low Conga mallet hits" pitch="D2" pos="-2" head="0" />
+      <NoteName name="ROLL w/mallets High Conga" pitch="E2" pos="2" head="20" />
+      <NoteName name="ROLL w/mallets High Conga" pitch="E2" pos="2" head="0" />
+      <NoteName name="ROLL w/mallets High Conga" pitch="E2" pos="2" head="0" />
+      <NoteName name="High Conga mallet hits" pitch="F2" pos="2" head="0" />
+      <NoteName name="--Low Conga w/hands--" pitch="-1" menuBreak="1" />
+      <NoteName name="Rubato Bending" pitch="A2" pos="-3" head="19" />
+      <NoteName name="Roll" pitch="B2" pos="-3" head="20" />
+      <NoteName name="Roll" pitch="B2" pos="-3" head="0" />
+      <NoteName name="Roll" pitch="B2" pos="-3" head="0" />
+      <NoteName name="Heel/Toe hits" pitch="C3" pos="-3" head="15" />
+      <NoteName name="Bass Tone" pitch="D3" pos="-3" head="21" />
+      <NoteName name="Muted Stroke" pitch="E3" pos="-3" head="32" />
+      <NoteName name="Muted Stroke" pitch="E3" pos="-3" head="0" />
+      <NoteName name="Open Stroke" pitch="F3" pos="-3" head="0" />
+      <NoteName name="Open Slap" pitch="G3" pos="-3" head="1" />
+      <NoteName name="Muted Slap" pitch="A3" pos="-3" head="41" />
+      <NoteName name="Muted Slap" pitch="A3" pos="-3" head="1" />
+      <NoteName name="--High Conga w/hands--" pitch="-1" menuBreak="1" />
+      <NoteName name="Heel/Toe hits" pitch="C4" pos="1" head="15" />
+      <NoteName name="Bass Tone" pitch="D4" pos="1" head="21" />
+      <NoteName name="Muted Stroke" pitch="E4" pos="1" head="32" />
+      <NoteName name="Muted Stroke" pitch="E4" pos="1" head="0" />
+      <NoteName name="Open Stroke" pitch="F4" pos="1" head="0" />
+      <NoteName name="Open Slap" pitch="G4" pos="1" head="1" />
+      <NoteName name="Muted Slap" pitch="A4" pos="1" head="41" />
+      <NoteName name="Muted Slap" pitch="A4" pos="1" head="1" />
+      <NoteName name="Roll" pitch="B4" pos="1" head="20" />
+      <NoteName name="Roll" pitch="B4" pos="1" head="0" />
+      <NoteName name="Roll" pitch="B4" pos="1" head="0" />
+      <NoteName name="Rubato bending" pitch="C5" pos="1" head="19" />
+    </NoteNameList>
+    <NoteNameList name="Bongos (AutoRL)">
+      <NoteName name="--Bongo w/sticks--" pitch="-1" menuBreak="1" />
+      <NoteName name="Low Bongo Hit" pitch="F3" pos="-2" head="0" />
+      <NoteName name="Low Bongo Roll" pitch="G3" pos="-2" head="20" />
+      <NoteName name="High Bongo Hit" pitch="A3" pos="2" head="0" />
+      <NoteName name="High Bongo roll" pitch="B3" pos="2" head="20" />
+      <NoteName name="--LOW Bongo w/hands--" pitch="-1" menuBreak="1" />
+      <NoteName name="Low Bongo mute" pitch="C4" pos="-1" head="32" />
+      <NoteName name="Low Bongo open" pitch="D4" pos="-1" head="0" />
+      <NoteName name="Low Bongo finger" pitch="E4" pos="-1" head="15" />
+      <NoteName name="High Bongo mute" pitch="F4" pos="3" head="32" />
+      <NoteName name="High Bongo open" pitch="G4" pos="3" head="0" />
+      <NoteName name="High Bongo finger" pitch="A4" pos="3" head="15" />
+      <NoteName name="Low Bongo roll" pitch="B4" pos="-1" head="0" />
+      <NoteName name="High Bongo roll" pitch="C5" pos="3" head="0" />
+    </NoteNameList>
+    <NoteNameList name="Bongos Manual">
+      <NoteName name="--Bongo w/sticks--" pitch="-1" menuBreak="1" />
+      <NoteName name="Low Bongo Stick Roll" pitch="E2" pos="-2" head="0" default="1" />
+      <NoteName name="Low Bongo LH Stick" pitch="F2" pos="-2" head="31" default="1" />
+      <NoteName name="Low Bongo RH Stick" pitch="F#2" pos="-2" head="0" />
+      <NoteName name="High Bongo LH Stick" pitch="G2" pos="2" head="31" default="1" />
+      <NoteName name="High Bongo RH Stick" pitch="G#2" pos="2" head="0" />
+      <NoteName name="High Bongo Stick Roll" pitch="A2" pos="2" head="20" default="1" />
+      <NoteName name="--LOW Bongo w/hands--" pitch="-1" menuBreak="1" />
+      <NoteName name="Finger LH" pitch="D3" pos="-1" head="59" default="1" />
+      <NoteName name="Open LH" pitch="D#3" pos="-1" head="31" default="1" />
+      <NoteName name="Muted LH" pitch="E3" pos="-1" head="33" default="1" />
+      <NoteName name="Muted RH" pitch="F3" pos="-1" head="32" />
+      <NoteName name="Open RH" pitch="F#3" pos="-1" head="0" />
+      <NoteName name="Finger RH" pitch="G3" pos="-1" head="15" />
+      <NoteName name="Roll" pitch="A3" pos="-2" head="20" default="1" />
+      <NoteName name="--HIGH Bongo w/hands--" pitch="-1" menuBreak="1" />
+      <NoteName name="Finger LH" pitch="D4" pos="3" head="59" default="1" />
+      <NoteName name="Open LH" pitch="D#4" pos="3" head="31" default="1" />
+      <NoteName name="Muted LH" pitch="E4" pos="3" head="33" default="1" />
+      <NoteName name="Muted RH" pitch="F4" pos="3" head="32" />
+      <NoteName name="Open RH" pitch="F#4" pos="3" head="0" />
+      <NoteName name="Finger RH" pitch="G4" pos="3" head="15" default="1" />
+      <NoteName name="Roll" pitch="A4" pos="3" head="20" default="1" />
+    </NoteNameList>
+    <NoteNameList name="Djembe 14in">
+      <NoteName name="--Left Hand--" pitch="-1" menuBreak="1" />
+      <NoteName name="High Finger Harmonic" pitch="A2" pos="-1" head="36" />
+      <NoteName name="Dampened Slap" pitch="A#2" pos="-1" head="44" />
+      <NoteName name="Open Flam" pitch="B2" pos="-1" head="33" />
+      <NoteName name="Muted Slap" pitch="C3" pos="-1" head="42" />
+      <NoteName name="Muted Slap" pitch="C3" pos="-1" head="40" />
+      <NoteName name="Open Slap" pitch="C#3" pos="-1" head="40" />
+      <NoteName name="Open Bass Tone" pitch="D3" pos="-1" head="57" />
+      <NoteName name="Muted Bass Tone" pitch="D#3" pos="-1" head="57" />
+      <NoteName name="Low Pat" pitch="E3" pos="-1" head="59" />
+      <NoteName name="--Right Hand--" pitch="-1" menuBreak="1" />
+      <NoteName name="Low Pat" pitch="F3" pos="-1" head="15" />
+      <NoteName name="Muted Bass Tone" pitch="F#3" pos="-1" head="21" />
+      <NoteName name="Open Bass Tone" pitch="G3" pos="-1" head="21" />
+      <NoteName name="Open Slap" pitch="G#3" pos="-1" head="1" />
+      <NoteName name="Muted Slap" pitch="A3" pos="-1" head="41" />
+      <NoteName name="Muted Slap" pitch="A3" pos="-1" head="1" />
+      <NoteName name="Open Flam" pitch="A#3" pos="-1" head="32" />
+      <NoteName name="Dampened Slap" pitch="B3" pos="-1" head="43" />
+      <NoteName name="High Finger Harmonic" pitch="C4" pos="-1" head="35" />
+      <NoteName name="Light, Airy Finger Roll" pitch="E4" pos="-1" head="10" />
+      <NoteName name="Roll 1" pitch="F4" pos="-1" head="20" />
+      <NoteName name="Roll 2" pitch="G4" pos="-1" head="34" />
+      <NoteName name="Bending Rubato 1" pitch="A4" pos="-1" head="19" />
+      <NoteName name="Bending Rubato 2" pitch="B4" pos="-1" head="23" />
+    </NoteNameList>
+    <NoteNameList name="Djembe Big">
+      <NoteName name="--Left Hand--" pitch="-1" menuBreak="1" />
+      <NoteName name="High Finger Harmonic" pitch="A2" pos="-1" head="36" />
+      <NoteName name="Open Fingers" pitch="A#2" pos="-1" head="62" />
+      <NoteName name="Soft Taps" pitch="B2" pos="-1" head="33" />
+      <NoteName name="Muted Slap" pitch="C3" pos="-1" head="42" />
+      <NoteName name="Muted Slap" pitch="C3" pos="-1" head="40" />
+      <NoteName name="Open Slap" pitch="C#3" pos="-1" head="40" />
+      <NoteName name="Open Bass Tone" pitch="D3" pos="-1" head="57" />
+      <NoteName name="Muted Bass Tone" pitch="D#3" pos="-1" head="57" />
+      <NoteName name="Low Pat" pitch="E3" pos="-1" head="59" />
+      <NoteName name="--Right Hand--" pitch="-1" menuBreak="1" />
+      <NoteName name="Low Pat" pitch="F3" pos="-1" head="15" />
+      <NoteName name="Muted Bass Tone" pitch="F#3" pos="-1" head="21" />
+      <NoteName name="Open Bass Tone" pitch="G3" pos="-1" head="21" />
+      <NoteName name="Open Slap" pitch="G#3" pos="-1" head="1" />
+      <NoteName name="Muted Slap" pitch="A3" pos="-1" head="41" />
+      <NoteName name="Muted Slap" pitch="A3" pos="-1" head="1" />
+      <NoteName name="Soft Taps" pitch="A#3" pos="-1" head="32" />
+      <NoteName name="Open Fingers" pitch="B3" pos="-1" head="6" />
+      <NoteName name="High Finger Harmonic" pitch="C4" pos="-1" head="35" />
+      <NoteName name="Light, Airy Finger Roll" pitch="E4" menuBreak="1" pos="-1" head="10" />
+      <NoteName name="Soft Roll" pitch="F4" pos="-1" head="34" />
+      <NoteName name="Loud Roll" pitch="G4" pos="-1" head="20" />
+      <NoteName name="Bending Rubato 1" pitch="A4" pos="-1" head="19" />
+      <NoteName name="Bending Rubato 2" pitch="B4" pos="-1" head="23" />
+      <NoteName name="Up and Down Roll" pitch="C5" pos="1" head="6" />
+    </NoteNameList>
+    <NoteNameList name="Shakerines">
+      <NoteName name="Hit 1" pitch="C3" pos="-1" head="1" />
+      <NoteName name="Hit 2" pitch="D3" pos="-1" head="40" />
+      <NoteName name="Roll" pitch="E3" pos="-1" head="41" />
+      <NoteName name="Roll" pitch="E3" pos="-1" head="1" />
+      <NoteName name="Roll" pitch="E3" pos="-1" head="1" />
+      <NoteName name="Hit 1-Mini" pitch="C4" pos="3" head="1" />
+      <NoteName name="Hit 2-Mini" pitch="D4" pos="3" head="40" />
+      <NoteName name="Roll-Mini" pitch="E4" pos="3" head="41" />
+      <NoteName name="Roll-Mini" pitch="E4" pos="3" head="1" />
+      <NoteName name="Roll-Mini" pitch="E4" pos="3" head="1" />
+    </NoteNameList>
+    <NoteNameList name="Shekere">
+      <NoteName name="Bass Tone" pitch="C3" pos="-1" head="21" />
+      <NoteName name="Low Comp Shake In" pitch="D3" pos="-1" head="41" />
+      <NoteName name="Low Comp Shake Out" pitch="E3" pos="-1" head="42" />
+      <NoteName name="Tap LH" pitch="F3" pos="-1" head="59" />
+      <NoteName name="Tap RH" pitch="G3" pos="-1" head="15" />
+      <NoteName name="Shake In" pitch="A3" pos="-1" head="1" />
+      <NoteName name="Shake Out" pitch="B3" pos="-1" head="40" />
+      <NoteName name="Spin 1" pitch="C4" pos="-1" head="0" />
+      <NoteName name="Spin 2" pitch="D4" pos="-1" head="31" />
+      <NoteName name="Spin 3" pitch="E4" pos="-1" head="32" />
+      <NoteName name="Long Spin" pitch="F4" pos="-1" head="33" />
+      <NoteName name="Rattle Shake" pitch="G4" pos="-1" head="18" />
+    </NoteNameList>
+    <NoteNameList name="Taiko Drum">
+      <NoteName name="LH Hit" pitch="C1" pos="-1" head="31" />
+      <NoteName name="LH Rim" pitch="C#1" pos="1" head="40" />
+      <NoteName name="RH Hit" pitch="D1" pos="-1" head="0" />
+      <NoteName name="RH Rim" pitch="D#1" pos="1" head="1" />
+      <NoteName name="Flam Hit" pitch="E1" pos="-1" head="34" />
+      <NoteName name="Flam Rim" pitch="F1" pos="1" head="41" />
+      <NoteName name="Roll 1" pitch="G1" pos="-1" head="20" />
+      <NoteName name="Roll 2" pitch="A1" pos="-1" head="33" />
+      <NoteName name="Rubato" pitch="B1" pos="-1" head="19" />
+      <NoteName name="Slow Rubato" pitch="C2" pos="-1" head="23" />
+    </NoteNameList>
+    <NoteNameList name="Timbales Manual">
+      <NoteName name="Low Timbale LH Hit" pitch="C3" pos="-3" head="31" />
+      <NoteName name="Low Timbale RH Hit" pitch="C#3" pos="-3" head="0" />
+      <NoteName name="Low Timbale LH Rimshot" pitch="D3" pos="-3" head="40" />
+      <NoteName name="Low Timbale RH Rimshot" pitch="D#3" pos="-3" head="1" />
+      <NoteName name="Low Timbale Dead stroke w/stick" pitch="E3" pos="-3" head="33" />
+      <NoteName name="Low Timbale Dead stroke w/stick" pitch="E3" pos="-3" head="0" />
+      <NoteName name="Low Timbale Dead stroke w/stick" pitch="E3" pos="-3" head="31" />
+      <NoteName name="Low Timbale Stick on shell" pitch="F3" pos="-3" head="15" />
+      <NoteName name="Low Timbale Roll" pitch="G3" pos="-3" head="20" />
+      <NoteName name="Low Timbale Roll" pitch="G3" pos="-3" head="0" />
+      <NoteName name="Low Timbale Roll" pitch="G3" pos="-3" head="0" />
+      <NoteName name="Hi Timbale LH Hit" pitch="C4" pos="1" head="31" />
+      <NoteName name="Hi Timbale RH Hit" pitch="C#4" pos="1" head="0" />
+      <NoteName name="Hi Timbale LH Rimshot" pitch="D4" pos="1" head="40" />
+      <NoteName name="Hi Timbale RH Rimshot" pitch="D#4" pos="1" head="1" />
+      <NoteName name="Hi Timbale Dead stroke w/stick" pitch="E4" pos="1" head="33" />
+      <NoteName name="Hi Timbale Dead stroke w/stick" pitch="E4" pos="1" head="0" />
+      <NoteName name="Hi Timbale Dead stroke w/stick" pitch="E4" pos="1" head="31" />
+      <NoteName name="Hi Timbale Stick on shell" pitch="F4" pos="1" head="15" />
+      <NoteName name="Hi Timbale Roll" pitch="G4" pos="1" head="20" />
+      <NoteName name="Hi Timbale Roll" pitch="G4" pos="1" head="0" />
+      <NoteName name="Hi Timbale Roll" pitch="G4" pos="1" head="0" />
+      <NoteName name="Mambo Bell mouth" pitch="B4" pos="5" head="17" />
+      <NoteName name="Mambo Bell tip" pitch="C5" pos="5" head="16" />
+      <NoteName name="ChaCha Bell mouth" pitch="D5" pos="7" head="17" />
+      <NoteName name="ChaCha Bell tip" pitch="E5" pos="7" head="16" />
+      <NoteName name="Cymbal" pitch="F5" pos="4" head="1" />
+      <NoteName name="Cymbal bell" pitch="G5" pos="4" head="6" />
+      <NoteName name="Cymbal crash" pitch="A5" pos="5" head="1" />
+    </NoteNameList>
+    <NoteNameList name="Timbales (AutoRL)">
+      <NoteName name="Low Timbale Regular hits" pitch="C3" pos="-3" head="0" />
+      <NoteName name="Low Timbale Rimshots" pitch="D3" pos="-3" head="1" />
+      <NoteName name="Low Timbale Dead stroke w/stick" pitch="E3" pos="-3" head="33" />
+      <NoteName name="Low Timbale Dead stroke w/stick" pitch="E3" pos="-3" head="0" />
+      <NoteName name="Low Timbale Stick on shell" pitch="F3" pos="-3" head="15" />
+      <NoteName name="Low Timbale Roll" pitch="G3" pos="-3" head="20" />
+      <NoteName name="Low Timbale Roll" pitch="G3" pos="-3" head="0" />
+      <NoteName name="Low Timbale Roll" pitch="G3" pos="-3" head="0" />
+      <NoteName name="Hi Timbale Regular hits" pitch="C4" pos="1" head="0" />
+      <NoteName name="Hi Timbale Rimshots" pitch="D4" pos="1" head="1" />
+      <NoteName name="Hi Timbale Dead stroke w/stick" pitch="E4" pos="1" head="33" />
+      <NoteName name="Hi Timbale Dead stroke w/stick" pitch="E4" pos="1" head="0" />
+      <NoteName name="Hi Timbale Stick on shell" pitch="F4" pos="1" head="15" />
+      <NoteName name="Hi Timbale Roll" pitch="G4" pos="1" head="20" />
+      <NoteName name="Hi Timbale Roll" pitch="G4" pos="1" head="0" />
+      <NoteName name="Hi Timbale Roll" pitch="G4" pos="1" head="0" />
+      <NoteName name="Mambo Bell mouth" pitch="B4" pos="5" head="17" />
+      <NoteName name="Mambo Bell tip" pitch="C5" pos="5" head="16" />
+      <NoteName name="ChaCha Bell mouth" pitch="D5" pos="7" head="17" />
+      <NoteName name="ChaCha Bell tip" pitch="E5" pos="7" head="16" />
+      <NoteName name="Cymbal" pitch="F5" pos="1" head="1" />
+      <NoteName name="Cymbal bell" pitch="G5" pos="1" head="33" />
+      <NoteName name="Cymbal crash" pitch="A5" pos="1" head="0" />
+    </NoteNameList>
+    <NoteNameList name="Air Raid">
+      <NoteName name="Siren 1" pitch="C3" pos="-1" head="0" />
+      <NoteName name="Siren 2" pitch="D3" pos="1" head="0" />
+    </NoteNameList>
+    <NoteNameList name="Bell Plates">
+      <NoteName name="w/Chime Acrylic Hammer (Low)" pitch="C3" pos="-1" head="32" />
+      <NoteName name="LH w/Plastic (Low)" pitch="D3" pos="-1" head="31" />
+      <NoteName name="RH w/Plastic (Low)" pitch="E3" pos="-1" head="0" />
+      <NoteName name="w/Chime Acrylic Hammer (High)" pitch="C3" pos="1" head="32" />
+      <NoteName name="LH w/Plastic (High)" pitch="D3" pos="1" head="31" />
+      <NoteName name="RH w/Plastic (High)" pitch="E3" pos="1" head="0" />
+    </NoteNameList>
+    <NoteNameList name="Birds Meini">
+      <NoteName name="Shaken Softly 1" pitch="C3" pos="0" head="0" />
+      <NoteName name="Shaken Softly 2" pitch="D3" pos="0" head="31" />
+      <NoteName name="Shaken Loudly 1" pitch="E3" pos="0" head="32" />
+      <NoteName name="Shaken Loudly 1" pitch="C3" pos="0" head="33" />
+      <NoteName name="Staccato 1" pitch="D3" pos="2" head="0" />
+      <NoteName name="Staccato 2" pitch="E3" pos="2" head="31" />
+      <NoteName name="Staccato 3" pitch="E3" pos="2" head="32" />
+    </NoteNameList>
+    <NoteNameList name="Cricket">
+      <NoteName name="Chirp" pitch="A3" pos="0" head="0" />
+    </NoteNameList>
+    <NoteNameList name="Earth Plate">
+      <NoteName name="LH Plastic Mallet" pitch="B2" pos="0" head="31" />
+      <NoteName name="RH Plastic Mallet" pitch="C3" pos="0" head="0" />
+      <NoteName name="LH Brass Mallet" pitch="D3" pos="0" head="33" />
+      <NoteName name="RH Brass Mallet" pitch="E3" pos="0" head="32" />
+      <NoteName name="Fast Scrape" pitch="F3" pos="0" head="50" />
+      <NoteName name="Slow Scrape" pitch="G3" pos="0" head="11" />
+      <NoteName name="Scratch IN" pitch="A3" pos="0" head="15" />
+      <NoteName name="Scratch OUT" pitch="B3" pos="0" head="16" />
+    </NoteNameList>
+    <NoteNameList name="Energy Chimes (MW)">
+      <NoteName name="Low" pitch="B2" pos="-4" head="0" />
+      <NoteName name="Med Low" pitch="C3" pos="-2" head="0" />
+      <NoteName name="Medium" pitch="D3" pos="0" head="0" />
+      <NoteName name="Medium High" pitch="E3" pos="2" head="0" />
+      <NoteName name="High" pitch="F3" pos="4" head="0" />
+    </NoteNameList>
+    <NoteNameList name="Flexatone Bends">
+      <NoteName name="Low" pitch="B2" pos="-1" head="6" />
+      <NoteName name="High" pitch="C3" pos="0" head="6" />
+      <NoteName name="High Fast" pitch="D3" pos="0" head="62" />
+      <NoteName name="High and Low" pitch="E3" pos="1" head="6" />
+    </NoteNameList>
+    <NoteNameList name="Frogs">
+      <NoteName name="--Rosined Frog--" pitch="-1" menuBreak="1" />
+      <NoteName name="Growl 1" pitch="C3" pos="-2" head="0" />
+      <NoteName name="Growl 2" pitch="D3" pos="-2" head="31" />
+      <NoteName name="Growl 3" pitch="E3" pos="-2" head="32" />
+      <NoteName name="--Wood Frog Rasp--" pitch="-1" menuBreak="1" />
+      <NoteName name="Scrape 1" pitch="C4" pos="0" head="0" />
+      <NoteName name="Scrape 2" pitch="D4" pos="0" head="31" />
+      <NoteName name="Scrape 3" pitch="E4" pos="0" head="32" />
+      <NoteName name="Tap" pitch="E4" pos="0" head="33" />
+    </NoteNameList>
+    <NoteNameList name="Garden Weasel">
+      <NoteName name="Taps" pitch="B3" pos="2" head="22" />
+      <NoteName name="Shaken" pitch="C4" pos="2" head="18" />
+    </NoteNameList>
+    <NoteNameList name="Hand Claps">
+      <NoteName name="Group 1" pitch="C3" pos="0" head="1" />
+      <NoteName name="Group 2" pitch="D3" pos="0" head="40" />
+      <NoteName name="Solo 1" pitch="E3" pos="1" head="1" />
+      <NoteName name="Solo 2" pitch="F3" pos="1" head="40" />
+    </NoteNameList>
+    <NoteNameList name="Marching Machine">
+      <NoteName name="Fat Attack" pitch="C3" pos="0" head="29" />
+      <NoteName name="Narrower Attack" pitch="D3" pos="0" head="1" />
+      <NoteName name="Softly" pitch="E3" pos="0" head="10" />
+    </NoteNameList>
+  </NoteNames>
+  <Instruments>
+    <Section name="Accessories" title="Accessories" clef="percussion">
+      <Instrument name="Bell Tree" title="Bell Tree" abbr="Bl. Tr." noteNameList="Bell Tree" lownote="C2" highnote="D5" />
+      <Instrument name="Brake Drums" title="Brake Drums" abbr="Bk. Dr." noteNameList="Brake Drums" lownote="F3" highnote="G4" />
+      <Instrument name="Claves Pearl Synthetic" title="Claves" abbr="Clv." noteNameList="Claves Pearl Synthetic" lownote="C4" highnote="E4" />
+      <Instrument name="Claves Rosewood" title="Claves" abbr="Clv." noteNameList="Claves Rosewood" lownote="C4" highnote="F4" />
+      <Instrument name="Cowbells" title="Cowbells" abbr="Cw. Bls." noteNameList="Cowbells" lownote="C2" highnote="F5" />
+      <Instrument name="Finger Cymbals" title="Finger Cymbals" abbr="Fg. Cym." noteNameList="Finger Cymbals" lownote="C3" highnote="G3" />
+      <Instrument name="Guiro" title="Guiro" abbr="Gui." noteNameList="Guiro" lownote="C3" highnote="C4" />
+      <Instrument name="Maracas Rawhide" title="Maracas Rawhide" abbr="Mar. Rw." noteNameList="Maracas Rawhide" lownote="F3" highnote="F4" />
+      <Instrument name="Metal Guiro" title="Guiro" abbr="Gui." noteNameList="Metal Guiro" lownote="C3" highnote="A3" />
+      <Instrument name="Ratchet" title="Ratchet" abbr="Rat." noteNameList="Ratchet" lownote="C3" highnote="B5" />
+      <Instrument name="Slapsticks" title="Slapsticks" abbr="Sl. Sk." noteNameList="Slapsticks" lownote="C3" highnote="D3" />
+      <Instrument name="Vibra Slaps" noteNameList="Vibra Slaps" lownote="C3" highnote="F3" />
+      <Group name="Castanets" title="Castanets" abbr="Cast.">
+        <Instrument name="Castanet Machine" noteNameList="Castanet Machine" lownote="C3" highnote="C4" />
+        <Instrument name="Castanets All" noteNameList="Castanets All" lownote="C3" highnote="A4" />
+        <Instrument name="Castanets Rosewood Hand" noteNameList="Castanets Rosewood Hand" lownote="C4" highnote="A4" />
+      </Group>
+      <Group name="Rainsticks" title="Rainsticks">
+        <Instrument name="Rainsticks All" title="Rainsticks" abbr="Ra. Sk." noteNameList="Rainsticks All" lownote="C3" highnote="E4" />
+        <Instrument name="Rainsticks Cactus" title="Rainsticks" abbr="Ra. Sk." noteNameList="Rainsticks Cactus" lownote="C3" highnote="D4" />
+        <Instrument name="Rainsticks Plastic" title="Rainsticks" abbr="Ra. Sk." noteNameList="Rainsticks Plastic" lownote="E3" highnote="E4" />
+      </Group>
+      <Group name="Shakers" title="Shakers" abbr="Sha.">
+        <Instrument name="Egg Shaker" noteNameList="Egg Shaker" lownote="C4" highnote="F4" />
+        <Instrument name="Ganza" noteNameList="Ganza" lownote="C3" highnote="F3" />
+        <Instrument name="Shaker Metal Canister" noteNameList="Shaker Metal Canister" lownote="C2" highnote="F2" />
+        <Instrument name="Shaker Plastic" noteNameList="Shaker Plastic" lownote="C1" highnote="F1" />
+        <Instrument name="Shakers All" noteNameList="Shakers All" lownote="C1" highnote="F4" />
+      </Group>
+      <Group name="SleighBells" title="SleighBells" abbr="Slgh.">
+        <Instrument name="SleighBells Chrome" noteNameList="SleighBells Chrome" lownote="F3" highnote="G3" />
+        <Instrument name="SleighBells Dark Brass" noteNameList="SleighBells Dark Brass" lownote="A3" highnote="B3" />
+        <Instrument name="SleighBells All" noteNameList="SleighBells All" lownote="F3" highnote="B3" />
+      </Group>
+      <Group name="Tambourines" title="Tambourines" abbr="Tam.">
+        <Instrument name="Tambourine Orchestral" noteNameList="Tambourine Orchestral" lownote="A2" highnote="C5" />
+        <Instrument name="Tambourine Rock" noteNameList="Tambourine Rock" lownote="C3" highnote="D4" />
+      </Group>
+      <Group name="Triangles" title="Triangles" abbr="Tr." lownote="C4" highnote="B4">
+        <UsesNoteNameList name="Triangles" />
+        <Instrument name="Triangle Able 6in" />
+        <Instrument name="Triangle Grover 6in" />
+        <Instrument name="Triangle Grover 9i" />
+        <Instrument name="Water Triangle" noteNameList="Water Triangle" lownote="C3" highnote="E3" />
+      </Group>
+      <Group name="Wind Chimes" title="Wind Chimes" abbr="W. Chm.">
+        <Instrument name="Patio Chimes" noteNameList="Patio Chimes" lownote="C3" highnote="A3" />
+        <Instrument name="Treeworks Double Row" noteNameList="Double Row Chimes" lownote="C5" highnote="E5" />
+        <Instrument name="Treeworks Echo Chimes" noteNameList="Echo Chimes" lownote="C4" highnote="E4" />
+        <Instrument name="Treeworks Single Row" noteNameList="Single Row Chimes" lownote="C6" highnote="F6" />
+        <Instrument name="WChimes w/Mallet" lownote="C2" highnote="E3" clef="treble" />
+        <Instrument name="WChimes All" noteNameList="Wind Chimes All" lownote="C2" highnote="F6" />
+      </Group>
+      <Group name="Woodblocks" title="Woodblocks" abbr="W. B." lownote="C3" highnote="G#5">
+        <Instrument name="Granite Blocks (AutoRL MW)" noteNameList="Granite Blocks" />
+        <Instrument name="Jam Blocks" noteNameList="Jam Blocks" />
+        <Instrument name="Temple Blocks (AutoRL MW)" noteNameList="Temple Blocks" />
+        <Instrument name="Woodblocks Three" noteNameList="Woodblocks Three" />
+      </Group>
+    </Section>
+    <Section name="Chimes" title="Chimes" abbr="Chm." lownote="F2" highnote="G4" clef="treble">
+      <UsesControllerSwitchList name="Ringing/Damp" />
+      <Instrument name="Chimes Hammer (MW)" />
+      <Instrument name="Chimes LoXtnsion (MW)" />
+      <Instrument name="Chimes XyloCap (MW)" />
+      <Instrument name="Chimes XyloTupe (MW)" />
+      <Instrument name="Chime Rakes" noteNameList="Chime Rakes" lownote="B3" highnote="F4" clef="percussion" />
+      <Group name="Sustain Pedal Control">
+        <UsesControllerSwitchList name="Chimes (PED)" />
+        <Instrument name="Chimes Hammer (PED)" />
+        <Instrument name="Chimes LoXtnsion (PED)" />
+        <Instrument name="Chimes XyloCap (PED)" />
+        <Instrument name="Chimes XyloTupe (PED)" />
+      </Group>
+    </Section>
+    <Section name="Combination Instruments" title="Drums" abbr="Drs." clef="percussion">
+      <Instrument name="BD and Tam Tam" title="BD and Tam Tam" noteNameList="BD and Tam Tam" lownote="F2" highnote="C4" />
+      <Instrument name="Finale Marching Percussion Map" noteNameList="Finale Drum Map" lownote="F2" highnote="C4" />
+      <Instrument name="General MIDI Set" noteNameList="General MIDI Set" lownote="B0" highnote="B4" />
+      <Instrument name="Latin Combo (Auto RL)" title="Latin Combo" noteNameList="Latin Combo" lownote="F2" highnote="C4" />
+      <Instrument name="Metal Combo (Auto RL)" title="Metal Combo" noteNameList="Metal Combo" lownote="F2" highnote="C4" />
+      <Instrument name="Rack Combo A (Auto RL)" title="Rack Combo" noteNameList="Rack Combo A" lownote="F2" highnote="C4" />
+      <Instrument name="Rack Combo B (Auto RL)" title="Rack Combo" noteNameList="Rack Combo B" lownote="F2" highnote="C4" />
+    </Section>
+    <Section name="Cymbals" title="Cymbals" abbr="Cym." clef="percussion">
+      <Group name="Cymbals (hand)" title="Cymbals" noteNameList="Crash Cymbals" lownote="B0" highnote="B4" abbr="Cym." clef="percussion">
+        <Instrument name="CrCym 16in Symph" />
+        <Instrument name="CrCym 18in Constnople" />
+        <Instrument name="CrCym 18in Vienese" />
+        <Instrument name="CrCym 20in Germanic" />
+      </Group>
+      <Group name="Cymbals (suspended)" title="Cymbals" abbr="Cym." clef="percussion">
+        <Instrument name="China Cym 14in" noteNameList="Chinas All" lownote="C4" highnote="B4" />
+        <Instrument name="China K 19in" noteNameList="Chinas All" lownote="C4" highnote="B4" />
+        <Instrument name="Chinas All (MW)" noteNameList="Chinas All" lownote="C4" highnote="B4" />
+        <Instrument name="Hi Hat (MW)" noteNameList="" lownote="C3" highnote="D5" />
+        <Instrument name="Hi Hat Manual" noteNameList="" lownote="D0" highnote="A#4" />
+        <Instrument name="Oriental Trash 18in" noteNameList="Chinas All" lownote="C4" highnote="B4" />
+        <Instrument name="Ride Cymbal" noteNameList="Ride Cymbal" lownote="E4" highnote="G4" />
+        <Instrument name="Sizzle Cymbal" noteNameList="Sizzle Cymbal" lownote="C3" highnote="G3" />
+        <Instrument name="Splash Cymbals" noteNameList="Splash Cymbals" lownote="C3" highnote="E3" />
+        <Instrument name="SusCym 15 K Zildjan" noteNameList="Cymbals (suspended)" lownote="C2" highnote="E5" />
+        <Instrument name="SusCym 18 Constantnople" noteNameList="Cymbals (suspended)" lownote="C2" highnote="E5" />
+        <Instrument name="SusCym 20 Constantnople" noteNameList="Cymbals (suspended)" lownote="C2" highnote="E5" />
+        <Instrument name="Swish Knockers (MW)" noteNameList="" lownote="B0" highnote="B4" />
+        <Instrument name="Zil-Bells Hi Lo" noteNameList="Zil-Bells Hi Lo" lownote="C3" highnote="A4" />
+      </Group>
+    </Section>
+    <Section name="DrumLine Battery" title="DrumLine Battery" abbr="Dr. Bat." clef="percussion">
+      <Group name="Snares" title="Snare Line" abbr="Sn. Ln." lownote="A0" highnote="A#7">
+        <UsesNoteNameList name="SnareLine Manual" />
+        <UsesControllerSwitchList name="SnareLine Manual" />
+        <Instrument name="SnareLine Manual (MW)" />
+        <Instrument name="SnareLine Manual Lite (MW)" />
+        <Instrument name="SnareLine (AutoRL)" noteNameList="SnareLine (AutoRL)" lownote="A0" highnote="E7" />
+        <Instrument name="SnareLine VDL1 (MW)" noteNameList="SnareLine VDL1" ctrlSwitchList="SnareLine VDL1" lownote="C1" highnote="F5" />
+        <Instrument name="Solo Kevlar Snare (MW)" noteNameList="Solo Kevlar Snare" lownote="C1" highnote="D6" />
+        <Instrument name="Solo Mylar Snare (MW)" noteNameList="Solo Mylar Snare" lownote="C1" highnote="A#7" />
+      </Group>
+      <Group name="Tenors" title="Tenor Line" abbr="Tn. Ln." lownote="F0" highnote="G#7">
+        <UsesNoteNameList name="TenorLine Manual" />
+        <UsesControllerSwitchList name="Tenorline Manual" />
+        <UsesKeySwitchList name="Mallets" />
+        <Instrument name="Showstyle Single Tenors" ctrlSwitchList="" keySwitchList="" noteNameList="Showstyle Single Tenors" lownote="C2" highnote="B2" />
+        <Instrument name="Tenor Solo Manual (MW KS)" ctrlSwitchList="Tenor Solo Manual" noteNameList="Tenor Solo Manual" lownote="F#0" highnote="E7" />
+        <Instrument name="TenorLine (AutoRL) (MW KS)" ctrlSwitchList="TenorLine (AutoRL)" noteNameList="TenorLine (AutoRL)" lownote="F0" highnote="A7" />
+        <Instrument name="TenorLine Manual (MW KS)" />
+        <Instrument name="TenorLine Manual Lite (MW KS)" />
+        <Instrument name="TenorLine VDL1 (MW)" ctrlSwitchList="TenorLine VDL1" keySwitchList="" noteNameList="TenorLine VDL1" lownote="F0" highnote="D#6" />
+      </Group>
+      <Group name="Basses" title="Bass Line" abbr="Bs. Ln." lownote="F0" highnote="A7">
+        <UsesNoteNameList name="Bass Line" />
+        <UsesKeySwitchList name="Mallets" />
+        <Instrument name="BassLine (AutoRL) (MW KS)" ctrlSwitchList="Bassline (AutoRL)" lownote="C2" highnote="G#6" />
+        <Instrument name="BassLine Manual (MW KS)" ctrlSwitchList="Bassline Manual" />
+        <Instrument name="BassLine Manual Lite (MW KS)" ctrlSwitchList="Bassline Manual" />
+        <Instrument name="BassLine VDL1 (MW)" ctrlSwitchList="BassLine VDL1" keySwitchList="" lownote="C1" highnote="C6" />
+      </Group>
+      <Group name="Cymbals" title="Cymbal Line" abbr="Cym. Ln." lownote="C1" highnote="A#5">
+        <UsesNoteNameList name="Cymbal Line All" />
+        <Instrument name="Cymbal Line 16in" />
+        <Instrument name="Cymbal Line 18in" />
+        <Instrument name="Cymbal Line 20in" />
+        <Instrument name="Cymbal Line All (MW)" ctrlSwitchList="Cymbal Line All" lownote="C1" highnote="C6" />
+        <Instrument name="Cymbal Line VDL1" />
+      </Group>
+    </Section>
+    <Section name="Drums" title="Drums" abbr="Drm." clef="percussion">
+      <Instrument name="Concert Bass Drum" title="Bass Drum" abbr="B. Dr." lownote="C2" highnote="E3" />
+      <Instrument name="Impact Drums" noteNameList="Impact Drums" lownote="C3" highnote="F3" />
+      <Instrument name="Roto Toms" noteNameList="Roto Toms" lownote="F2" highnote="E4" />
+      <Group name="Concert Toms" title="Concert Toms" abbr="Tm. Dr." lownote="D1" highnote="G4">
+        <Instrument name="Concert Toms Full (MW)" ctrlSwitchList="Mallets" />
+        <Instrument name="Concert Toms Mallets" />
+        <Instrument name="Concert Toms Sticks" />
+      </Group>
+      <Group name="Drum Set" title="Drum Set" abbr="Drs." lownote="D1" highnote="G4">
+        <Instrument name="Drum Set (Auto RL) (KS)" noteNameList="Drum Set (Auto RL)" keySwitchList="Snares On/Off" />
+        <Instrument name="Drum Set Manual (KS)" noteNameList="Drum Set Manual" keySwitchList="Snares On/Off" />
+        <Instrument name="General MIDI Set" noteNameList="General MIDI Set" lownote="B0" highnote="B4" />
+      </Group>
+      <Group name="Snare Drums" title="Snare Drums" abbr="S. D." lownote="G2" highnote="E4">
+        <UsesNoteNameList name="Concert Snare Drum" />
+        <Instrument name="Concert Snare" title="Concert Snare" lownote="G2" highnote="E4" />
+        <Instrument name="Field Drum" title="Field Drum" lownote="F2" highnote="E4" />
+        <Instrument name="Firecracker Drum" title="Firecracker Drum" noteNameList="Firecracker Drum" lownote="B2" highnote="E4" />
+      </Group>
+    </Section>
+    <Section name="Effects" title="Effects" clef="percussion">
+      <Instrument name="Air Raid" title="Air Raid" abbr="A. R." noteNameList="Air Raid" lownote="C3" highnote="D3" />
+      <Instrument name="Bell Plates" title="Bell Plates" abbr="B. P." noteNameList="Bell Plates" lownote="B2" highnote="G3" />
+      <Instrument name="Birds Meini" title="Birds Meini" abbr="B. M." noteNameList="Birds Meini" lownote="E3" highnote="D4" />
+      <Instrument name="Cricket" title="Cricket" abbr="Ck." noteNameList="Cricket" lownote="A3" highnote="A3" />
+      <Instrument name="Earth Plate" title="Earth Plate" abbr="E. P." noteNameList="Earth Plate" lownote="B2" highnote="B3" />
+      <Instrument name="Energy Chimes" title="Energy Chimes" abbr="E. C." noteNameList="Energy Chimes" lownote="B2" highnote="F3" />
+      <Instrument name="Flexatones High" title="Flexatones High" abbr="Flx." lownote="C3" highnote="C#4" pitchOffset="12" clef="treble" />
+      <Instrument name="Flexatones Low" title="Flexatones Low" abbr="Flx." lownote="C3" highnote="C4" pitchOffset="-12" clef="treble" />
+      <Instrument name="Flexatone Bends" title="Flexatone Bends" abbr="Flx. B" noteNameList="Flexatone Bends" lownote="E3" highnote="A3" />
+      <Instrument name="Frogs" title="Frogs" abbr="Frg." noteNameList="Frogs" lownote="C3" highnote="F4" pitchOffset="12" />
+      <Instrument name="Garden Weasel" title="Garden Weasel" abbr="G. Ws." noteNameList="Garden Weasel" lownote="B3" highnote="C4" pitchOffset="12" />
+      <Instrument name="Hand Claps" title="Hand Claps" abbr="H. Cl." noteNameList="Hand Claps" lownote="C3" highnote="F3" pitchOffset="12" />
+      <Instrument name="Marching Machine" title="Marching Machine" abbr="Ma. Mc." noteNameList="Marching Machine" lownote="C3" highnote="E3" pitchOffset="12" />
+      <Instrument name="Metronome" title="Metronome" abbr="Met." noteNameList="Metronome" lownote="C3" highnote="E3" pitchOffset="12" />
+      <Instrument name="Ocean Drum" title="Ocean Drum" abbr="Oc. Dr." noteNameList="Ocean Drum" lownote="C3" highnote="E3" pitchOffset="12" />
+      <Instrument name="Propane Tank" title="Propane Tank" abbr="Mr. Tk." noteNameList="Propane Tank" lownote="C3" highnote="E3" pitchOffset="12" />
+      <Instrument name="Ribbon Crasher" title="Ribbon Crasher" abbr="Rb. Cr." noteNameList="Ribbon Crasher" lownote="C3" highnote="E3" pitchOffset="12" />
+    </Section>
+    <Section name="Glockenspiel and Crotales" title="Glockenspiel and Crotales" clef="treble">
+      <UsesControllerSwitchList name="Ringing/Damp" />
+      <Instrument name="Crotales Aluminum (MW)" title="Crotales " abbr="Cr." lownote="C3" highnote="C5" />
+      <Instrument name="Crotales Bright (MW)" title="Crotales " abbr="Cr." lownote="C3" highnote="C5" />
+      <Instrument name="Crotales MedPlast (MW)" title="Crotales " abbr="Cr." lownote="C3" highnote="C5" />
+      <Instrument name="Glock Brass (MW)" title="Glockenspiels" abbr="Glsp." lownote="A1" highnote="E5" />
+      <Instrument name="Glock Bright Plastic (MW)" title="Glockenspiels" abbr="Glsp." lownote="A1" highnote="E5" />
+      <Instrument name="Glock Med Plastic (MW)" title="Glockenspiels" abbr="Glsp." lownote="A1" highnote="E5" />
+    </Section>
+    <Section name="Gongs" title="Gongs" abbr="Gn." lownote="C3" clef="percussion">
+      <Instrument name="Bowed Gong" noteNameList="Bowed Gong" highnote="G3" />
+      <Group name="Chinese Gongs" noteNameList="Chinese Gongs" highnote="F3">
+        <Instrument name="Chinese Gong" />
+        <Instrument name="Circus Gong" />
+        <Instrument name="Fuyin Gong" noteNameList="Fuyin Gong" highnote="E3" />
+        <Instrument name="Jing Gong" />
+        <Instrument name="Opera Gong" noteNameList="Opera Gong" highnote="B3" />
+        <Instrument name="Pasi Gong" />
+      </Group>
+      <Instrument name="Tam Tam 30in European" noteNameList="Tam Tam 30in European" lownote="C2" highnote="E4" />
+      <Instrument name="Tam Tam 34in Zildjian" noteNameList="Tam Tam 34in Zildjian" lownote="C2" highnote="E4" />
+      <Instrument name="Wind Gong 22in" noteNameList="Wind Gongs" lownote="B2" highnote="A3" />
+      <Instrument name="Wind Gong 30in" noteNameList="Wind Gongs" lownote="B2" highnote="A3" />
+    </Section>
+    <Section name="Marimbas" title="Marimba" abbr="Mba." lownote="C1" highnote="C7" clef="Treble">
+      <UsesControllerSwitchList name="Marimbas" />
+      <Instrument name="Marimba RoseW Birch" ctrlSwitchList="" />
+      <Instrument name="Marimba RoseW Hard (MW)" />
+      <Instrument name="Marimba RoseW Med (MW)" />
+      <Instrument name="Marimba RoseW Soft (MW)" />
+      <Instrument name="Marimba Syn Birch" ctrlSwitchList="" />
+      <Instrument name="Marimba Syn Hard (MW)" />
+      <Instrument name="Marimba Syn Med (MW)" />
+      <Instrument name="Marimba Syn Soft (MW)" />
+      <Group name="Lite Versions">
+        <Instrument name="Marimba RoseW Hard LITE (MW)" />
+        <Instrument name="Marimba RoseW Med LITE (MW)" />
+        <Instrument name="Marimba RoseW Soft LITE (MW)" />
+        <Instrument name="Marimba Syn Hard LITE (MW)" />
+        <Instrument name="Marimba Syn Med LITE (MW)" />
+        <Instrument name="Marimba Syn Soft LITE (MW)" />
+      </Group>
+    </Section>
+    <Section name="Rhythm Section" title="Rhythm Section">
+      <Instrument name="Bass Guitar" title="Bass Guitar" abbr="B.G." lownote="C1" highnote="E4" clef="bass" />
+      <Instrument name="Electric Guitar (MW KS)" title="Electric Guitar" abbr="E.G." ctrlSwitchList="Electric Guitar" keySwitchList="Electric Guitar" lownote="E0" highnote="D4" clef="treble" />
+      <Instrument name="Piano (Ped)" title="Piano" abbr="Pf." lownote="A-1" highnote="C7" clef="grand" />
+    </Section>
+    <Section name="Steel Drums" title="Steel Drums" abbr="Stl. Dr.">
+      <UsesControllerSwitchList name="SteelDrums" />
+      <Instrument name="SteelDrum 3 Guitar (MW)" lownote="B1" highnote="D#4" clef="bass" />
+      <Instrument name="SteelDrum 6 Bass (MW)" lownote="A#0" highnote="F2" clef="bass" />
+      <Instrument name="SteelDrum Double 2nds (MW)" lownote="B2" highnote="C5" clef="treble" />
+      <Instrument name="SteelDrum Lead (MW)" lownote="C3" highnote="E5" clef="treble" />
+    </Section>
+    <Section name="Timpani" title="Timpani" abbr="Timp." lownote="C1" highnote="C3" clef="bass">
+      <UsesControllerSwitchList name="Timpani" />
+      <Instrument name="Timpani FX" title="Timpani FX" abbr="Timp. FX" noteNameList="Timpani FX" lownote="C3" highnote="D5" clef="percussion" />
+      <Instrument name="Timpani Glissandi" title="Timpani" lownote="G0" highnote="A6" />
+      <Instrument name="Timpani Hard (MW)" />
+      <Instrument name="Timpani Med (MW)" />
+      <Instrument name="Timpani Soft (MW)" />
+      <Group name="LITE Versions">
+        <Instrument name="Timpani Hard LITE (MW)" />
+        <Instrument name="Timpani Med LITE (MW)" />
+        <Instrument name="Timpani Soft LITE (MW)" />
+      </Group>
+    </Section>
+    <Section name="Vibraphones" title="Vibraphones" abbr="Vib." lownote="F2" highnote="F5" clef="treble">
+      <UsesControllerSwitchList name="Vibes (MW)" />
+      <Instrument name="Bowed Vibes" ctrlSwitchList="" />
+      <Instrument name="Vib FX" title="Vibe Effects" abbr="Vib. FX." noteNameList="Vibe FX" lownote="C3" highnote="B3" clef="percussion" />
+      <Instrument name="Vibes Hard (MW)" />
+      <Instrument name="Vibes Med (MW)" />
+      <Instrument name="Vibes Rattan" ctrlSwitchList="" />
+      <Instrument name="Vibes Soft (MW)" />
+      <Group name="LITE Versions">
+        <Instrument name="Vibes Hard LITE (MW)" />
+        <Instrument name="Vibes Med LITE (MW)" />
+        <Instrument name="Vibes Soft LITE (MW)" />
+      </Group>
+      <Group name="wSustain Pedal Control">
+        <UsesControllerSwitchList name="Vibes (PED)" />
+        <Instrument name="Vibes Hard (PED)" />
+        <Instrument name="Vibes Med (PED)" />
+        <Instrument name="Vibes Soft (PED)" />
+      </Group>
+    </Section>
+    <Section name="Vocals" title="Vocals" clef="percussion">
+      <Instrument name="Drum Major" title="Drum Major" abbr="Dr. Ma." noteNameList="Drum Major" lownote="B2" highnote="B4" />
+      <Instrument name="Vocals" title="Vocals" abbr="Voc." noteNameList="Vocals" lownote="C2" highnote="C6" />
+    </Section>
+    <Section name="World Percussion" title="World Percussion" clef="percussion">
+      <Instrument name="Agogo Bells" title="Agogo Bells" abbr="Ag. Bl." noteNameList="Agogo Bells" lownote="D3" highnote="F4" />
+      <Instrument name="Bongos (AutoRL)" title="Bongos" abbr="Bg. Mn." noteNameList="Bongos Manual" lownote="E2" highnote="A4" />
+      <Instrument name="Bongos Manual" title="Bongos" abbr="Bg. Mn." noteNameList="Bongos Manual" lownote="E2" highnote="A4" />
+      <Instrument name="Congas (AutoRL)" title="Congas" abbr="Cng." noteNameList="Congas (AutoRL)" lownote="C2" highnote="C5" />
+      <Instrument name="Cabasa Hi and Low" title="Cabasa" abbr="Cbs." noteNameList="Cabasa Hi and Low" lownote="C2" highnote="A3" />
+      <Instrument name="Djembe 14in" title="Djembe" abbr="Djm." noteNameList="Djembe 14in" lownote="A2" highnote="B4" />
+      <Instrument name="Djembe Big" title="Djembe" abbr="Djm." noteNameList="Djembe Big" lownote="A2" highnote="C5" />
+      <Instrument name="Shakerines" title="Shakerines" abbr="Shk." noteNameList="Shakerines" lownote="C3" highnote="E4" />
+      <Instrument name="Shekere" title="Shekere" abbr="Shke." noteNameList="Shekere" lownote="C3" highnote="G4" />
+      <Instrument name="Taiko Drum" title="Taiko Drum" abbr="Tai. Dr." noteNameList="Taiko Drum" lownote="C1" highnote="C2" />
+      <Instrument name="Timbales Manual" title="Timbales Manual" abbr="Timb." noteNameList="Timbales Manual" lownote="C3" highnote="A5" />
+      <Instrument name="Timbales (AutoRL)" title="Timbales (AutoRL)" abbr="Shke." noteNameList="Timbales (AutoRL)" lownote="C3" highnote="A5" />
+    </Section>
+    <Section name="Xylophones" title="Xylophones" abbr="Xylo." clef="treble" lownote="F2" highnote="C6">
+      <UsesControllerSwitchList name="Xylophones" />
+      <Instrument name="Xylo Bright (MW)" />
+      <Instrument name="Xylo Med Dark (MW)" />
+      <Instrument name="Xylo Bright (MW)" />
+      <Instrument name="Xylo Rattan" ctrlSwitchList="" />
+      <Instrument name="Xylo Rubber (MW)" ctrlSwitchList="Rolls Only" />
+      <Group name="LITE Versions">
+        <Instrument name="Xylo Bright LITE (MW)" />
+        <Instrument name="Xylo Med Dark LITE (MW)" />
+        <Instrument name="Xylo Rubber LITE (MW)" ctrlSwitchList="Rolls Only" />
+      </Group>
+    </Section>
+  </Instruments>
+</VSTNameDocument>

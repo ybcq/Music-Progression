@@ -1,0 +1,117 @@
+﻿<html>
+	
+<head>
+	<title>Set Key Signature</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("SetKeySignature");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Set Key Signature</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="OvertureMenus.html">Overture Menus</a> &rsaquo;&rsaquo; <a href="MeasuresMenu.html">Measures Menu</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="MeasuresMenu.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="Unlock.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="SetTimeSignature.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<h6 class="rvps14"><span class="rvts0"><span class="rvts22">Measures&gt;Set Key Signature</span></span></h6>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Choose this command to specify a key signature for the active measure (and all measures up to the next key change). The active measure is the one that contains the insertion point. When you choose </span><span class="rvts12">Measures&gt;Set Key Signature</span><span class="rvts6">, Overture opens the Set Key Signature dialog box.</span></p>
+<h6 class="rvps14"><span class="rvts0"><span class="rvts22">About the Set Key Signature Dialog Box</span></span></h6>
+<p class="rvps2"><span class="rvts6">There are numerous elements in the Set Key Signature dialog box. We describe these in the following sections.</span></p>
+<h6 class="rvps14"><span class="rvts0"><span class="rvts22">Key Setting</span></span></h6>
+<p class="rvps2"><span class="rvts6">Use this scroll bar to set the measure's key signature. Scroll up to add more sharps to the key; scroll down to add more flats to the key.</span></p>
+<p class="rvps2"><span class="rvts6">You can also use the </span><span class="rvts12">up</span><span class="rvts6"> and </span><span class="rvts12">down</span><span class="rvts6"> </span><span class="rvts12">arrow</span><span class="rvts6"> keys change the key signature in the Set Key dialog box: </span></p>
+<ul style="text-indent: 0px; margin-left: 48px; list-style-position: outside; list-style-type: disc;">
+<li style="margin-left: 0px" class="rvps4"><span class="rvts6">The </span><span class="rvts12">up arrow</span><span class="rvts6"> moves towards fewer flats and more sharps.</span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts6">The </span><span class="rvts12">down arrow</span><span class="rvts6"> moves towards fewer sharps and more flats. </span></li>
+</ul>
+<h6 class="rvps14"><span class="rvts0"><span class="rvts22">All Staves Option</span></span></h6>
+<p class="rvps2"><span class="rvts6">Check this option to apply the key change to all staves in the system. If you do not check this option, Overture applies the key change to only the selected staff and other staves remain in their original keys.</span></p>
+<h6 class="rvps14"><span class="rvts0"><span class="rvts22">Transpose Options</span></span></h6>
+<p class="rvps2"><span class="rvts6">Check the </span><span class="rvts12">Transpose</span><span class="rvts6"> option if you want Overture to transpose any music affected by the new key signature automatically.</span></p>
+<p class="rvps2"><span class="rvts6">If you do not check the </span><span class="rvts12">Transpose</span><span class="rvts6"> option, Overture keeps the pitch of the music the same and re-spells the notes as required by the new key signature.</span></p>
+<p class="rvps2"><span class="rvts6">If you check the </span><span class="rvts12">Transpose</span><span class="rvts6"> option, use the </span><span class="rvts12">Up</span><span class="rvts6"> and </span><span class="rvts12">Down</span><span class="rvts6"> radio buttons to tell Overture whether to transpose notes up or down in pitch.</span></p>
+<p class="rvps2"><span class="rvts6">If you transpose a staff that contains chord names, Overture automatically transposes them, as well.</span></p>
+<h6 class="rvps14"><span class="rvts0"><span class="rvts22">Previous Key Cancellation Selection</span></span></h6>
+<p class="rvps2"><span class="rvts6">Use this set of radio buttons to tell Overture how you want it to display key cancellations.</span></p>
+<p class="rvps2"><span class="rvts6">If you click the </span><span class="rvts12">None</span><span class="rvts6"> button, Overture changes keys without showing any cancellations from the previous key.</span></p>
+<p class="rvps2"><span class="rvts6">If you click the </span><span class="rvts12">All</span><span class="rvts6"> button, Overture changes keys and shows all cancellations from the previous key.</span></p>
+<p class="rvps2"><span class="rvts6">If you click the </span><span class="rvts12">Only Changed</span><span class="rvts6"> button, Overture changes keys and shows only those cancellations that are different from the previous key.</span></p>
+<p class="rvps2"><span class="rvts6">If you select either the </span><span class="rvts12">All</span><span class="rvts6"> or </span><span class="rvts12">Only Changed</span><span class="rvts6"> options, you can decide whether or not you want the cancellation placed before or after the barline.</span></p>
+<h6 class="rvps14"><span class="rvts0"><span class="rvts22">System Break Warning Option</span></span></h6>
+<p class="rvps2"><span class="rvts6">Check this option if you want Overture to provide a courtesy key change warning automatically at the end of the previous system if the key change occurs at a system break.</span></p>
+<h6 class="rvps14"><span class="rvts0"><span class="rvts22">Using the Set Key Command</span></span></h6>
+<p class="rvps2"><span class="rvts6">To insert a key signature into a Overture score:</span></p>
+<ol style="text-indent: 0px; margin-left: 48px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Using the Arrow Cursor, click in a measure to make it the active measure. </span></span></li>
+<li value="2" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Choose </span></span><span class="rvts0"><span class="rvts12">Measures&gt;Set Key Signature</span></span><span class="rvts0"><span class="rvts6">.</span></span><br/><span class="rvts0"><span class="rvts6">Overture opens the Set Key Signature dialog box. </span></span></li>
+<li value="3" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Define the desired key signature, then click the </span></span><span class="rvts0"><span class="rvts12">OK</span></span><span class="rvts0"><span class="rvts6"> button.</span></span><br/><span class="rvts0"><span class="rvts6">Overture applies the key signature to the active measure and all remaining measures up to the next key signature change. </span></span></li>
+</ol>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

@@ -1,0 +1,103 @@
+﻿<html>
+	
+<head>
+	<title>Hide/Show Staves</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("HideShowStaves");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Hide/Show Staves</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="OvertureMenus.html">Overture Menus</a> &rsaquo;&rsaquo; <a href="ScoreMenu.html">Score Menu</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="ScoreMenu.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="RecalcLayout.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="TracksMenu.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<p class="rvps2"><span class="rvts6">Choose this command to select which staves are visible in the current system. The current system is the system that contains the insertion point. When you choose </span><span class="rvts12">Score&gt;Hide/Show Staves</span><span class="rvts6">, Overture opens the Hide/Show Staves dialog box.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">You can move the Hide/Show Staves dialog box around the desktop by dragging its title bar.</span></p>
+<h3 class="rvps13"><span class="rvts0"><span class="rvts21">About the Hide/Show Staves Dialog Box</span></span></h3>
+<p class="rvps2"><span class="rvts6">The Hide/Show Staves dialog box selects which tracks to display in the current system. Visible tracks are marked with a check; hidden tracks are not checked. Click the Show column next to the desired track to toggle between visible and hidden.</span></p>
+<h3 class="rvps13"><span class="rvts0"><span class="rvts21">Using the Hide/Show Staves Command</span></span></h3>
+<p class="rvps2"><span class="rvts6">It's</span><span class="rvts6"> common to hide staves when a particular instrument doesn't play for an extended time. For example, you may have a vocal/piano score, but the singer doesn't perform for the first eight measures. Rather than show eight measures of rests, you can hide the singer's staff for the first eight measures. To do so:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Set up your score so that it contains four measure in each of the first two systems.</span></span><br/><span class="rvts0"><span class="rvts6">You can do this using the </span></span><span class="rvts0"><span class="rvts12">Measures&gt;Increase Measures on System</span></span><span class="rvts0"><span class="rvts6"> or </span></span><span class="rvts0"><span class="rvts12">Measures&gt;Decrease Measures on System</span></span><span class="rvts0"><span class="rvts6"> commands or by assign breaks using the </span></span><span class="rvts0"><span class="rvts12">Measures&gt;Breaks</span></span><span class="rvts0"><span class="rvts6"> commands. </span></span></li>
+<li value="2" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Click anywhere in the top system to make it the active system. </span></span></li>
+<li value="3" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Choose </span></span><span class="rvts0"><span class="rvts12">Score&gt;Hide/Show Staves</span></span><span class="rvts0"><span class="rvts6">.</span></span><br/><span class="rvts0"><span class="rvts6">Overture opens the Hide/Show Staves dialog box. </span></span></li>
+<li value="4" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Click the Show column next to the Vocal track to uncheck it. </span></span></li>
+<li value="5" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">At the bottom of the dialog box, type the number </span></span><span class="rvts0"><span class="rvts12">2</span></span><span class="rvts0"><span class="rvts6"> in the </span></span><span class="rvts0"><span class="rvts12">Apply</span></span><span class="rvts0"><span class="rvts6"> </span></span><span class="rvts0"><span class="rvts12">to x systems</span></span><span class="rvts0"><span class="rvts6"> field.</span></span><br/><span class="rvts0"><span class="rvts6">This means you hide this staff in both the active system and the system below it. </span></span></li>
+<li value="6" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Click the </span></span><span class="rvts0"><span class="rvts12">OK</span></span><span class="rvts0"><span class="rvts6"> button. </span></span></li>
+</ol>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Overture hides the vocal staff from the first two systems.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">You can tell Overture to perform part of this procedure automatically. Click the </span><span class="rvts12">Auto Hide</span><span class="rvts6"> check box. Overture automatically hides systems starting at the cursor and continuing for as many systems as you specify in the Apply to x systems box. It does this even though you have the staves marked Show, for any tracks with no data in them.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

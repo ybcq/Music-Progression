@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTNameDocument name="Session Strings">
+  <Version>1</Version>
+  <Author>GenieSoft,Inc.</Author>
+  <Device name="Session Strings" />
+  <ArticulationNames>
+    <Articulation name="Marcato" velocityAdd="10" durationPct="90" />
+    <Articulation name="Marcato Dot" velocityAdd="15" durationPct="50" />
+    <Articulation name="Heavy Attack" velocityAdd="10" durationPct="100" />
+    <Articulation name="SForzando" velocityAdd="20" />
+    <Articulation name="SForzando Dot" velocityAdd="20" durationPct="50" />
+    <Articulation name="Heavier Attack" velocityAdd="20" durationPct="100" />
+    <Articulation name="SForzando Inverted" velocityAdd="20" />
+    <Articulation name="SForzando Dot Inverted" velocityAdd="20" durationPct="50" />
+    <Articulation name="Staccatissimo" velocityAdd="15" durationPct="30" />
+    <Articulation name="Staccato" velocityAdd="15" durationPct="50" />
+    <Articulation name="Tenuto" durationPct="100" />
+    <Articulation name="Up Bow" />
+    <Articulation name="Down Bow" velocityAdd="5" />
+    <Articulation name="Up Bow Inverted" />
+    <Articulation name="Down Bow Inverted" velocityAdd="5" />
+    <Articulation name="Arpeggio" attackFrom="-90" attackTo="0" />
+    <Articulation name="Tremolo Eighths" tremoloNotes="1" />
+    <Articulation name="Tremolo Sixteenths" tremoloNotes="2" />
+    <Articulation name="Tremolo Thirty Seconds" tremoloNotes="3" />
+    <Articulation name="Tremolo Sixty Fourths" tremoloNotes="4" />
+    <Articulation name="pizz" />
+    <Articulation name="arco" durationPct="90" />
+    <Articulation name="legato" durationPct="100" />
+    <ArticulationSwitchList name="Tremolo">
+      <Articulation name="Tremolo Thirty Seconds" tremoloNotes="0" />
+    </ArticulationSwitchList>
+    <ArticulationSwitchList name="Staccato">
+      <Articulation name="Staccato" durationPct="90" />
+      <Articulation name="Staccatissimo" velocityAdd="15" durationPct="50" />
+    </ArticulationSwitchList>
+  </ArticulationNames>
+  <ControllerNames>
+    <Controller name="Modulation" cc="1" />
+    <Controller name="Volume" cc="7" />
+    <Controller name="Panning" cc="10" />
+    <Controller name="Sustain" cc="64" />
+  </ControllerNames>
+  <Instruments>
+    <Menu name="Session Strings">
+      <Section name="Cellos">
+        <Group name="Cellos Pizzicato" clef="bass" title="Cellos" abbr="Vcs." lownote="c2" highnote="g4" Articulation="pizz">
+          <Instrument name="Cellos Pizzicato F" />
+          <Instrument name="Cellos Pizzicato Full" />
+          <Instrument name="Cellos Pizzicato P" />
+        </Group>
+        <Group name="Cellos Staccato" clef="bass" title="Cellos" abbr="Vcs." lownote="c2" highnote="g4" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+          <Instrument name="Cellos Staccato F" />
+          <Instrument name="Cellos Staccato Full" />
+          <Instrument name="Cellos Staccato P" />
+        </Group>
+        <Group name="Cellos Sustain" clef="bass" title="Cellos" abbr="Vcs." lownote="c2" highnote="g4">
+          <Instrument name="Cellos Sustain F NA Rel" />
+          <Instrument name="Cellos Sustain F NA" />
+          <Instrument name="Cellos Sustain F Rel" />
+          <Instrument name="Cellos Sustain F" />
+          <Instrument name="Cellos Sustain Full NA Rel" />
+          <Instrument name="Cellos Sustain Full NA" />
+          <Instrument name="Cellos Sustain Full Rel" />
+          <Instrument name="Cellos Sustain Full" />
+          <Instrument name="Cellos Sustain P NA Rel" />
+          <Instrument name="Cellos Sustain P NA" />
+          <Instrument name="Cellos Sustain P Rel" />
+          <Instrument name="Cellos Sustain P" />
+        </Group>
+        <Group name="Cellos Tremolo" clef="bass" title="Cellos" abbr="Vcs." lownote="c2" highnote="g4" Articulation="Tremolo Thirty Seconds">
+          <UsesArticulationSwitchList name="Tremolo" />
+          <Instrument name="Cellos Tremolo F NA Rel" />
+          <Instrument name="Cellos Tremolo F NA" />
+          <Instrument name="Cellos Tremolo F Rel" />
+          <Instrument name="Cellos Tremolo F" />
+          <Instrument name="Cellos Tremolo Full NA Rel" />
+          <Instrument name="Cellos Tremolo Full NA" />
+          <Instrument name="Cellos Tremolo Full Rel" />
+          <Instrument name="Cellos Tremolo Full" />
+          <Instrument name="Cellos Tremolo P NA Rel" />
+          <Instrument name="Cellos Tremolo P NA" />
+          <Instrument name="Cellos Tremolo P Rel" />
+          <Instrument name="Cellos Tremolo P" />
+        </Group>
+      </Section>
+      <Section name="Contrabass" pitchOffset="-12">
+        <Group name="Contrabass Pizzicato" clef="bass" title="Contrabass" abbr="Dbs." lownote="e1" highnote="g3" Articulation="pizz">
+          <Instrument name="Contrabass Pizzicato F" />
+          <Instrument name="Contrabass Pizzicato Full" />
+          <Instrument name="Contrabass Pizzicato P" />
+        </Group>
+        <Group name="Contrabass Staccato" clef="bass" title="Contrabass" abbr="Dbs." lownote="e1" highnote="g3" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+          <Instrument name="Contrabass Staccato F" />
+          <Instrument name="Contrabass Staccato Full" />
+          <Instrument name="Contrabass Staccato MF" />
+          <Instrument name="Contrabass Staccato P" />
+        </Group>
+        <Group name="Contrabass Sustain" clef="bass" title="Contrabass" abbr="Dbs." lownote="e1" highnote="g3">
+          <Instrument name="Contrabass Sustain F NA Rel" />
+          <Instrument name="Contrabass Sustain F NA" />
+          <Instrument name="Contrabass Sustain F Rel" />
+          <Instrument name="Contrabass Sustain F" />
+          <Instrument name="Contrabass Sustain Full NA Rel" />
+          <Instrument name="Contrabass Sustain Full NA" />
+          <Instrument name="Contrabass Sustain Full Rel" />
+          <Instrument name="Contrabass Sustain Full" />
+          <Instrument name="Contrabass Sustain MF NA Rel" />
+          <Instrument name="Contrabass Sustain MF NA" />
+          <Instrument name="Contrabass Sustain MF Rel" />
+          <Instrument name="Contrabass Sustain MF" />
+          <Instrument name="Contrabass Sustain P NA Rel" />
+          <Instrument name="Contrabass Sustain P NA" />
+          <Instrument name="Contrabass Sustain P Rel" />
+          <Instrument name="Contrabass Sustain P" />
+        </Group>
+        <Group name="Contrabass Tremolo" clef="bass" title="Contrabass" abbr="Dbs." lownote="e1" highnote="g3" Articulation="Tremolo Thirty Seconds">
+          <UsesArticulationSwitchList name="Tremolo" />
+          <Instrument name="Contrabass Tremolo F NA Rel" />
+          <Instrument name="Contrabass Tremolo F NA" />
+          <Instrument name="Contrabass Tremolo F Rel" />
+          <Instrument name="Contrabass Tremolo F" />
+          <Instrument name="Contrabass Tremolo Full NA Rel" />
+          <Instrument name="Contrabass Tremolo Full NA" />
+          <Instrument name="Contrabass Tremolo Full Rel" />
+          <Instrument name="Contrabass Tremolo Full" />
+          <Instrument name="Contrabass Tremolo P NA Rel" />
+          <Instrument name="Contrabass Tremolo P NA" />
+          <Instrument name="Contrabass Tremolo P Rel" />
+          <Instrument name="Contrabass Tremolo P" />
+        </Group>
+      </Section>
+      <Section name="Violas">
+        <Group name="Violas Pizzicato" clef="alto" title="Violas" abbr="Vas." lownote="c3" highnote="g5" Articulation="pizz">
+          <Instrument name="Violas Pizzicato F" />
+          <Instrument name="Violas Pizzicato Full" />
+          <Instrument name="Violas Pizzicato P" />
+        </Group>
+        <Group name="Violas Staccato" clef="alto" title="Violas" abbr="Vas." lownote="c3" highnote="g5" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+          <Instrument name="Violas Staccato F" />
+          <Instrument name="Violas Staccato Full" />
+          <Instrument name="Violas Staccato P" />
+        </Group>
+        <Group name="Violas Sustain" clef="alto" title="Violas" abbr="Vas." lownote="c3" highnote="g5">
+          <Instrument name="Violas Sustain F NA Rel" />
+          <Instrument name="Violas Sustain F NA" />
+          <Instrument name="Violas Sustain F Rel" />
+          <Instrument name="Violas Sustain F" />
+          <Instrument name="Violas Sustain Full NA Rel" />
+          <Instrument name="Violas Sustain Full NA" />
+          <Instrument name="Violas Sustain Full Rel" />
+          <Instrument name="Violas Sustain Full" />
+          <Instrument name="Violas Sustain P NA Rel" />
+          <Instrument name="Violas Sustain P NA" />
+          <Instrument name="Violas Sustain P Rel" />
+          <Instrument name="Violas Sustain P" />
+        </Group>
+        <Group name="Violas Tremolo" clef="alto" title="Violas" abbr="Vas." lownote="c3" highnote="g5" Articulation="Tremolo Thirty Seconds">
+          <UsesArticulationSwitchList name="Tremolo" />
+          <Instrument name="Violas Tremolo F NA Rel" />
+          <Instrument name="Violas Tremolo F NA" />
+          <Instrument name="Violas Tremolo F Rel" />
+          <Instrument name="Violas Tremolo F" />
+          <Instrument name="Violas Tremolo Full NA Rel" />
+          <Instrument name="Violas Tremolo Full NA" />
+          <Instrument name="Violas Tremolo Full Rel" />
+          <Instrument name="Violas Tremolo Full" />
+          <Instrument name="Violas Tremolo P NA Rel" />
+          <Instrument name="Violas Tremolo P NA" />
+          <Instrument name="Violas Tremolo P Rel" />
+          <Instrument name="Violas Tremolo P" />
+        </Group>
+      </Section>
+      <Section name="Violins">
+        <Group name="Violins Pizzicato" clef="treble" title="Violins" abbr="Vns." lownote="g3" highnote="g6" Articulation="pizz">
+          <Instrument name="Violins Pizzicato F" />
+          <Instrument name="Violins Pizzicato Full" />
+          <Instrument name="Violins Pizzicato P" />
+        </Group>
+        <Group name="Violins Staccato" clef="treble" title="Violins" abbr="Vns." lownote="g3" highnote="g6" Articulation="Staccato, Staccatissimo">
+          <UsesArticulationSwitchList name="Staccato" />
+          <Instrument name="Violins Staccato F" />
+          <Instrument name="Violins Staccato Full" />
+          <Instrument name="Violins Staccato P" />
+        </Group>
+        <Group name="Violins Sustain" clef="treble" title="Violins" abbr="Vns." lownote="g3" highnote="g6">
+          <Instrument name="Violins Sustain F NA Rel" />
+          <Instrument name="Violins Sustain F NA" />
+          <Instrument name="Violins Sustain F Rel" />
+          <Instrument name="Violins Sustain F" />
+          <Instrument name="Violins Sustain Full NA Rel" />
+          <Instrument name="Violins Sustain Full NA" />
+          <Instrument name="Violins Sustain Full Rel" />
+          <Instrument name="Violins Sustain Full" />
+          <Instrument name="Violins Sustain P NA Rel" />
+          <Instrument name="Violins Sustain P NA" />
+          <Instrument name="Violins Sustain P Rel" />
+          <Instrument name="Violins Sustain P" />
+        </Group>
+        <Group name="Violins Tremolo" clef="treble" title="Violins" abbr="Vns." lownote="g3" highnote="g6" Articulation="Tremolo Thirty Seconds">
+          <UsesArticulationSwitchList name="Tremolo" />
+          <Instrument name="Violins Tremolo F NA Rel" />
+          <Instrument name="Violins Tremolo F NA" />
+          <Instrument name="Violins Tremolo F Rel" />
+          <Instrument name="Violins Tremolo F" />
+          <Instrument name="Violins Tremolo Full NA Rel" />
+          <Instrument name="Violins Tremolo Full NA" />
+          <Instrument name="Violins Tremolo Full Rel" />
+          <Instrument name="Violins Tremolo Full" />
+          <Instrument name="Violins Tremolo P NA Rel" />
+          <Instrument name="Violins Tremolo P NA" />
+          <Instrument name="Violins Tremolo P Rel" />
+          <Instrument name="Violins Tremolo P" />
+        </Group>
+      </Section>
+    </Menu>
+  </Instruments>
+</VSTNameDocument>

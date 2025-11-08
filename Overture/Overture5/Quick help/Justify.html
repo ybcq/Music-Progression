@@ -1,0 +1,102 @@
+﻿<html>
+	
+<head>
+	<title>Justify</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("Justify");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Justify</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="OvertureMenus.html">Overture Menus</a> &rsaquo;&rsaquo; <a href="MeasuresMenu.html">Measures Menu</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="MeasuresMenu.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="FillRests.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="NotesMenu.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<h6 class="rvps14"><span class="rvts0"><span class="rvts22">Measures&gt;Justify</span></span></h6>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">When you choose this command, Overture calculates the pulses in the measure based on the note values contained in the measure(s) and on the spacings assigned to them internally.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Justifying a measure causes the notes within it to change their relative spacings. This greatly improves legibility, though some collision of note heads may still occur since this command does not change the width of a measure, only the spacing of notes within it. To re flow measures with the new widths, use the </span><span class="rvts12">Score-&gt;Recalc Layout</span><span class="rvts6"> command.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">To justify notes in a measure:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ol style="text-indent: 0px; margin-left: 48px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Find the measure(s) you wish to justify. </span></span></li>
+<li value="2" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Activate the measure you wish to justify by clicking a blank space within it.</span></span><br/><span class="rvts0"><span class="rvts6"></span></span><br/><span class="rvts0"><span class="rvts6">If you wish to justify many measures simultaneously, simply select all the measures you wish to justify and choose this command.</span></span><br/><span class="rvts0"><span class="rvts6"><br/></span></span></li>
+<li value="3" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">3. Choose </span></span><span class="rvts0"><span class="rvts12">Measure&gt;Justify</span></span><span class="rvts0"><span class="rvts6">. </span></span></li>
+</ol>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Overture calculates pulses based on the note values and the spacing assigned internally.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">To protect a measure from the Measures&gt;Justify command, see </span><a class="rvts11" href="Lock.html">Locked Measures</a><span class="rvts6">.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Overture can automatically space notes using either</span><span class="rvts12"> Measures&gt;Justify, </span><span class="rvts6">and</span><span class="rvts12"> Score&gt;Recalc Layout </span><span class="rvts6">to re-flow the measures. These commands affect note spacing differently. To learn the differences between them, see </span><a class="rvts11" href="AdjustingNoteSpacing.html">Automatic Positioning</a><span class="rvts6">.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

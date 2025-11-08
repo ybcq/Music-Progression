@@ -1,0 +1,169 @@
+<VSTNameDocument>
+	<Version>1</Version>
+	<Author>GenieSoft,Inc.</Author>
+
+	<Device name="the Abstract Guitar" usesPatchNames="1" firstPatchNumber="0"> 
+
+		<ControllerNames>				
+ 			<Controller name="User Defined" cc="0"/>
+			<Controller name="Volume" cc="7"/>
+			<Controller name="Panning" cc="10"/>
+		</ControllerNames>
+ 		
+		<Instruments>
+			<Section name="Default Presets" title="Guitar" abbr="Gtr." lownote="c-1" highnote="c9" clef="treble">
+				
+				<Group name="Presets 1-20" title="Guitar" abbr="Gtr." lownote="c-1" highnote="c9" clef="treble">
+					<Instrument name="Fine Guitar 8k" prgChg="1"/>
+					<Instrument name="Hollow" prgChg="2"/>
+					<Instrument name="Hard Rock"  prgChg="3"/>
+					<Instrument name="Vintage" prgChg="4"/>
+					<Instrument name="Extra Nice"  prgChg="5"/>
+					<Instrument name="Muted Hall"  prgChg="6"/>
+					<Instrument name="Fuzz City"  prgChg="7"/>
+					<Instrument name="Lead Two" prgChg="8"/>
+					<Instrument name="Some Guitar" prgChg="9"/>
+					<Instrument name="Clean FM" prgChg="10"/>
+					<Instrument name="Super Nice" prgChg="11"/>
+					<Instrument name="Nasty" prgChg="12"/>
+					<Instrument name="Koto 2k" prgChg="13"/>
+					<Instrument name="Future FX" prgChg="14"/>
+					<Instrument name="eXpressive" prgChg="15"/>
+					<Instrument name="Mr Oz" prgChg="16"/>
+					<Instrument name="Lower Key" prgChg="17"/>
+					<Instrument name="Otos FM" prgChg="18"/>
+					<Instrument name="Try Harder" prgChg="19"/>
+					<Instrument name="Electric Banjo" prgChg="20"/>
+				</Group>
+				
+				<Group name="Presets 21-40" title="Guitar" abbr="Gtr." lownote="c-1" highnote="c9" clef="treble">
+					<Instrument name="Too Bright"  prgChg="21"/>
+					<Instrument name="Expo Banjo" prgChg="22"/>
+					<Instrument name="Rezonance" prgChg="23"/>
+					<Instrument name="Vel Rez" prgChg="24"/>
+					<Instrument name="Old Rock" prgChg="25"/>
+					<Instrument name="Stroke" prgChg="26"/>
+					<Instrument name="Pep Rock"  prgChg="27"/>
+					<Instrument name="Velocity X" prgChg="28"/>
+					<Instrument name="Clean Jazz"  prgChg="29"/>
+					<Instrument name="Belissima"  prgChg="30"/>
+					<Instrument name="Far Bells"  prgChg="31"/>
+					<Instrument name="La String" prgChg="32"/>
+					<Instrument name="Delay Eh" prgChg="33"/>
+					<Instrument name="Clean FM 2" prgChg="34"/>
+					<Instrument name="Space Dudes" prgChg="35"/>
+					<Instrument name="Deep End" prgChg="36"/>
+					<Instrument name="Rock Again" prgChg="37"/>
+					<Instrument name="Rock and Rock" prgChg="38"/>
+					<Instrument name="W Feed" prgChg="39"/>
+					<Instrument name="the Power one" prgChg="40"/>
+				</Group>
+				
+				<Group name="Presets 41-60" title="Guitar" abbr="Gtr." lownote="c-1" highnote="c9" clef="treble">
+					<Instrument name="Banjozoyd" prgChg="41"/>
+					<Instrument name="Wah 11" prgChg="42"/>
+					<Instrument name="Hit" prgChg="43"/>
+					<Instrument name="Strumming" prgChg="44"/>
+					<Instrument name="Toy Piano"  prgChg="45"/>
+					<Instrument name="New Age Theme" prgChg="46"/>
+					<Instrument name="Sync Lead" prgChg="47"/>
+					<Instrument name="Power Guitar" prgChg="48"/>
+					<Instrument name="Resonant Clean" prgChg="49"/>
+					<Instrument name="Bouncing Harp" prgChg="50"/>
+					<Instrument name="Banjo"  prgChg="51"/>
+					<Instrument name="Synthetica" prgChg="52"/>
+					<Instrument name="Arpeggiator Use"  prgChg="53"/>
+					<Instrument name="Odd Sides"  prgChg="54"/>
+					<Instrument name="Silly Philly"  prgChg="55"/>
+					<Instrument name="Rezo Pit" prgChg="56"/>
+					<Instrument name="Ultra Metal" prgChg="57"/>
+					<Instrument name="Deef Tones" prgChg="58"/>
+					<Instrument name="Starway" prgChg="59"/>
+					<Instrument name="FM Tubes" prgChg="60"/>
+				</Group>
+				
+				<Group name="Presets 61-80" title="Guitar" abbr="Gtr." lownote="c-1" highnote="c9" clef="treble">
+					<Instrument name="Late Movie" prgChg="61"/>
+					<Instrument name="Clean FM 88" prgChg="62"/>
+					<Instrument name="Caves HU 4k" prgChg="63"/>
+					<Instrument name="Ken Guitar" prgChg="64"/>
+					<Instrument name="Starter Guitar" prgChg="65"/>
+					<Instrument name="Sittar" prgChg="66"/>
+					<Instrument name="La Piano 24" prgChg="67"/>
+					<Instrument name="La Harpish" prgChg="68"/>
+					<Instrument name="Vader and Me"  prgChg="69"/>
+					<Instrument name="Clavia" prgChg="70"/>
+					<Instrument name="4 Pedals" prgChg="71"/>
+					<Instrument name="Analog X" prgChg="72"/>
+					<Instrument name="Dist Rock" prgChg="73"/>
+					<Instrument name="Effective" prgChg="74"/>
+					<Instrument name="Slap It" prgChg="75"/>
+					<Instrument name="Jazz Two" prgChg="76"/>
+					<Instrument name="La Core" prgChg="77"/>
+					<Instrument name="Ed Core" prgChg="78"/>
+					<Instrument name="Open Harp"  prgChg="79"/>
+					<Instrument name="PM free rule" prgChg="80"/>
+				</Group>
+				
+				<Group name="Presets 81-100" title="Guitar" abbr="Gtr." lownote="c-1" highnote="c9" clef="treble">
+					<Instrument name="Anti Drone" prgChg="81"/>
+					<Instrument name="MadrigalE 1" prgChg="82"/>
+					<Instrument name="Sweeping Chords" prgChg="83"/>
+					<Instrument name="Ethnic 1" prgChg="84"/>
+					<Instrument name="Ethnic 2"  prgChg="85"/>
+					<Instrument name="Harpsi Rock" prgChg="86"/>
+					<Instrument name="Bowed Guitar"  prgChg="87"/>
+					<Instrument name="Keep That Going"  prgChg="88"/>
+					<Instrument name="Acibasset"  prgChg="89"/>
+					<Instrument name="Bell and Chain" prgChg="90"/>
+					<Instrument name="Strings for Ice" prgChg="91"/>
+					<Instrument name="Dynatron Kit" prgChg="92"/>
+					<Instrument name="Madrigale 2" prgChg="93"/>
+					<Instrument name="Far Away" prgChg="94"/>
+					<Instrument name="Distortion 92" prgChg="95"/>
+					<Instrument name="Feedback Hall" prgChg="96"/>
+					<Instrument name="Octave 92" prgChg="97"/>
+					<Instrument name="Echo Guitar" prgChg="98"/>
+					<Instrument name="Fast 5ths" prgChg="99"/>
+					<Instrument name="Arpegio Guitar" prgChg="100"/>
+				</Group>
+				
+				<Group name="Presets 101-127" title="Guitar" abbr="Gtr." lownote="c-1" highnote="c9" clef="treble">
+					<Instrument name="Lead Zz" prgChg="101"/>
+					<Instrument name="Awava" prgChg="102"/>
+					<Instrument name="Spike Hit"  prgChg="103"/>
+					<Instrument name="Ultra Impulse" prgChg="104"/>
+					<Instrument name="FM Waves" prgChg="105"/>
+					<Instrument name="Slow Attack" prgChg="106"/>
+					<Instrument name="Ultra Grunge" prgChg="107"/>
+					<Instrument name="Repeated FM" prgChg="108"/>
+					<Instrument name="Solo Lead 192"  prgChg="109"/>
+					<Instrument name="Low Simple Wires" prgChg="110"/>
+					<Instrument name="Board Ring 88"  prgChg="111"/>
+					<Instrument name="Velocity Keys 88"  prgChg="112"/>
+					<Instrument name="Piano Strokes"  prgChg="113"/>
+					<Instrument name="Guita Violao" prgChg="114"/>
+					<Instrument name="Impulse Pulse" prgChg="115"/>
+					<Instrument name="Power 88" prgChg="116"/>
+					<Instrument name="Mexican Style" prgChg="117"/>
+					<Instrument name="Dead Tone" prgChg="118"/>
+					<Instrument name="Small Guys" prgChg="119"/>
+					<Instrument name="Hard Life" prgChg="120"/>
+					<Instrument name="Power FX" prgChg="121"/>
+					<Instrument name="Metalic Dist" prgChg="122"/>
+					<Instrument name="Analog World" prgChg="123"/>
+					<Instrument name="Multi Sounds" prgChg="124"/>
+					<Instrument name="Multi Sounds II" prgChg="125"/>
+					<Instrument name="Another FM" prgChg="126"/>
+					<Instrument name="Pure Rock"  prgChg="127"/>
+				</Group>
+			
+			</Section>
+			
+			<Section name="User Presets" clef="treble">
+			</Section>
+		
+		</Instruments>
+	</Device>
+
+</VSTNameDocument>

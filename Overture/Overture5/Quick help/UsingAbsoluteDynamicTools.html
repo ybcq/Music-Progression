@@ -1,0 +1,129 @@
+﻿<html>
+	
+<head>
+	<title>Using Absolute Dynamic Tools</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("UsingAbsoluteDynamicTools");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Using Absolute Dynamic Tools</h1>
+				
+				</div>
+			<div id="topic_header_nav">
+				<a href="EditHairpinDialog.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="UsingCrescendosandDecrescendos.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<p class="rvps2"><span class="rvts6">The following sections discuss how to insert, copy, and edit dynamic markings and how to define MIDI playback of the markings.</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Inserting Dynamic Markings</span></p>
+<p class="rvps2"><span class="rvts6">To insert an absolute dynamic marking:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Select the desired absolute dynamics tool from the Dynamics palette.</span></span><br/><span class="rvts0"><span class="rvts6">The cursor becomes a crosshair pointer when you move it over the Score View. </span></span></li>
+<li value="2" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Position the cursor at the point where you wish to insert the dynamic marking and click.</span></span><br/><span class="rvts0"><span class="rvts6">Overture places the selected dynamic marking at that point. </span></span></li>
+</ol>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">To insert a dynamic mark into all displayed staves in a system:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Select the desired absolute dynamics tool from the Dynamics palette. </span></span></li>
+<li value="2" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Ctrl[</span></span><span class="rvts0"><span class="rvts13">Cmd</span></span><span class="rvts0"><span class="rvts6">]-click the score. </span></span></li>
+</ol>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Overture adds the selected dynamic mark to all displayed staves in the system.</span></p>
+<p class="rvps2"><span class="rvts6">To insert a dynamic mark into all displayed staves in a system as long as they have notes in that measure:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Select the desired absolute dynamics tool from the Dynamics palette. </span></span></li>
+<li value="2" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Alt[</span></span><span class="rvts0"><span class="rvts13">Option</span></span><span class="rvts0"><span class="rvts6">]-click the score. </span></span></li>
+</ol>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Overture adds the selected dynamic mark to all displayed staves in the system as long as that measure has notes in it.</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Repositioning Dynamic Markings</span></p>
+<p class="rvps2"><span class="rvts6">To reposition a dynamics mark:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ol style="text-indent: 0px; margin-left: 48px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Click the Arrow Cursor button to select the Arrow Cursor (or type C or Esc on the keyboard). </span></span></li>
+<li value="2" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Drag the desired symbol to its new location. </span></span></li>
+</ol>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Shift-click to select more than one dynamic mark.</span></p>
+<p class="rvps2"><span class="rvts6">Shift-drag to constrain movement to the horizontal or vertical direction (whichever way you first move the mouse when beginning to drag).</span></p>
+<p class="rvps2"><span class="rvts6">You can select dynamics, as well as text,</span><span class="rvts37"> hairpins</span><span class="rvts6">, repeats, and chords, as a group and then drag them all to a new position.</span></p>
+<p class="rvps2"><span class="rvts6">You can drag dynamics anywhere, but they retain their track assignments. To change the track assignments, delete and reinsert them.</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Copying Dynamic Markings</span></p>
+<p class="rvps2"><span class="rvts6">To copy a dynamics mark:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Click the Arrow Cursor button to select the Arrow Cursor (or type </span></span><span class="rvts0"><span class="rvts12">c</span></span><span class="rvts0"><span class="rvts6"> on the keyboard). </span></span></li>
+<li value="2" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Ctrl[</span></span><span class="rvts0"><span class="rvts13">Cmd</span></span><span class="rvts0"><span class="rvts6">]-drag to copy the desired symbol and move the copy to another place. </span></span></li>
+</ol>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Shift-click to select more than one dynamic mark on the same track. </span></p>
+<p class="rvps2"><span class="rvts6">Shift-Ctrl[</span><span class="rvts13">Cmd</span><span class="rvts6">]-drag to constrain movement to the horizontal or vertical direction (whichever way you first move the mouse when beginning to drag).</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

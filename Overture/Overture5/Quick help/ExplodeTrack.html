@@ -1,0 +1,135 @@
+﻿<html>
+	
+<head>
+	<title>Explode Track</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("ExplodeTrack");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Explode Track</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="OvertureMenus.html">Overture Menus</a> &rsaquo;&rsaquo; <a href="TracksMenu.html">Tracks Menu</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="TracksMenu.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="RemapPlayback.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="MeasuresMenu.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<p class="rvps2"><span class="rvts6">Choose this command to open the Explode Track dialog.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NewItem241.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Note</span><span class="rvts6">: Explode Track is only enabled when entire measures on a single track are selected. This is done by double clicking on a measure or to select the entire track, double click just before the left edge bar line of any track.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">The Explode Track dialog displays a list of options for exploding one track into several new tracks.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Split track into __ staves using clefs _____</span></p>
+<p class="rvps2"><span class="rvts6">The first number determines how many resultant tracks to use in exploding notes. The second field contains clef numbers for each resultant track. 0 - treble, 1 - bass, 2 - alto, 3 - tenor. If you leave this blank the current track's clef will be used. Eg. The pattern 02 would result in a treble clef track (0) and an alto clef track (2).</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">One note per staff</span></p>
+<p class="rvps2"><span class="rvts6">Check this box to make sure each track receives only one note. Any extra notes will then be distributed according to the Place extra notes settings.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Explode direction from</span></p>
+<p class="rvps2"><span class="rvts6">Set these options to determine how the notes will be placed on resultant tracks.</span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts6">Top to bottom - notes are taken from the chord from top to bottom.</span></li>
+<li class="rvps2"><span class="rvts6">Bottom to top - notes are taken from the chord from bottom to top.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Place extra notes</span></p>
+<p class="rvps2"><span class="rvts6">Use these options when there are more notes in a chord than the resultant tracks. For example, a three note chord, with two resultant track would leave one note. These settings tell Overture what to do with the remaining note.</span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts6">In top staff - any remaining notes will be placed in the top staff.</span></li>
+<li class="rvps2"><span class="rvts6">In bottom staff - any remaining notes will be placed in the bottom staff.</span></li>
+<li class="rvps2"><span class="rvts6">Discard - any remaining notes will be deleted.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Place music into</span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts6">These option tell Overture where to distribute the exploded notes. </span></li>
+<li class="rvps2"><span class="rvts6">Newly added staves above - Tells Overture to create new tracks above the current track</span></li>
+<li class="rvps2"><span class="rvts6">Newly added staves below - Tells Overture to create new tracks below current track </span></li>
+<li class="rvps2"><span class="rvts6">Existing staves starting at - Tells Overture to use existing tracks at the selected track from the pop-up menu.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">To explode the following two measures into two tracks:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NewItem237.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" class="rvps2"><span class="rvts6">Select the first measure by double clicking on empty space.</span></li>
+<li value="2" class="rvps2"><span class="rvts6">Extend the selected range by holding down the shift key and double clicking on empty space in the the second measure.</span></li>
+<li value="3" class="rvps2"><span class="rvts6">Choose Tracks&gt;Explode Track... menu option.</span></li>
+<li value="4" class="rvps2"><span class="rvts6">The dialog above appears.</span></li>
+<li value="5" class="rvps2"><span class="rvts6">Click on </span><span class="rvts12">Done</span><span class="rvts6"> and two additional tracks will be added below and the notes will be split onto the tracks.</span></li>
+</ol>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NewItem239.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

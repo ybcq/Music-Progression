@@ -1,0 +1,3825 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTNameDocument name="Proteus X VSTi">
+  <Version>1</Version>
+  <Author>GenieSoft,Inc.</Author>
+  <Device name="Proteus X VSTi" />
+  <ArticulationNames>
+    <Articulation name="Marcato" velocityAdd="30" />
+    <Articulation name="Marcato Dot" velocityAdd="30" durationPct="50" />
+    <Articulation name="Heavy Attack" velocityAdd="30" durationPct="100" />
+    <Articulation name="SForzando" velocityAdd="40" />
+    <Articulation name="SForzando Dot" velocityAdd="40" durationPct="50" />
+    <Articulation name="Heavier Attack" velocityAdd="40" durationPct="50" />
+    <Articulation name="SForzando Inverted" velocityAdd="40" />
+    <Articulation name="SForzando Dot Inverted" velocityAdd="40" durationPct="50" />
+    <Articulation name="Staccatissimo" velocityAdd="15" durationPct="50" />
+    <Articulation name="Staccato" velocityAdd="15" durationPct="80" />
+    <Articulation name="Tenuto" durationPct="100" />
+    <Articulation name="Up Bow" />
+    <Articulation name="Down Bow" velocityAdd="20" />
+    <Articulation name="Up Bow Inverted" />
+    <Articulation name="Down Bow Inverted" velocityAdd="20" />
+    <Articulation name="Arpeggio" attackFrom="-90" attackTo="0" />
+    <Articulation name="Tremolo Eighths" tremoloNotes="1" />
+    <Articulation name="Tremolo Sixteenths" tremoloNotes="2" />
+    <Articulation name="Tremolo Thirty Seconds" tremoloNotes="3" />
+    <Articulation name="Tremolo Sixty Fourths" tremoloNotes="4" />
+    <Articulation name="pizz" durationPct="50" />
+    <Articulation name="arco" durationPct="90" />
+    <ArticulationSwitchList name="AllFlx Strings">
+      <Articulation name="Staccato" keySwitch="F(x)" />
+      <Articulation name="Staccatissimo" keySwitch="F(x)" velocityAdd="15" durationPct="50" />
+      <Articulation name="Tenuto" keySwitch="C(x)" durationPct="100" />
+      <Articulation name="Heavy Attack" keySwitch="C(x)" velocityAdd="30" durationPct="100" />
+    </ArticulationSwitchList>
+    <ArticulationSwitchList name="Strings">
+      <Articulation name="Staccato" keySwitch="D(x)" />
+      <Articulation name="Staccatissimo" keySwitch="D(x)" velocityAdd="15" durationPct="50" />
+      <Articulation name="Tenuto" keySwitch="C(x)" durationPct="100" />
+      <Articulation name="Heavy Attack" keySwitch="C(x)" velocityAdd="30" durationPct="100" />
+      <Articulation name="pizz" keySwitch="D#(x)" />
+    </ArticulationSwitchList>
+    <ArticulationSwitchList name="Strings All Flex">
+      <Articulation name="Staccato" keySwitch="C#(x)" />
+      <Articulation name="Staccatissimo" keySwitch="C#(x)" velocityAdd="15" durationPct="50" />
+      <Articulation name="Tenuto" keySwitch="C(x)" durationPct="100" />
+      <Articulation name="Heavy Attack" keySwitch="C(x)" velocityAdd="30" durationPct="100" />
+      <Articulation name="pizz" keySwitch="D#(x)" />
+    </ArticulationSwitchList>
+    <ArticulationSwitchList name="Small Brass">
+      <Articulation name="Staccato" keySwitch="D(x)" />
+      <Articulation name="Staccatissimo" keySwitch="D(x)" velocityAdd="15" durationPct="50" />
+      <Articulation name="Tenuto" keySwitch="C(x)" durationPct="100" />
+      <Articulation name="Heavy Attack" keySwitch="C(x)" velocityAdd="30" durationPct="100" />
+    </ArticulationSwitchList>
+    <ArticulationSwitchList name="Small Brass All Flex">
+      <Articulation name="Staccato" keySwitch="D(x)" />
+      <Articulation name="Staccatissimo" keySwitch="D(x)" velocityAdd="15" durationPct="50" />
+      <Articulation name="Tenuto" keySwitch="C(x)" durationPct="100" />
+      <Articulation name="Heavy Attack" keySwitch="C(x)" velocityAdd="30" durationPct="100" />
+      <Articulation name="Heavier Attack" keySwitch="D#(x)" velocityAdd="40" durationPct="50" />
+      <Articulation name="Marcato" keySwitch="D#(x)" velocityAdd="30" />
+      <Articulation name="Marcato Dot" keySwitch="D#(x)" velocityAdd="30" durationPct="50" />
+    </ArticulationSwitchList>
+    <ArticulationSwitchList name="Large Brass">
+      <Articulation name="Staccato" keySwitch="C#(x)" />
+      <Articulation name="Staccatissimo" keySwitch="C#(x)" velocityAdd="15" durationPct="50" />
+      <Articulation name="Tenuto" keySwitch="C(x)" durationPct="100" />
+      <Articulation name="Heavy Attack" keySwitch="C(x)" velocityAdd="30" durationPct="100" />
+    </ArticulationSwitchList>
+    <ArticulationSwitchList name="Large Brass All Flex">
+      <Articulation name="Staccato" keySwitch="C#(x)" />
+      <Articulation name="Staccatissimo" keySwitch="C#(x)" velocityAdd="15" durationPct="50" />
+      <Articulation name="Tenuto" keySwitch="C(x)" durationPct="100" />
+      <Articulation name="Heavy Attack" keySwitch="C(x)" velocityAdd="30" durationPct="100" />
+      <Articulation name="Heavier Attack" keySwitch="D(x)" velocityAdd="40" durationPct="50" />
+      <Articulation name="Marcato" keySwitch="D(x)" velocityAdd="30" />
+      <Articulation name="Marcato Dot" keySwitch="D(x)" velocityAdd="30" durationPct="50" />
+    </ArticulationSwitchList>
+    <ArticulationSwitchList name="Trumpet">
+      <Articulation name="Staccato" keySwitch="C#(x)" />
+      <Articulation name="Staccatissimo" keySwitch="C#(x)" velocityAdd="15" durationPct="50" />
+      <Articulation name="Tenuto" keySwitch="C(x)" durationPct="100" />
+      <Articulation name="Heavy Attack" keySwitch="C(x)" velocityAdd="30" durationPct="100" />
+    </ArticulationSwitchList>
+    <ArticulationSwitchList name="Trumpet All Flex">
+      <Articulation name="Staccato" keySwitch="C#(x)" />
+      <Articulation name="Staccatissimo" keySwitch="C#(x)" velocityAdd="15" durationPct="50" />
+      <Articulation name="Tenuto" keySwitch="C(x)" durationPct="100" />
+      <Articulation name="Heavy Attack" keySwitch="C(x)" velocityAdd="30" durationPct="100" />
+      <Articulation name="Heavier Attack" keySwitch="D(x)" velocityAdd="40" durationPct="50" />
+      <Articulation name="Marcato" keySwitch="D(x)" velocityAdd="30" />
+      <Articulation name="Marcato Dot" keySwitch="D(x)" velocityAdd="30" durationPct="50" />
+    </ArticulationSwitchList>
+    <ArticulationSwitchList name="Bassoons">
+      <Articulation name="Staccato" keySwitch="D(x)" />
+      <Articulation name="Staccatissimo" keySwitch="D(x)" velocityAdd="15" durationPct="50" />
+      <Articulation name="Tenuto" keySwitch="C(x)" durationPct="100" />
+      <Articulation name="Heavy Attack" keySwitch="C(x)" velocityAdd="30" durationPct="100" />
+    </ArticulationSwitchList>
+    <ArticulationSwitchList name="Clarinet">
+      <Articulation name="Staccato" keySwitch="D(x)" />
+      <Articulation name="Staccatissimo" keySwitch="D(x)" velocityAdd="15" durationPct="50" />
+      <Articulation name="Tenuto" keySwitch="C#(x)" durationPct="100" />
+      <Articulation name="Heavy Attack" keySwitch="C#(x)" velocityAdd="30" durationPct="100" />
+      <Articulation name="Heavier Attack" keySwitch="C(x)" velocityAdd="40" durationPct="50" />
+      <Articulation name="Marcato" keySwitch="C(x)" velocityAdd="30" />
+      <Articulation name="Marcato Dot" keySwitch="C(x)" velocityAdd="30" durationPct="50" />
+    </ArticulationSwitchList>
+    <ArticulationSwitchList name="Flute">
+      <Articulation name="Staccato" keySwitch="C#(x)" />
+      <Articulation name="Staccatissimo" keySwitch="C#(x)" velocityAdd="15" durationPct="50" />
+      <Articulation name="Tenuto" keySwitch="C(x)" durationPct="100" />
+      <Articulation name="Heavy Attack" keySwitch="C(x)" velocityAdd="30" durationPct="100" />
+    </ArticulationSwitchList>
+    <ArticulationSwitchList name="Staccato MW Switch">
+      <Articulation name="Staccato" ctrlNum="1" ctrlValue="80" />
+      <Articulation name="Staccatissimo" ctrlNum="1" ctrlValue="80" velocityAdd="15" durationPct="50" />
+      <Articulation name="Tenuto" ctrlNum="1" ctrlValue="0" durationPct="100" />
+      <Articulation name="Heavy Attack" ctrlNum="1" ctrlValue="0" velocityAdd="30" durationPct="100" />
+    </ArticulationSwitchList>
+    <ArticulationSwitchList name="Pizz MW Switch">
+      <Articulation name="pizz" ctrlNum="1" ctrlValue="80" />
+    </ArticulationSwitchList>
+    <ArticulationSwitchList name="LV to Det to Stacc MW Switch">
+      <Articulation name="Staccato" ctrlNum="1" ctrlValue="110" />
+      <Articulation name="Staccatissimo" ctrlNum="1" ctrlValue="110" velocityAdd="15" durationPct="50" />
+      <Articulation name="Tenuto" ctrlNum="1" ctrlValue="0" durationPct="100" />
+      <Articulation name="Heavy Attack" ctrlNum="1" ctrlValue="0" velocityAdd="30" durationPct="100" />
+    </ArticulationSwitchList>
+    <ArticulationSwitchList name="Det to LV to Piz MW Switch">
+      <Articulation name="pizz" ctrlNum="1" ctrlValue="110" />
+      <Articulation name="Tenuto" ctrlNum="1" ctrlValue="80" durationPct="100" />
+      <Articulation name="Heavy Attack" ctrlNum="1" ctrlValue="80" velocityAdd="30" durationPct="100" />
+    </ArticulationSwitchList>
+    <ArticulationSwitchList name="Det to LV to Stacc MW Switch">
+      <Articulation name="Staccato" ctrlNum="1" ctrlValue="110" />
+      <Articulation name="Staccatissimo" ctrlNum="1" ctrlValue="110" velocityAdd="15" durationPct="50" />
+      <Articulation name="Tenuto" ctrlNum="1" ctrlValue="80" durationPct="100" />
+      <Articulation name="Heavy Attack" ctrlNum="1" ctrlValue="80" velocityAdd="30" durationPct="100" />
+    </ArticulationSwitchList>
+  </ArticulationNames>
+  <KeySwitchNames>
+    <KeySwitchList name="AllFlx Strings">
+      <KeySwitch name="Sustain Up/Dn" key="c(x)" />
+      <KeySwitch name="Detache Up/Dn" key="c#(x)" />
+      <KeySwitch name="Detache Dn/Up" key="d(x)" />
+      <KeySwitch name="Detache Trp 1" key="d#(x)" />
+      <KeySwitch name="Detache Trp 2" key="e(x)" />
+      <KeySwitch name="Staccato Up/Dn" key="f(x)" />
+      <KeySwitch name="Staccato Dn/Up" key="f#(x)" />
+      <KeySwitch name="Staccato Trp 1" key="g(x)" />
+      <KeySwitch name="Staccato Trp 2" key="g#(x)" />
+    </KeySwitchList>
+    <KeySwitchList name="StcFlx Strings">
+      <KeySwitch name="Staccato Up/Dn" key="c(x)" />
+      <KeySwitch name="Staccato Dn/Up" key="c#(x)" />
+      <KeySwitch name="Staccato Trp 1" key="d(x)" />
+      <KeySwitch name="Staccato Trp 2" key="d#(x)" />
+    </KeySwitchList>
+    <KeySwitchList name="DetFlx Strings">
+      <KeySwitch name="Detache Up/Dn" key="c(x)" />
+      <KeySwitch name="Detache Dn/Up" key="c#(x)" />
+      <KeySwitch name="Detache Trp 1" key="d(x)" />
+      <KeySwitch name="Detache Trp 2" key="d#(x)" />
+    </KeySwitchList>
+    <KeySwitchList name="PizFlx Strings">
+      <KeySwitch name="Pizzicato Flx" key="c(x)" />
+      <KeySwitch name="Pizzicato Dbl 1" key="c#(x)" />
+      <KeySwitch name="Pizzicato Dbl 2" key="d(x)" />
+      <KeySwitch name="Pizzicato Trp 1" key="d#(x)" />
+      <KeySwitch name="Pizzicato Trp 2" key="e(x)" />
+      <KeySwitch name="Pizzicato Qdp" key="f(x)" />
+    </KeySwitchList>
+    <KeySwitchList name="SusFlx">
+      <KeySwitch name="Sustain Flx" key="c(x)" />
+      <KeySwitch name="Sustain Dbl 1" key="c#(x)" />
+      <KeySwitch name="Sustain Dbl 2" key="d(x)" />
+      <KeySwitch name="Sustain Trp 1" key="d#(x)" />
+      <KeySwitch name="Sustain Trp 2" key="e(x)" />
+      <KeySwitch name="Sustain Qdp" key="f(x)" />
+    </KeySwitchList>
+    <KeySwitchList name="LegFlx">
+      <KeySwitch name="Legato Flx" key="c(x)" />
+      <KeySwitch name="Legato Dbl 1" key="c#(x)" />
+      <KeySwitch name="Legato Dbl 2" key="d(x)" />
+      <KeySwitch name="Legato Trp 1" key="d#(x)" />
+      <KeySwitch name="Legato Trp 2" key="e(x)" />
+      <KeySwitch name="Legato Qdp" key="f(x)" />
+    </KeySwitchList>
+    <KeySwitchList name="HrdFlx">
+      <KeySwitch name="Hard Flx" key="c(x)" />
+      <KeySwitch name="Hard Dbl 1" key="c#(x)" />
+      <KeySwitch name="Hard Dbl 2" key="d(x)" />
+      <KeySwitch name="Hard Trp 1" key="d#(x)" />
+      <KeySwitch name="Hard Trp 2" key="e(x)" />
+      <KeySwitch name="Hard Qdp" key="f(x)" />
+    </KeySwitchList>
+    <KeySwitchList name="SwFlx">
+      <KeySwitch name="Swell Flx" key="c(x)" />
+      <KeySwitch name="Swell Dbl 1" key="c#(x)" />
+      <KeySwitch name="Swell Dbl 2" key="d(x)" />
+      <KeySwitch name="Swell Trp 1" key="d#(x)" />
+      <KeySwitch name="Swell Trp 2" key="e(x)" />
+      <KeySwitch name="Swell Qdp" key="f(x)" />
+    </KeySwitchList>
+    <KeySwitchList name="VibSwFlx">
+      <KeySwitch name="Vibrato Swell Flx" key="c(x)" />
+      <KeySwitch name="Vibrato Swell Dbl 1" key="c#(x)" />
+      <KeySwitch name="Vibrato Swell Dbl 2" key="d(x)" />
+      <KeySwitch name="Vibrato Swell Trp 1" key="d#(x)" />
+      <KeySwitch name="Vibrato Swell Trp 2" key="e(x)" />
+      <KeySwitch name="Vibrato Swell Qdp" key="f(x)" />
+    </KeySwitchList>
+    <KeySwitchList name="NoVibFlx">
+      <KeySwitch name="Non-Vibrato Flx" key="c(x)" />
+      <KeySwitch name="Non-Vibrato Dbl 1" key="c#(x)" />
+      <KeySwitch name="Non-Vibrato Dbl 2" key="d(x)" />
+      <KeySwitch name="Non-Vibrato Trp 1" key="d#(x)" />
+      <KeySwitch name="Non-Vibrato Trp 2" key="e(x)" />
+      <KeySwitch name="Non-Vibrato Qdp" key="f(x)" />
+    </KeySwitchList>
+    <KeySwitchList name="DvFlx">
+      <KeySwitch name="Delayed Vibrato Flx" key="c(x)" />
+      <KeySwitch name="Delayed Vibrato Dbl 1" key="c#(x)" />
+      <KeySwitch name="Delayed Vibrato Dbl 2" key="d(x)" />
+      <KeySwitch name="Delayed Vibrato Trp 1" key="d#(x)" />
+      <KeySwitch name="Delayed Vibrato Trp 2" key="e(x)" />
+      <KeySwitch name="Delayed Vibrato Qdp" key="f(x)" />
+    </KeySwitchList>
+    <KeySwitchList name="VibFlx">
+      <KeySwitch name="Vibrato Flx" key="c(x)" />
+      <KeySwitch name="Vibrato Dbl 1" key="c#(x)" />
+      <KeySwitch name="Vibrato Dbl 2" key="d(x)" />
+      <KeySwitch name="Vibrato Trp 1" key="d#(x)" />
+      <KeySwitch name="Vibrato Trp 2" key="e(x)" />
+      <KeySwitch name="Vibrato Qdp" key="f(x)" />
+    </KeySwitchList>
+    <KeySwitchList name="StcFlx">
+      <KeySwitch name="Staccato Flx" key="c(x)" />
+      <KeySwitch name="Staccato Dbl 1" key="c#(x)" />
+      <KeySwitch name="Staccato Dbl 2" key="d(x)" />
+      <KeySwitch name="Staccato Trp 1" key="d#(x)" />
+      <KeySwitch name="Staccato Trp 2" key="e(x)" />
+      <KeySwitch name="Staccato Qdp" key="f(x)" />
+    </KeySwitchList>
+    <KeySwitchList name="AtkFlx">
+      <KeySwitch name="Attack Flx" key="c(x)" />
+      <KeySwitch name="Attack Dbl 1" key="c#(x)" />
+      <KeySwitch name="Attack Dbl 2" key="d(x)" />
+      <KeySwitch name="Attack Trp 1" key="d#(x)" />
+      <KeySwitch name="Attack Trp 2" key="e(x)" />
+      <KeySwitch name="Attack Qdp" key="f(x)" />
+    </KeySwitchList>
+    <KeySwitchList name="Strings">
+      <KeySwitch name="Medium Vibrato" key="c(x)" />
+      <KeySwitch name="Detache Downbow" key="c#(x)" />
+      <KeySwitch name="Staccato Downbow" key="d(x)" />
+      <KeySwitch name="Pizzicato" key="d#(x)" />
+      <KeySwitch name="Tremolo" key="e(x)" />
+      <KeySwitch name="Halftone Trills" key="f(x)" />
+      <KeySwitch name="Wholetone Trills" key="f#(x)" />
+    </KeySwitchList>
+    <KeySwitchList name="Strings All Flex">
+      <KeySwitch name="Sustain Up/Dn" key="c(x)" />
+      <KeySwitch name="Staccato Dn/Up" key="c#(x)" />
+      <KeySwitch name="Detache Dn/Up" key="d(x)" />
+      <KeySwitch name="Pizzicato Flx" key="d#(x)" />
+      <KeySwitch name="Tremolo" key="e(x)" />
+      <KeySwitch name="Halftone Trills" key="f(x)" />
+      <KeySwitch name="Wholetone Trills" key="f#(x)" />
+    </KeySwitchList>
+    <KeySwitchList name="Small Brass">
+      <KeySwitch name="Sustain" key="c(x)" />
+      <KeySwitch name="Vibrato" key="c#(x)" />
+      <KeySwitch name="Staccato" key="d(x)" />
+    </KeySwitchList>
+    <KeySwitchList name="Small Brass All Flex">
+      <KeySwitch name="Sustain" key="c(x)" />
+      <KeySwitch name="Vibrato" key="c#(x)" />
+      <KeySwitch name="Staccato" key="d(x)" />
+      <KeySwitch name="Attack" key="d#(x)" />
+    </KeySwitchList>
+    <KeySwitchList name="Large Brass">
+      <KeySwitch name="Sustain" key="c(x)" />
+      <KeySwitch name="Staccato" key="c#(x)" />
+    </KeySwitchList>
+    <KeySwitchList name="Large Brass All Flex">
+      <KeySwitch name="Sustain" key="c(x)" />
+      <KeySwitch name="Staccato" key="c#(x)" />
+      <KeySwitch name="Attack" key="d(x)" />
+    </KeySwitchList>
+    <KeySwitchList name="Trumpet">
+      <KeySwitch name="Sustain" key="c0" />
+      <KeySwitch name="Staccato" key="c#0" />
+    </KeySwitchList>
+    <KeySwitchList name="Trumpet All Flex">
+      <KeySwitch name="Sustain" key="c0" />
+      <KeySwitch name="Staccato" key="c#0" />
+      <KeySwitch name="Attack" key="d0" />
+    </KeySwitchList>
+    <KeySwitchList name="Bassoons">
+      <KeySwitch name="Sustain" key="c6" />
+      <KeySwitch name="Vibrato" key="c#6" />
+      <KeySwitch name="Staccato" key="d6" />
+      <KeySwitch name="Halftone Trills" key="d#6" />
+      <KeySwitch name="Wholetone Trills" key="e6" />
+    </KeySwitchList>
+    <KeySwitchList name="Bassoons All Flex">
+      <KeySwitch name="Sustain Flex" key="c6" />
+      <KeySwitch name="Vibrato Flex" key="c#6" />
+      <KeySwitch name="Staccato Flex" key="d6" />
+      <KeySwitch name="Halftone Trills" key="d#6" />
+      <KeySwitch name="Wholetone Trills" key="e6" />
+    </KeySwitchList>
+    <KeySwitchList name="Clarinet">
+      <KeySwitch name="Hard" key="c0" />
+      <KeySwitch name="Legato" key="c#0" />
+      <KeySwitch name="Staccato" key="d0" />
+      <KeySwitch name="Halftone Trills" key="d#0" />
+      <KeySwitch name="Wholetone Trills" key="e0" />
+    </KeySwitchList>
+    <KeySwitchList name="Clarinet All Flex">
+      <KeySwitch name="Hard Flex" key="c0" />
+      <KeySwitch name="Legato Flex" key="c#0" />
+      <KeySwitch name="Staccato Flex" key="d0" />
+      <KeySwitch name="Halftone Trills" key="d#0" />
+      <KeySwitch name="Wholetone Trills" key="e0" />
+    </KeySwitchList>
+    <KeySwitchList name="English Horn">
+      <KeySwitch name="Delayed Vibrato" key="c0" />
+      <KeySwitch name="Vibrato" key="c#0" />
+      <KeySwitch name="Staccato" key="d0" />
+      <KeySwitch name="Halftone Trills" key="d#0" />
+      <KeySwitch name="Wholetone Trills" key="e0" />
+    </KeySwitchList>
+    <KeySwitchList name="English Horn All Flex">
+      <KeySwitch name="Delayed Vibrato Flex" key="c0" />
+      <KeySwitch name="Vibrato Flex" key="c#0" />
+      <KeySwitch name="Staccato Flex" key="d0" />
+      <KeySwitch name="Halftone Trills" key="d#0" />
+      <KeySwitch name="Wholetone Trills" key="e0" />
+    </KeySwitchList>
+    <KeySwitchList name="Flute">
+      <KeySwitch name="Sustain" key="c0" />
+      <KeySwitch name="Staccato" key="c#0" />
+      <KeySwitch name="Halftone Trills" key="d0" />
+      <KeySwitch name="Wholetone Trills" key="d#0" />
+    </KeySwitchList>
+    <KeySwitchList name="Piccolo">
+      <KeySwitch name="Delay Vibrato" key="c0" />
+      <KeySwitch name="Vibrato" key="c#0" />
+      <KeySwitch name="Staccato" key="D0" />
+      <KeySwitch name="Halftone Trills" key="d#0" />
+      <KeySwitch name="Wholetone Trills" key="E0" />
+    </KeySwitchList>
+    <KeySwitchList name="Flute All Flex">
+      <KeySwitch name="Sustain Flex" key="c0" />
+      <KeySwitch name="Staccato Flex" key="c#0" />
+      <KeySwitch name="Halftone Trills" key="d0" />
+      <KeySwitch name="Wholetone Trills" key="d#0" />
+    </KeySwitchList>
+  </KeySwitchNames>
+  <ControllerNames>
+    <Controller name="Modulation" cc="1" />
+    <Controller name="Volume" cc="7" />
+    <Controller name="Panning" cc="10" />
+    <Controller name="Sustain" cc="64" />
+    <Controller name="Tone" cc="21" />
+    <Controller name="Presence" cc="22" />
+    <Controller name="Shape" cc="23" />
+    <Controller name="Image" cc="24" />
+    <Controller name="Attack" cc="25" />
+    <Controller name="Decay/Release" cc="26" />
+    <Controller name="Movement" cc="27" />
+    <Controller name="Rate" cc="28" />
+    <Controller name="Dynamic 1" cc="70" />
+    <Controller name="Dynamic 2" cc="71" />
+    <Controller name="Aux 1" cc="72" />
+    <Controller name="Aux 2" cc="73" />
+    <Controller name="Reverb Depth" cc="91" />
+    <Controller name="Chorus Depth" cc="93" />
+    <Controller name="General Purpose 1" cc="82" />
+    <Controller name="General Purpose 2" cc="83" />
+    <Controller name="Pedal" cc="4" />
+    <Controller name="F Switch 2" cc="65" />
+    <Controller name="T Switch" cc="66" />
+  </ControllerNames>
+  <Instruments middleC="C3">
+    <Menu name="Woodwinds">
+      <Section name="Flutes" title="Flute" abbr="Fl." lownote="b3" highnote="d7" ksoctave="0" clef="treble">
+        <Group name="Flex Presets">
+          <Instrument name="Flute Sus Flx" />
+          <Instrument name="Flute Stc Flx" Articulation="Staccato" />
+          <Instrument name="Flute attk Flx" />
+          <Instrument name="Flute KSW SusFlx">
+            <UsesKeySwitchList name="SusFlx" />
+          </Instrument>
+          <Instrument name="Flute KSW StcFlx" Articulation="Staccato">
+            <UsesKeySwitchList name="StcFlx" />
+          </Instrument>
+          <Instrument name="Flute KSW AtkFlx">
+            <UsesKeySwitchList name="AtkFlx" />
+          </Instrument>
+        </Group>
+        <Group name="Keyswitched">
+          <UsesKeySwitchList name="Flutes" />
+          <Instrument name="Flute KSW All">
+            <UsesKeySwitchList name="Flute" />
+            <UsesArticulationSwitchList name="Flute" />
+          </Instrument>
+          <Instrument name="Flute KSW All+Flx">
+            <UsesKeySwitchList name="Flute All Flex" />
+            <UsesArticulationSwitchList name="Flute" />
+          </Instrument>
+        </Group>
+        <Group name="Velocity Volume">
+          <Instrument name="Flute Sus" />
+          <Instrument name="Flute Stc" Articulation="Staccato" />
+          <Instrument name="Flute HTR" />
+          <Instrument name="Flute WTR" />
+          <Instrument name="Flute GlssUpSus" />
+          <Instrument name="Flute GlssDnSus" />
+          <Instrument name="Flute GlssUpOct" />
+          <Instrument name="Flute GlssDownOct" />
+        </Group>
+        <Group name="MW XF Dynamics">
+          <Controller name="Dynamic Volume XFade" cc="1" />
+          <Instrument name="Flute Sus Mw~DynXf" />
+        </Group>
+        <Group name="MW Accent">
+          <Controller name="Attack Accent" cc="1" />
+          <Instrument name="Flute Sus Mw~Acn" />
+        </Group>
+        <Group name="Vel Accent">
+          <Instrument name="Flute Sus Vel~Acnt" />
+        </Group>
+        <Group name="MW Xfades">
+          <Controller name="Sustain to Half-tone Trill" cc="1" />
+          <Instrument name="Flute Sus~Htr" />
+          <Controller name="Sustain to Whole-tone Trill" cc="1" />
+          <Instrument name="Flute Sus~Wtr" />
+          <Controller name="Sustain to Gliss Down" cc="1" />
+          <Instrument name="Flute Sus~GlssDn" />
+          <Controller name="Sustain to Gliss Up" cc="1" />
+          <Instrument name="Flute Sus~GlssUp" />
+        </Group>
+        <Group name="Separate Flex">
+          <Instrument name="Flute Sus Dbl 1" />
+          <Instrument name="Flute Sus Dbl 2" />
+          <Instrument name="Flute Sus Trp 1" />
+          <Instrument name="Flute Sus Trp 2" />
+          <Instrument name="Flute Sus Qdp" Articulation="Staccato" />
+          <Instrument name="Flute Stc Dbl 1" Articulation="Staccato" />
+          <Instrument name="Flute Stc Dbl 2" Articulation="Staccato" />
+          <Instrument name="Flute Stc Qdp" Articulation="Staccato" />
+          <Instrument name="Flute attk Dbl 1" />
+          <Instrument name="Flute attk Dbl 2" />
+          <Instrument name="Flute attk Trp 1" />
+          <Instrument name="Flute attk Trp 2" />
+          <Instrument name="Flute attk Qdp" />
+        </Group>
+        <Group name="Sus">
+          <Instrument name="Flute Sus mp" />
+          <Instrument name="Flute Sus mf" />
+          <Instrument name="Flute Sus f" />
+          <Instrument name="Flute Sus ff" />
+        </Group>
+        <Group name="Stc" Articulation="Staccato">
+          <Instrument name="Flute Stc p" />
+          <Instrument name="Flute Stc mp" />
+          <Instrument name="Flute Stc mf" />
+          <Instrument name="Flute Stc f" />
+        </Group>
+        <Group name="Trills">
+          <Instrument name="Flute HTR p" />
+          <Instrument name="Flute HTR mp" />
+          <Instrument name="Flute HTR mf" />
+          <Instrument name="Flute HTR f" />
+          <Instrument name="Flute WTR p" />
+          <Instrument name="Flute WTR mp" />
+          <Instrument name="Flute WTR mf" />
+          <Instrument name="Flute WTR f" />
+        </Group>
+        <Group name="Runs">
+          <Instrument name="Flute GlssUpSus p" />
+          <Instrument name="Flute GlssUpSus mf" />
+          <Instrument name="Flute GlssUpSus f" />
+          <Instrument name="Flute GlssDnSus p" />
+          <Instrument name="Flute GlssDnSus mf" />
+          <Instrument name="Flute GlssDnSus f" />
+          <Instrument name="Flute GlssUpOct p" />
+          <Instrument name="Flute GlssUpOct mf" />
+          <Instrument name="Flute GlssUpOct f" />
+          <Instrument name="Flute GlssDownOct p" />
+          <Instrument name="Flute GlssDownOct mf" />
+          <Instrument name="Flute GlssDownOct f" />
+        </Group>
+      </Section>
+      <Section name="Piccolo" title="Piccolo" abbr="PicFl." lownote="d5" highnote="c8" pitchOffset="12" clef="treble" ksoctave="0">
+        <Group name="Flex Presets">
+          <Instrument name="Piccolo Leg Flx" />
+          <Instrument name="Piccolo Vib Flx" />
+          <Instrument name="Piccolo DlyVib Flx" />
+          <Instrument name="Piccolo Stc Flx" Articulation="Staccato" />
+          <Instrument name="Piccolo attk Flx" />
+          <Instrument name="Piccolo KSW LegFlx">
+            <UsesKeySwitchList name="LegFlx" />
+          </Instrument>
+          <Instrument name="Piccolo KSW VibFlx">
+            <UsesKeySwitchList name="VibFlx" />
+          </Instrument>
+          <Instrument name="Piccolo KSW DvFlx" />
+          <Instrument name="Piccolo KSW StcFlx">
+            <UsesKeySwitchList name="DvFlx" />
+          </Instrument>
+          <Instrument name="Piccolo KSW AtkFlx">
+            <UsesKeySwitchList name="AtkFlx" />
+          </Instrument>
+        </Group>
+        <Group name="Keyswitched">
+          <UsesKeySwitchList name="Piccolo" />
+          <Instrument name="Piccolo KSW All">
+            <UsesKeySwitchList name="Piccolo" />
+            <UsesArticulationSwitchList name="English Horn" />
+          </Instrument>
+          <Instrument name="Piccolo KSW All+Flx">
+            <UsesKeySwitchList name="English Horn All Flex" />
+            <UsesArticulationSwitchList name="English Horn" />
+          </Instrument>
+        </Group>
+        <Group name="Velocity Volume">
+          <Instrument name="Piccolo Leg" />
+          <Instrument name="Piccolo Vib" />
+          <Instrument name="Piccolo DlyVib" />
+          <Instrument name="Piccolo Stc" Articulation="Staccato" />
+          <Instrument name="Piccolo Htr" />
+          <Instrument name="Piccolo Wtr" />
+          <Instrument name="Piccolo 4thUp" />
+          <Instrument name="Piccolo 4thDn" />
+          <Instrument name="Piccolo OctUpMj" />
+          <Instrument name="Piccolo OctDnMj" />
+          <Instrument name="Piccolo OctUpMin" />
+          <Instrument name="Piccolo OctDnMin" />
+        </Group>
+        <Group name="MW XF Dynamics">
+          <Controller name="Dynamic Volume XFade" cc="1" />
+          <Instrument name="Piccolo Leg Mw~DynXf" />
+          <Instrument name="Piccolo Vib Mw~DynXf" />
+          <Instrument name="Piccolo DlyVib Mw~DynXf" />
+          <Instrument name="Piccolo DlyVib~Vib" />
+        </Group>
+        <Group name="MW Accent">
+          <Controller name="Attack Accent" cc="1" />
+          <Instrument name="Piccolo Leg Mw~Acnt" />
+          <Instrument name="Piccolo Vib Mw~Acnt" />
+          <Instrument name="Piccolo DlyVib Mw~Acnt" />
+        </Group>
+        <Group name="Vel Accent">
+          <Instrument name="Piccolo Leg Vel~Acnt" />
+          <Instrument name="Piccolo Vib Vel~Acnt" />
+          <Instrument name="Piccolo DlyVib Vel~Acnt" />
+        </Group>
+        <Group name="MW Xfades Leg">
+          <Controller name="Legato to Half-tone Trill" cc="1" />
+          <Instrument name="Piccolo Leg~Htr" />
+          <Controller name="Legato to Whole-tone Trill" cc="1" />
+          <Instrument name="Piccolo Leg~Wtr" />
+          <Controller name="Legato to 4th Down" cc="1" />
+          <Instrument name="Piccolo Leg~4thDn" />
+          <Controller name="Legato to 4th Up" cc="1" />
+          <Instrument name="Piccolo Leg~4thUp" />
+        </Group>
+        <Group name="MW Xfades Vib">
+          <Controller name="Vibrato to Half-tone Trill" cc="1" />
+          <Instrument name="Piccolo Vib~Htr" />
+          <Controller name="Vibrato to Whole-tone Trill" cc="1" />
+          <Instrument name="Piccolo Vib~Wtr" />
+          <Controller name="Vibrato to 4th Down" cc="1" />
+          <Instrument name="Piccolo Vib~4thDn" />
+          <Controller name="Vibrato to 4th Up" cc="1" />
+          <Instrument name="Piccolo Vib~4thUp" />
+        </Group>
+        <Group name="MW Xfades DlyVib">
+          <Controller name="Delayed Vibrato to Half-tone Trill" cc="1" />
+          <Instrument name="Piccolo DlyVib~Htr" />
+          <Controller name="Delayed Vibrato to Whole-tone Trill" cc="1" />
+          <Instrument name="Piccolo DlyVib~Wtr" />
+          <Controller name="Delayed Vibrato to 4th Down" cc="1" />
+          <Instrument name="Piccolo DlyVib~4thDn" />
+          <Controller name="Delayed Vibrato to 4th Up" cc="1" />
+          <Instrument name="Piccolo DlyVib~4thUp" />
+        </Group>
+        <Group name="Separate Flex">
+          <Instrument name="Piccolo Leg Dbl 1" />
+          <Instrument name="Piccolo Leg Dbl 2" />
+          <Instrument name="Piccolo Leg Trp 1" />
+          <Instrument name="Piccolo Leg Trp 2" />
+          <Instrument name="Piccolo Leg Qdp" />
+          <Instrument name="Piccolo Vib Dbl 1" />
+          <Instrument name="Piccolo Vib Dbl 2" />
+          <Instrument name="Piccolo Vib Trp 1" />
+          <Instrument name="Piccolo Vib Trp 2" />
+          <Instrument name="Piccolo Vib Qdp" />
+          <Instrument name="Piccolo DlyVib Dbl 1" />
+          <Instrument name="Piccolo DlyVib Dbl 2" />
+          <Instrument name="Piccolo DlyVib Trp 1" />
+          <Instrument name="Piccolo DlyVib Trp 2" />
+          <Instrument name="Piccolo DlyVib Qdp" />
+          <Instrument name="Piccolo Stc Dbl 1" Articulation="Staccato" />
+          <Instrument name="Piccolo Stc Dbl 2" Articulation="Staccato" />
+          <Instrument name="Piccolo Stc Trp 1" Articulation="Staccato" />
+          <Instrument name="Piccolo Stc Trp 2" Articulation="Staccato" />
+          <Instrument name="Piccolo Stc Qdp" Articulation="Staccato" />
+          <Instrument name="Piccolo attk Dbl 1" />
+          <Instrument name="Piccolo attk Dbl 2" />
+          <Instrument name="Piccolo attk Trp 1" />
+          <Instrument name="Piccolo attk Trp 2" />
+          <Instrument name="Piccolo attk Qdp" />
+        </Group>
+        <Group name="Sus">
+          <Instrument name="Piccolo Leg p" />
+          <Instrument name="Piccolo Leg mp" />
+          <Instrument name="Piccolo Leg mf" />
+          <Instrument name="Piccolo Leg f" />
+          <Instrument name="Piccolo Vib p" />
+          <Instrument name="Piccolo Vib mp" />
+          <Instrument name="Piccolo Vib mf" />
+          <Instrument name="Piccolo Vib f" />
+          <Instrument name="Piccolo DlyVib p" />
+          <Instrument name="Piccolo DlyVib mp" />
+          <Instrument name="Piccolo DlyVib mf" />
+          <Instrument name="Piccolo DlyVib f" />
+        </Group>
+        <Group name="Stc" Articulation="Staccato">
+          <Instrument name="Piccolo Stc p" />
+          <Instrument name="Piccolo Stc mp" />
+          <Instrument name="Piccolo Stc mf" />
+          <Instrument name="Piccolo Stc f" />
+        </Group>
+        <Group name="Trills">
+          <Instrument name="Piccolo Htr p" />
+          <Instrument name="Piccolo Htr f" />
+          <Instrument name="Piccolo Wtr p" />
+          <Instrument name="Piccolo Wtr f" />
+        </Group>
+      </Section>
+      <Section name="Clarinets" title="Bb Clarinet" abbr="Cl." clef="treble" lownote="d3" highnote="g6" transpose="2" ksoctave="0">
+        <Group name="Flex Presets">
+          <Instrument name="Clar Leg Flx" />
+          <Instrument name="Clar Hrd Flx" />
+          <Instrument name="Clar Sw Flx" />
+          <Instrument name="Clar Stc Flx" Articulation="Staccato" />
+          <Instrument name="Clar attk Flx" />
+          <Instrument name="Clar KSW LegFlx">
+            <UsesKeySwitchList name="LegFlx" />
+          </Instrument>
+          <Instrument name="Clar KSW HrdFlx">
+            <UsesKeySwitchList name="HrdFlx" />
+          </Instrument>
+          <Instrument name="Clar KSW SwFlx">
+            <UsesKeySwitchList name="SwFlx" />
+          </Instrument>
+          <Instrument name="Clar KSW StcFlx" Articulation="Staccato">
+            <UsesKeySwitchList name="StcFlx" />
+          </Instrument>
+          <Instrument name="Clar KSW AtkFlx">
+            <UsesKeySwitchList name="AtkFlx" />
+          </Instrument>
+        </Group>
+        <Group name="Keyswitched">
+          <Instrument name="Clar KSW All">
+            <UsesKeySwitchList name="Clarinet" />
+            <UsesArticulationSwitchList name="Clarinet" />
+          </Instrument>
+          <Instrument name="Clar KSW All+Flx">
+            <UsesKeySwitchList name="Clarinet All Flex" />
+            <UsesArticulationSwitchList name="Clarinet" />
+          </Instrument>
+        </Group>
+        <Group name="Velocity Volume">
+          <Instrument name="Clar Leg" />
+          <Instrument name="Clar Hrd" />
+          <Instrument name="Clar Swell" />
+          <Instrument name="Clar Stc" Articulation="Staccato" />
+          <Instrument name="Clar HTR" />
+          <Instrument name="Clar WTR" />
+          <Instrument name="Clar 4thUp" />
+          <Instrument name="Clar 4thDn" />
+          <Instrument name="Clar OctUp" />
+          <Instrument name="Clar OctDn" />
+        </Group>
+        <Group name="MW Volume">
+          <Controller name="Volume" cc="1" />
+          <Instrument name="Clar Leg Mod = Vol" />
+          <Instrument name="Clar Hrd Mod = Vol" />
+          <Instrument name="Clar Swell Mod = Vol" />
+          <Instrument name="Clar Stac Mod = Vol" Articulation="Staccato" />
+          <Instrument name="Clar HTR Mod = Vol" />
+          <Instrument name="Clar WTR Mod = Vol" />
+          <Instrument name="Clar 4thUp Mod = Vol" />
+          <Instrument name="Clar 4thDn Mod = Vol" />
+          <Instrument name="Clar OctUp Mod = Vol" />
+          <Instrument name="Clar OctDn Mod = Vol" />
+        </Group>
+        <Group name="MW XF Dynamics">
+          <Controller name="Dynamic Volume XFade" cc="1" />
+          <Instrument name="Clar Leg Mw~Dyn" />
+          <Instrument name="Clar Hrd Mw~Dyn" />
+        </Group>
+        <Group name="MW Accent">
+          <Controller name="Attack Accent" cc="1" />
+          <Instrument name="Clar Leg Mw~Acnt" />
+          <Instrument name="Clar Hrd Mw~Acnt" />
+        </Group>
+        <Group name="Vel Accent">
+          <Instrument name="Clar Leg Vel~Acnt" />
+          <Instrument name="Clar Hrd Vel~Acnt" />
+        </Group>
+        <Group name="MW Xfades Leg">
+          <Controller name="Legato to Half-tone Trill" cc="1" />
+          <Instrument name="Clar Leg~Htr" />
+          <Controller name="Legato to Whole-tone Trill" cc="1" />
+          <Instrument name="Clar Leg~Wtr" />
+          <Controller name="Legato to 4th Down" cc="1" />
+          <Instrument name="Clar Leg~4thDn" />
+          <Controller name="Legato to 4th Up" cc="1" />
+          <Instrument name="Clar Leg~4thUp" />
+        </Group>
+        <Group name="MW Xfades Hrd">
+          <Controller name="Hard to Half-tone Trill" cc="1" />
+          <Instrument name="Clar Hrd~Htr" />
+          <Controller name="Hard to Whole-tone Trill" cc="1" />
+          <Instrument name="Clar Hrd~Wtr" />
+          <Controller name="Hard to 4th Down" cc="1" />
+          <Instrument name="Clar Hrd~4thDn" />
+          <Controller name="Hard to 4th Up" cc="1" />
+          <Instrument name="Clar Hrd~4thUp" />
+        </Group>
+        <Group name="Separate Flex">
+          <Instrument name="Clar Leg Dbl 1" />
+          <Instrument name="Clar Leg Dbl 2" />
+          <Instrument name="Clar Leg Trp 1" />
+          <Instrument name="Clar Leg Trp 2" />
+          <Instrument name="Clar Leg Qdp" />
+          <Instrument name="Clar Hrd Dbl 1" />
+          <Instrument name="Clar Hrd Dbl 2" />
+          <Instrument name="Clar Hrd Trp 1" />
+          <Instrument name="Clar Hrd Trp 2" />
+          <Instrument name="Clar Hrd Qdp" />
+          <Instrument name="Clar Sw Dbl 1" Articulation="Staccato" />
+          <Instrument name="Clar Sw Dbl 2" Articulation="Staccato" />
+          <Instrument name="Clar Sw Trp 1" Articulation="Staccato" />
+          <Instrument name="Clar Sw Trp 2" Articulation="Staccato" />
+          <Instrument name="Clar Sw Qdp" Articulation="Staccato" />
+          <Instrument name="Clar Stc Dbl 1" />
+          <Instrument name="Clar Stc Dbl 2" />
+          <Instrument name="Clar Stc Trp 1" />
+          <Instrument name="Clar Stc Trp 2" />
+          <Instrument name="Clar Stc Qdp" />
+          <Instrument name="Clar attk Dbl 1" />
+          <Instrument name="Clar attk Dbl 2" />
+          <Instrument name="Clar attk Trp 1" />
+          <Instrument name="Clar attk Trp 2" />
+          <Instrument name="Clar attk Qdp" />
+        </Group>
+        <Group name="Sus">
+          <Instrument name="Clar Leg p" />
+          <Instrument name="Clar Leg mp" />
+          <Instrument name="Clar Leg mf" />
+          <Instrument name="Clar Leg f" />
+          <Instrument name="Clar Hrd Leg p" />
+          <Instrument name="Clar Hrd Leg mp" />
+          <Instrument name="Clar Hrd Leg mf" />
+          <Instrument name="Clar Hrd Leg f" />
+          <Instrument name="Clar Swell p" />
+          <Instrument name="Clar Swell f" />
+        </Group>
+        <Group name="Stc" Articulation="Staccato">
+          <Instrument name="Clar Stc p" />
+          <Instrument name="Clar Stc mp" />
+          <Instrument name="Clar Stc mf" />
+          <Instrument name="Clar Stc f" />
+        </Group>
+        <Group name="Trills">
+          <Instrument name="Clar HTR p" />
+          <Instrument name="Clar HTR f" />
+          <Instrument name="Clar WTR p" />
+          <Instrument name="Clar WTR f" />
+        </Group>
+      </Section>
+      <Section name="Oboe" clef="treble" title="Oboe" abbr="Ob." lownote="g#3" highnote="g6" ksoctave="0">
+        <Group name="Flex Presets">
+          <Instrument name="Oboe Vib Flx" />
+          <Instrument name="Oboe DlyVib Flx" />
+          <Instrument name="Oboe Stc Flx" Articulation="Staccato" />
+          <Instrument name="Oboe attk Flx" />
+          <Instrument name="Oboe KSW VibFlx">
+            <UsesKeySwitchList name="VibFlx" />
+          </Instrument>
+          <Instrument name="Oboe KSW DvFlx">
+            <UsesKeySwitchList name="DvFlx" />
+          </Instrument>
+          <Instrument name="Oboe KSW StcFlx" Articulation="Staccato">
+            <UsesKeySwitchList name="StcFlx" />
+          </Instrument>
+          <Instrument name="Oboe KSW AtkFlx">
+            <UsesKeySwitchList name="AtkFlx" />
+          </Instrument>
+        </Group>
+        <Group name="Keyswitched">
+          <Instrument name="Oboe KSW All">
+            <UsesKeySwitchList name="English Horn" />
+            <UsesArticulationSwitchList name="English Horn" />
+          </Instrument>
+          <Instrument name="Oboe KSW All+Flx">
+            <UsesKeySwitchList name="English Horn All Flex" />
+            <UsesArticulationSwitchList name="English Horn" />
+          </Instrument>
+        </Group>
+        <Group name="Velocity Volume">
+          <Instrument name="Oboe Vib" />
+          <Instrument name="Oboe DlyVib" />
+          <Instrument name="Oboe Stc" Articulation="Staccato" />
+          <Instrument name="Oboe Htr" />
+          <Instrument name="Oboe Wtr" />
+          <Instrument name="Oboe 4thUp" />
+          <Instrument name="Oboe 4thDn" />
+          <Instrument name="Oboe OctUp" />
+          <Instrument name="Oboe OctDn" />
+        </Group>
+        <Group name="MW XF Dynamics">
+          <Controller name="Dynamic Volume XFade" cc="1" />
+          <Instrument name="Oboe Vib Mw~DynXf" />
+          <Instrument name="Oboe DlyVib Mw~DynXf" />
+          <Instrument name="Oboe DlyVib~Vib" />
+        </Group>
+        <Group name="MW Accent">
+          <Controller name="Attack Accent" cc="1" />
+          <Instrument name="Oboe Vib Mw~Acnt" />
+          <Instrument name="Oboe DlyVib Mw~Acnt" />
+        </Group>
+        <Group name="Vel Accent">
+          <Instrument name="Oboe Vib Vel~Acnt" />
+          <Instrument name="Oboe DlyVib Vel~Acnt" />
+        </Group>
+        <Group name="MW Xfades Vib">
+          <Controller name="Vibrato to Half-tone Trill" cc="1" />
+          <Instrument name="Oboe Vib~Htr" />
+          <Controller name="Vibrato to Whole-tone Trill" cc="1" />
+          <Instrument name="Oboe Vib~Wtr" />
+          <Controller name="Vibrato to 4th Down" cc="1" />
+          <Instrument name="Oboe Vib~4thDn" />
+          <Controller name="Vibrato to 4th Up" cc="1" />
+          <Instrument name="Oboe Vib~4thUp" />
+        </Group>
+        <Group name="MW Xfades DlyVib">
+          <Controller name="Delayed Vibrato to Half-tone Trill" cc="1" />
+          <Instrument name="Oboe DlyVib~Htr" />
+          <Controller name="Delayed Vibrato to Whole-tone Trill" cc="1" />
+          <Instrument name="Oboe DlyVib~Wtr" />
+          <Controller name="Delayed Vibrato to 4th Down" cc="1" />
+          <Instrument name="Oboe DlyVib~4thDn" />
+          <Controller name="Delayed Vibrato to 4th Up" cc="1" />
+          <Instrument name="Oboe DlyVib~4thUp" />
+        </Group>
+        <Group name="Separate Flex">
+          <Instrument name="Oboe Vib Dbl 1" />
+          <Instrument name="Oboe Vib Dbl 2" />
+          <Instrument name="Oboe Vib Trp 1" />
+          <Instrument name="Oboe Vib Trp 2" />
+          <Instrument name="Oboe Vib Qdp" />
+          <Instrument name="Oboe DlyVib Dbl 1" />
+          <Instrument name="Oboe DlyVib Dbl 2" />
+          <Instrument name="Oboe DlyVib Trp 1" />
+          <Instrument name="Oboe DlyVib Trp 2" />
+          <Instrument name="Oboe DlyVib Qdp" />
+          <Instrument name="Oboe Stc Dbl 1" Articulation="Staccato" />
+          <Instrument name="Oboe Stc Dbl 2" Articulation="Staccato" />
+          <Instrument name="Oboe Stc Trp 1" Articulation="Staccato" />
+          <Instrument name="Oboe Stc Trp 2" Articulation="Staccato" />
+          <Instrument name="Oboe Stc Qdp" Articulation="Staccato" />
+          <Instrument name="Oboe attk Dbl 1" />
+          <Instrument name="Oboe attk Dbl 2" />
+          <Instrument name="Oboe attk Trp 1" />
+          <Instrument name="Oboe attk Trp 2" />
+          <Instrument name="Oboe attk Qdp" />
+        </Group>
+        <Group name="Sus">
+          <Instrument name="Oboe Vib pp" />
+          <Instrument name="Oboe Vib p" />
+          <Instrument name="Oboe Vib mf" />
+          <Instrument name="Oboe Vib f" />
+          <Instrument name="Oboe DlyVib pp" />
+          <Instrument name="Oboe DlyVib p" />
+          <Instrument name="Oboe DlyVib f" />
+          <Instrument name="Oboe DlyVib ff" />
+        </Group>
+        <Group name="Stc" Articulation="Staccato">
+          <Instrument name="Oboe Stc ppp" />
+          <Instrument name="Oboe Stc mp" />
+          <Instrument name="Oboe Stc f" />
+          <Instrument name="Oboe Stc fff" />
+        </Group>
+      </Section>
+      <Section name="English Horn" clef="treble" title="English Horn" abbr="E Hn." lownote="e3" highnote="c6" transpose="7" ksoctave="0">
+        <Group name="Flex Presets">
+          <Instrument name="EHn Leg Flx" />
+          <Instrument name="EHn Vib Flx" />
+          <Instrument name="EHn DlyVib Flx" />
+          <Instrument name="EHn VibSw Flx" />
+          <Instrument name="EHn Stc Flx" Articulation="Staccato" />
+          <Instrument name="EHn attk Flx" />
+          <Instrument name="EHn KSW LegFlx">
+            <UsesKeySwitchList name="LegFlx" />
+          </Instrument>
+          <Instrument name="EHn KSW VibFlx">
+            <UsesKeySwitchList name="VibFlx" />
+          </Instrument>
+          <Instrument name="EHn KSW DvFlx">
+            <UsesKeySwitchList name="DvFlx" />
+          </Instrument>
+          <Instrument name="EHn KSW StcFlx" Articulation="Staccato">
+            <UsesKeySwitchList name="StcFlx" />
+          </Instrument>
+          <Instrument name="EHn KSW AtkFlx">
+            <UsesKeySwitchList name="AtkFlx" />
+          </Instrument>
+        </Group>
+        <Group name="Keyswitched">
+          <Instrument name="EHn KSW All">
+            <UsesKeySwitchList name="English Horn" />
+            <UsesArticulationSwitchList name="English Horn" />
+          </Instrument>
+          <Instrument name="EHn KSW All+Flx">
+            <UsesKeySwitchList name="English Horn All Flex" />
+            <UsesArticulationSwitchList name="English Horn" />
+          </Instrument>
+        </Group>
+        <Group name="Velocity Volume">
+          <Instrument name="EHn Leg" />
+          <Instrument name="EHn Vib" />
+          <Instrument name="EHn DlyVib" />
+          <Instrument name="EHn VibSw" />
+          <Instrument name="EHn Stc" Articulation="Staccato" />
+          <Instrument name="EHn Htr" />
+          <Instrument name="EHn Wtr" />
+          <Instrument name="EHn 4thUp" />
+          <Instrument name="EHn 4thDn" />
+          <Instrument name="EHn OctUpMj" />
+          <Instrument name="EHn OctDnMj" />
+          <Instrument name="EHn OctUpMin" />
+          <Instrument name="EHn OctDnMin" />
+        </Group>
+        <Group name="MW XF Dynamics">
+          <Controller name="Dynamic Volume XFade" cc="1" />
+          <Instrument name="EHn Leg Mw~Dyn" />
+          <Instrument name="EHn Vib Mw~Dyn" />
+          <Instrument name="EHn DlyVib Mw~Dyn" />
+          <Instrument name="EHn DlyVib~Vib" />
+        </Group>
+        <Group name="MW Accent">
+          <Controller name="Attack Accent" cc="1" />
+          <Instrument name="EHn Leg Mw~Acnt" />
+          <Instrument name="EHn Vib Mw~Acnt" />
+          <Instrument name="EHn DlyVib Mw~Acnt" />
+        </Group>
+        <Group name="Vel Accent">
+          <Instrument name="EHn Leg Vel~Acnt" />
+          <Instrument name="EHn Vib Vel~Acnt" />
+          <Instrument name="EHn DlyVib Vel~Acnt" />
+        </Group>
+        <Group name="MW Xfades Leg">
+          <Controller name="Legato to Half-tone Trill" cc="1" />
+          <Instrument name="EHn Leg~Htr" />
+          <Controller name="Legato to Whole-tone Trill" cc="1" />
+          <Instrument name="EHn Leg~Wtr" />
+          <Controller name="Legato to 4th Down" cc="1" />
+          <Instrument name="EHn Leg~4thDn" />
+          <Controller name="Legato to 4th Up" cc="1" />
+          <Instrument name="EHn Leg~4thUp" />
+        </Group>
+        <Group name="MW Xfades Vib">
+          <Controller name="Vibrato to Half-tone Trill" cc="1" />
+          <Instrument name="EHn Vib~Htr" />
+          <Controller name="Vibrato to Whole-tone Trill" cc="1" />
+          <Instrument name="EHn Vib~Wtr" />
+          <Controller name="Vibrato to 4th Down" cc="1" />
+          <Instrument name="EHn Vib~4thDn" />
+          <Controller name="Vibrato to 4th Up" cc="1" />
+          <Instrument name="EHn Vib~4thUp" />
+        </Group>
+        <Group name="MW Xfades DlyVib">
+          <Controller name="Delayed Vibrato to Half-tone Trill" cc="1" />
+          <Instrument name="EHn DlyVib~Htr" />
+          <Controller name="Delayed Vibrato to Whole-tone Trill" cc="1" />
+          <Instrument name="EHn DlyVib~Wtr" />
+          <Controller name="Delayed Vibrato to 4th Down" cc="1" />
+          <Instrument name="EHn DlyVib~4thDn" />
+          <Controller name="Delayed Vibrato to 4th Up" cc="1" />
+          <Instrument name="EHn DlyVib~4thUp" />
+        </Group>
+        <Group name="Separate Flex">
+          <Instrument name="EHn Leg Dbl 1" />
+          <Instrument name="EHn Leg Dbl 2" />
+          <Instrument name="EHn Leg Trp 1" />
+          <Instrument name="EHn Leg Trp 2" />
+          <Instrument name="EHn Leg Qdp" />
+          <Instrument name="EHn Vib Dbl 1" />
+          <Instrument name="EHn Vib Dbl 2" />
+          <Instrument name="EHn Vib Trp 1" />
+          <Instrument name="EHn Vib Trp 2" />
+          <Instrument name="EHn Vib Qdp" />
+          <Instrument name="EHn DlyVib Dbl 1" />
+          <Instrument name="EHn DlyVib Dbl 2" />
+          <Instrument name="EHn DlyVib Trp 1" />
+          <Instrument name="EHn DlyVib Trp 2" />
+          <Instrument name="EHn DlyVib Qdp" />
+          <Instrument name="EHn VibSw Dbl 1" />
+          <Instrument name="EHn VibSw Dbl 2" />
+          <Instrument name="EHn VibSw Trp 1" />
+          <Instrument name="EHn VibSw Trp 2" />
+          <Instrument name="EHn VibSw Qdp" />
+          <Instrument name="EHn Stc Dbl 1" Articulation="Staccato" />
+          <Instrument name="EHn Stc Dbl 2" Articulation="Staccato" />
+          <Instrument name="EHn Stc Trp 1" Articulation="Staccato" />
+          <Instrument name="EHn Stc Trp 2" Articulation="Staccato" />
+          <Instrument name="EHn Stc Qdp" Articulation="Staccato" />
+          <Instrument name="EHn attk Dbl 1" />
+          <Instrument name="EHn attk Dbl 2" />
+          <Instrument name="EHn attk Trp 1" />
+          <Instrument name="EHn attk Trp 2" />
+          <Instrument name="EHn attk Qdp" />
+        </Group>
+        <Group name="Sus">
+          <Instrument name="EHn Leg p" />
+          <Instrument name="EHn Leg mp" />
+          <Instrument name="EHn Leg mf" />
+          <Instrument name="EHn Leg f" />
+          <Instrument name="EHn Vib p" />
+          <Instrument name="EHn Vib mp" />
+          <Instrument name="EHn Vib mf" />
+          <Instrument name="EHn Vib f" />
+          <Instrument name="EHn DlyVib p" />
+          <Instrument name="EHn DlyVib f" />
+        </Group>
+        <Group name="Stc" Articulation="Staccato">
+          <Instrument name="EHn Stc p" />
+          <Instrument name="EHn Stc mp" />
+          <Instrument name="EHn Stc mf" />
+          <Instrument name="EHn Stc f" />
+        </Group>
+      </Section>
+      <Section name="Bassoon" title="Bassoon" abbr="Bn." clef="bass" lownote="a#1" highnote="g4" ksoctave="6">
+        <Group name="Flex Presets">
+          <Instrument name="Bsn Leg Flx" />
+          <Instrument name="Bsn Hrd Flx" />
+          <Instrument name="Bsn Sw Flx" />
+          <Instrument name="Bsn Stc Flx" Articulation="Staccato" />
+          <Instrument name="Bsn attk Flx" />
+          <Instrument name="Bsn KSW LegFlx">
+            <UsesKeySwitchList name="LegFlx" />
+          </Instrument>
+          <Instrument name="Bsn KSW HrdFlx">
+            <UsesKeySwitchList name="HrdFlx" />
+          </Instrument>
+          <Instrument name="Bsn KSW SwFlx">
+            <UsesKeySwitchList name="SwFlx" />
+          </Instrument>
+          <Instrument name="Bsn KSW StcFlx" Articulation="Staccato">
+            <UsesKeySwitchList name="StcFlx" />
+          </Instrument>
+          <Instrument name="Bsn KSW AtkFlx">
+            <UsesKeySwitchList name="AtkFlx" />
+          </Instrument>
+        </Group>
+        <Group name="Keyswitched">
+          <Instrument name="Bsn KSW All">
+            <UsesKeySwitchList name="Bassoons" />
+            <UsesArticulationSwitchList name="Bassoons" />
+          </Instrument>
+          <Instrument name="Bsn KSW All+Flx">
+            <UsesKeySwitchList name="Bassoons All Flex" />
+            <UsesArticulationSwitchList name="Bassoons" />
+          </Instrument>
+        </Group>
+        <Group name="Velocity Volume">
+          <Instrument name="Bsn Leg" />
+          <Instrument name="Bsn Vib" />
+          <Instrument name="Bsn DlyVib" />
+          <Instrument name="Bsn Stc" Articulation="Staccato" />
+          <Instrument name="Bsn Htr" />
+          <Instrument name="Bsn Wtr" />
+          <Instrument name="Bsn 4thRunUp" />
+          <Instrument name="Bsn 4thRunDn" />
+          <Instrument name="Bsn OctRunUp" />
+          <Instrument name="Bsn OctRunDn" />
+        </Group>
+        <Group name="MW XF Dynamics">
+          <Controller name="Dynamic Volume XFade" cc="1" />
+          <Instrument name="Bsn Leg Mw~Dyn" />
+          <Instrument name="Bsn DlyVib Mw~Dyn" />
+          <Instrument name="Bsn Vib Mw~Dyn" />
+          <Instrument name="Bsn DlyVib~Vib" />
+        </Group>
+        <Group name="MW Accent">
+          <Controller name="Attack Accent" cc="1" />
+          <Instrument name="Bsn Leg Mw~Acnt" />
+          <Instrument name="Bsn Vib Mw~Acnt" />
+          <Instrument name="Bsn DlyVib Mw~Acnt" />
+        </Group>
+        <Group name="Vel Accent">
+          <Instrument name="Bsn Leg Vel~Acnt" />
+          <Instrument name="Bsn Vib Vel~Acnt" />
+          <Instrument name="Bsn DlyVib Vel~Acnt" />
+        </Group>
+        <Group name="MW Xfades Leg">
+          <Controller name="Legato to Half-tone Trill" cc="1" />
+          <Instrument name="Bsn Leg~Htr" />
+          <Controller name="Legato to Whole-tone Trill" cc="1" />
+          <Instrument name="Bsn Leg~Wtr" />
+          <Controller name="Legato to 4th Down" cc="1" />
+          <Instrument name="Bsn Leg~4thDn" />
+          <Controller name="Legato to 4th Up" cc="1" />
+          <Instrument name="Bsn Leg~4thUp" />
+          <Controller name="Legato to 4th Up and Down" cc="1" />
+          <Instrument name="Bsn Leg~4thUp_Dn" />
+        </Group>
+        <Group name="MW Xfades Vib">
+          <Controller name="Vibrato to Half-tone Trill" cc="1" />
+          <Instrument name="Bsn Vib~Htr" />
+          <Controller name="Vibrato to Whole-tone Trill" cc="1" />
+          <Instrument name="Bsn Vib~Wtr" />
+          <Controller name="Vibrato to 4th Down" cc="1" />
+          <Instrument name="Bsn Vib~4thDn" />
+          <Controller name="Vibrato to 4th Up" cc="1" />
+          <Instrument name="Bsn Vib~4thUp" />
+        </Group>
+        <Group name="MW Xfades DlyVib">
+          <Controller name="Delayed Vibrato to Half-tone Trill" cc="1" />
+          <Instrument name="Bsn DlyVib~Htr" />
+          <Controller name="Delayed Vibrato to Whole-tone Trill" cc="1" />
+          <Instrument name="Bsn DlyVib~Wtr" />
+          <Controller name="Delayed Vibrato to 4th Down" cc="1" />
+          <Instrument name="Bsn DlyVib~4thDn" />
+          <Controller name="Delayed Vibrato to 4th Up" cc="1" />
+          <Instrument name="Bsn DlyVib~4thUp" />
+        </Group>
+        <Group name="Separate Flex">
+          <Instrument name="Bsn Leg Dbl 1" />
+          <Instrument name="Bsn Leg Dbl 2" />
+          <Instrument name="Bsn Leg Trp 1" />
+          <Instrument name="Bsn Leg Trp 2" />
+          <Instrument name="Bsn Leg Qdp" />
+          <Instrument name="Bsn Vib Dbl 1" />
+          <Instrument name="Bsn Vib Dbl 2" />
+          <Instrument name="Bsn Vib Trp 1" />
+          <Instrument name="Bsn Vib Trp 2" />
+          <Instrument name="Bsn Vib Qdp" />
+          <Instrument name="Bsn DlyVib Dbl 1" />
+          <Instrument name="Bsn DlyVib Dbl 2" />
+          <Instrument name="Bsn DlyVib Trp 1" />
+          <Instrument name="Bsn DlyVib Trp 2" />
+          <Instrument name="Bsn DlyVib Qdp" />
+          <Instrument name="Bsn Stc Dbl 1" Articulation="Staccato" />
+          <Instrument name="Bsn Stc Dbl 2" Articulation="Staccato" />
+          <Instrument name="Bsn Stc Trp 1" Articulation="Staccato" />
+          <Instrument name="Bsn Stc Trp 2" Articulation="Staccato" />
+          <Instrument name="Bsn Stc Qdp" Articulation="Staccato" />
+          <Instrument name="Bsn attk Dbl 1" />
+          <Instrument name="Bsn attk Dbl 2" />
+          <Instrument name="Bsn attk Trp 1" />
+          <Instrument name="Bsn attk Trp 2" />
+          <Instrument name="Bsn attk Qdp" />
+        </Group>
+        <Group name="Sus">
+          <Instrument name="Bsn Leg p" />
+          <Instrument name="Bsn Leg mp" />
+          <Instrument name="Bsn Leg mf" />
+          <Instrument name="Bsn Leg f" />
+          <Instrument name="Bsn Vib p" />
+          <Instrument name="Bsn Vib mp" />
+          <Instrument name="Bsn Vib mf" />
+          <Instrument name="Bsn Vib f" />
+          <Instrument name="Bsn DlyVib p" />
+          <Instrument name="Bsn DlyVib mp" />
+          <Instrument name="Bsn DlyVib mf" />
+          <Instrument name="Bsn DlyVib f" />
+        </Group>
+        <Group name="Stc" Articulation="Staccato">
+          <Instrument name="Bsn Stc p" />
+          <Instrument name="Bsn Stc mp" />
+          <Instrument name="Bsn Stc mf" />
+          <Instrument name="Bsn Stc f" />
+        </Group>
+        <Group name="Trills">
+          <Instrument name="Bsn Htr p" />
+          <Instrument name="Bsn Htr f" />
+          <Instrument name="Bsn Wtr p" />
+          <Instrument name="Bsn Wtr f" />
+        </Group>
+      </Section>
+      <Section name="ContraBassoon" title="Contra Bassoon" abbr="CBn." lownote="a#0" highnote="g#3" pitchOffset="-12" ksoctave="6">
+        <Group name="Flex Presets">
+          <Instrument name="CBsn Leg Flx" />
+          <Instrument name="CBsn Vib Flx" />
+          <Instrument name="CBsn DlyVib Flx" />
+          <Instrument name="CBsn NoVib Flx" />
+          <Instrument name="CBsn attk Flx" />
+          <Instrument name="CBsn KSW LegFlx">
+            <UsesKeySwitchList name="LegFlx" />
+          </Instrument>
+          <Instrument name="CBsn KSW VibFlx">
+            <UsesKeySwitchList name="VibFlx" />
+          </Instrument>
+          <Instrument name="CBsn KSW DvFlx">
+            <UsesKeySwitchList name="DvFlx" />
+          </Instrument>
+          <Instrument name="CBsn KSW NvFlx">
+            <UsesKeySwitchList name="NoVibFlx" />
+          </Instrument>
+          <Instrument name="CBsn KSW StcFlx" Articulation="Staccato">
+            <UsesKeySwitchList name="StcFlx" />
+          </Instrument>
+          <Instrument name="CBsn KSW AtkFlx">
+            <UsesKeySwitchList name="AtkFlx" />
+          </Instrument>
+        </Group>
+        <Group name="Keyswitched">
+          <Instrument name="CBsn KSW All">
+            <UsesKeySwitchList name="Bassoons" />
+            <UsesArticulationSwitchList name="Bassoons" />
+          </Instrument>
+          <Instrument name="CBsn KSW All+Flx">
+            <UsesKeySwitchList name="Bassoons All Flex" />
+            <UsesArticulationSwitchList name="Bassoons" />
+          </Instrument>
+        </Group>
+        <Group name="Velocity Volume">
+          <Instrument name="CBsn Leg" />
+          <Instrument name="CBsn Vib" />
+          <Instrument name="CBsn DlyVib" />
+          <Instrument name="CBsn NoVib" />
+          <Instrument name="CBsn Stc" Articulation="Staccato" />
+          <Instrument name="CBsn Htr" />
+          <Instrument name="CBsn Wtr" />
+          <Instrument name="CBsn 4thUp" />
+          <Instrument name="CBsn 4thDn" />
+        </Group>
+        <Group name="MW Volume">
+          <Controller name="Volume" cc="1" />
+          <Instrument name="CBsn Leg Mw = Vol" />
+          <Instrument name="CBsn Vib Mw = Vol" />
+          <Instrument name="CBsn DlyVib Mw = Vol" />
+          <Instrument name="CBsn NoVib Mw = Vol" />
+          <Instrument name="CBsn Stc Mw = Vol" />
+          <Instrument name="CBsn Htr Mw = Vol" />
+          <Instrument name="CBsn Wtr Mw = Vol" />
+          <Instrument name="CBsn 4thUp Mw = Vol" />
+          <Instrument name="CBsn 4thDn Mw = Vol" />
+        </Group>
+        <Group name="MW XF Dynamics">
+          <Controller name="Dynamic Volume XFade" cc="1" />
+          <Instrument name="CBsn Leg Mw~DynXf" />
+          <Instrument name="CBsn Vib Mw~DynXf" />
+          <Instrument name="CBsn DlyVib Mw~DynXf" />
+          <Instrument name="CBsn NoVib Mw~DynXf" />
+          <Instrument name="CBsn DlyVib~Vib" />
+        </Group>
+        <Group name="MW Xfades Leg">
+          <Controller name="Legato to Half-tone Trill" cc="1" />
+          <Instrument name="CBsn Leg~Htr" />
+          <Controller name="Legato to Whole-tone Trill" cc="1" />
+          <Instrument name="CBsn Leg~Wtr" />
+          <Controller name="Legato to 4th Down" cc="1" />
+          <Instrument name="CBsn Leg~4thDn" />
+          <Controller name="Legato to 4th Up" cc="1" />
+          <Instrument name="CBsn Leg~4thUp" />
+        </Group>
+        <Group name="MW Xfades Vib">
+          <Controller name="Vibrato to Half-tone Trill" cc="1" />
+          <Instrument name="CBsn Vib~Htr" />
+          <Controller name="Vibrato to Whole-tone Trill" cc="1" />
+          <Instrument name="CBsn Vib~Wtr" />
+          <Controller name="Vibrato to 4th Down" cc="1" />
+          <Instrument name="CBsn Vib~4thDn" />
+          <Controller name="Vibrato to 4th Up" cc="1" />
+          <Instrument name="CBsn Vib~4thUp" />
+        </Group>
+        <Group name="MW Xfades DlyVib">
+          <Controller name="Delayed Vibrato to Half-tone Trill" cc="1" />
+          <Instrument name="CBsn DlyVib~Htr" />
+          <Controller name="Delayed Vibrato to Whole-tone Trill" cc="1" />
+          <Instrument name="CBsn DlyVib~Wtr" />
+          <Controller name="Delayed Vibrato to 4th Down" cc="1" />
+          <Instrument name="CBsn DlyVib~4thDn" />
+          <Controller name="Delayed Vibrato to 4th Up" cc="1" />
+          <Instrument name="CBsn DlyVib~4thUp" />
+        </Group>
+        <Group name="MW Xfades NoVib">
+          <Controller name="Non Vibrato to Half-tone Trill" cc="1" />
+          <Instrument name="CBsn NoVib~Htr" />
+          <Controller name="Non Vibrato to Whole-tone Trill" cc="1" />
+          <Instrument name="CBsn NoVib~Wtr" />
+          <Controller name="Non Vibrato to 4th Down" cc="1" />
+          <Instrument name="CBsn NoVib~4thDn" />
+          <Controller name="Non Vibrato to 4th Up" cc="1" />
+          <Instrument name="CBsn NoVib~4thUp" />
+        </Group>
+        <Group name="Separate Flex">
+          <Instrument name="CBsn Leg Dbl 1" />
+          <Instrument name="CBsn Leg Dbl 2" />
+          <Instrument name="CBsn Leg Trp 1" />
+          <Instrument name="CBsn Leg Trp 2" />
+          <Instrument name="CBsn Leg Qdp" />
+          <Instrument name="CBsn Vib Dbl 1" />
+          <Instrument name="CBsn Vib Dbl 2" />
+          <Instrument name="CBsn Vib Trp 1" />
+          <Instrument name="CBsn Vib Trp 2" />
+          <Instrument name="CBsn Vib Qdp" />
+          <Instrument name="CBsn DlyVib Dbl 1" />
+          <Instrument name="CBsn DlyVib Dbl 2" />
+          <Instrument name="CBsn DlyVib Trp 1" />
+          <Instrument name="CBsn DlyVib Trp 2" />
+          <Instrument name="CBsn DlyVib Qdp" />
+          <Instrument name="CBsn Stc Dbl 1" Articulation="Staccato" />
+          <Instrument name="CBsn Stc Dbl 2" Articulation="Staccato" />
+          <Instrument name="CBsn Stc Trp 1" Articulation="Staccato" />
+          <Instrument name="CBsn Stc Trp 2" Articulation="Staccato" />
+          <Instrument name="CBsn Stc Qdp" Articulation="Staccato" />
+          <Instrument name="CBsn attk Dbl 1" />
+          <Instrument name="CBsn attk Dbl 2" />
+          <Instrument name="CBsn attk Trp 1" />
+          <Instrument name="CBsn attk Trp 2" />
+          <Instrument name="CBsn attk Qdp" />
+        </Group>
+        <Group name="Sus">
+          <Instrument name="CBsn Leg p" />
+          <Instrument name="CBsn Leg mp" />
+          <Instrument name="CBsn Leg mf" />
+          <Instrument name="CBsn Leg f" />
+          <Instrument name="CBsn Vib p" />
+          <Instrument name="CBsn Vib mp" />
+          <Instrument name="CBsn Vib mf" />
+          <Instrument name="CBsn Vib f" />
+          <Instrument name="CBsn DlyVib p" />
+          <Instrument name="CBsn DlyVib mp" />
+          <Instrument name="CBsn DlyVib mf" />
+          <Instrument name="CBsn DlyVib f" />
+          <Instrument name="CBsn NoVib p" />
+          <Instrument name="CBsn NoVib mp" />
+          <Instrument name="CBsn NoVib mf" />
+          <Instrument name="CBsn NoVib f" />
+        </Group>
+        <Group name="Stc" Articulation="Staccato">
+          <Instrument name="CBsn Stc p" />
+          <Instrument name="CBsn Stc mp" />
+          <Instrument name="CBsn Stc mf" />
+          <Instrument name="CBsn Stc f" />
+        </Group>
+      </Section>
+    </Menu>
+    <Menu name="Brass" clef="treble" legato="on" portamento="on">
+      <Section name="Solo Trumpet" title="Trumpet" abbr="Tpt." lownote="f#3" highnote="f6" ksoctave="0">
+        <Group name="Flex Presets">
+          <Instrument name="Trumpet Sus Flx" />
+          <Instrument name="Trumpet Vib Flx" />
+          <Instrument name="Trumpet Stc Flx" Articulation="Staccato" />
+          <Instrument name="Trumpet attk Flx" />
+          <Instrument name="Trumpet KSW SusFlx">
+            <UsesKeySwitchList name="SusFlx" />
+          </Instrument>
+          <Instrument name="Trumpet KSW StcFlx" Articulation="Staccato">
+            <UsesKeySwitchList name="StcFlx" />
+          </Instrument>
+          <Instrument name="Trumpet KSW AtkFlx">
+            <UsesKeySwitchList name="AtkFlx" />
+          </Instrument>
+        </Group>
+        <Group name="Keyswitched">
+          <Instrument name="Trumpet KSW All">
+            <UsesKeySwitchList name="Trumpet" />
+            <UsesArticulationSwitchList name="Trumpet" />
+          </Instrument>
+          <Instrument name="Trumpet KSW All+Flx">
+            <UsesKeySwitchList name="Trumpet All Flex" />
+            <UsesArticulationSwitchList name="Trumpet All Flex" />
+          </Instrument>
+        </Group>
+        <Group name="Velocity Volume">
+          <Instrument name="Trumpet Sus" />
+          <Instrument name="Trumpet Vib" />
+          <Instrument name="Trumpet Stc" Articulation="Staccato" />
+        </Group>
+        <Group name="MW XF Dynamics">
+          <Controller name="Dynamic Volume XFade" cc="1" />
+          <Instrument name="Trumpet Sus Mw~Dyn" />
+          <Instrument name="Trumpet Vib Mw~Dyn" />
+        </Group>
+        <Group name="MW Accent">
+          <Controller name="Attack Accent" cc="1" />
+          <Instrument name="Trumpet Sus Mw~Acnt" />
+          <Instrument name="Trumpet Vib Mw~Acnt" />
+        </Group>
+        <Group name="Vel Accent">
+          <Instrument name="Trumpet Sus Vel~Acnt" />
+          <Instrument name="Trumpet Vib Vel~Acnt" />
+        </Group>
+        <Group name="Separate Flex">
+          <Instrument name="Trumpet Sus Dbl 1" />
+          <Instrument name="Trumpet Sus Dbl 2" />
+          <Instrument name="Trumpet Sus Trp 1" />
+          <Instrument name="Trumpet Sus Trp 2" />
+          <Instrument name="Trumpet Sus Qdp" />
+          <Instrument name="Trumpet Vib Dbl 1" />
+          <Instrument name="Trumpet Vib Dbl 2" />
+          <Instrument name="Trumpet Vib Trp 1" />
+          <Instrument name="Trumpet Vib Trp 2" />
+          <Instrument name="Trumpet Vib Qdp" />
+          <Instrument name="Trumpet Stc Dbl 1" Articulation="Staccato" />
+          <Instrument name="Trumpet Stc Dbl 2" Articulation="Staccato" />
+          <Instrument name="Trumpet Stc Trp 1" Articulation="Staccato" />
+          <Instrument name="Trumpet Stc Trp 2" Articulation="Staccato" />
+          <Instrument name="Trumpet Stc Qdp" Articulation="Staccato" />
+          <Instrument name="Trumpet attk Dbl 1" />
+          <Instrument name="Trumpet attk Dbl 2" />
+          <Instrument name="Trumpet attk Trp 1" />
+          <Instrument name="Trumpet attk Trp 2" />
+          <Instrument name="Trumpet attk Qdp" />
+        </Group>
+        <Group name="Sus">
+          <Instrument name="Trumpet Sus p" />
+          <Instrument name="Trumpet Sus mf" />
+          <Instrument name="Trumpet Sus f" />
+          <Instrument name="Trumpet Sus fff" />
+        </Group>
+        <Group name="Stc" Articulation="Staccato">
+          <Instrument name="Trumpet Stc p" />
+          <Instrument name="Trumpet Stc f" />
+          <Instrument name="Trumpet Stc ff" />
+        </Group>
+      </Section>
+      <Section name="2 Trumpets" title="Trumpets" abbr="Tpts." lownote="f#3" highnote="f6" ksoctave="0">
+        <Group name="Flex Presets">
+          <Instrument name="2Tpts Sus Flx" />
+          <Instrument name="2Tpts Stc Flx" Articulation="Staccato" />
+          <Instrument name="2Tpts attk Flx" />
+          <Instrument name="2Tpts KSW SusFlx">
+            <UsesKeySwitchList name="SusFlx" />
+          </Instrument>
+          <Instrument name="2Tpts KSW StcFlx" Articulation="Staccato">
+            <UsesKeySwitchList name="StcFlx" />
+          </Instrument>
+          <Instrument name="2Tpts KSW AtkFlx">
+            <UsesKeySwitchList name="AtkFlx" />
+          </Instrument>
+        </Group>
+        <Group name="Keyswitched">
+          <Instrument name="2Tpts KSW All">
+            <UsesKeySwitchList name="Small Brass" />
+            <UsesArticulationSwitchList name="Small Brass" />
+          </Instrument>
+          <Instrument name="2Tpts KSW All+Flx">
+            <UsesKeySwitchList name="Small Brass All Flex" />
+            <UsesArticulationSwitchList name="Small Brass All Flex" />
+          </Instrument>
+        </Group>
+        <Group name="Velocity Volume">
+          <Instrument name="2Tpts Sus" />
+          <Instrument name="2Tpts Stc" Articulation="Staccato" />
+        </Group>
+        <Group name="MW XF Dynamics">
+          <Controller name="Dynamic Volume XFade" cc="1" />
+          <Instrument name="2Tpts Sus Mw~Dyn" />
+        </Group>
+        <Group name="MW Accent">
+          <Controller name="Attack Accent" cc="1" />
+          <Instrument name="2Tpts Sus Mw~Acnt" />
+        </Group>
+        <Group name="Vel Accent">
+          <Instrument name="2Tpts Sus Vel~Acnt" />
+        </Group>
+        <Group name="Separate Flex">
+          <Instrument name="2Tpts Sus Dbl 1" />
+          <Instrument name="2Tpts Sus Dbl 2" />
+          <Instrument name="2Tpts Sus Trp 1" />
+          <Instrument name="2Tpts Sus Trp 2" />
+          <Instrument name="2Tpts Sus Qdp" />
+          <Instrument name="2Tpts Stc Dbl 1" Articulation="Staccato" />
+          <Instrument name="2Tpts Stc Dbl 2" Articulation="Staccato" />
+          <Instrument name="2Tpts Stc Trp 1" Articulation="Staccato" />
+          <Instrument name="2Tpts Stc Trp 2" Articulation="Staccato" />
+          <Instrument name="2Tpts Stc Qdp" Articulation="Staccato" />
+          <Instrument name="2Tpts attk Dbl 1" />
+          <Instrument name="2Tpts attk Dbl 2" />
+          <Instrument name="2Tpts attk Trp 1" />
+          <Instrument name="2Tpts attk Trp 2" />
+          <Instrument name="2Tpts attk Qdp" />
+        </Group>
+        <Group name="Sus">
+          <Instrument name="2Tpts Sus p" />
+          <Instrument name="2Tpts Sus f" />
+          <Instrument name="2Tpts Sus ff" />
+          <Instrument name="2Tpts Sus fff" />
+        </Group>
+        <Group name="Vib">
+          <Instrument name="2Tpts Vib p" />
+          <Instrument name="2Tpts Vib mp" />
+          <Instrument name="2Tpts Vib mf" />
+          <Instrument name="2Tpts Vib f" />
+        </Group>
+        <Group name="Stc" Articulation="Staccato">
+          <Instrument name="2Tpts Stc p" />
+          <Instrument name="2Tpts Stc mf" />
+          <Instrument name="2Tpts Stc f" />
+        </Group>
+      </Section>
+      <Section name="Trumpets" title="Trumpets" abbr="Tpts." lownote="f#3" highnote="f6" ksoctave="0">
+        <Group name="Flex Presets">
+          <Instrument name="Tpts Sus Flx" />
+          <Instrument name="Tpts Stc Flx" Articulation="Staccato" />
+          <Instrument name="Tpts attk Flx" />
+          <Instrument name="Tpts KSW SusFlx">
+            <UsesKeySwitchList name="SusFlx" />
+          </Instrument>
+          <Instrument name="Tpts KSW StcFlx" Articulation="Staccato">
+            <UsesKeySwitchList name="StcFlx" />
+          </Instrument>
+          <Instrument name="Tpts KSW AtkFlx">
+            <UsesKeySwitchList name="AtkFlx" />
+          </Instrument>
+        </Group>
+        <Group name="Keyswitched">
+          <Instrument name="Tpts KSW All">
+            <UsesKeySwitchList name="Large Brass" />
+            <UsesArticulationSwitchList name="Large Brass" />
+          </Instrument>
+          <Instrument name="Tpts KSW All+Flx">
+            <UsesKeySwitchList name="Large Brass All Flex" />
+            <UsesArticulationSwitchList name="Large Brass All Flex" />
+          </Instrument>
+        </Group>
+        <Group name="Velocity Volume">
+          <Instrument name="Tpts Sus" />
+          <Instrument name="Tpts Stc" Articulation="Staccato" />
+        </Group>
+        <Group name="MW XF Dynamics">
+          <Controller name="Dynamic Volume XFade" cc="1" />
+          <Instrument name="Tpts Sus-FF Mw~Dyn" />
+          <Instrument name="Tpts Sus-F Mw~Dyn" />
+        </Group>
+        <Group name="MW Accent">
+          <Controller name="Attack Accent" cc="1" />
+          <Instrument name="Tpts Sus-FF Mw~Acnt" />
+          <Instrument name="Tpts Sus Mw~Acnt" />
+        </Group>
+        <Group name="Vel Accent">
+          <Instrument name="Tpts Sus-FF Vel~Acnt" />
+          <Instrument name="Tpts Sus-F Vel~Acnt" />
+        </Group>
+        <Group name="Separate Flex">
+          <Instrument name="Tpts Sus Dbl 1" />
+          <Instrument name="Tpts Sus Dbl 2" />
+          <Instrument name="Tpts Sus Trp 1" />
+          <Instrument name="Tpts Sus Trp 2" />
+          <Instrument name="Tpts Sus Qdp" />
+          <Instrument name="Tpts Stc Dbl 1" Articulation="Staccato" />
+          <Instrument name="Tpts Stc Dbl 2" Articulation="Staccato" />
+          <Instrument name="Tpts Stc Trp 1" Articulation="Staccato" />
+          <Instrument name="Tpts Stc Trp 2" Articulation="Staccato" />
+          <Instrument name="Tpts Stc Qdp" Articulation="Staccato" />
+          <Instrument name="Tpts attk Dbl 1" />
+          <Instrument name="Tpts attk Dbl 2" />
+          <Instrument name="Tpts attk Trp 1" />
+          <Instrument name="Tpts attk Trp 2" />
+          <Instrument name="Tpts attk Qdp" />
+        </Group>
+        <Group name="Sus">
+          <Instrument name="Tpts Sus p" />
+          <Instrument name="Tpts Sus mf" />
+          <Instrument name="Tpts Sus f" />
+          <Instrument name="Tpts Sus ff" />
+        </Group>
+        <Group name="Stc" Articulation="Staccato">
+          <Instrument name="Tpts Stc p" />
+          <Instrument name="Tpts Stc mf" />
+          <Instrument name="Tpts Stc f" />
+        </Group>
+      </Section>
+      <Section name="Solo French Horn" title="French Horn" abbr="F Hn." lownote="d2" highnote="f5" transpose="7" ksoctave="6">
+        <Group name="Flex Presets">
+          <Instrument name="FHorn Sus Flx" />
+          <Instrument name="FHorn Vib Flx" />
+          <Instrument name="FHorn Stc Flx" Articulation="Staccato" />
+          <Instrument name="FHorn attk Flx" />
+          <Instrument name="FHorn KSW SusFlx">
+            <UsesKeySwitchList name="SusFlx" />
+          </Instrument>
+          <Instrument name="FHorn KSW VibFlx">
+            <UsesKeySwitchList name="VibFlx" />
+          </Instrument>
+          <Instrument name="FHorn KSW StcFlx" Articulation="Staccato">
+            <UsesKeySwitchList name="StcFlx" />
+          </Instrument>
+          <Instrument name="FHorn KSW AtkFlx">
+            <UsesKeySwitchList name="AtkFlx" />
+          </Instrument>
+        </Group>
+        <Group name="Keyswitched">
+          <Instrument name="FHorn KSW All">
+            <UsesKeySwitchList name="Small Brass" />
+            <UsesArticulationSwitchList name="Small Brass" />
+          </Instrument>
+          <Instrument name="FHorn KSW All+Flx">
+            <UsesKeySwitchList name="Small Brass All Flex" />
+            <UsesArticulationSwitchList name="Small Brass All Flex" />
+          </Instrument>
+        </Group>
+        <Group name="Velocity Volume">
+          <Instrument name="FHorn Sus" />
+          <Instrument name="FHorn Vib" />
+          <Instrument name="FHorn Stc" Articulation="Staccato" />
+        </Group>
+        <Group name="MW XF Dynamics">
+          <Controller name="Dynamic Volume XFade" cc="1" />
+          <Instrument name="FHorn Sus Mw~Dyn" />
+          <Instrument name="FHorn Vib Mw~Dyn" />
+        </Group>
+        <Group name="MW Accent">
+          <Controller name="Attack Accent" cc="1" />
+          <Instrument name="FHorn Sus Mw~Acnt" />
+          <Instrument name="FHorn Vib Mw~Acnt" />
+        </Group>
+        <Group name="Vel Accent">
+          <Instrument name="FHorn Sus Vel~Acnt" />
+          <Instrument name="FHorn Vib Vel~Acnt" />
+        </Group>
+        <Group name="Separate Flex">
+          <Instrument name="FHorn Sus Dbl 1" />
+          <Instrument name="FHorn Sus Dbl 2" />
+          <Instrument name="FHorn Sus Trp 1" />
+          <Instrument name="FHorn Sus Trp 2" />
+          <Instrument name="FHorn Sus Qdp" />
+          <Instrument name="FHorn Vib Dbl 1" />
+          <Instrument name="FHorn Vib Dbl 2" />
+          <Instrument name="FHorn Vib Trp 1" />
+          <Instrument name="FHorn Vib Trp 2" />
+          <Instrument name="FHorn Vib Qdp" />
+          <Instrument name="FHorn Stc Dbl 1" Articulation="Staccato" />
+          <Instrument name="FHorn Stc Dbl 2" Articulation="Staccato" />
+          <Instrument name="FHorn Stc Trp 1" Articulation="Staccato" />
+          <Instrument name="FHorn Stc Trp 2" Articulation="Staccato" />
+          <Instrument name="FHorn Stc Qdp" Articulation="Staccato" />
+          <Instrument name="FHorn attk Dbl 1" />
+          <Instrument name="FHorn attk Dbl 2" />
+          <Instrument name="FHorn attk Trp 1" />
+          <Instrument name="FHorn attk Trp 2" />
+          <Instrument name="FHorn attk Qdp" />
+        </Group>
+        <Group name="Sus">
+          <Instrument name="FHorn Sus p" />
+          <Instrument name="FHorn Sus mp" />
+          <Instrument name="FHorn Sus mf" />
+          <Instrument name="FHorn Sus f" />
+        </Group>
+        <Group name="Vib">
+          <Instrument name="FHorn Sus p" />
+          <Instrument name="FHorn Sus mp" />
+          <Instrument name="FHorn Sus mf" />
+          <Instrument name="FHorn Sus f" />
+        </Group>
+        <Group name="Stc" Articulation="Staccato">
+          <Instrument name="FHorn Stc p" />
+          <Instrument name="FHorn Stc mp" />
+          <Instrument name="FHorn Stc mf" />
+          <Instrument name="FHorn Stc f" />
+        </Group>
+      </Section>
+      <Section name="2 French Horns" title="French Horns" abbr="F Hns." lownote="d2" highnote="f5" transpose="7" ksoctave="6">
+        <Group name="Flex Presets">
+          <Instrument name="2FHs Sus Flx" />
+          <Instrument name="2FHs Vib Flx" />
+          <Instrument name="2FHs Stc Flx" Articulation="Staccato" />
+          <Instrument name="2FHs attk Flx" />
+          <Instrument name="2FHs KSW SusFlx">
+            <UsesKeySwitchList name="SusFlx" />
+          </Instrument>
+          <Instrument name="2FHs KSW VibFlx">
+            <UsesKeySwitchList name="VibFlx" />
+          </Instrument>
+          <Instrument name="2FHs KSW StcFlx" Articulation="Staccato">
+            <UsesKeySwitchList name="StcFlx" />
+          </Instrument>
+          <Instrument name="2FHs KSW AtkFlx">
+            <UsesKeySwitchList name="AtkFlx" />
+          </Instrument>
+        </Group>
+        <Group name="Keyswitched">
+          <Instrument name="2FHs KSW All">
+            <UsesKeySwitchList name="Small Brass" />
+            <UsesArticulationSwitchList name="Small Brass" />
+          </Instrument>
+          <Instrument name="2FHs KSW All+Flx">
+            <UsesKeySwitchList name="Small Brass All Flex" />
+            <UsesArticulationSwitchList name="Small Brass All Flex" />
+          </Instrument>
+        </Group>
+        <Group name="Velocity Volume">
+          <Instrument name="2FHs Sus" />
+          <Instrument name="2FHs Vib" />
+          <Instrument name="2FHs Stc" Articulation="Staccato" />
+        </Group>
+        <Group name="MW XF Dynamics">
+          <Controller name="Dynamic Volume XFade" cc="1" />
+          <Instrument name="2FHs Sus Mw~Dyn" />
+          <Instrument name="2FHs Vib Mw~Dyn" />
+        </Group>
+        <Group name="MW Accent">
+          <Controller name="Attack Accent" cc="1" />
+          <Instrument name="2FHs Sus Mw~Acnt" />
+          <Instrument name="2FHs Vib Mw~Acnt" />
+        </Group>
+        <Group name="Vel Accent">
+          <Instrument name="2FHs Sus Vel~Acnt" />
+          <Instrument name="2FHs Vib Vel~Acnt" />
+        </Group>
+        <Group name="Separate Flex">
+          <Instrument name="2FHs Sus Dbl 1" />
+          <Instrument name="2FHs Sus Dbl 2" />
+          <Instrument name="2FHs Sus Trp 1" />
+          <Instrument name="2FHs Sus Trp 2" />
+          <Instrument name="2FHs Sus Qdp" />
+          <Instrument name="2FHs Vib Dbl 1" />
+          <Instrument name="2FHs Vib Dbl 2" />
+          <Instrument name="2FHs Vib Trp 1" />
+          <Instrument name="2FHs Vib Trp 2" />
+          <Instrument name="2FHs Vib Qdp" />
+          <Instrument name="2FHs Stc Dbl 1" Articulation="Staccato" />
+          <Instrument name="2FHs Stc Dbl 2" Articulation="Staccato" />
+          <Instrument name="2FHs Stc Trp 1" Articulation="Staccato" />
+          <Instrument name="2FHs Stc Trp 2" Articulation="Staccato" />
+          <Instrument name="2FHs Stc Qdp" Articulation="Staccato" />
+          <Instrument name="2FHs attk Dbl 1" />
+          <Instrument name="2FHs attk Dbl 2" />
+          <Instrument name="2FHs attk Trp 1" />
+          <Instrument name="2FHs attk Trp 2" />
+          <Instrument name="2FHs attk Qdp" />
+        </Group>
+        <Group name="Sus">
+          <Instrument name="2FHs Sus p" />
+          <Instrument name="2FHs Sus mf" />
+          <Instrument name="2FHs Sus ff" />
+          <Instrument name="2FHs Sus fff" />
+        </Group>
+        <Group name="Vib">
+          <Instrument name="2FHs Sus p" />
+          <Instrument name="2FHs Sus mp" />
+          <Instrument name="2FHs Sus mf" />
+          <Instrument name="2FHs Sus f" />
+        </Group>
+        <Group name="Stc" Articulation="Staccato">
+          <Instrument name="2FHs Stc p" />
+          <Instrument name="2FHs Stc mf" />
+          <Instrument name="2FHs Stc f" />
+        </Group>
+      </Section>
+      <Section name="French Horns" title="French Horns" abbr="F Hns." lownote="d2" highnote="f5" transpose="7" ksoctave="6">
+        <Group name="Flex Presets">
+          <Instrument name="FHs Sus Flx" />
+          <Instrument name="FHs Stc Flx" Articulation="Staccato" />
+          <Instrument name="FHs attk Flx" />
+          <Instrument name="FHs KSW SusFlx">
+            <UsesKeySwitchList name="SusFlx" />
+          </Instrument>
+          <Instrument name="FHs KSW StcFlx" Articulation="Staccato">
+            <UsesKeySwitchList name="StcFlx" />
+          </Instrument>
+          <Instrument name="FHs KSW AtkFlx">
+            <UsesKeySwitchList name="AtkFlx" />
+          </Instrument>
+        </Group>
+        <Group name="Keyswitched">
+          <Instrument name="FHs KSW All">
+            <UsesKeySwitchList name="Large Brass" />
+            <UsesArticulationSwitchList name="Large Brass" />
+          </Instrument>
+          <Instrument name="FHs KSW All+Flx">
+            <UsesKeySwitchList name="Large Brass All Flex" />
+            <UsesArticulationSwitchList name="Large Brass All Flex" />
+          </Instrument>
+        </Group>
+        <Group name="Velocity Volume">
+          <Instrument name="FHs Sus" />
+          <Instrument name="FHs Stc" Articulation="Staccato" />
+        </Group>
+        <Group name="MW XF Dynamics">
+          <Controller name="Dynamic Volume XFade" cc="1" />
+          <Instrument name="FHs Sus Mw~Dyn" />
+        </Group>
+        <Group name="MW Accent">
+          <Controller name="Attack Accent" cc="1" />
+          <Instrument name="FHs Sus Mw~Acnt" />
+        </Group>
+        <Group name="Vel Accent">
+          <Instrument name="FHs Sus Vel~Acnt" />
+        </Group>
+        <Group name="Separate Flex">
+          <Instrument name="FHs Sus Dbl 1" />
+          <Instrument name="FHs Sus Dbl 2" />
+          <Instrument name="FHs Sus Trp 1" />
+          <Instrument name="FHs Sus Trp 2" />
+          <Instrument name="FHs Sus Qdp" />
+          <Instrument name="FHs Stc Dbl 1" Articulation="Staccato" />
+          <Instrument name="FHs Stc Dbl 2" Articulation="Staccato" />
+          <Instrument name="FHs Stc Trp 1" Articulation="Staccato" />
+          <Instrument name="FHs Stc Trp 2" Articulation="Staccato" />
+          <Instrument name="FHs Stc Qdp" Articulation="Staccato" />
+          <Instrument name="FHs attk Dbl 1" />
+          <Instrument name="FHs attk Dbl 2" />
+          <Instrument name="FHs attk Trp 1" />
+          <Instrument name="FHs attk Trp 2" />
+          <Instrument name="FHs attk Qdp" />
+        </Group>
+        <Group name="Sus">
+          <Instrument name="FHs Sus p" />
+          <Instrument name="FHs Sus mf" />
+          <Instrument name="FHs Sus f" />
+          <Instrument name="FHs Sus ff" />
+        </Group>
+        <Group name="Stc" Articulation="Staccato">
+          <Instrument name="FHs Stc p" />
+          <Instrument name="FHs Stc mf" />
+          <Instrument name="FHs Stc f" />
+        </Group>
+      </Section>
+      <Section name="Solo Trombone" title="Trombone" abbr="Tbn." lownote="e2" highnote="f5" clef="bass" ksoctave="6">
+        <Group name="Flex Presets">
+          <Instrument name="Trb Sus Flx" />
+          <Instrument name="Trb Vib Flx" />
+          <Instrument name="Trb Stc Flx" Articulation="Staccato" />
+          <Instrument name="Trb attk Flx" />
+          <Instrument name="Trb KSW SusFlx">
+            <UsesKeySwitchList name="SusFlx" />
+          </Instrument>
+          <Instrument name="Trb KSW VibFlx">
+            <UsesKeySwitchList name="VibFlx" />
+          </Instrument>
+          <Instrument name="Trb KSW StcFlx" Articulation="Staccato">
+            <UsesKeySwitchList name="StcFlx" />
+          </Instrument>
+          <Instrument name="Trb KSW AtkFlx">
+            <UsesKeySwitchList name="AtkFlx" />
+          </Instrument>
+        </Group>
+        <Group name="Keyswitched">
+          <Instrument name="Trb KSW All">
+            <UsesKeySwitchList name="Small Brass" />
+            <UsesArticulationSwitchList name="Small Brass" />
+          </Instrument>
+          <Instrument name="Trb KSW All+Flx">
+            <UsesKeySwitchList name="Small Brass All Flex" />
+            <UsesArticulationSwitchList name="Small Brass All Flex" />
+          </Instrument>
+        </Group>
+        <Group name="Velocity Volume">
+          <Instrument name="Trb Sus" />
+          <Instrument name="Trb Vib" />
+          <Instrument name="Trb Stc" Articulation="Staccato" />
+        </Group>
+        <Group name="MW Volume">
+          <Controller name="Volume" cc="1" />
+          <Instrument name="Trb Sus Mw = Vol" />
+          <Instrument name="Trb Vib Mw = Vol" />
+          <Instrument name="Trb Stc Mw = Vol" Articulation="Staccato" />
+        </Group>
+        <Group name="MW XF Dynamics">
+          <Controller name="Dynamic Volume XFade" cc="1" />
+          <Instrument name="Trb Vib Mw~Dyn" />
+          <Instrument name="Trb Sus Mw~Dyn" />
+        </Group>
+        <Group name="MW Accent">
+          <Controller name="Attack Accent" cc="1" />
+          <Instrument name="Trb Sus Mw~Acnt" />
+          <Instrument name="Trb Vib Mw~Acnt" />
+        </Group>
+        <Group name="Vel Accent">
+          <Instrument name="Trb Sus Vel~Acnt" />
+          <Instrument name="Trb Vib Vel~Acnt" />
+        </Group>
+        <Group name="Separate Flex">
+          <Instrument name="Trb Sus Dbl 1" />
+          <Instrument name="Trb Sus Dbl 2" />
+          <Instrument name="Trb Sus Trp 1" />
+          <Instrument name="Trb Sus Trp 2" />
+          <Instrument name="Trb Sus Qdp" />
+          <Instrument name="Trb Vib Dbl 1" />
+          <Instrument name="Trb Vib Dbl 2" />
+          <Instrument name="Trb Vib Trp 1" />
+          <Instrument name="Trb Vib Trp 2" />
+          <Instrument name="Trb Vib Qdp" />
+          <Instrument name="Trb Stc Dbl 1" Articulation="Staccato" />
+          <Instrument name="Trb Stc Dbl 2" Articulation="Staccato" />
+          <Instrument name="Trb Stc Trp 1" Articulation="Staccato" />
+          <Instrument name="Trb Stc Trp 2" Articulation="Staccato" />
+          <Instrument name="Trb Stc Qdp" Articulation="Staccato" />
+          <Instrument name="Trb attk Dbl 1" />
+          <Instrument name="Trb attk Dbl 2" />
+          <Instrument name="Trb attk Trp 1" />
+          <Instrument name="Trb attk Trp 2" />
+          <Instrument name="Trb attk Qdp" />
+        </Group>
+        <Group name="Sus">
+          <Instrument name="Trb Sus p" />
+          <Instrument name="Trb Sus mp" />
+          <Instrument name="Trb Sus mf" />
+          <Instrument name="Trb Sus f" />
+        </Group>
+        <Group name="Vib">
+          <Instrument name="Trb Sus p" />
+          <Instrument name="Trb Sus mp" />
+          <Instrument name="Trb Sus mf" />
+          <Instrument name="Trb Sus f" />
+        </Group>
+        <Group name="Stc" Articulation="Staccato">
+          <Instrument name="Trb Stc p" />
+          <Instrument name="Trb Stc mp" />
+          <Instrument name="Trb Stc mf" />
+          <Instrument name="Trb Stc f" />
+        </Group>
+      </Section>
+      <Section name="2 Trombones" title="Trombones" abbr="Tbns." lownote="e2" highnote="f5" clef="bass" ksoctave="6">
+        <Group name="Flex Presets">
+          <Instrument name="2Trbs Sus Flx" />
+          <Instrument name="2Trbs Vib Flx" />
+          <Instrument name="2Trbs Stc Flx" Articulation="Staccato" />
+          <Instrument name="2Trbs attk Flx" />
+          <Instrument name="2Trbs KSW SusFlx">
+            <UsesKeySwitchList name="SusFlx" />
+          </Instrument>
+          <Instrument name="2Trbs KSW VibFlx">
+            <UsesKeySwitchList name="VibFlx" />
+          </Instrument>
+          <Instrument name="2Trbs KSW StcFlx" Articulation="Staccato">
+            <UsesKeySwitchList name="StcFlx" />
+          </Instrument>
+          <Instrument name="2Trbs KSW AtkFlx">
+            <UsesKeySwitchList name="AtkFlx" />
+          </Instrument>
+        </Group>
+        <Group name="Keyswitched">
+          <Instrument name="2Trbs KSW All">
+            <UsesKeySwitchList name="Small Brass" />
+            <UsesArticulationSwitchList name="Small Brass" />
+          </Instrument>
+          <Instrument name="2Trbs KSW All+Flx">
+            <UsesKeySwitchList name="Small Brass All Flex" />
+            <UsesArticulationSwitchList name="Small Brass All Flex" />
+          </Instrument>
+        </Group>
+        <Group name="Velocity Volume">
+          <Instrument name="2Trbs Sus" />
+          <Instrument name="2Trbs Vib" />
+          <Instrument name="2Trbs Stc" Articulation="Staccato" />
+        </Group>
+        <Group name="MW Volume">
+          <Controller name="Volume" cc="1" />
+          <Instrument name="2Trbs Sus Mw = Vol" />
+          <Instrument name="2Trbs Vib Mw = Vol" />
+          <Instrument name="2Trbs Stc Mw = Vol" Articulation="Staccato" />
+        </Group>
+        <Group name="MW XF Dynamics">
+          <Controller name="Dynamic Volume XFade" cc="1" />
+          <Instrument name="2Trbs Vib Mw~Dyn" />
+          <Instrument name="2Trbs Sus Mw~Dyn" />
+        </Group>
+        <Group name="MW Accent">
+          <Controller name="Attack Accent" cc="1" />
+          <Instrument name="2Trbs Sus Mw~Acnt" />
+          <Instrument name="2Trbs Vib Mw~Acnt" />
+        </Group>
+        <Group name="Vel Accent">
+          <Instrument name="2Trbs Sus Vel~Acnt" />
+          <Instrument name="2Trbs Vib Vel~Acnt" />
+        </Group>
+        <Group name="Separate Flex">
+          <Instrument name="2Trbs Sus Dbl 1" />
+          <Instrument name="2Trbs Sus Dbl 2" />
+          <Instrument name="2Trbs Sus Trp 1" />
+          <Instrument name="2Trbs Sus Trp 2" />
+          <Instrument name="2Trbs Sus Qdp" />
+          <Instrument name="2Trbs Vib Dbl 1" />
+          <Instrument name="2Trbs Vib Dbl 2" />
+          <Instrument name="2Trbs Vib Trp 1" />
+          <Instrument name="2Trbs Vib Trp 2" />
+          <Instrument name="2Trbs Vib Qdp" />
+          <Instrument name="2Trbs Stc Dbl 1" Articulation="Staccato" />
+          <Instrument name="2Trbs Stc Dbl 2" Articulation="Staccato" />
+          <Instrument name="2Trbs Stc Trp 1" Articulation="Staccato" />
+          <Instrument name="2Trbs Stc Trp 2" Articulation="Staccato" />
+          <Instrument name="2Trbs Stc Qdp" Articulation="Staccato" />
+          <Instrument name="2Trbs attk Dbl 1" />
+          <Instrument name="2Trbs attk Dbl 2" />
+          <Instrument name="2Trbs attk Trp 1" />
+          <Instrument name="2Trbs attk Trp 2" />
+          <Instrument name="2Trbs attk Qdp" />
+        </Group>
+        <Group name="Sus">
+          <Instrument name="2Trbs Sus p" />
+          <Instrument name="2Trbs Sus mp" />
+          <Instrument name="2Trbs Sus mf" />
+          <Instrument name="2Trbs Sus f" />
+        </Group>
+        <Group name="Vib">
+          <Instrument name="2Trbs Sus p" />
+          <Instrument name="2Trbs Sus mp" />
+          <Instrument name="2Trbs Sus mf" />
+          <Instrument name="2Trbs Sus f" />
+        </Group>
+        <Group name="Stc" Articulation="Staccato">
+          <Instrument name="2Trbs Stc pp" />
+          <Instrument name="2Trbs Stc p" />
+          <Instrument name="2Trbs Stc mf" />
+          <Instrument name="2Trbs Stc f" />
+        </Group>
+      </Section>
+      <Section name="Trombones" title="Trombones" abbr="Tbns." lownote="e2" highnote="f5" clef="bass" ksoctave="6">
+        <Group name="Flex Presets">
+          <Instrument name="Trbs Sus Flx" />
+          <Instrument name="Trbs Stc Flx" Articulation="Staccato" />
+          <Instrument name="Trbs attk Flx" />
+          <Instrument name="Trbs KSW SusFlx">
+            <UsesKeySwitchList name="SusFlx" />
+          </Instrument>
+          <Instrument name="Trbs KSW VibFlx">
+            <UsesKeySwitchList name="VibFlx" />
+          </Instrument>
+          <Instrument name="Trbs KSW StcFlx" Articulation="Staccato">
+            <UsesKeySwitchList name="StcFlx" />
+          </Instrument>
+          <Instrument name="Trbs KSW AtkFlx">
+            <UsesKeySwitchList name="AtkFlx" />
+          </Instrument>
+        </Group>
+        <Group name="Keyswitched">
+          <Instrument name="Trbs KSW All">
+            <UsesKeySwitchList name="Large Brass" />
+            <UsesArticulationSwitchList name="Large Brass" />
+          </Instrument>
+          <Instrument name="Trbs KSW All+Flx">
+            <UsesKeySwitchList name="Large Brass All Flex" />
+            <UsesArticulationSwitchList name="Large Brass All Flex" />
+          </Instrument>
+        </Group>
+        <Group name="Velocity Volume">
+          <Instrument name="Trbs Sus" />
+          <Instrument name="Trbs Stc" Articulation="Staccato" />
+        </Group>
+        <Group name="MW Volume">
+          <Controller name="Volume" cc="1" />
+          <Instrument name="Trbs Sus Mw = Vol" />
+          <Instrument name="Trbs Stc Mw = Vol" Articulation="Staccato" />
+        </Group>
+        <Group name="MW XF Dynamics">
+          <Controller name="Dynamic Volume XFade" cc="1" />
+          <Instrument name="Trbs Sus Mw~Dyn" />
+        </Group>
+        <Group name="MW Accent">
+          <Controller name="Attack Accent" cc="1" />
+          <Instrument name="Trbs Sus Mw~Acnt" />
+        </Group>
+        <Group name="Vel Accent">
+          <Instrument name="Trbs Sus Vel~Acnt" />
+        </Group>
+        <Group name="Separate Flex">
+          <Instrument name="Trbs Sus Dbl 1" />
+          <Instrument name="Trbs Sus Dbl 2" />
+          <Instrument name="Trbs Sus Trp 1" />
+          <Instrument name="Trbs Sus Trp 2" />
+          <Instrument name="Trbs Sus Qdp" />
+          <Instrument name="Trbs Stc Dbl 1" Articulation="Staccato" />
+          <Instrument name="Trbs Stc Dbl 2" Articulation="Staccato" />
+          <Instrument name="Trbs Stc Trp 1" Articulation="Staccato" />
+          <Instrument name="Trbs Stc Trp 2" Articulation="Staccato" />
+          <Instrument name="Trbs Stc Qdp" Articulation="Staccato" />
+          <Instrument name="Trbs attk Dbl 1" />
+          <Instrument name="Trbs attk Dbl 2" />
+          <Instrument name="Trbs attk Trp 1" />
+          <Instrument name="Trbs attk Trp 2" />
+          <Instrument name="Trbs attk Qdp" />
+        </Group>
+        <Group name="Sus">
+          <Instrument name="Trbs Sus p" />
+          <Instrument name="Trbs Sus mp" />
+          <Instrument name="Trbs Sus mf" />
+          <Instrument name="Trbs Sus f" />
+        </Group>
+        <Group name="Stc" Articulation="Staccato">
+          <Instrument name="Trbs Stc pp" />
+          <Instrument name="Trbs Stc p" />
+          <Instrument name="Trbs Stc mf" />
+          <Instrument name="Trbs Stc f" />
+        </Group>
+      </Section>
+      <Section name="Solo Tuba" lownote="c#1" title="Tuba" abbr="Tba." highnote="g4" clef="bass" ksoctave="6">
+        <Group name="Flex Presets">
+          <Instrument name="Tuba Sus Flx" />
+          <Instrument name="Tuba Vib Flx" />
+          <Instrument name="Tuba Stc Flx" Articulation="Staccato" />
+          <Instrument name="Tuba attk Flx" />
+          <Instrument name="Tuba KSW SusFlx">
+            <UsesKeySwitchList name="SusFlx" />
+          </Instrument>
+          <Instrument name="Tuba KSW VibFlx">
+            <UsesKeySwitchList name="VibFlx" />
+          </Instrument>
+          <Instrument name="Tuba KSW StcFlx" Articulation="Staccato">
+            <UsesKeySwitchList name="StcFlx" />
+          </Instrument>
+          <Instrument name="Tuba KSW AtkFlx">
+            <UsesKeySwitchList name="AtkFlx" />
+          </Instrument>
+        </Group>
+        <Group name="Keyswitched">
+          <Instrument name="Tuba KSW All">
+            <UsesKeySwitchList name="Small Brass" />
+            <UsesArticulationSwitchList name="Small Brass" />
+          </Instrument>
+          <Instrument name="Tuba KSW All+Flx">
+            <UsesKeySwitchList name="Small Brass All Flex" />
+            <UsesArticulationSwitchList name="Small Brass All Flex" />
+          </Instrument>
+        </Group>
+        <Group name="Velocity Volume">
+          <Instrument name="Tuba Sus" />
+          <Instrument name="Tuba Vib" />
+          <Instrument name="Tuba Stc" Articulation="Staccato" />
+        </Group>
+        <Group name="MW Volume">
+          <Controller name="Volume" cc="1" />
+          <Instrument name="Tuba Sus Mw = Vol" />
+          <Instrument name="Tuba Vib Mw = Vol" />
+          <Instrument name="Tuba Stc Mw = Vol" Articulation="Staccato" />
+        </Group>
+        <Group name="MW XF Dynamics">
+          <Controller name="Dynamic Volume XFade" cc="1" />
+          <Instrument name="Tuba Sus Mw~DynXf" />
+          <Instrument name="Tuba Vib Mw~DynXf" />
+        </Group>
+        <Group name="MW Accent">
+          <Controller name="Attack Accent" cc="1" />
+          <Instrument name="Tuba Sus Mw~Acnt" />
+          <Instrument name="Tuba Vib Mw~Acnt" />
+        </Group>
+        <Group name="Vel Accent">
+          <Instrument name="Tuba Sus Vel~Acnt" />
+          <Instrument name="Tuba Vib Vel~Acnt" />
+        </Group>
+        <Group name="Separate Flex">
+          <Instrument name="Tuba Sus Dbl 1" />
+          <Instrument name="Tuba Sus Dbl 2" />
+          <Instrument name="Tuba Sus Trp 1" />
+          <Instrument name="Tuba Sus Trp 2" />
+          <Instrument name="Tuba Sus Qdp" />
+          <Instrument name="Tuba Vib Dbl 1" />
+          <Instrument name="Tuba Vib Dbl 2" />
+          <Instrument name="Tuba Vib Trp 1" />
+          <Instrument name="Tuba Vib Trp 2" />
+          <Instrument name="Tuba Vib Qdp" />
+          <Instrument name="Tuba Stc Dbl 1" Articulation="Staccato" />
+          <Instrument name="Tuba Stc Dbl 2" Articulation="Staccato" />
+          <Instrument name="Tuba Stc Trp 1" Articulation="Staccato" />
+          <Instrument name="Tuba Stc Trp 2" Articulation="Staccato" />
+          <Instrument name="Tuba Stc Qdp" Articulation="Staccato" />
+          <Instrument name="Tuba attk Dbl 1" />
+          <Instrument name="Tuba attk Dbl 2" />
+          <Instrument name="Tuba attk Trp 1" />
+          <Instrument name="Tuba attk Trp 2" />
+          <Instrument name="Tuba attk Qdp" />
+        </Group>
+        <Group name="Sus">
+          <Instrument name="Tuba Sus p" />
+          <Instrument name="Tuba Sus mp" />
+          <Instrument name="Tuba Sus mf" />
+          <Instrument name="Tuba Sus f" />
+        </Group>
+        <Group name="Vib">
+          <Instrument name="Tuba Sus p" />
+          <Instrument name="Tuba Sus mp" />
+          <Instrument name="Tuba Sus mf" />
+          <Instrument name="Tuba Sus f" />
+        </Group>
+        <Group name="Stc" Articulation="Staccato">
+          <Instrument name="Tuba Stc p" />
+          <Instrument name="Tuba Stc mp" />
+          <Instrument name="Tuba Stc mf" />
+          <Instrument name="Tuba Stc f" />
+        </Group>
+      </Section>
+      <Section name="2 Tubas" lownote="c#1" title="Tubas" abbr="Tbas." highnote="g4" clef="bass" ksoctave="6">
+        <Group name="Flex Presets">
+          <Instrument name="2Tbas Sus Flx" />
+          <Instrument name="2Tbas Vib Flx" />
+          <Instrument name="2Tbas Stc Flx" Articulation="Staccato" />
+          <Instrument name="2Tbas attk Flx" />
+          <Instrument name="2Tbas KSW SusFlx">
+            <UsesKeySwitchList name="SusFlx" />
+          </Instrument>
+          <Instrument name="2Tbas KSW VibFlx">
+            <UsesKeySwitchList name="VibFlx" />
+          </Instrument>
+          <Instrument name="2Tbas KSW StcFlx" Articulation="Staccato">
+            <UsesKeySwitchList name="StcFlx" />
+          </Instrument>
+          <Instrument name="2Tbas KSW AtkFlx">
+            <UsesKeySwitchList name="AtkFlx" />
+          </Instrument>
+        </Group>
+        <Group name="Keyswitched">
+          <Instrument name="2Tbas KSW All">
+            <UsesKeySwitchList name="Small Brass" />
+            <UsesArticulationSwitchList name="Small Brass" />
+          </Instrument>
+          <Instrument name="2Tbas KSW All+Flx">
+            <UsesKeySwitchList name="Small Brass All Flex" />
+            <UsesArticulationSwitchList name="Small Brass All Flex" />
+          </Instrument>
+        </Group>
+        <Group name="Velocity Volume">
+          <Instrument name="2Tbas Sus" />
+          <Instrument name="2Tbas Vib" />
+          <Instrument name="2Tbas Stc" Articulation="Staccato" />
+        </Group>
+        <Group name="MW Volume">
+          <Controller name="Volume" cc="1" />
+          <Instrument name="2Tbas Sus Mw = Vol" />
+          <Instrument name="2Tbas Vib Mw = Vol" />
+          <Instrument name="2Tbas Stc Mw = Vol" Articulation="Staccato" />
+        </Group>
+        <Group name="MW XF Dynamics">
+          <Controller name="Dynamic Volume XFade" cc="1" />
+          <Instrument name="2Tbas Sus Mw~DynXf" />
+          <Instrument name="2Tbas Vib Mw~DynXf" />
+        </Group>
+        <Group name="MW Accent">
+          <Controller name="Attack Accent" cc="1" />
+          <Instrument name="2Tbas Sus Mw~Acnt" />
+          <Instrument name="2Tbas Vib Mw~Acnt" />
+        </Group>
+        <Group name="Vel Accent">
+          <Instrument name="2Tbas Sus Vel~Acnt" />
+          <Instrument name="2Tbas Vib Vel~Acnt" />
+        </Group>
+        <Group name="Separate Flex">
+          <Instrument name="2Tbas Sus Dbl 1" />
+          <Instrument name="2Tbas Sus Dbl 2" />
+          <Instrument name="2Tbas Sus Trp 1" />
+          <Instrument name="2Tbas Sus Trp 2" />
+          <Instrument name="2Tbas Sus Qdp" />
+          <Instrument name="2Tbas Vib Dbl 1" />
+          <Instrument name="2Tbas Vib Dbl 2" />
+          <Instrument name="2Tbas Vib Trp 1" />
+          <Instrument name="2Tbas Vib Trp 2" />
+          <Instrument name="2Tbas Vib Qdp" />
+          <Instrument name="2Tbas Stc Dbl 1" Articulation="Staccato" />
+          <Instrument name="2Tbas Stc Dbl 2" Articulation="Staccato" />
+          <Instrument name="2Tbas Stc Trp 1" Articulation="Staccato" />
+          <Instrument name="2Tbas Stc Trp 2" Articulation="Staccato" />
+          <Instrument name="2Tbas Stc Qdp" Articulation="Staccato" />
+          <Instrument name="2Tbas attk Dbl 1" />
+          <Instrument name="2Tbas attk Dbl 2" />
+          <Instrument name="2Tbas attk Trp 1" />
+          <Instrument name="2Tbas attk Trp 2" />
+          <Instrument name="2Tbas attk Qdp" />
+        </Group>
+        <Group name="Sus">
+          <Instrument name="2Tbas Sus p" />
+          <Instrument name="2Tbas Sus mp" />
+          <Instrument name="2Tbas Sus mf" />
+          <Instrument name="2Tbas Sus f" />
+        </Group>
+        <Group name="Vib">
+          <Instrument name="2Tbas Sus p" />
+          <Instrument name="2Tbas Sus mp" />
+          <Instrument name="2Tbas Sus mf" />
+          <Instrument name="2Tbas Sus f" />
+        </Group>
+        <Group name="Stc" Articulation="Staccato">
+          <Instrument name="2Tbas Stc p" />
+          <Instrument name="2Tbas Stc mp" />
+          <Instrument name="2Tbas Stc mf" />
+          <Instrument name="2Tbas Stc f" />
+        </Group>
+      </Section>
+      <Section name="Tubas" lownote="c#1" title="Tubas" abbr="Tbas." highnote="g4" clef="bass" ksoctave="6">
+        <Group name="Flex Presets">
+          <Instrument name="Tubas Sus Flx" />
+          <Instrument name="Tubas Stc Flx" Articulation="Staccato" />
+          <Instrument name="Tubas attk Flx" />
+          <Instrument name="Tubas KSW SusFlx">
+            <UsesKeySwitchList name="SusFlx" />
+          </Instrument>
+          <Instrument name="Tubas KSW StcFlx" Articulation="Staccato">
+            <UsesKeySwitchList name="StcFlx" />
+          </Instrument>
+          <Instrument name="Tubas KSW AtkFlx">
+            <UsesKeySwitchList name="AtkFlx" />
+          </Instrument>
+        </Group>
+        <Group name="Keyswitched">
+          <Instrument name="Tubas KSW All">
+            <UsesKeySwitchList name="Large Brass" />
+            <UsesArticulationSwitchList name="Large Brass" />
+          </Instrument>
+          <Instrument name="Tubas KSW All+Flx">
+            <UsesKeySwitchList name="Large Brass All Flex" />
+            <UsesArticulationSwitchList name="Large Brass All Flex" />
+          </Instrument>
+        </Group>
+        <Group name="Velocity Volume">
+          <Instrument name="Tubas Sus" />
+          <Instrument name="Tubas Stc" Articulation="Staccato" />
+        </Group>
+        <Group name="MW Volume">
+          <Controller name="Volume" cc="1" />
+          <Instrument name="Tubas Sus Mw = Vol" />
+          <Instrument name="Tubas Stc Mw = Vol" Articulation="Staccato" />
+        </Group>
+        <Group name="MW XF Dynamics">
+          <Controller name="Dynamic Volume XFade" cc="1" />
+          <Instrument name="Tubas Sus Mw~DynXf" />
+        </Group>
+        <Group name="MW Accent">
+          <Controller name="Attack Accent" cc="1" />
+          <Instrument name="Tubas Sus Mw~Acnt" />
+        </Group>
+        <Group name="Vel Accent">
+          <Instrument name="Tubas Sus Vel~Acnt" />
+        </Group>
+        <Group name="Separate Flex">
+          <Instrument name="Tubas Sus Dbl 1" />
+          <Instrument name="Tubas Sus Dbl 2" />
+          <Instrument name="Tubas Sus Trp 1" />
+          <Instrument name="Tubas Sus Trp 2" />
+          <Instrument name="Tubas Sus Qdp" />
+          <Instrument name="Tubas Stc Dbl 1" Articulation="Staccato" />
+          <Instrument name="Tubas Stc Dbl 2" Articulation="Staccato" />
+          <Instrument name="Tubas Stc Trp 1" Articulation="Staccato" />
+          <Instrument name="Tubas Stc Trp 2" Articulation="Staccato" />
+          <Instrument name="Tubas Stc Qdp" Articulation="Staccato" />
+          <Instrument name="Tubas attk Dbl 1" />
+          <Instrument name="Tubas attk Dbl 2" />
+          <Instrument name="Tubas attk Trp 1" />
+          <Instrument name="Tubas attk Trp 2" />
+          <Instrument name="Tubas attk Qdp" />
+        </Group>
+        <Group name="Sus">
+          <Instrument name="Tubas Sus p" />
+          <Instrument name="Tubas Sus f" />
+          <Instrument name="Tubas Sus ff" />
+          <Instrument name="Tubas Sus fff" />
+        </Group>
+        <Group name="Stc" Articulation="Staccato">
+          <Instrument name="Tubas Stc p" />
+          <Instrument name="Tubas Stc mf" />
+          <Instrument name="Tubas Stc f" />
+        </Group>
+      </Section>
+    </Menu>
+    <Menu name="Strings">
+      <Section name="1st Violins" title="Violins 1" abbr="Vns. 1" lownote="g2" highnote="d6" ksoctave="0">
+        <Group name="Flex Presets ">
+          <Instrument name="1stVns Sus Up/Dn" />
+          <Instrument name="1stVns KSW AllFlx">
+            <UsesKeySwitchList name="AllFlx Strings" />
+            <UsesArticulationSwitchList name="AllFlx Strings" />
+          </Instrument>
+          <Instrument name="1stVns KSW StcFlx" Articulation="Staccato">
+            <UsesKeySwitchList name="StcFlx Strings" />
+          </Instrument>
+          <Instrument name="1stVns KSW DetFlx">
+            <UsesKeySwitchList name="DetFlx Strings" />
+          </Instrument>
+          <Instrument name="1stVns KSW PizFlx">
+            <UsesKeySwitchList name="PizFlx Strings" />
+          </Instrument>
+        </Group>
+        <Group name="Keyswitched ">
+          <Instrument name="1stVns KSW All">
+            <UsesKeySwitchList name="Strings" />
+            <UsesArticulationSwitchList name="Strings" />
+          </Instrument>
+          <Instrument name="1stVns KSW All+Flx">
+            <UsesKeySwitchList name="Strings All Flex" />
+            <UsesArticulationSwitchList name="Strings All Flex" />
+          </Instrument>
+        </Group>
+        <Group name="Velocity Volume ">
+          <Instrument name="1stVns LEG LV" />
+          <Instrument name="1stVns MED LV" />
+          <Instrument name="1stVns HRD LV" />
+          <Instrument name="1stVns LEG HV" />
+          <Instrument name="1stVns MED HV" />
+          <Instrument name="1stVns HRD HV" />
+          <Instrument name="1stVns STC Dnbow" Articulation="Staccato" />
+          <Instrument name="1stVns STC Upbow" Articulation="Staccato" />
+          <Instrument name="1stVns PIZ" Articulation="pizz" />
+          <Instrument name="1stVns DET Dnbow" />
+          <Instrument name="1stVns DET Upbow" />
+          <Instrument name="1stVns LEG TRM" />
+          <Instrument name="1stVns MED TRM" />
+          <Instrument name="1stVns HRD TRM" />
+          <Instrument name="1stVns HTR" />
+          <Instrument name="1stVns WTR" />
+        </Group>
+        <Group name="MW XFade LV~HV ">
+          <Controller name="Light Vibrato to Heavy Vibrato" cc="1" />
+          <Instrument name="1stVns LEG LV~HV" />
+        </Group>
+        <Group name="MW XFade Dynamics ">
+          <Controller name="Dynamic Volume XFade" />
+          <Instrument name="1stVns LEG LV~DynXf" />
+          <Instrument name="1stVns MED LV~DynXf" />
+          <Instrument name="1stVns LEG HV~DynXf" />
+        </Group>
+        <Group name="LEG LV XFades ">
+          <Controller name="Legato Light Vib. to Half-tone Trill" cc="1" />
+          <Instrument name="1stVns LEG LV~Htr " />
+          <Controller name="Legato Light Vib. to Whole-tone Trill" cc="1" />
+          <Instrument name="1stVns LEG LV~Wtr " />
+        </Group>
+        <Group name="MED LV XFades ">
+          <Controller name="Medium Light Vib. to Accented" cc="1" />
+          <Instrument name="1stVns MED LV~Acnt " />
+          <Controller name="Medium Light Vib. to Half-tone Trill" cc="1" />
+          <Instrument name="1stVns MED LV~Htr " />
+          <Controller name="Medium Light Vib. to Whole-tone Trill" cc="1" />
+          <Instrument name="1stVns MED LV~Wtr " />
+        </Group>
+        <Group name="HRD LV XFades ">
+          <Controller name="Hard Light Vib. to Half-tone Trill" cc="1" />
+          <Instrument name="1stVns HRD LV~Htr " />
+          <Controller name="Hard Light Vib. to Whole-tone Trill" cc="1" />
+          <Instrument name="1stVns HRD LV~Wtr " />
+        </Group>
+        <Group name="LEG HV XFades ">
+          <Controller name="Legato Heavy Vib. to Accented" cc="1" />
+          <Instrument name="1stVns LEG HV~Acnt " />
+          <Controller name="Legato Heavy Vib. to Half-tone Trill" cc="1" />
+          <Instrument name="1stVns LEG HV~Htr " />
+          <Controller name="Legato Heavy Vib. to Whole-tone Trill" cc="1" />
+          <Instrument name="1stVns LEG HV~Wtr " />
+        </Group>
+        <Group name="MED HV XFades ">
+          <Controller name="Medium Heavy Vib. to Accented" cc="1" />
+          <Instrument name="1stVns MED HV~Acnt " />
+          <Controller name="Medium Heavy Vib. to Half-tone Trill" cc="1" />
+          <Instrument name="1stVns MED HV~Htr " />
+          <Controller name="Medium Heavy Vib. to Whole-tone Trill" cc="1" />
+          <Instrument name="1stVns MED HV~Wtr " />
+        </Group>
+        <Group name="MW Switch LEG LV ">
+          <Controller name="Legato Light Vib. to Staccato" cc="1" />
+          <Instrument name="1stVns LEG LV &gt; Stc ">
+            <UsesArticulationSwitchList name="Staccato MW Switch" />
+          </Instrument>
+          <Controller name="Legato Light Vib. to Pizzicato" cc="1" />
+          <Instrument name="1stVns LEG LV &gt; Piz ">
+            <UsesArticulationSwitchList name="Pizz MW Switch" />
+          </Instrument>
+          <Controller name="Legato Light Vib. to Detache" cc="1" />
+          <Instrument name="1stVns LEG LV &gt; Det " />
+          <Controller name="Legato Light Vib. to Tremolo" cc="1" />
+          <Instrument name="1stVns LEG LV &gt; Trm " />
+          <Controller name="Legato Light Vib. to Half-tone Trill" cc="1" />
+          <Instrument name="1stVns LEG LV &gt; Htr " />
+          <Controller name="Legato Light Vib. to Whole-tone Trill" cc="1" />
+          <Instrument name="1stVns LEG LV &gt; Wtr " />
+          <Controller name="Legato Light Vib. to Det. to Stacc." cc="1" />
+          <Instrument name="1stVns LEG LV &gt; Det &gt; Stc ">
+            <UsesArticulationSwitchList name="LV to Det to Stacc MW Switch" />
+          </Instrument>
+          <Controller name="Det. to Legato Light Vib. to Pizz." cc="1" />
+          <Instrument name="1stVns DET &gt; LLV &gt; Piz ">
+            <UsesArticulationSwitchList name="Det to LV to Piz MW Switch" />
+          </Instrument>
+          <Controller name="Det. to Legato Light Vib. to Stacc." cc="1" />
+          <Instrument name="1stVns DET &gt; LLV &gt; Stc ">
+            <UsesArticulationSwitchList name="Det to LV to Stacc MW Switch" />
+          </Instrument>
+        </Group>
+        <Group name="MW Switch HRD LV ">
+          <Controller name="Hard Light Vib. to Staccato" cc="1" />
+          <Instrument name="1stVns HRD LV &gt; Stc ">
+            <UsesArticulationSwitchList name="Staccato MW Switch" />
+          </Instrument>
+          <Controller name="Hard Light Vib. to Pizzicato" cc="1" />
+          <Instrument name="1stVns HRD LV &gt; Piz ">
+            <UsesArticulationSwitchList name="Pizz MW Switch" />
+          </Instrument>
+          <Controller name="Hard Light Vib. to Detache" cc="1" />
+          <Instrument name="1stVns HRD LV &gt; Det " />
+          <Controller name="Hard Light Vib. to Tremolo" cc="1" />
+          <Instrument name="1stVns HRD LV &gt; Trm " />
+          <Controller name="Hard Light Vib. to Half-tone Trill" cc="1" />
+          <Instrument name="1stVns HRD LV &gt; Htr " />
+          <Controller name="Hard Light Vib. to Whole-tone Trill" cc="1" />
+          <Instrument name="1stVns HRD LV &gt; Wtr " />
+          <Controller name="Hard Light Vib. to Det. to Stacc." cc="1" />
+          <Instrument name="1stVns HRD LV &gt; Det &gt; Stc ">
+            <UsesArticulationSwitchList name="LV to Det to Stacc MW Switch" />
+          </Instrument>
+          <Controller name="Det. to Hard Light Vib. to Pizz." cc="1" />
+          <Instrument name="1stVns DET &gt; HLV &gt; Piz ">
+            <UsesArticulationSwitchList name="Det to LV to Piz MW Switch" />
+          </Instrument>
+          <Controller name="Det. to Hard Light Vib. to Stacc." cc="1" />
+          <Instrument name="1stVns DET &gt; HLV &gt; Stc ">
+            <UsesArticulationSwitchList name="Det to LV to Stacc MW Switch" />
+          </Instrument>
+        </Group>
+        <Group name="MW Switch LEG HV ">
+          <Controller name="Legato Heavy Vib. to Staccato" cc="1" />
+          <Instrument name="1stVns LEG HV &gt; Stc ">
+            <UsesArticulationSwitchList name="Staccato MW Switch" />
+          </Instrument>
+          <Controller name="Legato Heavy Vib. to Pizzicato" cc="1" />
+          <Instrument name="1stVns LEG HV &gt; Piz ">
+            <UsesArticulationSwitchList name="Pizz MW Switch" />
+          </Instrument>
+          <Controller name="Legato Heavy Vib. to Detache" cc="1" />
+          <Instrument name="1stVns LEG HV &gt; Det " />
+          <Controller name="Legato Heavy Vib. to Tremolo" cc="1" />
+          <Instrument name="1stVns LEG HV &gt; Trm " />
+          <Controller name="Legato Heavy Vib. to Half-tone Trill" cc="1" />
+          <Instrument name="1stVns LEG HV &gt; Htr " />
+          <Controller name="Legato Heavy Vib. to Whole-tone Trill" cc="1" />
+          <Instrument name="1stVns LEG HV &gt; Wtr " />
+          <Controller name="Legato Heavy Vib. to Det. to Stacc." cc="1" />
+          <Instrument name="1stVns LEG HV &gt; Det &gt; Stc ">
+            <UsesArticulationSwitchList name="LV to Det to Stacc MW Switch" />
+          </Instrument>
+          <Controller name="Det. to Legato Heavy Vib. to Pizz." cc="1" />
+          <Instrument name="1stVns DET &gt; LHV &gt; Piz ">
+            <UsesArticulationSwitchList name="Det to LV to Piz MW Switch" />
+          </Instrument>
+          <Controller name="Det. to Legato Heavy Vib. to Stacc" cc="1" />
+          <Instrument name="1stVns DET &gt; LHV &gt; Stc ">
+            <UsesArticulationSwitchList name="Det to LV to Stacc MW Switch" />
+          </Instrument>
+        </Group>
+        <Group name="MW Switch HRD HV ">
+          <Controller name="Hard Heavy Vib. to Staccato" cc="1" />
+          <Instrument name="1stVns HRD HV &gt; Stc ">
+            <UsesArticulationSwitchList name="Staccato MW Switch" />
+          </Instrument>
+          <Controller name="Hard Heavy Vib. to Pizzicato" cc="1" />
+          <Instrument name="1stVns HRD HV &gt; Piz ">
+            <UsesArticulationSwitchList name="Pizz MW Switch" />
+          </Instrument>
+          <Controller name="Hard Heavy Vib. to Detache" cc="1" />
+          <Instrument name="1stVns HRD HV &gt; Det " />
+          <Controller name="Hard Heavy Vib. to Tremolo" cc="1" />
+          <Instrument name="1stVns HRD HV &gt; Trm " />
+          <Controller name="Hard Heavy Vib. to Half-tone Trill" cc="1" />
+          <Instrument name="1stVns HRD HV &gt; Htr " />
+          <Controller name="Hard Heavy Vib. to Whole-tone Trill" cc="1" />
+          <Instrument name="1stVns HRD HV &gt; Wtr " />
+          <Controller name="Hard Heavy Vib. to Det. to Stacc." cc="1" />
+          <Instrument name="1stVns HRD HV &gt; Det &gt; Stc ">
+            <UsesArticulationSwitchList name="LV to Det to MW Switch" />
+          </Instrument>
+          <Controller name="Det. to Hard Heavy Vib. to Pizz." cc="1" />
+          <Instrument name="1stVns DET &gt; HHV &gt; Piz ">
+            <UsesArticulationSwitchList name="Det to LV to Piz MW Switch" />
+          </Instrument>
+          <Controller name="Det. to Hard Heavy Vib. to Stacc." cc="1" />
+          <Instrument name="1stVns DET &gt; HHV &gt; Stc ">
+            <UsesArticulationSwitchList name="Det to LV to Stacc MW Switch" />
+          </Instrument>
+        </Group>
+        <Group name="Separate Flex ">
+          <Instrument name="1stVns STC Up/Dn " Articulation="Staccato" />
+          <Instrument name="1stVns STC Dn/Up " Articulation="Staccato" />
+          <Instrument name="1stVns STC Trp 1 " Articulation="Staccato" />
+          <Instrument name="1stVns STC Trp 2 " Articulation="Staccato" />
+          <Instrument name="1stVns DET Up/Dn " />
+          <Instrument name="1stVns DET Dn/Up " />
+          <Instrument name="1stVns DET Trp 1 " />
+          <Instrument name="1stVns DET Trp 2 " />
+          <Instrument name="1stVns PIZ Flx " />
+          <Instrument name="1stVns PIZ Dbl 1 " Articulation="pizz" />
+          <Instrument name="1stVns PIZ Dbl 2 " Articulation="pizz" />
+          <Instrument name="1stVns PIZ Trp 1 " Articulation="pizz" />
+          <Instrument name="1stVns PIZ Trp 2 " Articulation="pizz" />
+          <Instrument name="1stVns PIZ Qup " Articulation="pizz" />
+        </Group>
+        <Group name="SusLV ">
+          <Instrument name="1stVns LEG LV p " />
+          <Instrument name="1stVns LEG LV mf " />
+          <Instrument name="1stVns LEG LV f " />
+          <Instrument name="1stVns MED LV p " />
+          <Instrument name="1stVns MED LV mf " />
+          <Instrument name="1stVns MED LV f " />
+          <Instrument name="1stVns HRD LV f " />
+        </Group>
+        <Group name="SusHV ">
+          <Instrument name="1stVns LEG HV p " />
+          <Instrument name="1stVns LEG HV f " />
+          <Instrument name="1stVns MED HV f " />
+          <Instrument name="1stVns HRD HV f " />
+        </Group>
+        <Group name="STC " Articulation="Staccato">
+          <Instrument name="1stVns STC Dn pp " />
+          <Instrument name="1stVns STC Dn p " />
+          <Instrument name="1stVns STC Dn mp " />
+          <Instrument name="1stVns STC Dn mf " />
+          <Instrument name="1stVns STC Up pp " />
+          <Instrument name="1stVns STC Up p " />
+          <Instrument name="1stVns STC Up mp " />
+          <Instrument name="1stVns STC Up mf " />
+        </Group>
+        <Group name="PIZ " Articulation="pizz">
+          <Instrument name="1stVns PIZ p " />
+          <Instrument name="1stVns PIZ mp " />
+          <Instrument name="1stVns PIZ mf " />
+          <Instrument name="1stVns PIZ f " />
+        </Group>
+        <Group name="DET ">
+          <Instrument name="1stVns DET Dnbow p " />
+          <Instrument name="1stVns DET Dnbow f " />
+          <Instrument name="1stVns DET Upbow p " />
+          <Instrument name="1stVns DET Upbow f " />
+        </Group>
+        <Group name="TRM ">
+          <Instrument name="1stVns LEG TRM mf " />
+          <Instrument name="1stVns LEG TRM f " />
+          <Instrument name="1stVns MED TRM mf " />
+          <Instrument name="1stVns MED TRM f " />
+          <Instrument name="1stVns HRD TRM mf " />
+          <Instrument name="1stVns HRD TRM f " />
+        </Group>
+        <Group name="Trills ">
+          <Instrument name="1stVns HTR f " />
+          <Instrument name="1stVns HTR ff " />
+          <Instrument name="1stVns WTR f " />
+          <Instrument name="1stVns WTR ff " />
+        </Group>
+      </Section>
+      <Section name="2nd Violins" title="Violins 2" abbr="Vns. 2" lownote="g2" highnote="d6" ksoctave="0">
+        <Group name="Flex Presets ">
+          <Instrument name="2ndVns Sus Up/Dn" />
+          <Instrument name="2ndVns KSW AllFlx">
+            <UsesKeySwitchList name="AllFlx Strings" />
+            <UsesArticulationSwitchList name="AllFlx Strings" />
+          </Instrument>
+          <Instrument name="2ndVns KSW StcFlx">
+            <UsesKeySwitchList name="StcFlx Strings" />
+          </Instrument>
+          <Instrument name="2ndVns KSW DetFlx">
+            <UsesKeySwitchList name="DetFlx Strings" />
+          </Instrument>
+          <Instrument name="2ndVns KSW PizFlx">
+            <UsesKeySwitchList name="PizFlx Strings" />
+          </Instrument>
+        </Group>
+        <Group name="Keyswitched ">
+          <Instrument name="2ndVns KSW All">
+            <UsesKeySwitchList name="Strings" />
+            <UsesArticulationSwitchList name="Strings" />
+          </Instrument>
+          <Instrument name="2ndVns KSW All+Flx">
+            <UsesKeySwitchList name="Strings All Flex" />
+            <UsesArticulationSwitchList name="Strings All Flex" />
+          </Instrument>
+        </Group>
+        <Group name="Velocity Volume ">
+          <Instrument name="2ndVns LEG LV" />
+          <Instrument name="2ndVns MED LV" />
+          <Instrument name="2ndVns HRD LV" />
+          <Instrument name="2ndVns LEG HV" />
+          <Instrument name="2ndVns MED HV" />
+          <Instrument name="2ndVns HRD HV" />
+          <Instrument name="2ndVns STC Dnbow" />
+          <Instrument name="2ndVns STC Upbow" />
+          <Instrument name="2ndVns PIZ" />
+          <Instrument name="2ndVns DET Dnbow" />
+          <Instrument name="2ndVns DET Upbow" />
+          <Instrument name="2ndVns LEG TRM" />
+          <Instrument name="2ndVns MED TRM" />
+          <Instrument name="2ndVns HRD TRM" />
+          <Instrument name="2ndVns HTR" />
+          <Instrument name="2ndVns WTR" />
+        </Group>
+        <Group name="MW XFade LV~HV ">
+          <Controller name="Light Vibrato to Heavy Vibrato" cc="1" />
+          <Instrument name="2ndVns LEG LV~HV" />
+        </Group>
+        <Group name="MW XFade Dynamics ">
+          <Controller name="Dynamic Volume XFade" />
+          <Instrument name="2ndVns LEG LV~DynXf" />
+          <Instrument name="2ndVns MED LV~DynXf" />
+          <Instrument name="2ndVns LEG HV~DynXf" />
+        </Group>
+        <Group name="LEG LV XFades ">
+          <Controller name="Legato Light Vib. to Half-tone Trill" cc="1" />
+          <Instrument name="2ndVns LEG LV~Htr " />
+          <Controller name="Legato Light Vib. to Whole-tone Trill" cc="1" />
+          <Instrument name="2ndVns LEG LV~Wtr " />
+        </Group>
+        <Group name="MED LV XFades ">
+          <Controller name="Medium Light Vib. to Accented" cc="1" />
+          <Instrument name="2ndVns MED LV~Acnt " />
+          <Controller name="Medium Light Vib. to Half-tone Trill" cc="1" />
+          <Instrument name="2ndVns MED LV~Htr " />
+          <Controller name="Medium Light Vib. to Whole-tone Trill" cc="1" />
+          <Instrument name="2ndVns MED LV~Wtr " />
+        </Group>
+        <Group name="HRD LV XFades ">
+          <Controller name="Hard Light Vib. to Half-tone Trill" cc="1" />
+          <Instrument name="2ndVns HRD LV~Htr " />
+          <Controller name="Hard Light Vib. to Whole-tone Trill" cc="1" />
+          <Instrument name="2ndVns HRD LV~Wtr " />
+        </Group>
+        <Group name="LEG HV XFades ">
+          <Controller name="Legato Heavy Vib. to Accented" cc="1" />
+          <Instrument name="2ndVns LEG HV~Acnt " />
+          <Controller name="Legato Heavy Vib. to Half-tone Trill" cc="1" />
+          <Instrument name="2ndVns LEG HV~Htr " />
+          <Controller name="Legato Heavy Vib. to Whole-tone Trill" cc="1" />
+          <Instrument name="2ndVns LEG HV~Wtr " />
+        </Group>
+        <Group name="MED HV XFades ">
+          <Controller name="Medium Heavy Vib. to Accented" cc="1" />
+          <Instrument name="2ndVns MED HV~Acnt " />
+          <Controller name="Medium Heavy Vib. to Half-tone Trill" cc="1" />
+          <Instrument name="2ndVns MED HV~Htr " />
+          <Controller name="Medium Heavy Vib. to Whole-tone Trill" cc="1" />
+          <Instrument name="2ndVns MED HV~Wtr " />
+        </Group>
+        <Group name="MW Switch LEG LV ">
+          <Controller name="Legato Light Vib. to Staccato" cc="1" />
+          <Instrument name="2ndVns LEG LV &gt; Stc ">
+            <UsesArticulationSwitchList name="Staccato MW Switch" />
+          </Instrument>
+          <Controller name="Legato Light Vib. to Pizzicato" cc="1" />
+          <Instrument name="2ndVns LEG LV &gt; Piz ">
+            <UsesArticulationSwitchList name="Pizz MW Switch" />
+          </Instrument>
+          <Controller name="Legato Light Vib. to Detache" cc="1" />
+          <Instrument name="2ndVns LEG LV &gt; Det " />
+          <Controller name="Legato Light Vib. to Tremolo" cc="1" />
+          <Instrument name="2ndVns LEG LV &gt; Trm " />
+          <Controller name="Legato Light Vib. to Half-tone Trill" cc="1" />
+          <Instrument name="2ndVns LEG LV &gt; Htr " />
+          <Controller name="Legato Light Vib. to Whole-tone Trill" cc="1" />
+          <Instrument name="2ndVns LEG LV &gt; Wtr " />
+          <Controller name="Legato Light Vib. to Det. to Stacc." cc="1" />
+          <Instrument name="2ndVns LEG LV &gt; Det &gt; Stc ">
+            <UsesArticulationSwitchList name="LV to Det to Stacc MW Switch" />
+          </Instrument>
+          <Controller name="Det. to Legato Light Vib. to Pizz." cc="1" />
+          <Instrument name="2ndVns DET &gt; LLV &gt; Piz ">
+            <UsesArticulationSwitchList name="Det to LV to Piz MW Switch" />
+          </Instrument>
+          <Controller name="Det. to Legato Light Vib. to Stacc." cc="1" />
+          <Instrument name="2ndVns DET &gt; LLV &gt; Stc ">
+            <UsesArticulationSwitchList name="Det to LV to Stacc MW Switch" />
+          </Instrument>
+        </Group>
+        <Group name="MW Switch HRD LV ">
+          <Controller name="Hard Light Vib. to Staccato" cc="1" />
+          <Instrument name="2ndVns HRD LV &gt; Stc ">
+            <UsesArticulationSwitchList name="Staccato MW Switch" />
+          </Instrument>
+          <Controller name="Hard Light Vib. to Pizzicato" cc="1" />
+          <Instrument name="2ndVns HRD LV &gt; Piz ">
+            <UsesArticulationSwitchList name="Pizz MW Switch" />
+          </Instrument>
+          <Controller name="Hard Light Vib. to Detache" cc="1" />
+          <Instrument name="2ndVns HRD LV &gt; Det " />
+          <Controller name="Hard Light Vib. to Tremolo" cc="1" />
+          <Instrument name="2ndVns HRD LV &gt; Trm " />
+          <Controller name="Hard Light Vib. to Half-tone Trill" cc="1" />
+          <Instrument name="2ndVns HRD LV &gt; Htr " />
+          <Controller name="Hard Light Vib. to Whole-tone Trill" cc="1" />
+          <Instrument name="2ndVns HRD LV &gt; Wtr " />
+          <Controller name="Hard Light Vib. to Det. to Stacc." cc="1" />
+          <Instrument name="2ndVns HRD LV &gt; Det &gt; Stc ">
+            <UsesArticulationSwitchList name="LV to Det to Stacc MW Switch" />
+          </Instrument>
+          <Controller name="Det. to Hard Light Vib. to Pizz." cc="1" />
+          <Instrument name="2ndVns DET &gt; HLV &gt; Piz ">
+            <UsesArticulationSwitchList name="Det to LV to Piz MW Switch" />
+          </Instrument>
+          <Controller name="Det. to Hard Light Vib. to Stacc." cc="1" />
+          <Instrument name="2ndVns DET &gt; HLV &gt; Stc ">
+            <UsesArticulationSwitchList name="Det to LV to Stacc MW Switch" />
+          </Instrument>
+        </Group>
+        <Group name="MW Switch LEG HV ">
+          <Controller name="Legato Heavy Vib. to Staccato" cc="1" />
+          <Instrument name="2ndVns LEG HV &gt; Stc ">
+            <UsesArticulationSwitchList name="Staccato MW Switch" />
+          </Instrument>
+          <Controller name="Legato Heavy Vib. to Pizzicato" cc="1" />
+          <Instrument name="2ndVns LEG HV &gt; Piz ">
+            <UsesArticulationSwitchList name="Pizz MW Switch" />
+          </Instrument>
+          <Controller name="Legato Heavy Vib. to Detache" cc="1" />
+          <Instrument name="2ndVns LEG HV &gt; Det " />
+          <Controller name="Legato Heavy Vib. to Tremolo" cc="1" />
+          <Instrument name="2ndVns LEG HV &gt; Trm " />
+          <Controller name="Legato Heavy Vib. to Half-tone Trill" cc="1" />
+          <Instrument name="2ndVns LEG HV &gt; Htr " />
+          <Controller name="Legato Heavy Vib. to Whole-tone Trill" cc="1" />
+          <Instrument name="2ndVns LEG HV &gt; Wtr " />
+          <Controller name="Legato Heavy Vib. to Det. to Stacc." cc="1" />
+          <Instrument name="2ndVns LEG HV &gt; Det &gt; Stc ">
+            <UsesArticulationSwitchList name="LV to Det to Stacc MW Switch" />
+          </Instrument>
+          <Controller name="Det. to Legato Heavy Vib. to Pizz." cc="1" />
+          <Instrument name="2ndVns DET &gt; LHV &gt; Piz ">
+            <UsesArticulationSwitchList name="Det to LV to Piz MW Switch" />
+          </Instrument>
+          <Controller name="Det. to Legato Heavy Vib. to Stacc" cc="1" />
+          <Instrument name="2ndVns DET &gt; LHV &gt; Stc ">
+            <UsesArticulationSwitchList name="Det to LV to Stacc MW Switch" />
+          </Instrument>
+        </Group>
+        <Group name="MW Switch HRD HV ">
+          <Controller name="Hard Heavy Vib. to Staccato" cc="1" />
+          <Instrument name="2ndVns HRD HV &gt; Stc ">
+            <UsesArticulationSwitchList name="Staccato MW Switch" />
+          </Instrument>
+          <Controller name="Hard Heavy Vib. to Pizzicato" cc="1" />
+          <Instrument name="2ndVns HRD HV &gt; Piz ">
+            <UsesArticulationSwitchList name="Pizz MW Switch" />
+          </Instrument>
+          <Controller name="Hard Heavy Vib. to Detache" cc="1" />
+          <Instrument name="2ndVns HRD HV &gt; Det " />
+          <Controller name="Hard Heavy Vib. to Tremolo" cc="1" />
+          <Instrument name="2ndVns HRD HV &gt; Trm " />
+          <Controller name="Hard Heavy Vib. to Half-tone Trill" cc="1" />
+          <Instrument name="2ndVns HRD HV &gt; Htr " />
+          <Controller name="Hard Heavy Vib. to Whole-tone Trill" cc="1" />
+          <Instrument name="2ndVns HRD HV &gt; Wtr " />
+          <Controller name="Hard Heavy Vib. to Det. to Stacc." cc="1" />
+          <Instrument name="2ndVns HRD HV &gt; Det &gt; Stc ">
+            <UsesArticulationSwitchList name="LV to Det to Stacc MW Switch" />
+          </Instrument>
+          <Controller name="Det. to Hard Heavy Vib. to Pizz." cc="1" />
+          <Instrument name="2ndVns DET &gt; HHV &gt; Piz ">
+            <UsesArticulationSwitchList name="Det to LV to Piz MW Switch" />
+          </Instrument>
+          <Controller name="Det. to Hard Heavy Vib. to Stacc." cc="1" />
+          <Instrument name="2ndVns DET &gt; HHV &gt; Stc ">
+            <UsesArticulationSwitchList name="Det to LV to Stacc MW Switch" />
+          </Instrument>
+        </Group>
+        <Group name="Separate Flex ">
+          <Instrument name="2ndVns STC Up/Dn " />
+          <Instrument name="2ndVns STC Dn/Up " />
+          <Instrument name="2ndVns STC Trp 1 " />
+          <Instrument name="2ndVns STC Trp 2 " />
+          <Instrument name="2ndVns DET Up/Dn " />
+          <Instrument name="2ndVns DET Dn/Up " />
+          <Instrument name="2ndVns DET Trp 1 " />
+          <Instrument name="2ndVns DET Trp 2 " />
+          <Instrument name="2ndVns PIZ Flx " />
+          <Instrument name="2ndVns PIZ Dbl 1 " />
+          <Instrument name="2ndVns PIZ Dbl 2 " />
+          <Instrument name="2ndVns PIZ Trp 1 " />
+          <Instrument name="2ndVns PIZ Trp 2 " />
+          <Instrument name="2ndVns PIZ Qup " />
+        </Group>
+        <Group name="SusLV ">
+          <Instrument name="2ndVns LEG LV p " />
+          <Instrument name="2ndVns LEG LV mf " />
+          <Instrument name="2ndVns LEG LV f " />
+          <Instrument name="2ndVns MED LV p " />
+          <Instrument name="2ndVns MED LV mf " />
+          <Instrument name="2ndVns MED LV f " />
+          <Instrument name="2ndVns HRD LV f " />
+        </Group>
+        <Group name="SusHV ">
+          <Instrument name="2ndVns LEG HV p " />
+          <Instrument name="2ndVns LEG HV f " />
+          <Instrument name="2ndVns MED HV f " />
+          <Instrument name="2ndVns HRD HV f " />
+        </Group>
+        <Group name="STC ">
+          <Instrument name="2ndVns STC Dn pp " />
+          <Instrument name="2ndVns STC Dn p " />
+          <Instrument name="2ndVns STC Dn mp " />
+          <Instrument name="2ndVns STC Dn mf " />
+          <Instrument name="2ndVns STC Up pp " />
+          <Instrument name="2ndVns STC Up p " />
+          <Instrument name="2ndVns STC Up mp " />
+          <Instrument name="2ndVns STC Up mf " />
+        </Group>
+        <Group name="PIZ ">
+          <Instrument name="2ndVns PIZ p " />
+          <Instrument name="2ndVns PIZ mp " />
+          <Instrument name="2ndVns PIZ mf " />
+          <Instrument name="2ndVns PIZ f " />
+        </Group>
+        <Group name="DET ">
+          <Instrument name="2ndVns DET Dnbow p " />
+          <Instrument name="2ndVns DET Dnbow f " />
+          <Instrument name="2ndVns DET Upbow p " />
+          <Instrument name="2ndVns DET Upbow f " />
+        </Group>
+        <Group name="TRM ">
+          <Instrument name="2ndVns LEG TRM mf " />
+          <Instrument name="2ndVns LEG TRM f " />
+          <Instrument name="2ndVns MED TRM mf " />
+          <Instrument name="2ndVns MED TRM f " />
+          <Instrument name="2ndVns HRD TRM mf " />
+          <Instrument name="2ndVns HRD TRM f " />
+        </Group>
+        <Group name="Trills ">
+          <Instrument name="2ndVns HTR f " />
+          <Instrument name="2ndVns HTR ff " />
+          <Instrument name="2ndVns WTR f " />
+          <Instrument name="2ndVns WTR ff " />
+        </Group>
+      </Section>
+      <Section name="Violas" title="Violas" abbr="Vas." lownote="c2" highnote="c5" clef="alto" ksoctave="0">
+        <Group name="Flex Presets">
+          <Instrument name="Vas Sus Up/Dn">
+            <UsesKeySwitchList name="SusFlx Strings" />
+          </Instrument>
+          <Instrument name="Vas KSW AllFlx">
+            <UsesKeySwitchList name="AllFlx Strings" />
+            <UsesArticulationSwitchList name="AllFlx Strings" />
+          </Instrument>
+          <Instrument name="Vas KSW StcFlx">
+            <UsesKeySwitchList name="StcFlx Strings" />
+          </Instrument>
+          <Instrument name="Vas KSW DetFlx">
+            <UsesKeySwitchList name="StcFlx Strings" />
+          </Instrument>
+          <Instrument name="Vas KSW PizFlx">
+            <UsesKeySwitchList name="PizFlx Strings" />
+          </Instrument>
+        </Group>
+        <Group name="Keyswitched">
+          <Instrument name="Vas KSW All">
+            <UsesKeySwitchList name="Strings" />
+            <UsesArticulationSwitchList name="Strings" />
+          </Instrument>
+          <Instrument name="Vas KSW All+Flx">
+            <UsesKeySwitchList name="Strings All Flex" />
+            <UsesArticulationSwitchList name="Strings All Flex" />
+          </Instrument>
+        </Group>
+        <Group name="Velocity Volume">
+          <Instrument name="Vas LEG LV" />
+          <Instrument name="Vas MED LV" />
+          <Instrument name="Vas HRD LV" />
+          <Instrument name="Vas LEG HV" />
+          <Instrument name="Vas MED HV" />
+          <Instrument name="Vas HRD HV" />
+          <Instrument name="Vas STC Dnbow" />
+          <Instrument name="Vas STC Upbow" />
+          <Instrument name="Vas PIZ" />
+          <Instrument name="Vas DET Dnbow" />
+          <Instrument name="Vas DET Upbow" />
+          <Instrument name="Vas LEG TRM" />
+          <Instrument name="Vas MED TRM" />
+          <Instrument name="Vas HRD TRM" />
+          <Instrument name="Vas HTR" />
+          <Instrument name="Vas WTR" />
+        </Group>
+        <Group name="MW XFade LV~HV">
+          <Controller name="Light Vibrato to Heavy Vibrato" cc="1" />
+          <Instrument name="Vas LEG LV~HV" />
+        </Group>
+        <Group name="MW XFade Dynamics">
+          <Controller name="Dynamic Volume XFade" cc="1" />
+          <Instrument name="Vas LEG LV~DynXf" />
+          <Instrument name="Vas MED LV~DynXf" />
+          <Instrument name="Vas HRD LV~DynXf" />
+        </Group>
+        <Group name="LEG LV XFades">
+          <Controller name="Legato Light Vib. to Tremolo" cc="1" />
+          <Instrument name="Vas LEG LV~Trm" />
+          <Controller name="Legato Light Vib. to Half-tone Trill" cc="1" />
+          <Instrument name="Vas LEG LV~Htr" />
+          <Controller name="Legato Light Vib. to Whole-tone Trill" cc="1" />
+          <Instrument name="Vas LEG LV~Wtr" />
+        </Group>
+        <Group name="MED LV XFades">
+          <Controller name="Medium Light Vib. to Accent" cc="1" />
+          <Instrument name="Vas MED LV~Acnt" />
+          <Controller name="Medium Light Vib. to Tremolo" cc="1" />
+          <Instrument name="Vas MED LV~Trm" />
+          <Controller name="Medium Light Vib. to Half-tone Trill" cc="1" />
+          <Instrument name="Vas MED LV~Htr" />
+          <Controller name="Medium Light Vib. to Whole-tone Trill" cc="1" />
+          <Instrument name="Vas MED LV~Wtr" />
+        </Group>
+        <Group name="HRD LV XFades">
+          <Controller name="Hard Light Vib. to Tremolo" cc="1" />
+          <Instrument name="Vas HRD LV~Trm" />
+          <Controller name="Hard Light Vib. to Half-tone Trill" cc="1" />
+          <Instrument name="Vas HRD LV~Htr" />
+          <Controller name="Hard Light Vib. to Whole-tone Trill" cc="1" />
+          <Instrument name="Vas HRD LV~Wtr" />
+        </Group>
+        <Group name="LEG HV XFades">
+          <Controller name="Legato Heavy Vib. to Tremolo" cc="1" />
+          <Instrument name="Vas LEG HV~Trm" />
+          <Controller name="Legato Heavy Vib. to Half-tone Trill" cc="1" />
+          <Instrument name="Vas LEG HV~Htr" />
+          <Controller name="Legato Heavy Vib. to Whole-tone Trill" cc="1" />
+          <Instrument name="Vas LEG HV~Wtr" />
+        </Group>
+        <Group name="MED HV XFades">
+          <Controller name="Medium Heavy Vib. to Accent" cc="1" />
+          <Instrument name="Vas MED HV~Acnt" />
+          <Controller name="Medium Heavy Vib. to Tremolo" cc="1" />
+          <Instrument name="Vas MED HV~Trm" />
+          <Controller name="Medium Heavy Vib. to Half-tone Trill" cc="1" />
+          <Instrument name="Vas MED HV~Htr" />
+          <Controller name="Medium Heavy Vib. to Whole-tone Trill" cc="1" />
+          <Instrument name="Vas MED HV~Wtr" />
+        </Group>
+        <Group name="HRD HV XFades">
+          <Controller name="Hard Heavy Vib. to Tremolo" cc="1" />
+          <Instrument name="Vas HRD HV~Trm" />
+          <Controller name="Hard Heavy Vib. to Half-tone Trill" cc="1" />
+          <Instrument name="Vas HRD HV~Htr" />
+          <Controller name="Hard Heavy Vib. to Whole-tone Trill" cc="1" />
+          <Instrument name="Vas HRD HV~Wtr" />
+        </Group>
+        <Group name="MW Switch LEG LV">
+          <Controller name="Legato Light Vib. to Staccato" cc="1" />
+          <Instrument name="Vas LEG LV &gt; Stc">
+            <UsesArticulationSwitchList name="Staccato MW Switch" />
+          </Instrument>
+          <Controller name="Legato Light Vib. to Pizzicato" cc="1" />
+          <Instrument name="Vas LEG LV &gt; Piz">
+            <UsesArticulationSwitchList name="Pizz MW Switch" />
+          </Instrument>
+          <Controller name="Legato Light Vib. to Detache" cc="1" />
+          <Instrument name="Vas LEG LV &gt; Det" />
+          <Controller name="Legato Light Vib. to Tremolo" cc="1" />
+          <Instrument name="Vas LEG LV &gt; Trm" />
+          <Controller name="Legato Light Vib. to Half-tone Trill" cc="1" />
+          <Instrument name="Vas LEG LV &gt; Htr" />
+          <Controller name="Legato Light Vib. to Whole-tone Trill" cc="1" />
+          <Instrument name="Vas LEG LV &gt; Wtr" />
+          <Controller name="Legato Light Vib. to Det. to Stacc." cc="1" />
+          <Instrument name="Vas LLV&gt;Det&gt;Stc">
+            <UsesArticulationSwitchList name="LV to Det to Stacc MW Switch" />
+          </Instrument>
+          <Controller name="Det. to Legato Light Vib. to Stacc." cc="1" />
+          <Instrument name="Vas DET &gt; LLV &gt; Stc">
+            <UsesArticulationSwitchList name="Det to LV to Stacc MW Switch" />
+          </Instrument>
+          <Controller name="Det. to Legato Light Vib. to Pizz." cc="1" />
+          <Instrument name="Vas DET &gt; LLV &gt; Piz">
+            <UsesArticulationSwitchList name="Det to LV to Piz MW Switch" />
+          </Instrument>
+        </Group>
+        <Group name="MW Switch MED LV">
+          <Controller name="Medium Light Vib. to Staccato" cc="1" />
+          <Instrument name="Vas MED LV &gt; Stc">
+            <UsesArticulationSwitchList name="Staccato MW Switch" />
+          </Instrument>
+          <Controller name="Medium Light Vib. to Pizzicato" cc="1" />
+          <Instrument name="Vas MED LV &gt; Piz">
+            <UsesArticulationSwitchList name="Pizz MW Switch" />
+          </Instrument>
+          <Controller name="Medium Light Vib. to Detache" cc="1" />
+          <Instrument name="Vas MED LV &gt; Det" />
+          <Controller name="Medium Light Vib. to Tremolo" cc="1" />
+          <Instrument name="Vas MED LV &gt; Trm" />
+          <Controller name="Medium Light Vib. to Half-tone Trill" cc="1" />
+          <Instrument name="Vas MED LV &gt; Htr" />
+          <Controller name="Medium Light Vib. to Whole-tone Trill" cc="1" />
+          <Instrument name="Vas MED LV &gt; Wtr" />
+          <Controller name="Medium Light Vib. to Det. to Stacc." cc="1" />
+          <Instrument name="Vas MLV&gt;Det&gt;Stc">
+            <UsesArticulationSwitchList name="LV to Det to Stacc MW Switch" />
+          </Instrument>
+          <Controller name="Det. to Medium Light Vib. to Stacc." cc="1" />
+          <Instrument name="Vas DET &gt; MLV &gt; Stc">
+            <UsesArticulationSwitchList name="Det to LV to Stacc MW Switch" />
+          </Instrument>
+          <Controller name="Det. to Medium Light Vib. to Pizz." cc="1" />
+          <Instrument name="Vas DET &gt; MLV &gt; Piz">
+            <UsesArticulationSwitchList name="Det to LV to Piz MW Switch" />
+          </Instrument>
+        </Group>
+        <Group name="MW Switch HRD LV">
+          <Controller name="Hard Light Vib. to Staccato" cc="1" />
+          <Instrument name="Vas HRD LV &gt; Stc">
+            <UsesArticulationSwitchList name="Staccato MW Switch" />
+          </Instrument>
+          <Controller name="Hard Light Vib. to Pizzicato" cc="1" />
+          <Instrument name="Vas HRD LV &gt; Piz">
+            <UsesArticulationSwitchList name="Pizz MW Switch" />
+          </Instrument>
+          <Controller name="Hard Light Vib. to Detache" cc="1" />
+          <Instrument name="Vas HRD LV &gt; Det" />
+          <Controller name="Hard Light Vib. to Tremolo" cc="1" />
+          <Instrument name="Vas HRD LV &gt; Trm" />
+          <Controller name="Hard Light Vib. to Half-tone Trill" cc="1" />
+          <Instrument name="Vas HRD LV &gt; Htr" />
+          <Controller name="Hard Light Vib. to Whole-tone Trill" cc="1" />
+          <Instrument name="Vas HRD LV &gt; Wtr" />
+          <Controller name="Hard Light Vib. to Det. to Stacc." cc="1" />
+          <Instrument name="Vas HRD LV&gt;Det&gt;Stc">
+            <UsesArticulationSwitchList name="LV to Det to Stacc MW Switch" />
+          </Instrument>
+          <Controller name="Det. to Hard Light Vib. to Stacc." cc="1" />
+          <Instrument name="Vas DET &gt; HLV &gt; Stc">
+            <UsesArticulationSwitchList name="Det to LV to Stacc MW Switch" />
+          </Instrument>
+          <Controller name="Det. to Hard Light Vib. to Pizz." cc="1" />
+          <Instrument name="Vas DET &gt; HLV &gt; Piz">
+            <UsesArticulationSwitchList name="Det to LV to Piz MW Switch" />
+          </Instrument>
+        </Group>
+        <Group name="MW Switch LEG HV">
+          <Controller name="Legato Heavy Vib. to Staccato" cc="1" />
+          <Instrument name="Vas LEG HV &gt; Stc">
+            <UsesArticulationSwitchList name="Staccato MW Switch" />
+          </Instrument>
+          <Controller name="Legato Heavy Vib. to Pizzicato" cc="1" />
+          <Instrument name="Vas LEG HV &gt; Piz">
+            <UsesArticulationSwitchList name="Pizz MW Switch" />
+          </Instrument>
+          <Controller name="Legato Heavy Vib. to Detache" cc="1" />
+          <Instrument name="Vas LEG HV &gt; Det" />
+          <Controller name="Legato Heavy Vib. to Tremolo" cc="1" />
+          <Instrument name="Vas LEG HV &gt; Trm" />
+          <Controller name="Legato Heavy Vib. to Half-tone Trill" cc="1" />
+          <Instrument name="Vas LEG HV &gt; Htr" />
+          <Controller name="Legato Heavy Vib. to Whole-tone Trill" cc="1" />
+          <Instrument name="Vas LEG HV &gt; Wtr" />
+          <Controller name="Legato Heavy Vib. to Det. to Stacc." cc="1" />
+          <Instrument name="Vas LHV&gt;Det&gt;Stc">
+            <UsesArticulationSwitchList name="LV to Det to Stacc MW Switch" />
+          </Instrument>
+          <Controller name="Det. to Legato Heavy Vib. to Stacc." cc="1" />
+          <Instrument name="Vas DET &gt; LHV &gt; Stc">
+            <UsesArticulationSwitchList name="Det to LV to Stacc MW Switch" />
+          </Instrument>
+          <Controller name="Det. to Legato Heavy Vib. to Pizz." cc="1" />
+          <Instrument name="Vas DET &gt; LHV &gt; Piz">
+            <UsesArticulationSwitchList name="Det to LV to Piz MW Switch" />
+          </Instrument>
+        </Group>
+        <Group name="MW Switch MED HV">
+          <Controller name="Medium Heavy Vib. to Staccato" cc="1" />
+          <Instrument name="Vas MED HV &gt; Stc">
+            <UsesArticulationSwitchList name="Staccato MW Switch" />
+          </Instrument>
+          <Controller name="Medium Heavy Vib. to Pizzicato" cc="1" />
+          <Instrument name="Vas MED HV &gt; Piz">
+            <UsesArticulationSwitchList name="Pizz MW Switch" />
+          </Instrument>
+          <Controller name="Medium Heavy Vib. to Detache" cc="1" />
+          <Instrument name="Vas MED HV &gt; Det" />
+          <Controller name="Medium Heavy Vib. to Tremolo" cc="1" />
+          <Instrument name="Vas MED HV &gt; Trm" />
+          <Controller name="Medium Heavy Vib. to Half-tone Trill" cc="1" />
+          <Instrument name="Vas MED HV &gt; Htr" />
+          <Controller name="Medium Heavy Vib. to Whole-tone Trill" cc="1" />
+          <Instrument name="Vas MED HV &gt; Wtr" />
+          <Controller name="Medium Heavy Vib. to Det. to Stacc." cc="1" />
+          <Instrument name="Vas MHV&gt;Det&gt;Stc">
+            <UsesArticulationSwitchList name="LV to Det to Stacc MW Switch" />
+          </Instrument>
+          <Controller name="Det. to Medium Heavy Vib. to Stacc." cc="1" />
+          <Instrument name="Vas DET &gt; MHV &gt; Stc">
+            <UsesArticulationSwitchList name="Det to LV to Stacc MW Switch" />
+          </Instrument>
+          <Controller name="Det. to Medium Heavy Vib. to Pizz." cc="1" />
+          <Instrument name="Vas DET &gt; MHV &gt; Piz">
+            <UsesArticulationSwitchList name="Det to LV to Piz MW Switch" />
+          </Instrument>
+        </Group>
+        <Group name="Separate Flex">
+          <Instrument name="Vas STC Dn/Up" />
+          <Instrument name="Vas STC Up/Dn" />
+          <Instrument name="Vas STC Trp 1" />
+          <Instrument name="Vas STC Trp 2" />
+          <Instrument name="Vas DET Dn/Up" />
+          <Instrument name="Vas DET Up/Dn" />
+          <Instrument name="Vas DET Trp 1" />
+          <Instrument name="Vas DET Trp 2" />
+          <Instrument name="Vas PIZ Rnd" />
+          <Instrument name="Vas PIZ Dbl 1" />
+          <Instrument name="Vas PIZ Dbl 2" />
+          <Instrument name="Vas PIZ Trp 1" />
+          <Instrument name="Vas PIZ Trp 2" />
+          <Instrument name="Vas PIZ Qdp" />
+        </Group>
+        <Group name="SusLV">
+          <Instrument name="Vas LEG LV p" />
+          <Instrument name="Vas LEG LV mp" />
+          <Instrument name="Vas LEG LV mf" />
+          <Instrument name="Vas LEG LV f" />
+          <Instrument name="Vas MED LV p" />
+          <Instrument name="Vas MED LV mp" />
+          <Instrument name="Vas MED LV mf" />
+          <Instrument name="Vas MED LV f" />
+          <Instrument name="Vas HRD LV p" />
+          <Instrument name="Vas HRD LV mp" />
+          <Instrument name="Vas HRD LV mf" />
+          <Instrument name="Vas HRD LV f" />
+        </Group>
+        <Group name="SusHV">
+          <Instrument name="Vas LEG HV p" />
+          <Instrument name="Vas LEG HV mf" />
+          <Instrument name="Vas LEG HV f" />
+          <Instrument name="Vas MED HV p" />
+          <Instrument name="Vas MED HV mp" />
+          <Instrument name="Vas MED HV mf" />
+          <Instrument name="Vas MED HV f" />
+          <Instrument name="Vas HRD HV p" />
+          <Instrument name="Vas HRD HV mp" />
+          <Instrument name="Vas HRD HV mf" />
+          <Instrument name="Vas HRD HV f" />
+        </Group>
+        <Group name="STC">
+          <Instrument name="Vas STC Dn p" />
+          <Instrument name="Vas STC Dn mp" />
+          <Instrument name="Vas STC Dn mf" />
+          <Instrument name="Vas STC Dn f" />
+          <Instrument name="Vas STC Up P" />
+          <Instrument name="Vas STC Up Mp" />
+          <Instrument name="Vas STC Up Mf" />
+          <Instrument name="Vas STC Up f" />
+        </Group>
+        <Group name="PIZ">
+          <Instrument name="Vas PIZ p" />
+          <Instrument name="Vas PIZ mp" />
+          <Instrument name="Vas PIZ mf" />
+          <Instrument name="Vas PIZ f" />
+        </Group>
+        <Group name="DET">
+          <Instrument name="Vas DET Dn mf" />
+          <Instrument name="Vas DET Dn f" />
+          <Instrument name="Vas DET Up mf" />
+          <Instrument name="Vas DET Up f" />
+        </Group>
+        <Group name="TRM">
+          <Instrument name="Vas LEG TRM p" />
+          <Instrument name="Vas LEG TRM f" />
+          <Instrument name="Vas MED TRM p" />
+          <Instrument name="Vas MED TRM f" />
+          <Instrument name="Vas HRD TRM p" />
+          <Instrument name="Vas HRD TRM f" />
+        </Group>
+        <Group name="Trills">
+          <Instrument name="Vas HTR p" />
+          <Instrument name="Vas HTR f" />
+          <Instrument name="Vas WTR p" />
+          <Instrument name="Vas WTR f" />
+        </Group>
+      </Section>
+      <Section name="Cellos" title="Cellos" abbr="Vcs." lownote="c1" highnote="c5" clef="bass" ksoctave="6">
+        <Group name="Flex Presets">
+          <Instrument name="Vcs Sus Dn/Up">
+            <UsesKeySwitchList name="SusFlx Strings" />
+          </Instrument>
+          <Instrument name="Vcs KSW AllFlx">
+            <UsesKeySwitchList name="AllFlx Strings" />
+            <UsesArticulationSwitchList name="AllFlx Strings" />
+          </Instrument>
+          <Instrument name="Vcs KSW StcFlx">
+            <UsesKeySwitchList name="StcFlx Strings" />
+          </Instrument>
+          <Instrument name="Vcs KSW DetFlx">
+            <UsesKeySwitchList name="DetFlx Strings" />
+          </Instrument>
+          <Instrument name="VVcs KSW PizFlx">
+            <UsesKeySwitchList name="PizFlx Strings" />
+          </Instrument>
+        </Group>
+        <Group name="Keyswitched">
+          <Instrument name="Vcs KSW All">
+            <UsesKeySwitchList name="Strings" />
+            <UsesArticulationSwitchList name="Strings" />
+          </Instrument>
+          <Instrument name="Vcs KSW All+Flx">
+            <UsesKeySwitchList name="Strings All Flex" />
+            <UsesArticulationSwitchList name="Strings All Flex" />
+          </Instrument>
+        </Group>
+        <Group name="Velocity Volume">
+          <Instrument name="Vcs LEG LV" />
+          <Instrument name="Vcs MED LV" />
+          <Instrument name="Vcs HRD LV" />
+          <Instrument name="Vcs LEG HV" />
+          <Instrument name="Vcs MED HV" />
+          <Instrument name="Vcs STC Dnbow" />
+          <Instrument name="Vcs STC Upbow" />
+          <Instrument name="Vcs PIZ" />
+          <Instrument name="Vcs DET Dnbow" />
+          <Instrument name="Vcs DET Upbow" />
+          <Instrument name="Vcs LEG TRM" />
+          <Instrument name="Vcs MED TRM" />
+          <Instrument name="Vcs HRD TRM" />
+          <Instrument name="Vcs HTR" />
+          <Instrument name="Vcs WTR" />
+        </Group>
+        <Group name="MW XFade LV~HV">
+          <Controller name="Light Vibrato to Heavy Vibrato" cc="1" />
+          <Instrument name="Vcs LEG LV" />
+        </Group>
+        <Group name="MW XFade Dynamics">
+          <Controller name="Dynamic Volume XFade" cc="1" />
+          <Instrument name="Vcs LEG LV~XfDyn" />
+          <Instrument name="Vcs MED LV~XfDyn" />
+        </Group>
+        <Group name="LEG LV XFades">
+          <Controller name="Legato Light Vib. to Half-tone Trill" cc="1" />
+          <Instrument name="Vcs LEG LV~Htr" />
+          <Controller name="Legato Light Vib. to Whole-tone Trill" cc="1" />
+          <Instrument name="Vcs LEG LV~Wtr" />
+        </Group>
+        <Group name="MED LV XFades">
+          <Controller name="Medium Light Vib. to Half-tone Trill" cc="1" />
+          <Instrument name="Vcs MED LV~Htr" />
+          <Controller name="Medium Light Vib. to Whole-tone Trill" cc="1" />
+          <Instrument name="Vcs MED LV~Wtr" />
+        </Group>
+        <Group name="HRD LV XFades">
+          <Controller name="Hard Light Vib. to Half-tone Trill" cc="1" />
+          <Instrument name="Vcs HRD LV~Htr" />
+          <Controller name="Hard Light Vib. to Whole-tone Trill" cc="1" />
+          <Instrument name="Vcs HRD LV~Wtr" />
+        </Group>
+        <Group name="LEG HV XFades">
+          <Controller name="Legato Heavy Vib. to Half-tone Trill" cc="1" />
+          <Instrument name="Vcs LEG HV~Htr" />
+          <Controller name="Legato Heavy Vib. to Whole-tone Trill" cc="1" />
+          <Instrument name="Vcs LEG HV~Wtr" />
+        </Group>
+        <Group name="MED HV XFades">
+          <Controller name="Medium Heavy Vib. to Half-tone Trill" cc="1" />
+          <Instrument name="Vcs MED HV~Htr" />
+          <Controller name="Medium Heavy Vib. to Whole-tone Trill" cc="1" />
+          <Instrument name="Vcs MED HV~Wtr" />
+        </Group>
+        <Group name="MW Switch LEG LV">
+          <Controller name="Legato Light Vib. to Staccato" cc="1" />
+          <Instrument name="Vcs LEG LV &gt; Stc">
+            <UsesArticulationSwitchList name="Staccato MW Switch" />
+          </Instrument>
+          <Controller name="Legato Light Vib. to Pizzicato" cc="1" />
+          <Instrument name="Vcs LEG LV &gt; Piz">
+            <UsesArticulationSwitchList name="Pizz MW Switch" />
+          </Instrument>
+          <Controller name="Legato Light Vib. to Detache" cc="1" />
+          <Instrument name="Vcs LEG LV &gt; Det" />
+          <Controller name="Legato Light Vib. to Tremolo" cc="1" />
+          <Instrument name="Vcs LEG LV &gt; Trm" />
+          <Controller name="Legato Light Vib. to Half-tone Trill" cc="1" />
+          <Instrument name="Vcs LEG LV &gt; Htr" />
+          <Controller name="Legato Light Vib. to Whole-tone Trill" cc="1" />
+          <Instrument name="Vcs LEG LV &gt; Wtr" />
+          <Controller name="Legato Light Vib. to Det. to Stacc." cc="1" />
+          <Instrument name="Vcs LLV &gt; Det &gt; Stc">
+            <UsesArticulationSwitchList name="LV to Det to Stacc MW Switch" />
+          </Instrument>
+          <Controller name="Det. to Legato Light Vib. to Stacc." cc="1" />
+          <Instrument name="Vcs Det &gt; LLV &gt; Stc">
+            <UsesArticulationSwitchList name="Det to LV to Stacc MW Switch" />
+          </Instrument>
+          <Controller name="Det. to Legato Light Vib. to Pizz." cc="1" />
+          <Instrument name="Vcs Det &gt; LLV &gt; Piz">
+            <UsesArticulationSwitchList name="Det to LV to Piz MW Switch" />
+          </Instrument>
+        </Group>
+        <Group name="MW Switch MED LV">
+          <Controller name="Medium Light Vib. to Staccato" cc="1" />
+          <Instrument name="Vcs MED LV &gt; Stc">
+            <UsesArticulationSwitchList name="Staccato MW Switch" />
+          </Instrument>
+          <Controller name="Medium Light Vib. to Pizzicato" cc="1" />
+          <Instrument name="Vcs MED LV &gt; Piz">
+            <UsesArticulationSwitchList name="Pizz MW Switch" />
+          </Instrument>
+          <Controller name="Medium Light Vib. to Detache" cc="1" />
+          <Instrument name="Vcs MED LV &gt; Det" />
+          <Controller name="Medium Light Vib. to Tremolo" cc="1" />
+          <Instrument name="Vcs MED LV &gt; Trm" />
+          <Controller name="Medium Light Vib. to Half-tone Trill" cc="1" />
+          <Instrument name="Vcs MED LV &gt; Htr" />
+          <Controller name="Medium Light Vib. to Whole-tone Trill" cc="1" />
+          <Instrument name="Vcs MED LV &gt; Wtr" />
+          <Controller name="Medium Light Vib. to Det. to Stacc." cc="1" />
+          <Instrument name="Vcs MLV &gt; Det &gt; Stc">
+            <UsesArticulationSwitchList name="LV to Det to Stacc MW Switch" />
+          </Instrument>
+          <Controller name="Det. to Medium Light Vib. to Stacc." cc="1" />
+          <Instrument name="Vcs Det &gt; MLV &gt; Stc">
+            <UsesArticulationSwitchList name="Det to LV to Stacc MW Switch" />
+          </Instrument>
+          <Controller name="Det. to Medium Light Vib. to Pizz." cc="1" />
+          <Instrument name="Vcs Det &gt; MLV &gt; Piz">
+            <UsesArticulationSwitchList name="Det to LV to Piz MW Switch" />
+          </Instrument>
+        </Group>
+        <Group name="MW Switch HRD LV">
+          <Controller name="Hard Light Vib. to Staccato" cc="1" />
+          <Instrument name="Vcs HRD LV &gt; Stc">
+            <UsesArticulationSwitchList name="Staccato MW Switch" />
+          </Instrument>
+          <Controller name="Hard Light Vib. to Pizzicato" cc="1" />
+          <Instrument name="Vcs HRD LV &gt; Piz">
+            <UsesArticulationSwitchList name="Pizz MW Switch" />
+          </Instrument>
+          <Controller name="Hard Light Vib. to Detache" cc="1" />
+          <Instrument name="Vcs HRD LV &gt; Det" />
+          <Controller name="Hard Light Vib. to Tremolo" cc="1" />
+          <Instrument name="Vcs HRD LV &gt; Trm" />
+          <Controller name="Hard Light Vib. to Half-tone Trill" cc="1" />
+          <Instrument name="Vcs HRD LV &gt; Htr" />
+          <Controller name="Hard Light Vib. to Whole-tone Trill" cc="1" />
+          <Instrument name="Vcs HRD LV &gt; Wtr" />
+          <Controller name="Hard Light Vib. to Det. to Stacc." cc="1" />
+          <Instrument name="Vcs HLV &gt; Det &gt; Stc">
+            <UsesArticulationSwitchList name="LV to Det to Stacc MW Switch" />
+          </Instrument>
+          <Controller name="Det. to Hard Light Vib. to Stacc." cc="1" />
+          <Instrument name="Vcs Det &gt; HLV &gt; Stc">
+            <UsesArticulationSwitchList name="Det to LV to Stacc MW Switch" />
+          </Instrument>
+          <Controller name="Det. to Hard Light Vib. to Pizz." cc="1" />
+          <Instrument name="Vcs Det &gt; HLV &gt; Piz">
+            <UsesArticulationSwitchList name="Det to LV to Piz MW Switch" />
+          </Instrument>
+        </Group>
+        <Group name="MW Switch LEG HV">
+          <Controller name="Legato Heavy Vib. to Staccato" cc="1" />
+          <Instrument name="Vcs LEG HV &gt; Stc">
+            <UsesArticulationSwitchList name="Staccato MW Switch" />
+          </Instrument>
+          <Controller name="Legato Heavy Vib. to Pizzicato" cc="1" />
+          <Instrument name="Vcs LEG HV &gt; Piz">
+            <UsesArticulationSwitchList name="Pizz MW Switch" />
+          </Instrument>
+          <Controller name="Legato Heavy Vib. to Detache" cc="1" />
+          <Instrument name="Vcs LEG HV &gt; Det" />
+          <Controller name="Legato Heavy Vib. to Tremolo" cc="1" />
+          <Instrument name="Vcs LEG HV &gt; Trm" />
+          <Controller name="Legato Heavy Vib. to Half-tone Trill" cc="1" />
+          <Instrument name="Vcs LEG HV &gt; Htr" />
+          <Controller name="Legato Heavy Vib. to Whole-tone Trill" cc="1" />
+          <Instrument name="Vcs LEG HV &gt; Wtr" />
+          <Controller name="Legato Heavy Vib. to Det. to Stacc." cc="1" />
+          <Instrument name="Vcs LHV &gt; Det &gt; Stc">
+            <UsesArticulationSwitchList name="LV to Det to Stacc MW Switch" />
+          </Instrument>
+          <Controller name="Det. to Legato Heavy Vib. to Stacc." cc="1" />
+          <Instrument name="Vcs Det &gt; LHV &gt; Stc">
+            <UsesArticulationSwitchList name="Det to LV to Stacc MW Switch" />
+          </Instrument>
+          <Controller name="Det. to Legato Heavy Vib. to Pizz." cc="1" />
+          <Instrument name="Vcs Det &gt; LHV &gt; Piz">
+            <UsesArticulationSwitchList name="Det to LV to Piz MW Switch" />
+          </Instrument>
+        </Group>
+        <Group name="MW Switch MED HV">
+          <Controller name="Medium Heavy Vib. to Staccato" cc="1" />
+          <Instrument name="Vcs MED HV &gt; Stc">
+            <UsesArticulationSwitchList name="Staccato MW Switch" />
+          </Instrument>
+          <Controller name="Medium Heavy Vib. to Pizzicato" cc="1" />
+          <Instrument name="Vcs MED HV &gt; Piz">
+            <UsesArticulationSwitchList name="Pizz MW Switch" />
+          </Instrument>
+          <Controller name="Medium Heavy Vib. to Detache" cc="1" />
+          <Instrument name="Vcs MED HV &gt; Det" />
+          <Controller name="Medium Heavy Vib. to Tremolo" cc="1" />
+          <Instrument name="Vcs MED HV &gt; Trm" />
+          <Controller name="Medium Heavy Vib. to Half-tone Trill" cc="1" />
+          <Instrument name="Vcs MED HV &gt; Htr" />
+          <Controller name="Medium Heavy Vib. to Whole-tone Trill" cc="1" />
+          <Instrument name="Vcs MED HV &gt; Wtr" />
+          <Controller name="Medium Heavy Vib. to Det. to Stacc." cc="1" />
+          <Instrument name="Vcs MHV &gt; Det &gt; Stc">
+            <UsesArticulationSwitchList name="LV to Det to Stacc MW Switch" />
+          </Instrument>
+          <Controller name="Det. to Medium Heavy Vib. to Stacc." cc="1" />
+          <Instrument name="Vcs Det &gt; MHV &gt; Stc">
+            <UsesArticulationSwitchList name="Det to LV to Stacc MW Switch" />
+          </Instrument>
+          <Controller name="Det. to Medium Heavy Vib. to Pizz." cc="1" />
+          <Instrument name="Vcs Det &gt; MHV &gt; Piz">
+            <UsesArticulationSwitchList name="Det to LV to Piz MW Switch" />
+          </Instrument>
+        </Group>
+        <Group name="Separate Flex">
+          <Instrument name="Vcs STC Dn/Up" />
+          <Instrument name="Vcs STC Up/Dn" />
+          <Instrument name="Vcs STC Trp 1" />
+          <Instrument name="Vcs STC Trp 2" />
+          <Instrument name="Vcs DET Dn/Up" />
+          <Instrument name="Vcs DET Up/Dn" />
+          <Instrument name="Vcs DET Trp 1" />
+          <Instrument name="Vcs DET Trp 2" />
+          <Instrument name="Vcs PIZ Flx" />
+          <Instrument name="Vcs PIZ Dbl 1" />
+          <Instrument name="Vcs PIZ Dbl 2" />
+          <Instrument name="Vcs PIZ Trp 1" />
+          <Instrument name="Vcs PIZ Trp 2" />
+          <Instrument name="Vcs PIZ Dbl 1" />
+        </Group>
+        <Group name="SusLV">
+          <Instrument name="Vcs LEG LV p" />
+          <Instrument name="Vcs LEG LV f" />
+          <Instrument name="Vcs MED LV p" />
+          <Instrument name="Vcs MED LV f" />
+        </Group>
+        <Group name="SusHV">
+          <Instrument name="Vcs LEG HV p" />
+          <Instrument name="Vcs LEG HV mp" />
+          <Instrument name="Vcs LEG HV mf" />
+          <Instrument name="Vcs LEG HV f" />
+          <Instrument name="Vcs MED HV p" />
+          <Instrument name="Vcs MED HV mp" />
+          <Instrument name="Vcs MED HV mf" />
+          <Instrument name="Vcs MED HV f" />
+          <Instrument name="Vcs HRD HV p" />
+          <Instrument name="Vcs HRD HV mp" />
+          <Instrument name="Vcs HRD HV mf" />
+          <Instrument name="Vcs HRD HV f" />
+        </Group>
+        <Group name="STC">
+          <Instrument name="Vcs STC Dn p" />
+          <Instrument name="Vcs STC Dn f" />
+          <Instrument name="Vcs STC Up p" />
+          <Instrument name="Vcs STC Up f" />
+        </Group>
+        <Group name="PIZ">
+          <Instrument name="Vcs PIZ p" />
+          <Instrument name="Vcs PIZ mf" />
+          <Instrument name="Vcs PIZ f" />
+        </Group>
+        <Group name="DET">
+          <Instrument name="Vcs DET Dn p" />
+          <Instrument name="Vcs DET Dn f" />
+          <Instrument name="Vcs DET Up p" />
+          <Instrument name="Vcs DET Up f" />
+        </Group>
+        <Group name="TRM">
+          <Instrument name="Vcs LEG TRM p" />
+          <Instrument name="Vcs LEG TRM mf" />
+          <Instrument name="Vcs LEG TRM f" />
+          <Instrument name="Vcs HRD TRM p" />
+          <Instrument name="Vcs HRD TRM mf" />
+          <Instrument name="Vcs HRD TRM f" />
+        </Group>
+        <Group name="Trills">
+          <Instrument name="Vcs HTR p" />
+          <Instrument name="Vcs HTR f" />
+          <Instrument name="Vcs WTR p" />
+          <Instrument name="Vcs WTR f" />
+        </Group>
+      </Section>
+      <Section name="Basses" title="Basses" abbr="Db." lownote="c0" highnote="e3" clef="bass" pitchOffset="-12" ksoctave="6">
+        <Group name="Flex Presets">
+          <Instrument name="Bss SUS Dn/Up Bss">
+            <UsesKeySwitchList name="SusFlx Strings" />
+          </Instrument>
+          <Instrument name="KSW AllFlx">
+            <UsesKeySwitchList name="AllFlx Strings" />
+            <UsesArticulationSwitchList name="AllFlx Strings" />
+          </Instrument>
+          <Instrument name="Bss KSW StcFlx">
+            <UsesKeySwitchList name="StcFlx Strings" />
+          </Instrument>
+          <Instrument name="Bss KSW DetFlx">
+            <UsesKeySwitchList name="DetFlx Strings" />
+          </Instrument>
+          <Instrument name="Bss KSW PizFlx">
+            <UsesKeySwitchList name="PizFlx Strings" />
+          </Instrument>
+        </Group>
+        <Group name="Keyswitched">
+          <Instrument name="Bss KSW All">
+            <UsesKeySwitchList name="Strings" />
+            <UsesArticulationSwitchList name="Strings" />
+          </Instrument>
+          <Instrument name="Bss KSW All+Flx">
+            <UsesKeySwitchList name="Strings All Flex" />
+            <UsesArticulationSwitchList name="Strings All Flex" />
+          </Instrument>
+        </Group>
+        <Group name="Velocity Volume">
+          <Instrument name="Bss LEG Sus" />
+          <Instrument name="Bss MED Sus" />
+          <Instrument name="Bss HRD Sus" />
+          <Instrument name="Bss STC" />
+          <Instrument name="Bss PIZ" />
+          <Instrument name="Bss DET" />
+          <Instrument name="Bss LEG TRM" />
+          <Instrument name="Bss HRD TRM" />
+          <Instrument name="Bss HTR" />
+          <Instrument name="Bss WTR" />
+        </Group>
+        <Group name="MW XFade Dynamics">
+          <Controller name="Dynamic Volume XFade" cc="1" />
+          <Instrument name="Bss LEG Sus~XfDyn" />
+          <Instrument name="Bss MED Sus~XfDyn" />
+          <Instrument name="Bss HRD Sus~XfDyn" />
+        </Group>
+        <Group name="LEG LV XFades">
+          <Controller name="Legato Light Vib. to Half-tone Trill" cc="1" />
+          <Instrument name="Bss LEG Sus~Htr" />
+          <Controller name="Legato Light Vib. to Whole-tone Trill" cc="1" />
+          <Instrument name="Bss LEG Sus~Wtr" />
+        </Group>
+        <Group name="MED LV XFades">
+          <Controller name="Medium Light Vib. to Half-tone Trill" cc="1" />
+          <Instrument name="Bss MED Sus~Htr" />
+          <Controller name="Medium Light Vib. to Whole-tone Trill" cc="1" />
+          <Instrument name="Bss MED Sus~Wtr" />
+        </Group>
+        <Group name="HRD LV XFades">
+          <Controller name="Hard Light Vib. to Half-tone Trill" cc="1" />
+          <Instrument name="Bss HRD Sus~Htr" />
+          <Controller name="Hard Light Vib. to Whole-tone Trill" cc="1" />
+          <Instrument name="Bss HRD Sus~Wtr" />
+        </Group>
+        <Group name="MW Switch LEG">
+          <Controller name="Legato to Staccato" cc="1" />
+          <Instrument name="Bss LEG Sus &gt; Stc">
+            <UsesArticulationSwitchList name="Staccato MW Switch" />
+          </Instrument>
+          <Controller name="Legato to Pizzicato" cc="1" />
+          <Instrument name="Bss LEG Sus &gt; Piz">
+            <UsesArticulationSwitchList name="Pizz MW Switch" />
+          </Instrument>
+          <Controller name="Legato to Detache" cc="1" />
+          <Instrument name="Bss LEG Sus &gt; Det" />
+          <Controller name="Legato to Tremolo" cc="1" />
+          <Instrument name="Bss LEG Sus &gt; Trm" />
+          <Controller name="Legato to Half-tone Trill" cc="1" />
+          <Instrument name="Bss LEG Sus &gt; Htr" />
+          <Controller name="Legato to Whole-tone Trill" cc="1" />
+          <Instrument name="Bss LEG Sus &gt; Wtr" />
+          <Controller name="Legato to Det. to Stacc." cc="1" />
+          <Instrument name="Bss LEG &gt; Det &gt; Stc">
+            <UsesArticulationSwitchList name="LV to Det to Stacc MW Switch" />
+          </Instrument>
+          <Controller name="Det. to Legato to Stacc." cc="1" />
+          <Instrument name="Bss DET &gt; LLS &gt; Stc">
+            <UsesArticulationSwitchList name="Det to LV to Stacc MW Switch" />
+          </Instrument>
+          <Controller name="Det. to Legato to Pizz." cc="1" />
+          <Instrument name="Bss DET &gt; LLS &gt; Piz">
+            <UsesArticulationSwitchList name="Det to LV to Piz MW Switch" />
+          </Instrument>
+        </Group>
+        <Group name="MW Switch MED">
+          <Controller name="Medium to Staccato" cc="1" />
+          <Instrument name="Bss MED Sus &gt; Stc">
+            <UsesArticulationSwitchList name="Staccato MW Switch" />
+          </Instrument>
+          <Controller name="Medium to Pizzicato" cc="1" />
+          <Instrument name="Bss MED Sus &gt; Piz">
+            <UsesArticulationSwitchList name="Pizz MW Switch" />
+          </Instrument>
+          <Controller name="Medium to Detache" cc="1" />
+          <Instrument name="Bss MED Sus &gt; Det" />
+          <Controller name="Medium to Tremolo" cc="1" />
+          <Instrument name="Bss MED Sus &gt; Trm" />
+          <Controller name="Medium to Half-tone Trill" cc="1" />
+          <Instrument name="Bss MED Sus &gt; Htr" />
+          <Controller name="Medium to Whole-tone Trill" cc="1" />
+          <Instrument name="Bss MED Sus &gt; Wtr" />
+          <Controller name="Medium to Det. to Stacc." cc="1" />
+          <Instrument name="Bss MED &gt; Det &gt; Stc">
+            <UsesArticulationSwitchList name="LV to Det to Stacc MW Switch" />
+          </Instrument>
+          <Controller name="Det. to Medium to Stacc." cc="1" />
+          <Instrument name="Bss DET &gt; MLS &gt; Stc">
+            <UsesArticulationSwitchList name="Det to LV to Stacc MW Switch" />
+          </Instrument>
+          <Controller name="Det. to Medium to Pizz." cc="1" />
+          <Instrument name="Bss DET &gt; MLS &gt; Piz">
+            <UsesArticulationSwitchList name="Det to LV to Piz MW Switch" />
+          </Instrument>
+        </Group>
+        <Group name="MW Switch HRD">
+          <Controller name="Hard to Staccato" cc="1" />
+          <Instrument name="Bss HRD Sus &gt; Stc">
+            <UsesArticulationSwitchList name="Staccato MW Switch" />
+          </Instrument>
+          <Controller name="Hard to Pizzicato" cc="1" />
+          <Instrument name="Bss HRD Sus &gt; Piz">
+            <UsesArticulationSwitchList name="Pizz MW Switch" />
+          </Instrument>
+          <Controller name="Hard to Detache" cc="1" />
+          <Instrument name="Bss HRD Sus &gt; Det" />
+          <Controller name="Hard to Tremolo" cc="1" />
+          <Instrument name="Bss HRD Sus &gt; Trm" />
+          <Controller name="Hard to Half-tone Trill" cc="1" />
+          <Instrument name="Bss HRD Sus &gt; Htr" />
+          <Controller name="Hard to Whole-tone Trill" cc="1" />
+          <Instrument name="Bss HRD Sus &gt; Wtr" />
+          <Controller name="Hard to Det. to Stacc." cc="1" />
+          <Instrument name="Bss HRD &gt; Det &gt; Stc">
+            <UsesArticulationSwitchList name="LV to Det to Stacc MW Switch" />
+          </Instrument>
+          <Controller name="Det. to Hard to Stacc." cc="1" />
+          <Instrument name="Bss DET &gt; HLS &gt; Stc">
+            <UsesArticulationSwitchList name="Det to LV to Stacc MW Switch" />
+          </Instrument>
+          <Controller name="Det. to Hard to Pizz." cc="1" />
+          <Instrument name="Bss DET &gt; HLS &gt; Piz">
+            <UsesArticulationSwitchList name="Det to LV to Piz MW Switch" />
+          </Instrument>
+        </Group>
+        <Group name="Separate Flex">
+          <Instrument name="Bss STC Dn/Up" />
+          <Instrument name="Bss STC Up/Dn" />
+          <Instrument name="Bss STC Trp 1" />
+          <Instrument name="Bss STC Trp 2" />
+          <Instrument name="Bss STC Qdp" />
+          <Instrument name="Bss DET Dn/Up" />
+          <Instrument name="Bss DET Up/Dn" />
+          <Instrument name="Bss DET Trp 1" />
+          <Instrument name="Bss DET Trp 2" />
+          <Instrument name="Bss DET Qdp" />
+          <Instrument name="Bss PIZ Rnd" />
+          <Instrument name="Bss PIZ Dbl 1" />
+          <Instrument name="Bss PIZ Dbl 2" />
+          <Instrument name="Bss PIZ Trp 1" />
+          <Instrument name="Bss PIZ Trp 2" />
+          <Instrument name="Bss PIZ Qdp" />
+        </Group>
+        <Group name="Sus">
+          <Instrument name="Bss LEG Sus p" />
+          <Instrument name="Bss LEG Sus f" />
+          <Instrument name="Bss MED Sus p" />
+          <Instrument name="Bss MED Sus f" />
+          <Instrument name="Bss HRD Sus p" />
+          <Instrument name="Bss HRD Sus f" />
+        </Group>
+        <Group name="STC">
+          <Instrument name="Bss STC p" />
+          <Instrument name="Bss STC mf" />
+          <Instrument name="Bss STC f" />
+        </Group>
+        <Group name="PIZ">
+          <Instrument name="Bss PIZ p" />
+          <Instrument name="Bss PIZ mf" />
+          <Instrument name="Bss PIZ f" />
+        </Group>
+        <Group name="DET">
+          <Instrument name="Bss DET p" />
+          <Instrument name="Bss DET f" />
+        </Group>
+        <Group name="TRM">
+          <Instrument name="Bss LEG TRM" />
+          <Instrument name="Bss HRD TRM" />
+        </Group>
+        <Group name="Trills">
+          <Instrument name="Bss HTR mf" />
+          <Instrument name="Bss WTR mf" />
+        </Group>
+      </Section>
+      <Section name="Full Strings" title="Strings" abbr="Str." lownote="c0" highnote="d6">
+        <Instrument name="Strings LEG LV" />
+        <Instrument name="Strings HRD LV" />
+        <Instrument name="Strings PIZ" />
+        <Instrument name="Strings TRM" />
+      </Section>
+    </Menu>
+    <Menu name="Percussion">
+      <Section name="Celesta" title="Celesta" abbr="Cel." lownote="c4" highnote="c8" pitchOffset="12" transpose="-12" clef="treble">
+        <Instrument name="Celesta" />
+        <Instrument name="CelestaShort" />
+      </Section>
+      <Section name="Glockenspiel" title="Glockenspiel" abbr="Glsp." lownote="g5" highnote="c8" pitchOffset="24" transpose="-24" clef="treble">
+        <Instrument name="GlockSus" />
+        <Instrument name="GlockDamped" />
+      </Section>
+      <Section name="Percussion" clef="percussion">
+        <Instrument name="All Percussion" />
+        <Instrument name="BassDrum,Gong,Snares,Toms" />
+        <Instrument name="Cymbals,Tamb,Jingles" />
+        <Instrument name="BassDrums" />
+        <Instrument name="Gong" />
+        <Instrument name="Snares" />
+        <Instrument name="Toms" />
+        <Instrument name="SusCymbals" />
+        <Instrument name="CrashCymbals" />
+        <Instrument name="Tambourines" />
+        <Instrument name="JingleBells" />
+      </Section>
+      <Section name="Tubular Bells" title="Tubular Bells" abbr="T Bells" lownote="c4" highnote="g5" clef="treble">
+        <Instrument name="TubBellsSus" />
+        <Instrument name="TubBellsDamped" />
+      </Section>
+      <Section name="Xylophone" title="Xylophone" abbr="Xylo." lownote="f4" highnote="c8" pitchOffset="12" transpose="-12" clef="treble">
+        <Instrument name="Xylophone" />
+      </Section>
+      <Section name="Timpani" title="Timpani" abbr="Timp." lownote="c2" highnote="a5" clef="bass">
+        <Instrument name="TimpCenter Sus Flx" />
+        <Instrument name="TimpCenter Sus" />
+        <Instrument name="TimpCenter Damped" />
+        <Instrument name="TimpEdge Sus" />
+        <Instrument name="TimpCenter Sus Octvs" />
+      </Section>
+    </Menu>
+    <Menu name="Harps">
+      <Section name="Harps" title="Harp" abbr="Hrp." lownote="c1" highnote="g7" clef="treble">
+        <Instrument name="HarpSus" />
+        <Instrument name="HarpDamp" />
+        <Instrument name="HarpShort" />
+      </Section>
+    </Menu>
+  </Instruments>
+</VSTNameDocument>

@@ -1,0 +1,136 @@
+﻿<html>
+	
+<head>
+	<title>Export to File</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("ExporttoFile");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Export to File</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="OvertureMenus.html">Overture Menus</a> &rsaquo;&rsaquo; <a href="AudioMIDI.html">Audio/MIDI</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="AudioMIDI.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="PluginManager.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="WindowsMenu.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<h6 class="rvps14"><span class="rvts0"><span class="rvts22">Audio/MIDI&gt;Export to File</span></span></h6>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Choose this command to export your score to an audio file. When you choose the Export to File, a dialog appears allowing you to choose the exported file name, path and how you wish the files to be created.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><img width="700" height="381" alt="" style="padding : 1px;" src="lib/NewItem48.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">There are several elements in the ExportAudio dialog box. These are described, below:</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">File Information:</span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts6">Enter the destination file name.</span></li>
+<li class="rvps2"><span class="rvts6">Click on the path button to choose the folder where the file will be saved.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Tracks to Export</span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts6">Select how the export is distributed among files.</span></li>
+<li class="rvps2"><span class="rvts6">Select the tracks to be exported by clicking on the check box beside each track.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Channel Format:</span></p>
+<p class="rvps2"><span class="rvts6">Choose mono or stereo.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">File Format:</span></p>
+<p class="rvps2"><span class="rvts6">Choose AIFF, Wave, or MP3 file format.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Sample Rate:</span></p>
+<p class="rvps2"><span class="rvts6">Choose a sample rate from 8000 to 384000</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Bit Rate:</span></p>
+<p class="rvps2"><span class="rvts6">Choose the bit rate 8, 16, 32, or 64 bits.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Replace Existing files:</span></p>
+<p class="rvps2"><span class="rvts6">Click this to have Overture overwrite any existing files in the destination folder</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Play from</span><span class="rvts6">:</span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts6">Beginning - Start playing the score from the beginning &nbsp;when the Start Recording button is pressed.</span></li>
+<li class="rvps2"><span class="rvts6">Current Position - Start playing the score from the current position when the Start Recording button is pressed.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Render</span><span class="rvts6">:</span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts12">Offline</span><span class="rvts6"> - Choose this to render the recording off line. This is the fastest method.</span><br/><span class="rvts6">Note: Some plugins can not render their audio faster than real time. If you hear pops or unexpected silence in your recording try using Real Time rendering</span></li>
+<li class="rvps2"><span class="rvts12">Real Time</span><span class="rvts6"> (Silent) - Choose this to render the recording in real time but mute the output.</span></li>
+<li class="rvps2"><span class="rvts12">Real Time</span><span class="rvts6"> (Monitor) - Choose this to render the recording in real time and listen to your score as it is being rendered.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Start Recording</span></p>
+<p class="rvps2"><span class="rvts6">After you have set the name, path, and all parametersPress this button to start recording to a file. During the process Overture will display a progress bar while each file is being written.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

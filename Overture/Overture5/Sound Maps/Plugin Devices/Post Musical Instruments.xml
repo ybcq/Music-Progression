@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTNameDocument name="PMI">
+  <Version>1</Version>
+  <Author>GenieSoft,Inc.</Author>
+  <Device name="PMI" />
+  <KeySwitchNames>
+    <KeySwitchList name="Flemish">
+      <KeySwitch name="Upper and Lower Coupled" key="a0" />
+      <KeySwitch name="8+8+4" key="a#0" />
+      <KeySwitch name="Upper" key="b0" />
+      <KeySwitch name="Lower" key="c1" />
+    </KeySwitchList>
+    <KeySwitchList name="French">
+      <KeySwitch name="Upper" key="a0" />
+      <KeySwitch name="Lower" key="a#0" />
+    </KeySwitchList>
+  </KeySwitchNames>
+  <ControllerNames>
+    <Controller name="Modulation" cc="1" />
+    <Controller name="Volume" cc="7" />
+    <Controller name="Panning" cc="10" />
+    <Controller name="Sustain" cc="64" />
+  </ControllerNames>
+  <Instruments>
+    <Section name="PMI Historic Keyboards" velocity="on">
+      <Group name="Flemish Harpsichord" clef="treble" title="Harpsichord" abbr="Harpsi." lownote="c1" highnote="c7">
+        <Instrument name="Flemish Harpsichord 8+8+4" />
+        <Instrument name="Flemish Harpsichord Lute" />
+        <Instrument name="Flemish Harpsichord Upper man soft rel" />
+        <Instrument name="Flemish Harpsichord Upper manual" />
+        <Instrument name="Flemish Harpsichord Upper and Lower coupled" />
+        <Instrument name="Flemish Harsichord nr 1 soft release" />
+        <Instrument name="Flemish Upper+Upper and Lower" />
+        <Instrument name="Key switched Flemish">
+          <UsesKeySwitchList name="Flemish" />
+        </Instrument>
+      </Group>
+      <Group name="Forte Piano" clef="treble" title="Forte Piano" abbr="FPf." lownote="c1" highnote="c7">
+        <Instrument name="Fortepiano" />
+        <Instrument name="Fortepiano filtered dynamics" />
+        <Instrument name="Fortepiano Hard Dynamics" />
+        <Instrument name="Fortepiano smooth filtered" />
+        <Instrument name="Fortepiano soft dyn" />
+        <Instrument name="Fortepiano with moderator" />
+        <Instrument name="Fortepiano without release layer" />
+      </Group>
+      <Group name="French Harpsichord" clef="treble" title="Harpsichord" abbr="Harpsi." lownote="c1" highnote="c7">
+        <Instrument name="French Harpsichord lower" />
+        <Instrument name="French Combined 8+4+added release layer" />
+        <Instrument name="French Harpsichord upper" />
+        <Instrument name="Key switched French">
+          <UsesKeySwitchList name="French" />
+        </Instrument>
+      </Group>
+      <Group name="Harpsichord" clef="treble" title="Harpsichord" abbr="Harpsi." lownote="c1" highnote="c7">
+        <Instrument name="harpsichord in release" />
+        <Instrument name="Harpsichord + Synth release 1" />
+        <Instrument name="Harpsichord + Synth releases" />
+        <Instrument name="harpsichord oct" />
+        <Instrument name="8 and 4 combined" />
+      </Group>
+      <Group name="Misc." clef="treble" lownote="e1" highnote="e6">
+        <Instrument name="Moderator" clef="treble" title="Moderator" abbr="Mod." />
+        <Instrument name="Virginal" clef="treble" title="Virginal" abbr="Virg." />
+      </Group>
+    </Section>
+    <Section name="PMI Old Lady Multis" clef="treble" title="Piano" abbr="Pf." lownote="a0" highnote="c8" velocity="on">
+      <Instrument name="old lady 5" />
+      <Instrument name="old lady 6" />
+      <Instrument name="OLD LADY #7" />
+      <Instrument name="old lady bright saturation" />
+      <Instrument name="old lady Dyn Bright" />
+      <Instrument name="old lady HALL" />
+      <Instrument name="old lady LE" />
+      <Instrument name="old lady percussion" />
+      <Instrument name="old lady pianohall" />
+      <Instrument name="old lady prepared" title="Prepared Piano" abbr="PrPf." />
+      <Instrument name="old lady re-pedalling" />
+      <Instrument name="old lady resonant" />
+      <Instrument name="old lady stockhausen" />
+      <Instrument name="Old Lady v2_07 by XB" />
+      <Instrument name="old lady" />
+    </Section>
+  </Instruments>
+</VSTNameDocument>

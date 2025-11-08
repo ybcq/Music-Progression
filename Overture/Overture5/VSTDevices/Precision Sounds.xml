@@ -1,0 +1,124 @@
+<VSTNameDocument>
+	<Version>1</Version>
+	<Author>GenieSoft,Inc.</Author>
+
+		<Device name="PrecisionSounds">  
+
+			<ArticulationNames>			
+				<Articulation name="Marcato" velocityAdd="10" durationPct="90"/>
+				<Articulation name="Marcato Dot" velocityAdd="15" durationPct="50"/>
+				<Articulation name="Heavy Attack" velocityAdd="10" durationPct="100"/>
+				<Articulation name="SForzando" velocityAdd="20"/>
+				<Articulation name="SForzando Dot" velocityAdd="20" durationPct="50"/>
+				<Articulation name="Heavier Attack" velocityAdd="20" durationPct="100"/>
+				<Articulation name="SForzando Inverted" velocityAdd="20"/>
+				<Articulation name="SForzando Dot Inverted" velocityAdd="20" durationPct="50"/>
+				<Articulation name="Staccatissimo" velocityAdd="15" durationPct="30"/>
+				<Articulation name="Staccato" velocityAdd="15" durationPct="50"/>
+				<Articulation name="Tenuto" durationPct="100"/>
+				<Articulation name="Up Bow"/>
+				<Articulation name="Down Bow" velocityAdd="5"/>
+				<Articulation name="Up Bow Inverted"/>
+				<Articulation name="Down Bow Inverted" velocityAdd="5"/>
+				<Articulation name="Arpeggio" attackFrom="-90" attackTo="0"/>
+				<Articulation name="Tremolo Eighths" tremoloNotes="1"/>
+				<Articulation name="Tremolo Sixteenths" tremoloNotes="2"/>
+				<Articulation name="Tremolo Thirty Seconds" tremoloNotes="3"/>
+				<Articulation name="Tremolo Sixty Fourths" tremoloNotes="4"/>
+				<Articulation name="pizz"/>
+				<Articulation name="arco" durationPct="90"/>
+				<Articulation name="legato" durationPct="100"/>
+				
+				<ArticulationSwitchList name="Staccato">
+					<Articulation name="Staccato" durationPct="90"/>
+					<Articulation name="Staccatissimo" velocityAdd="15" durationPct="50"/>
+				</ArticulationSwitchList>
+			</ArticulationNames> 
+
+			<ControllerNames>
+				<Controller name="Modulation" cc="1"/>
+				<Controller name="Volume" cc="7"/>
+ 				<Controller name="Panning" cc="10"/>
+ 				<Controller name="Sustain" cc="64"/>
+			</ControllerNames>  
+			
+			<Instruments>
+				<Section name="Celtic Whistle">
+					<Group name="Celtic Low Whistle" clef="bass" title="Celtic Low Whistle" abbr="LwWhistl." lownote="a1" highnote="e4">
+						<Instrument name="Celtic Low Whistle Gliss Only"/>
+						<Instrument name="Celtic Low Whistle Gliss"/>
+						<Instrument name="Celtic Low Whistle Legato" Articulation="legato"/>
+						<Instrument name="Celtic Low Whistle Stac Bonus" lownote="c2" highnote="e6" Articulation="Staccato, Staccatissimo">
+							<UsesArticulationSwitchList name="Staccato"/>
+						</Instrument>
+						<Instrument name="Celtic Low Whistle Staccato" Articulation="Staccato, Staccatissimo">
+							<UsesArticulationSwitchList name="Staccato"/>
+						</Instrument>
+						<Instrument name="Celtic Low Whistle"/>
+					</Group>
+					
+					<Group name="Celtic Tin Whistle Bb" clef="treble" title="Celtic Tin Whistle" abbr="TnWhistl." lownote="c3" highnote="c7">
+						<Instrument name="Celtic Tin Whistle Bb Gliss Only"/>
+						<Instrument name="Celtic Tin Whistle Bb Gliss"/>
+						<Instrument name="Celtic Tin Whistle Bb Legato" Articulation="legato"/>
+						<Instrument name="Celtic Tin Whistle Bb Staccato"  Articulation="Staccato, Staccatissimo">
+							<UsesArticulationSwitchList name="Staccato"/>
+						</Instrument>
+						<Instrument name="Celtic Tin Whistle Bb"/>
+					</Group>
+					
+					<Group name="Celtic Tin Whistle D" clef="treble" title="Celtic Tin Whistle" abbr="TnWhistl." lownote="b5" highnote="c7" pitch="24">
+						<Instrument name="Celtic Tin Whistle D Gliss Only" lownote="c3" highnote="c7" clef="treble" pitch="0"/>
+						<Instrument name="Celtic Tin Whistle D Gliss"/>
+						<Instrument name="Celtic Tin Whistle D Legato" Articulation="legato"/>
+						<Instrument name="Celtic Tin Whistle D Staccato" lownote="c3" highnote="c7" clef="treble" pitch="0" Articulation="Staccato, Staccatissimo">
+							<UsesArticulationSwitchList name="Staccato"/>
+						</Instrument>
+						<Instrument name="Celtic Tin Whistle D"/>
+					</Group>
+				</Section>
+				
+				<Section name="Keyboards/Xylophone" velocity="on">
+					<Instrument name="Concerto Xylophone" clef="treble" title="Xylophone" abbr="Xylo." lownote="c3" highnote="c7"/>
+					<Instrument name="J-Celeste" clef="treble" title="Celeste" abbr="Cel." lownote="c1" highnote="c8"/>
+
+					<Group name="Koestler Rigoletto" clef="treble" title="Organ" abbr="Org." lownote="c3" highnote="g#7">
+						<Instrument name="Koestler Broken"/>
+						<Instrument name="Koestler Fixed"/>
+					</Group>
+					
+					<Group name="Pianica 32A" clef="treble" title="Organ" abbr="Org." lownote="g3" highnote="d6">
+						<Instrument name="Pianica 32A Extended"/>
+						<Instrument name="Pianica 32A Optimal"/>
+					</Group>
+				</Section>
+				
+				<Section name="Monzter Guitars" clef="bass" title="Electric Guitar" abbr="Gtr." lownote="b2" highnote="e6" velocity="on">
+					<Instrument name="PS_monzter_fifths"/>
+					<Instrument name="PS_monzter_scrapes" lownote="c2" highnote="a#5"/>
+				</Section>
+								
+				<Section name="Kloo Mandolin" clef="treble" title="Mandolin" abbr="Man." lownote="g3" highnote="d7" velocity="on">
+					<Instrument name="KM Tremolo"/>
+					
+					<Group name="Picked">
+						<Instrument name="KM picked Flam"/>
+						<Instrument name="KM picked FstAttack"/>
+						<Instrument name="KM picked SlwAttack"/>
+					</Group>
+										
+					<Group name="Noises">
+						<Instrument name="KM Flagolettes" lownote="c3" highnote="c8"/>
+						<Instrument name="KM Fretnoises" lownote="f1" highnote="f3" clef="bass"/>
+						<Instrument name="KM Glass" lownote="g3" highnote="d7"/>
+						<Instrument name="KM Noises 01" lownote="f1" highnote="c5" clef="bass"/>
+						<Instrument name="KM Noises 02" lownote="f1" highnote="d5" clef="bass"/>
+						<Instrument name="KM Noises 03" lownote="f1" highnote="d4" clef="bass"/>
+						<Instrument name="KM Noises 04" lownote="f1" highnote="b5" clef="bass"/>
+						<Instrument name="KM Noises 05" lownote="f2" highnote="c3" clef="bass"/>
+					</Group>
+				</Section>
+			
+			</Instruments>
+		</Device>
+</VSTNameDocument>

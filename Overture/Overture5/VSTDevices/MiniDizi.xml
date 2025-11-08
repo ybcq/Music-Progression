@@ -1,0 +1,68 @@
+<VSTNameDocument>
+	<Version>1</Version>
+	<Author>GenieSoft,Inc.</Author>
+
+	<Device name="Mini_DiZi" usesPatchNames="1" firstPatchNumber="0"> 
+	
+		<ArticulationNames>			
+				<Articulation name="Marcato" velocityAdd="10" durationPct="90"/>
+				<Articulation name="Marcato Dot" velocityAdd="15" durationPct="50"/>
+				<Articulation name="Heavy Attack" velocityAdd="10" durationPct="100"/>
+				<Articulation name="SForzando" velocityAdd="20"/>
+				<Articulation name="SForzando Dot" velocityAdd="20" durationPct="50"/>
+				<Articulation name="Heavier Attack" velocityAdd="20" durationPct="100"/>
+				<Articulation name="SForzando Inverted" velocityAdd="20"/>
+				<Articulation name="SForzando Dot Inverted" velocityAdd="20" durationPct="50"/>
+				<Articulation name="Staccatissimo" velocityAdd="15" durationPct="30"/>
+				<Articulation name="Staccato" velocityAdd="15" durationPct="50"/>
+				<Articulation name="Tenuto" durationPct="100"/>
+				<Articulation name="Up Bow"/>
+				<Articulation name="Down Bow" velocityAdd="5"/>
+				<Articulation name="Up Bow Inverted"/>
+				<Articulation name="Down Bow Inverted" velocityAdd="5"/>
+				<Articulation name="Arpeggio" attackFrom="-90" attackTo="0"/>
+				<Articulation name="Tremolo Eighths" tremoloNotes="1"/>
+				<Articulation name="Tremolo Sixteenths" tremoloNotes="2"/>
+				<Articulation name="Tremolo Thirty Seconds" tremoloNotes="3"/>
+				<Articulation name="Tremolo Sixty Fourths" tremoloNotes="4"/>
+				<Articulation name="pizz"/>
+				<Articulation name="arco" durationPct="90"/>
+				<Articulation name="legato" durationPct="100"/>
+		</ArticulationNames>
+
+		<ControllerNames>				
+ 			<Controller name="Volume (Expression)" cc="11"/>
+			<Controller name="Panning" cc="7"/>
+			<Controller name="Reverb" cc="91"/>
+			<Controller name="Fine" cc="54"/>
+			<Controller name="Glide" cc="5"/>
+			<Controller name="ADSR 1" cc="27"/>
+			<Controller name="ADSR 2" cc="28"/>
+			<Controller name="ADSR 3" cc="29"/>
+			<Controller name="ADSR 4" cc="30"/>
+		</ControllerNames>
+ 		
+		<Instruments>
+			<Section name="Default Presets" title="Dizi" abbr="Dizi" lownote="c-1" highnote="c9" clef="treble">
+				
+					<Instrument name="DiZi_Tenor_1" prgChg="1"/>
+					<Instrument name="DiZi_Tenor_2" prgChg="2"/>
+					<Instrument name="DiZi_Tenor_Trill"  prgChg="3"/>
+					<Instrument name="DiZi_Tenor_Short" prgChg="4"/>
+					<Instrument name="DiZi_Tenor_Trillone"  prgChg="5"/>
+					<Instrument name="DiZi_Bass_1"  prgChg="6" clef="bass"/>
+					<Instrument name="DiZi_Bass_Xiao"  prgChg="7" title="Xiao" abbr="Xiao" clef="bass"/>
+					<Instrument name="DiZi_Treble_1" prgChg="8"/>
+					<Instrument name="DiZi_Treble_2" prgChg="9"/>
+					<Instrument name="DiZi_Attc" prgChg="10"/>
+					<Instrument name="DiZi_Artfill" prgChg="11"/>
+			
+			</Section>
+			
+			<Section name="User Presets" clef="treble">
+			</Section>
+		
+		</Instruments>
+	</Device>
+
+</VSTNameDocument>

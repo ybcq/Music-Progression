@@ -1,0 +1,212 @@
+<VSTNameDocument>
+	<Version>1</Version>
+	<Author>GenieSoft,Inc.</Author>
+
+	<Device name="Stormdrum">
+
+		<ControllerNames>				
+ 			<Controller name="(Optional) Volume" cc="7"/>
+			<Controller name="(Optional) Panning" cc="10"/>
+			<Controller name="Sustain" cc="64"/>
+		</ControllerNames>
+
+		<Instruments>
+			<Section name="Stormdrum Acoustic Drums" velocity="on">
+				<Group name="Cymbals and Hats" title="Percussion" lownote="c-1" highnote="c9" clef="treble">
+					<Instrument name="Cowbell and Tamb C#1,D#1" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Cymbals 1 D5-B6 (White Keys)" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Cymbals 2 D5-B6 White Keys" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Cymbals Best D5-B6 (White Keys)" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Hi-Hat Set 1 Black Keys" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Hi-Hat Set 2 Black Keys" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Hi-Hat Set 3 Black Keys" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Rides C4-C5 (White Keys)" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Rides Lite C4-F4 (White Keys)" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Splashes Extra (Black Keys)" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+				</Group>
+
+				<Group name="GM RR Kits" title="Percussion" lownote="c-1" highnote="c9" clef="treble" velocity="on">
+					<Instrument name="60's Vintage Kit" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="80's Kit" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Country Kit 1" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Custom kit 1" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Custom Kit 2" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Dry Kit" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Fat Kit" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Funk Kit 1" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Funk Kit 2" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Funk Kit 3" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Heavy Kit" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Hobo Kit" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="House Kit" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Jed's Kit" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Metal Kit" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Muff Kit" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="New Multi" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Nick's Kit 1" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Nick's Kit 2" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Old School Kit 2" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Old School Kit" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Pro Kit 1" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Pro Kit 2" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Rock Kit 1" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Rock Kit 2" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Rock Kit 3" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Rock Kit 4" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Rock Kit Dry" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Stage Kit 1" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Studio Kit 1" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Studio Kit 2" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Studio Kit 3" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Sushi Kit" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+				</Group>
+
+				<Group name="Kicks" title="Percussion" lownote="c-1" highnote="c9" clef="treble" velocity="on">
+					<Instrument name="Kicks A0-D3 (White Keys)" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+				</Group>
+
+				<Group name="Snares" title="Percussion" lownote="c-1" highnote="c9" clef="treble" velocity="on">
+					<Instrument name="Ayotte Small E3-B3" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Ayotte Small RIM E3-B3" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Black Beauty E3-A3" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="BlackBeauty Rm E3-B3" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Dunnet Snare E3-B3" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="DW Amb Comp E3-G3" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="DW Dry E3-F3" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="DW Room 1 E3-B3" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="DW Room 2 E3-G3" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="DW Wet E3-F3" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Fatboy Amb E3-B3" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Fatboy Amb Rim E3-B3" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Fatboy Room E3-B3" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Fatboy Room RIM E3-B3" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Ludwig Cust Amb E3-A3" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Ludwig Cust Rm E3-A3" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="N and C Amb E3-B3" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="N and C Room Comp E3-B3" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Pearl Cust Amb E3-B3" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Pearl Cust Rm E3-B3" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Pearl Med. Brass E3-B3" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Pearl Med. Brass RIM E3-B3" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Pearl Small Brass E3-B3" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Pearl Small Brass RIM E3-B3" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Radio King Amb E3-A3" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Radio King Rm E3-A3" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Vint 60's E3-B3" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Vint HipHop 1 E3-A3" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Vint HipHop 2 E3-B3" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Vint Piccolo E3-B3 ALL" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+				</Group>
+
+				<Group name="Toms" title="Percussion" lownote="c-1" highnote="c9" clef="treble" velocity="on">
+					<Instrument name="Action Toms (4) C7-C8" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Ambient Toms (4) C7-C8" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Big Act Toms W_Dry (4) C7-C8" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Big Act Toms Wide (4) C7-C8" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Big Action Toms (4) C7-C8" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Big Action Toms DRY(4) C7-C8" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Dry Toms (4) C7-C8" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Roto Toms (3) C7-A7" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Roto Toms (3) WIDE C7-A7" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Vint Toms Ambient(2) C7-F7" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Vint Toms Dry(2) C7-F7" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+				</Group>
+
+			</Section>
+
+			<Section name="Metal Shop" title="Percussion" lownote="c-1" highnote="c9" clef="treble" velocity="on">
+					<Instrument name="Metal Shop 1" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Metal Shop 2" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+			</Section>
+
+			<Section name="Stormdrum Electronic Drums">
+
+				<Group name="Electro Hits" title="Percussion" lownote="c-1" highnote="c9" clef="treble" velocity="on">
+					<Instrument name="Alien Power Downs" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Backwards FX" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Electro Hats G4-G#6" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Electro Kicks A0-G2" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Electro Rides G4-A5" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Electro Snares E3-F#4" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Electro Toms A2-A3" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Electrofex C3-A#5" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Laser Shop" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Power Downs" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Sci-Fi Hits and Crashes" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Tech Hits and Crashes" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+				</Group>
+
+				<Group name="Electro Kits" title="Percussion" lownote="c-1" highnote="c9" clef="treble" velocity="on">
+					<Instrument name="908 Kit" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Beans and Rice Kit" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Berlin Kit" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Broken Bot Kit" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Bush is a Fairy Kit" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Cali Kit" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Cannibal Kit" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Hamburg Kit" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Hotstove Kit" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="S and M Kit" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Technorganic Kit 88 Keys" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+				</Group>
+
+			</Section>
+
+			<Section name="Prepared Piano" velocity="on">
+
+					<Instrument name="PP Diatonic" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="PP Gliss Combined" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="PP Non-Diatonic" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+
+			</Section>
+
+			<Section name="Stormdrum Large Percussion" velocity="on">
+
+					<Instrument name="Azerbaijani Doira" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Big Hits" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Bombo Hanger" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Chilean Bombo Tunable" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Chilean Bombo" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Large African Djembe" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Large Bodhran" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Lion Drum" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Sioux Drum" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Taikos Ambient" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Taikos Earthquake" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Taval Drum" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Temple Rain Drum" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="ThunderEnsemble ModVrb" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Trick Bodhran" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Tupan and Davul Low" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Tupan and Davul" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+
+			</Section>
+
+			<Section name="Stormdrum Small Percussion" velocity="on">
+
+					<Instrument name="African Talking Drum" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Arabesque Zils" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Bata" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Chun Mo and Sanh Sua" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Cuban Bongos Hi_Lo" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Darabuka with rattle" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Doko Dumbek" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Egyptian Riq" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Gourd_Leather Maracas" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Iraqi Talking Drum FX" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Iraqi Talking Drum" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Iraqi Talking Tuneable Drum" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Island Bongos" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Kohl Drum" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Nigerian Udu" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="North Coast Toms" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Pharoahs Dumbek" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Rainstick and Rattle" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+					<Instrument name="Talking Coconut" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9"/>
+
+			</Section>
+
+		</Instruments>
+	</Device>
+
+</VSTNameDocument>

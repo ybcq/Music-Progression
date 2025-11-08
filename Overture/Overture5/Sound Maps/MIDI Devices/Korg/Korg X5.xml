@@ -1,0 +1,404 @@
+
+<VSTNameDocument name="Korg X5">
+<Version>1</Version>
+<Author>Sonic Scores</Author>
+<Device name="Korg X5" type="MIDI" usesPatchNames="1" />
+  <ArticulationNames>
+    <Articulation name="Marcato" velocityAdd="10" durationPct="90" />
+    <Articulation name="Marcato Dot" velocityAdd="15" durationPct="50" />
+    <Articulation name="Heavy Attack" velocityAdd="10" durationPct="100" />
+    <Articulation name="SForzando" velocityAdd="20" />
+    <Articulation name="SForzando Dot" velocityAdd="20" durationPct="50" />
+    <Articulation name="Heavier Attack" velocityAdd="20" durationPct="100" />
+    <Articulation name="SForzando Inverted" velocityAdd="20" />
+    <Articulation name="SForzando Dot Inverted" velocityAdd="20" durationPct="50" />
+    <Articulation name="Staccatissimo" velocityAdd="15" durationPct="30" />
+    <Articulation name="Staccato" velocityAdd="15" durationPct="50" />
+    <Articulation name="Tenuto" durationPct="100" />
+    <Articulation name="Up Bow" />
+    <Articulation name="Down Bow" velocityAdd="5" />
+    <Articulation name="Up Bow Inverted" />
+    <Articulation name="Down Bow Inverted" velocityAdd="5" />
+    <Articulation name="Arpeggio" attackFrom="-90" attackTo="0" />
+    <Articulation name="Tremolo Eighths" tremoloNotes="1" />
+    <Articulation name="Tremolo Sixteenths" tremoloNotes="2" />
+    <Articulation name="Tremolo Thirty Seconds" tremoloNotes="3" />
+    <Articulation name="Tremolo Sixty Fourths" tremoloNotes="4" />
+    <Articulation name="pizz" />
+    <Articulation name="arco" durationPct="90" />
+    <Articulation name="legato" durationPct="100" />
+  </ArticulationNames>
+  <ControllerNames>
+    <Controller name="Volume" cc="7" />
+    <Controller name="Panning" cc="10" />
+    <Controller name="Expression" cc="11" />
+    <Controller name="Pedal (Sustain)" cc="64" />
+    <Controller name="Modulation" cc="1" />
+    <Controller name="Breath" cc="2" />
+    <Controller name="Foot Controller" cc="4" />
+    <Controller name="Portamento Time" cc="5" />
+    <Controller name="Balance" cc="8" />
+    <Controller name="Portamento" cc="65" />
+    <Controller name="Pedal (Sostenuto)" cc="66" />
+    <Controller name="Pedal (Soft)" cc="67" />
+    <Controller name="Hold 2" cc="69" />
+    <Controller name="External Effects Depth" cc="91" />
+    <Controller name="Tremolo Depth" cc="92" />
+    <Controller name="Chorus Depth" cc="93" />
+    <Controller name="Celeste Detune Depth" cc="94" />
+    <Controller name="Phaser Depth" cc="95" />
+    <Controller name="Reset All Controllers" cc="121" />
+    <Controller name="All Notes Off " cc="123" />
+  </ControllerNames>
+  <NoteNames>
+    <NoteNameList name="GM Drum Sounds">
+      <NoteName name="Bass Drum 2" pitch="b0" pos="-4" head="0" voice="1" soundID="unpitched.drum.very low.kick drum.2" />
+      <NoteName name="Bass Drum 1" pitch="c1" pos="-3" head="31" voice="1" soundID="unpitched.drum.very low.kick drum" />
+      <NoteName name="Side Stick" pitch="c#1" pos="1" head="26" soundID="unpitched.drum.medium.snare drum.snares on.side stick" />
+      <NoteName name="Acoustic Snare" pitch="d1" pos="1" head="0" voice="0" soundID="unpitched.drum.medium.snare drum.snares on" />
+      <NoteName name="Hand Clap" pitch="d#1" pos="1" head="19" soundID="unpitched.exotic.hand clap" />
+      <NoteName name="Electric Snare" pitch="e1" pos="1" head="0" voice="0" soundID="unpitched.drum.snare drum.snares on.electric" />
+      <NoteName name="Low Floor Tom" pitch="f1" pos="-2" head="0" soundID="unpitched.drum.very low.tom-tom" />
+      <NoteName name="Closed Hi-Hat" pitch="f#1" pos="5" head="40" soundID="unpitched.metal.hi-hat.closed" />
+      <NoteName name="High Floor Tom" pitch="g1" pos="-1" head="0" soundID="unpitched.drum.low.tom-tom" />
+      <NoteName name="Pedal Hi-Hat" pitch="g#1" pos="-5" head="0" soundID="unpitched.metal.hi-hat.closed.pedal" />
+      <NoteName name="Low Tom" pitch="a1" pos="0" head="0" soundID="unpitched.drum.medium-low.tom-tom" />
+      <NoteName name="Open Hi-Hat" pitch="a#1" pos="5" head="41" soundID="unpitched.metal.hi-hat.open" />
+      <NoteName name="Low-Mid Tom" pitch="b1" pos="2" head="0" soundID="unpitched.drum.medium.tom-tom" />
+      <NoteName name="Hi-Mid Tom" pitch="c2" menuBreak="1" pos="3" head="0" soundID="unpitched.drum.medium-high.tom-tom" />
+      <NoteName name="Crash Cymbal 1" pitch="c#2" pos="6" head="1" soundID="unpitched.metal.cymbal.crash.high" />
+      <NoteName name="High Tom" pitch="d2" pos="4" head="0" soundID="unpitched.drum.high.tom-tom" />
+      <NoteName name="Ride Cymbal 1" pitch="d#2" pos="4" head="1" soundID="unpitched.metal.cymbal.ride.high" />
+      <NoteName name="Chinese Cymbal" pitch="e2" pos="9" head="1" soundID="unpitched.metal.cymbal.chinese" />
+      <NoteName name="Ride Bell" pitch="f2" pos="6" head="4" soundID="unpitched.metal.cymbal.ride.bell" />
+      <NoteName name="Tambourine" pitch="f#2" pos="0" head="14" soundID="unpitched.drum.medium.tambourine.stroke.frame" />
+      <NoteName name="Splash Cymbal" pitch="g2" pos="7" head="1" soundID="unpitched.metal.cymbal.splash" />
+      <NoteName name="Cowbell" pitch="g#2" pos="3" head="16" soundID="unpitched.metal.bells.medium.cowbell" />
+      <NoteName name="Crash Cymbal 2" pitch="a2" pos="6" head="40" soundID="unpitched.metal.cymbal.crash.medium" />
+      <NoteName name="Vibraslap" pitch="a#2" pos="0" head="18" soundID="unpitched.rattle.vibraslap" />
+      <NoteName name="Ride Cymbal 2" pitch="b2" pos="4" head="40" soundID="unpitched.metal.cymbal.ride.medium" />
+      <NoteName name="Hi Bongo" pitch="c3" menuBreak="1" pos="2" head="31" soundID="unpitched.drum.high.bongo" />
+      <NoteName name="Low Bongo" pitch="c#3" pos="0" head="31" soundID="unpitched.drum.medium.bongo" />
+      <NoteName name="Mute Hi Conga" pitch="d3" pos="-2" head="31" soundID="unpitched.drum.medium.conga.mute" />
+      <NoteName name="Open Hi Conga" pitch="d#3" pos="-2" head="31" soundID="unpitched.drum.medium.conga" />
+      <NoteName name="Low Conga" pitch="e3" pos="-4" head="0" soundID="unpitched.drum.medium-low.conga" />
+      <NoteName name="High Timbale" pitch="f3" pos="-1" head="31" soundID="unpitched.drum.medium-high.timbale.rim.stick" />
+      <NoteName name="Low Timbale" pitch="f#3" pos="-3" head="32" soundID="unpitched.drum.medium-low.timbale.rim.stick" />
+      <NoteName name="High Agogo" pitch="g3" pos="4" head="14" soundID="unpitched.metal.bells.high.agogo" />
+      <NoteName name="Low Agogo" pitch="g#3" pos="2" head="14" soundID="unpitched.metal.bells.medium.agogo" />
+      <NoteName name="Cabasa" pitch="a3" pos="2" head="1" soundID="unpitched.rattle.cabasa" />
+      <NoteName name="Maracas" pitch="a#3" pos="3" head="18" soundID="unpitched.rattle.maraca" />
+      <NoteName name="Short Whistle" pitch="b3" pos="4" head="31" soundID="" />
+      <NoteName name="Long Whistle" pitch="c4" menuBreak="1" pos="4" head="32" soundID="unpitched.wind.whistle.police.long" />
+      <NoteName name="Short Guiro" pitch="c#4" pos="-1" head="11" soundID="unpitched.wood.medium.guiro.short" />
+      <NoteName name="Long Guiro" pitch="d4" pos="-1" head="50" soundID="" />
+      <NoteName name="Claves" pitch="d#4" pos="0" head="22" />
+      <NoteName name="Hi Wood Block" pitch="e4" pos="2" head="16" soundID="unpitched.wood.high.claves" />
+      <NoteName name="Low Wood Block" pitch="f4" pos="1" head="16" soundID="unpitched.wood.low.woodblock" />
+      <NoteName name="Mute Cuica" pitch="f#4" pos="4" head="54" soundID="unpitched.drum.medium-high.cuica.mute" />
+      <NoteName name="Open Cuica" pitch="g4" pos="4" head="16" soundID="unpitched.drum.medium-low.cuica.open" />
+      <NoteName name="Mute Triangle" pitch="g#4" pos="4" head="54" soundID="unpitched.metal.bells.high.triangle.closed" />
+      <NoteName name="Open Triangle" pitch="a4" pos="6" head="16" soundID="unpitched.metal.bells.high.triangle.open" />
+    </NoteNameList>
+    <NoteNameList name="Drum Kit 1">
+      <NoteName name="Bass Drum 2" pitch="b0" pos="-4" head="0" voice="1" soundID="unpitched.drum.very low.kick drum.2" />
+      <NoteName name="Bass Drum 1" pitch="c1" pos="-3" head="31" voice="1" soundID="unpitched.drum.very low.kick drum" />
+      <NoteName name="Side Stick" pitch="c#1" pos="1" head="26" soundID="unpitched.drum.medium.snare drum.snares on.side stick" />
+      <NoteName name="Acoustic Snare" pitch="d1" pos="1" head="0" voice="0" soundID="unpitched.drum.medium.snare drum.snares on" />
+      <NoteName name="Electric Snare" pitch="e1" pos="1" head="0" voice="0" soundID="unpitched.drum.snare drum.snares on.electric" />
+      <NoteName name="Low Floor Tom" pitch="f1" pos="-2" head="0" soundID="unpitched.drum.very low.tom-tom" />
+      <NoteName name="Closed Hi-Hat" pitch="f#1" pos="5" head="40" soundID="unpitched.metal.hi-hat.closed" />
+      <NoteName name="High Floor Tom" pitch="g1" pos="-1" head="0" soundID="unpitched.drum.low.tom-tom" />
+      <NoteName name="Pedal Hi-Hat" pitch="g#1" pos="-5" head="0" soundID="unpitched.metal.hi-hat.closed.pedal" />
+      <NoteName name="Low Tom" pitch="a1" pos="0" head="0" soundID="unpitched.drum.medium-low.tom-tom" />
+      <NoteName name="Open Hi-Hat" pitch="a#1" pos="5" head="41" soundID="unpitched.metal.hi-hat.open" />
+      <NoteName name="Low-Mid Tom" pitch="b1" pos="2" head="0" soundID="unpitched.drum.medium.tom-tom" />
+      <NoteName name="Hi-Mid Tom" pitch="c2" menuBreak="1" pos="3" head="0" soundID="unpitched.drum.medium-high.tom-tom" />
+      <NoteName name="Crash Cymbal 1" pitch="c#2" pos="6" head="1" soundID="unpitched.metal.cymbal.crash.high" />
+      <NoteName name="High Tom" pitch="d2" pos="4" head="0" soundID="unpitched.drum.high.tom-tom" />
+      <NoteName name="Ride Cymbal 1" pitch="d#2" pos="4" head="1" soundID="unpitched.metal.cymbal.ride.high" />
+      <NoteName name="Ride Bell" pitch="f2" pos="6" head="4" soundID="unpitched.metal.cymbal.ride.bell" />
+      <NoteName name="Splash Cymbal" pitch="g2" pos="7" head="1" soundID="unpitched.metal.cymbal.splash" />
+      <NoteName name="Crash Cymbal 2" pitch="a2" pos="6" head="40" soundID="unpitched.metal.cymbal.crash.medium" />
+      <NoteName name="Ride Cymbal 2" pitch="b2" pos="4" head="40" soundID="unpitched.metal.cymbal.ride.medium" />
+      <NoteName name="Hi Wood Block" pitch="e4" pos="2" head="16" soundID="unpitched.wood.high.claves" />
+      <NoteName name="Low Wood Block" pitch="f4" pos="1" head="16" soundID="unpitched.wood.low.woodblock" />
+    </NoteNameList>
+  </NoteNames>
+<Instruments>
+   <Section name="Bank G" bankHigh="56" bankLow="0" clef="treble" lownote="c-1" highnote="c9">
+     <Group name="001-8 Pianos">
+        <Instrument name="1-Piano" title="Piano" abbr="Pf." prgChg="1" soundID="keyboard.piano.grand" />
+        <Instrument name="2-BrightPiano" title="Piano" abbr="Pf." prgChg="2" soundID="keyboard.piano.grand.bright" />
+        <Instrument name="3-HammerPno" title="Piano" abbr="Pf." prgChg="3" soundID="keyboard.piano.electric.grand" />
+        <Instrument name="4-HonkyTonk" title="Piano" abbr="Pf." prgChg="4" soundID="keyboard.piano.upright.honky-tonk" />
+        <Instrument name="5-New Times" title="Electric Piano" abbr="ElPf." prgChg="5" soundID="keyboard.piano.electric.stage" />
+        <Instrument name="6-Digi Piano" title="Electric Piano" abbr="ElPf." prgChg="6" soundID="keyboard.piano.electric.fm" />
+        <Instrument name="7-Harpsichord" title="Harpsichord" abbr="Hpd." prgChg="7" soundID="keyboard.harpsichord.8'" />
+        <Instrument name="8-Clav" title="Clavinet" abbr="Clav." prgChg="8" soundID="keyboard.harpsichord.synth.clavichord" />
+      </Group>
+      <Group name="009-16 Chromatic Percussion">
+        <Instrument name="9-Celesta" title="Celeste" abbr="Cel." prgChg="9" soundID="keyboard.celesta" />
+        <Instrument name="10-Glocken" title="Glockenspiel" abbr="Glsp." prgChg="10" soundID="pitched percussion.metal.glockenspiel" />
+        <Instrument name="11-Music Box" title="Music Box" abbr="MscBx." prgChg="11" soundID="pitched percussion.metal.music box" />
+        <Instrument name="12-Vibes" title="Vibraphone" abbr="Vibes" prgChg="12" soundID="pitched percussion.metal.vibraphone" />
+        <Instrument name="13-Marimba" title="Marimba" abbr="Mba." prgChg="13" soundID="pitched percussion.wood.marimba" />
+        <Instrument name="14-Xylophon" title="Xylophone" abbr="Xylo." prgChg="14" soundID="pitched percussion.metal.xylophone" />
+        <Instrument name="15-Tubular" title="Tubular Bells" abbr="Bells" prgChg="15" soundID="pitched percussion.metal.bells.tubular bells" />
+        <Instrument name="16-Santur" title="Dulcimer" abbr="Dulc." prgChg="16" soundID="pitched percussion.stringed.hammer dulcimer" />
+      </Group>
+      <Group name="017-24 Organs">
+        <Instrument name="17-Full Organ" title="Hammond Organ" abbr="Org." prgChg="17" soundID="keyboard.organ.drawbar" />
+        <Instrument name="18-Perc Organ" title="Percussive Organ" abbr="Org." prgChg="18" soundID="keyboard.organ.drawbar.percussive" />
+        <Instrument name="19-BX-3 Organ" title="Rock Organ" abbr="Org." prgChg="19" soundID="keyboard.organ.drawbar" />
+        <Instrument name="20-ChurchPipe" title="Church Organ" abbr="Org." prgChg="20" soundID="keyboard.organ.pipe" />
+        <Instrument name="21-Positive" title="Reed Organ" abbr="Org." prgChg="21" soundID="keyboard.organ.reed" />
+        <Instrument name="22-Musette" title="Accordion" abbr="Acn." prgChg="22" soundID="keyboard.organ.reed.accordion" />
+        <Instrument name="23-Harmonica" title="Harmonica" abbr="Hca." prgChg="23" soundID="wind.harmonica" />
+        <Instrument name="24-Tango" title="Tango Accordion" abbr="Acn." prgChg="24" soundID="keyboard.organ.reed.accordion.tango" />
+      </Group>
+      <Group name="025-32 Guitars">
+        <Instrument name="25-ClassicGtr" title="Acoustic Guitar" abbr="Gtr." prgChg="25" soundID="guitar.nylon string" />
+        <Instrument name="26-A. Guitar" title="Acoustic Guitar" abbr="Gtr." prgChg="26" soundID="guitar.steel string" />
+        <Instrument name="27-JazzGuitar" title="Electric Guitar" abbr="Gtr." prgChg="27" soundID="guitar.electric.jazz" />
+        <Instrument name="28-Clean Gtr" title="Electric Guitar" abbr="Gtr." prgChg="28" soundID="guitar.electric" />
+        <Instrument name="29-MuteGuitar" title="Electric Guitar" abbr="Gtr." prgChg="29" soundID="guitar.electric.mute" />
+        <Instrument name="30-Over Drive" title="Electric Guitar" abbr="Gtr." prgChg="30" soundID="guitar.electric.overdrive" />
+        <Instrument name="31-DistGuitar" title="Electric Guitar" abbr="Gtr." prgChg="31" soundID="guitar.electric.distortion" />
+        <Instrument name="32-RockMonics" title="Electric Guitar" abbr="Gtr." prgChg="32" soundID="guitar.electric.distortion.harmonic" />
+      </Group>
+      <Group name="033-40 Basses">
+        <Instrument name="33-Jazz Bass" title="Acoustic Bass" abbr="BGtr." clef="bass" prgChg="33" soundID="guitar.bass.acoustic" />
+        <Instrument name="34-Deep Bass" title="Electric Bass" abbr="BGtr." clef="bass" prgChg="34" soundID="guitar.bass.electric.finger" />
+        <Instrument name="35-Pick Bass" title="Electric Bass" abbr="BGtr." clef="bass" prgChg="35" soundID="guitar.bass.electric.pick" />
+        <Instrument name="36-Fretless" title="Fretless Bass" abbr="BGtr." clef="bass" prgChg="36" soundID="guitar.bass.electric.fretless" />
+        <Instrument name="37-SlapBass 1" title="Slap Bass" abbr="BGtr." clef="bass" prgChg="37" soundID="guitar.bass.electric.slap" />
+        <Instrument name="38-SlapBass 2" title="Slap Bass" abbr="BGtr." clef="bass" prgChg="38" soundID="guitar.bass.electric.pop" />
+        <Instrument name="39-SynthBass 1" title="Synth Bass" abbr="BGtr." clef="bass" prgChg="39" soundID="guitar.bass.synth" />
+        <Instrument name="40-SynthBass 2" title="Synth Bass" abbr="BGtr." clef="bass" prgChg="40" soundID="guitar.bass.synth.2" />
+      </Group>
+      <Group name="041-48 Strings">
+        <Instrument name="41-Violin" title="Violin" abbr="Vn." prgChg="41" soundID="strings.violin" />
+        <Instrument name="42-Viola" title="Viola" abbr="Vl." clef="alto" prgChg="42" soundID="strings.viola" />
+        <Instrument name="43-Cello" title="Cello" abbr="Vc." clef="bass" prgChg="43" soundID="strings.violoncello" />
+        <Instrument name="44-Contrabass" title="Double Bass" abbr="Db." clef="bass" pitchOffset="-12" prgChg="44" soundID="strings.contrabass" />
+        <Instrument name="45-TremeloStr" title="Tremelo Strings" abbr="Str." prgChg="45" soundID="strings.string orchestra.tremolo.unmeasured" />
+        <Instrument name="46-Pizzicato" title="Pizzicato Strings" abbr="Pizz." prgChg="46" Articulation="pizz" soundID="strings.string orchestra.pizzicato" />
+        <Instrument name="47-Harp" title="Harp" abbr="Hrp." prgChg="47" soundID="pitched percussion.stringed.harp" />
+        <Instrument name="48-Timpani" title="Timpani" abbr="Timp." clef="bass" prgChg="48" soundID="pitched percussion.drum.timpani" />
+      </Group>
+      <Group name="049-56 Ensembles">
+        <Instrument name="49-Marcato" title="String Ens. 1" abbr="Str 1." prgChg="49" soundID="strings.string orchestra" />
+        <Instrument name="50-SlowString" title="String Ens. 2" abbr="Str 2." prgChg="50" soundID="strings.string orchestra.2" />
+        <Instrument name="51-Analog Pad" title="Synth Strings 1" abbr="Synth." prgChg="51" soundID="strings.string orchestra.synth" />
+        <Instrument name="52-String Pad" title="Synth Strings 2" abbr="Synth." prgChg="52" soundID="strings.string orchestra.synth.2" />
+        <Instrument name="53-Choir" title="Choir" abbr="Chor." prgChg="53" soundID="voice.ensemble.ah" />
+        <Instrument name="54-Doo Voice" title="Choir" abbr="Chor." prgChg="54" soundID="voice.ensemble.doo" />
+        <Instrument name="55-Voices" title="Synth Voice" abbr="Synth." prgChg="55" soundID="voice.ensemble.ooh" />
+        <Instrument name="56-Orch Hit" title="Orchestra Hit" abbr="OrchHit." prgChg="56" soundID="brass.brass group.synth.orchestra hit" />
+      </Group>
+      <Group name="057-64 Brass">
+        <Instrument name="57-Trumpet" title="Trumpet" abbr="Tpt." prgChg="57" soundID="brass.trumpets.trumpet" />
+        <Instrument name="58-Trombone" title="Trombone" abbr="Tbn." clef="bass" prgChg="58" soundID="brass.trombones.tenor" />
+        <Instrument name="59-Tuba" title="Tuba" abbr="Tba." prgChg="59" soundID="brass.tubas.tuba" />
+        <Instrument name="60-Muted Trpt" title="Muted Trumpet" abbr="Tpt." prgChg="60" soundID="brass.trumpets.trumpet.mute" />
+        <Instrument name="61-FrenchHorn" title="French Horn" abbr="FHn." transpose="7" prgChg="61" soundID="brass.horns.french horn" />
+        <Instrument name="62-Brass" title="Brass Section" abbr="Brass." prgChg="62" soundID="brass.brass group" />
+        <Instrument name="63-SynBrass 1" title="Synth Brass 1" abbr="Synth." prgChg="63" soundID="brass.brass group.synth" />
+        <Instrument name="64-SynBrass 2" title="Synth Brass 2" abbr="Synth." prgChg="64" soundID="brass.brass group.synth.2" />
+      </Group>
+      <Group name="065-72 Reeds">
+        <Instrument name="65-SopranoSax" title="Soprano Sax" abbr="Sop. Sx." lownote="G#2" highnote="D#5" transpose="2" prgChg="65" soundID="wind.saxophones.soprano" />
+        <Instrument name="66-Alto Sax" title="Alto Sax" abbr="Alt. Sx." lownote="A#1" highnote="G#4" transpose="9" prgChg="66" soundID="wind.saxophones.alto" />
+        <Instrument name="67-Tenor Sax" title="Tenor Sax" abbr="Ten. Sx." lownote="G#1" highnote="B#4" transpose="14" prgChg="67" soundID="wind.saxophones.tenor" />
+        <Instrument name="68-Bari Sax" title="Baritone Sax" abbr="Bar. Sx." lownote="C#1" highnote="C#3" transpose="21" prgChg="68" soundID="wind.saxophones.baritone" />
+        <Instrument name="69-Sweet Oboe" title="Oboe" abbr="Ob." prgChg="69" soundID="wind.oboes.oboe" />
+        <Instrument name="70-EnglishHrn" title="English Horn" abbr="E. Hn." transpose="7" prgChg="70" soundID="wind.oboes.english horn" />
+        <Instrument name="71-BassoonOboe" title="Bassoon" abbr="Bn." clef="bass" prgChg="71" soundID="wind.bassoons.bassoon" />
+        <Instrument name="72-Clarinet" title="Clarinet" abbr="Cl." transpose="2" prgChg="72" soundID="wind.clarinets.clarinet" />
+      </Group>
+      <Group name="073-80 Pipes">
+        <Instrument name="73-Piccolo" title="Piccolo" abbr="PicFl." pitchOffset="12" prgChg="73" soundID="wind.flutes.flute.piccolo" />
+        <Instrument name="74-Flute" title="Flute" abbr="Fl." prgChg="74" soundID="wind.flutes.flute" />
+        <Instrument name="75-Recorder" title="Recorder" abbr="Rec." prgChg="75" soundID="wind.flutes.recorder.descant" />
+        <Instrument name="76-Pan Flute" title="Pan Flute" abbr="Fl." prgChg="76" soundID="wind.flutes.breathy.pan pipe" />
+        <Instrument name="77-Bottle" title="Blown Bottle" abbr="Bottle" prgChg="77" soundID="wind.flutes.breathy.blown bottle" />
+        <Instrument name="78-Shakuhachi" title="Shakuhachi" abbr="Shk." prgChg="78" soundID="wind.flutes.breathy.whistling" />
+        <Instrument name="79-Whistle" title="Whistle" abbr="Whstl." prgChg="79" soundID="wind.flutes.breathy.whistling" />
+        <Instrument name="80-Ocarina" title="Ocarina" abbr="Ocr." prgChg="80" soundID="wind.flutes.breathy.ocarina" />
+      </Group>
+      <Group name="081-88 Synth Leads">
+        <Instrument name="81-SquareWave" title="Synth Lead" abbr="Synth." prgChg="81" soundID="synth.tone.thin.square" />
+        <Instrument name="82-SawWave" title="Synth Lead" abbr="Synth." prgChg="82" soundID="synth.tone.fat.sawtooth" />
+        <Instrument name="83-SynCalliope" title="Synth Lead" abbr="Synth." prgChg="83" soundID="wind.flutes.flute.ensemble.synth.calliope" />
+        <Instrument name="84-Syn Chiff" title="Synth Lead" abbr="Synth." prgChg="84" soundID="guitar.electric.synth.chiff" />
+        <Instrument name="85-Charang" title="Synth Lead" abbr="Synth." prgChg="85" soundID="guitar.electric.synth.charang" />
+        <Instrument name="86-AirChorus" title="Synth Lead" abbr="Synth." prgChg="86" soundID="voice.synth.ensemble.oo" />
+        <Instrument name="87-Rezzo4ths" title="Synth Lead" abbr="Synth." prgChg="87" soundID="brass.brass group.synth.fifths" />
+        <Instrument name="88-Bass&amp;Lead" title="Synth Lead" abbr="Synth." prgChg="88" soundID="guitar.bass.synth.bass+lead"/>
+      </Group>
+      <Group name="089-96 Synth Pads">
+        <Instrument name="89-Fantasia" title="Synth Pad" abbr="Synth." prgChg="89" soundID="keyboard.piano.synth.new age" />
+        <Instrument name="90-Warm Pad" title="Synth Pad" abbr="Synth." prgChg="90" soundID="synth.pad.warm.static" />
+        <Instrument name="91-Poly Pad" title="Synth Pad" abbr="Synth." prgChg="91" soundID="brass.brass group.synth.polysynth" />
+        <Instrument name="92-Ghost Pad" title="Synth Pad" abbr="Synth." prgChg="92" soundID="voice.synth.ensemble.ah" />
+        <Instrument name="93-BowedGlass" title="Synth Pad" abbr="Synth." prgChg="93" soundID="synth.pad.warm.static.bowed" />
+        <Instrument name="94-Metal Pad" title="Synth Pad" abbr="Synth." prgChg="94" soundID="synth.pad.bright.metallic.shimmering" />
+        <Instrument name="95-Halo Pad" title="Synth Pad" abbr="Synth." prgChg="95" soundID="voice.synth.ensemble.ah.halo" />
+        <Instrument name="96-Sweep" title="Synth Pad" abbr="Synth." prgChg="96" soundID="synth.sweep" />
+      </Group>
+      <Group name="097-104 Synth Effects">
+        <Instrument name="97-Ice Rain" title="Rain FX" abbr="SFx." prgChg="97" soundID="synth.sweep.rain" />
+        <Instrument name="98-SoundTrack" title="Effects" abbr="SFx." prgChg="98" soundID="synth.sweep.soundtrack" />
+        <Instrument name="99-Crystal" title="Effects" abbr="SFx." prgChg="99" soundID="pitched percussion.metal.bells.synth.crystal" />
+        <Instrument name="100-Atmosphere" title="Effects" abbr="SFx." prgChg="100" soundID="keyboard.piano.synth.atmosphere" />
+        <Instrument name="101-Brightness" title="Effects" abbr="SFx." prgChg="101" soundID="voice.synth.ensemble.ah.brightness" />
+        <Instrument name="102-Goblin" title="Effects" abbr="SFx." prgChg="102" soundID="synth.sweep.goblins" />
+        <Instrument name="103-Echo Drop" title="Effects" abbr="SFx." prgChg="103" soundID="voice.synth.ensemble.ah.echoes" />
+        <Instrument name="104-Star Theme" title="Effects" abbr="SFx." prgChg="104" soundID="synth.pad.bright.static.sci-fi" />
+      </Group>
+      <Group name="105-112 Ethnic">
+        <Instrument name="105-Sitar" title="Sitar" abbr="Sit." prgChg="105" soundID="guitar.sitar" />
+        <Instrument name="106-Banjo" title="Banjo" abbr="Bjo." prgChg="106" soundID="guitar.steel string.banjo" />
+        <Instrument name="107-Shamisen" title="Shamisen" abbr="Shami." prgChg="107" soundID="guitar.shamisen" />
+        <Instrument name="108-Koto" title="Koto" abbr="Koto" prgChg="108" soundID="guitar.koto" />
+        <Instrument name="109-Kalimba" title="Kalimba" abbr="Kali." prgChg="109" soundID="pitched percussion.wood.kalimba" />
+        <Instrument name="110-Scotland" title="Bagpipe" abbr="Pipes." prgChg="110" soundID="wind.pipes.bagpipes.chanter" />
+        <Instrument name="111-Fiddle" title="Fiddle" abbr="Fdl." prgChg="111" soundID="strings.fiddle" />
+        <Instrument name="112-Shanai" title="Shehnai" abbr="Sheh." prgChg="112" soundID="wind.oboes.shanai" />
+      </Group>
+      <Group name="113-120 Percussive">
+        <Instrument name="113-Metal Bell" title="Tinkle Bell" abbr="Bells." prgChg="113" soundID="pitched percussion.metal.bells.tinkle bells" />
+        <Instrument name="114-Agogo" title="Agogo" abbr="Agogo" prgChg="114" soundID="pitched percussion.metal.bells.agogo" />
+        <Instrument name="115-SteelDrums" title="Steel Drum" abbr="StlDr." prgChg="115" soundID="pitched percussion.metal.steel drums" />
+        <Instrument name="116-Woodblock" title="Woodblock" abbr="Perc." prgChg="116" soundID="pitched percussion.wood.woodblocks" />
+        <Instrument name="117-Taiko" title="Taiko Drum" abbr="Taiko." clef="bass" prgChg="117" soundID="pitched percussion.drum.taiko" />
+        <Instrument name="118-Tom" title="Toms" abbr="Perc." prgChg="118" soundID="pitched percussion.drum.tom-tom" />
+        <Instrument name="119-Synth Tom" title="Synth Drums" abbr="Synth." prgChg="119" soundID="pitched percussion.drum.tom-tom.synth" />
+        <Instrument name="120-Rev Cymbal" title="Cymbal" abbr="Cym." prgChg="120" soundID="unpitched.metal.cymbal.reverse" />
+      </Group>
+      <Group name="121-128 Sound Effects">
+        <Instrument name="121-Fret Noise" title="Guitar Fx" abbr="Gtr." prgChg="121" soundID="unpitched.exotic.guitar fret noise" />
+        <Instrument name="122-NoiseChiff" title="Breath Fx" abbr="SFx." prgChg="122" soundID="unpitched.exotic.breath noise" />
+        <Instrument name="123-Seashore" title="Seashore Fx" abbr="SFx." prgChg="123" soundID="unpitched.exotic.seashore" />
+        <Instrument name="124-Birds" title="Bird Tweet" abbr="SFx." prgChg="124" soundID="unpitched.exotic.bird tweet" />
+        <Instrument name="125-Telephone" title="Telephone Fx" abbr="SFx." prgChg="125" soundID="unpitched.exotic.telephone ring" />
+        <Instrument name="126-Helicopter" title="Helecopter Fx" abbr="SFx." prgChg="126" soundID="unpitched.exotic.helicopter" />
+        <Instrument name="127-Stadium!!" title="Applause SFx" abbr="SFx." prgChg="127" soundID="unpitched.exotic.applause" />
+        <Instrument name="128-Gunshot" title="Gun Shot SFx" abbr="SFx." prgChg="128" soundID="unpitched.exotic.gunshot" />
+      </Group>
+    </Section>
+  <Section name="Bank A" bankHigh="0" bankLow="0" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="Sunrise" prgChg="1"/>
+    <Instrument name="Piano 16'" prgChg="2"/>
+    <Instrument name="AltoBreath" prgChg="3"/>
+    <Instrument name="TinyDancer" prgChg="4"/>
+    <Instrument name="Spruce Gtr" prgChg="5"/>
+    <Instrument name="Vibra Bell" prgChg="6"/>
+    <Instrument name="XFade Bass" prgChg="7"/>
+    <Instrument name="TheStrings" prgChg="8"/>
+    <Instrument name="PowerSynth" prgChg="9"/>
+    <Instrument name="Total Kit" prgChg="10"/>
+    <Instrument name="MachineAge" prgChg="11"/>
+    <Instrument name="Hot Keys" prgChg="12"/>
+    <Instrument name="Brass Band" prgChg="13"/>
+    <Instrument name="Maxi Tine" prgChg="14"/>
+    <Instrument name="Power Rock" prgChg="15"/>
+    <Instrument name="Tabla Talk" prgChg="16"/>
+    <Instrument name="FingerBass" prgChg="17"/>
+    <Instrument name="LiteVoices" prgChg="18"/>
+    <Instrument name="Color Pad" prgChg="19"/>
+    <Instrument name="Festival!" prgChg="20"/>
+    <Instrument name="GlideSweep" prgChg="21"/>
+    <Instrument name="Last Tango" prgChg="22"/>
+    <Instrument name="MagicFlute" prgChg="23"/>
+    <Instrument name="Operators" prgChg="24"/>
+    <Instrument name="E.Guitars" prgChg="25"/>
+    <Instrument name="Gamelan" prgChg="26"/>
+    <Instrument name="Zap Bass" prgChg="27"/>
+    <Instrument name="DigitalAir" prgChg="28"/>
+    <Instrument name="Analogist" prgChg="29"/>
+    <Instrument name="MandoTrem" prgChg="30"/>
+    <Instrument name="Space Wing" prgChg="31"/>
+    <Instrument name="Gospel Org" prgChg="32"/>
+    <Instrument name="Trumpets" prgChg="33"/>
+    <Instrument name="Fresh Air" prgChg="34"/>
+    <Instrument name="Rock Mutes" prgChg="35"/>
+    <Instrument name="Dustette" prgChg="36"/>
+    <Instrument name="PickedBass" prgChg="37"/>
+    <Instrument name="ChamberEns" prgChg="38"/>
+    <Instrument name="Wire Pad" prgChg="39"/>
+    <Instrument name="Industrial" prgChg="40"/>
+    <Instrument name="Neutron" prgChg="41"/>
+    <Instrument name="PianoHaven" prgChg="42"/>
+    <Instrument name="Shaku Bend" prgChg="43"/>
+    <Instrument name="BowenWave" prgChg="44"/>
+    <Instrument name="Clean Funk" prgChg="45"/>
+    <Instrument name="SplitBell" prgChg="46"/>
+    <Instrument name="Slap It" prgChg="47"/>
+    <Instrument name="AnalogPad" prgChg="48"/>
+    <Instrument name="Residue" prgChg="49"/>
+    <Instrument name="Orch Perc" prgChg="50"/>
+    <Instrument name="DreamWorld" prgChg="51"/>
+    <Instrument name="HarpsiFunk" prgChg="52"/>
+    <Instrument name="FlugelHorn" prgChg="53"/>
+    <Instrument name="Elec. Tap" prgChg="54"/>
+    <Instrument name="Harmonics" prgChg="55"/>
+    <Instrument name="Africana" prgChg="56"/>
+    <Instrument name="TechnoBass" prgChg="57"/>
+    <Instrument name="Airways" prgChg="58"/>
+    <Instrument name="Busy Boy" prgChg="59"/>
+    <Instrument name="Heartbeat" prgChg="60"/>
+    <Instrument name="Spectrum" prgChg="61"/>
+    <Instrument name="Full Pipes" prgChg="62"/>
+    <Instrument name="Woodwinds" prgChg="63"/>
+    <Instrument name="Whirly" prgChg="64"/>
+    <Instrument name="LeadGuitar" prgChg="65"/>
+    <Instrument name="Isabelle" prgChg="66"/>
+    <Instrument name="Fat Fretty" prgChg="67"/>
+    <Instrument name="Poppin'Pad" prgChg="68"/>
+    <Instrument name="Soft Horns" prgChg="69"/>
+    <Instrument name="ProducrKit" prgChg="70"/>
+    <Instrument name="InTheTrees" prgChg="71"/>
+    <Instrument name="SantaClav" prgChg="72"/>
+    <Instrument name="Sfz&lt; Brass" prgChg="73"/>
+    <Instrument name="Tine Pad" prgChg="74"/>
+    <Instrument name="PedalSteel" prgChg="75"/>
+    <Instrument name="Log Drums" prgChg="76"/>
+    <Instrument name="HouseBass1" prgChg="77"/>
+    <Instrument name="Ambi.Voice" prgChg="78"/>
+    <Instrument name="MonoLead" prgChg="79"/>
+    <Instrument name="Hackbrett" prgChg="80"/>
+    <Instrument name="Halifax NS" prgChg="81"/>
+    <Instrument name="Drawbars" prgChg="82"/>
+    <Instrument name="Fanfare" prgChg="83"/>
+    <Instrument name="Hard Tines" prgChg="84"/>
+    <Instrument name="Dr. Guitar" prgChg="85"/>
+    <Instrument name="EtherBells" prgChg="86"/>
+    <Instrument name="Bass/Harm" prgChg="87"/>
+    <Instrument name="Air Vox" prgChg="88"/>
+    <Instrument name="Drum Hit" prgChg="89"/>
+    <Instrument name="50's SciFi" prgChg="90"/>
+    <Instrument name="SteamCloud" prgChg="91"/>
+    <Instrument name="Bouzouki" prgChg="92"/>
+    <Instrument name="BriteBrass" prgChg="93"/>
+    <Instrument name="DWGS EP" prgChg="94"/>
+    <Instrument name="JoyStickUp" prgChg="95"/>
+    <Instrument name="WaveCycles" prgChg="96"/>
+    <Instrument name="Rap Bass" prgChg="97"/>
+    <Instrument name="OoooohPad" prgChg="98"/>
+    <Instrument name="Bright Pad" prgChg="99"/>
+    <Instrument name="HarpPluck" prgChg="100"/>
+  </Section>
+  <Section name="Drum Kits" bankHigh="62" bankLow="0" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="GM Kit" prgChg="1"/>
+    <Instrument name="Power Kit" prgChg="17"/>
+    <Instrument name="Analog Kit" prgChg="26"/>
+    <Instrument name="Dance Kit" prgChg="27"/>
+    <Instrument name="Jazz Kit" prgChg="33"/>
+    <Instrument name="Brush kit" prgChg="41"/>
+    <Instrument name="Orch Kit " prgChg="49"/>
+    <Instrument name="Perc Kit" prgChg="65"/>
+  </Section></Instruments>
+</VSTNameDocument>
+

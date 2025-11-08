@@ -1,0 +1,1378 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTNameDocument name="PhilharmonikCE">
+  <Version>1</Version>
+  <Author>Sonic Scores</Author>
+  <Device name="PhilharmonikCE" />
+  <ArticulationNames>
+    <Articulation name="Marcato" velocityAdd="10" durationPct="90" />
+    <Articulation name="Marcato Dot" velocityAdd="15" durationPct="50" />
+    <Articulation name="Heavy Attack" velocityAdd="10" durationPct="100" />
+    <Articulation name="SForzando" velocityAdd="20" />
+    <Articulation name="SForzando Dot" velocityAdd="20" durationPct="50" />
+    <Articulation name="Heavier Attack" velocityAdd="20" durationPct="100" />
+    <Articulation name="SForzando Inverted" velocityAdd="20" />
+    <Articulation name="SForzando Dot Inverted" velocityAdd="20" durationPct="50" />
+    <Articulation name="Staccatissimo" velocityAdd="15" durationPct="30" />
+    <Articulation name="Staccato" velocityAdd="15" durationPct="50" />
+    <Articulation name="Tenuto" durationPct="100" />
+    <Articulation name="Up Bow" />
+    <Articulation name="Down Bow" velocityAdd="5" />
+    <Articulation name="Up Bow Inverted" />
+    <Articulation name="Down Bow Inverted" velocityAdd="5" />
+    <Articulation name="Arpeggio" attackFrom="-90" attackTo="0" />
+    <Articulation name="Tremolo Eighths" tremoloNotes="1" />
+    <Articulation name="Tremolo Sixteenths" tremoloNotes="2" />
+    <Articulation name="Tremolo Thirty Seconds" tremoloNotes="3" />
+    <Articulation name="Tremolo Sixty Fourths" tremoloNotes="4" />
+    <Articulation name="pizz" />
+    <Articulation name="arco" durationPct="90" />
+    <Articulation name="legato" durationPct="100" />
+    <ArticulationSwitchList name="Staccato">
+      <Articulation name="Staccato" durationPct="90" />
+      <Articulation name="Staccatissimo" velocityAdd="15" durationPct="50" />
+    </ArticulationSwitchList>
+    <ArticulationSwitchList name="Staccato Short">
+      <Articulation name="Staccatissimo" durationPct="90" />
+    </ArticulationSwitchList>
+    <ArticulationSwitchList name="Tenuto">
+      <Articulation name="Tenuto" durationPct="90" />
+    </ArticulationSwitchList>
+  </ArticulationNames>
+  <ControllerNames>
+    <Controller name="Volume Control (Swell Macro)" cc="12" />
+    <Controller name="(Optional) Panning" cc="10" />
+    <Controller name="(Optional) Volume" cc="7" />
+    <Controller name="VSpeed (Attack Envelope)" cc="13" />
+    <Controller name="ATPush (Aftertouch Push)" cc="14" />
+    <Controller name="VStart (Sample Start Control)" cc="15" />
+    <ControllerSwitchList name="AMV">
+      <Controller name="Volume Control (Modulation)" cc="1" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="BC1">
+      <Controller name="Volume Control (Breath Controller)" cc="2" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="BC2">
+      <Controller name="Volume + Brightness (Breath Controller)" cc="2" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="CRS1">
+      <Controller name="Crescendo Decay Time" cc="1" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="CRS2">
+      <Controller name="Crescenod Swell Time" cc="1" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="EXPD">
+      <Controller name="Volume Control (Expression Controller)" cc="11" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="STCH">
+      <Controller name="Sample Playback Tempo" cc="1" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="SLW">
+      <Controller name="Attack Speed" cc="1" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="THT">
+      <Controller name="Sample Tightness" cc="1" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="DRK">
+      <Controller name="Dark EQ Filter" cc="1" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="BRT">
+      <Controller name="Bright EQ Filter" cc="1" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="LNG">
+      <Controller name="Sample Release Length" cc="1" />
+    </ControllerSwitchList>
+  </ControllerNames>
+  <Instruments>
+    <Menu name="Brass">
+      <SubMenu name="Ensemble Brass">
+        <Section name="Ensemble French Horns" title="French Horns" abbr="F Hrns." lownote="c-1" highnote="c9" transpose="7" clef="treble">
+          <Group name="French Horns 1 LP" title="French Horns" abbr="F Hrns." lownote="c-1" highnote="c9">
+            <Instrument name="French Horns 1 LP - Parent" />
+            <Instrument name="French Horns LP STCH">
+              <UsesControllerSwitchList name="STCH" />
+            </Instrument>
+          </Group>
+          <Group name="French Horns FF LP" title="French Horns" abbr="F Hrns." lownote="c-1" highnote="c9">
+            <Instrument name="French Horns FF LP - Parent" />
+            <Instrument name="French Horns FF LP STCH">
+              <UsesControllerSwitchList name="STCH" />
+            </Instrument>
+          </Group>
+          <Group name="French Horns Mute LP" title="French Horns" abbr="F Hrns." lownote="c-1" highnote="c9">
+            <Instrument name="French Horns Mute LP - Parent" />
+          </Group>
+          <Group name="French Horns Staccato" title="French Horns" abbr="F Hrns." lownote="c-1" highnote="c9" Articulation="Staccato, Staccatissimo">
+            <UsesArticulationSwitchList name="Staccato" />
+            <Instrument name="French Horns Staccato - Parent" />
+          </Group>
+        </Section>
+        <Section name="Ensemble Trombones" title="Trombones" abbr="TBns." lownote="c-1" highnote="c9" clef="bass">
+          <Group name="Trombones FF LP" title="Trombones" abbr="TBns." lownote="c-1" highnote="c9" clef="bass">
+            <Instrument name="Trombones FF LP - Parent" />
+            <Instrument name="Trombones FF LP STCH">
+              <UsesControllerSwitchList name="STCH" />
+            </Instrument>
+          </Group>
+          <Group name="Trombones Mute LP" title="Trombones" abbr="TBns." lownote="c-1" highnote="c9" clef="bass">
+            <Instrument name="Trombones Mute LP - Parent" />
+            <Instrument name="Trmbns Mute LP STCH">
+              <UsesControllerSwitchList name="STCH" />
+            </Instrument>
+          </Group>
+          <Group name="Trombones 1" title="Trombones" abbr="TBns." lownote="c-1" highnote="c9" clef="bass">
+            <Instrument name="Trombones 1 - Parent" />
+          </Group>
+          <Group name="Trombones Staccato" title="Trombones" abbr="TBns." lownote="c-1" highnote="c9" clef="bass" Articulation="Staccato, Staccatissimo">
+            <UsesArticulationSwitchList name="Staccato" />
+            <Instrument name="Trombones Staccato - Parent" />
+          </Group>
+        </Section>
+        <Section name="Ensemble Trumpets" title="Trumpets" abbr="Tpts." lownote="c-1" highnote="c9" clef="treble">
+          <Group name="Trumpets 1 LP" title="Trumpets" abbr="Tpts." lownote="c-1" highnote="c9" clef="treble">
+            <Instrument name="Trumpets 1 LP - Parent" />
+            <Instrument name="Trumpets 1 LP STCH">
+              <UsesControllerSwitchList name="STCH" />
+            </Instrument>
+          </Group>
+          <Group name="Trumpets Mute LP" title="Trumpets" abbr="Tpts." lownote="c-1" highnote="c9" clef="treble">
+            <Instrument name="Trumpets Mute LP - Parent" />
+            <Instrument name="Trumpts Mute LP STCH">
+              <UsesControllerSwitchList name="STCH" />
+            </Instrument>
+          </Group>
+          <Group name="Trumpets Staccato 0.3 Sec" title="Trumpets" abbr="Tpts." lownote="c-1" highnote="c9" clef="treble" Articulation="Staccato, Staccatissimo">
+            <UsesArticulationSwitchList name="Staccato" />
+            <Instrument name="Trumpets Staccato 0.3 Sec - Parent" />
+          </Group>
+        </Section>
+      </SubMenu>
+      <SubMenu name="Solo Brass">
+        <Section name="Solo French Horn" title="French Horn" abbr="Fr Hrn." lownote="c-1" highnote="c9" transpose="7" clef="treble">
+          <Group name="French Horn 1 LP" title="French Horn" abbr="Fr Hrn." lownote="c-1" highnote="c9" clef="treble">
+            <Instrument name="French Horn 1 LP - Parent" />
+            <Instrument name="French Horn LP STCH">
+              <UsesControllerSwitchList name="STCH" />
+            </Instrument>
+          </Group>
+          <Group name="French Horn Mute LP" title="French Horn" abbr="Fr Hrn." lownote="c-1" highnote="c9" clef="treble">
+            <Instrument name="French Horn Mute LP - Parent" />
+          </Group>
+          <Group name="French Horn Staccato" title="French Horn" abbr="Fr Hrn." lownote="c-1" highnote="c9" clef="treble" Articulation="Staccato, Staccatissimo">
+            <UsesArticulationSwitchList name="Staccato" />
+            <Instrument name="French Horn Staccato - Parent" />
+          </Group>
+        </Section>
+        <Section name="Solo Trombone" title="Trombone" abbr="Tbn." lownote="c-1" highnote="c9" clef="bass">
+          <Group name="Trombone 1 LP" title="Trombone" abbr="Tbn." lownote="c-1" highnote="c9" clef="bass">
+            <Instrument name="Trombone 1 LP - Parent" />
+            <Instrument name="Trombone LP STCH">
+              <UsesControllerSwitchList name="STCH" />
+            </Instrument>
+          </Group>
+          <Group name="Trombone F Mute LP" title="Trombone" abbr="Tbn." lownote="c-1" highnote="c9" clef="bass">
+            <Instrument name="Trombone F Mute LP - Parent" />
+            <Instrument name="Tromb F Mute LP STCH">
+              <UsesControllerSwitchList name="STCH" />
+            </Instrument>
+          </Group>
+          <Group name="Trombone Staccato 1" title="Trombone" abbr="Tbn." lownote="c-1" highnote="c9" clef="bass" Articulation="Staccato, Staccatissimo">
+            <UsesArticulationSwitchList name="Staccato" />
+            <Instrument name="Trombone Staccato 1 - Parent" />
+          </Group>
+        </Section>
+        <Section name="Solo Trumpet" title="Trumpet" abbr="Tpt." lownote="c-1" highnote="c9" clef="treble">
+          <Group name="Trumpet 1 LP" title="Trumpet" abbr="Tpt." lownote="c-1" highnote="c9" clef="treble">
+            <Instrument name="Trumpet 1 LP - Parent" />
+            <Instrument name="Trumpet 1 LP STCH">
+              <UsesControllerSwitchList name="STCH" />
+            </Instrument>
+          </Group>
+          <Group name="Trumpet Mute LP" title="Trumpet" abbr="Tpt." lownote="c-1" highnote="c9" clef="treble">
+            <Instrument name="Trumpet Mute LP - Parent" />
+            <Instrument name="Trumpet Mute LP STCH">
+              <UsesControllerSwitchList name="STCH" />
+            </Instrument>
+          </Group>
+          <Group name="Trumpet Staccato 2" title="Trumpet" abbr="Tpt." lownote="c-1" highnote="c9" clef="treble" Articulation="Staccato, Staccatissimo">
+            <UsesArticulationSwitchList name="Staccato" />
+            <Instrument name="Trumpet Staccato 2 - Parent" />
+          </Group>
+        </Section>
+        <Section name="Solo Tuba" title="Tuba" abbr="Tba." lownote="c-1" highnote="c9" clef="bass">
+          <Group name="Tuba 1 LP" title="Tuba" abbr="Tba." lownote="c-1" highnote="c9" clef="bass">
+            <Instrument name="Tuba 1 LP - Parent" />
+            <Instrument name="Tuba 1 LP STCH">
+              <UsesControllerSwitchList name="STCH" />
+            </Instrument>
+          </Group>
+          <Group name="Tuba Staccato" title="Tuba" abbr="Tba." lownote="c-1" highnote="c9" clef="bass" Articulation="Staccato, Staccatissimo">
+            <UsesArticulationSwitchList name="Staccato" />
+            <Instrument name="Tuba Staccato - Parent" />
+          </Group>
+        </Section>
+      </SubMenu>
+    </Menu>
+    <Menu name="Choirs">
+      <SubMenu name="Choirs">
+        <Section name="Female Choirs" title="Womens Choir" abbr="Chor." lownote="c-1" highnote="c9" clef="treble">
+          <Group name="Female Ah LP" title="Womens Choir" abbr="Chor." lownote="c-1" highnote="c9">
+            <Instrument name="Female Ah LP - Parent" />
+            <Instrument name="Female Ah LP STCH">
+              <UsesControllerSwitchList name="STCH" />
+            </Instrument>
+          </Group>
+          <Group name="Female Oh LP" title="Womens Choir" abbr="Chor." lownote="c-1" highnote="c9">
+            <Instrument name="Female Oh LP - Parent" />
+            <Instrument name="Female Oh LP LNG">
+              <UsesControllerSwitchList name="LNG" />
+            </Instrument>
+            <Instrument name="Female Oh LP STCH">
+              <UsesControllerSwitchList name="STCH" />
+            </Instrument>
+          </Group>
+        </Section>
+        <Section name="Male Choirs" title="Mens Choir" abbr="Chor." lownote="c-1" highnote="c9" clef="bass">
+          <Group name="Male Ah MF LP" title="Mens Choir" abbr="Chor." lownote="c-1" highnote="c9" clef="bass">
+            <Instrument name="Male Ah MF LP - Parent" />
+            <Instrument name="Male Ah MF LP LNG">
+              <UsesControllerSwitchList name="LNG" />
+            </Instrument>
+            <Instrument name="Male Ah MF LP STCH">
+              <UsesControllerSwitchList name="STCH" />
+            </Instrument>
+          </Group>
+          <Group name="Male Oh MF LP" title="Mens Choir" abbr="Chor." lownote="c-1" highnote="c9" clef="bass">
+            <Instrument name="Male Oh MF LP - Parent" />
+            <Instrument name="Male Oh MF LP STCH">
+              <UsesControllerSwitchList name="STCH" />
+            </Instrument>
+          </Group>
+        </Section>
+        <Section name="Mixed Choirs" title="Choir" abbr="Chor." lownote="c-1" highnote="c9" clef="treble">
+          <Group name="Mixed Uh LP" title="Choir" abbr="Chor." lownote="c-1" highnote="c9" clef="treble">
+            <Instrument name="Mixed Uh LP - Parent" />
+            <Instrument name="Mixed Uh LP LNG">
+              <UsesControllerSwitchList name="LNG" />
+            </Instrument>
+            <Instrument name="Mixed Uh LP STCH">
+              <UsesControllerSwitchList name="STCH" />
+            </Instrument>
+          </Group>
+        </Section>
+      </SubMenu>
+    </Menu>
+    <Menu name="Elements">
+      <SubMenu name="Dynamic Performance Elements">
+        <Section name="Dynamic Performance Elements" title="Orchestra FX" abbr="FX." lownote="c-1" highnote="c9" clef="treble">
+          <Group name="Orchestra Performance 1" title="Orchestra FX" abbr="FX." lownote="c-1" highnote="c9">
+            <Instrument name="Orchestra Performance 1 - Parent" />
+            <Instrument name="Orchestra Prf 1 AMV">
+              <UsesControllerSwitchList name="AMV" />
+            </Instrument>
+          </Group>
+          <Group name="Orchestra Performance 2" title="Orchestra FX" abbr="FX." lownote="c-1" highnote="c9">
+            <Instrument name="Orchestra Performance 2 - Parent" />
+            <Instrument name="Orchestra Prf 2 AMV">
+              <UsesControllerSwitchList name="AMV" />
+            </Instrument>
+          </Group>
+          <Group name="Orchestra Performance 3" title="Orchestra FX" abbr="FX." lownote="c-1" highnote="c9">
+            <Instrument name="Orchestra Performance 3 - Parent" />
+            <Instrument name="Orchestra Prf 3 AMV">
+              <UsesControllerSwitchList name="AMV" />
+            </Instrument>
+          </Group>
+          <Group name="Orchestra Performance 4" title="Orchestra FX" abbr="FX." lownote="c-1" highnote="c9">
+            <Instrument name="Orchestra Performance 4 - Parent" />
+            <Instrument name="Orchestra Prf 4 AMV">
+              <UsesControllerSwitchList name="AMV" />
+            </Instrument>
+          </Group>
+          <Group name="Orchestra Performance 5" title="Orchestra FX" abbr="FX." lownote="c-1" highnote="c9">
+            <Instrument name="Orchestra Performance 5 - Parent" />
+            <Instrument name="Orchestra Prf 5 AMV">
+              <UsesControllerSwitchList name="AMV" />
+            </Instrument>
+          </Group>
+          <Group name="Orchestra Performance 6" title="Orchestra FX" abbr="FX." lownote="c-1" highnote="c9">
+            <Instrument name="Orchestra Performance 6 - Parent" />
+            <Instrument name="Orchestra Prf 6 AMV">
+              <UsesControllerSwitchList name="AMV" />
+            </Instrument>
+          </Group>
+          <Group name="Orchestra Performance 7" title="Orchestra FX" abbr="FX." lownote="c-1" highnote="c9">
+            <Instrument name="Orchestra Performance 7 - Parent" />
+            <Instrument name="Orchestra Prf 7 AMV">
+              <UsesControllerSwitchList name="AMV" />
+            </Instrument>
+          </Group>
+          <Group name="Orchestra Performance 8" title="Orchestra FX" abbr="FX." lownote="c-1" highnote="c9">
+            <Instrument name="Orchestra Performance 8 - Parent" />
+            <Instrument name="Orchestra Prf 8 AMV">
+              <UsesControllerSwitchList name="AMV" />
+            </Instrument>
+          </Group>
+          <Group name="Orchestra Performance 9" title="Orchestra FX" abbr="FX." lownote="c-1" highnote="c9">
+            <Instrument name="Orchestra Performance 9 - Parent" />
+            <Instrument name="Orchestra Prf 9 AMV">
+              <UsesControllerSwitchList name="AMV" />
+            </Instrument>
+          </Group>
+        </Section>
+      </SubMenu>
+      <SubMenu name="Orchestra Player Noises">
+        <Section name="Orchestra Player Noises" title="Orchestra FX" abbr="FX." lownote="c-1" highnote="c9" clef="treble">
+          <Instrument name="Breaths" />
+          <Instrument name="Rustling" />
+          <Instrument name="Sniffs and Coughs" />
+        </Section>
+      </SubMenu>
+      <SubMenu name="Percussion Elements">
+        <Section name="Single Bass Drums" title="Bass Drum" abbr="BDrm." lownote="c-1" highnote="c9" clef="bass" velocity="on">
+          <Instrument name="Bass Drum 1 04" />
+          <Instrument name="Bass Drum 1 05" />
+        </Section>
+        <Section name="Single Bells" title="Bells" abbr="Bells" lownote="c-1" highnote="c9" clef="treble" velocity="on">
+          <Instrument name="Bell Tree 02" />
+          <Instrument name="Bells Misc 01" />
+          <Instrument name="Bells Misc 07" />
+          <Instrument name="Mesin Bells 00" />
+        </Section>
+        <Section name="Single Castanets" title="Castanets" abbr="Cstnts." lownote="c-1" highnote="c9" clef="treble" velocity="on">
+          <Instrument name="Castanets 00" />
+        </Section>
+        <Section name="Single Cymbals" title="Cymbals" abbr="Cyms." lownote="c-1" highnote="c9" clef="treble" velocity="on">
+          <Instrument name="Cymbals Hall 00" />
+        </Section>
+        <Section name="Single Gongs" title="Gongs" abbr="Gngs." lownote="c-1" highnote="c9" clef="treble" velocity="on">
+          <Instrument name="Gongs 00" />
+        </Section>
+        <Section name="Single Harps" title="Harp" abbr="Hrp." lownote="c-1" highnote="c9" clef="treble" velocity="on">
+          <Instrument name="Harp Arpeggios Maj 1" />
+        </Section>
+        <Section name="Single Chimes" title="Chimes" abbr="Chms." lownote="c-1" highnote="c9" clef="treble" velocity="on">
+          <Instrument name="Chimes Hall 00" />
+          <Instrument name="Chimes Hall 01" />
+          <Instrument name="Chimes Hall 02" />
+          <Instrument name="Chimes Hall 03" />
+          <Instrument name="Chimes Hall 04" />
+          <Instrument name="Chimes Hall 05" />
+          <Instrument name="Chimes Hall 06" />
+          <Instrument name="Chimes Hall 07" />
+          <Instrument name="Chimes Hall 08" />
+          <Instrument name="Chimes Hall 09" />
+          <Instrument name="Chimes Studio 00" />
+          <Instrument name="Chimes Studio 01" />
+          <Instrument name="Chimes Studio 02" />
+          <Instrument name="Chimes Studio 03" />
+          <Instrument name="Chimes Studio 04" />
+          <Instrument name="Chimes Studio 05" />
+          <Instrument name="Chimes Studio 06" />
+          <Instrument name="Chimes Studio 07" />
+        </Section>
+        <Section name="Single Crotales" title="Crotals" abbr="Crtls." lownote="c-1" highnote="c9" clef="treble" velocity="on">
+          <Instrument name="Crotals 00" />
+          <Instrument name="Crotals 01" />
+          <Instrument name="Crotals 02" />
+          <Instrument name="Crotals 03" />
+          <Instrument name="Crotals 04" />
+          <Instrument name="Crotals 05" />
+          <Instrument name="Crotals 06" />
+          <Instrument name="Crotals 07" />
+          <Instrument name="Crotals 08" />
+          <Instrument name="Crotals 09" />
+          <Instrument name="Crotals 10" />
+          <Instrument name="Crotals 11" />
+        </Section>
+        <Section name="Single Misc Perc" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9" clef="treble" velocity="on">
+          <Instrument name="Bongos 00" />
+          <Instrument name="Bongos 01" />
+          <Instrument name="Bongos 02" />
+          <Instrument name="Bongos 03" />
+          <Instrument name="Bongos 04" />
+          <Instrument name="Bongos 05" />
+          <Instrument name="Bongos 06" />
+          <Instrument name="Bongos 07" />
+          <Instrument name="Bongos 08" />
+          <Instrument name="Bongos 09" />
+          <Instrument name="Bongos 10" />
+          <Instrument name="Bongos 11" />
+          <Instrument name="Bongos 12" />
+          <Instrument name="Bongos 13" />
+          <Instrument name="Bongos Low 00" />
+          <Instrument name="Bongos Low 01" />
+          <Instrument name="Bongos Low 02" />
+          <Instrument name="Bongos Low 03" />
+          <Instrument name="Bongos Low 04" />
+          <Instrument name="Bongos Low 05" />
+          <Instrument name="Bongos Low 06" />
+          <Instrument name="Bongos Low 07" />
+          <Instrument name="Bongos Low 08" />
+          <Instrument name="Bongos Low 09" />
+          <Instrument name="Bongos Low 10" />
+          <Instrument name="Bongos Low 11" />
+          <Instrument name="Bongos Low 12" />
+          <Instrument name="Bongos Low 13" />
+          <Instrument name="Bongos Low 14" />
+          <Instrument name="Bongos Low 15" />
+          <Instrument name="Claps 00" />
+          <Instrument name="Claps 01" />
+          <Instrument name="Claps 02" />
+          <Instrument name="Congas 00" />
+          <Instrument name="Congas 01" />
+          <Instrument name="Congas 02" />
+          <Instrument name="Drums Misc 00" />
+          <Instrument name="Drums Misc 01" />
+          <Instrument name="Drums Misc 02" />
+          <Instrument name="Drums Misc 03" />
+          <Instrument name="Drums Misc 04" />
+          <Instrument name="Drums Misc 05" />
+          <Instrument name="Drums Misc 06" />
+          <Instrument name="Guiro 00" />
+          <Instrument name="Guiro 01" />
+          <Instrument name="Guiro 02" />
+          <Instrument name="Guiro 03" />
+          <Instrument name="Guiro 04" />
+          <Instrument name="Guiro 05" />
+          <Instrument name="Guiro 06" />
+          <Instrument name="Guiro 07" />
+          <Instrument name="Guiro 08" />
+          <Instrument name="Guiro Whip 00" />
+          <Instrument name="Guiro Whip 01" />
+          <Instrument name="Guiro Whip 02" />
+          <Instrument name="Guiro Whip 03" />
+          <Instrument name="Guiro Whip 04" />
+          <Instrument name="Guiro Whip 05" />
+          <Instrument name="Guiro Whip 06" />
+          <Instrument name="Guiro Whip 07" />
+          <Instrument name="Guiro Whip 08" />
+          <Instrument name="Guiro Whip 09" />
+          <Instrument name="Guiro Whip 10" />
+          <Instrument name="Guiro Whip 11" />
+          <Instrument name="Guiro Whip 12" />
+          <Instrument name="Guiro Whip 13" />
+          <Instrument name="Guiro Whip 14" />
+          <Instrument name="Guiro Whip 15" />
+          <Instrument name="Guiro Whip 16" />
+          <Instrument name="Guiro Whip 17" />
+          <Instrument name="Guiro Whip 18" />
+          <Instrument name="Metal Plates 00" />
+          <Instrument name="Metal Plates 01" />
+        </Section>
+        <Section name="Single Shakers" title="Shakers" abbr="Shks." lownote="c-1" highnote="c9" clef="treble" velocity="on">
+          <Instrument name="Shakers 00" />
+          <Instrument name="Shakers 01" />
+          <Instrument name="Shakers Misc 00" />
+          <Instrument name="Shakers Misc 01" />
+          <Instrument name="Shakers Misc 02" />
+          <Instrument name="Shakers Misc 03" />
+          <Instrument name="Shakers Misc 04" />
+          <Instrument name="Shakers Misc 05" />
+          <Instrument name="Shakers Misc 06" />
+          <Instrument name="Shakers Misc 07" />
+          <Instrument name="Shakers Misc 08" />
+          <Instrument name="Shakers Misc 09" />
+          <Instrument name="Shakers Misc 10" />
+          <Instrument name="Shakers Misc 11" />
+          <Instrument name="Shakers Misc 12" />
+          <Instrument name="Shakers Misc 13" />
+          <Instrument name="Shakers Misc 14" />
+          <Instrument name="Shakers Misc 15" />
+          <Instrument name="Shakers Misc 16" />
+          <Instrument name="Shakers Misc 17" />
+        </Section>
+        <Section name="Single Snares" title="Snare Drum" abbr="Sn Drm." lownote="c-1" highnote="c9" clef="treble" velocity="on">
+          <Instrument name="Snare 2 00" />
+          <Instrument name="Snare 2 01" />
+          <Instrument name="Snare 2 02" />
+          <Instrument name="Snare 2 03" />
+          <Instrument name="Snare 2 04" />
+          <Instrument name="Snare 2 05" />
+          <Instrument name="Snare 2 06" />
+          <Instrument name="Snare 2 07" />
+          <Instrument name="Snare 2 08" />
+          <Instrument name="Snare 2 09" />
+          <Instrument name="Snare 2 10" />
+          <Instrument name="Snare 2 11" />
+          <Instrument name="Snare 2 12" />
+          <Instrument name="Snare 2 13" />
+          <Instrument name="Snare 2 14" />
+          <Instrument name="Snare 2 15" />
+          <Instrument name="Snare 2 16" />
+          <Instrument name="Snare Drum 00" />
+          <Instrument name="Snare Drum 01" />
+          <Instrument name="Snare Drum 02" />
+          <Instrument name="Snare Drum 03" />
+          <Instrument name="Snare Drum 04" />
+          <Instrument name="Snare Drum 05" />
+          <Instrument name="Snare Drum 06" />
+          <Instrument name="Snare Drum 07" />
+          <Instrument name="Snare Drum 08" />
+          <Instrument name="Snare Drum 09" />
+          <Instrument name="Snare Drum 10" />
+          <Instrument name="Snare Drum 11" />
+          <Instrument name="Snare Drum 12" />
+          <Instrument name="Snare Drum 13" />
+          <Instrument name="Snare Drum 14" />
+          <Instrument name="Snare Drum 15" />
+          <Instrument name="Snare Drum 16" />
+          <Instrument name="Snare Drum 17" />
+          <Instrument name="Snare Drum 18" />
+          <Instrument name="Snare Drum 19" />
+          <Instrument name="Snare Drum 20" />
+          <Instrument name="Snare Drum 21" />
+          <Instrument name="Snare Drum 22" />
+          <Instrument name="Snare Drum 3 00" />
+          <Instrument name="Snare Drum 3 01" />
+          <Instrument name="Snare Drum 3 02" />
+          <Instrument name="Snare Drum 3 03" />
+          <Instrument name="Snare Drum 3 04" />
+          <Instrument name="Snare Drum 3 05" />
+          <Instrument name="Snare Drum 3 06" />
+          <Instrument name="Snare Drum 3 07" />
+          <Instrument name="Snare Drum 3 08" />
+          <Instrument name="Snare Drum 3 09" />
+          <Instrument name="Snare Drum 3 10" />
+          <Instrument name="Snare Drum 3 11" />
+          <Instrument name="Snare Drum 3 12" />
+          <Instrument name="Snare Drum 3 13" />
+          <Instrument name="Snare Drum 3 14" />
+          <Instrument name="Snare Drum 3 15" />
+          <Instrument name="Snare Drum 3 16" />
+          <Instrument name="Snare Drum 3 17" />
+          <Instrument name="Snare Drum 3+00" />
+          <Instrument name="Snare Drum 3+01" />
+          <Instrument name="Snare Drum 3+02" />
+          <Instrument name="Snare Drum 3+03" />
+          <Instrument name="Snare Drum 3+04" />
+          <Instrument name="Snare Drum 3+05" />
+          <Instrument name="Snare Drum 3+06" />
+          <Instrument name="Snare Drum 3+07" />
+          <Instrument name="Snare Drum 3+08" />
+          <Instrument name="Snare Drum 3+09" />
+          <Instrument name="Snare Drum 3+10" />
+          <Instrument name="Snare Drum 3+11" />
+          <Instrument name="Snare Drum 3+12" />
+          <Instrument name="Snare Drum 3+13" />
+          <Instrument name="Snare Drum 3+14" />
+          <Instrument name="Snare Drum 3+15" />
+          <Instrument name="Snare Drum 3+16" />
+          <Instrument name="Snare Drum 3+17" />
+          <Instrument name="Snare Drum 3+18" />
+          <Instrument name="Snare Drum 3+19" />
+          <Instrument name="Snare Drum 3+20" />
+          <Instrument name="Snare Drum 3+21" />
+          <Instrument name="Snare Drum 3+22" />
+          <Instrument name="Snare Drum 3+23" />
+          <Instrument name="Snare Drum 4 Studio 00" />
+          <Instrument name="Snare Drum 4 Studio 01" />
+          <Instrument name="Snare Drum 4 Studio 02" />
+          <Instrument name="Snare Drum 4 Studio 03" />
+          <Instrument name="Snare Drum 4 Studio 04" />
+          <Instrument name="Snare Drum 4 Studio 05" />
+          <Instrument name="Snare Drum 4 Studio 06" />
+          <Instrument name="Snare Drum 4 Studio 07" />
+          <Instrument name="Snare Drum 4 Studio 08" />
+          <Instrument name="Snare Drum 4 Studio 09" />
+          <Instrument name="Snare Drum 4 Studio 10" />
+          <Instrument name="Snare Drum 4 Studio 11" />
+          <Instrument name="Snare Drum 4 Studio 12" />
+          <Instrument name="Snare Drum 4 Studio 13" />
+          <Instrument name="Snare Drum 4 Studio 14" />
+          <Instrument name="Snare Drum 4 Studio 15" />
+          <Instrument name="Snare Drum 4 Studio 16" />
+          <Instrument name="Snare Drum 4 Studio 17" />
+          <Instrument name="Snare Drum 4B 00" />
+          <Instrument name="Snare Drum 4B 01" />
+          <Instrument name="Snare Drum 4B 02" />
+          <Instrument name="Snare Drum 4B 03" />
+          <Instrument name="Snare Drum 4B 04" />
+          <Instrument name="Snare Drum 4B 05" />
+          <Instrument name="Snare Drum Crisp 1 00" />
+          <Instrument name="Snare Drum Crisp 1 01" />
+          <Instrument name="Snare Drum Crisp 1 02" />
+          <Instrument name="Snare Drum Crisp 1 03" />
+          <Instrument name="Snare Drum Crisp 1 04" />
+          <Instrument name="Snare Drum Crisp 1 05" />
+          <Instrument name="Snare Drum Crisp 1 06" />
+          <Instrument name="Snare Drum Crisp 1 07" />
+          <Instrument name="Snare Drum Crisp 1 08" />
+          <Instrument name="Snare Drum Crisp 1 09" />
+          <Instrument name="Snare Drum Crisp 1 10" />
+          <Instrument name="Snare Drum Crisp 1 11" />
+          <Instrument name="Snare Drum Crisp 1 12" />
+          <Instrument name="Snare Drum Crisp 1 13" />
+          <Instrument name="Snare Drum Crisp 1 14" />
+          <Instrument name="Snare Drum Crisp 1 15" />
+          <Instrument name="Snare Drum Crisp 1 16" />
+          <Instrument name="Snare Drum Crisp 1 17" />
+          <Instrument name="Snare Drum Crisp 1 18" />
+          <Instrument name="Snare Drum Crisp 1 19" />
+          <Instrument name="Snare Drum Crisp 1 20" />
+          <Instrument name="Snare Drum Crisp 1 21" />
+          <Instrument name="Snare Drum Crisp 1 22" />
+          <Instrument name="Snare Drum Hall 00" />
+          <Instrument name="Snare Drum Hall 01" />
+          <Instrument name="Snare Drum Hall 02" />
+          <Instrument name="Snare Drum Hall 03" />
+          <Instrument name="Snare Drum Hall 04" />
+          <Instrument name="Snare Drum Hall 05" />
+          <Instrument name="Snare Drum Hall 06" />
+          <Instrument name="Snare Drum Hall 07" />
+          <Instrument name="Snare Drum Hall 08" />
+          <Instrument name="Snare Drum Hall 09" />
+          <Instrument name="Snare Drum Hall 10" />
+          <Instrument name="Snare Drum Hall B 00" />
+          <Instrument name="Snare Drum Hall B 01" />
+          <Instrument name="Snare Drum Hall B 02" />
+          <Instrument name="Snare Drum Hall B 03" />
+          <Instrument name="Snare Drum Rolls 00" />
+          <Instrument name="Snare Drum Rolls 01" />
+          <Instrument name="Snare Drum Rolls 02" />
+          <Instrument name="Snare Drum Rolls 03" />
+          <Instrument name="Snare Drum Rolls 04" />
+          <Instrument name="Snare Drum Rolls 05" />
+          <Instrument name="Snare Drum Rolls 06" />
+          <Instrument name="Snare Drum Rolls 07" />
+          <Instrument name="Snare Drum Rolls 08" />
+          <Instrument name="Snare Drum Rolls 09" />
+          <Instrument name="Snare Drum Rolls 10" />
+          <Instrument name="Snare Drum Special 00" />
+          <Instrument name="Snare Drum Special 01" />
+          <Instrument name="Snare Drum Special 02" />
+          <Instrument name="Snare Drum Special 03" />
+          <Instrument name="Snare Drum Special 04" />
+          <Instrument name="Snare Drum Special 05" />
+          <Instrument name="Snare Drum Special 06" />
+          <Instrument name="Snare Drum Special 07" />
+          <Instrument name="Snare Drum Special 08" />
+          <Instrument name="Snare Drum Special 09" />
+          <Instrument name="Snare Drum Special 10" />
+          <Instrument name="Snare Drum Special 11" />
+          <Instrument name="Snare Drum Special 12" />
+          <Instrument name="Snare Drum Special 13" />
+          <Instrument name="Snare Drum Special 14" />
+          <Instrument name="Snare Drum Special 15" />
+          <Instrument name="Snare Drum Special 16" />
+        </Section>
+        <Section name="Single Tambourines" title="Tambourine" abbr="Tamb." lownote="c-1" highnote="c9" clef="treble" velocity="on">
+          <Instrument name="Tambourine 00" />
+          <Instrument name="Tambourine 01" />
+          <Instrument name="Tambourine 02" />
+          <Instrument name="Tambourine 03" />
+          <Instrument name="Tambourine 04" />
+          <Instrument name="Tambourine 05" />
+          <Instrument name="Tambourine 06" />
+          <Instrument name="Tambourine 07" />
+          <Instrument name="Tambourine 08" />
+          <Instrument name="Tambourine 09" />
+          <Instrument name="Tambourine 10" />
+          <Instrument name="Tambourine 11" />
+          <Instrument name="Tambourines 00" />
+          <Instrument name="Tambourines 01" />
+          <Instrument name="Tambourines 02" />
+          <Instrument name="Tambourines 03" />
+          <Instrument name="Tambourines 04" />
+          <Instrument name="Tambourines 05" />
+          <Instrument name="Tambourines 06" />
+          <Instrument name="Tambourines 07" />
+          <Instrument name="Tambourines 08" />
+        </Section>
+        <Section name="Single Timpani" title="Timpani" abbr="Timp." lownote="c-1" highnote="c9" clef="bass" velocity="on">
+          <Instrument name="Timpani Glides 00" />
+          <Instrument name="Timpani Glides 01" />
+          <Instrument name="Timpani Glides 02" />
+          <Instrument name="Timpani Glides 03" />
+          <Instrument name="Timpani Glides 04" />
+          <Instrument name="Timpani Glides 05" />
+          <Instrument name="Timpani Glides 06" />
+          <Instrument name="Timpani Glides 07" />
+          <Instrument name="Timpani Glides 08" />
+          <Instrument name="Timpani Glides 09" />
+          <Instrument name="Timpani Hall 00" />
+          <Instrument name="Timpani Hall 01" />
+          <Instrument name="Timpani Hall 02" />
+          <Instrument name="Timpani Hall 03" />
+          <Instrument name="Timpani Hall 04" />
+          <Instrument name="Timpani Hall 05" />
+          <Instrument name="Timpani Hall 06" />
+          <Instrument name="Timpani Hall 07" />
+          <Instrument name="Timpani Hall 08" />
+          <Instrument name="Timpani Hall B 00" />
+          <Instrument name="Timpani Hall B 01" />
+          <Instrument name="Timpani Hall B 02" />
+          <Instrument name="Timpani Hall B 03" />
+          <Instrument name="Timpani Hit 00" />
+          <Instrument name="Timpani Hit 01" />
+          <Instrument name="Timpani Hit 02" />
+          <Instrument name="Timpani Hit 03" />
+          <Instrument name="Timpani Hit 04" />
+          <Instrument name="Timpani Hit 05" />
+          <Instrument name="Timpani Hit 06" />
+          <Instrument name="Timpani Hit 07" />
+          <Instrument name="Timpani Hit 08" />
+          <Instrument name="Timpani Hit 09" />
+          <Instrument name="Timpani Hit 10" />
+          <Instrument name="Timpani Hit 11" />
+          <Instrument name="Timpani Hit 12" />
+          <Instrument name="Timpani PP 00" />
+          <Instrument name="Timpani PP 01" />
+          <Instrument name="Timpani PP 02" />
+          <Instrument name="Timpani PP 03" />
+          <Instrument name="Timpani PP 04" />
+          <Instrument name="Timpani PP 05" />
+          <Instrument name="Timpani Rolls Cresc 00" />
+          <Instrument name="Timpani Rolls Cresc 01" />
+          <Instrument name="Timpani Rolls Cresc 02" />
+          <Instrument name="Timpani Rolls Cresc 03" />
+          <Instrument name="Timpani Studio 00" />
+          <Instrument name="Timpani Studio 01" />
+          <Instrument name="Timpani Studio 02" />
+          <Instrument name="Timpani Studio 03" />
+          <Instrument name="Timpani Studio 04" />
+          <Instrument name="Timpani Studio 05" />
+          <Instrument name="Timpani Studio 06" />
+          <Instrument name="Timpani Studio 07" />
+          <Instrument name="Timpani Studio 08" />
+          <Instrument name="Timpani Studio B 00" />
+          <Instrument name="Timpani Studio B 01" />
+          <Instrument name="Timpani Studio B 02" />
+          <Instrument name="Timpani Studio B 03" />
+          <Instrument name="Timpani Studio B 04" />
+          <Instrument name="Timpani Studio B 05" />
+        </Section>
+        <Section name="Single Triangles" title="Triangles" abbr="Tri." lownote="c-1" highnote="c9" clef="treble" velocity="on">
+          <Instrument name="Triangle Hall 00" />
+          <Instrument name="Triangle Hall 01" />
+          <Instrument name="Triangle Hall 02" />
+          <Instrument name="Triangle Hall 03" />
+          <Instrument name="Triangle Hall 04" />
+          <Instrument name="Triangle Hall 05" />
+          <Instrument name="Triangle Hall 06" />
+          <Instrument name="Triangle Hall 07" />
+          <Instrument name="Triangle Hall B 00" />
+          <Instrument name="Triangle Hall B 01" />
+          <Instrument name="Triangle Hall B 02" />
+          <Instrument name="Triangle Hall B 03" />
+          <Instrument name="Triangles B 00" />
+          <Instrument name="Triangles B 01" />
+          <Instrument name="Triangles B 02" />
+          <Instrument name="Triangles Studio 00" />
+          <Instrument name="Triangles Studio 01" />
+          <Instrument name="Triangles Studio 02" />
+          <Instrument name="Triangles Studio 03" />
+          <Instrument name="Triangles Studio 04" />
+          <Instrument name="Triangles Studio 05" />
+          <Instrument name="Triangles Studio 06" />
+        </Section>
+        <Section name="Single Wood Perc" title="Wood Perc." abbr="Perc." lownote="c-1" highnote="c9" clef="treble" velocity="on">
+          <Instrument name="Wood Blocks 00" />
+          <Instrument name="Wood Heads Roll 00" />
+          <Instrument name="Wood Misc 00" />
+        </Section>
+      </SubMenu>
+    </Menu>
+    <Menu name="Orchestral Sections">
+      <SubMenu name="Brass + Wind Sections">
+        <Section name="Brass + Wind Sections" clef="treble">
+          <Group name="All Winds" title="Winds Section" abbr="Winds." lownote="c-1" highnote="c9">
+            <Instrument name="All Winds - Parent" />
+          </Group>
+          <Group name="Staccato Brass" title="Brass Section" abbr="Brass." lownote="c-1" highnote="c9" Articulation="Staccato, Staccatissimo">
+            <UsesArticulationSwitchList name="Staccato" />
+            <Instrument name="Stacc Brass - Parent" />
+          </Group>
+        </Section>
+      </SubMenu>
+      <SubMenu name="Mixed Orchestra">
+        <Section name="Mixed Orchestra" clef="treble">
+          <Group name="Brass Drama" title="Misc. Section" abbr="Misc." lownote="c-1" highnote="c9">
+            <Instrument name="Brass Drama - Parent" />
+          </Group>
+          <Group name="Ethereal Orchestra 2" title="Misc. Section" abbr="Misc." lownote="c-1" highnote="c9">
+            <Instrument name="Ethereal Orchestra 2 - Parent" />
+          </Group>
+          <Group name="Full Orchestra 1" title="Misc. Section" abbr="Misc." lownote="c-1" highnote="c9">
+            <Instrument name="Full Orchestra 1 - Parent" />
+            <Instrument name="Full Orchestra 1 AMV">
+              <UsesControllerSwitchList name="AMV" />
+            </Instrument>
+          </Group>
+        </Section>
+      </SubMenu>
+      <SubMenu name="String Sections">
+        <Section name="Full Strings" title="Strings" abbr="Str." lownote="c-1" highnote="c9" clef="treble">
+          <Group name="Pizzicato Strings" title="Strings" abbr="Str." lownote="c-1" highnote="c9" clef="treble" Articulation="pizz">
+            <Instrument name="Pizzicato Strings - Parent" />
+            <Instrument name="Pizz Strings THT">
+              <UsesControllerSwitchList name="THT" />
+            </Instrument>
+          </Group>
+          <Group name="Staccato Strings" title="Strings" abbr="Str." lownote="c-1" highnote="c9" clef="treble" Articulation="Staccato, Staccatissimo">
+            <UsesArticulationSwitchList name="Staccato" />
+            <Instrument name="Staccato Strings - Parent" />
+          </Group>
+          <Group name="Tremolo Strings 1" title="Strings" abbr="Str." lownote="c-1" highnote="c9" clef="treble">
+            <Instrument name="Tremolo Strings 1 - Parent" />
+            <Instrument name="Trem Strings 1 FSTATK">
+              <UsesControllerSwitchList name="FSTATK" />
+            </Instrument>
+          </Group>
+        </Section>
+      </SubMenu>
+    </Menu>
+    <Menu name="Other Instruments">
+      <SubMenu name="Other Instruments">
+        <Section name="Classical Guitars" title="Classical Guitar" abbr="Gtr." lownote="c-1" highnote="c9" clef="treble" velocity="on">
+          <Instrument name="Classical Guitar 1" />
+        </Section>
+        <Section name="Classical Harps" title="Harp" abbr="Hrp." lownote="c-1" highnote="c9" clef="treble" velocity="on">
+          <Instrument name="Harp Arpeggios Maj Menu" />
+          <Instrument name="Harp Arpeggios Min Menu" />
+          <Instrument name="Harp Full Range" />
+        </Section>
+        <Section name="Classical Keys" velocity="on">
+          <Instrument name="Bass Pedals" title="Organ" abbr="Org." lownote="c-1" highnote="c9" clef="bass" />
+          <Instrument name="Cathedral Organ 1" title="Organ" abbr="Org." lownote="c-1" highnote="c9" clef="treble" />
+          <Instrument name="Cathedral Organ 2" title="Organ" abbr="Org." lownote="c-1" highnote="c9" clef="treble" />
+          <Instrument name="Cathedral Organ Flutes" title="Organ" abbr="Org." lownote="c-1" highnote="c9" clef="treble" />
+          <Instrument name="Harpischord 1" title="Harpsichord" abbr="Hpd." lownote="c-1" highnote="c9" clef="treble" />
+          <Instrument name="Steinway Piano Hall" title="Piano" abbr="Pf." lownote="c-1" highnote="c9" clef="treble" />
+          <Instrument name="Steinway Piano Pedal" title="Piano" abbr="Pf." lownote="c-1" highnote="c9" clef="treble" />
+        </Section>
+      </SubMenu>
+    </Menu>
+    <Menu name="Percussion">
+      <SubMenu name="Percussion">
+        <Section name="Chromatic Percussion" velocity="on">
+          <Instrument name="Celeste" title="Celeste" abbr="Cel." lownote="c-1" highnote="c9" pitchOffset="12" transpose="-12" clef="treble" />
+          <Instrument name="Crotals" title="Crotals" abbr="Crtl." lownote="c-1" highnote="c9" clef="treble" />
+          <Instrument name="Glockenspiel" title="Glockenspiel" abbr="Glsp." lownote="c-1" highnote="c9" pitchOffset="24" transpose="-24" clef="treble" />
+          <Instrument name="Marimba" title="Marimba" abbr="Mba." clef="grandStaff" lownote="c-1" highnote="c9" clef="treble" />
+          <Instrument name="Tubular Bell" title="Tubular Bells" abbr="Bells." lownote="c-1" highnote="c9" clef="treble" />
+          <Instrument name="Vibraphone" title="Vibraphone" abbr="Vibes." lownote="c-1" highnote="c9" clef="treble" />
+        </Section>
+        <Section name="Full Percussion Maps" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9" clef="perc" velocity="on">
+          <Instrument name="GM Perc Map 1" />
+          <Instrument name="GM Perc Map 2" />
+          <Instrument name="GM Perc Map 3" />
+          <Instrument name="GM Perc Map 4" />
+          <Instrument name="Orchestral Perc Hall" />
+          <Instrument name="Orchestral Perc Studio" />
+        </Section>
+        <Section name="Percussion Menu Maps" velocity="on">
+          <Group name="Snare Drums" title="Snare Drum" abbr="Sd." lownote="c-1" highnote="c9" clef="bass">
+            <Instrument name="Snare Drum 4 Studio Menu" />
+            <Instrument name="Snare Drum Special Menu" />
+            <Instrument name="Snare Drum 1 Menu" />
+            <Instrument name="Snare Drum 2 Menu" />
+            <Instrument name="Snare Drum 3 Menu" />
+            <Instrument name="Snare Drum 3+ Menu" />
+            <Instrument name="Snare Drum 4 Menu" />
+            <Instrument name="Snare Drum Crisp 1 Menu" />
+            <Instrument name="Snare Drum Hall B Menu" />
+            <Instrument name="Snare Drum Hall Menu" />
+            <Instrument name="Snare Drum Rolls Menu" />
+          </Group>
+        </Section>
+      </SubMenu>
+    </Menu>
+    <Menu name="Strings">
+      <SubMenu name="Ensemble Strings">
+        <Section name="Ensemble Basses" title="Double Basses" abbr="Dbs." lownote="c-1" highnote="c9" pitchOffset="-12" clef="bass">
+          <Group name="Basses 1 LP" title="Double Basses" abbr="Dbs." lownote="c-1" highnote="c9" pitchOffset="-12" clef="bass">
+            <Instrument name="Basses 1 LP - Parent" />
+            <Instrument name="Basses LP LNG">
+              <UsesControllerSwitchList name="LNG" />
+            </Instrument>
+            <Instrument name="Basses LP STCH">
+              <UsesControllerSwitchList name="STCH" />
+            </Instrument>
+          </Group>
+          <Group name="Basses Tremolo LP" title="Double Basses" abbr="Dbs." lownote="c-1" highnote="c9" pitchOffset="-12" clef="bass">
+            <Instrument name="Basses Tremolo LP - Parent" />
+            <Instrument name="Basses Trem LP STCH">
+              <UsesControllerSwitchList name="STCH" />
+            </Instrument>
+          </Group>
+          <Group name="Basses Pizzicato" title="Double Basses" abbr="Dbs." lownote="c-1" highnote="c9" pitchOffset="-12" clef="bass" Articulation="pizz">
+            <Instrument name="Basses Pizzicato - Parent" />
+          </Group>
+          <Group name="Basses Staccato" title="Double Basses" abbr="Dbs." lownote="c-1" highnote="c9" pitchOffset="-12" clef="bass" Articulation="Staccato, Staccatissimo">
+            <UsesArticulationSwitchList name="Staccato" />
+            <Instrument name="Basses Staccato - Parent" />
+            <Instrument name="Basses Stacc STCH">
+              <UsesControllerSwitchList name="STCH" />
+            </Instrument>
+          </Group>
+        </Section>
+        <Section name="Ensemble Cellos" title="Cellos" abbr="Vcs." lownote="c-1" highnote="c9" clef="bass">
+          <Group name="Cellos 1 LP" title="Cellos" abbr="Vcs." lownote="c-1" highnote="c9" clef="bass">
+            <Instrument name="Cellos 1 LP - Parent" />
+            <Instrument name="Cellos 1 LP LNG">
+              <UsesControllerSwitchList name="LNG" />
+            </Instrument>
+            <Instrument name="Cellos 1 LP STCH">
+              <UsesControllerSwitchList name="STCH" />
+            </Instrument>
+          </Group>
+          <Group name="Cellos Tremolo LP" title="Cellos" abbr="Vcs." lownote="c-1" highnote="c9" clef="bass">
+            <Instrument name="Cellos Tremolo LP - Parent" />
+            <Instrument name="Cellos Trem LP STCH">
+              <UsesControllerSwitchList name="STCH" />
+            </Instrument>
+          </Group>
+          <Group name="Cellos Pizzicato" title="Cellos" abbr="Vcs." lownote="c-1" highnote="c9" clef="bass" Articulation="pizz">
+            <Instrument name="Cellos Pizzicato - Parent" />
+            <Instrument name="Cellos Pizzicato STCH">
+              <UsesControllerSwitchList name="STCH" />
+            </Instrument>
+          </Group>
+          <Group name="Cellos Staccato" title="Cellos" abbr="Vcs." lownote="c-1" highnote="c9" clef="bass" Articulation="Staccato, Staccatissimo">
+            <UsesArticulationSwitchList name="Staccato" />
+            <Instrument name="Cellos Staccato - Parent" />
+            <Instrument name="Cellos Stacc AMV">
+              <UsesControllerSwitchList name="AMV" />
+            </Instrument>
+            <Instrument name="Cellos Stacc RNG">
+              <UsesControllerSwitchList name="RNG" />
+            </Instrument>
+          </Group>
+        </Section>
+        <Section name="Ensemble Violas" title="Violas" abbr="Vas." lownote="c-1" highnote="c9" clef="alto">
+          <Group name="Violas 1 LP" title="Violas" abbr="Vas." lownote="c-1" highnote="c9" clef="alto">
+            <Instrument name="Violas 1 LP - Parent" />
+            <Instrument name="Violas 1 LP LNG">
+              <UsesControllerSwitchList name="LNG" />
+            </Instrument>
+            <Instrument name="Violas 1 LP STCH">
+              <UsesControllerSwitchList name="STCH" />
+            </Instrument>
+          </Group>
+          <Group name="Violas Tremolo LP" title="Violas" abbr="Vas." lownote="c-1" highnote="c9" clef="alto">
+            <Instrument name="Violas Tremolo LP - Parent" />
+            <Instrument name="Violas Trem LP STCH">
+              <UsesControllerSwitchList name="STCH" />
+            </Instrument>
+          </Group>
+          <Group name="Violas Pizzicato" title="Violas" abbr="Vas." lownote="c-1" highnote="c9" clef="alto" Articulation="pizz">
+            <Instrument name="Violas Pizzicato - Parent" />
+            <Instrument name="Violas Pizz AMV">
+              <UsesControllerSwitchList name="AMV" />
+            </Instrument>
+            <Instrument name="Violas Pizz STCH">
+              <UsesControllerSwitchList name="STCH" />
+            </Instrument>
+          </Group>
+          <Group name="Violas Staccato" title="Violas" abbr="Vas." lownote="c-1" highnote="c9" clef="alto" Articulation="Staccato, Staccatissimo">
+            <UsesArticulationSwitchList name="Staccato" />
+            <Instrument name="Violas Staccato - Parent" />
+            <Instrument name="Violas Stacc AMV">
+              <UsesControllerSwitchList name="AMV" />
+            </Instrument>
+            <Instrument name="Violas Stacc STCH">
+              <UsesControllerSwitchList name="STCH" />
+            </Instrument>
+          </Group>
+        </Section>
+        <Section name="Ensemble Violins" title="Chamber Violins" abbr="Vns.">
+          <Section name="Ensemble Violins - 11 Violins" title="Violin Section" abbr="Vns." lownote="c-1" highnote="c9" clef="treble">
+            <Group name="11 Violins 1 LP" title="Second Violins" abbr="Vns. 2" lownote="c-1" highnote="c9" clef="treble">
+              <Instrument name="11 Violins 1 LP - Parent" />
+            </Group>
+            <Group name="11 Violins Soft LP" title="Second Violins" abbr="Vns. 2" lownote="c-1" highnote="c9" clef="treble">
+              <Instrument name="11 Violins Soft LP - Parent" />
+              <Instrument name="11 Vlns Soft LP LNG">
+                <UsesControllerSwitchList name="LNG" />
+              </Instrument>
+            </Group>
+            <Group name="11 Violins Trem LP" title="Second Violins" abbr="Vns. 2" lownote="c-1" highnote="c9" clef="treble">
+              <Instrument name="11 Violins Trem LP - Parent" />
+              <Instrument name="11 Vlns Trem LP STCH">
+                <UsesControllerSwitchList name="STCH" />
+              </Instrument>
+            </Group>
+            <Group name="11 Violins Mute" title="Second Violins" abbr="Vns. 2" lownote="c-1" highnote="c9" clef="treble">
+              <Instrument name="11 Violins Mute - Parent" />
+            </Group>
+            <Group name="11 Violins Pizzicato 1" title="Second Violins" abbr="Vns. 2" lownote="c-1" highnote="c9" clef="treble" Articulation="pizz">
+              <Instrument name="11 Violins Pizzicato 2 - Parent" />
+              <Instrument name="11 Vlns Pizz 1 STCH">
+                <UsesControllerSwitchList name="STCH" />
+              </Instrument>
+            </Group>
+            <Group name="11 Violins Staccato" title="Second Violins" abbr="Vns. 2" lownote="c-1" highnote="c9" clef="treble" Articulation="Staccato, Staccatissimo">
+              <UsesArticulationSwitchList name="Staccato" />
+              <Instrument name="11 Violins Staccato - Parent" />
+              <Instrument name="11 Vlns Stacc STCH">
+                <UsesControllerSwitchList name="STCH" />
+              </Instrument>
+            </Group>
+          </Section>
+          <Section name="Ensemble Violins - 23 Violins" title="Violin Section" abbr="Vns.">
+            <Group name="23 Violins 1 LP" title="First Violins" abbr="Vns. 1" lownote="c-1" highnote="c9" clef="treble">
+              <Instrument name="23 Violins 1 LP - Parent" />
+            </Group>
+            <Group name="23 Violins Tremolo 1 LP" title="First Violins" abbr="Vns. 1" lownote="c-1" highnote="c9" clef="treble">
+              <Instrument name="23 Violins Tremolo 1 LP - Parent" />
+            </Group>
+            <Group name="23 Violins Pizzicato 1" title="First Violins" abbr="Vns. 1" lownote="c-1" highnote="c9" clef="treble" Articulation="pizz">
+              <Instrument name="23 Violins Pizzicato 1 - Parent" />
+            </Group>
+            <Group name="23 Violins Staccato 1" title="First Violins" abbr="Vns. 1" lownote="c-1" highnote="c9" clef="treble" Articulation="Staccato, Staccatissimo">
+              <UsesArticulationSwitchList name="Staccato" />
+              <Instrument name="23 Violins Staccato 1 - Parent" />
+            </Group>
+          </Section>
+        </Section>
+      </SubMenu>
+      <SubMenu name="Solo Strings">
+        <Section name="Solo Bass" title="Double Bass" abbr="Db." lownote="c-1" highnote="c9" pitchOffset="-12" clef="bass">
+          <Group name="Bass 1 LP" title="Double Bass" abbr="Db." lownote="c-1" highnote="c9" pitchOffset="-12" clef="bass">
+            <Instrument name="Bass 1 LP - Parent" />
+            <Instrument name="Bass 1 LP LNG">
+              <UsesControllerSwitchList name="LNG" />
+            </Instrument>
+          </Group>
+          <Group name="Bass Trem LP" title="Double Bass" abbr="Db." lownote="c-1" highnote="c9" pitchOffset="-12" clef="bass">
+            <Instrument name="Bass Trem LP - Parent" />
+            <Instrument name="Bass Tremolo LP STCH">
+              <UsesControllerSwitchList name="STCH" />
+            </Instrument>
+          </Group>
+          <Group name="Bass Pizzicato Short" title="Double Bass" abbr="Db." lownote="c-1" highnote="c9" pitchOffset="-12" clef="bass" Articulation="pizz">
+            <Instrument name="Bass Pizzicato Short - Parent" />
+            <Instrument name="Bass Pizz Shrt STCH">
+              <UsesControllerSwitchList name="STCH" />
+            </Instrument>
+          </Group>
+          <Group name="Bass Staccato" title="Double Bass" abbr="Db." lownote="c-1" highnote="c9" pitchOffset="-12" clef="bass" Articulation="Staccato, Staccatissimo">
+            <UsesArticulationSwitchList name="Staccato" />
+            <Instrument name="Bass Staccato - Parent" />
+            <Instrument name="Bass Staccato AMV">
+              <UsesControllerSwitchList name="AMV" />
+            </Instrument>
+          </Group>
+        </Section>
+        <Section name="Solo Cello" title="Cello" abbr="Vc." lownote="c-1" highnote="c9" clef="bass">
+          <Group name="Cello 2 LP" title="Cello" abbr="Vc." lownote="c-1" highnote="c9" clef="bass">
+            <Instrument name="Cello 2 LP - Parent" />
+            <Instrument name="Cello 2 LP LNG">
+              <UsesControllerSwitchList name="LNG" />
+            </Instrument>
+            <Instrument name="Cello 2 LP STCH">
+              <UsesControllerSwitchList name="STCH" />
+            </Instrument>
+          </Group>
+          <Group name="Cello Tremolo 1 LP" title="Cello" abbr="Vc." lownote="c-1" highnote="c9" clef="bass">
+            <Instrument name="Cello Tremolo 1 LP - Parent" />
+            <Instrument name="Cello Tremolo 1 LP STCH">
+              <UsesControllerSwitchList name="STCH" />
+            </Instrument>
+          </Group>
+          <Group name="Cello Pizzicato" title="Cello" abbr="Vc." lownote="c-1" highnote="c9" clef="bass" Articulation="pizz">
+            <Instrument name="Cello Pizzicato - Parent" />
+            <Instrument name="Cello Pizzicato STCH">
+              <UsesControllerSwitchList name="STCH" />
+            </Instrument>
+          </Group>
+          <Group name="Cello Staccato" title="Cello" abbr="Vc." lownote="c-1" highnote="c9" clef="bass" Articulation="Staccato, Staccatissimo">
+            <UsesArticulationSwitchList name="Staccato" />
+            <Instrument name="Cello Staccato - Parent" />
+            <Instrument name="Cello Staccato AMV">
+              <UsesControllerSwitchList name="AMV" />
+            </Instrument>
+            <Instrument name="Cello Staccato STCH">
+              <UsesControllerSwitchList name="STCH" />
+            </Instrument>
+          </Group>
+        </Section>
+        <Section name="Solo Viola" title="Viola" abbr="Va." lownote="c-1" highnote="c9" clef="alto">
+          <Group name="Viola 2 LP" title="Viola" abbr="Va." lownote="c-1" highnote="c9" clef="alto">
+            <Instrument name="Viola 2 LP - Parent" />
+            <Instrument name="Viola 2 LP LNG">
+              <UsesControllerSwitchList name="LNG" />
+            </Instrument>
+            <Instrument name="Viola 2 LP STCH">
+              <UsesControllerSwitchList name="STCH" />
+            </Instrument>
+          </Group>
+          <Group name="Viola Trem M LP" title="Viola" abbr="Va." lownote="c-1" highnote="c9" clef="alto">
+            <Instrument name="Viola Trem M LP - Parent" />
+            <Instrument name="Viola Trem M LP STCH">
+              <UsesControllerSwitchList name="STCH" />
+            </Instrument>
+          </Group>
+          <Group name="Viola Pizzicato" title="Viola" abbr="Va." lownote="c-1" highnote="c9" clef="alto" Articulation="pizz">
+            <Instrument name="Viola Pizzicato - Parent" />
+            <Instrument name="Viola Pizzicato STCH">
+              <UsesControllerSwitchList name="STCH" />
+            </Instrument>
+          </Group>
+          <Group name="Viola Staccato" title="Viola" abbr="Va." lownote="c-1" highnote="c9" clef="alto" Articulation="Staccato, Staccatissimo">
+            <UsesArticulationSwitchList name="Staccato" />
+            <Instrument name="Viola Staccato - Parent" />
+            <Instrument name="Viola Staccato AMV">
+              <UsesControllerSwitchList name="AMV" />
+            </Instrument>
+            <Instrument name="Viola Staccato STCH">
+              <UsesControllerSwitchList name="STCH" />
+            </Instrument>
+          </Group>
+        </Section>
+        <Section name="Solo Violin" title="Violin" abbr="Vn." lownote="c-1" highnote="c9">
+          <Group name="Violin 1 LP" title="Violin" abbr="Vn." lownote="c-1" highnote="c9">
+            <Instrument name="Violin 1 LP - Parent" />
+            <Instrument name="Violin 1 LP LNG">
+              <UsesControllerSwitchList name="LNG" />
+            </Instrument>
+          </Group>
+          <Group name="Violin Tremolo LP" title="Violin" abbr="Vn." lownote="c-1" highnote="c9">
+            <Instrument name="Violin Tremolo LP - Parent" />
+            <Instrument name="Violin Tremolo LP STCH">
+              <UsesControllerSwitchList name="STCH" />
+            </Instrument>
+          </Group>
+          <Group name="Violin Pizzicato" title="Violin" abbr="Vn." lownote="c-1" highnote="c9" Articulation="pizz">
+            <Instrument name="Violin Pizzicato - Parent" />
+          </Group>
+          <Group name="Violin Staccato 1" title="Violin" abbr="Vn." lownote="c-1" highnote="c9" Articulation="Staccato, Staccatissimo">
+            <UsesArticulationSwitchList name="Staccato" />
+            <Instrument name="Violin Staccato 1 - Parent" />
+            <Instrument name="Violin Staccato 1 AMV">
+              <UsesControllerSwitchList name="AMV" />
+            </Instrument>
+            <Instrument name="Violin Staccato 1 STCH">
+              <UsesControllerSwitchList name="STCH" />
+            </Instrument>
+          </Group>
+          <Group name="Violin Trill - Special" title="Violin" abbr="Vn." lownote="c-1" highnote="c9">
+            <Instrument name="Violin Trill - Parent" />
+          </Group>
+        </Section>
+      </SubMenu>
+    </Menu>
+    <Menu name="Woodwinds">
+      <SubMenu name="Ensemble Woodwinds">
+        <Section name="Ensemble Bassoons" title="Bassoons" abbr="Bsns." lownote="c-1" highnote="c9" clef="bass">
+          <Group name="Bassoons 1 LP" title="Bassoons" abbr="Bsns." lownote="c-1" highnote="c9" clef="bass">
+            <Instrument name="Bassoons 1 LP - Parent" />
+            <Instrument name="Bassoons 1 LP BC1">
+              <UsesControllerSwitchList name="BC1" />
+            </Instrument>
+            <Instrument name="Bassoons 1 LP BC2">
+              <UsesControllerSwitchList name="BC2" />
+            </Instrument>
+            <Instrument name="Bassoons 1 LP CRS2">
+              <UsesControllerSwitchList name="CRS2" />
+            </Instrument>
+            <Instrument name="Bassoons 1 LP RNG">
+              <UsesControllerSwitchList name="RNG" />
+            </Instrument>
+            <Instrument name="Bassoons 1 LP SLW">
+              <UsesControllerSwitchList name="SLW" />
+            </Instrument>
+          </Group>
+          <Group name="Bassoons Staccato" title="Bassoons" abbr="Bsns." lownote="c-1" highnote="c9" clef="bass" Articulation="Staccato, Staccatissimo">
+            <UsesArticulationSwitchList name="Staccato" />
+            <Instrument name="Bassoons Staccato - Parent" />
+            <Instrument name="Bassoons Stacc AMV">
+              <UsesControllerSwitchList name="AMV" />
+            </Instrument>
+            <Instrument name="Bassoons Stacc STCH">
+              <UsesControllerSwitchList name="STCH" />
+            </Instrument>
+          </Group>
+        </Section>
+        <Section name="Ensemble Clarinets" title="Clarinets" abbr="Cls." lownote="c-1" highnote="c9" transpose="2">
+          <Group name="Clarinets 1 LP" title="Clarinets" abbr="Cls." lownote="c-1" highnote="c9" transpose="2">
+            <Instrument name="Clarinets 1 LP - Parent" />
+          </Group>
+          <Group name="Clarinets Staccato" title="Clarinets" abbr="Cls." lownote="c-1" highnote="c9" transpose="2" Articulation="Staccato, Staccatissimo">
+            <UsesArticulationSwitchList name="Staccato" />
+            <Instrument name="Clarinets Staccato - Parent" />
+            <Instrument name="Clarinets Stacc AMV">
+              <UsesControllerSwitchList name="AMV" />
+            </Instrument>
+          </Group>
+        </Section>
+        <Section name="Ensemble Flutes" title="Flutes" abbr="Fls." lownote="c-1" highnote="c9">
+          <Group name="Flutes 1 LP" title="Flutes" abbr="Fls." lownote="c-1" highnote="c9">
+            <Instrument name="Flutes 1 LP - Parent" />
+          </Group>
+          <Group name="Flutes Staccato" title="Flutes" abbr="Fls." lownote="c-1" highnote="c9" Articulation="Staccato, Staccatissimo">
+            <UsesArticulationSwitchList name="Staccato" />
+            <Instrument name="Flutes Staccato - Parent" />
+            <Instrument name="Flutes Stacc AMV">
+              <UsesControllerSwitchList name="AMV" />
+            </Instrument>
+            <Instrument name="Flutes Stacc RNG">
+              <UsesControllerSwitchList name="RNG" />
+            </Instrument>
+          </Group>
+        </Section>
+        <Section name="Ensemble Oboes" title="Oboes" abbr="Obs." lownote="c-1" highnote="c9">
+          <Group name="Oboes 1 LP" title="Oboes" abbr="Obs." lownote="c-1" highnote="c9">
+            <Instrument name="Oboes 1 LP - Parent" />
+          </Group>
+          <Group name="Oboes Staccato" title="Oboes" abbr="Obs." lownote="c-1" highnote="c9" Articulation="Staccato, Staccatissimo">
+            <UsesArticulationSwitchList name="Staccato" />
+            <Instrument name="Oboes Staccato - Parent" />
+            <Instrument name="Oboes Stacc AMV">
+              <UsesControllerSwitchList name="AMV" />
+            </Instrument>
+            <Instrument name="Oboes Stacc STCH">
+              <UsesControllerSwitchList name="STCH" />
+            </Instrument>
+          </Group>
+        </Section>
+      </SubMenu>
+      <SubMenu name="Solo Woodwinds">
+        <Section name="Solo Bassoons" title="Bassoon" abbr="Bsn." lownote="c-1" highnote="c9" clef="bass">
+          <Group name="Bassoon 1 LP" title="Bassoon" abbr="Bsn.">
+            <Instrument name="Bassoon 1 LP - Parent" />
+          </Group>
+          <Group name="Bassoon Short">
+            <Instrument name="Bassoon Short - Parent" />
+            <Instrument name="Bassoon Short AMV">
+              <UsesControllerSwitchList name="AMV" />
+            </Instrument>
+            <Instrument name="Bassoon Short STCH">
+              <UsesControllerSwitchList name="STCH" />
+            </Instrument>
+          </Group>
+        </Section>
+        <Section name="Solo Clarinets" title="Clarinet">
+          <Section name="Solo Bass Clarinet" title="Bass Clarinet" abbr="BCl." lownote="c-1" highnote="c9" transpose="2" pitchOffset="-12">
+            <Group name="Bass Clarinet 1 LP" title="Bass Clarinet" abbr="BCl." lownote="c-1" highnote="c9" transpose="2" pitchOffset="-12">
+              <Instrument name="Bass Clarinet 1 LP - Parent" />
+            </Group>
+            <Group name="Bass Clarinet Staccato Short" title="Bass Clarinet" abbr="BCl." lownote="c-1" highnote="c9" transpose="2" pitchOffset="-12" Articulation="Staccatissimo">
+              <UsesArticulationSwitchList name="Staccato Short" />
+              <Instrument name="Bass Clarinet Staccato Short - Parent" />
+              <Instrument name="Bass Clar Stacc Short AMV">
+                <UsesControllerSwitchList name="AMV" />
+              </Instrument>
+            </Group>
+          </Section>
+          <Section name="Solo Clarinet" title="Clarinet" abbr="Cl." lownote="c-1" highnote="c9" transpose="2">
+            <Group name="Clarinet 1 LP" title="Clarinet" abbr="Cl." lownote="c-1" highnote="c9" transpose="2">
+              <Instrument name="Clarinet 1 LP - Parent" />
+            </Group>
+            <Group name="Clarinet Staccato 1" title="Clarinet" abbr="Cl." lownote="c-1" highnote="c9" transpose="2" Articulation="Staccato, Staccatissimo">
+              <UsesArticulationSwitchList name="Staccato" />
+              <Instrument name="Clarinet Staccato 1 - Parent" />
+            </Group>
+          </Section>
+        </Section>
+        <Section name="Solo English Horn" title="English Horn" abbr="E Hn." lownote="c-1" highnote="c9" transpose="7">
+          <Group name="English Horn 1 LP" title="English Horn" abbr="E Hn." lownote="c-1" highnote="c9" transpose="7">
+            <Instrument name="English Horn 1 LP - Parent" />
+            <Instrument name="Eng Horn 1 LP STCH">
+              <UsesControllerSwitchList name="STCH" />
+            </Instrument>
+          </Group>
+          <Group name="English Horn Staccato 2" title="English Horn" abbr="E Hn." lownote="c-1" highnote="c9" transpose="7" Articulation="Staccato, Staccatissimo">
+            <UsesArticulationSwitchList name="Staccato" />
+            <Instrument name="English Horn Staccato 2 - Parent" />
+            <Instrument name="Eng Horn Stacc 2 AMV">
+              <UsesControllerSwitchList name="AMV" />
+            </Instrument>
+            <Instrument name="Eng Horn Stacc 2 STCH">
+              <UsesControllerSwitchList name="STCH" />
+            </Instrument>
+          </Group>
+        </Section>
+        <Section name="Solo Flutes">
+          <Group name="Solo Alto Flute" title="Alto Flute" abbr="AFl." lownote="c-1" highnote="c9" transpose="5">
+            <Group name="Alto Flute 1 LP" title="Alto Flute" abbr="AFl." lownote="c-1" highnote="c9" transpose="5">
+              <Instrument name="Alto Flute 1 LP - Parent" />
+            </Group>
+            <Group name="Alto Flute Staccato" title="Alto Flute" abbr="AFl." lownote="c-1" highnote="c9" transpose="5" Articulation="Staccato, Staccatissimo">
+              <UsesArticulationSwitchList name="Staccato" />
+              <Instrument name="Alto Flute Staccato - Parent" />
+              <Instrument name="A Flute Stacc AMV">
+                <UsesControllerSwitchList name="AMV" />
+              </Instrument>
+            </Group>
+          </Group>
+          <Section name="Solo Bass Flute" title="Bass Flute" abbr="BFl." lownote="c-1" highnote="c9" pitchOffset="-12">
+            <Group name="Bass Flute 1 LP" title="Bass Flute" abbr="BFl." lownote="c-1" highnote="c9" pitchOffset="-12">
+              <Instrument name="Bass Flute 1 LP - Parent" />
+              <Instrument name="Bs Flute 1 LP STCH">
+                <UsesControllerSwitchList name="STCH" />
+              </Instrument>
+            </Group>
+            <Group name="Bass Flute Staccato" title="Bass Flute" abbr="BFl." lownote="c-1" highnote="c9" pitchOffset="-12" Articulation="Staccato, Staccatissimo">
+              <UsesArticulationSwitchList name="Staccato" />
+              <Instrument name="Bass Flute Staccato - Parent" />
+            </Group>
+          </Section>
+          <Section name="Solo Flute" title="Flute" abbr="Fl." lownote="c-1" highnote="c9">
+            <Group name="Flute 1 LP" title="Flute" abbr="Fl." lownote="c-1" highnote="c9">
+              <Instrument name="Flute 1 LP - Parent" />
+            </Group>
+            <Group name="Flute Flutter LP" title="Flute" abbr="Fl." lownote="c-1" highnote="c9">
+              <Instrument name="Flute Flutter LP - Parent" />
+              <Instrument name="Flute Flutter LP BC1">
+                <UsesControllerSwitchList name="BC1" />
+              </Instrument>
+              <Instrument name="Flute Flutter LP BC2">
+                <UsesControllerSwitchList name="BC2" />
+              </Instrument>
+              <Instrument name="Flute Flutter LP DRK">
+                <UsesControllerSwitchList name="DRK" />
+              </Instrument>
+              <Instrument name="Flute Flutter LP EXPD">
+                <UsesControllerSwitchList name="EXPD" />
+              </Instrument>
+            </Group>
+            <Group name="Flute Non-Vibrato" title="Flute" abbr="Fl." lownote="c-1" highnote="c9">
+              <Instrument name="Flute Non-Vibrato - Parent" />
+              <Instrument name="Flute No Vib AMV">
+                <UsesControllerSwitchList name="AMV" />
+              </Instrument>
+            </Group>
+            <Group name="Flute Staccato" title="Flute" abbr="Fl." lownote="c-1" highnote="c9" Articulation="Staccato, Staccatissimo">
+              <UsesArticulationSwitchList name="Staccato" />
+              <Instrument name="Flute Staccato - Parent" />
+              <Instrument name="Flute Stacc AMV">
+                <UsesControllerSwitchList name="AMV" />
+              </Instrument>
+            </Group>
+          </Section>
+        </Section>
+        <Section name="Solo Oboe" title="Oboe" abbr="Ob." lownote="c-1" highnote="c9">
+          <Group name="Oboe 1 LP" title="Oboe" abbr="Ob." lownote="c-1" highnote="c9">
+            <Instrument name="Oboe 1 LP - Parent" />
+          </Group>
+          <Group name="Oboe Staccato 1" title="Oboe" abbr="Ob." lownote="c-1" highnote="c9" Articulation="Staccato, Staccatissimo">
+            <UsesArticulationSwitchList name="Staccato" />
+            <Instrument name="Oboe Staccato 1 - Parent" />
+            <Instrument name="Oboe Stacc 1 AMV">
+              <UsesControllerSwitchList name="AMV" />
+            </Instrument>
+          </Group>
+        </Section>
+        <Section name="Solo Piccolo" title="Piccolo" abbr="Picc." lownote="c-1" highnote="c9" transpose="-12" pitchOffset="12">
+          <Group name="Piccolo 1 LP" title="Piccolo" abbr="Picc." lownote="c-1" highnote="c9" transpose="-12" pitchOffset="12">
+            <Instrument name="Piccolo 1 LP - Parent" />
+          </Group>
+          <Group name="Piccolo Non-Vibrato" title="Piccolo" abbr="Picc." lownote="c-1" highnote="c9" transpose="-12" pitchOffset="12">
+            <Instrument name="Piccolo No-Vibrato - Parent" />
+            <Instrument name="Piccolo NoVib AMV">
+              <UsesControllerSwitchList name="AMV" />
+            </Instrument>
+          </Group>
+          <Group name="Piccolo Staccato" title="Piccolo" abbr="Picc." lownote="c-1" highnote="c9" transpose="-12" pitchOffset="12" Articulation="Staccato, Staccatissimo">
+            <UsesArticulationSwitchList name="Staccato" />
+            <Instrument name="Piccolo Staccato - Parent" />
+            <Instrument name="Piccolo Stacc AMV">
+              <UsesControllerSwitchList name="AMV" />
+            </Instrument>
+          </Group>
+        </Section>
+      </SubMenu>
+    </Menu>
+  </Instruments>
+</VSTNameDocument>

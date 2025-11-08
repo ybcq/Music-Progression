@@ -1,0 +1,2174 @@
+GUITAR PRO 5.1 TRANSLATION FILE
+
+### PATCH CONFIGURATION ###
+AUTHOR NAMES = "Seokwoo Hong"
+AUTHOR E-MAIL = "seokwoo.hong@gmail.com"
+VERSION = "5.1"
+AUTOMATIC SHORTCUTS
+ENCODING = "WindowsKorean"
+###########################
+
+You can use this file to create your own translation file for Guitar Pro.
+To do it, translate ONLY the words between the symbols " ". DON'T CHANGE
+ANYTHING ELSE. Note that the symbols %s, %t... are used to indicate a dynamic value,
+which will be attribuated at running, so do not change it.
+
+The words between the symbols { } are some indications to help you to
+understand the context, don't change it.
+
+After having changing the translations, save the file under your language
+name with the extension .gpl (ie "English.gpl"). Place it in the
+Guitar Pro directory, restart Guitar Pro and you'll have the new language
+proposed in the menu OPTIONS | LANGUAGE.
+
+Don't hesitate to send us your translation files, we'll add them on the site
+for other users.
+
+***********
+* DIALOGS *
+***********
+
+DLG_000
+DLG_001 = "확인(&O)"
+DLG_002 = "취소(&C)"
+DLG_003 = "예(&Y)"
+DLG_004 = "아니오(&N)"
+DLG_005 = "도움말(&H)"
+DLG_006 = "지우기(&L)"
+DLG_007 = "닫기(&C)"
+DLG_008 = "정보"
+DLG_009 = "확정"
+DLG_010 = "주의!!"
+DLG_011 = "주의!!"
+DLG_012 = "오류"
+DLG_013 = "잘못된 키보드 입력."
+
+***********
+* GENERAL *
+***********
+
+GENE_000
+GENE_001 = "버젼"
+GENE_002 = "All rights reserved"
+GENE_003 = "잘못된 라이센스"
+GENE_004 = "기타 프로(GUITAR PRO) - 평가용 버젼"
+GENE_005 = "24 마디에 한정된 기타 프로(GUITAR PRO) 평가용 버젼"
+GENE_006 = "만약 기타프로가 맘에 드신다면 등록해 주십시요."
+GENE_007 = "트랙"
+GENE_008 = "타악기"
+GENE_009 = "마디 작성 완료"
+GENE_010 = "마디 작성 미완료"
+GENE_011 = "마디 한계 초과"
+GENE_012 = "등록되지 않은 사용자"
+
+*****************
+* MENUS & HINTS *
+*****************
+
+MN_000
+MN_001 = "파일(&F)"
+MN_002 = "새로 열기(&N)"
+MN_003 = "열기(&O)"
+MN_004 = "브라우져(&B)"
+MN_005 = "저장하기(&S)"
+MN_006 = "새 이름으로 저장하기(&A)"
+MN_007 = "악보 파일 설정(&P)"
+MN_008 = "프로그램 설정(&R)"
+MN_009 = "다른 형식의 파일 불러들이기(&I)"
+MN_010 = "다른 형식으로 저장하기(&E)"
+MN_011 = "MIDI"
+MN_012 = "아스키 탭(ASCII TAB)"
+MN_013 = "인쇄(&T)"
+MN_014 = "인쇄 미리 보기(&V)"
+MN_015 = "프린터 설정(&U)"
+MN_016 = "나가기(&X)"
+MN_017 = "편집하기(&E)"
+MN_018 = "자르기(&C)"
+MN_019 = "복사하기(&O)"
+MN_020 = "붙이기(&P)"
+MN_021 = "삽입하기(&I)"
+MN_022 = "지우기(&L)"
+MN_023 = "믹스 테이블 변경(&M)"
+MN_024 = "트랙(&T)"
+MN_025 = "마디(&B)"
+MN_026 = "처음(&F)"
+MN_027 = "첫 마디"
+MN_028 = "앞으로(&P)"
+MN_029 = "앞 마디"
+MN_030 = "찾아가기(&G)"
+MN_031 = "마디 찾아가기"
+MN_032 = "다음(&N)"
+MN_033 = "다음 마디"
+MN_034 = "마지막(&L)"
+MN_035 = "마지막 마디"
+MN_036 = "박자 설정(&T)"
+MN_037 = "마디의 박자 설정"
+MN_038 = "도돌이표 시작(&R)"
+MN_039 = "도돌이표 끝(&E)"
+MN_040 = "대리 종결(&A)"
+MN_041 = "음표(&N)"
+MN_042 = "온 음표(&W)"
+MN_043 = "2분 음표(&H)"
+MN_044 = "4분 음표(&Q)"
+MN_045 = "8분 음표(&E)"
+MN_046 = "16분 음표(&S)"
+MN_047 = "32분 음표(&T)"
+MN_048 = "64분 음표(&I)"
+MN_049 = "부점(附點)(&D)"
+MN_050 = "코드(&C)"
+MN_051 = "주석(&A)"
+MN_052 = "뮤트 음(&N)"
+MN_053 = "쉼표(&R)"
+MN_054 = "셋잇단 음표(&P)"
+MN_055 = "이음표(&L)"
+MN_056 = "음표 삽입(&B)"
+MN_057 = "음표 삭제"
+MN_058 = "음표/셋잇단 음표 뒤에 붙이기(&O)"
+MN_059 = "올리기(&F)"
+MN_060 = "음표를 윗 현으로 올리기"
+MN_061 = "내리기"
+MN_062 = "음표를 아래 현으로 내리기"
+MN_063 = "효과음(&C)"
+MN_064 = "해머링(&H)"
+MN_065 = "풀링(&P)"
+MN_066 = "위로 슬라이딩(&S)"
+MN_067 = "아래로 슬라이딩(&L)"
+MN_068 = "쵸킹/벤딩(&B)"
+MN_069 = "쵸킹/벤딩하고 풀기(&R)"
+MN_070 = "울리게 하기(&E)"
+MN_071 = "꾸밈음(&G)"
+MN_072 = "유령음(&O)"
+MN_073 = "왼 손으로 비브라토(&V)"
+MN_074 = "트레몰로 바(&R)"
+MN_075 = "강한 비브라토(&T)"
+MN_076 = "자연 하모닉스(&N)"
+MN_077 = "피킹 하모닉스(&A)"
+MN_078 = "페이드 인(&F)"
+MN_079 = "오른손 태핑(&I)"
+MN_080 = "슬랩 (베이스)"
+MN_081 = "팝 (베이스)"
+MN_082 = "브러쉬 업(&U)"
+MN_083 = "브러시 다운(&D)"
+MN_084 = "다이내믹(&Y)"
+MN_085 = "도우미(&A)"
+MN_086 = "이조(移調)하기(&T)"
+MN_087 = "마디 배열(&B)"
+MN_088 = "남은 마디 줄이기/완성하기(&C)"
+MN_089 = "운지 번호 자동으로 매기기(&A)"
+MN_090 = "울리는 음 선택하기(&L)"
+MN_091 = "마디 지속시간 점검(&H)"
+MN_092 = "표준 기보법(&S)"
+MN_093 = "타악기(&P)"
+MN_094 = "스피드 훈련하기(&E)"
+MN_095 = "소리(&S)"
+MN_096 = "처음부터 연주하기(&E)"
+MN_097 = "처음부터 연주하기 (스페이스 바)"
+MN_098 = "진행 중인 마디부터 연주하기(&L)"
+MN_099 = "진행 중인 마디부터 연주하기(Ctrl+스페이스 바)"
+MN_100 = "진행 중인 마디만 연주하기(&A)"
+MN_101 = "진행 중인 마디만 연주하기(Maj+Ctrl+스페이스 바)"
+MN_102 = "멈추기(&S)"
+MN_103 = "멈추기 (스페이스 바)"
+MN_104 = "반복 연주하기(&Y)"
+MN_105 = "메트로놈(&M)"
+MN_106 = "입력하면서 연주하기(&W)"
+MN_107 = "보기(&V)"
+MN_108 = "편집 창 숨기기(&H)"
+MN_109 = "울리는 음표 보여주기(&S)"
+MN_110 = "다이내믹 음표 보여주기(&O)"
+MN_111 = "언어(&L)"
+MN_112 = "도움말 언어"
+MN_113 = "도움말(&H)"
+MN_114 = "인덱스(&I)"
+MN_115 = "기타 프로(Guitar Pro) 주문하기!(&O)"
+MN_116 = "귀하의 카피를 등록하기!(&R)"
+MN_117 = "기타 프로 정보(&A)"
+
+*********************
+* PROPERTIES WINDOW *
+*********************
+
+DLG_PROP_000
+DLG_PROP_001 = "악보 내의 항목 설정하기"
+DLG_PROP_002 = "제목(&T)"
+DLG_PROP_003 = "작곡자(&A)"
+DLG_PROP_004 = "커멘트(&M)"
+DLG_PROP_005 = "템포(&E)"
+DLG_PROP_006 = "셔플 리듬:"
+DLG_PROP_007 = "트랙의 이름"
+DLG_PROP_008 = "악기(&I)"
+DLG_PROP_009 = "악기 리스트"
+DLG_PROP_010 = "튜닝방식"
+DLG_PROP_011 = "현 수"
+DLG_PROP_012 = "튜닝(&U)"
+DLG_PROP_013 = "플렛"
+DLG_PROP_014 = "독주"
+DLG_PROP_015 = "트랙 연주 안하기"
+DLG_PROP_016 = "다른 형식으로 저장 못함"
+DLG_PROP_017 = "12 현 시뮬레이션"
+DLG_PROP_018 = "볼륨"
+DLG_PROP_019 = "밸런스"
+DLG_PROP_020 = "코러스"
+DLG_PROP_021 = "리버브"
+DLG_PROP_022 = "퍼커션 트랙 확보되어 있음"
+DLG_PROP_023 = "27부터 87까지의 음표을"
+DLG_PROP_024 = "탭 악보 선상에 사용하시오."
+DLG_PROP_025 = "마디의 하나 이상의 음표 %s 가 %s 현 위에 위치할 수 없습니다."
+
+***************************
+* MIDI IMPORTATION WINDOW *
+***************************
+
+DLG_IMPM_000
+DLG_IMPM_001 = "MIDI 형식으로 불러오기"
+DLG_IMPM_002 = "불러들일 트랙을 고르시오(&E):"
+DLG_IMPM_003 = "트랙 선택 해제하기(&D)"
+DLG_IMPM_004 = "낮은 옥타브로 이조(移調)하기(&R)"
+DLG_IMPM_005 = "퀀티제이션:"
+DLG_IMPM_006 = "주의: 불러들인 타악기 트랙은" { end at 007 }
+DLG_IMPM_007 = "트랙 8/채널 10에만 쓰여질 수 있습니다."
+DLG_IMPM_008 = "기타 프로 평가용 버젼은 50개의 음표만 불러들일 수 있습니다."
+DLG_IMPM_009 = "만일 기타 프로가 맘에 드신다면 등록하십시오."
+DLG_IMPM_010 = "트랙 탐색..."
+DLG_IMPM_011 = "지시되지 않았음"
+DLG_IMPM_012 = "트랙 불러들임..."
+DLG_IMPM_013 = "악보 제작중..."
+DLG_IMPM_014 = "운지 위치 최적화 중..."
+DLG_IMPM_015 = "MIDI 포맷이 인식될 수 없습니다."
+
+***************************
+* MIDI EXPORTATION WINDOW *
+***************************
+
+DLG_EXPM_000
+DLG_EXPM_001 = "MIDI 형식으로 저장"
+DLG_EXPM_002 = "파일을 기록할 수 없습니다. 저장 취소하였습니다."
+
+****************************
+* ASCII IMPORTATION WINDOW *
+****************************
+
+DLG_IMPA_000
+DLG_IMPA_001 = "아스키 탭(ASCII Tab)으로 불러오기"
+DLG_IMPA_002 = "파일 접근 불가. 불러들임 취소."
+DLG_IMPA_003 = "불러들이기(&I)"
+DLG_IMPA_004 = "열기"
+DLG_IMPA_005 = "인쇄"
+DLG_IMPA_006 = "다음과 함께 불러들임(&M) :"
+DLG_IMPA_007 = "주목: 불러들이기 작업이 액티브 트랙상에서 이루어졌습니다."
+DLG_IMPA_008 = "기타 프로 평가용 버젼은 50개의 음표만 불러들일 수 있습니다."
+DLG_IMPA_009 = "만일 기타 프로가 맘에 드신다면 등록하십시오."
+DLG_IMPA_010 = "<변수>"
+DLG_IMPA_011 = "2분 음표"
+DLG_IMPA_012 = "4분 음표"
+DLG_IMPA_013 = "8분 음표"
+DLG_IMPA_014 = "16분 음표"
+
+****************************
+* ASCII EXPORTATION WINDOW *
+****************************
+
+DLG_EXPA_000
+DLG_EXPA_001 = "아스키 탭(ASCII Tab)으로 저장"
+DLG_EXPA_002 = "저장(&E)"
+DLG_EXPA_003 = "인쇄"
+DLG_EXPA_004 = "세로 열(&C):"
+DLG_EXPA_005 = "악보 재작성"
+DLG_EXPA_006 = "리듬"
+DLG_EXPA_007 = "파일에 기록할 수 없습니다. 저장 취소되었습니다."
+
+**********************
+* PREFERENCES WINDOW *
+**********************
+
+DLG_PREF_000
+DLG_PREF_001 = "프로그램 설정"
+DLG_PREF_002 = "일반 사항"
+DLG_PREF_003 = "음악 시작하기"
+DLG_PREF_004 = "공백"
+DLG_PREF_005 = "WAVE 파일을 고르시오"
+DLG_PREF_006 = "WAVE 파일"
+DLG_PREF_007 = "연주중 스크롤링 모드"
+DLG_PREF_008 = "스크린 단위로"
+DLG_PREF_009 = "보표 단위로"
+DLG_PREF_010 = "메트로놈"
+DLG_PREF_011 = "볼륨"
+DLG_PREF_012 = "악보 안에"
+DLG_PREF_013 = "박자 맞추기"
+DLG_PREF_014 = "첫박자 강조하기"
+DLG_PREF_015 = "메트로놈 박자와 속도 훈련사 항시 함께 사용"
+DLG_PREF_016 = "연주"
+DLG_PREF_017 = "저장 (MIDI)"
+DLG_PREF_018 = "효과음"
+DLG_PREF_019 = "반복재생"
+DLG_PREF_020 = "사운드 카드"
+DLG_PREF_021 = "벤딩 1 음에 제한"
+DLG_PREF_022 = "이 옵션은 벤딩 효과가 잘못 날 때 쓰시오."
+DLG_PREF_023 = "코드 인식"
+DLG_PREF_024 = "근음과 다를 때, 항상 베이스 음을 코드 이름에 덧붙이시요."
+DLG_PREF_025 = "초기값"
+DLG_PREF_026 = "보기"
+DLG_PREF_027 = "왼쪽 여백"
+DLG_PREF_028 = "오른쪽 여백"
+DLG_PREF_029 = "선 사이 공백"
+DLG_PREF_030 = "보표 사이의 공백"
+DLG_PREF_031 = "코드 (다이어그램) 위치"
+DLG_PREF_032 = "코드 (이름) 위치"
+DLG_PREF_033 = "텍스트 위치"
+DLG_PREF_034 = "리듬 범위. 라인 너비"
+DLG_PREF_035 = "음표 글꼴:"
+DLG_PREF_036 = "코드 이름 글꼴:"
+DLG_PREF_037 = "텍스트 글꼴:"
+DLG_PREF_038 = "박자표 글꼴:"
+DLG_PREF_039 = "마디 수 글꼴:"
+DLG_PREF_040 = "도돌이표 글꼴:"
+DLG_PREF_041 = "다이어그램 크기:"
+DLG_PREF_042 = "코드 다이어그램 색:"
+DLG_PREF_043 = "탭 선의 색:"
+DLG_PREF_044 = "리듬 선의 색:"
+DLG_PREF_045 = "효과음의 색:"
+DLG_PREF_046 = "배경의 색:"
+DLG_PREF_047 = "잘못된 선의 색:"
+DLG_PREF_048 = "선택 모드의 색:"
+DLG_PREF_049 = "코드 다이어그램"
+DLG_PREF_050 = "코드 이름"
+DLG_PREF_051 = "상부에 코드 리스트"
+DLG_PREF_052 = "텍스트"
+DLG_PREF_053 = "효과음"
+DLG_PREF_054 = "리듬 선"
+DLG_PREF_055 = "마디 선의 숫자"
+DLG_PREF_056 = "음표 여백주기"
+DLG_PREF_057 = "리듬 비율"
+DLG_PREF_058 = "사용자 #1"
+DLG_PREF_059 = "사용자 #2"
+DLG_PREF_060 = "사용자 #3"
+DLG_PREF_061 = "보기(&L)"
+DLG_PREF_062 = "인쇄하기"
+DLG_PREF_063 = "위 여백"
+DLG_PREF_064 = "아래 여백"
+DLG_PREF_065 = "좌측 여백"
+DLG_PREF_066 = "우측 여백"
+DLG_PREF_067 = "전 페이지 인쇄 구역"
+DLG_PREF_068 = "선택된 페이지 인쇄 구역 :"
+DLG_PREF_069 = "폭"
+DLG_PREF_070 = "높이"
+DLG_PREF_071 = "구역을 가운데로"
+DLG_PREF_072 = "인쇄 경계 영역"
+DLG_PREF_073 = "전체적 비율"
+DLG_PREF_074 = "탭 사이의 공백"
+DLG_PREF_075 = "음표 여백주기"
+DLG_PREF_076 = "리듬 비율"
+DLG_PREF_077 = "코드 다이어그램 크기"
+DLG_PREF_078 = "다이어그램 위치"
+DLG_PREF_079 = "코드 이름 위치"
+DLG_PREF_080 = "텍스트 위치"
+DLG_PREF_081 = "제목/작곡자 여백주기"
+DLG_PREF_082 = "작곡자/탭 여백주기"
+DLG_PREF_083 = "제목 글꼴:"
+DLG_PREF_084 = "작곡자 글꼴:"
+DLG_PREF_085 = "코멘트 글꼴:"
+DLG_PREF_086 = "쪽 번호 글꼴:"
+DLG_PREF_087 = "음표 글꼴:"
+DLG_PREF_088 = "코드 이름 글꼴:"
+DLG_PREF_089 = "코드 다이어그램 글꼴:"
+DLG_PREF_090 = "텍스트 글꼴:"
+DLG_PREF_091 = "박자표 글꼴:"
+DLG_PREF_092 = "도돌이표 글꼴:"
+DLG_PREF_093 = "제목"
+DLG_PREF_094 = "작곡자"
+DLG_PREF_095 = "코멘트"
+DLG_PREF_096 = "3연음 효과, 튜닝..."
+DLG_PREF_097 = "쪽번호"
+DLG_PREF_098 = "마디의 개수"
+DLG_PREF_099 = "코드 다이어그램"
+DLG_PREF_100 = "코드 이름"
+DLG_PREF_101 = "상부에 코드 리스트"
+DLG_PREF_102 = "텍스트"
+DLG_PREF_103 = "효과음"
+DLG_PREF_104 = "리듬 선"
+DLG_PREF_105 = "모든 텍스트가 검은 상자로 보이면 체크하시오"
+DLG_PREF_106 = "미리보기(&P)"
+DLG_PREF_107 = "Force x Bars per Staff:"
+
+*****************
+* BROWSE WINDOW *
+*   탐색 창     *
+*****************
+
+DLG_BROWSE_000
+DLG_BROWSE_001 = "탐색기"
+DLG_BROWSE_002 = "닫기"
+DLG_BROWSE_003 = "하위 디렉토리 찾기"
+DLG_BROWSE_004 = "선택된 파일 연주하기"
+DLG_BROWSE_005 = "건너뛰기 없음"
+DLG_BROWSE_006 = "1마디 건너뛰기"
+DLG_BROWSE_007 = "2마디 건너뛰기"
+DLG_BROWSE_008 = "5마디 건너뛰기"
+DLG_BROWSE_009 = "10마디 건너뛰기"
+DLG_BROWSE_010 = "25마디 건너뛰기"
+DLG_BROWSE_011 = "전체 악보 건너뛰기"
+DLG_BROWSE_012 = "제목:"
+DLG_BROWSE_013 = "작곡자:"
+DLG_BROWSE_014 = "음표:"
+DLG_BROWSE_015 = "마디:"
+DLG_BROWSE_016 = "G/B/D:" { G=Guitar / B=Bass / P=Percussion }
+DLG_BROWSE_017 = "이름"
+DLG_BROWSE_018 = "크기"
+DLG_BROWSE_019 = "수정되었음"
+DLG_BROWSE_020 = "디렉토리"
+DLG_BROWSE_021 = "파일"
+DLG_BROWSE_022 = "탐색중..."
+DLG_BROWSE_023 = "멈춤"
+DLG_BROWSE_024 = "하위 디렉토리 검색"
+DLG_BROWSE_025 = "파일 읽는 중..."
+
+****************
+* BRUSH WINDOW *
+****************
+
+DLG_BRUSH_000
+DLG_BRUSH_001 = "브러쉬"
+DLG_BRUSH_002 = "브러쉬 지속도"
+
+**************************
+* MIX TABLE EVENT WINDOW *
+**************************
+
+DLG_MIX_000
+DLG_MIX_001 = "믹스 테이블 변경"
+DLG_MIX_002 = "변경에 적용키 위한 새 값과 지속도에 관한, 이번 박자부터 바꿀 매개 변수를 고르시오 :"
+DLG_MIX_003 = "악기"
+DLG_MIX_004 = "볼륨"
+DLG_MIX_005 = "팬"
+DLG_MIX_006 = "코러스"
+DLG_MIX_007 = "리버브"
+DLG_MIX_008 = "템포"
+DLG_MIX_009 = "즉각적으로"
+DLG_MIX_010 = "1 박자"
+DLG_MIX_011 = "%s 박자" { use plurial }
+DLG_MIX_012 = "새 값"
+DLG_MIX_013 = "변경"
+
+************************************
+* COMPLETE/REDUCE ASSISTANT WINDOW *
+************************************
+
+DLG_ASS_CR_000
+DLG_ASS_CR_001 = "마디 배열을 확정하겠습니까?"
+
+*****************************
+* LET RING ASSISTANT WINDOW *
+*****************************
+
+DLG_ASS_LR_000
+DLG_ASS_LR_001 = "울리는 음 고르기"
+DLG_ASS_LR_002 = "이 창은 당신으로 하여금 '울리게 하기' 옵션을 한 번의 작업으로 여러 음표에 수행시켜줍니다."
+DLG_ASS_LR_003 = "마디 범위(&B):"
+DLG_ASS_LR_004 = "->"
+DLG_ASS_LR_005 = "현 선택:"
+DLG_ASS_LR_006 = "울리게 하기 옵션:"
+DLG_ASS_LR_007 = "예"
+DLG_ASS_LR_008 = "아니오"
+DLG_ASS_LR_009 = "현이 선택되지 않았습니다."
+
+******************************
+* FINGERING ASSISTANT WINDOW *
+******************************
+
+DLG_ASS_FG_000
+DLG_ASS_FG_001 = "자동 포지셔닝"
+DLG_ASS_FG_002 = "마디(&B):"
+DLG_ASS_FG_003 = "->"
+
+******************************
+* TRANSPOSE ASSISTANT WINDOW *
+******************************
+
+DLG_ASS_TR_000
+DLG_ASS_TR_001 = "이조하기"
+DLG_ASS_TR_002 = "이조(&T):"
+DLG_ASS_TR_003 = "반음"
+
+***********************************
+* CHECK DURATION ASSISTANT WINDOW *
+***********************************
+
+DLG_ASS_CD_000
+DLG_ASS_CD_001 = "점검 완료"
+DLG_ASS_CD_002 = "%s 마디 - %s 트랙에서 잘못된 길이 발견"
+
+**********************************
+* SPEED TRAINER ASSISTANT WINDOW *
+**********************************
+
+DLG_ASS_ST_000
+DLG_ASS_ST_001 = "스피드 훈련사"
+DLG_ASS_ST_002 = "마디(&B):"
+DLG_ASS_ST_003 = "박자(&T):"
+DLG_ASS_ST_004 = "->"
+DLG_ASS_ST_005 = "쉬는 템포 변수 설정(&E):"
+
+**************
+* CUT WINDOW *
+**************
+
+DLG_CUT_000
+DLG_CUT_001 = "자르기"
+DLG_CUT_002 = "마디(&B):"
+DLG_CUT_003 = "->"
+DLG_CUT_004 = "이 기능은 모든 트랙의 마디를 잘라냅니다. "
+DLG_CUT_005 = "한 트랙에서만 자르시려면, 복사하기/붙이기 기능을 사용하십시오."
+
+**********************
+* COPY/CLEAR WINDOWS *
+**********************
+
+DLG_COPY_000
+DLG_COPY_001 = "복사하기"
+DLG_COPY_002 = "지우기"
+DLG_COPY_003 = "마디(&B):"
+DLG_COPY_004 = "->"
+DLG_COPY_005 = "모든 트랙(&A)"
+DLG_COPY_006 = "현재 트랙만(&N)"
+
+*****************
+* PASTE WINDOWS *
+*****************
+
+DLG_PASTE_000
+DLG_PASTE_001 = "붙이기"
+DLG_PASTE_002 = "%s 마디를 현재 트랙에 붙이기로 결정합니까?"
+DLG_PASTE_003 = "%s 마디를 모든 트랙에 붙이기로 결정합니까?"
+DLG_PASTE_004 = "선택된 부분에 클립보드를 붙이기(&P)"
+DLG_PASTE_005 = "선택된 부분의 앞에 클립보드를 삽입하기(&I)"
+DLG_PASTE_006 = "악보 끝 부분에 클립보드 덧붙이기(&D)"
+DLG_PASTE_007 = "붙이는 횟수(&U)"
+DLG_PASTE_008 = "타악기 데이타를 트랙 1-7에 붙이는 것은 불가능합니다."
+DLG_PASTE_009 = "트랙 1-7의 데이타를 타악기 트랙에 붙이는 것은 불가능합니다."
+DLG_PASTE_010 = "붙이기 작업 무효: 현의 개수가 원래의 트랙과 다릅니다."
+
+******************
+* DYNAMIC WINDOW *
+******************
+
+DLG_DYNA_000
+DLG_DYNA_001 = "다이내믹"
+DLG_DYNA_002 = "디폴트로 지정"
+DLG_DYNA_003 = "현재의 다이내믹을 새 음표에서 디폴트로 지정하기"
+DLG_DYNA_004 = "코드에 적용"
+DLG_DYNA_005 = "다이내믹을 전체 코드에 적용"
+
+*********************
+* GRACE NOTE WINDOW *
+*********************
+
+DLG_GRACE_000
+DLG_GRACE_001 = "꾸밈음"
+DLG_GRACE_002 = "음표(&N)"
+DLG_GRACE_003 = "지속도(&D)"
+DLG_GRACE_004 = "다이내믹"
+DLG_GRACE_005 = "뮤트 음: X"
+DLG_GRACE_006 = "프렛:"
+
+****************
+* INTRO WINDOW *
+****************
+
+DLG_INTRO_000
+DLG_INTRO_001 = "당신은 %s일만 유효한 기타 프로 평가용 버젼을 사용하고 계십니다."
+DLG_INTRO_002 = "그 이후에 계속 쓰시려면 무조건 등록하셔야만 합니다."
+DLG_INTRO_003 = "기타 프로 주문하기 !"
+DLG_INTRO_004 = "그 전에 써봅시다..."
+DLG_INTRO_005 = "이 평가용 버젼은 다음과 같은 제한이 걸려있습니다:"
+DLG_INTRO_006 = "- 24마디 초과 저장 불가"
+DLG_INTRO_007 = "- 비활성 인쇄"
+DLG_INTRO_008 = "- 미디와 ASCII로 불러들이기 50개의 음표로 제한"
+
+******************
+* LICENSE WINDOW *
+******************
+
+DLG_LIC_000
+DLG_LIC_001 = "라이센스"
+DLG_LIC_002 = "안녕하십니까? 기타 프로를 택해 주셔서 감사합니다."
+DLG_LIC_003 = "우리는 당신이 이걸 사용하면서 대만족하길 바랍니다."
+DLG_LIC_004 = "이 소프트웨어를 쓰시려면, 유저 ID와 시리얼 넘버를 입력하십시오."
+DLG_LIC_005 = "이 정보들은 패키지 상자에 적혀있습니다."
+DLG_LIC_006 = "당신은 임시 권한으로 제품을 사용중 입니다. 꼭 USER ID 와 KEY ID 를 저희로 부터 받아서 사용 하시기 바랍니다."
+
+************************
+* PRINT PREVIEW WINDOW *
+************************
+
+DLG_PRW_000
+DLG_PRW_001 = "인쇄 미리보기"
+DLG_PRW_002 = "인쇄(&P)"
+DLG_PRW_003 = "설정(&R)"
+
+****************
+* PRINT WINDOW *
+****************
+
+DLG_PRT_000
+DLG_PRT_001 = "인쇄"
+DLG_PRT_002 = "프린터:"
+DLG_PRT_003 = "모두"
+DLG_PRT_004 = "쪽:"
+DLG_PRT_005 = "->"
+DLG_PRT_006 = "설정(&N)..."
+
+****************
+* CHORD WINDOW *
+****************
+
+DLG_CHORD_000
+DLG_CHORD_001 = "코드"
+DLG_CHORD_002 = "단순하게"
+DLG_CHORD_003 = "적당히"
+DLG_CHORD_004 = "모두"
+DLG_CHORD_005 = "인버젼"
+DLG_CHORD_006 = "베이스"
+DLG_CHORD_007 = "생략할 부분을 고르시오"
+DLG_CHORD_008 = "다른 명칭"
+DLG_CHORD_009 = "사용됨"
+DLG_CHORD_010 = "상부에"
+DLG_CHORD_011 = "라이브러리"
+DLG_CHORD_012 = "다이어그램 사용(&U)"
+DLG_CHORD_013 = "추가"
+DLG_CHORD_014 = "삭제"
+DLG_CHORD_015 = "교체"
+DLG_CHORD_016 = "위로 이동"
+DLG_CHORD_017 = "아래로 이동"
+DLG_CHORD_018 = "듣기"
+DLG_CHORD_019 = "사용자"
+DLG_CHORD_020 = "우선, 이 코드의 명칭을 부여하시오."
+DLG_CHORD_021 = "우선, 지워질 코드를 고르시오."
+DLG_CHORD_022 = "코드 %s 의 삭제 확정 ?"
+DLG_CHORD_023 = "우선, 업데이트할 코드를 고르시오."
+DLG_CHORD_024 = "우선, 이동될 코드를 고르시오."
+
+
+***************
+* TEXT WINDOW *
+***************
+
+DLG_TXT_000
+DLG_TXT_001 = "주석"
+DLG_TXT_002 = "텍스트(&T)"
+
+********************
+* GO TO Bar WINDOW *
+********************
+
+DLG_GOTOB_000
+DLG_GOTOB_001 = "마디 찾아가기..."
+DLG_GOTOB_002 = "마디(&B)"
+
+***************
+* BEND WINDOW *
+***************
+
+DLG_BEND_000
+DLG_BEND_001 = "벤딩"
+DLG_BEND_002 = "벤딩 후 풀기"
+DLG_BEND_003 = "값(&V)"
+
+**********************
+*  STROKE VIB WINDOW *
+**********************
+
+DLG_STROKV_000
+DLG_STROKV_001 = "비브라토의 강도"
+DLG_STROKV_002 = "값(&V)"
+
+**********************
+* INSTRUMENTS WINDOW *
+**********************
+
+DLG_INSTR_000
+DLG_INSTR_001 = "악기 (General MIDI)"
+
+*************************
+* TIME SIGNATURE WINDOW *
+*************************
+
+DLG_TIMES_000
+DLG_TIMES_001 = "박자 표"
+DLG_TIMES_002 = "끝까지(&U)"
+
+*********************
+* REPEAT END WINDOW *
+*********************
+
+DLG_REPE_000
+DLG_REPE_001 = "도돌이표"
+DLG_REPE_002 = "반복 횟수(&N)"
+
+****************************
+* ALTERNATE ENDINGS WINDOW *
+****************************
+
+DLG_DIFE_000
+DLG_DIFE_001 = "대리 종결"
+DLG_DIFE_002 = "->"
+
+*********
+* FILES *
+*********
+
+FILES_000
+FILES_001 = "변경된 것을 %s 에 저장하겠습니까?"
+FILES_002 = "파일 %s 이(가) 발견되지 않았습니다."
+FILES_003 = "파일 %s 이(가) 이미 존재합니다."
+FILES_004 = "교체하겠습니까?"
+FILES_005 = "<이름없음>" { name for a new file }
+FILES_006 = "파일 접근 불가. 불러오기 실패."
+FILES_007 = "알 수 없는 파일. 불러오기 실패."
+FILES_008 = "파일을 부르기 위해서는, 당신의 기타 프로를 업데이트해야 합니다."
+FILES_009 = "MIDI 에러"
+FILES_010 = "MIDI 형식이 인식되지 않습니다."
+FILES_011 = "기타 프로 파일"
+FILES_012 = "MIDI 파일"
+FILES_013 = "ASCII 탭 파일"
+FILES_014 = "모든 파일"
+FILES_015 = "미디로 불러들이기"
+FILES_016 = "미디로 저장하기"
+FILES_017 = "ASCII 탭으로 불러들이기"
+FILES_018 = "ASCII 탭으로 저장하기"
+
+****************
+* ORDER WINDOW *
+****************
+
+DLG_REG_000
+DLG_REG_001 = "당신은 기타 프로가 마음에 들어 제한되지 않은 기능을 갖춘 것으로 사용하길 바랍니까?"
+DLG_REG_002 = "그렇다면 바로 주문해서 1시간 내로 등록 버젼을 받으십시오."
+DLG_REG_003 = "제약 사항을 제거하는 것 이외에도, 등록을 함으로써 다음과 같은 혜택을 받을 수 있습니다:"
+DLG_REG_004 = "프로그램 기술지원"
+DLG_REG_005 = "이후 발표되는 4.x 버전의 무상 업그레이드"
+DLG_REG_006 = "이후 발매되는 5.x의 특별한 할인혜택"
+DLG_REG_007 = "소프트웨어 가격과 판매처를 알기위해 다음의 웹사이트에 방문해 주십시요:"
+
+*****************************
+* REGISTER YOUR COPY WINDOW *
+*****************************
+
+DLG_REGC_000
+DLG_REGC_001 = "당신의 사본을 등록하세요!"
+DLG_REGC_002 = "우리는 당신이 기타 프로 완성 버젼으로 등록하시길 강력히 추천합니다."
+DLG_REGC_003 = "그것은 몇 분 안걸리는데 비해, 다음과 같은 수많은 혜택을 안겨드릴 것입니다:"
+DLG_REGC_004 = "프로그램 기술지원"
+DLG_REGC_005 = "이후 발표되는 4.x 버전의 무상 업그레이드"
+DLG_REGC_006 = "이후 발매되는 5.x의 특별한 할인혜택"
+DLG_REGC_007 = "중요: 만약 당신이 설치파일이나 라이센스를 분실 하였을겅우, 등록된 사용자에 한해 우리로부터 다시 입수 하실 수 있습니다. "
+DLG_REGC_008 = "우리의 사이트로 부터 온라인 등록하기"
+DLG_REGC_009 = "편지나 팩스로 등록하기"
+DLG_REGC_010 = "전화:"
+DLG_REGC_011 = "팩스:"
+DLG_REGC_012 = "시작시 현재창 보기"
+
+********************
+* ORDER PAPER FORM *
+********************
+
+LG_REGPF_000
+DLG_REGPF_001 = "GUITAR PRO ORDER FORM (BY CHECK OR EUROCHECK IN EURO)"
+DLG_REGPF_002 = "Please complete the fields [ ] of this form,"
+DLG_REGPF_003 = "print it, and mail it it at :"
+DLG_REGPF_004 = "with your payment by check or Eurocheck in EURO"
+DLG_REGPF_005 = "to %s."
+DLG_REGPF_006 = "ORDER"
+DLG_REGPF_007 = "Guitar Pro %s by e-mail (update)"
+DLG_REGPF_008 = "Guitar Pro %s by e-mail"
+DLG_REGPF_009 = "Guitar Pro %s on CDROM + shipping"
+DLG_REGPF_010 = "Don't hesitate to contact us for questions"
+DLG_REGPF_011 = "YOUR REFERENCES"
+DLG_REGPF_012 = "Date:"
+DLG_REGPF_013 = "First Name:"
+DLG_REGPF_014 = "LAST NAME:"
+DLG_REGPF_015 = "USER ID:"
+DLG_REGPF_016 = "KEY ID:"
+DLG_REGPF_017 = "Address:"
+DLG_REGPF_018 = "Postal Code:"
+DLG_REGPF_019 = "Town/City:"
+DLG_REGPF_020 = "State/Province:"
+DLG_REGPF_021 = "Country:"
+DLG_REGPF_022 = "Tel:"
+DLG_REGPF_023 = "Fax:"
+DLG_REGPF_024 = "E-mail:"
+DLG_REGPF_025 = "Remarks:"
+DLG_REGPF_026 = "(imperative if you don't order the CD-ROM)"
+DLG_REGPF_027 = "You'll receive the software within 24h by e-mail and 15 days for the CD-ROM"
+DLG_REGPF_028 = "(if your order an update)"
+
+*********************************
+* REGISTER YOUR COPY PAPER FORM *
+*********************************
+
+DLG_REGCPF_000
+DLG_REGCPF_001 = "등록하기 - 기타 프로(GUITAR PRO) 소프트웨어"
+DLG_REGCPF_002 = "이 용지의 [ ]안의 칸을 채우시오."
+DLG_REGCPF_003 = "이것을 인쇄하여, 이곳으로 편지나 팩스로 보내시오 :"
+DLG_REGCPF_004 = "프랑스에서"  { for the fax number }
+DLG_REGCPF_005 ="외국에서"  { for the fax number }
+DLG_REGCPF_006 = "필수 기재 조항"
+DLG_REGCPF_007 = "날짜:"
+DLG_REGCPF_008 = "버젼:"
+DLG_REGCPF_009 = "이름:"
+DLG_REGCPF_010 = "성씨:"
+DLG_REGCPF_011 = "주소:"
+DLG_REGCPF_012 = "우편번호:"
+DLG_REGCPF_013 = "동/면/읍:"
+DLG_REGCPF_014 = "시/도:"
+DLG_REGCPF_015 = "나라:"
+DLG_REGCPF_016 = "전화:"
+DLG_REGCPF_017 = "팩스:"
+DLG_REGCPF_018 = "E-mail:"
+DLG_REGCPF_019 = "(소프트웨어 패키지를 통해 알았다)"
+DLG_REGCPF_020 = "선택적 기재 사항(영어나 불어로 대답하시오)"
+DLG_REGCPF_021 = "어떻게 기타 프로(Guitar Pro)를 알게 되었습니까?"
+DLG_REGCPF_022 = "기타 프로를 사기로 마음 먹기까지 얼마동안 써보았습니까?"
+DLG_REGCPF_023 = "기타 프로를 어떤 용도로 쓰십니까? (악보, 연습, 기타...)"
+DLG_REGCPF_024 = "어떤 가게 혹은 인터넷 사이트에서 기타프로를 사셨습니까?"
+DLG_REGCPF_025 = "의견, 제안, ..."
+
+********************
+* v3.0 BEND WINDOW *
+********************
+
+DLG300_BEND_000
+DLG300_BEND_001 = "밴딩(초킹) 형태"
+DLG300_BEND_002 = "연주"
+DLG300_BEND_003 = "밴딩(초킹) 형태 선택 :"
+DLG300_BEND_004 = "마우스 왼쪽 클릭으로 포인트를 추가하거나 삭제 합니다. (오른쪽 클릭 = 비브라토) :"
+DLG300_BEND_005 = "노트 길이 = "
+DLG300_BEND_006 = "이 효과는 실행 할수 없습니다. 당신은 MIDI설정에서 피치변화 제한 옵션을 선택 하셨습니다. (menu 옵션|Midi 설정)."
+DLG300_BEND_007 = "이 옵션은 일반 사운드 카드에서는 필수 입니다."
+
+**************************
+* v3.0 GRACE NOTE WINDOW *
+**************************
+
+DLG300_GRACE_000
+DLG300_GRACE_001 = "전조(轉調)"
+DLG300_GRACE_002 = "없음"
+DLG300_GRACE_003 = "슬라이드"
+DLG300_GRACE_004 = "Bend"
+DLG300_GRACE_005 = "헤머"
+
+***********************
+* v3.0 MARKERS WINDOW *
+***********************
+
+DLG300_MARKERS_000
+DLG300_MARKERS_001 = "표식 목록"
+DLG300_MARKERS_002 = "위치"
+DLG300_MARKERS_003 = "이름"
+DLG300_MARKERS_004 = "추가"
+DLG300_MARKERS_005 = "편집"
+DLG300_MARKERS_006 = "삭제"
+DLG300_MARKERS_007 = "가기"
+DLG300_MARKERS_008 = "표식 %s 를 삭제 합니까?"
+DLG300_MARKERS_009 = "표식 삽입"
+DLG300_MARKERS_010 = "표식 편집"
+DLG300_MARKERS_011 = "마디 :"
+DLG300_MARKERS_012 = "색상 :"
+DLG300_MARKERS_013 = "이름 :"
+DLG300_MARKERS_014 = "섹션"
+
+********************************
+* v3.0 MIDI IMPORTATION WINDOW *
+********************************
+
+DLG300_IMPM_000
+DLG300_IMPM_001 = "MIDI 불러들이기"
+DLG300_IMPM_002 = "MIDI 트랙 :"
+DLG300_IMPM_003 = "코드 위치 맞추기"
+DLG300_IMPM_004 = "노트 길이 맞추기"
+DLG300_IMPM_005 = "낮은 옥타브로 바꾸기"
+DLG300_IMPM_006 = "빠른 불러들이기"
+DLG300_IMPM_007 = "이 방법은 새로운 파일에 트랙을 선택하여 불러 옵니다."
+DLG300_IMPM_008 = "트랙 이름은 자동으로 설정 되어집니다."
+DLG300_IMPM_009 = "트랙당 2 채널 사용"
+DLG300_IMPM_010 = "불러오기 !"
+DLG300_IMPM_011 = "스텝 바이 스텝 불러오기"
+DLG300_IMPM_012 = "이 방법은 불러오기에 대해 더 많은것을 설정 할수 있게 해줍니다."
+DLG300_IMPM_013 = "제목 불러오기와 박자변경."
+DLG300_IMPM_014 = "트랙추가..."
+DLG300_IMPM_015 = "현재 트랙위에 선택된 트랙 불러오기"
+DLG300_IMPM_016 = "기타 프로 평가판은 50노트 불러오기 제한이 있습니다."
+DLG300_IMPM_017 = "기타프로가 마음에 드신다면, 등록해 주세요.."
+DLG300_IMPM_018 = "윈도우 보기"
+DLG300_IMPM_019 = "윈도우 감추기"
+DLG300_IMPM_020 = "MIDI 포맷 %s 은(는)지원하지 않습니다. MIDI 포맷 0 이나 1을 사용해주세요."
+DLG300_IMPM_021 = "최소 하나의 MIDI 트랙을 선택해 주세요."
+DLG300_IMPM_022 = "모든 트랙 선택"
+DLG300_IMPM_023 = "모든 트랙 선택 해제"
+DLG300_IMPM_024 = "선택한 트랙 연주"
+DLG300_IMPM_025 = "멈춤"
+DLG300_IMPM_026 = "또다른 파일 열기"
+
+**************************
+* v3.0 MIDI SETUP WINDOW *
+**************************
+
+DLG300_MIDISETUP_000
+DLG300_MIDISETUP_001 = "MIDI 설정"
+DLG300_MIDISETUP_002 = "MIDI 출력"
+DLG300_MIDISETUP_003 = "포트"
+DLG300_MIDISETUP_004 = "장치"
+DLG300_MIDISETUP_005 = "악기 이름"
+DLG300_MIDISETUP_006 = "피치 변화 제한"
+DLG300_MIDISETUP_007 = "현재 출력에 샘플연주"
+DLG300_MIDISETUP_008 = "'피치 변화 제한' 을 사용하면 밴딩(초킹)이나 슬라이드 효과가 이상하게 들립니다."
+DLG300_MIDISETUP_009 = "기본적인 사운드 카드들은 1가지 음 이상 피치 변화를 지원하지 않습니다."
+DLG300_MIDISETUP_010 = "당신은 다른 포트에 같은 영향을 줄 수 없습니다."
+
+**************************
+* v3.0 SCORE INFO WINDOW *
+**************************
+
+DLG300_SCORE_INFO_000
+DLG300_SCORE_INFO_001 = "악보 정보"
+DLG300_SCORE_INFO_002 = "기본 정보"
+DLG300_SCORE_INFO_003 = "제목"
+DLG300_SCORE_INFO_004 = "부제목"
+DLG300_SCORE_INFO_005 = "아티스트"
+DLG300_SCORE_INFO_006 = "앨범"
+DLG300_SCORE_INFO_007 = "제작자"
+DLG300_SCORE_INFO_008 = "저작권"
+DLG300_SCORE_INFO_009 = "타브"
+DLG300_SCORE_INFO_010 = "명령"
+DLG300_SCORE_INFO_011 = "알림"
+DLG300_SCORE_INFO_012 = "셋잇단음 표현 :"
+DLG300_SCORE_INFO_013 = "새 악보에 기본적으로 표시될 정보를 이곳에 작성 하기 바랍니다.:"
+
+**************************
+* v3.0 TRACK INFO WINDOW *
+**************************
+
+DLG300_TRACK_INFO_000
+DLG300_TRACK_INFO_001 = "트랙 추가"
+DLG300_TRACK_INFO_002 = "타입"
+DLG300_TRACK_INFO_003 = "악기"
+DLG300_TRACK_INFO_004 = "위치"
+DLG300_TRACK_INFO_005 = "처음"
+DLG300_TRACK_INFO_006 = "마지막"
+DLG300_TRACK_INFO_007 = "이전"
+DLG300_TRACK_INFO_008 = "이후"
+DLG300_TRACK_INFO_009 = "트랙속성"
+DLG300_TRACK_INFO_010 = "색상"
+DLG300_TRACK_INFO_011 = "벤조 5번현 음명료하게하기"
+DLG300_TRACK_INFO_012 = "이 트랙에 새 튜닝 적용하시겠습니까?"
+
+***************************
+* v3.0 PREFERENCES WINDOW *
+***************************
+
+DLG300_PREF_000
+DLG300_PREF_001 = "악보 연주시 따라가기"
+DLG300_PREF_002 = "마디에 사각형 표시"
+DLG300_PREF_003 = "노트하단에 삼각형 표시"
+DLG300_PREF_004 = "노트 강조"
+
+*********************************
+* v3.0 ASCII IMPORTATION WINDOW *
+*********************************
+
+DLG300_IMPA_000
+DLG300_IMPA_001 = "현재 트랙과 숫자는 다릅니다."
+DLG300_IMPA_002 = "먼저 현재 트랙의 숫자를 변경하여 주세요."
+
+****************
+* v3.0 GENERAL *
+****************
+
+GENE300_000
+GENE300_001 = "최대 트랙 지원 :"
+GENE300_002 = "트랙 삭제 확인 %s ?"
+GENE300_003 = "평가판은 악보 인쇄를 할 수 없습니다.."
+GENE300_004 = "없슴" { for the MIDI ports }
+GENE300_005 = "MIDI 포트를 열 수 없습니다. : [%s]"
+GENE300_006 = "다른 MIDI 프로그램을 종료 하거나 MIDI 설정을 해주세요."
+GENE300_007 = "음색 선택하지 않음" { instrument patch }
+GENE300_008 = "음색을 찾을 수 없습니다." { instrument patch }
+GENE300_009 = "%s 으로부터 연주"
+GENE300_010 = "%s 으로 이동"
+GENE300_011 = "Drum Kit"
+GENE300_012 = "Drum 트랙 전용"
+GENE300_013 = "%s에 연결"
+GENE300_014 = "%s 으로 예비"
+GENE300_015 = "자유"
+GENE300_016 = "평가판은 GP 2.2 format 파일로 내보낼 수 없습니다."
+GENE300_017 = "내보내기를 사용하기 위해서는 파일을 오픈 하여야 합니다."
+GENE300_018 = "Guitar Pro 2.2 Files"
+
+******************
+* v3.0 MIX TABLE *
+******************
+
+MIXT300_000
+MIXT300_001 = "모두 축소"
+MIXT300_002 = "모두 확장"
+MIXT300_003 = "솔로"
+MIXT300_004 = "S" {abreviation of "Solo"}
+MIXT300_005 = "뮤트"
+MIXT300_006 = "M" {abreviation of "Mute"}
+MIXT300_007 = "이름" {of the track}
+MIXT300_008 = "포트"
+MIXT300_009 = "포트" {abreviation of "Port"}
+MIXT300_010 = "포트 선택"
+MIXT300_011 = "메인 채널"
+MIXT300_012 = "Ch" {abreviation of "Main Channel"}
+MIXT300_013 = "메인 채널 선택"
+MIXT300_014 = "이펙터 채널"
+MIXT300_015 = "Ch2" {abreviation of "Effects Channel"}
+MIXT300_016 = "이펙트 채널 선택"
+MIXT300_017 = "악기"
+MIXT300_018 = "음량"
+MIXT300_019 = "Pan"
+MIXT300_020 = "코러스"
+MIXT300_021 = "리버브"
+MIXT300_022 = "Phaser"
+MIXT300_023 = "트레몰로"
+MIXT300_024 = "불완전 음색"
+MIXT300_025 = "음색 선택 안함"
+MIXT300_026 = "Drum Kit"
+
+*********************************
+* v3.0 DYNAMIC ASSISTANT WINDOW *
+*********************************
+
+DLG300_ASS_DY_000
+DLG300_ASS_DY_001 = "셈,여림 선택"
+DLG300_ASS_DY_002 = "이 기능은 선택한 범위에 대해 셈,여림값을 적용 시켜 줍니다."
+DLG300_ASS_DY_003 = "마디 범위:"
+DLG300_ASS_DY_004 = "to"
+DLG300_ASS_DY_005 = "현 선택:"
+DLG300_ASS_DY_006 = "셈여림 값:"
+DLG300_ASS_DY_007 = "선택된 현이 없습니다."
+
+**********************
+* v3.0 MENUS & HINTS *
+**********************
+
+MN300_000
+MN300_001 = "악보 정보"
+MN300_002 = "처음" {for the track}
+MN300_003 = "이전" {for the track}
+MN300_004 = "다음" {for the track}
+MN300_005 = "마지막" {for the track}
+MN300_006 = "이전 트랙"
+MN300_007 = "다음 트랙"
+MN300_008 = "속성" {for the track}
+MN300_009 = "트랙 속성"
+MN300_010 = "추가" {for a track}
+MN300_011 = "트랙 추가"
+MN300_012 = "삭제" {for the track}
+MN300_013 = "처음" {for the 마디}
+MN300_014 = "이전" {for the 마디}
+MN300_015 = "다음" {for the 마디}
+MN300_016 = "마지막" {for the 마디}
+MN300_017 = "타이 박자"
+MN300_018 = "타이 노트"
+MN300_019 = "박자 길이"
+MN300_020 = "노트 길이"
+MN300_021 = "-없슴-" {means "아니오" triolet, -3-, -5-, ...}
+MN300_022 = "잇단음"
+MN300_023 = "박자" {n-tuplet on the beat}
+MN300_024 = "노트" {n-tuplet on the note}
+MN300_025 = "밴드(Bend) 타입" {includes all "Bend" type effects}
+MN300_026 = "표식(&M)"
+MN300_027 = "표식 삽입"
+MN300_028 = "삽입"
+MN300_029 = "표식 리스트"
+MN300_030 = "리스트"
+MN300_031 = "이전 표식으로 가기"
+MN300_032 = "이전"
+MN300_033 = "표식으로 이동"
+MN300_034 = "이동"
+MN300_035 = "다음 표식으로 이동"
+MN300_036 = "다음"
+MN300_037 = "표식을 지정하지 않음"
+MN300_038 = "표식으로 부터 연주"
+MN300_039 = "현재위치 부터 연주 (Space)"
+MN300_040 = "도구(&T)"
+MN300_041 = "카운트 다운"
+MN300_042 = "템포 계수 적용"
+MN300_043 = "다중트랙 보기"
+MN300_044 = "수직 스크롤"
+MN300_045 = "수평 스크롤"
+MN300_046 = "마디편집에서 규칙적인 간격"
+MN300_047 = "보기변경"
+MN300_048 = "도구모음"
+MN300_049 = "표준" {name of the toolbar}
+MN300_050 = "마디" {name of the toolbar}
+MN300_051 = "표식들" {name of the toolbar}
+MN300_052 = "표시" {name of the toolbar}
+MN300_053 = "박자길이" {name of the toolbar}
+MN300_054 = "노트길이" {name of the toolbar}
+MN300_055 = "연주" {name of the toolbar}
+MN300_056 = "템포" {name of the toolbar}
+MN300_057 = "효과" {name of the toolbar}
+MN300_058 = "셈여림" {name of the toolbar}
+MN300_059 = "모두" {afficher toutes les barres d'outils}
+MN300_060 = "없슴" {n'afficher aucune barre d'outil}
+MN300_061 = "기본위치" {des barres d'outil}
+MN300_062 = "MIDI 설정"
+MN300_063 = "재생시 현재 마디 유지"
+MN300_064 = "Guitar Pro 2.2 Format"
+MN300_065 = "옵션(&O)"
+MN300_066 = "헴머링 온 / 풀 오프"
+MN300_067 = "슬라이드"
+MN300_068 = "템포"
+MN300_069 = "셈여림 선택"
+MN300_070 = "처음으로 이동"
+MN300_071 = "끝으로 이동"
+MN300_072 = "빠르게 뒤로"
+MN300_073 = "빠르게 앞으로"
+MN300_074 = "한스텝 뒤로"
+MN300_075 = "한스텝 앞으로"
+
+******************
+* v3.0 GP ONLINE *
+******************
+
+DLG300_GPONLINE_000
+DLG300_GPONLINE_001 = "GP 온라인"
+DLG300_GPONLINE_002 = "GP 온라인 알림:"
+DLG300_GPONLINE_003 = "표시않함"
+DLG300_GPONLINE_004 = "2 주"
+DLG300_GPONLINE_005 = "1 개월"
+DLG300_GPONLINE_006 = "3 개월"
+DLG300_GPONLINE_007 = "6 개월"
+DLG300_GPONLINE_008 = "인터넷 접속시 새로운 버전 확인"
+DLG300_GPONLINE_009 = "새로운 Guitar Pro는 웹에서 확인가능 합니다!"
+DLG300_GPONLINE_010 = "GP Online을 시작 하겠습니까?"
+DLG300_GPONLINE_011 = "참고 : GP 온라인을 시작하거나 멈추려면 [옵션|프로그램 설정] 메뉴 항목으로 이동하세요."
+DLG300_GPONLINE_012 = "당신은 GP 온라인을 %s 일동안 사용하지 않았습니다."
+DLG300_GPONLINE_013 = "참고 : GP 온라인을 사용하지 않겠다면, [욥션|프로그램 설정] 메뉴 항목으로 이동하세요."
+
+***********************************
+* v4.0 PALM MUTE ASSISTANT WINDOW *
+***********************************
+ 
+DLG400_ASS_PM_000
+DLG400_ASS_PM_001 = "손바닥 뮤트 옵션"
+DLG400_ASS_PM_002 = "이 기능은 선택한 범위에 대해 한번의 손바닥 뮤트를 적용 시켜 줍니다."
+DLG400_ASS_PM_003 = "마디 범위:"
+DLG400_ASS_PM_004 = "to"
+DLG400_ASS_PM_005 = "현 선택:"
+DLG400_ASS_PM_006 = "손바닥 뮤트 옵션:"
+DLG400_ASS_PM_007 = "예"
+DLG400_ASS_PM_008 = "아니오"
+DLG400_ASS_PM_009 = "선택된 현이 없습니다."
+ 
+*****************************
+* v4.0 PERCUSSION ASSISTANT *
+*****************************
+ 
+DLG400_ASS_PERCU_000
+DLG400_ASS_PERCU_001 = "이용가능한 electric sounds 사용하기"
+ 
+*******************************
+* v4.0 MIX TABLE EVENT WINDOW *
+*******************************
+ 
+DLG400_MIX_000
+DLG400_MIX_001 = "모든 트랙"
+ 
+*********************
+* v4.0 CHORD WINDOW *
+*********************
+ 
+DLG400_CHORD_000
+DLG400_CHORD_001 = "핑거링"
+ 
+*********************
+* v4.0 BRUSH WINDOW *
+*********************
+ 
+DLG400_BRUSH_000
+DLG400_BRUSH_001 = "Rasgueado"
+ 
+**************************
+* v4.0 TREMOLO마디 WINDOW *
+**************************
+ 
+DLG400_TREMOLO마디_000
+DLG400_TREMOLO마디_001 = "트레몰로 마디"
+DLG400_TREMOLO마디_002 = "Shape 선택:";
+ 
+*********************
+* v4.0 TRILL WINDOW *
+*********************
+ 
+DLG400_TRILL_000
+DLG400_TRILL_001 = "떨림"
+DLG400_TRILL_002 = "떨림 노트"
+DLG400_TRILL_003 = "기간"
+DLG400_TRILL_004 = "프렛:"
+ 
+*******************************
+* v4.0 BMP EXPORTATION WINDOW *
+*******************************
+ 
+DLG400_EXPBMP_000
+DLG400_EXPBMP_001 = "BMP 내보내기"
+DLG400_EXPBMP_002 = "내보내기"
+DLG400_EXPBMP_003 = "비트맵 파일"
+ 
+*******************************
+* v4.0 BMP EXPORTATION WINDOW *
+*******************************
+ 
+DLG400_EXPWAV_000
+DLG400_EXPWAV_001 = "WAVE 내보내기"
+DLG400_EXPWAV_002 = "내보내기"
+DLG400_EXPWAV_003 = "품질:"
+DLG400_EXPWAV_004 = "WAVE 파일"
+ 
+*************************
+* v4.0 FRETBOARD WINDOW *
+*************************
+ 
+DLG400_FRETBOARD_000
+DLG400_FRETBOARD_001 = "표시모드 선택"
+DLG400_FRETBOARD_002 = "표시 [박자]"
+DLG400_FRETBOARD_003 = "표시 [박자] + [마디]"
+DLG400_FRETBOARD_004 = "표시 [박자] + [도형]"
+DLG400_FRETBOARD_005 = "표시 [박자] + [다음 박자]"
+DLG400_FRETBOARD_006 = "표시 [박자] + [스케일]"
+DLG400_FRETBOARD_007 = "표시 [노트 이름]"
+DLG400_FRETBOARD_008 = "표시 [간격]"
+DLG400_FRETBOARD_009 = "표시 [Degre]"
+DLG400_FRETBOARD_010 = "노트 이름 보이기"
+DLG400_FRETBOARD_011 = "이름 없슴"
+DLG400_FRETBOARD_012 = "이름 : [박자]"
+DLG400_FRETBOARD_013 = "이름 : [박자] + [...]"
+DLG400_FRETBOARD_014 = "플렛보드 배경 이미지"
+DLG400_FRETBOARD_015 = "일렉트릭"
+DLG400_FRETBOARD_016 = "어코스틱"
+DLG400_FRETBOARD_017 = "클래식"
+DLG400_FRETBOARD_018 = "기본"
+DLG400_FRETBOARD_019 = "플렛보드 뒤집기"
+DLG400_FRETBOARD_020 = "스케일도구 열기"
+DLG400_FRETBOARD_021 = "스케일"
+DLG400_FRETBOARD_022 = "왼쪽 이동"
+DLG400_FRETBOARD_023 = "오른쪽 이동"
+ 
+************************
+* v4.0 KEYBOARD WINDOW *
+************************
+ 
+DLG400_KEYBOARD_000
+DLG400_KEYBOARD_001 = "표시모드 선택"
+DLG400_KEYBOARD_002 = "보기 [박자]"
+DLG400_KEYBOARD_003 = "보기 [박자] + [마디]"
+DLG400_KEYBOARD_004 = "보기 [박자] + [다음 박자]"
+DLG400_KEYBOARD_005 = "보기 [박자] + [스케일]"
+DLG400_KEYBOARD_006 = "스케일도구 열기"
+DLG400_KEYBOARD_007 = "스케일"
+DLG400_KEYBOARD_008 = "왼쪽 이동"
+DLG400_KEYBOARD_009 = "오른쪽 이동"
+ 
+******************************
+* v4.0 KEY SIGNATURE WINDOW *
+******************************
+ 
+DLG400_KEYSIGN_000
+DLG400_KEYSIGN_001 = "Key 조표"
+DLG400_KEYSIGN_002 = "끝까지"
+DLG400_KEYSIGN_003 = "모드"
+DLG400_KEYSIGN_004 = "메이져"
+DLG400_KEYSIGN_005 = "마이너"
+ 
+***************************
+* v4.0 NEW TUNING WINDOW *
+***************************
+ 
+DLG400_NEWTUNE_000
+DLG400_NEWTUNE_001 = "새로운 조율"
+DLG400_NEWTUNE_002 = "새로운 조율에 대해 이름을 선택하세요:"
+ 
+**************************
+* v4.0 SCORE INFO WINDOW *
+**************************
+ 
+DLG400_SCORE_INFO_000
+DLG400_SCORE_INFO_001 = "가사"
+DLG400_SCORE_INFO_002 = "적용할 트랙:"
+DLG400_SCORE_INFO_003 = "만약 악보를 수정하면, 이 창으로 돌아와서 가사를 업데이트 한후 OK를 눌러주세요."
+DLG400_SCORE_INFO_004 = "라인 %s"
+DLG400_SCORE_INFO_005 = "시작 마디:"
+DLG400_SCORE_INFO_006 = "특수기호를 사영하려면 도움말 파일을 읽어보세요: -, + and []"
+DLG400_SCORE_INFO_007 = "자르기"
+DLG400_SCORE_INFO_008 = "복사"
+DLG400_SCORE_INFO_009 = "붙혀넣기"
+ 
+**************************
+* v4.0 TRACK INFO WINDOW *
+**************************
+ 
+DLG400_TRACK_INFO_000
+DLG400_TRACK_INFO_001 = "본 Tuning 추가"
+DLG400_TRACK_INFO_002 = "본 Tuning 지우기"
+DLG400_TRACK_INFO_003 = "지우길 원하면 Tuning 을 선택 하세요."
+DLG400_TRACK_INFO_004 = "Tuning 삭제 확인 %s 지울까요?"
+DLG400_TRACK_INFO_005 = "당신은 새로운 Tuning 을 처음 정의 해야 합니다. 그리고 추가버튼을 눌러 이름을 지정하세요."
+DLG400_TRACK_INFO_006 = "당신은 새로운 Tuning 의 이름을 선택 하여야 합니다."
+DLG400_TRACK_INFO_007 = "이 이름은 이미 사용하고 있습니다."
+ 
+***************************
+* v4.0 PREFERENCES WINDOW *
+***************************
+ 
+DLG400_PREF_000
+DLG400_PREF_001 = "자동 백업"
+DLG400_PREF_002 = "모두"
+DLG400_PREF_003 = "actions"
+DLG400_PREF_004 = "가사:"
+DLG400_PREF_005 = "실행 취소/다시 실행"
+DLG400_PREF_006 = "실행 취소/다시 실행 사용 불가 (느린 컴퓨터)"
+ 
+***********************************
+* v4.0 TRANSPOSE ASSISTANT WINDOW *
+***********************************
+ 
+DLG400_ASS_TR_000
+DLG400_ASS_TR_001 = "모든트랙 조옮김"
+ 
+*********************************
+* v4.0 SEARCH ON THE WEB WINDOW *
+*********************************
+ 
+DLG400_SEARCHONWEB_000
+DLG400_SEARCHONWEB_001 = "웹에서 검색"
+DLG400_SEARCHONWEB_002 = "검색:"
+DLG400_SEARCHONWEB_003 = "'satriani' 이나 'elise' 처럼 단순한 텍스트를 입력 하세요"
+DLG400_SEARCHONWEB_004 = "on:"
+DLG400_SEARCHONWEB_005 = "검색!"
+DLG400_SEARCHONWEB_006 = "사이트 리스트 갱신"
+DLG400_SEARCHONWEB_007 = "%s 개 찾음."
+DLG400_SEARCHONWEB_008 = "당신은 검색을 시작하기 위하여 텍스트를 기입하여야 합니다."
+DLG400_SEARCHONWEB_009 = "Guitar Pro site에 접속 할 수 없습니다."
+ 
+***************************
+* v4.0 SCALES TOOL WINDOW *
+***************************
+ 
+DLG400_SCALES_000
+DLG400_SCALES_001 = "스케일"
+DLG400_SCALES_002 = "듣기"
+DLG400_SCALES_003 = "스케일 찾기"
+DLG400_SCALES_004 = "마디에서 검색:"
+DLG400_SCALES_005 = "to"
+DLG400_SCALES_006 = "찾았슴!"
+ 
+**********************
+* v4.0 MENUS & HINTS *
+**********************
+ 
+MN400_000
+MN400_001 = "처음 트랙"
+MN400_002 = "마지막 트랙"
+MN400_003 = "트랙 지우기"
+MN400_004 = "한마디 삽입"
+MN400_005 = "마디 자르기"
+MN400_006 = "마디 복사"
+MN400_007 = "마디 붙히기"
+MN400_008 = "마디 비우기"
+MN400_009 = "조표"
+MN400_010 = "다중 마디"
+MN400_011 = "실행 취소"
+MN400_012 = "다시 실행"
+MN400_013 = "반음 올리기"
+MN400_014 = "반음 내리기"
+MN400_015 = "왼손 핑거링"
+MN400_016 = "오른손 핑거링"
+MN400_017 = "피크 스트로크 업"
+MN400_018 = "피크 스트로크 다운"
+MN400_019 = "엑센트 노트"
+MN400_020 = "하모닉"
+MN400_021 = "자연스러운 하모닉"
+MN400_022 = "인위적인 하모닉"
+MN400_023 = "두드리는 하모닉"
+MN400_024 = "피치 하모닉"
+MN400_025 = "세미 하모닉"
+MN400_026 = "Bend"
+MN400_027 = "트레몰로 마디"
+MN400_028 = "슬라이드"
+MN400_029 = "슬라이드 이동"
+MN400_030 = "부드러운 슬라이드"
+MN400_031 = "아래부터 슬라이드"
+MN400_032 = "위로부터 슬라이드"
+MN400_033 = "아랫쪽으로 슬라이드 아웃"
+MN400_034 = "윗쪽으로 슬라이드 아웃"
+MN400_035 = "와이드 비브라토"
+MN400_036 = "떨림"
+MN400_037 = "트레몰로 피킹"
+MN400_038 = "손바닥 뮤트"
+MN400_039 = "스타카토"
+MN400_040 = "디지털 기타 튜너"
+MN400_041 = "스케일"
+MN400_042 = "손바닥 뮤트 옵션"
+MN400_043 = "표준 기보법"
+MN400_044 = "플렛보드"
+MN400_045 = "키보드"
+MN400_046 = "메뉴와 도구모음"
+MN400_047 = "커스터마이즈"
+MN400_048 = "도구모음 위치 초기화"
+MN400_049 = "Old GP3 Glyphs"
+MN400_050 = "XP Toolbar Style"
+MN400_051 = "Guitar Pro 3.0 Format"
+MN400_052 = "WAVE File (Audio)"
+MN400_053 = "BMP File (Image)"
+MN400_054 = "메뉴" {name of the toolbar}
+MN400_055 = "노트" {name of the toolbar}
+MN400_056 = "플렛보드" {name of the toolbar}
+MN400_057 = "키보드" {name of the toolbar}
+MN400_058 = "트랙선택" {name of the toolbar}
+MN400_059 = "마디상태" {name of the toolbar}
+MN400_060 = "윈도우 볼륨조정"
+
+*********************
+* v4.0 INTRO WINDOW *
+*********************
+
+DLG400_INTRO_000
+DLG400_INTRO_001 = "당신은 평가기간이 %s2일 중 %s1일이 지났습니다."
+DLG400_INTRO_002 = "평가기간이 끝탔습니다. 계속 사용하시기 원하시면 등록을 해주세요."
+ 
+****************
+* v4.0 GENERAL *
+****************
+ 
+GENE400_000
+GENE400_001 = "평가판에서는 GP 3.0 포맷으로 내보내기를 할 수 없습니다."
+GENE400_002 = "내보내기를 사용하기 위해서는 파일을 오픈 하여야 합니다."
+GENE400_003 = "Guitar Pro 3.0 Files"
+GENE400_004 = "Guitar Pro 는 마지막 세션을 종료하지 못했거나 이미 다른세션이 열려 있습니다."
+GENE400_005 = "마지막 백업으로 되롤릴까요?"
+GENE400_006 = "평가판에서는 BMP format으로 내보내기 할 수 없습니다.."
+GENE400_007 = "설정 적용을 위해 Guitar Pro 를 닫고 재시작 할까요?"
+GENE400_008 = "레코딩을 위해 시작/멈춤 버튼을 사용할 수 있습니다."
+GENE400_009 = "수직 스크롤을 모드를 사용하기 위해선 BMP 내보내기를 사용해야 합니다."
+GENE400_010 = "평가판에서는 자르기/복사/붙혀넣기 기능이 24마디로 제한 됩니다."
+GENE400_011 = "클립보드가 비었습니다."
+GENE400_012 = "클립보드 내용은 트랙과 반응 하지 않습니다.."
+GENE400_013 = "파일 [%s] 는(은) 기록 되었습니다."
+GENE400_014 = "[%s]폴더를 생성할 수 없습니다. 로딩을 중단 합니다."
+GENE400_015 = "Guitar Pro는  금지된 코드를 발견 했습니다. [Code %s] 로딩을 취소 합니다."
+GENE400_016 = "폰트 [%s] 는(은) 정확히 설치가 안된듯 합니다. Guitar Pro를 재설치 하시기 바랍니다.."
+
+*********************************
+* v4.0 WAVE EXPORT SETUP WINDOW *
+*********************************
+
+DLG400_WAVEEXPSETUP_000
+DLG400_WAVEEXPSETUP_001 = "WAVE 내보내기 설정"
+DLG400_WAVEEXPSETUP_002 = "WAVE 입력"
+DLG400_WAVEEXPSETUP_003 = "미디아웃 레코딩을 위해 라인을 사용 합니다. :"
+DLG400_WAVEEXPSETUP_004 = "팁: 만약 WAVE 파일 내보내기후 소리가 안난다면 다른 라인을 테스트 하세요."
+DLG400_WAVEEXPSETUP_005 = "당신은 라인을 선택 해야 합니다."
+
+****************
+* v4.1 MIDI IN *
+****************
+ 
+MI410_000
+MI410_001 = "MIDI 입력 활성화"
+MI410_002 = "MIDI In 장치를 열 수 없습니다. [옵션 | MIDI 설정]메뉴 에서 설정을 다시한번 확인 하세요."
+MI410_003 = "MIDI 입력 (Note by Note)"
+MI410_004 = "장치"
+MI410_005 = "민감도"
+MI410_006 = "ms  (delay to separate 2 notes)" { "ms" 는 밀리세컨드 입니다. }
+MI410_007 = "채널 감지로 스트링에 영향주기"
+MI410_008 = "높은 스트링 처음채널"
+MI410_009 = "낮은 스트링 처음 채널"
+MI410_010 = "발견된 채널 없슴 (자동 핑거링)"
+MI410_011 = "팁: 메뉴 [Sound | MIDI Input Active] 는 당신이 MIDI 악기로 부터 연주한것을 캡쳐 합니다."
+
+*********************
+* v5.0 ABOUT WINDOW *
+*********************
+ 
+DLG500_ABOUT_000
+DLG500_ABOUT_001 = "%s과 %t는 %s에 의하여 프랑스와 여러나라들에 등록한 등록상표 또는 상표입니다."
+DLG500_ABOUT_002 = "모든 상표들과 등록상표들은 각 소유사들의 재산이며 %s과 연관되거나 관련된 사실이 없습니다."
+DLG500_ABOUT_003 = "기타프로 팀"
+DLG500_ABOUT_004 = "원작 && 소프트웨어"
+DLG500_ABOUT_005 = "RSE원작 && 사운드샘플"
+DLG500_ABOUT_006 = "개발"
+DLG500_ABOUT_007 = "디자인"
+DLG500_ABOUT_008 = "번역 [%s]"
+DLG500_ABOUT_009 = "도움주신 분들"
+DLG500_ABOUT_010 = "오디오 관련 기술들"
+
+*********************************
+* v5.0 DYNAMIC ASSISTANT WINDOW *
+*********************************
+ 
+DLG500_ASS_DY_000
+DLG500_ASS_DY_001 = "선택"
+DLG500_ASS_DY_002 = "Voices:"
+DLG500_ASS_DY_003 = "모두"
+DLG500_ASS_DY_004 = "리드"
+DLG500_ASS_DY_005 = "베이스"
+
+**********************************
+* v5.0 LET RING ASSISTANT WINDOW *
+**********************************
+ 
+DLG500_ASS_LR_000
+DLG500_ASS_LR_001 = "선택"
+DLG500_ASS_LR_002 = "Voices:"
+DLG500_ASS_LR_003 = "모두"
+DLG500_ASS_LR_004 = "리드"
+DLG500_ASS_LR_005 = "베이스"
+
+***********************************
+* v5.0 PALM MUTE ASSISTANT WINDOW *
+***********************************
+ 
+DLG500_ASS_PM_000
+DLG500_ASS_PM_001 = "선택"
+DLG500_ASS_PM_002 = "Voices:"
+DLG500_ASS_PM_003 = "모두"
+DLG500_ASS_PM_004 = "리드"
+DLG500_ASS_PM_005 = "베이스"
+
+*******************************
+* v5.0 MIX TABLE EVENT WINDOW *
+*******************************
+ 
+DLG500_MIX_000
+DLG500_MIX_001 = "MIDI 사용"
+DLG500_MIX_002 = "MIDI 뱅크:"
+DLG500_MIX_003 = "RSE 사용"
+DLG500_MIX_004 = "없음" { used for Sound Bank list }
+DLG500_MIX_005 = "없음" { used for Effects list }
+
+***************************
+* v5.0 INSTRUMENTS WINDOW *
+***************************
+ 
+DLG500_INSTR_000
+DLG500_INSTR_001 = "MIDI 사용"
+DLG500_INSTR_002 = "MIDI 뱅크:"
+DLG500_INSTR_003 = "RSE 사용"
+DLG500_INSTR_004 = "듣기"
+DLG500_INSTR_005 = "사운드 뱅크"
+DLG500_INSTR_006 = "없음" { used for Sound Bank list }
+DLG500_INSTR_007 = "효과"
+DLG500_INSTR_008 = "없음" { used for Effects list }
+DLG500_INSTR_009 = "비트에 자동 강약넣기" 
+DLG500_INSTR_010 = "없음" { used for AutoAccentuation }
+DLG500_INSTR_011 = "아주 부드럽게"
+DLG500_INSTR_012 = "부드럽게"
+DLG500_INSTR_013 = "중간"
+DLG500_INSTR_014 = "강하게"
+DLG500_INSTR_015 = "아주 강하게"
+DLG500_INSTR_016 = "인간적인 연주"
+DLG500_INSTR_017 = "모든 악기, 앰프 그리고 이펙트의 상표 또는 등록상표는 각 소유사의 재산이며, %s과 연관되거나 관련된 사실이 없습니다."
+
+*****************************
+* v5.0 NOTE DURATION WINDOW *
+*****************************
+ 
+DLG500_NOTE_DURATION_000
+DLG500_NOTE_DURATION_001 = "음 길이"
+
+**************************
+* v5.0 GRACE NOTE WINDOW *
+**************************
+
+DLG500_GRACE_000
+DLG500_GRACE_001 = "위치"
+DLG500_GRACE_002 = "박자 전에"
+DLG500_GRACE_003 = "박자 위에"
+
+************************
+* v5.0 HARMONIC WINDOW *
+************************
+
+DLG500_HARM_000
+DLG500_HARM_001 = "인위적 하모닉"
+DLG500_HARM_002 = "인위적 하모닉 종류"
+DLG500_HARM_003 = "인위적 하모닉"
+DLG500_HARM_004 = "Tapped 하모닉"
+DLG500_HARM_005 = "Pinch 하모닉"
+DLG500_HARM_006 = "Semi 하모닉"
+DLG500_HARM_007 = "왼손:"
+DLG500_HARM_008 = "오른손:"
+
+**************************
+* v5.0 SCORE INFO WINDOW *
+**************************
+ 
+DLG500_SCORE_INFO_000
+DLG500_SCORE_INFO_001 = "작사"
+DLG500_SCORE_INFO_002 = "작곡"
+DLG500_SCORE_INFO_003 = "RSE Master 효과 (모든 트랙들에 적용)"
+DLG500_SCORE_INFO_004 = "효과:"
+
+*********************
+* v5.0 PRINT WINDOW *
+*********************
+
+DLG500_PRT_000
+DLG500_PRT_001 = "위치"
+DLG500_PRT_002 = "스케일:"
+DLG500_PRT_003 = "페이지에 맞춤"
+DLG500_PRT_004 = "문서 가운데 맞춤"
+
+********************************
+* v5.0 WAVE EXPORTATION WINDOW *
+********************************
+ 
+DLG500_EXPWAV_000
+DLG500_EXPWAV_001 = "WAVE 추출"
+DLG500_EXPWAV_002 = "Record Driver"
+DLG500_EXPWAV_003 = "품질"
+DLG500_EXPWAV_004 = "Hz"
+DLG500_EXPWAV_005 = "bits"
+
+*******************************
+* v5.0 PAGE PROPERTIES WINDOW *
+*******************************
+ 
+DLG500_PAGE_PROP_000
+DLG500_PAGE_PROP_001 = "페이지 설정"
+DLG500_PAGE_PROP_002 = "악보 새로고침"
+DLG500_PAGE_PROP_003 = "기본설정으로 저장"
+DLG500_PAGE_PROP_004 = "기본설정 적용"
+DLG500_PAGE_PROP_005 = "페이지 포맷"
+DLG500_PAGE_PROP_006 = "방향"
+DLG500_PAGE_PROP_007 = "세로"
+DLG500_PAGE_PROP_008 = "가로"
+DLG500_PAGE_PROP_009 = "악보 크기"
+DLG500_PAGE_PROP_010 = "비율:"
+DLG500_PAGE_PROP_011 = "여백"
+DLG500_PAGE_PROP_012 = "왼쪽"
+DLG500_PAGE_PROP_013 = "오른쪽"
+DLG500_PAGE_PROP_014 = "위"
+DLG500_PAGE_PROP_015 = "아래"
+DLG500_PAGE_PROP_016 = "머릿글 && 바닥글"
+DLG500_PAGE_PROP_017 = "제목"
+DLG500_PAGE_PROP_018 = "부제목"
+DLG500_PAGE_PROP_019 = "아티스트"
+DLG500_PAGE_PROP_020 = "앨범"
+DLG500_PAGE_PROP_021 = "작사"
+DLG500_PAGE_PROP_022 = "작곡"
+DLG500_PAGE_PROP_023 = "작사 && 작곡"
+DLG500_PAGE_PROP_024 = "저작권"
+DLG500_PAGE_PROP_025 = "페이지 번호"
+
+******************************
+* v5.0 TIME SIGNATURE WINDOW *
+******************************
+
+DLG500_TIMES_000
+DLG500_TIMES_001 = "8분음표부터 기연결"
+DLG500_TIMES_002 = "총계"
+
+***********************
+* v5.0 SYNCOPE WINDOW *
+***********************
+
+DLG500_SYNCOPE_000
+DLG500_SYNCOPE_001 = "셋잇단음표 느낌"
+DLG500_SYNCOPE_002 = "셋잇단음표 느낌 없음"
+DLG500_SYNCOPE_003 = "8분 셋잇단음표"
+DLG500_SYNCOPE_004 = "16분 셋잇단음표"
+DLG500_SYNCOPE_005 = "끝까지"
+
+**************************
+* v5.0 TRACK INFO WINDOW *
+**************************
+ 
+DLG500_TRACK_INFO_000
+DLG500_TRACK_INFO_001 = "기보법"
+DLG500_TRACK_INFO_002 = "표준 악보"
+DLG500_TRACK_INFO_003 = "타브 악보"
+DLG500_TRACK_INFO_004 = "타브 악보 [fret = midi note]"
+DLG500_TRACK_INFO_005 = "스타일"
+DLG500_TRACK_INFO_006 = "악보에 튜닝 표시하기"
+DLG500_TRACK_INFO_007 = "타브와 함께 리듬 보이기"
+DLG500_TRACK_INFO_008 = "가로 마디 넣기"
+DLG500_TRACK_INFO_009 = "악보 맨 위에 도표 리스트"
+DLG500_TRACK_INFO_010 = "악보 안에 도표"
+DLG500_TRACK_INFO_011 = "표준 악보 아래 도표/코드"
+DLG500_TRACK_INFO_012 = "채널들"
+DLG500_TRACK_INFO_013 = "채널 11 에서 16까지 할당"
+
+***************************
+* v5.0 PREFERENCES WINDOW *
+***************************
+ 
+DLG500_PREF_000
+DLG500_PREF_001 = "시작하기"
+DLG500_PREF_002 = "Splash 보기"
+DLG500_PREF_003 = "자동 최근파일 열기"
+DLG500_PREF_004 = "보기"
+DLG500_PREF_005 = "Multitrack 보기로 자동 변환"
+DLG500_PREF_006 = "재생"
+DLG500_PREF_007 = "편집 중 재생"
+DLG500_PREF_008 = "편집 중 MIDI 재생 "
+
+*********************
+* v5.0 ORDER WINDOW *
+*********************
+
+DLG500_REG_000
+DLG500_REG_001 = "5.x 버전으로 무상 업그레이드"
+DLG500_REG_002 = "차기 버전 6으로 업그레이드 특별 할인혜택"
+
+**********************************
+* v5.0 REGISTER YOUR COPY WINDOW *
+**********************************
+
+DLG500_REGC_000
+DLG500_REGC_001 = "5.x 버전으로 무상 업그레이드"
+DLG500_REGC_002 = "차기 버전 6으로 업그레이드 특별 할인혜택"
+
+************
+* v5.0 RSE *
+************
+
+RSE500_000
+RSE500_001 = "RSE 로딩"
+RSE500_002 = "로딩 %s"
+RSE500_003 = "RSE Error %s"
+RSE500_004 = "트랙 %s에 대한 기본 프리셋이 없습니다."
+RSE500_005 = "RSE CPU:"
+
+********************
+* v5.0 LOOP WINDOW *
+********************
+
+DLG500_LOOP_000
+DLG500_LOOP_001 = "루프 재생 / 속도 훈련사"
+DLG500_LOOP_002 = "단순 루프"
+DLG500_LOOP_003 = "속도 훈련사"
+
+***********************************
+* v5.0 TRANSPOSE ASSISTANT WINDOW *
+***********************************
+
+DLG500_ASS_TR_000
+DLG500_ASS_TR_001 = "가능한 핑거링 계속"
+
+**********************
+* v5.0 IMPORT WINDOW *
+**********************
+
+DLG500_IMPORT_000
+DLG500_IMPORT_001 = "%s 불러오기"
+DLG500_IMPORT_002 = "정보"
+DLG500_IMPORT_003 = "파일이름:"
+DLG500_IMPORT_004 = "파일 포맷:"
+DLG500_IMPORT_005 = "악보 제목:"
+DLG500_IMPORT_006 = "악보 작성자:"
+DLG500_IMPORT_007 = "버전:"
+DLG500_IMPORT_008 = "진행"
+DLG500_IMPORT_009 = "결과"
+
+**************************
+* v5.0 PTB IMPORT WINDOW *
+**************************
+
+DLG500_PTB_IMP_000
+DLG500_PTB_IMP_001 = "PowerTab 불러오기"
+DLG500_PTB_IMP_002 = "불러오기 모드"
+DLG500_PTB_IMP_003 = "전체 악보"
+DLG500_PTB_IMP_004 = "기타만"
+DLG500_PTB_IMP_005 = "베이스만"
+DLG500_PTB_IMP_006 = "옵션"
+DLG500_PTB_IMP_007 = "Break Line 들 유지"
+DLG500_PTB_IMP_008 = "파일 [%s] 가 존재하지 않습니다."
+DLG500_PTB_IMP_009 = "파일 [%s] 는 유효한 PowerTab파일이 아닙니다."
+DLG500_PTB_IMP_010 = "오직 v1.7 파일들만 지원됩니다."
+DLG500_PTB_IMP_011 = "잘못된 Data"
+DLG500_PTB_IMP_012 = "[%s] 요소 추출 중 에러 - 잘못된 Powertab 파일"
+DLG500_PTB_IMP_013 = "잘못된 Data [ReleaseType]"
+DLG500_PTB_IMP_014 = "Data 분석 중 문제발생. 파일이 잘못된 것 같습니다."
+DLG500_PTB_IMP_015 = "헤더 분석 중..."
+DLG500_PTB_IMP_016 = "Guitar 트랙 분석 중..."
+DLG500_PTB_IMP_017 = "Bass 트랙 분석 중..."
+DLG500_PTB_IMP_018 = "폰트 분석 중..."
+DLG500_PTB_IMP_019 = "분석 완료"
+DLG500_PTB_IMP_020 = "헤더 변환 중..."
+DLG500_PTB_IMP_021 = "Guitar 트랙 변환 중..."
+DLG500_PTB_IMP_022 = "Bass 트랙 변환 중..."
+DLG500_PTB_IMP_023 = "불러오기 완료"
+DLG500_PTB_IMP_024 = "불러오기 중단됨"
+
+**************************
+* v5.0 TEF IMPORT WINDOW *
+**************************
+
+DLG500_TEF_IMP_000
+DLG500_TEF_IMP_001 = "[%s] 파일은 TablEdit 파일이 아닙니다."
+DLG500_TEF_IMP_002 = "[%s] 파일을 열 수 없습니다." 
+DLG500_TEF_IMP_003 = "존재하지 않는 코드"
+DLG500_TEF_IMP_004 = "존재하지 않는 마디"
+DLG500_TEF_IMP_005 = "많은 현들이 %s 될 수 없습니다 - 에러있는 TablEdit 파일"
+DLG500_TEF_IMP_006 = "하모니카 트랙을 불러오지 못했습니다"
+DLG500_TEF_IMP_007 = "아코디언 트랙을 불러오지 못했습니다"
+DLG500_TEF_IMP_008 = "'당김음 변화'에서 '3연음 느낌의 8분음'으로 변환"
+DLG500_TEF_IMP_009 = "%t 트랙의 %s 마디에 운률 에러"
+DLG500_TEF_IMP_010 = "%t 트랙 두번째 voice의 %s 마디에 운률 에러"
+DLG500_TEF_IMP_011 = "%t 트랙의 %s 마디에 리듬 수정"
+DLG500_TEF_IMP_012 = "%t 트랙의 %s 마디에 리듬 수정"
+DLG500_TEF_IMP_013 = "에러 없음"
+
+**************************
+* v5.0 XML IMPORT WINDOW *
+**************************
+
+DLG500_XML_IMP_000
+DLG500_XML_IMP_001 = "불러오기 실패: PARTWISE 이거나 TIMEWISE 입니다."
+DLG500_XML_IMP_002 = "잘못된 XML 파일."
+
+**************************
+* v5.0 PDF EXPORT WINDOW *
+**************************
+
+DLG500_PDF_EXP_000
+DLG500_PDF_EXP_001 = "PDF 문서가 이미 PDF 뷰어에 열려있습니다. PDF내보내기 하기 전에 닫으세요."
+
+**************************
+* v5.0 BMP EXPORT WINDOW *
+**************************
+
+DLG500_BMP_EXP_000
+DLG500_BMP_EXP_001 = "파일에 기록할 수 없습니다. BMP 내보내기가 중단되었습니다."
+DLG500_BMP_EXP_002 = "Out Of Memory. BMP 내보내기가 중단되었습니다."
+
+*********************************
+* v5.0 SEARCH ON THE WEB WINDOW *
+*********************************
+
+DLG500_TAB_WEB_000
+DLG500_TAB_WEB_001 = "사이트가 존재하지 않습니다. 첫번째 버튼을 사용하세요."
+
+***************************
+*  v5.0 NEW TUNING WINDOW *
+***************************
+
+DLG500_NEWTUNE_000
+DLG500_NEWTUNE_001 = "악보 레이블:"
+DLG500_NEWTUNE_002 = "디폴트 MIDI 악기:"
+
+****************************************
+* v5.0 CHECK DURATION ASSISTANT WINDOW *
+****************************************
+
+DLG500_ASS_CD_000
+DLG500_ASS_CD_001 = "마디 %s - 트랙 %s - voice %s에 유효하지않은 마디길이."
+
+****************
+* v5.0 GENERAL *
+****************
+ 
+GENE500_000
+GENE500_001 = "데모버전에서는 파일이 수정되면 GP4 포맷으로 내보내기를 할 수 없습니다."
+GENE500_002 = "반드시 파일을 열고 직접 불러오기 기능을 사용해야 합니다."
+GENE500_003 = "Guitar Pro 4 파일"
+GENE500_004 = "Bitmap 파일"
+GENE500_005 = "Wave 파일"
+GENE500_006 = "PDF 파일"
+GENE500_007 = "PowerTab 파일"
+GENE500_008 = "TablEdit 파일"
+GENE500_009 = "MusicXML 파일"
+
+**********************
+* v5.0 MENUS & HINTS *
+**********************
+
+MN500_000
+MN500_001 = "기타 프로 4 포맷"
+MN500_002 = "페이지 설정"
+MN500_003 = "편집(&E)"
+MN500_004 = "전체 선택"
+MN500_005 = "Voices"
+MN500_006 = "편집 Voice 1 [Lead]"
+MN500_007 = "편집 Voice 2 [Bass]"
+MN500_008 = "Inactive Voice 비활성화 "
+MN500_009 = "셋잇단음표 느낌"
+MN500_010 = "악상 기호"
+MN500_011 = "Break Line"
+MN500_012 = "Break Line 넣기"
+MN500_013 = "Break Line 막기"
+MN500_014 = "마디 구조 리셋"
+MN500_015 = "악기"
+MN500_016 = "위로"
+MN500_017 = "아래로"
+MN500_018 = "음표"
+MN500_019 = "점 음표"
+MN500_020 = "Tuplet괄호넣기"
+MN500_021 = "자동 기둥연결"
+MN500_022 = "기연결 넣기"
+MN500_023 = "기연결 나누기"
+MN500_024 = "두번째 기연결 나누기"
+MN500_025 = "자동 기둥"
+MN500_026 = "역 기둥"
+MN500_027 = "센 강조 기호"
+MN500_028 = "닫기" { for WahWah }
+MN500_029 = "열기" { for WahWah }
+MN500_030 = "보이기 [Wah On]" { for WahWah => do not change term [Wah On]}
+MN500_031 = "끔" { for WahWah }
+MN500_032 = "루프 재생 / 속도 훈련사"
+MN500_033 = "RSE 사용 [Realistic Sound Engine]"
+MN500_034 = "페이지 모드"
+MN500_035 = "양피지 모드"
+MN500_036 = "수직 스크린 모드"
+MN500_037 = "수평 스크린 모드"
+MN500_038 = "표준 기보 숨기기"
+MN500_039 = "타브 숨기기"
+MN500_040 = "스킨"
+MN500_041 = "음 길이"
+MN500_042 = "음표기호" {name of the toolbar}
+MN500_043 = "조옮김" {name of the toolbar}
+
+**************************
+* v5.0 REPEAT END WINDOW *
+**************************
+
+DLG500_REPE_000
+DLG500_REPE_001 = "연주"
+DLG500_REPE_002 = "횟수"
+
+******************
+* v5.0 ADDTIONAL *
+******************
+
+ADD500_000
+ADD500_001 = "연주"
+ADD500_002 = "카포"
+ADD500_003 = "기타프로 웹"
+ADD500_004 = "아티스트:"
+
+*************
+* v5.0 DEMO *
+*************
+
+DEMO500_000
+DEMO500_001 = "The demo version does not allow you to export into MusicXML format."
+DEMO500_002 = "What's RSE?" { instrument window }
+DEMO500_003 = "The evaluation period has ended."
+DEMO500_004 = "Saving limited to 24 bars"
+DEMO500_005 = "[Demo Version] mention on the Printing and Exports"
+DEMO500_006 = "MusicXML Export disabled"
+DEMO500_007 = "RSE [Realistic Sound Engine] disabled"
+DEMO500_008 = "The RSE [Realistic Sound Engine] offers a unique playback rendering in real time, without any special sound card or additional material."
+DEMO500_009 = "It is only available in the complete version of Guitar Pro."
+DEMO500_010 = "Sample using Standard MIDI Playback"
+DEMO500_011 = "Sample using RSE Playback"
+DEMO500_012 = "Click here" { clickable part of the sentence }
+DEMO500_013 = "to listen to more RSE Samples" { end of the sentence }
+
+**********************
+* v5.1 MENUS & HINTS *
+*********************
+
+MN510_000
+MN510_001 = "Change Accidental"
+MN510_002 = "오디오 셋팅 (MIDI/RSE)"
+
+********************************
+* v5.1 WAVE EXPORTATION WINDOW *
+********************************
+ 
+DLG510_EXPWAV_000
+DLG510_EXPWAV_001 = "정보"
+DLG510_EXPWAV_002 = "품질:"
+DLG510_EXPWAV_003 = "도움말:"
+DLG510_EXPWAV_004 = "- [Stereo Mix] 라인이 첵크상태인지 확인하세요"
+DLG510_EXPWAV_005 = "- 레벨 값이 너무 낮은지 확인하세요"
+DLG510_EXPWAV_006 = "레코드 믹스테이블 윈도우를 열기는 이미지 클릭."
+
+*********************
+* v5.1 DEBUG WINDOW *
+*********************
+ 
+DLG510_DEBUG_000
+DLG510_DEBUG_001 = "디버그"
+DLG510_DEBUG_002 = "기타프로 기술지원에 로그인"
+DLG510_DEBUG_003 = "기타프로 종료"
+DLG510_DEBUG_004 = "계속해서 기타프로 사용하기"
+DLG510_DEBUG_005 = "치명적인 에러"
+DLG510_DEBUG_006 = "기타 프로 기술지원과 연락하시려면,"
+DLG510_DEBUG_007 = "아래 버튼을 클릭하시고 붙여넣기 하세요"
+DLG510_DEBUG_008 = "이것은 [CTRL+V] 키로 당신의 메시지를 보고합니다."
+DLG510_DEBUG_009 = "또한 당신이 작업하는 기타프로 화일을 첨부할 수 있습니다."
+DLG510_DEBUG_010 = "그리고 마지막 작업의 설명 역시 마찬가지입니다."
+
+***************************
+* v5.1 INSTRUMENTS WINDOW *
+***************************
+ 
+DLG510_INSTR_000
+DLG510_INSTR_001 = "디폴트 값 설정"
+DLG510_INSTR_002 = "[%s] 이 사운드는 기본적으로 미디 악기 [%t]에 영향받습니다. 확인?"
+DLG510_INSTR_003 = "자동"
+DLG510_INSTR_004 = "Auto-Let Ring"
+DLG510_INSTR_005 = "자동-브러쉬"
+DLG510_INSTR_006 = "3-Band EQ"
+DLG510_INSTR_007 = "Low" 
+DLG510_INSTR_008 = "Mid"
+DLG510_INSTR_009 = "High" 
+DLG510_INSTR_010 = "프리" { "프리-앰프" 의미 }
+
+**************************
+* v5.1 MIDI SETUP WINDOW *
+**************************
+
+DLG510_MIDISETUP_000
+DLG510_MIDISETUP_001 = "오디오 설정"
+DLG510_MIDISETUP_002 = "RSE 설정"
+DLG510_MIDISETUP_003 = "출력"
+DLG510_MIDISETUP_004 = "오디오"
+DLG510_MIDISETUP_005 = "사운드 카드"
+DLG510_MIDISETUP_006 = "DSP/VST 버퍼"
+DLG510_MIDISETUP_007 = "버퍼 길이 (in sample)"
+DLG510_MIDISETUP_008 = "버퍼의 수"
+DLG510_MIDISETUP_009 = "포맷"
+DLG510_MIDISETUP_010 = "Frequency"
+DLG510_MIDISETUP_011 = "채널"
+DLG510_MIDISETUP_012 = "해상도"
+DLG510_MIDISETUP_013 = "Resample Method"
+DLG510_MIDISETUP_014 = "가상 Voices"
+DLG510_MIDISETUP_015 = "레이턴시"
+DLG510_MIDISETUP_016 = "디폴트"
+DLG510_MIDISETUP_017 = "모노"
+DLG510_MIDISETUP_018 = "스테레오"
+DLG510_MIDISETUP_019 = "No Interpolation"
+DLG510_MIDISETUP_020 = "Linear Interpolation"
+DLG510_MIDISETUP_021 = "Cubic Interpolation"
+DLG510_MIDISETUP_022 = "5 point Spline Interpolation"
+
+**************************
+* v5.1 SCORE INFO WINDOW *
+**************************
+ 
+DLG510_SCORE_INFO_000
+DLG510_SCORE_INFO_001 = "왼쪽"
+DLG510_SCORE_INFO_002 = "스펙트럼"
+DLG510_SCORE_INFO_003 = "오른쪽"
+DLG510_SCORE_INFO_004 = "마스터 볼륨"
+DLG510_SCORE_INFO_005 = "마스터 리버브"
+DLG510_SCORE_INFO_006 = "10-Band Master EQ"
+DLG510_SCORE_INFO_007 = "프리" { "프리-앰프" 의미 }
+DLG510_SCORE_INFO_008 = "- 이퀄라이저 없음 -"
+
+**************************
+* v5.1 TRACK INFO WINDOW *
+**************************
+ 
+DLG510_TRACK_INFO_000
+DLG510_TRACK_INFO_001 = "탭 내부에 리듬 확장하기"
+
+*********************************
+* v5.1 SEARCH ON THE WEB WINDOW *
+*********************************
+ 
+DLG510_SEARCHONWEB_000
+DLG510_SEARCHONWEB_001 = "노래 제목으로"
+DLG510_SEARCHONWEB_002 = "아티스트 이름으로"
+
+*********************
+* v5.1 TEMPO WINDOW *
+*********************
+ 
+DLG510_TEMPO_000
+DLG510_TEMPO_001 = "숨기기"
+
+*********************************************
+* v5.1 MAC MAIN TOOLBAR TEXTS UNDER BUTTONS *
+*********************************************
+
+MAC510_MAINTOOLBAR_000
+MAC510_MAINTOOLBAR_001 = "새로 열기"
+MAC510_MAINTOOLBAR_002 = "열기"
+MAC510_MAINTOOLBAR_003 = "정보"
+MAC510_MAINTOOLBAR_004 = "페이지 설정"
+MAC510_MAINTOOLBAR_005 = "프린트"
+MAC510_MAINTOOLBAR_006 = "작업취소"
+MAC510_MAINTOOLBAR_007 = "다시하기"
+MAC510_MAINTOOLBAR_008 = "자르기"
+MAC510_MAINTOOLBAR_009 = "복사"
+MAC510_MAINTOOLBAR_010 = "붙여넣기"
+MAC510_MAINTOOLBAR_011 = "트랙 속성"
+MAC510_MAINTOOLBAR_012 = "악기"
+MAC510_MAINTOOLBAR_013 = "설정"
+MAC510_MAINTOOLBAR_014 = "연주"
+MAC510_MAINTOOLBAR_015 = "멈춤"
+MAC510_MAINTOOLBAR_016 = "첫째 마디"
+MAC510_MAINTOOLBAR_017 = "이전 마디"
+MAC510_MAINTOOLBAR_018 = "다음 마디"
+MAC510_MAINTOOLBAR_019 = "마지막 마디"
+
+*************************
+* v5.1 MAC ALERT PANELS *
+*************************
+
+MAC510_ALERTPANEL_000
+MAC510_ALERTPANEL_001 = "이 문서에서 변경하신 내용을 저장하시겠습니까?"
+MAC510_ALERTPANEL_002 = "저장하지 않으면 변경내용을 잃게 됩니다."
+MAC510_ALERTPANEL_003 = "저장하지 않기"
+MAC510_ALERTPANEL_004 = "취소"
+MAC510_ALERTPANEL_005 = "저장"
+MAC510_ALERTPANEL_006 = "스킨이 없습니다"
+
+****************************
+* v5.1 MAC GUITAR PRO MENU *
+****************************
+
+MAC510_GUITARPROMENU_000
+MAC510_GUITARPROMENU_001 = "기타프로에 대하여"
+MAC510_GUITARPROMENU_002 = "기타프로 숨기기"
+MAC510_GUITARPROMENU_003 = "다른 것들 숨기기"
+MAC510_GUITARPROMENU_004 = "모두 보이기"
+MAC510_GUITARPROMENU_005 = "기타프로 종료"
+
+**********************
+* v5.1 MAC FILE MENU *
+**********************
+
+MAC510_FILEMENU_000
+MAC510_FILEMENU_001 = "최근 것 열기"
+MAC510_FILEMENU_002 = "메뉴 지우기"
+MAC510_FILEMENU_003 = "닫기"
+MAC510_FILEMENU_004 = "프린터 설정..."
+
+***********************
+* v5.1 MAC SOUND MENU *
+***********************
+
+MAC510_SOUNDMENU_000
+MAC510_SOUNDMENU_001 = "RSE 설정..."
+MAC510_SOUNDMENU_002 = "템포 = "
+
+************************
+* v5.1 MAC WINDOW MENU *
+************************
+
+MAC510_WINDOWMENU_000
+MAC510_WINDOWMENU_001 = "윈도우"
+MAC510_WINDOWMENU_002 = "최소화"
+MAC510_WINDOWMENU_003 = "줌"
+MAC510_WINDOWMENU_004 = "도구 윈도우"
+MAC510_WINDOWMENU_005 = "연주"
+MAC510_WINDOWMENU_006 = "트랙"
+MAC510_WINDOWMENU_007 = "Drawer"
+MAC510_WINDOWMENU_008 = "툴바 커스터마이즈하기..."
+MAC510_WINDOWMENU_009 = "모두 앞으로 가져오기"
+
+**********************
+* v5.1 MAC HELP MENU *
+**********************
+
+MAC510_HELPMENU_000
+MAC510_HELPMENU_001 = "기타 프로 도움말"

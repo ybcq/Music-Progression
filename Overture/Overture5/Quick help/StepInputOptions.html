@@ -1,0 +1,242 @@
+﻿<html>
+	
+<head>
+	<title>Step Input Options</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("StepInputOptions");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Step Input Options</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="GettingStarted.html">Getting Started</a> &rsaquo;&rsaquo; <a href="Enteringnotes.html">Entering notes</a> &rsaquo;&rsaquo; <a href="UsingStepInput.html">Using Step Input</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="UsingStepInput.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="UsingStepInput.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="StepInputtingSlashes.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<p class="rvps2"><span class="rvts6">To open the Step Input options click on the Inspector icon at the bottom right of Note Palette.</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NewItem195.png"></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Duration Area</span></p>
+<p class="rvps2"><span class="rvts6">The duration is the </span><span class="rvts17">length</span><span class="rvts6"> of the note you step enter.</span></p>
+<p class="rvps2"><span class="rvts6">The duration is different from the size; the </span><span class="rvts17">duration</span><span class="rvts6"> is the length of the note, and the </span><span class="rvts17">size</span><span class="rvts6"> is the amount of time the counter advances each step. The space between notes is called the </span><span class="rvts17">gap</span><span class="rvts6">. Duration + Gap = Size.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Percent</span><span class="rvts6">. Select this duration mode to have Overture calculate a note duration as a percentage of the step size.</span></p>
+<p class="rvps2"><span class="rvts6">Set the percentage by entering it in the Percentage Amount field.</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Velocity Area</span></p>
+<p class="rvps2"><span class="rvts6">Velocity is the parameter that defines how hard you struck a note.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">You can select one of two possible velocity modes.</span></p>
+<p class="rvps6"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li style="margin-left: 0px" class="rvps19"><span class="rvts12">As Played</span><span class="rvts6">. Select this velocity mode to insert notes at exactly the velocity you play them.</span></li>
+<li style="margin-left: 0px" class="rvps19"><span class="rvts12">Constant</span><span class="rvts6">. Select this velocity mode to insert notes of a set velocity, regardless of the actual velocity you play.</span><br/><span class="rvts6">Set the desired constant velocity value by entering it into the Constant Velocity field.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Note Stems</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Force Stems Up</span><span class="rvts6">. When you select this option, Overture makes the stems of any step-entered notes point upward, regardless of staff position. Select this option to enable it (put a check beside it); select it again to disable it. </span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Force Stems Down</span><span class="rvts6">. When you select this option, Overture makes the stems of any step-entered notes point downward, regardless of staff position. Select this option to enable it (put a check beside it); select it again to disable it. </span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Force Accidentals to Sharps</span><span class="rvts6">. When you select this option, Overture notates any accidentals as sharps, regardless of the key. Select this option to enable it (put a check beside it); select it again to disable it. </span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Force Accidentals to Flats</span><span class="rvts6">. When you select this option, Overture notates any accidentals as flats, regardless of the key. Select this option to enable it (put a check beside it); select it again to disable it. </span></li>
+</ul>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">The Step Input options contains four different areas, though not all areas are available at all times. These areas are:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Type</span><span class="rvts6"> area. Use this top portion of the window to define the type of symbol you want to input and any related options. This area also contains a counter, showing exact metrical location and pitch. </span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Size</span><span class="rvts6"> area. Use this portion of the window to set the amount of time the counter advances each time you play a note. Size appears as both an actual note value and as a number of units (480 units = one quarter note). </span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Duration</span><span class="rvts6"> area. Use this portion of the window to set the actual duration of the MIDI note you enter. This area is not available if you’re entering chord names. </span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Velocity</span><span class="rvts6"> area. Use this portion of the window to set the actual velocity of the MIDI note you will enter. This area is not available if you’re entering chord names. </span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Transpose Pitch</span></p>
+<p class="rvps2"><span class="rvts6">When you select this option, Overture transposes pitchees using the tracks' transposition settings. See the </span><a class="rvts11" href="TrackInspectorPanel.html">Track Inspector</a><span class="rvts6"> panel for transposition settings.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">The following sections discuss each area in detail.</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Type Area</span></p>
+<p class="rvps2"><span class="rvts6">Use this area to define the type of symbol you want to input, to set options related to that symbol, and to view pitch and meter placement of any step-entered data.</span></p>
+<p class="rvps2"><span class="rvts6">The Type area contains four elements:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li style="margin-left: 0px" class="rvps4"><span class="rvts6">Input Select button </span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts6">Options pop-up menu </span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts6">Counter </span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts6">Pitch indicator </span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">We discuss each element in one of the following sections.</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Input Select button</span></p>
+<p class="rvps2"><span class="rvts6">Press and hold the mouse on this button to open the Input Select pop-up menu.</span></p>
+<p class="rvps2"><span class="rvts6">Select the type of symbol you want to step-enter from the Step Input pop-up menu. Overture lets you step-enter five types of music symbols: notes, rests, slashes, rhythmic slashes, and chord names.</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Options pop-up menu</span></p>
+<p class="rvps2"><span class="rvts6">Move the cursor over the </span><span class="rvts12">Options</span><span class="rvts6"> button, then press and hold the mouse to open the Options pop-up menu.</span></p>
+<p class="rvps2"><span class="rvts6">Use the pop-up Options menu to select various step-entry notation options:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Force Stems Up</span><span class="rvts6">. When you select this option, Overture makes the stems of any step-entered notes point upward, regardless of staff position. Select this option to enable it (put a check beside it); select it again to disable it. </span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Force Stems Down</span><span class="rvts6">. When you select this option, Overture makes the stems of any step-entered notes point downward, regardless of staff position. Select this option to enable it (put a check beside it); select it again to disable it. </span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Force Accidentals to Sharps</span><span class="rvts6">. When you select this option, Overture notates any accidentals as sharps, regardless of the key. Select this option to enable it (put a check beside it); select it again to disable it. </span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Force Accidentals to Flats</span><span class="rvts6">. When you select this option, Overture notates any accidentals as flats, regardless of the key. Select this option to enable it (put a check beside it); select it again to disable it. </span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Tie Previous Two Notes</span><span class="rvts6">. This is actually a command, not an option. When you choose this command, Overture automatically ties together the two notes immediately to the left of the input point. This command allows you to step-enter tied notes easily. </span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Duplicate Previous</span><span class="rvts6">. This command is enabled only when you are step-entering slashes. Use it to copy the previous measure's slash pattern into the active measure. </span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Duplicate Previous to End</span><span class="rvts6">. This command is enabled only when you are step-entering slashes. Use it to copy the previous measure's slash pattern into all remaining measures in the score. </span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts32">Don't Transpose Pitch</span><span class="rvts6">. When you select this option, notes played on your MIDI keyboard will be entered as non-transposed notes on your score. Otherwise they will be transposed using the tracks' transposition settings (in Setup Track dialog) if the Score is in Transposed mode. </span></li>
+</ul>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Counter</span></p>
+<p class="rvps2"><span class="rvts6">The Counter displays (in bars, beats and units) the location of the step you're about to enter.</span></p>
+<p class="rvps2"><span class="rvts6">The bar number displays the measure number containing the insertion point. The beat number displays how many beats the insertion point is into the measure. The unit number displays how many units the insertion point is into the beat. Overture records and plays notes with a resolution of 480 units per quarter note, so an eighth note would equal 240 units; a sixteenth note would equal 120 units, and so on.</span></p>
+<p class="rvps2"><span class="rvts6">The counter display shown above indicates that the cursor is at 8 · 2 · 240. This means the insertion point is in the eighth measure and midway through the second beat.</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Pitch Indicator</span></p>
+<p class="rvps2"><span class="rvts6">The Pitch Indicator displays, as a MIDI note number, the pitch of the note you’re about to enter. MIDI supports 128 notes ranging from C2 to G8 with Middle C = C3.</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Size Area</span></p>
+<p class="rvps2"><span class="rvts6">This area sets the amount of time the counter advances each time you play a note. Overture displays the step size as both a note value and as an exact number of units (480 units = one quarter note).</span></p>
+<p class="rvps2"><span class="rvts6">There are several ways to set the size:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Method 1</span><span class="rvts6">: Select a size from the Note Size pop-up menu. </span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Method 2</span><span class="rvts6">: Use the </span><span class="rvts12">units</span><span class="rvts6"> numerical to enter a new step size. </span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts6">If you enter a value in the units field that is not an equal subdivision of the beat, the Note Size button shows a “&gt;” or “&lt;” symbol along with the current note size. </span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Method 3</span><span class="rvts6">: Use the computer keyboard to set step size. </span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">As shown in the table below, you can type keys on your computer keyboard to set the step size.</span></p>
+<div class="rvps2"><table border="0" cellpadding="0" cellspacing="0" style="border-width: 0px; border-spacing: 0px;">
+<tr valign="top">
+<td width="80" valign="middle" style="padding: 0px;"><p class="rvps2"><span class="rvts12">Key</span></p>
+</td>
+<td width="312" valign="middle" style="padding: 0px;"><p class="rvps2"><span class="rvts12">Function</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="80" valign="middle" style="padding: 0px;"><p class="rvps2"><span class="rvts6">1</span></p>
+</td>
+<td width="312" valign="middle" style="padding: 0px;"><p class="rvps2"><span class="rvts6">Set value to whole note/rest</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="80" valign="middle" style="padding: 0px;"><p class="rvps2"><span class="rvts6">2</span></p>
+</td>
+<td width="312" valign="middle" style="padding: 0px;"><p class="rvps2"><span class="rvts6">Set value to half note/rest</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="80" valign="middle" style="padding: 0px;"><p class="rvps2"><span class="rvts6">4</span></p>
+</td>
+<td width="312" valign="middle" style="padding: 0px;"><p class="rvps2"><span class="rvts6">Set value to quarter note/rest</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="80" valign="middle" style="padding: 0px;"><p class="rvps2"><span class="rvts6">8</span></p>
+</td>
+<td width="312" valign="middle" style="padding: 0px;"><p class="rvps2"><span class="rvts6">Set value to eighth note/rest</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="80" valign="middle" style="padding: 0px;"><p class="rvps2"><span class="rvts6">6</span></p>
+</td>
+<td width="312" valign="middle" style="padding: 0px;"><p class="rvps2"><span class="rvts6">Set value to sixteenth note/rest</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="80" valign="middle" style="padding: 0px;"><p class="rvps2"><span class="rvts6">5</span></p>
+</td>
+<td width="312" valign="middle" style="padding: 0px;"><p class="rvps2"><span class="rvts6">Set value to thirty-second note/rest</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="80" valign="middle" style="padding: 0px;"><p class="rvps2"><span class="rvts6">3</span></p>
+</td>
+<td width="312" valign="middle" style="padding: 0px;"><p class="rvps2"><span class="rvts6">Turn triplets on or off</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="80" valign="middle" style="padding: 0px;"><p class="rvps2"><span class="rvts6">.</span></p>
+</td>
+<td width="312" valign="middle" style="padding: 0px;"><p class="rvps2"><span class="rvts6">Turn the dot on or off</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Tuplet Check box</span></p>
+<p class="rvps2"><span class="rvts6">You can also define the size as a tuplet by clicking the Tuplet check box. This lets you create complex timing divisions, like five notes in the space of one quarter note.</span></p>
+<p class="rvps2"><span class="rvts6">Use the mouse or keyboard to set tuplet fields. Overture automatically calculates the units and updates the note size pop-up.</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

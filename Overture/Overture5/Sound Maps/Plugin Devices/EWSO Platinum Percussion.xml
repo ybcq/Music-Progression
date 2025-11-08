@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTNameDocument name="EWQLSO Platinum Percussion">
+  <Version>1</Version>
+  <Author>Sonic Scores</Author>
+  <Device name="EWQLSO Platinum Percussion" />
+  <ControllerNames>
+    <Controller name="Modulation" cc="1" />
+    <Controller name="Panning" cc="10" />
+    <Controller name="Sustain" cc="64" />
+    <ControllerSwitchList name="EWQLSO Percussion">
+      <Controller name="Volume (Expression)" cc="11" />
+      <Controller name="Master Volume" cc="7" />
+      <Controller name="Legato Time / Portamento Time" cc="5" />
+      <Controller name="Portamento On/Off" cc="65" />
+      <Controller name="Legato On/Off" cc="68" />
+      <Controller name="Repetition On/Off" cc="69" />
+    </ControllerSwitchList>
+  </ControllerNames>
+  <ArticulationNames>
+    <Articulation name="Marcato" velocityAdd="10" durationPct="90" />
+    <Articulation name="Marcato Dot" velocityAdd="15" durationPct="40" />
+    <Articulation name="Heavy Attack" velocityAdd="10" durationPct="100" />
+    <Articulation name="SForzando" velocityAdd="20" />
+    <Articulation name="SForzando Dot" velocityAdd="20" durationPct="50" />
+    <Articulation name="Heavier Attack" velocityAdd="20" durationPct="100" />
+    <Articulation name="SForzando Inverted" velocityAdd="20" />
+    <Articulation name="SForzando Dot Inverted" velocityAdd="20" durationPct="50" />
+    <Articulation name="Staccatissimo" velocityAdd="15" durationPct="20" />
+    <Articulation name="Staccato" velocityAdd="15" durationPct="40" />
+    <Articulation name="Tenuto" durationPct="100" />
+    <Articulation name="Up Bow" />
+    <Articulation name="Down Bow" velocityAdd="5" />
+    <Articulation name="Up Bow Inverted" />
+    <Articulation name="Down Bow Inverted" velocityAdd="5" />
+    <Articulation name="Arpeggio" attackFrom="-90" attackTo="0" />
+    <Articulation name="Tremolo Eighths" tremoloNotes="1" />
+    <Articulation name="Tremolo Sixteenths" tremoloNotes="2" />
+    <Articulation name="Tremolo Thirty Seconds" tremoloNotes="3" />
+    <Articulation name="Tremolo Sixty Fourths" tremoloNotes="4" />
+    <Articulation name="pizz" />
+    <Articulation name="arco" durationPct="90" />
+    <Articulation name="legato" velocityPct="75" durationPct="100" />
+  </ArticulationNames>
+  <Instruments>
+    <Section name="CymGong" lownote="c-1" highnote="c9" clef="treble" velocity="on" legato="off">
+      <UsesControllerSwitchList name="EWQLSO Percussion" />
+      <Group name="Cymbals">
+        <Instrument name="12 Band Cymbal" title="Cymbals" abbr="Cym." />
+        <Instrument name="12 Cymbal" title="Cymbals" abbr="Cym." />
+        <Instrument name="16 German Cymbal" title="Cymbals" abbr="Cym." />
+        <Instrument name="18 Cymbal" title="Cymbals" abbr="Cym." />
+        <Instrument name="18 German Cymbal" title="Cymbals" abbr="Cym." />
+        <Instrument name="18 Viennese Cymbal" title="Cymbals" abbr="Cym." />
+        <Instrument name="19 French Cymbal" title="Cymbals" abbr="Cym." />
+        <Instrument name="20 Cymbal" title="Cymbals" abbr="Cym." />
+        <Instrument name="20 French Cymbal" title="Cymbals" abbr="Cym." />
+        <Instrument name="21 French Cymbal" title="Cymbals" abbr="Cym." />
+        <Instrument name="22 Cymbal" title="Cymbals" abbr="Cym." />
+      </Group>
+      <Group name="Gongs">
+        <Instrument name="23 Gong" title="Gongs" abbr="Gong" />
+        <Instrument name="28 Gong" title="Gongs" abbr="Gong" />
+        <Instrument name="48 Gong" title="Gongs" abbr="Gong" />
+        <Instrument name="60 Gong" title="Gongs" abbr="Gong" />
+        <Instrument name="Gongs" title="Gongs" abbr="Gong" />
+      </Group>
+    </Section>
+    <Section name="Drums" lownote="c-1" highnote="c9" clef="treble" velocity="on" legato="off">
+      <UsesControllerSwitchList name="EWQLSO Percussion" />
+      <Group name="Snares">
+        <Instrument name="3 Snares DXF Rolls" title="Snares" abbr="Sd." />
+        <Instrument name="3 Snares" title="Snares" abbr="Sd." />
+        <Instrument name="Snare Ens Large" title="Snares" abbr="Sd." />
+        <Instrument name="Snare Ens Small" title="Snares" abbr="Sd." />
+      </Group>
+      <Group name="Bass Drum">
+        <Instrument name="Bass Drum Concert" title="Bass Drum" abbr="Bdm." clef="bass" />
+        <Instrument name="Bass Drum Wagner" title="Bass Drum" abbr="Bdm." clef="bass" />
+      </Group>
+      <Group name="Timpani">
+        <Instrument name="Timp Crec L" title="Timpani" abbr="Timp." clef="bass" />
+        <Instrument name="Timp Crec S" title="Timpani" abbr="Timp." clef="bass" />
+        <Instrument name="Timp Hits Crec L" title="Timpani" abbr="Timp." clef="bass" />
+        <Instrument name="Timp Hits Crec S" title="Timpani" abbr="Timp." clef="bass" />
+        <Instrument name="Timp Hits" title="Timpani" abbr="Timp." clef="bass" />
+        <Instrument name="Timp Roll DXF Mod" title="Timpani" abbr="Timp." clef="bass" />
+        <Instrument name="Timp Roll Rel Crec" title="Timpani" abbr="Timp." clef="bass" />
+        <Instrument name="Timp Roll" title="Timpani" abbr="Timp." clef="bass" />
+        <Instrument name="Timp Soft Hits" title="Timpani" abbr="Timp." clef="bass" />
+      </Group>
+      <Group name="Other Drums">
+        <Instrument name="5 Toms" title="Toms" abbr="Toms" />
+        <Instrument name="Field Ens" title="Field Drums" abbr="FldDrs." />
+        <Instrument name="Field Funeral Tenor" title="Field Drums" abbr="FldDrs." />
+      </Group>
+    </Section>
+    <Section name="Metals" lownote="c-1" highnote="c9" clef="treble" velocity="on" legato="off">
+      <UsesControllerSwitchList name="EWQLSO Percussion" />
+      <Group name="Anvils">
+        <Instrument name="Anvil Low" title="Anvils" abbr="Anvil" />
+        <Instrument name="Anvil" title="Anvils" abbr="Anvil" />
+      </Group>
+      <Group name="Glock, Vibes, etc.">
+        <Instrument name="Crotales" title="Crotales" abbr="Crot." />
+        <Instrument name="Glock Mellow" title="Glockenspiel" abbr="Glsp." pitchOffset="24" />
+        <Instrument name="Glock" title="Glockenspiel" abbr="Glsp." pitchOffset="24" />
+        <Instrument name="Orch Chimes" title="Orch. Chimes" abbr="OChm." />
+        <Instrument name="Triangle" title="Triangle" abbr="Tri." />
+        <Instrument name="Vibes" title="Vibraphone" abbr="Vibes" />
+        <Instrument name="Various Metals" title="Bells" abbr="Bells" />
+      </Group>
+    </Section>
+    <Section name="Wood" lownote="c-1" highnote="c9" clef="treble" velocity="on" legato="off">
+      <UsesControllerSwitchList name="EWQLSO Percussion" />
+      <Instrument name="Castanets" title="Castanets" abbr="Cast." />
+      <Instrument name="Tambourine" title="Tambourine" abbr="Tamb." />
+      <Instrument name="Xylophone" title="Xylophone" abbr="Xylo." pitchOffset="12" />
+    </Section>
+    <Section name="Miscellaneous" lownote="c-1" highnote="c9" clef="treble" velocity="on" legato="off">
+      <UsesControllerSwitchList name="EWQLSO Percussion" />
+      <Instrument name="Miscellaneous" />
+    </Section>
+  </Instruments>
+</VSTNameDocument>

@@ -1,0 +1,471 @@
+<html>
+<head>
+<title>Guitar Pro Help</title>
+
+<meta name="generator" content="RoboHelp by eHelp Corporation   www.ehelp.com">
+<meta name="description" content="WebHelp 5.50">
+</head>
+<body>
+<script language="JavaScript">
+<!--
+
+var gArrayCsh = new Array();
+
+var gstrWindowOption = "";
+var gstrURL = "";
+var gbWithNavPane = false;
+
+function CshEntityItem(strAliasId, nTopicNum, strUrl) 
+{
+    this.strAliasId = strAliasId;
+    this.nTopicNum = nTopicNum;
+    this.strUrl = strUrl;
+}
+
+
+//Try to get to topic number from hash string
+function GetTopicNumberAuto(strMayBeNumber)
+{
+   var nNum = -1;
+   if (strMayBeNumber.length >= 1)
+   {
+		var strTmp = strMayBeNumber;
+		var iEnd = strTmp.length;
+		for (var i=0; i<iEnd; i++)
+		{
+			  var ch = strTmp.charAt(i);
+			  if (!((ch == "0") || (ch == "1") ||
+			        (ch == "2") || (ch == "3") ||
+			        (ch == "4") || (ch == "5") ||
+			        (ch == "6") || (ch == "7") ||
+			        (ch == "8") || (ch == "9")))
+			      return GetTopicNumberById(strTmp);
+		}
+		nNum = parseInt(strTmp);
+   }
+   return nNum;
+}
+
+function GetTopicNumber(strHashString)
+{
+	var nTopicEndPos = strHashString.indexOf(',')
+	if (nTopicEndPos == -1) { // no window option.
+		return GetTopicNumberOnly(strHashString);
+	}
+	else {
+		var strWindowOption = strHashString.substring(nTopicEndPos + 1, strHashString.length);
+		var strWithNavPane = 'withnavpane=true';
+		if (strWindowOption.toLowerCase().indexOf(strWithNavPane) == 0)
+		{
+			if (strWindowOption.length > strWithNavPane.length)
+				gstrWindowOption = strWindowOption.substring(strWithNavPane.length + 1);
+			else
+				gstrWindowOption = "";
+			gbWithNavPane = true;
+		}
+		else
+			gstrWindowOption = strWindowOption;
+		return GetTopicNumberOnly(strHashString.substring(0, nTopicEndPos));		
+	}
+}
+
+function GetTopicNumberOnly(strTopicString)
+{
+	var nEqualPos = strTopicString.indexOf('=');
+	if (nEqualPos == -1) {
+		return GetTopicNumberAuto(strTopicString);
+	}
+	else {
+		var strValue=strTopicString.substring(nEqualPos + 1, strTopicString.length);
+		if (strTopicString.toLowerCase().indexOf("topicnumber") == 0) {
+			return parseInt(strValue);
+		} else if (strTopicString.toLowerCase().indexOf("context") == 0) {
+			return GetTopicNumberById(strValue);
+		} else if (strTopicString.toLowerCase().indexOf("remoteurl") == 0) {
+			gstrURL = strValue;
+			return -1;
+		}
+
+	}
+}
+
+//Find HomePage of the WebHelp system
+// we try to get the topic from remote project if it exists.
+function RedirectToHomePage()
+{
+	if (parent && parent != this && parent.goNext)
+	{
+		var sHome = parent.goNext();
+		if (sHome != "")
+			RedirectTo(sHome);
+	}
+}
+
+function getHomePage()
+{
+	if (parent && parent != this && parent.getRelHomePage)
+	{
+		return parent.getRelHomePage(document.location.href);
+	}
+	return "";
+}
+
+function addRemoteProject(strPath)
+{
+	if (parent && parent != this && parent.addProject)
+	{
+		parent.addProject(strPath);
+	}
+}
+
+//Redirect page to...
+function RedirectTo(strUrl)
+{
+   if (gstrWindowOption.length != 0) {
+		var wnd = window.open(strUrl, "HelpStub", gstrWindowOption);
+		// close current window and rename the stub window to current window.
+		if (wnd)
+			wnd.focus();
+		if (parent)
+			parent.close();
+   }
+   else {
+	parent.document.location.href = strUrl;
+	window.focus();
+  }
+}
+
+//Prompt the user that we can not find...
+function FailToFind(strMsg)
+{
+    RedirectToHomePage();
+}
+
+//Find topic by topic number (defined in h file)
+function FindTopicByTopicNum(nTopicNum)
+{
+	var i = 0;
+	var iEnd = gArrayCsh.length;
+	for (i=0; i<iEnd; i++)
+	{
+		if (gArrayCsh[i].nTopicNum == nTopicNum)
+		{
+			var strURL = gArrayCsh[i].strUrl;
+			if (gbWithNavPane)
+			{
+				var strHomePage = getHomePage();
+				if (strHomePage.length != 0)
+					strURL = strHomePage + strURL;
+			}	
+			RedirectTo(strURL);
+			return true;
+		}
+	}
+	FailToFind("Fail to find topic assocaite with topic number: " + nTopicNum);
+	return false;
+}
+
+var oldPrefix = "HelpIdFromHTMLHelp_"
+//Find topic by topic id (alias id defined in ali file)
+function GetTopicNumberById(strTopicId)
+{
+   if (strTopicId.indexOf(oldPrefix) == 0)
+   {
+		strTopicId = strTopicId.substring(oldPrefix.length);
+   }
+
+   var i = 0;
+   var iEnd = gArrayCsh.length;
+   for (i=0; i<iEnd; i++)
+   {
+	if (gArrayCsh[i].strAliasId.toLowerCase() == strTopicId.toLowerCase())
+	{
+	    return gArrayCsh[i].nTopicNum;
+	 }
+   }
+   gstrURL = "";
+   return -1;
+}
+
+//Set Context-sensitive help entity...
+function SetCsh(n, strAliasId, nTopicNum, strUrl)
+{
+   gArrayCsh[n] = new CshEntityItem(strAliasId,nTopicNum,strUrl);
+}
+
+
+function getHash()
+{
+	if (parent && parent != this)
+		return parent.location.hash;
+	else
+		return "";
+}
+//-->
+</script>
+<script language="javascript">
+<!--
+  SetCsh(0,"1015",0,"utiliser/ecrire/ajouter_des_symboles.htm#NoteAccentuee");
+  SetCsh(1,"1064",1,"reference/menus/le_menu_affichage.htm#NotationStandard");
+  SetCsh(2,"1119",2,"reference/menus/le_menu_mesure.htm");
+  SetCsh(3,"1147",3,"reference/menus/le_menu_note.htm#DureeNote");
+  SetCsh(4,"1169",4,"reference/menus/le_menu_fenetre.htm#Preferences");
+  SetCsh(5,"1011",5,"utiliser/ecrire/ajouter_des_symboles.htm#Fade");
+  SetCsh(6,"1061",6,"reference/menus/le_menu_affichage.htm#Menus");
+  SetCsh(7,"1075",7,"reference/menus/le_menu_effets.htm");
+  SetCsh(8,"1076",8,"reference/menus/le_menu_effets.htm#Appogiature");
+  SetCsh(9,"1084",9,"reference/menus/le_menu_effets.htm#NoteSuggeree");
+  SetCsh(10,"1100",10,"reference/menus/le_menu_fichier.htm#Enregistrer");
+  SetCsh(11,"1103",11,"reference/menus/le_menu_fichier.htm#ExporterGP3");
+  SetCsh(12,"1128",12,"reference/menus/le_menu_mesure.htm#RenvoiDebut");
+  SetCsh(13,"1146",13,"reference/menus/le_menu_note.htm#DoigteMG");
+  SetCsh(14,"1165",14,"#ConfigurationMIDI");
+  SetCsh(15,"1167",15,"#Langue");
+  SetCsh(16,"1210",16,"utiliser/ecrire/saisir_les_notes.htm");
+  SetCsh(17,"1220",17,"utiliser/exporter/exportation_pdf.htm");
+  SetCsh(18,"1062",18,"reference/menus/le_menu_affichage.htm#MontrerLetRing");
+  SetCsh(19,"1080",19,"reference/menus/le_menu_effets.htm#HOPO");
+  SetCsh(20,"1094",20,"reference/menus/le_menu_effets.htm#Vibrato");
+  SetCsh(21,"1111",21,"reference/menus/le_menu_fichier.htm#Parcourir");
+  SetCsh(22,"1143",22,"reference/menus/le_menu_note.htm#DeplacerHaut");
+  SetCsh(23,"1155",23,"reference/menus/le_menu_note.htm#LierTemps");
+  SetCsh(24,"1176",24,"reference/menus/le_menu_outils.htm#Gammes");
+  SetCsh(25,"1177",25,"reference/menus/le_menu_outils.htm#PlacementAuto");
+  SetCsh(26,"1181",26,"reference/menus/le_menu_piste.htm");
+  SetCsh(27,"1004",27,"utiliser/ecrire/ajouter_des_symboles.htm#Accords");
+  SetCsh(28,"1005",28,"utiliser/ecrire/ajouter_des_symboles.htm#Appogiature");
+  SetCsh(29,"1018",29,"utiliser/ecrire/ajouter_des_symboles.htm#Nuance");
+  SetCsh(30,"1039",30,"utiliser/exporter/exportation_wave.htm");
+  SetCsh(31,"1073",31,"reference/menus/le_menu_aide.htm#GuitarProOnline");
+  SetCsh(32,"1086",32,"reference/menus/le_menu_effets.htm#Pop");
+  SetCsh(33,"1098",33,"reference/menus/le_menu_fichier.htm#Chercher");
+  SetCsh(34,"1110",34,"reference/menus/le_menu_fichier.htm#Ouvrir");
+  SetCsh(35,"1112",35,"reference/menus/le_menu_fichier.htm#Proprietes");
+  SetCsh(36,"1121",36,"reference/menus/le_menu_mesure.htm#Copier");
+  SetCsh(37,"1141",37,"reference/menus/le_menu_note.htm#CopierTemps");
+  SetCsh(38,"1149",38,"reference/menus/le_menu_note.htm#DureeNoteTuplet");
+  SetCsh(39,"1160",39,"reference/menus/le_menu_note.htm#NuanceDefaut");
+  SetCsh(40,"1161",40,"reference/menus/le_menu_note.htm#Silence");
+  SetCsh(41,"1193",41,"reference/menus/le_menu_son.htm#JouerMarqueur");
+  SetCsh(42,"1208",42,"nouveautes.htm");
+  SetCsh(43,"1008",43,"utiliser/ecrire/ajouter_des_symboles.htm#CoupMediator");
+  SetCsh(44,"1017",44,"utiliser/ecrire/ajouter_des_symboles.htm#NoteSuggeree");
+  SetCsh(45,"1029",45,"utiliser/ecrire/ajouter_des_symboles.htm#Vibrato");
+  SetCsh(46,"1053",46,"generalites/l_ecran_principal.htm");
+  SetCsh(47,"1087",47,"reference/menus/le_menu_effets.htm#Slap");
+  SetCsh(48,"1097",48,"reference/menus/le_menu_fichier.htm#Apercu");
+  SetCsh(49,"1157",49,"reference/menus/le_menu_note.htm#MediatorUp");
+  SetCsh(50,"1158",50,"reference/menus/le_menu_note.htm#Nuance");
+  SetCsh(51,"1170",51,"reference/menus/le_menu_outils.htm");
+  SetCsh(52,"1175",52,"reference/menus/le_menu_outils.htm#CompleterReduire");
+  SetCsh(53,"1185",53,"reference/menus/le_menu_piste.htm#Premiere");
+  SetCsh(54,"1219",54,"utiliser/exporter/exportation_musicxml.htm");
+  SetCsh(55,"1063",55,"reference/menus/le_menu_affichage.htm#MontrerNuances");
+  SetCsh(56,"1069",56,"reference/menus/le_menu_aide.htm");
+  SetCsh(57,"1122",57,"reference/menus/le_menu_mesure.htm#Couper");
+  SetCsh(58,"1127",58,"reference/menus/le_menu_mesure.htm#Premiere");
+  SetCsh(59,"1133",59,"reference/menus/le_menu_mesure.htm#Tonalite");
+  SetCsh(60,"1171",60,"reference/menus/le_menu_outils.htm#Accrodeur");
+  SetCsh(61,"1199",61,"reference/menus/le_menu_son.htm#Stop");
+  SetCsh(62,"1217",62,"utiliser/ecrire/utiliser_les_assistants.htm");
+  SetCsh(63,"1221",63,"utiliser/importer/importation_musicxml.htm");
+  SetCsh(64,"1225",64,"utiliser/ecrire/ajouter_des_symboles.htm#HarmoniquesArtificielles");
+  SetCsh(65,"1025",65,"utiliser/ecrire/ajouter_des_symboles.htm#Texte");
+  SetCsh(66,"1077",66,"reference/menus/le_menu_effets.htm#Bend");
+  SetCsh(67,"1092",67,"reference/menus/le_menu_effets.htm#TremoloPicking");
+  SetCsh(68,"1142",68,"reference/menus/le_menu_note.htm#DeplacerBas");
+  SetCsh(69,"1164",69,"reference/menus/le_menu_fenetre.htm");
+  SetCsh(70,"1172",70,"reference/menus/le_menu_outils.htm#AssistantLetRing");
+  SetCsh(71,"1194",71,"reference/menus/le_menu_son.htm#JouerMesure");
+  SetCsh(72,"1201",72,"outils/le_metronome.htm");
+  SetCsh(73,"1202",73,"outils/le_piano.htm");
+  SetCsh(74,"1209",74,"generalites/pre_requis.htm");
+  SetCsh(75,"1213",75,"sommaire.htm");
+  SetCsh(76,"1035",76,"utiliser/exporter/exportation_ascii.htm");
+  SetCsh(77,"1038",77,"utiliser/exporter/exportation_midi.htm");
+  SetCsh(78,"1067",78,"reference/menus/le_menu_affichage.htm#Piano");
+  SetCsh(79,"1081",79,"reference/menus/le_menu_effets.htm#LetRing");
+  SetCsh(80,"1089",80,"reference/menus/le_menu_effets.htm#Staccato");
+  SetCsh(81,"1124",81,"reference/menus/le_menu_mesure.htm#DoubleBarre");
+  SetCsh(82,"1188",82,"reference/menus/le_menu_piste.htm#Supprimer");
+  SetCsh(83,"1197",83,"reference/menus/le_menu_son.htm#Metronome");
+  SetCsh(84,"1014",84,"utiliser/ecrire/ajouter_des_symboles.htm#LetRing");
+  SetCsh(85,"1027",85,"utiliser/ecrire/ajouter_des_symboles.htm#TremoloPicking");
+  SetCsh(86,"1031",86,"utiliser/travailler/configurer_l_affichage.htm");
+  SetCsh(87,"1045",87,"utiliser/ecrire/inserer_des_evenements.htm");
+  SetCsh(88,"1050",88,"utiliser/travailler/jouer_la_partition.htm#Tempo");
+  SetCsh(89,"1085",89,"reference/menus/le_menu_effets.htm#PalmMute");
+  SetCsh(90,"1099",90,"reference/menus/le_menu_fichier.htm#Configurer");
+  SetCsh(91,"1126",91,"reference/menus/le_menu_mesure.htm#Precedente");
+  SetCsh(92,"1156",92,"reference/menus/le_menu_note.htm#MediatorDown");
+  SetCsh(93,"1159",93,"reference/menus/le_menu_note.htm#NuanceAccord");
+  SetCsh(94,"1163",94,"reference/menus/le_menu_note.htm#Texte");
+  SetCsh(95,"1168",95,"#LangueAide");
+  SetCsh(96,"1190",96,"reference/menus/le_menu_son.htm#Decompte");
+  SetCsh(97,"1216",97,"utiliser/ecrire/utiliser_le_couper_copier_coller.htm");
+  SetCsh(98,"1042",98,"utiliser/importer/importation_ascii.htm");
+  SetCsh(99,"1051",99,"outils/l_accordeur.htm");
+  SetCsh(100,"1055",100,"outils/le_manche_de_guitare.htm");
+  SetCsh(101,"1056",101,"reference/menus/le_menu_affichage.htm");
+  SetCsh(102,"1066",102,"reference/menus/le_menu_affichage.htm#Permuter");
+  SetCsh(103,"1079",103,"reference/menus/le_menu_effets.htm#Harmoniques");
+  SetCsh(104,"1102",104,"reference/menus/le_menu_fichier.htm#ExporterBMP");
+  SetCsh(105,"1105",105,"reference/menus/le_menu_fichier.htm#ExporterWave");
+  SetCsh(106,"1148",106,"reference/menus/le_menu_note.htm#DureeNotePointee");
+  SetCsh(107,"1153",107,"reference/menus/le_menu_note.htm#InsererTemps");
+  SetCsh(108,"1180",108,"reference/menus/le_menu_outils.htm#VerifierDuree");
+  SetCsh(109,"1182",109,"reference/menus/le_menu_piste.htm#Ajouter");
+  SetCsh(110,"1001",110,"utiliser/ecrire/ajouter_des_paroles.htm");
+  SetCsh(111,"1007",111,"utiliser/ecrire/ajouter_des_symboles.htm#Brush");
+  SetCsh(112,"1009",112,"utiliser/ecrire/ajouter_des_symboles.htm#Doigt_MD");
+  SetCsh(113,"1028",113,"utiliser/ecrire/ajouter_des_symboles.htm#Trill");
+  SetCsh(114,"1033",114,"utiliser/travailler/configurer_le_son.htm");
+  SetCsh(115,"1034",115,"utiliser/ecrire/creer_une_nouvelle_partition.htm");
+  SetCsh(116,"1036",116,"utiliser/exporter/exportation_bmp.htm");
+  SetCsh(117,"1040",117,"utiliser/ecrire/gerer_les_mesures.htm");
+  SetCsh(118,"1057",118,"reference/menus/le_menu_affichage.htm#DefilementHorizontal");
+  SetCsh(119,"1083",119,"reference/menus/le_menu_effets.htm#NoteEtouffee");
+  SetCsh(120,"1096",120,"reference/menus/le_menu_fichier.htm");
+  SetCsh(121,"1101",121,"reference/menus/le_menu_fichier.htm#ExporterASCII");
+  SetCsh(122,"1107",122,"reference/menus/le_menu_fichier.htm#ImporterMIDI");
+  SetCsh(123,"1120",123,"reference/menus/le_menu_mesure.htm#Coller");
+  SetCsh(124,"1151",124,"reference/menus/le_menu_note.htm#DureeTempsPointee");
+  SetCsh(125,"1186",125,"reference/menus/le_menu_piste.htm#Proprietes");
+  SetCsh(126,"1187",126,"reference/menus/le_menu_piste.htm#Suivante");
+  SetCsh(127,"1205",127,"outils/les_gammes.htm");
+  SetCsh(128,"1211",128,"utiliser/ecrire/saisir_les_notes.htm#LesLaisons");
+  SetCsh(129,"1223",129,"utiliser/importer/importation_tabledit.htm");
+  SetCsh(130,"1000",130,"utiliser/ecrire/ajouter_des_marqueurs.htm");
+  SetCsh(131,"1012",131,"utiliser/ecrire/ajouter_des_symboles.htm#Harmoniques");
+  SetCsh(132,"1013",132,"utiliser/ecrire/ajouter_des_symboles.htm#HOPO");
+  SetCsh(133,"1049",133,"utiliser/travailler/jouer_la_partition.htm#TableDeMixage");
+  SetCsh(134,"1070",134,"reference/menus/le_menu_aide.htm#APropos");
+  SetCsh(135,"1131",135,"reference/menus/le_menu_mesure.htm#Signature");
+  SetCsh(136,"1166",136,"#ControleVolume");
+  SetCsh(137,"1183",137,"reference/menus/le_menu_piste.htm#Derniere");
+  SetCsh(138,"1222",138,"utiliser/importer/importation_powertab.htm");
+  SetCsh(139,"1224",139,"reference/menus/le_menu_edition.htm");
+  SetCsh(140,"1023",140,"utiliser/ecrire/ajouter_des_symboles.htm#Staccato");
+  SetCsh(141,"1026",141,"utiliser/ecrire/ajouter_des_symboles.htm#TremoloBar");
+  SetCsh(142,"1048",142,"utiliser/travailler/jouer_la_partition.htm");
+  SetCsh(143,"1058",143,"reference/menus/le_menu_affichage.htm#DefilementVertical");
+  SetCsh(144,"1060",144,"reference/menus/le_menu_affichage.htm#Manche");
+  SetCsh(145,"1132",145,"reference/menus/le_menu_mesure.htm#Suivante");
+  SetCsh(146,"1150",146,"reference/menus/le_menu_note.htm#DureeTemps");
+  SetCsh(147,"1192",147,"reference/menus/le_menu_son.htm#JouerDebut");
+  SetCsh(148,"1204",148,"outils/les_diagrammes_d_accords.htm");
+  SetCsh(149,"1212",149,"utiliser/travailler/se_deplacer_dans_la_partition.htm");
+  SetCsh(150,"1214",150,"support_technique.htm");
+  SetCsh(151,"1010",151,"utiliser/ecrire/ajouter_des_symboles.htm#Doigt_MG");
+  SetCsh(152,"1020",152,"utiliser/ecrire/ajouter_des_symboles.htm#Pop");
+  SetCsh(153,"1021",153,"utiliser/ecrire/ajouter_des_symboles.htm#Slap");
+  SetCsh(154,"1065",154,"reference/menus/le_menu_affichage.htm#Percussions");
+  SetCsh(155,"1071",155,"reference/menus/le_menu_aide.htm#EnregistrezVous");
+  SetCsh(156,"1095",156,"reference/menus/le_menu_effets.htm#WideVibrato");
+  SetCsh(157,"1123",157,"reference/menus/le_menu_mesure.htm#Derniere");
+  SetCsh(158,"1130",158,"reference/menus/le_menu_mesure.htm#Repetition");
+  SetCsh(159,"1137",159,"reference/menus/le_menu_note.htm#AugmenterDemiTon");
+  SetCsh(160,"1138",160,"reference/menus/le_menu_note.htm#BrushDown");
+  SetCsh(161,"1162",161,"reference/menus/le_menu_note.htm#SupprimerTemps");
+  SetCsh(162,"1191",162,"reference/menus/le_menu_son.htm#JouerBoucle");
+  SetCsh(163,"1196",163,"reference/menus/le_menu_son.htm#JouerSaisie");
+  SetCsh(164,"1215",164,"utiliser/travailler/trouver_des_partitions.htm");
+  SetCsh(165,"1002",165,"utiliser/ecrire/ajouter_des_pistes.htm");
+  SetCsh(166,"1003",166,"utiliser/ecrire/ajouter_des_symboles.htm");
+  SetCsh(167,"1016",167,"utiliser/ecrire/ajouter_des_symboles.htm#NoteEtouffee");
+  SetCsh(168,"1019",168,"utiliser/ecrire/ajouter_des_symboles.htm#PalmMute");
+  SetCsh(169,"1047",169,"generalites/introduction.htm");
+  SetCsh(170,"1074",170,"reference/menus/le_menu_aide.htm#Index");
+  SetCsh(171,"1090",171,"reference/menus/le_menu_effets.htm#Tapping");
+  SetCsh(172,"1106",172,"reference/menus/le_menu_fichier.htm#ImporterASCII");
+  SetCsh(173,"1108",173,"reference/menus/le_menu_fichier.htm#Imprimer");
+  SetCsh(174,"1134",174,"reference/menus/le_menu_mesure.htm#Vider");
+  SetCsh(175,"1179",175,"reference/menus/le_menu_outils.htm#Transposer");
+  SetCsh(176,"1189",176,"reference/menus/le_menu_son.htm");
+  SetCsh(177,"1207",177,"reference/les_raccourcis_clavier.htm");
+  SetCsh(178,"1006",178,"utiliser/ecrire/ajouter_des_symboles.htm#Bend");
+  SetCsh(179,"1046",179,"installation.htm");
+  SetCsh(180,"1059",180,"reference/menus/le_menu_affichage.htm#EspacementRegulier");
+  SetCsh(181,"1068",181,"reference/menus/le_menu_affichage.htm#VueMultipistes");
+  SetCsh(182,"1072",182,"reference/menus/le_menu_aide.htm#GPOnline");
+  SetCsh(183,"1078",183,"reference/menus/le_menu_effets.htm#FadeIn");
+  SetCsh(184,"1091",184,"reference/menus/le_menu_effets.htm#TremoloBar");
+  SetCsh(185,"1093",185,"reference/menus/le_menu_effets.htm#Trill");
+  SetCsh(186,"1104",186,"reference/menus/le_menu_fichier.htm#ExporterMIDI");
+  SetCsh(187,"1109",187,"reference/menus/le_menu_fichier.htm#Nouveau");
+  SetCsh(188,"1125",188,"reference/menus/le_menu_mesure.htm#Inserer");
+  SetCsh(189,"1129",189,"reference/menus/le_menu_mesure.htm#RenvoiFin");
+  SetCsh(190,"1139",190,"reference/menus/le_menu_note.htm#BrushUp");
+  SetCsh(191,"1140",191,"reference/menus/le_menu_note.htm#ChangementParam");
+  SetCsh(192,"1144",192,"reference/menus/le_menu_note.htm#DiminuerDemiTon");
+  SetCsh(193,"1145",193,"reference/menus/le_menu_note.htm#DoigteMD");
+  SetCsh(194,"1152",194,"reference/menus/le_menu_note.htm#DureeTempsTuplet");
+  SetCsh(195,"1184",195,"reference/menus/le_menu_piste.htm#Precedente");
+  SetCsh(196,"1022",196,"utiliser/ecrire/ajouter_des_symboles.htm#Slide");
+  SetCsh(197,"1024",197,"utiliser/ecrire/ajouter_des_symboles.htm#Tapping");
+  SetCsh(198,"1030",198,"utiliser/ecrire/ajouter_des_symboles.htm#WideVibrato");
+  SetCsh(199,"1043",199,"utiliser/importer/importation_midi.htm");
+  SetCsh(200,"1054",200,"utiliser/imprimer/lancer_l_impression.htm");
+  SetCsh(201,"1082",201,"reference/menus/le_menu_effets.htm#NoteAccentuee");
+  SetCsh(202,"1088",202,"reference/menus/le_menu_effets.htm#Slides");
+  SetCsh(203,"1135",203,"reference/menus/le_menu_note.htm");
+  SetCsh(204,"1136",204,"reference/menus/le_menu_note.htm#Accord");
+  SetCsh(205,"1154",205,"reference/menus/le_menu_note.htm#LierNote");
+  SetCsh(206,"1173",206,"reference/menus/le_menu_outils.htm#AssistantNuance");
+  SetCsh(207,"1174",207,"reference/menus/le_menu_outils.htm#AssistantPalmMute");
+  SetCsh(208,"1178",208,"reference/menus/le_menu_outils.htm#Redecouper");
+  SetCsh(209,"1195",209,"reference/menus/le_menu_son.htm#JouerPosEnCours");
+  SetCsh(210,"1198",210,"reference/menus/le_menu_son.htm#SpeedTrainer");
+  SetCsh(211,"1200",211,"reference/menus/le_menu_son.htm#Tempo");
+  SetCsh(212,"1206",212,"utiliser/ecrire/les_percussions.htm");
+
+
+//-->
+</script>
+<script language="javascript">
+<!--
+//Find CSH according to hash string after this page
+if (getHash().length > 0)
+{
+   // VH 05/16/00 now support 
+   // TopicID=
+   // TopicNumber=
+   // RemoteURL=   
+   // and WindowsOptions
+   // with the format #a=xxx,b=xxx,c=xxx...
+   var strHashString = getHash().toString();
+   // change ? to : for remote URL. because java applet have some problem to pass a URL with two : inside the URL so we changed it. 
+   // so here need to change it back.
+   strHashString = strHashString.substring(1,strHashString.length);
+   strHashString = strHashString.replace("%072%057%057", "://");
+   var nTopicNum = GetTopicNumber(strHashString);
+
+   if (nTopicNum != -1)
+   {
+      FindTopicByTopicNum(nTopicNum);
+   }
+   else
+   {
+      if (gstrURL.length > 0) 
+	RedirectTo(gstrURL);
+      else
+      	RedirectToHomePage();
+   }
+}
+else
+{
+   RedirectToHomePage();
+}
+//-->
+</script>
+<noscript>
+ <p> Your browser does not support JavaScript. WebHelp Context-Sensitive Help requires JavaScript support to run.</p>
+</noscript>
+</body>
+</html>
+
+
+
+
+
+

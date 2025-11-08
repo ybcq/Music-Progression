@@ -1,0 +1,98 @@
+﻿<html>
+	
+<head>
+	<title>Insert Track</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("InsertTrack");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Insert Track</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="OvertureMenus.html">Overture Menus</a> &rsaquo;&rsaquo; <a href="TracksMenu.html">Tracks Menu</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="TracksMenu.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="TracksMenu.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="DeleteTrack.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<h3 class="rvps13"><span class="rvts0"><span class="rvts21">Tracks&gt;Insert Track</span></span></h3>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Choose this command to insert a new track into the score. When you choose the </span><span class="rvts12">Insert</span><span class="rvts6"> command, the Insert Track dialog box opens.</span></p>
+<h6 class="rvps14"><span class="rvts0"><span class="rvts22">Using the Insert Instrument Dialog Box</span></span></h6>
+<p class="rvps2"><span class="rvts6">To insert a new track into your score:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ol style="text-indent: 0px; margin-left: 48px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Click on the track where you want to insert the new track. </span></span></li>
+<li value="2" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Choose </span></span><span class="rvts0"><span class="rvts12">Score&gt;Insert Track</span></span><span class="rvts0"><span class="rvts6"> to open the Insert Track dialog box. </span></span></li>
+<li value="3" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Set the Options section to determine how the information derived form it's Instrument Definitions will be used for the new track.</span></span></li>
+<li value="4" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Click either the </span></span><span class="rvts0"><span class="rvts12">Insert</span></span><span class="rvts0"><span class="rvts6"> </span></span><span class="rvts0"><span class="rvts12">before current track</span></span><span class="rvts0"><span class="rvts6"> if you want to track below the current track. Otherwise it will be placed above the current track.</span></span></li>
+<li value="5" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Set the output device to be used for the new track.</span></span><br/><span class="rvts0"><span class="rvts6">When you choose a device, a list of Overture's known instruments for this device will be displayed. If none are found, a list of General MIDI instruments will be shown.</span></span></li>
+<li value="6" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Choose the instrument from the panels below.</span></span></li>
+</ol>
+<h1 class="rvps16"><span class="rvts0"><span class="rvts6"><br/></span></span></h1>
+<p class="rvps2"><span class="rvts6">Click the </span><span class="rvts12">Done</span><span class="rvts6"> button.</span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

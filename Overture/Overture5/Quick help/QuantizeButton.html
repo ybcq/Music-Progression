@@ -1,0 +1,139 @@
+﻿<html>
+	
+<head>
+	<title>Quantize Button</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("QuantizeButton");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Quantize Button</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="GettingStarted.html">Getting Started</a> &rsaquo;&rsaquo; <a href="MainScoreWindow.html">Main Score Window</a> &rsaquo;&rsaquo; <a href="TheControlbar.html">The Control bar</a> &rsaquo;&rsaquo; <a href="MiscButtons.html">Misc Buttons</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="MiscButtons.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="LoopButton.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="TransposeScoreButton.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<p class="rvps2"><img alt="" style="vertical-align: middle; padding : 1px;" src="lib/NewItem62.png"><span class="rvts6"> </span><span class="rvts27">Quantize Button</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Use this button to set Overture's transcription quantization level. The button always shows the currently selected transcription quantize value.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Whenever Overture converts raw MIDI data into standard music notation, it does so using the value displayed in the Transcription Quantize Amount button. Therefore, whenever you transcribe raw MIDI data into notation, you generally select a transcription quantize value that corresponds to the smallest note value you plan to transcribe. For example, if the smallest note you'll transcribe is an eighth note, set a transcription quantize amount equal to an eighth note. This keeps Overture from misinterpreting any sloppy playing. Of course, there are exceptions to this rule and they're discussed below.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">This button does not quantize the </span><span class="rvts17">actual</span><span class="rvts6"> MIDI data, rather it quantizes the transcribed </span><span class="rvts17">notation</span><span class="rvts6"> of the MIDI data. MIDI data is unaffected by this button.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Overture interprets triplets of any value equal to or greater than the selected quantize amount. For example, if you select a sixteenth note quantize value, Overture recognizes and transcribes not only sixteenth note triplets but also eighth and quarter note triplets.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">To select a transcription quantization value:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Press and hold the Transcription Quantize Amount button.</span></span><br/><span class="rvts0"><span class="rvts6">Overture opens a pop-up menu of quantize values. </span></span></li>
+<li value="2" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">While still holding the mouse button, drag the cursor over the desired quantize level (highlighting it), then release the mouse button.</span></span><br/><span class="rvts0"><span class="rvts6">Overture sets the transcribe quantization to the selected level and displays your selection as the button's icon. </span></span></li>
+</ol>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Overture's smallest transcription quantize amount is the triplet value of the next lowest note below selected note. For example, if you select a transcription quantize amount of an eighth note, the smallest note value Overture transcribes correctly is an sixteenth note triplet.</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Using Transcription Quantization</span></p>
+<p class="rvps2"><span class="rvts6">Whenever you convert raw MIDI data into standard music notation, Overture quantizes the transcription to the value set by the Transcription Quantize Amount button. The following sections show some examples using different transcription processes.</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Transcription Quantization and Auto Transcription</span></p>
+<p class="rvps2"><span class="rvts6">If your scores are rather simple, you may find it adequate to use Overture's auto transcription feature. This feature (which you can enable in the Record Options dialog box) automatically transcribes all recorded MIDI data into standard notation using the value shown in the Transcription Quantize button. The advantage of auto transcription is that it saves you the additional step of manually converting MIDI data into standard music notation. The disadvantage is that it doesn't let you selectively transcribe raw MIDI data using different transcription quantize values.</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Transcription Quantization and Manual Transcription</span></p>
+<p class="rvps2"><span class="rvts6">If your score is rather complex, you may want to transcribe MIDI data manually. The advantage of manual transcription is that it lets you selectively choose a transcription quantize amount and voice for any note or group of notes. For example, if your score contains a few measures of eighth notes, then a few measures of sixteenth note triplets, you would find it easiest to transcribe the eighth notes using the eighth note transcription quantize amount, then transcribe the sixteenth note triplet section using a sixteenth note triplet transcription quantize amount.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Follow through this example to see how to record and manually transcribe raw MIDI data:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Choose Options&gt;Preferences</span></span></li>
+<li value="2" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Choose the Record tab.</span></span></li>
+<li value="3" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Make sure the Auto Transcribe option is unchecked, then click the </span></span><span class="rvts0"><span class="rvts12">Done</span></span><span class="rvts0"><span class="rvts6"> button. </span></span></li>
+<li value="4" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Press the Enter key or press the Record button to begin recording. </span></span></li>
+<li value="5" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Play some music on your MIDI controller. </span></span></li>
+<li value="6" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Press theSpace bar or Enter key to stop recording.Overture displays the recorded music as raw MIDI data. </span></span></li>
+<li value="7" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Select the raw MIDI data you want to transcribe.</span></span><br/><span class="rvts0"><span class="rvts6">You select raw MIDI data exactly as you select standard music notation symbols. </span></span></li>
+<li value="8" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Select a note value from the Transcription Quantize Amount pop-up menu. </span></span></li>
+<li value="9" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Choose Notes&gt;Transcribe. </span></span></li>
+</ol>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Overture transcribes the highlighted MIDI data into standard music notation using the selected transcription quantize amount. See </span><a class="rvts11" href="Transcribe.html">Transcribe</a><span class="rvts6"> for more information about the Transcribe command.</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Fixing Transcription Quantization Mistakes</span></p>
+<p class="rvps2"><span class="rvts6">If you find a transcription quantization error in your score, you can fix it using the </span><span class="rvts12">Notes&gt;Transcribe</span><span class="rvts6"> command.</span></p>
+<p class="rvps2"><span class="rvts6">To correct a transcription quantization error:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Select the incorrectly transcribed notes. </span></span></li>
+<li value="2" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Press and hold the mouse on the Transcription Quantize Amount button.</span></span><br/><span class="rvts0"><span class="rvts6">Overture opens a pop-up menu of transcription quantization amounts. </span></span></li>
+<li value="3" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Select the desired quantize level from the pop-up menu. </span></span></li>
+<li value="4" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Choose </span></span><span class="rvts0"><span class="rvts12">Notes&gt;Transcribe</span></span><span class="rvts0"><span class="rvts6">. </span></span></li>
+</ol>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Overture converts the notes into raw MIDI data, then transcribes them back into standard music notation using a sixteenth note transcription quantize amount.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

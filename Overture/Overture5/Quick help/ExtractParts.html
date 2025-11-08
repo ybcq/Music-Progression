@@ -1,0 +1,109 @@
+﻿<html>
+	
+<head>
+	<title>Extract Parts</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("ExtractParts");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Extract Parts</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="OvertureMenus.html">Overture Menus</a> &rsaquo;&rsaquo; <a href="FileMenu.html">File Menu</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="FileMenu.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="SaveAs.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="Revert.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<h3 class="rvps13"><span class="rvts0"><span class="rvts21">File&gt;Extract Parts...</span></span></h3>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Choose this command to save score parts as individual files. Overture produces the Extract Parts dialog box.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NewItem156.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Select parts to extract:</span></p>
+<p class="rvps2"><span class="rvts6">All parts you have created using the </span><a class="rvts11" href="ActivePartsPanel.html">Active Parts</a><span class="rvts6"> panel are displayed here. Click on the check box beside the parts you wish to extract to a file. Click Check All to select all parts in list. Click Check none to deselect all parts in the list.</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Folder</span><span class="rvts6">:</span></p>
+<p class="rvps2"><span class="rvts6">Click on the Folder button to choose the destination folder. Be sure to extract your parts into a separate folder. If have not created a folder for the score, you can create the folder while inside the Save Dialog box.</span><br/><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">File Names:</span></p>
+<p class="rvps2"><span class="rvts6">In this section you will choose how the files names are generated for each part.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps6"><span class="rvts12">Generate part names using:</span></p>
+<p class="rvps6"><span class="rvts6">Use this text field to format the file name for each part.</span></p>
+<p class="rvps6"><span class="rvts6"><br/></span></p>
+<p class="rvps6"><span class="rvts6">Each of the following symbols can be used to format the file names.</span></p>
+<p class="rvps22"><span class="rvts12">%f</span><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts6">- The score filename</span></p>
+<p class="rvps22"><span class="rvts12">%t</span><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts6">- The score title</span></p>
+<p class="rvps22"><span class="rvts12">%p</span><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts6">- The part name</span></p>
+<p class="rvps22"><span class="rvts12">%i</span><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts6">- The part number</span></p>
+<p class="rvps6"><span class="rvts6"><br/></span></p>
+<p class="rvps6"><span class="rvts6">For example, a score with the title "Broad Horizons" the default </span><span class="rvts12">%t-P%i-%p</span><span class="rvts6"> produces extracted parts with names like "Broad Horizons-P1-Flute.ovex", "Broad Horizons-P1-Oboe.ovex"</span></p>
+<p class="rvps6"><span class="rvts6"><br/></span></p>
+<p class="rvps6"><span class="rvts12">NOTE</span><span class="rvts6">: We recommended that you use the </span><span class="rvts12">%i</span><span class="rvts6"> symbol to force names to be stored in score order, because the operating system will display them in alphabetical order within the folder.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

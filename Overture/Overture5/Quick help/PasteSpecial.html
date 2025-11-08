@@ -1,0 +1,109 @@
+﻿<html>
+	
+<head>
+	<title>Paste Special</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("PasteSpecial");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Paste Special</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="OvertureMenus.html">Overture Menus</a> &rsaquo;&rsaquo; <a href="EditMenu.html">Edit Menu</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="EditMenu.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="Merge.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="PasteasCue.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<h4 class="rvps8"><span class="rvts0"><span class="rvts18">Edit Menu&gt;Paste Special...</span></span></h4>
+<p class="rvps2"><span class="rvts6">Choose this command to perform a more complete and user-definable paste operation than is possible using simply the Paste command. Overture's Paste command does not copy all symbols from the Clipboard into the score. Overture's Paste Special command pastes all gives you the option of pasting meters, beat charts, tempo changes, lyrics, chord names, or measure text.</span></p>
+<h4 class="rvps8"><span class="rvts0"><span class="rvts18">Paste and Paste Special</span></span></h4>
+<p class="rvps2"><span class="rvts6">The following example shows the difference between the Paste and Paste Special commands:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Assume you have the score below, and that you want to copy notes from the first measure and paste them into the third.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NewItem264.png"></p>
+<p class="rvps2"><span class="rvts6">To maintain the tempo pattern you'd already established in the second measure:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" class="rvps2"><span class="rvts6">Copy the selected notes and symbols from the first measure.</span></li>
+<li value="2" class="rvps2"><span class="rvts6">Using the Arrow Cursor, click in measure #3.</span></li>
+<li value="3" class="rvps2"><span class="rvts6">Choose Edit&gt;Paste or the short cut Ctrl[</span><span class="rvts13">cmd</span><span class="rvts6">] + 'V'.</span><br/><span class="rvts6">Overture pastes all notes and symbols from the first measure into the third (as shown in the following figure). Notice that measure 3 maintains the tempo set in measure #2.</span></li>
+</ol>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NewItem258.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">To have measure 3 change tempo so that it matches the tempo in the first measure:</span></p>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" class="rvps2"><span class="rvts6">Copy the selected notes and symbols from the first measure.</span></li>
+<li value="2" class="rvps2"><span class="rvts6">Using the Arrow Cursor, click in measure #3.</span></li>
+<li value="3" class="rvps2"><span class="rvts6">Choose Edit&gt;Paste Special.</span><br/><span class="rvts6">Overture opens the Paste Special dialog box.</span></li>
+<li value="4" class="rvps2"><span class="rvts6">Check the Notes and Tempo Changes options, then click the </span><span class="rvts12">Done</span><span class="rvts6"> button.</span><br/><span class="rvts6">Overture pastes all notes and symbols from the first measure into the third. In addition, it also pastes the tempo from the original measure into measure #3.</span></li>
+</ol>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NewItem259.png"></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

@@ -1,0 +1,99 @@
+﻿<html>
+	
+<head>
+	<title>Humanize</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("Humanize");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Humanize</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="OvertureMenus.html">Overture Menus</a> &rsaquo;&rsaquo; <a href="NotesMenu.html">Notes Menu</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="NotesMenu.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="Modify.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="Quantize.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<p class="rvps2"><span class="rvts6">Choose this command to </span><span class="rvts17">humanize</span><span class="rvts6"> selected notes, that is to alter their start times, durations, and velocities to give a human playback feel. When you choose the </span><span class="rvts12">Humanize</span><span class="rvts6"> command, Overture produces the Humanize dialog box.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NewItem41.png"></p>
+<h3 class="rvps13"><span class="rvts0"><span class="rvts21">Using the Notes/Humanize Command</span></span></h3>
+<p class="rvps2"><span class="rvts6">To </span><span class="rvts17">humanize</span><span class="rvts6"> selected notes and tempos:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Using the Arrow cursor, click the first note in the passage to select it (highlighting it). </span></span></li>
+<li value="2" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Shift-click the final note in the passage to select it (highlighting all the notes between). </span></span></li>
+<li value="3" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Choose </span></span><span class="rvts0"><span class="rvts12">Notes/Humanize</span></span><span class="rvts0"><span class="rvts6">.</span></span><br/><span class="rvts0"><span class="rvts6">The Humanize dialog box appears. </span></span></li>
+<li value="4" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Set the maximum amount to adjust each parameter. </span></span></li>
+<li value="5" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Click the </span></span><span class="rvts0"><span class="rvts12">Done</span></span><span class="rvts0"><span class="rvts6"> button. </span></span></li>
+</ol>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Overture humanizes the selected notes and tempos in your score.</span></p>
+<p class="rvps2"><span class="rvts6">This command affects start and end times of notes only, not the notated note value. To change note value, see </span><a class="rvts11" href="Transcribe.html">Transcribe</a><span class="rvts6">.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

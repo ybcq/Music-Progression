@@ -1,0 +1,91 @@
+﻿<html>
+	
+<head>
+	<title>Decrease Measures on System</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("DecreaseMeasuresonSystem");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Decrease Measures on System</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="OvertureMenus.html">Overture Menus</a> &rsaquo;&rsaquo; <a href="MeasuresMenu.html">Measures Menu</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="MeasuresMenu.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="IncreaseMeasuresonSystem.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="Breaks.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<h6 class="rvps14"><span class="rvts0"><span class="rvts22">Measures&gt;Decrease Measures on System</span></span></h6>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Choose this command to decrease the number of measures on the active system. The active system is the one that contains the insertion point.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Choosing </span><span class="rvts12">Measures&gt;Decrease Measures on System</span><span class="rvts6"> moves a measure from the right of the active system to the left of the following system, thereby decreasing the number of measures in the active system. Overture does not change the default number of measures for any remaining systems, so measures continue to wrap throughout the score (that is, the right measure in each system moves to the left of the following system).</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">If the final system in the score contains fewer measures than the default Measures per System value (as set in the</span><a class="rvts11" href="ActivePartsPanel.html"> Layout Panel</a><span class="rvts6">), Overture simply increases the number of measures in that final system. If the final system in the score contains the same number of measures as are specified in the&nbsp;</span><a class="rvts11" href="ActivePartsPanel.html"> Layout Panel</a><span class="rvts6">, Overture adds a new system containing a single measure.</span></p>
+<p class="rvps2"><span class="rvts6">Overture wraps all slurs, ties, beams, etc. as required.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

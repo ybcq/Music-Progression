@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTNameDocument name="Studio B">
+  <Version>1</Version>
+  <Author>Sonic Scores</Author>
+  <Device name="Studio B" />
+  <ArticulationNames>
+    <ArticulationSwitchList name="Marcato">
+      <Articulation name="Marcato" ctrlNum="2" ctrlValue="127" />
+      <Articulation name="Marcato Dot" ctrlNum="2" ctrlValue="127" durationPct="50" />
+      <Articulation name="Heavy Attack" ctrlNum="2" ctrlValue="127" durationPct="100" />
+    </ArticulationSwitchList>
+    <ArticulationSwitchList name="Marcato2">
+      <Articulation name="Marcato" ctrlNum="1" ctrlValue="127" />
+      <Articulation name="Marcato Dot" ctrlNum="1" ctrlValue="127" durationPct="50" />
+      <Articulation name="Heavy Attack" ctrlNum="1" ctrlValue="127" durationPct="100" />
+    </ArticulationSwitchList>
+  </ArticulationNames>
+  <KeySwitchNames>
+    <KeySwitchList name="Bass">
+      <KeySwitch name="E String Only" key="e2" />
+      <KeySwitch name="A String Only" key="f2" />
+      <KeySwitch name="D String Only" key="g2" />
+      <KeySwitch name="G String Only" key="a2" />
+      <KeySwitch name="Slides Toolbox" key="b2" />
+    </KeySwitchList>
+  </KeySwitchNames>
+  <ControllerNames>
+    <Controller name="Modulation" cc="1" />
+    <Controller name="Volume" cc="7" />
+    <Controller name="Panning" cc="10" />
+    <Controller name="Sustain" cc="64" />
+    <ControllerSwitchList name="Marcato 1">
+      <Controller name="Switch to Marcato" cc="2" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="Marcato 2">
+      <Controller name="Switch to Marcato" cc="1" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="PRS">
+      <Controller name="Add Vibrato LFO (Multi Only)" cc="1" />
+      <Controller name="Volume (Multi Only)" cc="11" />
+    </ControllerSwitchList>
+  </ControllerNames>
+  <Instruments>
+    <Section name="Studio B - Bass" clef="bass" title="Bass Guitar" abbr="BGtr." velocity="on">
+      <UsesKeySwitchList name="Bass" />
+      <Instrument name="Studio B - Acc Bass FX" lownote="e3" highnote="c6" />
+      <Instrument name="Studio B - Acc Bass Lite - Split" lownote="e3" highnote="g5" />
+      <Instrument name="Studio B - Acc Bass MAIN" lownote="e2" highnote="g4" />
+      <Instrument name="Studio B - Acc Bass PRO - Slap Split" lownote="e3" highnote="c8">
+        <UsesArticulationSwitchList name="Marcato" />
+        <UsesControllerSwitchList name="Marcato 1" />
+      </Instrument>
+      <Instrument name="Studio B - Acc Bass PRO" lownote="e3" highnote="c8" />
+      <Instrument name="Studio B - Acc Bass SLAP" lownote="c2" highnote="c4">
+        <UsesArticulationSwitchList name="Marcato2" />
+        <UsesControllerSwitchList name="Marcato 2" />
+      </Instrument>
+    </Section>
+    <Section name="Studio B - Drums" clef="percussion" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9" velocity="on">
+      <Group name="Brush Kit - Multi">
+        <Instrument name="HiHats" />
+        <Instrument name="Studio B - Brush Kit" />
+      </Group>
+      <Group name="Stick Kits - Multi">
+        <Instrument name="Studio B - Drums_Heavy_Set" />
+        <Instrument name="Studio B - Stick Kit 1" />
+        <Instrument name="Studio B - Stick Kit 2" />
+      </Group>
+    </Section>
+    <Section name="Studio B - Guitar" clef="treble" title="Electric Guitar" abbr="Gtr." lownote="e2" highnote="d6" velocity="on">
+      <UsesControllerSwitchList name="PRS" />
+      <Instrument name="Studio B - Distortion_Lead_CC1_Vib (Multi)" />
+      <Instrument name="Studio B - Elec Guitar PALM NoRel" />
+      <Instrument name="Studio B - Elec Guitar PALM" />
+      <Instrument name="Studio B - Elec Guitar PICK NoRel" />
+      <Instrument name="Studio B - Elec Guitar PICK" />
+      <Instrument name="Studio B - Elec Guitar RelTrgs" />
+      <Instrument name="Studio B - Guit_Clean_CC1_Vib (Multi)" />
+      <Instrument name="Studio B - Resonator_Distortion (Multi)" />
+    </Section>
+  </Instruments>
+</VSTNameDocument>

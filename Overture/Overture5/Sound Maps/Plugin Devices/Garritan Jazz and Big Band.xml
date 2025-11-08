@@ -1,0 +1,896 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTNameDocument name="Garritan Jazz &amp; Big Band">
+  <Version>1</Version>
+  <Author>Sonic Scores,Inc.</Author>
+  <Device name="ARIA Player" />
+  <ArticulationNames>
+    <Articulation name="Marcato" velocityAdd="30" />
+    <Articulation name="Marcato Dot" velocityAdd="30" ctrlNum="21" ctrlValue="30" ctrlOffValue="64" durationPct="50" />
+    <Articulation name="Heavy Attack" velocityAdd="30" durationPct="100" />
+    <Articulation name="SForzando" velocityAdd="40" />
+    <Articulation name="SForzando Dot" velocityAdd="40" ctrlNum="21" ctrlValue="30" ctrlOffValue="64" durationPct="50" />
+    <Articulation name="Heavier Attack" velocityAdd="40" ctrlNum="21" ctrlValue="30" ctrlOffValue="64" durationPct="100" />
+    <Articulation name="SForzando Inverted" velocityAdd="40" />
+    <Articulation name="SForzando Dot Inverted" velocityAdd="40" ctrlNum="21" ctrlValue="30" ctrlOffValue="64" durationPct="50" />
+    <Articulation name="Staccatissimo" velocityAdd="25" ctrlNum="21" ctrlValue="40" ctrlOffValue="64" durationPct="20" />
+    <Articulation name="Staccato" velocityAdd="20" ctrlNum="21" ctrlValue="30" ctrlOffValue="64" durationPct="35" />
+    <Articulation name="Tenuto" durationPct="100" />
+    <Articulation name="Up Bow" keySwitch="D#(x)" />
+    <Articulation name="Down Bow" keySwitch="E(x)" velocityAdd="10" />
+    <Articulation name="Up Bow Inverted" keySwitch="D#(x)" />
+    <Articulation name="Down Bow Inverted" keySwitch="E(x)" velocityAdd="10" />
+    <Articulation name="Arpeggio" attackFrom="-90" attackTo="0" />
+    <Articulation name="Tremolo Eighths" tremoloNotes="1" ctrlNum="64" ctrlValue="127" />
+    <Articulation name="Tremolo Sixteenths" tremoloNotes="2" ctrlNum="64" ctrlValue="127" />
+    <Articulation name="Tremolo Thirty Seconds" tremoloNotes="3" ctrlNum="64" ctrlValue="127" />
+    <Articulation name="Tremolo Sixty Fourths" tremoloNotes="4" ctrlNum="64" ctrlValue="127" />
+    <Articulation name="pizz" keySwitch="F(x)" />
+    <Articulation name="arco" keySwitch="C(x)" />
+    <Articulation name="legato" ctrlNum="64" onOffset="10" durationPct="105" ctrlValue="127" ctrlOffValue="0" />
+    <ArticulationSwitchList name="Trumpets">
+      <Articulation name="Fall Off" ctrlNum="15" ctrlValue="35" ctrlOffValue="0" />
+      <Articulation name="Doit" ctrlNum="15" ctrlValue="70" ctrlOffValue="0" />
+      <Articulation name="Spill, Stab, or Fall Off" ctrlNum="15" ctrlValue="35" ctrlOffValue="0" />
+      <Articulation name="Wow Wow, Shake, Growl, Lip Trill, or Wide Lip Trill" ctrlNum="18" ctrlValue="50" ctrlOffValue="0" />
+    </ArticulationSwitchList>
+    <ArticulationSwitchList name="Brass">
+      <Articulation name="Wow Wow, Shake, Growl, Lip Trill, or Wide Lip Trill" ctrlNum="18" ctrlValue="50" ctrlOffValue="0" />
+    </ArticulationSwitchList>
+    <ArticulationSwitchList name="Notation Legato">
+      <Articulation name="legato" ctrlNum="68" onOffset="10" durationPct="105" ctrlValue="127" ctrlOffValue="0" />
+    </ArticulationSwitchList>
+    <ArticulationSwitchList name="Notation Brass">
+      <Articulation name="legato" ctrlNum="68" onOffset="10" durationPct="105" ctrlValue="127" ctrlOffValue="0" />
+      <Articulation name="Wow Wow, Shake, Growl, Lip Trill, or Wide Lip Trill" ctrlNum="18" ctrlValue="50" ctrlOffValue="0" />
+    </ArticulationSwitchList>
+    <ArticulationSwitchList name="Notation Trumpets">
+      <Articulation name="Fall Off" ctrlNum="15" ctrlValue="35" ctrlOffValue="0" />
+      <Articulation name="Doit" ctrlNum="15" ctrlValue="70" ctrlOffValue="0" />
+      <Articulation name="Spill, Stab, or Fall Off" ctrlNum="15" ctrlValue="35" ctrlOffValue="0" />
+      <Articulation name="Wow Wow, Shake, Growl, Lip Trill, or Wide Lip Trill" ctrlNum="18" ctrlValue="50" ctrlOffValue="0" />
+      <Articulation name="legato" ctrlNum="68" onOffset="10" durationPct="105" ctrlValue="127" ctrlOffValue="0" />
+    </ArticulationSwitchList>
+  </ArticulationNames>
+  <KeySwitchNames>
+    <KeySwitchList name="Brass KS">
+      <KeySwitch name="Open" key="C(x)" />
+      <KeySwitch name="Straight Mute" key="D(x)" />
+      <KeySwitch name="Cup Mute" key="E(x)" />
+      <KeySwitch name="Harmon Mute" key="F(x)" />
+      <KeySwitch name="Bucket Mute" key="E(x)" />
+    </KeySwitchList>
+    <KeySwitchList name="Guitars KS">
+      <KeySwitch name="Standard Plucks" key="C(x)" />
+      <KeySwitch name="Harmonics" key="D(x)" />
+    </KeySwitchList>
+    <KeySwitchList name="Basses KS">
+      <KeySwitch name="Standard Plucks" key="C(x)" />
+      <KeySwitch name="Harmonics" key="D(x)" />
+    </KeySwitchList>
+    <KeySwitchList name="Arco Basses KS">
+      <KeySwitch name="Arco" key="C(x)" />
+      <KeySwitch name="Alternating Up/Dn Bows" key="D(x)" />
+      <KeySwitch name="Playable Tremolos" key="G(x)" />
+    </KeySwitchList>
+    <KeySwitchList name="Vibraphone KS">
+      <KeySwitch name="Hard Mallets" key="C(x)" />
+      <KeySwitch name="Soft Mallets" key="D(x)" />
+      <KeySwitch name="Buff Stop" key="C7" />
+    </KeySwitchList>
+  </KeySwitchNames>
+  <ControllerNames>
+    <Controller name="Volume (Mod Wheel)" cc="1" />
+    <Controller name="(Optional) Volume" cc="7" />
+    <Controller name="(Optional) Panning" cc="10" />
+    <Controller name="Legato/Sustain" cc="64" on="127" off="0" />
+    <Controller name="Legato Notation Set" cc="68" />
+    <Controller name="Var1" cc="22" />
+    <Controller name="Var2" cc="23" />
+    <Controller name="Length" cc="21" />
+    <ControllerSwitchList name="Winds">
+      <Controller name="Air Flow Noise" cc="12" />
+      <Controller name="Key Click/Valve Noise" cc="13" />
+      <Controller name="Vibrato Speed" cc="17" />
+      <Controller name="Flutter Tougue/Growl Sound" cc="18" />
+      <Controller name="Pitch Bend Defeat" cc="19" />
+      <Controller name="Portamento" cc="20" />
+      <Controller name="Tone Quality Control" cc="26" />
+      <Controller name="Tone Quality EQ Frequency" cc="27" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="Brass">
+      <Controller name="Air Flow Noise" cc="12" />
+      <Controller name="Key Click/Valve Noise" cc="13" />
+      <Controller name="Vibrato Speed" cc="17" />
+      <Controller name="Flutter Tougue/Growl Sound" cc="18" />
+      <Controller name="Pitch Bend Defeat" cc="19" />
+      <Controller name="Portamento" cc="20" />
+      <Controller name="Tone Quality Control" cc="26" />
+      <Controller name="Tone Quality EQ Frequency" cc="27" />
+      <Controller name="Legato/Shakes" cc="64" />
+      <Controller name="Attack Speed - Shakes" cc="28" />
+      <Controller name="Plunger Mute Control" cc="16" />
+      <Controller name="Portamento" cc="20" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="Notation Brass">
+      <Controller name="Air Flow Noise" cc="12" />
+      <Controller name="Key Click/Valve Noise" cc="13" />
+      <Controller name="Vibrato Speed" cc="17" />
+      <Controller name="Flutter Tougue/Growl Sound" cc="18" />
+      <Controller name="Pitch Bend Defeat" cc="19" />
+      <Controller name="Portamento" cc="20" />
+      <Controller name="Tone Quality Control" cc="26" />
+      <Controller name="Tone Quality EQ Frequency" cc="27" />
+      <Controller name="Legato/Shakes" cc="68" />
+      <Controller name="Attack Speed - Shakes" cc="28" />
+      <Controller name="Plunger Mute Control" cc="16" />
+      <Controller name="Portamento" cc="20" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="Trumpets">
+      <Controller name="Air Flow Noise" cc="12" />
+      <Controller name="Key Click/Valve Noise" cc="13" />
+      <Controller name="Vibrato Speed" cc="17" />
+      <Controller name="Flutter Tougue/Growl Sound" cc="18" />
+      <Controller name="Pitch Bend Defeat" cc="19" />
+      <Controller name="Portamento" cc="20" />
+      <Controller name="Tone Quality Control" cc="26" />
+      <Controller name="Tone Quality EQ Frequency" cc="27" />
+      <Controller name="Release Effects" cc="15" />
+      <Controller name="Legato/Shakes" cc="64" />
+      <Controller name="Attack Speed - Shakes" cc="28" />
+      <Controller name="Plunger Mute Control" cc="16" />
+      <Controller name="Portamento" cc="20" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="Notation Trumpets">
+      <Controller name="Air Flow Noise" cc="12" />
+      <Controller name="Key Click/Valve Noise" cc="13" />
+      <Controller name="Vibrato Speed" cc="17" />
+      <Controller name="Flutter Tougue/Growl Sound" cc="18" />
+      <Controller name="Pitch Bend Defeat" cc="19" />
+      <Controller name="Portamento" cc="20" />
+      <Controller name="Tone Quality Control" cc="26" />
+      <Controller name="Tone Quality EQ Frequency" cc="27" />
+      <Controller name="Release Effects" cc="15" />
+      <Controller name="Legato/Shakes" cc="68" />
+      <Controller name="Attack Speed - Shakes" cc="28" />
+      <Controller name="Plunger Mute Control" cc="16" />
+      <Controller name="Portamento" cc="20" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="Basses">
+      <Controller name="Fundemental Intensity" cc="12" />
+      <Controller name="Finger Noises" cc="13" />
+      <Controller name="Attack Speed" cc="18" />
+      <Controller name="Portamento" cc="20" />
+      <Controller name="Midrange EQ" cc="26" />
+      <Controller name="Midrange Center Frequency" cc="27" />
+      <Controller name="High Frequency EQ" cc="28" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="Upright Basses">
+      <Controller name="Fundemental Intensity" cc="12" />
+      <Controller name="Finger Noises" cc="13" />
+      <Controller name="Attack Speed" cc="18" />
+      <Controller name="Portamento" cc="20" />
+      <Controller name="Midrange EQ" cc="26" />
+      <Controller name="Midrange Center Frequency" cc="27" />
+      <Controller name="High Frequency EQ" cc="28" />
+      <Controller name="Switch To Open Strings" cc="64" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="Notation Upright Basses">
+      <Controller name="Fundemental Intensity" cc="12" />
+      <Controller name="Finger Noises" cc="13" />
+      <Controller name="Attack Speed" cc="18" />
+      <Controller name="Portamento" cc="20" />
+      <Controller name="Midrange EQ" cc="26" />
+      <Controller name="Midrange Center Frequency" cc="27" />
+      <Controller name="High Frequency EQ" cc="28" />
+      <Controller name="Switch To Open Strings" cc="68" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="Arco Basses">
+      <Controller name="Fundemental Intensity" cc="12" />
+      <Controller name="Finger Noises" cc="13" />
+      <Controller name="Attack Speed" cc="18" />
+      <Controller name="Portamento" cc="20" />
+      <Controller name="Midrange EQ" cc="26" />
+      <Controller name="Midrange Center Frequency" cc="27" />
+      <Controller name="High Frequency EQ" cc="28" />
+      <Controller name="Legato/Sustain" cc="64" />
+      <Controller name="Pitchbend Defeat" cc="19" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="Notation Arco Basses">
+      <Controller name="Fundemental Intensity" cc="12" />
+      <Controller name="Finger Noises" cc="13" />
+      <Controller name="Attack Speed" cc="18" />
+      <Controller name="Portamento" cc="20" />
+      <Controller name="Midrange EQ" cc="26" />
+      <Controller name="Midrange Center Frequency" cc="27" />
+      <Controller name="High Frequency EQ" cc="28" />
+      <Controller name="Legato/Sustain" cc="68" />
+      <Controller name="Pitchbend Defeat" cc="19" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="Steinway">
+      <Controller name="Sustain" cc="64" />
+      <Controller name="Brightness" cc="20" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="Vibraphone">
+      <Controller name="Midrange Intensity" cc="26" />
+      <Controller name="Tremolo Level" cc="22" />
+      <Controller name="Tremolo Speed" cc="23" />
+      <Controller name="Sustain" cc="64" />
+      <Controller name="Brightness" cc="28" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="Guitars">
+      <Controller name="Finger Noise Intensity" cc="13" />
+      <Controller name="Vibrato Speed" cc="17" />
+      <Controller name="Portamento" cc="20" />
+      <Controller name="Sustain" cc="64" />
+      <Controller name="Brightness" cc="28" />
+    </ControllerSwitchList>
+  </ControllerNames>
+  <NoteNames>
+    <NoteNameList name="GM Drum Sounds">
+      <NoteName name="Acoustic Bass Drum" pitch="b-3" />
+      <NoteName name="Bass Drum 1" pitch="c-2" />
+      <NoteName name="Side Stick" pitch="c#-2" />
+      <NoteName name="Acoustic Snare" pitch="d-2" />
+      <NoteName name="Hand Clap" pitch="d#-2" />
+      <NoteName name="Electric Snare" pitch="e-2" />
+      <NoteName name="Low Floor Tom" pitch="f-2" />
+      <NoteName name="Closed Hi-Hat" pitch="f#-2" />
+      <NoteName name="High Floor Tom" pitch="g-2" />
+      <NoteName name="Pedal Hi-Hat" pitch="g#-2" />
+      <NoteName name="Low Tom" pitch="a-2" />
+      <NoteName name="Open Hi-Hat" pitch="a#-1" />
+      <NoteName name="Low-Mid Tom" pitch="b-2" />
+    </NoteNameList>
+  </NoteNames>
+  <Instruments>
+    <Menu name="Standard Set">
+      <SubMenu name="Saxes and Woodwinds" clef="treble" portamento="on">
+        <UsesControllerSwitchList name="Winds" />
+        <UsesArticulationSwitchList name="Normal Legato" />
+        <Section name="Clarinets">
+          <Instrument name="Bass Clarinet" title="Bass Clarinet" abbr="BCl." lownote="b1" highnote="f5" transpose="2" pitchOffset="-12" />
+          <Instrument name="Bb Clarinet 1" title="Bb Clarinet 1" abbr="Cl. 1" lownote="d3" highnote="g6" transpose="2" />
+          <Instrument name="Bb Clarinet 2" title="Bb Clarinet 2" abbr="Cl. 2" lownote="d3" highnote="g6" transpose="2" />
+          <Instrument name="Bb Clarinet 3" title="Bb Clarinet 3" abbr="Cl. 3" lownote="d3" highnote="g6" transpose="2" />
+        </Section>
+        <Section name="Flutes" title="Flute">
+          <Instrument name="Alto Flute" title="Alto Flute" abbr="AFl." lownote="g3" highnote="c7" ksoctave="3" transpose="5" />
+          <Instrument name="Flute 1" title="Flute 1" abbr="Fl. 1" lownote="b3" highnote="d7" ksoctave="3" />
+          <Instrument name="Flute 2" title="Flute 2" abbr="Fl. 2" lownote="b3" highnote="d7" ksoctave="3" />
+          <Instrument name="Flute 3" title="Flute 3" abbr="Fl. 3" lownote="b3" highnote="d7" ksoctave="3" />
+          <Instrument name="Piccolo" title="Piccolo" abbr="PicFl." lownote="d5" highnote="c8" ksoctave="4" pitchOffset="12" />
+        </Section>
+        <Section name="Saxophones">
+          <Instrument name="Alto Sax 1" title="Alto Sax 1" abbr="ASx. 1" lownote="c#3" highnote="f6" transpose="9" />
+          <Instrument name="Alto Sax 2" title="Alto Sax 2" abbr="ASx. 2" lownote="c#3" highnote="f6" transpose="9" />
+          <Instrument name="Alto Sax 3" title="Alto Sax 3" abbr="ASx. 3" lownote="c#3" highnote="f6" transpose="9" />
+          <Instrument name="Bari Sax 1" title="Baritone Sax 1" abbr="BarSx. 1" lownote="c2" highnote="c5" transpose="21" />
+          <Instrument name="Bari Sax 2" title="Baritone Sax 2" abbr="BarSx. 2" lownote="c2" highnote="c5" transpose="21" />
+          <Instrument name="Bass Sax 1" title="Bass Sax 1" abbr="BSx. 1" lownote="g#1" highnote="f4" transpose="26" />
+          <Instrument name="Bass Sax 2" title="Bass Sax 2" abbr="BSx. 2" lownote="g#1" highnote="f4" transpose="26" />
+          <Instrument name="C Melody Sax 1" title="C Melody Sax 1" abbr="CSx. 1" lownote="a#2" highnote="f5" pitchOffset="-12" />
+          <Instrument name="C Melody Sax 2" title="C Melody Sax 2" abbr="CSx. 2" lownote="a#2" highnote="f5" pitchOffset="-12" />
+          <Instrument name="Contrabass Sax" title="Contrabass Sax" abbr="CbSx." lownote="c#1" highnote="a3" transpose="33" />
+          <Instrument name="Mezzo Soprano Sax" title="Mezzo Soprano Sax" abbr="MzSx." lownote="d#3" highnote="c6" transpose="14" />
+          <Instrument name="Sopranino" title="Sopranino Sax" abbr="SpSx." lownote="c#4" highnote="c7" transpose="-3" />
+          <Instrument name="Soprano Sax 1" title="Soprano Sax 1" abbr="SSx. 1" lownote="g#3" highnote="f6" transpose="2" />
+          <Instrument name="Soprano Sax 2" title="Soprano Sax 2" abbr="SSx. 2" lownote="g#3" highnote="f6" transpose="2" />
+          <Instrument name="Subcontrabass Sax" title="Subcontrabass Sax" abbr="SCbSx." lownote="g#0" highnote="d#3" transpose="38" />
+          <Instrument name="Tenor Sax 1" title="Tenor Sax 1" abbr="TSx. 1" lownote="g#2" highnote="c6" transpose="14" />
+          <Instrument name="Tenor Sax 2" title="Tenor Sax 2" abbr="TSx. 2" lownote="g#2" highnote="c6" transpose="14" />
+          <Instrument name="Tenor Sax 3" title="Tenor Sax 3" abbr="TSx. 3" lownote="g#2" highnote="c6" transpose="14" />
+          <Instrument name="Tenor Sax 4" title="Tenor Sax 4" abbr="TSx. 4" lownote="g#2" highnote="c6" transpose="14" />
+        </Section>
+         <Section name="Harmonica" title="Harmonica">
+          <Instrument name="Harmonica" title="Harmonica" abbr="Harm." lownote="g3" highnote="c7" />
+        </Section>
+     </SubMenu>
+      <SubMenu name="Trumpets" clef="treble" portamento="on">
+        <UsesControllerSwitchList name="Trumpets" />
+        <UsesArticulationSwitchList name="Trumpets" />
+        <Section name="Flugelhorns" lownote="e3" highnote="f6" transpose="2">
+          <Instrument name="Flugelhorn 1" title="Flugelhorn 1" abbr="Flg. 1" />
+          <Instrument name="Flugelhorn 2" title="Flugelhorn 2" abbr="Flg. 2" />
+          <Instrument name="Flugelhorn 3" title="Flugelhorn 3" abbr="Flg. 3" />
+          <Instrument name="Flugelhorn 4" title="Flugelhorn 4" abbr="Flg. 4" />
+          <Instrument name="Flugelhorn 5" title="Flugelhorn 5" abbr="Flg. 5" />
+        </Section>
+        <Section name="Trumpet 1" title="Trumpet 1" abbr="Trumpet. 1" lownote="e3" highnote="a#7" ksoctave="2" transpose="2">
+          <Instrument name="Trumpet 1 Open" />
+          <Instrument name="Trumpet 1 Straight Mute" />
+          <Instrument name="Trumpet 1 Cup Mute" />
+          <Instrument name="Trumpet 1 Harmon Mute" />
+          <Instrument name="Trumpet 1 Bucket Mute" />
+          <Instrument name="Trumpet 1 KS" keySwitchList="Brass KS"/>
+        </Section>
+        <Section name="Trumpet 2" title="Trumpet 2" abbr="Trumpet. 2" lownote="e3" highnote="a#7" ksoctave="2" transpose="2">
+          <Instrument name="Trumpet 2 Open" />
+          <Instrument name="Trumpet 2 Bucket Mute" />
+          <Instrument name="Trumpet 2 Cup Mute" />
+          <Instrument name="Trumpet 2 Harmon Mute" />
+          <Instrument name="Trumpet 2 KS" keySwitchList="Brass KS"/>
+          <Instrument name="Trumpet 2 Straight Mute" />
+        </Section>
+        <Section name="Trumpet 3" title="Trumpet 3" abbr="Trumpet. 3" lownote="e3" highnote="a#7" ksoctave="2" transpose="2">
+          <Instrument name="Trumpet 3 Open" />
+          <Instrument name="Trumpet 3 Bucket Mute" />
+          <Instrument name="Trumpet 3 Cup Mute" />
+          <Instrument name="Trumpet 3 Harmon Mute" />
+          <Instrument name="Trumpet 3 KS" keySwitchList="Brass KS"/>
+          <Instrument name="Trumpet 3 Straight Mute" />
+        </Section>
+        <Section name="Trumpet 4" title="Trumpet 4" abbr="Trumpet. 4" lownote="e3" highnote="a#7" ksoctave="2" transpose="2">
+          <Instrument name="Trumpet 4 Open" />
+          <Instrument name="Trumpet 4 Bucket Mute" />
+          <Instrument name="Trumpet 4 Cup Mute" />
+          <Instrument name="Trumpet 4 Harmon Mute" />
+          <Instrument name="Trumpet 4 KS" keySwitchList="Brass KS"/>
+          <Instrument name="Trumpet 4 Lite KS" keySwitchList="Brass KS"/>
+          <Instrument name="Trumpet 4 Straight Mute" />
+        </Section>
+        <Section name="Trumpet 5" title="Trumpet 5" abbr="Trumpet. 5" lownote="e3" highnote="a#7" ksoctave="2" transpose="2">
+          <Instrument name="Trumpet 5 Open" />
+          <Instrument name="Trumpet 5 Bucket Mute" />
+          <Instrument name="Trumpet 5 Cup Mute" />
+          <Instrument name="Trumpet 5 Harmon Mute" />
+          <Instrument name="Trumpet 5 KS" keySwitchList="Brass KS"/>
+          <Instrument name="Trumpet 5 Straight Mute" />
+        </Section>
+        <Section name="Trumpet Plunger" title="Trumpet" abbr="Trumpet." lownote="e3" highnote="a#7" ksoctave="2" transpose="2">
+          <Instrument name="Trumpet Plunger" />
+          <Instrument name="Trumpet Plunger Mute" />
+          <Instrument name="Trumpet Plunger + Str Mute" />
+        </Section>
+      </SubMenu>
+      <SubMenu name="Trombones" clef="bass">
+        <UsesControllerSwitchList name="Brass" />
+        <UsesArticulationSwitchList name="Brass" />
+        <Section name="Bass Trombone" title="Bass Trombone" abbr="BTbn." lownote="d#1" highnote="g4" ksoctave="0">
+          <Instrument name="Bass Trombone Open" />
+          <Instrument name="Bass Trombone Straight Mute" />
+          <Instrument name="Bass Trombone Cup Mute" />
+          <Instrument name="Bass Trombone Harmon Mute" />
+          <Instrument name="Bass Trombone Bucket Mute" />
+          <Instrument name="Bass Trombone KS" keySwitchList="Brass KS"/>
+        </Section>
+        <Section name="Trombone 1" title="Trombone 1" abbr="Tbn. 1" lownote="e2" highnote="c6" ksoctave="1">
+          <Instrument name="Trombone 1 Bucket Mute" />
+          <Instrument name="Trombone 1 Cup Mute" />
+          <Instrument name="Trombone 1 Harmon Mute" />
+          <Instrument name="Trombone 1 KS" keySwitchList="Brass KS"/>
+          <Instrument name="Trombone 1 Open" />
+          <Instrument name="Trombone 1 Straight Mute" />
+        </Section>
+        <Section name="Trombone 2" title="Trombone 2" abbr="Tbn. 2" lownote="e2" highnote="c6" ksoctave="1">
+          <Instrument name="Trombone 2 Bucket Mute" />
+          <Instrument name="Trombone 2 Cup Mute" />
+          <Instrument name="Trombone 2 Harmon Mute" />
+          <Instrument name="Trombone 2 KS" keySwitchList="Brass KS"/>
+          <Instrument name="Trombone 2 Lite KS" keySwitchList="Brass KS"/>
+          <Instrument name="Trombone 2 Open" />
+          <Instrument name="Trombone 2 Straight Mute" />
+        </Section>
+        <Section name="Trombone 3" title="Trombone 3" abbr="Tbn. 3" lownote="e2" highnote="c6" ksoctave="1">
+          <Instrument name="Trombone 3 Bucket Mute" />
+          <Instrument name="Trombone 3 Cup Mute" />
+          <Instrument name="Trombone 3 Harmon Mute" />
+          <Instrument name="Trombone 3 KS" keySwitchList="Brass KS"/>
+          <Instrument name="Trombone 3 Open" />
+          <Instrument name="Trombone 3 Straight Mute" />
+        </Section>
+        <Section name="Trombone 4" title="Trombone 4" abbr="Tbn. 4" lownote="e2" highnote="c6" ksoctave="1">
+          <Instrument name="Trombone 4 Bucket Mute" />
+          <Instrument name="Trombone 4 Cup Mute" />
+          <Instrument name="Trombone 4 Harmon Mute" />
+          <Instrument name="Trombone 4 KS" keySwitchList="Brass KS"/>
+          <Instrument name="Trombone 4 Open" />
+          <Instrument name="Trombone 4 Straight Mute" />
+        </Section>
+        <Section name="Trombone Plunger" title="Trombone" abbr="Tbn." lownote="e2" highnote="c6" ksoctave="1">
+          <Instrument name="Trombone Plunger Mute" />
+        </Section>
+        <Section name="Trombone 5" title="Trombone 5" abbr="Tbn. 5" lownote="e2" highnote="c6" ksoctave="1">
+          <Instrument name="Trombone 5 Bucket Mute" />
+          <Instrument name="Trombone 5 Cup Mute" />
+          <Instrument name="Trombone 5 Harmon Mute" />
+          <Instrument name="Trombone 5 KS" keySwitchList="Brass KS"/>
+          <Instrument name="Trombone 5 Open" />
+          <Instrument name="Trombone 5 Straight Mute" />
+        </Section>
+         <Section name="Trombone Plunger" title="Trombone Plunger" abbr="Tbn." lownote="e2" highnote="c6" ksoctave="1">
+          <Instrument name="Trombone Plunger" />
+          <Instrument name="Trombone Plunger Mute" />
+          <Instrument name="Trombone Plunger + Str Mute" />
+          <Instrument name="Trombone 5 KS" keySwitchList="Brass KS"/>
+          <Instrument name="Trombone 5 Open" />
+          <Instrument name="Trombone 5 Straight Mute" />
+        </Section>
+     </SubMenu>
+      <SubMenu name="Tuba">
+        <UsesControllerSwitchList name="Brass" />
+        <UsesArticulationSwitchList name="Normal Legato" />
+        <Instrument name="Tuba" title="Tuba" abbr="Tba." lownote="d#1" highnote="c5" clef="bass" />
+      </SubMenu>
+      <SubMenu name="Guitars" ksoctave="1" clef="treble" pitchOffset="-12" velocity="on">
+        <UsesKeySwitchList name="Guitars KS" />
+        <UsesControllerSwitchList name="Guitars" />
+        <UsesArticulationSwitchList name="Normal Legato" />
+        <Instrument name="Acoustic Guitar" title="Acoustic Guitar" abbr="Gtr." lownote="a1" highnote="c7" />
+        <Instrument name="Electric Guitar Mellow" title="Electric Guitar" abbr="EGtr." lownote="a0" highnote="c8" />
+        <Instrument name="Electric Guitar" title="Electric Guitar" abbr="EGtr." lownote="e2" highnote="c7" />
+      </SubMenu>
+      <SubMenu name="Keyboards and Vibes" ksoctave="2" velocity="on">
+        <UsesArticulationSwitchList name="Normal Legato" />
+        <Instrument name="Accordian" title="Accordian" abbr="Acn." lownote="c1" highnote="a5" />
+        <Instrument name="Steinway Jazz Piano" title="Jazz Piano" abbr="Pf." lownote="e2" highnote="c7">
+          <UsesControllerSwitchList name="Steinway" />
+        </Instrument>
+        <Instrument name="Steinway Jazz Piano Lite" title="Jazz Piano" abbr="Pf." lownote="e2" highnote="c7">
+          <UsesControllerSwitchList name="Steinway" />
+        </Instrument>
+        <Instrument name="Vibraphone Hard Mallet" title="Vibraphone" abbr="Vib." lownote="f3" highnote="f6">
+          <UsesControllerSwitchList name="Vibraphone" />
+        </Instrument>
+        <Instrument name="Vibraphone KS" title="Vibraphone" abbr="Vib." lownote="f3" highnote="f6">
+          <UsesKeySwitchList name="Vibraphone KS" />
+          <UsesControllerSwitchList name="Vibraphone" />
+        </Instrument>
+        <Instrument name="Vibraphone Soft Mallet" title="Vibraphone" abbr="Vib." lownote="f3" highnote="f6">
+          <UsesControllerSwitchList name="Vibraphone" />
+        </Instrument>
+        <Instrument name="Vintage Electric Piano" title="Electric Piano" abbr="EPf." lownote="e1" highnote="e7" />
+      </SubMenu>
+      <SubMenu name="Basses" ksoctave="1" clef="bass" pitchOffset="-12">
+        <UsesKeySwitchList name="Basses KS" />
+        <UsesControllerSwitchList name="Basses" />
+        <UsesArticulationSwitchList name="Normal Legato" />
+        <Instrument name="Fretless Bass 1" title="Fretless Bass 1" abbr="BGtr. 1" lownote="e1" highnote="c5" velocity="on" />
+        <Instrument name="Fretless Bass 2" title="Fretless Bass 2" abbr="BGtr. 2" lownote="e1" highnote="c5" velocity="on" />
+        <Instrument name="Jazz Fretless Bass 1" title="Fretless Bass 1" abbr="BGtr. 1" lownote="e1" highnote="c5" velocity="on" />
+        <Instrument name="Jazz Fretless Bass 2" title="Fretless Bass 2" abbr="BGtr. 2" lownote="e1" highnote="c5" velocity="on" />
+        <Instrument name="Upright Bass 1" title="Upright Bass 1" abbr="Db. 1" lownote="e1" highnote="c5" velocity="on">
+          <UsesControllerSwitchList name="Upright Basses" />
+        </Instrument>
+        <Instrument name="Upright Bass 2" title="Upright Bass 2" abbr="Db. 2" lownote="e1" highnote="c5" velocity="on">
+          <UsesControllerSwitchList name="Upright Basses" />
+        </Instrument>
+        <Instrument name="Upright Bass 2 Arco" title="Upright Bass 2" abbr="Db. 2" lownote="e1" highnote="c5" ksoctave="0">
+          <UsesKeySwitchList name="Arco Basses KS" />
+          <UsesControllerSwitchList name="Arco Basses" />
+        </Instrument>
+      </SubMenu>
+      <SubMenu name="Drums and Percussion" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9" portamento="off" legato="off" clef="percussion" velocity="on">
+        <UsesKeySwitchList name="Percussion" />
+        <UsesControllerSwitchList name="Percussion" />
+        <UsesNoteNameList name="GM Drum Sounds" />
+        <UsesArticulationSwitchList name="Normal Legato" />
+        <Section name="Brushes">
+          <Instrument name="01 Brush Drum Kit" />
+          <Instrument name="02 Brush Drum Kit" />
+          <Instrument name="Brush Cymbals" />
+          <Instrument name="Brush HiHat" />
+          <Instrument name="Brush Snare Drum 1" />
+          <Instrument name="Brush Snare Drum 2" />
+          <Instrument name="Brush Toms" />
+          <Instrument name="Sgl-Layr-Hd Bass Drum" />
+        </Section>
+        <Section name="Percussion">
+          <Group name="01 Drums">
+            <Instrument name="Batas" />
+            <Instrument name="Bongos" />
+            <Instrument name="Cajones" />
+            <Instrument name="Conga" />
+            <Instrument name="Cuica" />
+            <Instrument name="Djembe" />
+            <Instrument name="Pandero" />
+            <Instrument name="Quinto" />
+            <Instrument name="Super Tumba" />
+            <Instrument name="The Box" />
+            <Instrument name="Timbales" />
+            <Instrument name="Tumba" />
+            <Instrument name="Udu" />
+          </Group>
+          <Group name="02 Gourds">
+            <Instrument name="Cabassa" />
+            <Instrument name="Guira" />
+            <Instrument name="Guiro" />
+            <Instrument name="Maraccas" />
+            <Instrument name="Shakers" />
+            <Instrument name="Shekere" />
+          </Group>
+          <Group name="03 Blocks">
+            <Instrument name="Clave" />
+            <Instrument name="Jam Block" />
+            <Instrument name="Woodblock" />
+          </Group>
+          <Group name="04 Bells">
+            <Instrument name="Agogo Bells" />
+            <Instrument name="Bongo Bells" />
+            <Instrument name="Cha Cha Bells" />
+            <Instrument name="Timbale Bells" />
+          </Group>
+          <Group name="05 Misc. Percussion">
+            <Instrument name="Castinets" />
+            <Instrument name="Handclaps - Fingersnaps" />
+            <Instrument name="Jawbone" />
+            <Instrument name="Rainstick" />
+            <Instrument name="Tambourine" />
+            <Instrument name="Triangles" />
+            <Instrument name="Whistles" />
+          </Group>
+        </Section>
+        <Section name="Sticks">
+          <Group name="Classic Jazz Drum Kit">
+            <Instrument name="03 Classic Jz Drum Kit" />
+            <Instrument name="03 Classic Jz Drum Kit Lite" />
+            <Instrument name="14inHiHat2" />
+            <Instrument name="15inHiHat" />
+            <Instrument name="Cymbals" />
+            <Instrument name="Cymbals Lite" />
+            <Instrument name="Sgl-Layr-Hd Bass Drum" />
+            <Instrument name="Sgl-Layr-Hd Piccolo Snare" />
+            <Instrument name="Sgl-Layr-Hd Snare" />
+            <Instrument name="Sgl-Layr-Hd Toms" />
+          </Group>
+          <Group name="Fusion Drum Kit">
+            <Instrument name="04 Fusion Drum Kit" />
+            <Instrument name="04 Fusion Drum Kit Lite" />
+            <Instrument name="14inHiHat1" />
+            <Instrument name="Cymbals" />
+            <Instrument name="Cymbals Lite" />
+            <Instrument name="Dgl-Layr-Hd Bass Drum" />
+            <Instrument name="Dgl-Layr-Hd Piccolo Snare" />
+            <Instrument name="Dgl-Layr-Hd Snare" />
+            <Instrument name="Dgl-Layr-Hd Toms" />
+          </Group>
+          <Group name="GM Drum Kits">
+            <Instrument name="GM Classic Jazz Drum Kit" />
+            <Instrument name="GM Fusion Drum Kit" />
+          </Group>
+        </Section>
+      </SubMenu>
+    </Menu>
+    <Menu name="Notation Set">
+      <Section name="Saxes and Woodwinds" clef="treble" portamento="on">
+        <UsesControllerSwitchList name="Winds" />
+        <UsesArticulationSwitchList name="Notation Legato" />
+        <Group name="Clarinets">
+          <Instrument name="n-Bass Clarinet" title="Bass Clarinet" abbr="BCl." lownote="b1" highnote="f5" transpose="2" pitchOffset="-12" />
+          <Instrument name="n-Bb Clarinet 1" title="Bb Clarinet 1" abbr="Cl. 1" lownote="d3" highnote="g6" transpose="2" />
+          <Instrument name="n-Bb Clarinet 2" title="Bb Clarinet 2" abbr="Cl. 2" lownote="d3" highnote="g6" transpose="2" />
+          <Instrument name="n-Bb Clarinet 3" title="Bb Clarinet 3" abbr="Cl. 3" lownote="d3" highnote="g6" transpose="2" />
+        </Group>
+        <Group name="Flutes" title="Flute">
+          <Instrument name="n-Alto Flute" title="Alto Flute" abbr="AFl." lownote="g3" highnote="c7" ksoctave="3" transpose="5" />
+          <Instrument name="n-Flute 1" title="Flute 1" abbr="Fl. 1" lownote="b3" highnote="d7" ksoctave="3" />
+          <Instrument name="n-Flute 2" title="Flute 2" abbr="Fl. 2" lownote="b3" highnote="d7" ksoctave="3" />
+          <Instrument name="n-Flute 3" title="Flute 3" abbr="Fl. 3" lownote="b3" highnote="d7" ksoctave="3" />
+          <Instrument name="n-Piccolo" title="Piccolo" abbr="PicFl." lownote="d5" highnote="c8" ksoctave="4" pitchOffset="12" />
+        </Group>
+        <Group name="Saxaphones">
+          <Instrument name="n-Alto Sax 1" title="Alto Sax 1" abbr="ASx. 1" lownote="c#3" highnote="f6" transpose="9" />
+          <Instrument name="n-Alto Sax 2" title="Alto Sax 2" abbr="ASx. 2" lownote="c#3" highnote="f6" transpose="9" />
+          <Instrument name="n-Alto Sax 3" title="Alto Sax 3" abbr="ASx. 3" lownote="c#3" highnote="f6" transpose="9" />
+          <Instrument name="n-Bari Sax 1" title="Baritone Sax 1" abbr="BarSx. 1" lownote="c2" highnote="c5" transpose="21" />
+          <Instrument name="n-Bari Sax 2" title="Baritone Sax 2" abbr="BarSx. 2" lownote="c2" highnote="c5" transpose="21" />
+          <Instrument name="n-Bass Sax 1" title="Bass Sax 1" abbr="BSx. 1" lownote="g#1" highnote="f4" transpose="26" />
+          <Instrument name="n-Bass Sax 2" title="Bass Sax 2" abbr="BSx. 2" lownote="g#1" highnote="f4" transpose="26" />
+          <Instrument name="n-C Melody Sax 1" title="C Melody Sax 1" abbr="CSx. 1" lownote="a#2" highnote="f5" pitchOffset="-12" />
+          <Instrument name="n-C Melody Sax 2" title="C Melody Sax 2" abbr="CSx. 2" lownote="a#2" highnote="f5" pitchOffset="-12" />
+          <Instrument name="n-Contrabass Sax" title="Contrabass Sax" abbr="CbSx." lownote="c#1" highnote="a3" transpose="33" />
+          <Instrument name="n-Mezzo Soprano Sax" title="Mezzo Soprano Sax" abbr="MzSx." lownote="d#3" highnote="c6" transpose="14" />
+          <Instrument name="n-Sopranino" title="Sopranino Sax" abbr="SpSx." lownote="c#4" highnote="c7" transpose="-3" />
+          <Instrument name="n-Soprano Sax 1" title="Soprano Sax 1" abbr="SSx. 1" lownote="g#3" highnote="f6" transpose="2" />
+          <Instrument name="n-Soprano Sax 2" title="Soprano Sax 2" abbr="SSx. 2" lownote="g#3" highnote="f6" transpose="2" />
+          <Instrument name="n-Subcontrabass Sax" title="Subcontrabass Sax" abbr="SCbSx." lownote="g#0" highnote="d#3" transpose="38" />
+          <Instrument name="n-Tenor Sax 1" title="Tenor Sax 1" abbr="TSx. 1" lownote="g#2" highnote="c6" transpose="14" />
+          <Instrument name="n-Tenor Sax 2" title="Tenor Sax 2" abbr="TSx. 2" lownote="g#2" highnote="c6" transpose="14" />
+          <Instrument name="n-Tenor Sax 3" title="Tenor Sax 3" abbr="TSx. 3" lownote="g#2" highnote="c6" transpose="14" />
+          <Instrument name="n-Tenor Sax 4" title="Tenor Sax 4" abbr="TSx. 4" lownote="g#2" highnote="c6" transpose="14" />
+        </Group>
+      </Section>
+      <Section name="Trumpets" clef="treble" portamento="on">
+        <UsesControllerSwitchList name="Notation Trumpets" />
+        <UsesArticulationSwitchList name="Notation Trumpets" />
+        <Group name="Flugelhorns" lownote="e3" highnote="f6" transpose="2">
+          <Instrument name="n-Flugelhorn 1" title="Flugelhorn 1" abbr="Flg. 1" />
+          <Instrument name="n-Flugelhorn 2" title="Flugelhorn 2" abbr="Flg. 2" />
+          <Instrument name="n-Flugelhorn 3" title="Flugelhorn 3" abbr="Flg. 3" />
+          <Instrument name="n-Flugelhorn 4" title="Flugelhorn 4" abbr="Flg. 4" />
+          <Instrument name="n-Flugelhorn 5" title="Flugelhorn 5" abbr="Flg. 5" />
+        </Group>
+        <Group name="Trumpet 1" title="Trumpet 1" abbr="Trumpet. 1" lownote="e3" highnote="a#7" ksoctave="-1" transpose="2">
+          <Instrument name="n-Trumpet 1 Bucket Mute" />
+          <Instrument name="n-Trumpet 1 Cup Mute" />
+          <Instrument name="n-Trumpet 1 Harmon Mute" />
+          <Instrument name="n-Trumpet 1 KS">
+            <UsesKeySwitchList name="Brass KS" />
+          </Instrument>
+          <Instrument name="n-Trumpet 1 Lite KS">
+            <UsesKeySwitchList name="Brass KS" />
+          </Instrument>
+          <Instrument name="n-Trumpet 1 Open" />
+          <Instrument name="n-Trumpet 1 Straight Mute" />
+        </Group>
+        <Group name="Trumpet 2" title="Trumpet 2" abbr="Trumpet. 2" lownote="e3" highnote="a#7" ksoctave="-1" transpose="2">
+          <Instrument name="n-Trumpet 2 Bucket Mute" />
+          <Instrument name="n-Trumpet 2 Cup Mute" />
+          <Instrument name="n-Trumpet 2 Harmon Mute" />
+          <Instrument name="n-Trumpet 2 KS">
+            <UsesKeySwitchList name="Brass KS" />
+          </Instrument>
+          <Instrument name="n-Trumpet 2 Lite KS">
+            <UsesKeySwitchList name="Brass KS" />
+          </Instrument>
+          <Instrument name="n-Trumpet 2 Open" />
+          <Instrument name="n-Trumpet 2 Straight Mute" />
+        </Group>
+        <Group name="Trumpet 3" title="Trumpet 3" abbr="Trumpet. 3" lownote="e3" highnote="a#7" ksoctave="-1" transpose="2">
+          <Instrument name="n-Trumpet 3 Bucket Mute" />
+          <Instrument name="n-Trumpet 3 Cup Mute" />
+          <Instrument name="n-Trumpet 3 Harmon Mute" />
+          <Instrument name="n-Trumpet 3 KS">
+            <UsesKeySwitchList name="Brass KS" />
+          </Instrument>
+          <Instrument name="n-Trumpet 3 Lite KS">
+            <UsesKeySwitchList name="Brass KS" />
+          </Instrument>
+          <Instrument name="n-Trumpet 3 Open" />
+          <Instrument name="n-Trumpet 3 Straight Mute" />
+        </Group>
+        <Group name="Trumpet 4" title="Trumpet 4" abbr="Trumpet. 4" lownote="e3" highnote="a#7" ksoctave="-1" transpose="2">
+          <Instrument name="n-Trumpet 4 Bucket Mute" />
+          <Instrument name="n-Trumpet 4 Cup Mute" />
+          <Instrument name="n-Trumpet 4 Harmon Mute" />
+          <Instrument name="n-Trumpet 4 KS">
+            <UsesKeySwitchList name="Brass KS" />
+          </Instrument>
+          <Instrument name="n-Trumpet 4 Lite KS">
+            <UsesKeySwitchList name="Brass KS" />
+          </Instrument>
+          <Instrument name="n-Trumpet 4 Open" />
+          <Instrument name="n-Trumpet 4 Straight Mute" />
+        </Group>
+        <Group name="Trumpet 5" title="Trumpet 5" abbr="Trumpet. 5" lownote="e3" highnote="a#7" ksoctave="-1" transpose="2">
+          <Instrument name="n-Trumpet 5 Bucket Mute" />
+          <Instrument name="n-Trumpet 5 Cup Mute" />
+          <Instrument name="n-Trumpet 5 Harmon Mute" />
+          <Instrument name="n-Trumpet 5 KS">
+            <UsesKeySwitchList name="Brass KS" />
+          </Instrument>
+          <Instrument name="n-Trumpet 5 Lite KS">
+            <UsesKeySwitchList name="Brass KS" />
+          </Instrument>
+          <Instrument name="n-Trumpet 5 Open" />
+          <Instrument name="n-Trumpet 5 Straight Mute" />
+        </Group>
+        <Group name="Trumpet Plunger" title="Trumpet" abbr="Trumpet." lownote="e3" highnote="a#7" ksoctave="-1" transpose="2">
+          <Instrument name="n-Trumpet Plunger Mute" />
+        </Group>
+      </Section>
+      <Section name="Trombones" clef="bass">
+        <UsesControllerSwitchList name="Notation Brass" />
+        <UsesArticulationSwitchList name="Notation Brass" />
+        <Group name="Bass Trombone" title="Bass Trombone" abbr="BTbn." lownote="d#1" highnote="g4" ksoctave="-1">
+          <Instrument name="n-Bass Trombone Bucket Mute" />
+          <Instrument name="n-Bass Trombone Cup Mute" />
+          <Instrument name="n-Bass Trombone Harmon Mute" />
+          <Instrument name="n-Bass Trombone KS">
+            <UsesKeySwitchList name="Brass KS" />
+          </Instrument>
+          <Instrument name="n-Bass Trombone Lite KS">
+            <UsesKeySwitchList name="Brass KS" />
+          </Instrument>
+          <Instrument name="n-Bass Trombone Open" />
+          <Instrument name="n-Bass Trombone Straight Mute" />
+        </Group>
+        <Group name="Trombone 1" title="Trombone 1" abbr="Tbn. 1" lownote="e2" highnote="c6" ksoctave="-1">
+          <Instrument name="n-Trombone 1 Bucket Mute" />
+          <Instrument name="n-Trombone 1 Cup Mute" />
+          <Instrument name="n-Trombone 1 Harmon Mute" />
+          <Instrument name="n-Trombone 1 KS">
+            <UsesKeySwitchList name="Brass KS" />
+          </Instrument>
+          <Instrument name="n-Trombone 1 Lite KS">
+            <UsesKeySwitchList name="Brass KS" />
+          </Instrument>
+          <Instrument name="n-Trombone 1 Open" />
+          <Instrument name="n-Trombone 1 Straight Mute" />
+        </Group>
+        <Group name="Trombone 2" title="Trombone 2" abbr="Tbn. 2" lownote="e2" highnote="c6" ksoctave="-1">
+          <Instrument name="n-Trombone 2 Bucket Mute" />
+          <Instrument name="n-Trombone 2 Cup Mute" />
+          <Instrument name="n-Trombone 2 Harmon Mute" />
+          <Instrument name="n-Trombone 2 KS">
+            <UsesKeySwitchList name="Brass KS" />
+          </Instrument>
+          <Instrument name="n-Trombone 2 Lite KS">
+            <UsesKeySwitchList name="Brass KS" />
+          </Instrument>
+          <Instrument name="n-Trombone 2 Open" />
+          <Instrument name="n-Trombone 2 Straight Mute" />
+        </Group>
+        <Group name="Trombone 3" title="Trombone 3" abbr="Tbn. 3" lownote="e2" highnote="c6" ksoctave="-1">
+          <Instrument name="n-Trombone 3 Bucket Mute" />
+          <Instrument name="n-Trombone 3 Cup Mute" />
+          <Instrument name="n-Trombone 3 Harmon Mute" />
+          <Instrument name="n-Trombone 3 KS">
+            <UsesKeySwitchList name="Brass KS" />
+          </Instrument>
+          <Instrument name="n-Trombone 3 Lite KS">
+            <UsesKeySwitchList name="Brass KS" />
+          </Instrument>
+          <Instrument name="n-Trombone 3 Open" />
+          <Instrument name="n-Trombone 3 Straight Mute" />
+        </Group>
+        <Group name="Trombone 4" title="Trombone 4" abbr="Tbn. 4" lownote="e2" highnote="c6" ksoctave="-1">
+          <Instrument name="n-Trombone 4 Bucket Mute" />
+          <Instrument name="n-Trombone 4 Cup Mute" />
+          <Instrument name="n-Trombone 4 Harmon Mute" />
+          <Instrument name="n-Trombone 4 KS">
+            <UsesKeySwitchList name="Brass KS" />
+          </Instrument>
+          <Instrument name="n-Trombone 4 Lite KS">
+            <UsesKeySwitchList name="Brass KS" />
+          </Instrument>
+          <Instrument name="n-Trombone 4 Open" />
+          <Instrument name="n-Trombone 4 Straight Mute" />
+        </Group>
+        <Group name="Trombone 5" title="Trombone 5" abbr="Tbn. 5" lownote="e2" highnote="c6" ksoctave="-1">
+          <Instrument name="n-Trombone 5 Bucket Mute" />
+          <Instrument name="n-Trombone 5 Cup Mute" />
+          <Instrument name="n-Trombone 5 Harmon Mute" />
+          <Instrument name="n-Trombone 5 KS">
+            <UsesKeySwitchList name="Brass KS" />
+          </Instrument>
+          <Instrument name="n-Trombone 5 Lite KS">
+            <UsesKeySwitchList name="Brass KS" />
+          </Instrument>
+          <Instrument name="n-Trombone 5 Open" />
+          <Instrument name="n-Trombone 5 Straight Mute" />
+        </Group>
+         <Group name="Trombone Plunger" title="Trombone" abbr="Tbn." lownote="e2" highnote="c6" ksoctave="-1">
+          <Instrument name="n-Trombone Plunger" />
+          <Instrument name="n-Trombone Plunger Mute" />
+          <Instrument name="n-Trombone Plunger + Str Mute" />
+        </Group>
+     </Section>
+      <Section name="Tuba">
+        <UsesControllerSwitchList name="Notation Brass" />
+        <UsesArticulationSwitchList name="Notation Legato" />
+        <Instrument name="n-Tuba" title="Tuba" abbr="Tba." lownote="d#1" highnote="c5" clef="bass" />
+      </Section>
+      <Section name="Guitars" ksoctave="-1" clef="treble" pitchOffset="-12" velocity="on">
+        <UsesKeySwitchList name="Guitars KS" />
+        <UsesControllerSwitchList name="Guitars" />
+        <Instrument name="n-Acoustic Guitar" title="Acoustic Guitar" abbr="Gtr." lownote="a1" highnote="c7" />
+        <Instrument name="n-Electric Guitar Mellow" title="Electric Guitar" abbr="EGtr." lownote="a0" highnote="c8" />
+        <Instrument name="n-Electric Guitar" title="Electric Guitar" abbr="EGtr." lownote="e2" highnote="c7" />
+      </Section>
+      <Section name="Keyboards and Vibes" ksoctave="-1" velocity="on">
+        <Instrument name="n-Accordian" title="Accordian" abbr="Acn." lownote="c1" highnote="a5" />
+        <Instrument name="n-Steinway Jazz Piano" title="Jazz Piano" abbr="Pf." lownote="e2" highnote="c7">
+          <UsesControllerSwitchList name="Steinway" />
+        </Instrument>
+        <Instrument name="n-Steinway Jazz Piano Lite" title="Jazz Piano" abbr="Pf." lownote="e2" highnote="c7">
+          <UsesControllerSwitchList name="Steinway" />
+        </Instrument>
+        <Instrument name="n-Vibraphone Hard Mallet" title="Vibraphone" abbr="Vib." lownote="f3" highnote="f6">
+          <UsesControllerSwitchList name="Vibraphone" />
+        </Instrument>
+        <Instrument name="n-Vibraphone KS" title="Vibraphone" abbr="Vib." lownote="f3" highnote="f6">
+          <UsesKeySwitchList name="Vibraphone KS" />
+          <UsesControllerSwitchList name="Vibraphone" />
+        </Instrument>
+        <Instrument name="n-Vibraphone Soft Mallet" title="Vibraphone" abbr="Vib." lownote="f3" highnote="f6">
+          <UsesControllerSwitchList name="Vibraphone" />
+        </Instrument>
+        <Instrument name="n-Vintage Electric Piano" title="Electric Piano" abbr="EPf." lownote="e1" highnote="e7" />
+      </Section>
+      <Section name="Basses" ksoctave="-1" clef="bass" pitchOffset="-12">
+        <UsesKeySwitchList name="Basses KS" />
+        <UsesControllerSwitchList name="Basses" />
+        <Instrument name="n-Fretless Bass 1" title="Fretless Bass 1" abbr="BGtr. 1" lownote="e1" highnote="c5" velocity="on" />
+        <Instrument name="n-Fretless Bass 2" title="Fretless Bass 2" abbr="BGtr. 2" lownote="e1" highnote="c5" velocity="on" />
+        <Instrument name="n-Jazz Fretless Bass 1" title="Fretless Bass 1" abbr="BGtr. 1" lownote="e1" highnote="c5" velocity="on" />
+        <Instrument name="n-Jazz Fretless Bass 2" title="Fretless Bass 2" abbr="BGtr. 2" lownote="e1" highnote="c5" velocity="on" />
+        <Instrument name="n-Upright Bass 1" title="Upright Bass 1" abbr="Db. 1" lownote="e1" highnote="c5" velocity="on">
+          <UsesControllerSwitchList name="Notation Upright Basses" />
+        </Instrument>
+        <Instrument name="n-Upright Bass 2" title="Upright Bass 2" abbr="Db. 2" lownote="e1" highnote="c5" velocity="on">
+          <UsesControllerSwitchList name="Notation Upright Basses" />
+        </Instrument>
+        <Instrument name="n-Upright Bass 2 Arco" title="Upright Bass 2" abbr="Db. 2" lownote="e1" highnote="c5" ksoctave="0">
+          <UsesKeySwitchList name="Arco Basses KS" />
+          <UsesControllerSwitchList name="Notation Arco Basses" />
+          <UsesArticulationSwitchList name="Notation Legato" />
+        </Instrument>
+      </Section>
+      <Section name="Drums and Percussion" title="Percussion" abbr="Perc." lownote="c-1" highnote="c9" portamento="off" legato="off" clef="percussion" velocity="on">
+        <UsesKeySwitchList name="Percussion" />
+        <UsesControllerSwitchList name="Percussion" />
+        <UsesNoteNameList name="GM Drum Sounds" />
+        <Group name="Brushes">
+          <Instrument name="n-01 Brush Drum Kit" />
+          <Instrument name="n-02 Brush Drum Kit" />
+          <Instrument name="n-Brush Cymbals" />
+          <Instrument name="n-Brush HiHat" />
+          <Instrument name="n-Brush Snare Drum 1" />
+          <Instrument name="n-Brush Snare Drum 2" />
+          <Instrument name="n-Brush Toms" />
+          <Instrument name="n-Sgl-Layr-Hd Bass Drum" />
+        </Group>
+        <Group name="01 Drums">
+          <Instrument name="n-Batas" />
+          <Instrument name="n-Bongos" />
+          <Instrument name="n-Cajones" />
+          <Instrument name="n-Conga" />
+          <Instrument name="n-Cuica" />
+          <Instrument name="n-Djembe" />
+          <Instrument name="n-Pandero" />
+          <Instrument name="n-Quinto" />
+          <Instrument name="n-Super Tumba" />
+          <Instrument name="n-The Box" />
+          <Instrument name="n-Timbales" />
+          <Instrument name="n-Tumba" />
+          <Instrument name="n-Udu" />
+        </Group>
+        <Group name="02 Gourds">
+          <Instrument name="n-Cabassa" />
+          <Instrument name="n-Guira" />
+          <Instrument name="n-Guiro" />
+          <Instrument name="n-Maraccas" />
+          <Instrument name="n-Shakers" />
+          <Instrument name="n-Shekere" />
+        </Group>
+        <Group name="03 Blocks">
+          <Instrument name="n-Clave" />
+          <Instrument name="n-Jam Block" />
+          <Instrument name="n-Woodblock" />
+        </Group>
+        <Group name="04 Bells">
+          <Instrument name="n-Agogo Bells" />
+          <Instrument name="n-Bongo Bells" />
+          <Instrument name="n-Cha Cha Bells" />
+          <Instrument name="n-Timbale Bells" />
+        </Group>
+        <Group name="05 Misc. Percussion">
+          <Instrument name="n-Castinets" />
+          <Instrument name="n-Handclaps - Fingersnaps" />
+          <Instrument name="n-Jawbone" />
+          <Instrument name="n-Rainstick" />
+          <Instrument name="n-Tambourine" />
+          <Instrument name="n-Triangles" />
+          <Instrument name="n-Whistles" />
+        </Group>
+        <Group name="Classic Jazz Drum Kit">
+          <Instrument name="n-03 Classic Jz Drum Kit" />
+          <Instrument name="n-03 Classic Jz Drum Kit Lite" />
+          <Instrument name="n-14inHiHat2" />
+          <Instrument name="n-15inHiHat" />
+          <Instrument name="n-Cymbals" />
+          <Instrument name="n-Cymbals Lite" />
+          <Instrument name="n-Sgl-Layr-Hd Bass Drum" />
+          <Instrument name="n-Sgl-Layr-Hd Piccolo Snare" />
+          <Instrument name="n-Sgl-Layr-Hd Snare" />
+          <Instrument name="n-Sgl-Layr-Hd Toms" />
+        </Group>
+        <Group name="Fusion Drum Kit">
+          <Instrument name="n-04 Fusion Drum Kit" />
+          <Instrument name="n-04 Fusion Drum Kit Lite" />
+          <Instrument name="n-14inHiHat1" />
+          <Instrument name="n-Cymbals" />
+          <Instrument name="n-Cymbals Lite" />
+          <Instrument name="n-Dgl-Layr-Hd Bass Drum" />
+          <Instrument name="n-Dgl-Layr-Hd Piccolo Snare" />
+          <Instrument name="n-Dgl-Layr-Hd Snare" />
+          <Instrument name="n-Dgl-Layr-Hd Toms" />
+        </Group>
+        <Group name="GM Drum Kits">
+          <Instrument name="n-GM Classic Jazz Drum Kit" />
+          <Instrument name="n-GM Fusion Drum Kit" />
+        </Group>
+      </Section>
+    </Menu>
+  </Instruments>
+</VSTNameDocument>

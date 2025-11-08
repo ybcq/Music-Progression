@@ -1,0 +1,107 @@
+﻿<html>
+	
+<head>
+	<title>Edit MIDI Data</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("EditMIDIData");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Edit MIDI Data</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="OvertureMenus.html">Overture Menus</a> &rsaquo;&rsaquo; <a href="EditMenu.html">Edit Menu</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="EditMenu.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="ModifyController.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="ScoreMenu.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<h3 class="rvps13"><span class="rvts0"><span class="rvts21">Edit&gt;Edit MIDI Data</span></span></h3>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Choose this command to allow editing of MIDI directly on your score.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">When you choose this command, the Score View will display notes as solid horizontal bars on the staff representing the note's start time and duration. Note velocities are displayed as solid vertical bars above the note. The light blue area under the solid vertical bar represents the velocity range 0 - 127. Note velocity is an attribute of each note and is not a completely separate event. You cannot add or remove velocity events.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">To change a note's start time or duration, click and drag the left or right edge of the note's solid bar horizontally.</span></p>
+<p class="rvps2"><span class="rvts6">To change the note's pitch, click and drag the middle of the solid bar vertically.</span></p>
+<p class="rvps2"><span class="rvts6">To change the note's velocity, click and drag the top of the velocity bar vertically.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NewItem94.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">In addition to editing note MIDI data, you can edit MIDI controller data, tempo, and pitch bend. To display MIDI controller data or pitch bend, click on the small arrow at bottom left of the Control bar's Pencil Tool. A drop down menu appears allowing you to choose the type of data to be edited. The data is displayed as a small graph along the staff &nbsp;with the horizontal axis representing time, and the vertical axis representing the event values.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">To enter new data, make sure the pencil tool is selected, and then click and drag along the staff, moving vertically to change value.</span></p>
+<p class="rvps2"><span class="rvts6">To erase existing data, click and drag using the eraser tool.</span></p>
+<p class="rvps2"><span class="rvts6">You can zoom in to edit in finer detail.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Note</span><span class="rvts6">: To draw in the new data as straight lines, hold down the shift key while dragging.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">About MIDI Controllers</span></p>
+<p class="rvps2"><span class="rvts6">MIDI hardware and software use controllers, special types of events, to control the details of how MIDI music is played. They use automation data to adjust volume, pan, and other parameters of MIDI and audio tracks on the fly while playback is in progress.</span><br/><span class="rvts6"></span><br/><span class="rvts6">Controllers are the pedals, knobs, and wheels on your electronic instrument that you use to change the sound while you're playing. For example, a sustain pedal and a modulation wheel are two controllers commonly found on keyboards.</span><br/><span class="rvts6"></span><br/><span class="rvts6">Controllers let you control the detail and character of your music. Say you are playing a guitar sound on your synthesizer, but it sounds lifeless and dull. That is partly because a guitar player does not just play notes one after another, they often use bends or slides on the strings to put emotion into his playing. You can use controllers in the same way, creating bends, volume swells, and other effects that make sounds more realistic and more fun to listen to.</span><br/><span class="rvts6"></span><br/><span class="rvts6">Your computer can work the controllers on your electronic instrument by sending MIDI Controller messages. The MIDI specification allows for 128 different types of controllers, many of which have standard usages. For example, controller 7 is normally used for volume events, and controller 10 is normally used for pan. Every controller can take on a value ranging from 0 to 127.</span></p>
+<p class="rvps2"><span class="rvts12"></span><br/><span class="rvts6">Overture has automatic search back for all continuous controller data to ensure that the correct controller values are in effect regardless of where you start playback. Suppose you start playback halfway through a song. Overture searches back from that point to find any earlier controller values that should still apply.</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

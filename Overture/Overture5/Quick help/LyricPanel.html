@@ -1,0 +1,156 @@
+﻿<html>
+	
+<head>
+	<title>Lyric Panel</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("LyricPanel");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Lyric Panel</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="GettingStarted.html">Getting Started</a> &rsaquo;&rsaquo; <a href="MainScoreWindow.html">Main Score Window</a> &rsaquo;&rsaquo; <a href="TheControlbar.html">The Control bar</a> &rsaquo;&rsaquo; <a href="ScoreToolsPanel.html">Score Tools Panel</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="ScoreToolsPanel.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="Settings.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="ScoreViewButtons.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<p class="rvps2"><img alt="" style="vertical-align: middle; padding : 1px;" src="lib/NewItem76.png"><span class="rvts6"> </span><span class="rvts12">Tools Panel - Lyrics</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts6">If Lyric Panel is not showing click on the </span><span class="rvts12">Score Tools</span><span class="rvts6"> button at top left of Control Bar and then click on the Lyric section in the header if it's not active.</span></p>
+<p class="rvps2"><span class="rvts6">You can also type "Ctrl[</span><span class="rvts13">Cmd]</span><span class="rvts6">-Shift-L" to go directly to the Lyric section.</span></p>
+<p class="rvps12"><span class="rvts6"><br/></span></p>
+<div class="rvps12"><table border="0" cellpadding="1" cellspacing="2" style="border-width: 0px; border-spacing: 2px;">
+<tr valign="top">
+<td width="50" style="padding: 1px;"><p class="rvps12"><img alt="" style="padding : 1px;" src="lib/NewItem151.png"></p>
+</td>
+<td width="1067" style="padding: 1px;"><p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Enter Lyrics - </span><span class="rvts6">Sets the location in score</span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts6">Track - The track to enter the lyrics.</span></li>
+<li class="rvps2"><span class="rvts6">Measure - The measure to enter the lyrics.</span></li>
+<li class="rvps2"><span class="rvts6">Voice - The voice (1-4) to enter the lyrics.</span></li>
+<li class="rvps2"><span class="rvts6">Verse - The verse (1-8) to enter the lyrics.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Lyric Box - </span><span class="rvts6">Type your lyrics to be entered in this area.</span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts6">Type a space to enter the next word/syllable under the next note.</span></li>
+<li class="rvps2"><span class="rvts6">Type a dash (hyphen) to separate syllables between notes.</span></li>
+<li class="rvps2"><span class="rvts6">Type an underscore to extend the word/syllable to the next note.</span></li>
+<li class="rvps2"><span class="rvts6">Use the buttons below to enter non-breaking dashed or spaces.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Lyric Commands</span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts6">Load From Score - Click this button to load in lyrics from the score at current location.</span></li>
+<li class="rvps2"><span class="rvts6">Non-Breaking Space - Click this button to enter a non-breaking space.</span></li>
+<li class="rvps2"><span class="rvts6">Non-Breaking Dash - Click this button to enter a non-breaking dash.</span></li>
+<li class="rvps2"><span class="rvts6">Apply - Click this button to enter the lyrics into your score.</span></li>
+<li class="rvps2"><span class="rvts6">Delete - Deletes the lyrics at current location.</span></li>
+<li class="rvps2"><span class="rvts6">Include Verse Number - Check this to have Overture enter a Verse number before the lyric line.</span></li>
+<li class="rvps2"><span class="rvts6">Spaces between hyphens - Spacing between multiple hyphens.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Lyric Font</span><span class="rvts6"> - The font to use for this lyric line.</span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts6">Font - Sets the current font for new text to be entered.</span></li>
+<li class="rvps2"><span class="rvts6">Size and Style - Sets current font size and style &nbsp;for new text to be entered.</span></li>
+<li class="rvps2"><span class="rvts6">Make Default - Makes this the default font for text style.</span></li>
+<li class="rvps2"><span class="rvts6">Replace in Score - Replaces all lyrics in the score with this font.</span></li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<h6 class="rvps14"><span class="rvts0"><span class="rvts22">To enter lyrics directly on the score:</span></span></h6>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" class="rvps2"><span class="rvts6">Choose the pencil tool using button on control bar.</span></li>
+<li value="2" class="rvps2"><span class="rvts6">Click on the score under the note where you wish to start entering lyrics. A small text entry box appears.</span></li>
+<li value="3" class="rvps2"><span class="rvts6">Type in the word/syllable to be entered. (See the Lyric Box description for different methods)</span></li>
+<li value="4" class="rvps2"><span class="rvts6">Press the space bar to enter the word/syllable and move to the next note position.</span><br/><span class="rvts6">Press the return key to enter the current lyric and exit entry mode.</span><br/><span class="rvts6">Press the esc key to exit entry mode without entering the lyric.</span></li>
+</ol>
+<h6 class="rvps14"><span class="rvts0"><span class="rvts22">To enter lyric lines/phrases using the Lyric Panel:</span></span></h6>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" class="rvps2"><span class="rvts6">Choose the score location using numericals at top of the panel. (Note: clicking in the score will automatically set the values).</span></li>
+<li value="2" class="rvps2"><span class="rvts6">Type in the lyric line including space/dashes, special buttons, etc. and then press the Apply button.</span></li>
+</ol>
+<h6 class="rvps14"><span class="rvts0"><span class="rvts22">To reposition lyrics vertically:</span></span></h6>
+<p class="rvps2"><span class="rvts6">When the Lyric Panel is open a drag handle for the current staff and verse will appear at the system left edge.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" class="rvps2"><span class="rvts6">Drag the handle &nbsp;vertically to move all the lyrics on the current staff.</span></li>
+<li value="2" class="rvps2"><span class="rvts6">To reset all lyrics vertically to sit on the line, hold the shift key while dragging.</span></li>
+</ol>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">For more information, see </span><a class="rvts11" href="AdvancedLyricEntry.html">Advanced Lyric Entry Techniques.</a></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

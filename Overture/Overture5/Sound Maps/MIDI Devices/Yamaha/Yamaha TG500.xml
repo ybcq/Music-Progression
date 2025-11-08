@@ -1,0 +1,1215 @@
+
+<VSTNameDocument name="Yamaha TG500">
+<Version>1</Version>
+<Author>Sonic Scores</Author>
+<Device type="MIDI"/>
+<Instruments>
+  <Section name="Voices 0000" bankHigh="0" bankLow="0" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="AP Brite" prgChg="1"/>
+    <Instrument name="AP Dark" prgChg="2"/>
+    <Instrument name="AP Chrs2" prgChg="3"/>
+    <Instrument name="BA Pluck" prgChg="4"/>
+    <Instrument name="BA Soul" prgChg="5"/>
+    <Instrument name="BA Stick" prgChg="6"/>
+    <Instrument name="BA Low" prgChg="7"/>
+    <Instrument name="BA Head" prgChg="8"/>
+    <Instrument name="BA Tri" prgChg="9"/>
+    <Instrument name="BR Punch" prgChg="10"/>
+    <Instrument name="BR TpSf1" prgChg="11"/>
+    <Instrument name="BR Movin" prgChg="12"/>
+    <Instrument name="BR Ruber" prgChg="13"/>
+    <Instrument name="BR CS80" prgChg="14"/>
+    <Instrument name="BR Strai" prgChg="15"/>
+    <Instrument name="BR Lush" prgChg="16"/>
+    <Instrument name="BR TpSf2" prgChg="17"/>
+    <Instrument name="CH Quiet" prgChg="18"/>
+    <Instrument name="CH Kwire" prgChg="19"/>
+    <Instrument name="CH Spirt" prgChg="20"/>
+    <Instrument name="CH Analg" prgChg="21"/>
+    <Instrument name="CH VoxPc" prgChg="22"/>
+    <Instrument name="DR Tom" prgChg="23"/>
+    <Instrument name="FI Banjo" prgChg="24"/>
+    <Instrument name="FI Koto" prgChg="25"/>
+    <Instrument name="FI Sitr2" prgChg="26"/>
+    <Instrument name="FI Tamba" prgChg="27"/>
+    <Instrument name="GT Fingr" prgChg="28"/>
+    <Instrument name="GT Amod" prgChg="29"/>
+    <Instrument name="GT Strat" prgChg="30"/>
+    <Instrument name="GT Pedal" prgChg="31"/>
+    <Instrument name="GT Dist2" prgChg="32"/>
+    <Instrument name="KY Hrpzi" prgChg="33"/>
+    <Instrument name="KY EP 13" prgChg="34"/>
+    <Instrument name="KY EP 14" prgChg="35"/>
+    <Instrument name="KY EP 15" prgChg="36"/>
+    <Instrument name="KY EP 16" prgChg="37"/>
+    <Instrument name="KY EP 17" prgChg="38"/>
+    <Instrument name="KY EP 18" prgChg="39"/>
+    <Instrument name="KY Harm" prgChg="40"/>
+    <Instrument name="KY SyClv" prgChg="41"/>
+    <Instrument name="ME Bnshe" prgChg="42"/>
+    <Instrument name="ME Bubbl" prgChg="43"/>
+    <Instrument name="ME Hit" prgChg="44"/>
+    <Instrument name="ME Marin" prgChg="45"/>
+    <Instrument name="ME Mojo" prgChg="46"/>
+    <Instrument name="ME Poot" prgChg="47"/>
+    <Instrument name="ME Sweep" prgChg="48"/>
+    <Instrument name="ME Tabla" prgChg="49"/>
+    <Instrument name="ME Treml" prgChg="50"/>
+    <Instrument name="ME Angel" prgChg="51"/>
+    <Instrument name="ME Whisl" prgChg="52"/>
+    <Instrument name="OR Door0" prgChg="53"/>
+    <Instrument name="OR Jazz" prgChg="54"/>
+    <Instrument name="OR Pipe" prgChg="55"/>
+    <Instrument name="OR Rock" prgChg="56"/>
+    <Instrument name="OR Smoth" prgChg="57"/>
+    <Instrument name="SC Anti" prgChg="58"/>
+    <Instrument name="SC Bell2" prgChg="59"/>
+    <Instrument name="SC Bhind" prgChg="60"/>
+    <Instrument name="SC Blot" prgChg="61"/>
+    <Instrument name="SC Chop" prgChg="62"/>
+    <Instrument name="SC Klav" prgChg="63"/>
+    <Instrument name="DR Revrs" prgChg="64"/>
+  </Section>
+  <Section name="Voices 0003" bankHigh="0" bankLow="0" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="SC Hool" prgChg="1"/>
+    <Instrument name="SC Hand" prgChg="2"/>
+    <Instrument name="SC WooDX" prgChg="3"/>
+    <Instrument name="SC Wire" prgChg="4"/>
+    <Instrument name="SC Pain" prgChg="5"/>
+    <Instrument name="SC Pluck" prgChg="6"/>
+    <Instrument name="SC Reflx" prgChg="7"/>
+    <Instrument name="SC Sprkl" prgChg="8"/>
+    <Instrument name="SC Thumb" prgChg="9"/>
+    <Instrument name="SC Uzzy" prgChg="10"/>
+    <Instrument name="SC Vxcla" prgChg="11"/>
+    <Instrument name="SC Walk" prgChg="12"/>
+    <Instrument name="SC Wits" prgChg="13"/>
+    <Instrument name="SC Wow" prgChg="14"/>
+    <Instrument name="SE Alien" prgChg="15"/>
+    <Instrument name="SE Clox" prgChg="16"/>
+    <Instrument name="SE Crck" prgChg="17"/>
+    <Instrument name="SE Crsh" prgChg="18"/>
+    <Instrument name="SE Duel" prgChg="19"/>
+    <Instrument name="SE Fear" prgChg="20"/>
+    <Instrument name="SE Roll" prgChg="21"/>
+    <Instrument name="SE Lava" prgChg="22"/>
+    <Instrument name="SE Laze" prgChg="23"/>
+    <Instrument name="SE Mono" prgChg="24"/>
+    <Instrument name="SE Saw" prgChg="25"/>
+    <Instrument name="SE Swmp" prgChg="26"/>
+    <Instrument name="SE Vaqum" prgChg="27"/>
+    <Instrument name="SE Vektr" prgChg="28"/>
+    <Instrument name="SE Zip" prgChg="29"/>
+    <Instrument name="SL  Ick" prgChg="30"/>
+    <Instrument name="SL 2VCO1" prgChg="31"/>
+    <Instrument name="SL Ash" prgChg="32"/>
+    <Instrument name="SL Glnt" prgChg="33"/>
+    <Instrument name="SL Oth" prgChg="34"/>
+    <Instrument name="SL Sqsaw" prgChg="35"/>
+    <Instrument name="SL Ut" prgChg="36"/>
+    <Instrument name="SP 1980" prgChg="37"/>
+    <Instrument name="SP Decay" prgChg="38"/>
+    <Instrument name="SP Ear" prgChg="39"/>
+    <Instrument name="SP Glas2" prgChg="40"/>
+    <Instrument name="SP It" prgChg="41"/>
+    <Instrument name="SP Lash" prgChg="42"/>
+    <Instrument name="SP Latt" prgChg="43"/>
+    <Instrument name="SP Lonly" prgChg="44"/>
+    <Instrument name="SP Lyle" prgChg="45"/>
+    <Instrument name="SP Melo" prgChg="46"/>
+    <Instrument name="SP Nsty2" prgChg="47"/>
+    <Instrument name="SP Oscil" prgChg="48"/>
+    <Instrument name="SP Ray" prgChg="49"/>
+    <Instrument name="SP SloMo" prgChg="50"/>
+    <Instrument name="ST Cello" prgChg="51"/>
+    <Instrument name="ST Cntra" prgChg="52"/>
+    <Instrument name="ST Chamb" prgChg="53"/>
+    <Instrument name="ST Arco2" prgChg="54"/>
+    <Instrument name="ST High" prgChg="55"/>
+    <Instrument name="ST Anlg2" prgChg="56"/>
+    <Instrument name="TP Bell" prgChg="57"/>
+    <Instrument name="TP Clock" prgChg="58"/>
+    <Instrument name="TP GSvib" prgChg="59"/>
+    <Instrument name="TP Tabla" prgChg="60"/>
+    <Instrument name="TP Boink" prgChg="61"/>
+    <Instrument name="WN Flut1" prgChg="62"/>
+    <Instrument name="WN Flut2" prgChg="63"/>
+    <Instrument name="DR Voice" prgChg="64"/>
+  </Section>
+  <Section name="Voices 0002" bankHigh="0" bankLow="0" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="AP Grand" prgChg="1"/>
+    <Instrument name="AP Chors" prgChg="2"/>
+    <Instrument name="AP Dance" prgChg="3"/>
+    <Instrument name="AP Rock" prgChg="4"/>
+    <Instrument name="AP Tack" prgChg="5"/>
+    <Instrument name="AP Touch" prgChg="6"/>
+    <Instrument name="BA Wood" prgChg="7"/>
+    <Instrument name="BA Pitz" prgChg="8"/>
+    <Instrument name="BA Fingr" prgChg="9"/>
+    <Instrument name="BA Frtls" prgChg="10"/>
+    <Instrument name="BA Pick1" prgChg="11"/>
+    <Instrument name="BA Pick2" prgChg="12"/>
+    <Instrument name="BA Slap" prgChg="13"/>
+    <Instrument name="BA Thump" prgChg="14"/>
+    <Instrument name="BA Syn 1" prgChg="15"/>
+    <Instrument name="BA Syn 2" prgChg="16"/>
+    <Instrument name="BA Syn 3" prgChg="17"/>
+    <Instrument name="BA Syn 4" prgChg="18"/>
+    <Instrument name="BA Syn 5" prgChg="19"/>
+    <Instrument name="BA Syn 6" prgChg="20"/>
+    <Instrument name="BA Syn 7" prgChg="21"/>
+    <Instrument name="BA Syn 8" prgChg="22"/>
+    <Instrument name="BA Syn 9" prgChg="23"/>
+    <Instrument name="BA Syn 10" prgChg="24"/>
+    <Instrument name="BA Syn 11" prgChg="25"/>
+    <Instrument name="BA Syn 12" prgChg="26"/>
+    <Instrument name="BR Trump" prgChg="27"/>
+    <Instrument name="BR Mute" prgChg="28"/>
+    <Instrument name="BR horn" prgChg="29"/>
+    <Instrument name="BR Tromb" prgChg="30"/>
+    <Instrument name="BR Tuba" prgChg="31"/>
+    <Instrument name="BR RpEns" prgChg="32"/>
+    <Instrument name="BR Tpts" prgChg="33"/>
+    <Instrument name="BR TpSfz" prgChg="34"/>
+    <Instrument name="BR Stab" prgChg="35"/>
+    <Instrument name="BR EnsSF" prgChg="36"/>
+    <Instrument name="BR East" prgChg="37"/>
+    <Instrument name="BR Syn 1" prgChg="38"/>
+    <Instrument name="BR Syn 2" prgChg="39"/>
+    <Instrument name="BR Syn 3" prgChg="40"/>
+    <Instrument name="BR Syn 4" prgChg="41"/>
+    <Instrument name="BR Saw" prgChg="42"/>
+    <Instrument name="BR SawSF" prgChg="43"/>
+    <Instrument name="BR Swell" prgChg="44"/>
+    <Instrument name="BR Tooth" prgChg="45"/>
+    <Instrument name="BR Rezz" prgChg="46"/>
+    <Instrument name="BR Toto" prgChg="47"/>
+    <Instrument name="BR Wow" prgChg="48"/>
+    <Instrument name="CH Aah" prgChg="49"/>
+    <Instrument name="CH Ooh" prgChg="50"/>
+    <Instrument name="CH Pure" prgChg="51"/>
+    <Instrument name="CH Breth" prgChg="52"/>
+    <Instrument name="CH Ghost" prgChg="53"/>
+    <Instrument name="CH Quire" prgChg="54"/>
+    <Instrument name="CH Vespa" prgChg="55"/>
+    <Instrument name="CH Vocod" prgChg="56"/>
+    <Instrument name="FI Blue 1" prgChg="57"/>
+    <Instrument name="FI Blue 2" prgChg="58"/>
+    <Instrument name="FI DudeI" prgChg="59"/>
+    <Instrument name="FI DulcD" prgChg="60"/>
+    <Instrument name="FI DulcM" prgChg="61"/>
+    <Instrument name="FI Harp" prgChg="62"/>
+    <Instrument name="FI Kalim" prgChg="63"/>
+    <Instrument name="DR Kit" prgChg="64"/>
+  </Section>
+  <Section name="Voices 0005" bankHigh="0" bankLow="0" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="FI Lip" prgChg="1"/>
+    <Instrument name="FI Sitar" prgChg="2"/>
+    <Instrument name="GT Nylon" prgChg="3"/>
+    <Instrument name="GT Dark" prgChg="4"/>
+    <Instrument name="GT Steel" prgChg="5"/>
+    <Instrument name="GT 12Str" prgChg="6"/>
+    <Instrument name="GT Jazz" prgChg="7"/>
+    <Instrument name="GT Strt1" prgChg="8"/>
+    <Instrument name="GT Strt2" prgChg="9"/>
+    <Instrument name="GT Strt3" prgChg="10"/>
+    <Instrument name="GT Mute" prgChg="11"/>
+    <Instrument name="GT Harm" prgChg="12"/>
+    <Instrument name="GT Comp1" prgChg="13"/>
+    <Instrument name="GT Comp2" prgChg="14"/>
+    <Instrument name="GT Dist" prgChg="15"/>
+    <Instrument name="GT Warm" prgChg="16"/>
+    <Instrument name="GT Wah" prgChg="17"/>
+    <Instrument name="GT Feed" prgChg="18"/>
+    <Instrument name="KY EP 1" prgChg="19"/>
+    <Instrument name="KY EP 2" prgChg="20"/>
+    <Instrument name="KY EP 3" prgChg="21"/>
+    <Instrument name="KY EP4" prgChg="22"/>
+    <Instrument name="KY EP 5" prgChg="23"/>
+    <Instrument name="KY EP 6" prgChg="24"/>
+    <Instrument name="KY EP 7" prgChg="25"/>
+    <Instrument name="KY EP 8" prgChg="26"/>
+    <Instrument name="KY EP 9" prgChg="27"/>
+    <Instrument name="KY EP 10" prgChg="28"/>
+    <Instrument name="KY EP 11" prgChg="29"/>
+    <Instrument name="KY EP 12" prgChg="30"/>
+    <Instrument name="KY Clav1" prgChg="31"/>
+    <Instrument name="KY Clav2" prgChg="32"/>
+    <Instrument name="KY Harpsi" prgChg="33"/>
+    <Instrument name="KY Acrdn" prgChg="34"/>
+    <Instrument name="KY Cali1" prgChg="35"/>
+    <Instrument name="KY Cali2" prgChg="36"/>
+    <Instrument name="ME Bottl" prgChg="37"/>
+    <Instrument name="ME Gizmo" prgChg="38"/>
+    <Instrument name="ME Grind" prgChg="39"/>
+    <Instrument name="ME Hand" prgChg="40"/>
+    <Instrument name="ME Kali" prgChg="41"/>
+    <Instrument name="ME Mello" prgChg="42"/>
+    <Instrument name="ME Orch1" prgChg="43"/>
+    <Instrument name="ME Orch2" prgChg="44"/>
+    <Instrument name="ME OrchR" prgChg="45"/>
+    <Instrument name="ME Soro" prgChg="46"/>
+    <Instrument name="ME Templ" prgChg="47"/>
+    <Instrument name="ME Tink" prgChg="48"/>
+    <Instrument name="ME Tomi" prgChg="49"/>
+    <Instrument name="ME Voics" prgChg="50"/>
+    <Instrument name="OR Jaz B" prgChg="51"/>
+    <Instrument name="OR Smoke" prgChg="52"/>
+    <Instrument name="OR Airy" prgChg="53"/>
+    <Instrument name="OR Dist" prgChg="54"/>
+    <Instrument name="OR Cheap" prgChg="55"/>
+    <Instrument name="OR Pipes" prgChg="56"/>
+    <Instrument name="OR Click" prgChg="57"/>
+    <Instrument name="OR Perc" prgChg="58"/>
+    <Instrument name="SC Aha!" prgChg="59"/>
+    <Instrument name="SC Bari" prgChg="60"/>
+    <Instrument name="SC Bell" prgChg="61"/>
+    <Instrument name="SC Clav" prgChg="62"/>
+    <Instrument name="SC Digi1" prgChg="63"/>
+    <Instrument name="DR Zones" prgChg="64"/>
+  </Section>
+  <Section name="Voices 0008" bankHigh="0" bankLow="0" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="SC Digi2" prgChg="1"/>
+    <Instrument name="SC Digi3" prgChg="2"/>
+    <Instrument name="SC Ecko" prgChg="3"/>
+    <Instrument name="SC Fingr" prgChg="4"/>
+    <Instrument name="SC Housy" prgChg="5"/>
+    <Instrument name="SC Jrney" prgChg="6"/>
+    <Instrument name="SC Metal" prgChg="7"/>
+    <Instrument name="SC Mute" prgChg="8"/>
+    <Instrument name="SC Pan" prgChg="9"/>
+    <Instrument name="SC Perc" prgChg="10"/>
+    <Instrument name="SC Rezz" prgChg="11"/>
+    <Instrument name="SC Spike" prgChg="12"/>
+    <Instrument name="SC Sqiff" prgChg="13"/>
+    <Instrument name="SC Synnr" prgChg="14"/>
+    <Instrument name="SC Topia" prgChg="15"/>
+    <Instrument name="SC Vocal" prgChg="16"/>
+    <Instrument name="SC Vox" prgChg="17"/>
+    <Instrument name="SC WIres" prgChg="18"/>
+    <Instrument name="SC Wondr" prgChg="19"/>
+    <Instrument name="SE Alert" prgChg="20"/>
+    <Instrument name="SE Templ" prgChg="21"/>
+    <Instrument name="SE BDup" prgChg="22"/>
+    <Instrument name="SE Chou" prgChg="23"/>
+    <Instrument name="SE Demon" prgChg="24"/>
+    <Instrument name="SE Dropr" prgChg="25"/>
+    <Instrument name="SE Gobln" prgChg="26"/>
+    <Instrument name="SE Heli" prgChg="27"/>
+    <Instrument name="SE Hell" prgChg="28"/>
+    <Instrument name="SE Hyena" prgChg="29"/>
+    <Instrument name="SE Indus" prgChg="30"/>
+    <Instrument name="SE It" prgChg="31"/>
+    <Instrument name="SE Noize" prgChg="32"/>
+    <Instrument name="SE Pops" prgChg="33"/>
+    <Instrument name="SE Rain" prgChg="34"/>
+    <Instrument name="SE Rezo" prgChg="35"/>
+    <Instrument name="SE S&amp;H" prgChg="36"/>
+    <Instrument name="SE Star" prgChg="37"/>
+    <Instrument name="SE Up&amp;Up" prgChg="38"/>
+    <Instrument name="SE Wind" prgChg="39"/>
+    <Instrument name="SL Cutty" prgChg="40"/>
+    <Instrument name="SL Digi" prgChg="41"/>
+    <Instrument name="SL Dist" prgChg="42"/>
+    <Instrument name="SL Hamma" prgChg="43"/>
+    <Instrument name="SL Lead" prgChg="44"/>
+    <Instrument name="SL Lyle" prgChg="45"/>
+    <Instrument name="SL Pulse" prgChg="46"/>
+    <Instrument name="SL Saw 1" prgChg="47"/>
+    <Instrument name="SL Saw 2" prgChg="48"/>
+    <Instrument name="SL Squar" prgChg="49"/>
+    <Instrument name="SL Sync" prgChg="50"/>
+    <Instrument name="SL Whisl" prgChg="51"/>
+    <Instrument name="SP Abyss" prgChg="52"/>
+    <Instrument name="SP Big" prgChg="53"/>
+    <Instrument name="SP Exita" prgChg="54"/>
+    <Instrument name="SP Freqs" prgChg="55"/>
+    <Instrument name="SP Glass" prgChg="56"/>
+    <Instrument name="SP Goner" prgChg="57"/>
+    <Instrument name="SP Hyper" prgChg="58"/>
+    <Instrument name="SP Makro" prgChg="59"/>
+    <Instrument name="SP Mello" prgChg="60"/>
+    <Instrument name="SP Movie" prgChg="61"/>
+    <Instrument name="SP Nasty" prgChg="62"/>
+    <Instrument name="SP Nehan" prgChg="63"/>
+    <Instrument name="DR GMID" prgChg="64"/>
+  </Section>
+  <Section name="Voices 000B" bankHigh="0" bankLow="0" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="SP Paddy" prgChg="1"/>
+    <Instrument name="SP Phze" prgChg="2"/>
+    <Instrument name="SP Polly" prgChg="3"/>
+    <Instrument name="SP SawSt" prgChg="4"/>
+    <Instrument name="SP Slow" prgChg="5"/>
+    <Instrument name="SP Smoky" prgChg="6"/>
+    <Instrument name="SP Space" prgChg="7"/>
+    <Instrument name="SP Sqare" prgChg="8"/>
+    <Instrument name="SP Sweep" prgChg="9"/>
+    <Instrument name="SP Sweet" prgChg="10"/>
+    <Instrument name="SP Vizon" prgChg="11"/>
+    <Instrument name="SP Wine" prgChg="12"/>
+    <Instrument name="ST Violn" prgChg="13"/>
+    <Instrument name="ST JeanL" prgChg="14"/>
+    <Instrument name="ST Sectn" prgChg="15"/>
+    <Instrument name="ST Power" prgChg="16"/>
+    <Instrument name="ST Deep" prgChg="17"/>
+    <Instrument name="ST Dark" prgChg="18"/>
+    <Instrument name="ST Brite" prgChg="19"/>
+    <Instrument name="ST Arco" prgChg="20"/>
+    <Instrument name="ST Sfz" prgChg="21"/>
+    <Instrument name="ST Pizz" prgChg="22"/>
+    <Instrument name="ST Tron" prgChg="23"/>
+    <Instrument name="ST Anlog" prgChg="24"/>
+    <Instrument name="ST Sizzl" prgChg="25"/>
+    <Instrument name="ST Synth" prgChg="26"/>
+    <Instrument name="ST Thin" prgChg="27"/>
+    <Instrument name="ST Combo" prgChg="28"/>
+    <Instrument name="TP Glock" prgChg="29"/>
+    <Instrument name="TP Xylo" prgChg="30"/>
+    <Instrument name="TP Vibes" prgChg="31"/>
+    <Instrument name="TP Tubal" prgChg="32"/>
+    <Instrument name="TP Hands" prgChg="33"/>
+    <Instrument name="TP Siam" prgChg="34"/>
+    <Instrument name="TP Steel" prgChg="35"/>
+    <Instrument name="TP Loggy" prgChg="36"/>
+    <Instrument name="TP Bambu" prgChg="37"/>
+    <Instrument name="TP Mrmba" prgChg="38"/>
+    <Instrument name="TP Timp" prgChg="39"/>
+    <Instrument name="TP Syn" prgChg="40"/>
+    <Instrument name="TP SynDr" prgChg="41"/>
+    <Instrument name="TP Tinkl" prgChg="42"/>
+    <Instrument name="TP Agone" prgChg="43"/>
+    <Instrument name="TP Angle" prgChg="44"/>
+    <Instrument name="WN Sopr" prgChg="45"/>
+    <Instrument name="WN Alto" prgChg="46"/>
+    <Instrument name="WN Tenor" prgChg="47"/>
+    <Instrument name="WN Bari" prgChg="48"/>
+    <Instrument name="WN SaxSF" prgChg="49"/>
+    <Instrument name="WN Picc" prgChg="50"/>
+    <Instrument name="WN Flute" prgChg="51"/>
+    <Instrument name="WN Pan" prgChg="52"/>
+    <Instrument name="WN Clari" prgChg="53"/>
+    <Instrument name="WN Oboe" prgChg="54"/>
+    <Instrument name="WN Basso" prgChg="55"/>
+    <Instrument name="WN Recor" prgChg="56"/>
+    <Instrument name="WN Breth" prgChg="57"/>
+    <Instrument name="MI Crash" prgChg="58"/>
+    <Instrument name="MI EPNP" prgChg="59"/>
+    <Instrument name="MI Hiss" prgChg="60"/>
+    <Instrument name="MI Ride" prgChg="61"/>
+    <Instrument name="MW EGBia" prgChg="62"/>
+    <Instrument name="AT EGBia" prgChg="63"/>
+    <Instrument name="DR Efect" prgChg="64"/>
+  </Section>
+  <Section name="Voices in Multis 0020" bankHigh="0" bankLow="0" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="AP Brite" prgChg="1"/>
+    <Instrument name="AP Dark" prgChg="2"/>
+    <Instrument name="AP Chrs2" prgChg="3"/>
+    <Instrument name="BA Pluck" prgChg="4"/>
+    <Instrument name="BA Soul" prgChg="5"/>
+    <Instrument name="BA Stick" prgChg="6"/>
+    <Instrument name="BA Low" prgChg="7"/>
+    <Instrument name="BA Head" prgChg="8"/>
+    <Instrument name="BA Tri" prgChg="9"/>
+    <Instrument name="BR Punch" prgChg="10"/>
+    <Instrument name="BR TpSf1" prgChg="11"/>
+    <Instrument name="BR Movin" prgChg="12"/>
+    <Instrument name="BR Ruber" prgChg="13"/>
+    <Instrument name="BR CS80" prgChg="14"/>
+    <Instrument name="BR Strai" prgChg="15"/>
+    <Instrument name="BR Lush" prgChg="16"/>
+    <Instrument name="BR TpSf2" prgChg="17"/>
+    <Instrument name="CH Quiet" prgChg="18"/>
+    <Instrument name="CH Kwire" prgChg="19"/>
+    <Instrument name="CH Spirt" prgChg="20"/>
+    <Instrument name="CH Analg" prgChg="21"/>
+    <Instrument name="CH VoxPc" prgChg="22"/>
+    <Instrument name="DR Tom" prgChg="23"/>
+    <Instrument name="FI Banjo" prgChg="24"/>
+    <Instrument name="FI Koto" prgChg="25"/>
+    <Instrument name="FI Sitr2" prgChg="26"/>
+    <Instrument name="FI Tamba" prgChg="27"/>
+    <Instrument name="GT Fingr" prgChg="28"/>
+    <Instrument name="GT Amod" prgChg="29"/>
+    <Instrument name="GT Strat" prgChg="30"/>
+    <Instrument name="GT Pedal" prgChg="31"/>
+    <Instrument name="GT Dist2" prgChg="32"/>
+    <Instrument name="KY Hrpzi" prgChg="33"/>
+    <Instrument name="KY EP 13" prgChg="34"/>
+    <Instrument name="KY EP 14" prgChg="35"/>
+    <Instrument name="KY EP 15" prgChg="36"/>
+    <Instrument name="KY EP 16" prgChg="37"/>
+    <Instrument name="KY EP 17" prgChg="38"/>
+    <Instrument name="KY EP 18" prgChg="39"/>
+    <Instrument name="KY Harm" prgChg="40"/>
+    <Instrument name="KY SyClv" prgChg="41"/>
+    <Instrument name="ME Bnshe" prgChg="42"/>
+    <Instrument name="ME Bubbl" prgChg="43"/>
+    <Instrument name="ME Hit" prgChg="44"/>
+    <Instrument name="ME Marin" prgChg="45"/>
+    <Instrument name="ME Mojo" prgChg="46"/>
+    <Instrument name="ME Poot" prgChg="47"/>
+    <Instrument name="ME Sweep" prgChg="48"/>
+    <Instrument name="ME Tabla" prgChg="49"/>
+    <Instrument name="ME Treml" prgChg="50"/>
+    <Instrument name="ME Angel" prgChg="51"/>
+    <Instrument name="ME Whisl" prgChg="52"/>
+    <Instrument name="OR Door0" prgChg="53"/>
+    <Instrument name="OR Jazz" prgChg="54"/>
+    <Instrument name="OR Pipe" prgChg="55"/>
+    <Instrument name="OR Rock" prgChg="56"/>
+    <Instrument name="OR Smoth" prgChg="57"/>
+    <Instrument name="SC Anti" prgChg="58"/>
+    <Instrument name="SC Bell2" prgChg="59"/>
+    <Instrument name="SC Bhind" prgChg="60"/>
+    <Instrument name="SC Blot" prgChg="61"/>
+    <Instrument name="SC Chop" prgChg="62"/>
+    <Instrument name="SC Klav" prgChg="63"/>
+    <Instrument name="DR Revrs" prgChg="64"/>
+  </Section>
+  <Section name="Voices in Multis 0023" bankHigh="0" bankLow="0" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="SC Hool" prgChg="1"/>
+    <Instrument name="SC Hand" prgChg="2"/>
+    <Instrument name="SC WooDX" prgChg="3"/>
+    <Instrument name="SC Wire" prgChg="4"/>
+    <Instrument name="SC Pain" prgChg="5"/>
+    <Instrument name="SC Pluck" prgChg="6"/>
+    <Instrument name="SC Reflx" prgChg="7"/>
+    <Instrument name="SC Sprkl" prgChg="8"/>
+    <Instrument name="SC Thumb" prgChg="9"/>
+    <Instrument name="SC Uzzy" prgChg="10"/>
+    <Instrument name="SC Vxcla" prgChg="11"/>
+    <Instrument name="SC Walk" prgChg="12"/>
+    <Instrument name="SC Wits" prgChg="13"/>
+    <Instrument name="SC Wow" prgChg="14"/>
+    <Instrument name="SE Alien" prgChg="15"/>
+    <Instrument name="SE Clox" prgChg="16"/>
+    <Instrument name="SE Crck" prgChg="17"/>
+    <Instrument name="SE Crsh" prgChg="18"/>
+    <Instrument name="SE Duel" prgChg="19"/>
+    <Instrument name="SE Fear" prgChg="20"/>
+    <Instrument name="SE Roll" prgChg="21"/>
+    <Instrument name="SE Lava" prgChg="22"/>
+    <Instrument name="SE Laze" prgChg="23"/>
+    <Instrument name="SE Mono" prgChg="24"/>
+    <Instrument name="SE Saw" prgChg="25"/>
+    <Instrument name="SE Swmp" prgChg="26"/>
+    <Instrument name="SE Vaqum" prgChg="27"/>
+    <Instrument name="SE Vektr" prgChg="28"/>
+    <Instrument name="SE Zip" prgChg="29"/>
+    <Instrument name="SL  Ick" prgChg="30"/>
+    <Instrument name="SL 2VCO1" prgChg="31"/>
+    <Instrument name="SL Ash" prgChg="32"/>
+    <Instrument name="SL Glnt" prgChg="33"/>
+    <Instrument name="SL Oth" prgChg="34"/>
+    <Instrument name="SL Sqsaw" prgChg="35"/>
+    <Instrument name="SL Ut" prgChg="36"/>
+    <Instrument name="SP 1980" prgChg="37"/>
+    <Instrument name="SP Decay" prgChg="38"/>
+    <Instrument name="SP Ear" prgChg="39"/>
+    <Instrument name="SP Glas2" prgChg="40"/>
+    <Instrument name="SP It" prgChg="41"/>
+    <Instrument name="SP Lash" prgChg="42"/>
+    <Instrument name="SP Latt" prgChg="43"/>
+    <Instrument name="SP Lonly" prgChg="44"/>
+    <Instrument name="SP Lyle" prgChg="45"/>
+    <Instrument name="SP Melo" prgChg="46"/>
+    <Instrument name="SP Nsty2" prgChg="47"/>
+    <Instrument name="SP Oscil" prgChg="48"/>
+    <Instrument name="SP Ray" prgChg="49"/>
+    <Instrument name="SP SloMo" prgChg="50"/>
+    <Instrument name="ST Cello" prgChg="51"/>
+    <Instrument name="ST Cntra" prgChg="52"/>
+    <Instrument name="ST Chamb" prgChg="53"/>
+    <Instrument name="ST Arco2" prgChg="54"/>
+    <Instrument name="ST High" prgChg="55"/>
+    <Instrument name="ST Anlg2" prgChg="56"/>
+    <Instrument name="TP Bell" prgChg="57"/>
+    <Instrument name="TP Clock" prgChg="58"/>
+    <Instrument name="TP GSvib" prgChg="59"/>
+    <Instrument name="TP Tabla" prgChg="60"/>
+    <Instrument name="TP Boink" prgChg="61"/>
+    <Instrument name="WN Flut1" prgChg="62"/>
+    <Instrument name="WN Flut2" prgChg="63"/>
+    <Instrument name="DR Voice" prgChg="64"/>
+  </Section>
+  <Section name="Voices in Multis 0022" bankHigh="0" bankLow="0" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="AP Grand" prgChg="1"/>
+    <Instrument name="AP Chors" prgChg="2"/>
+    <Instrument name="AP Dance" prgChg="3"/>
+    <Instrument name="AP Rock" prgChg="4"/>
+    <Instrument name="AP Tack" prgChg="5"/>
+    <Instrument name="AP Touch" prgChg="6"/>
+    <Instrument name="BA Wood" prgChg="7"/>
+    <Instrument name="BA Pitz" prgChg="8"/>
+    <Instrument name="BA Fingr" prgChg="9"/>
+    <Instrument name="BA Frtls" prgChg="10"/>
+    <Instrument name="BA Pick1" prgChg="11"/>
+    <Instrument name="BA Pick2" prgChg="12"/>
+    <Instrument name="BA Slap" prgChg="13"/>
+    <Instrument name="BA Thump" prgChg="14"/>
+    <Instrument name="BA Syn 1" prgChg="15"/>
+    <Instrument name="BA Syn 2" prgChg="16"/>
+    <Instrument name="BA Syn 3" prgChg="17"/>
+    <Instrument name="BA Syn 4" prgChg="18"/>
+    <Instrument name="BA Syn 5" prgChg="19"/>
+    <Instrument name="BA Syn 6" prgChg="20"/>
+    <Instrument name="BA Syn 7" prgChg="21"/>
+    <Instrument name="BA Syn 8" prgChg="22"/>
+    <Instrument name="BA Syn 9" prgChg="23"/>
+    <Instrument name="BA Syn 10" prgChg="24"/>
+    <Instrument name="BA Syn 11" prgChg="25"/>
+    <Instrument name="BA Syn 12" prgChg="26"/>
+    <Instrument name="BR Trump" prgChg="27"/>
+    <Instrument name="BR Mute" prgChg="28"/>
+    <Instrument name="BR horn" prgChg="29"/>
+    <Instrument name="BR Tromb" prgChg="30"/>
+    <Instrument name="BR Tuba" prgChg="31"/>
+    <Instrument name="BR RpEns" prgChg="32"/>
+    <Instrument name="BR Tpts" prgChg="33"/>
+    <Instrument name="BR TpSfz" prgChg="34"/>
+    <Instrument name="BR Stab" prgChg="35"/>
+    <Instrument name="BR EnsSF" prgChg="36"/>
+    <Instrument name="BR East" prgChg="37"/>
+    <Instrument name="BR Syn 1" prgChg="38"/>
+    <Instrument name="BR Syn 2" prgChg="39"/>
+    <Instrument name="BR Syn 3" prgChg="40"/>
+    <Instrument name="BR Syn 4" prgChg="41"/>
+    <Instrument name="BR Saw" prgChg="42"/>
+    <Instrument name="BR SawSF" prgChg="43"/>
+    <Instrument name="BR Swell" prgChg="44"/>
+    <Instrument name="BR Tooth" prgChg="45"/>
+    <Instrument name="BR Rezz" prgChg="46"/>
+    <Instrument name="BR Toto" prgChg="47"/>
+    <Instrument name="BR Wow" prgChg="48"/>
+    <Instrument name="CH Aah" prgChg="49"/>
+    <Instrument name="CH Ooh" prgChg="50"/>
+    <Instrument name="CH Pure" prgChg="51"/>
+    <Instrument name="CH Breth" prgChg="52"/>
+    <Instrument name="CH Ghost" prgChg="53"/>
+    <Instrument name="CH Quire" prgChg="54"/>
+    <Instrument name="CH Vespa" prgChg="55"/>
+    <Instrument name="CH Vocod" prgChg="56"/>
+    <Instrument name="FI Blue 1" prgChg="57"/>
+    <Instrument name="FI Blue 2" prgChg="58"/>
+    <Instrument name="FI DudeI" prgChg="59"/>
+    <Instrument name="FI DulcD" prgChg="60"/>
+    <Instrument name="FI DulcM" prgChg="61"/>
+    <Instrument name="FI Harp" prgChg="62"/>
+    <Instrument name="FI Kalim" prgChg="63"/>
+    <Instrument name="DR Kit" prgChg="64"/>
+  </Section>
+  <Section name="Voices in Multis 0025" bankHigh="0" bankLow="0" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="FI Lip" prgChg="1"/>
+    <Instrument name="FI Sitar" prgChg="2"/>
+    <Instrument name="GT Nylon" prgChg="3"/>
+    <Instrument name="GT Dark" prgChg="4"/>
+    <Instrument name="GT Steel" prgChg="5"/>
+    <Instrument name="GT 12Str" prgChg="6"/>
+    <Instrument name="GT Jazz" prgChg="7"/>
+    <Instrument name="GT Strt1" prgChg="8"/>
+    <Instrument name="GT Strt2" prgChg="9"/>
+    <Instrument name="GT Strt3" prgChg="10"/>
+    <Instrument name="GT Mute" prgChg="11"/>
+    <Instrument name="GT Harm" prgChg="12"/>
+    <Instrument name="GT Comp1" prgChg="13"/>
+    <Instrument name="GT Comp2" prgChg="14"/>
+    <Instrument name="GT Dist" prgChg="15"/>
+    <Instrument name="GT Warm" prgChg="16"/>
+    <Instrument name="GT Wah" prgChg="17"/>
+    <Instrument name="GT Feed" prgChg="18"/>
+    <Instrument name="KY EP 1" prgChg="19"/>
+    <Instrument name="KY EP 2" prgChg="20"/>
+    <Instrument name="KY EP 3" prgChg="21"/>
+    <Instrument name="KY EP4" prgChg="22"/>
+    <Instrument name="KY EP 5" prgChg="23"/>
+    <Instrument name="KY EP 6" prgChg="24"/>
+    <Instrument name="KY EP 7" prgChg="25"/>
+    <Instrument name="KY EP 8" prgChg="26"/>
+    <Instrument name="KY EP 9" prgChg="27"/>
+    <Instrument name="KY EP 10" prgChg="28"/>
+    <Instrument name="KY EP 11" prgChg="29"/>
+    <Instrument name="KY EP 12" prgChg="30"/>
+    <Instrument name="KY Clav1" prgChg="31"/>
+    <Instrument name="KY Clav2" prgChg="32"/>
+    <Instrument name="KY Harpsi" prgChg="33"/>
+    <Instrument name="KY Acrdn" prgChg="34"/>
+    <Instrument name="KY Cali1" prgChg="35"/>
+    <Instrument name="KY Cali2" prgChg="36"/>
+    <Instrument name="ME Bottl" prgChg="37"/>
+    <Instrument name="ME Gizmo" prgChg="38"/>
+    <Instrument name="ME Grind" prgChg="39"/>
+    <Instrument name="ME Hand" prgChg="40"/>
+    <Instrument name="ME Kali" prgChg="41"/>
+    <Instrument name="ME Mello" prgChg="42"/>
+    <Instrument name="ME Orch1" prgChg="43"/>
+    <Instrument name="ME Orch2" prgChg="44"/>
+    <Instrument name="ME OrchR" prgChg="45"/>
+    <Instrument name="ME Soro" prgChg="46"/>
+    <Instrument name="ME Templ" prgChg="47"/>
+    <Instrument name="ME Tink" prgChg="48"/>
+    <Instrument name="ME Tomi" prgChg="49"/>
+    <Instrument name="ME Voics" prgChg="50"/>
+    <Instrument name="OR Jaz B" prgChg="51"/>
+    <Instrument name="OR Smoke" prgChg="52"/>
+    <Instrument name="OR Airy" prgChg="53"/>
+    <Instrument name="OR Dist" prgChg="54"/>
+    <Instrument name="OR Cheap" prgChg="55"/>
+    <Instrument name="OR Pipes" prgChg="56"/>
+    <Instrument name="OR Click" prgChg="57"/>
+    <Instrument name="OR Perc" prgChg="58"/>
+    <Instrument name="SC Aha!" prgChg="59"/>
+    <Instrument name="SC Bari" prgChg="60"/>
+    <Instrument name="SC Bell" prgChg="61"/>
+    <Instrument name="SC Clav" prgChg="62"/>
+    <Instrument name="SC Digi1" prgChg="63"/>
+    <Instrument name="DR Zones" prgChg="64"/>
+  </Section>
+  <Section name="Voices in Multis 0028" bankHigh="0" bankLow="0" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="SC Digi2" prgChg="1"/>
+    <Instrument name="SC Digi3" prgChg="2"/>
+    <Instrument name="SC Ecko" prgChg="3"/>
+    <Instrument name="SC Fingr" prgChg="4"/>
+    <Instrument name="SC Housy" prgChg="5"/>
+    <Instrument name="SC Jrney" prgChg="6"/>
+    <Instrument name="SC Metal" prgChg="7"/>
+    <Instrument name="SC Mute" prgChg="8"/>
+    <Instrument name="SC Pan" prgChg="9"/>
+    <Instrument name="SC Perc" prgChg="10"/>
+    <Instrument name="SC Rezz" prgChg="11"/>
+    <Instrument name="SC Spike" prgChg="12"/>
+    <Instrument name="SC Sqiff" prgChg="13"/>
+    <Instrument name="SC Synnr" prgChg="14"/>
+    <Instrument name="SC Topia" prgChg="15"/>
+    <Instrument name="SC Vocal" prgChg="16"/>
+    <Instrument name="SC Vox" prgChg="17"/>
+    <Instrument name="SC WIres" prgChg="18"/>
+    <Instrument name="SC Wondr" prgChg="19"/>
+    <Instrument name="SE Alert" prgChg="20"/>
+    <Instrument name="SE Templ" prgChg="21"/>
+    <Instrument name="SE BDup" prgChg="22"/>
+    <Instrument name="SE Chou" prgChg="23"/>
+    <Instrument name="SE Demon" prgChg="24"/>
+    <Instrument name="SE Dropr" prgChg="25"/>
+    <Instrument name="SE Gobln" prgChg="26"/>
+    <Instrument name="SE Heli" prgChg="27"/>
+    <Instrument name="SE Hell" prgChg="28"/>
+    <Instrument name="SE Hyena" prgChg="29"/>
+    <Instrument name="SE Indus" prgChg="30"/>
+    <Instrument name="SE It" prgChg="31"/>
+    <Instrument name="SE Noize" prgChg="32"/>
+    <Instrument name="SE Pops" prgChg="33"/>
+    <Instrument name="SE Rain" prgChg="34"/>
+    <Instrument name="SE Rezo" prgChg="35"/>
+    <Instrument name="SE S&amp;H" prgChg="36"/>
+    <Instrument name="SE Star" prgChg="37"/>
+    <Instrument name="SE Up&amp;Up" prgChg="38"/>
+    <Instrument name="SE Wind" prgChg="39"/>
+    <Instrument name="SL Cutty" prgChg="40"/>
+    <Instrument name="SL Digi" prgChg="41"/>
+    <Instrument name="SL Dist" prgChg="42"/>
+    <Instrument name="SL Hamma" prgChg="43"/>
+    <Instrument name="SL Lead" prgChg="44"/>
+    <Instrument name="SL Lyle" prgChg="45"/>
+    <Instrument name="SL Pulse" prgChg="46"/>
+    <Instrument name="SL Saw 1" prgChg="47"/>
+    <Instrument name="SL Saw 2" prgChg="48"/>
+    <Instrument name="SL Squar" prgChg="49"/>
+    <Instrument name="SL Sync" prgChg="50"/>
+    <Instrument name="SL Whisl" prgChg="51"/>
+    <Instrument name="SP Abyss" prgChg="52"/>
+    <Instrument name="SP Big" prgChg="53"/>
+    <Instrument name="SP Exita" prgChg="54"/>
+    <Instrument name="SP Freqs" prgChg="55"/>
+    <Instrument name="SP Glass" prgChg="56"/>
+    <Instrument name="SP Goner" prgChg="57"/>
+    <Instrument name="SP Hyper" prgChg="58"/>
+    <Instrument name="SP Makro" prgChg="59"/>
+    <Instrument name="SP Mello" prgChg="60"/>
+    <Instrument name="SP Movie" prgChg="61"/>
+    <Instrument name="SP Nasty" prgChg="62"/>
+    <Instrument name="SP Nehan" prgChg="63"/>
+    <Instrument name="DR GMID" prgChg="64"/>
+  </Section>
+  <Section name="Voices in Multis 002B" bankHigh="0" bankLow="0" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="SP Paddy" prgChg="1"/>
+    <Instrument name="SP Phze" prgChg="2"/>
+    <Instrument name="SP Polly" prgChg="3"/>
+    <Instrument name="SP SawSt" prgChg="4"/>
+    <Instrument name="SP Slow" prgChg="5"/>
+    <Instrument name="SP Smoky" prgChg="6"/>
+    <Instrument name="SP Space" prgChg="7"/>
+    <Instrument name="SP Sqare" prgChg="8"/>
+    <Instrument name="SP Sweep" prgChg="9"/>
+    <Instrument name="SP Sweet" prgChg="10"/>
+    <Instrument name="SP Vizon" prgChg="11"/>
+    <Instrument name="SP Wine" prgChg="12"/>
+    <Instrument name="ST Violn" prgChg="13"/>
+    <Instrument name="ST JeanL" prgChg="14"/>
+    <Instrument name="ST Sectn" prgChg="15"/>
+    <Instrument name="ST Power" prgChg="16"/>
+    <Instrument name="ST Deep" prgChg="17"/>
+    <Instrument name="ST Dark" prgChg="18"/>
+    <Instrument name="ST Brite" prgChg="19"/>
+    <Instrument name="ST Arco" prgChg="20"/>
+    <Instrument name="ST Sfz" prgChg="21"/>
+    <Instrument name="ST Pizz" prgChg="22"/>
+    <Instrument name="ST Tron" prgChg="23"/>
+    <Instrument name="ST Anlog" prgChg="24"/>
+    <Instrument name="ST Sizzl" prgChg="25"/>
+    <Instrument name="ST Synth" prgChg="26"/>
+    <Instrument name="ST Thin" prgChg="27"/>
+    <Instrument name="ST Combo" prgChg="28"/>
+    <Instrument name="TP Glock" prgChg="29"/>
+    <Instrument name="TP Xylo" prgChg="30"/>
+    <Instrument name="TP Vibes" prgChg="31"/>
+    <Instrument name="TP Tubal" prgChg="32"/>
+    <Instrument name="TP Hands" prgChg="33"/>
+    <Instrument name="TP Siam" prgChg="34"/>
+    <Instrument name="TP Steel" prgChg="35"/>
+    <Instrument name="TP Loggy" prgChg="36"/>
+    <Instrument name="TP Bambu" prgChg="37"/>
+    <Instrument name="TP Mrmba" prgChg="38"/>
+    <Instrument name="TP Timp" prgChg="39"/>
+    <Instrument name="TP Syn" prgChg="40"/>
+    <Instrument name="TP SynDr" prgChg="41"/>
+    <Instrument name="TP Tinkl" prgChg="42"/>
+    <Instrument name="TP Agone" prgChg="43"/>
+    <Instrument name="TP Angle" prgChg="44"/>
+    <Instrument name="WN Sopr" prgChg="45"/>
+    <Instrument name="WN Alto" prgChg="46"/>
+    <Instrument name="WN Tenor" prgChg="47"/>
+    <Instrument name="WN Bari" prgChg="48"/>
+    <Instrument name="WN SaxSF" prgChg="49"/>
+    <Instrument name="WN Picc" prgChg="50"/>
+    <Instrument name="WN Flute" prgChg="51"/>
+    <Instrument name="WN Pan" prgChg="52"/>
+    <Instrument name="WN Clari" prgChg="53"/>
+    <Instrument name="WN Oboe" prgChg="54"/>
+    <Instrument name="WN Basso" prgChg="55"/>
+    <Instrument name="WN Recor" prgChg="56"/>
+    <Instrument name="WN Breth" prgChg="57"/>
+    <Instrument name="MI Crash" prgChg="58"/>
+    <Instrument name="MI EPNP" prgChg="59"/>
+    <Instrument name="MI Hiss" prgChg="60"/>
+    <Instrument name="MI Ride" prgChg="61"/>
+    <Instrument name="MW EGBia" prgChg="62"/>
+    <Instrument name="AT EGBia" prgChg="63"/>
+    <Instrument name="DR Efect" prgChg="64"/>
+  </Section>
+  <Section name="Performances 0040" bankHigh="0" bankLow="0" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="CO Aster" prgChg="1"/>
+    <Instrument name="AP Piano" prgChg="2"/>
+    <Instrument name="SP Mtrix" prgChg="3"/>
+    <Instrument name="SC Skank" prgChg="4"/>
+    <Instrument name="ME Sprk2" prgChg="5"/>
+    <Instrument name="BA Drive" prgChg="6"/>
+    <Instrument name="BR Fnfr2" prgChg="7"/>
+    <Instrument name="SE Devil" prgChg="8"/>
+    <Instrument name="ST Moin" prgChg="9"/>
+    <Instrument name="FI Dulcm" prgChg="10"/>
+    <Instrument name="CO Bells" prgChg="11"/>
+    <Instrument name="KY Knock" prgChg="12"/>
+    <Instrument name="SP Fanta" prgChg="13"/>
+    <Instrument name="SC Elec1" prgChg="14"/>
+    <Instrument name="ME Gokrk" prgChg="15"/>
+    <Instrument name="BA Susud" prgChg="16"/>
+    <Instrument name="BR Forth" prgChg="17"/>
+    <Instrument name="SE Swmp" prgChg="18"/>
+    <Instrument name="ST Legat" prgChg="19"/>
+    <Instrument name="GT Pedal" prgChg="20"/>
+    <Instrument name="CO Gloom" prgChg="21"/>
+    <Instrument name="OR Cool" prgChg="22"/>
+    <Instrument name="SP Flash" prgChg="23"/>
+    <Instrument name="SC Gob" prgChg="24"/>
+    <Instrument name="ME Max" prgChg="25"/>
+    <Instrument name="BA Sldge" prgChg="26"/>
+    <Instrument name="BR Synth" prgChg="27"/>
+    <Instrument name="SE Wall" prgChg="28"/>
+    <Instrument name="ST Accat" prgChg="29"/>
+    <Instrument name="GT Steel" prgChg="30"/>
+    <Instrument name="CO India" prgChg="31"/>
+    <Instrument name="OR Rock" prgChg="32"/>
+    <Instrument name="SP Atrio" prgChg="33"/>
+    <Instrument name="SC Woody" prgChg="34"/>
+    <Instrument name="ME Chorl" prgChg="35"/>
+    <Instrument name="GT Round" prgChg="36"/>
+    <Instrument name="BR Sfz2" prgChg="37"/>
+    <Instrument name="SE Rado" prgChg="38"/>
+    <Instrument name="ST LgSm" prgChg="39"/>
+    <Instrument name="SL Meteo" prgChg="40"/>
+    <Instrument name="CO Clock" prgChg="41"/>
+    <Instrument name="OR Mite" prgChg="42"/>
+    <Instrument name="SP Wind" prgChg="43"/>
+    <Instrument name="SC Arred" prgChg="44"/>
+    <Instrument name="ME Chom" prgChg="45"/>
+    <Instrument name="CO FMpad" prgChg="46"/>
+    <Instrument name="BR Tpts" prgChg="47"/>
+    <Instrument name="SE Indst" prgChg="48"/>
+    <Instrument name="CO Nuage" prgChg="49"/>
+    <Instrument name="SP Lodge" prgChg="50"/>
+    <Instrument name="SC Oz" prgChg="51"/>
+    <Instrument name="CO Japan" prgChg="52"/>
+    <Instrument name="KY Hrpzi" prgChg="53"/>
+    <Instrument name="SL Sqsaw" prgChg="54"/>
+    <Instrument name="BR CShrn" prgChg="55"/>
+    <Instrument name="CO Laura" prgChg="56"/>
+    <Instrument name="CO Orch2" prgChg="57"/>
+    <Instrument name="ME Hits" prgChg="58"/>
+    <Instrument name="ST Solo" prgChg="59"/>
+    <Instrument name="CO Soul" prgChg="60"/>
+    <Instrument name="GT Wires" prgChg="61"/>
+    <Instrument name="OR Pan" prgChg="62"/>
+    <Instrument name="BR 3 Osc" prgChg="63"/>
+    <Instrument name="CO Fire" prgChg="64"/>
+  </Section>
+  <Section name="Performances 0042" bankHigh="0" bankLow="0" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="CO Dream" prgChg="1"/>
+    <Instrument name="KY Piano" prgChg="2"/>
+    <Instrument name="SP Aztec" prgChg="3"/>
+    <Instrument name="SC Wyrz" prgChg="4"/>
+    <Instrument name="CH Choir" prgChg="5"/>
+    <Instrument name="BA Pick1" prgChg="6"/>
+    <Instrument name="ST Rosin" prgChg="7"/>
+    <Instrument name="BR Stab" prgChg="8"/>
+    <Instrument name="CO Soire" prgChg="9"/>
+    <Instrument name="OR Bee" prgChg="10"/>
+    <Instrument name="SP Lush" prgChg="11"/>
+    <Instrument name="SC Rude" prgChg="12"/>
+    <Instrument name="CH Breth" prgChg="13"/>
+    <Instrument name="BA Swap" prgChg="14"/>
+    <Instrument name="ST Octvs" prgChg="15"/>
+    <Instrument name="BR Pro5" prgChg="16"/>
+    <Instrument name="CO Orch" prgChg="17"/>
+    <Instrument name="KY Digi1" prgChg="18"/>
+    <Instrument name="SP Faery" prgChg="19"/>
+    <Instrument name="SC Talk" prgChg="20"/>
+    <Instrument name="CH OohAh" prgChg="21"/>
+    <Instrument name="BA Pick2" prgChg="22"/>
+    <Instrument name="ST Pitz" prgChg="23"/>
+    <Instrument name="BR Sfz" prgChg="24"/>
+    <Instrument name="CO Sable" prgChg="25"/>
+    <Instrument name="KY Roady" prgChg="26"/>
+    <Instrument name="SP Slide" prgChg="27"/>
+    <Instrument name="SC kav" prgChg="28"/>
+    <Instrument name="CH Vespa" prgChg="29"/>
+    <Instrument name="BA - Fret" prgChg="30"/>
+    <Instrument name="ST Rings" prgChg="31"/>
+    <Instrument name="BR Forte" prgChg="32"/>
+    <Instrument name="CO Jazzr" prgChg="33"/>
+    <Instrument name="OR Gimme" prgChg="34"/>
+    <Instrument name="SP Lite" prgChg="35"/>
+    <Instrument name="SC Buzz" prgChg="36"/>
+    <Instrument name="CH Much" prgChg="37"/>
+    <Instrument name="BA Rezzo" prgChg="38"/>
+    <Instrument name="ST Dark" prgChg="39"/>
+    <Instrument name="BR Saw" prgChg="40"/>
+    <Instrument name="CO E.S.P" prgChg="41"/>
+    <Instrument name="KY Elek" prgChg="42"/>
+    <Instrument name="SP Stars" prgChg="43"/>
+    <Instrument name="SC Snaps" prgChg="44"/>
+    <Instrument name="CH Abyss" prgChg="45"/>
+    <Instrument name="BR Mini" prgChg="46"/>
+    <Instrument name="ST 2002" prgChg="47"/>
+    <Instrument name="BR Obie" prgChg="48"/>
+    <Instrument name="CO Pnooh" prgChg="49"/>
+    <Instrument name="OR Nave" prgChg="50"/>
+    <Instrument name="SP Ace" prgChg="51"/>
+    <Instrument name="SC Point" prgChg="52"/>
+    <Instrument name="CH COmet" prgChg="53"/>
+    <Instrument name="BA Guppy" prgChg="54"/>
+    <Instrument name="ST Big" prgChg="55"/>
+    <Instrument name="BR Fatti" prgChg="56"/>
+    <Instrument name="CO Inca" prgChg="57"/>
+    <Instrument name="KY Funky" prgChg="58"/>
+    <Instrument name="SP Vekta" prgChg="59"/>
+    <Instrument name="SC Pizza" prgChg="60"/>
+    <Instrument name="CH Oral" prgChg="61"/>
+    <Instrument name="BA Doom" prgChg="62"/>
+    <Instrument name="ST Tron" prgChg="63"/>
+    <Instrument name="BR Swell" prgChg="64"/>
+  </Section>
+  <Section name="Performances 0045" bankHigh="0" bankLow="0" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="CO Ncert" prgChg="1"/>
+    <Instrument name="KY Loud" prgChg="2"/>
+    <Instrument name="SP Carol" prgChg="3"/>
+    <Instrument name="SL Mitey" prgChg="4"/>
+    <Instrument name="ME orion" prgChg="5"/>
+    <Instrument name="GT Amped" prgChg="6"/>
+    <Instrument name="SE Rolls" prgChg="7"/>
+    <Instrument name="WN Tenor" prgChg="8"/>
+    <Instrument name="CO DXStr" prgChg="9"/>
+    <Instrument name="OR Sine" prgChg="10"/>
+    <Instrument name="SP Venus" prgChg="11"/>
+    <Instrument name="SL Chicky" prgChg="12"/>
+    <Instrument name="ME Glitz" prgChg="13"/>
+    <Instrument name="GT Strat" prgChg="14"/>
+    <Instrument name="SE C-tar" prgChg="15"/>
+    <Instrument name="WN Sacks" prgChg="16"/>
+    <Instrument name="CO Stass" prgChg="17"/>
+    <Instrument name="KY Digi2" prgChg="18"/>
+    <Instrument name="SP Whino" prgChg="19"/>
+    <Instrument name="SL L7" prgChg="20"/>
+    <Instrument name="ME Honto" prgChg="21"/>
+    <Instrument name="GT Phunk" prgChg="22"/>
+    <Instrument name="SE Xeno" prgChg="23"/>
+    <Instrument name="WN Alto" prgChg="24"/>
+    <Instrument name="CO Megin" prgChg="25"/>
+    <Instrument name="KY Jerry" prgChg="26"/>
+    <Instrument name="SP Hinx" prgChg="27"/>
+    <Instrument name="SL Eazy" prgChg="28"/>
+    <Instrument name="ME Mars" prgChg="29"/>
+    <Instrument name="GT Rock" prgChg="30"/>
+    <Instrument name="SE Storm" prgChg="31"/>
+    <Instrument name="WN Panic" prgChg="32"/>
+    <Instrument name="CO Gospl" prgChg="33"/>
+    <Instrument name="OR Cheap" prgChg="34"/>
+    <Instrument name="SP Pluto" prgChg="35"/>
+    <Instrument name="SC Clank" prgChg="36"/>
+    <Instrument name="ME Ecko" prgChg="37"/>
+    <Instrument name="GT Harm" prgChg="38"/>
+    <Instrument name="SE Zoom" prgChg="39"/>
+    <Instrument name="BR Reeds" prgChg="40"/>
+    <Instrument name="CO Ethos" prgChg="41"/>
+    <Instrument name="KY PnoMW" prgChg="42"/>
+    <Instrument name="SP Sunth" prgChg="43"/>
+    <Instrument name="FI Santo" prgChg="44"/>
+    <Instrument name="ME Alien" prgChg="45"/>
+    <Instrument name="GT EL12" prgChg="46"/>
+    <Instrument name="SE Delay" prgChg="47"/>
+    <Instrument name="BR Lips" prgChg="48"/>
+    <Instrument name="CO Kings" prgChg="49"/>
+    <Instrument name="KY Calio" prgChg="50"/>
+    <Instrument name="SP Anlog" prgChg="51"/>
+    <Instrument name="SC Wind" prgChg="52"/>
+    <Instrument name="ME Spark" prgChg="53"/>
+    <Instrument name="GT 12Str" prgChg="54"/>
+    <Instrument name="SE Flies" prgChg="55"/>
+    <Instrument name="BR Miles" prgChg="56"/>
+    <Instrument name="CO Hppi" prgChg="57"/>
+    <Instrument name="KY Digi3" prgChg="58"/>
+    <Instrument name="SP Arpeg" prgChg="59"/>
+    <Instrument name="TP Bells" prgChg="60"/>
+    <Instrument name="ME Hit" prgChg="61"/>
+    <Instrument name="GT Acstc" prgChg="62"/>
+    <Instrument name="SE Hero" prgChg="63"/>
+    <Instrument name="BR Fanfr" prgChg="64"/>
+  </Section>
+  <Section name="Performances in Multis 0050" bankHigh="0" bankLow="0" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="CO Aster" prgChg="1"/>
+    <Instrument name="AP Piano" prgChg="2"/>
+    <Instrument name="SP Mtrix" prgChg="3"/>
+    <Instrument name="SC Skank" prgChg="4"/>
+    <Instrument name="ME Sprk2" prgChg="5"/>
+    <Instrument name="BA Drive" prgChg="6"/>
+    <Instrument name="BR Fnfr2" prgChg="7"/>
+    <Instrument name="SE Devil" prgChg="8"/>
+    <Instrument name="ST Moin" prgChg="9"/>
+    <Instrument name="FI Dulcm" prgChg="10"/>
+    <Instrument name="CO Bells" prgChg="11"/>
+    <Instrument name="KY Knock" prgChg="12"/>
+    <Instrument name="SP Fanta" prgChg="13"/>
+    <Instrument name="SC Elec1" prgChg="14"/>
+    <Instrument name="ME Gokrk" prgChg="15"/>
+    <Instrument name="BA Susud" prgChg="16"/>
+    <Instrument name="BR Forth" prgChg="17"/>
+    <Instrument name="SE Swmp" prgChg="18"/>
+    <Instrument name="ST Legat" prgChg="19"/>
+    <Instrument name="GT Pedal" prgChg="20"/>
+    <Instrument name="CO Gloom" prgChg="21"/>
+    <Instrument name="OR Cool" prgChg="22"/>
+    <Instrument name="SP Flash" prgChg="23"/>
+    <Instrument name="SC Gob" prgChg="24"/>
+    <Instrument name="ME Max" prgChg="25"/>
+    <Instrument name="BA Sldge" prgChg="26"/>
+    <Instrument name="BR Synth" prgChg="27"/>
+    <Instrument name="SE Wall" prgChg="28"/>
+    <Instrument name="ST Accat" prgChg="29"/>
+    <Instrument name="GT Steel" prgChg="30"/>
+    <Instrument name="CO India" prgChg="31"/>
+    <Instrument name="OR Rock" prgChg="32"/>
+    <Instrument name="SP Atrio" prgChg="33"/>
+    <Instrument name="SC Woody" prgChg="34"/>
+    <Instrument name="ME Chorl" prgChg="35"/>
+    <Instrument name="GT Round" prgChg="36"/>
+    <Instrument name="BR Sfz2" prgChg="37"/>
+    <Instrument name="SE Rado" prgChg="38"/>
+    <Instrument name="ST LgSm" prgChg="39"/>
+    <Instrument name="SL Meteo" prgChg="40"/>
+    <Instrument name="CO Clock" prgChg="41"/>
+    <Instrument name="OR Mite" prgChg="42"/>
+    <Instrument name="SP Wind" prgChg="43"/>
+    <Instrument name="SC Arred" prgChg="44"/>
+    <Instrument name="ME Chom" prgChg="45"/>
+    <Instrument name="CO FMpad" prgChg="46"/>
+    <Instrument name="BR Tpts" prgChg="47"/>
+    <Instrument name="SE Indst" prgChg="48"/>
+    <Instrument name="CO Nuage" prgChg="49"/>
+    <Instrument name="SP Lodge" prgChg="50"/>
+    <Instrument name="SC Oz" prgChg="51"/>
+    <Instrument name="CO Japan" prgChg="52"/>
+    <Instrument name="KY Hrpzi" prgChg="53"/>
+    <Instrument name="SL Sqsaw" prgChg="54"/>
+    <Instrument name="BR CShrn" prgChg="55"/>
+    <Instrument name="CO Laura" prgChg="56"/>
+    <Instrument name="CO Orch2" prgChg="57"/>
+    <Instrument name="ME Hits" prgChg="58"/>
+    <Instrument name="ST Solo" prgChg="59"/>
+    <Instrument name="CO Soul" prgChg="60"/>
+    <Instrument name="GT Wires" prgChg="61"/>
+    <Instrument name="OR Pan" prgChg="62"/>
+    <Instrument name="BR 3 Osc" prgChg="63"/>
+    <Instrument name="CO Fire" prgChg="64"/>
+  </Section>
+  <Section name="Performances in Multis 0052" bankHigh="0" bankLow="0" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="CO Dream" prgChg="1"/>
+    <Instrument name="KY Piano" prgChg="2"/>
+    <Instrument name="SP Aztec" prgChg="3"/>
+    <Instrument name="SC Wyrz" prgChg="4"/>
+    <Instrument name="CH Choir" prgChg="5"/>
+    <Instrument name="BA Pick1" prgChg="6"/>
+    <Instrument name="ST Rosin" prgChg="7"/>
+    <Instrument name="BR Stab" prgChg="8"/>
+    <Instrument name="CO Soire" prgChg="9"/>
+    <Instrument name="OR Bee" prgChg="10"/>
+    <Instrument name="SP Lush" prgChg="11"/>
+    <Instrument name="SC Rude" prgChg="12"/>
+    <Instrument name="CH Breth" prgChg="13"/>
+    <Instrument name="BA Swap" prgChg="14"/>
+    <Instrument name="ST Octvs" prgChg="15"/>
+    <Instrument name="BR Pro5" prgChg="16"/>
+    <Instrument name="CO Orch" prgChg="17"/>
+    <Instrument name="KY Digi1" prgChg="18"/>
+    <Instrument name="SP Faery" prgChg="19"/>
+    <Instrument name="SC Talk" prgChg="20"/>
+    <Instrument name="CH OohAh" prgChg="21"/>
+    <Instrument name="BA Pick2" prgChg="22"/>
+    <Instrument name="ST Pitz" prgChg="23"/>
+    <Instrument name="BR Sfz" prgChg="24"/>
+    <Instrument name="CO Sable" prgChg="25"/>
+    <Instrument name="KY Roady" prgChg="26"/>
+    <Instrument name="SP Slide" prgChg="27"/>
+    <Instrument name="SC kav" prgChg="28"/>
+    <Instrument name="CH Vespa" prgChg="29"/>
+    <Instrument name="BA - Fret" prgChg="30"/>
+    <Instrument name="ST Rings" prgChg="31"/>
+    <Instrument name="BR Forte" prgChg="32"/>
+    <Instrument name="CO Jazzr" prgChg="33"/>
+    <Instrument name="OR Gimme" prgChg="34"/>
+    <Instrument name="SP Lite" prgChg="35"/>
+    <Instrument name="SC Buzz" prgChg="36"/>
+    <Instrument name="CH Much" prgChg="37"/>
+    <Instrument name="BA Rezzo" prgChg="38"/>
+    <Instrument name="ST Dark" prgChg="39"/>
+    <Instrument name="BR Saw" prgChg="40"/>
+    <Instrument name="CO E.S.P" prgChg="41"/>
+    <Instrument name="KY Elek" prgChg="42"/>
+    <Instrument name="SP Stars" prgChg="43"/>
+    <Instrument name="SC Snaps" prgChg="44"/>
+    <Instrument name="CH Abyss" prgChg="45"/>
+    <Instrument name="BR Mini" prgChg="46"/>
+    <Instrument name="ST 2002" prgChg="47"/>
+    <Instrument name="BR Obie" prgChg="48"/>
+    <Instrument name="CO Pnooh" prgChg="49"/>
+    <Instrument name="OR Nave" prgChg="50"/>
+    <Instrument name="SP Ace" prgChg="51"/>
+    <Instrument name="SC Point" prgChg="52"/>
+    <Instrument name="CH COmet" prgChg="53"/>
+    <Instrument name="BA Guppy" prgChg="54"/>
+    <Instrument name="ST Big" prgChg="55"/>
+    <Instrument name="BR Fatti" prgChg="56"/>
+    <Instrument name="CO Inca" prgChg="57"/>
+    <Instrument name="KY Funky" prgChg="58"/>
+    <Instrument name="SP Vekta" prgChg="59"/>
+    <Instrument name="SC Pizza" prgChg="60"/>
+    <Instrument name="CH Oral" prgChg="61"/>
+    <Instrument name="BA Doom" prgChg="62"/>
+    <Instrument name="ST Tron" prgChg="63"/>
+    <Instrument name="BR Swell" prgChg="64"/>
+  </Section>
+  <Section name="Performances in Multis 0055" bankHigh="0" bankLow="0" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="CO Ncert" prgChg="1"/>
+    <Instrument name="KY Loud" prgChg="2"/>
+    <Instrument name="SP Carol" prgChg="3"/>
+    <Instrument name="SL Mitey" prgChg="4"/>
+    <Instrument name="ME orion" prgChg="5"/>
+    <Instrument name="GT Amped" prgChg="6"/>
+    <Instrument name="SE Rolls" prgChg="7"/>
+    <Instrument name="WN Tenor" prgChg="8"/>
+    <Instrument name="CO DXStr" prgChg="9"/>
+    <Instrument name="OR Sine" prgChg="10"/>
+    <Instrument name="SP Venus" prgChg="11"/>
+    <Instrument name="SL Chicky" prgChg="12"/>
+    <Instrument name="ME Glitz" prgChg="13"/>
+    <Instrument name="GT Strat" prgChg="14"/>
+    <Instrument name="SE C-tar" prgChg="15"/>
+    <Instrument name="WN Sacks" prgChg="16"/>
+    <Instrument name="CO Stass" prgChg="17"/>
+    <Instrument name="KY Digi2" prgChg="18"/>
+    <Instrument name="SP Whino" prgChg="19"/>
+    <Instrument name="SL L7" prgChg="20"/>
+    <Instrument name="ME Honto" prgChg="21"/>
+    <Instrument name="GT Phunk" prgChg="22"/>
+    <Instrument name="SE Xeno" prgChg="23"/>
+    <Instrument name="WN Alto" prgChg="24"/>
+    <Instrument name="CO Megin" prgChg="25"/>
+    <Instrument name="KY Jerry" prgChg="26"/>
+    <Instrument name="SP Hinx" prgChg="27"/>
+    <Instrument name="SL Eazy" prgChg="28"/>
+    <Instrument name="ME Mars" prgChg="29"/>
+    <Instrument name="GT Rock" prgChg="30"/>
+    <Instrument name="SE Storm" prgChg="31"/>
+    <Instrument name="WN Panic" prgChg="32"/>
+    <Instrument name="CO Gospl" prgChg="33"/>
+    <Instrument name="OR Cheap" prgChg="34"/>
+    <Instrument name="SP Pluto" prgChg="35"/>
+    <Instrument name="SC Clank" prgChg="36"/>
+    <Instrument name="ME Ecko" prgChg="37"/>
+    <Instrument name="GT Harm" prgChg="38"/>
+    <Instrument name="SE Zoom" prgChg="39"/>
+    <Instrument name="BR Reeds" prgChg="40"/>
+    <Instrument name="CO Ethos" prgChg="41"/>
+    <Instrument name="KY PnoMW" prgChg="42"/>
+    <Instrument name="SP Sunth" prgChg="43"/>
+    <Instrument name="FI Santo" prgChg="44"/>
+    <Instrument name="ME Alien" prgChg="45"/>
+    <Instrument name="GT EL12" prgChg="46"/>
+    <Instrument name="SE Delay" prgChg="47"/>
+    <Instrument name="BR Lips" prgChg="48"/>
+    <Instrument name="CO Kings" prgChg="49"/>
+    <Instrument name="KY Calio" prgChg="50"/>
+    <Instrument name="SP Anlog" prgChg="51"/>
+    <Instrument name="SC Wind" prgChg="52"/>
+    <Instrument name="ME Spark" prgChg="53"/>
+    <Instrument name="GT 12Str" prgChg="54"/>
+    <Instrument name="SE Flies" prgChg="55"/>
+    <Instrument name="BR Miles" prgChg="56"/>
+    <Instrument name="CO Hppi" prgChg="57"/>
+    <Instrument name="KY Digi3" prgChg="58"/>
+    <Instrument name="SP Arpeg" prgChg="59"/>
+    <Instrument name="TP Bells" prgChg="60"/>
+    <Instrument name="ME Hit" prgChg="61"/>
+    <Instrument name="GT Acstc" prgChg="62"/>
+    <Instrument name="SE Hero" prgChg="63"/>
+    <Instrument name="BR Fanfr" prgChg="64"/>
+  </Section>
+  <Section name="Multis 0010" bankHigh="0" bankLow="0" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="InitMlt" prgChg="1"/>
+    <Instrument name="InitMlt" prgChg="2"/>
+    <Instrument name="InitMlt" prgChg="3"/>
+    <Instrument name="InitMlt" prgChg="4"/>
+    <Instrument name="InitMlt" prgChg="5"/>
+    <Instrument name="InitMlt" prgChg="6"/>
+    <Instrument name="InitMlt" prgChg="7"/>
+    <Instrument name="InitMlt" prgChg="8"/>
+    <Instrument name="InitMlt" prgChg="9"/>
+    <Instrument name="InitMlt" prgChg="10"/>
+    <Instrument name="InitMlt" prgChg="11"/>
+    <Instrument name="InitMlt" prgChg="12"/>
+    <Instrument name="InitMlt" prgChg="13"/>
+    <Instrument name="InitMlt" prgChg="14"/>
+    <Instrument name="InitMlt" prgChg="15"/>
+    <Instrument name="InitMlt" prgChg="16"/>
+  </Section>
+</Instruments>
+</VSTNameDocument>
+

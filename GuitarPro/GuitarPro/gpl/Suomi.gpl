@@ -1,0 +1,2174 @@
+GUITAR PRO 5.1 TRANSLATION FILE
+
+### PATCH CONFIGURATION ###
+AUTHOR NAMES = "Jarkko Laaksonen"
+AUTHOR E-MAIL = "jarkko.laaksonen@kolumbus.fi"
+VERSION = "5.1"
+AUTOMATIC SHORTCUTS
+ENCODING = "WindowsLatin1"
+###########################
+
+You can use this file to create your own translation file for Guitar Pro.
+To do it, translate ONLY the words between the symbols " ". DON'T CHANGE
+ANYTHING ELSE. Note that the symbols %s, %t... are used to indicate a dynamic value,
+which will be attribuated at running, so do not change it.
+
+The words between the symbols { } are some indications to help you to
+understand the context, don't change it.
+
+After having changing the translations, save the file under your language
+name with the extension .gpl (ie "English.gpl"). Place it in the
+Guitar Pro directory, restart Guitar Pro and you'll have the new language
+proposed in the menu OPTIONS | LANGUAGE.
+
+Don't hesitate to send us your translation files, we'll add them on the site
+for other users.
+
+***********
+* DIALOGS *
+***********
+
+DLG_000
+DLG_001 = "OK"
+DLG_002 = "Peruuta"
+DLG_003 = "Kyllä"
+DLG_004 = "Ei"
+DLG_005 = "Apua"
+DLG_006 = "Tyhjennä"
+DLG_007 = "Sulje"
+DLG_008 = "Tietoa"
+DLG_009 = "Varmistus"
+DLG_010 = "Varoitus"
+DLG_011 = "Varoitus"
+DLG_012 = "Virhe"
+DLG_013 = "Virheellistä näppäilyä."
+
+***********
+* GENERAL *
+***********
+
+GENE_000
+GENE_001 = "Versio"
+GENE_002 = "Kaikki oikeudet pidetään"
+GENE_003 = "Virheellinen lisenssi."
+GENE_004 = "Guitar Pro - Kokeiluversio"
+GENE_005 = "Guitar Pron kokeiluversio on rajoitettu 24 tahtiin."
+GENE_006 = "Jos pidät Guitar Prosta, rekisteröi."
+GENE_007 = "Raita"
+GENE_008 = "Lyömäsoitin"
+GENE_009 = "Tahti valmis"
+GENE_010 = "Tahti keskeneräinen"
+GENE_011 = "Tahti ylitetty"
+GENE_012 = "REKISTERÖITYMÄTÖN KÄYTTÄJÄ"
+
+*****************
+* MENUS & HINTS *
+*****************
+
+MN_000
+MN_001 = "Tiedosto"
+MN_002 = "Uusi"
+MN_003 = "Avaa"
+MN_004 = "Tiedostoselain"
+MN_005 = "Tallenna"
+MN_006 = "Tallenna nimellä"
+MN_007 = "Ominaisuudet"
+MN_008 = "Asetukset"
+MN_009 = "Tuo"
+MN_010 = "Vie"
+MN_011 = "MIDI"
+MN_012 = "ASCII Tab"
+MN_013 = "Tulosta"
+MN_014 = "Esikatselu"
+MN_015 = "Tulostimen asetukset"
+MN_016 = "Poistu"
+MN_017 = "Muokkaa"
+MN_018 = "Leikkaa"
+MN_019 = "Kopioi"
+MN_020 = "Liitä"
+MN_021 = "Liitä"
+MN_022 = "Pyyhi"
+MN_023 = "Miksaa taulukon muutostapahtumia"
+MN_024 = "Raita"
+MN_025 = "Tahti"
+MN_026 = "Ensimmäinen"
+MN_027 = "Ensimmäinen tahti"
+MN_028 = "Edellinen"
+MN_029 = "Edellinen tahti"
+MN_030 = "Mene"
+MN_031 = "Mene tahtiin"
+MN_032 = "Seuraava"
+MN_033 = "Seuraava tahti"
+MN_034 = "Viimeinen"
+MN_035 = "Viimeinen tahti"
+MN_036 = "Aikamerkintä"
+MN_037 = "Tahdin aikamerkintä"
+MN_038 = "Avaa uudelleen"
+MN_039 = "Sulje uudelleen"
+MN_040 = "Valinnaisia loppuja"
+MN_041 = "Nuotti"
+MN_042 = "Kokonuotti"
+MN_043 = "Puolinuotti"
+MN_044 = "Neljäsosanuotti"
+MN_045 = "Kahdeksasosanuotti"
+MN_046 = "Kuudestoistaosanuotti"
+MN_047 = "Kolmekymmentäkahdesosanuotti"
+MN_048 = "Kuusikymmentäneljäsosanuotti"
+MN_049 = "Pisteellinen"
+MN_050 = "Sointu"
+MN_051 = "Teksti"
+MN_052 = "Kuollut nuotti"
+MN_053 = "Tauko"
+MN_054 = "Trioli"
+MN_055 = "Yhdistä edellisen nuotin kanssa"
+MN_056 = "Lisää isku"
+MN_057 = "Poista isku"
+MN_058 = "Kopioi isku/trioli loppuun"
+MN_059 = "Siirrä ylös"
+MN_060 = "Siirrä nuottia ylöspäin"
+MN_061 = "Siirrä alas"
+MN_062 = "Siirrä nuottia alaspäin"
+MN_063 = "Efektejä"
+MN_064 = "Hammer On"
+MN_065 = "Pull Off"
+MN_066 = "Liuku ylös"
+MN_067 = "Liuku alas"
+MN_068 = "Venytys"
+MN_069 = "Venytys & päästä"
+MN_070 = "Anna soida"
+MN_071 = "Etuhele"
+MN_072 = "Haamunuotti"
+MN_073 = "Vibrato"
+MN_074 = "Tremolo"
+MN_075 = "Vibrato kertaalleen"
+MN_076 = "Luonnollinen harmooninen"
+MN_077 = "Keinotekoinen harmooninen"
+MN_078 = "Voimistuva"
+MN_079 = "Tap"
+MN_080 = "Slap (Basso)"
+MN_081 = "Pop (Basso)"
+MN_082 = "Barrido ylös"
+MN_083 = "Barrido alas"
+MN_084 = "Dynaamisuus"
+MN_085 = "Avustajia"
+MN_086 = "Transponoi"
+MN_087 = "Tahdin järjestäjä"
+MN_088 = "Oijo tahdit"
+MN_089 = "Automaattinen sormijärjestys"
+MN_090 = "Anna soida valitsin"
+MN_091 = "Varmista tahdin pituus"
+MN_092 = "Standardi nuotitus"
+MN_093 = "Lyömäsoitin"
+MN_094 = "Nopeusharjoittaja"
+MN_095 = "Ääni"
+MN_096 = "Soita alusta"
+MN_097 = "Soita alusta (Välilyönti)"
+MN_098 = "Soita valitusta tahdista"
+MN_099 = "Soita valitusta tahdista (Ctrl+Välilyönti)"
+MN_100 = "Soita valittu tahti"
+MN_101 = "Soita valittu tahti (Vaihto+Ctrl+Välilyönti)"
+MN_102 = "Pysäytä"
+MN_103 = "Pysäytä (Välilyönti)"
+MN_104 = "Soita jatkuvasti"
+MN_105 = "Metronomi"
+MN_106 = "Soita kirjottaessa"
+MN_107 = "Näyttö"
+MN_108 = "Piiloita muokkausikkuna"
+MN_109 = "Näytä anna soida -nuotit"
+MN_110 = "Näytä nuottien dynaamisuudet"
+MN_111 = "Kieli"
+MN_112 = "Avun kieli"
+MN_113 = "Apua"
+MN_114 = "Indeksi"
+MN_115 = "Tilaa Guitar Pro!"
+MN_116 = "Rekisteröi Kopiosi!"
+MN_117 = "Ohjelmasta"
+
+*********************
+* PROPERTIES WINDOW *
+*********************
+
+DLG_PROP_000
+DLG_PROP_001 = "Kappaleen asetukset"
+DLG_PROP_002 = "Otsikko"
+DLG_PROP_003 = "Tekijä"
+DLG_PROP_004 = "Kommentti"
+DLG_PROP_005 = "Tempo"
+DLG_PROP_006 = "Triolin tuntu:"
+DLG_PROP_007 = "Raidan nimi"
+DLG_PROP_008 = "Instrumentti"
+DLG_PROP_009 = "Instrumenttilista"
+DLG_PROP_010 = "Virityksiä"
+DLG_PROP_011 = "Kieliä"
+DLG_PROP_012 = "Viritys"
+DLG_PROP_013 = "Kieliä"
+DLG_PROP_014 = "Soolo"
+DLG_PROP_015 = "Vaimenna raita"
+DLG_PROP_016 = "Älä vie"
+DLG_PROP_017 = "12 kielen simulaatio"
+DLG_PROP_018 = "Voimakkuus"
+DLG_PROP_019 = "Balanssi"
+DLG_PROP_020 = "Kertosäe"
+DLG_PROP_021 = "Kaiku"
+DLG_PROP_022 = "Lyömäsoittimen raita varattu"
+DLG_PROP_023 = "Käytä nuotteja 27 - 87"
+DLG_PROP_024 = "tabulatuuriviivoilla."
+DLG_PROP_025 = "Yksi tai useampi nuotti tahdissa %s on väärin laitettu 
+kielillä %s."
+
+***************************
+* MIDI IMPORTATION WINDOW *
+***************************
+
+DLG_IMPM_000
+DLG_IMPM_001 = "MIDI tuonti"
+DLG_IMPM_002 = "Valitse raita tuotavaksi:"
+DLG_IMPM_003 = "Valitse raita pois"
+DLG_IMPM_004 = "Transponoi alemmalle oktaaville"
+DLG_IMPM_005 = "Määrällistäminen:"
+DLG_IMPM_006 = "Varoitus: tuotu lyömäsoitinraita" { end at 007 }
+DLG_IMPM_007 = "voi kirjoittaa vain raidalle 8/kanavalle 10."
+DLG_IMPM_008 = "Guitar Pron kokeiluversio on rajoitettu 50:n tuotuun nuottiin."
+DLG_IMPM_009 = "Ole hyvä ja rekisteröi jos pidät Guitar Prosta."
+DLG_IMPM_010 = "Etsi raitoja..."
+DLG_IMPM_011 = "määrittämätön"
+DLG_IMPM_012 = "Lukee raitoja..."
+DLG_IMPM_013 = "Tehdään kappaletta..."
+DLG_IMPM_014 = "Sormijärjestyksen optimointi..."
+DLG_IMPM_015 = "MIDI muotoa ei tunnisteta."
+
+***************************
+* MIDI EXPORTATION WINDOW *
+***************************
+
+DLG_EXPM_000
+DLG_EXPM_001 = "MIDI vienti"
+DLG_EXPM_002 = "Tiedostoon kirjoittaminen mahdotonta. Talletus peruutettu."
+
+****************************
+* ASCII IMPORTATION WINDOW *
+****************************
+
+DLG_IMPA_000
+DLG_IMPA_001 = "ASCII tabin tuonti"
+DLG_IMPA_002 = "Tiedostoon ei päästä käsiksi. Tuonti peruutettu."
+DLG_IMPA_003 = "Tuo"
+DLG_IMPA_004 = "Avaa"
+DLG_IMPA_005 = "Tulosta"
+DLG_IMPA_006 = "Tuo tällä:"
+DLG_IMPA_007 = "Huom: Tuonti tehtiin valitulle raidalle"
+DLG_IMPA_008 = "Guitar Pron kokeiluversio on rajoitettu 50:n tuotuun nuottiin."
+DLG_IMPA_009 = "Ole hyvä ja rekisteröi jos pidät Guitar Prosta."
+DLG_IMPA_010 = "<muuttuja>"
+DLG_IMPA_011 = "puolinuotit"
+DLG_IMPA_012 = "neljäsosanuotit"
+DLG_IMPA_013 = "kahdeksasosanuotit"
+DLG_IMPA_014 = "kuudestoistaosanuotit"
+
+****************************
+* ASCII EXPORTATION WINDOW *
+****************************
+
+DLG_EXPA_000
+DLG_EXPA_001 = "ASCII Tabin vienti"
+DLG_EXPA_002 = "Vie"
+DLG_EXPA_003 = "Tulosta"
+DLG_EXPA_004 = "Kolumneja:"
+DLG_EXPA_005 = "Päivitä kappale"
+DLG_EXPA_006 = "Rytmi"
+DLG_EXPA_007 = "Tiedostoon kirjoittaminen mahdotonta. Vienti peruutettu."
+
+**********************
+* PREFERENCES WINDOW *
+**********************
+
+DLG_PREF_000
+DLG_PREF_001 = "Asetukset"
+DLG_PREF_002 = "Yleinen"
+DLG_PREF_003 = "Aloittava musiikki"
+DLG_PREF_004 = "Ei mitään"
+DLG_PREF_005 = "Valitse WAVE tiedosto"
+DLG_PREF_006 = "Wave tiedosto"
+DLG_PREF_007 = "Vierivä tila soittaessa"
+DLG_PREF_008 = "Ruutu ruudulta"
+DLG_PREF_009 = "Rivi riviltä"
+DLG_PREF_010 = "Metronomi"
+DLG_PREF_011 = "Voimakkuus"
+DLG_PREF_012 = "Kappaleen aikana"
+DLG_PREF_013 = "Laske sisään"
+DLG_PREF_014 = "Korosta ensimmäistä iskua"
+DLG_PREF_015 = "Nopeusharjoittajan kanssa käytä aina metronomia"
+DLG_PREF_016 = "Soita"
+DLG_PREF_017 = "Vienti (MIDI)"
+DLG_PREF_018 = "Efektejä"
+DLG_PREF_019 = "Kertaukset"
+DLG_PREF_020 = "Äänikortti"
+DLG_PREF_021 = "Rajoita venyttäminen yhteen nuottiin"
+DLG_PREF_022 = "Käytä tätä vaihtoehtoa jos venytysefekti kuullostaa väärältä."
+DLG_PREF_023 = "Soinnun tunnistaminen"
+DLG_PREF_024 = "Lisää aina bassonuotti soinnun nimeen jos se eroaa perustasta"
+DLG_PREF_025 = "Oletusarvo"
+DLG_PREF_026 = "Näyttö"
+DLG_PREF_027 = "Vasen marginaali"
+DLG_PREF_028 = "Oikea marginaali"
+DLG_PREF_029 = "Väli rivien välissä"
+DLG_PREF_030 = "Väli nuottiviivaston välissä"
+DLG_PREF_031 = "Sointudiagrammien kohdistus"
+DLG_PREF_032 = "Sointunimien kohdistus"
+DLG_PREF_033 = "Tekstin kohdistus"
+DLG_PREF_034 = "Rytmilinjan leveys"
+DLG_PREF_035 = "Nuottien fontti:"
+DLG_PREF_036 = "Sointujen fontti:"
+DLG_PREF_037 = "Tekstin fontti:"
+DLG_PREF_038 = "Ajan fontti:"
+DLG_PREF_039 = "Tahdin numeron fontti:"
+DLG_PREF_040 = "Kertasäkeen fontti:"
+DLG_PREF_041 = "Diagrammin koko:"
+DLG_PREF_042 = "Sointudiagrammin väri:"
+DLG_PREF_043 = "Tablinjan väri:"
+DLG_PREF_044 = "Rytmilinjan väri:"
+DLG_PREF_045 = "Efektien väri:"
+DLG_PREF_046 = "Taustan väri:"
+DLG_PREF_047 = "Virheellisen ajan väri:"
+DLG_PREF_048 = "Valitun väri:"
+DLG_PREF_049 = "Sointudiagrammit"
+DLG_PREF_050 = "Sointujen nimet"
+DLG_PREF_051 = "Sointulista ylhäällä"
+DLG_PREF_052 = "Teksti"
+DLG_PREF_053 = "Efektit"
+DLG_PREF_054 = "Rytmilinjat"
+DLG_PREF_055 = "Tahtien numero"
+DLG_PREF_056 = "Nuottien väli"
+DLG_PREF_057 = "Rytmien osuus"
+DLG_PREF_058 = "Käyttäjä 1"
+DLG_PREF_059 = "Käyttäjä 2"
+DLG_PREF_060 = "Käyttäjä 3"
+DLG_PREF_061 = "Katso"
+DLG_PREF_062 = "Tulostaminen"
+DLG_PREF_063 = "Ylämarg."
+DLG_PREF_064 = "Pohjamarg."
+DLG_PREF_065 = "Vas. marg."
+DLG_PREF_066 = "Oik. marg."
+DLG_PREF_067 = "Koko sivun tulostusalue"
+DLG_PREF_068 = "Valittu tulostusalue:"
+DLG_PREF_069 = "Leveys"
+DLG_PREF_070 = "Korkeus"
+DLG_PREF_071 = "Keskitä alue"
+DLG_PREF_072 = "Tulosta raja-alue"
+DLG_PREF_073 = "Globaaliset osuudet"
+DLG_PREF_074 = "Tabien väli"
+DLG_PREF_075 = "Nuottien väli"
+DLG_PREF_076 = "Rytmin osuus"
+DLG_PREF_077 = "Sointudiag. koko"
+DLG_PREF_078 = "Diagrammin sijainti"
+DLG_PREF_079 = "Soint. nimisijainti"
+DLG_PREF_080 = "Tekstin positio"
+DLG_PREF_081 = "Otsikko/Tekijä väli"
+DLG_PREF_082 = "Tekijä/Tab väli"
+DLG_PREF_083 = "Otsikon fontti:"
+DLG_PREF_084 = "Tekijän fontti:"
+DLG_PREF_085 = "Kommentin fontti:"
+DLG_PREF_086 = "Sivunumer. fontti:"
+DLG_PREF_087 = "Nuottien fontti:"
+DLG_PREF_088 = "Soint. nimifontti:"
+DLG_PREF_089 = "Soint. diag. fontti:"
+DLG_PREF_090 = "Tekstin fontti:"
+DLG_PREF_091 = "Aikasign. fontti:"
+DLG_PREF_092 = "Toiston fontti:"
+DLG_PREF_093 = "Otsikko"
+DLG_PREF_094 = "Tekijä"
+DLG_PREF_095 = "Kommentti"
+DLG_PREF_096 = "Triolituntuma, säätäminen..."
+DLG_PREF_097 = "Sivun numero"
+DLG_PREF_098 = "Nuottirivin n.o"
+DLG_PREF_099 = "Sointudiagrammi"
+DLG_PREF_100 = "Sointujen nimet"
+DLG_PREF_101 = "Sointulista ylhäällä"
+DLG_PREF_102 = "Teksti"
+DLG_PREF_103 = "Efektejä"
+DLG_PREF_104 = "Rytmiviivat"
+DLG_PREF_105 = "Ruksaa jos teksti on mustia palikoita"
+DLG_PREF_106 = "Esikatselu"
+DLG_PREF_107 = "Force x Bars per Staff:"
+
+*****************
+* BROWSE WINDOW *
+*****************
+
+DLG_BROWSE_000
+DLG_BROWSE_001 = "Tiedostoselain"
+DLG_BROWSE_002 = "Sulje"
+DLG_BROWSE_003 = "Etsi alihakemistoista"
+DLG_BROWSE_004 = "Soita valittu tiedosto"
+DLG_BROWSE_005 = "Ei loikkaa"
+DLG_BROWSE_006 = "Loikkaa 1:n tahdin jälkeen"
+DLG_BROWSE_007 = "Loikkaa 2:n tahdin jälkeen"
+DLG_BROWSE_008 = "Loikkaa 5:n tahdin jälkeen"
+DLG_BROWSE_009 = "Loikkaa 10:n tahdin jälkeen"
+DLG_BROWSE_010 = "Loikkaa 25:n tahdin jälkeen"
+DLG_BROWSE_011 = "Loikkaa kappaleen jälkeen"
+DLG_BROWSE_012 = "Otsikko:"
+DLG_BROWSE_013 = "Tekijä:"
+DLG_BROWSE_014 = "Huom:"
+DLG_BROWSE_015 = "Tahteja:"
+DLG_BROWSE_016 = "G/B/D:" { G=Guitar / B=Bass / P=Percussion }
+DLG_BROWSE_017 = "Nimi"
+DLG_BROWSE_018 = "Koko"
+DLG_BROWSE_019 = "Muutettu"
+DLG_BROWSE_020 = "Hakemisto"
+DLG_BROWSE_021 = "tiedosto(a)"
+DLG_BROWSE_022 = "Etsii..."
+DLG_BROWSE_023 = "Lopeta"
+DLG_BROWSE_024 = "Etso alihakemistoista"
+DLG_BROWSE_025 = "Luetaan tiedostoa..."
+
+****************
+* BRUSH WINDOW *
+****************
+
+DLG_BRUSH_000
+DLG_BRUSH_001 = "Barrido"
+DLG_BRUSH_002 = "Barridon Kesto"
+
+**************************
+* MIX TABLE EVENT WINDOW *
+**************************
+
+DLG_MIX_000
+DLG_MIX_001 = "Miksaa taulukon muutostapahtumia"
+DLG_MIX_002 = "Valitse muutettavat parametrit ja käyttöönotto :"
+DLG_MIX_003 = "Instrumentti"
+DLG_MIX_004 = "Volyymi"
+DLG_MIX_005 = "Balanssi"
+DLG_MIX_006 = "Kertosäe"
+DLG_MIX_007 = "Kaiku"
+DLG_MIX_008 = "Tempo"
+DLG_MIX_009 = "Välittömästi"
+DLG_MIX_010 = "1 isku"
+DLG_MIX_011 = "%s iskua" { use plurial }
+DLG_MIX_012 = "Uusi arvo"
+DLG_MIX_013 = "Muutos"
+
+************************************
+* COMPLETE/REDUCE ASSISTANT WINDOW *
+************************************
+
+DLG_ASS_CR_000
+DLG_ASS_CR_001 = "Varmista tahtien muokkaaminen?"
+
+*****************************
+* LET RING ASSISTANT WINDOW *
+*****************************
+
+DLG_ASS_LR_000
+DLG_ASS_LR_001 = "Anna soida-valitsin"
+DLG_ASS_LR_002 = "Tämä apuri antaa sinun vaihtaa 'Anna Soida' vaihtoehtoa nuottiryhmässä yhdessä operaatiossa."
+DLG_ASS_LR_003 = "Tahdit:"
+DLG_ASS_LR_004 = "-"
+DLG_ASS_LR_005 = "Vaikutettavat kielet:"
+DLG_ASS_LR_006 = "Anna Soida vaihtoehto:"
+DLG_ASS_LR_007 = "Kyllä"
+DLG_ASS_LR_008 = "Ei"
+DLG_ASS_LR_009 = "Yhtään kieltä ei valittu."
+
+******************************
+* FINGERING ASSISTANT WINDOW *
+******************************
+
+DLG_ASS_FG_000
+DLG_ASS_FG_001 = "Automaattinen positiointi"
+DLG_ASS_FG_002 = "Tahdit:"
+DLG_ASS_FG_003 = "-"
+
+******************************
+* TRANSPOSE ASSISTANT WINDOW *
+******************************
+
+DLG_ASS_TR_000
+DLG_ASS_TR_001 = "Transponointi"
+DLG_ASS_TR_002 = "Transponoi:"
+DLG_ASS_TR_003 = "puoliaskelta"
+
+***********************************
+* CHECK DURATION ASSISTANT WINDOW *
+***********************************
+
+DLG_ASS_CD_000
+DLG_ASS_CD_001 = "Varmistus valmis."
+DLG_ASS_CD_002 = "Väärä tahdin pituus tahdissa %s - raidassa %s."
+
+**********************************
+* SPEED TRAINER ASSISTANT WINDOW *
+**********************************
+
+DLG_ASS_ST_000
+DLG_ASS_ST_001 = "Nopeusharjoittaja"
+DLG_ASS_ST_002 = "Tahdit:"
+DLG_ASS_ST_003 = "Tempo:"
+DLG_ASS_ST_004 = "-"
+DLG_ASS_ST_005 = "Tempon ero joka kierroksella:"
+
+**************
+* CUT WINDOW *
+**************
+
+DLG_CUT_000
+DLG_CUT_001 = "Leikkaa"
+DLG_CUT_002 = "Tahdit:"
+DLG_CUT_003 = "-"
+DLG_CUT_004 = "Tämä toimenpide leikkaa tahdit jokaiselta raidalta. "
+DLG_CUT_005 = "Yhden raidan leikkaaminen tapahtuu Kopioi/Liitä 
+toiminnoilla."
+
+**********************
+* COPY/CLEAR WINDOWS *
+**********************
+
+DLG_COPY_000
+DLG_COPY_001 = "Kopioi"
+DLG_COPY_002 = "Tyhjennä"
+DLG_COPY_003 = "Tahdit:"
+DLG_COPY_004 = "-"
+DLG_COPY_005 = "Kaikki raidat"
+DLG_COPY_006 = "Vain valittu raita"
+
+*****************
+* PASTE WINDOWS *
+*****************
+
+DLG_PASTE_000
+DLG_PASTE_001 = "Liitä"
+DLG_PASTE_002 = "Varmista %s:n tahdin liittäminen nykyiseen raitaan?"
+DLG_PASTE_003 = "Varmista %s:n tahdin liittäminen kaikkille raidoille?"
+DLG_PASTE_004 = "Pistä leikepöytä valinnan päälle"
+DLG_PASTE_005 = "Lisää leikepöytä ennen valintaa"
+DLG_PASTE_006 = "Lisää leikepöytä kappaleen loppuun"
+DLG_PASTE_007 = "Liitäntöjen määrä"
+DLG_PASTE_008 = "Lyömäsoittimen liittäminen raidoille 1-7 on kiellettyä."
+DLG_PASTE_009 = "Radoilta 1-7 liittäminen lyömäsoitinraidalle on kiellettyä."
+DLG_PASTE_010 = "Liitäntäoperaatio mahdoton: rivien määrä ei vastaa alkuperäistä raitaa."
+
+******************
+* DYNAMIC WINDOW *
+******************
+
+DLG_DYNA_000
+DLG_DYNA_001 = "Dynaamisuus"
+DLG_DYNA_002 = "Laita oletusarvoksi"
+DLG_DYNA_003 = "Laita nykyinen dynaamisuus oletusdynaamisuudeksi uusille nuoteille"
+DLG_DYNA_004 = "Käytä sointuun"
+DLG_DYNA_005 = "Käytä dynaamisuus koko sointuun"
+
+*********************
+* GRACE NOTE WINDOW *
+*********************
+
+DLG_GRACE_000
+DLG_GRACE_001 = "Etuhele"
+DLG_GRACE_002 = "Nuotti"
+DLG_GRACE_003 = "Kesto"
+DLG_GRACE_004 = "Dynaamisuus"
+DLG_GRACE_005 = "Kuollut nuotti: X"
+DLG_GRACE_006 = "Nauha:"
+
+****************
+* INTRO WINDOW *
+****************
+
+DLG_INTRO_000
+DLG_INTRO_001 = "Olet käyttämässä Guitar Pron testiversiota joka on rajoitettu %s:n päivään."
+DLG_INTRO_002 = "Tämän ajan kuluttua sinun on rekisteröitävä jotta voisit jatkaa Guitar Pron käyttöä."
+DLG_INTRO_003 = "Tilaa Guitar Pro !"
+DLG_INTRO_004 = "Kokeilen ensiksi..."
+DLG_INTRO_005 = "Tämän kokeiluversion rajoitukset:"
+DLG_INTRO_006 = "- Tallennus rajoitettu 24:n tahtiin"
+DLG_INTRO_007 = "- Tulostaminen estetty"
+DLG_INTRO_008 = "- MIDI ja ASCII tuonnit rajoitettu 50:n nuottiin"
+
+******************
+* LICENSE WINDOW *
+******************
+
+DLG_LIC_000
+DLG_LIC_001 = "Lisenssi"
+DLG_LIC_002 = "Terve, kiitos kun valitsit Guitar Pron."
+DLG_LIC_003 = "Toivomme että olet täysin tyytyväinen siihen."
+DLG_LIC_004 = "Jotta voisit käyttää ohjelmaa on sinun kirjoitettava USER ID ja KEY ID tiedot."
+DLG_LIC_005 = "Nämä löytyvät Guitar Pro paketissa tai asennuslevykkeessä."
+DLG_LIC_006 = "Käytät parhaillaan väliaikaista lisenssiä. Anna lopullinen käyttäjätunnus ja avainkoodi heti saatuasi ne."
+
+************************
+* PRINT PREVIEW WINDOW *
+************************
+
+DLG_PRW_000
+DLG_PRW_001 = "Tulostuksen esikatselu"
+DLG_PRW_002 = "Tulosta"
+DLG_PRW_003 = "Aset."
+
+****************
+* PRINT WINDOW *
+****************
+
+DLG_PRT_000
+DLG_PRT_001 = "Tulosta"
+DLG_PRT_002 = "Tulostin:"
+DLG_PRT_003 = "Kaikki"
+DLG_PRT_004 = "Sivut:"
+DLG_PRT_005 = "-"
+DLG_PRT_006 = "Asetukset..."
+
+****************
+* CHORD WINDOW *
+****************
+
+DLG_CHORD_000
+DLG_CHORD_001 = "Sointu"
+DLG_CHORD_002 = "Yksinkertainen"
+DLG_CHORD_003 = "Keskinkertainen"
+DLG_CHORD_004 = "Kaikki"
+DLG_CHORD_005 = "Käännetty"
+DLG_CHORD_006 = "Basso"
+DLG_CHORD_007 = "Jätä pois jokin:"
+DLG_CHORD_008 = "Erinlaiset nimet"
+DLG_CHORD_009 = "Käytetty"
+DLG_CHORD_010 = "Päällä"
+DLG_CHORD_011 = "Kirjasto"
+DLG_CHORD_012 = "Käytä diagrammia"
+DLG_CHORD_013 = "Lisää"
+DLG_CHORD_014 = "Poista"
+DLG_CHORD_015 = "Korvaa"
+DLG_CHORD_016 = "Siirrä ylös"
+DLG_CHORD_017 = "Siirrä alas"
+DLG_CHORD_018 = "Kuuntele"
+DLG_CHORD_019 = "Käyttäjä"
+DLG_CHORD_020 = "Ensiksi, nimeä sointu."
+DLG_CHORD_021 = "Ensiksi, valitse poistettava sointu."
+DLG_CHORD_022 = "Vahvista soinnun %s poistaminen ?"
+DLG_CHORD_023 = "Ensiksi, valitse päivitettävä sointu."
+DLG_CHORD_024 = "Ensiksi, valitse siirrettävä sointu."
+
+***************
+* TEXT WINDOW *
+***************
+
+DLG_TXT_000
+DLG_TXT_001 = "Teksti"
+DLG_TXT_002 = "Teksti"
+
+********************
+* GO TO BAR WINDOW *
+********************
+
+DLG_GOTOB_000
+DLG_GOTOB_001 = "Mene..."
+DLG_GOTOB_002 = "Tahti"
+
+***************
+* BEND WINDOW *
+***************
+
+DLG_BEND_000
+DLG_BEND_001 = "Venytä"
+DLG_BEND_002 = "Venytä & päästä"
+DLG_BEND_003 = "Arvo"
+
+*********************
+* STROKE VIB WINDOW *
+*********************
+
+DLG_STROKV_000
+DLG_STROKV_001 = "Vibrato kertaalleen"
+DLG_STROKV_002 = "Arvo"
+
+**********************
+* INSTRUMENTS WINDOW *
+**********************
+
+DLG_INSTR_000
+DLG_INSTR_001 = "Instrumentti (Yleinen MIDI)"
+
+*************************
+* TIME SIGNATURE WINDOW *
+*************************
+
+DLG_TIMES_000
+DLG_TIMES_001 = "Aikasignatuuri"
+DLG_TIMES_002 = "Ennen loppua"
+
+*********************
+* REPEAT END WINDOW *
+*********************
+
+DLG_REPE_000
+DLG_REPE_001 = "Sulje uudelleen"
+DLG_REPE_002 = "Uusintojen määrä"
+
+****************************
+* ALTERNATE ENDINGS WINDOW *
+****************************
+
+DLG_DIFE_000
+DLG_DIFE_001 = "Vaihtoehtoiset loput"
+DLG_DIFE_002 = "-"
+
+*********
+* FILES *
+*********
+
+FILES_000
+FILES_001 = "Tallenna muutokset tiedostossa %s ?"
+FILES_002 = "Tiedosto %s ei löytynyt."
+FILES_003 = "Tiedosto %s on jo olemassa."
+FILES_004 = "Haluatko korvata sen ?"
+FILES_005 = "<nimetön>" { name for a new file }
+FILES_006 = "Tiedostoon ei päästä käsiksi. Lataaminen keskeytetty."
+FILES_007 = "Tuntematon tiedosto. Lataaminen keskeytetty."
+FILES_008 = "Jotta voisit avata tämän tiedoston on sinun päivitettävä Guitar Pro."
+FILES_009 = "MIDI Virhe"
+FILES_010 = "MIDI formaattia ei tunnisteta."
+FILES_011 = "Guitar Pro tiedostot"
+FILES_012 = "MIDI tiedostot"
+FILES_013 = "ASCII Tab tiedosot"
+FILES_014 = "Kaikki tiedostot"
+FILES_015 = "MIDI tuominen"
+FILES_016 = "MIDI vieminen"
+FILES_017 = "ASCII Tab tuominen"
+FILES_018 = "ASCII Tab vieminen"
+
+****************
+* ORDER WINDOW *
+****************
+
+DLG_REG_000
+DLG_REG_001 = "Pidät Guitar Prosta ja haluaisit käyttää sen kokonaan toiminnallista versiota?"
+DLG_REG_002 = "Älä odota enempää, tilaa ja vastaanota oma kopiosi Guitar Prosta 1:n tunnin sisällä!"
+DLG_REG_003 = "Rajoituksien lisäksi, rekisteröiminen antaa monia etuja, kuten:"
+DLG_REG_004 = "Pääsy tekniseen tukeen"
+DLG_REG_005 = "Saat ilmaiset päivitykset 4.x versioon"
+DLG_REG_006 = "Saat erikoistarjouksen päivittämisestä 5.x versioon"
+DLG_REG_007 = "Saadaksesi tietää ohjelmiston hinnan, maksutavat ja jälleenmyyjät käy websaitillamme:"
+
+*****************************
+* REGISTER YOUR COPY WINDOW *
+*****************************
+
+DLG_REGC_000
+DLG_REGC_001 = "Rekisteröi kopiosi!"
+DLG_REGC_002 = "Suosittelemme rekisteröimään kokoversiosi Guitar Prosta."
+DLG_REGC_003 = "Rekisteröityminen kestää vain pari minuuttia ja antaa sinulle lukuisia etuja, kuten:"
+DLG_REGC_004 = "Pääsy tekniseen tukeen"
+DLG_REGC_005 = "Saat ilmaiset päivitykset 4.x versioon"
+DLG_REGC_006 = "Saat erikoistarjouksen päivittämisestä 5.x versioon"
+DLG_REGC_007 = "Tärkeää: Jos kadotat asennustiedoston tai lisenssin, voit saada ne uudelleen vain jos olet rekisteröinyt ohjelman."
+DLG_REGC_008 = "Internetin kautta."
+DLG_REGC_009 = "Posti tai fax rekisteröityminen"
+DLG_REGC_010 = "Puh:"
+DLG_REGC_011 = "Fax:"
+DLG_REGC_012 = "Näytä tämä ikkuna käynnistyessä"
+
+********************
+* ORDER PAPER FORM *
+********************
+
+LG_REGPF_000
+DLG_REGPF_001 = "GUITAR PRON TILAUSLOMAKE (SHEKILLÄ TAI EUROSHEKILLÄ EURO)"
+DLG_REGPF_002 = "Ole hyvä ja täytä tämän lomakkeet [ ]-alueet,"
+DLG_REGPF_003 = "tulosta se, ja postita se osoitteeseen :"
+DLG_REGPF_004 = "maksunne kanssa shekkinä tai Euroshekkinä EURO"
+DLG_REGPF_005 = "%s:lle."
+DLG_REGPF_006 = "TILAA"
+DLG_REGPF_007 = "Guitar Pro %s sähköpostitse (päivitys)"
+DLG_REGPF_008 = "Guitar Pro %s sähköpostitse"
+DLG_REGPF_009 = "Guitar Pro %s CDROMilla + postituskulut"
+DLG_REGPF_010 = "Älä epäröi ottamaan meihin yhteyttä kysymyksiä varten"
+DLG_REGPF_011 = "TIETOSI"
+DLG_REGPF_012 = "Pvm:"
+DLG_REGPF_013 = "Etunimi:"
+DLG_REGPF_014 = "SUKUNIMI:"
+DLG_REGPF_015 = "USER ID:"
+DLG_REGPF_016 = "KEY ID:"
+DLG_REGPF_017 = "Osoite:"
+DLG_REGPF_018 = "Postinumero:"
+DLG_REGPF_019 = "Kunta/Kaupunki:"
+DLG_REGPF_020 = "Osavaltio/Provinssi:"
+DLG_REGPF_021 = "Maa:"
+DLG_REGPF_022 = "Puh:"
+DLG_REGPF_023 = "Fax:"
+DLG_REGPF_024 = "Sähköposti:"
+DLG_REGPF_025 = "Huomautuksia:"
+DLG_REGPF_026 = "(ehdoton jos et tilaa CD-ROMia)"
+DLG_REGPF_027 = "Saat ohjelman 24 tunnin sisällä säköpostitse, ja 15:n päivän sisällä postitse"
+DLG_REGPF_028 = "(jos tilauksesi on päivitys)"
+
+*********************************
+* REGISTER YOUR COPY PAPER FORM *
+*********************************
+
+DLG_REGCPF_000
+DLG_REGCPF_001 = "REKISTERÖITYMINEN - GUITAR PRO OHJELMA"
+DLG_REGCPF_002 = "Täydennä [ ]-alueet lomakkeesta, tulosta se"
+DLG_REGCPF_003 = "ja postita tai faxaa se osoitteseen :"
+DLG_REGCPF_004 = "Ranskasta"  { for the fax number }
+DLG_REGCPF_005 = "muualta"  { for the fax number }
+DLG_REGCPF_006 = "TIETOSI"
+DLG_REGCPF_007 = "Pvm:"
+DLG_REGCPF_008 = "Versio:"
+DLG_REGCPF_009 = "Etunimi:"
+DLG_REGCPF_010 = "SUKUNIMI:"
+DLG_REGCPF_011 = "Osoite:"
+DLG_REGCPF_012 = "Postinumero:"
+DLG_REGCPF_013 = "Kaupunki:"
+DLG_REGCPF_014 = "Osavaltio:"
+DLG_REGCPF_015 = "Maa:"
+DLG_REGCPF_016 = "Puh:"
+DLG_REGCPF_017 = "Fax:"
+DLG_REGCPF_018 = "Sähköposti:"
+DLG_REGCPF_019 = "(katso se ohjelman pakkauksesta)"
+DLG_REGCPF_020 = "VALINNAISET KYSYMYKSET (englanniksi tai ranskaksi)"
+DLG_REGCPF_021 = "Miten löysit Guitar Pron?"
+DLG_REGCPF_022 = "Kauanko kokeilit Guitar Prota ennenkuin päätit tilata sen?"
+DLG_REGCPF_023 = "Miten käytät Guitar Prota (säveltämiseen, harjoittelemiseen, jne) ?"
+DLG_REGCPF_024 = "Mistä kaupasta tai internetsivulta ostit Guitar Pron ?
+DLG_REGCPF_025 = "Huomautuksia, ehdotuksia, ..."
+
+********************
+* v3.0 BEND WINDOW *
+********************
+
+DLG300_BEND_000
+DLG300_BEND_001 = "Venytystyyppi"
+DLG300_BEND_002 = "Toista"
+DLG300_BEND_003 = "Valitse venytystyyppi :"
+DLG300_BEND_004 = "Klikkaa lisääksesi tai poistaaksesi kohtia (oikea näppäin = vibratoja) :"
+DLG300_BEND_005 = "Nuotin pituus = "
+DLG300_BEND_006 = "Efektiä ei voitu soittaa koska olet valinnut rajoittaa venytystyypin vain yhteen ääneen Midi Asetuksissa (menu Asetukset|Midi Asetukset)."
+DLG300_BEND_007 = "Tämä vaihtoehto on välttämätön perusäänikortille."
+
+**************************
+* v3.0 GRACE NOTE WINDOW *
+**************************
+
+DLG300_GRACE_000
+DLG300_GRACE_001 = "Siirtyminen"
+DLG300_GRACE_002 = "Ei mikään"
+DLG300_GRACE_003 = "Liuku"
+DLG300_GRACE_004 = "Venytys"
+DLG300_GRACE_005 = "Isku"
+
+***********************
+* v3.0 MARKERS WINDOW *
+***********************
+
+DLG300_MARKERS_000
+DLG300_MARKERS_001 = "Merkkilista"
+DLG300_MARKERS_002 = "Sij"
+DLG300_MARKERS_003 = "Nimi"
+DLG300_MARKERS_004 = "Lisää"
+DLG300_MARKERS_005 = "Muokkaa"
+DLG300_MARKERS_006 = "Poista"
+DLG300_MARKERS_007 = "Mene"
+DLG300_MARKERS_008 = "Vahvista %s-Merkin poistaminen ?"
+DLG300_MARKERS_009 = "Lisää Merkki"
+DLG300_MARKERS_010 = "Muokkaa Merkkiä"
+DLG300_MARKERS_011 = "Tahti :"
+DLG300_MARKERS_012 = "Väri :"
+DLG300_MARKERS_013 = "Nimi :"
+DLG300_MARKERS_014 = "Osa"
+
+********************************
+* v3.0 MIDI IMPORTATION WINDOW *
+********************************
+
+DLG300_IMPM_000
+DLG300_IMPM_001 = "MIDI Tuonnit"
+DLG300_IMPM_002 = "MIDI raidat :"
+DLG300_IMPM_003 = "Soinnun Paikan Pyöristys"
+DLG300_IMPM_004 = "Nuotin Paikan Pyöristys"
+DLG300_IMPM_005 = "Transponoi alemmalle oktaaville"
+DLG300_IMPM_006 = "Nopea tuonti"
+DLG300_IMPM_007 = "Tämä tapa tuo valitut raidat uuteen tiedostoon."
+DLG300_IMPM_008 = "Virittäminen on automaattisesti valittu ottaen huomioon raidan nimen."
+DLG300_IMPM_009 = "Käytä 2 kanavaa per raita"
+DLG300_IMPM_010 = "Tuo !"
+DLG300_IMPM_011 = "Askel Askeleelta Tuonti"
+DLG300_IMPM_012 = "Tämä tapa antaa sinulle enemmän sanomista tuontiin ja mahdollistaa raitojen yhdistämisen."
+DLG300_IMPM_013 = "Tuo Nimen ja Aikamerkinnän Vaihdokset."
+DLG300_IMPM_014 = "Lisää raita Guitar Proon..."
+DLG300_IMPM_015 = "Tuo Valittu/Valitut Raidat Nykyiseen Raitaan Guitar Prossa."
+DLG300_IMPM_016 = "Guitar Pron kokeiluversio on rajoitettu 50:n nuotin tuontiin."
+DLG300_IMPM_017 = "Jos pidät Guitar Prosta, ole hyvä ja rekisteröi."
+DLG300_IMPM_018 = "Näytä Ikkuna"
+DLG300_IMPM_019 = "Piilota Ikkuna"
+DLG300_IMPM_020 = "MIDI formaatti %s ei ole tuettu. Käytä MIDI formaattia 0 tai 1."
+DLG300_IMPM_021 = "Ole hyvä ja valitse vähintään yksi MIDI raita."
+DLG300_IMPM_022 = "Valitse Kaikki Radat"
+DLG300_IMPM_023 = "Poista Kaikki Ratavalinnat"
+DLG300_IMPM_024 = "Toista Valittu Raita"
+DLG300_IMPM_025 = "Pysäytä"
+DLG300_IMPM_026 = "Avaa Toinen Tiedosto"
+
+**************************
+* v3.0 MIDI SETUP WINDOW *
+**************************
+
+DLG300_MIDISETUP_000
+DLG300_MIDISETUP_001 = "MIDI Asetukset"
+DLG300_MIDISETUP_002 = "MIDI Ulostulot"
+DLG300_MIDISETUP_003 = "Portti"
+DLG300_MIDISETUP_004 = "Laite"
+DLG300_MIDISETUP_005 = "Soitinpaketti"
+DLG300_MIDISETUP_006 = "Rajoita korkeusvaihteluja"
+DLG300_MIDISETUP_007 = "Toista näytekappale tällä ulostulolla"
+DLG300_MIDISETUP_008 = "Käytä 'Rajoita korkeusvaihteluja'-valintaa jos venytys- tai liukuefektit kuullostaa vääriltä."
+DLG300_MIDISETUP_009 = "Perus äänikortit eivät tue yli yhden äänen korkeusvaihteluja."
+DLG300_MIDISETUP_010 = "Et voi vaikuttaa samaa laitetta eri porteilla."
+
+**************************
+* v3.0 SCORE INFO WINDOW *
+**************************
+
+DLG300_SCORE_INFO_000
+DLG300_SCORE_INFO_001 = "Kappaleen Tiedot"
+DLG300_SCORE_INFO_002 = "Oletustiedot"
+DLG300_SCORE_INFO_003 = "Nimi"
+DLG300_SCORE_INFO_004 = "Alanimi"
+DLG300_SCORE_INFO_005 = "Artisti"
+DLG300_SCORE_INFO_006 = "Albumi"
+DLG300_SCORE_INFO_007 = "Tekijä"
+DLG300_SCORE_INFO_008 = "Tekijänoikeus"
+DLG300_SCORE_INFO_009 = "Tahti"
+DLG300_SCORE_INFO_010 = "Ohjeet"
+DLG300_SCORE_INFO_011 = "Huomautus"
+DLG300_SCORE_INFO_012 = "Triolin Tuntu :"
+DLG300_SCORE_INFO_013 = "Anna ominaisuudet jotka tulevat oletuksena uuteen kappaleeseen :"
+
+**************************
+* v3.0 TRACK INFO WINDOW *
+**************************
+
+DLG300_TRACK_INFO_000
+DLG300_TRACK_INFO_001 = "Lisää Raita"
+DLG300_TRACK_INFO_002 = "Tyyppi"
+DLG300_TRACK_INFO_003 = "Soitin"
+DLG300_TRACK_INFO_004 = "Positio"
+DLG300_TRACK_INFO_005 = "Ensimmäinen"
+DLG300_TRACK_INFO_006 = "Viimeinen"
+DLG300_TRACK_INFO_007 = "Ennen"
+DLG300_TRACK_INFO_008 = "Jälkeen"
+DLG300_TRACK_INFO_009 = "Raidan ominaisuudet"
+DLG300_TRACK_INFO_010 = "Väri"
+DLG300_TRACK_INFO_011 = "Banjon viiden kielen tarkkuus"
+DLG300_TRACK_INFO_012 = "Haluatko transponoida raidan uuteen viritykseen ?"
+
+***************************
+* v3.0 PREFERENCES WINDOW *
+***************************
+
+DLG300_PREF_000
+DLG300_PREF_001 = "Note Played Following"
+DLG300_PREF_002 = "Rectangle around the Bar"
+DLG300_PREF_003 = "Triangle under the Note"
+DLG300_PREF_004 = "Note highlighting"
+
+*********************************
+* v3.0 ASCII IMPORTATION WINDOW *
+*********************************
+
+DLG300_IMPA_000
+DLG300_IMPA_001 = "Kielien summa eroaa nykyisestä raidasta."
+DLG300_IMPA_002 = "Ole hyvä ja ensiksi muuta kielien summa nykyisessä raidassa."
+
+****************
+* v3.0 GENERAL *
+****************
+
+GENE300_000
+GENE300_001 = "Raitojen tuettu maksimaalinen määrä :"
+GENE300_002 = "Vahvista raidan %s:n poisto ?"
+GENE300_003 = "Demo versiossa et saa tulostaa kappaletta."
+GENE300_004 = "ei mikään" { for the MIDI ports }
+GENE300_005 = "Mahdotonta avata MIDI portti [%s]."
+GENE300_006 = "Ole hyvä, ja sulje toiset MIDI ohjelmat tai muuta MIDI asetuksiasi."
+GENE300_007 = "Pakettia ei valittu" { instrument patch }
+GENE300_008 = "Pakettia ei löydetty" { instrument patch }
+GENE300_009 = "Toista %s:sta"
+GENE300_010 = "Mene kohtaan %s"
+GENE300_011 = "Rumpusetti"
+GENE300_012 = "Pelkästään rumpuraidat"
+GENE300_013 = "Yhdistä %s:n kanssa"
+GENE300_014 = "%s:lle varatty"
+GENE300_015 = "vapaa"
+GENE300_016 = "Demo versio ei voi viedä GP 2.2 formaattiin tiedostoa jota on muunnettu."
+GENE300_017 = "Sinun on avattava tiedosto ja käytettävä tätä funktiota suoraan."
+GENE300_018 = "Guitar Pro 2.2 Tiedostoja"
+
+******************
+* v3.0 MIX TABLE *
+******************
+
+MIXT300_000
+MIXT300_001 = "Pienennä Kaikki"
+MIXT300_002 = "Laajenna Kaikki"
+MIXT300_003 = "Soolo"
+MIXT300_004 = "S" {abreviation of "Solo"}
+MIXT300_005 = "Mykkä"
+MIXT300_006 = "M" {abreviation of "Mute"}
+MIXT300_007 = "Nimi" {of the track}
+MIXT300_008 = "Portti"
+MIXT300_009 = "Port" {abreviation of "Port"}
+MIXT300_010 = "Portin Valinta"
+MIXT300_011 = "Pääkanava"
+MIXT300_012 = "PK" {abreviation of "Main Channel"}
+MIXT300_013 = "Pääkanavan Valinta"
+MIXT300_014 = "Efektikanava"
+MIXT300_015 = "EK" {abreviation of "Effects Channel"}
+MIXT300_016 = "Efektikanavan Valinta"
+MIXT300_017 = "Soitin"
+MIXT300_018 = "Äänenvoim."
+MIXT300_019 = "Pan"
+MIXT300_020 = "Kertosäe"
+MIXT300_021 = "Kaiku"
+MIXT300_022 = "Vaihe"
+MIXT300_023 = "Tremolo"
+MIXT300_024 = "Keskeneräinen Paketti"
+MIXT300_025 = "Pakettia Ei Valittu"
+MIXT300_026 = "Rumpusetti"
+
+*********************************
+* v3.0 DYNAMIC ASSISTANT WINDOW *
+*********************************
+
+DLG300_ASS_DY_000
+DLG300_ASS_DY_001 = "Dynaamisuus"
+DLG300_ASS_DY_002 = "Tämä apuri antaa sinun vaihtaa eri nuottiryhmien dynaamisuuksia yhdessä operaatiossa."
+DLG300_ASS_DY_003 = "Tahdit:"
+DLG300_ASS_DY_004 = "-"
+DLG300_ASS_DY_005 = "Vaikutettavat kielet:"
+DLG300_ASS_DY_006 = "Dynaaminen arvo:"
+DLG300_ASS_DY_007 = "Kieltä ei ole valittu."
+
+**********************
+* v3.0 MENUS & HINTS *
+**********************
+
+MN300_000
+MN300_001 = "Kappaleen Tietoja"
+MN300_002 = "Ensimmäinen" {for the track}
+MN300_003 = "Edellinen" {for the track}
+MN300_004 = "Seuraava" {for the track}
+MN300_005 = "Viimeinen" {for the track}
+MN300_006 = "Edellinen Kappale"
+MN300_007 = "Seuraava Kappale"
+MN300_008 = "Ominaisuudet" {for the track}
+MN300_009 = "Kappaleen Ominaisuudet"
+MN300_010 = "Lisää" {for a track}
+MN300_011 = "Lisää Raita"
+MN300_012 = "Poista" {for the track}
+MN300_013 = "Ensimmäinen" {for the bar}
+MN300_014 = "Edellinen" {for the bar}
+MN300_015 = "Seuraava" {for the bar}
+MN300_016 = "Viimeinen" {for the bar}
+MN300_017 = "Yhdistä Isku"
+MN300_018 = "Yhdistä Nuotti"
+MN300_019 = "Iskun Kesto"
+MN300_020 = "Nuotin Kesto"
+MN300_021 = "-ei-" {means "no" triolet, -3-, -5-, ...}
+MN300_022 = "n-tupletti"
+MN300_023 = "isku" {n-tuplet on the beat}
+MN300_024 = "nuotti" {n-tuplet on the note}
+MN300_025 = "Venytystyyppi" {includes all "Bend" type effects}
+MN300_026 = "Merkki"
+MN300_027 = "Lisää Merkki"
+MN300_028 = "Lisää"
+MN300_029 = "Merkkilista"
+MN300_030 = "Lista"
+MN300_031 = "Edelliseen Merkkiin"
+MN300_032 = "Edellinen"
+MN300_033 = "Mene Merkkiin"
+MN300_034 = "Mene"
+MN300_035 = "Mene Seuraavaan Merkkiin"
+MN300_036 = "Seuraava"
+MN300_037 = "Merkkiä ei tarkennettu"
+MN300_038 = "Toista Merkistä"
+MN300_039 = "Toista Nykyisestä Kohdasta (Väli)"
+MN300_040 = "Työkaluja"
+MN300_041 = "Laske Takaperin"
+MN300_042 = "Pistä Tempon Kerroin"
+MN300_043 = "Moniraita Näyttö"
+MN300_044 = "Pystysuora Vieritys"
+MN300_045 = "Vaakasuorta Vieritys"
+MN300_046 = "Tavanomaiset Välit Muokkauspalkissa"
+MN300_047 = "Vaihda Näkymiä"
+MN300_048 = "Työkalupalkit"
+MN300_049 = "Standardi" {name of the toolbar}
+MN300_050 = "Palkki" {name of the toolbar}
+MN300_051 = "Merkit" {name of the toolbar}
+MN300_052 = "Näyttö" {name of the toolbar}
+MN300_053 = "Iskun Kesto" {name of the toolbar}
+MN300_054 = "Nuotin Kesto" {name of the toolbar}
+MN300_055 = "Toista" {name of the toolbar}
+MN300_056 = "Tempo" {name of the toolbar}
+MN300_057 = "Efektit" {name of the toolbar}
+MN300_058 = "Dynaamisuus" {name of the toolbar}
+MN300_059 = "Kaikki" {afficher toutes les barres d'outils}
+MN300_060 = "Ei mikään" {n'afficher aucune barre d'outil}
+MN300_061 = "Perusasetukset" {des barres d'outil}
+MN300_062 = "MIDI Asetukset"
+MN300_063 = "Pidä Nykyinen Tahti Näkyvissä Toistaessa"
+MN300_064 = "Guitar Pro 2.2 Formaatti"
+MN300_065 = "Asetukset"
+MN300_066 = "Nauhaisku / Nyhtäisy"
+MN300_067 = "Liuku"
+MN300_068 = "Tempo"
+MN300_069 = "Dynaamisuus"
+MN300_070 = "Mene Alkuun"
+MN300_071 = "Mene Loppuun"
+MN300_072 = "Taaksepäin Kelaus"
+MN300_073 = "Eteenpäin Kelaus"
+MN300_074 = "Askel Taaksepäin"
+MN300_075 = "Askel Eteenpäin"
+
+******************
+* v3.0 GP ONLINE *
+******************
+
+DLG300_GPONLINE_000
+DLG300_GPONLINE_001 = "GP Online"
+DLG300_GPONLINE_002 = "GP Online Muistutus:"
+DLG300_GPONLINE_003 = "Ei koskaan"
+DLG300_GPONLINE_004 = "2 Viikkoa"
+DLG300_GPONLINE_005 = "1 Kuukausi"
+DLG300_GPONLINE_006 = "3 Kuukautta"
+DLG300_GPONLINE_007 = "6 Kuukautta"
+DLG300_GPONLINE_008 = "Allow quick check for new version at starting if the internet connection is detected"
+DLG300_GPONLINE_009 = "Guitar Pro:sta on saatavana uusi versio!"
+DLG300_GPONLINE_010 = "Haluatko käynnistää GP Onlinen?"
+DLG300_GPONLINE_011 = "Huomaa: Lopettaaksesi tämän vertailun, käynnistä GP Online tai mene valikkoon [Asetukset|Asetukset]."
+DLG300_GPONLINE_012 = "Et ole käyttänyt GP Onlinea %s päivään."
+DLG300_GPONLINE_013 = "Huomaa : Pysäyttääksesi GP Online muistutuksen, mene valikkoon [Asetukset|Asetukset]."
+
+***********************************
+* v4.0 PALM MUTE ASSISTANT WINDOW *
+***********************************
+ 
+DLG400_ASS_PM_000
+DLG400_ASS_PM_001 = "Demppauksen optio"
+DLG400_ASS_PM_002 = "Tämä Apuri mahdollistaa vaimennuksen määrittelyn nuottiryhmälle yhdellä siirrolla."
+DLG400_ASS_PM_003 = "Tahti alue:"
+DLG400_ASS_PM_004 = "Asti"
+DLG400_ASS_PM_005 = "Koskee kieliä:"
+DLG400_ASS_PM_006 = "Demppauksen Optio:"
+DLG400_ASS_PM_007 = "Kyllä"
+DLG400_ASS_PM_008 = "Ei"
+DLG400_ASS_PM_009 = "Kieltä ei valittu."
+ 
+*****************************
+* v4.0 PERCUSSION ASSISTANT *
+*****************************
+ 
+DLG400_ASS_PERCU_000
+DLG400_ASS_PERCU_001 = "Käytä elektronisia ääniä, jos mahdollista"
+ 
+*******************************
+* v4.0 MIX TABLE EVENT WINDOW *
+*******************************
+ 
+DLG400_MIX_000
+DLG400_MIX_001 = "Kaikki raidat"
+ 
+*********************
+* v4.0 CHORD WINDOW *
+*********************
+ 
+DLG400_CHORD_000
+DLG400_CHORD_001 = "Sormitus"
+ 
+*********************
+* v4.0 BRUSH WINDOW *
+*********************
+ 
+DLG400_BRUSH_000
+DLG400_BRUSH_001 = "Rasgueado"
+ 
+**************************
+* v4.0 TREMOLOBAR WINDOW *
+**************************
+ 
+DLG400_TREMOLOBAR_000
+DLG400_TREMOLOBAR_001 = "Tremolo Tahti"
+DLG400_TREMOLOBAR_002 = "Valitse Muoto:";
+ 
+*********************
+* v4.0 TRILL WINDOW *
+*********************
+ 
+DLG400_TRILL_000
+DLG400_TRILL_001 = "Trilli"
+DLG400_TRILL_002 = "Trilli Nuotti"
+DLG400_TRILL_003 = "Lauseke"
+DLG400_TRILL_004 = "Nauha:"
+ 
+*******************************
+* v4.0 BMP EXPORTATION WINDOW *
+*******************************
+ 
+DLG400_EXPBMP_000
+DLG400_EXPBMP_001 = "BMP-Vienti"
+DLG400_EXPBMP_002 = "Vienti"
+DLG400_EXPBMP_003 = "Bitmap-tiedostot"
+ 
+*******************************
+* v4.0 BMP EXPORTATION WINDOW *
+*******************************
+ 
+DLG400_EXPWAV_000
+DLG400_EXPWAV_001 = "WAVE-vienti"
+DLG400_EXPWAV_002 = "Vienti"
+DLG400_EXPWAV_003 = "Laatu:"
+DLG400_EXPWAV_004 = "WAVE-tiedostot"
+ 
+*************************
+* v4.0 FRETBOARD WINDOW *
+*************************
+ 
+DLG400_FRETBOARD_000
+DLG400_FRETBOARD_001 = "Näyttömoodin valinta"
+DLG400_FRETBOARD_002 = "Näytä [Lyönti]"
+DLG400_FRETBOARD_003 = "Näytä [Lyönti] + [Tahti]"
+DLG400_FRETBOARD_004 = "Näytä [Lyönti] + [Diagram]"
+DLG400_FRETBOARD_005 = "Näytä [Lyönti] + [Seuraava]"
+DLG400_FRETBOARD_006 = "Näytä [Lyönti] + [Skaala]"
+DLG400_FRETBOARD_007 = "Näytä [Nuotin nimi]"
+DLG400_FRETBOARD_008 = "Näytä [Intervalli]"
+DLG400_FRETBOARD_009 = "Näytä [Aste]"
+DLG400_FRETBOARD_010 = "Nuottinimen indikaatio"
+DLG400_FRETBOARD_011 = "Nimetön"
+DLG400_FRETBOARD_012 = "Nimi [Isku]"
+DLG400_FRETBOARD_013 = "Nimi [Isku] + [...]"
+DLG400_FRETBOARD_014 = "Otelaudan taustakuva"
+DLG400_FRETBOARD_015 = "Sähköinen"
+DLG400_FRETBOARD_016 = "Akustinen"
+DLG400_FRETBOARD_017 = "Klassinen"
+DLG400_FRETBOARD_018 = "Perus"
+DLG400_FRETBOARD_019 = "Käänteinen otelauta"
+DLG400_FRETBOARD_020 = "Avaa skaala-työkalu"
+DLG400_FRETBOARD_021 = "Asteikot"
+DLG400_FRETBOARD_022 = "Siirrä vasemmalle"
+DLG400_FRETBOARD_023 = "Siirrä oikealle"
+ 
+************************
+* v4.0 KEYBOARD WINDOW *
+************************
+ 
+DLG400_KEYBOARD_000
+DLG400_KEYBOARD_001 = "Näyttömoodin valinta"
+DLG400_KEYBOARD_002 = "Show [Lyönti]"
+DLG400_KEYBOARD_003 = "Show [Lyönti] + [Bar]"
+DLG400_KEYBOARD_004 = "Show [Lyönti] + [Seuraava]"
+DLG400_KEYBOARD_005 = "Show [Lyönti] + [Skaala]"
+DLG400_KEYBOARD_006 = "Avaa skaala-työkalu"
+DLG400_KEYBOARD_007 = "Asteikot"
+DLG400_KEYBOARD_008 = "Siirrä vasemmalle"
+DLG400_KEYBOARD_009 = "Siirrä oikealle"
+ 
+******************************
+* v4.0 KEY SIGNATURE WINDOW *
+******************************
+ 
+DLG400_KEYSIGN_000
+DLG400_KEYSIGN_001 = "Etumerkintä"
+DLG400_KEYSIGN_002 = "Loppuun asti"
+DLG400_KEYSIGN_003 = "Moodi"
+DLG400_KEYSIGN_004 = "duuri"
+DLG400_KEYSIGN_005 = "molli"
+ 
+***************************
+* v4.0 NEW TUNING WINDOW *
+***************************
+ 
+DLG400_NEWTUNE_000
+DLG400_NEWTUNE_001 = "Uusi viritys"
+DLG400_NEWTUNE_002 = "Valitse nimi uudelle viritykselle:"
+ 
+**************************
+* v4.0 SCORE INFO WINDOW *
+**************************
+ 
+DLG400_SCORE_INFO_000
+DLG400_SCORE_INFO_001 = "Sanoitus"
+DLG400_SCORE_INFO_002 = "Käytä Raidalle:"
+DLG400_SCORE_INFO_003 = "Jos muutat partituuria, palaa tähän ikkunaan ja paina OK päivittääksesi sanoituksen."
+DLG400_SCORE_INFO_004 = "Line %s"
+DLG400_SCORE_INFO_005 = "Aloita tahdista:"
+DLG400_SCORE_INFO_006 = "Lue apu käyttäen erikoismerkkejä: -, + and []"
+DLG400_SCORE_INFO_007 = "Leikkaa"
+DLG400_SCORE_INFO_008 = "Kopioi"
+DLG400_SCORE_INFO_009 = "Liitä"
+ 
+**************************
+* v4.0 TRACK INFO WINDOW *
+**************************
+ 
+DLG400_TRACK_INFO_000
+DLG400_TRACK_INFO_001 = "Lisää tämä viritys"
+DLG400_TRACK_INFO_002 = "Poista tämä viritys"
+DLG400_TRACK_INFO_003 = "Valitse ensin poistettava viritys."
+DLG400_TRACK_INFO_004 = "Vahvista virityksen %s poisto?"
+DLG400_TRACK_INFO_005 = "Määrittele ensin uusi viritys ja klikkaa lisää painiketta sen nimeämiseksi."
+DLG400_TRACK_INFO_006 = "Tälle uudelle viritykselle pitää antaa nimi ensin."
+DLG400_TRACK_INFO_007 = "Tämä nimi on jo käytössä."
+ 
+***************************
+* v4.0 PREFERENCES WINDOW *
+***************************
+ 
+DLG400_PREF_000
+DLG400_PREF_001 = "Automaattinen Varmuuskopio"
+DLG400_PREF_002 = "Aina"
+DLG400_PREF_003 = "Toimintoa"
+DLG400_PREF_004 = "Sanoitus:"
+DLG400_PREF_005 = "Kumoa/Toista"
+DLG400_PREF_006 = "Estä Kumoa/Toista (Hitaat Tietokoneet)"
+ 
+***********************************
+* v4.0 TRANSPOSE ASSISTANT WINDOW *
+***********************************
+ 
+DLG400_ASS_TR_000
+DLG400_ASS_TR_001 = "Transponoi kaikki raidat"
+ 
+*********************************
+* v4.0 SEARCH ON THE WEB WINDOW *
+*********************************
+ 
+DLG400_SEARCHONWEB_000
+DLG400_SEARCHONWEB_001 = "Etsi Netistä"
+DLG400_SEARCHONWEB_002 = "Etsi:"
+DLG400_SEARCHONWEB_003 = "Käytä Yksinkertaista tekstiä kuten 'satriani' tai 'elise'"
+DLG400_SEARCHONWEB_004 = "Saitilta:"
+DLG400_SEARCHONWEB_005 = "Etsi!"
+DLG400_SEARCHONWEB_006 = "Päivitä etsintäsaittien lista"
+DLG400_SEARCHONWEB_007 = "%s saitti(a) löydetty."
+DLG400_SEARCHONWEB_008 = "Etsinnän aloittamiseksi on annettava teksti."
+DLG400_SEARCHONWEB_009 = "Ei voida kytkeytyä Guitar Pro-Saitille."
+ 
+***************************
+* v4.0 SCALES TOOL WINDOW *
+***************************
+ 
+DLG400_SCALES_000
+DLG400_SCALES_001 = "Asteikot"
+DLG400_SCALES_002 = "Kuuntele"
+DLG400_SCALES_003 = "Asteikon haku"
+DLG400_SCALES_004 = "Etsi tahdeista:"
+DLG400_SCALES_005 = "asti"
+DLG400_SCALES_006 = "Hae!"
+ 
+**********************
+* v4.0 MENUS & HINTS *
+**********************
+ 
+MN400_000
+MN400_001 = "Ensimmäinen Raita"
+MN400_002 = "Viimeinen Raita"
+MN400_003 = "Poista Raita"
+MN400_004 = "Lisää Tahti"
+MN400_005 = "Leikkaa Tahti"
+MN400_006 = "Kopioi Tahdit"
+MN400_007 = "Liitä Tahdit"
+MN400_008 = "Tyhjennä Tahdit"
+MN400_009 = "Etumerkintä"
+MN400_010 = "Kaksoistahtiviiva"
+MN400_011 = "Kumoa"
+MN400_012 = "Toista"
+MN400_013 = "Nosta Puolisävelaskel"
+MN400_014 = "Laske Puolisävelaskel"
+MN400_015 = "Vasemman käden sormitus"
+MN400_016 = "Oikean käden sormitus"
+MN400_017 = "PickStroke Ylös"
+MN400_018 = "PickStroke alas"
+MN400_019 = "Painotettu Nuotti"
+MN400_020 = "Harmonia"
+MN400_021 = "Luonnollinen yläsävel"
+MN400_022 = "Keinotekoinen yläsävel"
+MN400_023 = "Yläsävel täppäämällä"
+MN400_024 = "Yläsävel iskulla"
+MN400_025 = "Puolittainen yläsävel"
+MN400_026 = "Venytys"
+MN400_027 = "Tremolo tahti"
+MN400_028 = "Liuku"
+MN400_029 = "Siirtoliuku"
+MN400_030 = "Legatoliuku"
+MN400_031 = "Liuku alhaalta"
+MN400_032 = "Liuku ylhäältä"
+MN400_033 = "Liuku alaspäin"
+MN400_034 = "Liuku ylöspäin"
+MN400_035 = "Leveä vibraatto"
+MN400_036 = "Trilli"
+MN400_037 = "Tremolonäppäily"
+MN400_038 = "Demppaus"
+MN400_039 = "Staccato"
+MN400_040 = "Digitaalinen Kitaraviritin"
+MN400_041 = "Asteikot"
+MN400_042 = "Demppauksen optiot"
+MN400_043 = "Normaali nuottikirjoitus"
+MN400_044 = "Otelauta"
+MN400_045 = "Koskettimisto"
+MN400_046 = "Menut && Valikot"
+MN400_047 = "Sovita"
+MN400_048 = "Nollaa valikkojen sijainti"
+MN400_049 = "Vanha GP3-hahmo"
+MN400_050 = "XP valikkotyyli"
+MN400_051 = "Guitar Pro 3.0 muoto"
+MN400_052 = "WAVE-tiedosto (Audio)"
+MN400_053 = "BMP-tiedosto (Image)"
+MN400_054 = "Menu" {name of the toolbar}
+MN400_055 = "Nuotti" {name of the toolbar}
+MN400_056 = "Otelauta" {name of the toolbar}
+MN400_057 = "Koskettimet" {name of the toolbar}
+MN400_058 = "Raidan Valitsin" {name of the toolbar}
+MN400_059 = "Status Bar" {name of the toolbar}
+MN400_060 = "Windowsin äänen säädöt"
+
+*********************
+* v4.0 INTRO WINDOW *
+*********************
+
+DLG400_INTRO_000
+DLG400_INTRO_001 = "Olet päivässä %s1  %s2 päivän tutustumisjaksosta."
+DLG400_INTRO_002 = "Tutustumisjakso on päättynyt. Harkitse rekisteröintiä."
+ 
+****************
+* v4.0 GENERAL *
+****************
+ 
+GENE400_000
+GENE400_001 = "In the demo version you cannot export into GP 3.0 format if the file has been modified."
+GENE400_002 = "You must open the file and directly use this export feature."
+GENE400_003 = "Guitar Pro 3.0 Tiedostot"
+GENE400_004 = "Guitar Pro ei sulkeutunut oikein viime istunnossa tai toinen istunto on käynnissä."
+GENE400_005 = "Haluatko elvyttää viimeisen varmuuskopion?"
+GENE400_006 = "Demo-versio ei salli vientiä BMP-muodossa."
+GENE400_007 = "Sulje Guitar Pro nyt ja käynnistä uudelleen nollataksesi työkalupalkkien keskinäisen sijainnin."
+GENE400_008 = "Voit nyt käyttää SOITA/SEIS-painiketta nauhoituksessa."
+GENE400_009 = "BMP-vientiä käyttääksesi tulee vaakavieritysmoodin olla käytössä."
+GENE400_010 = "Leikkaa/Kopioi/Liitä ominaisuudet on rajoitettu 24:jään ensimmäiseen tahtiin demo versiossa."
+GENE400_011 = "Leikepöytä on tyhjä."
+GENE400_012 = "Leikepöydän sisältä ei ole yhteensopiva raidalle."
+GENE400_013 = "Tiedosto [%s] on nauhoitettu."
+GENE400_014 = "Kansion [%s] luonti mahdotonta . Lataus keskeytetty."
+GENE400_015 = "Guitar Pro havaitsi kielletyn muutoksen [Code %s]. Lataus keskeytetty."
+GENE400_016 = "Fontti [%s] ei ole asennettu oikein. Suosittelemme Guitar Pro:n uudelleen asennusta."
+
+*********************************
+* v4.0 WAVE EXPORT SETUP WINDOW *
+*********************************
+
+DLG400_WAVEEXPSETUP_000
+DLG400_WAVEEXPSETUP_001 = "WAVE vienti asetukset"
+DLG400_WAVEEXPSETUP_002 = "WAVE Tulo"
+DLG400_WAVEEXPSETUP_003 = "Linja MIDI lähdön nauhoitukseen:"
+DLG400_WAVEEXPSETUP_004 = "Vihje: Jos WAVE-vienti ei sisällä ääntä, käytä toista linjaa."
+DLG400_WAVEEXPSETUP_005 = "Linja on valittava."
+
+****************
+* v4.1 MIDI IN *
+****************
+ 
+MI410_000
+MI410_001 = "MIDI tulon aktivointi"
+MI410_002 = "MIDI laitteen avaus ei onnistu.Tarkista määrittelyt in the Asetukset | MIDI Asetukset."
+MI410_003 = "MIDI tulo (Nuotti Nuotilta)"
+MI410_004 = "Laite"
+MI410_005 = "Herkkyys"
+MI410_006 = "ms  (Viive nuottien erotteluun)" { "ms" for milliseconds }
+MI410_007 = "Kielten erottelu käyttäen kanavien erottelua"
+MI410_008 = "Ensimmäinen kanava korkeimmalle kielelle"
+MI410_009 = "Ensimmäinen kanava matalimmalle kielelle"
+MI410_010 = "Ei kanava erottelua (Automaattinen sormitus)"
+MI410_011 = "Vihje: Käytä Valikosta [Ääni | MIDI InputActive] kaapataksesi MIDI-instrumentilla soitetut sävelet."
+
+*********************
+* v5.0 ABOUT WINDOW *
+*********************
+ 
+DLG500_ABOUT_000
+DLG500_ABOUT_001 = "%s ja %t ovat joko rekisteröityjä tavaramerkkejä tai  %s:n tavaramerkkejä Ranskassa ja/tai muissa maissa."
+DLG500_ABOUT_002 = "Kaikki instrumenttien, vahvistimien ja efektien tuotemerkit tai rekisteröidyt tavaramerkit ovat ovat oikeuksiensa omistajien omaisuutta, eivätkä ole mitenkään yhteenkuuluvia tai liittyneitä %s:kiin."
+DLG500_ABOUT_003 = "Guitar Pro Team"
+DLG500_ABOUT_004 = "Alkuperäinen Konsepti && Ohjelma"
+DLG500_ABOUT_005 = "RSE alkuperäinen konsepti && ääninäytteet"
+DLG500_ABOUT_006 = "Kehitys"
+DLG500_ABOUT_007 = "Suunnittelu"
+DLG500_ABOUT_008 = "Käännös [%s]"
+DLG500_ABOUT_009 = "Erikoiskiitokset"
+DLG500_ABOUT_010 = "Äänentoistotekniikat"
+
+*********************************
+* v5.0 DYNAMIC ASSISTANT WINDOW *
+*********************************
+ 
+DLG500_ASS_DY_000
+DLG500_ASS_DY_001 = "Valinta"
+DLG500_ASS_DY_002 = "Äänet:"
+DLG500_ASS_DY_003 = "Kaikki"
+DLG500_ASS_DY_004 = "Soolo"
+DLG500_ASS_DY_005 = "Basso"
+
+**********************************
+* v5.0 LET RING ASSISTANT WINDOW *
+**********************************
+ 
+DLG500_ASS_LR_000
+DLG500_ASS_LR_001 = "Valinta"
+DLG500_ASS_LR_002 = "Äänet:"
+DLG500_ASS_LR_003 = "Kaikki"
+DLG500_ASS_LR_004 = "Soolo"
+DLG500_ASS_LR_005 = "Basso"
+
+***********************************
+* v5.0 PALM MUTE ASSISTANT WINDOW *
+***********************************
+ 
+DLG500_ASS_PM_000
+DLG500_ASS_PM_001 = "Valinta"
+DLG500_ASS_PM_002 = "Äänet:"
+DLG500_ASS_PM_003 = "Kaikki"
+DLG500_ASS_PM_004 = "Soolo"
+DLG500_ASS_PM_005 = "Basso"
+
+*******************************
+* v5.0 MIX TABLE EVENT WINDOW *
+*******************************
+ 
+DLG500_MIX_000
+DLG500_MIX_001 = "Käytä MIDIä"
+DLG500_MIX_002 = "MIDI Bank:"
+DLG500_MIX_003 = "Käytä RSE:tä"
+DLG500_MIX_004 = "Ei Mitään" { used for Sound Bank list }
+DLG500_MIX_005 = "Ei Mitään" { used for Effects list }
+
+***************************
+* v5.0 INSTRUMENTS WINDOW *
+***************************
+ 
+DLG500_INSTR_000
+DLG500_INSTR_001 = "Käytä MIDIä"
+DLG500_INSTR_002 = "MIDI Bank:"
+DLG500_INSTR_003 = "Käytä RSE:tä"
+DLG500_INSTR_004 = "Kuuntele"
+DLG500_INSTR_005 = "Sound Bank"
+DLG500_INSTR_006 = "Ei Mitään" { used for Sound Bank list }
+DLG500_INSTR_007 = "Effekti"
+DLG500_INSTR_008 = "Ei Mitään" { used for Effects list }
+DLG500_INSTR_009 = "Automaattinen korostus lyönnillä" 
+DLG500_INSTR_010 = "Ei Mitään" { used for AutoAccentuation }
+DLG500_INSTR_011 = "Erittäin pehmeä"
+DLG500_INSTR_012 = "pehmeä"
+DLG500_INSTR_013 = "Keskinkertainen"
+DLG500_INSTR_014 = "Vahva"
+DLG500_INSTR_015 = "Erittäin vahva"
+DLG500_INSTR_016 = "Inhimillinen"
+DLG500_INSTR_017 = "Kaikki instrumenttien, vahvistimien ja efektien tuotemerkit tai rekisteröidyt tavaramerkit ovat ovat oikeuksiensa omistajien omaisuutta, eivätkä ole mitenkään yhteenkuuluvia tai liittyneitä %s:kiin."
+
+*****************************
+* v5.0 NOTE DURATION WINDOW *
+*****************************
+ 
+DLG500_NOTE_DURATION_000
+DLG500_NOTE_DURATION_001 = "Sävelen kesto"
+
+**************************
+* v5.0 GRACE NOTE WINDOW *
+**************************
+
+DLG500_GRACE_000
+DLG500_GRACE_001 = "Sijainti"
+DLG500_GRACE_002 = "Ennen Lyöntiä"
+DLG500_GRACE_003 = "Lyönnillä"
+
+************************
+* v5.0 HARMONIC WINDOW *
+************************
+
+DLG500_HARM_000
+DLG500_HARM_001 = "Keinotekoinen yläsävel"
+DLG500_HARM_002 = "Keinotekoisen yläsävelen tyyppi"
+DLG500_HARM_003 = "Keinotekoinen yläsävel"
+DLG500_HARM_004 = "Yläsävel täppäämällä"
+DLG500_HARM_005 = "Yläsävel iskulla"
+DLG500_HARM_006 = "Puolittainen yläsävel"
+DLG500_HARM_007 = "Vasen Käsi:"
+DLG500_HARM_008 = "Oikea Käsi:"
+
+**************************
+* v5.0 SCORE INFO WINDOW *
+**************************
+ 
+DLG500_SCORE_INFO_000
+DLG500_SCORE_INFO_001 = "Sanat"
+DLG500_SCORE_INFO_002 = "Sävellys"
+DLG500_SCORE_INFO_003 = "RSE Master Efekti (Sovella kaikille Raidoille)"
+DLG500_SCORE_INFO_004 = "Efekti:"
+
+*********************
+* v5.0 PRINT WINDOW *
+*********************
+
+DLG500_PRT_000
+DLG500_PRT_001 = "Sijainti"
+DLG500_PRT_002 = "Skaala:"
+DLG500_PRT_003 = "Mahduta sivulle"
+DLG500_PRT_004 = "Keskitä"
+
+********************************
+* v5.0 WAVE EXPORTATION WINDOW *
+********************************
+ 
+DLG500_EXPWAV_000
+DLG500_EXPWAV_001 = "WAVE-vienti"
+DLG500_EXPWAV_002 = "Nauhoitus ajuri"
+DLG500_EXPWAV_003 = "Laatu"
+DLG500_EXPWAV_004 = "Hz"
+DLG500_EXPWAV_005 = "bittiä"
+
+*******************************
+* v5.0 PAGE PROPERTIES WINDOW *
+*******************************
+ 
+DLG500_PAGE_PROP_000
+DLG500_PAGE_PROP_001 = "Sivun Asetukset"
+DLG500_PAGE_PROP_002 = "Päivitä Partituuri"
+DLG500_PAGE_PROP_003 = "Tallenna Oletukseksi"
+DLG500_PAGE_PROP_004 = "Käytä Oletuksia"
+DLG500_PAGE_PROP_005 = "Sivun Asetukset"
+DLG500_PAGE_PROP_006 = "Sivun Suunta"
+DLG500_PAGE_PROP_007 = "Pystysivu"
+DLG500_PAGE_PROP_008 = "Vaakasivu"
+DLG500_PAGE_PROP_009 = "Partituurin koko"
+DLG500_PAGE_PROP_010 = "Mittasuhde:"
+DLG500_PAGE_PROP_011 = "Marginaalit"
+DLG500_PAGE_PROP_012 = "Vasen"
+DLG500_PAGE_PROP_013 = "Oikea"
+DLG500_PAGE_PROP_014 = "Ylä"
+DLG500_PAGE_PROP_015 = "Ala"
+DLG500_PAGE_PROP_016 = "Otsikko && Alatunniste"
+DLG500_PAGE_PROP_017 = "Otsikko"
+DLG500_PAGE_PROP_018 = "Alaotsikko"
+DLG500_PAGE_PROP_019 = "Artisti"
+DLG500_PAGE_PROP_020 = "Albumi"
+DLG500_PAGE_PROP_021 = "Sanat"
+DLG500_PAGE_PROP_022 = "Sävellys"
+DLG500_PAGE_PROP_023 = "Sanat && Sävellys"
+DLG500_PAGE_PROP_024 = "Oikeudet"
+DLG500_PAGE_PROP_025 = "Sivun Numero"
+
+******************************
+* v5.0 TIME SIGNATURE WINDOW *
+******************************
+
+DLG500_TIMES_000
+DLG500_TIMES_001 = "Beam Eighth Notes By"
+DLG500_TIMES_002 = "Kaikkiaan"
+
+***********************
+* v5.0 SYNCOPE WINDOW *
+***********************
+
+DLG500_SYNCOPE_000
+DLG500_SYNCOPE_001 = "Triolin Tuntu"
+DLG500_SYNCOPE_002 = "Ei Triolin Tuntua"
+DLG500_SYNCOPE_003 = "Trioli 8:s"
+DLG500_SYNCOPE_004 = "Trioli 16:sta"
+DLG500_SYNCOPE_005 = "Loppuun Asti"
+
+**************************
+* v5.0 TRACK INFO WINDOW *
+**************************
+ 
+DLG500_TRACK_INFO_000
+DLG500_TRACK_INFO_001 = "Nuottikirjoitus"
+DLG500_TRACK_INFO_002 = "Normaali Nuottikirjoitus"
+DLG500_TRACK_INFO_003 = "Tabulatuuri"
+DLG500_TRACK_INFO_004 = "Tabulatuuri [fret = midi note]"
+DLG500_TRACK_INFO_005 = "Tyyli"
+DLG500_TRACK_INFO_006 = "Näytä viritys nuotistolla"
+DLG500_TRACK_INFO_007 = "Näytä rytmi tabulatuurissa"
+DLG500_TRACK_INFO_008 = "Pakota palkit vaakaan"
+DLG500_TRACK_INFO_009 = "Sointuluettelo partituurin yläosassa"
+DLG500_TRACK_INFO_010 = "Soinnut viivastolla"
+DLG500_TRACK_INFO_011 = "Soinnut viivaston alapuolella"
+DLG500_TRACK_INFO_012 = "Kanavat"
+DLG500_TRACK_INFO_013 = "Pakota Kanavat 11 -> 16"
+
+***************************
+* v5.0 PREFERENCES WINDOW *
+***************************
+ 
+DLG500_PREF_000
+DLG500_PREF_001 = "Käynnistyy"
+DLG500_PREF_002 = "Näytä Splashi"
+DLG500_PREF_003 = "Avaa viimeisin tiedosto automaattisesti"
+DLG500_PREF_004 = "Näytä"
+DLG500_PREF_005 = "Käännä moniraitanäyttöön"
+DLG500_PREF_006 = "Toisto"
+DLG500_PREF_007 = "Toisto editoitaessa"
+DLG500_PREF_008 = "Pakota MIDI-toisto editoitaessa"
+
+*********************
+* v5.0 ORDER WINDOW *
+*********************
+
+DLG500_REG_000
+DLG500_REG_001 = "Hanki ilmaisia päivityksiä 5.x versioon"
+DLG500_REG_002 = "Hanki erikoistarjous päivityksestä versioon 6"
+
+**********************************
+* v5.0 REGISTER YOUR COPY WINDOW *
+**********************************
+
+DLG500_REGC_000
+DLG500_REGC_001 = "Hanki ilmaisia päivityksiä 5.x versioon"
+DLG500_REGC_002 = "Hanki erikoistarjous päivityksestä versioon 6"
+
+************
+* v5.0 RSE *
+************
+
+RSE500_000
+RSE500_001 = "RSE Lataus"
+RSE500_002 = "Lataan %s"
+RSE500_003 = "RSE Virhe %s"
+RSE500_004 = "Ei oletusarvoja raidalle %s"
+RSE500_005 = "RSE CPU:"
+
+********************
+* v5.0 LOOP WINDOW *
+********************
+
+DLG500_LOOP_000
+DLG500_LOOP_001 = "Jatkuva toisto / Nopeusharjoitin"
+DLG500_LOOP_002 = "Yksinkertainen toisto"
+DLG500_LOOP_003 = "Nopeusharjoitin"
+
+***********************************
+* v5.0 TRANSPOSE ASSISTANT WINDOW *
+***********************************
+
+DLG500_ASS_TR_000
+DLG500_ASS_TR_001 = "Pidä Sormitus, jos mahdollista"
+
+**********************
+* v5.0 IMPORT WINDOW *
+**********************
+
+DLG500_IMPORT_000
+DLG500_IMPORT_001 = "%s Tuonti"
+DLG500_IMPORT_002 = "Tiedot"
+DLG500_IMPORT_003 = "Tiedosto:"
+DLG500_IMPORT_004 = "Tiedoston muoto:"
+DLG500_IMPORT_005 = "Partituurin Nimi:"
+DLG500_IMPORT_006 = "Partituurin Laatija:"
+DLG500_IMPORT_007 = "Versio:"
+DLG500_IMPORT_008 = "Progressio"
+DLG500_IMPORT_009 = "Tulos"
+
+**************************
+* v5.0 PTB IMPORT WINDOW *
+**************************
+
+DLG500_PTB_IMP_000
+DLG500_PTB_IMP_001 = "PowerTab tuonti"
+DLG500_PTB_IMP_002 = "Tuonti-moodi"
+DLG500_PTB_IMP_003 = "Koko partituuri"
+DLG500_PTB_IMP_004 = "Vain kitarat"
+DLG500_PTB_IMP_005 = "Vain bassot"
+DLG500_PTB_IMP_006 = "Optiot"
+DLG500_PTB_IMP_007 = "Pidä äänialojen rajat"
+DLG500_PTB_IMP_008 = "Tiedostoa [%s] ei löydy"
+DLG500_PTB_IMP_009 = "Tiedosto [%s] ei ole sallittu PowerTab-tiedosto"
+DLG500_PTB_IMP_010 = "Vain v1.7 tiedostot ovat tuettuja"
+DLG500_PTB_IMP_011 = "Kelvoton data"
+DLG500_PTB_IMP_012 = "Virhe korvattaessa elementtiä [%s] - Kelvoton Powertab-tiedosto"
+DLG500_PTB_IMP_013 = "Kelvoton data [ReleaseType]"
+DLG500_PTB_IMP_014 = "Ongelma datan jäsentämisessä. Tiedosto on todennäköisesti käyttökelvoton"
+DLG500_PTB_IMP_015 = "Ylätunnisteen jäsentäminen..."
+DLG500_PTB_IMP_016 = "Kitararaitojen jäsentäminen..."
+DLG500_PTB_IMP_017 = "Bassoraitojen jäsentäminen..."
+DLG500_PTB_IMP_018 = "Fonttien jäsentäminen..."
+DLG500_PTB_IMP_019 = "Jäsentäminen valmis"
+DLG500_PTB_IMP_020 = "Ylätunnisteen konvertointi..."
+DLG500_PTB_IMP_021 = "Kitararaitojen konvertointi..."
+DLG500_PTB_IMP_022 = "Bassoraitojen konvertointi..."
+DLG500_PTB_IMP_023 = "Tuonti valmis"
+DLG500_PTB_IMP_024 = "Tuonti keskeytetty"
+
+**************************
+* v5.0 TEF IMPORT WINDOW *
+**************************
+
+DLG500_TEF_IMP_000
+DLG500_TEF_IMP_001 = "Tiedosto [%s] ei ole TablEdit-tiedosto."
+DLG500_TEF_IMP_002 = "Tiedostoa [%s] ei voida avata."
+DLG500_TEF_IMP_003 = "Olemattoman soinnun haku"
+DLG500_TEF_IMP_004 = "Olemattoman tahdin haku"
+DLG500_TEF_IMP_005 = "Kielien määrä ei voi olla %s - Virheellinen TablEdit-tiedosto"
+DLG500_TEF_IMP_006 = "Huuliharpun raitaa ei Tuotu"
+DLG500_TEF_IMP_007 = "Haitarin raitaa ei Tuotu"
+DLG500_TEF_IMP_008 = "Synkoopin muutoksen muutos triolin tuntuun 8:s'"
+DLG500_TEF_IMP_009 = "Trioli virhe tahdissa %s raidalla %t"
+DLG500_TEF_IMP_010 = "Trioli virhe tahdissa %s toisessa äänessä raidalla %t"
+DLG500_TEF_IMP_011 = "Rytmillinen modifikaatio tahdissa %s raidalla %t (Kaksoispisteelisen nuotin simulointi)."
+DLG500_TEF_IMP_012 = "Rytmillinen modifikaatio tahdissa %s raidalla %t."
+DLG500_TEF_IMP_013 = "Ei Virheitä"
+
+**************************
+* v5.0 XML IMPORT WINDOW *
+**************************
+
+DLG500_XML_IMP_000
+DLG500_XML_IMP_001 = "Tuonti epäonnistui: pitää olla kappaleittain tai ajoittain."
+DLG500_XML_IMP_002 = "XML-tiedosto ei kelpaa."
+
+**************************
+* v5.0 PDF EXPORT WINDOW *
+**************************
+
+DLG500_PDF_EXP_000
+DLG500_PDF_EXP_001 = "PDF-tiedosto valmiiksi avattuna PDF-Katselimessa. Sulje tiedosto ennen PDF-Vientiä."
+
+**************************
+* v5.0 BMP EXPORT WINDOW *
+**************************
+
+DLG500_BMP_EXP_000
+DLG500_BMP_EXP_001 = "Tiedoston Kirjoittaminen mahdotonta. BMP vienti keskeytetty."
+DLG500_BMP_EXP_002 = "Muisti Loppui. BMP-Vienti Keskeytetty."
+
+*********************************
+* v5.0 SEARCH ON THE WEB WINDOW *
+*********************************
+
+DLG500_TAB_WEB_000
+DLG500_TAB_WEB_001 = "Ei saittia käytettävissä. Käytä eEnsin [Päivitä etsintäsaittien lista]-painiketta."
+
+***************************
+*  v5.0 NEW TUNING WINDOW *
+***************************
+
+DLG500_NEWTUNE_000
+DLG500_NEWTUNE_001 = "Partituurin tunnus:"
+DLG500_NEWTUNE_002 = "Oletus MIDI instrumentti:"
+
+****************************************
+* v5.0 CHECK DURATION ASSISTANT WINDOW *
+****************************************
+
+DLG500_ASS_CD_000
+DLG500_ASS_CD_001 = "Viallinen tahdin pituus tahdissa %s - raidalla %s - ääni %s."
+
+****************
+* v5.0 GENERAL *
+****************
+ 
+GENE500_000
+GENE500_001 = "Demo-versiossa et voi viedä GP4-muodossa, jos tiedostoa on muokattu."
+GENE500_002 = "Tiedost pitää avata ja käyttää tätä Vienti-ominaisuutta."
+GENE500_003 = "Guitar Pro 4 Tiedostot"
+GENE500_004 = "Bitmap tiedostot"
+GENE500_005 = "Wave tiedostot"
+GENE500_006 = "PDF tiedostot"
+GENE500_007 = "PowerTab tiedostot"
+GENE500_008 = "TablEdit tiedostot"
+GENE500_009 = "MusicXML tiedostot"
+
+**********************
+* v5.0 MENUS & HINTS *
+**********************
+
+MN500_000
+MN500_001 = "Guitar Pro 4 Muoto"
+MN500_002 = "Sivun Asetukset"
+MN500_003 = "Muokkaa"
+MN500_004 = "Valitse kaikki"
+MN500_005 = "Äänet"
+MN500_006 = "Muokkaa ääni 1 [Soolo]"
+MN500_007 = "Muokkaa ääni 2 [Basso]"
+MN500_008 = "Harmaa tehoton nuotti"
+MN500_009 = "Triolin tuntu"
+MN500_010 = "Soitto-ohjeet"
+MN500_011 = "Katkaise viivasto"
+MN500_012 = "Pakota viivaston katko"
+MN500_013 = "Estä viivaston katko"
+MN500_014 = "Nollaa tahdin järjestely"
+MN500_015 = "Instrumentti"
+MN500_016 = "Siirrä ylös"
+MN500_017 = "Siirrä alas"
+MN500_018 = "Kesto"
+MN500_019 = "Pisteellinen nuotti"
+MN500_020 = "Pakota kaksoishakasulje"
+MN500_021 = "Automaattiset palkit"
+MN500_022 = "Pakota palkki"
+MN500_023 = "Irrota palkki"
+MN500_024 = "Irrota toisiopalkki"
+MN500_025 = "Automaattinen suunta"
+MN500_026 = "Käännä suunta"
+MN500_027 = "Voimakkaasti painotettu nuotti"
+MN500_028 = "Sulje" { for WahWah }
+MN500_029 = "Avaa" { for WahWah }
+MN500_030 = "Näytä [Wah On]" { for WahWah => do not change term [Wah On]}
+MN500_031 = "Pois" { for WahWah }
+MN500_032 = "Jatkuva toisto / Nopeusharjoitin"
+MN500_033 = "Käytä RSE [Realistic Sound Engine]"
+MN500_034 = "Sivu"
+MN500_035 = "Pergamentti"
+MN500_036 = "Vaakasivu"
+MN500_037 = "Pystysivu"
+MN500_038 = "Piilota nuotisto"
+MN500_039 = "Piilota tabulatuuri"
+MN500_040 = "Olemus"
+MN500_041 = "Äänen kesto"
+MN500_042 = "Nuottikirjoitus" {name of the toolbar}
+MN500_043 = "Transponointi" {name of the toolbar}
+
+**************************
+* v5.0 REPEAT END WINDOW *
+**************************
+
+DLG500_REPE_000
+DLG500_REPE_001 = "Soita"
+DLG500_REPE_002 = "kertaa"
+
+******************
+* v5.0 ADDTIONAL *
+******************
+
+ADD500_000
+ADD500_001 = "Soita"
+ADD500_002 = "Kapo"
+ADD500_003 = "Guitar Pro Webissä"
+ADD500_004 = "Artisti:"
+
+*************
+* v5.0 DEMO *
+*************
+
+DEMO500_000
+DEMO500_001 = "Demo-versio ei salli tiedoston vientiä MusicXML-muodossa."
+DEMO500_002 = "Mikä on RSE?" { instrument window }
+DEMO500_003 = "Tutustumisjakso on päättynyt."
+DEMO500_004 = "Tallennnus on rajoitettu 24:jään tahtiin"
+DEMO500_005 = "[Demo Version] Koskien tulostamista ja vientiä"
+DEMO500_006 = "MusicXML-vienti estetty"
+DEMO500_007 = "RSE [Realistic Sound Engine] estetty"
+DEMO500_008 = "RSE [Realistic Sound Engine] mahdollistaa ainutlaatuisen toiston esitystavan reaaliajassa,ilman mitään eritystä äänikorttia tai lisämateriaalia."
+DEMO500_009 = "Se on saatavissa vain täyden Guitar Pro-version mukana."
+DEMO500_010 = "Näyte käyttäen vakio MIDI-toistoa"
+DEMO500_011 = "Näyte käyttäen RSE-toistoa"
+DEMO500_012 = "Klikkaa tästä" { clickable part of the sentence }
+DEMO500_013 = "kuunnellaksesi lisää RSE-näytteitä" { end of the sentence }
+
+**********************
+* v5.1 MENUS & HINTS *
+*********************
+
+MN510_000
+MN510_001 = "Vaihda etumerkki"
+MN510_002 = "Ääniasetukset (MIDI/RSE)"
+
+********************************
+* v5.1 WAVE EXPORTATION WINDOW *
+********************************
+ 
+DLG510_EXPWAV_000
+DLG510_EXPWAV_001 = "Tiedot"
+DLG510_EXPWAV_002 = "Laatu:"
+DLG510_EXPWAV_003 = "Apua:"
+DLG510_EXPWAV_004 = "- Varmista, että [Stereo Mix] linja on valittu"
+DLG510_EXPWAV_005 = "- Varmista, ettei taso ole liian matala"
+DLG510_EXPWAV_006 = "Klikkaa kuvaketta avataksesi Windowsin nauhoituksen editorin."
+
+*********************
+* v5.1 DEBUG WINDOW *
+*********************
+ 
+DLG510_DEBUG_000
+DLG510_DEBUG_001 = "Debuggaus"
+DLG510_DEBUG_002 = "Kirjaudu Guitar Pro-tukeen"
+DLG510_DEBUG_003 = "Sulje Guitar Pro"
+DLG510_DEBUG_004 = "Jatka Guitar Pro:n käyttöä"
+DLG510_DEBUG_005 = "Kohtalokas virhe"
+DLG510_DEBUG_006 = "Jos haluat yhteyden Guitar Pro-tukeen,"
+DLG510_DEBUG_007 = "valitse painike alapuolelta ja liitä"
+DLG510_DEBUG_008 = "tämä raportti viestiisi käyttäen [CTRL+V] painikkeita."
+DLG510_DEBUG_009 = "Voit myös liittää käyttämäsi GUITAR PRO tiedoston"
+DLG510_DEBUG_010 = "ja selvityksen viimeisestä toiminnosta."
+
+***************************
+* v5.1 INSTRUMENTS WINDOW *
+***************************
+ 
+DLG510_INSTR_000
+DLG510_INSTR_001 = "Aseta Oletusarvoksi"
+DLG510_INSTR_002 = "Ääni [%s] vaikuttuu oletuksena midi instrumenttiin [%t]. Vahvistus?"
+DLG510_INSTR_003 = "Automaattinen"
+DLG510_INSTR_004 = "Auto-Anna Soida"
+DLG510_INSTR_005 = "Auto-Brush"
+DLG510_INSTR_006 = "3-Nauhainen Taajuuskorjain"
+DLG510_INSTR_007 = "Matala" 
+DLG510_INSTR_008 = "Keski"
+DLG510_INSTR_009 = "Korkea" 
+DLG510_INSTR_010 = "ESI" { means "PRE-AMP" }
+
+**************************
+* v5.1 MIDI SETUP WINDOW *
+**************************
+
+DLG510_MIDISETUP_000
+DLG510_MIDISETUP_001 = "Ääniasetukset"
+DLG510_MIDISETUP_002 = "RSE Asetukset"
+DLG510_MIDISETUP_003 = "LÄhtö"
+DLG510_MIDISETUP_004 = "Ääni"
+DLG510_MIDISETUP_005 = "Äänikortti"
+DLG510_MIDISETUP_006 = "DSP/VST Puskuri"
+DLG510_MIDISETUP_007 = "Puskurin pituus (näytteessä)"
+DLG510_MIDISETUP_008 = "Puskureiden Määrä"
+DLG510_MIDISETUP_009 = "Muoto"
+DLG510_MIDISETUP_010 = "Taajuus"
+DLG510_MIDISETUP_011 = "Kanavat"
+DLG510_MIDISETUP_012 = "Erottelu"
+DLG510_MIDISETUP_013 = "Näyte-menetelmä"
+DLG510_MIDISETUP_014 = "Näennäisäänet"
+DLG510_MIDISETUP_015 = "Viive"
+DLG510_MIDISETUP_016 = "Oletusarvo"
+DLG510_MIDISETUP_017 = "Mono"
+DLG510_MIDISETUP_018 = "Stereo"
+DLG510_MIDISETUP_019 = "Ei Interpolointia"
+DLG510_MIDISETUP_020 = "Lineaarinen Interpolointi"
+DLG510_MIDISETUP_021 = "Neliö Interpolointi"
+DLG510_MIDISETUP_022 = "5-pisteinen käyrä-Interpolointi"
+
+**************************
+* v5.1 SCORE INFO WINDOW *
+**************************
+ 
+DLG510_SCORE_INFO_000
+DLG510_SCORE_INFO_001 = "Vasen"
+DLG510_SCORE_INFO_002 = "Spektri"
+DLG510_SCORE_INFO_003 = "Oikea"
+DLG510_SCORE_INFO_004 = "Päävoimakkuussäätö"
+DLG510_SCORE_INFO_005 = "Jälkikaiku"
+DLG510_SCORE_INFO_006 = "10-Nauhainen taajuuskorjain"
+DLG510_SCORE_INFO_007 = "ESI" { means "PRE-AMP" }
+DLG510_SCORE_INFO_008 = "- Ei taajuuskorjausta -"
+
+**************************
+* v5.1 TRACK INFO WINDOW *
+**************************
+ 
+DLG510_TRACK_INFO_000
+DLG510_TRACK_INFO_001 = "Laajenna rytmiikka tabulatuuriin"
+
+*********************************
+* v5.1 SEARCH ON THE WEB WINDOW *
+*********************************
+ 
+DLG510_SEARCHONWEB_000
+DLG510_SEARCHONWEB_001 = "Kappaleen nimellä"
+DLG510_SEARCHONWEB_002 = "Artistin nimellä"
+
+*********************
+* v5.1 TEMPO WINDOW *
+*********************
+ 
+DLG510_TEMPO_000
+DLG510_TEMPO_001 = "Piilota"
+
+*********************************************
+* v5.1 MAC MAIN TOOLBAR TEXTS UNDER BUTTONS *
+*********************************************
+
+MAC510_MAINTOOLBAR_000
+MAC510_MAINTOOLBAR_001 = "Uusi"
+MAC510_MAINTOOLBAR_002 = "Avaa"
+MAC510_MAINTOOLBAR_003 = "Tiedot"
+MAC510_MAINTOOLBAR_004 = "Sivuasetukset"
+MAC510_MAINTOOLBAR_005 = "Tulosta"
+MAC510_MAINTOOLBAR_006 = "Kumoa"
+MAC510_MAINTOOLBAR_007 = "Toista"
+MAC510_MAINTOOLBAR_008 = "Leikkaa"
+MAC510_MAINTOOLBAR_009 = "Kopioi"
+MAC510_MAINTOOLBAR_010 = "Liitä"
+MAC510_MAINTOOLBAR_011 = "Raidan Ominaisuudet"
+MAC510_MAINTOOLBAR_012 = "Instrumentti"
+MAC510_MAINTOOLBAR_013 = "Preferenssit"
+MAC510_MAINTOOLBAR_014 = "Soita"
+MAC510_MAINTOOLBAR_015 = "Pysäytä"
+MAC510_MAINTOOLBAR_016 = "Ensimmäinen tahti"
+MAC510_MAINTOOLBAR_017 = "Edellinen tahti"
+MAC510_MAINTOOLBAR_018 = "Seuraava tahti"
+MAC510_MAINTOOLBAR_019 = "Viimeinen tahti"
+
+*************************
+* v5.1 MAC ALERT PANELS *
+*************************
+
+MAC510_ALERTPANEL_000
+MAC510_ALERTPANEL_001 = "Haluatko tallentaa muutokset?"
+MAC510_ALERTPANEL_002 = "Tallentamattomat muutokset menetetään."
+MAC510_ALERTPANEL_003 = "Älä Talleta"
+MAC510_ALERTPANEL_004 = "Peruuta"
+MAC510_ALERTPANEL_005 = "Tallenna"
+MAC510_ALERTPANEL_006 = "Olemusta ei löydy"
+
+****************************
+* v5.1 MAC GUITAR PRO MENU *
+****************************
+
+MAC510_GUITARPROMENU_000
+MAC510_GUITARPROMENU_001 = "Tietoa Guitar Pro:sta"
+MAC510_GUITARPROMENU_002 = "Piilota Guitar Pro"
+MAC510_GUITARPROMENU_003 = "Piilota muut"
+MAC510_GUITARPROMENU_004 = "Näytä kaikki"
+MAC510_GUITARPROMENU_005 = "Lopeta Guitar Pro"
+
+**********************
+* v5.1 MAC FILE MENU *
+**********************
+
+MAC510_FILEMENU_000
+MAC510_FILEMENU_001 = "Avaa Viimeisin"
+MAC510_FILEMENU_002 = "Puhdista valikko"
+MAC510_FILEMENU_003 = "Sulje"
+MAC510_FILEMENU_004 = "Tulostin Asetukset..."
+
+***********************
+* v5.1 MAC SOUND MENU *
+***********************
+
+MAC510_SOUNDMENU_000
+MAC510_SOUNDMENU_001 = "RSE asetus..."
+MAC510_SOUNDMENU_002 = "Tempo = "
+
+************************
+* v5.1 MAC WINDOW MENU *
+************************
+
+MAC510_WINDOWMENU_000
+MAC510_WINDOWMENU_001 = "Ikkuna"
+MAC510_WINDOWMENU_002 = "Minimoi"
+MAC510_WINDOWMENU_003 = "Zoomaa"
+MAC510_WINDOWMENU_004 = "TYökalut-ikkuna"
+MAC510_WINDOWMENU_005 = "Soita"
+MAC510_WINDOWMENU_006 = "Raidat"
+MAC510_WINDOWMENU_007 = "Pöytälaatikko"
+MAC510_WINDOWMENU_008 = "Muokkaa työkaluvalikkoa..."
+MAC510_WINDOWMENU_009 = "Tuo kaikki edustalle"
+
+**********************
+* v5.1 MAC HELP MENU *
+**********************
+
+MAC510_HELPMENU_000
+MAC510_HELPMENU_001 = "Guitar Pro Apua"

@@ -1,0 +1,95 @@
+﻿<html>
+	
+<head>
+	<title>Recalc Layout</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("RecalcLayout");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Recalc Layout</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="OvertureMenus.html">Overture Menus</a> &rsaquo;&rsaquo; <a href="ScoreMenu.html">Score Menu</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="ScoreMenu.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="RespaceStaves.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="HideShowStaves.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<h6 class="rvps14"><span class="rvts0"><span class="rvts22">Save&gt;Recalc Layout</span></span></h6>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">When you choose this command, Overture uses existing measure widths to flow measures along systems and systems are flowed through pages.</span></p>
+<p class="rvps2"><span class="rvts6">Any page, system, or measure breaks are also used while flowing systems and measures. See </span><a class="rvts11" href="Breaks.html">Measures&gt;Breaks</a><span class="rvts6"> for more information.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Recalculating a layout causes some measure widths to expand and others to contract. This has the effect of changing the number of measures in many of the systems and even changing the number of systems and pages in a score. This greatly improves legibility since it eliminates the collision of note heads, but it can play havoc with a carefully tweaked score. For this reason, you should recalculate a score before you fine tune it.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Overture distributes measures along systems based on internal calculated widths. If you have </span><a class="rvts11" href="SpaceNotes.html">Auto&gt;Space Notes</a><span class="rvts6"> enabled, as you make edits to a measures, Overture automatically spaces notes within a measure. The notes spacing in determined by allotment tables that can be set in the </span><a class="rvts11" href="Notes1.html">Engraver&gt;Notes</a><span class="rvts6"> panel.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">To protect a measure from the Save&gt;Recalc Layout command, see </span><a class="rvts11" href="Lock.html">Locked Measures</a><span class="rvts6">.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Overture can automatically space notes using either </span><span class="rvts12">Options&gt;Auto Position, Measures&gt;Justify</span><span class="rvts6">, or </span><span class="rvts12">Score&gt;Recalc Layout</span><span class="rvts6">. All three of these commands affect note spacing differently. </span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

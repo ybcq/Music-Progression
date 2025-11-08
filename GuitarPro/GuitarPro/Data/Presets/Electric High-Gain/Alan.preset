@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<variation version="1.0">
+<description><name>Variation 0</name></description> 
+<slots>
+<slot index="0" effect="E03_OverdriveScreamer" bypass="0" >
+<parameters><parameter id="0" value="1"/>
+<parameter id="1" value="0"/>
+<parameter id="2" value="0.51"/>
+</parameters>
+</slot>
+<slot index="1" effect="A08_StackModern" bypass="0" >
+<parameters><parameter id="0" value="0"/>
+<parameter id="1" value="0.84"/>
+<parameter id="2" value="0.62"/>
+<parameter id="3" value="0.74"/>
+<parameter id="4" value="0.31"/>
+<parameter id="5" value="0.15"/>
+<parameter id="6" value="0.52"/>
+</parameters>
+</slot>
+<slot index="2" effect="E30_EqGEq" bypass="0" >
+<parameters><parameter id="0" value="0.583333"/>
+<parameter id="1" value="0.555556"/>
+<parameter id="2" value="0.638889"/>
+<parameter id="3" value="0.722222"/>
+<parameter id="4" value="0.638889"/>
+<parameter id="5" value="0.555556"/>
+<parameter id="6" value="0.5"/>
+<parameter id="7" value="0.5"/>
+</parameters>
+</slot>
+<slot index="3" effect="M03_StudioReverbRoomStudioA" bypass="0" >
+<parameters><parameter id="0" value="1"/>
+<parameter id="1" value="0.23"/>
+<parameter id="2" value="0.25"/>
+<parameter id="3" value="0.4"/>
+<parameter id="4" value="0.3"/>
+</parameters>
+</slot>
+</slots>
+</variation>

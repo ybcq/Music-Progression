@@ -1,0 +1,121 @@
+﻿<html>
+	
+<head>
+	<title>Set Measure Numbers</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("SetMeasureNumbers");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Set Measure Numbers</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="OvertureMenus.html">Overture Menus</a> &rsaquo;&rsaquo; <a href="MeasuresMenu.html">Measures Menu</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="MeasuresMenu.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="SetCodasSegnosetc.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="AddOssiaStaffAbove.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<h6 class="rvps14"><span class="rvts0"><span class="rvts22">Measures&gt;Set Measure Numbers</span></span></h6>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Choose this command to specify a measure numbering and display format beginning with the active measure in the current staff and continuing to the next numbering change. The active measure is the one that contains the insertion point. When you choose the </span><span class="rvts12">Set Measure Numbers</span><span class="rvts6"> command, Overture produces the Set Measure Numbers dialog box.</span></p>
+<p class="rvps2"><span class="rvts6">You can move the Set Measure Numbers dialog box around the desktop by dragging its title bar.</span></p>
+<h6 class="rvps14"><span class="rvts0"><span class="rvts22">About the Set Measure Numbers Dialog Box</span></span></h6>
+<p class="rvps2"><span class="rvts6">There are numerous elements in the Set Measure Numbers dialog box. We describe these in the following sections.</span></p>
+<h6 class="rvps14"><span class="rvts0"><span class="rvts22">Starting Measure Numerical</span></span></h6>
+<p class="rvps2"><span class="rvts6">Use the Starting Measure numerical to enter the measure number of the active measure. This is useful if, for example, the current Overture score is a continuation of a different score and does not start with measure 1.</span></p>
+<p class="rvps2"><span class="rvts6">Overture does not include pickup measures in the measure numbering sequence. For more information about pickup measures, see </span><a class="rvts11" href="SetTimeSignature.html">The Is Pickup Option</a><span class="rvts6">.</span></p>
+<h6 class="rvps14"><span class="rvts0"><span class="rvts22">Position Setting</span></span></h6>
+<p class="rvps2"><span class="rvts6">Use the Position Setting to position measure numbers. Overture places all measure numbers in the same relative position in the score (later, you can drag individual measure numbers to change their positions). Use the two gray lines for reference. Drag the small number 1 to show Overture where you want it to place all measure numbers.</span></p>
+<p class="rvps2"><span class="rvts6">Overture allows enclosures around measure numbers. Select the </span><span class="rvts12">Enclosure</span><span class="rvts6"> option in the Set Measure Number dialog box to enable the enclosure option.</span></p>
+<h6 class="rvps14"><span class="rvts0"><span class="rvts22">Interval Options</span></span></h6>
+<p class="rvps2"><span class="rvts6">Use this set of radio buttons to tell Overture how frequently you want measure numbers to appear throughout your score.</span></p>
+<p class="rvps2"><span class="rvts6">If you click the </span><span class="rvts12">Page</span><span class="rvts6"> button, Overture places measure numbers over the first measure at the top of the first system on each page.</span></p>
+<p class="rvps2"><span class="rvts6">If you click the </span><span class="rvts12">System</span><span class="rvts6"> button, Overture places measure numbers over the first measure at the top of each system.</span></p>
+<p class="rvps2"><span class="rvts6">If you click the</span><span class="rvts12"> n Measures</span><span class="rvts6"> button, Overture places measure numbers at the interval you specify. Use the corresponding numerical to specify the desired interval between measure numbers.</span></p>
+<p class="rvps2"><span class="rvts6">If you click the </span><span class="rvts12">None</span><span class="rvts6"> button, Overture puts no measure numbers into a score. Select this option to stop displaying measure numbers (or to hide them for a while).</span></p>
+<h6 class="rvps14"><span class="rvts0"><span class="rvts22">Font Button</span></span></h6>
+<p class="rvps2"><span class="rvts6">Click this button to open the Font dialog box. Use the dialog box to select the font that Overture uses to display measure numbers.</span></p>
+<p class="rvps2"><span class="rvts6">There are numerous elements in the Font dialog box:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; margin-left: 48px; list-style-position: outside; list-style-type: disc;">
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Font Pop-Up Menu</span><span class="rvts6">. Press and hold the mouse here to select a font from the pop-up menu.</span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Font Size Pop-Up Menu</span><span class="rvts6">. Press and hold the mouse here to select a font size from the pop-up menu.</span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Font Size Field</span><span class="rvts6">. Use this numerical to enter a font size not included in the Font Size Pop-Up Menu.</span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Font Style Options</span><span class="rvts6">. Check those style options you want applied to the selected font.</span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Font Preview Area</span><span class="rvts6">..View your font selections in this area. </span></li>
+</ul>
+<h6 class="rvps14"><span class="rvts0"><span class="rvts22">Using the Set Measure Numbers Command</span></span></h6>
+<p class="rvps2"><span class="rvts6">To create a measure numbering format:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ol style="text-indent: 0px; margin-left: 48px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Using the Arrow Cursor, click a measure to make it the active measure. </span></span></li>
+<li value="2" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Choose </span></span><span class="rvts0"><span class="rvts12">Measures&gt;Set Measure Numbers</span></span><span class="rvts0"><span class="rvts6">.</span></span><br/><span class="rvts0"><span class="rvts6">Overture opens the Set Measure Numbers dialog box. </span></span></li>
+<li value="3" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Specify a measure numbering format, then click the </span></span><span class="rvts0"><span class="rvts12">OK</span></span><span class="rvts0"><span class="rvts6"> button. </span></span></li>
+</ol>
+<p class="rvps2"><span class="rvts6">Overture numbers measures as requested, beginning with the active measure and continuing until it sees a measure requesting a different numbering format.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

@@ -1,0 +1,529 @@
+
+<VSTNameDocument name="E-mu Classic Keys">
+<Version>1</Version>
+<Author>Sonic Scores</Author>
+<Device type="MIDI"/>
+<Instruments>
+  <Section name="Bank 0" bankHigh="4" bankLow="0" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="org:Panner1" prgChg="1"/>
+    <Instrument name="org:Rocky B3" prgChg="2"/>
+    <Instrument name="org:PrcGrt" prgChg="3"/>
+    <Instrument name="org:LoMidPrc" prgChg="4"/>
+    <Instrument name="org:LoHiPrc" prgChg="5"/>
+    <Instrument name="org:HiPerc" prgChg="6"/>
+    <Instrument name="org:StopsOut" prgChg="7"/>
+    <Instrument name="org:Lo Dark" prgChg="8"/>
+    <Instrument name="org:Airgan" prgChg="9"/>
+    <Instrument name="org:Sticky" prgChg="10"/>
+    <Instrument name="org:Bell Atk" prgChg="11"/>
+    <Instrument name="org:Rococo" prgChg="12"/>
+    <Instrument name="org:GrandM12" prgChg="13"/>
+    <Instrument name="org:Funeral" prgChg="14"/>
+    <Instrument name="org:Dynorg 1" prgChg="15"/>
+    <Instrument name="org:with Vibes" prgChg="16"/>
+    <Instrument name="epo:DXthang" prgChg="17"/>
+    <Instrument name="epo:Dynod" prgChg="18"/>
+    <Instrument name="epo:3 Dogs" prgChg="19"/>
+    <Instrument name="epo:BasicEl" prgChg="20"/>
+    <Instrument name="epo:Wultzr" prgChg="21"/>
+    <Instrument name="epo:WurlBel" prgChg="22"/>
+    <Instrument name="epo:Clav Whl" prgChg="23"/>
+    <Instrument name="epo:DblHonr" prgChg="24"/>
+    <Instrument name="epo:DoubleCP" prgChg="25"/>
+    <Instrument name="epo:Bright70" prgChg="26"/>
+    <Instrument name="epo:TakPiano" prgChg="27"/>
+    <Instrument name="epo:WideCP70" prgChg="28"/>
+    <Instrument name="epo:TronFade" prgChg="29"/>
+    <Instrument name="epo:Vox Fade" prgChg="30"/>
+    <Instrument name="epo:DX-70" prgChg="31"/>
+    <Instrument name="epo:CP-B3-70" prgChg="32"/>
+    <Instrument name="str:P5ala99" prgChg="33"/>
+    <Instrument name="str:Solina" prgChg="34"/>
+    <Instrument name="str:SuperMel" prgChg="35"/>
+    <Instrument name="str:ThikMoog" prgChg="36"/>
+    <Instrument name="str:Moog Too" prgChg="37"/>
+    <Instrument name="str:OBXStrng" prgChg="38"/>
+    <Instrument name="str:ARPcomb1" prgChg="39"/>
+    <Instrument name="str:ARPcomb2" prgChg="40"/>
+    <Instrument name="air:WindKeys" prgChg="41"/>
+    <Instrument name="air:GasDyno" prgChg="42"/>
+    <Instrument name="air:PanninOz" prgChg="43"/>
+    <Instrument name="air:PanPiper" prgChg="44"/>
+    <Instrument name="air:Siku" prgChg="45"/>
+    <Instrument name="air:ARPreedz" prgChg="46"/>
+    <Instrument name="air:M12Quack" prgChg="47"/>
+    <Instrument name="air:DeepHeat" prgChg="48"/>
+    <Instrument name="buz:m12 Pad" prgChg="49"/>
+    <Instrument name="buz:BigBob55" prgChg="50"/>
+    <Instrument name="buz:ARP Pad" prgChg="51"/>
+    <Instrument name="buz:MoogPad3" prgChg="52"/>
+    <Instrument name="buz:MoogPad5" prgChg="53"/>
+    <Instrument name="buz:Rezo SEM" prgChg="54"/>
+    <Instrument name="buz:EMUMoog" prgChg="55"/>
+    <Instrument name="buz:Wheel Op" prgChg="56"/>
+    <Instrument name="rez:MoogPad1" prgChg="57"/>
+    <Instrument name="rez:MoogPad4" prgChg="58"/>
+    <Instrument name="rez:MoogPad6" prgChg="59"/>
+    <Instrument name="rez:OB Pad" prgChg="60"/>
+    <Instrument name="rez:P5Syncer" prgChg="61"/>
+    <Instrument name="rez:MoogPad2" prgChg="62"/>
+    <Instrument name="rez:ManyMoog" prgChg="63"/>
+    <Instrument name="rez:Cartoon" prgChg="64"/>
+    <Instrument name="bel:StikBell" prgChg="65"/>
+    <Instrument name="bel:4OctBell" prgChg="66"/>
+    <Instrument name="bel:Gamalan" prgChg="67"/>
+    <Instrument name="bel:Metlimba" prgChg="68"/>
+    <Instrument name="bel:PanBells" prgChg="69"/>
+    <Instrument name="bel:Tubular" prgChg="70"/>
+    <Instrument name="bel:Lead Xtal" prgChg="71"/>
+    <Instrument name="bel:WndChime" prgChg="72"/>
+    <Instrument name="wrm:Harmonia" prgChg="73"/>
+    <Instrument name="wrm:SineWave" prgChg="74"/>
+    <Instrument name="wrm:FlutWave" prgChg="75"/>
+    <Instrument name="wrm:Bendolin" prgChg="76"/>
+    <Instrument name="wrm:Beautifl" prgChg="77"/>
+    <Instrument name="wrm:Bend 4-5" prgChg="78"/>
+    <Instrument name="wrm:StrngGld" prgChg="79"/>
+    <Instrument name="wrm:WineGlas" prgChg="80"/>
+    <Instrument name="bas:Punchy" prgChg="81"/>
+    <Instrument name="bas:Hunted" prgChg="82"/>
+    <Instrument name="bas:Moog5th" prgChg="83"/>
+    <Instrument name="bas:SyncBtm" prgChg="84"/>
+    <Instrument name="bas:TwoMoogs" prgChg="85"/>
+    <Instrument name="bas:B3 Pedal" prgChg="86"/>
+    <Instrument name="bas:PercPedl" prgChg="87"/>
+    <Instrument name="bas:UduSynth" prgChg="88"/>
+    <Instrument name="led:MoogSqrs" prgChg="89"/>
+    <Instrument name="led:MoogSaws" prgChg="90"/>
+    <Instrument name="led:MoogRect" prgChg="91"/>
+    <Instrument name="led:OB Saws" prgChg="92"/>
+    <Instrument name="led:ARPpulse" prgChg="93"/>
+    <Instrument name="led:M12 Sync" prgChg="94"/>
+    <Instrument name="led:Pro5Sync" prgChg="95"/>
+    <Instrument name="led:Sweepy" prgChg="96"/>
+    <Instrument name="trn:M F Vox" prgChg="97"/>
+    <Instrument name="trn:Vln FVox" prgChg="98"/>
+    <Instrument name="trn:Vln MVox" prgChg="99"/>
+    <Instrument name="trn:Vln Flut" prgChg="100"/>
+    <Instrument name="trn:FVx Flut" prgChg="101"/>
+    <Instrument name="trn:Vx/Flut" prgChg="102"/>
+    <Instrument name="trn:SwoopVox" prgChg="103"/>
+    <Instrument name="trn:HuluGurl" prgChg="104"/>
+    <Instrument name="brs:Orson" prgChg="105"/>
+    <Instrument name="brs:Memories" prgChg="106"/>
+    <Instrument name="brs:MemMg5th" prgChg="107"/>
+    <Instrument name="brs:BigSect" prgChg="108"/>
+    <Instrument name="brs:Section" prgChg="109"/>
+    <Instrument name="brs:MiniWarm" prgChg="110"/>
+    <Instrument name="brs:BrassyMg" prgChg="111"/>
+    <Instrument name="brs:Taurs5th" prgChg="112"/>
+    <Instrument name="sfx:Psycotic" prgChg="113"/>
+    <Instrument name="sfx:Who Me" prgChg="114"/>
+    <Instrument name="sfx:Ahh Ahh" prgChg="115"/>
+    <Instrument name="sfx:Crazy" prgChg="116"/>
+    <Instrument name="sfx:Triffics" prgChg="117"/>
+    <Instrument name="sfx:Outer" prgChg="118"/>
+    <Instrument name="sfx:Limits" prgChg="119"/>
+    <Instrument name="sfx:Huuuuge" prgChg="120"/>
+    <Instrument name="plk:Kotolith" prgChg="121"/>
+    <Instrument name="plk:Hawaiian" prgChg="122"/>
+    <Instrument name="plk:SurfBird" prgChg="123"/>
+    <Instrument name="plk:Twangly" prgChg="124"/>
+    <Instrument name="plk:BassandGtr" prgChg="125"/>
+    <Instrument name="plk:JazzBass" prgChg="126"/>
+    <Instrument name="plk:FunkBass" prgChg="127"/>
+    <Instrument name="plk:Bright" prgChg="128"/>
+  </Section>
+  <Section name="Bank 1" bankHigh="4" bankLow="1" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="org:Panner2" prgChg="1"/>
+    <Instrument name="org:Solo 1" prgChg="2"/>
+    <Instrument name="org:Solo 2" prgChg="3"/>
+    <Instrument name="org:Solo 3" prgChg="4"/>
+    <Instrument name="org:Solo 4" prgChg="5"/>
+    <Instrument name="org:Solo 5" prgChg="6"/>
+    <Instrument name="org:Solo 6" prgChg="7"/>
+    <Instrument name="org:Solo 7" prgChg="8"/>
+    <Instrument name="org:AirPower" prgChg="9"/>
+    <Instrument name="org:GameShow" prgChg="10"/>
+    <Instrument name="org:Cathedrl" prgChg="11"/>
+    <Instrument name="org:Liteness" prgChg="12"/>
+    <Instrument name="org:Morgan" prgChg="13"/>
+    <Instrument name="org:RockPls" prgChg="14"/>
+    <Instrument name="org:Dynorg2" prgChg="15"/>
+    <Instrument name="org:Clav Atk" prgChg="16"/>
+    <Instrument name="epo:Suites" prgChg="17"/>
+    <Instrument name="epo:DfynoRhd" prgChg="18"/>
+    <Instrument name="epo:Hyper D" prgChg="19"/>
+    <Instrument name="epo:Mark I" prgChg="20"/>
+    <Instrument name="epo:HevyDyno" prgChg="21"/>
+    <Instrument name="epo:DynoDlay" prgChg="22"/>
+    <Instrument name="epo:TufWurli" prgChg="23"/>
+    <Instrument name="epo:WurlBs1" prgChg="24"/>
+    <Instrument name="epo:WurlBs2" prgChg="25"/>
+    <Instrument name="epo:WurliPan" prgChg="26"/>
+    <Instrument name="epo:ClavPanr" prgChg="27"/>
+    <Instrument name="epo:BuzzClav" prgChg="28"/>
+    <Instrument name="epo:SyncClav" prgChg="29"/>
+    <Instrument name="epo:CP/M12" prgChg="30"/>
+    <Instrument name="epo:CP/MemMg" prgChg="31"/>
+    <Instrument name="epo:Eko CP70" prgChg="32"/>
+    <Instrument name="str:LikeNife" prgChg="33"/>
+    <Instrument name="str:BobandToms" prgChg="34"/>
+    <Instrument name="str:M12 5ths" prgChg="35"/>
+    <Instrument name="str:OBcanyon" prgChg="36"/>
+    <Instrument name="str:GreatBig" prgChg="37"/>
+    <Instrument name="str:RotorTrn" prgChg="38"/>
+    <Instrument name="str:RotorARP" prgChg="39"/>
+    <Instrument name="str:RotorM12" prgChg="40"/>
+    <Instrument name="air:Omatic" prgChg="41"/>
+    <Instrument name="air:PanProV" prgChg="42"/>
+    <Instrument name="air:PanGtrz" prgChg="43"/>
+    <Instrument name="air:Subteran" prgChg="44"/>
+    <Instrument name="air:Escaping" prgChg="45"/>
+    <Instrument name="air:Flutgong" prgChg="46"/>
+    <Instrument name="air:Creepy" prgChg="47"/>
+    <Instrument name="air:Hu-Hu-Hu" prgChg="48"/>
+    <Instrument name="buz:ARPinet" prgChg="49"/>
+    <Instrument name="buz:Brazzzzz" prgChg="50"/>
+    <Instrument name="buz:DuckRock" prgChg="51"/>
+    <Instrument name="buz:ClavLike" prgChg="52"/>
+    <Instrument name="buz:Britely" prgChg="53"/>
+    <Instrument name="buz:Zophone" prgChg="54"/>
+    <Instrument name="buz:Buzync" prgChg="55"/>
+    <Instrument name="buz:Qwaack" prgChg="56"/>
+    <Instrument name="rez:HotPile" prgChg="57"/>
+    <Instrument name="rez:Scary" prgChg="58"/>
+    <Instrument name="rez:ARPbssn" prgChg="59"/>
+    <Instrument name="rez:Harpspad" prgChg="60"/>
+    <Instrument name="rez:Fuzzywuz" prgChg="61"/>
+    <Instrument name="rez:FuzGrowl" prgChg="62"/>
+    <Instrument name="rez:GrowlWav" prgChg="63"/>
+    <Instrument name="rez:Rev Moog" prgChg="64"/>
+    <Instrument name="bel:Vibalong" prgChg="65"/>
+    <Instrument name="bel:Maletbel" prgChg="66"/>
+    <Instrument name="bel:OohBells" prgChg="67"/>
+    <Instrument name="bel:Magic" prgChg="68"/>
+    <Instrument name="bel:Popsikl" prgChg="69"/>
+    <Instrument name="bel:Disobel" prgChg="70"/>
+    <Instrument name="bel:DigiMoog" prgChg="71"/>
+    <Instrument name="bel:Ironbel" prgChg="72"/>
+    <Instrument name="wrm:Accordia" prgChg="73"/>
+    <Instrument name="wrm:RoadTone" prgChg="74"/>
+    <Instrument name="wrm:Clavsine" prgChg="75"/>
+    <Instrument name="wrm:DarkPipe" prgChg="76"/>
+    <Instrument name="wrm:PercPad" prgChg="77"/>
+    <Instrument name="wrm:Generatr" prgChg="78"/>
+    <Instrument name="wrm:Swirly" prgChg="79"/>
+    <Instrument name="wrm:PipeBndr" prgChg="80"/>
+    <Instrument name="bas:ARP Rez2" prgChg="81"/>
+    <Instrument name="bas:2 Micros" prgChg="82"/>
+    <Instrument name="bas:EkoMini" prgChg="83"/>
+    <Instrument name="bas:Solidar" prgChg="84"/>
+    <Instrument name="bas:ClavSyn" prgChg="85"/>
+    <Instrument name="bas:Watery" prgChg="86"/>
+    <Instrument name="bas:B3 Bass" prgChg="87"/>
+    <Instrument name="bas:M12 Bass" prgChg="88"/>
+    <Instrument name="led:Interval" prgChg="89"/>
+    <Instrument name="led:Jumper" prgChg="90"/>
+    <Instrument name="led:55 Moogs" prgChg="91"/>
+    <Instrument name="led:2 OBies" prgChg="92"/>
+    <Instrument name="led:2 Moogz" prgChg="93"/>
+    <Instrument name="led:1SawMoog" prgChg="94"/>
+    <Instrument name="led:RezoMoog" prgChg="95"/>
+    <Instrument name="led:Moonman" prgChg="96"/>
+    <Instrument name="trn:FemSwell" prgChg="97"/>
+    <Instrument name="trn:SwellGyz" prgChg="98"/>
+    <Instrument name="trn:SwlStrng" prgChg="99"/>
+    <Instrument name="trn:5thStrng" prgChg="100"/>
+    <Instrument name="trn:StrngandVio" prgChg="101"/>
+    <Instrument name="trn:VoxandVio" prgChg="102"/>
+    <Instrument name="trn:DualBend" prgChg="103"/>
+    <Instrument name="trn:Hulalins" prgChg="104"/>
+    <Instrument name="brs:SoloAlto" prgChg="105"/>
+    <Instrument name="brs:SoloTenr" prgChg="106"/>
+    <Instrument name="brs:SoloBari" prgChg="107"/>
+    <Instrument name="brs:TwoSaxes" prgChg="108"/>
+    <Instrument name="brs:Reeds" prgChg="109"/>
+    <Instrument name="brs:MoogTpt" prgChg="110"/>
+    <Instrument name="brs:BrassPan" prgChg="111"/>
+    <Instrument name="brs:Sforzan" prgChg="112"/>
+    <Instrument name="sfx:TheOcean" prgChg="113"/>
+    <Instrument name="sfx:Nostromo" prgChg="114"/>
+    <Instrument name="sfx:Desent" prgChg="115"/>
+    <Instrument name="sfx:BronzAge" prgChg="116"/>
+    <Instrument name="sfx:Lifetime" prgChg="117"/>
+    <Instrument name="sfx:DripDrum" prgChg="118"/>
+    <Instrument name="sfx:VanDgraf" prgChg="119"/>
+    <Instrument name="sfx:Scanline" prgChg="120"/>
+    <Instrument name="plk:AsiaEns" prgChg="121"/>
+    <Instrument name="plk:SlideHrm" prgChg="122"/>
+    <Instrument name="plk:LesliGtr" prgChg="123"/>
+    <Instrument name="plk:Spageti" prgChg="124"/>
+    <Instrument name="plk:BassChr1" prgChg="125"/>
+    <Instrument name="plk:BassChr2" prgChg="126"/>
+    <Instrument name="plk:Bas/Harm" prgChg="127"/>
+    <Instrument name="plk:BasicBas" prgChg="128"/>
+  </Section>
+  <Section name="Bank 2" bankHigh="4" bankLow="2" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="org:B3 Fast" prgChg="1"/>
+    <Instrument name="org:LoandMid" prgChg="2"/>
+    <Instrument name="org:LoandHi" prgChg="3"/>
+    <Instrument name="org:MostHi" prgChg="4"/>
+    <Instrument name="org:MidandHi" prgChg="5"/>
+    <Instrument name="org:LoPerc" prgChg="6"/>
+    <Instrument name="org:FulPerc" prgChg="7"/>
+    <Instrument name="org:DrkPerc" prgChg="8"/>
+    <Instrument name="org:Airy B3" prgChg="9"/>
+    <Instrument name="org:FulBars" prgChg="10"/>
+    <Instrument name="org:Topper" prgChg="11"/>
+    <Instrument name="org:Bonstone" prgChg="12"/>
+    <Instrument name="org:Chappel" prgChg="13"/>
+    <Instrument name="org:SimpleLo" prgChg="14"/>
+    <Instrument name="org:SimpleHi" prgChg="15"/>
+    <Instrument name="org:SimplFull" prgChg="16"/>
+    <Instrument name="epo:Mk1 Chrs" prgChg="17"/>
+    <Instrument name="epo:LA Dyno" prgChg="18"/>
+    <Instrument name="epo:DynoWhl" prgChg="19"/>
+    <Instrument name="epo:SpltRoad" prgChg="20"/>
+    <Instrument name="epo:RuffDyno" prgChg="21"/>
+    <Instrument name="epo:Suitcase" prgChg="22"/>
+    <Instrument name="epo:HypDyno" prgChg="23"/>
+    <Instrument name="epo:DoorBas" prgChg="24"/>
+    <Instrument name="epo:Stereo" prgChg="25"/>
+    <Instrument name="epo:Xpresive" prgChg="26"/>
+    <Instrument name="epo:GrandOrg" prgChg="27"/>
+    <Instrument name="epo:Pianofla" prgChg="28"/>
+    <Instrument name="epo:CP/M12" prgChg="29"/>
+    <Instrument name="epo:CP/ARP" prgChg="30"/>
+    <Instrument name="epo:Out West" prgChg="31"/>
+    <Instrument name="epo:Gospel" prgChg="32"/>
+    <Instrument name="str:For Film" prgChg="33"/>
+    <Instrument name="str:Early80s" prgChg="34"/>
+    <Instrument name="str:Matrix12" prgChg="35"/>
+    <Instrument name="str:MeloMoog" prgChg="36"/>
+    <Instrument name="str:ARPtron" prgChg="37"/>
+    <Instrument name="str:NoyzTron" prgChg="38"/>
+    <Instrument name="str:Tron 1" prgChg="39"/>
+    <Instrument name="str:Tron 2" prgChg="40"/>
+    <Instrument name="air:Enchantd" prgChg="41"/>
+    <Instrument name="air:Asiatic" prgChg="42"/>
+    <Instrument name="air:Delicate" prgChg="43"/>
+    <Instrument name="air:D50ish 1" prgChg="44"/>
+    <Instrument name="air:WindPowr" prgChg="45"/>
+    <Instrument name="air:Digital" prgChg="46"/>
+    <Instrument name="air:Kaliopad" prgChg="47"/>
+    <Instrument name="air:Jacinto" prgChg="48"/>
+    <Instrument name="buz:ARPwave1" prgChg="49"/>
+    <Instrument name="buz:OBXwave1" prgChg="50"/>
+    <Instrument name="buz:EMUwave1" prgChg="51"/>
+    <Instrument name="buz:MoogPuls" prgChg="52"/>
+    <Instrument name="buz:OBXwave2" prgChg="53"/>
+    <Instrument name="buz:P5Gitarz" prgChg="54"/>
+    <Instrument name="buz:EMUHarps" prgChg="55"/>
+    <Instrument name="buz:P5 Harps" prgChg="56"/>
+    <Instrument name="rez:ARP Poly" prgChg="57"/>
+    <Instrument name="rez:MoogFilt" prgChg="58"/>
+    <Instrument name="rez:KtchSynk" prgChg="59"/>
+    <Instrument name="rez:ARPenatr" prgChg="60"/>
+    <Instrument name="rez:Moogles" prgChg="61"/>
+    <Instrument name="rez:Al and Bob" prgChg="62"/>
+    <Instrument name="rez:OBXJump" prgChg="63"/>
+    <Instrument name="rez:Growl" prgChg="64"/>
+    <Instrument name="bel:Patina" prgChg="65"/>
+    <Instrument name="bel:Mystery" prgChg="66"/>
+    <Instrument name="bel:Ringer" prgChg="67"/>
+    <Instrument name="bel:Virafon" prgChg="68"/>
+    <Instrument name="bel:Carillon" prgChg="69"/>
+    <Instrument name="bel:Xtal 1" prgChg="70"/>
+    <Instrument name="bel:MusicBox" prgChg="71"/>
+    <Instrument name="bel:ToyPiano" prgChg="72"/>
+    <Instrument name="wrm:Sub Dude" prgChg="73"/>
+    <Instrument name="wrm:Flautish" prgChg="74"/>
+    <Instrument name="wrm:BrassPad" prgChg="75"/>
+    <Instrument name="wrm:Pluto" prgChg="76"/>
+    <Instrument name="wrm:Carousel" prgChg="77"/>
+    <Instrument name="wrm:Matrix" prgChg="78"/>
+    <Instrument name="wrm:AirMen" prgChg="79"/>
+    <Instrument name="wrm:Infinity" prgChg="80"/>
+    <Instrument name="bas:MinMog1" prgChg="81"/>
+    <Instrument name="bas:MinMog2" prgChg="82"/>
+    <Instrument name="bas:ARPrezo" prgChg="83"/>
+    <Instrument name="bas:MicroMg" prgChg="84"/>
+    <Instrument name="bas:MinMog3" prgChg="85"/>
+    <Instrument name="bas:MinMog4" prgChg="86"/>
+    <Instrument name="bas:MinMog5" prgChg="87"/>
+    <Instrument name="bas:Rez Body" prgChg="88"/>
+    <Instrument name="led:Emu Saws" prgChg="89"/>
+    <Instrument name="led:Emu Sqrs" prgChg="90"/>
+    <Instrument name="led:Emu Tri" prgChg="91"/>
+    <Instrument name="led:EchoMoog" prgChg="92"/>
+    <Instrument name="led:MicroMem" prgChg="93"/>
+    <Instrument name="led:P5 Sync" prgChg="94"/>
+    <Instrument name="led:Dual SEM" prgChg="95"/>
+    <Instrument name="led:Winter" prgChg="96"/>
+    <Instrument name="trn:Flute" prgChg="97"/>
+    <Instrument name="trn:FlutMoog" prgChg="98"/>
+    <Instrument name="trn:VerbFlut" prgChg="99"/>
+    <Instrument name="trn:FlutePan" prgChg="100"/>
+    <Instrument name="trn:FemChoir" prgChg="101"/>
+    <Instrument name="trn:MenChoir" prgChg="102"/>
+    <Instrument name="trn:MixChoir" prgChg="103"/>
+    <Instrument name="trn:Noise2Men" prgChg="104"/>
+    <Instrument name="brs:MemMoog" prgChg="105"/>
+    <Instrument name="brs:FatBrass" prgChg="106"/>
+    <Instrument name="brs:Regality" prgChg="107"/>
+    <Instrument name="brs:3 Piece" prgChg="108"/>
+    <Instrument name="brs:With Sax" prgChg="109"/>
+    <Instrument name="brs:SoloMood" prgChg="110"/>
+    <Instrument name="brs:Scoop" prgChg="111"/>
+    <Instrument name="brs:TronBrs" prgChg="112"/>
+    <Instrument name="sfx:Peckerz" prgChg="113"/>
+    <Instrument name="sfx:Vynlator" prgChg="114"/>
+    <Instrument name="sfx:Dicer" prgChg="115"/>
+    <Instrument name="sfx:Landing" prgChg="116"/>
+    <Instrument name="sfx:Yes Sir" prgChg="117"/>
+    <Instrument name="sfx:Microbs" prgChg="118"/>
+    <Instrument name="sfx:DigiSlic" prgChg="119"/>
+    <Instrument name="sfx:MagiFlut" prgChg="120"/>
+    <Instrument name="plk:TheGitar" prgChg="121"/>
+    <Instrument name="plk:Ricki 12" prgChg="122"/>
+    <Instrument name="plk:Hrmonics" prgChg="123"/>
+    <Instrument name="plk:AcGuitar" prgChg="124"/>
+    <Instrument name="plk:PickGass" prgChg="125"/>
+    <Instrument name="plk:Fretless" prgChg="126"/>
+    <Instrument name="plk:WithTop" prgChg="127"/>
+    <Instrument name="plk:Fingerz" prgChg="128"/>
+  </Section>
+  <Section name="Bank 3" bankHigh="4" bankLow="3" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="org:HmndGrit" prgChg="1"/>
+    <Instrument name="org:ChrchLdy" prgChg="2"/>
+    <Instrument name="org:KeyClick" prgChg="3"/>
+    <Instrument name="org:AirSatz" prgChg="4"/>
+    <Instrument name="org:Cussive" prgChg="5"/>
+    <Instrument name="org:Chopper" prgChg="6"/>
+    <Instrument name="org:EchoHall" prgChg="7"/>
+    <Instrument name="org:Meddle" prgChg="8"/>
+    <Instrument name="org:Vox Cont" prgChg="9"/>
+    <Instrument name="org:Farfisa" prgChg="10"/>
+    <Instrument name="org:Voxfisa" prgChg="11"/>
+    <Instrument name="org:Jaguar 1" prgChg="12"/>
+    <Instrument name="org:Jag Sub5" prgChg="13"/>
+    <Instrument name="org:Jag Sub8" prgChg="14"/>
+    <Instrument name="org:FarfClik" prgChg="15"/>
+    <Instrument name="org:FarfPerc" prgChg="16"/>
+    <Instrument name="epo:DryWurli" prgChg="17"/>
+    <Instrument name="epo:Black Jak" prgChg="18"/>
+    <Instrument name="epo:WurliChr" prgChg="19"/>
+    <Instrument name="epo:Clavinet" prgChg="20"/>
+    <Instrument name="epo:DblCav" prgChg="21"/>
+    <Instrument name="epo:Sweetbel" prgChg="22"/>
+    <Instrument name="epo:Faux DX" prgChg="23"/>
+    <Instrument name="epo:Zircon" prgChg="24"/>
+    <Instrument name="epo:Pianet" prgChg="25"/>
+    <Instrument name="epo:CP Wheel" prgChg="26"/>
+    <Instrument name="epo:MoogStr" prgChg="27"/>
+    <Instrument name="epo:CPChorus" prgChg="28"/>
+    <Instrument name="epo:CP/Tron" prgChg="29"/>
+    <Instrument name="epo:PlusDXep" prgChg="30"/>
+    <Instrument name="epo:SlapEcho" prgChg="31"/>
+    <Instrument name="epo:Mono Pan" prgChg="32"/>
+    <Instrument name="str:SmalHall" prgChg="33"/>
+    <Instrument name="str:ThickSyn" prgChg="34"/>
+    <Instrument name="str:ARPStrng" prgChg="35"/>
+    <Instrument name="str:M1Strng" prgChg="36"/>
+    <Instrument name="str:LargHall" prgChg="37"/>
+    <Instrument name="str:Tron/M12" prgChg="38"/>
+    <Instrument name="str:StopTron" prgChg="39"/>
+    <Instrument name="str:Trn+Brx" prgChg="40"/>
+    <Instrument name="air:AngelVox" prgChg="41"/>
+    <Instrument name="air:Fairlite" prgChg="42"/>
+    <Instrument name="air:BeloVox" prgChg="43"/>
+    <Instrument name="air:MoogPipe" prgChg="44"/>
+    <Instrument name="air:Breath" prgChg="45"/>
+    <Instrument name="air:OzonLayr" prgChg="46"/>
+    <Instrument name="air:P5 Echo" prgChg="47"/>
+    <Instrument name="air:D5ish 2" prgChg="48"/>
+    <Instrument name="buz:BizzARP" prgChg="49"/>
+    <Instrument name="buz:Tamboras" prgChg="50"/>
+    <Instrument name="buz:Air Gtrs" prgChg="51"/>
+    <Instrument name="buz:ARP 2000" prgChg="52"/>
+    <Instrument name="buz:ARPreedz" prgChg="53"/>
+    <Instrument name="buz:OB SEM3" prgChg="54"/>
+    <Instrument name="buz:Elecroad" prgChg="55"/>
+    <Instrument name="buz:ARPwave2" prgChg="56"/>
+    <Instrument name="rez:DualSync" prgChg="57"/>
+    <Instrument name="rez:Moog 55" prgChg="58"/>
+    <Instrument name="rez:EchoSync" prgChg="59"/>
+    <Instrument name="rez:Sitarz" prgChg="60"/>
+    <Instrument name="rez:Reztyne" prgChg="61"/>
+    <Instrument name="rez:AbleCmp" prgChg="62"/>
+    <Instrument name="rez:Rippoff" prgChg="63"/>
+    <Instrument name="rez:DublM12" prgChg="64"/>
+    <Instrument name="bel:BelPiper" prgChg="65"/>
+    <Instrument name="bel:ToyPno 2" prgChg="66"/>
+    <Instrument name="bel:DxAngels" prgChg="67"/>
+    <Instrument name="bel:ViboMoog" prgChg="68"/>
+    <Instrument name="bel:Xtal 2" prgChg="69"/>
+    <Instrument name="bel:PerKavr" prgChg="70"/>
+    <Instrument name="bel:Xylosyn" prgChg="71"/>
+    <Instrument name="bel:Dreamy" prgChg="72"/>
+    <Instrument name="wrm:Monk Vox" prgChg="73"/>
+    <Instrument name="wrm:Moogoid" prgChg="74"/>
+    <Instrument name="wrm:Ancients" prgChg="75"/>
+    <Instrument name="wrm:Pan Comp" prgChg="76"/>
+    <Instrument name="wrm:Submerge" prgChg="77"/>
+    <Instrument name="wrm:Tangerin" prgChg="78"/>
+    <Instrument name="wrm:Alaska" prgChg="79"/>
+    <Instrument name="wrm:Steam" prgChg="80"/>
+    <Instrument name="bas:LowMoog" prgChg="81"/>
+    <Instrument name="bas:Garggle" prgChg="82"/>
+    <Instrument name="bas:MoogRip" prgChg="83"/>
+    <Instrument name="bas:WetMoog" prgChg="84"/>
+    <Instrument name="bas:MoogPerc" prgChg="85"/>
+    <Instrument name="bas:MoogRez" prgChg="86"/>
+    <Instrument name="bas:DeepBas9" prgChg="87"/>
+    <Instrument name="bas:Taurus I" prgChg="88"/>
+    <Instrument name="drm:JimerWhl" prgChg="89"/>
+    <Instrument name="drm:BoomKick" prgChg="90"/>
+    <Instrument name="drm:Lo Toms" prgChg="91"/>
+    <Instrument name="drm:SnareTom" prgChg="92"/>
+    <Instrument name="drm:ElCosBel" prgChg="93"/>
+    <Instrument name="drm:El Snare" prgChg="94"/>
+    <Instrument name="drm:El Stick" prgChg="95"/>
+    <Instrument name="drm:BasicKit" prgChg="96"/>
+    <Instrument name="lnk:1 4Split" prgChg="97"/>
+    <Instrument name="lnk:2 4Split" prgChg="98"/>
+    <Instrument name="lnk:3 4Split" prgChg="99"/>
+    <Instrument name="lnk:4 4Split" prgChg="100"/>
+    <Instrument name="lnk:5 4Split" prgChg="101"/>
+    <Instrument name="lnk:FullPan" prgChg="102"/>
+    <Instrument name="lnk:EpoBoost" prgChg="103"/>
+    <Instrument name="lnk:Organ 1" prgChg="104"/>
+    <Instrument name="lnk:Organ 2" prgChg="105"/>
+    <Instrument name="lnk:Organ 3" prgChg="106"/>
+    <Instrument name="lnk:Organ 4" prgChg="107"/>
+    <Instrument name="lnk:Organ 5" prgChg="108"/>
+    <Instrument name="lnk:Organ 6" prgChg="109"/>
+    <Instrument name="lnk:Organ 7" prgChg="110"/>
+    <Instrument name="lnk:Organ 8" prgChg="111"/>
+    <Instrument name="lnk:Organ 9" prgChg="112"/>
+    <Instrument name="lnk:Organ 10" prgChg="113"/>
+    <Instrument name="lnk:Organ 11" prgChg="114"/>
+    <Instrument name="lnk:Organ 12" prgChg="115"/>
+    <Instrument name="lnk:Booster1" prgChg="116"/>
+    <Instrument name="lnk:Booster2" prgChg="117"/>
+    <Instrument name="lnk:Booster3" prgChg="118"/>
+    <Instrument name="lnk:DXBoost1" prgChg="119"/>
+    <Instrument name="lnk:DXBoost2" prgChg="120"/>
+    <Instrument name="lnk:Organ 13" prgChg="121"/>
+    <Instrument name="lnk:Organ 14" prgChg="122"/>
+    <Instrument name="lnk:Organ 15" prgChg="123"/>
+    <Instrument name="lnk:Sfrz 2" prgChg="124"/>
+    <Instrument name="lnk:0-11" prgChg="125"/>
+    <Instrument name="lnk:Clavlink" prgChg="126"/>
+    <Instrument name="lnk:MeatBotm" prgChg="127"/>
+    <Instrument name="- default -" prgChg="128"/>
+  </Section>
+</Instruments>
+</VSTNameDocument>
+

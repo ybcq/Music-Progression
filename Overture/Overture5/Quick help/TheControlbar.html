@@ -1,0 +1,130 @@
+﻿<html>
+	
+<head>
+	<title>The Control bar</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("TheControlbar");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">The Control bar</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="GettingStarted.html">Getting Started</a> &rsaquo;&rsaquo; <a href="MainScoreWindow.html">Main Score Window</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="MainScoreWindow.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="MainScoreWindow.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="InstrumentLibraryPanel.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<p class="rvps2"><span class="rvts6">The Control bar contains buttons to open views, transport buttons for playback, a time display to show current location, and several global settings.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><img width="807" height="32" alt="" style="padding : 1px;" src="lib/Control Bar.png"></p>
+<h4 class="rvps8"><span class="rvts0"><span class="rvts18">Left side of Control bar</span></span></h4>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li style="margin-left: 0px" class="rvps11"><span class="rvts12">Library button - </span><span class="rvts6">Opens and closes the Library panel.</span></li>
+<li style="margin-left: 0px" class="rvps11"><span class="rvts12">Tools Button - </span><span class="rvts6">Opens and closes the Tools panel.</span></li>
+<li style="margin-left: 0px" class="rvps11"><span class="rvts12">Score View Button - </span><span class="rvts6">Opens or closes the main score view.</span></li>
+<li style="margin-left: 0px" class="rvps11"><span class="rvts12">Data View Button - </span><span class="rvts6">Opens or closes the Data Views</span></li>
+<li style="margin-left: 0px" class="rvps11"><span class="rvts12">Mixer View Button - </span><span class="rvts6">Opens or closes the Mixer view.</span></li>
+<li style="margin-left: 0px" class="rvps11"><span class="rvts12">Selection Button</span><span class="rvts6"> - Changes to selection mode.</span></li>
+<li style="margin-left: 0px" class="rvps11"><span class="rvts12">Pencil Button</span><span class="rvts6"> - Changes to insert mode.</span></li>
+<li style="margin-left: 0px" class="rvps11"><span class="rvts12">Eraser Button</span><span class="rvts6"> - Changes to erase mode.</span></li>
+</ul>
+<h4 class="rvps8"><span class="rvts0"><span class="rvts18">Middle left of Control bar</span></span></h4>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li style="margin-left: 0px" class="rvps6"><span class="rvts12">Rewind Button</span><span class="rvts6"> - Moves the current location to the beginning of score.</span></li>
+<li style="margin-left: 0px" class="rvps6"><span class="rvts12">Play from Beginning Button</span><span class="rvts6"> - Starts playback at beginning of score.</span></li>
+<li style="margin-left: 0px" class="rvps6"><span class="rvts12">Play Button</span><span class="rvts6"> - Starts playback at current position.</span></li>
+<li style="margin-left: 0px" class="rvps6"><span class="rvts12">Record Button</span><span class="rvts6"> - Start recording data on the current track at current position.</span></li>
+</ul>
+<h4 class="rvps8"><span class="rvts0"><span class="rvts18">Time Display</span></span></h4>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts6">Displays the current location in the score.</span></li>
+<li class="rvps2"><span class="rvts6">Right click to set display options or go to a bar or page.</span></li>
+</ul>
+<h4 class="rvps8"><span class="rvts0"><span class="rvts18">Middle right of control bar</span></span></h4>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li style="margin-left: 0px" class="rvps6"><span class="rvts12">Metronome Button</span><span class="rvts6"> - Enables metronome sound when playing or recording.</span></li>
+<li style="margin-left: 0px" class="rvps6"><span class="rvts12">Loop Button</span><span class="rvts6"> - Enable and set loop playback or ctrl[cmd] click to enable and set Replay position.</span></li>
+<li style="margin-left: 0px" class="rvps6"><span class="rvts12">Quantize Button</span><span class="rvts6"> - Set value to be used when transcribing notes during record on using Transcribe menu command.</span></li>
+<li style="margin-left: 0px" class="rvps6"><span class="rvts12">Show Transpose Score Button</span><span class="rvts6"> - Displays all tracks in Concert key or the track's transposed key.</span></li>
+</ul>
+<h4 class="rvps8"><span class="rvts0"><span class="rvts18">Right side of Control bar</span></span></h4>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li style="margin-left: 0px" class="rvps6"><span class="rvts12">Score/Part Toggle Button</span><span class="rvts6"> - Toggles between the main score and active part.</span></li>
+<li style="margin-left: 0px" class="rvps6"><span class="rvts12">Active Part Button</span><span class="rvts6"> - Chooses the active part to be displayed and edited.</span></li>
+<li style="margin-left: 0px" class="rvps6"><span class="rvts12">Linear View Button</span><span class="rvts6"> - Toggles between normal score view and linear view.</span></li>
+<li style="margin-left: 0px" class="rvps6"><span class="rvts12">View Menu button</span><span class="rvts6"> - Used to choose how score is displayed in window.</span></li>
+<li style="margin-left: 0px" class="rvps6"><span class="rvts12">Score Layout Button</span><span class="rvts6"> - Opens and closes the Score layout panel.</span></li>
+<li style="margin-left: 0px" class="rvps6"><span class="rvts12">Browser Button</span><span class="rvts6"> - Opens and closes the Browser panel.</span></li>
+<li style="margin-left: 0px" class="rvps6"><span class="rvts12">Inspector Button</span><span class="rvts6"> - Opens and closes the track inspector panel</span></li>
+</ul>
+<p class="rvps6"><span class="rvts6"><br/></span></p>
+<p class="rvps2" style="page-break-before: always;"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

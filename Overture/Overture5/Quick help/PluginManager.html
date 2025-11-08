@@ -1,0 +1,109 @@
+﻿<html>
+	
+<head>
+	<title>Plugin Manager</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("PluginManager");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Plugin Manager</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="OvertureMenus.html">Overture Menus</a> &rsaquo;&rsaquo; <a href="AudioMIDI.html">Audio/MIDI</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="AudioMIDI.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="MIDISettings.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="ExporttoFile.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<h6 class="rvps14"><span class="rvts0"><span class="rvts22">Audio/MIDI&gt;Plugin Manager</span></span></h6>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Choose this command to enable and disable VST/AU plugins used in Overture.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><img width="808" height="424" alt="" style="padding : 1px;" src="lib/NewItem47.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">When you choose the Plugin Manager Settings command, an </span><span class="rvts12">Plugin Manager </span><span class="rvts6">dialog box appears. </span></p>
+<p class="rvps2"><span class="rvts6">There are several elements in the MIDI Settings dialog box. These are described, below:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; margin-left: 48px; list-style-position: outside; list-style-type: disc;">
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Plugin List Tab -</span><span class="rvts6"> Displays a list of all plugins being used by Overture.</span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">VST 2.x Plugin Paths</span><span class="rvts6"> - Use this tab to set the VST 2 plugin paths to search.</span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">VST 3.x Plugin Paths</span><span class="rvts6"> -Use this tab to set the VST 3 plugin paths to search.</span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Blacklisted</span><span class="rvts6"> - Displays a list of plugins that Overture determined not be a plugin or to function improperly.</span></li>
+</ul>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Use the buttons to load and enable and disable plugins.</span></p>
+<p class="rvps2"><span class="rvts6">To select or deselect a plugin click any where in the row on the plugin.</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<ul style="text-indent: 0px; margin-left: 48px; list-style-position: outside; list-style-type: disc;">
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Scan VST 2 Plugins</span><span class="rvts6"> - Tells Overture to scan the VST2 paths for plugins.</span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Scan VST 2 Plugins</span><span class="rvts6"> - Tells Overture to scan the VST2 paths for plugins.</span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Remove Selected</span><span class="rvts6"> - Tells Overture to disable all selected plugins.</span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Clear List</span><span class="rvts6"> - Tells Overture to disable all plugins in list.</span></li>
+</ul>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Click the </span><span class="rvts12">Done</span><span class="rvts6"> button to exit the dialog.</span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

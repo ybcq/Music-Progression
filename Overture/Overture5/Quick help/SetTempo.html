@@ -1,0 +1,152 @@
+﻿<html>
+	
+<head>
+	<title>Set Tempo</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("SetTempo");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Set Tempo</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="OvertureMenus.html">Overture Menus</a> &rsaquo;&rsaquo; <a href="MeasuresMenu.html">Measures Menu</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="MeasuresMenu.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="SetTimeSignature.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="SetCodasSegnosetc.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<h6 class="rvps14"><span class="rvts0"><span class="rvts22">Measures&gt;Set Tempo</span></span></h6>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Choose this command to specify a tempo for the active measure and all measures up to the next tempo change. The active measure is the one that contains the insertion point. When you choose </span><span class="rvts12">Measures&gt;Set Tempo</span><span class="rvts6">, Overture opens the Set Tempo dialog box.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">You can also open the Set Tempo dialog box by double-clicking on a tempo marking.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">You can move the Set Tempo dialog box around the desktop by dragging its title bar.</span></p>
+<h6 class="rvps14"><span class="rvts0"><span class="rvts22">About the Set Tempo Dialog Box</span></span></h6>
+<p class="rvps2"><span class="rvts6">Use the Set Tempo dialog box to define</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; margin-left: 48px; list-style-position: outside; list-style-type: disc;">
+<li style="margin-left: 0px" class="rvps4"><span class="rvts6">the number of beats per minute for your new tempo.</span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts6">the note value of the beat.</span></li>
+</ul>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">You can also use the dialog box to apply the tempo to MIDI playback and to show the tempo in your score, either as a metronome value or as a text description.</span></p>
+<p class="rvps2"><span class="rvts6">There are numerous elements in the Set Tempo dialog box. These are described in the following sections.</span></p>
+<h6 class="rvps14"><span class="rvts0"><span class="rvts22">Playback Options</span></span></h6>
+<p class="rvps2"><span class="rvts6">Use the Playback Options portion of the Set Tempo dialog box to define a tempo.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Use the </span><span class="rvts12">Beats Per Minute</span><span class="rvts6"> numerical to enter the number of beats you want in a minute.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Click one of the </span><span class="rvts12">Beat Value Select</span><span class="rvts6"> buttons to define the value of a beat. For example, 100 quarter-note beats per minute is twice the tempo of 100 eighth-note beats per minute.</span></p>
+<h6 class="rvps14"><span class="rvts0"><span class="rvts22">Show Options</span></span></h6>
+<p class="rvps2"><span class="rvts6">Use the Show Options portion of the Set Tempo dialog box to determine if you want Overture to display the tempo and, if so, how you want it displayed.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Check the </span><span class="rvts12">Show Metronome</span><span class="rvts6"> option if you want Overture to display the tempo in your score.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Check the </span><span class="rvts12">Parenthesis</span><span class="rvts6"> option if you checked </span><span class="rvts12">Metronome</span><span class="rvts6"> and you want Overture to display the metronome marking in parentheses.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Check the numerical radio button if you checked </span><span class="rvts12">Metronome</span><span class="rvts6"> and you want Overture to display the tempo as an actual number of beats per minute.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Check the note options radio button if you checked </span><span class="rvts12">Metronome</span><span class="rvts6"> and you want to change the time signature but keep the pulse constant and represent it by a different note duration. For example, if </span></p>
+<p class="rvps2"><span class="rvts6">the meter changes from 2/4 to 6/8, you can represent the change as quarter note=dotted quarter.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Check the </span><span class="rvts12">Show Text</span><span class="rvts6"> option if you checked </span><span class="rvts12">Show</span><span class="rvts6"> and you want Overture to display the tempo as user-specified text.</span></p>
+<p class="rvps2"><span class="rvts6">If you selected the </span><span class="rvts12">Show Text</span><span class="rvts6"> option, use the </span><span class="rvts12">Tempo Text Field</span><span class="rvts6"> to enter the text you want displayed in your score.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">The following figure illustrates the difference between the </span><span class="rvts12">Show</span><span class="rvts6"> </span><span class="rvts12">Metronome</span><span class="rvts6"> and </span><span class="rvts12">Show Text</span><span class="rvts6"> options.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">You can show metronome and text values simultaneously. This is particularly convenient if you want to show tempo markings made up of both text and metronome values. For example, assume you configure the Set Tempo dialog box like this.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">You can edit either type of tempo marking independently of the other. In the figure below, the metronome marking was dragged into the space left for it in the Text area.</span></p>
+<h6 class="rvps14"><span class="rvts0"><span class="rvts22">Using the Set Tempo Command</span></span></h6>
+<p class="rvps2"><span class="rvts6">To set a tempo change into a Overture score:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ol style="text-indent: 0px; margin-left: 48px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Using the Arrow Cursor, click within a measure to make it the active measure. </span></span></li>
+<li value="2" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Choose </span></span><span class="rvts0"><span class="rvts12">Measures&gt;Set Tempo</span></span><span class="rvts0"><span class="rvts6">.</span></span><br/><span class="rvts0"><span class="rvts6">Overture opens the Set Tempo dialog box. </span></span></li>
+<li value="3" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Enter a tempo and select viewing options, then click the </span></span><span class="rvts0"><span class="rvts12">OK</span></span><span class="rvts0"><span class="rvts6"> button.</span></span><br/><span class="rvts0"><span class="rvts6">Overture applies the tempo to the active measure and all remaining measures up to the next tempo change. </span></span></li>
+</ol>
+<h6 class="rvps14"><span class="rvts0"><span class="rvts22">Editing Tempo</span></span></h6>
+<p class="rvps2"><span class="rvts6">To reposition any tempo mark in the Score View:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ol style="text-indent: 0px; margin-left: 48px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Move the Arrow Cursor over the tempo mark you wish to move.</span></span><br/><span class="rvts0"><span class="rvts6">The cursor changes to a Drag Cursor. </span></span></li>
+<li value="2" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Drag the tempo mark to the desired position.</span></span><br/><span class="rvts0"><span class="rvts6">Moving tempo marks only affects where the tempo is displayed, not the actual tempo of the music. </span></span></li>
+</ol>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">To copy a tempo mark in the Score View:</span></p>
+<ol style="text-indent: 0px; margin-left: 48px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Move the Arrow Cursor over the tempo mark you wish to move.</span></span><br/><span class="rvts0"><span class="rvts6">The cursor changes to a Drag Cursor. </span></span></li>
+<li value="2" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Ctrl[</span></span><span class="rvts0"><span class="rvts13">Cmd</span></span><span class="rvts0"><span class="rvts6">]-drag to move a copy of the tempo mark to a new place.</span></span><br/><span class="rvts0"><span class="rvts6">Shift-Alt[</span></span><span class="rvts0"><span class="rvts13">Option</span></span><span class="rvts0"><span class="rvts6">]-drag to copy a tempo mark and constrain movement to the horizontal or vertical direction first dragged. </span></span></li>
+</ol>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">To open the Set Tempo dialog box and change an existing tempo:</span></p>
+<ol style="text-indent: 0px; margin-left: 48px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Click in the desired measure and choose </span></span><span class="rvts0"><span class="rvts12">Measures&gt;Set Tempo</span></span><span class="rvts0"><span class="rvts6">.</span></span><br/><span class="rvts0"><span class="rvts6">Alternatively, if the tempo appears in the score, you can double-click the tempo mark to open the Set Tempo dialog box. </span></span></li>
+</ol>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

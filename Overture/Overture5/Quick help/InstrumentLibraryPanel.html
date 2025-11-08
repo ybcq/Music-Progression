@@ -1,0 +1,171 @@
+﻿<html>
+	
+<head>
+	<title>Instrument Library Panel</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("InstrumentLibraryPanel");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Instrument Library Panel</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="GettingStarted.html">Getting Started</a> &rsaquo;&rsaquo; <a href="MainScoreWindow.html">Main Score Window</a> &rsaquo;&rsaquo; <a href="TheControlbar.html">The Control bar</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="TheControlbar.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="TheControlbar.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="ScoreToolsPanel.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<p class="rvps2"><img alt="" style="vertical-align: middle; padding : 1px;" src="lib/NewItem72.png"><span class="rvts6"> </span><span class="rvts12">Library Panel</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">If the Library Panel is not showing click on the </span><span class="rvts12">Library</span><span class="rvts6"> </span><span class="rvts12">Panel</span><span class="rvts6"> button at top left of Control Bar or type "Shift-Y" to open the panel.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">The Library panel is used to enter new tracks and change existing track's instruments. When you choose a device a list of all known instruments for the device is listed below.</span></p>
+<p class="rvps2"><span class="rvts6">The instruments contain information that Overture uses for displaying the track and how to playback it's symbols.</span></p>
+<p class="rvps12"><span class="rvts12"><br/></span></p>
+<div class="rvps12"><table border="0" cellpadding="1" cellspacing="2" style="border-width: 0px; border-spacing: 2px;">
+<tr valign="top">
+<td width="273" style="padding: 1px;"><p class="rvps12"><img alt="" style="padding : 1px;" src="lib/NewItem274.png"></p>
+</td>
+<td width="1067" style="padding: 1px;"><p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Options </span><span class="rvts6">- Allows you option when a track's device is changed:</span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts6">Use name, clef, etc. - If checked, change the track's notation such as name, clef, etc. using info in the instrument sound map.</span></li>
+<li class="rvps2"><span class="rvts6">Change output device - If checked, change the track's output device.</span></li>
+<li class="rvps2"><span class="rvts6">Load instrument if available - If set, for software instruments, a single instance with the actual sample instrument will be loaded.</span><br/><span class="rvts6">This is only works for some libraries on the PC for now. Others will be supported in the near future.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Output </span><span class="rvts6">- The actual MIDI device or Software Plugin to be used:</span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts6">MIDI Device - Click to choose the MIDI device.</span><br/><span class="rvts6">A pop-up menu will appear display all the current MIDI devices in use as set in the </span><a class="rvts11" href="MIDISettings.html">MIDI Settings</a><span class="rvts6"> dialog.</span></li>
+<li class="rvps2"><span class="rvts6">Existing Instrument - Click here to choose a plugin that is already been used by another track.</span><br/><span class="rvts6">A pop-up menu will display all tracks that are using a plugin. Choose the track/plugin mane to share</span></li>
+<li class="rvps2"><span class="rvts6">Software Instrument - Click here to choose a new software plugin.</span><br/><span class="rvts6">A pop-up menu will display all available plugins.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Instruments</span><span class="rvts6"> - The instruments for current MIDI device</span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts6">Default track (multi-timbral) - when dragged onto empty space, creates a number (1-16) of tracks with sequential MIDI channel numbers.</span><br/><span class="rvts6">When dragged onto an existing track, just changes its output device.</span></li>
+<li class="rvps2"><span class="rvts6">Tree list of instruments - Drag one of these onto your score to create or replace an existing track.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Before we get started lets explain some terms used in advanced music applications like Overture.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">A </span><span class="rvts12">MIDI device</span><span class="rvts6"> is an external MIDI keyboard attached to your computer usually using a USB MIDI cable or one of the two built in General MIDI players.</span></p>
+<p class="rvps2"><span class="rvts6">A </span><span class="rvts12">software instrument</span><span class="rvts6"> sometimes called a </span><span class="rvts12">plugin</span><span class="rvts6"> is a piece of software that emulates instruments and is loaded into music applications.</span></p>
+<p class="rvps2"><span class="rvts6">Overture supports two types of software instruments, VST (Virtual Studio Technology) and AU (Audio Units - Mac only)</span></p>
+<p class="rvps2"><span class="rvts6">An </span><span class="rvts12">instrument</span><span class="rvts6"> is closely related to real world instruments that you commonly know, such as trumpet, clarinet, and piano. Overture uses settings found in the </span><a class="rvts11" href="TrackInspectorPanel.html">Track Inspector</a><span class="rvts6"> to display and play back the instrument.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Now that we understand the terms let's create some tracks that use them.</span></p>
+<h4 class="rvps8"><span class="rvts0"><span class="rvts18">To insert a track using a MIDI device or plugin:</span></span></h4>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" class="rvps2"><span class="rvts6">Set the options at the top to determine what settings will be used when the track is created.</span></li>
+<li value="2" class="rvps2"><span class="rvts6">Click on </span><span class="rvts12">MIDI Device</span><span class="rvts6"> button to choose MIDI instruments or click on the </span><span class="rvts12">Software Instrument</span><span class="rvts6"> button to choose a VST or AU plugin.</span><br/><span class="rvts6">A pop-up menu appears listing all the know MIDI devices or plugins.</span></li>
+<li value="3" class="rvps2"><span class="rvts6">Choose the device or plugin from the pop-up menu.</span></li>
+<li value="4" class="rvps2"><span class="rvts6">For plugins, there is another button just below the main buttons.</span><br/><span class="rvts6">Click on this button to choose the associated library (most software instruments only have one library, but some like Kontakt and VSL may have multiple).</span><br/><span class="rvts6">When you choose a library, a list of instruments organized as a tree, will appear below. If Overture does not have a sound map for this plugin, on a set of default track instruments will appear.</span></li>
+<li value="5" class="rvps2"><span class="rvts6">From the Instruments list, click on an instrument and drag and drop it onto your score above or below an existing track.</span></li>
+<li value="6" class="rvps2"><span class="rvts6">A new track will be inserted into your score using the chose device or plugin and settings and will use settings from the associated plugin's sound map.</span></li>
+</ol>
+<h4 class="rvps8"><span class="rvts0"><span class="rvts18">To change a tracks' output device or plugin:</span></span></h4>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" class="rvps2"><span class="rvts6">Set the options at the top to determine what settings will be used when the track is changed.</span></li>
+<li value="2" class="rvps2"><span class="rvts6">Click on </span><span class="rvts12">MIDI Device</span><span class="rvts6"> button to choose MIDI instruments or click on the </span><span class="rvts12">Software Instrument</span><span class="rvts6"> button to choose a VST or AU plugin.</span><br/><span class="rvts6">A pop-up menu appears listing all the know MIDI devices or software plugins.</span></li>
+<li value="3" class="rvps2"><span class="rvts6">Choose the device or plugin from the pop-up menu.</span></li>
+<li value="4" class="rvps2"><span class="rvts6">For plugins, there is another button just below the main buttons.</span><br/><span class="rvts6">Click on this button to choose the associated library (most software instruments only have one library, but some like Kontakt and VSL may have multiple).</span><br/><span class="rvts6">When you choose a library, a tree list of instruments will appear below. If Overture does not have a sound map for this plugin, on a default track list will appear.</span></li>
+<li value="5" class="rvps2"><span class="rvts6">From the Instruments list, click on an instrument and drag and drop it onto an existing track.</span></li>
+<li value="6" class="rvps2"><span class="rvts6">The destination's track will now use the new MIDI device or plugin and settings.</span></li>
+</ol>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Note</span><span class="rvts6">: Software instruments usually can hold up to 16 instruments and each instrument will use MIDI channels 1 - 16.</span></p>
+<p class="rvps2"><span class="rvts6">For example: One instance of a Kontakt player may have a piccolo using channel 1 and a flute using channel two.</span></p>
+<p class="rvps2"><span class="rvts6">Overture uses the term "share" to describe when two or more tracks use the same plugin.</span></p>
+<h4 class="rvps8"><span class="rvts0"><span class="rvts18">To share an existing track's plugin:</span></span></h4>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" class="rvps2"><span class="rvts6">Set the options at the top to determine how the new track will be created or changed.</span></li>
+<li value="2" class="rvps2"><span class="rvts6">Click on the</span><span class="rvts12"> Existing Instrument</span><span class="rvts6"> button.</span><br/><span class="rvts6">A pop-up menu appears displaying all tracks that are currently using a plugin. You will see track name followed by it's plugin. Ex. Flute - Kontakt 5.</span></li>
+<li value="3" class="rvps2"><span class="rvts6">Choose one of the track - plugin combinations from the pop-up menu. This will tell Overture to use the same plugin for the new track.</span><br/><span class="rvts6">A tree list of instruments will appear below</span></li>
+<li value="4" class="rvps2"><span class="rvts6">From the Instruments tree list, choose the instrument.</span></li>
+<li value="5" class="rvps2"><span class="rvts6">Drag and drop the instrument onto an existing staff and the track's device will be changed to the shared device.</span></li>
+<li value="6" class="rvps2"><span class="rvts6">If you dropped the instrument onto an existing track, the track's settings will be replaced. If you dropped onto empty space a new track will be added.</span><br/><span class="rvts6">The new &nbsp;track's plugin will now share the chosen track's plugin.</span><br/><span class="rvts6">You will now need to do two things to connect the track to the plugin / instrument.</span></li>
+<ol style="text-indent: 0px; margin-left: 48px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps6"><span class="rvts6">Open the track's plugin by right clicking on the track.</span></li>
+<li value="2" style="margin-left: 0px" class="rvps6"><span class="rvts6">Load in the desired instrument sample into the plugin.</span></li>
+<li value="3" style="margin-left: 0px" class="rvps6"><span class="rvts6">Change the instruments channel to a different channel if needed.</span></li>
+<li value="4" style="margin-left: 0px" class="rvps6"><span class="rvts6">Open the </span><a class="rvts11" href="TrackSection.html">Track Inspector</a><span class="rvts6"> panel for this track, and set its channel to match the one set in the plugin.</span></li>
+</ol></ol>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Note: </span><span class="rvts6">To quickly find an instrument use the search box above the instrument tree.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">For more information see </span><a class="rvts11" href="AllaboutTracks.html">All About Tracks.</a></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2" style="page-break-before: always;"><span class="rvts6"><br/></span></p>
+<p class="rvps12"><span class="rvts12"><br/></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

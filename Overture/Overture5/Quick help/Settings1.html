@@ -1,0 +1,137 @@
+﻿<html>
+	
+<head>
+	<title>Settings</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("Settings1");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Settings</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="GettingStarted.html">Getting Started</a> &rsaquo;&rsaquo; <a href="MainScoreWindow.html">Main Score Window</a> &rsaquo;&rsaquo; <a href="TrackInspectorPanel.html">Track Inspector Panel</a> &rsaquo;&rsaquo; <a href="TrackSection.html">Track Section</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="TrackSection.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="Playback1.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="Show1.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<p class="rvps2"><img alt="" style="vertical-align: middle; padding : 1px;" src="lib/NewItem73.png"><span class="rvts27"> Track Inspector Panel - Track Settings Tab</span></p>
+<p class="rvps2"><span class="rvts27"><br/></span></p>
+<p class="rvps2"><span class="rvts6">If needed, click on the Track section at the top of the panel and then the Playback tab.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">The Settings tab area contains basic settings for the current track.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/TrackInspector-Settings.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Staff Style</span></p>
+<p class="rvps2"><span class="rvts6">Use theses setting to change to type of staff for this instrument. You would rarely change the style of an instrument. An example of when to use it is after importing a MIDI file, you want a synthesizer track to be displayed as a piano system instead of a single staff.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts12">Normal staff - </span><span class="rvts6">A normal single staff for instruments like trumpet, clarinet, etc.</span></li>
+<li class="rvps2"><span class="rvts12">Piano system - </span><span class="rvts6">A piano system that consists of a treble clef and bass clef staff.</span></li>
+<li class="rvps2"><span class="rvts12">Organ system - &nbsp;</span><span class="rvts6">An organ system that consists of a treble clef, bass, and an organ pedal bass staff.</span></li>
+<li class="rvps2"><span class="rvts12">Percussive staff - </span><span class="rvts6">A staff used for percussion instruments. When you choose this option you will see an additional tab named "Drum Map" tab that let's you mapped pitches to staff lines and note heads.</span></li>
+<li class="rvps2"><span class="rvts12">Tablature staff -</span><span class="rvts6"> A tablature staff is used to note fret numbers for guitar tracks.</span></li>
+<li class="rvps2"><span class="rvts12">Point Size numerical -</span><span class="rvts6"> Use this numerical to set the size of the staff throughout the score.</span><br/><span class="rvts12">Note</span><span class="rvts6">: If you hold down the ctrl[cmd] while dragging this numerical it will change all staves to the same value.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Transposition</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts12">Starting Clef</span><span class="rvts6"> pop-up menu. Use this pop-up menu to select which clef Overture uses to notate the track in the current score.</span><br/><span class="rvts6">Overture sets this numerical automatically when you select an Instrument Name from the Instrument Name pop-up menu.</span><br/><span class="rvts6"><br/></span></li>
+<li class="rvps2"><span class="rvts12">Transposed Clef</span><span class="rvts6"> pop-up menu. Use this pop-up menu to select which clef Overture is to use to notate the track in a transposed extracted score.</span><br/><span class="rvts6">This pop-up menu has no effect on the current score, only on the score containing the extracted part.</span><br/><span class="rvts6"><br/></span></li>
+<li class="rvps2"><span class="rvts12">Note Range numericals</span><span class="rvts6">. Use these numericals to set the range of the Instrument notated by the track. The left numerical sets the lowest note in the range.</span><br/><span class="rvts6">The right numerical sets the highest note in the range. You can search your score for notes that are out of an instrument's specified range by choosing </span><a class="rvts11" href="RangeErrors.html">Options&gt;Show&gt;Range Errors.</a><br/><span class="rvts6"><br/></span></li>
+<li class="rvps2"><span class="rvts12">Transpose numerical</span><span class="rvts6">. If you're notating a transposed instrument (such as many trumpets, clarinets, english horns, and so on) and you want Overture to transpose an extracted part into the correct key, use this numerical to set the transposition amount. This numerical does affect MIDI playback pitch - it's used strictly to transpose a track when you extract it. To display the transposition in the current score, choose Options&gt;Show&gt;Tracks Transposed. For example, if the extracted track is to be played by a Bb trumpet, set the numerical to 2. Since a Bb trumpet sounds a major second lower than written, a value of +2 indicates that the extracted trumpet part needs to be transposed two half-steps higher than in the conductor's score.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts12">Playback numerical</span><span class="rvts6">. Use this numerical to set the playback offset for instruments that sound differently from how they are written. This does not affect the extracted part. For example, if you're notating a Guitar, set the Playback numerical to -12. Guitar parts are written an octave above where they actual sound. Overture sets this numerical automatically when you select an Instrument Name from the Instrument Name pop-up menu.</span><br/><span class="rvts6"></span><br/><span class="rvts6">Overture automatically sets these numericals when you create a new track. For more information about extracted parts, see “</span><a class="rvts11" href="ActivePartsPanel.html">Active Parts Panel</a><span class="rvts6">”.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Stems</span></p>
+<p class="rvps2"><span class="rvts6">There are three possible stem directions:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts12">Auto Stem</span><span class="rvts6">: Overture determines stem direction based on staff position. Stems point down for any notes below the middle line and point up for any notes on or above the middle line.</span><br/><span class="rvts6"><br/></span></li>
+<li class="rvps2"><span class="rvts12">Up Stem</span><span class="rvts6">: Overture makes all stems point up regardless of staff position.</span><br/><span class="rvts6"><br/></span></li>
+<li class="rvps2"><span class="rvts12">Down Stem</span><span class="rvts6">: Overture makes all stems point down regardless of staff position.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">To switch between them, simply click the icon in the Stem column until it shows the desired stem direction.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<div class="rvps2"><table width="75%" border="0" cellpadding="1" cellspacing="2" style="border-width: 0px; border-spacing: 2px;">
+<tr valign="top">
+<td width="300" style="padding: 1px;"><p class="rvps18"><span class="rvts12">Important</span><span class="rvts6">: </span></p>
+<p class="rvps18"><span class="rvts6">Setting a direction in the stem column does not change the stem directions of any existing notes in a track. Rather, it sets the direction for any newly entered notes. If you want to change stem direction of existing notes, use the </span><a class="rvts11" href="StemUp.html">Notes&gt;Stem&gt;Stem Up</a><span class="rvts6"> or </span><a class="rvts11" href="StemDown.html">Notes&gt;Stem&gt;Stem Down</a><span class="rvts6"> commands.</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps18"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

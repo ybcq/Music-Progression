@@ -1,0 +1,99 @@
+﻿<html>
+	
+<head>
+	<title>Cut, copy, and paste</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("Cutcopyandpaste");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Cut, copy, and paste</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="Makingchangesonyourscore.html">Making changes on your score</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="Makingchangesonyourscore.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="Changingvalues.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="AllaboutTracks.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<p class="rvps2"><span class="rvts6">Select the symbols and choose the appropriate Edit menu commands to cut, copy, or paste,</span></p>
+<h4 class="rvps8"><span class="rvts0"><span class="rvts18">Cut</span></span></h4>
+<p class="rvps2"><span class="rvts6">Choose this command to delete the current selection and copy it to the Clipboard. The cut selection</span></p>
+<p class="rvps2"><span class="rvts6">remains on the Clipboard until you cut or copy some other selection to the Clipboard.</span></p>
+<h4 class="rvps8"><span class="rvts0"><span class="rvts18">Copy</span></span></h4>
+<p class="rvps2"><span class="rvts6">Choose this command to copy the current selection to the Clipboard. Unlike the Cut command, choosing</span></p>
+<p class="rvps2"><span class="rvts6">Copy keeps the current selection in the Overture score. The copied selection remains on the Clipboard</span></p>
+<p class="rvps2"><span class="rvts6">until you cut or copy some other selection to the Clipboard.</span></p>
+<h4 class="rvps8"><span class="rvts0"><span class="rvts18">Paste</span></span></h4>
+<p class="rvps2"><span class="rvts6">Choose this command to copy the contents of the Clipboard to the insertion point in the current score. Since the Paste command puts a copy of the Clipboard's contents into a score, you may use the Paste command repeatedly to insert multiple copies. When you choose Edit&gt;Paste in the Score window, Overture pastes all note and note-related events from the Clipboard into the score, replacing the events currently in that time range. It does not paste some symbols like meters, beat charts, or tempo changes. This is so you can copy and paste notes between different sections of a score without disturbing the rhythmic flow of the composition. If you do want to paste any of the above-mentioned attributes, use the Paste Special command as discussed in “</span><a class="rvts11" href="PasteSpecial.html">Paste Special</a><span class="rvts6">”</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Note</span><span class="rvts6">: To do a quick copy and paste of a measure(s) to another measure:</span></p>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" class="rvps2"><span class="rvts6">Double click on a measure to select all of it's data. The measure will be enclosed with a red rectangle.</span><br/><span class="rvts6">You can shift double click to extend the selected measures range or Ctrl[</span><span class="rvts13">Cmd</span><span class="rvts6">] double click to select discontinuous measures.</span></li>
+<li value="2" class="rvps2"><span class="rvts6">Alt[</span><span class="rvts13">option]</span><span class="rvts6"> click a non-selected measure.</span></li>
+<li value="3" class="rvps2"><span class="rvts6">The selected measure's symbols and data will be copied to the measure.</span></li>
+</ol>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

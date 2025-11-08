@@ -1,0 +1,253 @@
+<VSTNameDocument>
+	<Version>1</Version>
+	<Author>GenieSoft,Inc.</Author>
+
+	<Device name="Slayer2" usesPatchNames="1" firstPatchNumber="0"> 
+
+		<ControllerNames>				
+ 			<Controller name="Palm Muting" cc="1"/>
+			<Controller name="Speed (Arp, strumming, solo)" cc="5"/>
+			<Controller name="Volume" cc="7"/>
+			<Controller name="Panning" cc="10"/>
+			<Controller name="Expression" cc="11"/>
+			<Controller name="Body size" cc="12"/>
+			<Controller name="Body material" cc="13"/>
+			<Controller name="Dynamics" cc="14"/>
+			<Controller name="Gain" cc="15"/>
+			<Controller name="FX 1 Parameter 1" cc="16"/>
+			<Controller name="FX 1 Parameter 2" cc="17"/>
+			<Controller name="FX 1 Parameter 3" cc="18"/>
+			<Controller name="FX 2 Parameter 1" cc="19"/>
+			<Controller name="FX 2 Parameter 2" cc="20"/>
+			<Controller name="FX 2 Parameter 3" cc="21"/>
+			<Controller name="FX 3 Parameter 1" cc="22"/>
+			<Controller name="FX 3 Parameter 2" cc="23"/>
+			<Controller name="FX 3 Parameter 3" cc="24"/>
+			<Controller name="FX 4 Parameter 1" cc="25"/>
+			<Controller name="FX 4 Parameter 2" cc="26"/>
+			<Controller name="FX 4 Parameter 3" cc="27"/>
+			<Controller name="FX 5 Parameter 1" cc="28"/>
+			<Controller name="FX 5 Parameter 2" cc="29"/>
+			<Controller name="FX 5 Parameter 3" cc="30"/>
+			<Controller name="FX 6 Parameter 1" cc="31"/>
+			<Controller name="FX 6 Parameter 2" cc="32"/>
+			<Controller name="FX 6 Parameter 3" cc="33"/>
+			<Controller name="FX 7 Parameter 1" cc="34"/>
+			<Controller name="FX 7 Parameter 2" cc="35"/>
+			<Controller name="FX 7 Parameter 3" cc="36"/>
+			<Controller name="FX 8 Parameter 1" cc="37"/>
+			<Controller name="FX 8 Parameter 2" cc="38"/>
+			<Controller name="FX 8 Parameter 3" cc="39"/>
+			<Controller name="FX 9 Parameter 1" cc="40"/>
+			<Controller name="FX 9 Parameter 2" cc="41"/>
+			<Controller name="FX 9 Parameter 3" cc="42"/>
+			<Controller name="FX 10 Parameter 1" cc="43"/>
+			<Controller name="FX 10 Parameter 2" cc="44"/>
+			<Controller name="FX 10 Parameter 3" cc="45"/>
+			<Controller name="FX 11 Parameter 1" cc="46"/>
+			<Controller name="FX 11 Parameter 2" cc="47"/>
+			<Controller name="FX 11 Parameter 3" cc="48"/>
+			<Controller name="FX 12 Parameter 1" cc="49"/>
+			<Controller name="FX 12 Parameter 2" cc="50"/>
+			<Controller name="FX 12 Parameter 3" cc="51"/>
+			<Controller name="FX 13 Parameter 1" cc="52"/>
+			<Controller name="FX 13 Parameter 2" cc="53"/>
+			<Controller name="FX 13 Parameter 3" cc="54"/>
+			<Controller name="FX 14 Parameter 1" cc="55"/>
+			<Controller name="FX 14 Parameter 2" cc="56"/>
+			<Controller name="FX 14 Parameter 3" cc="57"/>
+			<Controller name="FX 15 Parameter 1" cc="58"/>
+			<Controller name="FX 15 Parameter 2" cc="59"/>
+			<Controller name="FX 15 Parameter 3" cc="60"/>
+			<Controller name="FX 16 Parameter 1" cc="61"/>
+			<Controller name="FX 16 Parameter 2" cc="62"/>
+			<Controller name="FX 16 Parameter 2" cc="63"/>
+			<Controller name="Hold pedal" cc="64"/>
+			<Controller name="Pitchbend/Glissando toggle" cc="65"/>
+			<Controller name="Plectrum position" cc="70"/>
+			<Controller name="Pickup position" cc="71"/>
+			<Controller name="Release" cc="72"/>
+			<Controller name="Tone" cc="74"/>
+			<Controller name="Slap level" cc="75"/>
+			<Controller name="Decay" cc="76"/>
+			<Controller name="Velocity Control (decay/release)" cc="77"/>
+			<Controller name="Glissando Override" cc="78"/>
+			<Controller name="Pitchbend Range" cc="84"/>
+			<Controller name="Amp Drive" cc="85"/>
+			<Controller name="Amp Presence" cc="86"/>
+			<Controller name="Amp Feedback" cc="87"/>
+			<Controller name="EQ Bass" cc="88"/>
+			<Controller name="EQ Middle" cc="89"/>
+			<Controller name="EQ Treble" cc="90"/>
+		</ControllerNames>
+    		
+		<Instruments>
+			<Section name="Slayer Default Presets" title="Electric Guitar" abbr="Gtr." lownote="c-1" highnote="c9" clef="treble">
+				<Group name="Chunk" clef="treble" title="Electric Guitar" abbr="Gtr." lownote="c-1" highnote="c9">
+					<Instrument name="Chunk Metallica" prgChg="1"   />
+					<Instrument name="Chunk Distrubed" prgChg="2"   />
+					<Instrument name="Chunk Rammstein" prgChg="3"   />
+					<Instrument name="Chunk Type O Negative" prgChg="4"   />
+					<Instrument name="Chunk Alice Cooper" prgChg="5"   />
+					<Instrument name="Chunk Manson" prgChg="6"   />
+					<Instrument name="Chunk Linkin Park" prgChg="7"   />
+					<Instrument name="Chunk Nirvana" prgChg="8"   />
+					<Instrument name="Chunk Sisters of Mercy" prgChg="9"   />
+					<Instrument name="Chunk Bon Jovi" prgChg="10"   />
+					<Instrument name="Chunk Sepultra" prgChg="11"   />
+					<Instrument name="Chunk H-Blocks" prgChg="12"   />
+					<Instrument name="Chunk Edguy" prgChg="13"   />
+					<Instrument name="Chunk Rage" prgChg="14"   />
+					<Instrument name="Chunk Echo" prgChg="15"   />
+					<Instrument name="Chunk Talkbox" prgChg="16"   />
+					<Instrument name="Chunk Evil 0" prgChg="17"   />
+					<Instrument name="Chunk Evil 1" prgChg="18"   />
+					<Instrument name="Chunk Evil 2" prgChg="19"   />
+					<Instrument name="Chunk Evil 3" prgChg="20"   />
+					<Instrument name="Chunk Evil 4" prgChg="21"   />
+				</Group>
+
+				<Group name="Auto" clef="treble" title="Electric Guitar" abbr="Gtr." lownote="c-1" highnote="c9">
+					<Instrument name="Auto Chorus" prgChg="22"   />
+					<Instrument name="Auto Flanged" prgChg="23"   />
+					<Instrument name="Auto Wahwah" prgChg="24"   />
+					<Instrument name="Auto Phaser" prgChg="25"   />
+					<Instrument name="Auto Tremolo" prgChg="26"   />
+					<Instrument name="Auto Voices" prgChg="27"   />
+					<Instrument name="Auto Natural" prgChg="28"   />
+					<Instrument name="Auto Slap" prgChg="29"   />
+				</Group>
+
+				<Group name="Lead"  clef="treble" title="Electric Guitar" abbr="Gtr." lownote="c-1" highnote="c9">
+					<Instrument name="Lead 1" prgChg="30"   />
+					<Instrument name="Lead 2" prgChg="31"   />
+					<Instrument name="Lead 3" prgChg="32"   />
+					<Instrument name="Lead 4" prgChg="33"   />
+					<Instrument name="Lead 5" prgChg="34"   />
+					<Instrument name="Lead Old" prgChg="35"   />
+					<Instrument name="Lead Vox" prgChg="36"   />
+					<Instrument name="Lead Glide" prgChg="37"   />
+					<Instrument name="Lead Silecio" prgChg="38"   />
+					<Instrument name="Lead Endless" prgChg="39"   />
+				</Group>
+
+				<Group name="Clean" title="Clean Guitar" clef="treble" abbr="Gtr." lownote="c-1" highnote="c9">
+					<Instrument name="Clean Elec 1" prgChg="40"   />
+					<Instrument name="Clean Elec 2" prgChg="41"   />
+					<Instrument name="Clean Elec 3" prgChg="42"   />
+					<Instrument name="Clean Slapped" prgChg="43"   />
+					<Instrument name="Clean Chorus" prgChg="44"   />
+					<Instrument name="Clean Harms" prgChg="45"   />
+					<Instrument name="Clean Flange" prgChg="46"   />
+					<Instrument name="Clean Tremolo" prgChg="47"   />
+					<Instrument name="Clean Rotary"  prgChg="48"  />
+				</Group>
+
+				<Group name="Nat"  clef="treble" title="Electric Guitar" abbr="Gtr." lownote="c-1" highnote="c9">
+					<Instrument name="Nat Standard" prgChg="49"   />
+					<Instrument name="Nat Ethno"  prgChg="50"  />
+					<Instrument name="Nat Ethno 2"  prgChg="51"  />
+					<Instrument name="Nat Ethno3"  prgChg="52"  />
+					<Instrument name="Nat Ethno 4"  prgChg="53"  />
+					<Instrument name="Nat Steelbott"  prgChg="54"  />
+					<Instrument name="Nat Harp"  prgChg="55"  />
+					<Instrument name="Nat Harpsichord"  prgChg="56"  />
+					<Instrument name="Nat Banjo"  prgChg="57"  />
+					<Instrument name="Nat Banjo 2"  prgChg="58"  />
+					<Instrument name="Nat Chello?"  prgChg="59"  />
+				</Group>
+
+				<Group name="Body"  clef="treble" title="Electric Guitar" abbr="Gtr." lownote="c-1" highnote="c9">
+					<Instrument name="Body Guitarbody hit"  prgChg="60"  />
+					<Instrument name="Body Oiltank"   prgChg="61" />
+					<Instrument name="Body small_room"  prgChg="62"  />
+					<Instrument name="Body Trashcan"   prgChg="63" />
+				</Group>
+
+				<Group name="Bass" title="Bass Guitar" abbr="BGtr." clef="bass">
+					<Instrument name="Bass Contrabass"  prgChg="64" />
+					<Instrument name="Bass Ebass" prgChg="65"  />
+					<Instrument name="Bass Ebass 2"  prgChg="66" />
+					<Instrument name="Bass Ebass 3"  prgChg="67" />
+					<Instrument name="Bass Ebass 4"  prgChg="68" />
+					<Instrument name="Bass Deep"  prgChg="69" />
+					<Instrument name="Bass Slap"  prgChg="70" />
+					<Instrument name="Bass Slap 2"  prgChg="71" />
+					<Instrument name="Bass Slap 3"  prgChg="72" />
+					<Instrument name="Bass Slap 4"  prgChg="73" />
+					<Instrument name="Bass Square"  prgChg="74" />
+					<Instrument name="Bass Fretless"  prgChg="75" />
+					<Instrument name="Bass Muted guitar"  prgChg="76" />
+					<Instrument name="Bass Muted oct"  prgChg="77" />
+					<Instrument name="Bass Muted guitar 2"  prgChg="78" />
+				</Group>
+
+				<Group name="Power"  clef="treble" title="Electric Guitar" abbr="Gtr." lownote="c-1" highnote="c9">
+					<Instrument name="Power Reference"  prgChg="79"  />
+					<Instrument name="Power Huge"   prgChg="80" />
+					<Instrument name="Power Huge 2"  prgChg="81"  />
+					<Instrument name="Power Huge 3"   prgChg="82" />
+					<Instrument name="Power 60s"  prgChg="83"  />
+					<Instrument name="Power 70s"  prgChg="84"  />
+					<Instrument name="Power 80s"  prgChg="85"  />
+					<Instrument name="Power 90s"  prgChg="86"  />
+					<Instrument name="Power 00s"  prgChg="87"  />
+					<Instrument name="Power Flange"  prgChg="88"  />
+					<Instrument name="Power Phased" prgChg="89"   />
+					<Instrument name="Power Chorus"  prgChg="90"  />
+					<Instrument name="Power Talkbox"  prgChg="91"  />
+					<Instrument name="Power Wahwah"   prgChg="92" />
+					<Instrument name="Power Tremolo"  prgChg="93"  />
+					<Instrument name="Power Stakkato"  prgChg="94"  />
+					<Instrument name="Power Tiny"   prgChg="95" />
+					<Instrument name="Power Doomed" prgChg="96"   />
+					<Instrument name="Power Vox"  prgChg="97"  />
+					<Instrument name="Power StompDist" prgChg="98"   />
+					<Instrument name="Power 666"  prgChg="99"  />
+					<Instrument name="Power Pocket"  prgChg="100"  />
+					<Instrument name="Power Envs" prgChg="101"   />
+					<Instrument name="Power Tremolish" prgChg="102"   />
+				</Group>
+
+				<Group name="Wah"  clef="treble" title="Electric Guitar" abbr="Gtr." lownote="c-1" highnote="c9">
+					<Instrument name="Wah Funk 1"  prgChg="103"  />
+					<Instrument name="Wah Funk 2"  prgChg="104"  />
+					<Instrument name="Wah Funk 3"  prgChg="105"  />
+					<Instrument name="Wah Funk 4"  prgChg="106"  />
+					<Instrument name="Wah WahWahwah"   prgChg="107" />
+				</Group>
+
+				<Group name="Arp"  clef="treble" title="Electric Guitar" abbr="Gtr." lownote="c-1" highnote="c9">
+					<Instrument name="Arp Squaresynth"  prgChg="108"  />
+					<Instrument name="Arp Doodle"  prgChg="109"  />
+					<Instrument name="Arp Leadguitar"   prgChg="110" />
+				</Group>
+
+				<Group name="Mix"  clef="treble" title="Electric Guitar" abbr="Gtr." lownote="c-1" highnote="c9">
+					<Instrument name="Mix Dist chello"  prgChg="111"  />
+					<Instrument name="Mix Earthquake"  prgChg="112"  />
+					<Instrument name="Mix Woodsticks"  prgChg="113"  />
+					<Instrument name="Mix Ambience"  prgChg="114"  />
+					<Instrument name="Mix Ambience 2" prgChg="115"   />
+					<Instrument name="Mix Grains"  prgChg="116"  />
+					<Instrument name="Mix Cowboy chew" prgChg="117"   />
+					<Instrument name="Mix AutoGrain"  prgChg="118"  />
+					<Instrument name="Mix BottleSpace"  prgChg="119"  />
+					<Instrument name="Mix Pizzicato"  prgChg="120"  />
+					<Instrument name="Mix Pizzic 2"  prgChg="121"  />
+					<Instrument name="Mix Organ?"  prgChg="122"  />
+					<Instrument name="Mix RingmodFX"  prgChg="123"  />
+					<Instrument name="Mix Harp"   prgChg="124" />
+					<Instrument name="Mix Harpsich"  prgChg="125"  />
+					<Instrument name="Mix Dash Synth"  prgChg="126"  />
+					<Instrument name="Mix Paradox" prgChg="127"   />
+					<Instrument name="Mix Vox cheater"   prgChg="128" />
+				</Group>
+			</Section>
+
+			<Section name="User Presets">
+			</Section>
+		
+			</Instruments>
+	</Device>
+</VSTNameDocument>

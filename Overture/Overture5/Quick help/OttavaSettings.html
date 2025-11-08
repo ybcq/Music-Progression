@@ -1,0 +1,106 @@
+﻿<html>
+	
+<head>
+	<title>Ottava Settings</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("OttavaSettings");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Ottava Settings</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="SymbolPalettes.html">Symbol Palettes</a> &rsaquo;&rsaquo; <a href="GroupsPalette.html">Groups Palette</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="GroupsPalette.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="HarpPedalDialog.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="UsingBracketsndBraces.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<p class="rvps2"><span class="rvts6">Double-click on an ottava sign in the Score View to open the Edit Ottava dialog box.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NewItem20.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">You can move the Edit Ottava dialog box around the desktop by dragging its title bar.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">MIDI playback recognizes ottava markings and transposes notes accordingly.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">The left half of the dialog box has three radio buttons where you can select the type of ottava sign you wish to insert:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">8va</span><span class="rvts6">. Select this type to insert an ottava sign over the selected notes. An 8va ottava sign indicates that notes under the sign are to be played one octave higher than written. </span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">8vb</span><span class="rvts6">. Select this type to insert an ottava sign under the selected notes. An 8vb ottava sign indicates that notes over the sign are to be played one octave lower than written. </span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">15ma</span><span class="rvts6">. Select this type to insert an ottava sign over the selected notes. A 15ma ottava sign indicates that notes under the sign are to be played two octaves higher than written. </span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">The right half of the dialog box has a series of check boxes and radio buttons that you use to determine the appearance of the inserted ottava sign:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Courtesies (8va)</span><span class="rvts6">. If an ottava sign extends across more than one line, checking this option causes a “courtesy” mark to be placed in parentheses at the beginning of each additional line. </span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">va, vb, ma</span><span class="rvts6">. Checking this option places the va, vb, or ma indications after the transposition number in the inserted ottava sign. </span></li>
+<li style="margin-left: 0px" class="rvps6"><span class="rvts12">Brackets</span><span class="rvts6">. Checking this option places a bracket after the ottava sign that extends all the way to the end of the selected region, where it ends in a down stroke to indicate the end of the passage.</span><br/><span class="rvts6"></span><br/><span class="rvts6">Use brackets when an ottava sign extends over more than one note. If your ottava sign applies to only a single note, do not check the brackets option.</span><br/><span class="rvts6"></span><br/><span class="rvts6">There are two types of brackets: </span><span class="rvts12">Dashed</span><span class="rvts6"> and </span><span class="rvts12">Dotted</span><span class="rvts6">. Select the dashed option if you want your bracket to be a dashed line. Select the dotted option if you want your bracket to be a dotted line. </span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

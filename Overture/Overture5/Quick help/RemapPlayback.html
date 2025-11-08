@@ -1,0 +1,105 @@
+﻿<html>
+	
+<head>
+	<title>Remap Playback</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("RemapPlayback");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Remap Playback</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="OvertureMenus.html">Overture Menus</a> &rsaquo;&rsaquo; <a href="TracksMenu.html">Tracks Menu</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="TracksMenu.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="DeleteTrack.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="ExplodeTrack.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<h3 class="rvps13"><span class="rvts0"><span class="rvts21">Tracks&gt;Remap Playback</span></span></h3>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Choose this command to open the Tracks Playback dialog. The Tracks Playback dialog displays a list of all tracks in your score with their current playback information.</span></p>
+<p class="rvps2"><span class="rvts6">Here is a quick place to set the playback device, channel, instrument, etc., for multiple tracks in your score. These same settings are shown the current track in the </span><a class="rvts11" href="TrackInspectorPanel.html">Track Inspector Panel</a><span class="rvts6">.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NewItem283.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Click on the New Device field for any track to change it's output device.</span></p>
+<p class="rvps2"><span class="rvts6">Click on the channel to change the track's playback MIDI channel.</span></p>
+<p class="rvps2"><span class="rvts6">Click on the New Instrument to change the library and instrument for the New Device.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">You can choose the</span><span class="rvts27"> Set all output devices to and Library</span><span class="rvts6"> options to quickly set the same output device and library for all tracks.</span></p>
+<p class="rvps2"><span class="rvts6">Overture will try to remap the actual instruments to equivalents in the new library. If an equivalent instrument is found it will be shown in yellow. If not, you'll need to to do it manually by clicking on the instrument.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">An example showing new changes is shown below.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NewItem284.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Click on the </span><span class="rvts12">Done</span><span class="rvts6"> button to apply the changes. </span><span class="rvts12">Note</span><span class="rvts6">: This may take a while if you're remapping to a sample library, depending on the samples that need to be loaded.</span></p>
+<p class="rvps2"><span class="rvts6">At this time the only libraries that Overture can automatically load instruments, are Garritan Personal Orchestra libraries, the Kontakt Factory Library, and the Vienna Special Edition Library.</span></p>
+<p class="rvps2"><span class="rvts6">We'll be adding more in future updates.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">For libraries that Overture does not automatically load, you'll need to open each track's plugin and load the individual instrument. This can easily be done by right clicking on a track and choose Show Track's Instrument.</span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

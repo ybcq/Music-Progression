@@ -1,0 +1,2263 @@
+GUITAR PRO 5.1 TRANSLATION FILE
+
+### PATCH CONFIGURATION ###
+AUTHOR NAMES = "Lars Norrstrand (skonummer42@hotmail.com)"
+AUTHOR E-MAIL = "skonummer42@hotmail.com"
+VERSION = "5.1"
+AUTOMATIC SHORTCUTS
+ENCODING = "WindowsLatin2"
+###########################
+
+You can use this file to create your own translation file for Guitar Pro.
+To do it, translate ONLY the words between the symbols " ". DON'T CHANGE
+ANYTHING ELSE. Note that the symbols %s, %t... are used to indicate a 
+dynamic value,
+which will be attribuated at running, so do not change it.
+
+The words between the symbols { } are some indications to help you to
+understand the context, don't change it.
+
+After having changing the translations, save the file under your language
+name with the extension .gpl (ie "English.gpl"). Place it in the
+Guitar Pro directory, restart Guitar Pro and you'll have the new language
+proposed in the menu OPTIONS | LANGUAGE.
+
+Don't hesitate to send us your translation files, we'll add them on the site
+for other users.
+
+***********
+* DIALOGS *
+***********
+
+DLG_000
+DLG_001 = "OK"
+DLG_002 = "Avbryt"
+DLG_003 = "Ja"
+DLG_004 = "Nej"
+DLG_005 = "Hjälp"
+DLG_006 = "Rensa"
+DLG_007 = "Stäng"
+DLG_008 = "Information"
+DLG_009 = "Bekräftelse"
+DLG_010 = "Varning"
+DLG_011 = "Varning"
+DLG_012 = "Fel"
+DLG_013 = "Obs! Kontrollera om ni skrivit rätt"
+
+***********
+* GENERAL *
+***********
+
+GENE_000
+GENE_001 = "Version"
+GENE_002 = "Med ensamrätt"
+GENE_003 = "Ogiltig licens."
+GENE_004 = "Guitar Pro - Demoversion"
+GENE_005 = "Du kan endast spara 24 takter i Demoversionen av Guitar Pro."
+GENE_006 = "Om du gillar Guitar Pro, vänligen registrera dig."
+GENE_007 = "Spår"
+GENE_008 = "Slagverk"
+GENE_009 = "Takten är fullständig"
+GENE_010 = "Takten är ej klar"
+GENE_011 = "Takten är överfull"
+GENE_012 = "OREGISTRERAD ANVÄNDARE"
+
+*****************
+* MENUS & HINTS *
+*****************
+
+MN_000
+MN_001 = "Arkiv"
+MN_002 = "Nytt"
+MN_003 = "Öppna"
+MN_004 = "Utforskaren"
+MN_005 = "Spara"
+MN_006 = "Spara som"
+MN_007 = "Partituregenskaper"
+MN_008 = "Allmänna inställningar"
+MN_009 = "Importera"
+MN_010 = "Exportera"
+MN_011 = "MIDI"
+MN_012 = "ASCII Tab"
+MN_013 = "Skriv ut"
+MN_014 = "Förhandsgranska"
+MN_015 = "Skrivarinställningar"
+MN_016 = "Avsluta"
+MN_017 = "Redigera"
+MN_018 = "Klipp ut"
+MN_019 = "Kopiera"
+MN_020 = "Klistra in"
+MN_021 = "Infoga"
+MN_022 = "Rensa"
+MN_023 = "Mixerbord"
+MN_024 = "Spår"
+MN_025 = "Takt"
+MN_026 = "Första"
+MN_027 = "Första takten"
+MN_028 = "Föregående"
+MN_029 = "Föregående takt"
+MN_030 = "Gå till"
+MN_031 = "Gå till takt"
+MN_032 = "Nästa"
+MN_033 = "Nästa takt"
+MN_034 = "Sista"
+MN_035 = "Sista takten"
+MN_036 = "Taktart"
+MN_037 = "Taktart i aktuell takt"
+MN_038 = "Reprisöppning"
+MN_039 = "Reprisslut"
+MN_040 = "Alternativt slut"
+MN_041 = "Not"
+MN_042 = "Helnot"
+MN_043 = "Halvnot"
+MN_044 = "Fjärdedelsnot"
+MN_045 = "Åttondelsnot"
+MN_046 = "Sextondelsnot"
+MN_047 = "Trettiotvådelsnot"
+MN_048 = "Sextiofjärdedelsnot"
+MN_049 = "Punkterad"
+MN_050 = "Ackord"
+MN_051 = "Text"
+MN_052 = "Död not"
+MN_053 = "Paus"
+MN_054 = "Triol"
+MN_055 = "Länka med föregående takt"
+MN_056 = "Infoga ett taktslag"
+MN_057 = "Ta bort taktslaget"
+MN_058 = "Kopiera taktslag/Triol till slutet"
+MN_059 = "Flytta upp"
+MN_060 = "Flytta noten uppåt"
+MN_061 = "Flytta ner"
+MN_062 = "Flytta noten nedåt"
+MN_063 = "Effekter"
+MN_064 = "Hammer On"
+MN_065 = "Pull Off"
+MN_066 = "Slide"
+MN_067 = "Slide"
+MN_068 = "Bend"
+MN_069 = "Bend & Release"
+MN_070 = "Klinga ut"
+MN_071 = "För-anslagsnot"
+MN_072 = "Hård dämpning"
+MN_073 = "Vibrato"
+MN_074 = "Svaj-arm"
+MN_075 = "'Dive & Return' med svaj-armen"
+MN_076 = "Naturlig flageolett"
+MN_077 = "Konstgjord flageolett"
+MN_078 = "Upptoning"
+MN_079 = "Tapping"
+MN_080 = "Slaping (Bass)"
+MN_081 = "Poping (Bass)"
+MN_082 = "Anslag uppåt"
+MN_083 = "Anslag nedåt"
+MN_084 = "Dynamik"
+MN_085 = "Verktyg"
+MN_086 = "Transponera "
+MN_087 = "Taktarrangerare"
+MN_088 = "Fyll i/Reducera takterna med pauser"
+MN_089 = "Automatisk fingerplacering"
+MN_090 = "Funktionen - Klinga ut"
+MN_091 = "Kontrollera taktlängd"
+MN_092 = "Standardnoter"
+MN_093 = "Slagverk"
+MN_094 = "Hastighetstränare"
+MN_095 = "Ljud"
+MN_096 = "Spela upp från början"
+MN_097 = "Spela upp från början (mellanslag)"
+MN_098 = "Spela upp från aktuell takt"
+MN_099 = "Spela upp från aktuell takt (Ctrl+Mellanslag)"
+MN_100 = "Spela upp aktuell takt"
+MN_101 = "Spela upp aktuell takt (Shift+Ctrl+Mellanslag)"
+MN_102 = "Stopp"
+MN_103 = "Stopp (Mellanslag)"
+MN_104 = "Spela upp i en 'Loop'"
+MN_105 = "Metronom"
+MN_106 = "Redigera medan du spelar upp"
+MN_107 = "Visa"
+MN_108 = "Dölj Redigeringsfönstret"
+MN_109 = "Visa 'Klinga ut' noter"
+MN_110 = "Visa notdynamik"
+MN_111 = "Språk"
+MN_112 = "Hjälpspråk"
+MN_113 = "Hjälp"
+MN_114 = "Index"
+MN_115 = "Beställ Guitar Pro!"
+MN_116 = "Registrera din kopia!"
+MN_117 = "Om"
+
+*********************
+* PROPERTIES WINDOW *
+*********************
+
+DLG_PROP_000
+DLG_PROP_001 = "Partituregenskaper"
+DLG_PROP_002 = "Titel"
+DLG_PROP_003 = "Kompositör"
+DLG_PROP_004 = "Kommentar"
+DLG_PROP_005 = "Tempo"
+DLG_PROP_006 = "Triolkänsla:"
+DLG_PROP_007 = "Spårets namn"
+DLG_PROP_008 = "Instrument"
+DLG_PROP_009 = "Instrumentlista"
+DLG_PROP_010 = "Stämningsbibliotek"
+DLG_PROP_011 = "Strängar"
+DLG_PROP_012 = "Stämning"
+DLG_PROP_013 = "Band"
+DLG_PROP_014 = "Solo"
+DLG_PROP_015 = "Dämpa spår"
+DLG_PROP_016 = "Exportera ej"
+DLG_PROP_017 = "12 sträng simulering"
+DLG_PROP_018 = "Volym"
+DLG_PROP_019 = "Panorera"
+DLG_PROP_020 = "Chorus"
+DLG_PROP_021 = "Reverb"
+DLG_PROP_022 = "Kanal reserverad för slagverk"
+DLG_PROP_023 = "Använd noterna 27 till 87"
+DLG_PROP_024 = "på tabulatur linjerna."
+DLG_PROP_025 = "En eller flera noter i takten %s kan inte placeras på %s 
+strängarna."
+
+***************************
+* MIDI IMPORTATION WINDOW *
+***************************
+
+DLG_IMPM_000
+DLG_IMPM_001 = "Importering av MIDI-fil"
+DLG_IMPM_002 = "Välj önskat spår att importera:"
+DLG_IMPM_003 = "Upphäv spårval"
+DLG_IMPM_004 = "Transponera till en lägre oktav"
+DLG_IMPM_005 = "Kvantisering:"
+DLG_IMPM_006 = "Varning: ett importerat slagverksspår" { end at 007 }
+DLG_IMPM_007 = "kan bara skrivas till Spår 8/ Kanal 10."
+DLG_IMPM_008 = "I Demoversion av Guitar Pro är importen begränsad till 50 
+noter."
+DLG_IMPM_009 = "Om du gillar Guitar Pro, vänligen registrera dig."
+DLG_IMPM_010 = "Sök spår..."
+DLG_IMPM_011 = "Ospecificerad"
+DLG_IMPM_012 = "Läser spår..."
+DLG_IMPM_013 = "Skapar partitur..."
+DLG_IMPM_014 = "Optimerar fingerposition..."
+DLG_IMPM_015 = "MIDI-formatet okänt."
+
+***************************
+* MIDI EXPORTATION WINDOW *
+***************************
+
+DLG_EXPM_000
+DLG_EXPM_001 = "Eportera MIDI"
+DLG_EXPM_002 = "Kan inte skriva till filen. Exporteringen avbruten."
+
+****************************
+* ASCII IMPORTATION WINDOW *
+****************************
+
+DLG_IMPA_000
+DLG_IMPA_001 = "Importera ASCII Tab"
+DLG_IMPA_002 = "Kan inte öppna filen. Importeringen avbruten."
+DLG_IMPA_003 = "Importera"
+DLG_IMPA_004 = "Öppna"
+DLG_IMPA_005 = "Skriv ut"
+DLG_IMPA_006 = "Importera med :"
+DLG_IMPA_007 = "Obs! Import utförd på aktivt spår"
+DLG_IMPA_008 = "Detta är en Demoversion av Guitar Pro. Importen begränsad 
+till 50 noter."
+DLG_IMPA_009 = "Om du gillar Guitar Pro, vänligen registrera dig."
+DLG_IMPA_010 = "<variabel>"
+DLG_IMPA_011 = "halvnoter"
+DLG_IMPA_012 = "fjärdedelsnoter"
+DLG_IMPA_013 = "åttondelsnoter"
+DLG_IMPA_014 = "sextondelsnoter"
+
+****************************
+* ASCII EXPORTATION WINDOW *
+****************************
+
+DLG_EXPA_000
+DLG_EXPA_001 = "Exportera ASCII Tab"
+DLG_EXPA_002 = "Exportera"
+DLG_EXPA_003 = "Skriv ut"
+DLG_EXPA_004 = "Kolumner:"
+DLG_EXPA_005 = "Verkställ ändring av kolumnbredd"
+DLG_EXPA_006 = "Rytm"
+DLG_EXPA_007 = "Kan inte skriva till fil. Export avbruten."
+
+**********************
+* PREFERENCES WINDOW *
+**********************
+
+DLG_PREF_000
+DLG_PREF_001 = "Allmänna inställningar"
+DLG_PREF_002 = "Allmänt"
+DLG_PREF_003 = "Musik vid uppstart"
+DLG_PREF_004 = "Ingen"
+DLG_PREF_005 = "Välj en Wave-fil"
+DLG_PREF_006 = "Wave-fil"
+DLG_PREF_007 = "Typ av 'Scrolling' under uppspelning"
+DLG_PREF_008 = "Skärm för skärm"
+DLG_PREF_009 = "Rad för rad"
+DLG_PREF_010 = "Metronom"
+DLG_PREF_011 = "Volym"
+DLG_PREF_012 = "Under uppspelning"
+DLG_PREF_013 = "Räkna in"
+DLG_PREF_014 = "Betona första taktslaget"
+DLG_PREF_015 = "Använd alltid metronom vid hastighetsträning"
+DLG_PREF_016 = "Uppspelning"
+DLG_PREF_017 = "Exportera (MIDI)"
+DLG_PREF_018 = "Effekter"
+DLG_PREF_019 = "Repriser"
+DLG_PREF_020 = "Ljudkort"
+DLG_PREF_021 = "Begränsa 'Bendning' till 1 ton"
+DLG_PREF_022 = "Använd detta om 'Bendnings'-effekten låter fel."
+DLG_PREF_023 = "Ackord-igenkänning"
+DLG_PREF_024 = "Lägg alltid till basnoten till ackordnamnet när den avviker 
+från grundtonen"
+DLG_PREF_025 = "Återställ"
+DLG_PREF_026 = "Visa"
+DLG_PREF_027 = "Vänster marginal"
+DLG_PREF_028 = "Höger marginal"
+DLG_PREF_029 = "Avst. mel. linjer"
+DLG_PREF_030 = "Avst. mel. rader"
+DLG_PREF_031 = "Ackord(diagram) position"
+DLG_PREF_032 = "Ackord(namn) position"
+DLG_PREF_033 = "Textposition"
+DLG_PREF_034 = "Rytm hori. linjebredd"
+DLG_PREF_035 = "Noter"
+DLG_PREF_036 = "Ackordnamn:"
+DLG_PREF_037 = "Text:"
+DLG_PREF_038 = "Taktart:"
+DLG_PREF_039 = "Taktnummer:"
+DLG_PREF_040 = "Repriser:"
+DLG_PREF_041 = "Diagramstorlek:"
+DLG_PREF_042 = "Ackord-diagram färg:"
+DLG_PREF_043 = "Tablinjer färg:"
+DLG_PREF_044 = "Rytmlinjer färg:"
+DLG_PREF_045 = "Effekter färg:"
+DLG_PREF_046 = "Bakgrund färg:"
+DLG_PREF_047 = "Felaktig takt färg:"
+DLG_PREF_048 = "Markering färg:"
+DLG_PREF_049 = "Ackord-diagram"
+DLG_PREF_050 = "Ackordnamn"
+DLG_PREF_051 = "Ackordlista överst"
+DLG_PREF_052 = "Text"
+DLG_PREF_053 = "Effekter"
+DLG_PREF_054 = "Rytmlinjer"
+DLG_PREF_055 = "Antal takter"
+DLG_PREF_056 = "Avst. mel. noter"
+DLG_PREF_057 = "Rytm. proportion"
+DLG_PREF_058 = "Anv. #1"
+DLG_PREF_059 = "Anv. #2"
+DLG_PREF_060 = "Anv. #3"
+DLG_PREF_061 = "Förkoll"
+DLG_PREF_062 = "Utskrift"
+DLG_PREF_063 = "Övre m."
+DLG_PREF_064 = "Undre m."
+DLG_PREF_065 = "Vänster"
+DLG_PREF_066 = "Höger"
+DLG_PREF_067 = "Skriv ut helsida"
+DLG_PREF_068 = "Markerat utskriftsområde:"
+DLG_PREF_069 = "Bredd"
+DLG_PREF_070 = "Höjd"
+DLG_PREF_071 = "Centrera"
+DLG_PREF_072 = "Skriv ut ramomr."
+DLG_PREF_073 = "Globala proportioner"
+DLG_PREF_074 = "Avst. mellan tabs"
+DLG_PREF_075 = "Notavstånd"
+DLG_PREF_076 = "Rytm proportioner"
+DLG_PREF_077 = "Ackorddiagr. storl."
+DLG_PREF_078 = "Diagram position"
+DLG_PREF_079 = "Ackordnamn position"
+DLG_PREF_080 = "Text position"
+DLG_PREF_081 = "Titel/Komp avstånd"
+DLG_PREF_082 = "Komp/Tab avstånd"
+DLG_PREF_083 = "Titel:"
+DLG_PREF_084 = "Kompositör:"
+DLG_PREF_085 = "Kommentarer:"
+DLG_PREF_086 = "Sidnummer:"
+DLG_PREF_087 = "Noter:"
+DLG_PREF_088 = "Ackordnamn:"
+DLG_PREF_089 = "Ackord-diagram:"
+DLG_PREF_090 = "Text:"
+DLG_PREF_091 = "Taktart:"
+DLG_PREF_092 = "Repriser:"
+DLG_PREF_093 = "Titel"
+DLG_PREF_094 = "Kompositör"
+DLG_PREF_095 = "Kommentar"
+DLG_PREF_096 = "Triolkänsla, stämning..."
+DLG_PREF_097 = "Sidnummer"
+DLG_PREF_098 = "Taktnummer"
+DLG_PREF_099 = "Ackord-diagram"
+DLG_PREF_100 = "Ackordnamn"
+DLG_PREF_101 = "Ackordlista högst upp"
+DLG_PREF_102 = "Text"
+DLG_PREF_103 = "Effekter"
+DLG_PREF_104 = "Rytmlinjer"
+DLG_PREF_105 = "Kontrollera om all text är som svarta lådor"
+DLG_PREF_106 = "Granska"
+DLG_PREF_107 = "Force x Bars per Staff:"
+
+*****************
+* BROWSE WINDOW *
+*****************
+
+DLG_BROWSE_000
+DLG_BROWSE_001 = "Utforskaren"
+DLG_BROWSE_002 = "Stäng"
+DLG_BROWSE_003 = "Sök igenom underbibliotek"
+DLG_BROWSE_004 = "Spela upp markerad fil"
+DLG_BROWSE_005 = "Inget hopp"
+DLG_BROWSE_006 = "Hoppa vidare efter 1 takt"
+DLG_BROWSE_007 = "Hoppa vidare efter 2 takter"
+DLG_BROWSE_008 = "Hoppa vidare efter 5 takter"
+DLG_BROWSE_009 = "Hoppa vidare efter 10 takter"
+DLG_BROWSE_010 = "Hoppa vidare efter 25 takter"
+DLG_BROWSE_011 = "Hoppa vidare efter spåret"
+DLG_BROWSE_012 = "Titel:"
+DLG_BROWSE_013 = "Av:"
+DLG_BROWSE_014 = "Info:"
+DLG_BROWSE_015 = "Takt(er):"
+DLG_BROWSE_016 = "G/B/S:" { G=Guitar / B=Bass / P=Percussion }
+DLG_BROWSE_017 = "Namn"
+DLG_BROWSE_018 = "Storlek"
+DLG_BROWSE_019 = "Senast ändrad"
+DLG_BROWSE_020 = "Bibliotek"
+DLG_BROWSE_021 = "fil(er)"
+DLG_BROWSE_022 = "Söker..."
+DLG_BROWSE_023 = "Stopp"
+DLG_BROWSE_024 = "Sök i underbibliotek"
+DLG_BROWSE_025 = "Läser filen..."
+
+****************
+* BRUSH WINDOW *
+****************
+
+DLG_BRUSH_000
+DLG_BRUSH_001 = "Anslag"
+DLG_BRUSH_002 = "Anslagstid"
+
+**************************
+* MIX TABLE EVENT WINDOW *
+**************************
+
+DLG_MIX_000
+DLG_MIX_001 = "Ändringar av MIDI-återgivningsparametrar"
+DLG_MIX_002 = "Välj de parametrar som ska ändras från det aktuella 
+taktslaget och när ändringen skall träda i kraft :"
+DLG_MIX_003 = "Instrument"
+DLG_MIX_004 = "Volym"
+DLG_MIX_005 = "Panorering"
+DLG_MIX_006 = "Chorus"
+DLG_MIX_007 = "Reverb"
+DLG_MIX_008 = "Tempo"
+DLG_MIX_009 = "Omedelbart"
+DLG_MIX_010 = "Ett taktslag"
+DLG_MIX_011 = "%s taktslag" { use plurial }
+DLG_MIX_012 = "Nytt värde"
+DLG_MIX_013 = "Ändras när?"
+
+************************************
+* COMPLETE/REDUCE ASSISTANT WINDOW *
+************************************
+
+DLG_ASS_CR_000
+DLG_ASS_CR_001 = "Bekräfta taktändring?"
+
+*****************************
+* LET RING ASSISTANT WINDOW *
+*****************************
+
+DLG_ASS_LR_000
+DLG_ASS_LR_001 = "Funktionen - Klinga ut"
+DLG_ASS_LR_002 = "Det här verktyget låter dig ändra 'Klinga ut' 
+inställningarna hos en grupp noter."
+DLG_ASS_LR_003 = "Taktomfång:"
+DLG_ASS_LR_004 = "till"
+DLG_ASS_LR_005 = "Strängar som berörs:"
+DLG_ASS_LR_006 = "'Klinga ut' inställning:"
+DLG_ASS_LR_007 = "Ja"
+DLG_ASS_LR_008 = "Nej"
+DLG_ASS_LR_009 = "Ingen sträng är vald."
+
+******************************
+* FINGERING ASSISTANT WINDOW *
+******************************
+
+DLG_ASS_FG_000
+DLG_ASS_FG_001 = "Automatisk fingerplacering"
+DLG_ASS_FG_002 = "Takter:"
+DLG_ASS_FG_003 = "till"
+
+******************************
+* TRANSPOSE ASSISTANT WINDOW *
+******************************
+
+DLG_ASS_TR_000
+DLG_ASS_TR_001 = "Transponera"
+DLG_ASS_TR_002 = "Transponering:"
+DLG_ASS_TR_003 = "halva tonsteg"
+
+***********************************
+* CHECK DURATION ASSISTANT WINDOW *
+***********************************
+
+DLG_ASS_CD_000
+DLG_ASS_CD_001 = "Kontroll slutförd."
+DLG_ASS_CD_002 = "Ogiltig taktlängd i takt %s - spår %s."
+
+**********************************
+* SPEED TRAINER ASSISTANT WINDOW *
+**********************************
+
+DLG_ASS_ST_000
+DLG_ASS_ST_001 = "Hastighetstränare"
+DLG_ASS_ST_002 = "Takter:"
+DLG_ASS_ST_003 = "Tempo:"
+DLG_ASS_ST_004 = "till"
+DLG_ASS_ST_005 = "Öka tempot varje gång med:"
+
+**************
+* CUT WINDOW *
+**************
+
+DLG_CUT_000
+DLG_CUT_001 = "Klipp ut"
+DLG_CUT_002 = "Takter:"
+DLG_CUT_003 = "till"
+DLG_CUT_004 = "Den här funktionen klipper ut från alla spår. "
+DLG_CUT_005 = "För att klippa ut en takt på enbart ett spår, använd 
+Kopiera/Klistra in funktionerna."
+
+**********************
+* COPY/CLEAR WINDOWS *
+**********************
+
+DLG_COPY_000
+DLG_COPY_001 = "Kopiera"
+DLG_COPY_002 = "Rensa"
+DLG_COPY_003 = "Takter:"
+DLG_COPY_004 = "till"
+DLG_COPY_005 = "Alla spår"
+DLG_COPY_006 = "Enbart aktuellt spår"
+
+*****************
+* PASTE WINDOWS *
+*****************
+
+DLG_PASTE_000
+DLG_PASTE_001 = "Klistra in"
+DLG_PASTE_002 = "Bekräfta inklistring av %s takt(er) till aktuellt spår?"
+DLG_PASTE_003 = "Bekräfta inklistring av %s takt(er) till alla spår?"
+DLG_PASTE_004 = "Placera urklipp vid markering"
+DLG_PASTE_005 = "Infoga urklipp innan markering"
+DLG_PASTE_006 = "Lägg till urklipp i slutet av låten"
+DLG_PASTE_007 = "Antal inklistringar"
+DLG_PASTE_008 = "Inklistring av slagverksdata på spåren 1-7 är inte 
+tillåtet."
+DLG_PASTE_009 = "Inklistring av data från spår 1-7 på slagverksspåret är 
+inte tillåtet."
+DLG_PASTE_010 = "Inklistring ej möjlig : antalet strängar är inte samma som 
+hos originalspåret."
+
+******************
+* DYNAMIC WINDOW *
+******************
+
+DLG_DYNA_000
+DLG_DYNA_001 = "Dynamik"
+DLG_DYNA_002 = "Sätt som grundinställning"
+DLG_DYNA_003 = "Sätt nuvarande dynamik som grunddynamik för nya noter"
+DLG_DYNA_004 = "Använd på ackordet"
+DLG_DYNA_005 = "Använd dynamiken till hela ackordet"
+
+*********************
+* GRACE NOTE WINDOW *
+*********************
+
+DLG_GRACE_000
+DLG_GRACE_001 = "För-anslagsnot"
+DLG_GRACE_002 = "Not"
+DLG_GRACE_003 = "Längd"
+DLG_GRACE_004 = "Dynamik"
+DLG_GRACE_005 = "Död not: X"
+DLG_GRACE_006 = "Band:"
+
+****************
+* INTRO WINDOW *
+****************
+
+DLG_INTRO_000
+DLG_INTRO_001 = "Du använder en Demoversion av Guitar Pro som är begränsad 
+till %s dagar."
+DLG_INTRO_002 = "Efter den tiden, måste du registrera dig för att kunna 
+fortsätta använda Guitar Pro."
+DLG_INTRO_003 = "Beställ Guitar Pro !"
+DLG_INTRO_004 = "Låt mig prova först..."
+DLG_INTRO_005 = "Begränsningarna hos Demoversionen är :"
+DLG_INTRO_006 = "- Endast 24 takter kan sparas"
+DLG_INTRO_007 = "- Utskrift ej möjlig"
+DLG_INTRO_008 = "- Importering av MIDI och ASCII är begränsad till 50 noter"
+
+******************
+* LICENSE WINDOW *
+******************
+
+DLG_LIC_000
+DLG_LIC_001 = "Licens"
+DLG_LIC_002 = "Hej, och ett stort tack till att du valt Guitar Pro."
+DLG_LIC_003 = "Vi hoppas du kommer att vara helt nöjd med att använda det."
+DLG_LIC_004 = "För att använda programmet måste du ange USER ID och KEY ID 
+."
+DLG_LIC_005 = "Dessa koder finner du på förpackningen."
+DLG_LIC_006 = "Du använder för närvarande en TEMPORÄR licens. Vänligen skriv 
+in ditt riktiga ANVÄNDAR ID och NYCKEL ID så fort du fått dem."
+
+************************
+* PRINT PREVIEW WINDOW *
+************************
+
+DLG_PRW_000
+DLG_PRW_001 = "Förhandsgranska"
+DLG_PRW_002 = "Skriv ut"
+DLG_PRW_003 = "Inst."
+
+****************
+* PRINT WINDOW *
+****************
+
+DLG_PRT_000
+DLG_PRT_001 = "Skriv ut"
+DLG_PRT_002 = "Skrivare:"
+DLG_PRT_003 = "Alla"
+DLG_PRT_004 = "Sidor:"
+DLG_PRT_005 = "till"
+DLG_PRT_006 = "Konfigurera..."
+
+****************
+* CHORD WINDOW *
+****************
+
+DLG_CHORD_000
+DLG_CHORD_001 = "Ackord"
+DLG_CHORD_002 = "Enkel"
+DLG_CHORD_003 = "Medel"
+DLG_CHORD_004 = "Alla"
+DLG_CHORD_005 = "Omvändning"
+DLG_CHORD_006 = "Bas"
+DLG_CHORD_007 = "Välj vilka du vill utelämna"
+DLG_CHORD_008 = "Alternativa namn"
+DLG_CHORD_009 = "Använda"
+DLG_CHORD_010 = "Högst upp"
+DLG_CHORD_011 = "Bibliotek"
+DLG_CHORD_012 = "Använd diagram"
+DLG_CHORD_013 = "Lägg till"
+DLG_CHORD_014 = "Ta bort"
+DLG_CHORD_015 = "Ersätt"
+DLG_CHORD_016 = "Flytta upp"
+DLG_CHORD_017 = "Flytta ned"
+DLG_CHORD_018 = "Lyssna"
+DLG_CHORD_019 = "Användare"
+DLG_CHORD_020 = "Namnge ackordet först."
+DLG_CHORD_021 = "Välj först vilket ackord du vill ta bort."
+DLG_CHORD_022 = "Bekräfta borttagning av ackord %s ?"
+DLG_CHORD_023 = "Välj först vilket ackord du vill uppdatera."
+DLG_CHORD_024 = "Välj först vilket ackord du vill flytta."
+
+***************
+* TEXT WINDOW *
+***************
+
+DLG_TXT_000
+DLG_TXT_001 = "Text"
+DLG_TXT_002 = "Text"
+
+********************
+* GO TO BAR WINDOW *
+********************
+
+DLG_GOTOB_000
+DLG_GOTOB_001 = "Gå till takt..."
+DLG_GOTOB_002 = "Takt"
+
+***************
+* BEND WINDOW *
+***************
+
+DLG_BEND_000
+DLG_BEND_001 = "Bend"
+DLG_BEND_002 = "Bend & Release"
+DLG_BEND_003 = "Värde"
+
+*********************
+* STROKE VIB WINDOW *
+*********************
+
+DLG_STROKV_000
+DLG_STROKV_001 = "'Dive & Return' med svaj-armen"
+DLG_STROKV_002 = "Värde"
+
+**********************
+* INSTRUMENTS WINDOW *
+**********************
+
+DLG_INSTR_000
+DLG_INSTR_001 = "Instrument (General MIDI)"
+
+*************************
+* TIME SIGNATURE WINDOW *
+*************************
+
+DLG_TIMES_000
+DLG_TIMES_001 = "Taktart"
+DLG_TIMES_002 = "Ända till slutet"
+
+*********************
+* REPEAT END WINDOW *
+*********************
+
+DLG_REPE_000
+DLG_REPE_001 = "Reprisavslut"
+DLG_REPE_002 = "Antal repriser"
+
+****************************
+* ALTERNATE ENDINGS WINDOW *
+****************************
+
+DLG_DIFE_000
+DLG_DIFE_001 = "Alternativa avslut"
+DLG_DIFE_002 = "till"
+
+*********
+* FILES *
+*********
+
+FILES_000
+FILES_001 = "Spara ändringarna i %s ?"
+FILES_002 = "Filen %s kan inte hittas."
+FILES_003 = "Filen %s finns redan."
+FILES_004 = "Vill du ersätta den befintliga ?"
+FILES_005 = "<namnlös>" { name for a new file }
+FILES_006 = "Kan inte läsa filen. Öppning avbruten."
+FILES_007 = "Okänd fil. Öppning avbruten."
+FILES_008 = "För att öppna den här filen behöver du uppdatera Guitar Pro."
+FILES_009 = "MIDI Fel"
+FILES_010 = "Känner inte igen MIDI formatet."
+FILES_011 = "Guitar Pro filer"
+FILES_012 = "MIDI filer"
+FILES_013 = "ASCII Tab filer"
+FILES_014 = "Alla filer"
+FILES_015 = "Importera MIDI"
+FILES_016 = "Exportera MIDI"
+FILES_017 = "Importera ASCII Tab"
+FILES_018 = "Exportera ASCII Tab"
+
+****************
+* ORDER WINDOW *
+****************
+
+DLG_REG_000
+DLG_REG_001 = "Du gillar Guitar Pro och önskar använda fullversionen?"
+DLG_REG_002 = "Varför vänta, beställ nu och du får hem din fullversion inom 
+1h!"
+DLG_REG_003 = "Förutom att ta bort begränsningarna, så ger en registrering 
+fler fördelar som :"
+DLG_REG_004 = "Tillgång till teknisk support"
+DLG_REG_005 = "Erhålla fria uppgraderingar för 4.x versioner"
+DLG_REG_006 = "Erhålla specialerbjudnde för uppgradering till version 5.x"
+DLG_REG_007 = "För prislista, betalningsmetoder och återförsäljare, vänligen 
+besök vår hemsida:"
+
+*****************************
+* REGISTER YOUR COPY WINDOW *
+*****************************
+
+DLG_REGC_000
+DLG_REGC_001 = "Registrera din kopia!"
+DLG_REGC_002 = "Vi kan varmt rekommendera dig att registrera din fullversion 
+av Guitar Pro."
+DLG_REGC_003 = "Det tar bara några minuter och det ger dig många förmåner 
+som:"
+DLG_REGC_004 = "Tillgång till teknisk support"
+DLG_REGC_005 = "Erhålla fria uppgraderingar för 4.x versioner"
+DLG_REGC_006 = "Erhålla specialerbjudnde för uppgradering till version 5.x"
+DLG_REGC_007 = "Viktigt: Om du förlorar din installationsfil eller licens, 
+kan du ENDAST återfå den om du har registrerat programmet."
+DLG_REGC_008 = "Online registrering från vår sida."
+DLG_REGC_009 = "Brev eller fax registrering"
+DLG_REGC_010 = "Tel:"
+DLG_REGC_011 = "Fax:"
+DLG_REGC_012 = "Visa detta fönser vid uppstart"
+
+********************
+* ORDER PAPER FORM *
+********************
+
+DLG_REGPF_000
+DLG_REGPF_001 = "GUITAR PRO BESTÄLLNINGSFORMULÄR (VIA CHECK ELLER EUROCHECK 
+I EURO)"
+DLG_REGPF_002 = "Vänligen, fyll i alla fält [ ] i formuläret,"
+DLG_REGPF_003 = "skriv ut det och skicka det till :"
+DLG_REGPF_004 = "med din betalning per check eller Eurocheck i EURO"
+DLG_REGPF_005 = "till %s."
+DLG_REGPF_006 = "BESTÄLLNING"
+DLG_REGPF_007 = "Guitar Pro %s via e-mail (uppdatering)"
+DLG_REGPF_008 = "Guitar Pro %s via e-mail"
+DLG_REGPF_009 = "Guitar Pro %s CDROM support + frakt"
+DLG_REGPF_010 = "Tveka inte att fråga oss"
+DLG_REGPF_011 = "DINA REFERENSER"
+DLG_REGPF_012 = "Datum:"
+DLG_REGPF_013 = "Förnamn:"
+DLG_REGPF_014 = "EFTERNAMN:"
+DLG_REGPF_015 = "ANVÄNDAR ID:"
+DLG_REGPF_016 = "NYCKEL ID:"
+DLG_REGPF_017 = "Adress:"
+DLG_REGPF_018 = "Postnummer:"
+DLG_REGPF_019 = "Ort/Stad:"
+DLG_REGPF_020 = "Stat/Provins (Landskap?):"
+DLG_REGPF_021 = "Land:"
+DLG_REGPF_022 = "Tel:"
+DLG_REGPF_023 = "Fax:"
+DLG_REGPF_024 = "E-mail:"
+DLG_REGPF_025 = "Anmärkningar:"
+DLG_REGPF_026 = "(Absolut nödvändigt om du inte beställer CD-ROM)"
+DLG_REGPF_027 = "Du får programmet inom 24h via e-mail och 15 dagar för 
+CD-ROM supporten"
+DLG_REGPF_028 = "(om du beställer en uppdatering)"
+
+*********************************
+* REGISTER YOUR COPY PAPER FORM *
+*********************************
+
+DLG_REGCPF_000
+DLG_REGCPF_001 = "REGISTRERING - GUITAR PRO PROGRAM"
+DLG_REGCPF_002 = "Vänligen, fyll i alla fält [ ] i formuläret,"
+DLG_REGCPF_003 = "skriv ut det och skicka det till :"
+DLG_REGCPF_004 = "från Frankrike"  { for the fax number }
+DLG_REGCPF_005 = "från annat land"  { for the fax number }
+DLG_REGCPF_006 = "DINA REFERENSER"
+DLG_REGCPF_007 = "Datum:"
+DLG_REGCPF_008 = "Version:"
+DLG_REGCPF_009 = "Förnamn:"
+DLG_REGCPF_010 = "EFTERNAMN:"
+DLG_REGCPF_011 = "Adress:"
+DLG_REGCPF_012 = "Postnummer:"
+DLG_REGCPF_013 = "Stad:"
+DLG_REGCPF_014 = "Stat/Provins (Landskap?) :"
+DLG_REGCPF_015 = "Land:"
+DLG_REGCPF_016 = "Tel:"
+DLG_REGCPF_017 = "Fax:"
+DLG_REGCPF_018 = "E-mail:"
+DLG_REGCPF_019 = "(se programmets förpackning)"
+DLG_REGCPF_020 = "ANONYMA KUNDFRÅGOR (Obs! SVARA på Engelska eller Franska)"
+DLG_REGCPF_021 = "Hur upptäckte du Guitar Pro?"
+DLG_REGCPF_022 = "Hur länge provade du Guitar Pro innan du valde att köpa 
+det?"
+DLG_REGCPF_023 = "Hur använder du Guitar Pro (göra kompositioner, att öva 
+med, etc...) ?"
+DLG_REGCPF_024 = "I vilken affär eller från vilken internetsida köpte du 
+Guitar Pro ?"
+DLG_REGCPF_025 = "Anmärkningar, förslag, ..."
+
+********************
+* v3.0 BEND WINDOW *
+********************
+
+DLG300_BEND_000
+DLG300_BEND_001 = "Bend"
+DLG300_BEND_002 = "Spela upp"
+DLG300_BEND_003 = "Välj typ av Bend :"
+DLG300_BEND_004 = "Klicka för att lägga till eller ta bort punkter 
+(högerklicka = vibraton) :"
+DLG300_BEND_005 = "Notvärde = "
+DLG300_BEND_006 = "Effekten kan inte spelas eftersom du har valt att 
+begränsa tonomfånget till 1 ton under MIDI inställningarna (menyn: 
+Alternativ|MIDI inställningar)."
+DLG300_BEND_007 = "Denna begränsning är nödvändig för enklare ljudkort."
+
+**************************
+* v3.0 GRACE NOTE WINDOW *
+**************************
+
+DLG300_GRACE_000
+DLG300_GRACE_001 = "Övergång"
+DLG300_GRACE_002 = "Ingen"
+DLG300_GRACE_003 = "Slide"
+DLG300_GRACE_004 = "Bend"
+DLG300_GRACE_005 = "Hammer"
+
+***********************
+* v3.0 MARKERS WINDOW *
+***********************
+
+DLG300_MARKERS_000
+DLG300_MARKERS_001 = "Markörlista"
+DLG300_MARKERS_002 = "Pos."
+DLG300_MARKERS_003 = "Namn"
+DLG300_MARKERS_004 = "Lägg till"
+DLG300_MARKERS_005 = "Redigera"
+DLG300_MARKERS_006 = "Ta bort"
+DLG300_MARKERS_007 = "Gå till"
+DLG300_MARKERS_008 = "Bekräfta borttagningen av markören %s ?"
+DLG300_MARKERS_009 = "Infoga en Markör"
+DLG300_MARKERS_010 = "Redigera en Markör"
+DLG300_MARKERS_011 = "Takt :"
+DLG300_MARKERS_012 = "Färg :"
+DLG300_MARKERS_013 = "Namn :"
+DLG300_MARKERS_014 = "Sektion"
+
+********************************
+* v3.0 MIDI IMPORTATION WINDOW *
+********************************
+
+DLG300_IMPM_000
+DLG300_IMPM_001 = "MIDI Import"
+DLG300_IMPM_002 = "MIDI spår :"
+DLG300_IMPM_003 = "Kvantisering av ackord-position"
+DLG300_IMPM_004 = "Kvantisering av notvärden"
+DLG300_IMPM_005 = "Transponera till en lägre oktav"
+DLG300_IMPM_006 = "Snabb import för otåliga :-)"
+DLG300_IMPM_007 = "Med den här funktionen importeras markerade spår till en 
+ny fil."
+DLG300_IMPM_008 = "Stämningen sker automatiskt beroende på MIDI spårets 
+namn."
+DLG300_IMPM_009 = "Använd 2 kanaler per spår"
+DLG300_IMPM_010 = "Importera !"
+DLG300_IMPM_011 = "Steg för steg import"
+DLG300_IMPM_012 = "Den här funktionen ger dig mer kontroll över importen och 
+låter dig slå samman spår."
+DLG300_IMPM_013 = "Importera Titel och Taktartsändringar."
+DLG300_IMPM_014 = "Lägg till ett spår i Guitar Pro..."
+DLG300_IMPM_015 = "Importera markerade spår till det aktuella spåret i 
+Guitar Pro."
+DLG300_IMPM_016 = "Detta är en Demoversion av Guitar Pro. Importen begränsad 
+till 50 noter."
+DLG300_IMPM_017 = "Om du gillar Guitar Pro, vänligen registrera dig."
+DLG300_IMPM_018 = "Visa fönster"
+DLG300_IMPM_019 = "Dölj fönster"
+DLG300_IMPM_020 = "MIDI formatet %s stöds ej. Vänligen använd MIDI formaten 
+0 eller 1."
+DLG300_IMPM_021 = "Vänligen markera åtminstone ett MIDI spår."
+DLG300_IMPM_022 = "Markera alla spår"
+DLG300_IMPM_023 = "Avmarkera alla spår"
+DLG300_IMPM_024 = "Spela upp markerade spår"
+DLG300_IMPM_025 = "Stopp"
+DLG300_IMPM_026 = "Öppna en annan fil"
+
+**************************
+* v3.0 MIDI SETUP WINDOW *
+**************************
+
+DLG300_MIDISETUP_000
+DLG300_MIDISETUP_001 = "MIDI inställningar"
+DLG300_MIDISETUP_002 = "MIDI utgångar"
+DLG300_MIDISETUP_003 = "Port"
+DLG300_MIDISETUP_004 = "Styrenhet"
+DLG300_MIDISETUP_005 = "Instrument 'Patch'"
+DLG300_MIDISETUP_006 = "Begränsat tonomfång"
+DLG300_MIDISETUP_007 = "Provspela den här utgången"
+DLG300_MIDISETUP_008 = "Välj 'Begränsat tonomfång' om bend eller slide 
+effekterna låter illa. Detta begränsar tonomfånget till 1 ton."
+DLG300_MIDISETUP_009 = "Enklare ljudkort stödjer inte tonomfång som är högre 
+än 1 ton."
+DLG300_MIDISETUP_010 = "Du kan inte använda samma styrenhet på olika 
+portar."
+
+**************************
+* v3.0 SCORE INFO WINDOW *
+**************************
+
+DLG300_SCORE_INFO_000
+DLG300_SCORE_INFO_001 = "Partiturinformation"
+DLG300_SCORE_INFO_002 = "Standardinformation"
+DLG300_SCORE_INFO_003 = "Titel"
+DLG300_SCORE_INFO_004 = "Undertitel"
+DLG300_SCORE_INFO_005 = "Artist"
+DLG300_SCORE_INFO_006 = "Album"
+DLG300_SCORE_INFO_007 = "Kompositör"
+DLG300_SCORE_INFO_008 = "Upphovsrätt"
+DLG300_SCORE_INFO_009 = "Tab"
+DLG300_SCORE_INFO_010 = "Instruktioner"
+DLG300_SCORE_INFO_011 = "Kommentarer"
+DLG300_SCORE_INFO_012 = "Triolkänsla :"
+DLG300_SCORE_INFO_013 = "Skriv in den information du vill ska användas som 
+standard när du öppnar en ny partitur :"
+
+**************************
+* v3.0 TRACK INFO WINDOW *
+**************************
+
+DLG300_TRACK_INFO_000
+DLG300_TRACK_INFO_001 = "Lägg till ett spår"
+DLG300_TRACK_INFO_002 = "Typ"
+DLG300_TRACK_INFO_003 = "Instrument"
+DLG300_TRACK_INFO_004 = "Position"
+DLG300_TRACK_INFO_005 = "Först"
+DLG300_TRACK_INFO_006 = "Sist"
+DLG300_TRACK_INFO_007 = "Före"
+DLG300_TRACK_INFO_008 = "Efter"
+DLG300_TRACK_INFO_009 = "Spårets egenskaper"
+DLG300_TRACK_INFO_010 = "Färg"
+DLG300_TRACK_INFO_011 = "Speciellt för Banjo 5:e strängen"
+DLG300_TRACK_INFO_012 = "Vill du transponera spåret med den nya stämningen 
+?"
+
+***************************
+* v3.0 PREFERENCES WINDOW *
+***************************
+
+DLG300_PREF_000
+DLG300_PREF_001 = "Uppspelning visas med"
+DLG300_PREF_002 = "Rektangel runt omkring takten"
+DLG300_PREF_003 = "Triangel under noten"
+DLG300_PREF_004 = "Upplyst not"
+
+*********************************
+* v3.0 ASCII IMPORTATION WINDOW *
+*********************************
+
+DLG300_IMPA_000
+DLG300_IMPA_001 = "Antalet strängar skiljer sig från det aktuella spåret."
+DLG300_IMPA_002 = "Vänligen justera antalet strängar i det aktuella spåret 
+först."
+
+****************
+* v3.0 GENERAL *
+****************
+
+GENE300_000
+GENE300_001 = "Maximalt antal spår som stöds :"
+GENE300_002 = "Bekräfta borttagning av spår %s ?"
+GENE300_003 = "Demoversionen tillåter inte att skriva ut partituren."
+GENE300_004 = "ingen" { for the MIDI ports }
+GENE300_005 = "Omöjligt att öppna MIDI porten [%s]."
+GENE300_006 = "Vänligen stäng andra MIDI program eller modifiera dina MIDI 
+inställningar."
+GENE300_007 = "Ingen 'patch' vald" { instrument patch }
+GENE300_008 = "'Patch' ej hittad" { instrument patch }
+GENE300_009 = "Spela upp från %s"
+GENE300_010 = "Gå till %s"
+GENE300_011 = "Trummset"
+GENE300_012 = "Endast trummspår"
+GENE300_013 = "Länka med %s"
+GENE300_014 = "Reserverad av %s"
+GENE300_015 = "fri"
+GENE300_016 = "I Demoversionen kan du inte exportera till GP 2.2 format om 
+filen har ändrats."
+GENE300_017 = "Spara först ändringarna i GP 3.0 format och öppna sedan filen 
+igen. Nu kan du exportera till GP 2.2 formatet."
+GENE300_018 = "Guitar Pro 2.2 filer"
+
+******************
+* v3.0 MIX TABLE *
+******************
+
+MIXT300_000
+MIXT300_001 = "Minska alla"
+MIXT300_002 = "Utvidga alla"
+MIXT300_003 = "Solo"
+MIXT300_004 = "S" {abreviation of "Solo"}
+MIXT300_005 = "Dämpa"
+MIXT300_006 = "M" {abreviation of "Mute"}
+MIXT300_007 = "Namn" {of the track}
+MIXT300_008 = "Port"
+MIXT300_009 = "Port" {abreviation of "Port"}
+MIXT300_010 = "Val av port"
+MIXT300_011 = "Huvudkanal"
+MIXT300_012 = "Ka" {abreviation of "Main Channel"}
+MIXT300_013 = "Val av huvudkanal"
+MIXT300_014 = "Effekt kanal"
+MIXT300_015 = "Ka2" {abreviation of "Effects Channel"}
+MIXT300_016 = "Val av effektkanal"
+MIXT300_017 = "Instrument"
+MIXT300_018 = "Volym"
+MIXT300_019 = "Pan"
+MIXT300_020 = "Chorus"
+MIXT300_021 = "Reverb"
+MIXT300_022 = "Phaser"
+MIXT300_023 = "Tremolo"
+MIXT300_024 = "Ofullständig 'patch'"
+MIXT300_025 = "Ingen 'patch' vald"
+MIXT300_026 = "Trummset"
+
+*********************************
+* v3.0 DYNAMIC ASSISTANT WINDOW *
+*********************************
+
+DLG300_ASS_DY_000
+DLG300_ASS_DY_001 = "Funktionen - Dynamik"
+DLG300_ASS_DY_002 = "Med det här verktyget kan du ändra dynamiken hos en 
+grupp noter."
+DLG300_ASS_DY_003 = "Taktomfång:"
+DLG300_ASS_DY_004 = "till"
+DLG300_ASS_DY_005 = "Strängar som berörs:"
+DLG300_ASS_DY_006 = "Dynamik värde:"
+DLG300_ASS_DY_007 = "Inga strängar valda."
+
+**********************
+* v3.0 MENUS & HINTS *
+**********************
+
+MN300_000
+MN300_001 = "Partitur information"
+MN300_002 = "Första" {for the track}
+MN300_003 = "Föregående" {for the track}
+MN300_004 = "Nästa" {for the track}
+MN300_005 = "Sista" {for the track}
+MN300_006 = "Föregående spår"
+MN300_007 = "Nästa spår"
+MN300_008 = "Egenskaper" {for the track}
+MN300_009 = "Spårets egenskaper"
+MN300_010 = "Lägg till" {for a track}
+MN300_011 = "Lägg till ett spår"
+MN300_012 = "Ta bort" {for the track}
+MN300_013 = "Första" {for the bar}
+MN300_014 = "Föregående" {for the bar}
+MN300_015 = "Nästa" {for the bar}
+MN300_016 = "Sista" {for the bar}
+MN300_017 = "Länka takt"
+MN300_018 = "Länka not"
+MN300_019 = "Taktvärden"
+MN300_020 = "Notvärden"
+MN300_021 = "-ingen-" {means "no" triolet, -3-, -5-, ...}
+MN300_022 = "n-tuplet"
+MN300_023 = "takt" {n-tuplet on the beat}
+MN300_024 = "not" {n-tuplet on the note}
+MN300_025 = "Bend" {includes all "Bend" type effects}
+MN300_026 = "Markörer"
+MN300_027 = "Infoga en Markör"
+MN300_028 = "Infoga"
+MN300_029 = "Markörlista"
+MN300_030 = "Lista"
+MN300_031 = "Gå till föregående Markör"
+MN300_032 = "Föregående"
+MN300_033 = "Gå till Markören"
+MN300_034 = "Gå till"
+MN300_035 = "Gå till nästa Markör"
+MN300_036 = "Nästa"
+MN300_037 = "Ingen markör definierad"
+MN300_038 = "Spela upp från Markören"
+MN300_039 = "Spela upp från aktuell position (mellanslag)"
+MN300_040 = "Verktyg"
+MN300_041 = "Nedräkning"
+MN300_042 = "Använd Koefficienten på tempot"
+MN300_043 = "Visa flera spår"
+MN300_044 = "Vertikal 'Scrolling'"
+MN300_045 = "Horisontal 'Scrolling'"
+MN300_046 = "Fast avstånd mellan noter"
+MN300_047 = "Växla vy"
+MN300_048 = "Verktygsfält"
+MN300_049 = "Standard" {name of the toolbar}
+MN300_050 = "Takt" {name of the toolbar}
+MN300_051 = "Markörer" {name of the toolbar}
+MN300_052 = "Vyer" {name of the toolbar}
+MN300_053 = "Taktvärden" {name of the toolbar}
+MN300_054 = "Notvärden" {name of the toolbar}
+MN300_055 = "Uppspelning" {name of the toolbar}
+MN300_056 = "Tempo" {name of the toolbar}
+MN300_057 = "Effekter" {name of the toolbar}
+MN300_058 = "Dynamik" {name of the toolbar}
+MN300_059 = "Alla" {afficher toutes les barres d'outils}
+MN300_060 = "Ingen" {n'afficher aucune barre d'outil}
+MN300_061 = "Standardinställning" {des barres d'outil}
+MN300_062 = "MIDI inställningar"
+MN300_063 = "Låt aktuell takt synas vid uppspelning"
+MN300_064 = "Guitar Pro 2.2 Format"
+MN300_065 = "Alternativ"
+MN300_066 = "Hammer On / Pull Off"
+MN300_067 = "Slide"
+MN300_068 = "Tempo"
+MN300_069 = "Funktionen - Dynamik"
+MN300_070 = "Gå till början"
+MN300_071 = "Gå till slutet"
+MN300_072 = "Snabbspola bakåt"
+MN300_073 = "Snabbspola framåt"
+MN300_074 = "Stega bakåt"
+MN300_075 = "Stega framåt"
+
+******************
+* v3.0 GP ONLINE *
+******************
+
+DLG300_GPONLINE_000
+DLG300_GPONLINE_001 = "GP Online (nya uppdateringar)"
+DLG300_GPONLINE_002 = "GP Online Påminnelse:"
+DLG300_GPONLINE_003 = "Aldrig"
+DLG300_GPONLINE_004 = "2 veckor"
+DLG300_GPONLINE_005 = "1 månad"
+DLG300_GPONLINE_006 = "3 månader"
+DLG300_GPONLINE_007 = "6 månader"
+DLG300_GPONLINE_008 = "Tillåt snabbkontroll av nya versioner vid uppstart om 
+internetanslutning är uppkopplad"
+DLG300_GPONLINE_009 = "En ny version av Guitar Pro är tillgänglig på nätet!"
+DLG300_GPONLINE_010 = "Vill du starta GP Online?"
+DLG300_GPONLINE_011 = "Notera : För att stopa verifieringen, starta GP 
+Online eller gå till menyn [Alternativ|Inställningar]."
+DLG300_GPONLINE_012 = "Du har inte använt GP Online på %s dagar."
+DLG300_GPONLINE_013 = "Notera : För att stoppa GP Online Påminnelse, gå till 
+menyn [Alternativ|Inställningar]."
+
+***********************************
+* v4.0 PALM MUTE ASSISTANT WINDOW *
+***********************************
+
+DLG400_ASS_PM_000
+DLG400_ASS_PM_001 = "Palm Mute Alternativ"
+DLG400_ASS_PM_002 = "Denna assistent tillåter dig att ändra Palm Mute 
+alternativ för en grupp av noter."
+DLG400_ASS_PM_003 = "Taktomfång:"
+DLG400_ASS_PM_004 = "till"
+DLG400_ASS_PM_005 = "Berörda Strängar:"
+DLG400_ASS_PM_006 = "Palm Mute Alternativ:"
+DLG400_ASS_PM_007 = "Ja"
+DLG400_ASS_PM_008 = "Nej"
+DLG400_ASS_PM_009 = "Ingen sträng vald."
+
+*****************************
+* v4.0 PERCUSSION ASSISTANT *
+*****************************
+
+DLG400_ASS_PERCU_000
+DLG400_ASS_PERCU_001 = "Använd elektroniskt ljud om möjligt"
+
+*******************************
+* v4.0 MIX TABLE EVENT WINDOW *
+*******************************
+
+DLG400_MIX_000
+DLG400_MIX_001 = "Alla spår"
+
+*********************
+* v4.0 CHORD WINDOW *
+*********************
+
+DLG400_CHORD_000
+DLG400_CHORD_001 = "Fingerplacering"
+
+*********************
+* v4.0 BRUSH WINDOW *
+*********************
+
+DLG400_BRUSH_000
+DLG400_BRUSH_001 = "Rasgueado"
+
+**************************
+* v4.0 TREMOLOBAR WINDOW *
+**************************
+
+DLG400_TREMOLOBAR_000
+DLG400_TREMOLOBAR_001 = "Tremolo Bar"
+DLG400_TREMOLOBAR_002 = "Välj en Form:";
+
+*********************
+* v4.0 TRILL WINDOW *
+*********************
+
+DLG400_TRILL_000
+DLG400_TRILL_001 = "Trill"
+DLG400_TRILL_002 = "Trill Not"
+DLG400_TRILL_003 = "Notvärde"
+DLG400_TRILL_004 = "Band:"
+
+*******************************
+* v4.0 BMP EXPORTATION WINDOW *
+*******************************
+
+DLG400_EXPBMP_000
+DLG400_EXPBMP_001 = "Exportera BMP"
+DLG400_EXPBMP_002 = "Exportera"
+DLG400_EXPBMP_003 = "Bitmap-filer"
+
+*******************************
+* v4.0 BMP EXPORTATION WINDOW *
+*******************************
+
+DLG400_EXPWAV_000
+DLG400_EXPWAV_001 = "Exportera WAVE"
+DLG400_EXPWAV_002 = "Exportera"
+DLG400_EXPWAV_003 = "Kvalité:"
+DLG400_EXPWAV_004 = "WAVE-filer"
+
+*************************
+* v4.0 FRETBOARD WINDOW *
+*************************
+
+DLG400_FRETBOARD_000
+DLG400_FRETBOARD_001 = "Val av visningsläge"
+DLG400_FRETBOARD_002 = "Visa [Taktslag]"
+DLG400_FRETBOARD_003 = "Visa [Taktslag] + [Takt]"
+DLG400_FRETBOARD_004 = "Visa [Taktslag] + [Diagram]"
+DLG400_FRETBOARD_005 = "Visa [Taktslag] + [Nästa Taktslag]"
+DLG400_FRETBOARD_006 = "Visa [Taktslag] + [Skala]"
+DLG400_FRETBOARD_007 = "Visa [Notnamn]"
+DLG400_FRETBOARD_008 = "Visa [Intervall]"
+DLG400_FRETBOARD_009 = "Visa [Grad]"
+DLG400_FRETBOARD_010 = "Visa notens namn"
+DLG400_FRETBOARD_011 = "Inget namn"
+DLG400_FRETBOARD_012 = "Namn för [Taktslag]"
+DLG400_FRETBOARD_013 = "Namn för [Taktslag] + [...]"
+DLG400_FRETBOARD_014 = "Bakgrundsbild för greppbrädan"
+DLG400_FRETBOARD_015 = "Elektrisk"
+DLG400_FRETBOARD_016 = "Ackustisk"
+DLG400_FRETBOARD_017 = "Klassisk"
+DLG400_FRETBOARD_018 = "Grundläggande"
+DLG400_FRETBOARD_019 = "Omvänd greppbräda"
+DLG400_FRETBOARD_020 = "Öppna vektyget för skalor"
+DLG400_FRETBOARD_021 = "Skalor"
+DLG400_FRETBOARD_022 = "Flytta Vänster"
+DLG400_FRETBOARD_023 = "Flytta Höger"
+
+************************
+* v4.0 KEYBOARD WINDOW *
+************************
+
+DLG400_KEYBOARD_000
+DLG400_KEYBOARD_001 = "Val av visningsläge"
+DLG400_KEYBOARD_002 = "Visa [Taktslag]"
+DLG400_KEYBOARD_003 = "Visa [Taktslag] + [Takt]"
+DLG400_KEYBOARD_004 = "Visa [Taktslag] + [Nästa Taktslag]"
+DLG400_KEYBOARD_005 = "Visa [Taktslag] + [Skala]"
+DLG400_KEYBOARD_006 = "Öppna vektyget för skalor"
+DLG400_KEYBOARD_007 = "Skalor"
+DLG400_KEYBOARD_008 = "Flytta Vänster"
+DLG400_KEYBOARD_009 = "Flytta Höger"
+
+******************************
+* v4.0 KEY SIGNATURE WINDOW *
+******************************
+
+DLG400_KEYSIGN_000
+DLG400_KEYSIGN_001 = "Förtecken"
+DLG400_KEYSIGN_002 = "Ända till slutet"
+DLG400_KEYSIGN_003 = "Tonart"
+DLG400_KEYSIGN_004 = "dur"
+DLG400_KEYSIGN_005 = "moll"
+
+***************************
+* v4.0 NEW TUNING WINDOW *
+***************************
+
+DLG400_NEWTUNE_000
+DLG400_NEWTUNE_001 = "Ny Stämning"
+DLG400_NEWTUNE_002 = "Välj ett namn för denna stämning:"
+
+**************************
+* v4.0 SCORE INFO WINDOW *
+**************************
+
+DLG400_SCORE_INFO_000
+DLG400_SCORE_INFO_001 = "Sångtext"
+DLG400_SCORE_INFO_002 = "Tillämpa på Spår:"
+DLG400_SCORE_INFO_003 = "Om du ändrar i partituren, återgå till detta 
+fönster och klicka OK för att uppdatera."
+DLG400_SCORE_INFO_004 = "Rad %s"
+DLG400_SCORE_INFO_005 = "Starta från takt:"
+DLG400_SCORE_INFO_006 = "Läs i hjälpfilen för hur du ska använda 
+specialtecken: -, + och []"
+DLG400_SCORE_INFO_007 = "Klipp ut"
+DLG400_SCORE_INFO_008 = "Kopiera"
+DLG400_SCORE_INFO_009 = "Klistra in"
+
+**************************
+* v4.0 TRACK INFO WINDOW *
+**************************
+
+DLG400_TRACK_INFO_000
+DLG400_TRACK_INFO_001 = "Lägg till denna Stämning"
+DLG400_TRACK_INFO_002 = "Ta Bort denna Stämning"
+DLG400_TRACK_INFO_003 = "Markera först den Stämning du vill ta bort."
+DLG400_TRACK_INFO_004 = "Bekräfta borttagning av stämning %s?"
+DLG400_TRACK_INFO_005 = "Du måste först definiera den nya Stämningen, och 
+sedan klicka på knappen LÄGG TILL för att namnge den."
+DLG400_TRACK_INFO_006 = "Du måste välja ett namn för denna Stämning."
+DLG400_TRACK_INFO_007 = "Detta namn används redan."
+
+***************************
+* v4.0 PREFERENCES WINDOW *
+***************************
+
+DLG400_PREF_000
+DLG400_PREF_001 = "Automatisk Backup"
+DLG400_PREF_002 = "Varje"
+DLG400_PREF_003 = "handling"
+DLG400_PREF_004 = "Sångtext:"
+DLG400_PREF_005 = "Ångra/Gör om"
+DLG400_PREF_006 = "Inaktivera Ångra/Gör om (långsamma datorer)"
+
+***********************************
+* v4.0 TRANSPOSE ASSISTANT WINDOW *
+***********************************
+
+DLG400_ASS_TR_000
+DLG400_ASS_TR_001 = "Omvandla alla Spår"
+
+*********************************
+* v4.0 SEARCH ON THE WEB WINDOW *
+*********************************
+
+DLG400_SEARCHONWEB_000
+DLG400_SEARCHONWEB_001 = "Sök på nätet"
+DLG400_SEARCHONWEB_002 = "Sök:"
+DLG400_SEARCHONWEB_003 = "Skriv in en enkel textrad att söka efter t.ex. 
+'satriani' eller 'elise'"
+DLG400_SEARCHONWEB_004 = "på:"
+DLG400_SEARCHONWEB_005 = "Sök!"
+DLG400_SEARCHONWEB_006 = "Uppdatera Sidlista"
+DLG400_SEARCHONWEB_007 = "%s sdor(s) hittade."
+DLG400_SEARCHONWEB_008 = "Du måste skriva någon textrad för att kunna starta 
+sökningen."
+DLG400_SEARCHONWEB_009 = "Kunde inte ansluta till sidan Guitar Pro."
+
+***************************
+* v4.0 SCALES TOOL WINDOW *
+***************************
+
+DLG400_SCALES_000
+DLG400_SCALES_001 = "Skalor"
+DLG400_SCALES_002 = "Spela Upp"
+DLG400_SCALES_003 = "Skalafinnaren"
+DLG400_SCALES_004 = "Sök från Tkt:"
+DLG400_SCALES_005 = "till"
+DLG400_SCALES_006 = "Sök!"
+
+**********************
+* v4.0 MENUS & HINTS *
+**********************
+
+MN400_000
+MN400_001 = "Första Spåret"
+MN400_002 = "Sista Spåret"
+MN400_003 = "Ta Bort Spåret"
+MN400_004 = "Lägg till en Takt"
+MN400_005 = "Klipp ut Takter"
+MN400_006 = "Kopiera Takter"
+MN400_007 = "Klistra in Takter"
+MN400_008 = "Tomma Takter"
+MN400_009 = "Förtecken"
+MN400_010 = "Dubbel Takt"
+MN400_011 = "Ångra"
+MN400_012 = "Gör om"
+MN400_013 = "Upp en Halvton"
+MN400_014 = "Ner en Halvton"
+MN400_015 = "Fingerplacering Vänster Hand"
+MN400_016 = "Fingerplacering Höger Hand"
+MN400_017 = "Anslag Upp"
+MN400_018 = "Anslag Ner"
+MN400_019 = "Betonad Not"
+MN400_020 = "Harmonic"
+MN400_021 = "Natural Harmonic"
+MN400_022 = "Artificial Harmonic"
+MN400_023 = "Tapped Harmonic"
+MN400_024 = "Pitch harmonic"
+MN400_025 = "Semi harmonic"
+MN400_026 = "Bend"
+MN400_027 = "Tremolo Bar"
+MN400_028 = "Slide"
+MN400_029 = "Shift Slide"
+MN400_030 = "Legato Slide"
+MN400_031 = "Slide 'in från Nedan'"
+MN400_032 = "Slide 'in från Ovan'"
+MN400_033 = "Slide 'ut Nedåt'"
+MN400_034 = "Slide 'ut Uppåt'"
+MN400_035 = "Brett Vibrato"
+MN400_036 = "Trill"
+MN400_037 = "Tremolo Picking"
+MN400_038 = "Palm Mute"
+MN400_039 = "Staccato"
+MN400_040 = "Digital Gitarrstämmare"
+MN400_041 = "Skalor"
+MN400_042 = "Palm Mute Alternativ"
+MN400_043 = "Noter"
+MN400_044 = "Greppbräda"
+MN400_045 = "Klaviatur"
+MN400_046 = "Meny && Verktygsfält"
+MN400_047 = "Anpassa"
+MN400_048 = "Återställ Verktygsfältets positioner"
+MN400_049 = "Äldre GP3 Glyphs"
+MN400_050 = "XP-likt Verktygsfält"
+MN400_051 = "Guitar Pro 3.0 Format"
+MN400_052 = "WAVE-fil (Ljud)"
+MN400_053 = "BMP-fil (Bild)"
+MN400_054 = "Meny" {name of the toolbar}
+MN400_055 = "Not" {name of the toolbar}
+MN400_056 = "Greppbräda" {name of the toolbar}
+MN400_057 = "Klaviatur" {name of the toolbar}
+MN400_058 = "Spårväljare" {name of the toolbar}
+MN400_059 = "Statusfält" {name of the toolbar}
+MN400_060 = "Windows Volymkontroll"
+
+*********************
+* v4.0 INTRO WINDOW *
+*********************
+
+DLG400_INTRO_000
+DLG400_INTRO_001 = "Du är på dag %s1 av din %s2 dag av testperioden."
+DLG400_INTRO_002 = "Testperioden är slut. Vänligen fundera på att registrera 
+produkten."
+
+****************
+* v4.0 GENERAL *
+****************
+
+GENE400_000
+GENE400_001 = "I demoversionen kan du inte exportera till GP 3.0 format om 
+filen har ändrats."
+GENE400_002 = "Du måste öppna filen och sedan direkt använda denna 
+exporteringsfunktion."
+GENE400_003 = "Guitar Pro 3.0 Filer"
+GENE400_004 = "Guitar Pro stängdes på ett felaktigt vid senaste användandet, 
+eller så är programmet redan öppet."
+GENE400_005 = "Vill du återställa senaste backup-filen?"
+GENE400_006 = "Demoversionen tillåter inte exportering till BMP format."
+GENE400_007 = "Stäng Guitar Pro och starta om det för att återsälla 
+verktygsfältens respektive positioner."
+GENE400_008 = "Du kan nu använda knapparna SPELA UPP/STOPPA för att starta 
+och stoppa inspelningen."
+GENE400_009 = "Du måste vara i vertikalt visningsläge för att använda BMP 
+exportering."
+GENE400_010 = "Klippa ut/Kopiera/Klistra in funktioner är begränsade till de 
+24 första takterna i demoversionen."
+GENE400_011 = "Urklipp är tom."
+GENE400_012 = "Innehållet i urklipp är inte kompatibelt med spåret(en)."
+GENE400_013 = "Filen [%s] har spelats in."
+GENE400_014 = "Kunde inte skapa mappen [%s]. Laddning avbröts."
+GENE400_015 = "Guitar Pro upptäckte en förbjuden ändring [Code %s]. Laddning 
+avbryten."
+GENE400_016 = "Typsnitet [%s] verkar inte vara riktigt installerat. Vi 
+rekommenderar att du installerar om Guitar Pro."
+
+*********************************
+* v4.0 WAVE EXPORT SETUP WINDOW *
+*********************************
+
+DLG400_WAVEEXPSETUP_000
+DLG400_WAVEEXPSETUP_001 = "Inställning för WAVE-exportering"
+DLG400_WAVEEXPSETUP_002 = "WAVE Indata"
+DLG400_WAVEEXPSETUP_003 = "Ingång att använda för att spela in MIDI-utgång:"
+DLG400_WAVEEXPSETUP_004 = "Tips: Om den exporterade WAVE-filen inte har 
+någotljud, testa en annan ingång."
+DLG400_WAVEEXPSETUP_005 = "Du måste välja en ingång."
+
+****************
+* v4.1 MIDI IN *
+****************
+
+MI410_000
+MI410_001 = "MIDI Indata Arkiv"
+MI410_002 = "Kunde inte öppna MIDI In enhet. Verifiera konfigurationen i 
+menyn Alternativ | MIDI Inställning."
+MI410_003 = "MIDI Indata (Not för Not)"
+MI410_004 = "Enhet"
+MI410_005 = "Känslighet"
+MI410_006 = "ms  (fördröjning att separera 2 noter)" { "ms" for milliseconds 
+}
+MI410_007 = "Påverkan på Strängar med hjälp av Kanaligenkänning"
+MI410_008 = "Första Kanalen för den Ljusaste Strängen"
+MI410_009 = "Första Kanalen för den Mörkaste Strängen"
+MI410_010 = "Ingen kanaligenkänning (Automatisk fingerplacering)"
+MI410_011 = "Tips: Använd menyn [Ljud | MIDI Indata Arkiv] för att fånga 
+noter som spelas med ditt MIDI-instrument."
+
+*********************
+* v5.0 ABOUT WINDOW *
+*********************
+
+DLG500_ABOUT_000
+DLG500_ABOUT_001 = "%s och %t är antingen registrerade varumärken eller 
+varumärken av %s för Frankrike och / eller andra länder."
+DLG500_ABOUT_002 = "Alla varumärken och registrarade varumärken är 
+respektive ägares egendom, vilka på intet sätt är associerade eller förenade 
+med %s."
+DLG500_ABOUT_003 = "Guitar Pro Team"
+DLG500_ABOUT_004 = "Idé && Mjukvara"
+DLG500_ABOUT_005 = "RSE Idé && Ljud"
+DLG500_ABOUT_006 = "Utveckling"
+DLG500_ABOUT_007 = "Design"
+DLG500_ABOUT_008 = "Översättning [%s]"
+DLG500_ABOUT_009 = "Ett särskilt tack till:"
+DLG500_ABOUT_010 = "Ljudrelaterad teknologi"
+
+*********************************
+* v5.0 DYNAMIC ASSISTANT WINDOW *
+*********************************
+
+DLG500_ASS_DY_000
+DLG500_ASS_DY_001 = "Markering"
+DLG500_ASS_DY_002 = "Stämma:"
+DLG500_ASS_DY_003 = "Alla"
+DLG500_ASS_DY_004 = "Lead"
+DLG500_ASS_DY_005 = "Bas"
+
+**********************************
+* v5.0 LET RING ASSISTANT WINDOW *
+**********************************
+
+DLG500_ASS_LR_000
+DLG500_ASS_LR_001 = "Markering"
+DLG500_ASS_LR_002 = "Stämma:"
+DLG500_ASS_LR_003 = "Alla"
+DLG500_ASS_LR_004 = "Lead"
+DLG500_ASS_LR_005 = "Bas"
+
+***********************************
+* v5.0 PALM MUTE ASSISTANT WINDOW *
+***********************************
+
+DLG500_ASS_PM_000
+DLG500_ASS_PM_001 = "Markering"
+DLG500_ASS_PM_002 = "Stämma:"
+DLG500_ASS_PM_003 = "Alla"
+DLG500_ASS_PM_004 = "Lead"
+DLG500_ASS_PM_005 = "Bas"
+
+*******************************
+* v5.0 MIX TABLE EVENT WINDOW *
+*******************************
+
+DLG500_MIX_000
+DLG500_MIX_001 = "Använd MIDI"
+DLG500_MIX_002 = "MIDI-bibliotek:"
+DLG500_MIX_003 = "Använd RSE"
+DLG500_MIX_004 = "Ingen" { används för Ljudbanklista }
+DLG500_MIX_005 = "Ingen" { används för Effektlista }
+
+***************************
+* v5.0 INSTRUMENTS WINDOW *
+***************************
+
+DLG500_INSTR_000
+DLG500_INSTR_001 = "Använd MIDI"
+DLG500_INSTR_002 = "MIDI-bibliotek:"
+DLG500_INSTR_003 = "Använd RSE"
+DLG500_INSTR_004 = "Spela upp"
+DLG500_INSTR_005 = "Ljudbibliotek"
+DLG500_INSTR_006 = "None" { används för ludbiblioteklista }
+DLG500_INSTR_007 = "Effekt"
+DLG500_INSTR_008 = "Ingen" { används för Effektlista }
+DLG500_INSTR_009 = "Automatisk betonging på takten"
+DLG500_INSTR_010 = "Ingen" { used for AutoAccentuation }
+DLG500_INSTR_011 = "Väldigt mjukt"
+DLG500_INSTR_012 = "Mjukt"
+DLG500_INSTR_013 = "Medium"
+DLG500_INSTR_014 = "Starkt"
+DLG500_INSTR_015 = "Väldigt Starkt"
+DLG500_INSTR_016 = "Spelas av människa"
+DLG500_INSTR_017 = "Varumärken och registrerade varumärken för alla 
+instrument, förstärkare och effekter är respektive ägares egendom, vilka på 
+intet sätt är associerade eller förenade med %s."
+
+*****************************
+* v5.0 NOTE DURATION WINDOW *
+*****************************
+
+DLG500_NOTE_DURATION_000
+DLG500_NOTE_DURATION_001 = "Varaktighet av notens ljud"
+
+**************************
+* v5.0 GRACE NOTE WINDOW *
+**************************
+
+DLG500_GRACE_000
+DLG500_GRACE_001 = "Position"
+DLG500_GRACE_002 = "Före Takten"
+DLG500_GRACE_003 = "På Takten"
+
+************************
+* v5.0 HARMONIC WINDOW *
+************************
+
+DLG500_HARM_000
+DLG500_HARM_001 = "Artifical Harmonic"
+DLG500_HARM_002 = "Typ av Artifical Harmonic"
+DLG500_HARM_003 = "Artifical Harmonic"
+DLG500_HARM_004 = "Tapped Harmonic"
+DLG500_HARM_005 = "Pinch Harmonic"
+DLG500_HARM_006 = "Semi Harmonic"
+DLG500_HARM_007 = "Vänster Hand:"
+DLG500_HARM_008 = "Höger Hand:"
+
+**************************
+* v5.0 SCORE INFO WINDOW *
+**************************
+
+DLG500_SCORE_INFO_000
+DLG500_SCORE_INFO_001 = "Text"
+DLG500_SCORE_INFO_002 = "Musik"
+DLG500_SCORE_INFO_003 = "RSE Huvudeffekt (gäller för alla spår)"
+DLG500_SCORE_INFO_004 = "Effekt:"
+
+*********************
+* v5.0 PRINT WINDOW *
+*********************
+
+DLG500_PRT_000
+DLG500_PRT_001 = "Position"
+DLG500_PRT_002 = "Skala:"
+DLG500_PRT_003 = "Passa till sida"
+DLG500_PRT_004 = "Centrerat Dokument"
+
+********************************
+* v5.0 WAVE EXPORTATION WINDOW *
+********************************
+
+DLG500_EXPWAV_000
+DLG500_EXPWAV_001 = "Exportera WAVE"
+DLG500_EXPWAV_002 = "Drivrutin för inspelning"
+DLG500_EXPWAV_003 = "Kvalitét"
+DLG500_EXPWAV_004 = "Hz"
+DLG500_EXPWAV_005 = "bitar"
+
+*******************************
+* v5.0 PAGE PROPERTIES WINDOW *
+*******************************
+
+DLG500_PAGE_PROP_000
+DLG500_PAGE_PROP_001 = "Utskriftsformat"
+DLG500_PAGE_PROP_002 = "Uppdatera Partituren"
+DLG500_PAGE_PROP_003 = "Spara som standard"
+DLG500_PAGE_PROP_004 = "Använd standardformat"
+DLG500_PAGE_PROP_005 = "Pappersstorlek"
+DLG500_PAGE_PROP_006 = "Orientering"
+DLG500_PAGE_PROP_007 = "Stående"
+DLG500_PAGE_PROP_008 = "Liggande"
+DLG500_PAGE_PROP_009 = "Partiturens Storlek"
+DLG500_PAGE_PROP_010 = "Proportion:"
+DLG500_PAGE_PROP_011 = "Marginaler"
+DLG500_PAGE_PROP_012 = "Vänster"
+DLG500_PAGE_PROP_013 = "Höger"
+DLG500_PAGE_PROP_014 = "Överkant"
+DLG500_PAGE_PROP_015 = "Nederkant"
+DLG500_PAGE_PROP_016 = "Sidhuvud && Sidfot"
+DLG500_PAGE_PROP_017 = "Titel"
+DLG500_PAGE_PROP_018 = "Undertitel"
+DLG500_PAGE_PROP_019 = "Artist"
+DLG500_PAGE_PROP_020 = "Album"
+DLG500_PAGE_PROP_021 = "Text"
+DLG500_PAGE_PROP_022 = "Musik"
+DLG500_PAGE_PROP_023 = "Text && Musik"
+DLG500_PAGE_PROP_024 = "Upphovsrätt"
+DLG500_PAGE_PROP_025 = "Sidnummer"
+
+******************************
+* v5.0 TIME SIGNATURE WINDOW *
+******************************
+
+DLG500_TIMES_000
+DLG500_TIMES_001 = "Gruppera åttondelsnoter enligt"
+DLG500_TIMES_002 = "Totalt"
+
+***********************
+* v5.0 SYNCOPE WINDOW *
+***********************
+
+DLG500_SYNCOPE_000
+DLG500_SYNCOPE_001 = "Triolkänsla"
+DLG500_SYNCOPE_002 = "Ingen Triolkänsla"
+DLG500_SYNCOPE_003 = "Triol 8"
+DLG500_SYNCOPE_004 = "Triol 16"
+DLG500_SYNCOPE_005 = "Ända till slutet"
+
+**************************
+* v5.0 TRACK INFO WINDOW *
+**************************
+
+DLG500_TRACK_INFO_000
+DLG500_TRACK_INFO_001 = "Notskrift"
+DLG500_TRACK_INFO_002 = "Noter"
+DLG500_TRACK_INFO_003 = "Tabulatur"
+DLG500_TRACK_INFO_004 = "Tabulatur [band = midi not]"
+DLG500_TRACK_INFO_005 = "Visningsläge"
+DLG500_TRACK_INFO_006 = "Visa Stämning i Partituren"
+DLG500_TRACK_INFO_007 = "Visa Rytmik under Tab"
+DLG500_TRACK_INFO_008 = "Tvinga Horisontell Gruppering"
+DLG500_TRACK_INFO_009 = "Diagramlista över Partituren"
+DLG500_TRACK_INFO_010 = "Diagram inuti Partituren"
+DLG500_TRACK_INFO_011 = "Diagram/Ackord under Noter"
+DLG500_TRACK_INFO_012 = "Kanaler"
+DLG500_TRACK_INFO_013 = "Tvinga Kanal 11 till 16"
+
+***************************
+* v5.0 PREFERENCES WINDOW *
+***************************
+
+DLG500_PREF_000
+DLG500_PREF_001 = "Startläge"
+DLG500_PREF_002 = "Visa 'Splash Screen'"
+DLG500_PREF_003 = "Öppna senaste fil automatiskt"
+DLG500_PREF_004 = "Visningsläge"
+DLG500_PREF_005 = "Växla automatiskt flerspårsläge"
+DLG500_PREF_006 = "Uppspelning"
+DLG500_PREF_007 = "Uppspelning under redigering"
+DLG500_PREF_008 = "Tvinga MIDI-uppspelning under redigering"
+
+*********************
+* v5.0 ORDER WINDOW *
+*********************
+
+DLG500_REG_000
+DLG500_REG_001 = "Erhåll fria uppgraderingar för 5.x versioner"
+DLG500_REG_002 = "Erhåll specialerbjudanden för uppgradering till version 6"
+
+**********************************
+* v5.0 REGISTER YOUR COPY WINDOW *
+**********************************
+
+DLG500_REGC_000
+DLG500_REGC_001 = "Erhåll fria uppgraderingar för 5.x versioner"
+DLG500_REGC_002 = "Erhåll specialerbjudanden för uppgradering till version 
+6"
+
+************
+* v5.0 RSE *
+************
+
+RSE500_000
+RSE500_001 = "RSE Laddas"
+RSE500_002 = "Laddar %s"
+RSE500_003 = "RSE Fel %s"
+RSE500_004 = "Ingen standardinställning för spår %s"
+RSE500_005 = "RSE CPU:"
+
+********************
+* v5.0 LOOP WINDOW *
+********************
+
+DLG500_LOOP_000
+DLG500_LOOP_001 = "Spela slinga / Hastighetstränaren"
+DLG500_LOOP_002 = "Enkel Slinga"
+DLG500_LOOP_003 = "Hastighetstränaren"
+
+***********************************
+* v5.0 TRANSPOSE ASSISTANT WINDOW *
+***********************************
+
+DLG500_ASS_TR_000
+DLG500_ASS_TR_001 = "Behåll fingrarnas placering om möjligt"
+
+**********************
+* v5.0 IMPORT WINDOW *
+**********************
+
+DLG500_IMPORT_000
+DLG500_IMPORT_001 = "%s Importera"
+DLG500_IMPORT_002 = "Information"
+DLG500_IMPORT_003 = "Filnamn:"
+DLG500_IMPORT_004 = "Filformat:"
+DLG500_IMPORT_005 = "Partiturtitel:"
+DLG500_IMPORT_006 = "Partiturförfattare:"
+DLG500_IMPORT_007 = "Version:"
+DLG500_IMPORT_008 = "Förlopp"
+DLG500_IMPORT_009 = "Resultat"
+
+**************************
+* v5.0 PTB IMPORT WINDOW *
+**************************
+
+DLG500_PTB_IMP_000
+DLG500_PTB_IMP_001 = "Importera PowerTab"
+DLG500_PTB_IMP_002 = "Importeringsläge"
+DLG500_PTB_IMP_003 = "Hela Partituren"
+DLG500_PTB_IMP_004 = "Endast Gitarrer"
+DLG500_PTB_IMP_005 = "Endast Bas"
+DLG500_PTB_IMP_006 = "Alternativ"
+DLG500_PTB_IMP_007 = "Behåll sidbrytningar"
+DLG500_PTB_IMP_008 = "Filen [%s] kunde inte hittas"
+DLG500_PTB_IMP_009 = "Filen [%s] är inte en giltlig PowerTab fil"
+DLG500_PTB_IMP_010 = "Endast filer av typen v1.7 stöds"
+DLG500_PTB_IMP_011 = "Ogiltlig Data"
+DLG500_PTB_IMP_012 = "Fel uppstod vid mottagande av data [%s] - Ogiltlig 
+Powertab fil"
+DLG500_PTB_IMP_013 = "Ogiltlig Data [Release-typ]"
+DLG500_PTB_IMP_014 = "Problem uppstod när data analyserades. Filen är 
+troligtvis ogiltlig"
+DLG500_PTB_IMP_015 = "Analyserar Sidhuvud..."
+DLG500_PTB_IMP_016 = "Analyserar Gitarrspår..."
+DLG500_PTB_IMP_017 = "Analyserar Basspår..."
+DLG500_PTB_IMP_018 = "Analyserar Teckensnitt..."
+DLG500_PTB_IMP_019 = "Analys Klar"
+DLG500_PTB_IMP_020 = "Konverterar Sidhuvud..."
+DLG500_PTB_IMP_021 = "Konverterar Gitarrspår..."
+DLG500_PTB_IMP_022 = "Konverterar Basspår..."
+DLG500_PTB_IMP_023 = "Importeringen Slutförd"
+DLG500_PTB_IMP_024 = "Importeringen Avbröts"
+
+**************************
+* v5.0 TEF IMPORT WINDOW *
+**************************
+
+DLG500_TEF_IMP_000
+DLG500_TEF_IMP_001 = "Filen [%s] är inte en TablEdit fil."
+DLG500_TEF_IMP_002 = "Kan inte öppna filen [%s]."
+DLG500_TEF_IMP_003 = "Obefintligt ackord påträffades"
+DLG500_TEF_IMP_004 = "Obefintlig takt påträffades"
+DLG500_TEF_IMP_005 = "Antal strängar kan inte vara %s - Felaktig TablEdit 
+fil"
+DLG500_TEF_IMP_006 = "Spåret Munspel har inte importerats"
+DLG500_TEF_IMP_007 = "Spåret ackord har inte importerats"
+DLG500_TEF_IMP_008 = "Förvandling från 'ändrad synkopering' till 
+'triolkänsla 8'"
+DLG500_TEF_IMP_009 = "Triolfel i takt %s på spår %t"
+DLG500_TEF_IMP_010 = "Triolfel i takt %s i andra stämman på spår %t"
+DLG500_TEF_IMP_011 = "Rytmisk modifiering i takt %s på spår %t 
+(dubbelpunkterad simulering av not)."
+DLG500_TEF_IMP_012 = "Rytmisk modifiering i takt %s på spår %t"
+DLG500_TEF_IMP_013 = "Inget fel"
+
+**************************
+* v5.0 XML IMPORT WINDOW *
+**************************
+
+DLG500_XML_IMP_000
+DLG500_XML_IMP_001 = "Importeringen misslyckades: måste vara PARTWISE eller 
+TIMEWISE."
+DLG500_XML_IMP_002 = "Ogiltlig XML fil."
+
+**************************
+* v5.0 PDF EXPORT WINDOW *
+**************************
+
+DLG500_PDF_EXP_000
+DLG500_PDF_EXP_001 = "PDF-dokumentet är redan öppnat i en PDF-läsare. Stäng 
+PDF-läsaren innan du utför PDF-Exportering."
+
+**************************
+* v5.0 BMP EXPORT WINDOW *
+**************************
+
+DLG500_BMP_EXP_000
+DLG500_BMP_EXP_001 = "Kunde inte skriva till filen. BMP-Exporering avbröts."
+DLG500_BMP_EXP_002 = "Slut på minne. BMP-Exporering avbröts."
+
+*********************************
+* v5.0 SEARCH ON THE WEB WINDOW *
+*********************************
+
+DLG500_TAB_WEB_000
+DLG500_TAB_WEB_001 = "Ingen sida tillgänglig. Vänligen använd först knappen 
+[Uppdatera Sidlista]."
+
+***************************
+*  v5.0 NEW TUNING WINDOW *
+***************************
+
+DLG500_NEWTUNE_000
+DLG500_NEWTUNE_001 = "Etikett på partituren:"
+DLG500_NEWTUNE_002 = "Standard MIDI Instrument:"
+
+****************************************
+* v5.0 CHECK DURATION ASSISTANT WINDOW *
+****************************************
+
+DLG500_ASS_CD_000
+DLG500_ASS_CD_001 = "Ogiltlig taktlängd i takt %s - spår %s - stämma %s."
+
+****************
+* v5.0 GENERAL *
+****************
+
+GENE500_000
+GENE500_001 = "I demoversionen kan du inte exportera till GP4 format om 
+filen har ändrats."
+GENE500_002 = "Du måste öppna filen och därefter direkt använda denna 
+exporteringsfunktion."
+GENE500_003 = "Guitar Pro 4-filer"
+GENE500_004 = "Bitmap-filer"
+GENE500_005 = "Wave-filer"
+GENE500_006 = "PDF-filer"
+GENE500_007 = "PowerTab-filer"
+GENE500_008 = "TablEdit-filer"
+GENE500_009 = "MusicXML-filer"
+
+**********************
+* v5.0 MENUS & HINTS *
+**********************
+
+MN500_000
+MN500_001 = "Guitar Pro 4 Format"
+MN500_002 = "Utskriftsformat"
+MN500_003 = "Redigera"
+MN500_004 = "Markera allt"
+MN500_005 = "Stämmor"
+MN500_006 = "Ändra Stämma 1 [Lead]"
+MN500_007 = "Ändra Stämma 2 [Bas]"
+MN500_008 = "Inaktiverad Grå Stämma"
+MN500_009 = "Triolkänsla"
+MN500_010 = "Styckets uppspelning"
+MN500_011 = "Radbrytning"
+MN500_012 = "Tvinga Radbrytning"
+MN500_013 = "Förhindra Radbrytning"
+MN500_014 = "Återställ taktformatering"
+MN500_015 = "Instrument"
+MN500_016 = "Flytta Upp"
+MN500_017 = "Flytta Ner"
+MN500_018 = "Notvärden"
+MN500_019 = "Punkterad Not"
+MN500_020 = "Tvinga n-Tuplet Parentes"
+MN500_021 = "Automatisk Gruppering"
+MN500_022 = "Tvinga Gruppering"
+MN500_023 = "Bryt Gruppering"
+MN500_024 = "Bryt Andrahandsgruppering"
+MN500_025 = "Automatisk Riktning"
+MN500_026 = "Omvänd Riktnig"
+MN500_027 = "Starkt Betonad Not"
+MN500_028 = "Stäng" { for WahWah }
+MN500_029 = "Öppna" { for WahWah }
+MN500_030 = "Visa [Wah On]" { for WahWah => do not change term [Wah On]}
+MN500_031 = "Av" { for WahWah }
+MN500_032 = "Spela Slinga / Hastighetstränaren"
+MN500_033 = "Använd RSE [Realistic Sound Engine]"
+MN500_034 = "Helsidesvy"
+MN500_035 = "Delad vy"
+MN500_036 = "Vertikalt Visningsläge"
+MN500_037 = "Horisontalt Visningsläge"
+MN500_038 = "Dölj Noter"
+MN500_039 = "Dölj Tabulatur"
+MN500_040 = "Välj Skal"
+MN500_041 = "Ljudets Varaktighet"
+MN500_042 = "Notskrift" {name of the toolbar}
+MN500_043 = "Transponering" {name of the toolbar}
+
+**************************
+* v5.0 REPEAT END WINDOW *
+**************************
+
+DLG500_REPE_000
+DLG500_REPE_001 = "Spela Upp"
+DLG500_REPE_002 = "gånger"
+
+******************
+* v5.0 ADDTIONAL *
+******************
+
+ADD500_000
+ADD500_001 = "Spela Upp"
+ADD500_002 = "Capo"
+ADD500_003 = "Guitar Pro på Weben"
+ADD500_004 = "Artist:"
+
+*************
+* v5.0 DEMO *
+*************
+
+DEMO500_000
+DEMO500_001 = "Demoversionen tillåter inte att du exporterar till MusicXML 
+format."
+DEMO500_002 = "Vad är RSE?" { instrument window }
+DEMO500_003 = "Utvärderingsperioden har tagit slut."
+DEMO500_004 = "Spara är begränsat till 24 takter"
+DEMO500_005 = "[Demoversion] kommer med på utskrifter och exporter"
+DEMO500_006 = "MusicXML Export ej tillgänglig"
+DEMO500_007 = "RSE [Realistic Sound Engine] ej tillgänglig"
+DEMO500_008 = "RSE [Realistic Sound Engine] erbjuder en unik uppspelning i 
+realtid, utan något speciellt ljudkort eller extra utrustning."
+DEMO500_009 = "Det är endast tillgängligt i fullversionen av Guitar Pro."
+DEMO500_010 = "Sample med Standard MIDI uppspelning"
+DEMO500_011 = "Sample med RSE uppspelning"
+DEMO500_012 = "Klicka här" { clickable part of the sentence }
+DEMO500_013 = "för att lyssna på fler RSE Samples" { end of the sentence }
+
+**********************
+* v5.1 MENUS & HINTS *
+*********************
+
+MN510_000
+MN510_001 = "Ändra Betoningar"
+MN510_002 = "Ludinställningar (MIDI/RSE)"
+
+********************************
+* v5.1 WAVE EXPORTATION WINDOW *
+********************************
+
+DLG510_EXPWAV_000
+DLG510_EXPWAV_001 = "Information"
+DLG510_EXPWAV_002 = "Kvalitet:"
+DLG510_EXPWAV_003 = "Hjälp:"
+DLG510_EXPWAV_004 = "- Kolla att [Stereo Mix] ingången är markerad"
+DLG510_EXPWAV_005 = "- Kolla att nivån inte är för låg"
+DLG510_EXPWAV_006 = "Klicka på bilden för att öppna fönstret inspelning 
+mixerbord."
+
+*********************
+* v5.1 DEBUG WINDOW *
+*********************
+
+DLG510_DEBUG_000
+DLG510_DEBUG_001 = "Felsök"
+DLG510_DEBUG_002 = "Logga in på Guitar Pro Support"
+DLG510_DEBUG_003 = "Stäng Guitar Pro"
+DLG510_DEBUG_004 = "Fortsätt att använda Guitar Pro"
+DLG510_DEBUG_005 = "ETT FEL INTRÄFFADE"
+DLG510_DEBUG_006 = "OM DU VILL KONTAKTA GUITAR PRO SUPPORT,"
+DLG510_DEBUG_007 = "VÄNLIGEN KLICKA PÅ KNAPPEN UNDER OCH KLISTRA IN"
+DLG510_DEBUG_008 = "DENNA RAPPORT I DITT MEDDELANDE MED HJÄLP AV [CTRL+V] 
+TANGENTEN."
+DLG510_DEBUG_009 = "DU KAN OCKSÅ BIFOGA GUITAR PRO FILEN DU ARBETAR MED"
+DLG510_DEBUG_010 = "OCH FÖRKLARA VAD DU GJORDE PRECIS INNAN FELET UPPSTOD."
+
+***************************
+* v5.1 INSTRUMENTS WINDOW *
+***************************
+
+DLG510_INSTR_000
+DLG510_INSTR_001 = "Sätt som standard"
+DLG510_INSTR_002 = "Ljudet [%s] kommer att påverkas av midi-instrumentet 
+[%t]. Bekräfta?"
+DLG510_INSTR_003 = "Automatiskt"
+DLG510_INSTR_004 = "Automatisk-Klinga ut"
+DLG510_INSTR_005 = "Automatisk-Fylla i"
+DLG510_INSTR_006 = "3-Band EQ"
+DLG510_INSTR_007 = "Låg"
+DLG510_INSTR_008 = "Medel"
+DLG510_INSTR_009 = "Hög"
+DLG510_INSTR_010 = "PRE" { means "PRE-AMP" }
+
+**************************
+* v5.1 MIDI SETUP WINDOW *
+**************************
+
+DLG510_MIDISETUP_000
+DLG510_MIDISETUP_001 = "Ljudinställningar"
+DLG510_MIDISETUP_002 = "RSE Inställningar"
+DLG510_MIDISETUP_003 = "Utgång"
+DLG510_MIDISETUP_004 = "Ljud"
+DLG510_MIDISETUP_005 = "Ljudkort"
+DLG510_MIDISETUP_006 = "DSP/VST Buffers"
+DLG510_MIDISETUP_007 = "Buffers Längd (i sample)"
+DLG510_MIDISETUP_008 = "Antal Buffers"
+DLG510_MIDISETUP_009 = "Formatera"
+DLG510_MIDISETUP_010 = "Frekvens"
+DLG510_MIDISETUP_011 = "Kanaler"
+DLG510_MIDISETUP_012 = "Upplösning"
+DLG510_MIDISETUP_013 = "Resample Metod"
+DLG510_MIDISETUP_014 = "Verkliga Röster"
+DLG510_MIDISETUP_015 = "Latent Tillstånd"
+DLG510_MIDISETUP_016 = "Default"
+DLG510_MIDISETUP_017 = "Mono"
+DLG510_MIDISETUP_018 = "Stereo"
+DLG510_MIDISETUP_019 = "Ingen Interpolering"
+DLG510_MIDISETUP_020 = "Linjär Interpolering"
+DLG510_MIDISETUP_021 = "Kubisk Interpolering"
+DLG510_MIDISETUP_022 = "5 punkters skeninterpolering"
+
+**************************
+* v5.1 SCORE INFO WINDOW *
+**************************
+
+DLG510_SCORE_INFO_000
+DLG510_SCORE_INFO_001 = "Vänster"
+DLG510_SCORE_INFO_002 = "Spektrum"
+DLG510_SCORE_INFO_003 = "Höger"
+DLG510_SCORE_INFO_004 = "Huvudvolym"
+DLG510_SCORE_INFO_005 = "Huvudreverb"
+DLG510_SCORE_INFO_006 = "10-Bands Huvud-EQ"
+DLG510_SCORE_INFO_007 = "PRE" { means "PRE-AMP" }
+DLG510_SCORE_INFO_008 = "- ingen frekvenskorrigering -"
+
+**************************
+* v5.1 TRACK INFO WINDOW *
+**************************
+
+DLG510_TRACK_INFO_000
+DLG510_TRACK_INFO_001 = "Utökad rytmik inuti Taben"
+
+*********************************
+* v5.1 SEARCH ON THE WEB WINDOW *
+*********************************
+
+DLG510_SEARCHONWEB_000
+DLG510_SEARCHONWEB_001 = "i Sångtitel"
+DLG510_SEARCHONWEB_002 = "i Artistnamn"
+
+*********************
+* v5.1 TEMPO WINDOW *
+*********************
+
+DLG510_TEMPO_000
+DLG510_TEMPO_001 = "Hide"
+
+*********************************************
+* v5.1 MAC MAIN TOOLBAR TEXTS UNDER BUTTONS *
+*********************************************
+
+MAC510_MAINTOOLBAR_000
+MAC510_MAINTOOLBAR_001 = "Ny"
+MAC510_MAINTOOLBAR_002 = "Öppna"
+MAC510_MAINTOOLBAR_003 = "Info"
+MAC510_MAINTOOLBAR_004 = "Utskriftsformat"
+MAC510_MAINTOOLBAR_005 = "Skriv ut"
+MAC510_MAINTOOLBAR_006 = "Ångra"
+MAC510_MAINTOOLBAR_007 = "Göra om"
+MAC510_MAINTOOLBAR_008 = "Klipp ut"
+MAC510_MAINTOOLBAR_009 = "Kopiera"
+MAC510_MAINTOOLBAR_010 = "Klistra in"
+MAC510_MAINTOOLBAR_011 = "Spårets Egenskaper"
+MAC510_MAINTOOLBAR_012 = "Instrument"
+MAC510_MAINTOOLBAR_013 = "Inställningar"
+MAC510_MAINTOOLBAR_014 = "Spela upp"
+MAC510_MAINTOOLBAR_015 = "Stoppa"
+MAC510_MAINTOOLBAR_016 = "First Bar"
+MAC510_MAINTOOLBAR_017 = "Föregående Takt"
+MAC510_MAINTOOLBAR_018 = "Nästa Takt"
+MAC510_MAINTOOLBAR_019 = "Sista Takten"
+
+*************************
+* v5.1 MAC ALERT PANELS *
+*************************
+
+MAC510_ALERTPANEL_000
+MAC510_ALERTPANEL_001 = "Vill du spara ändringarna som du gjorde i 
+dokumentet ?"
+MAC510_ALERTPANEL_002 = "Dina ändringar kommer att gå förlorade om du inte 
+sparar."
+MAC510_ALERTPANEL_003 = "Spara Inte"
+MAC510_ALERTPANEL_004 = "Avbryt"
+MAC510_ALERTPANEL_005 = "Spara"
+MAC510_ALERTPANEL_006 = "Skal hittades ej"
+
+****************************
+* v5.1 MAC GUITAR PRO MENU *
+****************************
+
+MAC510_GUITARPROMENU_000
+MAC510_GUITARPROMENU_001 = "Om Guitar Pro"
+MAC510_GUITARPROMENU_002 = "Dölj Guitar Pro"
+MAC510_GUITARPROMENU_003 = "Dölj Övrigt"
+MAC510_GUITARPROMENU_004 = "Visa Alla"
+MAC510_GUITARPROMENU_005 = "Stäng Guitar Pro"
+
+**********************
+* v5.1 MAC FILE MENU *
+**********************
+
+MAC510_FILEMENU_000
+MAC510_FILEMENU_001 = "Öppna Senaste"
+MAC510_FILEMENU_002 = "Rensa Meny"
+MAC510_FILEMENU_003 = "Stäng"
+MAC510_FILEMENU_004 = "Skrivarinställningat..."
+
+***********************
+* v5.1 MAC SOUND MENU *
+***********************
+
+MAC510_SOUNDMENU_000
+MAC510_SOUNDMENU_001 = "RSE Inställning..."
+MAC510_SOUNDMENU_002 = "Tempo = "
+
+************************
+* v5.1 MAC WINDOW MENU *
+************************
+
+MAC510_WINDOWMENU_000
+MAC510_WINDOWMENU_001 = "Fönster"
+MAC510_WINDOWMENU_002 = "Minimera"
+MAC510_WINDOWMENU_003 = "Zooma"
+MAC510_WINDOWMENU_004 = "Verktygsfönster"
+MAC510_WINDOWMENU_005 = "Spela upp"
+MAC510_WINDOWMENU_006 = "Spår"
+MAC510_WINDOWMENU_007 = "Ritare"
+MAC510_WINDOWMENU_008 = "Anpassa Verktygsfält..."
+MAC510_WINDOWMENU_009 = "Sätt Alla Först"
+
+**********************
+* v5.1 MAC HELP MENU *
+**********************
+
+MAC510_HELPMENU_000
+MAC510_HELPMENU_001 = "Guitar Pro Hjälp"

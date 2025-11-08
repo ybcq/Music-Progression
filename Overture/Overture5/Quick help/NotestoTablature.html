@@ -1,0 +1,115 @@
+﻿<html>
+	
+<head>
+	<title>Notes to Tablature</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("NotestoTablature");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Notes to Tablature</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="OvertureMenus.html">Overture Menus</a> &rsaquo;&rsaquo; <a href="NotesMenu.html">Notes Menu</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="NotesMenu.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="Transcribe.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="SetGuitarFrameCapo.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<h4 class="rvps8"><span class="rvts0"><span class="rvts18">Notes&gt;Notes to Tablature</span></span></h4>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Choose </span><span class="rvts12">Notes&gt;Notes to Tablature</span><span class="rvts6"> to transcribe selected notes to a tablature staff automatically. There can be as many as eight lines in the tablature staff. If you insert the tablature staff below a bass clef, it automatically contains four lines to accommodate bass tablature. If you insert the tablature staff below a treble clef, it automatically contains six lines to accommodate guitar tablature. You can override the number of lines by configuring the clef in the staff display in the Setup Track dialog box.</span><br/><span class="rvts6"></span><br/><span class="rvts12">Notes to Tablature</span><span class="rvts6"> is enabled only when there is a tablature staff directly beneath the staff containing selected notes. Create a tablature staff by:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li style="margin-left: 0px" class="rvps4"><span class="rvts6">using the Setup Track dialog box to select the tablature clef. This converts the current staff to a tablature staff.</span><br/><span class="rvts6">Or </span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts6">inserting a new staff with the Staff tool's tablature option </span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Overture manually displays tablature staves at 125% scale to increase the legibility of the small tab notes. You can change this in the Setup Track dialog box.</span></p>
+<h4 class="rvps8"><span class="rvts0"><span class="rvts18">The Tablature Settings Dialog Box</span></span></h4>
+<p class="rvps2"><span class="rvts6">Choosing </span><span class="rvts12">Notes&gt;Notes to Tablature</span><span class="rvts6"> opens the Tablature Settings dialog box.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">The Tablature Setting dialog box has numerous elements:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Tuning</span><span class="rvts6"> Parameters. You can assign a pitch to each of the tablature staff lines. You usually assign the strings to standard guitar or bass tunings if you insert the tablature staff below a treble or bass clef, respectively. If there are more than six lines in the tablature staff, however, the Tuning section displays a maximum of eight strings. You can set each string's tuning field to any valid MIDI note (C2 to G8), using the mouse or typing the note and octave (i.e. </span><span class="rvts12">B3</span><span class="rvts6">).</span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Floating</span><span class="rvts6">. Overture analyzes each measure in the selection and attempts to create tablature that stays within the number set in the </span><span class="rvts12">Finger Span</span><span class="rvts6"> field for each measure.</span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Fixed</span><span class="rvts6">. Overture attempts to create tablature at the fret position entered in the numerical field. If that fails, Overture attempts to stay within the number set in the </span><span class="rvts12">Finger Span</span><span class="rvts6"> field.Assign the fret position relative to a capo position by setting the </span><span class="rvts12">Capo on Fret</span><span class="rvts6"> numerical field to a number between 1 and 31. For example, if you set the </span><span class="rvts12">Capo on Fret</span><span class="rvts6"> field to 4, and the tablature number for a note is 5, the actual fret number is 9: 5 frets above the capo position. Set this field to 0 if you are not referencing a capo position.</span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Glissandos, Slurs, and Ties</span><span class="rvts6"> option. Selecting </span><span class="rvts12">Glissandos, Slurs, and Ties</span><span class="rvts6"> shows these markings on the tablature staff </span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Since tab notes have durations derived from their source notes in the staff above, deleting the second of two tied notes creates problems if you justify that measure. If you do not want to see the second note, make it invisible</span></p>
+<h4 class="rvps8"><span class="rvts0"><span class="rvts18">Editing the Tablature Staff</span></span></h4>
+<p class="rvps2"><span class="rvts6">You can edit Tablature notes as follows:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li style="margin-left: 0px" class="rvps4"><span class="rvts6">Drag a tablature marking to a new string.</span><br/><span class="rvts6">Overture automatically constrains which strings can accommodate a tablature marking. The tablature marking adopts the appropriate fret number to designate the correct pitch using the specified string tuning. </span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts6">Ctrl[</span><span class="rvts13">Cmd</span><span class="rvts6">]-drag a number to change the fret it references.</span><br/><span class="rvts6">Be careful when using this feature because Overture does not prevent you from referencing the wrong note. </span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts6">Copy, paste, and delete tablature entries.</span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts6">Show the duration of the tablature note by selecting a note and choosing </span><span class="rvts12">Notes&gt;Stem&gt;Show Stem</span><span class="rvts6">. </span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

@@ -1,0 +1,112 @@
+﻿<html>
+	
+<head>
+	<title>Groups Palette</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("GroupsPalette");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Groups Palette</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="SymbolPalettes.html">Symbol Palettes</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="SymbolPalettes.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="ChangingExistingNoteValues.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="UsingtheGroupsPalette.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<h3 class="rvps13"><span class="rvts0"><span class="rvts21">Palette Overview</span></span></h3>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps12"><img alt="" style="padding : 1px;" src="lib/NewItem175.png"></p>
+<p class="rvps12"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Overture groups notes differently depending on the type of tool you selected. The following describes each of the tools in the Groups palette:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Dotted Tie -</span><span class="rvts6"> Use this tool to create a dotted tie across two notes. Using this tool extends each note’s duration to the next note’s start time. This affects MIDI playback.</span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Tie -</span><span class="rvts6"> Use this tool to tie together any notes of common pitch within a selected group. Using this tool is the same as grouping notes and choosing </span><span class="rvts12">Notes&gt;Group&gt;Tie</span><span class="rvts6">. MIDI playback recognizes tied notes and plays them properly.</span></li>
+<li class="rvps2"><span class="rvts12">Dotted Slur</span><span class="rvts6">. Use this tool to create a dotted slur across a selected group of notes. Using this tool extends each note’s duration to the next note’s start time. This affects MIDI playback</span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Slur -</span><span class="rvts6"> Use this tool to create a slur across a selected group of notes. Using this tool is the same as grouping notes and choosing </span><span class="rvts12">Notes&gt;Group&gt;Slur</span><span class="rvts6">. Using this tool extends each note’s duration to the next note’s start time. This affects MIDI playback.</span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Insert Straight Glissando -</span><span class="rvts6"> Use this tool to create a straight line glissando between two adjacent notes. Using this tool is the same as selecting two notes and choosing </span><span class="rvts12">Notes&gt;Group&gt;Glissando -</span><span class="rvts6">. Glissandos do not affect MIDI playback.</span></li>
+<li class="rvps2"><span class="rvts12">Insert Wavy Glissando</span><span class="rvts6">. Use this tool to create a wavy line glissando between two adjacent notes. Using this tool is the same as selecting two notes and choosing </span><span class="rvts12">Notes&gt;Group&gt;Glissando ~</span><span class="rvts6">. Glissandos do not affect MIDI playback.</span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Group as New Tuplet -</span><span class="rvts6"> Use this tool to group selected notes into a tuplet of any kind. This tool produces a Tuplets dialog box in which you define the value, style, and characteristics of the tuplet. We discuss the Tuplets dialog box in </span><a class="rvts11" href="Tuplet.html">Notes&gt;Group&gt;Tuplet</a><span class="rvts6">. Using this tool is the same as grouping notes and choosing </span><span class="rvts12">Notes&gt;Group&gt;Tuplet</span><span class="rvts6">.</span></li>
+<li class="rvps2"><span class="rvts12">Reapply Tuplet to Group</span><span class="rvts6">. Use this tool to group selected notes into the type of tuplet last defined by the Tuplets dialog box. This tool makes it easy to apply common tuplet values quickly to many groups of notes.</span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">8va - </span><span class="rvts6">Select this type to insert an ottava sign over the selected notes. An 8va ottava sign indicates that notes under the sign are to be played one octave higher than written.</span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">8vb - </span><span class="rvts6">Select this type to insert an ottava sign under the selected notes. An 8vb ottava sign indicates that notes over the sign are to be played one octave lower than written.</span></li>
+<li class="rvps2"><span class="rvts12">Full Pedal Sign</span><span class="rvts6">. Use this tool to tell the pianist to press the damper pedal down at the beginning of the symbol and release it at the end. Move the pedal mark by putting the cursor over the symbol. The drag cursor appears. Drag the symbol start or end to the new location.</span></li>
+<li class="rvps2"><span class="rvts12">Half Pedal Sign</span><span class="rvts6">. Use this tool to instruct the pianist to press the damper pedal down at the beginning of the sign and release it halfway at the half pedal mark (the raised bump). Move the half pedal mark by placing the cursor over the mark (the drag cursor appears), and dragging it to the desired location. To add a new raised bump, Alt[</span><span class="rvts13">option</span><span class="rvts6">]-click along the horizontal line at the desired position. Ctrl[</span><span class="rvts13">Cmd</span><span class="rvts6">]-dragging the half pedal mark copies it to a new location.</span></li>
+<li class="rvps2"><span class="rvts12">Pedal Mark Extended. </span><span class="rvts6">Use this tool to tell the pianist to press the damper pedal down at the beginning of the symbol. The tool works like the </span><span class="rvts12">Half Pedal Sign, </span><span class="rvts6">except it adds a Pedal Sign symbol at the beginning of the horizontal line. To add a new raised bump, Alt[</span><span class="rvts13">option</span><span class="rvts6">]-click along the horizontal line at the desired position. Ctrl[</span><span class="rvts13">Cmd</span><span class="rvts6">]-dragging the pedal mark copies it to a new location.</span></li>
+<li class="rvps2"><span class="rvts12">Parenthesized Notes Sign</span><span class="rvts6">. Use this tool to enclose selected notes in parentheses.</span></li>
+<li class="rvps2"><span class="rvts12">Harp Pedal Sign</span><span class="rvts6">. Use this tool to enter and edit Salzedo Harp pedal positions. Once you place the harp pedal symbol, a dialog appears so you can set the pedal markings to different positions.</span><br/><span class="rvts6">You can also double-click any harp pedal symbol to open the Harp Pedal Settings dialog box. See </span><a class="rvts11" href="HarpPedalDialog.html">The Harp Pedal Settings Dialog Box</a><span class="rvts6">.</span></li>
+<li class="rvps2"><span class="rvts12">Brace Sign</span><span class="rvts6">. Use this tool to group notes, lyric verses, etc. </span></li>
+<li class="rvps2"><span class="rvts12">Bracket Sign</span><span class="rvts6">. Use this tool to group notes where you have written some information about them. </span><span class="rvts12">Brace Sign</span><span class="rvts6">. Use this tool to group lyric verses. </span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">For more information, see:</span></p>
+<p class="rvps2"><a class="rvts11" href="UsingtheGroupsPalette.html">Using the Groups Palette</a></p>
+<p class="rvps2"><a class="rvts11" href="OttavaSettings.html">Ottavas</a></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

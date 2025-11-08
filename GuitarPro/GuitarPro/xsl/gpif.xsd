@@ -1,0 +1,1070 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- basic types -->
+  <xsd:simpleType name="ubyteType">
+    <xsd:restriction base="xsd:unsignedInt">
+      <xsd:maxInclusive value="255" />
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:simpleType name="stringType">
+    <xsd:restriction base="xsd:unsignedInt">
+      <xsd:maxInclusive value="8" />
+    </xsd:restriction>
+  </xsd:simpleType>
+  
+  <xsd:simpleType name="fretType">
+    <xsd:restriction base="xsd:unsignedInt">
+      <xsd:maxInclusive value="36" />
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:simpleType name="voiceIndexType">
+    <xsd:restriction base="xsd:integer">
+      <xsd:minInclusive value="-1" />
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:simpleType name="timeUnitType">
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="[0-9]+/[0-9]+" />
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:simpleType name="keyAccidentalType">
+    <xsd:restriction base="xsd:integer">
+      <xsd:minInclusive value="-7" />
+      <xsd:maxInclusive value="7" />
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <!-- basic list types -->
+  <xsd:simpleType name="ubyteListType">
+    <xsd:list itemType="ubyteType" />
+  </xsd:simpleType>
+
+  <xsd:simpleType name="intListType">
+    <xsd:list itemType="xsd:integer" />
+  </xsd:simpleType>
+
+  <xsd:simpleType name="uintListType">
+    <xsd:list itemType="xsd:unsignedInt" />
+  </xsd:simpleType>
+
+  <xsd:simpleType name="floatListType">
+    <xsd:list itemType="xsd:float" />
+  </xsd:simpleType>
+
+  <!-- advanced list types -->
+  <xsd:simpleType name="nonEmptyUintListType">
+    <xsd:restriction base="uintListType">
+      <xsd:minLength value="1" />
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:simpleType name="tuningType">
+    <xsd:restriction>
+      <xsd:simpleType>
+        <xsd:list itemType="ubyteType" />
+      </xsd:simpleType>
+      <xsd:minLength value="1" />
+      <xsd:maxLength value="8" />
+    </xsd:restriction>
+  </xsd:simpleType>
+  
+  <xsd:simpleType name="voiceListType">
+    <xsd:restriction>
+      <xsd:simpleType>
+        <xsd:list itemType="voiceIndexType" />
+      </xsd:simpleType>
+      <xsd:minLength value="4" />
+      <xsd:maxLength value="4" />
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:simpleType name="colorType">
+    <xsd:restriction base="ubyteListType">
+      <xsd:minLength value="3" />
+      <xsd:maxLength value="3" />
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:simpleType name="pointType">
+    <xsd:restriction>
+      <xsd:simpleType>
+        <xsd:list itemType="xsd:integer" />
+      </xsd:simpleType>
+      <xsd:minLength value="3" />
+      <xsd:maxLength value="3" />
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <!-- enumerations -->
+  <xsd:simpleType name="clefType">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="C" />
+      <xsd:enumeration value="F" />
+      <xsd:enumeration value="G" />
+      <xsd:enumeration value="Neutral" />
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:simpleType name="playingStyleType">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="Default" />
+      <xsd:enumeration value="StringedPick" />
+      <xsd:enumeration value="StringedFinger" />
+      <xsd:enumeration value="StringedFingerPicking" />
+      <xsd:enumeration value="BassSlap" />
+      <xsd:enumeration value="DrumKitBrush" />
+      <xsd:enumeration value="DrumKitHotRod" />
+      <xsd:enumeration value="DrumKitStick" />
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:simpleType name="playbackStateType">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="Default" />
+      <xsd:enumeration value="Solo" />
+      <xsd:enumeration value="Mute" />
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:simpleType name="keyModeType">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="Major" />
+      <xsd:enumeration value="Minor" />
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:simpleType name="ottaviaType">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="8va" />
+      <xsd:enumeration value="8vb" />
+      <xsd:enumeration value="15ma" />
+      <xsd:enumeration value="15mb" />
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:simpleType name="dynamicType">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="None" />
+      <xsd:enumeration value="PPPPPPP" />
+      <xsd:enumeration value="PPPPPP" />
+      <xsd:enumeration value="PPPPP" />
+      <xsd:enumeration value="PPPP" />
+      <xsd:enumeration value="PPP" />
+      <xsd:enumeration value="PP" />
+      <xsd:enumeration value="P" />
+      <xsd:enumeration value="MP" />
+      <xsd:enumeration value="MF" />
+      <xsd:enumeration value="F" />
+      <xsd:enumeration value="FF" />
+      <xsd:enumeration value="FFF" />
+      <xsd:enumeration value="FFFF" />
+      <xsd:enumeration value="FFFFF" />
+      <xsd:enumeration value="FFFFFF" />
+      <xsd:enumeration value="FFFFFFF" />
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:simpleType name="accentuationType">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="Ghost" />
+      <xsd:enumeration value="Normal" />
+      <xsd:enumeration value="Heavy" />
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:simpleType name="fingeringType">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="None" />
+      <xsd:enumeration value="P" />
+      <xsd:enumeration value="I" />
+      <xsd:enumeration value="M" />
+      <xsd:enumeration value="A" />
+      <xsd:enumeration value="C" />
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:simpleType name="graceNoteTransitionType">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="None" />
+      <xsd:enumeration value="Slide" />
+      <xsd:enumeration value="Bend" />
+      <xsd:enumeration value="Hammer" />
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:simpleType name="noteValueType">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="Long" />
+      <xsd:enumeration value="DoubleWhole" />
+      <xsd:enumeration value="Whole" />
+      <xsd:enumeration value="Half" />
+      <xsd:enumeration value="Quarter" />
+      <xsd:enumeration value="Eighth" />
+      <xsd:enumeration value="16th" />
+      <xsd:enumeration value="32nd" />
+      <xsd:enumeration value="64th" />
+      <xsd:enumeration value="128th" />
+      <xsd:enumeration value="256th" />
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:simpleType name="directionTargetType">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="Coda" />
+      <xsd:enumeration value="DoubleCoda" />
+      <xsd:enumeration value="Segno" />
+      <xsd:enumeration value="SegnoSegno" />
+      <xsd:enumeration value="Fine" />
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:simpleType name="directionJumpType">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="DaCapo" />
+      <xsd:enumeration value="DaCapoAlCoda" />
+      <xsd:enumeration value="DaCapoAlDoubleCoda" />
+      <xsd:enumeration value="DaCapoAlFine" />
+      <xsd:enumeration value="DaSegno" />
+      <xsd:enumeration value="DaSegnoAlCoda" />
+      <xsd:enumeration value="DaSegnoAlDoubleCoda" />
+      <xsd:enumeration value="DaSegnoAlFine" />
+      <xsd:enumeration value="DaSegnoSegno" />
+      <xsd:enumeration value="DaSegnoSegnoAlCoda" />
+      <xsd:enumeration value="DaSegnoSegnoAlDoubleCoda" />
+      <xsd:enumeration value="DaSegnoSegnoAlFine" />
+      <xsd:enumeration value="DaCoda" />
+      <xsd:enumeration value="DaDoubleCoda" />
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:simpleType name="bendTypeType">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="None" />
+      <xsd:enumeration value="Bend" />
+      <xsd:enumeration value="BendRelease" />
+      <xsd:enumeration value="BendReleaseBend" />
+      <xsd:enumeration value="PreBend" />
+      <xsd:enumeration value="PreBendRelease" />
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:simpleType name="whammyBarTypeType">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="None" />
+      <xsd:enumeration value="Dip" />
+      <xsd:enumeration value="Dive" />
+      <xsd:enumeration value="ReleaseUp" />
+      <xsd:enumeration value="Inverted" />
+      <xsd:enumeration value="Return" />
+      <xsd:enumeration value="ReleaseDown" />
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:simpleType name="strokeDirectionType">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="Up" />
+      <xsd:enumeration value="Down" />
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:simpleType name="vibratoType">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="Slight" />
+      <xsd:enumeration value="Wide" />
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:simpleType name="wahType">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="Closed" />
+      <xsd:enumeration value="Open" />
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:simpleType name="legatoType">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="Intermediate" />
+      <xsd:enumeration value="Complete" />
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:simpleType name="harmonicTypeType">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="Natural" />
+      <xsd:enumeration value="Artificial" />
+      <xsd:enumeration value="Pinch" />
+      <xsd:enumeration value="Tap" />
+      <xsd:enumeration value="Semi" />
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:simpleType name="harmonicFretType">
+    <xsd:restriction base="xsd:float">
+      <xsd:maxInclusive value="36" />
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:simpleType name="slotIdType">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="Kick_00" />
+      <xsd:enumeration value="Snare_00" />
+      <xsd:enumeration value="Tom_00" />
+      <xsd:enumeration value="Tom_01" />
+      <xsd:enumeration value="Tom_02" />
+      <xsd:enumeration value="Tom_03" />
+      <xsd:enumeration value="Tom_04" />
+      <xsd:enumeration value="Hihat_00" />
+      <xsd:enumeration value="Crash_00" />
+      <xsd:enumeration value="Crash_01" />
+      <xsd:enumeration value="Splash_00" />
+      <xsd:enumeration value="Ride_00" />
+      <xsd:enumeration value="China_00" />
+      <xsd:enumeration value="CowBell_00" />
+      <xsd:enumeration value="CowBell_01" />
+      <xsd:enumeration value="CowBell_03" />
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:simpleType name="beaterType">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="Stick" />
+      <xsd:enumeration value="HotRod" />
+      <xsd:enumeration value="Mallet" />
+      <xsd:enumeration value="Brush" />
+      <xsd:enumeration value="Pedal" />
+      <xsd:enumeration value="Hand" />
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:simpleType name="beaterTechnicType">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="Hit" />
+      <xsd:enumeration value="Drag" />
+      <xsd:enumeration value="Flam" />
+      <xsd:enumeration value="RimShot" />
+      <xsd:enumeration value="SideStick" />
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:simpleType name="hihatOpeningType">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="FullOpen" />
+      <xsd:enumeration value="HalfOpen" />
+      <xsd:enumeration value="Closed" />
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:simpleType name="ridePartType">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="Middle" />
+      <xsd:enumeration value="Edge" />
+      <xsd:enumeration value="Bell" />
+    </xsd:restriction>
+  </xsd:simpleType>
+  
+  <xsd:simpleType name="tripletFeelType">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="NoTripletFeel" />
+      <xsd:enumeration value="Triplet8th" />
+      <xsd:enumeration value="Triplet16th" />
+      <xsd:enumeration value="Dotted8th" />
+      <xsd:enumeration value="Dotted16th" />
+      <xsd:enumeration value="Scottish8th" />
+      <xsd:enumeration value="Scottish16th" />
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:simpleType name="effectRailType">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="FirstRail" />
+      <xsd:enumeration value="MiddleTopRail" />
+      <xsd:enumeration value="MiddleBottomRail" />
+      <xsd:enumeration value="LastRail" />
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:simpleType name="instrumentRefType">
+    <xsd:restriction base="xsd:string">
+      <!-- Guitars -->
+      <xsd:enumeration value="e-gtr6" />
+      <xsd:enumeration value="e-gtr7" />
+      <xsd:enumeration value="e-gtr8" />
+      <xsd:enumeration value="e-gtr12" />
+      <xsd:enumeration value="n-gtr6" />
+      <xsd:enumeration value="n-gtr7" />
+      <xsd:enumeration value="n-gtr8" />
+      <xsd:enumeration value="s-gtr6" />
+      <xsd:enumeration value="s-gtr7" />
+      <xsd:enumeration value="s-gtr8" />
+      <xsd:enumeration value="s-gtr12" />
+      <xsd:enumeration value="r-gtr6" />
+      <xsd:enumeration value="m-gtr6" />
+      <xsd:enumeration value="m-gtr7" />
+      <xsd:enumeration value="m-gtr8" />
+      <xsd:enumeration value="m-gtr12" />
+      <xsd:enumeration value="bjn4" />
+      <xsd:enumeration value="bjn5" />
+      <xsd:enumeration value="bjn6" />
+      <xsd:enumeration value="mndln8" />
+      <xsd:enumeration value="ukll4" />
+      <!-- Basses -->
+      <xsd:enumeration value="e-bass4" />
+      <xsd:enumeration value="e-bass5" />
+      <xsd:enumeration value="e-bass6" />
+      <xsd:enumeration value="a-bass4" />
+      <xsd:enumeration value="a-bass5" />
+      <xsd:enumeration value="a-bass6" />
+      <xsd:enumeration value="f-bass4" />
+      <xsd:enumeration value="f-bass5" />
+      <xsd:enumeration value="f-bass6" />
+      <xsd:enumeration value="s-bass4" />
+      <xsd:enumeration value="s-bass5" />
+      <xsd:enumeration value="s-bass6" />
+      <xsd:enumeration value="m-bass4" />
+      <xsd:enumeration value="m-bass5" />
+      <xsd:enumeration value="m-bass6" />
+      <!-- Keyboards -->
+      <xsd:enumeration value="a-piano" />
+      <xsd:enumeration value="e-piano" />
+      <xsd:enumeration value="em-organ" />
+      <xsd:enumeration value="hrpch" />
+      <!-- Synthetisers -->
+      <xsd:enumeration value="snt-pad" />
+      <xsd:enumeration value="snt-lead" />
+      <xsd:enumeration value="snt-brass" />
+      <xsd:enumeration value="snt-key" />
+      <xsd:enumeration value="snt-seq" />
+      <!-- Orchesteral Strings -->
+      <xsd:enumeration value="vln" />
+      <xsd:enumeration value="vla" />
+      <xsd:enumeration value="cello" />
+      <xsd:enumeration value="ctbass" />
+      <xsd:enumeration value="harp" />
+      <!-- Orchesteral Brasses -->
+      <xsd:enumeration value="trmpt" />
+      <xsd:enumeration value="trmbn" />
+      <xsd:enumeration value="fr-horn" />
+      <xsd:enumeration value="bass-tuba" />
+      <!-- Orchestral Reed -->
+      <xsd:enumeration value="oboe" />
+      <xsd:enumeration value="bassn" />
+      <xsd:enumeration value="ctbassn" />
+      <xsd:enumeration value="en-horn" />
+      <xsd:enumeration value="clrnt" />
+      <xsd:enumeration value="sax" />
+      <!-- Orchestral Pipe -->
+      <xsd:enumeration value="flt" />
+      <xsd:enumeration value="pccl" />
+      <xsd:enumeration value="rec" />
+      <!-- Orchestral Other -->
+      <xsd:enumeration value="xlphn" />
+      <xsd:enumeration value="vbrphn" />
+      <xsd:enumeration value="clst" />
+      <xsd:enumeration value="trngl" />
+      <xsd:enumeration value="snr" />
+      <xsd:enumeration value="grcss" />
+      <xsd:enumeration value="ptt" />
+      <xsd:enumeration value="tmpn" />
+      <!-- Cymbals -->
+      <xsd:enumeration value="china" />
+      <xsd:enumeration value="crash" />
+      <xsd:enumeration value="hihat" />
+      <xsd:enumeration value="ride" />
+      <xsd:enumeration value="splash" />
+      <!-- Drums -->
+      <xsd:enumeration value="snare" />
+      <xsd:enumeration value="kick" />
+      <xsd:enumeration value="tom" />
+      <!-- Drumkit -->
+      <xsd:enumeration value="drmkt" />
+      <!-- Percussion -->
+      <xsd:enumeration value="bongo" />
+      <xsd:enumeration value="conga" />
+      <xsd:enumeration value="cuica" />
+      <xsd:enumeration value="surdo" />
+      <xsd:enumeration value="tmrn" />
+      <xsd:enumeration value="tmbl" />
+      <xsd:enumeration value="agogo" />
+      <xsd:enumeration value="bell-tree" />
+      <xsd:enumeration value="cbs" />
+      <xsd:enumeration value="cstnt" />
+      <xsd:enumeration value="clvs" />
+      <xsd:enumeration value="cowbell" />
+      <xsd:enumeration value="guiro" />
+      <xsd:enumeration value="hclap" />
+      <xsd:enumeration value="jngl-bell" />
+      <xsd:enumeration value="mrcs" />
+      <xsd:enumeration value="shkr" />
+      <xsd:enumeration value="vbrslp" />
+      <xsd:enumeration value="whstl" />
+      <xsd:enumeration value="wdblck" />
+      <!-- Singers -->
+      <xsd:enumeration value="s-male" />
+      <xsd:enumeration value="s-female" />
+      <xsd:enumeration value="c-male" />
+      <xsd:enumeration value="c-female" />
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:simpleType name="gmTableType">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="Instrument" />
+      <xsd:enumeration value="Percussion" />
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:simpleType name="simileMarkType">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="Simple" />
+      <xsd:enumeration value="Double" />
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:simpleType name="graceNotesType">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="OnBeat" />
+      <xsd:enumeration value="BeforeBeat" />
+    </xsd:restriction>
+  </xsd:simpleType>
+    
+  <xsd:simpleType name="fermataTypeType">
+    <xsd:restriction base="xsd:string">
+        <xsd:enumeration value="Short" />
+        <xsd:enumeration value="Medium" />
+        <xsd:enumeration value="Long" />
+    </xsd:restriction>
+  </xsd:simpleType>
+  
+  <!-- complex types -->
+  
+  <xsd:complexType name="fermataType">
+    <xsd:all>
+        <xsd:element name="Type"   type="fermataTypeType" minOccurs="1" />
+        <xsd:element name="Offset" type="timeUnitType"    minOccurs="1" />
+        <xsd:element name="Length" type="xsd:float"       minOccurs="1" />
+    </xsd:all>
+  </xsd:complexType>
+  
+  <xsd:complexType name="fermataListType">
+    <xsd:sequence minOccurs="0" maxOccurs="unbounded">
+        <xsd:element name="Fermata" type="fermataType" /> 
+    </xsd:sequence>
+  </xsd:complexType>
+  
+  <xsd:complexType name="bendType">
+    <xsd:all>
+      <xsd:element name="Type" type="bendTypeType" minOccurs="1" />
+      <xsd:element name="Value" type="xsd:unsignedInt" minOccurs="1" />
+      <xsd:element name="Points" minOccurs="0">
+        <xsd:complexType>
+          <xsd:sequence minOccurs="0" maxOccurs="unbounded">
+            <xsd:element name="Point" type="pointType" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:all>
+  </xsd:complexType>
+
+  <xsd:complexType name="whammyBarType">
+    <xsd:all>
+      <xsd:element name="Type" type="whammyBarTypeType" minOccurs="1" />
+      <xsd:element name="Value" type="xsd:unsignedInt" minOccurs="1" />
+      <xsd:element name="Points" minOccurs="0">
+        <xsd:complexType>
+          <xsd:sequence minOccurs="0" maxOccurs="unbounded">
+            <xsd:element name="Point" type="pointType" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:all>
+  </xsd:complexType>
+
+  <xsd:complexType name="brushType">
+    <xsd:all>
+      <xsd:element name="Direction" type="strokeDirectionType" minOccurs="1" />
+      <xsd:element name="Speed"     type="timeUnitType"        minOccurs="1" />
+    </xsd:all>
+  </xsd:complexType>
+  
+  <xsd:complexType name="automationType">
+    <xsd:all>
+      <xsd:element name="Offset" type="timeUnitType" minOccurs="1" />
+      <xsd:element name="Length" type="timeUnitType" minOccurs="1" />
+      <xsd:element name="Value" type="xsd:integer" minOccurs="1" />
+    </xsd:all>
+  </xsd:complexType>
+
+  <xsd:complexType name="chordCollectionType" >
+    <xsd:sequence>
+      <xsd:element name="Chord" minOccurs="0" maxOccurs="unbounded">
+        <xsd:complexType>
+          <xsd:attribute name="name" type="xsd:string" use="required" />
+          <xsd:attribute name="baseFret" type="xsd:unsignedInt" use="required" />
+          <xsd:attribute name="spanLimit" type="xsd:unsignedInt" use="required" />
+          <xsd:attribute name="barsStates" type="uintListType" use="required" />
+          <xsd:attribute name="frets" type="intListType" use="required" />
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:sequence>
+  </xsd:complexType>
+
+  <!-- properties -->
+  <xsd:complexType name="propertyListType">
+    <xsd:sequence minOccurs="0" maxOccurs="unbounded">
+      <xsd:element name="Property">
+        <xsd:complexType>
+          <xsd:sequence minOccurs="0" maxOccurs="1">
+            <xsd:choice>
+              <!-- Tuning -->
+              <xsd:element name="Pitches" type="tuningType"/>
+              <!-- Fret, Capo -->
+              <xsd:element name="Fret" type="fretType" />
+              <!-- ChorCollection -->
+              <xsd:element name="Chords" type="chordCollectionType" />
+              <!-- Slapped, Popped, Dead, PalmMuted, Tapped, Choked -->
+              <xsd:element name="Enable" />
+              <!-- PickStroked -->
+              <xsd:element name="Direction" type="strokeDirectionType" />
+              <!-- Brush -->
+              <xsd:element name="BrushDescription" type="brushType" />
+              <!-- VibratoWTremBar, Vibrato-->
+              <xsd:element name="Strength" type="vibratoType" />
+              <!-- WhammyBar -->
+              <xsd:element name="WhammyBarDescription" type="whammyBarType" />
+              <!-- WahWah -->
+              <xsd:element name="WahType" type="wahType" />
+              <!-- Chord -->
+              <xsd:element name="Name" type="xsd:string" />
+              <!-- String -->
+              <xsd:element name="String" type="stringType" />
+              <!-- Bend -->
+              <xsd:element name="BendDescription" type="bendType" />
+              <!-- Slide -->
+              <xsd:element name="Flags" type="ubyteType" />
+              <!-- HarmonicType -->
+              <xsd:element name="HType" type="harmonicTypeType" />
+              <!-- HarmonicFret -->
+              <xsd:element name="HFret" type="harmonicFretType" />
+              <!-- Tone -->
+              <xsd:element name="Step" type="ubyteType" />
+              <!-- Octave, Midi -->
+              <xsd:element name="Number" type="ubyteType" />
+              <!-- SlotId -->
+              <xsd:element name="Slot" type="slotIdType" />
+              <!-- Beater -->
+              <xsd:element name="BeaterType" type="beaterType" />
+              <!-- BeaterTechnic -->
+              <xsd:element name="BeaterTechnicType" type="beaterTechnicType" />
+              <!-- HiHatOpening -->
+              <xsd:element name="HiHatOpeningType" type="hihatOpeningType" />
+              <!-- RidePart -->
+              <xsd:element name="RidePartType" type="ridePartType" />
+            </xsd:choice>
+          </xsd:sequence>
+          <xsd:attribute name="name" type="xsd:string" use="required" />
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:sequence>
+  </xsd:complexType>
+
+  <!-- attributes -->
+  <xsd:simpleType name="coreAttributeTypeType">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="bool" />
+      <xsd:enumeration value="int" />
+      <xsd:enumeration value="float" />
+      <xsd:enumeration value="string" />
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:complexType name="coreAttributeListType">
+    <xsd:sequence minOccurs="0" maxOccurs="unbounded">
+      <xsd:element name="Attribute">
+        <xsd:complexType>
+          <xsd:attribute name="id" type="xsd:unsignedInt" use="required" />
+          <xsd:attribute name="type" type="coreAttributeTypeType" use="required" />
+          <xsd:attribute name="value" type="xsd:string" use="required" />
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:sequence>
+  </xsd:complexType>
+
+  <!-- document structure -->
+  <xsd:element name="GPIF">
+    <xsd:complexType>
+      <xsd:all>
+
+        <!--  Score -->
+        <xsd:element name="Score" minOccurs="0" maxOccurs="1">
+          <xsd:complexType>
+            <xsd:all>
+              <xsd:element name="Title" type="xsd:string" minOccurs="0" />
+              <xsd:element name="SubTitle" type="xsd:string" minOccurs="0" />
+              <xsd:element name="Artist" type="xsd:string" minOccurs="0" />
+              <xsd:element name="Album" type="xsd:string" minOccurs="0" />
+              <xsd:element name="Words" type="xsd:string" minOccurs="0" />
+              <xsd:element name="Music" type="xsd:string" minOccurs="0" />
+              <xsd:element name="Copyright" type="xsd:string" minOccurs="0" />
+              <xsd:element name="Tabber" type="xsd:string" minOccurs="0" />
+              <xsd:element name="Instructions" type="xsd:string" minOccurs="0" />
+              <xsd:element name="FirstPageHeader" type="xsd:string" minOccurs="0" />
+              <xsd:element name="FirstPageFooter" type="xsd:string" minOccurs="0" />
+              <xsd:element name="PageHeader" type="xsd:string" minOccurs="0" />
+              <xsd:element name="PageFooter" type="xsd:string" minOccurs="0" />
+            </xsd:all>
+          </xsd:complexType>
+        </xsd:element>
+
+        <!-- MasterTrack -->
+        <xsd:element name="MasterTrack" minOccurs="1" maxOccurs="1">
+          <xsd:complexType>
+            <xsd:all>
+              <xsd:element name="Tempo" type="xsd:unsignedInt" minOccurs="1" />
+              <xsd:element name="TempoLabel" type="xsd:string" minOccurs="0" />
+              <xsd:element name="Tracks" type="nonEmptyUintListType" minOccurs="1" />
+            </xsd:all>
+          </xsd:complexType>
+        </xsd:element>
+
+        <!--  Tracks -->
+        <xsd:element name="Tracks" minOccurs="1" maxOccurs="1">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="Track" minOccurs="1" maxOccurs="unbounded">
+                <xsd:complexType>
+                  <xsd:all>
+                    <xsd:element name="Name" type="xsd:string" minOccurs="0" />
+                    <xsd:element name="ShortName" type="xsd:string" minOccurs="0" />
+                    <xsd:element name="Color" type="colorType" minOccurs="1" />
+                    <xsd:element name="Clef" type="clefType" minOccurs="1" />
+                    <xsd:element name="Instrument" minOccurs="0">
+                      <xsd:complexType>
+                        <xsd:attribute name="ref" type="instrumentRefType" use="required" />
+                      </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="PlayingStyle" type="playingStyleType" minOccurs="1" />
+                    <xsd:element name="RSE" minOccurs="0">
+                      <xsd:complexType>
+                        <xsd:all>
+                          <xsd:element name="Bank" type="xsd:string" minOccurs="1" />
+                          <xsd:element name="EffectChains" minOccurs="0">
+                            <xsd:complexType>
+                              <xsd:sequence minOccurs="1" maxOccurs="unbounded">
+                                <xsd:element name="EffectChain">
+                                  <xsd:complexType>
+                                    <xsd:sequence>
+                                      <xsd:element name="Name" type="xsd:string" />
+                                      <xsd:element name="Rail" maxOccurs="unbounded">
+                                        <xsd:complexType>
+                                          <xsd:sequence>
+                                            <xsd:element name="Effect" minOccurs="0" maxOccurs="unbounded">
+                                              <xsd:complexType>
+                                                <xsd:all>
+                                                  <xsd:element name="ByPass" minOccurs="0" />
+                                                  <xsd:element name="Parameters" type="floatListType" />
+                                                </xsd:all>
+                                                <xsd:attribute name="id" type="xsd:string" />
+                                              </xsd:complexType>
+                                            </xsd:element>
+                                          </xsd:sequence>
+                                          <xsd:attribute name="name" type="xsd:string" />
+                                        </xsd:complexType>
+                                      </xsd:element>
+                                    </xsd:sequence>
+                                  </xsd:complexType>
+                                </xsd:element>
+                              </xsd:sequence>
+                            </xsd:complexType>
+                          </xsd:element>
+                        </xsd:all>
+                      </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="GeneralMidi" minOccurs="1">
+                      <xsd:complexType>
+                        <xsd:all>
+                          <xsd:element name="Program" type="ubyteType" minOccurs="1" />
+                          <xsd:element name="Port" type="ubyteType" minOccurs="1" />
+                          <xsd:element name="PrimaryChannel" type="ubyteType" minOccurs="1" />
+                          <xsd:element name="SecondaryChannel" type="ubyteType" minOccurs="1" />
+                        </xsd:all>
+                        <xsd:attribute name="table" type="gmTableType" use="required" />
+                      </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="ChannelStrip" minOccurs="1">
+                      <xsd:complexType>
+                        <xsd:all>
+                          <xsd:element name="Volume" type="ubyteType" minOccurs="1" />
+                          <xsd:element name="Pan" type="ubyteType" minOccurs="1" />
+                        </xsd:all>
+                      </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="PlaybackState" type="playbackStateType" minOccurs="1" />
+                    <xsd:element name="Lyrics" minOccurs="0">
+                      <xsd:complexType>
+                        <xsd:sequence>
+                          <xsd:element name="Line" minOccurs="0" maxOccurs="5">
+                            <xsd:complexType>
+                              <xsd:all>
+                                <xsd:element name="Text" type="xsd:string" minOccurs="0" />
+                                <xsd:element name="Offset" type="xsd:unsignedInt" minOccurs="0" />
+                              </xsd:all>
+                            </xsd:complexType>
+                          </xsd:element>
+                        </xsd:sequence>
+                      </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="Properties" type="propertyListType" minOccurs="0" />
+                  </xsd:all>
+                  <xsd:attribute name="id" type="xsd:integer" use="required" />
+                </xsd:complexType>
+              </xsd:element>
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+        
+        <!-- MasterBars -->
+        <xsd:element name="MasterBars" minOccurs="1" maxOccurs="1">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="MasterBar" minOccurs="1" maxOccurs="unbounded">
+                <xsd:complexType>
+                  <xsd:all>
+                    <xsd:element name="Key">
+                      <xsd:complexType>
+                        <xsd:all>
+                          <xsd:element name="AccidentalCount" type="keyAccidentalType" minOccurs="1" />
+                          <xsd:element name="Mode" type="keyModeType" minOccurs="1" />
+                        </xsd:all>
+                      </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="Time" type="timeUnitType" minOccurs="1" />
+                    <xsd:element name="Repeat" minOccurs="0" maxOccurs="1">
+                      <xsd:complexType>
+                        <xsd:attribute name="start" type="xsd:boolean" use="optional" />
+                        <xsd:attribute name="end" type="xsd:boolean" use="optional" />
+                        <xsd:attribute name="count" type="xsd:unsignedInt" use="optional" />
+                      </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="TripletFeel" type="tripletFeelType" minOccurs="0" />
+                    <xsd:element name="DoubleBar" minOccurs="0" />
+                    <xsd:element name="Section" minOccurs="0" maxOccurs="1">
+                      <xsd:complexType>
+                        <xsd:all>
+                          <xsd:element name="Color" type="colorType" maxOccurs="1" />
+                          <xsd:element name="Text" type="xsd:string" minOccurs="1" />
+                        </xsd:all>
+                      </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="AlternateEndings" type="nonEmptyUintListType" minOccurs="0" maxOccurs="1" />
+                    <xsd:element name="Directions" minOccurs="0" maxOccurs="1">
+                      <xsd:complexType>
+                        <xsd:sequence minOccurs="1" maxOccurs="unbounded">
+                          <xsd:choice>
+                            <xsd:element name="Target" type="directionTargetType" />
+                            <xsd:element name="Jump" type="directionJumpType" />
+                          </xsd:choice>
+                        </xsd:sequence>
+                      </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="Fermatas" type="fermataListType" minOccurs="0" maxOccurs="1" />
+                    <xsd:element name="Elements" minOccurs="0" maxOccurs="1">
+                      <xsd:complexType>
+                        <xsd:sequence minOccurs="1" maxOccurs="unbounded">
+                          <xsd:choice>
+                            <xsd:element name="VolumeAutomation" type="automationType" />
+                            <xsd:element name="TempoAutomation" type="automationType" />
+                          </xsd:choice>
+                        </xsd:sequence>
+                      </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="Bars" type="nonEmptyUintListType" minOccurs="1" maxOccurs="1" />
+                    <xsd:element name="Attributes" type="coreAttributeListType" minOccurs="0" />
+                  </xsd:all>
+                </xsd:complexType>
+              </xsd:element>
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+
+        <!-- Bars -->
+        <xsd:element name="Bars" minOccurs="1" maxOccurs="1">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="Bar" minOccurs="1" maxOccurs="unbounded">
+                <xsd:complexType>
+                  <xsd:all>
+                    <xsd:element name="SimileMark" minOccurs="0">
+                      <xsd:complexType>
+                        <xsd:all>
+                          <xsd:element name="Type" type="simileMarkType" minOccurs="1" />
+                          <xsd:element name="Position" type="xsd:unsignedInt" minOccurs="0" />
+                        </xsd:all>
+                      </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="Voices" type="voiceListType" />
+                  </xsd:all>
+                  <xsd:attribute name="id" type="xsd:integer" use="required" />
+                </xsd:complexType>
+              </xsd:element>
+              <xsd:element name="Attributes" type="coreAttributeListType" minOccurs="0" />
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+
+        <!-- Voices -->
+        <xsd:element name="Voices" minOccurs="1" maxOccurs="1">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="Voice" minOccurs="0" maxOccurs="unbounded">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="Beats" type="uintListType" />
+                  </xsd:sequence>
+                  <xsd:attribute name="id" type="xsd:integer" use="required" />
+                </xsd:complexType>
+              </xsd:element>
+              <xsd:element name="Attributes" type="coreAttributeListType" minOccurs="0" />
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+
+        <!-- Beats -->
+        <xsd:element name="Beats" minOccurs="1" maxOccurs="1">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="Beat" minOccurs="0" maxOccurs="unbounded">
+                <xsd:complexType>
+                  <xsd:all>
+                    <xsd:element name="Rhythm" minOccurs="0">
+                      <xsd:complexType>
+                        <xsd:attribute name="ref" type="xsd:unsignedInt" use="required" />
+                      </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="GraceNotes" type="graceNotesType" minOccurs="0" />
+                    <xsd:element name="Dynamic" type="dynamicType" minOccurs="0" />
+                    <xsd:element name="Ottavia" type="ottaviaType" minOccurs="0" />
+                    <xsd:element name="Tremolo" type="timeUnitType" minOccurs="0" />
+                    <xsd:element name="Arpeggio" minOccurs="0">
+                      <xsd:complexType>
+                        <xsd:all>
+                          <xsd:element name="Direction" type="strokeDirectionType" minOccurs="1" />
+                          <xsd:element name="Speed" type="timeUnitType" minOccurs="1" />
+                        </xsd:all>
+                      </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="FadeIn" minOccurs="0" />
+                    <xsd:element name="Slashed" minOccurs="0" />
+                    <xsd:element name="FreeText" type="xsd:string" minOccurs="0" />
+                    <xsd:element name="Notes" type="uintListType" minOccurs="0" />
+                    <xsd:element name="Lyrics" minOccurs="0">
+                      <xsd:complexType>
+                        <xsd:sequence minOccurs="5" maxOccurs="5">
+                          <xsd:element name="Line" type="xsd:string" />
+                        </xsd:sequence>
+                      </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="Properties" type="propertyListType" minOccurs="0" />
+                    <xsd:element name="Attributes" type="coreAttributeListType" minOccurs="0" />
+                  </xsd:all>
+                  <xsd:attribute name="id" type="xsd:unsignedInt" use="required" />
+                </xsd:complexType>
+              </xsd:element>
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+
+        <!-- Notes -->
+        <xsd:element name="Notes" minOccurs="1" maxOccurs="1">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="Note" minOccurs="0" maxOccurs="unbounded">
+                <xsd:complexType>
+                  <xsd:all>
+                    <xsd:element name="Duration" type="xsd:unsignedInt" minOccurs="0" />
+                    <xsd:element name="LetRing" minOccurs="0" />
+                    <xsd:element name="Tie" minOccurs="0">
+                      <xsd:complexType>
+                        <xsd:attribute name="origin" type="xsd:boolean" use="optional" />
+                        <xsd:attribute name="destination" type="xsd:boolean" use="optional" />
+                      </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="Legato" type="legatoType"  minOccurs="0" />
+                    <xsd:element name="Staccato" minOccurs="0" />
+                    <xsd:element name="Accentuation" type="accentuationType" minOccurs="0" />
+                    <xsd:element name="Ornament" minOccurs="0" />
+                    <xsd:element name="DummyNote" minOccurs="0" />
+                    <xsd:element name="Trill" minOccurs="0" maxOccurs="1">
+                      <xsd:complexType>
+                        <xsd:all>
+                          <xsd:element name="Pitch" type="ubyteType" minOccurs="0"/>
+                          <xsd:element name="Speed" type="timeUnitType" minOccurs="0"/>
+                        </xsd:all>
+                      </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="LeftFingering" type="fingeringType" minOccurs="0" />
+                    <xsd:element name="RightFingering" type="fingeringType" minOccurs="0" />
+                    <xsd:element name="GraceNote" minOccurs="0">
+                      <xsd:complexType>
+                        <xsd:all>
+                          <xsd:element name="OnBeat" minOccurs="0" />
+                          <xsd:element name="Mute" minOccurs="0" />
+                          <xsd:element name="Pitch" type="ubyteType" />
+                          <xsd:element name="Transition" type="graceNoteTransitionType" minOccurs="0" />
+                          <xsd:element name="Dynamic" type="dynamicType" />
+                          <xsd:element name="Duration" type="timeUnitType" />
+                        </xsd:all>
+                      </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="Properties" type="propertyListType" minOccurs="0" />
+                  </xsd:all>
+                  <xsd:attribute name="id" type="xsd:unsignedInt" use="required" />
+                </xsd:complexType>
+              </xsd:element>
+              <xsd:element name="Attributes" type="coreAttributeListType" minOccurs="0" />
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+
+        <!-- Rhythms -->
+        <xsd:element name="Rhythms">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="Rhythm" minOccurs="0" maxOccurs="unbounded">
+                <xsd:complexType>
+                  <xsd:all>
+                    <xsd:element name="NoteValue" type="noteValueType" minOccurs="0" />
+                    <xsd:element name="AugmentationDot" minOccurs="0">
+                      <xsd:complexType>
+                        <xsd:attribute name="count" type="xsd:unsignedInt" use="optional" />
+                      </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="PrimaryTuplet" minOccurs="0">
+                      <xsd:complexType>
+                        <xsd:attribute name="num" type="xsd:unsignedInt" use="required" />
+                        <xsd:attribute name="den" type="xsd:unsignedInt" use="required" />
+                      </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="SecondaryTuplet" minOccurs="0">
+                      <xsd:complexType>
+                        <xsd:attribute name="num" type="xsd:unsignedInt" use="required" />
+                        <xsd:attribute name="den" type="xsd:unsignedInt" use="required" />
+                      </xsd:complexType>
+                    </xsd:element>
+                  </xsd:all>
+                  <xsd:attribute name="id" type="xsd:unsignedInt" use="required" />
+                </xsd:complexType>
+              </xsd:element>
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+
+      </xsd:all>
+    </xsd:complexType>
+  </xsd:element>
+
+</xsd:schema>

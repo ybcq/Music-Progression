@@ -1,0 +1,160 @@
+<!doctype HTML public "-//W3C//DTD HTML 4.0 Frameset//EN">
+
+<html>
+
+<head>
+<title>G&eacute;rer les mesures</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="../../application_help_ns.css"><script type="text/javascript" language="JavaScript" title="WebHelpSplitCss">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../../application_help.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+h2.whs1 { background-color:Transparent; }
+p.whs2 { background-color:Transparent; }
+img_whs3 { border:none; width:25px; height:18px; float:none; }
+div.whs4 { width:100%; }
+hr.whs5 { float:aligncenter; height:1px; margin-top:12px; x-condition:Online; }
+p.whs6 { text-align:center; color:#808080; font-size:7pt; x-condition:Online; }
+-->
+</style><script type="text/javascript" language="JavaScript">
+<!--
+if ((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) == 4))
+{
+  var strNSS = "<style type='text/css'>";
+  strNSS += "h2.whs1 {background-color:white; }";
+  strNSS += "p.whs2 {background-color:white; }";
+  strNSS +="</style>";
+  document.write(strNSS);
+}
+//-->
+</script>
+<script type="text/javascript" language="JavaScript" title="WebHelpInlineScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style><script type="text/javascript" language="javascript1.2" src="../../whmsg.js"></script>
+<script type="text/javascript" language="javascript" src="../../whver.js"></script>
+<script type="text/javascript" language="javascript1.2" src="../../whproxy.js"></script>
+<script type="text/javascript" language="javascript1.2" src="../../whutils.js"></script>
+<script type="text/javascript" language="javascript1.2" src="../../whtopic.js"></script>
+</head>
+<body>
+<h1>G&eacute;rer les mesures</h1>
+
+<p>Dans Guitar Pro, une mesure existe forcement pour toutes les pistes. 
+ Ainsi une mesure <span style="font-style: italic;"><I>M</I></span> aura la même 
+ tonalit&eacute; et signature sur la piste <span style="font-style: italic;"><I>P1</I></span> 
+ ou <span style="font-style: italic;"><I>P2</I></span>. De même, l'ajout d'un 
+ renvoi d&eacute;but, d'un renvoi fin ou d'une r&eacute;p&eacute;tition se fait forc&eacute;ment sur 
+ toutes les pistes.<br>
+<br>
+La coh&eacute;rence musicale de la partition est ainsi garantie, ce qui est n&eacute;cessaire 
+ pour que la lecture de celle-ci se fasse correctement.<br>
+<br>
+En revanche, cela implique de d&eacute;finir chaque piste entièrement. Il n'est 
+ par exemple pas possible de cr&eacute;er une piste guitare de 100 mesures, et 
+ une piste batterie d'une seule mesure tournant en boucle. Il faudra reproduire 
+ la mesure en boucle sur les 100 mesures de la partition en utilisant les 
+ fonctions <a href="utiliser_le_couper_copier_coller.htm">Copier/Coller</a> 
+ ou les signes de r&eacute;p&eacute;tition (voir <a href="ajouter_des_symboles.htm">Ajouter 
+ des symboles</a>).<br>
+<br>
+De même, l'utilisation du menu <span style="font-weight: bold;"><B>Mesure 
+ </B></span>&gt; <span style="font-weight: bold;"><B>Ins&eacute;rer une mesure/Supprimer 
+ une mesure </B></span>provoque l'insertion ou la suppression d'une ou plusieurs 
+ mesures sur toutes les pistes. </p>
+
+<p>&nbsp;</p>
+
+<h2>Les barres de mesure</h2>
+
+<p>Guitar Pro gère automatiquement les barres de mesure.<br>
+<br>
+Lorsque vous d&eacute;placez le curseur vers la droite, celui-ci change automatiquement 
+ de mesure si la dur&eacute;e de celle-ci correspond exactement à la signature 
+ choisie (par exemple 4 temps dans une mesure en 4/4, cf. <a HREF="../../generalites/pre_requis.htm" style="background-color: Transparent;">Pr&eacute;-requis</a>). 
+ Si la mesure n'est pas encore complète, Guitar Pro cr&eacute;&eacute; un nouveau temps 
+ dont la dur&eacute;e est &eacute;gale par d&eacute;faut au temps pr&eacute;c&eacute;dent.<br>
+<br>
+Lorsqu'une mesure est incomplète ou trop longue, Guitar Pro affiche cette 
+ mesure en rouge, sauf si c'est la mesure en cours d'&eacute;dition.<br>
+<br>
+La barre d'&eacute;tat affiche la dur&eacute;e r&eacute;elle de la mesure en cours de saisie 
+ et sa dur&eacute;e th&eacute;orique. Lorsque vous passez votre souris sur cet endroit 
+ de la barre d'&eacute;tat, une bulle d'aide vous indique quelle voix est incomplète.<br>
+<br>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<h2 class="whs1"><a name="Mode design"></a>Organisation 
+ des mesures</h2>
+
+<p class="whs2">En mode page ou parchemin, il 
+ est possible de g&eacute;rer manuellement le nombre de mesures par ligne. Pour 
+ cela vous devez utiliser les menus &nbsp;<span 
+ style="font-weight: bold;"><B>Mesure</B></span> 
+ &gt; <span style="font-weight: bold;"><B>Forcer le retour à la ligne</B></span> 
+ et &nbsp;<span style="font-weight: bold;"><B>Mesure</B></span> 
+ &gt; <span style="font-weight: bold;"><B>Empêcher le retour à la ligne</B></span>. 
+ &nbsp;</p>
+
+<p class="whs2">&nbsp;</p>
+
+<p class="whs2">Le menu <span style="font-weight: bold;"><B>Mesure</B></span> 
+ &gt; <span style="font-weight: bold;"><B>Organisation des systèmes </B></span>permet 
+ de d&eacute;terminer le nombre de mesures par systèmes par d&eacute;faut, il r&eacute;initialise 
+ les <span style="font-weight: bold;"><B>Retour à ligne</B></span>.<br>&nbsp;</p>
+
+<p class="whs2">Le mode <span style="font-weight: bold;"><B>design</B></span> 
+ <img src="../../img/actions/bt_design.png" x-maintain-ratio="TRUE" width="25px" height="18px" border="0" class="img_whs3"> permet en outre de changer la taille des mesures à l'int&eacute;rieur 
+ d'un système ainsi que le nombre de mesures pour chaque système.</p>
+
+<p class="whs2">&nbsp;</p>
+
+<p class="whs2">Les fonctions d'organisation 
+ des mesures affectent uniquement la piste active, ou la vue multipistes. 
+ Il est ainsi possible de cr&eacute;er un d&eacute;coupage diff&eacute;rent pour chaque piste, 
+ et un autre pour la vue multipistes.</p>
+
+<p class="whs2">&nbsp;</p>
+
+<p class="whs2">Pour justifier à droite la dernière 
+ mesure de la partition, il suffit de lui affecter un retour à la ligne.</p>
+
+<p>&nbsp;</p>
+
+<p class="whs2">&nbsp;</p>
+
+<div placeholder id="footer" class="whs4"><hr align="center" size="1" class="whs5">
+ <p align="center" class="whs6">Copyright &#169; 
+ 2010 Arobas Music - Tous droits r&eacute;serv&eacute;s<br>Documentation pour la v6.0 - R&eacute;vision du 15/03/2010<a href="http://www.guitar-pro.com"
+														target=_blank
+														style="x-condition: Online;"><br>http://www.guitar-pro.com</a></p>
+</div>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+//-->
+</script>
+</body>
+</html>

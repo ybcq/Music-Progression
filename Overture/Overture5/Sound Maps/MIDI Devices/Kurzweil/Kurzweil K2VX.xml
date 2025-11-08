@@ -1,0 +1,1029 @@
+
+<VSTNameDocument name="Kurzweil K2VX">
+<Version>1</Version>
+<Author>Sonic Scores</Author>
+<Device type="MIDI"/>
+<Instruments>
+  <Section name="Bank 0" bankHigh="0" bankLow="0" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="None" prgChg="1"/>
+    <Instrument name="Acoustic Piano" prgChg="2"/>
+    <Instrument name="Stage Piano" prgChg="3"/>
+    <Instrument name="BriteGrand" prgChg="4"/>
+    <Instrument name="ClassicPiano38;Vox" prgChg="5"/>
+    <Instrument name="Ballad Pno38;Str" prgChg="6"/>
+    <Instrument name="Rock Piano 1" prgChg="7"/>
+    <Instrument name="Honky-Tonk" prgChg="8"/>
+    <Instrument name="E Grand 38; Pad" prgChg="9"/>
+    <Instrument name="Classic E Piano" prgChg="10"/>
+    <Instrument name="Dyno E Piano" prgChg="11"/>
+    <Instrument name="E Piano PF" prgChg="12"/>
+    <Instrument name="Suitcase E Pno" prgChg="13"/>
+    <Instrument name="Brite Klav" prgChg="14"/>
+    <Instrument name="Match Stick" prgChg="15"/>
+    <Instrument name="Big PWM" prgChg="16"/>
+    <Instrument name="Matrix 12" prgChg="17"/>
+    <Instrument name="OBX Braz 4" prgChg="18"/>
+    <Instrument name="Memorymoog 4" prgChg="19"/>
+    <Instrument name="Prophet Pulse 2" prgChg="20"/>
+    <Instrument name="Prophet Square 2" prgChg="21"/>
+    <Instrument name="New Shaper" prgChg="22"/>
+    <Instrument name="Klicomp tree" prgChg="23"/>
+    <Instrument name="Digicomp" prgChg="24"/>
+    <Instrument name="Da Clav" prgChg="25"/>
+    <Instrument name="Simpilton" prgChg="26"/>
+    <Instrument name="Synth Caliope" prgChg="27"/>
+    <Instrument name="Chiffloots" prgChg="28"/>
+    <Instrument name="Bamboo Voices" prgChg="29"/>
+    <Instrument name="Hyper Guitar" prgChg="30"/>
+    <Instrument name="Dreamers" prgChg="31"/>
+    <Instrument name="Pluxichord" prgChg="32"/>
+    <Instrument name="Fluty Lead" prgChg="33"/>
+    <Instrument name="Gooshy Lead" prgChg="34"/>
+    <Instrument name="Orient Wind" prgChg="35"/>
+    <Instrument name="DC Lead" prgChg="36"/>
+    <Instrument name="Duke's Lead" prgChg="37"/>
+    <Instrument name="FM Harmonica" prgChg="38"/>
+    <Instrument name="Mini Lead Poly" prgChg="39"/>
+    <Instrument name="AlaZawi" prgChg="40"/>
+    <Instrument name="JR's Lead" prgChg="41"/>
+    <Instrument name="Funky Lead" prgChg="42"/>
+    <Instrument name="Hammeron Synth" prgChg="43"/>
+    <Instrument name="Synthitar Lead" prgChg="44"/>
+    <Instrument name="Modular Lead" prgChg="45"/>
+    <Instrument name="Prophet Sync" prgChg="46"/>
+    <Instrument name="Brt Saxy Lead" prgChg="47"/>
+    <Instrument name="Don Corllione'" prgChg="48"/>
+    <Instrument name="Studio Kit 1" prgChg="49"/>
+    <Instrument name="Studio Kit 2 MW" prgChg="50"/>
+    <Instrument name="2 Live Kits MW" prgChg="51"/>
+    <Instrument name="Rock Kit" prgChg="52"/>
+    <Instrument name="Jazz Kit" prgChg="53"/>
+    <Instrument name="Reggae Kit" prgChg="54"/>
+    <Instrument name="Light Kit" prgChg="55"/>
+    <Instrument name="Garage Kit MW" prgChg="56"/>
+    <Instrument name="Techno Kit" prgChg="57"/>
+    <Instrument name="General MIDI Kit" prgChg="58"/>
+    <Instrument name="Slam'n Drums" prgChg="59"/>
+    <Instrument name="Perc Section MW" prgChg="60"/>
+    <Instrument name="Industry Set" prgChg="61"/>
+    <Instrument name="Techno Loops" prgChg="62"/>
+    <Instrument name="Rhythmatic" prgChg="63"/>
+    <Instrument name="Dualimba" prgChg="64"/>
+    <Instrument name="TouchDrums" prgChg="65"/>
+    <Instrument name="Hand Drums" prgChg="66"/>
+    <Instrument name="Dynamic Perc" prgChg="67"/>
+    <Instrument name="Mark Tree" prgChg="68"/>
+    <Instrument name="Bell Player" prgChg="69"/>
+    <Instrument name="Marimba" prgChg="70"/>
+    <Instrument name="Excited Marimba" prgChg="71"/>
+    <Instrument name="Dual E Bass" prgChg="72"/>
+    <Instrument name="Warm Bass" prgChg="73"/>
+    <Instrument name="Sustain E Bass" prgChg="74"/>
+    <Instrument name="Ripper Bass" prgChg="75"/>
+    <Instrument name="Yama Bass" prgChg="76"/>
+    <Instrument name="Synth Fretless" prgChg="77"/>
+    <Instrument name="Fretless Lead" prgChg="78"/>
+    <Instrument name="Moogy Bass 1" prgChg="79"/>
+    <Instrument name="Moogy Bass 2" prgChg="80"/>
+    <Instrument name="Mix Bass" prgChg="81"/>
+    <Instrument name="Tite Rave Bass" prgChg="82"/>
+    <Instrument name="Synth Bass" prgChg="83"/>
+    <Instrument name="House Bass" prgChg="84"/>
+    <Instrument name="Acoustic Guitar" prgChg="85"/>
+    <Instrument name="Steel Str Guitar" prgChg="86"/>
+    <Instrument name="12-str Guitar" prgChg="87"/>
+    <Instrument name="Strummer Guitar" prgChg="88"/>
+    <Instrument name="Slo Chorus Gtr" prgChg="89"/>
+    <Instrument name="Captain Crunch" prgChg="90"/>
+    <Instrument name="Smooth Lead" prgChg="91"/>
+    <Instrument name="Dist Harmonics" prgChg="92"/>
+    <Instrument name="Kotolin" prgChg="93"/>
+    <Instrument name="Cee Tuar" prgChg="94"/>
+    <Instrument name="Green Acres" prgChg="95"/>
+    <Instrument name="Perc Organ 2500" prgChg="96"/>
+    <Instrument name="Ballad Organ 2" prgChg="97"/>
+    <Instrument name="Gospel Organ" prgChg="98"/>
+    <Instrument name="Drive Organ" prgChg="99"/>
+    <Instrument name="Rotating B's38;M's" prgChg="100"/>
+  </Section>
+  <Section name="Bank 1" bankHigh="0" bankLow="1" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="Cheeze" prgChg="1"/>
+    <Instrument name="Tamborgan" prgChg="2"/>
+    <Instrument name="Organ Pad" prgChg="3"/>
+    <Instrument name="Chiffy Pipes" prgChg="4"/>
+    <Instrument name="Offertory" prgChg="5"/>
+    <Instrument name="Pedal Pipes" prgChg="6"/>
+    <Instrument name="Church Organ" prgChg="7"/>
+    <Instrument name="Resorgan" prgChg="8"/>
+    <Instrument name="Fast Strings" prgChg="9"/>
+    <Instrument name="Att ctl Fast Str" prgChg="10"/>
+    <Instrument name="Att ctl Med Str" prgChg="11"/>
+    <Instrument name="SfzTrem Strings" prgChg="12"/>
+    <Instrument name="ClassicalStrings" prgChg="13"/>
+    <Instrument name="SloClassical Str" prgChg="14"/>
+    <Instrument name="Silk Strings" prgChg="15"/>
+    <Instrument name="Fast Violin" prgChg="16"/>
+    <Instrument name="Slo Solo Cello" prgChg="17"/>
+    <Instrument name="Stereo Slo Str" prgChg="18"/>
+    <Instrument name="Cathedral Choir" prgChg="19"/>
+    <Instrument name="Mixed Choir" prgChg="20"/>
+    <Instrument name="The Choir" prgChg="21"/>
+    <Instrument name="Wendy's Flute" prgChg="22"/>
+    <Instrument name="Treble Flute" prgChg="23"/>
+    <Instrument name="Baroque Flute" prgChg="24"/>
+    <Instrument name="Soft Tenor Sax" prgChg="25"/>
+    <Instrument name="Fast Solo Tenor" prgChg="26"/>
+    <Instrument name="Dynamic Trumpet" prgChg="27"/>
+    <Instrument name="Miles Unmuted" prgChg="28"/>
+    <Instrument name="Strght Mute Trpt" prgChg="29"/>
+    <Instrument name="Almost Muted" prgChg="30"/>
+    <Instrument name="Solo Trombone" prgChg="31"/>
+    <Instrument name="Sfz Bone" prgChg="32"/>
+    <Instrument name="Trumpet Section" prgChg="33"/>
+    <Instrument name="Hip Brass" prgChg="34"/>
+    <Instrument name="Brt Miami Brass" prgChg="35"/>
+    <Instrument name="Orchestral Brass" prgChg="36"/>
+    <Instrument name="Sax Section" prgChg="37"/>
+    <Instrument name="Dyn Big Band" prgChg="38"/>
+    <Instrument name="Flute 38; Slo Str" prgChg="39"/>
+    <Instrument name="Horn38;Flute w/Str" prgChg="40"/>
+    <Instrument name="DynamicOrchestra" prgChg="41"/>
+    <Instrument name="Touch Orchestra" prgChg="42"/>
+    <Instrument name="Slo Ensemble" prgChg="43"/>
+    <Instrument name="W Tell Orchestra" prgChg="44"/>
+    <Instrument name="Jazz Band" prgChg="45"/>
+    <Instrument name="Rock Quartet" prgChg="46"/>
+    <Instrument name="Gargantuanism" prgChg="47"/>
+    <Instrument name="Tranquil Pluck" prgChg="48"/>
+    <Instrument name="The Chase" prgChg="49"/>
+    <Instrument name="Enterprize" prgChg="50"/>
+    <Instrument name="Magic Orchestra" prgChg="51"/>
+    <Instrument name="Passion Source" prgChg="52"/>
+    <Instrument name="Microwave" prgChg="53"/>
+    <Instrument name="Fuzz Lite" prgChg="54"/>
+    <Instrument name="Solina Phaze" prgChg="55"/>
+    <Instrument name="Arystal" prgChg="56"/>
+    <Instrument name="Timershift" prgChg="57"/>
+    <Instrument name="Aurora" prgChg="58"/>
+    <Instrument name="Gongers" prgChg="59"/>
+    <Instrument name="Arrakis Grand" prgChg="60"/>
+    <Instrument name="Sisternal" prgChg="61"/>
+    <Instrument name="PPG 4" prgChg="62"/>
+    <Instrument name="Pseudomento MW" prgChg="63"/>
+    <Instrument name="Big Strings" prgChg="64"/>
+    <Instrument name="Spaced" prgChg="65"/>
+    <Instrument name="Digital Choir" prgChg="66"/>
+    <Instrument name="Meditation Pad" prgChg="67"/>
+    <Instrument name="The Cymbal Sings" prgChg="68"/>
+    <Instrument name="Slo FlangeStrngs" prgChg="69"/>
+    <Instrument name="Lushlife" prgChg="70"/>
+    <Instrument name="Crystal too" prgChg="71"/>
+    <Instrument name="Multi Marimba" prgChg="72"/>
+    <Instrument name="Wave Power" prgChg="73"/>
+    <Instrument name="Noo Mutes" prgChg="74"/>
+    <Instrument name="Hammer Violin" prgChg="75"/>
+    <Instrument name="Mallet Flutes" prgChg="76"/>
+    <Instrument name="Malletoo" prgChg="77"/>
+    <Instrument name="Ethereal Echos" prgChg="78"/>
+    <Instrument name="Padifier" prgChg="79"/>
+    <Instrument name="Spaced Inn" prgChg="80"/>
+    <Instrument name="Glass Bow" prgChg="81"/>
+    <Instrument name="Angel Pass" prgChg="82"/>
+    <Instrument name="In the Air" prgChg="83"/>
+    <Instrument name="Matrix Mellostr" prgChg="84"/>
+    <Instrument name="Ethereal Strings" prgChg="85"/>
+    <Instrument name="Dawning" prgChg="86"/>
+    <Instrument name="Synth Strings" prgChg="87"/>
+    <Instrument name="Choir Fixer" prgChg="88"/>
+    <Instrument name="Shine On" prgChg="89"/>
+    <Instrument name="ChoirStrings" prgChg="90"/>
+    <Instrument name="Launch Pad" prgChg="91"/>
+    <Instrument name="cymbal thing" prgChg="92"/>
+    <Instrument name="a no way CS" prgChg="93"/>
+    <Instrument name="Environments" prgChg="94"/>
+    <Instrument name="Gremlin Group" prgChg="95"/>
+    <Instrument name="Thunder Storm" prgChg="96"/>
+    <Instrument name="Northern Winds" prgChg="97"/>
+    <Instrument name="Doomsday" prgChg="98"/>
+    <Instrument name="Click" prgChg="99"/>
+    <Instrument name="Default Program" prgChg="100"/>
+  </Section>
+  <Section name="Bank 6" bankHigh="0" bankLow="6" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="Cookin' Bee" prgChg="1"/>
+    <Instrument name="In Curved Air" prgChg="2"/>
+    <Instrument name="Comping Hammond" prgChg="3"/>
+    <Instrument name="Water Organ" prgChg="4"/>
+    <Instrument name="Organ" prgChg="5"/>
+    <Instrument name="Lowdown Hammond" prgChg="6"/>
+    <Instrument name="Glasglok Organ" prgChg="7"/>
+    <Instrument name="20/600 Bass (mw)" prgChg="8"/>
+    <Instrument name="Semisynth Bass" prgChg="9"/>
+    <Instrument name="Pick It Bass" prgChg="10"/>
+    <Instrument name="Watermellon Bass" prgChg="11"/>
+    <Instrument name="Gate Bass" prgChg="12"/>
+    <Instrument name="TB Bass (mw)" prgChg="13"/>
+    <Instrument name="Trent Bass #1" prgChg="14"/>
+    <Instrument name="Trance Bass (mw)" prgChg="15"/>
+    <Instrument name="Tick Bass" prgChg="16"/>
+    <Instrument name="Autobahn Bass" prgChg="17"/>
+    <Instrument name="Gatthana Bass" prgChg="18"/>
+    <Instrument name="BrightPunch Bass" prgChg="19"/>
+    <Instrument name="Phatsaw Bass" prgChg="20"/>
+    <Instrument name="Outside Bass" prgChg="21"/>
+    <Instrument name="Midfingered Bass" prgChg="22"/>
+    <Instrument name="Brite Stand-up" prgChg="23"/>
+    <Instrument name="Dirt Drums" prgChg="24"/>
+    <Instrument name="Dirt Drums 2" prgChg="25"/>
+    <Instrument name="Broken Drums" prgChg="26"/>
+    <Instrument name="New Country Kit" prgChg="27"/>
+    <Instrument name="Dirty Kit" prgChg="28"/>
+    <Instrument name="Hip Kit" prgChg="29"/>
+    <Instrument name="PowerPhase Kit" prgChg="30"/>
+    <Instrument name="Distorto Set" prgChg="31"/>
+    <Instrument name="Stereo Kit 1" prgChg="32"/>
+    <Instrument name="Stereo Kit 2" prgChg="33"/>
+    <Instrument name="New 3 Layer Kit" prgChg="34"/>
+    <Instrument name="New 3 Layer Kit2" prgChg="35"/>
+    <Instrument name="New 3 Layer Kit3" prgChg="36"/>
+    <Instrument name="Garage Metal" prgChg="37"/>
+    <Instrument name="Tweed Strum" prgChg="38"/>
+    <Instrument name="Ratty Strat" prgChg="39"/>
+    <Instrument name="Cure Guitar" prgChg="40"/>
+    <Instrument name="Guitar Shapes CS" prgChg="41"/>
+    <Instrument name="Fingered Nylon" prgChg="42"/>
+    <Instrument name="Tele In Room" prgChg="43"/>
+    <Instrument name="Phleetwood Mute" prgChg="44"/>
+    <Instrument name="Filterfunk Gtr" prgChg="45"/>
+    <Instrument name="Micro Guitar" prgChg="46"/>
+    <Instrument name="Dreamguitar" prgChg="47"/>
+    <Instrument name="Digi Clav" prgChg="48"/>
+    <Instrument name="Vintage EP" prgChg="49"/>
+    <Instrument name="Ahh ReleaseClav" prgChg="50"/>
+    <Instrument name="Ahh Klav" prgChg="51"/>
+    <Instrument name="Klose 2 Klav" prgChg="52"/>
+    <Instrument name="Chopik Twang" prgChg="53"/>
+    <Instrument name="Vintage Keez" prgChg="54"/>
+    <Instrument name="Bellow Reeds" prgChg="55"/>
+    <Instrument name="Brite Brass" prgChg="56"/>
+    <Instrument name="Brass Pows" prgChg="57"/>
+    <Instrument name="Quackin' Reeds" prgChg="58"/>
+    <Instrument name="Pinnder Brass" prgChg="59"/>
+    <Instrument name="Muted Trumps" prgChg="60"/>
+    <Instrument name="Brass Mass (mw)" prgChg="61"/>
+    <Instrument name="Orch Brass (mw)" prgChg="62"/>
+    <Instrument name="Reed Leed" prgChg="63"/>
+    <Instrument name="Mitzva Lead" prgChg="64"/>
+    <Instrument name="Detooned Reeds" prgChg="65"/>
+    <Instrument name="Sax Appeal" prgChg="66"/>
+    <Instrument name="Tenor It" prgChg="67"/>
+    <Instrument name="Eric's Flutters" prgChg="68"/>
+    <Instrument name="TouchString" prgChg="69"/>
+    <Instrument name="Samplestar" prgChg="70"/>
+    <Instrument name="Dis Saxified" prgChg="71"/>
+    <Instrument name="SynOrch Power" prgChg="72"/>
+    <Instrument name="Sweet Harp" prgChg="73"/>
+    <Instrument name="PizzBira" prgChg="74"/>
+    <Instrument name="Rich OrchPad" prgChg="75"/>
+    <Instrument name="Alien Pitzz" prgChg="76"/>
+    <Instrument name="Harp Orch" prgChg="77"/>
+    <Instrument name="Touchy Flute" prgChg="78"/>
+    <Instrument name="The Full Orch" prgChg="79"/>
+    <Instrument name="SynWind Wood" prgChg="80"/>
+    <Instrument name="Orchestra Pad" prgChg="81"/>
+    <Instrument name="Dream Flute" prgChg="82"/>
+    <Instrument name="Shaku Like" prgChg="83"/>
+    <Instrument name="GataFlute" prgChg="84"/>
+    <Instrument name="AltoSyn" prgChg="85"/>
+    <Instrument name="Pleasnt Ensemble" prgChg="86"/>
+    <Instrument name="PanChiff" prgChg="87"/>
+    <Instrument name="Intimate Alto" prgChg="88"/>
+    <Instrument name="Brassett" prgChg="89"/>
+    <Instrument name="Pulse Notch" prgChg="90"/>
+    <Instrument name="Poly RezoArp" prgChg="91"/>
+    <Instrument name="Quizzy-Modo" prgChg="92"/>
+    <Instrument name="Dataslide Rez" prgChg="93"/>
+    <Instrument name="Cee Pee 80" prgChg="94"/>
+    <Instrument name="ShapeComp" prgChg="95"/>
+    <Instrument name="CS-80 SawPad" prgChg="96"/>
+    <Instrument name="SunLead (mw)" prgChg="97"/>
+    <Instrument name="Spanner" prgChg="98"/>
+    <Instrument name="Softsaw Rez" prgChg="99"/>
+    <Instrument name="Simplesaw Lead" prgChg="100"/>
+  </Section>
+  <Section name="Bank 7" bankHigh="0" bankLow="7" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="Ravesaw Lead" prgChg="1"/>
+    <Instrument name="Dataslide Pulse" prgChg="2"/>
+    <Instrument name="Arp Axxe" prgChg="3"/>
+    <Instrument name="70's Pulsemod" prgChg="4"/>
+    <Instrument name="Hi Thin Pulse" prgChg="5"/>
+    <Instrument name="Pulsemod Rez" prgChg="6"/>
+    <Instrument name="PulseSweep Comp" prgChg="7"/>
+    <Instrument name="Slo Tririze" prgChg="8"/>
+    <Instrument name="Sawbright 7" prgChg="9"/>
+    <Instrument name="Touchwaves" prgChg="10"/>
+    <Instrument name="Lodown Gritts" prgChg="11"/>
+    <Instrument name="New K-Synn" prgChg="12"/>
+    <Instrument name="Stackwave" prgChg="13"/>
+    <Instrument name="Metal Synth" prgChg="14"/>
+    <Instrument name="Buzz Synth" prgChg="15"/>
+    <Instrument name="Craftwork Saw" prgChg="16"/>
+    <Instrument name="Craftwork Digi" prgChg="17"/>
+    <Instrument name="Synbuzz" prgChg="18"/>
+    <Instrument name="Klangar" prgChg="19"/>
+    <Instrument name="Slotri" prgChg="20"/>
+    <Instrument name="Juno Thru Amp" prgChg="21"/>
+    <Instrument name="Neo-Bell 1" prgChg="22"/>
+    <Instrument name="Neo-Bell 2" prgChg="23"/>
+    <Instrument name="Neo-Bell 3" prgChg="24"/>
+    <Instrument name="Bell of Dreams" prgChg="25"/>
+    <Instrument name="Fake Toy Piano" prgChg="26"/>
+    <Instrument name="Waterven Bell" prgChg="27"/>
+    <Instrument name="Bellstring" prgChg="28"/>
+    <Instrument name="Being Bells" prgChg="29"/>
+    <Instrument name="New Hibells" prgChg="30"/>
+    <Instrument name="Multimba" prgChg="31"/>
+    <Instrument name="Steel Ghatam" prgChg="32"/>
+    <Instrument name="Rimmjob" prgChg="33"/>
+    <Instrument name="Indar Duals" prgChg="34"/>
+    <Instrument name="Space Log" prgChg="35"/>
+    <Instrument name="Mizzars" prgChg="36"/>
+    <Instrument name="East Trance" prgChg="37"/>
+    <Instrument name="Ganko Toy" prgChg="38"/>
+    <Instrument name="Steel Drimms" prgChg="39"/>
+    <Instrument name="Perc Uzi" prgChg="40"/>
+    <Instrument name="Log Gate" prgChg="41"/>
+    <Instrument name="Dualloggs" prgChg="42"/>
+    <Instrument name="Digilog" prgChg="43"/>
+    <Instrument name="Tinn Metal" prgChg="44"/>
+    <Instrument name="East Tinn" prgChg="45"/>
+    <Instrument name="Gank-seq" prgChg="46"/>
+    <Instrument name="PrintPress Perc" prgChg="47"/>
+    <Instrument name="New Nylon-Mbira" prgChg="48"/>
+    <Instrument name="New Log Age" prgChg="49"/>
+    <Instrument name="Passionate" prgChg="50"/>
+    <Instrument name="PowerRide" prgChg="51"/>
+    <Instrument name="Vox Wash" prgChg="52"/>
+    <Instrument name="EthnoGhost" prgChg="53"/>
+    <Instrument name="Julie With..." prgChg="54"/>
+    <Instrument name="Beauty Pad" prgChg="55"/>
+    <Instrument name="Waterworld" prgChg="56"/>
+    <Instrument name="Zipper Vox" prgChg="57"/>
+    <Instrument name="Gutter Pad" prgChg="58"/>
+    <Instrument name="Propellor" prgChg="59"/>
+    <Instrument name="Synthesized Vox" prgChg="60"/>
+    <Instrument name="Daydreams" prgChg="61"/>
+    <Instrument name="Thick 'n Thin" prgChg="62"/>
+    <Instrument name="Studio Rhythm" prgChg="63"/>
+    <Instrument name="Hiss Monster" prgChg="64"/>
+    <Instrument name="Ambi-ence" prgChg="65"/>
+    <Instrument name="Gothic" prgChg="66"/>
+    <Instrument name="SynComp" prgChg="67"/>
+    <Instrument name="Ruggratts" prgChg="68"/>
+    <Instrument name="Chungarr" prgChg="69"/>
+    <Instrument name="Megatran" prgChg="70"/>
+    <Instrument name="The Synth" prgChg="71"/>
+    <Instrument name="Low Rock Garden" prgChg="72"/>
+    <Instrument name="Rosin Change" prgChg="73"/>
+    <Instrument name="Subot 1" prgChg="74"/>
+    <Instrument name="Round 'n Perky" prgChg="75"/>
+    <Instrument name="Lassie Go Away" prgChg="76"/>
+    <Instrument name="Chariots" prgChg="77"/>
+    <Instrument name="Vxall" prgChg="78"/>
+    <Instrument name="Heavens Door" prgChg="79"/>
+    <Instrument name="Nickel Odeon" prgChg="80"/>
+    <Instrument name="Mutato Head" prgChg="81"/>
+    <Instrument name="Three Winds" prgChg="82"/>
+    <Instrument name="Angel Mass" prgChg="83"/>
+    <Instrument name="Peters Pad" prgChg="84"/>
+    <Instrument name="Instant Enya" prgChg="85"/>
+    <Instrument name="Edenesque" prgChg="86"/>
+    <Instrument name="Tickeler" prgChg="87"/>
+    <Instrument name="Insta-Eyesham" prgChg="88"/>
+    <Instrument name="E-noze DX" prgChg="89"/>
+    <Instrument name="Lo Mondopad" prgChg="90"/>
+    <Instrument name="Vox Panhorn" prgChg="91"/>
+    <Instrument name="Suck Wind" prgChg="92"/>
+    <Instrument name="Crimson Rosin" prgChg="93"/>
+    <Instrument name="Hybrid" prgChg="94"/>
+    <Instrument name="Kurz'd Pipe" prgChg="95"/>
+    <Instrument name="Bowlinese" prgChg="96"/>
+    <Instrument name="Starbright" prgChg="97"/>
+    <Instrument name="Starbright 2" prgChg="98"/>
+    <Instrument name="Kalidescope" prgChg="99"/>
+    <Instrument name="Kaliope" prgChg="100"/>
+  </Section>
+  <Section name="Bank 8" bankHigh="0" bankLow="8" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="Jungle Jam" prgChg="1"/>
+    <Instrument name="Mbira Stack" prgChg="2"/>
+    <Instrument name="Ritual Metals" prgChg="3"/>
+    <Instrument name="Prepared Mbira" prgChg="4"/>
+    <Instrument name="Balinesque" prgChg="5"/>
+    <Instrument name="Ambient Bells" prgChg="6"/>
+    <Instrument name="World Jam 1" prgChg="7"/>
+    <Instrument name="World Jam 2" prgChg="8"/>
+    <Instrument name="India Jam" prgChg="9"/>
+    <Instrument name="Slo Wood Flute" prgChg="10"/>
+    <Instrument name="Hybrid Pan Flute" prgChg="11"/>
+    <Instrument name="Chiff Brass Lead" prgChg="12"/>
+    <Instrument name="Bell Players" prgChg="13"/>
+    <Instrument name="Prs Koto" prgChg="14"/>
+    <Instrument name="Medicine Man" prgChg="15"/>
+    <Instrument name="Mbira" prgChg="16"/>
+    <Instrument name="Kotobira" prgChg="17"/>
+    <Instrument name="Cartoon Perc" prgChg="18"/>
+    <Instrument name="CowGogiBell" prgChg="19"/>
+    <Instrument name="Perc Pan Lead" prgChg="20"/>
+    <Instrument name="Trippy Organ" prgChg="21"/>
+    <Instrument name="Koto Followers" prgChg="22"/>
+    <Instrument name="Hybrid Horn" prgChg="23"/>
+    <Instrument name="Dyno EP Lead" prgChg="24"/>
+    <Instrument name="ParaKoto" prgChg="25"/>
+    <Instrument name="Super Clav" prgChg="26"/>
+    <Instrument name="StrataClav" prgChg="27"/>
+    <Instrument name="Touch Clav" prgChg="28"/>
+    <Instrument name="Bad Klav" prgChg="29"/>
+    <Instrument name="Rad Rotor" prgChg="30"/>
+    <Instrument name="B-2001" prgChg="31"/>
+    <Instrument name="Perc Organ" prgChg="32"/>
+    <Instrument name="Drawbar Organ CS" prgChg="33"/>
+    <Instrument name="Bebop Alto Sax" prgChg="34"/>
+    <Instrument name="Soft Alto Sax" prgChg="35"/>
+    <Instrument name="Soprano Sax" prgChg="36"/>
+    <Instrument name="Low Soft Sax" prgChg="37"/>
+    <Instrument name="Air Reeds CS" prgChg="38"/>
+    <Instrument name="Jazz Muted Trp" prgChg="39"/>
+    <Instrument name="Jazz Lab Band" prgChg="40"/>
+    <Instrument name="Harmon Section" prgChg="41"/>
+    <Instrument name="Sfz Cres Brass" prgChg="42"/>
+    <Instrument name="Neo Stabs" prgChg="43"/>
+    <Instrument name="Gtr Jazz Band" prgChg="44"/>
+    <Instrument name="Full Rock Band" prgChg="45"/>
+    <Instrument name="World Rave Kit" prgChg="46"/>
+    <Instrument name="Punch Gate Kit " prgChg="47"/>
+    <Instrument name="Shadow Kit" prgChg="48"/>
+    <Instrument name="Fat Traps " prgChg="49"/>
+    <Instrument name="Generator Kit " prgChg="50"/>
+    <Instrument name="Shudder Kit " prgChg="51"/>
+    <Instrument name="Crowd Stomper " prgChg="52"/>
+    <Instrument name="Econo Kit " prgChg="53"/>
+    <Instrument name="EDrum Kit 1 " prgChg="54"/>
+    <Instrument name="EDrum Kit 2 " prgChg="55"/>
+    <Instrument name="Dog Chases Tail" prgChg="56"/>
+    <Instrument name="Saw Loop Factory" prgChg="57"/>
+    <Instrument name="Two Live Bass" prgChg="58"/>
+    <Instrument name="Dual/Tri Bass" prgChg="59"/>
+    <Instrument name="Clav-o-Bass" prgChg="60"/>
+    <Instrument name="Chirp Bass" prgChg="61"/>
+    <Instrument name="DigiBass" prgChg="62"/>
+    <Instrument name="Mono Synth Bass" prgChg="63"/>
+    <Instrument name="Touch MiniBass" prgChg="64"/>
+    <Instrument name="Ostinato Bass" prgChg="65"/>
+    <Instrument name="House Bass" prgChg="66"/>
+    <Instrument name="Dubb Bass" prgChg="67"/>
+    <Instrument name="Straight Strat" prgChg="68"/>
+    <Instrument name="Chorus Gtr" prgChg="69"/>
+    <Instrument name="Strataguitar" prgChg="70"/>
+    <Instrument name="Elect 12 String" prgChg="71"/>
+    <Instrument name="Dyn Jazz Guitar" prgChg="72"/>
+    <Instrument name="Pedal Steel" prgChg="73"/>
+    <Instrument name="Strummer DistGtr" prgChg="74"/>
+    <Instrument name="Rock Axe" prgChg="75"/>
+    <Instrument name="Hammeron" prgChg="76"/>
+    <Instrument name="Rock Axe mono" prgChg="77"/>
+    <Instrument name="Attack Stack" prgChg="78"/>
+    <Instrument name="Skinny Lead" prgChg="79"/>
+    <Instrument name="Q Sweep SynClav" prgChg="80"/>
+    <Instrument name="Anna Mini" prgChg="81"/>
+    <Instrument name="Ballad Stack" prgChg="82"/>
+    <Instrument name="Big Stack" prgChg="83"/>
+    <Instrument name="BrazKnuckles" prgChg="84"/>
+    <Instrument name="Hybrid Breath" prgChg="85"/>
+    <Instrument name="Hybrid Stack" prgChg="86"/>
+    <Instrument name="Eye Saw" prgChg="87"/>
+    <Instrument name="Mello Hyb Brass" prgChg="88"/>
+    <Instrument name="Sizzl E Pno" prgChg="89"/>
+    <Instrument name="My JayDee" prgChg="90"/>
+    <Instrument name="Slo SynthOrch" prgChg="91"/>
+    <Instrument name="SpaceStation" prgChg="92"/>
+    <Instrument name="Glass Web" prgChg="93"/>
+    <Instrument name="Circus Music" prgChg="94"/>
+    <Instrument name="Mandala" prgChg="95"/>
+    <Instrument name="Slow Strat" prgChg="96"/>
+    <Instrument name="Fluid Koto" prgChg="97"/>
+    <Instrument name="Koreana Pad" prgChg="98"/>
+    <Instrument name="Tangerine" prgChg="99"/>
+    <Instrument name="Planet 9" prgChg="100"/>
+  </Section>
+  <Section name="Bank 9" bankHigh="0" bankLow="9" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="TotalCntrl Orch1" prgChg="1"/>
+    <Instrument name="TotalCntrl Orch2" prgChg="2"/>
+    <Instrument name="BaroqueOrchestra" prgChg="3"/>
+    <Instrument name="Oboe38;Flute w/Str" prgChg="4"/>
+    <Instrument name="Horn38;Flute w/Str" prgChg="5"/>
+    <Instrument name="Trp38;Horns w/Str" prgChg="6"/>
+    <Instrument name="Piccolo" prgChg="7"/>
+    <Instrument name="Orchestral Flute" prgChg="8"/>
+    <Instrument name="Solo Flute" prgChg="9"/>
+    <Instrument name="Orchestral Oboe" prgChg="10"/>
+    <Instrument name="Solo Oboe" prgChg="11"/>
+    <Instrument name="2nd Oboe" prgChg="12"/>
+    <Instrument name="Orch EnglishHorn" prgChg="13"/>
+    <Instrument name="Solo EnglishHorn" prgChg="14"/>
+    <Instrument name="Orch Clarinet" prgChg="15"/>
+    <Instrument name="Solo Clarinet" prgChg="16"/>
+    <Instrument name="Orch Bassoon" prgChg="17"/>
+    <Instrument name="Solo Bassoon" prgChg="18"/>
+    <Instrument name="Woodwinds 1" prgChg="19"/>
+    <Instrument name="Woodwinds 2" prgChg="20"/>
+    <Instrument name="Dynamic Trumpet" prgChg="21"/>
+    <Instrument name="Copland Sft Trp" prgChg="22"/>
+    <Instrument name="Orch Trumpet" prgChg="23"/>
+    <Instrument name="Soft Trumpet" prgChg="24"/>
+    <Instrument name="Strght Mute Trp" prgChg="25"/>
+    <Instrument name="French Horn MW" prgChg="26"/>
+    <Instrument name="Slow Horn" prgChg="27"/>
+    <Instrument name="F Horn Con Sord" prgChg="28"/>
+    <Instrument name="F Horns a2 MW" prgChg="29"/>
+    <Instrument name="French Horn Sec1" prgChg="30"/>
+    <Instrument name="French Horn Sec2" prgChg="31"/>
+    <Instrument name="Solo Trombone" prgChg="32"/>
+    <Instrument name="Tuba" prgChg="33"/>
+    <Instrument name="Dyn Hi Brass" prgChg="34"/>
+    <Instrument name="Dyn Lo Brass" prgChg="35"/>
+    <Instrument name="Dyn Brass 38; Horn" prgChg="36"/>
+    <Instrument name="Soaring Brass" prgChg="37"/>
+    <Instrument name="MarcatoViolin MW" prgChg="38"/>
+    <Instrument name="Solo Violin" prgChg="39"/>
+    <Instrument name="2nd Violin" prgChg="40"/>
+    <Instrument name="Orch Viola" prgChg="41"/>
+    <Instrument name="Solo Viola" prgChg="42"/>
+    <Instrument name="Slow Viola" prgChg="43"/>
+    <Instrument name="Marcato Cello MW" prgChg="44"/>
+    <Instrument name="Solo Cello" prgChg="45"/>
+    <Instrument name="Slow Cello" prgChg="46"/>
+    <Instrument name="Arco Dbl Bass" prgChg="47"/>
+    <Instrument name="Slow Arco Bass" prgChg="48"/>
+    <Instrument name="Brt Dbl Bass" prgChg="49"/>
+    <Instrument name="Touch Strings" prgChg="50"/>
+    <Instrument name="Fast Strings MW" prgChg="51"/>
+    <Instrument name="Chamber Section" prgChg="52"/>
+    <Instrument name="Sfz Strings MW" prgChg="53"/>
+    <Instrument name="Sweet Strings" prgChg="54"/>
+    <Instrument name="Baroque Strg Ens" prgChg="55"/>
+    <Instrument name="Big String Ens" prgChg="56"/>
+    <Instrument name="Bass String Sec" prgChg="57"/>
+    <Instrument name="Pizzicato String" prgChg="58"/>
+    <Instrument name="Wet Pizz " prgChg="59"/>
+    <Instrument name="Arco 38; Pizz" prgChg="60"/>
+    <Instrument name="Classical Guitar" prgChg="61"/>
+    <Instrument name="Virtuoso Guitar" prgChg="62"/>
+    <Instrument name="Acoustic Bass" prgChg="63"/>
+    <Instrument name="Snappy Jazz Bass" prgChg="64"/>
+    <Instrument name="Dynamic Harp" prgChg="65"/>
+    <Instrument name="Harp w/8ve CTL" prgChg="66"/>
+    <Instrument name="Harp Arps" prgChg="67"/>
+    <Instrument name="Celesta" prgChg="68"/>
+    <Instrument name="Pipes" prgChg="69"/>
+    <Instrument name="Pedal Pipes" prgChg="70"/>
+    <Instrument name="Church Bells" prgChg="71"/>
+    <Instrument name="Glockenspiel" prgChg="72"/>
+    <Instrument name="Xylophone" prgChg="73"/>
+    <Instrument name="Chimes" prgChg="74"/>
+    <Instrument name="Timpani/Chimes" prgChg="75"/>
+    <Instrument name="Timpani" prgChg="76"/>
+    <Instrument name="Timpani 38; Perc" prgChg="77"/>
+    <Instrument name="Big Drum Corp" prgChg="78"/>
+    <Instrument name="Orch Percussion1" prgChg="79"/>
+    <Instrument name="Orch Percussion2" prgChg="80"/>
+    <Instrument name="Jam Corp" prgChg="81"/>
+    <Instrument name="Conga 38; Perc" prgChg="82"/>
+    <Instrument name="Woody Jam Rack" prgChg="83"/>
+    <Instrument name="Metal Garden" prgChg="84"/>
+    <Instrument name="Hot Tamali Kit" prgChg="85"/>
+    <Instrument name="Funk Kit" prgChg="86"/>
+    <Instrument name="Magic Guitar" prgChg="87"/>
+    <Instrument name="Glass Bow" prgChg="88"/>
+    <Instrument name="Synth Orch" prgChg="89"/>
+    <Instrument name="Nooage InstaHarp" prgChg="90"/>
+    <Instrument name="AC Dream" prgChg="91"/>
+    <Instrument name="Synth Dulcimer" prgChg="92"/>
+    <Instrument name="Glistener" prgChg="93"/>
+    <Instrument name="Afro Multi CTL" prgChg="94"/>
+    <Instrument name="Tranquil Sleigh" prgChg="95"/>
+    <Instrument name="Batman Strings" prgChg="96"/>
+    <Instrument name="Ethnoo Lead" prgChg="97"/>
+    <Instrument name="Orch Pad CTL" prgChg="98"/>
+    <Instrument name="Choral Sleigh" prgChg="99"/>
+    <Instrument name="Pad Nine" prgChg="100"/>
+  </Section>
+  <Section name="User Bank 2" bankHigh="0" bankLow="2" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="User Patch" prgChg="1"/>
+    <Instrument name="User Patch" prgChg="2"/>
+    <Instrument name="User Patch" prgChg="3"/>
+    <Instrument name="User Patch" prgChg="4"/>
+    <Instrument name="User Patch" prgChg="5"/>
+    <Instrument name="User Patch" prgChg="6"/>
+    <Instrument name="User Patch" prgChg="7"/>
+    <Instrument name="User Patch" prgChg="8"/>
+    <Instrument name="User Patch" prgChg="9"/>
+    <Instrument name="User Patch" prgChg="10"/>
+    <Instrument name="User Patch" prgChg="11"/>
+    <Instrument name="User Patch" prgChg="12"/>
+    <Instrument name="User Patch" prgChg="13"/>
+    <Instrument name="User Patch" prgChg="14"/>
+    <Instrument name="User Patch" prgChg="15"/>
+    <Instrument name="User Patch" prgChg="16"/>
+    <Instrument name="User Patch" prgChg="17"/>
+    <Instrument name="User Patch" prgChg="18"/>
+    <Instrument name="User Patch" prgChg="19"/>
+    <Instrument name="User Patch" prgChg="20"/>
+    <Instrument name="User Patch" prgChg="21"/>
+    <Instrument name="User Patch" prgChg="22"/>
+    <Instrument name="User Patch" prgChg="23"/>
+    <Instrument name="User Patch" prgChg="24"/>
+    <Instrument name="User Patch" prgChg="25"/>
+    <Instrument name="User Patch" prgChg="26"/>
+    <Instrument name="User Patch" prgChg="27"/>
+    <Instrument name="User Patch" prgChg="28"/>
+    <Instrument name="User Patch" prgChg="29"/>
+    <Instrument name="User Patch" prgChg="30"/>
+    <Instrument name="User Patch" prgChg="31"/>
+    <Instrument name="User Patch" prgChg="32"/>
+    <Instrument name="User Patch" prgChg="33"/>
+    <Instrument name="User Patch" prgChg="34"/>
+    <Instrument name="User Patch" prgChg="35"/>
+    <Instrument name="User Patch" prgChg="36"/>
+    <Instrument name="User Patch" prgChg="37"/>
+    <Instrument name="User Patch" prgChg="38"/>
+    <Instrument name="User Patch" prgChg="39"/>
+    <Instrument name="User Patch" prgChg="40"/>
+    <Instrument name="User Patch" prgChg="41"/>
+    <Instrument name="User Patch" prgChg="42"/>
+    <Instrument name="User Patch" prgChg="43"/>
+    <Instrument name="User Patch" prgChg="44"/>
+    <Instrument name="User Patch" prgChg="45"/>
+    <Instrument name="User Patch" prgChg="46"/>
+    <Instrument name="User Patch" prgChg="47"/>
+    <Instrument name="User Patch" prgChg="48"/>
+    <Instrument name="User Patch" prgChg="49"/>
+    <Instrument name="User Patch" prgChg="50"/>
+    <Instrument name="User Patch" prgChg="51"/>
+    <Instrument name="User Patch" prgChg="52"/>
+    <Instrument name="User Patch" prgChg="53"/>
+    <Instrument name="User Patch" prgChg="54"/>
+    <Instrument name="User Patch" prgChg="55"/>
+    <Instrument name="User Patch" prgChg="56"/>
+    <Instrument name="User Patch" prgChg="57"/>
+    <Instrument name="User Patch" prgChg="58"/>
+    <Instrument name="User Patch" prgChg="59"/>
+    <Instrument name="User Patch" prgChg="60"/>
+    <Instrument name="User Patch" prgChg="61"/>
+    <Instrument name="User Patch" prgChg="62"/>
+    <Instrument name="User Patch" prgChg="63"/>
+    <Instrument name="User Patch" prgChg="64"/>
+    <Instrument name="User Patch" prgChg="65"/>
+    <Instrument name="User Patch" prgChg="66"/>
+    <Instrument name="User Patch" prgChg="67"/>
+    <Instrument name="User Patch" prgChg="68"/>
+    <Instrument name="User Patch" prgChg="69"/>
+    <Instrument name="User Patch" prgChg="70"/>
+    <Instrument name="User Patch" prgChg="71"/>
+    <Instrument name="User Patch" prgChg="72"/>
+    <Instrument name="User Patch" prgChg="73"/>
+    <Instrument name="User Patch" prgChg="74"/>
+    <Instrument name="User Patch" prgChg="75"/>
+    <Instrument name="User Patch" prgChg="76"/>
+    <Instrument name="User Patch" prgChg="77"/>
+    <Instrument name="User Patch" prgChg="78"/>
+    <Instrument name="User Patch" prgChg="79"/>
+    <Instrument name="User Patch" prgChg="80"/>
+    <Instrument name="User Patch" prgChg="81"/>
+    <Instrument name="User Patch" prgChg="82"/>
+    <Instrument name="User Patch" prgChg="83"/>
+    <Instrument name="User Patch" prgChg="84"/>
+    <Instrument name="User Patch" prgChg="85"/>
+    <Instrument name="User Patch" prgChg="86"/>
+    <Instrument name="User Patch" prgChg="87"/>
+    <Instrument name="User Patch" prgChg="88"/>
+    <Instrument name="User Patch" prgChg="89"/>
+    <Instrument name="User Patch" prgChg="90"/>
+    <Instrument name="User Patch" prgChg="91"/>
+    <Instrument name="User Patch" prgChg="92"/>
+    <Instrument name="User Patch" prgChg="93"/>
+    <Instrument name="User Patch" prgChg="94"/>
+    <Instrument name="User Patch" prgChg="95"/>
+    <Instrument name="User Patch" prgChg="96"/>
+    <Instrument name="User Patch" prgChg="97"/>
+    <Instrument name="User Patch" prgChg="98"/>
+    <Instrument name="User Patch" prgChg="99"/>
+    <Instrument name="User Patch" prgChg="100"/>
+  </Section>
+  <Section name="User Bank 3" bankHigh="0" bankLow="3" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="User Patch" prgChg="1"/>
+    <Instrument name="User Patch" prgChg="2"/>
+    <Instrument name="User Patch" prgChg="3"/>
+    <Instrument name="User Patch" prgChg="4"/>
+    <Instrument name="User Patch" prgChg="5"/>
+    <Instrument name="User Patch" prgChg="6"/>
+    <Instrument name="User Patch" prgChg="7"/>
+    <Instrument name="User Patch" prgChg="8"/>
+    <Instrument name="User Patch" prgChg="9"/>
+    <Instrument name="User Patch" prgChg="10"/>
+    <Instrument name="User Patch" prgChg="11"/>
+    <Instrument name="User Patch" prgChg="12"/>
+    <Instrument name="User Patch" prgChg="13"/>
+    <Instrument name="User Patch" prgChg="14"/>
+    <Instrument name="User Patch" prgChg="15"/>
+    <Instrument name="User Patch" prgChg="16"/>
+    <Instrument name="User Patch" prgChg="17"/>
+    <Instrument name="User Patch" prgChg="18"/>
+    <Instrument name="User Patch" prgChg="19"/>
+    <Instrument name="User Patch" prgChg="20"/>
+    <Instrument name="User Patch" prgChg="21"/>
+    <Instrument name="User Patch" prgChg="22"/>
+    <Instrument name="User Patch" prgChg="23"/>
+    <Instrument name="User Patch" prgChg="24"/>
+    <Instrument name="User Patch" prgChg="25"/>
+    <Instrument name="User Patch" prgChg="26"/>
+    <Instrument name="User Patch" prgChg="27"/>
+    <Instrument name="User Patch" prgChg="28"/>
+    <Instrument name="User Patch" prgChg="29"/>
+    <Instrument name="User Patch" prgChg="30"/>
+    <Instrument name="User Patch" prgChg="31"/>
+    <Instrument name="User Patch" prgChg="32"/>
+    <Instrument name="User Patch" prgChg="33"/>
+    <Instrument name="User Patch" prgChg="34"/>
+    <Instrument name="User Patch" prgChg="35"/>
+    <Instrument name="User Patch" prgChg="36"/>
+    <Instrument name="User Patch" prgChg="37"/>
+    <Instrument name="User Patch" prgChg="38"/>
+    <Instrument name="User Patch" prgChg="39"/>
+    <Instrument name="User Patch" prgChg="40"/>
+    <Instrument name="User Patch" prgChg="41"/>
+    <Instrument name="User Patch" prgChg="42"/>
+    <Instrument name="User Patch" prgChg="43"/>
+    <Instrument name="User Patch" prgChg="44"/>
+    <Instrument name="User Patch" prgChg="45"/>
+    <Instrument name="User Patch" prgChg="46"/>
+    <Instrument name="User Patch" prgChg="47"/>
+    <Instrument name="User Patch" prgChg="48"/>
+    <Instrument name="User Patch" prgChg="49"/>
+    <Instrument name="User Patch" prgChg="50"/>
+    <Instrument name="User Patch" prgChg="51"/>
+    <Instrument name="User Patch" prgChg="52"/>
+    <Instrument name="User Patch" prgChg="53"/>
+    <Instrument name="User Patch" prgChg="54"/>
+    <Instrument name="User Patch" prgChg="55"/>
+    <Instrument name="User Patch" prgChg="56"/>
+    <Instrument name="User Patch" prgChg="57"/>
+    <Instrument name="User Patch" prgChg="58"/>
+    <Instrument name="User Patch" prgChg="59"/>
+    <Instrument name="User Patch" prgChg="60"/>
+    <Instrument name="User Patch" prgChg="61"/>
+    <Instrument name="User Patch" prgChg="62"/>
+    <Instrument name="User Patch" prgChg="63"/>
+    <Instrument name="User Patch" prgChg="64"/>
+    <Instrument name="User Patch" prgChg="65"/>
+    <Instrument name="User Patch" prgChg="66"/>
+    <Instrument name="User Patch" prgChg="67"/>
+    <Instrument name="User Patch" prgChg="68"/>
+    <Instrument name="User Patch" prgChg="69"/>
+    <Instrument name="User Patch" prgChg="70"/>
+    <Instrument name="User Patch" prgChg="71"/>
+    <Instrument name="User Patch" prgChg="72"/>
+    <Instrument name="User Patch" prgChg="73"/>
+    <Instrument name="User Patch" prgChg="74"/>
+    <Instrument name="User Patch" prgChg="75"/>
+    <Instrument name="User Patch" prgChg="76"/>
+    <Instrument name="User Patch" prgChg="77"/>
+    <Instrument name="User Patch" prgChg="78"/>
+    <Instrument name="User Patch" prgChg="79"/>
+    <Instrument name="User Patch" prgChg="80"/>
+    <Instrument name="User Patch" prgChg="81"/>
+    <Instrument name="User Patch" prgChg="82"/>
+    <Instrument name="User Patch" prgChg="83"/>
+    <Instrument name="User Patch" prgChg="84"/>
+    <Instrument name="User Patch" prgChg="85"/>
+    <Instrument name="User Patch" prgChg="86"/>
+    <Instrument name="User Patch" prgChg="87"/>
+    <Instrument name="User Patch" prgChg="88"/>
+    <Instrument name="User Patch" prgChg="89"/>
+    <Instrument name="User Patch" prgChg="90"/>
+    <Instrument name="User Patch" prgChg="91"/>
+    <Instrument name="User Patch" prgChg="92"/>
+    <Instrument name="User Patch" prgChg="93"/>
+    <Instrument name="User Patch" prgChg="94"/>
+    <Instrument name="User Patch" prgChg="95"/>
+    <Instrument name="User Patch" prgChg="96"/>
+    <Instrument name="User Patch" prgChg="97"/>
+    <Instrument name="User Patch" prgChg="98"/>
+    <Instrument name="User Patch" prgChg="99"/>
+    <Instrument name="User Patch" prgChg="100"/>
+  </Section>
+  <Section name="User Bank 4" bankHigh="0" bankLow="4" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="User Patch" prgChg="1"/>
+    <Instrument name="User Patch" prgChg="2"/>
+    <Instrument name="User Patch" prgChg="3"/>
+    <Instrument name="User Patch" prgChg="4"/>
+    <Instrument name="User Patch" prgChg="5"/>
+    <Instrument name="User Patch" prgChg="6"/>
+    <Instrument name="User Patch" prgChg="7"/>
+    <Instrument name="User Patch" prgChg="8"/>
+    <Instrument name="User Patch" prgChg="9"/>
+    <Instrument name="User Patch" prgChg="10"/>
+    <Instrument name="User Patch" prgChg="11"/>
+    <Instrument name="User Patch" prgChg="12"/>
+    <Instrument name="User Patch" prgChg="13"/>
+    <Instrument name="User Patch" prgChg="14"/>
+    <Instrument name="User Patch" prgChg="15"/>
+    <Instrument name="User Patch" prgChg="16"/>
+    <Instrument name="User Patch" prgChg="17"/>
+    <Instrument name="User Patch" prgChg="18"/>
+    <Instrument name="User Patch" prgChg="19"/>
+    <Instrument name="User Patch" prgChg="20"/>
+    <Instrument name="User Patch" prgChg="21"/>
+    <Instrument name="User Patch" prgChg="22"/>
+    <Instrument name="User Patch" prgChg="23"/>
+    <Instrument name="User Patch" prgChg="24"/>
+    <Instrument name="User Patch" prgChg="25"/>
+    <Instrument name="User Patch" prgChg="26"/>
+    <Instrument name="User Patch" prgChg="27"/>
+    <Instrument name="User Patch" prgChg="28"/>
+    <Instrument name="User Patch" prgChg="29"/>
+    <Instrument name="User Patch" prgChg="30"/>
+    <Instrument name="User Patch" prgChg="31"/>
+    <Instrument name="User Patch" prgChg="32"/>
+    <Instrument name="User Patch" prgChg="33"/>
+    <Instrument name="User Patch" prgChg="34"/>
+    <Instrument name="User Patch" prgChg="35"/>
+    <Instrument name="User Patch" prgChg="36"/>
+    <Instrument name="User Patch" prgChg="37"/>
+    <Instrument name="User Patch" prgChg="38"/>
+    <Instrument name="User Patch" prgChg="39"/>
+    <Instrument name="User Patch" prgChg="40"/>
+    <Instrument name="User Patch" prgChg="41"/>
+    <Instrument name="User Patch" prgChg="42"/>
+    <Instrument name="User Patch" prgChg="43"/>
+    <Instrument name="User Patch" prgChg="44"/>
+    <Instrument name="User Patch" prgChg="45"/>
+    <Instrument name="User Patch" prgChg="46"/>
+    <Instrument name="User Patch" prgChg="47"/>
+    <Instrument name="User Patch" prgChg="48"/>
+    <Instrument name="User Patch" prgChg="49"/>
+    <Instrument name="User Patch" prgChg="50"/>
+    <Instrument name="User Patch" prgChg="51"/>
+    <Instrument name="User Patch" prgChg="52"/>
+    <Instrument name="User Patch" prgChg="53"/>
+    <Instrument name="User Patch" prgChg="54"/>
+    <Instrument name="User Patch" prgChg="55"/>
+    <Instrument name="User Patch" prgChg="56"/>
+    <Instrument name="User Patch" prgChg="57"/>
+    <Instrument name="User Patch" prgChg="58"/>
+    <Instrument name="User Patch" prgChg="59"/>
+    <Instrument name="User Patch" prgChg="60"/>
+    <Instrument name="User Patch" prgChg="61"/>
+    <Instrument name="User Patch" prgChg="62"/>
+    <Instrument name="User Patch" prgChg="63"/>
+    <Instrument name="User Patch" prgChg="64"/>
+    <Instrument name="User Patch" prgChg="65"/>
+    <Instrument name="User Patch" prgChg="66"/>
+    <Instrument name="User Patch" prgChg="67"/>
+    <Instrument name="User Patch" prgChg="68"/>
+    <Instrument name="User Patch" prgChg="69"/>
+    <Instrument name="User Patch" prgChg="70"/>
+    <Instrument name="User Patch" prgChg="71"/>
+    <Instrument name="User Patch" prgChg="72"/>
+    <Instrument name="User Patch" prgChg="73"/>
+    <Instrument name="User Patch" prgChg="74"/>
+    <Instrument name="User Patch" prgChg="75"/>
+    <Instrument name="User Patch" prgChg="76"/>
+    <Instrument name="User Patch" prgChg="77"/>
+    <Instrument name="User Patch" prgChg="78"/>
+    <Instrument name="User Patch" prgChg="79"/>
+    <Instrument name="User Patch" prgChg="80"/>
+    <Instrument name="User Patch" prgChg="81"/>
+    <Instrument name="User Patch" prgChg="82"/>
+    <Instrument name="User Patch" prgChg="83"/>
+    <Instrument name="User Patch" prgChg="84"/>
+    <Instrument name="User Patch" prgChg="85"/>
+    <Instrument name="User Patch" prgChg="86"/>
+    <Instrument name="User Patch" prgChg="87"/>
+    <Instrument name="User Patch" prgChg="88"/>
+    <Instrument name="User Patch" prgChg="89"/>
+    <Instrument name="User Patch" prgChg="90"/>
+    <Instrument name="User Patch" prgChg="91"/>
+    <Instrument name="User Patch" prgChg="92"/>
+    <Instrument name="User Patch" prgChg="93"/>
+    <Instrument name="User Patch" prgChg="94"/>
+    <Instrument name="User Patch" prgChg="95"/>
+    <Instrument name="User Patch" prgChg="96"/>
+    <Instrument name="User Patch" prgChg="97"/>
+    <Instrument name="User Patch" prgChg="98"/>
+    <Instrument name="User Patch" prgChg="99"/>
+    <Instrument name="User Patch" prgChg="100"/>
+  </Section>
+  <Section name="User Bank 5" bankHigh="0" bankLow="5" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="User Patch" prgChg="1"/>
+    <Instrument name="User Patch" prgChg="2"/>
+    <Instrument name="User Patch" prgChg="3"/>
+    <Instrument name="User Patch" prgChg="4"/>
+    <Instrument name="User Patch" prgChg="5"/>
+    <Instrument name="User Patch" prgChg="6"/>
+    <Instrument name="User Patch" prgChg="7"/>
+    <Instrument name="User Patch" prgChg="8"/>
+    <Instrument name="User Patch" prgChg="9"/>
+    <Instrument name="User Patch" prgChg="10"/>
+    <Instrument name="User Patch" prgChg="11"/>
+    <Instrument name="User Patch" prgChg="12"/>
+    <Instrument name="User Patch" prgChg="13"/>
+    <Instrument name="User Patch" prgChg="14"/>
+    <Instrument name="User Patch" prgChg="15"/>
+    <Instrument name="User Patch" prgChg="16"/>
+    <Instrument name="User Patch" prgChg="17"/>
+    <Instrument name="User Patch" prgChg="18"/>
+    <Instrument name="User Patch" prgChg="19"/>
+    <Instrument name="User Patch" prgChg="20"/>
+    <Instrument name="User Patch" prgChg="21"/>
+    <Instrument name="User Patch" prgChg="22"/>
+    <Instrument name="User Patch" prgChg="23"/>
+    <Instrument name="User Patch" prgChg="24"/>
+    <Instrument name="User Patch" prgChg="25"/>
+    <Instrument name="User Patch" prgChg="26"/>
+    <Instrument name="User Patch" prgChg="27"/>
+    <Instrument name="User Patch" prgChg="28"/>
+    <Instrument name="User Patch" prgChg="29"/>
+    <Instrument name="User Patch" prgChg="30"/>
+    <Instrument name="User Patch" prgChg="31"/>
+    <Instrument name="User Patch" prgChg="32"/>
+    <Instrument name="User Patch" prgChg="33"/>
+    <Instrument name="User Patch" prgChg="34"/>
+    <Instrument name="User Patch" prgChg="35"/>
+    <Instrument name="User Patch" prgChg="36"/>
+    <Instrument name="User Patch" prgChg="37"/>
+    <Instrument name="User Patch" prgChg="38"/>
+    <Instrument name="User Patch" prgChg="39"/>
+    <Instrument name="User Patch" prgChg="40"/>
+    <Instrument name="User Patch" prgChg="41"/>
+    <Instrument name="User Patch" prgChg="42"/>
+    <Instrument name="User Patch" prgChg="43"/>
+    <Instrument name="User Patch" prgChg="44"/>
+    <Instrument name="User Patch" prgChg="45"/>
+    <Instrument name="User Patch" prgChg="46"/>
+    <Instrument name="User Patch" prgChg="47"/>
+    <Instrument name="User Patch" prgChg="48"/>
+    <Instrument name="User Patch" prgChg="49"/>
+    <Instrument name="User Patch" prgChg="50"/>
+    <Instrument name="User Patch" prgChg="51"/>
+    <Instrument name="User Patch" prgChg="52"/>
+    <Instrument name="User Patch" prgChg="53"/>
+    <Instrument name="User Patch" prgChg="54"/>
+    <Instrument name="User Patch" prgChg="55"/>
+    <Instrument name="User Patch" prgChg="56"/>
+    <Instrument name="User Patch" prgChg="57"/>
+    <Instrument name="User Patch" prgChg="58"/>
+    <Instrument name="User Patch" prgChg="59"/>
+    <Instrument name="User Patch" prgChg="60"/>
+    <Instrument name="User Patch" prgChg="61"/>
+    <Instrument name="User Patch" prgChg="62"/>
+    <Instrument name="User Patch" prgChg="63"/>
+    <Instrument name="User Patch" prgChg="64"/>
+    <Instrument name="User Patch" prgChg="65"/>
+    <Instrument name="User Patch" prgChg="66"/>
+    <Instrument name="User Patch" prgChg="67"/>
+    <Instrument name="User Patch" prgChg="68"/>
+    <Instrument name="User Patch" prgChg="69"/>
+    <Instrument name="User Patch" prgChg="70"/>
+    <Instrument name="User Patch" prgChg="71"/>
+    <Instrument name="User Patch" prgChg="72"/>
+    <Instrument name="User Patch" prgChg="73"/>
+    <Instrument name="User Patch" prgChg="74"/>
+    <Instrument name="User Patch" prgChg="75"/>
+    <Instrument name="User Patch" prgChg="76"/>
+    <Instrument name="User Patch" prgChg="77"/>
+    <Instrument name="User Patch" prgChg="78"/>
+    <Instrument name="User Patch" prgChg="79"/>
+    <Instrument name="User Patch" prgChg="80"/>
+    <Instrument name="User Patch" prgChg="81"/>
+    <Instrument name="User Patch" prgChg="82"/>
+    <Instrument name="User Patch" prgChg="83"/>
+    <Instrument name="User Patch" prgChg="84"/>
+    <Instrument name="User Patch" prgChg="85"/>
+    <Instrument name="User Patch" prgChg="86"/>
+    <Instrument name="User Patch" prgChg="87"/>
+    <Instrument name="User Patch" prgChg="88"/>
+    <Instrument name="User Patch" prgChg="89"/>
+    <Instrument name="User Patch" prgChg="90"/>
+    <Instrument name="User Patch" prgChg="91"/>
+    <Instrument name="User Patch" prgChg="92"/>
+    <Instrument name="User Patch" prgChg="93"/>
+    <Instrument name="User Patch" prgChg="94"/>
+    <Instrument name="User Patch" prgChg="95"/>
+    <Instrument name="User Patch" prgChg="96"/>
+    <Instrument name="User Patch" prgChg="97"/>
+    <Instrument name="User Patch" prgChg="98"/>
+    <Instrument name="User Patch" prgChg="99"/>
+    <Instrument name="User Patch" prgChg="100"/>
+  </Section>
+</Instruments>
+</VSTNameDocument>
+

@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTNameDocument name="EZdrummer">
+  <Version>1</Version>
+  <Author>Sonic Scores</Author>
+  <Device name="EZdrummer" usesPatchNames="1" firstPatchNumber="1" middleC="c3" />
+  <ArticulationNames>
+    <Articulation name="Marcato" velocityAdd="10" durationPct="90" />
+    <Articulation name="Marcato Dot" velocityAdd="15" durationPct="50" />
+    <Articulation name="Heavy Attack" velocityAdd="10" durationPct="100" />
+    <Articulation name="SForzando" velocityAdd="20" />
+    <Articulation name="SForzando Dot" velocityAdd="20" durationPct="50" />
+    <Articulation name="Heavier Attack" velocityAdd="20" durationPct="100" />
+    <Articulation name="SForzando Inverted" velocityAdd="20" />
+    <Articulation name="SForzando Dot Inverted" velocityAdd="20" durationPct="50" />
+    <Articulation name="Staccatissimo" velocityAdd="15" durationPct="30" />
+    <Articulation name="Staccato" velocityAdd="15" durationPct="50" />
+    <Articulation name="Tenuto" durationPct="100" />
+    <Articulation name="Up Bow" />
+    <Articulation name="Down Bow" velocityAdd="5" />
+    <Articulation name="Up Bow Inverted" />
+    <Articulation name="Down Bow Inverted" velocityAdd="5" />
+    <Articulation name="Arpeggio" attackFrom="-90" attackTo="0" />
+    <Articulation name="Tremolo Eighths" tremoloNotes="1" />
+    <Articulation name="Tremolo Sixteenths" tremoloNotes="2" />
+    <Articulation name="Tremolo Thirty Seconds" tremoloNotes="3" />
+    <Articulation name="Tremolo Sixty Fourths" tremoloNotes="4" />
+    <Articulation name="pizz" />
+    <Articulation name="arco" durationPct="90" />
+    <Articulation name="legato" durationPct="100" />
+  </ArticulationNames>
+  <ControllerNames>
+    <Controller name="Volume" cc="7" />
+    <Controller name="Panning" cc="10" />
+    <Controller name="Expression" cc="11" />
+    <Controller name="Pedal (Sustain)" cc="64" />
+    <Controller name="Modulation" cc="1" />
+    <Controller name="Breath" cc="2" />
+    <Controller name="Foot Controller" cc="4" />
+    <Controller name="Portamento Time" cc="5" />
+    <Controller name="Balance" cc="8" />
+    <Controller name="Portamento" cc="65" />
+    <Controller name="Pedal (Sostenuto)" cc="66" />
+    <Controller name="Pedal (Soft)" cc="67" />
+    <Controller name="Hold 2" cc="69" />
+    <Controller name="External Effects Depth" cc="91" />
+    <Controller name="Tremolo Depth" cc="92" />
+    <Controller name="Chorus Depth" cc="93" />
+    <Controller name="Celeste Detune Depth" cc="94" />
+    <Controller name="Phaser Depth" cc="95" />
+    <Controller name="Reset All Controllers" cc="121" />
+    <Controller name="All Notes Off " cc="123" />
+  </ControllerNames>
+  <NoteNames>
+    <NoteNameList name="GM Drum Sounds">
+      <NoteName name="Hats pedal chick" pitch="a-1" pos="6" head="4" soundID="unpitched.metal.hi-hat.closed" />
+      <NoteName name="Hats closed edge" pitch="a#-1" pos="6" head="4" soundID="unpitched.metal.hi-hat.closed" />
+      <NoteName name="Hats floor splash" pitch="b-1" pos="6" head="4" soundID="unpitched.metal.hi-hat.open" />
+      <NoteName name="Open hats 1" pitch="c0" pos="6" head="4" soundID="unpitched.metal.hi-hat.open" />
+      <NoteName name="Open hats 2" pitch="c#0" pos="6" head="4" soundID="unpitched.metal.hi-hat.open" />
+      <NoteName name="Open hats 3" pitch="d0" pos="6" head="4" soundID="unpitched.metal.hi-hat.open" />
+      <NoteName name="Snare left" pitch="a0" pos="1" head="0" voice="0" soundID="unpitched.drum.medium.snare drum.snares on" />
+      <NoteName name="Bass Drum 1" pitch="c1" pos="-3" head="0" voice="1" soundID="unpitched.drum.very low.kick drum" />
+      <NoteName name="Side Stick" pitch="c#1" pos="1" head="5" soundID="unpitched.drum.medium.snare drum.snares on.side stick" />
+      <NoteName name="Acoustic Snare" pitch="d1" pos="1" head="0" voice="0" soundID="unpitched.drum.medium.snare drum.snares on" />
+      <NoteName name="Hand Clap" pitch="d#1" pos="1" head="13" soundID="unpitched.exotic.hand clap" />
+      <NoteName name="Snare rimshot" pitch="e1" pos="1" head="0" voice="0" soundID="unpitched.drum.snare drum.snares on.electric" />
+      <NoteName name="Low Floor Tom" pitch="f1" pos="-2" head="0" soundID="unpitched.drum.very low.tom-tom" />
+      <NoteName name="Closed Hi-Hat" pitch="f#1" pos="5" head="4" soundID="unpitched.metal.hi-hat.closed" />
+      <NoteName name="High Floor Tom" pitch="g1" pos="-1" head="0" soundID="unpitched.drum.low.tom-tom" />
+      <NoteName name="Pedal Hi-Hat" pitch="g#1" pos="-5" head="1" soundID="unpitched.metal.hi-hat.closed.pedal" />
+      <NoteName name="Low Tom" pitch="a1" pos="0" head="0" soundID="unpitched.drum.medium-low.tom-tom" />
+      <NoteName name="Open Hi-Hat" pitch="a#1" pos="5" head="4" soundID="unpitched.metal.hi-hat.open" />
+      <NoteName name="Low-Mid Tom" pitch="b1" pos="2" head="0" soundID="unpitched.drum.medium.tom-tom" />
+      <NoteName name="Crash Cymbal 1" pitch="c#2" pos="4" head="1" soundID="unpitched.metal.cymbal.crash.high" />
+      <NoteName name="High Tom" pitch="d2" pos="4" head="0" soundID="unpitched.drum.medium-high.tom-tom" />
+      <NoteName name="Ride bow" pitch="d#2" pos="4" head="4" soundID="unpitched.metal.cymbal.ride.high" />
+      <NoteName name="Chinese Cymbal" pitch="e2" pos="9" head="4" soundID="unpitched.metal.cymbal.chinese" />
+      <NoteName name="Ride Bell" pitch="f2" pos="6" head="12" soundID="unpitched.metal.cymbal.ride.bell" />
+      <NoteName name="Crash a muted" pitch="f#2" pos="6" head="1" soundID="unpitched.metal.cymbal.crash.muted" />
+      <NoteName name="Crash A sustained" pitch="g2" pos="6" head="1" soundID="unpitched.metal.cymbal.splash" />
+      <NoteName name="Cowbell" pitch="g#2" pos="3" head="10" soundID="unpitched.metal.bells.medium.cowbell" />
+      <NoteName name="Crash B sustained" pitch="a2" pos="6" head="1" soundID="unpitched.metal.cymbal.crash.medium" />
+      <NoteName name="Crash B muted" pitch="a#2" pos="6" head="1" soundID="unpitched.metal.cymbal.crash.muted" />
+      <NoteName name="Ride Edge" pitch="b2" pos="4" head="4" soundID="unpitched.metal.cymbal.ride.medium" />
+      <NoteName name="Hats open max" pitch="c3" menuBreak="1" pos="5" head="41" soundID="unpitched.metal.hi-hat.open" />
+      <NoteName name="Hats closed tip" pitch="c#3" pos="5" head="4" soundID="unpitched.metal.hi-hat.closed" />
+      <NoteName name="Hats tight edge" pitch="d3" pos="5" head="4" soundID="unpitched.metal.hi-hat.open" />
+      <NoteName name="Hats tight tip" pitch="d#3" pos="5" head="4" soundID="unpitched.metal.hi-hat.open" />
+      <NoteName name="Hats seq hard" pitch="e3" pos="5" head="4" soundID="unpitched.metal.hi-hat.open" />
+      <NoteName name="Hats seq soft" pitch="f3" pos="5" head="4" soundID="soundID=&quot;unpitched.metal.hi-hat.open&quot;" />
+      <NoteName name="Crash A alias" pitch="d#0" pos="6" head="4" soundID="unpitched.metal.cymbal.crash" />
+      <NoteName name="Crash A alias" pitch="E0" pos="6" head="4" soundID="unpitched.metal.cymbal.crash" />
+      <NoteName name="Crash A alias" pitch="f0" pos="6" head="4" soundID="unpitched.metal.cymbal.crash" />
+      <NoteName name="Crash B alias" pitch="f#0" pos="6" head="4" soundID="unpitched.metal.cymbal.crash" />
+      <NoteName name="Crash B alias" pitch="g0" pos="6" head="4" soundID="unpitched.metal.cymbal.crash" />
+      <NoteName name="Crash B alias" pitch="g#0" pos="6" head="4" soundID="unpitched.metal.cymbal.crash" />
+      <NoteName name="Kick alias" pitch="a#0" pos="-4" head="0" voice="1" soundID="unpitched.drum.very low.kick drum.2" />
+      <NoteName name="Kick alias" pitch="b0" pos="-4" head="0" voice="1" soundID="unpitched.drum.very low.kick drum.2" />
+      <NoteName name="Rack tom 1 alias" pitch="c2" menuBreak="1" pos="4" head="0" soundID="unpitched.drum.medium-high.tom-tom" />
+    </NoteNameList>
+  </NoteNames>
+  <Instruments>
+    <Section name="Drums" title="Drum" abbr="Dr." lownote="B0" highnote="A4" clef="percussion" channel="10" soundID="unpitched.drum">
+      <UsesNoteNameList name="GM Drum Sounds" />
+      <Instrument name="Default Kit" title="Drum Set" abbr="Drs." />
+      <Instrument name="Tight Kit" title="Drum Set" abbr="Drs." />
+      <Instrument name="Ambient Kit" title="Drum Set" abbr="Drs." />
+      <Instrument name="Basic Kit" title="Drum Set" abbr="Drs." />
+    </Section>
+  </Instruments>
+</VSTNameDocument>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<variation version="1.0">
+<description><name>Variation 0</name></description> 
+<slots>
+<slot index="0" effect="E06_DistortionRat" bypass="0" >
+<parameters><parameter id="0" value="0.17"/>
+<parameter id="1" value="0.73"/>
+<parameter id="2" value="0.86"/>
+</parameters>
+</slot>
+<slot index="1" effect="A01_ComboTop30" bypass="0" >
+<parameters><parameter id="0" value="0.67"/>
+<parameter id="1" value="0.68"/>
+<parameter id="2" value="0.32"/>
+<parameter id="3" value="0.18"/>
+<parameter id="4" value="0"/>
+<parameter id="5" value="0"/>
+<parameter id="6" value="0"/>
+<parameter id="7" value="0"/>
+</parameters>
+</slot>
+<slot index="2" effect="E30_EqGEq" bypass="0" >
+<parameters><parameter id="0" value="0.685714"/>
+<parameter id="1" value="0.542857"/>
+<parameter id="2" value="0.514286"/>
+<parameter id="3" value="0.428571"/>
+<parameter id="4" value="0.428571"/>
+<parameter id="5" value="0.771429"/>
+<parameter id="6" value="0.828571"/>
+<parameter id="7" value="0.5"/>
+</parameters>
+</slot>
+<slot index="3" effect="E18_FlangerMistress" bypass="0" >
+<parameters><parameter id="0" value="0.2"/>
+<parameter id="1" value="0.8"/>
+<parameter id="2" value="0.4"/>
+</parameters>
+</slot>
+<slot index="4" effect="E25_ReverbSpring" bypass="0" >
+<parameters><parameter id="0" value="0.39"/>
+<parameter id="1" value="0.34"/>
+</parameters>
+</slot>
+</slots>
+</variation>

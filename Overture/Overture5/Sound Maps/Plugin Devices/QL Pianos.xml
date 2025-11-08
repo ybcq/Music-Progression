@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTNameDocument name="QL Pianos">
+  <Version>1</Version>
+  <Author>Sonic Scores</Author>
+  <Device name="QL Pianos" />
+  <ControllerNames>
+    <Controller name="Modulation" cc="1" />
+    <Controller name="Panning" cc="10" />
+    <Controller name="Sustain" cc="64" />
+    <ControllerSwitchList name="QL Pianos">
+      <Controller name="Volume" cc="7" />
+      <Controller name="Sustain Pedal" cc="64" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="QL Pianos master">
+      <Controller name="Volume" cc="7" />
+      <Controller name="Staccato (Modulation)" cc="1" />
+      <Controller name="Sustain Pedal" cc="64" />
+      <Controller name="Soft Pedal" cc="67" />
+    </ControllerSwitchList>
+  </ControllerNames>
+  <ArticulationNames>
+    <Articulation name="Marcato" velocityAdd="10" durationPct="90" />
+    <Articulation name="Marcato Dot" velocityAdd="15" durationPct="40" />
+    <Articulation name="Heavy Attack" velocityAdd="10" durationPct="100" />
+    <Articulation name="SForzando" velocityAdd="20" />
+    <Articulation name="SForzando Dot" velocityAdd="20" durationPct="50" />
+    <Articulation name="Heavier Attack" velocityAdd="20" durationPct="100" />
+    <Articulation name="SForzando Inverted" velocityAdd="20" />
+    <Articulation name="SForzando Dot Inverted" velocityAdd="20" durationPct="50" />
+    <Articulation name="Staccatissimo" velocityAdd="15" durationPct="20" />
+    <Articulation name="Staccato" velocityAdd="15" durationPct="40" />
+    <Articulation name="Tenuto" durationPct="100" />
+    <Articulation name="Up Bow" />
+    <Articulation name="Down Bow" velocityAdd="5" />
+    <Articulation name="Up Bow Inverted" />
+    <Articulation name="Down Bow Inverted" velocityAdd="5" />
+    <Articulation name="Arpeggio" attackFrom="-90" attackTo="0" />
+    <Articulation name="Tremolo Eighths" tremoloNotes="1" />
+    <Articulation name="Tremolo Sixteenths" tremoloNotes="2" />
+    <Articulation name="Tremolo Thirty Seconds" tremoloNotes="3" />
+    <Articulation name="Tremolo Sixty Fourths" tremoloNotes="4" />
+    <Articulation name="pizz" />
+    <Articulation name="arco" />
+    <Articulation name="legato" velocityPct="75" durationPct="100" />
+    <ArticulationSwitchList name="QL Pianos master">
+      <Articulation name="Staccato" durationPct="40" ctrlNum="1" ctrlValue="127" ctrlOffValue="0" />
+      <Articulation name="Staccatissimo" durationPct="15" ctrlNum="1" ctrlValue="127" ctrlOffValue="0" />
+    </ArticulationSwitchList>
+  </ArticulationNames>
+  <Instruments>
+    <Section name="QL Pianos" title="Piano" abbr="Pf." legato="off" clef="treble" velocity="on">
+      <Instrument name="Master">
+        <UsesControllerSwitchList name="QL Pianos master" />
+        <UsesArticulationSwitchList name="QL Pianos master" />
+      </Instrument>
+      <Instrument name="Non-Master">
+        <UsesControllerSwitchList name="QL Pianos" />
+      </Instrument>
+    </Section>
+  </Instruments>
+</VSTNameDocument>

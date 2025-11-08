@@ -1,0 +1,126 @@
+﻿<html>
+	
+<head>
+	<title>Using Repeats</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("UsingRepeats");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Using Repeats</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="SymbolPalettes.html">Symbol Palettes</a> &rsaquo;&rsaquo; <a href="BarlinesPalette.html">Barlines Palette</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="BarlinesPalette.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="UsingtheBarlinesPalette.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="UsingtheEndingsTool.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<p class="rvps2"><span class="rvts6">Overture supports both single and double measure repeats:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li style="margin-left: 0px" class="rvps4"><span class="rvts6">Use this symbol to indicate the performer is to repeat the entire previous measure. </span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts6">Use this symbol to indicate the performer is to repeat the entire previous two measures. This symbol sometimes indicates the repetition of mixed value beats within a measure.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">To insert a single or double measure repeat sign:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Select either the Single or Double Measure Repeat tool from the Barlines palette.</span></span><br/><span class="rvts0"><span class="rvts6">The cursor turns into a crosshair when you move it over the Score View. </span></span></li>
+<li value="2" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Click the cursor where you want to insert the repeat.</span></span><br/><span class="rvts0"><span class="rvts6">Overture inserts the selected repeat. </span></span></li>
+<li value="3" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">To reposition a repeat, select the Arrow Cursor and drag the symbol to the desired position. </span></span></li>
+</ol>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Using the Close and Open Repeat Tools</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Overture's MIDI playback recognizes open and closed repeat signs and plays them correctly. Specifically, when Overture encounters a close repeat it searches backward through the score for an open repeat that doesn't have a matching close repeat. It then repeats that section once. If Overture doesn't find any un-mirrored open repeats, playback jumps all the way back to the beginning of the score.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">The following examples illustrate how to use repeats and how Overture plays them back.</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Single Repeats</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts6">To insert and playback a single repeat:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Select the Close Repeat tool from the Barlines palette.</span></span><br/><span class="rvts0"><span class="rvts6">The cursor turns into a crosshair when you move it over the Score View. </span></span></li>
+<li value="2" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Click anywhere in the measure to the left of the barline you wish to change.</span></span><br/><span class="rvts0"><span class="rvts6">Overture changes the existing barline into a Close Repeat. </span></span></li>
+<li value="3" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Make sure </span></span><span class="rvts0"><span class="rvts12">Options&gt;Play Style&gt;Repeats</span></span><span class="rvts0"><span class="rvts6"> is checked.</span></span><br/><span class="rvts0"><span class="rvts6">If you don't check this option, MIDI playback ignores all repeats in an Overture score. </span></span></li>
+<li value="4" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Press </span></span><span class="rvts0"><span class="rvts12">space</span></span><span class="rvts0"><span class="rvts6"> to playback the score through a MIDI sound module.</span></span><br/><span class="rvts0"><span class="rvts6">Overture recognizes the repeat sign after measure 2 and causes MIDI playback to jump back to measure 1.</span></span><br/><span class="rvts0"><span class="rvts6"></span></span><br/><span class="rvts0"><span class="rvts6">Specifically, Overture plays the measures in the following order:</span></span><br/><span class="rvts0"><span class="rvts6"></span></span><br/><span class="rvts0"><span class="rvts6">1-&gt;2-&gt;1-&gt;2-&gt;3-&gt;4-&gt; etc... </span></span></li>
+</ol>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Nested Repeats</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts6">To insert and playback nested repeats:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Select the Close Repeat tool from the Barlines palette.</span></span><br/><span class="rvts0"><span class="rvts6">The cursor turns into a crosshair when you move it over the Score View. </span></span></li>
+<li value="2" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Click anywhere in the measure to the left of the barline you wish to change.</span></span><br/><span class="rvts0"><span class="rvts6">Overture changes the existing barline into a Close Repeat. </span></span></li>
+<li value="3" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Select the Open Repeat tool from the Barlines palette.</span></span><br/><span class="rvts0"><span class="rvts6">The cursor turns into a crosshair when you move it over the Score View. </span></span></li>
+<li value="4" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Click anywhere in the measure to the right of the barline you wish to change.</span></span><br/><span class="rvts0"><span class="rvts6">Overture changes the existing barline into an Open Repeat. </span></span></li>
+<li value="5" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Make sure </span></span><span class="rvts0"><span class="rvts12">Options&gt;Play Style&gt;Repeats</span></span><span class="rvts0"><span class="rvts6"> is checked.</span></span><br/><span class="rvts0"><span class="rvts6">If you don't check this option, MIDI playback ignores all repeats in an Overture score. </span></span></li>
+<li value="6" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Press </span></span><span class="rvts0"><span class="rvts12">space</span></span><span class="rvts0"><span class="rvts6"> to playback the score through a MIDI sound module.</span></span><br/><span class="rvts0"><span class="rvts6">Overture recognizes the repeat sign after measure 3 and causes MIDI playback to jump back to measure 2.</span></span><br/><span class="rvts0"><span class="rvts6"></span></span><br/><span class="rvts0"><span class="rvts6">Specifically, Overture plays the measures in the following order:</span></span><br/><span class="rvts0"><span class="rvts6"></span></span><br/><span class="rvts0"><span class="rvts6">1-&gt;2-&gt;3-&gt;2-&gt;3-&gt;4-&gt;... </span></span></li>
+</ol>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

@@ -1,0 +1,102 @@
+﻿<html>
+	
+<head>
+	<title>Drum Map</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("DrumMap");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Drum Map</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="GettingStarted.html">Getting Started</a> &rsaquo;&rsaquo; <a href="MainScoreWindow.html">Main Score Window</a> &rsaquo;&rsaquo; <a href="TrackInspectorPanel.html">Track Inspector Panel</a> &rsaquo;&rsaquo; <a href="TrackSection.html">Track Section</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="TrackSection.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="Tuning.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="ArticulationsSection.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<p class="rvps2"><img alt="" style="vertical-align: middle; padding : 1px;" src="lib/NewItem73.png"><span class="rvts27"> Track Inspector Panel - Track Drum Map Tab</span></p>
+<p class="rvps2"><span class="rvts27"><br/></span></p>
+<p class="rvps2"><span class="rvts6">If the Track Inspector panel is not showing click on the </span><span class="rvts12">Inspector</span><span class="rvts6"> button at top right of Control Bar or type "Shift-I" to open the panel.</span></p>
+<p class="rvps2"><span class="rvts6">If needed, click on the Track section at the top of the panel and then the Tuning tab.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Note</span><span class="rvts6">: The Drum Map only appears on percussion type tracks.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">The Drum Map tab area contains the current track's settings for remapping drum pitches to staff position, voice, and note heads.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/TrackInspector-DrumMap.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Staff Design</span><span class="rvts6"> area. Use this area to drag each of the pitches to a staff position. When you click on a note head the pitch settings will appear below.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts12">Pitch</span><span class="rvts6"> - Choose the percussion pitch from the pop-up menu.</span></li>
+<li class="rvps2"><span class="rvts12">Voice</span><span class="rvts6"> - Choose the default voice for this percussion pitch.</span></li>
+<li class="rvps2"><span class="rvts12">Head</span><span class="rvts6"> - Choose the note head set to be used for this pitch.</span></li>
+<li class="rvps2"><span class="rvts12">Capo</span><span class="rvts6"> - Sets the starting capo position.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

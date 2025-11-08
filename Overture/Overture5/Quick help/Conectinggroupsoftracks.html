@@ -1,0 +1,112 @@
+﻿<html>
+	
+<head>
+	<title>Conecting groups of tracks</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("Conectinggroupsoftracks");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Conecting groups of tracks</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="AllaboutTracks.html">All about Tracks</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="AllaboutTracks.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="Selectingtracks.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="Reorderingtracks.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<p class="rvps2"><span class="rvts6">There are several ways to connect Group Names for groups of instruments.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Using the Barlines palette you can drag across a group of staves</span></p>
+<p class="rvps2"><span class="rvts6">The following describes each of the tools in the Staves palette:</span></p>
+<ul style="text-indent: 0px; margin-left: 48px; list-style-position: outside; list-style-type: disc;">
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Group With Bracket</span><span class="rvts6">. Select the bracket ([) to group independent staves into a loose grouping (for example, bracketing the four staves of a string quartet). </span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Group As System</span><span class="rvts6">. Select the system line (|) to group all the staves in a system. </span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Group With Brace</span><span class="rvts6">. Select the brace ({) to group the different staves representing a single musical instrument (like the two staves of a piano score).</span></li>
+</ul>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">In addition Overture provides and additional feature call Group Names. Group names are used to connect groups of instruments using a single name.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/GroupNames.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">To enter a group name:</span></p>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" class="rvps2"><span class="rvts6">Right click on a staff just to the left of it's clef.</span></li>
+<li value="2" class="rvps2"><span class="rvts6">Choose Create group name from the popup-menu.</span></li>
+<li value="3" class="rvps2"><span class="rvts6">Enter the name and abbreviation of the group, the start and ending track, and check the box if you wnat the abbreviation name displayed on systems other than the first.</span></li>
+<li value="4" class="rvps2"><span class="rvts6">You can also move the position using the X and Y numeric fields.</span></li>
+</ol>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">When you enter a group name, Overture does the following for each track:</span></p>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" class="rvps2"><span class="rvts6">The normal track name is hidden.</span></li>
+<li value="2" class="rvps2"><span class="rvts6">The track's group name is displayed to the right of the last group connector.</span><br/><span class="rvts6">This is set in the </span><a class="rvts11" href="TrackSection.html">Track inspector</a><span class="rvts6">.</span></li>
+<li value="3" class="rvps2"><span class="rvts6">The Group name is displayed to the left of the the track group names.</span></li>
+<li value="4" class="rvps2"><span class="rvts6">The Group names use the Track justification setting set in the Score Layout Panel.</span></li>
+</ol>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

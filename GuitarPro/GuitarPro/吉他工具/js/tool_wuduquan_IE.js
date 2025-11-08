@@ -1,0 +1,1 @@
+function FixTransparentPNGs(){var A=document.getElementsByTagName("img");for(var B=0;B<A.length;++B){var C=A.item(B);if(!C.src.match(/\.png$/i)){continue}C.style.cssText+=";filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='"+C.src+"', sizingMethod='scale')";C.src="images/Blank.gif"}};

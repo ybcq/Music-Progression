@@ -1,0 +1,107 @@
+﻿<html>
+	
+<head>
+	<title>Transcribe</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("Transcribe");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Transcribe</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="OvertureMenus.html">Overture Menus</a> &rsaquo;&rsaquo; <a href="NotesMenu.html">Notes Menu</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="NotesMenu.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="TwoTiedNoets.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="NotestoTablature.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<h6 class="rvps14"><span class="rvts0"><span class="rvts22">Notes&gt;Transcribe</span></span></h6>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Choose this command to convert the selected raw MIDI data from the Graphic Window or a recording session into standard music notation. Choose this command also to convert existing notation to a different appearance after changing the quantization value. Raw data appears in the Score View as long rectangles. Their vertical position indicates their pitch, and their length indicates their duration.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">To convert raw MIDI data into standard music notation:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Select the desired section of raw notes. </span></span></li>
+<li value="2" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Choose </span></span><span class="rvts0"><span class="rvts12">Notes&gt;Transcribe</span></span><span class="rvts0"><span class="rvts6">. </span></span></li>
+</ol>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Overture converts the raw MIDI data into standard music notation.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">This process of converting raw MIDI data into standard music notation happens automatically if you check the </span><span class="rvts12">AutoTranscribe</span><span class="rvts6"> option in the Record Options dialog box. (Open this by choosing </span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Options&gt;Record Options</span><span class="rvts6">.) While auto transcription may be suitable for simple scores, there are a couple of reasons you may opt to transcribe raw MIDI data into standard notation manually:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li style="margin-left: 0px" class="rvps4"><span class="rvts6">You want to assign different notes to different voices manually.</span><br/><span class="rvts6"></span><br/><span class="rvts6">If you select raw MIDI notes individually in the Score View, assign them to a voice, then manually transcribe them (using the </span><span class="rvts12">Notes&gt;Transcribe</span><span class="rvts6"> command), you can fine-tune any complicated voicings in your score.</span><br/><span class="rvts6"><br/></span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts6">You want to apply different transcription quantization values to different passages. </span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts6"></span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts6">You can select raw MIDI notes individually in the Score View, select a transcription quantize amount for just that passage, then manually transcribe the MIDI data into standard music notation using the </span><span class="rvts12">Notes&gt;Transcribe</span><span class="rvts6"> command. This eliminates any transcription quantization errors that may occur from applying a common transcription quantization amount to an entire score. For a detailed example of this process, see </span><a class="rvts11" href="QuantizeButton.html">Transcription Quantization and Manual Transcription</a><span class="rvts6">. </span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts6">For more information about auto transcription, see </span><a class="rvts11" href="Record.html">Record Options</a><span class="rvts6">. </span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

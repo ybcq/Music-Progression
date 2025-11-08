@@ -1,0 +1,119 @@
+﻿<html>
+	
+<head>
+	<title>Record</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("Record");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Record</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="OvertureMenus.html">Overture Menus</a> &rsaquo;&rsaquo; <a href="OptionsMenu.html">Options Menu</a> &rsaquo;&rsaquo; <a href="Preferences.html">Preferences</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="Preferences.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="Playback.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="Colors.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<h4 class="rvps8"><span class="rvts0"><span class="rvts18">Preferences&gt;Record Tab</span></span></h4>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><img width="573" height="353" alt="" style="padding : 1px;" src="lib/NewItem119.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">There are numerous elements in the RecordTab, as follows.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Split Point is</span><span class="rvts6"> check box and value field. Check this option if you want Overture to split incoming MIDI data automatically into two tracks and notate it on a grand staff. Use the note value field to define the split point. For more information, see below.</span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">AutoTranscribe</span><span class="rvts6"> check box. Check this option if you want Overture to transcribe incoming MIDI data automatically into standard notation. When this box is unchecked, Overture displays raw MIDI data in the Score View. For more information, see below.</span></li>
+<ul style="text-indent: 0px; margin-left: 48px; list-style-position: outside; list-style-type: circle;">
+<li style="margin-left: 0px" class="rvps21"><span class="rvts12">One voice per staff</span><span class="rvts6"> check box. You can enable this option only if the AutoTranscribe option is checked. Check this option if you want Overture to interpret incoming MIDI data as a single voice per staff. Uncheck this option if you want Overture to interpret incoming MIDI data as multiple voices per staff. For more information, see below.</span></li>
+<li style="margin-left: 0px" class="rvps21"><span class="rvts12">Tuplets</span><span class="rvts6"> check box. Check this option if you want Overture to transcribe note into tuplets.</span></li>
+<li style="margin-left: 0px" class="rvps21"><span class="rvts12">Add staccato on notes shorter than x %</span><span class="rvts6">. Check this box if you want Overture to add staccato markings to notes that were notated as short notes.</span></li>
+<li style="margin-left: 0px" class="rvps21"><span class="rvts12">Add Tenuto on notes longer than x %</span><span class="rvts6">. Check this box if you want Overture to add tenuto markings to notes that were notated as long notes.</span></li>
+</ul></ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Whenever you perform real-time recording, Overture interprets the incoming MIDI data using these settings.</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Using the Split Point Option</span></p>
+<p class="rvps2"><span class="rvts6">Check the </span><span class="rvts12">Split point is</span><span class="rvts6"> check box if you want Overture to split incoming MIDI data between two tracks automatically. Use the corresponding numerical to define the MIDI note value of the split point (C4=middle C). This option is particularly useful for correctly notating two-handed piano parts on a grand staff.</span><br/><span class="rvts6"></span><br/><span class="rvts6">To use this option, your score must contain two adjacent staves; the top staff with a treble clef and the bottom staff with a bass clef. Overture always assigns the MIDI note value in the split point numerical to the treble staff. When you record, you can activate a measure in either the treble staff or the bass staff; Overture correctly divides the notes between the two staves.</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Using the AutoTranscribe Option</span></p>
+<p class="rvps2"><span class="rvts6">Check the </span><span class="rvts12">AutoTranscribe</span><span class="rvts6"> check box if you want Overture to transcribe any recorded MIDI data automatically. Uncheck the box if you want Overture to display recorded MIDI data as raw data in the Score View.</span><br/><span class="rvts6"></span><br/><span class="rvts6">If you select the </span><span class="rvts12">AutoTranscribe</span><span class="rvts6"> option, you also have the choice of transcribing the recorded MIDI data as single or multiple voices (see “Using the One Voice Per Staff Option” below).</span><br/><span class="rvts6"></span><br/><span class="rvts6">Generally, automatic transcription is useful for most simple recordings. You may find it beneficial to turn off auto transcription if you're recording rather complicated tracks with multiple voices. When auto transcription is off, Overture displays the recorded data as raw MIDI data in the Score View. You can edit and selectively transcribe sections of raw MIDI data as discussed in </span><a class="rvts11" href="Transcribe.html">Transcribe</a><span class="rvts6">.</span><br/><span class="rvts6"></span><br/><span class="rvts6">Overture notates all auto transcribed data in the Score View using the transcription quantization value shown in the Tool Bar. For more information about setting a transcription quantization value, see “Transcription Quantize Amount Button.”</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Using the One Voice Per Staff Option</span></p>
+<p class="rvps2"><span class="rvts6">You can enable this option only if you check the </span><span class="rvts12">AutoTranscribe</span><span class="rvts6"> option first. Check </span><span class="rvts12">One voice per staff</span><span class="rvts6"> whenever you record a track that requires only a single voice per staff. This keeps Overture from interpreting any sloppy playing as multiple voices. If you want to record a track with multiple voices, then leave the option unchecked.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Using the Tuplets Option</span></p>
+<p class="rvps2"><span class="rvts6">You can enable this option only if you check the </span><span class="rvts12">AutoTranscribe</span><span class="rvts6"> option first. Check </span><span class="rvts12">Tuplets</span><span class="rvts6"> whenever you record a track that may contain tuplets.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Using the Add staccato and Add legato Options.</span></p>
+<p class="rvps2"><span class="rvts6">Check these if you wish Overture to add these marking on notes that sound differently from the notated values.</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Using the Record Filters</span></p>
+<p class="rvps2"><span class="rvts6">Use the three radio buttons to tell Overture whether you want to record all events, only the events selected in this dialog box, or all events except those not selected in this dialog box.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

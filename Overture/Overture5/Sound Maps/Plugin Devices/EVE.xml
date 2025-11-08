@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTNameDocument name="EVE">
+  <Version>1</Version>
+  <Author>GenieSoft,Inc.</Author>
+  <Device name="EVE" usesPatchNames="1" firstPatchNumber="0" />
+  <ControllerNames>
+    <Controller name="Programming User Defined" cc="0" />
+    <Controller name="Expression" cc="11" />
+    <Controller name="Volume" cc="7" />
+    <Controller name="Panning" cc="10" />
+    <Controller name="Pedal (Sustain)" cc="64" />
+    <Controller name="Modulation" cc="1" />
+    <Controller name="Breath" cc="2" />
+    <Controller name="Foot Controller" cc="4" />
+    <Controller name="Portamento Time" cc="5" />
+    <Controller name="Balance" cc="8" />
+    <Controller name="Portamento" cc="65" />
+    <Controller name="Pedal (Sostenuto)" cc="66" />
+    <Controller name="Pedal (Soft)" cc="67" />
+    <Controller name="Hold 2" cc="69" />
+    <Controller name="External Effects Depth" cc="91" />
+    <Controller name="Tremolo Depth" cc="92" />
+    <Controller name="Chorus Depth" cc="93" />
+    <Controller name="Celeste Detune Depth" cc="94" />
+    <Controller name="Phaser Depth" cc="95" />
+  </ControllerNames>
+  <Instruments>
+    <Section name="Standard Presets" clef="treble" lownote="c-1" highnote="c9">
+      <Group name="EP" title="Electric Piano" abbr="E Pf.">
+        <Instrument name="Stereo CP70" prgChg="1" />
+        <Instrument name="Stereo CP70 Bright" prgChg="2" />
+        <Instrument name="Stereo Wurli Bright" prgChg="3" />
+        <Instrument name="Rhodes Stereo 7th" prgChg="4" />
+        <Instrument name="Suitcase Stereo 7th" prgChg="5" />
+        <Instrument name="Triple Clavinet" prgChg="6" />
+        <Instrument name="Rhodes and Wurlies" prgChg="7" />
+        <Instrument name="Double EP" prgChg="8" />
+        <Instrument name="Double CP70 Clav" prgChg="9" />
+        <Instrument name="Song Chords" prgChg="10" />
+        <Instrument name="Glam Nice" prgChg="11" />
+        <Instrument name="Tip Boost" prgChg="12" />
+        <Instrument name="Glam Nice Extra" prgChg="13" />
+        <Instrument name="CP70 Velocity" prgChg="14" />
+        <Instrument name="Ana Keys 1" prgChg="15" />
+        <Instrument name="Ana Keys 2" prgChg="16" />
+        <Instrument name="Ana Keys 3" prgChg="17" />
+        <Instrument name="Ana Keys 4" prgChg="18" />
+        <Instrument name="Ana Keys Final" prgChg="19" />
+        <Instrument name="Mello Walker" prgChg="20" />
+        <Instrument name="Wurli Hoops" prgChg="21" />
+        <Instrument name="Suite Strings" prgChg="22" />
+        <Instrument name="Split Strings Bass" prgChg="23" />
+        <Instrument name="Organrhoded" prgChg="24" />
+      </Group>
+      <Group name="Organ" title="Organ" abbr="Org.">
+        <Instrument name="Ultimate 60s" prgChg="25" />
+        <Instrument name="W Key Splited" prgChg="26" />
+        <Instrument name="Deep Leslie" prgChg="27" />
+        <Instrument name="Waveseq" prgChg="28" />
+        <Instrument name="Reggae" prgChg="29" />
+        <Instrument name="Multi Jazz" prgChg="30" />
+        <Instrument name="Multi Jazz 2" prgChg="31" />
+        <Instrument name="Combo Church" prgChg="32" />
+        <Instrument name="Transistor Double" prgChg="33" />
+        <Instrument name="Game On" prgChg="34" />
+        <Instrument name="Hit Pad" prgChg="35" />
+        <Instrument name="House" prgChg="36" />
+        <Instrument name="Velo Vox" prgChg="37" />
+      </Group>
+      <Group name="Pad" title="Synth Pad" abbr="Synth">
+        <Instrument name="Solina Glider" prgChg="38" />
+        <Instrument name="Cosmic" prgChg="39" />
+        <Instrument name="Fantasy Land" prgChg="40" />
+        <Instrument name="Floating World" prgChg="41" />
+        <Instrument name="Crystal Saws" prgChg="42" />
+        <Instrument name="Super Stack" prgChg="43" />
+        <Instrument name="Strings Quartet" prgChg="44" />
+        <Instrument name="Second Dream" prgChg="45" />
+        <Instrument name="Old Bit" prgChg="46" />
+        <Instrument name="Obscure" prgChg="47" />
+        <Instrument name="Triple Solina" prgChg="48" />
+        <Instrument name="Second Personality" prgChg="49" />
+        <Instrument name="Super Saws" prgChg="50" />
+        <Instrument name="Multi Jupiter" prgChg="51" />
+        <Instrument name="Trident and Jupiter" prgChg="52" />
+        <Instrument name="Solina 2000" prgChg="53" />
+        <Instrument name="Church Love" prgChg="54" />
+        <Instrument name="Echo Ding" prgChg="55" />
+        <Instrument name="To Chords" prgChg="56" />
+        <Instrument name="Sweep Love" prgChg="57" />
+        <Instrument name="One Harmony" prgChg="58" />
+        <Instrument name="Light Love" prgChg="59" />
+        <Instrument name="Fresh Chords" prgChg="60" />
+        <Instrument name="The PE2000" prgChg="61" />
+        <Instrument name="The Solina" prgChg="62" />
+        <Instrument name="LoFi Strings" prgChg="63" />
+        <Instrument name="Sweep to Brass" prgChg="64" />
+        <Instrument name="Flutody" prgChg="65" />
+        <Instrument name="Old Soft" prgChg="66" />
+        <Instrument name="The 60s" prgChg="67" />
+        <Instrument name="Stacked Strings 2" prgChg="68" />
+        <Instrument name="Sing After" prgChg="69" />
+        <Instrument name="Ding Pad" prgChg="70" />
+        <Instrument name="Lonely Extremis" prgChg="71" />
+        <Instrument name="Ambient 44" prgChg="72" />
+        <Instrument name="PE2000 Glider" prgChg="73" />
+        <Instrument name="Voice Osc" prgChg="74" />
+        <Instrument name="Jupiter Moon" prgChg="75" />
+      </Group>
+      <Group name="Strn" title="Synth Strings" abbr="Synth">
+        <Instrument name="Vintage" prgChg="76" />
+      </Group>
+      <Group name="Multi" title="Synth" abbr="Synth">
+        <Instrument name="ePiano+Strings+Ftrp" prgChg="77" />
+        <Instrument name="ePiano+Strings 2" prgChg="78" />
+        <Instrument name="Kzone Bass+Synth" prgChg="79" />
+      </Group>
+      <Group name="Synth" title="Synth" abbr="Synth">
+        <Instrument name="Voice Fader" prgChg="80" />
+        <Instrument name="SubBass 2" prgChg="81" />
+        <Instrument name="Phat Mod" prgChg="100" />
+        <Instrument name="SubBass" prgChg="101" />
+        <Instrument name="Mini MS" prgChg="102" />
+        <Instrument name="Korg 770" prgChg="103" />
+        <Instrument name="Pure Sine" prgChg="104" />
+        <Instrument name="Stacks" prgChg="105" />
+        <Instrument name="Combo W Pad" prgChg="106" />
+        <Instrument name="Mono Brass" prgChg="107" />
+        <Instrument name="Face the Lead" prgChg="108" />
+        <Instrument name="Solo Strings" prgChg="109" />
+        <Instrument name="Solo Strings 2" prgChg="110" />
+        <Instrument name="Analog Flute" prgChg="111" />
+        <Instrument name="Analog Flute 2" prgChg="112" />
+        <Instrument name="One Flute" prgChg="113" />
+        <Instrument name="One Flute 2" prgChg="114" />
+        <Instrument name="Pure Pulse 90" prgChg="115" />
+        <Instrument name="Power 5th" prgChg="116" />
+        <Instrument name="Double Pressure" prgChg="117" />
+        <Instrument name="Pad Wave" prgChg="118" />
+        <Instrument name="Voice Fader 2" prgChg="119" />
+        <Instrument name="Another Sub" prgChg="120" />
+        <Instrument name="3 OSCs" prgChg="121" />
+        <Instrument name="Space Solo" prgChg="122" />
+        <Instrument name="Space Solo 2" prgChg="123" />
+      </Group>
+      <Group name="Perc" title="Percussive Synth" abbr="Synth">
+        <Instrument name="Ana Combs" prgChg="82" />
+        <Instrument name="Kotorgan" prgChg="83" />
+        <Instrument name="Electro Kit 1" prgChg="84" />
+        <Instrument name="Electro Kit 2" prgChg="85" />
+        <Instrument name="Old Drums" prgChg="86" />
+        <Instrument name="Old Drums 2" prgChg="87" />
+        <Instrument name="Ana Power" prgChg="88" />
+        <Instrument name="Xylorgan" prgChg="89" />
+        <Instrument name="Talk Organ" prgChg="90" />
+        <Instrument name="Some Rumors" prgChg="91" />
+        <Instrument name="Pizzisteel" prgChg="92" />
+        <Instrument name="Pizzisteel 2" prgChg="93" />
+        <Instrument name="Hit Strings" prgChg="94" />
+        <Instrument name="Slow Arpeggio" prgChg="95" />
+        <Instrument name="Tekno Banjo" prgChg="96" />
+        <Instrument name="Gold Marimba" clef="grandStaff" prgChg="97" />
+        <Instrument name="Voices" prgChg="98" />
+        <Instrument name="Rev Saws" prgChg="99" />
+      </Group>
+      <Group name="FX" title="Synth Effects" abbr="FX.">
+        <Instrument name="Reflection" prgChg="124" />
+        <Instrument name="Hit and Hold" prgChg="125" />
+        <Instrument name="Broken Guitar" prgChg="126" />
+        <Instrument name="Ultra Glided W" prgChg="127" />
+      </Group>
+    </Section>
+    <Section name="EVE User Banks" clef="treble" lownote="c-1" highnote="c9"></Section>
+  </Instruments>
+</VSTNameDocument>

@@ -1,0 +1,101 @@
+﻿<html>
+	
+<head>
+	<title>Eraser Button</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("EraserButton");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Eraser Button</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="GettingStarted.html">Getting Started</a> &rsaquo;&rsaquo; <a href="MainScoreWindow.html">Main Score Window</a> &rsaquo;&rsaquo; <a href="TheControlbar.html">The Control bar</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="TheControlbar.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="Controller.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="TransportButtons.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<p class="rvps2"><img alt="" style="vertical-align: middle; padding : 1px;" src="lib/NewItem64.png"><span class="rvts6"> </span><span class="rvts12">Erase Button</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Click the Eraser button to select the Eraser tool. The cursor becomes an eraser when you move it over the Score View. Use the Eraser tool to delete musical symbols by clicking them.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">You can type the letter </span><span class="rvts12">e</span><span class="rvts6"> (for Eraser) to activate the Eraser tool (unless you're using one of Overture's text-entering tools).</span></p>
+<p class="rvps2"><span class="rvts6">If you delete any note other than the last in the measure, the timing for notes later in that measure changes by the amount of time of the deleted note because by default Overture does not automatically insert a rest where the note was deleted. You alter note timings when you delete a note in the Score View. If you want Overture to replace a deleted note with a rest, use the </span><a class="rvts11" href="HoldNoteValues.html">Options&gt;Hold Note Values</a><span class="rvts6"> menu option.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">For example, deleting the second quarter note in a measure with four quarter notes moves the last two quarter notes earlier by one quarter note.</span></p>
+<p class="rvps2"><span class="rvts6">Overture changes note timings after you delete a note </span><span class="rvts17">except</span><span class="rvts6"> when</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li style="margin-left: 0px" class="rvps4"><span class="rvts6">you record notes in real time but they have not yet been transcribed. Overture calls these raw notes.</span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts6">you delete the last note in a measure.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">In the first case, the notes appear in the Score View as bars. Deleting a note has no effect on the timing of the next note because the note timings are raw and have not been transcribed. The second case doesn't require editing because there are no notes later in the measure to encroach on the time deleted with the note.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">See </span><a class="rvts11" href="HoldNoteValues.html">Hold Note Values</a><span class="rvts6"> for avoiding these situations.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

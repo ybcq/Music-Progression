@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTNameDocument name="Knagalis-EMM">
+  <Version>1</Version>
+  <Author>GenieSoft,Inc.</Author>
+  <Device name="Knagalis-EMM" usesPatchNames="1" firstPatchNumber="0" />
+  <ControllerNames>
+    <Controller name="User Defined" cc="0" />
+    <Controller name="Volume" cc="7" />
+    <Controller name="Panning" cc="10" />
+  </ControllerNames>
+  <Instruments>
+    <Section name="Default Presets" lownote="c-1" highnote="c9" clef="treble">
+      <Group name="Presets 1-20">
+        <Instrument name="Tempered Sitar" title="Sitar" abbr="Sit." prgChg="1" />
+        <Instrument name="Gamut Sitar" title="Sitar" abbr="Sit." prgChg="2" />
+        <Instrument name="Darbari Kanada" title="Sitar" abbr="Sit." prgChg="3" />
+        <Instrument name="Perfect Sitar" title="Sitar" abbr="Sit." prgChg="4" />
+        <Instrument name="Shankar Sitar" title="Sitar" abbr="Sit." prgChg="5" />
+        <Instrument name="Space Sitar" title="Sitar" abbr="Sit." prgChg="6" />
+        <Instrument name="Fast Sitar" title="Sitar" abbr="Sit." prgChg="7" />
+        <Instrument name="Slow Sitar" title="Sitar" abbr="Sit." prgChg="8" />
+        <Instrument name="Japanese Sitar" title="Sitar" abbr="Sit." prgChg="9" />
+        <Instrument name="Irag Sitar" title="Sitar" abbr="Sit." prgChg="10" />
+        <Instrument name="Kora Sitar" title="Sitar" abbr="Sit." prgChg="11" />
+        <Instrument name="Fake Sitar" title="Sitar" abbr="Sit." prgChg="12" />
+        <Instrument name="Wack Sitar" title="Sitar" abbr="Sit." prgChg="13" />
+        <Instrument name="Clean Sitar" title="Sitar" abbr="Sit." prgChg="14" />
+        <Instrument name="Plain Oud" title="Oud" abbr="Oud" prgChg="15" />
+        <Instrument name="Wider Oud" title="Oud" abbr="Oud" prgChg="16" />
+        <Instrument name="Split Oud" title="Oud" abbr="Oud" prgChg="17" />
+        <Instrument name="Retrigger Oud" title="Oud" abbr="Oud" prgChg="18" />
+        <Instrument name="Expressive Oud" title="Oud" abbr="Oud" prgChg="19" />
+        <Instrument name="Vietnam Plucks" title="Oud" abbr="Oud" prgChg="20" />
+      </Group>
+      <Group name="Presets 21-40">
+        <Instrument name="Oriental Scrape" title="Oud" abbr="Oud" prgChg="21" />
+        <Instrument name="Bassim Oud" title="Oud" abbr="Oud" prgChg="22" />
+        <Instrument name="Bright Oud" title="Oud" abbr="Oud" prgChg="23" />
+        <Instrument name="Vintage Oud" title="Oud" abbr="Oud" prgChg="24" />
+        <Instrument name="Padding Oud" title="Oud" abbr="Oud" prgChg="25" />
+        <Instrument name="Lute Ethiope" title="Lute" abbr="Lute" prgChg="26" />
+        <Instrument name="Enjoy Oud" title="Oud" abbr="Oud" prgChg="27" />
+        <Instrument name="Radio Oud" title="Oud" abbr="Oud" prgChg="28" />
+        <Instrument name="Mbira 1 C" title="Mbira" abbr="Mbi." prgChg="29" />
+        <Instrument name="Mbira 1 G" title="Mbira" abbr="Mbi." prgChg="30" />
+        <Instrument name="Mbira 1 F" title="Mbira" abbr="Mbi." prgChg="31" />
+        <Instrument name="Glide up pluck" title="Mbira" abbr="Mbi." prgChg="32" />
+        <Instrument name="Glide down pluck" title="Mbira" abbr="Mbi." prgChg="33" />
+        <Instrument name="Strange Glocking" title="Mbira" abbr="Mbi." prgChg="34" />
+        <Instrument name="Small Kalimba" title="Kalimba" abbr="Kali." prgChg="35" />
+        <Instrument name="Shona Mbira2" title="Mbira" abbr="Mbi." prgChg="36" />
+        <Instrument name="Shona Mbira2" title="Mbira" abbr="Mbi." prgChg="37" />
+        <Instrument name="Shona Mbira3" title="Mbira" abbr="Mbi." prgChg="38" />
+        <Instrument name="Bamboo Asia" title="Bamboo Flute" abbr="Fl." prgChg="39" />
+        <Instrument name="Bagpipe 1" title="Pipes" abbr="Pipes" prgChg="40" />
+      </Group>
+      <Group name="Presets 41-60">
+        <Instrument name="Gajda" title="Gajda" abbr="Gaj." prgChg="41" />
+        <Instrument name="Portugese Gaida" title="Gaida" abbr="Gai." prgChg="42" />
+        <Instrument name="Scottish" title="Pipes" abbr="Pipes" prgChg="43" />
+        <Instrument name="Highland" title="Pipes" abbr="Pipes" prgChg="44" />
+        <Instrument name="Green Mountains" title="Pipes" abbr="Pipes" prgChg="45" />
+        <Instrument name="Bb Scottish C5" title="Pipes" abbr="Pipes" prgChg="46" />
+        <Instrument name="Small Scottish" title="Pipes" abbr="Pipes" prgChg="47" />
+        <Instrument name="Pacer Scottish" title="Pipes" abbr="Pipes" prgChg="48" />
+        <Instrument name="Waker Scottish" title="Pipes" abbr="Pipes" prgChg="49" />
+        <Instrument name="Eastern Bagpipe 1" title="Pipes" abbr="Pipes" prgChg="50" />
+        <Instrument name="Drone Shenai" title="Shenai" abbr="Shen." prgChg="51" />
+        <Instrument name="Gamut Shenai" title="Shenai" abbr="Shen." prgChg="52" />
+        <Instrument name="AM Shenai" title="Shenai" abbr="Shen." prgChg="53" />
+        <Instrument name="Far Shenai" title="Shenai" abbr="Shen." prgChg="54" />
+        <Instrument name="Bright Steeldrum" title="Steel Drums" abbr="StlDrm." prgChg="55" />
+        <Instrument name="Noisy Steeldrum" title="Steel Drums" abbr="StlDrm." prgChg="56" />
+        <Instrument name="Dairy Steedrum" title="Steel Drums" abbr="StlDrm." prgChg="57" />
+        <Instrument name="Bright Gamelan" title="Gamelan" abbr="Gamln." prgChg="58" />
+        <Instrument name="Chinese Combo" title="Ethnic Synth" abbr="Synth" prgChg="59" />
+        <Instrument name="Balinese Combo" title="Ethnic Synth" abbr="Synth" prgChg="60" />
+      </Group>
+      <Group name="Presets 61-80">
+        <Instrument name="Gamelan Rings" title="Ethnic Synth" abbr="Synth" prgChg="61" />
+        <Instrument name="Ming Temple" title="Ethnic Synth" abbr="Synth" prgChg="62" />
+        <Instrument name="Pitch Bells" title="Bells" abbr="Bells" prgChg="63" />
+        <Instrument name="Hybrid11" title="Ethnic Synth" abbr="Synth" prgChg="64" />
+        <Instrument name="Hybrid12" title="Ethnic Synth" abbr="Synth" prgChg="65" />
+        <Instrument name="Hybrid21" title="Ethnic Synth" abbr="Synth" prgChg="66" />
+        <Instrument name="Hybrid22" title="Ethnic Synth" abbr="Synth" prgChg="67" />
+        <Instrument name="Hybrid23" title="Ethnic Synth" abbr="Synth" prgChg="68" />
+        <Instrument name="Afrixylo Banjo" title="African Banjo" abbr="Bjo." prgChg="69" />
+        <Instrument name="Deep Arabia" title="Ethnic Synth" abbr="Synth" prgChg="70" />
+        <Instrument name="Glided Pure Sine" title="Ethnic Synth" abbr="Synth" prgChg="71" />
+        <Instrument name="Glided FM Sine" title="Ethnic Synth" abbr="Synth" prgChg="72" />
+        <Instrument name="Chinese Hit" title="Ethnic Synth" abbr="Synth" prgChg="73" />
+        <Instrument name="Shenai Space" title="Ethnic Synth" abbr="Synth" prgChg="74" />
+        <Instrument name="Sitar Split (C2)" title="Ethnic Synth" abbr="Synth" prgChg="75" />
+        <Instrument name="Percussions" title="Ethnic Percussion" abbr="Perc." prgChg="76" />
+        <Instrument name="Mike Pipes" title="Pipes" abbr="Pipes" prgChg="77" />
+        <Instrument name="Mike Pipes 2" title="Pipes" abbr="Pipes" prgChg="78" />
+        <Instrument name="Africa" title="Ethnic Synth" abbr="Synth" prgChg="79" />
+        <Instrument name="Radsum" title="Ethnic Synth" abbr="Synth" prgChg="80" />
+      </Group>
+      <Group name="Presets 81-90">
+        <Instrument name="Far Movie" title="Ethnic Synth" abbr="Synth" prgChg="81" />
+        <Instrument name="Split Marimba" title="Marimba" clef="treble" abbr="Mba." prgChg="82" />
+        <Instrument name="Split Marimba 2" title="Marimba" clef="treble" abbr="Mba." prgChg="83" />
+        <Instrument name="LowFi Movie" title="Ethnic Synth" abbr="Synth" prgChg="84" />
+        <Instrument name="LowFi Movie part II" title="Ethnic Synth" abbr="Synth" prgChg="85" />
+        <Instrument name="Mike Pipes Ultimate" title="Pipes" abbr="Pipes" prgChg="86" />
+        <Instrument name="Another Pipe" title="Pipes" abbr="Pipes" prgChg="87" />
+        <Instrument name="Muffed Box" title="Ethnic Synth" abbr="Synth" prgChg="88" />
+        <Instrument name="Sonar Sine" title="Ethnic Synth" abbr="Synth" prgChg="89" />
+        <Instrument name="Velocity Split Sitar" title="Sitar" abbr="Sit." prgChg="90" />
+      </Group>
+    </Section>
+    <Section name="User Presets" clef="treble"></Section>
+  </Instruments>
+</VSTNameDocument>

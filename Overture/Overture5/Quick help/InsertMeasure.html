@@ -1,0 +1,95 @@
+﻿<html>
+	
+<head>
+	<title>Insert Measure</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("InsertMeasure");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Insert Measure</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="OvertureMenus.html">Overture Menus</a> &rsaquo;&rsaquo; <a href="MeasuresMenu.html">Measures Menu</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="MeasuresMenu.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="MeasuresMenu.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="DeleteMeasure.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<h6 class="rvps14"><span class="rvts0"><span class="rvts22">Measures&gt;Insert Measure</span></span></h6>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Choose this command to insert one or more blank measures into the score. When you choose the </span><span class="rvts12">Insert</span><span class="rvts6"> command, Overture opens the Insert Measure dialog box</span></p>
+<h6 class="rvps14"><span class="rvts0"><span class="rvts22">Using the Insert Measure Dialog Box</span></span></h6>
+<p class="rvps2"><span class="rvts6">To insert one or more blank measures into your score:</span></p>
+<ol style="text-indent: 0px; margin-left: 48px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Decide where you want to insert the blank measures, then click in the measure that either immediately precedes or follows that location. </span></span></li>
+<li value="2" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Choose </span></span><span class="rvts0"><span class="rvts12">Measures&gt;Insert</span></span><span class="rvts0"><span class="rvts6">.</span></span><br/><span class="rvts0"><span class="rvts6">Overture opens the Insert Measure dialog box. </span></span></li>
+<li value="3" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Use the numerical to enter the number of blank measures you wish to insert.</span></span><br/><span class="rvts0"><span class="rvts6">In this example we choose to insert one measure. </span></span></li>
+<li value="4" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Click either the </span></span><span class="rvts0"><span class="rvts12">Before current measure</span></span><span class="rvts0"><span class="rvts6"> or </span></span><span class="rvts0"><span class="rvts12">After current measure</span></span><span class="rvts0"><span class="rvts6"> radio buttons.</span></span><br/><span class="rvts0"><span class="rvts6"></span></span><br/><span class="rvts0"><span class="rvts6">If you select </span></span><span class="rvts0"><span class="rvts12">Before current measure</span></span><span class="rvts0"><span class="rvts6">, Overture places the requested number of blank measures immediately </span></span><span class="rvts0"><span class="rvts24">before</span></span><span class="rvts0"><span class="rvts6"> the active measure (the measure that contains the insertion point).</span></span><br/><span class="rvts0"><span class="rvts6"></span></span><br/><span class="rvts0"><span class="rvts6">If you select </span></span><span class="rvts0"><span class="rvts12">After current measure</span></span><span class="rvts0"><span class="rvts6">, Overture places the requested number of blank measures immediately </span></span><span class="rvts0"><span class="rvts24">after</span></span><span class="rvts0"><span class="rvts6"> the active measure. </span></span></li>
+<li value="5" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Click the </span></span><span class="rvts0"><span class="rvts12">OK</span></span><span class="rvts0"><span class="rvts6"> button.</span></span><br/><span class="rvts0"><span class="rvts6"></span></span><br/><span class="rvts0"><span class="rvts6">Overture inserts the requested number of blank measures in the requested position. The inserted measures retain the tempo, meter, and key signature of the measure immediately preceding them. </span></span></li>
+</ol>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

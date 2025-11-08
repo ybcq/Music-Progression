@@ -1,0 +1,2172 @@
+GUITAR PRO 5.1 TRANSLATION FILE
+
+### PATCH CONFIGURATION ###
+AUTHOR NAMES = "Ted van Iersel"
+AUTHOR E-MAIL = "s.t.ierzon@casema.nl"
+VERSION = "5.1"
+AUTOMATIC SHORTCUTS
+ENCODING = "WindowsLatin1"
+###########################
+
+You can use this file to create your own translation file for Guitar Pro.
+To do it, translate ONLY the words between the symbols " ". DON'T CHANGE
+ANYTHING ELSE. Note that the symbols %s, %t... are used to indicate a dynamic value,
+which will be attribuated at running, so do not change it.
+
+The words between the symbols { } are some indications to help you to
+understand the context, don't change it.
+
+After having changing the translations, save the file under your language
+name with the extension .gpl (ie "English.gpl"). Place it in the
+Guitar Pro directory, restart Guitar Pro and you'll have the new language
+proposed in the menu OPTIONS | LANGUAGE.
+
+Don't hesitate to send us your translation files, we'll add them on the site
+for other users.
+
+***********
+* DIALOGS *
+***********
+
+DLG_000
+DLG_001 = "OK"
+DLG_002 = "Annuleren"
+DLG_003 = "Ja"
+DLG_004 = "Nee"
+DLG_005 = "Help"
+DLG_006 = "Verwijderen"
+DLG_007 = "Sluiten"
+DLG_008 = "Informatie"
+DLG_009 = "Bevestiging"
+DLG_010 = "Waarschuwing"
+DLG_011 = "Waarschuwing"
+DLG_012 = "Fout"
+DLG_013 = "Verkeerd ingetoetst."
+
+***********
+* GENERAL *
+***********
+
+GENE_000
+GENE_001 = "Versie"
+GENE_002 = "Alle rechten voorbehouden"
+GENE_003 = "Ongeldige licentie." 
+GENE_004 = "Guitar Pro - Demoversie"
+GENE_005 = "Demoversie van Guitar Pro is beperkt tot 24 maten."
+GENE_006 = "Als Guitar Pro je bevalt, registreer dan alsjeblieft."
+GENE_007 = "Spoor"
+GENE_008 = "Percussie"
+GENE_009 = "Complete maat"
+GENE_010 = "Incomplete maat"
+GENE_011 = "Overschreiding van de maat"
+GENE_012 = "ONGEREGISTREERDE GEBRUIKER"
+
+*****************
+* MENUS & HINTS *
+*****************
+
+MN_000
+MN_001 = "Bestand"
+MN_002 = "Nieuw"
+MN_003 = "Openen"
+MN_004 = "Zoeken"
+MN_005 = "Opslaan"
+MN_006 = "Opslaan Als"
+MN_007 = "Eigenschappen"
+MN_008 = "Voorkeuren"
+MN_009 = "Importeren"
+MN_010 = "Exporteren"
+MN_011 = "MIDI"
+MN_012 = "ASCII Tab"
+MN_013 = "Afdrukken"
+MN_014 = "Afdrukvoorbeeld"
+MN_015 = "Printer Setup"
+MN_016 = "Afsluiten"
+MN_017 = "Bewerken"
+MN_018 = "Knippen"
+MN_019 = "Kopieren"
+MN_020 = "Plakken"
+MN_021 = "Invoegen"
+MN_022 = "Verwijderen"
+MN_023 = "Mengpaneel Instellingen"
+MN_024 = "Spoor"
+MN_025 = "Maat"
+MN_026 = "Eerste"
+MN_027 = "Eerste Maat"
+MN_028 = "Vorige"
+MN_029 = "Vorige Maat"
+MN_030 = "Ga naar"
+MN_031 = "Ga naar Maat"
+MN_032 = "Volgende"
+MN_033 = "Volgende Maat"
+MN_034 = "Laatste"
+MN_035 = "Laaste Maat"
+MN_036 = "Maatsoorten"
+MN_037 = "Maatsoort deze Maat"
+MN_038 = "Herhalen Openen"
+MN_039 = "Herhalen Sluiten"
+MN_040 = "Alternatieve Einden"
+MN_041 = "Noot"
+MN_042 = "Hele Noot"
+MN_043 = "Halve Noot"
+MN_044 = "Kwart Noot"
+MN_045 = "Achtste Noot"
+MN_046 = "Zestiende Noot"
+MN_047 = "Twee-en-dertigste Noot"
+MN_048 = "Vier-en-zestigste Noot"
+MN_049 = "Gestipt"
+MN_050 = "Akkoorden"
+MN_051 = "Tekst"
+MN_052 = "Dode Noot"
+MN_053 = "Rust"
+MN_054 = "Triool"
+MN_055 = "Verbinden met vorige Maat"
+MN_056 = "Maat Invoegen"
+MN_057 = "Maat Verwijderen"
+MN_058 = "Kopieer Maat/Triool a/h Einde"
+MN_059 = "Schuif Noot 1 regel naar boven"
+MN_060 = "Schuif de Noot Omhoog"
+MN_061 = "Schuif Noot 1 regel omlaag"
+MN_062 = "Schuif de Noot Omlaag"
+MN_063 = "Effecten"
+MN_064 = "Hameren"
+MN_065 = "Plukken"
+MN_066 = "Slide Omhoog"
+MN_067 = "Omlaag Glijden"
+MN_068 = "Slide Omlaag"
+MN_069 = "Buigen en Loslaten"
+MN_070 = "Doorklinken (Ring)-effect"
+MN_071 = "Versieringstonen"
+MN_072 = "Onbeklemtoonde Noot"
+MN_073 = "Vibrato Snaar"
+MN_074 = "Tremolo"
+MN_075 = "Diepte van het Vibrato"
+MN_076 = "Natuurlijke Flageolet"
+MN_077 = "Kunstmatige Flageolet"
+MN_078 = "Fade In"
+MN_079 = "Tikken"
+MN_080 = "Slap (Bas)"
+MN_081 = "Pop (Bas)"
+MN_082 = "Snaar voor snaar Omlaag"
+MN_083 = "Snaar voor snaar Omhoog"
+MN_084 = "Dynamiek"
+MN_085 = "Assistenten"
+MN_086 = "Transponeren"
+MN_087 = "Maat Arrangeur"
+MN_088 = "Vermeerder/minder Maten met Rusten"
+MN_089 = "Automatische Vingerzetting"
+MN_090 = "Doorlatenklinken (Ring)-Selectie"
+MN_091 = "Controleer Maatduur"
+MN_092 = "Standaard Notatie"
+MN_093 = "Percussie"
+MN_094 = "Snelheids Trainer"
+MN_095 = "Geluid"
+MN_096 = "Speel vanaf Begin"
+MN_097 = "Speel vanaf Begin (Spatiebalk)"
+MN_098 = "Speel vanaf huidige Maat"
+MN_099 = "Speel vanaf huidige Maat (Ctrl+Spatiebalk)"
+MN_100 = "Speel huidige Maat"
+MN_101 = "Speel huidige Maat (Maj+Ctrl+Spatiebalk)"
+MN_102 = "Stop"
+MN_103 = "Stop (Spatiebalk)"
+MN_104 = "Speel in een Lus"
+MN_105 = "Metronoom"
+MN_106 = "Spelen tijdens invoeren"
+MN_107 = "Beeld"
+MN_108 = "Verberg het Bewerkvenster"
+MN_109 = "Toon doorklinkende Noten"
+MN_110 = "Toon dynamiek van de Noten"
+MN_111 = "Taal"
+MN_112 = "Help Taal"
+MN_113 = "Help"
+MN_114 = "Inhoud"
+MN_115 = "Bestel Guitar Pro !"
+MN_116 = "Registreer uw Kopie !"
+MN_117 = "Over GP"
+
+*********************
+* PROPERTIES WINDOW *
+*********************
+
+DLG_PROP_000
+DLG_PROP_001 = "Eigenschappen v/d partituur"
+DLG_PROP_002 = "Titel"
+DLG_PROP_003 = "Auteur"
+DLG_PROP_004 = "Opmerkingen"
+DLG_PROP_005 = "Tempo"
+DLG_PROP_006 = "Triool stemming:"
+DLG_PROP_007 = "Naam van het spoor"
+DLG_PROP_008 = "Instrument"
+DLG_PROP_009 = "Instrumenten lijst"
+DLG_PROP_010 = "Stemmingen"
+DLG_PROP_011 = "Snaren"
+DLG_PROP_012 = "Stemming"
+DLG_PROP_013 = "Aant.frets"
+DLG_PROP_014 = "Solo"
+DLG_PROP_015 = "Zet spoor uit"
+DLG_PROP_016 = "Niet exporteren"
+DLG_PROP_017 = "12 snaren simulatie"
+DLG_PROP_018 = "Volume"
+DLG_PROP_019 = "Panorama"
+DLG_PROP_020 = "Koor"
+DLG_PROP_021 = "Galm"
+DLG_PROP_022 = "Percussiespoor"
+DLG_PROP_023 = "Gebruik noten 27 to 87"
+DLG_PROP_024 = "op de tablatuur lijnen."
+DLG_PROP_025 = "Een of meer noten in maat %s kunnen niet op %s snaren worden gezet."
+
+***************************
+* MIDI IMPORTATION WINDOW *
+***************************
+
+DLG_IMPM_000
+DLG_IMPM_001 = "MIDI import"
+DLG_IMPM_002 = "Kies het te importeren spoor:"
+DLG_IMPM_003 = "Deselekteer het spoor"
+DLG_IMPM_004 = "Transponeer octaaf lager"
+DLG_IMPM_005 = "Quantiseren:"
+DLG_IMPM_006 = "Waarschuwing: een geimporteerd percussie spoor" { end at 007 }
+DLG_IMPM_007 = "kan alleen naar Spoor8/Kanaal 10."
+DLG_IMPM_008 = "Demoversie van Guitar Pro beperkt tot 50 noten te importeren."
+DLG_IMPM_009 = "Bevalt Guitar Pro, registreer dan alsjeblieft."
+DLG_IMPM_010 = "Zoek sporen..."
+DLG_IMPM_011 = "Naamloos"
+DLG_IMPM_012 = "Lees Spoor..."
+DLG_IMPM_013 = "Aanmaken van de partituur..."
+DLG_IMPM_014 = "Optimalisering vingerzetting..."
+DLG_IMPM_015 = "MIDI formaat niet herkend."
+
+***************************
+* MIDI EXPORTATION WINDOW *
+***************************
+
+DLG_EXPM_000
+DLG_EXPM_001 = "MIDI export"
+DLG_EXPM_002 = "Onmogelijk als bestand weg te schrijven. Opslaan afgebroken."
+
+****************************
+* ASCII IMPORTATION WINDOW *
+****************************
+
+DLG_IMPA_000
+DLG_IMPA_001 = "ASCII Tab import"
+DLG_IMPA_002 = "Geen toegang tot bestand. Importeren afgebroken."
+DLG_IMPA_003 = "Importeer"
+DLG_IMPA_004 = "Openen"
+DLG_IMPA_005 = "Afdrukken"
+DLG_IMPA_006 = "Importeer met:"
+DLG_IMPA_007 = "Opmerking: Importeren uitgevoerd in het actieve spoor"
+DLG_IMPA_008 = "Demoversie van Guitar Pro is beperkt tot 50 noten te importeren."
+DLG_IMPA_009 = "Bevalt Guitar Pro,registreer dan alsjeblieft."
+DLG_IMPA_010 = "<variable>"
+DLG_IMPA_011 = "halve noten"
+DLG_IMPA_012 = "kwart noten"
+DLG_IMPA_013 = "achtste noten"
+DLG_IMPA_014 = "zestiende noten"
+
+****************************
+* ASCII EXPORTATION WINDOW *
+****************************
+
+DLG_EXPA_000
+DLG_EXPA_001 = "ASCII Tab export"
+DLG_EXPA_002 = "Exporteren"
+DLG_EXPA_003 = "Afdrukken"
+DLG_EXPA_004 = "Kolommen:"
+DLG_EXPA_005 = "Vernieuw partituur"
+DLG_EXPA_006 = "Ritme"
+DLG_EXPA_007 = "Onmogelijk bestand te schrijven. Exporteren afgebroken."
+
+**********************
+* PREFERENCES WINDOW *
+**********************
+
+DLG_PREF_000
+DLG_PREF_001 = "Voorkeuren"
+DLG_PREF_002 = "Algemeen"
+DLG_PREF_003 = "Start Muziek"
+DLG_PREF_004 = "Niets"
+DLG_PREF_005 = "Selecteer een WAVE bestand"
+DLG_PREF_006 = "Wave bestand"
+DLG_PREF_007 = "Scrolling-stand tijdens spelen"
+DLG_PREF_008 = "Scherm voor scherm"
+DLG_PREF_009 = "Balk voor balk"
+DLG_PREF_010 = "Metronoom"
+DLG_PREF_011 = "Volume"
+DLG_PREF_012 = "Tijdens partituur"
+DLG_PREF_013 = "Tellen vooraf"
+DLG_PREF_014 = "Benadruk eerste tel"
+DLG_PREF_015 = "Altijd metronoom aan met Snelheids Trainer"
+DLG_PREF_016 = "Speel"
+DLG_PREF_017 = "Exporteren (MIDI)"
+DLG_PREF_018 = "Effecten"
+DLG_PREF_019 = "Herhalingen"
+DLG_PREF_020 = "Geluidskaart"
+DLG_PREF_021 = "Beperk opdrukken tot 1 toon"
+DLG_PREF_022 = "Gebruik deze optie als opdruk-effect verkeerd klinkt."
+DLG_PREF_023 = "Akkoord.-herkenning"
+DLG_PREF_024 = "Voeg altijd bas-noot toe aan akkoordnaam als deze afwijkt van de grondtoon"
+DLG_PREF_025 = "Standaard"
+DLG_PREF_026 = "Beeld"
+DLG_PREF_027 = "L.marge"
+DLG_PREF_028 = "R.marge"
+DLG_PREF_029 = "Afst.lijnen"
+DLG_PREF_030 = "Afst.balken"
+DLG_PREF_031 = "Akk.(diagram)positie"
+DLG_PREF_032 = "Akk.(naam) positie"
+DLG_PREF_033 = "Tekst positie"
+DLG_PREF_034 = "Ritme hor.lijn dikte"
+DLG_PREF_035 = "Noten lettert.:"
+DLG_PREF_036 = "Akk.naam lettert.:"
+DLG_PREF_037 = "Tekst lettert.:"
+DLG_PREF_038 = "Maatteken lettert.:"
+DLG_PREF_039 = "Maatnummer lettert.:"
+DLG_PREF_040 = "Herh.teken lettert.:"
+DLG_PREF_041 = "Diagr.formaat:"
+DLG_PREF_042 = "Akk.diagram kleur:"
+DLG_PREF_043 = "Tab-lijn kleur:"
+DLG_PREF_044 = "Ritme-lijn kleur:"
+DLG_PREF_045 = "Effectkleur:"
+DLG_PREF_046 = "Achtergr.kleur:"
+DLG_PREF_047 = "Foute tijdmaat kleur:"
+DLG_PREF_048 = "Selectie kleur:"
+DLG_PREF_049 = "Akk.diagrammen"
+DLG_PREF_050 = "Akk.namen"
+DLG_PREF_051 = "Akk.lijst boven"
+DLG_PREF_052 = "Tekst"
+DLG_PREF_053 = "Effecten"
+DLG_PREF_054 = "Ritme lijnen"
+DLG_PREF_055 = "Maatnrs."
+DLG_PREF_056 = "Afst.noten"
+DLG_PREF_057 = "Ritme proporties"
+DLG_PREF_058 = "Gebr.#1"
+DLG_PREF_059 = "Gebr.#2"
+DLG_PREF_060 = "Gebr.#3"
+DLG_PREF_061 = "Voorbeeld"
+DLG_PREF_062 = "Afdrukken"
+DLG_PREF_063 = "B.marge."
+DLG_PREF_064 = "O.marge."
+DLG_PREF_065 = "L.marge."
+DLG_PREF_066 = "R.marge."
+DLG_PREF_067 = "Volledige bladzijde afdrukken."
+DLG_PREF_068 = "Select.afdrukgebied:"
+DLG_PREF_069 = "Breedte"
+DLG_PREF_070 = "Hoogte"
+DLG_PREF_071 = "Centreer gebied"
+DLG_PREF_072 = "Druk met kader af"
+DLG_PREF_073 = "Alg.afmetingen"
+DLG_PREF_074 = "Afst.tabs"
+DLG_PREF_075 = "Afst.noten"
+DLG_PREF_076 = "Ritme afmet."
+DLG_PREF_077 = "Akk.diagr.form."
+DLG_PREF_078 = "Diagr.pos."
+DLG_PREF_079 = "Akk.naam pos."
+DLG_PREF_080 = "Tekst pos."
+DLG_PREF_081 = "Titel/Auteur"
+DLG_PREF_082 = "Auteur/Tab"
+DLG_PREF_083 = "Titel lettert.:"
+DLG_PREF_084 = "Auteur lettert.:"
+DLG_PREF_085 = "Opm. lettert.:"
+DLG_PREF_086 = "Bladz.nr.lettert.:"
+DLG_PREF_087 = "Noten lettert.:"
+DLG_PREF_088 = "Akk.namen lettert.:"
+DLG_PREF_089 = "Akk.diagram lettert.:"
+DLG_PREF_090 = "Tekst lettert.:"
+DLG_PREF_091 = "Maattek.lettert.:"
+DLG_PREF_092 = "Herh.tek.lettert.:"
+DLG_PREF_093 = "Titel"
+DLG_PREF_094 = "Auteur"
+DLG_PREF_095 = "Opmerkingen"
+DLG_PREF_096 = "Triool stemming..."
+DLG_PREF_097 = "Bladz.nr"
+DLG_PREF_098 = "Maatnrs."
+DLG_PREF_099 = "Akk.diagram."
+DLG_PREF_100 = "Akk.namen"
+DLG_PREF_101 = "Akk.boven"
+DLG_PREF_102 = "Tekst"
+DLG_PREF_103 = "Effecten"
+DLG_PREF_104 = "Ritme lijnen"
+DLG_PREF_105 = "Controle of tekst als zwarte blokken verschijnt."
+DLG_PREF_106 = "Voorbeeld"
+DLG_PREF_107 = "Force x Bars per Staff:"
+
+*****************
+* BROWSE WINDOW *
+*****************
+
+DLG_BROWSE_000
+DLG_BROWSE_001 = "Zoeken"
+DLG_BROWSE_002 = "Sluiten"
+DLG_BROWSE_003 = "Doorzoek Submappen"
+DLG_BROWSE_004 = "Speel het gesel.bestand"
+DLG_BROWSE_005 = "Niet verder"
+DLG_BROWSE_006 = "Verder na 1 maat"
+DLG_BROWSE_007 = "Verder na 2 maten"
+DLG_BROWSE_008 = "Verder na 5 maten"
+DLG_BROWSE_009 = "Verder na 10 maten"
+DLG_BROWSE_010 = "Verder na 25 maten"
+DLG_BROWSE_011 = "Verder na hele part."
+DLG_BROWSE_012 = "Titel:"
+DLG_BROWSE_013 = "Auteur:"
+DLG_BROWSE_014 = "Noot:"
+DLG_BROWSE_015 = "Maten:"
+DLG_BROWSE_016 = "G/B/D:" { G=Gitaar / B=Bas / P=Percussie }
+DLG_BROWSE_017 = "Naam"
+DLG_BROWSE_018 = "Formaat"
+DLG_BROWSE_019 = "Aangepast"
+DLG_BROWSE_020 = "Mappen"
+DLG_BROWSE_021 = "bestand(en)"
+DLG_BROWSE_022 = "Bezig met zoeken..."
+DLG_BROWSE_023 = "Stop"
+DLG_BROWSE_024 = "Doorzoek Submappen"
+DLG_BROWSE_025 = "Bezig bestand te lezen..."
+
+****************
+* BRUSH WINDOW *
+****************
+
+DLG_BRUSH_000
+DLG_BRUSH_001 = "Snaar voor Snaar"
+DLG_BRUSH_002 = "Snaar voor Snaar Duur"
+
+**************************
+* MIX TABLE EVENT WINDOW *
+**************************
+
+DLG_MIX_000
+DLG_MIX_001 = "Verander mengpaneel parameters"
+DLG_MIX_002 = "Kies parameters en geef nieuwe waarden en tijdsduur aan:"
+DLG_MIX_003 = "Instrument"
+DLG_MIX_004 = "Volume"
+DLG_MIX_005 = "Panorama"
+DLG_MIX_006 = "Koor"
+DLG_MIX_007 = "Galm"
+DLG_MIX_008 = "Tempo"
+DLG_MIX_009 = "Onmiddellijk"
+DLG_MIX_010 = "1 tel"
+DLG_MIX_011 = "%s tellen" { gebruik meervoud }
+DLG_MIX_012 = "Nieuwe waarde"
+DLG_MIX_013 = "Overgang"
+
+************************************
+* COMPLETE/REDUCE ASSISTANT WINDOW *
+************************************
+
+DLG_ASS_CR_000
+DLG_ASS_CR_001 = "Moeten de maten gearrangeerd worden ?"
+
+*****************************
+* LET RING ASSISTANT WINDOW *
+*****************************
+
+DLG_ASS_LR_000
+DLG_ASS_LR_001 = "Ring Selector"
+DLG_ASS_LR_002 = "M.b.v. deze assistent kunt u in een keer de Ring -Opties voor een groep noten toepassen."
+DLG_ASS_LR_003 = "Maat:"
+DLG_ASS_LR_004 = "tot"
+DLG_ASS_LR_005 = "Snaren:"
+DLG_ASS_LR_006 = "Ring"-Optie:"
+DLG_ASS_LR_007 = "Ja"
+DLG_ASS_LR_008 = "Nee"
+DLG_ASS_LR_009 = "Geen snaar geselecteerd."
+
+******************************
+* FINGERING ASSISTANT WINDOW *
+******************************
+
+DLG_ASS_FG_000
+DLG_ASS_FG_001 = "Automatische Positionering"
+DLG_ASS_FG_002 = "Maten:"
+DLG_ASS_FG_003 = "tot"
+
+******************************
+* TRANSPOSE ASSISTANT WINDOW *
+******************************
+
+DLG_ASS_TR_000
+DLG_ASS_TR_001 = "Transponeer"
+DLG_ASS_TR_002 = "Transponeren:"
+DLG_ASS_TR_003 = "halve tonen"
+
+***********************************
+* CHECK DURATION ASSISTANT WINDOW *
+***********************************
+
+DLG_ASS_CD_000
+DLG_ASS_CD_001 = "Controle compleet."
+DLG_ASS_CD_002 = "Onjuiste maat-lengte van maat %s - spoor %s."
+
+**********************************
+* SPEED TRAINER ASSISTANT WINDOW *
+**********************************
+
+DLG_ASS_ST_000
+DLG_ASS_ST_001 = "Snelheids Trainer"
+DLG_ASS_ST_002 = "Maten:"
+DLG_ASS_ST_003 = "Tempo:"
+DLG_ASS_ST_004 = "tot"
+DLG_ASS_ST_005 = "Versnellingsstappen:"
+
+**************
+* CUT WINDOW *
+**************
+
+DLG_CUT_000
+DLG_CUT_001 = "Knippen"
+DLG_CUT_002 = "Maten:"
+DLG_CUT_003 = "tot"
+DLG_CUT_004 = "Deze functie knipt de maten van alle sporen. "
+DLG_CUT_005 = "Om een maat uit een enkel spoor te knippen, gebruik Knippen/Plakken."
+
+**********************
+* COPY/CLEAR WINDOWS *
+**********************
+
+DLG_COPY_000
+DLG_COPY_001 = "Kopieer"
+DLG_COPY_002 = "Wissen"
+DLG_COPY_003 = "Maten:"
+DLG_COPY_004 = "tot"
+DLG_COPY_005 = "Alle sporen"
+DLG_COPY_006 = "Aleen het huidige spoor"
+
+*****************
+* PASTE WINDOWS *
+*****************
+
+DLG_PASTE_000
+DLG_PASTE_001 = "Plakken"
+DLG_PASTE_002 = "Bevestig plakken van %s ma(a)t(en)naar huidige spoor?"
+DLG_PASTE_003 = "Bevestig plakken van %s ma(a)t(en) naar alle sporen ?"
+DLG_PASTE_004 = "Inhoud klembord in de selectie plaatsen"
+DLG_PASTE_005 = "Voeg inhoud klembord in voor de selectie"
+DLG_PASTE_006 = "Voeg inhoud klembord toe aan het einde van de partituur"
+DLG_PASTE_007 = "Aantal keren plakken"
+DLG_PASTE_008 = "Plakken van percussiedata op sporen 1-7 is niet toegestaan."
+DLG_PASTE_009 = "Plakken van spoor 1-7 data in het percussiespoor is niet toegestaan."
+DLG_PASTE_010 = "Plakken niet mogelijk: het aantal snaren verschilt van het originele spoor."
+
+******************
+* DYNAMIC WINDOW *
+******************
+
+DLG_DYNA_000
+DLG_DYNA_001 = "Dynamiek"
+DLG_DYNA_002 = "Stel af als standaard"
+DLG_DYNA_003 = "Stel de huidige dynamiek af als de standaard dynamiek voor nieuwe noten"
+DLG_DYNA_004 = "Pas toe op het akkoord"
+DLG_DYNA_005 = "Pas de dynamiek toe op het gehele akkoord"
+
+*********************
+* GRACE NOTE WINDOW *
+*********************
+
+DLG_GRACE_000
+DLG_GRACE_001 = "Versieringstonen"
+DLG_GRACE_002 = "Noot"
+DLG_GRACE_003 = "Duur"
+DLG_GRACE_004 = "Dynamiek"
+DLG_GRACE_005 = "Dode noot: X"
+DLG_GRACE_006 = "Fret:"
+
+****************
+* INTRO WINDOW *
+****************
+
+DLG_INTRO_000
+DLG_INTRO_001 = "U gebruikt een Demoversie van Guitar Pro met een gebruikslimiet van %s dagen."
+DLG_INTRO_002 = "Na die tijd moet u registreren om Guitar Pro te kunnen blijven gebruiken."
+DLG_INTRO_003 = "Bestel Guitar Pro !"
+DLG_INTRO_004 = "IK probeer eerst..."
+DLG_INTRO_005 = "De beperkingen van de Demoversie zijn:"
+DLG_INTRO_006 = "- Opslaan tot maximaal 24 maten"
+DLG_INTRO_007 = "- Afdrukken uitgeschakeld"
+DLG_INTRO_008 = "- MIDI en ASCII importeren beperkt to 50 noten"
+
+******************
+* LICENSE WINDOW *
+******************
+
+DLG_LIC_000
+DLG_LIC_001 = "Licentie"
+DLG_LIC_002 = "Hallo en op de eerste plaats bedankt voor uw keuze voor Guitar Pro."
+DLG_LIC_003 = "We hopen dat u volledig tevreden zult zijn bij het gebruik ervan."
+DLG_LIC_004 = "Om de software te kunnen gebruiken, moet u USER ID en KEY ID informatie invoeren."
+DLG_LIC_005 = "Deze informatie vindt u op de verpakking."
+DLG_LIC_006 = "U gebruikt nu een TIJDELIJKE licentie. Voer in uw definitieve USER ID en KEY ID zodra u deze.ontvangen heeft"
+
+************************
+* PRINT PREVIEW WINDOW *
+************************
+
+DLG_PRW_000
+DLG_PRW_001 = "Afdrukvoorbeeld"
+DLG_PRW_002 = "Afdrukken"
+DLG_PRW_003 = "Voorkeuren."
+
+****************
+* PRINT WINDOW *
+****************
+
+DLG_PRT_000
+DLG_PRT_001 = "Afdrukken"
+DLG_PRT_002 = "Printer:"
+DLG_PRT_003 = "Alles"
+DLG_PRT_004 = "Bladzijde:"
+DLG_PRT_005 = "tot"
+DLG_PRT_006 = "Instellen."
+
+****************
+* CHORD WINDOW *
+****************
+
+DLG_CHORD_000
+DLG_CHORD_001 = "Akkoord"
+DLG_CHORD_002 = "Simpel"
+DLG_CHORD_003 = "Medium"
+DLG_CHORD_004 = "Alles"
+DLG_CHORD_005 = "Omkering"
+DLG_CHORD_006 = "Bas"
+DLG_CHORD_007 = "Kies weglating a.u.b."
+DLG_CHORD_008 = "Andere namen"
+DLG_CHORD_009 = "Gebruikt"
+DLG_CHORD_010 = "Bovenaan"
+DLG_CHORD_011 = "Bibliotheek"
+DLG_CHORD_012 = "Gebruik diagram"
+DLG_CHORD_013 = "Toevoegen"
+DLG_CHORD_014 = "Verwijderen"
+DLG_CHORD_015 = "Vervangen"
+DLG_CHORD_016 = "Verplaats omhoog"
+DLG_CHORD_017 = "Verplaats omlaag"
+DLG_CHORD_018 = "Luister"
+DLG_CHORD_019 = "Gebruiker"
+DLG_CHORD_020 = "Geef dit akkoord eerst een naam a.u.b."
+DLG_CHORD_021 = "Selekteer eerst het te verwijderen akkoord a.u.b."
+DLG_CHORD_022 = "Bevestig het verwijderen van akkoord %s ?"
+DLG_CHORD_023 = "Selekteer eerst het te vernieuwen akkoord a.u.b."
+DLG_CHORD_024 = "Selekteer eerst het te verplaatsen akkoord a.u.b."
+
+***************
+* TEXT WINDOW *
+***************
+
+DLG_TXT_000
+DLG_TXT_001 = "Tekst"
+DLG_TXT_002 = "Tekst"
+
+********************
+* GO TO BAR WINDOW *
+********************
+
+DLG_GOTOB_000
+DLG_GOTOB_001 = "Ga naar maat..."
+DLG_GOTOB_002 = "Maat"
+
+***************
+* BEND WINDOW *
+***************
+
+DLG_BEND_000
+DLG_BEND_001 = "Druk op"
+DLG_BEND_002 = "Druk op & Laat los"
+DLG_BEND_003 = "Waarde"
+
+*********************
+* STROKE VIB WINDOW *
+*********************
+
+DLG_STROKV_000
+DLG_STROKV_001 = "Snelheid van het vibrato"
+DLG_STROKV_002 = "Waarde"
+
+**********************
+* INSTRUMENTS WINDOW *
+**********************
+
+DLG_INSTR_000
+DLG_INSTR_001 = "Instrument"
+
+*************************
+* TIME SIGNATURE WINDOW *
+*************************
+
+DLG_TIMES_000
+DLG_TIMES_001 = "Maatsoorten"
+DLG_TIMES_002 = "Voor alle maten"
+
+*********************
+* REPEAT END WINDOW *
+*********************
+
+DLG_REPE_000
+DLG_REPE_001 = "Herhalen sluiten"
+DLG_REPE_002 = "Aantal herhalingen"
+
+****************************
+* ALTERNATE ENDINGS WINDOW *
+****************************
+
+DLG_DIFE_000
+DLG_DIFE_001 = "Alternatieve Einden"
+DLG_DIFE_002 = "tot"
+
+*********
+* FILES *
+*********
+
+FILES_000
+FILES_001 = "Bewaar de verandering op %s ?"
+FILES_002 = "Bestand %s kan niet worden gevonden."
+FILES_003 = "Bestand %s bestaat reeds."
+FILES_004 = "Wilt u het vervangen ?"
+FILES_005 = "<geen naam>" { name for a new file }
+FILES_006 = "Toegang geweigerd. Laden afgebroken."
+FILES_007 = "Onbekend bestand. Laden afgebroken."
+FILES_008 = "Om dit bestand te kunnen openen moet u uw Guitar Pro software updaten."
+FILES_009 = "MIDI Fout"
+FILES_010 = "MIDI formaat niet herkend."
+FILES_011 = "Guitar Pro bestanden"
+FILES_012 = "MIDI bestanden"
+FILES_013 = "ASCII Tab bestanden"
+FILES_014 = "Alle bestanden"
+FILES_015 = "MIDI importeren"
+FILES_016 = "MIDI exporteren"
+FILES_017 = "ASCII Tab importeren"
+FILES_018 = "ASCII Tab exporteren"
+
+****************
+* ORDER WINDOW *
+****************
+
+DLG_REG_000
+DLG_REG_001 = "Guitar Pro bevalt u en u wilt de compleet werkende versie?"
+DLG_REG_002 = "Wacht dan niet langer en bestel en ontvang uw complete versie binnen 1 uur !"
+DLG_REG_003 = "De volledige versie kent geen beperkingen en registratie levert u nog veel meer voordelen op zoals:"
+DLG_REG_004 = "Toegang tot onze technische hulp dienst"
+DLG_REG_005 = "Ontvangen van gratis upgrades naar 4.x versies"
+DLG_REG_006 = "Ontvangen van een speciale aanbieding om te upgraden naar 5.x versies"
+DLG_REG_007 = "Bezoek onze website voor prijsinformatie, betalingsmethoden en wederverkopers:"
+
+*****************************
+* REGISTER YOUR COPY WINDOW *
+*****************************
+
+DLG_REGC_000
+DLG_REGC_001 = "Registreer uw kopie"
+DLG_REGC_002 = "Wij raden u aan om uw kopie van Guitar Pro te registreren."
+DLG_REGC_003 = "Het kost slechts enkele minuten en geeft u een aantal belangrijke voordelen:"
+DLG_REGC_004 = "Toegang tot onze technische hulp dienst"
+DLG_REGC_005 = "Ontvangen van gratis upgrades naar 4.x versies"
+DLG_REGC_006 = "Ontvangen van een speciale aanbieding om te upgraden naar 5.x versies"
+DLG_REGC_007 = "Belangrijk: Bij het kwijt raken van uw installatie bestand of licentie is het alleen mogelijk om een nieuwe te ontvangen als u de software bij ons hebt aangemeld."
+DLG_REGC_008 = "Online registratie via onze site"
+DLG_REGC_009 = "Mail of fax registratie"
+DLG_REGC_010 = "Tel:"
+DLG_REGC_011 = "Fax:"
+DLG_REGC_012 = "Toon dit Scherm bij het Opstarten"
+
+********************
+* ORDER PAPER FORM *
+********************
+
+DLG_REGPF_000
+DLG_REGPF_001 = "GUITAR PRO BESTELFORMULIER (MET CHECK OF EUROCHECK IN EURO)"
+DLG_REGPF_002 = "Vult u a.u.b. alle velden van het formulier in [ ] ,"
+DLG_REGPF_003 = "Druk het af en mail het naar:"
+DLG_REGPF_004 = "met uw betaling d.m.v. check or Eurocheck in EURO"
+DLG_REGPF_005 = "tot %s."
+DLG_REGPF_006 = "BESTEL"
+DLG_REGPF_007 = "Guitar Pro %s via e-mail (update)"
+DLG_REGPF_008 = "Guitar Pro %s via e-mail"
+DLG_REGPF_009 = "Guitar Pro %s on CDROM + verzending"
+DLG_REGPF_010 = "Aarzel niet contact met ons op te nemen voor vragen"
+DLG_REGPF_011 = "UW GEGEVENS"
+DLG_REGPF_012 = "Datum:"
+DLG_REGPF_013 = "Voornaam:"
+DLG_REGPF_014 = "ACHTERNAAM:"
+DLG_REGPF_015 = "USER ID:"
+DLG_REGPF_016 = "KEY ID:"
+DLG_REGPF_017 = "Adres:"
+DLG_REGPF_018 = "Postcode:"
+DLG_REGPF_019 = "Woonplaats:"
+DLG_REGPF_020 = "Provincie:"
+DLG_REGPF_021 = "Stad:"
+DLG_REGPF_022 = "Tel:"
+DLG_REGPF_023 = "Fax:"
+DLG_REGPF_024 = "E-mail:"
+DLG_REGPF_025 = "Opmerkingen:"
+DLG_REGPF_026 = "(noodzakelijk als u de CD-ROM niet bestelt)"
+DLG_REGPF_027 = "U ontvangt uw software binnen 24 uur via e-mail en 15 dagen voor de CD-ROM"
+DLG_REGPF_028 = "(als u een update bestelt)"
+
+*********************************
+* REGISTER YOUR COPY PAPER FORM *
+*********************************
+
+DLG_REGCPF_000
+DLG_REGCPF_001 = "REGISTRATIE - GUITAR PRO SOFTWARE"
+DLG_REGCPF_002 = "Vult u a.u.b. alle velden [ ] van dit formulier volledig in,"
+DLG_REGCPF_003 = "print het, en mail het of fax het naar:"
+DLG_REGCPF_004 = "vanuit Frankrijk"  { voor het fax nummer }
+DLG_REGCPF_005 = "vanuit een ander land"  { voor het fax nummer }
+DLG_REGCPF_006 = "UW GEGEVENS"
+DLG_REGCPF_007 = "Datum:"
+DLG_REGCPF_008 = "Versie:"
+DLG_REGCPF_009 = "Voornaam:"
+DLG_REGCPF_010 = "ACHTERNAAM:"
+DLG_REGCPF_011 = "Adres:"
+DLG_REGCPF_012 = "Postcode:"
+DLG_REGCPF_013 = "Woonplaats:"
+DLG_REGCPF_014 = "Provincie:"
+DLG_REGCPF_015 = "Land:"
+DLG_REGCPF_016 = "Tel:"
+DLG_REGCPF_017 = "Fax:"
+DLG_REGCPF_018 = "E-mail:"
+DLG_REGCPF_019 = "(kijk op het softwarepakket)"
+DLG_REGCPF_020 = "FACULTATIEVE VRAGEN (in Engels of Frans beantwoorden a.u.b.)"
+DLG_REGCPF_021 = "Waar kent u Guitar Pro van ?"
+DLG_REGCPF_022 = "Hoe lang hebt u Guitar Pro getest voor u besloot tot aanschaf ?"
+DLG_REGCPF_023 = "Waar gebruikt u Guitar Pro voor (notatie, training, etc...) ?"
+DLG_REGCPF_024 = "In welke winkel of via welke internet site kocht u Guitar Pro ?"
+DLG_REGCPF_025 = "Opmerkingen, suggesties, ..."
+
+********************
+* v3.0 BEND WINDOW *
+********************
+
+DLG300_BEND_000
+DLG300_BEND_001 = "Buig Technieken"
+DLG300_BEND_002 = "Afspelen"
+DLG300_BEND_003 = "Kies Buig Techniek:"
+DLG300_BEND_004 = "L.Muis= toevoegen of verwijderen punten, R.Muis= vibratos:"
+DLG300_BEND_005 = "Nootduur = "
+DLG300_BEND_006 = "Het effect kan niet worden gespeeld, omdat u in Midi Instellingen het buig-effect tot een toon hebt beperkt (menu Options|Midi Instellingen)."
+DLG300_BEND_007 = "Deze optie is nodig voor eenvoudige geluidskaarten."
+
+**************************
+* v3.0 GRACE NOTE WINDOW *
+**************************
+
+DLG300_GRACE_000
+DLG300_GRACE_001 = "Overgang"
+DLG300_GRACE_002 = "Geen"
+DLG300_GRACE_003 = "Glij"
+DLG300_GRACE_004 = "Buig"
+DLG300_GRACE_005 = "Hamer"
+
+***********************
+* v3.0 MARKERS WINDOW *
+***********************
+
+DLG300_MARKERS_000
+DLG300_MARKERS_001 = "Markerings Lijst"
+DLG300_MARKERS_002 = "Positie"
+DLG300_MARKERS_003 = "Naam"
+DLG300_MARKERS_004 = "Toevoegen"
+DLG300_MARKERS_005 = "Bewerken"
+DLG300_MARKERS_006 = "Verwijderen"
+DLG300_MARKERS_007 = "Bevestigen"
+DLG300_MARKERS_008 = "Markeringen %s verwijderen ?"
+DLG300_MARKERS_009 = "Voeg markering in"
+DLG300_MARKERS_010 = "Bewerk een markering"
+DLG300_MARKERS_011 = "Maat:"
+DLG300_MARKERS_012 = "Kleur:"
+DLG300_MARKERS_013 = "Naam:"
+DLG300_MARKERS_014 = "Gedeelte"
+
+********************************
+* v3.0 MIDI IMPORTATION WINDOW *
+********************************
+
+DLG300_IMPM_000
+DLG300_IMPM_001 = "MIDI Importeren"
+DLG300_IMPM_002 = "MIDI sporen:"
+DLG300_IMPM_003 = "Akkoordpositie quantiseren op:"
+DLG300_IMPM_004 = "Nootduur quantiseren op:"
+DLG300_IMPM_005 = "Transponeer een octaaf lager"
+DLG300_IMPM_006 = "Snel importeren"
+DLG300_IMPM_007 = "In deze modus worden de geslecteerde sporen in een nieuw bestand geimporteerd."
+DLG300_IMPM_008 = "Automatische stemming aan de hand van naam van het spoor."
+DLG300_IMPM_009 = "Gebruik 2 kanalen per spoor"
+DLG300_IMPM_010 = "Importeren !"
+DLG300_IMPM_011 = "Stapsgewijs importeren"
+DLG300_IMPM_012 = "Deze modus geeft u meer controle bij het importeren en maakt het mogelijk sporen samen te voegen."
+DLG300_IMPM_013 = "Importeer titel en maatsoortveranderingen."
+DLG300_IMPM_014 = "Voeg een nieuw spoor toe in Guitar Pro..."
+DLG300_IMPM_015 = "Geselecteerd(e) spoor/sporen importeren in het huidige spoor in Guitar Pro."
+DLG300_IMPM_016 = "Demoversie van Guitar Pro is beperkt tot 50 noten importeren."
+DLG300_IMPM_017 = "Als Guitar Pro u bevalt, registeer dan alstublieft."
+DLG300_IMPM_018 = "Venster tonen"
+DLG300_IMPM_019 = "Venster verbergen"
+DLG300_IMPM_020 = "MIDI formaat %s wordt niet ondersteund. Gebruik MIDI formaat 0 or 1."
+DLG300_IMPM_021 = "Selecteer minstens een MIDI spoor."
+DLG300_IMPM_022 = "Selecteer alle sporen"
+DLG300_IMPM_023 = "Geen enkel spoor selecteren"
+DLG300_IMPM_024 = "Speel de geselecteerde sporen"
+DLG300_IMPM_025 = "Stop"
+DLG300_IMPM_026 = "Open een ander bestand"
+
+**************************
+* v3.0 MIDI SETUP WINDOW *
+**************************
+
+DLG300_MIDISETUP_000
+DLG300_MIDISETUP_001 = "MIDI Instelligen"
+DLG300_MIDISETUP_002 = "MIDI Uitgangen"
+DLG300_MIDISETUP_003 = "Poort"
+DLG300_MIDISETUP_004 = "Apparaat"
+DLG300_MIDISETUP_005 = "Instrumentenpaneel"
+DLG300_MIDISETUP_006 = "Beperk toonhoogtevariatie"
+DLG300_MIDISETUP_007 = "Een sample met deze output afspelen"
+DLG300_MIDISETUP_008 = "Gebruik de optie 'Beperk toonhoogtevariatie' als het opdrukken- of Glij effect niet goed klinkt."
+DLG300_MIDISETUP_009 = "Eenvoudige geluidskaarten ondersteunen tooonhoogtevariaties van meer dan 1 toon niet."
+DLG300_MIDISETUP_010 = "Een apparaat kan helaas niet aan meerdere poorten worden toegewezen."
+
+**************************
+* v3.0 SCORE INFO WINDOW *
+**************************
+
+DLG300_SCORE_INFO_000
+DLG300_SCORE_INFO_001 = "Partituur informatie"
+DLG300_SCORE_INFO_002 = "Standaard informatie"
+DLG300_SCORE_INFO_003 = "Titel"
+DLG300_SCORE_INFO_004 = "Ondertitel"
+DLG300_SCORE_INFO_005 = "Uitvoerder"
+DLG300_SCORE_INFO_006 = "Album"
+DLG300_SCORE_INFO_007 = "Tekstschrijver"
+DLG300_SCORE_INFO_008 = "Auteursrecht"
+DLG300_SCORE_INFO_009 = "Tab"
+DLG300_SCORE_INFO_010 = "Aanwijzingen"
+DLG300_SCORE_INFO_011 = "Commentaar"
+DLG300_SCORE_INFO_012 = "Triool Stemming:"
+DLG300_SCORE_INFO_013 = "Geef hier de informatie aan, die u in elke partituur standaard wilt opnemen:"
+
+**************************
+* v3.0 TRACK INFO WINDOW *
+**************************
+
+DLG300_TRACK_INFO_000
+DLG300_TRACK_INFO_001 = "Voeg een spoor toe"
+DLG300_TRACK_INFO_002 = "Type"
+DLG300_TRACK_INFO_003 = "Instrument"
+DLG300_TRACK_INFO_004 = "Positie"
+DLG300_TRACK_INFO_005 = "Eerste spoor"
+DLG300_TRACK_INFO_006 = "Laaste spoor"
+DLG300_TRACK_INFO_007 = "Ervoor"
+DLG300_TRACK_INFO_008 = "Erna"
+DLG300_TRACK_INFO_009 = "Eigenschappen van het spoor"
+DLG300_TRACK_INFO_010 = "Kleur"
+DLG300_TRACK_INFO_011 = "Ingave vijfde banjosnaar"
+DLG300_TRACK_INFO_012 = "Wilt u het spoor in de nieuwe stemming tansponeren ?"
+
+***************************
+* v3.0 PREFERENCES WINDOW *
+***************************
+
+DLG300_PREF_000
+DLG300_PREF_001 = "Note Played Following"
+DLG300_PREF_002 = "Rectangle around the Bar"
+DLG300_PREF_003 = "Triangle under the Note"
+DLG300_PREF_004 = "Note highlighting"
+
+*********************************
+* v3.0 ASCII IMPORTATION WINDOW *
+*********************************
+
+DLG300_IMPA_000
+DLG300_IMPA_001 = "Het aantal snaren is anders dan in het huidige spoor."
+DLG300_IMPA_002 = "Past u a.u.b. het aanal snaren in het huidige spoor eerst aan."
+
+****************
+* v3.0 GENERAL *
+****************
+
+GENE300_000
+GENE300_001 = "Maximum aantal ondersteunde sporen:"
+GENE300_002 = "Bevestig wissen van spoor %s ?"
+GENE300_003 = "In de demoversie wordt de partituur niet afgedrukt."
+GENE300_004 = "geen" { for the MIDI ports }
+GENE300_005 = "Kan MIDI-poort [%s] niet openen."
+GENE300_006 = "Sluit alle andere MIDI-software of stel MIDI-setup bij."
+GENE300_007 = "Geen patch geselecteerd" { instrument patch }
+GENE300_008 = "Patch niet gevonden" { instrument patch }
+GENE300_009 = "Speel vanaf %s"
+GENE300_010 = "Tot %s"
+GENE300_011 = "Drum Kit"
+GENE300_012 = "Alleen drumsporen."
+GENE300_013 = "Verbind met %s"
+GENE300_014 = "Gereserveerd door %s"
+GENE300_015 = "vrij"
+GENE300_016 = "De demoversie kan geen bewerkte bestanden in GP 2.2 formaat exporteren."
+GENE300_017 = "U moet een bestand openen en deze functie direct gebruiken."
+GENE300_018 = "Guitar Pro 2.2 bestanden"
+
+******************
+* v3.0 MIX TABLE *
+******************
+
+MIXT300_000
+MIXT300_001 = "Alles verkleinen"
+MIXT300_002 = "Alles vergroten"
+MIXT300_003 = "Solo"
+MIXT300_004 = "S" {abreviation of "Solo"}
+MIXT300_005 = "Mute"
+MIXT300_006 = "M" {abreviation of "Mute"}
+MIXT300_007 = "Naam" {of the track}
+MIXT300_008 = "Poort"
+MIXT300_009 = "Port" {abreviation of "Port"}
+MIXT300_010 = "MIDI-Poort keuze"
+MIXT300_011 = "Hoofdkanaal"
+MIXT300_012 = "Ch" {abreviation of "Main Channel"}
+MIXT300_013 = "Hoofdkanaal keuze"
+MIXT300_014 = "Effects Channel"
+MIXT300_015 = "Ch2" {abreviation of "Effects Channel"}
+MIXT300_016 = "Effectkanaal keuze"
+MIXT300_017 = "Instrument"
+MIXT300_018 = "Volume"
+MIXT300_019 = "Pan"
+MIXT300_020 = "Chorus"
+MIXT300_021 = "Galm"
+MIXT300_022 = "Phaser"
+MIXT300_023 = "Tremolo"
+MIXT300_024 = "Incomplete Patch"
+MIXT300_025 = "Geen Patch geselecteerd"
+MIXT300_026 = "Drum Kit"
+
+*********************************
+* v3.0 DYNAMIC ASSISTANT WINDOW *
+*********************************
+
+DLG300_ASS_DY_000
+DLG300_ASS_DY_001 = "Dynamiek Selector"
+DLG300_ASS_DY_002 = "M.b.v. deze assistent kunt u in een keer de dynamiekwaarde van een groep noten veranderen."
+DLG300_ASS_DY_003 = "Maat:"
+DLG300_ASS_DY_004 = "tot"
+DLG300_ASS_DY_005 = "Snaren:"
+DLG300_ASS_DY_006 = "Dynamische waarde:"
+DLG300_ASS_DY_007 = "Geen snaar geselecteerd."
+
+**********************
+* v3.0 MENUS & HINTS *
+**********************
+
+MN300_000
+MN300_001 = "Partituur informatie"
+MN300_002 = "Eerste" {for the track}
+MN300_003 = "Vorige" {for the track}
+MN300_004 = "Volgende" {for the track}
+MN300_005 = "Laatste" {for the track}
+MN300_006 = "Vorige spoor"
+MN300_007 = "Volgende spoor"
+MN300_008 = "Eigenschappen" {for the track}
+MN300_009 = "Eigenschappen van het spoor"
+MN300_010 = "Toevoegen" {for a track}
+MN300_011 = "Voeg een spoor toe"
+MN300_012 = "Wissen" {for the track}
+MN300_013 = "Eerste" {for the bar}
+MN300_014 = "Vorige" {for the bar}
+MN300_015 = "Volgende" {for the bar}
+MN300_016 = "Laatste" {for the bar}
+MN300_017 = "Verbind tel"
+MN300_018 = "Verbind noot"
+MN300_019 = "Telduur"
+MN300_020 = "Nootduur"
+MN300_021 = "-geen-" {means "no" triolet, -3-, -5-, ...}
+MN300_022 = "n-tuplet"
+MN300_023 = "tel" {n-tuplet on the beat}
+MN300_024 = "geen" {n-tuplet on the note}
+MN300_025 = "Buig Technieken" {includes all "Bend" type effects}
+MN300_026 = "Markeringen"
+MN300_027 = "Voeg een markering in"
+MN300_028 = "Invoegen"
+MN300_029 = "Markeringen-lijst"
+MN300_030 = "Lijst"
+MN300_031 = "Ga naar de vorige markering"
+MN300_032 = "Vorige"
+MN300_033 = "Ga naar de markering"
+MN300_034 = "Ga naar"
+MN300_035 = "Ga naar de volgende markering"
+MN300_036 = "Volgende"
+MN300_037 = "geeen markering aangegeven"
+MN300_038 = "Speel vanaf de markering"
+MN300_039 = "Speel vanaf de huidige positie (Spatiebalk)"
+MN300_040 = "Gereedschappen"
+MN300_041 = "Aftellen"
+MN300_042 = "De coefficienten toepassen op het tempo"
+MN300_043 = "Meersporen Venster"
+MN300_044 = "Vertikaal scrollen"
+MN300_045 = "Horizontaal scrollen"
+MN300_046 = "Gelijke maatafstand in de te bewerken maat"
+MN300_047 = "Venster Wisselen"
+MN300_048 = "Werkbalken"
+MN300_049 = "Standaard" {name of the toolbar}
+MN300_050 = "Maat" {name of the toolbar}
+MN300_051 = "Markeringen" {name of the toolbar}
+MN300_052 = "Beeld" {name of the toolbar}
+MN300_053 = "Telduur" {name of the toolbar}
+MN300_054 = "Nootduur" {name of the toolbar}
+MN300_055 = "Afspelen" {name of the toolbar}
+MN300_056 = "Tempo" {name of the toolbar}
+MN300_057 = "Effecten" {name of the toolbar}
+MN300_058 = "Dynamiek" {name of the toolbar}
+MN300_059 = "Alles" {afficher toutes les barres d'outils}
+MN300_060 = "Niets" {n'afficher aucune barre d'outil}
+MN300_061 = "Beginpositie" {des barres d'outil}
+MN300_062 = "MIDI Instellingen"
+MN300_063 = "Huidige maat zichtbaar houden tijdens afspelen"
+MN300_064 = "Guitar Pro 2.2 formaat"
+MN300_065 = "Opties"
+MN300_066 = "Hameren/ Plukken"
+MN300_067 = "Glij"
+MN300_068 = "Tempo"
+MN300_069 = "Dynamiek Selector"
+MN300_070 = "Ga naar het begin"
+MN300_071 = "Ga naar het einde"
+MN300_072 = "Snel terug"
+MN300_073 = "Snel vooruit"
+MN300_074 = "Stap terug"
+MN300_075 = "Stap vooruit"
+
+******************
+* v3.0 GP ONLINE *
+******************
+
+DLG300_GPONLINE_000
+DLG300_GPONLINE_001 = "GP Online"
+DLG300_GPONLINE_002 = "GP Online Herinnering:"
+DLG300_GPONLINE_003 = "Nooit"
+DLG300_GPONLINE_004 = "2 weken"
+DLG300_GPONLINE_005 = "1 maand"
+DLG300_GPONLINE_006 = "3 maanden"
+DLG300_GPONLINE_007 = "6 maanden"
+DLG300_GPONLINE_008 = "Sta snelle controle voor nieuwe versies toe bij het opstarten als de Internet verbinding is gededecteerd"
+DLG300_GPONLINE_009 = "Een nieuwe versie van Guitar Pro is beschikbaar op het Web!"
+DLG300_GPONLINE_010 = "Wilt u GP Online starten?"
+DLG300_GPONLINE_011 = "Let op: Om deze verificatie ongedaan te maken, start GP Online of ga naar het [Options|Preferences] menu."
+DLG300_GPONLINE_012 = "U hebt GP online voor %s dagen niet gebruikt."
+DLG300_GPONLINE_013 = "Let op: Om de.GP Online herinnering ongedaan te maken ga naar het [Opties|Voorkeuren] menu."
+
+***********************************
+* v4.0 PALM MUTE ASSISTANT WINDOW *
+***********************************
+ 
+DLG400_ASS_PM_000
+DLG400_ASS_PM_001 = "Palm Dempen Opties"
+DLG400_ASS_PM_002 = "M.b.v. deze assistent kunt u in een keer de Palm Dempen opties voor een groep noten veranderen."
+DLG400_ASS_PM_003 = "Maat:"
+DLG400_ASS_PM_004 = "tot"
+DLG400_ASS_PM_005 = "Snaren:"
+DLG400_ASS_PM_006 = "Palm Dempen Optie:"
+DLG400_ASS_PM_007 = "Ja"
+DLG400_ASS_PM_008 = "Nee"
+DLG400_ASS_PM_009 = "Snaar niet geselecteerd."
+ 
+*****************************
+* v4.0 PERCUSSION ASSISTANT *
+*****************************
+ 
+DLG400_ASS_PERCU_000
+DLG400_ASS_PERCU_001 = "Gebruik electrische geluiden indien beschikbaar"
+ 
+*******************************
+* v4.0 MIX TABLE EVENT WINDOW *
+*******************************
+ 
+DLG400_MIX_000
+DLG400_MIX_001 = "Alle sporen"
+ 
+*********************
+* v4.0 CHORD WINDOW *
+*********************
+ 
+DLG400_CHORD_000
+DLG400_CHORD_001 = "Vingerzetting"
+ 
+*********************
+* v4.0 BRUSH WINDOW *
+*********************
+ 
+DLG400_BRUSH_000
+DLG400_BRUSH_001 = "Rasgueado"
+ 
+**************************
+* v4.0 TREMOLOBAR WINDOW *
+**************************
+ 
+DLG400_TREMOLOBAR_000
+DLG400_TREMOLOBAR_001 = "Tremolo Vormen"
+DLG400_TREMOLOBAR_002 = "Selecteer een Vorm:";
+ 
+*********************
+* v4.0 TRILL WINDOW *
+*********************
+ 
+DLG400_TRILL_000
+DLG400_TRILL_001 = "Trill"
+DLG400_TRILL_002 = "Trill Note"
+DLG400_TRILL_003 = "Tijdvak"
+DLG400_TRILL_004 = "Fret:"
+ 
+*******************************
+* v4.0 BMP EXPORTATION WINDOW *
+*******************************
+ 
+DLG400_EXPBMP_000
+DLG400_EXPBMP_001 = "BMP Export"
+DLG400_EXPBMP_002 = "Exporteren"
+DLG400_EXPBMP_003 = "Bitmap Bestanden"
+ 
+*******************************
+* v4.0 BMP EXPORTATION WINDOW *
+*******************************
+ 
+DLG400_EXPWAV_000
+DLG400_EXPWAV_001 = "WAVE Export"
+DLG400_EXPWAV_002 = "Exporteren"
+DLG400_EXPWAV_003 = "Kwaliteit:"
+DLG400_EXPWAV_004 = "WAVE Bestanden"
+ 
+*************************
+* v4.0 FRETBOARD WINDOW *
+*************************
+ 
+DLG400_FRETBOARD_000
+DLG400_FRETBOARD_001 = "Selecteer Weergave modus"
+DLG400_FRETBOARD_002 = "[Slag]"
+DLG400_FRETBOARD_003 = "[Slag] + [Maat]"
+DLG400_FRETBOARD_004 = "[Slag] + [Diagram]"
+DLG400_FRETBOARD_005 = "[Slag] + [Volgende Positie]"
+DLG400_FRETBOARD_006 = "[Slag] + [Toonladder]"
+DLG400_FRETBOARD_007 = "[Noot Naam]"
+DLG400_FRETBOARD_008 = "[Interval]"
+DLG400_FRETBOARD_009 = "[Degre]"
+DLG400_FRETBOARD_010 = "Keuze Noot Weergave"
+DLG400_FRETBOARD_011 = "Geen Noot Naam"
+DLG400_FRETBOARD_012 = "Naam voor [Noot]"
+DLG400_FRETBOARD_013 = "Naam voor [Noot] + [...]"
+DLG400_FRETBOARD_014 = "Achtergrond Gitaar Hals"
+DLG400_FRETBOARD_015 = "Elektrisch"
+DLG400_FRETBOARD_016 = "Akoestisch"
+DLG400_FRETBOARD_017 = "Klassiek"
+DLG400_FRETBOARD_018 = "Basis"
+DLG400_FRETBOARD_019 = "Gitaar Hals Omkeren"
+DLG400_FRETBOARD_020 = "Open Toonladder Gereedschap"
+DLG400_FRETBOARD_021 = "Toonladders"
+DLG400_FRETBOARD_022 = "Ga Links"
+DLG400_FRETBOARD_023 = "Ga Rechts"
+ 
+************************
+* v4.0 KEYBOARD WINDOW *
+************************
+ 
+DLG400_KEYBOARD_000
+DLG400_KEYBOARD_001 = "Selecteer Weergave modus"
+DLG400_KEYBOARD_002 = "[Slag]"
+DLG400_KEYBOARD_003 = "[Slag] + [Maat]"
+DLG400_KEYBOARD_004 = "[Slag] + [Volgende Positie]"
+DLG400_KEYBOARD_005 = "[Slag] + [Toonladder]"
+DLG400_KEYBOARD_006 = "Open Toonladder gereedschap"
+DLG400_KEYBOARD_007 = "Toonladders"
+DLG400_KEYBOARD_008 = "Ga Links"
+DLG400_KEYBOARD_009 = "Ga Rechts"
+ 
+******************************
+* v4.0 KEY SIGNATURE WINDOW *
+******************************
+ 
+DLG400_KEYSIGN_000
+DLG400_KEYSIGN_001 = "Voorteken"
+DLG400_KEYSIGN_002 = "Tot het eind"
+DLG400_KEYSIGN_003 = "Modus"
+DLG400_KEYSIGN_004 = "majeur"
+DLG400_KEYSIGN_005 = "mineur"
+ 
+***************************
+* v4.0 NEW TUNING WINDOW *
+***************************
+ 
+DLG400_NEWTUNE_000
+DLG400_NEWTUNE_001 = "Nieuwe Stemming"
+DLG400_NEWTUNE_002 = "Kies een naam voor deze nieuwe stemming:"
+ 
+**************************
+* v4.0 SCORE INFO WINDOW *
+**************************
+ 
+DLG400_SCORE_INFO_000
+DLG400_SCORE_INFO_001 = "Tekst"
+DLG400_SCORE_INFO_002 = "Van Spoor:"
+DLG400_SCORE_INFO_003 = "Wijziging Partituur, tekst bijwerken door op OK te klikken."
+DLG400_SCORE_INFO_004 = "Regel %s"
+DLG400_SCORE_INFO_005 = "Begin bij Maat:"
+DLG400_SCORE_INFO_006 = "Voor het gebruik van speciale symbolen: -, + and [] Lees Help"
+DLG400_SCORE_INFO_007 = "Knip"
+DLG400_SCORE_INFO_008 = "kopieer"
+DLG400_SCORE_INFO_009 = "Plak"
+ 
+**************************
+* v4.0 TRACK INFO WINDOW *
+**************************
+ 
+DLG400_TRACK_INFO_000
+DLG400_TRACK_INFO_001 = "Deze Stemming toevoegen"
+DLG400_TRACK_INFO_002 = "Deze stemming verwijderen"
+DLG400_TRACK_INFO_003 = "Selecteer eerst de Stemming die u wilt verwijderen."
+DLG400_TRACK_INFO_004 = "Bevestig verwijderen %s?"
+DLG400_TRACK_INFO_005 = "U moet eerst een nieuwe stemming defineren, en dan op het Toevoegen knop klikken om een naam te geven."
+DLG400_TRACK_INFO_006 = "U moet een naam kiezen voor deze stemming."
+DLG400_TRACK_INFO_007 = "Naam is al in gebruik."
+ 
+***************************
+* v4.0 PREFERENCES WINDOW *
+***************************
+ 
+DLG400_PREF_000
+DLG400_PREF_001 = "Automatisch Backup"
+DLG400_PREF_002 = "elke"
+DLG400_PREF_003 = "acties"
+DLG400_PREF_004 = "Tekst:"
+DLG400_PREF_005 = "Annuleren/Herstellen"
+DLG400_PREF_006 = "Uitschakelen (trage computers)"
+ 
+***********************************
+* v4.0 TRANSPOSE ASSISTANT WINDOW *
+***********************************
+ 
+DLG400_ASS_TR_000
+DLG400_ASS_TR_001 = "Transponeer alle Sporen"
+ 
+*********************************
+* v4.0 SEARCH ON THE WEB WINDOW *
+*********************************
+ 
+DLG400_SEARCHONWEB_000
+DLG400_SEARCHONWEB_001 = "Zoeken op het Web"
+DLG400_SEARCHONWEB_002 = "Zoek:"
+DLG400_SEARCHONWEB_003 = "Toets eenvoudige tekst in als 'satriani' of 'elise'"
+DLG400_SEARCHONWEB_004 = "op:"
+DLG400_SEARCHONWEB_005 = "Zoek!"
+DLG400_SEARCHONWEB_006 = "Lokatie zoek lijst bijwerken"
+DLG400_SEARCHONWEB_007 = "%s lokatie(s) gevonden."
+DLG400_SEARCHONWEB_008 = "U moet tekst ingeven om het zoeken te starten."
+DLG400_SEARCHONWEB_009 = "Het is niet mogelijk om een verbindingen te maken met Guitar Pro."
+ 
+***************************
+* v4.0 SCALES TOOL WINDOW *
+***************************
+ 
+DLG400_SCALES_000
+DLG400_SCALES_001 = "Toonladders"
+DLG400_SCALES_002 = "Luisteren"
+DLG400_SCALES_003 = "Toonladder Zoeker"
+DLG400_SCALES_004 = "Ontrek van Maat:"
+DLG400_SCALES_005 = "tot"
+DLG400_SCALES_006 = "Zoek!"
+ 
+**********************
+* v4.0 MENUS & HINTS *
+**********************
+ 
+MN400_000
+MN400_001 = "Eerste Spoor"
+MN400_002 = "Laatste Spoor"
+MN400_003 = "Spoor Verwijderen"
+MN400_004 = "Maat Toevoegen"
+MN400_005 = "Maat Knippen"
+MN400_006 = "Maat kopieren"
+MN400_007 = "Maat Plakken"
+MN400_008 = "Lege Maat"
+MN400_009 = "Voorteken"
+MN400_010 = "Dubbele Streep"
+MN400_011 = "Annuleren"
+MN400_012 = "Herstellen"
+MN400_013 = "Halve Toon omhoog"
+MN400_014 = "Halve Toon omlaag"
+MN400_015 = "Linker Hand Vingerzetting"
+MN400_016 = "Rechter Hand Vingerzetting"
+MN400_017 = "Plectrum Slag Omhoog"
+MN400_018 = "Plectrum Slag Omlaag"
+MN400_019 = "Beklemtoonde Noot"
+MN400_020 = "Flageolettoon"
+MN400_021 = "Natuurlijke Flageolet"
+MN400_022 = "Kunsmatige Flageolet"
+MN400_023 = "Tikken Flageolet"
+MN400_024 = "Hoge Flageolet"
+MN400_025 = "Halve Flageolet"
+MN400_026 = "Buig Technieken"
+MN400_027 = "Tremolo Vormen"
+MN400_028 = "Glij Technieken"
+MN400_029 = "Zijwaarts Glijden"
+MN400_030 = "Legato Glijden"
+MN400_031 = "Glijden naar Toon van Onderen"
+MN400_032 = "Glijden naar Toon van Boven"
+MN400_033 = "Glijden van Toon naar Onderen"
+MN400_034 = "Glijden van Toon naar boven"
+MN400_035 = "Vibrato Akkoord"
+MN400_036 = "Trill"
+MN400_037 = "Tremolo Plukken"
+MN400_038 = "Palm Dempen"
+MN400_039 = "Staccato"
+MN400_040 = "Digitale Gitaar Stemmer"
+MN400_041 = "Toonladders"
+MN400_042 = "Palm Dempen Opties"
+MN400_043 = "Standaard Notatie"
+MN400_044 = "Gitaar Hals"
+MN400_045 = "Toetsenbord"
+MN400_046 = "Menus && Gereedschapsbalken"
+MN400_047 = "Aanpassen"
+MN400_048 = "Gereedschapsbalken opnieuw instellen? Posities"
+MN400_049 = "Oud GP3 Symbolen"
+MN400_050 = "XP Gereedschapsbalk Stijl"
+MN400_051 = "Guitar Pro 3.0 Formaat"
+MN400_052 = "WAVE Bestand (Audio)"
+MN400_053 = "BMP Bestand (Image)"
+MN400_054 = "Menu" {name of the toolbar}
+MN400_055 = "Noot" {name of the toolbar}
+MN400_056 = "Gitaar Hals" {name of the toolbar}
+MN400_057 = "Toetsenbord" {name of the toolbar}
+MN400_058 = "Spoor kiezer" {name of the toolbar}
+MN400_059 = "Status Balk" {name of the toolbar}
+MN400_060 = "Windows Volume Instellingen"
+
+*********************
+* v4.0 INTRO WINDOW *
+*********************
+
+DLG400_INTRO_000
+DLG400_INTRO_001 = "U bent op dag %s1 van %s2 dagen van de evaluatie periode."
+DLG400_INTRO_002 = "Evaluatie periode is beeindigd. Denk na om te registreren."
+ 
+****************
+* v4.0 GENERAL *
+****************
+ 
+GENE400_000
+GENE400_001 = "De demoversie kan geen bewerkte bestanden in GP 3.0 formaat exporteren."
+GENE400_002 = "U moet een bestand openen en deze functie direct gebruiken."
+GENE400_003 = "Guitar Pro 3.0 bestanden"
+GENE400_004 = "Guitar Pro is bij de vorige sessie niet goed afgesloten, of een andere sessie is al gestart."
+GENE400_005 = "Wilt u de vorige backup bestand gebruiken?"
+GENE400_006 = "De demoversie staat niet toe het exporteren naar BMP formaat."
+GENE400_007 = "Herstart Guitar Pro om de gereedshapsbalken terug te zetten op de oorspronkelijke posities?"
+GENE400_008 = "U kunt nu het Afspelen/STOP knop gebruiken om de opname te starten of te beeindigen."
+GENE400_009 = "U moet in vertikaal verrol modus zijn om BMP exporteren te gebruiken."
+GENE400_010 = "In de demo versie zijn de Knip/Kopieer/Plak mogelijkheden beperkt tot de eerste 24 maten."
+GENE400_011 = "Plakbord is leeg."
+GENE400_012 = "Inhoud van het Plakbord is niet verenigbaar met het/de spo(o)r(en)."
+GENE400_013 = "Bestand [%s] is opgenomen."
+GENE400_014 = "Niet mogelijk om map [%s] te creeren. Laden afgebroken."
+GENE400_015 = "Guitar Pro vond een verboden wijziging [Code %s]. Laden afgebroken."
+GENE400_016 = "Lettersoort [%s] waarschijnlijk niet juist geinstalleerd. Wij adviseren u om Guitar Pro opnieuw te installeren."
+
+*********************************
+* v4.0 WAVE EXPORT SETUP WINDOW *
+*********************************
+
+DLG400_WAVEEXPSETUP_000
+DLG400_WAVEEXPSETUP_001 = "WAVE Export Instellingen"
+DLG400_WAVEEXPSETUP_002 = "WAVE Invoer"
+DLG400_WAVEEXPSETUP_003 = "Regel om te gebruiken voor het opnemen van het MIDI uitvoer:"
+DLG400_WAVEEXPSETUP_004 = "Tip: Indien gexporteerde WAVE bestand geen geluid bevat, gebruik een andere regel."
+DLG400_WAVEEXPSETUP_005 = "U moet een regel selecteren."
+
+****************
+* v4.1 MIDI IN *
+****************
+ 
+MI410_000
+MI410_001 = "MIDI Ingang Actief"
+MI410_002 = "Niet mogelijk om MIDI Ingang apparaat te openen. Controleer de configuratie in het Opties menu | MIDI Instellingen."
+MI410_003 = "MIDI Ingang (Noot voor Noot)"
+MI410_004 = "Apparaat"
+MI410_005 = "Gevoeligheid"
+MI410_006 = "ms  (vertragen tot 2 noten)" { "ms" for milliseconds }
+MI410_007 = "Snaar schikking d.m.v. kanaal Detectie"
+MI410_008 = "Eerste kanaal voor de hoogste Snaar"
+MI410_009 = "Eerste kanaal voor de laagste Snaar"
+MI410_010 = "Kanaal niet Detecteren (Automatische Vingerzetting)"
+MI410_011 = "Tips: Voor het vastleggen van de noten van het Midi Apparaat, gebruik het menu [Geluid | MIDI Ingang Actief]."
+
+*********************
+* v5.0 ABOUT WINDOW *
+*********************
+ 
+DLG500_ABOUT_000
+DLG500_ABOUT_001 = "%s en %t zijn gedeponeerde handelsmerken of handelsmerken van %s Frankrijk en/of van andere landen."
+DLG500_ABOUT_002 = "Alle handelsmerken en gedeponeerde handelsmerken zijn het bezit van hun respectievelijke eigenaren en zijn in geen geval geassocieerd of aangesloten bij %s."
+DLG500_ABOUT_003 = "Guitar Pro Team"
+DLG500_ABOUT_004 = "Oorspronkelijke Idee && Software"
+DLG500_ABOUT_005 = "RSE Oorspronkelijke Idee && Geluid Opnames"
+DLG500_ABOUT_006 = "Ontwikkeling"
+DLG500_ABOUT_007 = "Ontwerp"
+DLG500_ABOUT_008 = "Vertaling [%s]"
+DLG500_ABOUT_009 = "Speciale Dank"
+DLG500_ABOUT_010 = "Audio Verwante Technologieen"
+
+*********************************
+* v5.0 DYNAMIC ASSISTANT WINDOW *
+*********************************
+ 
+DLG500_ASS_DY_000
+DLG500_ASS_DY_001 = "Selectie"
+DLG500_ASS_DY_002 = "Stemmen:"
+DLG500_ASS_DY_003 = "Allen"
+DLG500_ASS_DY_004 = "Solo"
+DLG500_ASS_DY_005 = "Bas"
+
+**********************************
+* v5.0 LET RING ASSISTANT WINDOW *
+**********************************
+ 
+DLG500_ASS_LR_000
+DLG500_ASS_LR_001 = "Selectie"
+DLG500_ASS_LR_002 = "Stemmen:"
+DLG500_ASS_LR_003 = "Allen"
+DLG500_ASS_LR_004 = "Solo"
+DLG500_ASS_LR_005 = "Bas"
+
+***********************************
+* v5.0 PALM MUTE ASSISTANT WINDOW *
+***********************************
+ 
+DLG500_ASS_PM_000
+DLG500_ASS_PM_001 = "Selectie"
+DLG500_ASS_PM_002 = "Stemmen:"
+DLG500_ASS_PM_003 = "Allen"
+DLG500_ASS_PM_004 = "Solo"
+DLG500_ASS_PM_005 = "Bas"
+
+*******************************
+* v5.0 MIX TABLE EVENT WINDOW *
+*******************************
+ 
+DLG500_MIX_000
+DLG500_MIX_001 = "Gebruik MIDI"
+DLG500_MIX_002 = "MIDI Bank:"
+DLG500_MIX_003 = "Gebruik RSE"
+DLG500_MIX_004 = "Niets" { used for Sound Bank list }
+DLG500_MIX_005 = "Niets" { used for Effects list }
+
+***************************
+* v5.0 INSTRUMENTS WINDOW *
+***************************
+ 
+DLG500_INSTR_000
+DLG500_INSTR_001 = "Gebruik MIDI"
+DLG500_INSTR_002 = "MIDI Bank:"
+DLG500_INSTR_003 = "Gebruik RSE"
+DLG500_INSTR_004 = "Luisteren"
+DLG500_INSTR_005 = "Geluids Bank"
+DLG500_INSTR_006 = "Niets" { used for Sound Bank list }
+DLG500_INSTR_007 = "Effect"
+DLG500_INSTR_008 = "Niets" { used for Effects list }
+DLG500_INSTR_009 = "Auto-Accentuering op Maat" 
+DLG500_INSTR_010 = "Niets" { used for AutoAccentuation }
+DLG500_INSTR_011 = "Zeer Zacht"
+DLG500_INSTR_012 = "Zacht"
+DLG500_INSTR_013 = "Matig"
+DLG500_INSTR_014 = "Sterk"
+DLG500_INSTR_015 = "Zeer Sterk"
+DLG500_INSTR_016 = "Menselijke Speelstijl"
+DLG500_INSTR_017 = "Alle instrument, versterker en effect handelsmerken en gedeponeerde handelsmerken zijn het bezit van hun respectievelijke eigenaren en zijn in geen geval geassocieerd of aangesloten bij %s."
+
+*****************************
+* v5.0 NOTE DURATION WINDOW *
+*****************************
+ 
+DLG500_NOTE_DURATION_000
+DLG500_NOTE_DURATION_001 = "Klank Duur"
+
+**************************
+* v5.0 GRACE NOTE WINDOW *
+**************************
+
+DLG500_GRACE_000
+DLG500_GRACE_001 = "Positie"
+DLG500_GRACE_002 = "Voor de Maat"
+DLG500_GRACE_003 = "Op de Maat"
+
+************************
+* v5.0 HARMONIC WINDOW *
+************************
+
+DLG500_HARM_000
+DLG500_HARM_001 = "Kunsmatige Flageolet"
+DLG500_HARM_002 = "Soort Flageolet"
+DLG500_HARM_003 = "Kunsmatige Flageolet"
+DLG500_HARM_004 = "Tikken Flageolet"
+DLG500_HARM_005 = "Hoog Flageolet"
+DLG500_HARM_006 = "Half Flageolet"
+DLG500_HARM_007 = "Linkerhand:"
+DLG500_HARM_008 = "Rechterhand:"
+
+**************************
+* v5.0 SCORE INFO WINDOW *
+**************************
+ 
+DLG500_SCORE_INFO_000
+DLG500_SCORE_INFO_001 = "Tekstschrijver"
+DLG500_SCORE_INFO_002 = "Componist"
+DLG500_SCORE_INFO_003 = "RSE Master Effect (Toepassen op alle sporen)"
+DLG500_SCORE_INFO_004 = "Effect:"
+
+*********************
+* v5.0 PRINT WINDOW *
+*********************
+
+DLG500_PRT_000
+DLG500_PRT_001 = "Positie"
+DLG500_PRT_002 = "Schaal:"
+DLG500_PRT_003 = "Aanpassen aan Pagina"
+DLG500_PRT_004 = "Gecentreerd Document"
+
+********************************
+* v5.0 WAVE EXPORTATION WINDOW *
+********************************
+ 
+DLG500_EXPWAV_000
+DLG500_EXPWAV_001 = "WAVE Exporteren"
+DLG500_EXPWAV_002 = "Stuurprogramma vastleggen"
+DLG500_EXPWAV_003 = "Kwaliteit"
+DLG500_EXPWAV_004 = "Hz"
+DLG500_EXPWAV_005 = "bits"
+
+*******************************
+* v5.0 PAGE PROPERTIES WINDOW *
+*******************************
+ 
+DLG500_PAGE_PROP_000
+DLG500_PAGE_PROP_001 = "Pagina Opmaak"
+DLG500_PAGE_PROP_002 = "Ververs Partituur"
+DLG500_PAGE_PROP_003 = "Opslaan als Standaard"
+DLG500_PAGE_PROP_004 = "Standaard Toepassen"
+DLG500_PAGE_PROP_005 = "Pagina Formaat"
+DLG500_PAGE_PROP_006 = "Orientatie"
+DLG500_PAGE_PROP_007 = "Portret"
+DLG500_PAGE_PROP_008 = "Landschap"
+DLG500_PAGE_PROP_009 = "Partituur Grootte"
+DLG500_PAGE_PROP_010 = "Percentage:"
+DLG500_PAGE_PROP_011 = "Marges"
+DLG500_PAGE_PROP_012 = "Links"
+DLG500_PAGE_PROP_013 = "Rechts"
+DLG500_PAGE_PROP_014 = "Boven"
+DLG500_PAGE_PROP_015 = "Onder"
+DLG500_PAGE_PROP_016 = "Kop && Voet Tekst"
+DLG500_PAGE_PROP_017 = "Titel"
+DLG500_PAGE_PROP_018 = "Ondertitel"
+DLG500_PAGE_PROP_019 = "Uitvoerder"
+DLG500_PAGE_PROP_020 = "Album"
+DLG500_PAGE_PROP_021 = "Tekstschrijver"
+DLG500_PAGE_PROP_022 = "Componist"
+DLG500_PAGE_PROP_023 = "Tekst && Muziek"
+DLG500_PAGE_PROP_024 = "Auteursrecht"
+DLG500_PAGE_PROP_025 = "Pagina Nummer"
+
+******************************
+* v5.0 TIME SIGNATURE WINDOW *
+******************************
+
+DLG500_TIMES_000
+DLG500_TIMES_001 = "Waardestreep Achtste Noten door"
+DLG500_TIMES_002 = "Totaal"
+
+***********************
+* v5.0 SYNCOPE WINDOW *
+***********************
+
+DLG500_SYNCOPE_000
+DLG500_SYNCOPE_001 = "Triool Stemming"
+DLG500_SYNCOPE_002 = "Geen Triool Stemming"
+DLG500_SYNCOPE_003 = "Triool 8-ste"
+DLG500_SYNCOPE_004 = "Triool 16-de"
+DLG500_SYNCOPE_005 = "Tot het Eind"
+
+**************************
+* v5.0 TRACK INFO WINDOW *
+**************************
+ 
+DLG500_TRACK_INFO_000
+DLG500_TRACK_INFO_001 = "Notatie"
+DLG500_TRACK_INFO_002 = "Standaard notatie"
+DLG500_TRACK_INFO_003 = "Tablatuur"
+DLG500_TRACK_INFO_004 = "Tablatuur [fret = midi noot]"
+DLG500_TRACK_INFO_005 = "Stijl"
+DLG500_TRACK_INFO_006 = "Toon hoogte op partituur"
+DLG500_TRACK_INFO_007 = "Slagwerk met Tab"
+DLG500_TRACK_INFO_008 = "Forceer horizontale waardestrepen"
+DLG500_TRACK_INFO_009 = "Diagrammen boven partituur"
+DLG500_TRACK_INFO_010 = "Diagrammen in partituur"
+DLG500_TRACK_INFO_011 = "Diagrammen/Akkoorden onder de standaard notatie"
+DLG500_TRACK_INFO_012 = "Kanalen"
+DLG500_TRACK_INFO_013 = "Forceer Kanaal 11 tot en met 16"
+
+***************************
+* v5.0 PREFERENCES WINDOW *
+***************************
+ 
+DLG500_PREF_000
+DLG500_PREF_001 = "Opstarten"
+DLG500_PREF_002 = "Introductie Scherm"
+DLG500_PREF_003 = "Automatisch vorige bestand openen"
+DLG500_PREF_004 = "Overzicht"
+DLG500_PREF_005 = "Automatisch meerdere sporen"
+DLG500_PREF_006 = "Weergave"
+DLG500_PREF_007 = "Tijdens het toevoegen"
+DLG500_PREF_008 = "Forceer MIDI tijdens het toevoegen"
+
+*********************
+* v5.0 ORDER WINDOW *
+*********************
+
+DLG500_REG_000
+DLG500_REG_001 = "Ontvang gratis upgrades naar 5.x versies"
+DLG500_REG_002 = "Ontvang een speciale aanbieding om te upgraden naar versie 6"
+
+**********************************
+* v5.0 REGISTER YOUR COPY WINDOW *
+**********************************
+
+DLG500_REGC_000
+DLG500_REGC_001 = "Ontvangen van gratis upgrades naar 5.x versie"
+DLG500_REGC_002 = "Ontvangen van een speciale aanbieding om te upgraden naar versie 6"
+
+************
+* v5.0 RSE *
+************
+
+RSE500_000
+RSE500_001 = "RSE Laden"
+RSE500_002 = "Laden %s"
+RSE500_003 = "RSE Fout %s"
+RSE500_004 = "Geen Standaard Instellingen voor Spoor %s"
+RSE500_005 = "RSE CPU:"
+
+********************
+* v5.0 LOOP WINDOW *
+********************
+
+DLG500_LOOP_000
+DLG500_LOOP_001 = "Speel Lus / Snelheids Trainer"
+DLG500_LOOP_002 = "Eenvoudige Lus"
+DLG500_LOOP_003 = "Snelsheids Trainer"
+
+***********************************
+* v5.0 TRANSPOSE ASSISTANT WINDOW *
+***********************************
+
+DLG500_ASS_TR_000
+DLG500_ASS_TR_001 = "Hou vingerzetting indien mogelijk"
+
+**********************
+* v5.0 IMPORT WINDOW *
+**********************
+
+DLG500_IMPORT_000
+DLG500_IMPORT_001 = "%s Importeren"
+DLG500_IMPORT_002 = "Informatie"
+DLG500_IMPORT_003 = "Bestands Naam:"
+DLG500_IMPORT_004 = "Bestands Formaat:"
+DLG500_IMPORT_005 = "Partituur Titel:"
+DLG500_IMPORT_006 = "Partituur Auteur:"
+DLG500_IMPORT_007 = "Versie:"
+DLG500_IMPORT_008 = "Progressie"
+DLG500_IMPORT_009 = "Resultaat"
+
+**************************
+* v5.0 PTB IMPORT WINDOW *
+**************************
+
+DLG500_PTB_IMP_000
+DLG500_PTB_IMP_001 = "PowerTab Importeren"
+DLG500_PTB_IMP_002 = "Importeer Modus"
+DLG500_PTB_IMP_003 = "Volledige Partituur"
+DLG500_PTB_IMP_004 = "Alleen Gitaren"
+DLG500_PTB_IMP_005 = "Alleen Bassen"
+DLG500_PTB_IMP_006 = "Opties"
+DLG500_PTB_IMP_007 = "Keep Break Lines"
+DLG500_PTB_IMP_008 = "Bestand [%s] niet gevonden"
+DLG500_PTB_IMP_009 = "Bestand [%s] is niet een geldige PowerTab Bestand"
+DLG500_PTB_IMP_010 = "Alleen v1.7 Bestanden worden ondersteund"
+DLG500_PTB_IMP_011 = "Ongeldige Data"
+DLG500_PTB_IMP_012 = "Fout bij het ophalen van [%s] - Ongeldige Powertab Bestand"
+DLG500_PTB_IMP_013 = "Ongeldige Data [ReleaseType]"
+DLG500_PTB_IMP_014 = "Fout bij het analyseren van Data while. Bestand is waarschijnlijk ongeldig"
+DLG500_PTB_IMP_015 = "Analyseren Kop..."
+DLG500_PTB_IMP_016 = "Analyseren Gitaar Sporen..."
+DLG500_PTB_IMP_017 = "Analyseren Bas Sporen..."
+DLG500_PTB_IMP_018 = "Analyseren Lettersoort..."
+DLG500_PTB_IMP_019 = "Analyseren Klaar"
+DLG500_PTB_IMP_020 = "Omzetten van Kop..."
+DLG500_PTB_IMP_021 = "Omzetten van Gitaar Sporen..."
+DLG500_PTB_IMP_022 = "Omzetten van Bas Sporen..."
+DLG500_PTB_IMP_023 = "Importeren Klaar"
+DLG500_PTB_IMP_024 = "Importeren Afgebroken"
+
+**************************
+* v5.0 TEF IMPORT WINDOW *
+**************************
+
+DLG500_TEF_IMP_000
+DLG500_TEF_IMP_001 = "Het bestand [%s] is niet een TablEdit bestand."
+DLG500_TEF_IMP_002 = "Kan het bestand niet openen [%s]."
+DLG500_TEF_IMP_003 = "Toegang tot een niet bestaande Akkoord"
+DLG500_TEF_IMP_004 = "Toegang tot een niet bestaande Maat"
+DLG500_TEF_IMP_005 = "Het aantal snaren kan niet zijn %s - Onjuiste TablEdit bestand"
+DLG500_TEF_IMP_006 = "Harmonica spoor is niet geimporteerd"
+DLG500_TEF_IMP_007 = "Accordeon spoor is niet geimporteerd"
+DLG500_TEF_IMP_008 = "Omzetting van 'Accentverschuiving' naar 'Triool Stemming 8th'"
+DLG500_TEF_IMP_009 = "Triolet Fout in Maat %s van Spoor %t"
+DLG500_TEF_IMP_010 = "Triolet Fout in Maat %s op tweede stem van Spoor %t"
+DLG500_TEF_IMP_011 = "Ritmische modificatie op Maat %s van Spoor %t (dubbele stippel noot simulatie)."
+DLG500_TEF_IMP_012 = "Ritmische modificatie op Maat %s van Spoor %t"
+DLG500_TEF_IMP_013 = "Geen fout"
+
+**************************
+* v5.0 XML IMPORT WINDOW *
+**************************
+
+DLG500_XML_IMP_000
+DLG500_XML_IMP_001 = "Importeren mislukt: moet PARTWISE of TIMEWISE zijn."
+DLG500_XML_IMP_002 = "Onjuiste XML bestand."
+
+**************************
+* v5.0 PDF EXPORT WINDOW *
+**************************
+
+DLG500_PDF_EXP_000
+DLG500_PDF_EXP_001 = "PDF Document is al open in het PDF viewer. Eerst sluiten a.u.b."
+
+**************************
+* v5.0 BMP EXPORT WINDOW *
+**************************
+
+DLG500_BMP_EXP_000
+DLG500_BMP_EXP_001 = "Onmogelijk om het bestand te schrijven. BMP Export afgebroken."
+DLG500_BMP_EXP_002 = "Onvoldoende geheugen. BMP Export afgebroken."
+
+*********************************
+* v5.0 SEARCH ON THE WEB WINDOW *
+*********************************
+
+DLG500_TAB_WEB_000
+DLG500_TAB_WEB_001 = "Geen lokatie. Gebruik eerst de [Lokatie zoek lijst bijwerken] knop."
+
+***************************
+*  v5.0 NEW TUNING WINDOW *
+***************************
+
+DLG500_NEWTUNE_000
+DLG500_NEWTUNE_001 = "Etiket op de Partituur:"
+DLG500_NEWTUNE_002 = "Standaard MIDI Instrument:"
+
+****************************************
+* v5.0 CHECK DURATION ASSISTANT WINDOW *
+****************************************
+
+DLG500_ASS_CD_000
+DLG500_ASS_CD_001 = "Ongeldige Maat-lengte bij maat %s - spoor %s - stem %s."
+
+****************
+* v5.0 GENERAL *
+****************
+ 
+GENE500_000
+GENE500_001 = "De demoversie kan geen bewerkte bestanden in GP4 formaat exporteren."
+GENE500_002 = "U moet een bestand openen en deze functie direct gebruiken."
+GENE500_003 = "Guitar Pro 4 Bestanden"
+GENE500_004 = "Bitmap Bestanden"
+GENE500_005 = "Wave Bestanden"
+GENE500_006 = "PDF Bestanden"
+GENE500_007 = "PowerTab Bestanden"
+GENE500_008 = "TablEdit Bestanden"
+GENE500_009 = "MusicXML Bestanden"
+
+**********************
+* v5.0 MENUS & HINTS *
+**********************
+
+MN500_000
+MN500_001 = "Guitar Pro 4 Formaat"
+MN500_002 = "Pagina Instellingen"
+MN500_003 = "Bewerken"
+MN500_004 = "Selecteer Alles"
+MN500_005 = "Stemmen"
+MN500_006 = "Bewerk stem 1 [Solo]"
+MN500_007 = "Bewerk stem 2 [Bas]"
+MN500_008 = "Gray Inactieve Stem"
+MN500_009 = "Triool Stemming"
+MN500_010 = "Muzikale Richtingen"
+MN500_011 = "Onderbrekings Regel"
+MN500_012 = "Forceer Onderbreking"
+MN500_013 = "Voorkom Onderbreking"
+MN500_014 = "Maat Terugzetten"
+MN500_015 = "Instrumenten"
+MN500_016 = "Naar Boven"
+MN500_017 = "Naar Onderen"
+MN500_018 = "Duur"
+MN500_019 = "Stippel Noot"
+MN500_020 = "Forceer Tuplet Accolade"
+MN500_021 = "Automatische Waardestrepen"
+MN500_022 = "Forceer Waardestrepen"
+MN500_023 = "Verbreek Waardestrepen"
+MN500_024 = "Verbreek Secundaire Waardestrepen"
+MN500_025 = "Automatische Richting"
+MN500_026 = "Richting Omkeren"
+MN500_027 = "Zwaar Beklemtoonde Noot"
+MN500_028 = "Sluit" { for WahWah }
+MN500_029 = "Open" { for WahWah }
+MN500_030 = "Toon [Wah On]" { for WahWah => do not change term [Wah On]}
+MN500_031 = "Uit" { for WahWah }
+MN500_032 = "Speel Lus / Snelheids Trainer"
+MN500_033 = "Gebruik RSE [Realistic Sound Engine]"
+MN500_034 = "Pagina Weergave"
+MN500_035 = "Perkament Weergave"
+MN500_036 = "Verticale Weergave"
+MN500_037 = "Horizontale Weergave"
+MN500_038 = "Verberg Standaard Notatie"
+MN500_039 = "Verberg Tablatuur"
+MN500_040 = "Omgeving"
+MN500_041 = "Klank Duur"
+MN500_042 = "Notatie" {name of the toolbar}
+MN500_043 = "Transponeren" {name of the toolbar}
+
+**************************
+* v5.0 REPEAT END WINDOW *
+**************************
+
+DLG500_REPE_000
+DLG500_REPE_001 = "Afspelen"
+DLG500_REPE_002 = "Keer"
+
+******************
+* v5.0 ADDTIONAL *
+******************
+
+ADD500_000
+ADD500_001 = "Afspelen"
+ADD500_002 = "Capo"
+ADD500_003 = "Guitar Pro op het Web"
+ADD500_004 = "Uitvoerder:"
+
+*************
+* v5.0 DEMO *
+*************
+
+DEMO500_000
+DEMO500_001 = "Demoversie kan geen MusicXML formaat exporteren."
+DEMO500_002 = "Wat is RSE?" { instrument window }
+DEMO500_003 = "Evaluatie periode is beeindigd."
+DEMO500_004 = "Opslaan beperkt tot 24 maten"
+DEMO500_005 = "[Demo Version] melden op afdrukken en Exports"
+DEMO500_006 = "MusicXML exporteren is uitgeschakeld"
+DEMO500_007 = "RSE [Realistic Sound Engine] is uitgeschakeld"
+DEMO500_008 = "RSE [Realistic Sound Engine] biedt een unieke weergave in directe verwerking, zonder een speciale geluidskaart of aanvullende materiaal."
+DEMO500_009 = "is alleen beschikbaar in de volledige versie van Guitar Pro."
+DEMO500_010 = "Bemonsteren gebruikmakende van Standaard MIDI Weergave"
+DEMO500_011 = "Bemonsteren gebruikmakende van RSE Weergave"
+DEMO500_012 = "Klik hier" { clickable part of the sentence }
+DEMO500_013 = "om te luisteren naar andere RSE voorbeelden" { end of the sentence }
+
+**********************
+* v5.1 MENUS & HINTS *
+*********************
+
+MN510_000
+MN510_001 = "Verander Accidental"
+MN510_002 = "Audio Instellingen (MIDI/RSE)"
+
+********************************
+* v5.1 WAVE EXPORTATION WINDOW *
+********************************
+ 
+DLG510_EXPWAV_000
+DLG510_EXPWAV_001 = "Melding"
+DLG510_EXPWAV_002 = "Kwaliteit:"
+DLG510_EXPWAV_003 = "Help:"
+DLG510_EXPWAV_004 = "- Let op dat [Stereo Mix] aan staat"
+DLG510_EXPWAV_005 = "- Let op dat het geluids niveau niet te laag staat"
+DLG510_EXPWAV_006 = "Klik op het beeld om het Windows opnameregeling te openen."
+
+*********************
+* v5.1 DEBUG WINDOW *
+*********************
+ 
+DLG510_DEBUG_000
+DLG510_DEBUG_001 = "Debuggen"
+DLG510_DEBUG_002 = "Log in bij Guitar Pro Support"
+DLG510_DEBUG_003 = "Sluit Guitar Pro"
+DLG510_DEBUG_004 = "Doorgaan met het gebruik van Guitar Pro"
+DLG510_DEBUG_005 = "FATALE FOUT"
+DLG510_DEBUG_006 = "INDIEN U CONTACT WENST MET GUITAR PRO SUPPORT,"
+DLG510_DEBUG_007 = "KLIK OP HET ONDERSTE BUTTON EN PLAK"
+DLG510_DEBUG_008 = "DIT RAPPORT IN UW BERICHT MET BEHULP VAN DE TOETSEN [CTRL+V]."
+DLG510_DEBUG_009 = "U KAN HET GUITAR PRO BESTAND WAARAAN U WERKT TOEVOEGEN"
+DLG510_DEBUG_010 = "EN EEN UITLEG VAN UW LAATSTE MANIPULATIE."
+
+***************************
+* v5.1 INSTRUMENTS WINDOW *
+***************************
+ 
+DLG510_INSTR_000
+DLG510_INSTR_001 = "Als Standaard"
+DLG510_INSTR_002 = "Het geluid [%s] standaard beinvloeden door midi instrument [%t]. Bevestigen?"
+DLG510_INSTR_003 = "Automatisch"
+DLG510_INSTR_004 = "Auto-DoorKlinken"
+DLG510_INSTR_005 = "Auto-Bestrijken"
+DLG510_INSTR_006 = "3-Kanaals EQ"
+DLG510_INSTR_007 = "Laag" 
+DLG510_INSTR_008 = "Norm"
+DLG510_INSTR_009 = "Hoog" 
+DLG510_INSTR_010 = "PRE" { means "PRE-AMP" }
+
+**************************
+* v5.1 MIDI SETUP WINDOW *
+**************************
+
+DLG510_MIDISETUP_000
+DLG510_MIDISETUP_001 = "Audio Instelligen"
+DLG510_MIDISETUP_002 = "RSE Instellingen"
+DLG510_MIDISETUP_003 = "Output"
+DLG510_MIDISETUP_004 = "Audio"
+DLG510_MIDISETUP_005 = "Geluidskaart"
+DLG510_MIDISETUP_006 = "DSP/VST Buffers"
+DLG510_MIDISETUP_007 = "Buffers Length (in sample)"
+DLG510_MIDISETUP_008 = "Aantal Buffers"
+DLG510_MIDISETUP_009 = "Formaat"
+DLG510_MIDISETUP_010 = "Frequentie"
+DLG510_MIDISETUP_011 = "Kanalen"
+DLG510_MIDISETUP_012 = "Diepte"
+DLG510_MIDISETUP_013 = "Resample Methodiek"
+DLG510_MIDISETUP_014 = "Virtuele Stemmen"
+DLG510_MIDISETUP_015 = "Vertraging"
+DLG510_MIDISETUP_016 = "Standaard"
+DLG510_MIDISETUP_017 = "Mono"
+DLG510_MIDISETUP_018 = "Stereo"
+DLG510_MIDISETUP_019 = "Geen Interpolatie"
+DLG510_MIDISETUP_020 = "Lineair Interpolatie"
+DLG510_MIDISETUP_021 = "Cubic Interpolatie"
+DLG510_MIDISETUP_022 = "5 point Spline Interpolatie"
+
+**************************
+* v5.1 SCORE INFO WINDOW *
+**************************
+ 
+DLG510_SCORE_INFO_000
+DLG510_SCORE_INFO_001 = "Links"
+DLG510_SCORE_INFO_002 = "Spectrum"
+DLG510_SCORE_INFO_003 = "Rechts"
+DLG510_SCORE_INFO_004 = "Geluidssterkte"
+DLG510_SCORE_INFO_005 = "Galm"
+DLG510_SCORE_INFO_006 = "10-Kanaals Hoofd EQ"
+DLG510_SCORE_INFO_007 = "PRE" { means "PRE-AMP" }
+DLG510_SCORE_INFO_008 = "- Geen Wijziging -"
+
+**************************
+* v5.1 TRACK INFO WINDOW *
+**************************
+ 
+DLG510_TRACK_INFO_000
+DLG510_TRACK_INFO_001 = "Verleng Ritme in Tab"
+
+*********************************
+* v5.1 SEARCH ON THE WEB WINDOW *
+*********************************
+ 
+DLG510_SEARCHONWEB_000
+DLG510_SEARCHONWEB_001 = "in Lied Titel"
+DLG510_SEARCHONWEB_002 = "in Uitvoeders Naam"
+
+*********************
+* v5.1 TEMPO WINDOW *
+*********************
+ 
+DLG510_TEMPO_000
+DLG510_TEMPO_001 = "Verberg"
+
+*********************************************
+* v5.1 MAC MAIN TOOLBAR TEXTS UNDER BUTTONS *
+*********************************************
+
+MAC510_MAINTOOLBAR_000
+MAC510_MAINTOOLBAR_001 = "Nieuw"
+MAC510_MAINTOOLBAR_002 = "Openen"
+MAC510_MAINTOOLBAR_003 = "Info"
+MAC510_MAINTOOLBAR_004 = "Pagina Opmaak"
+MAC510_MAINTOOLBAR_005 = "Afdrukken"
+MAC510_MAINTOOLBAR_006 = "Annuleren"
+MAC510_MAINTOOLBAR_007 = "Herstellen"
+MAC510_MAINTOOLBAR_008 = "Knippen"
+MAC510_MAINTOOLBAR_009 = "Kopieren"
+MAC510_MAINTOOLBAR_010 = "Plakken"
+MAC510_MAINTOOLBAR_011 = "Spoor Eigenschappen"
+MAC510_MAINTOOLBAR_012 = "Instrument"
+MAC510_MAINTOOLBAR_013 = "Voorkeuren"
+MAC510_MAINTOOLBAR_014 = "Afspelen"
+MAC510_MAINTOOLBAR_015 = "Stop"
+MAC510_MAINTOOLBAR_016 = "Eerste Maat"
+MAC510_MAINTOOLBAR_017 = "Voorafgaande Maat"
+MAC510_MAINTOOLBAR_018 = "Volgende Maat"
+MAC510_MAINTOOLBAR_019 = "Laatste Maat"
+
+*************************
+* v5.1 MAC ALERT PANELS *
+*************************
+
+MAC510_ALERTPANEL_000
+MAC510_ALERTPANEL_001 = "Wilt u de wijzigingen in het document opslaan ?"
+MAC510_ALERTPANEL_002 = "Wijzigingen gaan verloren indien u deze niet op slaat."
+MAC510_ALERTPANEL_003 = "Niet Opslaan"
+MAC510_ALERTPANEL_004 = "Annuleren"
+MAC510_ALERTPANEL_005 = "Opslaan"
+MAC510_ALERTPANEL_006 = "Skin niet gevonden"
+
+****************************
+* v5.1 MAC GUITAR PRO MENU *
+****************************
+
+MAC510_GUITARPROMENU_000
+MAC510_GUITARPROMENU_001 = "Over Guitar Pro"
+MAC510_GUITARPROMENU_002 = "Verberg Guitar Pro"
+MAC510_GUITARPROMENU_003 = "Verberg Overige"
+MAC510_GUITARPROMENU_004 = "Toon Alles"
+MAC510_GUITARPROMENU_005 = "Guitar Pro Afsluiten"
+
+**********************
+* v5.1 MAC FILE MENU *
+**********************
+
+MAC510_FILEMENU_000
+MAC510_FILEMENU_001 = "Open Laatste"
+MAC510_FILEMENU_002 = "Wis Menu"
+MAC510_FILEMENU_003 = "Sluiten"
+MAC510_FILEMENU_004 = "Printer Instellingen..."
+
+***********************
+* v5.1 MAC SOUND MENU *
+***********************
+
+MAC510_SOUNDMENU_000
+MAC510_SOUNDMENU_001 = "RSE Instellingen..."
+MAC510_SOUNDMENU_002 = "Tempo = "
+
+************************
+* v5.1 MAC WINDOW MENU *
+************************
+
+MAC510_WINDOWMENU_000
+MAC510_WINDOWMENU_001 = "Scherm"
+MAC510_WINDOWMENU_002 = "Minimaliseren"
+MAC510_WINDOWMENU_003 = "Inzoomen"
+MAC510_WINDOWMENU_004 = "Gereedschap scherm"
+MAC510_WINDOWMENU_005 = "Afspelen"
+MAC510_WINDOWMENU_006 = "Sporen"
+MAC510_WINDOWMENU_007 = "Lade"
+MAC510_WINDOWMENU_008 = "Aanpassen Gereedschapsbalk..."
+MAC510_WINDOWMENU_009 = "Alles Vooraan"
+
+**********************
+* v5.1 MAC HELP MENU *
+**********************
+
+MAC510_HELPMENU_000
+MAC510_HELPMENU_001 = "Guitar Pro Help"

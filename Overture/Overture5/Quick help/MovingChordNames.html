@@ -1,0 +1,91 @@
+﻿<html>
+	
+<head>
+	<title>Moving Chord Names</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("MovingChordNames");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Moving Chord Names</h1>
+				
+				</div>
+			<div id="topic_header_nav">
+				<a href="EditGlissandoDialog.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="CursorsintheScoreView.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<p class="rvps2"><span class="rvts6">You can move chord names either individually or globally by staff (or multiple staves).</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Moving Chord Names Globally</span></p>
+<p class="rvps2"><span class="rvts6">When you open the Chord Panel, the Score View displays a small triangle to the left of the chords on each system—this is called the Chord Position Indicator.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Drag any position indicator up or down to change the vertical position of all chord names for </span><span class="rvts17">that system</span><span class="rvts6">.</span></p>
+<p class="rvps2"><span class="rvts6">Alt[</span><span class="rvts13">Option</span><span class="rvts6">]-drag a position indicator up or down to change the vertical position of all chord names for every </span><span class="rvts17">remaining</span><span class="rvts6"> system on that </span><span class="rvts17">page</span><span class="rvts6">.</span></p>
+<p class="rvps2"><span class="rvts6">Ctrl[</span><span class="rvts13">Cmd</span><span class="rvts6">]-drag a position indicator up or down to change the vertical position of all chord names for every </span><span class="rvts17">remaining</span><span class="rvts6"> system in the </span><span class="rvts17">score</span><span class="rvts6">.</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Moving Chord Names Individually</span></p>
+<p class="rvps2"><span class="rvts6">Once you’ve placed chord names in a score, you can modify their automatic placement by dragging any chord name to a new location.</span></p>
+<p class="rvps2"><span class="rvts6">To constrain movement to vertical or horizontal while dragging a chord name, shift-drag it. Overture constrains the movement to the direction you moved the mouse when you began shift-dragging. That is, if you begin to drag horizontally, the chord name moves only in the horizontal direction. If you begin to drag vertically, the chord name moves only in the vertical direction.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

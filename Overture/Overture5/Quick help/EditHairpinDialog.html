@@ -1,0 +1,82 @@
+﻿<html>
+	
+<head>
+	<title>Edit Hairpin Dialog</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("EditHairpinDialog");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Edit Hairpin Dialog</h1>
+				
+				</div>
+			<div id="topic_header_nav">
+				<a href="AdjustingNoteSpacing.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="UsingAbsoluteDynamicTools.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<p class="rvps2"><span class="rvts37">Double-click a hairpin in the Score View to open the </span><a class="rvts11" href="EditHairpinDialog.html">Edit Hairpin Dialog Box</a><span class="rvts37"> box.</span></p>
+<p class="rvps2"><span class="rvts37"><br/></span></p>
+<p class="rvps2"><span class="rvts37">Set the type of playback to </span><span class="rvts38">Velocity, Volume, Modulation, </span><span class="rvts37">or </span><span class="rvts38">Expression</span><span class="rvts37">. Set the </span><span class="rvts38">Value</span><span class="rvts37"> field to the start, middle, and ending values to be used during playback. Select the </span><span class="rvts38">Play</span><span class="rvts37"> option to use the selected </span><span class="rvts38">Value</span><span class="rvts37"> setting during playback. Select the All Voices option to have this hairpin affect all voices in the track. Select the </span><span class="rvts38">Change All Of This Type</span><span class="rvts37"> option to change other hairpins of the selected type to the selected settings. Overture plays hairpins by sending MIDI controller data such as volume or by changing note velocities over the duration of the hairpin</span></p>
+<p class="rvps2"><span class="rvts37"><br/></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

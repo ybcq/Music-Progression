@@ -1,0 +1,97 @@
+﻿<html>
+	
+<head>
+	<title>Main Score Window</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("MainScoreWindow");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Main Score Window</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="GettingStarted.html">Getting Started</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="GettingStarted.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="ImportaMIDIorMusicXMLFile.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="TheControlbar.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<p class="rvps2"><span class="rvts6">The Main window is where you create and edit your scores. You can access all of the major working areas of Overture in the main window.</span><br/><span class="rvts6"></span><br/><span class="rvts6"></span><br/><img width="792" height="454" alt="" style="padding : 1px;" src="lib/OV-MainWindow.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">At the top of the main window is the </span><span class="rvts12">Control bar</span><span class="rvts6">, which includes buttons to access different parts of Overture, buttons for different editing cursors, and transport controls for controlling playback. In the center of the control bar is the Time View, where you can see the current score position. To the right of the Time View are controls for enabling metronome, setting quantizing amount, and enabling Transposed View for the current score.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">The center of the main window is the </span><span class="rvts12">Score View</span><span class="rvts6">. This is where you enter your notes, text, symbols, etc..</span></p>
+<p class="rvps2"><span class="rvts6">There are two left side panels, one for all the symbols you enter into a score and a library panel for quickly entering and changing track instruments.</span></p>
+<p class="rvps2"><span class="rvts6">The right side panels contain a Score Layout panel for changing the over all appearance of your score, a File Browser panel for quickly opening new scores, and a Track Inspector panel for changing a track's playback and appearance.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">You can open the following panels and views by clicking the appropriate buttons in the control bar:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/Control Bar-Buttons.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">For more information on the Control bar see the </span><a class="rvts11" href="TheControlbar.html">Control Bar</a><span class="rvts6"> section.</span></p>
+<p class="rvps2"><span class="rvts6">For more information on the Score View see the </span><a class="rvts11" href="ScoreView.html">Score View</a><span class="rvts6"> section.</span></p>
+<p class="rvps2"><span class="rvts20"><br/></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

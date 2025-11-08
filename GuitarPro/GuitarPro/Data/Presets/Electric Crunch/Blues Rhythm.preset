@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<variation version="1.0">
+<description><name>Variation 0</name></description> 
+<slots>
+<slot index="0" effect="E03_OverdriveScreamer" bypass="0" >
+<parameters><parameter id="0" value="0.6"/>
+<parameter id="1" value="0.42"/>
+<parameter id="2" value="0.63"/>
+</parameters>
+</slot>
+<slot index="1" effect="A03_ComboAmericanTweed" bypass="0" >
+<parameters><parameter id="0" value="0.31"/>
+<parameter id="1" value="0.71"/>
+<parameter id="2" value="0.6"/>
+<parameter id="3" value="0.7"/>
+<parameter id="4" value="0.65"/>
+</parameters>
+</slot>
+<slot index="2" effect="E25_ReverbSpring" bypass="0" >
+<parameters><parameter id="0" value="0.25"/>
+<parameter id="1" value="0.2"/>
+</parameters>
+</slot>
+</slots>
+</variation>

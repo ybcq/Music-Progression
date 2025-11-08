@@ -1,0 +1,370 @@
+
+<VSTNameDocument name="Roland PMA-5">
+<Version>1</Version>
+<Author>Sonic Scores</Author>
+<Device type="MIDI"/>
+<Instruments>
+  <Section name="Chromatic Percussion" bankHigh="9" bankLow="0" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="Carillon" prgChg="15"/>
+    <Instrument name="ElecPerc" prgChg="119"/>
+    <Instrument name="BrstNoiz" prgChg="126"/>
+  </Section>
+  <Section name="Drum Sets" bankHigh="0" bankLow="0" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="Standard Set" prgChg="1"/>
+    <Instrument name="Room Set" prgChg="9"/>
+    <Instrument name="Power Set" prgChg="17"/>
+    <Instrument name="Electronic Set" prgChg="25"/>
+    <Instrument name="TR-808 Set" prgChg="26"/>
+    <Instrument name="Jazz Set" prgChg="33"/>
+    <Instrument name="Brush Set" prgChg="41"/>
+    <Instrument name="Orchestra Set" prgChg="49"/>
+    <Instrument name="SFX Set" prgChg="57"/>
+    <Instrument name="Standard2 Set" prgChg="65"/>
+    <Instrument name="Standard3 Set" prgChg="66"/>
+    <Instrument name="Room2 Set" prgChg="73"/>
+    <Instrument name="Power2 Set" prgChg="81"/>
+    <Instrument name="TR-808/909 Set" prgChg="89"/>
+    <Instrument name="Jazz2 Set" prgChg="97"/>
+    <Instrument name="Brush2 Set" prgChg="105"/>
+  </Section>
+  <Section name="E.Piano" bankHigh="24" bankLow="0" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="60's EP" prgChg="5"/>
+    <Instrument name="Harpsi.o" prgChg="7"/>
+  </Section>
+  <Section name="E.Piano 2" bankHigh="64" bankLow="0" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="FM+SA EP" prgChg="5"/>
+    <Instrument name="St.FM EP" prgChg="6"/>
+    <Instrument name="FunkClav" prgChg="8"/>
+    <Instrument name="SC88 Or1" prgChg="17"/>
+    <Instrument name="VS Organ" prgChg="19"/>
+    <Instrument name="SteelGt2" prgChg="26"/>
+    <Instrument name="CleanGt2" prgChg="28"/>
+    <Instrument name="MutedGt2" prgChg="29"/>
+    <Instrument name="OvdrvGt2" prgChg="30"/>
+    <Instrument name="Heavy Gt" prgChg="31"/>
+    <Instrument name="AcousBs2" prgChg="33"/>
+    <Instrument name="FingrBs2" prgChg="34"/>
+    <Instrument name="Pick.Bs2" prgChg="35"/>
+    <Instrument name="SlapBs3" prgChg="37"/>
+    <Instrument name="TB303Bs1" prgChg="39"/>
+    <Instrument name="SH101Bs1" prgChg="40"/>
+    <Instrument name="Syn.Str4" prgChg="51"/>
+    <Instrument name="SynBrs.5" prgChg="63"/>
+    <Instrument name="Soft Brs" prgChg="64"/>
+    <Instrument name="Big Lead" prgChg="82"/>
+    <Instrument name="Dist.Ld1" prgChg="85"/>
+    <Instrument name="BigFives" prgChg="87"/>
+    <Instrument name="Big38;Raw" prgChg="88"/>
+    <Instrument name="ThickPad" prgChg="90"/>
+    <Instrument name="80'sPoly" prgChg="91"/>
+    <Instrument name="PannrPad" prgChg="94"/>
+    <Instrument name="PolarPad" prgChg="96"/>
+    <Instrument name="Ancestrl" prgChg="98"/>
+    <Instrument name="EchoPan2" prgChg="103"/>
+    <Instrument name="Wah Gt." prgChg="121"/>
+    <Instrument name="Random" prgChg="126"/>
+  </Section>
+  <Section name="E.Piano 3" bankHigh="65" bankLow="0" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="60's EP2" prgChg="5"/>
+    <Instrument name="Br.FM EP" prgChg="6"/>
+    <Instrument name="Detune88" prgChg="17"/>
+    <Instrument name="12strGt2" prgChg="26"/>
+    <Instrument name="MutedGt3" prgChg="29"/>
+    <Instrument name="FbOvdrGt" prgChg="30"/>
+    <Instrument name="Fb.HvyGt" prgChg="31"/>
+    <Instrument name="El.Ac.Bs" prgChg="33"/>
+    <Instrument name="FunkBass" prgChg="34"/>
+    <Instrument name="MutPkBs1" prgChg="35"/>
+    <Instrument name="ResoSlap" prgChg="35"/>
+    <Instrument name="TB303Bs2" prgChg="39"/>
+    <Instrument name="SH101Bs2" prgChg="40"/>
+    <Instrument name="OB Str." prgChg="51"/>
+    <Instrument name="Poly Brs" prgChg="63"/>
+    <Instrument name="VeloBrs1" prgChg="64"/>
+    <Instrument name="WaspySyn" prgChg="82"/>
+    <Instrument name="Dist.Ld2" prgChg="85"/>
+    <Instrument name="Fat38;Perky" prgChg="88"/>
+    <Instrument name="Horn Pad" prgChg="90"/>
+    <Instrument name="Converge" prgChg="96"/>
+    <Instrument name="Prologue" prgChg="98"/>
+    <Instrument name="BigPannr" prgChg="103"/>
+    <Instrument name="Gt.Slide" prgChg="121"/>
+  </Section>
+  <Section name="E.Piano 4" bankHigh="66" bankLow="0" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="Rhodes" prgChg="5"/>
+    <Instrument name="Mixed Or" prgChg="17"/>
+    <Instrument name="Nyln+Stl" prgChg="26"/>
+    <Instrument name="Pop Gt." prgChg="29"/>
+    <Instrument name="MutDstGt" prgChg="31"/>
+    <Instrument name="ReggaeBs" prgChg="34"/>
+    <Instrument name="MutPkBs2" prgChg="35"/>
+    <Instrument name="SlapBs4" prgChg="35"/>
+    <Instrument name="TB303Bs3" prgChg="39"/>
+    <Instrument name="SH101Bs3" prgChg="40"/>
+    <Instrument name="QuackBrs" prgChg="63"/>
+    <Instrument name="VeloBrs2" prgChg="64"/>
+    <Instrument name="ResPannr" prgChg="103"/>
+    <Instrument name="GtScrtch" prgChg="121"/>
+  </Section>
+  <Section name="Guitar" bankHigh="40" bankLow="0" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="NylonGt3" prgChg="25"/>
+  </Section>
+  <Section name="Organ" bankHigh="32" bankLow="0" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="Organ 4" prgChg="17"/>
+    <Instrument name="Organ 5" prgChg="18"/>
+    <Instrument name="NylonGt2" prgChg="25"/>
+    <Instrument name="ChoirAh2" prgChg="53"/>
+  </Section>
+  <Section name="Organ 2" bankHigh="67" bankLow="0" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="SC88 Or4" prgChg="17"/>
+    <Instrument name="Funk Gt3" prgChg="29"/>
+    <Instrument name="RckRhytm" prgChg="31"/>
+    <Instrument name="P5 Bass" prgChg="39"/>
+    <Instrument name="ModulrBs" prgChg="40"/>
+    <Instrument name="OctavBrs" prgChg="63"/>
+    <Instrument name="Bs.Slide" prgChg="121"/>
+  </Section>
+  <Section name="Organ 3" bankHigh="68" bankLow="0" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="Even Bar" prgChg="17"/>
+    <Instrument name="Funk Gt4" prgChg="29"/>
+  </Section>
+  <Section name="Piano" bankHigh="0" bankLow="0" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="Piano 1" prgChg="1"/>
+    <Instrument name="Piano 2" prgChg="2"/>
+    <Instrument name="Piano 3" prgChg="3"/>
+    <Instrument name="Honky." prgChg="4"/>
+    <Instrument name="E.Piano1" prgChg="5"/>
+    <Instrument name="E.Piano2" prgChg="6"/>
+    <Instrument name="Harpsi." prgChg="7"/>
+    <Instrument name="Clav." prgChg="8"/>
+    <Instrument name="Celesta" prgChg="9"/>
+    <Instrument name="Glocken" prgChg="10"/>
+    <Instrument name="MusicBox" prgChg="11"/>
+    <Instrument name="Vibraphn" prgChg="12"/>
+    <Instrument name="Marimba" prgChg="13"/>
+    <Instrument name="Xylophone" prgChg="14"/>
+    <Instrument name="Tublrbel" prgChg="15"/>
+    <Instrument name="Santur" prgChg="16"/>
+    <Instrument name="Organ 1" prgChg="17"/>
+    <Instrument name="Organ 2" prgChg="18"/>
+    <Instrument name="Organ 3" prgChg="19"/>
+    <Instrument name="ChrchOr1" prgChg="20"/>
+    <Instrument name="Reed Org" prgChg="21"/>
+    <Instrument name="Acord.Fr" prgChg="22"/>
+    <Instrument name="Harmnica" prgChg="23"/>
+    <Instrument name="Bandneon" prgChg="24"/>
+    <Instrument name="Nylon Gt" prgChg="25"/>
+    <Instrument name="Steel Gt" prgChg="26"/>
+    <Instrument name="Jazz Gt." prgChg="27"/>
+    <Instrument name="Clean Gt" prgChg="28"/>
+    <Instrument name="Muted Gt" prgChg="29"/>
+    <Instrument name="OvrdrvGt" prgChg="30"/>
+    <Instrument name="Dist.Gtr" prgChg="31"/>
+    <Instrument name="GtHarmo" prgChg="32"/>
+    <Instrument name="Acous.Bs" prgChg="33"/>
+    <Instrument name="FingerBs" prgChg="34"/>
+    <Instrument name="PickedBs" prgChg="35"/>
+    <Instrument name="Fretless" prgChg="36"/>
+    <Instrument name="SlapBs1" prgChg="37"/>
+    <Instrument name="Slap Bs2" prgChg="38"/>
+    <Instrument name="SynthBs1" prgChg="39"/>
+    <Instrument name="SynthBs2" prgChg="40"/>
+    <Instrument name="Violin" prgChg="41"/>
+    <Instrument name="Viola" prgChg="42"/>
+    <Instrument name="Cello" prgChg="43"/>
+    <Instrument name="Contrabs" prgChg="44"/>
+    <Instrument name="TrmloStr" prgChg="45"/>
+    <Instrument name="Pizz.Str" prgChg="46"/>
+    <Instrument name="Harp" prgChg="47"/>
+    <Instrument name="Timpani" prgChg="48"/>
+    <Instrument name="Strings" prgChg="49"/>
+    <Instrument name="Slow Strings" prgChg="50"/>
+    <Instrument name="Syn.Str1" prgChg="51"/>
+    <Instrument name="Syn.Str2" prgChg="52"/>
+    <Instrument name="ChoirAah" prgChg="53"/>
+    <Instrument name="Voice Ooh" prgChg="54"/>
+    <Instrument name="SynVox" prgChg="55"/>
+    <Instrument name="Orch.Hit" prgChg="56"/>
+    <Instrument name="Trumpet" prgChg="57"/>
+    <Instrument name="Trombone" prgChg="58"/>
+    <Instrument name="Tuba" prgChg="59"/>
+    <Instrument name="MutedTpt" prgChg="60"/>
+    <Instrument name="Fr.Horn1" prgChg="61"/>
+    <Instrument name="Brass 1" prgChg="62"/>
+    <Instrument name="SynBrs.1" prgChg="63"/>
+    <Instrument name="SynBrs.2" prgChg="64"/>
+    <Instrument name="Sop.Sax" prgChg="65"/>
+    <Instrument name="Alto Sax" prgChg="66"/>
+    <Instrument name="TenorSax" prgChg="67"/>
+    <Instrument name="Bari.Sax" prgChg="68"/>
+    <Instrument name="Oboe" prgChg="69"/>
+    <Instrument name="Eng.Horn" prgChg="70"/>
+    <Instrument name="Bassoon" prgChg="71"/>
+    <Instrument name="Clarinet" prgChg="72"/>
+    <Instrument name="Piccolo" prgChg="73"/>
+    <Instrument name="Flute" prgChg="74"/>
+    <Instrument name="Recorder" prgChg="75"/>
+    <Instrument name="PanFlute" prgChg="76"/>
+    <Instrument name="BttleBlw" prgChg="77"/>
+    <Instrument name="Shaku." prgChg="78"/>
+    <Instrument name="Whistle" prgChg="79"/>
+    <Instrument name="Ocarina" prgChg="80"/>
+    <Instrument name="SquarWav" prgChg="81"/>
+    <Instrument name="Saw Wave" prgChg="82"/>
+    <Instrument name="SynCalio" prgChg="83"/>
+    <Instrument name="Chiffer" prgChg="84"/>
+    <Instrument name="Charang" prgChg="85"/>
+    <Instrument name="Solo Vox" prgChg="86"/>
+    <Instrument name="5th Saw" prgChg="87"/>
+    <Instrument name="Bs.38;Lead" prgChg="88"/>
+    <Instrument name="Fantasia" prgChg="89"/>
+    <Instrument name="Warm Pad" prgChg="90"/>
+    <Instrument name="Polysyn" prgChg="91"/>
+    <Instrument name="SpaceVox" prgChg="92"/>
+    <Instrument name="Bow.Glas" prgChg="93"/>
+    <Instrument name="MetalPad" prgChg="94"/>
+    <Instrument name="Halo Pad" prgChg="95"/>
+    <Instrument name="SweepPad" prgChg="96"/>
+    <Instrument name="Ice Rain" prgChg="97"/>
+    <Instrument name="Soundtrack" prgChg="98"/>
+    <Instrument name="Crystal" prgChg="99"/>
+    <Instrument name="Atmosphere" prgChg="100"/>
+    <Instrument name="Britenis" prgChg="101"/>
+    <Instrument name="Goblin" prgChg="102"/>
+    <Instrument name="EchoDrop" prgChg="103"/>
+    <Instrument name="Star Thme" prgChg="104"/>
+    <Instrument name="Sitar" prgChg="105"/>
+    <Instrument name="Banjo" prgChg="106"/>
+    <Instrument name="Shamisen" prgChg="107"/>
+    <Instrument name="Koto" prgChg="108"/>
+    <Instrument name="Kalimba" prgChg="109"/>
+    <Instrument name="Bagpipe" prgChg="110"/>
+    <Instrument name="Fiddle" prgChg="111"/>
+    <Instrument name="Shanai" prgChg="112"/>
+    <Instrument name="TinklBell" prgChg="113"/>
+    <Instrument name="Agogo" prgChg="114"/>
+    <Instrument name="SteelDrm" prgChg="115"/>
+    <Instrument name="Woodblck" prgChg="116"/>
+    <Instrument name="Taiko" prgChg="117"/>
+    <Instrument name="MeloTom1" prgChg="118"/>
+    <Instrument name="SynthDrm" prgChg="119"/>
+    <Instrument name="RevrsCym" prgChg="120"/>
+    <Instrument name="FretNoiz" prgChg="121"/>
+    <Instrument name="BrthNoiz" prgChg="122"/>
+    <Instrument name="Seashore" prgChg="123"/>
+    <Instrument name="Bird" prgChg="124"/>
+    <Instrument name="Telephn1" prgChg="125"/>
+    <Instrument name="Helicptr" prgChg="126"/>
+    <Instrument name="Applause" prgChg="127"/>
+    <Instrument name="Gun Shot" prgChg="128"/>
+  </Section>
+  <Section name="Piano 2" bankHigh="8" bankLow="0" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="Piano 1w" prgChg="1"/>
+    <Instrument name="Piano 2w" prgChg="2"/>
+    <Instrument name="Piano 3w" prgChg="3"/>
+    <Instrument name="Honky.w" prgChg="4"/>
+    <Instrument name="Detuned1" prgChg="5"/>
+    <Instrument name="Detuned2" prgChg="6"/>
+    <Instrument name="Coupld H" prgChg="7"/>
+    <Instrument name="Vib.w" prgChg="12"/>
+    <Instrument name="Marimba.w" prgChg="13"/>
+    <Instrument name="ChrchBel" prgChg="15"/>
+    <Instrument name="Detuned1" prgChg="17"/>
+    <Instrument name="Detuned2" prgChg="18"/>
+    <Instrument name="ChrchOr2" prgChg="20"/>
+    <Instrument name="Acord.It" prgChg="22"/>
+    <Instrument name="Ukulele" prgChg="25"/>
+    <Instrument name="12str.Gt" prgChg="26"/>
+    <Instrument name="Hawai.Gt" prgChg="27"/>
+    <Instrument name="ChorusGt" prgChg="28"/>
+    <Instrument name="Funk Gt." prgChg="29"/>
+    <Instrument name="FeedbkGt" prgChg="31"/>
+    <Instrument name="GtFeedbk" prgChg="32"/>
+    <Instrument name="SynthBs3" prgChg="39"/>
+    <Instrument name="SynthBs4" prgChg="40"/>
+    <Instrument name="Slow Vln" prgChg="41"/>
+    <Instrument name="Orchestra" prgChg="49"/>
+    <Instrument name="Syn.Str3" prgChg="51"/>
+    <Instrument name="Brass 2" prgChg="62"/>
+    <Instrument name="SynBrs.3" prgChg="63"/>
+    <Instrument name="SynBrs.4" prgChg="64"/>
+    <Instrument name="SineWave" prgChg="81"/>
+    <Instrument name="Doctor Solo" prgChg="82"/>
+    <Instrument name="Taisho K" prgChg="108"/>
+    <Instrument name="Castanet" prgChg="116"/>
+    <Instrument name="ConcertBD" prgChg="117"/>
+    <Instrument name="MeloTom2" prgChg="118"/>
+    <Instrument name="808 Tom" prgChg="119"/>
+    <Instrument name="Starship" prgChg="126"/>
+  </Section>
+  <Section name="Piano 3" bankHigh="16" bankLow="0" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="Piano 1d" prgChg="1"/>
+    <Instrument name="EP 1v" prgChg="5"/>
+    <Instrument name="EP 2v" prgChg="6"/>
+    <Instrument name="Harpsi.w" prgChg="7"/>
+    <Instrument name="60's Or1" prgChg="17"/>
+    <Instrument name="ChrchOr3" prgChg="20"/>
+    <Instrument name="NylonGt.o" prgChg="25"/>
+    <Instrument name="Mandolin" prgChg="26"/>
+    <Instrument name="Funk Gt2" prgChg="29"/>
+    <Instrument name="RubberBs" prgChg="40"/>
+    <Instrument name="AnlgBrs1" prgChg="63"/>
+    <Instrument name="AnlgBrs2" prgChg="64"/>
+  </Section>
+  <Section name="SFX" bankHigh="3" bankLow="0" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="Wind" prgChg="123"/>
+    <Instrument name="Bird 2" prgChg="124"/>
+    <Instrument name="Door" prgChg="125"/>
+    <Instrument name="Car-Pass" prgChg="126"/>
+    <Instrument name="Punch" prgChg="127"/>
+    <Instrument name="Explosin" prgChg="128"/>
+  </Section>
+  <Section name="SFX 2" bankHigh="4" bankLow="0" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="Stream" prgChg="123"/>
+    <Instrument name="Scratch" prgChg="125"/>
+    <Instrument name="CarCrash" prgChg="126"/>
+    <Instrument name="HartBeat" prgChg="127"/>
+  </Section>
+  <Section name="SFX 3" bankHigh="5" bankLow="0" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="Bubble" prgChg="123"/>
+    <Instrument name="WndChime" prgChg="125"/>
+    <Instrument name="Siren" prgChg="126"/>
+    <Instrument name="Footstep" prgChg="127"/>
+  </Section>
+  <Section name="SFX 4" bankHigh="6" bankLow="0" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="Train" prgChg="126"/>
+  </Section>
+  <Section name="SFX 5" bankHigh="7" bankLow="0" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="Jetplane" prgChg="126"/>
+  </Section>
+  <Section name="Syn. SFX" bankHigh="2" bankLow="0" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="EchoPan1" prgChg="103"/>
+    <Instrument name="Str. Slap" prgChg="121"/>
+    <Instrument name="Thunder" prgChg="123"/>
+    <Instrument name="HrsGalop" prgChg="124"/>
+    <Instrument name="DoorCrek" prgChg="125"/>
+    <Instrument name="Car-Stop" prgChg="126"/>
+    <Instrument name="Screaming" prgChg="127"/>
+    <Instrument name="Lasergun" prgChg="128"/>
+  </Section>
+  <Section name="Syn.Bass" bankHigh="1" bankLow="0" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="SynBs101" prgChg="39"/>
+    <Instrument name="Trombone 2" prgChg="58"/>
+    <Instrument name="Fr.Horn2" prgChg="61"/>
+    <Instrument name="Square" prgChg="81"/>
+    <Instrument name="Saw" prgChg="82"/>
+    <Instrument name="SynMalet" prgChg="99"/>
+    <Instrument name="EchoBell" prgChg="103"/>
+    <Instrument name="Sitar 2" prgChg="105"/>
+    <Instrument name="CutNoise" prgChg="121"/>
+    <Instrument name="KeyClick" prgChg="122"/>
+    <Instrument name="Rain" prgChg="123"/>
+    <Instrument name="Dog" prgChg="124"/>
+    <Instrument name="Telephn2" prgChg="125"/>
+    <Instrument name="CarEngin" prgChg="126"/>
+    <Instrument name="Laughing" prgChg="127"/>
+    <Instrument name="MachnGun" prgChg="128"/>
+  </Section>
+</Instruments>
+</VSTNameDocument>
+

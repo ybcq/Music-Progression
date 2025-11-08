@@ -1,0 +1,118 @@
+﻿<html>
+	
+<head>
+	<title>Real Time Recording</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("RealTimeRecording");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Real Time Recording</h1>
+				
+				</div>
+			<div id="topic_header_nav">
+				<a href="HowdoIcreatecopyrightandtrademar.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="PunchRecording.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<h1 class="rvps25"><span class="rvts0"><span class="rvts40">Real Time Recording</span></span></h1>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Using a MIDI controller, you can record MIDI data directly into Overture. The following sections discuss the process.</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Basic Setup</span></p>
+<p class="rvps2"><span class="rvts6">Before you record your first track, you need to make sure that your hardware is connected and that all the software is configured properly. To do so:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Make sure you have a MIDI controller and sound source connected to a MIDI interface, and that the interface is connected to your computer properly. </span></span></li>
+<li value="2" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Choose </span></span><span class="rvts0"><span class="rvts12">Audio/MIDI&gt;MIDI Settings</span></span><span class="rvts0"><span class="rvts6">.</span></span><br/><span class="rvts0"><span class="rvts6">Overture opens the MIDI Settings dialog box. </span></span></li>
+<li value="3" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Select your MIDI controller as an input port in the Input Devices section.</span></span><br/><span class="rvts0"><span class="rvts6">To check if the device is working correctly, play a note on your MIDI keyboard. The box to the right of the device should turn red.</span></span></li>
+<li value="4" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Click </span></span><span class="rvts0"><span class="rvts12">Done</span></span><span class="rvts0"><span class="rvts6">. </span></span></li>
+</ol>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Setting Metronome and Record Options</span></p>
+<p class="rvps2"><span class="rvts6">Next, you must make decisions concerning metronome use, voice assignments, and other recording options. To do so:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">From the </span></span><span class="rvts0"><span class="rvts12">Options&gt;Metronome</span></span><span class="rvts0"><span class="rvts6"> sub menu, select if and when you want the metronome to click.</span></span><br/><span class="rvts0"><span class="rvts6">If you select </span></span><span class="rvts0"><span class="rvts12">Click in Record</span></span><span class="rvts0"><span class="rvts6">, Overture's metronome clicks for a 1-bar count off and throughout the entire recording. If you select </span></span><span class="rvts0"><span class="rvts12">Click in Count Off</span></span><span class="rvts0"><span class="rvts6"> Overture's metronome clicks only during the count off measure. If you don't select either option, Overture does not play a one-bar count off before recording and the metronome does not click at all while Overture records. </span></span></li>
+<li value="2" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">If you decide you want Overture to transcribe the music automatically, select a transcription quantize value with the Tool Bar's Transcription Quantize Amount button.</span></span><br/><span class="rvts0"><span class="rvts6">For details, see </span></span><span class="rvts0"><a class="rvts11" href="TheControlbar.html">Transcription Quantize Button</a></span><span class="rvts0"><span class="rvts6">. </span></span></li>
+<li value="3" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Decide whether or not to check the </span></span><span class="rvts0"><span class="rvts12">Options&gt;Keyboard Thru</span></span><span class="rvts0"><span class="rvts6"> option.</span></span><br/><span class="rvts0"><span class="rvts6">This feature allows you to play a master MIDI controller and hear the output from any sound module in your studio. Generally, you should select this option if your MIDI controller and sound module are separate instruments (or you use a multi-timbral keyboard synth with its local control turned off). You should uncheck this option if you're using a single keyboard synthesizer and its Local Control is turned on. For more information, see </span></span><span class="rvts0"><a class="rvts11" href="KeyboardThru.html">Keyboard Thru</a></span><span class="rvts0"><span class="rvts6">. </span></span></li>
+<li value="4" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Using the pop-up menu at the bottom of the Score View, select a Voice to record. </span></span></li>
+<li value="5" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Choose </span></span><span class="rvts0"><span class="rvts12">Options&gt;Record Options</span></span><span class="rvts0"><span class="rvts6">.</span></span><br/><span class="rvts0"><span class="rvts6">Overture opens the Record Options dialog box. </span></span></li>
+<li value="6" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Select the desired record options, then click the </span></span><span class="rvts0"><span class="rvts12">OK</span></span><span class="rvts0"><span class="rvts6"> button. </span></span></li>
+</ol>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">We discuss the Record Options dialog box in </span><a class="rvts11" href="RealTimeRecording.html">Record Options</a><span class="rvts6">.</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Recording</span></p>
+<p class="rvps2"><span class="rvts6">You're ready to start recording tracks. To do so:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ol style="text-indent: 0px; margin-left: 48px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">In the Score View, click the measure and staff at which you want recording to begin. </span></span></li>
+<li value="2" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">In the Transport controls, click the Record button, or press </span></span><span class="rvts0"><span class="rvts12">tab</span></span><span class="rvts0"><span class="rvts6">.</span></span><br/><span class="rvts0"><span class="rvts6">If you checked either the </span></span><span class="rvts0"><span class="rvts12">Click in Record</span></span><span class="rvts0"><span class="rvts6"> or </span></span><span class="rvts0"><span class="rvts12">Click in Count Off</span></span><span class="rvts0"><span class="rvts6"> options in the </span></span><span class="rvts0"><span class="rvts12">Options&gt;Metronome</span></span><span class="rvts0"><span class="rvts6"> sub menu, Overture counts off for one measure, then begins to record. If you didn't check any count off options, Overture begins to record immediately. </span></span></li>
+<li value="3" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Play your MIDI controller. </span></span></li>
+<li value="4" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">When you're finished recording, click the Stop button in the Transport controls, or press Enter. </span></span></li>
+</ol>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Overture records the MIDI data and transcribes it in the Score View. Overture automatically transcribes the music using the transcription quantize amount set with the Tool Bar's Transcription Quantize Amount button.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

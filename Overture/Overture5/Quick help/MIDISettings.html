@@ -1,0 +1,97 @@
+﻿<html>
+	
+<head>
+	<title>MIDI Settings</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("MIDISettings");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">MIDI Settings</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="OvertureMenus.html">Overture Menus</a> &rsaquo;&rsaquo; <a href="AudioMIDI.html">Audio/MIDI</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="AudioMIDI.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="AudioSettings.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="PluginManager.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<h6 class="rvps14"><span class="rvts0"><span class="rvts22">Audio/MIDI&gt;MIDI Settings</span></span></h6>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Choose this command to setup your MIDI devices.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">When you choose the MIDI Settings command, an </span><span class="rvts12">MIDI Settings</span><span class="rvts6"> dialog box appears. </span></p>
+<p class="rvps2"><span class="rvts6">There are several elements in the MIDI Settings dialog box. These are described, below:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Input Devices -</span><span class="rvts6"> Click on the Enable/Disable field next to a MIDI device to enable/disable the MIDI device. To test the device play a note on your keyboard and the box to the right of the device should blink red.</span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Output</span><span class="rvts6"> </span><span class="rvts12">Devices</span><span class="rvts6"> - Click on the Enable/Disable field next to a MIDI device to enable/disable the MIDI device. To test the device click on the arrow to the right of the device. You should hear a MIDI note.</span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Instrument Name</span><span class="rvts6"> - Choose the Instrument definition file that corresponds to your MIDI device. If you do not see a definition file, then use the General MIDI definition file as a default. Oveture uses Instrument Definition files when choosing instruments for tracks.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">NOTE</span><span class="rvts6">: If you do not see your MIDI device in the list, check the connection and try rebooting Overture. Overture retrieves the list of MIDI devices from the operating system.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

@@ -1,0 +1,115 @@
+<VSTNameDocument>
+	<Version>1</Version>
+	<Author>GenieSoft,Inc.</Author>
+
+		<Device name="Lyrical Distortion">   
+
+			<ControllerNames>
+				<Controller name="Modulation" cc="1"/>
+				<Controller name="Volume" cc="7"/>
+ 				<Controller name="Panning" cc="10"/>
+ 				<Controller name="Sustain" cc="64"/>
+				
+				<ControllerSwitchList name="LD General">
+					<Controller name="Filter" cc="1"/>
+					<Controller name="Volume" cc="7"/>
+ 					<Controller name="Panning" cc="10"/>
+ 					<Controller name="Sustain" cc="64"/>
+				</ControllerSwitchList>
+			</ControllerNames>  
+			
+			<Instruments>
+				<Section name="LD - Guitar 1" clef="treble" title="Electric Guitar" abbr="Gtr." lownote="a1" highnote="e6">
+					<UsesControllerSwitchList name="LD General"/>
+					<Instrument name="G1 finger noise C" />
+					<Instrument name="G1 finger noise release C" />
+					<Instrument name="G1 finger noise release" />
+					<Instrument name="G1 finger noise" />
+					<Instrument name="G1 fx C" />
+					<Instrument name="G1 fx end C" />
+					<Instrument name="G1 fx end" />
+					<Instrument name="G1 fx" />
+					<Instrument name="G1 hammer C" />
+					<Instrument name="G1 hammer" />
+					<Instrument name="G1 muted strings d and u RR C" />
+					<Instrument name="G1 muted strings d and u RR" />
+					<Instrument name="G1 muted strings dn C" />
+					<Instrument name="G1 muted strings dn" />
+					<Instrument name="G1 muted strings up C" />
+					<Instrument name="G1 muted strings up" />
+					<Instrument name="G1 palm hammer C" />
+					<Instrument name="G1 palm hammer" />
+					<Instrument name="G1 palm pick C" />
+					<Instrument name="G1 palm pick" />
+					<Instrument name="G1 pick C" />
+					<Instrument name="G1 pick whammy C" />
+					<Instrument name="G1 pick whammy" />
+					<Instrument name="G1 pick" />
+					<Instrument name="G1 powerch C" lownote="a1" highnote="c#4" pitch="-12"/>
+					<Instrument name="G1 powerch hammer C" lownote="a1" highnote="c#4" pitch="-12"/>
+					<Instrument name="G1 powerch hammer" lownote="a1" highnote="c#4" pitch="-12"/>
+					<Instrument name="G1 powerch palm C" lownote="a1" highnote="c#4" pitch="-12"/>
+					<Instrument name="G1 powerch palm hammer C" lownote="a1" highnote="c#4" pitch="-12"/>
+					<Instrument name="G1 powerch palm hammer" lownote="a1" highnote="c#4" pitch="-12"/>
+					<Instrument name="G1 powerch palm" lownote="a1" highnote="c#4" pitch="-12"/>
+					<Instrument name="G1 powerch" lownote="a1" highnote="c#4" pitch="-12"/>
+					<Instrument name="G1 release C" />
+					<Instrument name="G1 release" />
+					<Instrument name="G1_palm_pick_C_-_Esteo" />
+				</Section>
+				
+				<Section name="LD - Guitar 2" clef="treble" title="Electric Guitar" abbr="Gtr." lownote="a1" highnote="e6">
+				<UsesControllerSwitchList name="LD General"/>		
+					<Instrument name="G2 finger noise C" />
+					<Instrument name="G2 finger noise release C" />
+					<Instrument name="G2 finger noise release" />
+					<Instrument name="G2 finger noise" />
+					<Instrument name="G2 fx C" />
+					<Instrument name="G2 fx end C" />
+					<Instrument name="G2 fx end" />
+					<Instrument name="G2 fx" />
+					<Instrument name="G2 hammer C" />
+					<Instrument name="G2 hammer" />
+					<Instrument name="G2 muted strings d and u RR C" />
+					<Instrument name="G2 muted strings d and u RR" />
+					<Instrument name="G2 muted strings dn C" />
+					<Instrument name="G2 muted strings dn" />
+					<Instrument name="G2 muted strings up C" />
+					<Instrument name="G2 muted strings up" />
+					<Instrument name="G2 palm hammer C" />
+					<Instrument name="G2 palm hammer" />
+					<Instrument name="G2 palm pick C" />
+					<Instrument name="G2 palm pick" />
+					<Instrument name="G2 pick C" />
+					<Instrument name="G2 pick whammy C" />
+					<Instrument name="G2 pick whammy" />
+					<Instrument name="G2 pick" />
+					<Instrument name="G2 powerch C" lownote="a1" highnote="c#4" pitch="-12"/>
+					<Instrument name="G2 powerch hammer C" lownote="a1" highnote="c#4" pitch="-12"/>
+					<Instrument name="G2 powerch hammer" lownote="a1" highnote="c#4" pitch="-12"/>
+					<Instrument name="G2 powerch palm C" lownote="a1" highnote="c#4" pitch="-12"/>
+					<Instrument name="G2 powerch palm hammer C" lownote="a1" highnote="c#4" pitch="-12"/>
+					<Instrument name="G2 powerch palm hammer" lownote="a1" highnote="c#4" pitch="-12"/>
+					<Instrument name="G2 powerch palm" lownote="a1" highnote="c#4" pitch="-12"/>
+					<Instrument name="G2 powerch" lownote="a1" highnote="c#4" pitch="-12"/>
+					<Instrument name="G2 release C" />
+					<Instrument name="G2 release" />
+				</Section>
+				
+				<Section name="LD - Multis" clef="treble" title="Electric Guitar" abbr="Gtr." lownote="a1" highnote="e6">
+				<UsesControllerSwitchList name="LD General"/>		
+					<Instrument name="Multi Double Pick and Mute" />
+					<Instrument name="Multi Double Pick and Release" />
+					<Instrument name="Multi Double Pick RLS and End FX" />
+					<Instrument name="Multi Double Power Chords with mutes" />
+					<Instrument name="Multi Full Power Hammer" />
+					<Instrument name="Multi FULL POWER" />
+					<Instrument name="Multi full stereo FX" />
+					<Instrument name="Multi Lead Sus Pedal with Mutes" />
+					<Instrument name="Multi Lead Sus Pedal" />
+				</Section>
+			</Instruments>
+				
+		</Device>
+
+</VSTNameDocument>

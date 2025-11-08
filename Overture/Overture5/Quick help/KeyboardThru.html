@@ -1,0 +1,103 @@
+﻿<html>
+	
+<head>
+	<title>Keyboard Thru</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("KeyboardThru");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Keyboard Thru</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="OvertureMenus.html">Overture Menus</a> &rsaquo;&rsaquo; <a href="OptionsMenu.html">Options Menu</a> &rsaquo;&rsaquo; <a href="MIDI.html">MIDI</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="MIDI.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="MIDI.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="SendLocalOn.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<h6 class="rvps14"><span class="rvts0"><span class="rvts22">Options&gt;MIDI&gt;Keyboard Thru</span></span></h6>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Select this option to enable Overture's Keyboard Thru feature. You may toggle this option on and off by selecting it repeatedly. When you check </span><span class="rvts12">Keyboard Thru</span><span class="rvts6">, Overture passes any received MIDI data through to the selected Thru Instrument. Overture watches for MIDI input from any device that you select as an Input Device and passes the MIDI data out to the current track's output device and channel.</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">What is Keyboard Thru and Why is it Useful?</span></p>
+<p class="rvps2"><span class="rvts6">The most common setup for a MIDI computer system uses a single MIDI keyboard connected to a computer by a MIDI interface.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">When you play the keyboard, its internal hardware produces sound. MIDI information travels from the keyboard's MIDI OUT. This path allows communication from the keyboard to the computer. </span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">When MIDI information goes from the computer through the MIDI interface into the keyboard's MIDI IN, the synthesizer produces sound. This path allows communication from the computer to the keyboard.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">This simple arrangement, allowing both the musician and the computer to play the keyboard, is not possible for MIDI instruments that don't produce their own on board sound, like wind, guitar, drum pad, and keyboard controllers.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">If you connect such a controller to a sound module, and the sound module through the MIDI interface to the computer, then there is no place to send the MIDI OUT of the MIDI interface.. No connection is possible for the computer to the sound module.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">When the controller plays, MIDI information goes to the sound module's MIDI IN causing the module to create sound. The sound module also routes MIDI information received at its MIDI IN back </span><span class="rvts17">out</span><span class="rvts6"> its MIDI Thru to the MIDI interface and computer. This path allows communication from the MIDI controller to the computer.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">The computer can not, however, play MIDI information back to the sound module because the module's MIDI IN connection is already in use by the MIDI controller.</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">The Solution: Keyboard Thru</span></p>
+<p class="rvps2"><span class="rvts6">This problem is solved when you select </span><span class="rvts12">Options&gt;Keyboard Thru</span><span class="rvts6">. Then the controller connects directly to the computer through the MIDI interface. MIDI information travels to the computer but creates no sound yet. Overture receives the incoming MIDI information but routes it immediately back to the sound module's MIDI IN through the MIDI interface. The controller plays the sound module through the software despite the lack of a direct connection between them. During playback, Overture sends MIDI information through the MIDI interface to the sound module's MIDI IN, causing it to produce sound.</span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

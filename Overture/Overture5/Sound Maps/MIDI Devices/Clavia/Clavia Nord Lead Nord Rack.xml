@@ -1,0 +1,657 @@
+
+<VSTNameDocument name="Clavia Nord Lead Nord Rack">
+<Version>1</Version>
+<Author>Sonic Scores</Author>
+<Device type="MIDI"/>
+<Instruments>
+  <Section name="Internal Programs" bankHigh="0" bankLow="0" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="Sawbrass" prgChg="1"/>
+    <Instrument name="Velocity strings" prgChg="2"/>
+    <Instrument name="Resonance pad" prgChg="3"/>
+    <Instrument name="Hard string pad" prgChg="4"/>
+    <Instrument name="Resonance fade pad" prgChg="5"/>
+    <Instrument name="Portamento quints" prgChg="6"/>
+    <Instrument name="A fifth pad" prgChg="7"/>
+    <Instrument name="Pulse pad with FM" prgChg="8"/>
+    <Instrument name="Weather bass" prgChg="9"/>
+    <Instrument name="Lead saw solo" prgChg="10"/>
+    <Instrument name="Soft saw lead" prgChg="11"/>
+    <Instrument name="Zyntar" prgChg="12"/>
+    <Instrument name="Arpeggiator down" prgChg="13"/>
+    <Instrument name="FM Metallic" prgChg="14"/>
+    <Instrument name="Attack bass" prgChg="15"/>
+    <Instrument name="Saw mono" prgChg="16"/>
+    <Instrument name="Osc 2 modulation" prgChg="17"/>
+    <Instrument name="Guitar 1" prgChg="18"/>
+    <Instrument name="Violin" prgChg="19"/>
+    <Instrument name="Source bass" prgChg="20"/>
+    <Instrument name="Perc Lead" prgChg="21"/>
+    <Instrument name="FM Clavinet" prgChg="22"/>
+    <Instrument name="Soft strings" prgChg="23"/>
+    <Instrument name="S/H techno" prgChg="24"/>
+    <Instrument name="Resonance sweep" prgChg="25"/>
+    <Instrument name="Phaser" prgChg="26"/>
+    <Instrument name="Brite pad" prgChg="27"/>
+    <Instrument name="Analog grand" prgChg="28"/>
+    <Instrument name="Electric piano 1" prgChg="29"/>
+    <Instrument name="Random Arpeggiator" prgChg="30"/>
+    <Instrument name="Clarinet" prgChg="31"/>
+    <Instrument name="Didjeridu" prgChg="32"/>
+    <Instrument name="Sax" prgChg="33"/>
+    <Instrument name="String pad" prgChg="34"/>
+    <Instrument name="Solo pulse" prgChg="35"/>
+    <Instrument name="Space pad" prgChg="36"/>
+    <Instrument name="Sample/hold" prgChg="37"/>
+    <Instrument name="Saw legato solo" prgChg="38"/>
+    <Instrument name="Echo sound" prgChg="39"/>
+    <Instrument name="Pulse solo" prgChg="40"/>
+    <Instrument name="Soft strings2" prgChg="41"/>
+    <Instrument name="Majesty" prgChg="42"/>
+    <Instrument name="Glass brass" prgChg="43"/>
+    <Instrument name="Gimme 5" prgChg="44"/>
+    <Instrument name="Flute choir" prgChg="45"/>
+    <Instrument name="Brass Comp" prgChg="46"/>
+    <Instrument name="Sync sweep" prgChg="47"/>
+    <Instrument name="Synth strings" prgChg="48"/>
+    <Instrument name="Trumpets" prgChg="49"/>
+    <Instrument name="Duke" prgChg="50"/>
+    <Instrument name="Dirty FM" prgChg="51"/>
+    <Instrument name="Space clavinet" prgChg="52"/>
+    <Instrument name="Resonant saw" prgChg="53"/>
+    <Instrument name="FM lead" prgChg="54"/>
+    <Instrument name="Talking clavinet" prgChg="55"/>
+    <Instrument name="Saw ring" prgChg="56"/>
+    <Instrument name="Eraser" prgChg="57"/>
+    <Instrument name="Take the fifth" prgChg="58"/>
+    <Instrument name="Echo pad" prgChg="59"/>
+    <Instrument name="Yeow!" prgChg="60"/>
+    <Instrument name="Syncher" prgChg="61"/>
+    <Instrument name="Low bass" prgChg="62"/>
+    <Instrument name="water bass" prgChg="63"/>
+    <Instrument name="Pick bass" prgChg="64"/>
+    <Instrument name="FM morph bass" prgChg="65"/>
+    <Instrument name="Acid 1" prgChg="66"/>
+    <Instrument name="Acid 2" prgChg="67"/>
+    <Instrument name="legato bass" prgChg="68"/>
+    <Instrument name="Black Hole" prgChg="69"/>
+    <Instrument name="Sub" prgChg="70"/>
+    <Instrument name="DB" prgChg="71"/>
+    <Instrument name="Widebody" prgChg="72"/>
+    <Instrument name="Fluff" prgChg="73"/>
+    <Instrument name="Steeldrums" prgChg="74"/>
+    <Instrument name="Wurz piano" prgChg="75"/>
+    <Instrument name="My Clav" prgChg="76"/>
+    <Instrument name="I bow" prgChg="77"/>
+    <Instrument name="Tack clav" prgChg="78"/>
+    <Instrument name="Span Eyes" prgChg="79"/>
+    <Instrument name="Floote" prgChg="80"/>
+    <Instrument name="Hamplafon" prgChg="81"/>
+    <Instrument name="Thumpinet" prgChg="82"/>
+    <Instrument name="Bell bar" prgChg="83"/>
+    <Instrument name="Flasholetts" prgChg="84"/>
+    <Instrument name="Rotator" prgChg="85"/>
+    <Instrument name="Tuba" prgChg="86"/>
+    <Instrument name="Trumpet" prgChg="87"/>
+    <Instrument name="English horn" prgChg="88"/>
+    <Instrument name="Metal Flute" prgChg="89"/>
+    <Instrument name="Voice" prgChg="90"/>
+    <Instrument name="FM horn" prgChg="91"/>
+    <Instrument name="Harpsichord" prgChg="92"/>
+    <Instrument name="Electric piano 2" prgChg="93"/>
+    <Instrument name="Musing" prgChg="94"/>
+    <Instrument name="Chang" prgChg="95"/>
+    <Instrument name="Ravi" prgChg="96"/>
+    <Instrument name="Guess!" prgChg="97"/>
+    <Instrument name="Tubular" prgChg="98"/>
+    <Instrument name="Waterhall" prgChg="99"/>
+    <Instrument name="Basic Kit 1" prgChg="100"/>
+    <Instrument name="Latin Kit 1" prgChg="101"/>
+    <Instrument name="Conga Kit" prgChg="102"/>
+    <Instrument name="808 Kit" prgChg="103"/>
+    <Instrument name="Basic Kit 2" prgChg="104"/>
+    <Instrument name="909 Kit 2" prgChg="105"/>
+    <Instrument name="Ethnic Kit" prgChg="106"/>
+    <Instrument name="Sonar Kit" prgChg="107"/>
+    <Instrument name="Latin Kit 2" prgChg="108"/>
+    <Instrument name="Techno Kit" prgChg="109"/>
+  </Section>
+  <Section name="Card Bank 1 Programs" bankHigh="0" bankLow="1" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="Program 01." prgChg="1"/>
+    <Instrument name="Program 02." prgChg="2"/>
+    <Instrument name="Program 03." prgChg="3"/>
+    <Instrument name="Program 04." prgChg="4"/>
+    <Instrument name="Program 05." prgChg="5"/>
+    <Instrument name="Program 06." prgChg="6"/>
+    <Instrument name="Program 07." prgChg="7"/>
+    <Instrument name="Program 08." prgChg="8"/>
+    <Instrument name="Program 09." prgChg="9"/>
+    <Instrument name="Program 10." prgChg="10"/>
+    <Instrument name="Program 11." prgChg="11"/>
+    <Instrument name="Program 12." prgChg="12"/>
+    <Instrument name="Program 13." prgChg="13"/>
+    <Instrument name="Program 14." prgChg="14"/>
+    <Instrument name="Program 15." prgChg="15"/>
+    <Instrument name="Program 16." prgChg="16"/>
+    <Instrument name="Program 17." prgChg="17"/>
+    <Instrument name="Program 18." prgChg="18"/>
+    <Instrument name="Program 19." prgChg="19"/>
+    <Instrument name="Program 20." prgChg="20"/>
+    <Instrument name="Program 21." prgChg="21"/>
+    <Instrument name="Program 22." prgChg="22"/>
+    <Instrument name="Program 23." prgChg="23"/>
+    <Instrument name="Program 24." prgChg="24"/>
+    <Instrument name="Program 25." prgChg="25"/>
+    <Instrument name="Program 26." prgChg="26"/>
+    <Instrument name="Program 27." prgChg="27"/>
+    <Instrument name="Program 28." prgChg="28"/>
+    <Instrument name="Program 29." prgChg="29"/>
+    <Instrument name="Program 30." prgChg="30"/>
+    <Instrument name="Program 31." prgChg="31"/>
+    <Instrument name="Program 32." prgChg="32"/>
+    <Instrument name="Program 33." prgChg="33"/>
+    <Instrument name="Program 34." prgChg="34"/>
+    <Instrument name="Program 35." prgChg="35"/>
+    <Instrument name="Program 36." prgChg="36"/>
+    <Instrument name="Program 37." prgChg="37"/>
+    <Instrument name="Program 38." prgChg="38"/>
+    <Instrument name="Program 39." prgChg="39"/>
+    <Instrument name="Program 40." prgChg="40"/>
+    <Instrument name="Program 41." prgChg="41"/>
+    <Instrument name="Program 42." prgChg="42"/>
+    <Instrument name="Program 43." prgChg="43"/>
+    <Instrument name="Program 44." prgChg="44"/>
+    <Instrument name="Program 45." prgChg="45"/>
+    <Instrument name="Program 46." prgChg="46"/>
+    <Instrument name="Program 47." prgChg="47"/>
+    <Instrument name="Program 48." prgChg="48"/>
+    <Instrument name="Program 49." prgChg="49"/>
+    <Instrument name="Program 50." prgChg="50"/>
+    <Instrument name="Program 51." prgChg="51"/>
+    <Instrument name="Program 52." prgChg="52"/>
+    <Instrument name="Program 53." prgChg="53"/>
+    <Instrument name="Program 54." prgChg="54"/>
+    <Instrument name="Program 55." prgChg="55"/>
+    <Instrument name="Program 56." prgChg="56"/>
+    <Instrument name="Program 57." prgChg="57"/>
+    <Instrument name="Program 58." prgChg="58"/>
+    <Instrument name="Program 59." prgChg="59"/>
+    <Instrument name="Program 60." prgChg="60"/>
+    <Instrument name="Program 61." prgChg="61"/>
+    <Instrument name="Program 62." prgChg="62"/>
+    <Instrument name="Program 63." prgChg="63"/>
+    <Instrument name="Program 64." prgChg="64"/>
+    <Instrument name="Program 65." prgChg="65"/>
+    <Instrument name="Program 66." prgChg="66"/>
+    <Instrument name="Program 67." prgChg="67"/>
+    <Instrument name="Program 68." prgChg="68"/>
+    <Instrument name="Program 69." prgChg="69"/>
+    <Instrument name="Program 70." prgChg="70"/>
+    <Instrument name="Program 71." prgChg="71"/>
+    <Instrument name="Program 72." prgChg="72"/>
+    <Instrument name="Program 73." prgChg="73"/>
+    <Instrument name="Program 74." prgChg="74"/>
+    <Instrument name="Program 75." prgChg="75"/>
+    <Instrument name="Program 76." prgChg="76"/>
+    <Instrument name="Program 77." prgChg="77"/>
+    <Instrument name="Program 78." prgChg="78"/>
+    <Instrument name="Program 79." prgChg="79"/>
+    <Instrument name="Program 80." prgChg="80"/>
+    <Instrument name="Program 81." prgChg="81"/>
+    <Instrument name="Program 82." prgChg="82"/>
+    <Instrument name="Program 83." prgChg="83"/>
+    <Instrument name="Program 84." prgChg="84"/>
+    <Instrument name="Program 85." prgChg="85"/>
+    <Instrument name="Program 86." prgChg="86"/>
+    <Instrument name="Program 87." prgChg="87"/>
+    <Instrument name="Program 88." prgChg="88"/>
+    <Instrument name="Program 89." prgChg="89"/>
+    <Instrument name="Program 90." prgChg="90"/>
+    <Instrument name="Program 91." prgChg="91"/>
+    <Instrument name="Program 92." prgChg="92"/>
+    <Instrument name="Program 03." prgChg="93"/>
+    <Instrument name="Program 94." prgChg="94"/>
+    <Instrument name="Program 95." prgChg="95"/>
+    <Instrument name="Program 96." prgChg="96"/>
+    <Instrument name="Program 97." prgChg="97"/>
+    <Instrument name="Program 08." prgChg="98"/>
+    <Instrument name="Program 99." prgChg="99"/>
+    <Instrument name="Perc. Kit P0." prgChg="100"/>
+    <Instrument name="Perc. Kit P1." prgChg="101"/>
+    <Instrument name="Perc. Kit P2." prgChg="102"/>
+    <Instrument name="Perc. Kit P3." prgChg="103"/>
+    <Instrument name="Perc. Kit P4." prgChg="104"/>
+    <Instrument name="Perc. Kit P5." prgChg="105"/>
+    <Instrument name="Perc. Kit P6." prgChg="106"/>
+    <Instrument name="Perc. Kit P7." prgChg="107"/>
+    <Instrument name="Perc. Kit P8." prgChg="108"/>
+    <Instrument name="Perc. Kit P9." prgChg="109"/>
+  </Section>
+  <Section name="Card Bank 2 Programs" bankHigh="0" bankLow="2" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="Program 0.1" prgChg="1"/>
+    <Instrument name="Program 0.2" prgChg="2"/>
+    <Instrument name="Program 0.3" prgChg="3"/>
+    <Instrument name="Program 0.4" prgChg="4"/>
+    <Instrument name="Program 0.5" prgChg="5"/>
+    <Instrument name="Program 0.6" prgChg="6"/>
+    <Instrument name="Program 0.7" prgChg="7"/>
+    <Instrument name="Program 0.8" prgChg="8"/>
+    <Instrument name="Program 0.9" prgChg="9"/>
+    <Instrument name="Program 1.0" prgChg="10"/>
+    <Instrument name="Program 1.1" prgChg="11"/>
+    <Instrument name="Program 1.2" prgChg="12"/>
+    <Instrument name="Program 1.3" prgChg="13"/>
+    <Instrument name="Program 1.4" prgChg="14"/>
+    <Instrument name="Program 1.5" prgChg="15"/>
+    <Instrument name="Program 1.6" prgChg="16"/>
+    <Instrument name="Program 1.7" prgChg="17"/>
+    <Instrument name="Program 1.8" prgChg="18"/>
+    <Instrument name="Program 1.9" prgChg="19"/>
+    <Instrument name="Program 2.0" prgChg="20"/>
+    <Instrument name="Program 2.1" prgChg="21"/>
+    <Instrument name="Program 2.2" prgChg="22"/>
+    <Instrument name="Program 2.3" prgChg="23"/>
+    <Instrument name="Program 2.4" prgChg="24"/>
+    <Instrument name="Program 2.5" prgChg="25"/>
+    <Instrument name="Program 2.6" prgChg="26"/>
+    <Instrument name="Program 2.7" prgChg="27"/>
+    <Instrument name="Program 2.8" prgChg="28"/>
+    <Instrument name="Program 2.9" prgChg="29"/>
+    <Instrument name="Program 3.0" prgChg="30"/>
+    <Instrument name="Program 3.1" prgChg="31"/>
+    <Instrument name="Program 3.2" prgChg="32"/>
+    <Instrument name="Program 3.3" prgChg="33"/>
+    <Instrument name="Program 3.4" prgChg="34"/>
+    <Instrument name="Program 3.5" prgChg="35"/>
+    <Instrument name="Program 3.6" prgChg="36"/>
+    <Instrument name="Program 3.7" prgChg="37"/>
+    <Instrument name="Program 3.8" prgChg="38"/>
+    <Instrument name="Program 3.9" prgChg="39"/>
+    <Instrument name="Program 4.0" prgChg="40"/>
+    <Instrument name="Program 4.1" prgChg="41"/>
+    <Instrument name="Program 4.2" prgChg="42"/>
+    <Instrument name="Program 4.3" prgChg="43"/>
+    <Instrument name="Program 4.4" prgChg="44"/>
+    <Instrument name="Program 4.5" prgChg="45"/>
+    <Instrument name="Program 4.6" prgChg="46"/>
+    <Instrument name="Program 4.7" prgChg="47"/>
+    <Instrument name="Program 4.8" prgChg="48"/>
+    <Instrument name="Program 4.9" prgChg="49"/>
+    <Instrument name="Program 5.0" prgChg="50"/>
+    <Instrument name="Program 5.1" prgChg="51"/>
+    <Instrument name="Program 5.2" prgChg="52"/>
+    <Instrument name="Program 5.3" prgChg="53"/>
+    <Instrument name="Program 5.4" prgChg="54"/>
+    <Instrument name="Program 5.5" prgChg="55"/>
+    <Instrument name="Program 5.6" prgChg="56"/>
+    <Instrument name="Program 5.7" prgChg="57"/>
+    <Instrument name="Program 5.8" prgChg="58"/>
+    <Instrument name="Program 5.9" prgChg="59"/>
+    <Instrument name="Program 6.0" prgChg="60"/>
+    <Instrument name="Program 6.1" prgChg="61"/>
+    <Instrument name="Program 6.2" prgChg="62"/>
+    <Instrument name="Program 6.3" prgChg="63"/>
+    <Instrument name="Program 6.4" prgChg="64"/>
+    <Instrument name="Program 6.5" prgChg="65"/>
+    <Instrument name="Program 6.6" prgChg="66"/>
+    <Instrument name="Program 6.7" prgChg="67"/>
+    <Instrument name="Program 6.8" prgChg="68"/>
+    <Instrument name="Program 6.9" prgChg="69"/>
+    <Instrument name="Program 7.0" prgChg="70"/>
+    <Instrument name="Program 7.1" prgChg="71"/>
+    <Instrument name="Program 7.2" prgChg="72"/>
+    <Instrument name="Program 7.3" prgChg="73"/>
+    <Instrument name="Program 7.4" prgChg="74"/>
+    <Instrument name="Program 7.5" prgChg="75"/>
+    <Instrument name="Program 7.6" prgChg="76"/>
+    <Instrument name="Program 7.7" prgChg="77"/>
+    <Instrument name="Program 7.8" prgChg="78"/>
+    <Instrument name="Program 7.9" prgChg="79"/>
+    <Instrument name="Program 8.0" prgChg="80"/>
+    <Instrument name="Program 8.1" prgChg="81"/>
+    <Instrument name="Program 8.2" prgChg="82"/>
+    <Instrument name="Program 8.3" prgChg="83"/>
+    <Instrument name="Program 8.4" prgChg="84"/>
+    <Instrument name="Program 8.5" prgChg="85"/>
+    <Instrument name="Program 8.6" prgChg="86"/>
+    <Instrument name="Program 8.7" prgChg="87"/>
+    <Instrument name="Program 8.8" prgChg="88"/>
+    <Instrument name="Program 8.9" prgChg="89"/>
+    <Instrument name="Program 9.0" prgChg="90"/>
+    <Instrument name="Program 9.1" prgChg="91"/>
+    <Instrument name="Program 9.2" prgChg="92"/>
+    <Instrument name="Program 0.3" prgChg="93"/>
+    <Instrument name="Program 9.4" prgChg="94"/>
+    <Instrument name="Program 9.5" prgChg="95"/>
+    <Instrument name="Program 9.6" prgChg="96"/>
+    <Instrument name="Program 9.7" prgChg="97"/>
+    <Instrument name="Program 0.8" prgChg="98"/>
+    <Instrument name="Program 9.9" prgChg="99"/>
+    <Instrument name="Perc. Kit P.0" prgChg="100"/>
+    <Instrument name="Perc. Kit P.1" prgChg="101"/>
+    <Instrument name="Perc. Kit P.2" prgChg="102"/>
+    <Instrument name="Perc. Kit P.3" prgChg="103"/>
+    <Instrument name="Perc. Kit P.4" prgChg="104"/>
+    <Instrument name="Perc. Kit P.5" prgChg="105"/>
+    <Instrument name="Perc. Kit P.6" prgChg="106"/>
+    <Instrument name="Perc. Kit P.7" prgChg="107"/>
+    <Instrument name="Perc. Kit P.8" prgChg="108"/>
+    <Instrument name="Perc. Kit P.9" prgChg="109"/>
+  </Section>
+  <Section name="Card Bank 3 Programs" bankHigh="0" bankLow="3" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="Program 0.1." prgChg="1"/>
+    <Instrument name="Program 0.2." prgChg="2"/>
+    <Instrument name="Program 0.3." prgChg="3"/>
+    <Instrument name="Program 0.4." prgChg="4"/>
+    <Instrument name="Program 0.5." prgChg="5"/>
+    <Instrument name="Program 0.6." prgChg="6"/>
+    <Instrument name="Program 0.7." prgChg="7"/>
+    <Instrument name="Program 0.8." prgChg="8"/>
+    <Instrument name="Program 0.9." prgChg="9"/>
+    <Instrument name="Program 1.0." prgChg="10"/>
+    <Instrument name="Program 1.1." prgChg="11"/>
+    <Instrument name="Program 1.2." prgChg="12"/>
+    <Instrument name="Program 1.3." prgChg="13"/>
+    <Instrument name="Program 1.4." prgChg="14"/>
+    <Instrument name="Program 1.5." prgChg="15"/>
+    <Instrument name="Program 1.6." prgChg="16"/>
+    <Instrument name="Program 1.7." prgChg="17"/>
+    <Instrument name="Program 1.8." prgChg="18"/>
+    <Instrument name="Program 1.9." prgChg="19"/>
+    <Instrument name="Program 2.0." prgChg="20"/>
+    <Instrument name="Program 2.1." prgChg="21"/>
+    <Instrument name="Program 2.2." prgChg="22"/>
+    <Instrument name="Program 2.3." prgChg="23"/>
+    <Instrument name="Program 2.4." prgChg="24"/>
+    <Instrument name="Program 2.5." prgChg="25"/>
+    <Instrument name="Program 2.6." prgChg="26"/>
+    <Instrument name="Program 2.7." prgChg="27"/>
+    <Instrument name="Program 2.8." prgChg="28"/>
+    <Instrument name="Program 2.9." prgChg="29"/>
+    <Instrument name="Program 3.0." prgChg="30"/>
+    <Instrument name="Program 3.1." prgChg="31"/>
+    <Instrument name="Program 3.2." prgChg="32"/>
+    <Instrument name="Program 3.3." prgChg="33"/>
+    <Instrument name="Program 3.4." prgChg="34"/>
+    <Instrument name="Program 3.5." prgChg="35"/>
+    <Instrument name="Program 3.6." prgChg="36"/>
+    <Instrument name="Program 3.7." prgChg="37"/>
+    <Instrument name="Program 3.8." prgChg="38"/>
+    <Instrument name="Program 3.9." prgChg="39"/>
+    <Instrument name="Program 4.0." prgChg="40"/>
+    <Instrument name="Program 4.1." prgChg="41"/>
+    <Instrument name="Program 4.2." prgChg="42"/>
+    <Instrument name="Program 4.3." prgChg="43"/>
+    <Instrument name="Program 4.4." prgChg="44"/>
+    <Instrument name="Program 4.5." prgChg="45"/>
+    <Instrument name="Program 4.6." prgChg="46"/>
+    <Instrument name="Program 4.7." prgChg="47"/>
+    <Instrument name="Program 4.8." prgChg="48"/>
+    <Instrument name="Program 4.9." prgChg="49"/>
+    <Instrument name="Program 5.0." prgChg="50"/>
+    <Instrument name="Program 5.1." prgChg="51"/>
+    <Instrument name="Program 5.2." prgChg="52"/>
+    <Instrument name="Program 5.3." prgChg="53"/>
+    <Instrument name="Program 5.4." prgChg="54"/>
+    <Instrument name="Program 5.5." prgChg="55"/>
+    <Instrument name="Program 5.6." prgChg="56"/>
+    <Instrument name="Program 5.7." prgChg="57"/>
+    <Instrument name="Program 5.8." prgChg="58"/>
+    <Instrument name="Program 5.9." prgChg="59"/>
+    <Instrument name="Program 6.0." prgChg="60"/>
+    <Instrument name="Program 6.1." prgChg="61"/>
+    <Instrument name="Program 6.2." prgChg="62"/>
+    <Instrument name="Program 6.3." prgChg="63"/>
+    <Instrument name="Program 6.4." prgChg="64"/>
+    <Instrument name="Program 6.5." prgChg="65"/>
+    <Instrument name="Program 6.6." prgChg="66"/>
+    <Instrument name="Program 6.7." prgChg="67"/>
+    <Instrument name="Program 6.8." prgChg="68"/>
+    <Instrument name="Program 6.9." prgChg="69"/>
+    <Instrument name="Program 7.0." prgChg="70"/>
+    <Instrument name="Program 7.1." prgChg="71"/>
+    <Instrument name="Program 7.2." prgChg="72"/>
+    <Instrument name="Program 7.3." prgChg="73"/>
+    <Instrument name="Program 7.4." prgChg="74"/>
+    <Instrument name="Program 7.5." prgChg="75"/>
+    <Instrument name="Program 7.6." prgChg="76"/>
+    <Instrument name="Program 7.7." prgChg="77"/>
+    <Instrument name="Program 7.8." prgChg="78"/>
+    <Instrument name="Program 7.9." prgChg="79"/>
+    <Instrument name="Program 8.0." prgChg="80"/>
+    <Instrument name="Program 8.1." prgChg="81"/>
+    <Instrument name="Program 8.2." prgChg="82"/>
+    <Instrument name="Program 8.3." prgChg="83"/>
+    <Instrument name="Program 8.4." prgChg="84"/>
+    <Instrument name="Program 8.5." prgChg="85"/>
+    <Instrument name="Program 8.6." prgChg="86"/>
+    <Instrument name="Program 8.7." prgChg="87"/>
+    <Instrument name="Program 8.8." prgChg="88"/>
+    <Instrument name="Program 8.9." prgChg="89"/>
+    <Instrument name="Program 9.0." prgChg="90"/>
+    <Instrument name="Program 9.1." prgChg="91"/>
+    <Instrument name="Program 9.2." prgChg="92"/>
+    <Instrument name="Program 0.3." prgChg="93"/>
+    <Instrument name="Program 9.4." prgChg="94"/>
+    <Instrument name="Program 9.5." prgChg="95"/>
+    <Instrument name="Program 9.6." prgChg="96"/>
+    <Instrument name="Program 9.7." prgChg="97"/>
+    <Instrument name="Program 0.8." prgChg="98"/>
+    <Instrument name="Program 9.9." prgChg="99"/>
+    <Instrument name="Perc. Kit P.0." prgChg="100"/>
+    <Instrument name="Perc. Kit P.1." prgChg="101"/>
+    <Instrument name="Perc. Kit P.2." prgChg="102"/>
+    <Instrument name="Perc. Kit P.3." prgChg="103"/>
+    <Instrument name="Perc. Kit P.4." prgChg="104"/>
+    <Instrument name="Perc. Kit P.5." prgChg="105"/>
+    <Instrument name="Perc. Kit P.6." prgChg="106"/>
+    <Instrument name="Perc. Kit P.7." prgChg="107"/>
+    <Instrument name="Perc. Kit P.8." prgChg="108"/>
+    <Instrument name="Perc. Kit P.9." prgChg="109"/>
+  </Section>
+  <Section name="Internal Performances" bankHigh="0" bankLow="0" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="Bellbrass pad" prgChg="1"/>
+    <Instrument name="Heavy sync sweep" prgChg="2"/>
+    <Instrument name="Big lead" prgChg="3"/>
+    <Instrument name="Orchestra bell" prgChg="4"/>
+    <Instrument name="Pulse sweep with a twist" prgChg="5"/>
+    <Instrument name="Reverb choir" prgChg="6"/>
+    <Instrument name="Majestix" prgChg="7"/>
+    <Instrument name="Arpeggiator string pad" prgChg="8"/>
+    <Instrument name="Plucking pad" prgChg="9"/>
+    <Instrument name="Arpeggiator heaven" prgChg="10"/>
+    <Instrument name="Sixtifive organ" prgChg="11"/>
+    <Instrument name="Wow pad" prgChg="12"/>
+    <Instrument name="Windy" prgChg="13"/>
+    <Instrument name="Water organ" prgChg="14"/>
+    <Instrument name="Big Morph" prgChg="15"/>
+    <Instrument name="Heavy pulse lead" prgChg="16"/>
+    <Instrument name="Westminister" prgChg="17"/>
+    <Instrument name="Strings and bells" prgChg="18"/>
+    <Instrument name="The Jazz duo" prgChg="19"/>
+    <Instrument name="Ambient bell" prgChg="20"/>
+    <Instrument name="Big pulse" prgChg="21"/>
+    <Instrument name="Unison FM lead" prgChg="22"/>
+    <Instrument name="Rise and fall" prgChg="23"/>
+    <Instrument name="Greek stuff" prgChg="24"/>
+    <Instrument name="Octave sweep" prgChg="25"/>
+    <Instrument name="Cyber piano" prgChg="26"/>
+    <Instrument name="Pan flute" prgChg="27"/>
+    <Instrument name="Metal sweep" prgChg="28"/>
+    <Instrument name="Sax-o-phone" prgChg="29"/>
+    <Instrument name="Mouth flute" prgChg="30"/>
+    <Instrument name="Acid clock" prgChg="31"/>
+    <Instrument name="Future pipe" prgChg="32"/>
+    <Instrument name="Stereo Pad" prgChg="33"/>
+    <Instrument name="Wheel lead" prgChg="34"/>
+    <Instrument name="Expressive Lead" prgChg="35"/>
+    <Instrument name="Techno song" prgChg="36"/>
+    <Instrument name="Brass pad" prgChg="37"/>
+    <Instrument name="Saw Sweep" prgChg="38"/>
+    <Instrument name="Brite string pad" prgChg="39"/>
+    <Instrument name="Space engine" prgChg="40"/>
+    <Instrument name="Square organ" prgChg="41"/>
+    <Instrument name="Saw pulse pad" prgChg="42"/>
+    <Instrument name="Analog grand bass" prgChg="43"/>
+    <Instrument name="Raga on white keys" prgChg="44"/>
+    <Instrument name="Sotf string pad" prgChg="45"/>
+    <Instrument name="Voice 1" prgChg="46"/>
+    <Instrument name="Voice 2" prgChg="47"/>
+    <Instrument name="Voice 3" prgChg="48"/>
+    <Instrument name="Dist lead" prgChg="49"/>
+    <Instrument name="Big bell" prgChg="50"/>
+    <Instrument name="Jungle" prgChg="51"/>
+    <Instrument name="Acid song" prgChg="52"/>
+    <Instrument name="Bottle" prgChg="53"/>
+    <Instrument name="ET go home" prgChg="54"/>
+    <Instrument name="Acc gitar" prgChg="55"/>
+    <Instrument name="Power bells" prgChg="56"/>
+    <Instrument name="Voices" prgChg="57"/>
+    <Instrument name="Bells" prgChg="58"/>
+    <Instrument name="The weel morph" prgChg="59"/>
+    <Instrument name="Attack" prgChg="60"/>
+    <Instrument name="Piano pad" prgChg="61"/>
+    <Instrument name="Harp" prgChg="62"/>
+    <Instrument name="Echo from africa" prgChg="63"/>
+    <Instrument name="Sweep pad" prgChg="64"/>
+    <Instrument name="Magic night" prgChg="65"/>
+    <Instrument name="Perc 3rd w click" prgChg="66"/>
+    <Instrument name="Straight church" prgChg="67"/>
+    <Instrument name="W. shade of pale" prgChg="68"/>
+    <Instrument name="Straight jazz perc" prgChg="69"/>
+    <Instrument name="Jazz organ" prgChg="70"/>
+    <Instrument name="One high organ" prgChg="71"/>
+    <Instrument name="All even harmonics" prgChg="72"/>
+    <Instrument name="Odd upper harm." prgChg="73"/>
+    <Instrument name="Cathedral organ" prgChg="74"/>
+    <Instrument name="Low mid organ" prgChg="75"/>
+    <Instrument name="Low organ" prgChg="76"/>
+    <Instrument name="Mid organ" prgChg="77"/>
+    <Instrument name="Super brite organ" prgChg="78"/>
+    <Instrument name="Prpht 5 B1-11,12,13,14" prgChg="79"/>
+    <Instrument name="Prpht 5 B1-15,16,17,18" prgChg="80"/>
+    <Instrument name="Prpht 5 B1-21,22,23,24" prgChg="81"/>
+    <Instrument name="Prpht 5 B1-25,26,27,28" prgChg="82"/>
+    <Instrument name="Prpht 5 B1-31,32,33,34" prgChg="83"/>
+    <Instrument name="Prpht 5 B1-35,36,37,38" prgChg="84"/>
+    <Instrument name="Prpht 5 B1-41,42,43,44" prgChg="85"/>
+    <Instrument name="Prpht 5 B1-45,46,47,48" prgChg="86"/>
+    <Instrument name="Prpht 5 B2-41,B1-52,53,54" prgChg="87"/>
+    <Instrument name="Prpht 5 B1-55,56,57,58" prgChg="88"/>
+    <Instrument name="Prpht 5 B3-12,B2-36,37,52" prgChg="89"/>
+    <Instrument name="Prpht 5 B2-54" prgChg="90"/>
+    <Instrument name="Nord Sounds 1-4" prgChg="91"/>
+    <Instrument name="Nord Sounds 5-8" prgChg="92"/>
+    <Instrument name="Nord Sounds 9-12" prgChg="93"/>
+    <Instrument name="Nord Sounds 13-16" prgChg="94"/>
+    <Instrument name="Nord Sounds 17-20" prgChg="95"/>
+    <Instrument name="Nord Sounds 21-24" prgChg="96"/>
+    <Instrument name="Nord Sounds 25-28" prgChg="97"/>
+    <Instrument name="Nord Sounds 29-32" prgChg="98"/>
+    <Instrument name="Nord Sounds 33-36" prgChg="99"/>
+    <Instrument name="Nord Sounds 37-40" prgChg="100"/>
+  </Section>
+  <Section name="Card Performances" bankHigh="0" bankLow="1" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="Performance A0." prgChg="1"/>
+    <Instrument name="Performance A1." prgChg="2"/>
+    <Instrument name="Performance A2." prgChg="3"/>
+    <Instrument name="Performance A3." prgChg="4"/>
+    <Instrument name="Performance A4." prgChg="5"/>
+    <Instrument name="Performance A5." prgChg="6"/>
+    <Instrument name="Performance A6." prgChg="7"/>
+    <Instrument name="Performance A7." prgChg="8"/>
+    <Instrument name="Performance A8." prgChg="9"/>
+    <Instrument name="Performance A9." prgChg="10"/>
+    <Instrument name="Performance B0." prgChg="11"/>
+    <Instrument name="Performance B1." prgChg="12"/>
+    <Instrument name="Performance B2." prgChg="13"/>
+    <Instrument name="Performance B3." prgChg="14"/>
+    <Instrument name="Performance B4." prgChg="15"/>
+    <Instrument name="Performance B5." prgChg="16"/>
+    <Instrument name="Performance B6." prgChg="17"/>
+    <Instrument name="Performance B7." prgChg="18"/>
+    <Instrument name="Performance B8." prgChg="19"/>
+    <Instrument name="Performance B9." prgChg="20"/>
+    <Instrument name="Performance C0." prgChg="21"/>
+    <Instrument name="Performance C1." prgChg="22"/>
+    <Instrument name="Performance C2." prgChg="23"/>
+    <Instrument name="Performance C3." prgChg="24"/>
+    <Instrument name="Performance C4." prgChg="25"/>
+    <Instrument name="Performance C5." prgChg="26"/>
+    <Instrument name="Performance C6." prgChg="27"/>
+    <Instrument name="Performance C7." prgChg="28"/>
+    <Instrument name="Performance C8." prgChg="29"/>
+    <Instrument name="Performance C9." prgChg="30"/>
+    <Instrument name="Performance D0." prgChg="31"/>
+    <Instrument name="Performance D1." prgChg="32"/>
+    <Instrument name="Performance D2." prgChg="33"/>
+    <Instrument name="Performance D3." prgChg="34"/>
+    <Instrument name="Performance D4." prgChg="35"/>
+    <Instrument name="Performance D5." prgChg="36"/>
+    <Instrument name="Performance D6." prgChg="37"/>
+    <Instrument name="Performance D7." prgChg="38"/>
+    <Instrument name="Performance D8." prgChg="39"/>
+    <Instrument name="Performance D9." prgChg="40"/>
+    <Instrument name="Performance E0." prgChg="41"/>
+    <Instrument name="Performance E1." prgChg="42"/>
+    <Instrument name="Performance E2." prgChg="43"/>
+    <Instrument name="Performance E3." prgChg="44"/>
+    <Instrument name="Performance E4." prgChg="45"/>
+    <Instrument name="Performance E5." prgChg="46"/>
+    <Instrument name="Performance E6." prgChg="47"/>
+    <Instrument name="Performance E7." prgChg="48"/>
+    <Instrument name="Performance E8." prgChg="49"/>
+    <Instrument name="Performance E9." prgChg="50"/>
+    <Instrument name="Performance F0." prgChg="51"/>
+    <Instrument name="Performance F1." prgChg="52"/>
+    <Instrument name="Performance F2." prgChg="53"/>
+    <Instrument name="Performance F3." prgChg="54"/>
+    <Instrument name="Performance F4." prgChg="55"/>
+    <Instrument name="Performance F5." prgChg="56"/>
+    <Instrument name="Performance F6." prgChg="57"/>
+    <Instrument name="Performance F7." prgChg="58"/>
+    <Instrument name="Performance F8." prgChg="59"/>
+    <Instrument name="Performance F9." prgChg="60"/>
+    <Instrument name="Performance G0." prgChg="61"/>
+    <Instrument name="Performance G1." prgChg="62"/>
+    <Instrument name="Performance G2." prgChg="63"/>
+    <Instrument name="Performance G3." prgChg="64"/>
+    <Instrument name="Performance G4." prgChg="65"/>
+    <Instrument name="Performance G5." prgChg="66"/>
+    <Instrument name="Performance G6." prgChg="67"/>
+    <Instrument name="Performance G7." prgChg="68"/>
+    <Instrument name="Performance G8." prgChg="69"/>
+    <Instrument name="Performance G9." prgChg="70"/>
+    <Instrument name="Performance H0." prgChg="71"/>
+    <Instrument name="Performance H1." prgChg="72"/>
+    <Instrument name="Performance H2." prgChg="73"/>
+    <Instrument name="Performance H3." prgChg="74"/>
+    <Instrument name="Performance H4." prgChg="75"/>
+    <Instrument name="Performance H5." prgChg="76"/>
+    <Instrument name="Performance H6." prgChg="77"/>
+    <Instrument name="Performance H7." prgChg="78"/>
+    <Instrument name="Performance H8." prgChg="79"/>
+    <Instrument name="Performance H9." prgChg="80"/>
+    <Instrument name="Performance J0." prgChg="81"/>
+    <Instrument name="Performance J1." prgChg="82"/>
+    <Instrument name="Performance J2." prgChg="83"/>
+    <Instrument name="Performance J3." prgChg="84"/>
+    <Instrument name="Performance J4." prgChg="85"/>
+    <Instrument name="Performance J5." prgChg="86"/>
+    <Instrument name="Performance J6." prgChg="87"/>
+    <Instrument name="Performance J7." prgChg="88"/>
+    <Instrument name="Performance J8." prgChg="89"/>
+    <Instrument name="Performance J9." prgChg="90"/>
+    <Instrument name="Performance L0." prgChg="91"/>
+    <Instrument name="Performance L1." prgChg="92"/>
+    <Instrument name="Performance L2." prgChg="93"/>
+    <Instrument name="Performance L3." prgChg="94"/>
+    <Instrument name="Performance L4." prgChg="95"/>
+    <Instrument name="Performance L5." prgChg="96"/>
+    <Instrument name="Performance L6." prgChg="97"/>
+    <Instrument name="Performance L7." prgChg="98"/>
+    <Instrument name="Performance L8." prgChg="99"/>
+    <Instrument name="Performance L9." prgChg="100"/>
+  </Section>
+</Instruments>
+</VSTNameDocument>
+

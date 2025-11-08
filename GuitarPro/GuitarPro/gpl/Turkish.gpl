@@ -1,0 +1,2172 @@
+GUITAR PRO 5.1 TRANSLATION FILE
+
+### PATCH CONFIGURATION ###
+AUTHOR NAMES = "Arda Sulo"
+AUTHOR E-MAIL = "ardasulo@yahoo.com"
+VERSION = "5.1"
+AUTOMATIC SHORTCUTS
+ENCODING = "WindowsLatin5"
+###########################
+
+You can use this file to create your own translation file for Guitar Pro.
+To do it, translate ONLY the words between the symbols " ". DON'T CHANGE
+ANYTHING ELSE. Note that the symbols %s, %t... are used to indicate a dynamic value,
+which will be attribuated at running, so do not change it.
+
+The words between the symbols { } are some indications to help you to
+understand the context, don't change it.
+
+After having changing the translations, save the file under your language
+name with the extension .gpl (ie "English.gpl"). Place it in the
+Guitar Pro directory, restart Guitar Pro and you'll have the new language
+proposed in the menu OPTIONS | LANGUAGE.
+
+Don't hesitate to send us your translation files, we'll add them on the site
+for other users.
+
+***********
+* DIALOGS *
+***********
+
+DLG_000
+DLG_001 = "Tamam"
+DLG_002 = "Vazgeç"
+DLG_003 = "Evet"
+DLG_004 = "Hayýr"
+DLG_005 = "Yardým"
+DLG_006 = "Temizle"
+DLG_007 = "Kapat"
+DLG_008 = "Danýþma"
+DLG_009 = "Onaylama"
+DLG_010 = "Uyarý"
+DLG_011 = "Uyarý"
+DLG_012 = "Hata"
+DLG_013 = "Hatalý tuþlama."
+
+***********
+* GENERAL *
+***********
+
+GENE_000
+GENE_001 = "sürüm"
+GENE_002 = "Bütün Haklarý saklýdýr"
+GENE_003 = "Geçersiz kimlik."
+GENE_004 = "Guitar Pro - Deðerlendirme sürümü"
+GENE_005 = "Guitar Pro deneme sürümü, yalnýz 24 ölçü."
+GENE_006 = "Eðer Guitar Pro'dan memnun kaldýysanýz,lütfen kayýt olun."
+GENE_007 = "Ýz"
+GENE_008 = "Perküsyon"
+GENE_009 = "Ölçü tamamlandý"
+GENE_010 = "Tamamlanmamýþ ölçü"
+GENE_011 = "Ölçüyü aþtýnýz"
+GENE_012 = "KAYITSIZ KULLANICI"
+
+*****************
+* MENUS & HINTS *
+*****************
+
+MN_000
+MN_001 = "Dosya"
+MN_002 = "Yeni"
+MN_003 = "Aç"
+MN_004 = "Tarayýcý"
+MN_005 = "Kaydet"
+MN_006 = "Farklý Kaydet"
+MN_007 = "Özelliler"
+MN_008 = "Tercihler"
+MN_009 = "Aktar"
+MN_010 = "Gönder"
+MN_011 = "MIDI"
+MN_012 = "ASCII Tab"
+MN_013 = "Yazdýr"
+MN_014 = "Baský Önizleme"
+MN_015 = "Yazýcý Kurulumu"
+MN_016 = "Çýkýþ"
+MN_017 = "Düzenle"
+MN_018 = "Kes"
+MN_019 = "Kopyala"
+MN_020 = "Yapýþtýr"
+MN_021 = "Ekle"
+MN_022 = "Temizle"
+MN_023 = "Mix Tahtasý"
+MN_024 = "Ýz"
+MN_025 = "Ölçü"
+MN_026 = "Ýlk"
+MN_027 = "Ýlk Ölçü"
+MN_028 = "Önceki"
+MN_029 = "Önceki Ölçü"
+MN_030 = "Git"
+MN_031 = "Ölçüye Git"
+MN_032 = "Sonraki"
+MN_033 = "Sonraki Ölçü"
+MN_034 = "Sondaki"
+MN_035 = "Sondaki Ölçü"
+MN_036 = "Ölçü Birimleri"
+MN_037 = "Ölçü Birimleri(Çubuk üzerindeki) "
+MN_038 = "Ýleri Döneç"
+MN_039 = "Geri Döneç"
+MN_040 = "Dolap"
+MN_041 = "Nota"
+MN_042 = "Tam Nota"
+MN_043 = "Ýkilik Nota"
+MN_044 = "Dörtlük Nota"
+MN_045 = "Sekizlik Nota"
+MN_046 = "Onaltýlýk Nota"
+MN_047 = "Otuzikilik Nota"
+MN_048 = "Altmýþdörtlük Nota"
+MN_049 = "Uzatma Noktasý"
+MN_050 = "Akor"
+MN_051 = "Metin"
+MN_052 = "Dead note"
+MN_053 = "Susku"
+MN_054 = "Üçleme"
+MN_055 = "Önceki vuruþa baðla"
+MN_056 = "Vuruþ Ekle"
+MN_057 = "Vuruþ Sil"
+MN_058 = "Vuruþ Kopyala"
+MN_059 = "Yukarýya taþý"
+MN_060 = "Notayý yukarý taþý"
+MN_061 = "Aþaðýya taþý"
+MN_062 = "Notayý aþaðýya taþý"
+MN_063 = "Efektler"
+MN_064 = "Hammer On"
+MN_065 = "Pull Off"
+MN_066 = "Slide Up"
+MN_067 = "Slide Down"
+MN_068 = "Bend"
+MN_069 = "Bend & Release"
+MN_070 = "Let Ring"
+MN_071 = "Grace Note"
+MN_072 = "Ghost Note"
+MN_073 = "Vibrato"
+MN_074 = "Whammy Bar"
+MN_075 = "Dive and return w/Whammy Bar"
+MN_076 = "Naturel Harmonik"
+MN_077 = "Artificial Harmonic"
+MN_078 = "Fade In"
+MN_079 = "Tapping"
+MN_080 = "Slapping (Bass)"
+MN_081 = "Popping (Bass)"
+MN_082 = "Üst Pena Vuruþu"
+MN_083 = "Alt Pena Vuruþu"
+MN_084 = "Dinamik"
+MN_085 = "Yardýmcýlar"
+MN_086 = "Transpoze"
+MN_087 = "Ölçü Aranjörü"
+MN_088 = "Tamlanmamýþ ölçüleri susku ile tamamla"
+MN_089 = "Uygun parmak pozisyonu"
+MN_090 = "'Let Ring' seçenekleri"
+MN_091 = "Ölçü sürelerini kontrol et"
+MN_092 = "Standart Notalar"
+MN_093 = "Perküsyon"
+MN_094 = "Hýz Çalýþtýrýcý"
+MN_095 = "Ses"
+MN_096 = "Baþtan Çaldýr"
+MN_097 = "Baþtan Çaldýr (Space)"
+MN_098 = "Geçerli Ölçüden Çaldýr "
+MN_099 = "Geçerli Ölçüden itibaren Çaldýr (Ctrl+Space)"
+MN_100 = "Sadece Geçerli Ölçüyü Çaldýr"
+MN_101 = "Sadece Geçerli Ölçüyü Çaldýr (Maj+Ctrl+Space)"
+MN_102 = "Durdur"
+MN_103 = "Durdur (Space)"
+MN_104 = "Tekrarlý çaldýr"
+MN_105 = "Metronom"
+MN_106 = "Hazýrlarken duy"
+MN_107 = "Görünüm"
+MN_108 = "Düzen çubuðunu sakla"
+MN_109 = " 'Let Ring' Notalarý Göster"
+MN_110 = " 'Dinamik' Notalarý Göster"
+MN_111 = "Dil Seçimi"
+MN_112 = "Yardým Dil Seçimi"
+MN_113 = "Yardým"
+MN_114 = "Ýndeks"
+MN_115 = "Guitar Pro'yu satýn al!"
+MN_116 = "Kayýt olun!"
+MN_117 = "Hakkýnda"
+
+*********************
+* PROPERTIES WINDOW *
+*********************
+
+DLG_PROP_000
+DLG_PROP_001 = "Sayfa Özellikleri"
+DLG_PROP_002 = "Baþlýk"
+DLG_PROP_003 = "Yazar"
+DLG_PROP_004 = "Yorum"
+DLG_PROP_005 = "Tempo"
+DLG_PROP_006 = "Shuffle ritmi:"
+DLG_PROP_007 = "Ýz'in ismi"
+DLG_PROP_008 = "Enstrüman"
+DLG_PROP_009 = "Enstrüman listesi"
+DLG_PROP_010 = "Hazýr Akortlar"
+DLG_PROP_011 = "Telli"
+DLG_PROP_012 = "Akort"
+DLG_PROP_013 = "Perde"
+DLG_PROP_014 = "Solo"
+DLG_PROP_015 = "Sessiz Ýz"
+DLG_PROP_016 = "Gönderme yapma"
+DLG_PROP_017 = "12 telli gitar similasyonu"
+DLG_PROP_018 = "Ses"
+DLG_PROP_019 = "Pan"
+DLG_PROP_020 = "Koro"
+DLG_PROP_021 = "Reverb"
+DLG_PROP_022 = "Ýz perküsyon için ayýrýlmýþtýr"
+DLG_PROP_023 = "27-87 arasý notalarý kullanýn"
+DLG_PROP_024 = "Tablatür çizgileri üzerinde."
+DLG_PROP_025 = "%s ölçü içinde bir yada daha fazla nota %s tel üzerine konamaz."
+
+***************************
+* MIDI IMPORTATION WINDOW *
+***************************
+
+DLG_IMPM_000
+DLG_IMPM_001 = "MIDI aktarma"
+DLG_IMPM_002 = "Aktaracaðýnýz Ýz'i Seçin:"
+DLG_IMPM_003 = "Ýz' Býrak"
+DLG_IMPM_004 = "Bir alt oktava transpoze et"
+DLG_IMPM_005 = "Nicelendirme:"
+DLG_IMPM_006 = "Uyarý: aktarýlan perküsyon izi" { 007'de biten }
+DLG_IMPM_007 = "sadece Ýz 8/Kanal 10'a yazýlabilir."
+DLG_IMPM_008 = "Deneme sürümü yalnýz 50 nota aktarabilirsiniz."
+DLG_IMPM_009 = "Eðer memnun kaldýysanýz, lütfen kayýt olun."
+DLG_IMPM_010 = "Ýzler aranýyor..."
+DLG_IMPM_011 = "belirlenemiyor"
+DLG_IMPM_012 = "Ýz okunuyor..."
+DLG_IMPM_013 = "Bilgi oluþturma..."
+DLG_IMPM_014 = "Parmak pozisyonlarýný en iyi þekilde kullan..."
+DLG_IMPM_015 = "MIDI biçimi tanýnamadý."
+
+***************************
+* MIDI EXPORTATION WINDOW *
+***************************
+
+DLG_EXPM_000
+DLG_EXPM_001 = "MIDI gönder"
+DLG_EXPM_002 = "Dosya yazýlamýyor.Kaydetme iptal edildi."
+
+****************************
+* ASCII IMPORTATION WINDOW *
+****************************
+
+DLG_IMPA_000
+DLG_IMPA_001 = "ASCII Tab aktarma"
+DLG_IMPA_002 = "Dosyaya ulaþým mümkün deðil. Aktarma iptal edildi."
+DLG_IMPA_003 = "Aktar"
+DLG_IMPA_004 = "Aç"
+DLG_IMPA_005 = "Yazdýr"
+DLG_IMPA_006 = "Birlikte aktar :"
+DLG_IMPA_007 = "Not: Aktarma aktif iz üzerine yapýlýr"
+DLG_IMPA_008 = "Deneme sürümü aktarma limiti 50 nota."
+DLG_IMPA_009 = "Eðer memnun kaldýysanýz, lütfen kayýt olun."
+DLG_IMPA_010 = "<deðiþken>"
+DLG_IMPA_011 = "ikilik nota"
+DLG_IMPA_012 = "dörtlük nota"
+DLG_IMPA_013 = "sekizlik nota"
+DLG_IMPA_014 = "onaltýlýk nota"
+
+****************************
+* ASCII EXPORTATION WINDOW *
+****************************
+
+DLG_EXPA_000
+DLG_EXPA_001 = "ASCII Tab gönderme"
+DLG_EXPA_002 = "Gönder"
+DLG_EXPA_003 = "Yazdýr"
+DLG_EXPA_004 = "Sütun:"
+DLG_EXPA_005 = "Yenile"
+DLG_EXPA_006 = "Ritim"
+DLG_EXPA_007 = "Dosyaya yazýlýmayor. Gönderme iptal edildi."
+
+**********************
+* PREFERENCES WINDOW *
+**********************
+
+DLG_PREF_000
+DLG_PREF_001 = "Tercihler"
+DLG_PREF_002 = "Genel"
+DLG_PREF_003 = "Baþlangýç Müziði"
+DLG_PREF_004 = "Hiçbiri"
+DLG_PREF_005 = "Bir WAVE dosyasý seçin"
+DLG_PREF_006 = "Wave dosyasý"
+DLG_PREF_007 = "Çaldýrýrken Görüntüle"
+DLG_PREF_008 = "Pencere Pencere"
+DLG_PREF_009 = "Bölüm Bölüm"
+DLG_PREF_010 = "Metronom"
+DLG_PREF_011 = "Ses"
+DLG_PREF_012 = "Ýz esnasýnda"
+DLG_PREF_013 = "Sayaç"
+DLG_PREF_014 = "Ýlk vuruþu vurgula"
+DLG_PREF_015 = "Metronom sayacýný daima Hýz Çalýþtýrýcý ile kullanýn"
+DLG_PREF_016 = "Çaldýr"
+DLG_PREF_017 = "Gönder (MIDI)"
+DLG_PREF_018 = "Efektler"
+DLG_PREF_019 = "Nakaratlar"
+DLG_PREF_020 = "Ses Kartý"
+DLG_PREF_021 = "Bend limiti 1 ton"
+DLG_PREF_022 = "Eðer bend efekti yanlýþsa bu seçeneði kullanýn."
+DLG_PREF_023 = "Akor Tanýma"
+DLG_PREF_024 = "Ana tondan farklý olduðu zaman, daima akor adý için bas notayý kullan"
+DLG_PREF_025 = "Varsayýlan"
+DLG_PREF_026 = "Görünüm"
+DLG_PREF_027 = "Sol sýnýr"
+DLG_PREF_028 = "Sað sýnýr"
+DLG_PREF_029 = "Tab çizgi. boþluðu"
+DLG_PREF_030 = "Bölümler a. boþluk"
+DLG_PREF_031 = "Akor (diyagram) konumu"
+DLG_PREF_032 = "Akor (sadece ad) konumu"
+DLG_PREF_033 = "Yazý konumu"
+DLG_PREF_034 = "Ritim çizgisi geniþliði"
+DLG_PREF_035 = "Nota karakteri:"
+DLG_PREF_036 = "Akor adý karakteri:"
+DLG_PREF_037 = "Yazý karakteri:"
+DLG_PREF_038 = "Ölçü karakteri:"
+DLG_PREF_039 = "Ölçü no'su tipi:"
+DLG_PREF_040 = "Tekrar karakteri:"
+DLG_PREF_041 = "Diyagram boyu:"
+DLG_PREF_042 = "Akor diyagram rengi:"
+DLG_PREF_043 = "Tab çizgisi rengi:"
+DLG_PREF_044 = "Ritim çizgisi rengi:"
+DLG_PREF_045 = "Efekt rengi:"
+DLG_PREF_046 = "Arkaalan rengi:"
+DLG_PREF_047 = "Aþýlmýþ ölçü rengi:"
+DLG_PREF_048 = "Seçme rengi:"
+DLG_PREF_049 = "Akor diyagramlarý"
+DLG_PREF_050 = "Akor adý"
+DLG_PREF_051 = "Akorlarý en üste listelendir"
+DLG_PREF_052 = "Metin"
+DLG_PREF_053 = "Efektler"
+DLG_PREF_054 = "Ritim çizgileri"
+DLG_PREF_055 = "Ölçü üzerindeki sayýlar"
+DLG_PREF_056 = "Notalar a. boþluk"
+DLG_PREF_057 = "Ritm oraný"
+DLG_PREF_058 = "Kullanýcý 1"
+DLG_PREF_059 = "Kullanýcý 2"
+DLG_PREF_060 = "Kullanýcý 3"
+DLG_PREF_061 = "Bak"
+DLG_PREF_062 = "Baský"
+DLG_PREF_063 = "Üst sýnýr"
+DLG_PREF_064 = "Alt sýnýr"
+DLG_PREF_065 = "Sol sýnýr"
+DLG_PREF_066 = "Sað sýnýr"
+DLG_PREF_067 = "Tam sayfa baský"
+DLG_PREF_068 = "Seçilmiþ baský alaný :"
+DLG_PREF_069 = "En"
+DLG_PREF_070 = "Boy"
+DLG_PREF_071 = "Merkeze dayalý"
+DLG_PREF_072 = "Çerçeveli alaný bastýr"
+DLG_PREF_073 = "Tüm oranlar"
+DLG_PREF_074 = "Tablar a. boþluk"
+DLG_PREF_075 = "Notalar a. boþluk"
+DLG_PREF_076 = "Ritim oraný"
+DLG_PREF_077 = "Akor diyagram ebatý"
+DLG_PREF_078 = "Diyagram pozisyonu"
+DLG_PREF_079 = "Akor adý pozisyonu"
+DLG_PREF_080 = "Metin pozisyonu"
+DLG_PREF_081 = "Baþlýk/Yazar boþluðu"
+DLG_PREF_082 = "Yazar/Tab boþluðu"
+DLG_PREF_083 = "Baþlýk karakteri:"
+DLG_PREF_084 = "Yazar karakteri:"
+DLG_PREF_085 = "Yorum karakteri:"
+DLG_PREF_086 = "Sayfa sayýsý karakteri:"
+DLG_PREF_087 = "Nota karakteri:"
+DLG_PREF_088 = "Akor adý karakteri:"
+DLG_PREF_089 = "Akor diya. karakteri:"
+DLG_PREF_090 = "Metin karakteri:"
+DLG_PREF_091 = "Ölçü karakteri:"
+DLG_PREF_092 = "Tekrar karakteri:"
+DLG_PREF_093 = "Baþlýk"
+DLG_PREF_094 = "Yazar"
+DLG_PREF_095 = "Yorum"
+DLG_PREF_096 = "Shuffle Ritmi, akort..."
+DLG_PREF_097 = "Say. sayýsý"
+DLG_PREF_098 = "Ölçü. sayýsý"
+DLG_PREF_099 = "Akor diyagramlarý"
+DLG_PREF_100 = "Akor adlarý"
+DLG_PREF_101 = "Üstteki akor listesi"
+DLG_PREF_102 = "Metin"
+DLG_PREF_103 = "Efektler"
+DLG_PREF_104 = "Ritim çizgileri"
+DLG_PREF_105 = "Bütün metinler siyah kutular halindeyse,kontrol edin"
+DLG_PREF_106 = "Önizleme"
+DLG_PREF_107 = "Force x Bars per Staff:"
+
+*****************
+* BROWSE WINDOW *
+*****************
+
+DLG_BROWSE_000
+DLG_BROWSE_001 = "Tarayýcý"
+DLG_BROWSE_002 = "Kapat"
+DLG_BROWSE_003 = "Altdizinleri Tara"
+DLG_BROWSE_004 = "Seçili dosyayý çaldýr"
+DLG_BROWSE_005 = "Atlama yapma"
+DLG_BROWSE_006 = "1 ölçü sonra atla"
+DLG_BROWSE_007 = "2 ölçü sonra atla"
+DLG_BROWSE_008 = "5 ölçü sonra atla"
+DLG_BROWSE_009 = "10 ölçü sonra atla"
+DLG_BROWSE_010 = "25 ölçü sonra atla"
+DLG_BROWSE_011 = "Bitince atla"
+DLG_BROWSE_012 = "Baþlýk:"
+DLG_BROWSE_013 = "Yazar:"
+DLG_BROWSE_014 = "Not:"
+DLG_BROWSE_015 = "Ölçü:"
+DLG_BROWSE_016 = "G/B/D:" { G=Gitar / B=Bas / P=Perküsyon }
+DLG_BROWSE_017 = "Ýsim"
+DLG_BROWSE_018 = "Boyut"
+DLG_BROWSE_019 = "Deðiþtirme"
+DLG_BROWSE_020 = "Klasörde"
+DLG_BROWSE_021 = "dosya"
+DLG_BROWSE_022 = "Taranýyor..."
+DLG_BROWSE_023 = "Durdur"
+DLG_BROWSE_024 = "Altdizinleri Tara"
+DLG_BROWSE_025 = "Dosya okunuyor..."
+
+****************
+* BRUSH WINDOW *
+****************
+
+DLG_BRUSH_000
+DLG_BRUSH_001 = "Vuruþ"
+DLG_BRUSH_002 = "Vuruþ süresi"
+
+**************************
+* MIX TABLE EVENT WINDOW *
+**************************
+
+DLG_MIX_000
+DLG_MIX_001 = "Mix Tahtasý"
+DLG_MIX_002 = "Parametrelerden birini seçtiðinizde,deðiþiklikler seçtiðiniz vuruþtan itibaren geçerli olur :"
+DLG_MIX_003 = "Enstrüman"
+DLG_MIX_004 = "Ses"
+DLG_MIX_005 = "Kolon"
+DLG_MIX_006 = "Chorus"
+DLG_MIX_007 = "Reverb"
+DLG_MIX_008 = "Tempo"
+DLG_MIX_009 = "Hemen"
+DLG_MIX_010 = "1 vuruþ"
+DLG_MIX_011 = "%s vuruþ" { use plurial }
+DLG_MIX_012 = "Yeni deðer"
+DLG_MIX_013 = "Geçiþ"
+
+************************************
+* COMPLETE/REDUCE ASSISTANT WINDOW *
+************************************
+
+DLG_ASS_CR_000
+DLG_ASS_CR_001 = "Ölçüleri aranje etsin mi?"
+
+*****************************
+* LET RING ASSISTANT WINDOW *
+*****************************
+
+DLG_ASS_LR_000
+DLG_ASS_LR_001 = "'Let Ring' Seçenekleri"
+DLG_ASS_LR_002 = "Bu yardýmcý 'Let Ring' seçeneðini bir grup notayý tek harekette deðiþtirmenize müsade eder."
+DLG_ASS_LR_003 = "Ölçü alaný:"
+DLG_ASS_LR_004 = "arasý"
+DLG_ASS_LR_005 = "Etkilenicek teller:"
+DLG_ASS_LR_006 = "'Let Ring' Seçeneði:"
+DLG_ASS_LR_007 = "Evet"
+DLG_ASS_LR_008 = "Hayýr"
+DLG_ASS_LR_009 = "Hiç tel seçilmemiþ."
+
+******************************
+* FINGERING ASSISTANT WINDOW *
+******************************
+
+DLG_ASS_FG_000
+DLG_ASS_FG_001 = "Otomatik Pozisyon"
+DLG_ASS_FG_002 = "Ölçü:"
+DLG_ASS_FG_003 = "arasý"
+
+******************************
+* TRANSPOSE ASSISTANT WINDOW *
+******************************
+
+DLG_ASS_TR_000
+DLG_ASS_TR_001 = "Transpoze"
+DLG_ASS_TR_002 = "Transpozisyon:"
+DLG_ASS_TR_003 = "yarým ton"
+
+***********************************
+* CHECK DURATION ASSISTANT WINDOW *
+***********************************
+
+DLG_ASS_CD_000
+DLG_ASS_CD_001 = "Kontrol tamamlandý."
+DLG_ASS_CD_002 = "Geçersiz ölçü-aþýlmýþ ölçü %s - iz %s."
+
+**********************************
+* SPEED TRAINER ASSISTANT WINDOW *
+**********************************
+
+DLG_ASS_ST_000
+DLG_ASS_ST_001 = "Hýz Çalýþtýrýcý"
+DLG_ASS_ST_002 = "Ölçü:"
+DLG_ASS_ST_003 = "Tempo:"
+DLG_ASS_ST_004 = "arasý"
+DLG_ASS_ST_005 = "Her dönüþte tempoyu arttýr:"
+
+**************
+* CUT WINDOW *
+**************
+
+DLG_CUT_000
+DLG_CUT_001 = "Kes"
+DLG_CUT_002 = "Ölçü:"
+DLG_CUT_003 = "arasý"
+DLG_CUT_004 = "Bu iþlev bütün iz'lerdeki ölçü(leri)yü keser."
+DLG_CUT_005 = "Sadece tek bir ölçüdeki izi kesmek için,Kes/Yapýþtýr iþlevini kullanýn."
+
+**********************
+* COPY/CLEAR WINDOWS *
+**********************
+
+DLG_COPY_000
+DLG_COPY_001 = "Kopyala"
+DLG_COPY_002 = "Temizle"
+DLG_COPY_003 = "Ölçü:"
+DLG_COPY_004 = "arasý"
+DLG_COPY_005 = "Bütün Ýzleri"
+DLG_COPY_006 = "Sadece seçili Ýzi"
+
+*****************
+* PASTE WINDOWS *
+*****************
+
+DLG_PASTE_000
+DLG_PASTE_001 = "Yapýþtýr"
+DLG_PASTE_002 = "%s ölçüyü geçerli iz'e yapýþtýrsýn mý?"
+DLG_PASTE_003 = "%s ölçüyü bütün izlere yapýþtýrsýn mý?"
+DLG_PASTE_004 = "Seçili ölçünün üzerine yapýþtýr"
+DLG_PASTE_005 = "Seçili yerden önce ölçü ekleyerek yapýþtýr"
+DLG_PASTE_006 = "Ölçünün sonuna ekleyerek yapýþtýr"
+DLG_PASTE_007 = "Yapýþtýrma sayýsý"
+DLG_PASTE_008 = "Perküsyon verisini 1-7 izlerine yapýþtýrmak mümkün deðil."
+DLG_PASTE_009 = "1-7 izlerinden perküsyon izine veri yapýþtýrmak mümkün deðil."
+DLG_PASTE_010 = "Yapýþtýrma iþlemi mümkün deðil: tellerin sayýsý orijinal izden farklý."
+
+******************
+* DYNAMIC WINDOW *
+******************
+
+DLG_DYNA_000
+DLG_DYNA_001 = "Dinamik"
+DLG_DYNA_002 = "Varsayýlan olarak ayarla"
+DLG_DYNA_003 = "Geçerli dinamiði yeni notalar için varsayalýn olarak ayarlayýn"
+DLG_DYNA_004 = "Akor için uygula"
+DLG_DYNA_005 = "Dinamiði bütün akora uygula"
+
+*********************
+* GRACE NOTE WINDOW *
+*********************
+
+DLG_GRACE_000
+DLG_GRACE_001 = "Grace Note"
+DLG_GRACE_002 = "Nota"
+DLG_GRACE_003 = "Süre"
+DLG_GRACE_004 = "Dinamik"
+DLG_GRACE_005 = "Dead note: X"
+DLG_GRACE_006 = "Perde:"
+
+****************
+* INTRO WINDOW *
+****************
+
+DLG_INTRO_000
+DLG_INTRO_001 = "Guitar Pro'nun %s Günlük Deneme sürümünü kullanmaktasýnýz."
+DLG_INTRO_002 = "Zaman aþýmýndan sonra programý kullanmaya devam etmek için kayýt olmalýsýnýz."
+DLG_INTRO_003 = "SATIN AL!"
+DLG_INTRO_004 = "DENE"
+DLG_INTRO_005 = "Deneme sürümündeki sýnýrlamalar:"
+DLG_INTRO_006 = "- Kayýt sýnýrý yalnýz 24 ölçü"
+DLG_INTRO_007 = "- Çýktý alamasýnýz "
+DLG_INTRO_008 = "- MIDI ve ASCII aktarma sýnýrý 50 nota"
+
+******************
+* LICENSE WINDOW *
+******************
+
+DLG_LIC_000
+DLG_LIC_001 = "Lisans"
+DLG_LIC_002 = "Merhaba, Guitar Pro'yu seçtiðiniz için teþekürler."
+DLG_LIC_003 = "Yazýlýmdan memnun kalýcaðýnýzý umarýz."
+DLG_LIC_004 = "Yazýlýmý kullanabilmeniz için Kullanýcý adý ve Anahtar bilgilerini girmelisiniz."
+DLG_LIC_005 = "Bunlarý Guitar Pro kutusunda veya size gelen e-postada (online alým) bulabilirsiniz."
+DLG_LIC_006 = "Þuanda geçici bir lisans kullanmaktasýnýz. Lütfen aldýðýnýz zaman, belirli Kullanýcý Adýnýzý ve Anahtar Bilgilerinizi giriniz."
+
+************************
+* PRINT PREVIEW WINDOW *
+************************
+
+DLG_PRW_000
+DLG_PRW_001 = "Baský Önizleme"
+DLG_PRW_002 = "Yazdýr"
+DLG_PRW_003 = "Terc."
+
+****************
+* PRINT WINDOW *
+****************
+
+DLG_PRT_000
+DLG_PRT_001 = "Yazdýr"
+DLG_PRT_002 = "Yazýcý:"
+DLG_PRT_003 = "Hepsini"
+DLG_PRT_004 = "Sayfalar:"
+DLG_PRT_005 = "arasý"
+DLG_PRT_006 = "Biçimlendir..."
+
+****************
+* CHORD WINDOW *
+****************
+
+DLG_CHORD_000
+DLG_CHORD_001 = "Akor"
+DLG_CHORD_002 = "Basit"
+DLG_CHORD_003 = "Orta"
+DLG_CHORD_004 = "Hepsi"
+DLG_CHORD_005 = "Inversion"
+DLG_CHORD_006 = "Bass"
+DLG_CHORD_007 = "Lütfen ihmalleri seçin"
+DLG_CHORD_008 = "Benzer Ýsimler"
+DLG_CHORD_009 = "Kullanýlan"
+DLG_CHORD_010 = "Üstteki"
+DLG_CHORD_011 = "Kütüph."
+DLG_CHORD_012 = "Diyagram'ý kullan"
+DLG_CHORD_013 = "Ekle"
+DLG_CHORD_014 = "Sil"
+DLG_CHORD_015 = "Deðiþtir"
+DLG_CHORD_016 = "Yukarý"
+DLG_CHORD_017 = "Aþaðý"
+DLG_CHORD_018 = "Dinle"
+DLG_CHORD_019 = "Ýstimal"
+DLG_CHORD_020 = "Lütfen Akor'u adlandýrýn."
+DLG_CHORD_021 = "Lütfen sileceðiniz akoru seçin."
+DLG_CHORD_022 = "%s akoru silinsin mi ?"
+DLG_CHORD_023 = "Ýlk olarak güncellemek istediðiniz akoru seçin."
+DLG_CHORD_024 = "Lütfen hareket ettirmek istediðiniz akoru seçin."
+
+***************
+* TEXT WINDOW *
+***************
+
+DLG_TXT_000
+DLG_TXT_001 = "Metin" {Pencere baþlýðý}
+DLG_TXT_002 = "Metin"
+
+********************
+* GO TO BAR WINDOW *
+********************
+
+DLG_GOTOB_000
+DLG_GOTOB_001 = "Ölçüye git..."
+DLG_GOTOB_002 = "Ölçü"
+
+***************
+* BEND WINDOW *
+***************
+
+DLG_BEND_000
+DLG_BEND_001 = "Bend"
+DLG_BEND_002 = "Bend & Release"
+DLG_BEND_003 = "Deðer"
+
+*********************
+* STROKE VIB WINDOW *
+*********************
+
+DLG_STROKV_000
+DLG_STROKV_001 = "Dive & Return w/ Whammy Bar"
+DLG_STROKV_002 = "Deðer"
+
+**********************
+* INSTRUMENTS WINDOW *
+**********************
+
+DLG_INSTR_000
+DLG_INSTR_001 = "Enstrüman"
+
+*************************
+* TIME SIGNATURE WINDOW *
+*************************
+
+DLG_TIMES_000
+DLG_TIMES_001 = "Ölçü Birimi"
+DLG_TIMES_002 = "Bütün ölçüler için ayný"
+
+*********************
+* REPEAT END WINDOW *
+*********************
+
+DLG_REPE_000
+DLG_REPE_001 = "Geri döneç"
+DLG_REPE_002 = "Tekrarlama sayýsý"
+
+****************************
+* ALTERNATE ENDINGS WINDOW *
+****************************
+
+DLG_DIFE_000
+DLG_DIFE_001 = "Dolap"
+DLG_DIFE_002 = "ara."
+
+*********
+* FILES *
+*********
+
+FILES_000
+FILES_001 = "Deðiþiklikler %s dosyasýna kaydedilsin mi ?"
+FILES_002 = "%s dosyasý bulunamadý."
+FILES_003 = "%s dosyasý zaten var."
+FILES_004 = "Var olan dosya ile degistirilsin mi?"
+FILES_005 = "<adsýz>" { dosyanýn yeni ismi }
+FILES_006 = "Dosyaya eriþilemiyor. Yükleme durduruldu."
+FILES_007 = "Bilinmeyen dosya. Yükleme durduruldu."
+FILES_008 = "Bu Dosyayý açabilmeniz için lütfen Guitar-Pro'yu güncelleyin."
+FILES_009 = "Hatalý MIDI"
+FILES_010 = "MIDI biçimi tanýnamadý."
+FILES_011 = "Guitar Pro dosyalarý"
+FILES_012 = "MIDI dosyalarý"
+FILES_013 = "ASCII Tab dosyalarý"
+FILES_014 = "Bütün dosyalar"
+FILES_015 = "MIDI aktar"
+FILES_016 = "MIDI gönder"
+FILES_017 = "ASCII Tab aktar"
+FILES_018 = "ASCII Tab gönder"
+
+****************
+* ORDER WINDOW *
+****************
+
+DLG_REG_000
+DLG_REG_001 = "Guitar Pro'dan memnun kaldýnýz ve tam sürümünü mü kullanmak istiyorsunuz?"
+DLG_REG_002 = "Öyleyse daha fazla beklemeyin ve tam sürümüne 2dakika içinde sahip olun!"
+DLG_REG_003 = "Kayýt olun ve aþaðýdaki avantajlardan yararlanýn:"
+DLG_REG_004 = "Teknik destek eriþimi"
+DLG_REG_005 = "5.x güncellemelerinden bedava faydalanma"
+DLG_REG_006 = "6.x sürümüne geçmek için ayrýcalýklar kazanma"
+DLG_REG_007 = "Programýn fiyatýný, ödeme koþullarýný ve satýcý bilgilerini öðrenmek için, lütfen web sitemizi ziyaret edin:"
+
+*****************************
+* REGISTER YOUR COPY WINDOW *
+*****************************
+
+DLG_REGC_000
+DLG_REGC_001 = "Kopyanýzýn kaydýný yaptýrýn!"
+DLG_REGC_002 = "Guitar Pro'nun tam sürümünü kaydetmenizi öneririz."
+DLG_REGC_003 = "Bu sadece birkaç dakikanýzý alýcak ve size birçok avantaj saðlayacak, bunlar gibi:"
+DLG_REGC_004 = "Teknik destek eriþimi"
+DLG_REGC_005 = "Güncellemelerden bedava faydalanma"
+DLG_REGC_006 = "Bir üst sürüme geçmek için ayrýcalýklar kazanma"
+DLG_REGC_007 = "Önemli: Eðer yükleme dosyanýzý veya lisansýnýzý kaybederseniz, bunu ancak programýn kayýtlý kullanýcýsýysanýz temin edebilirsiniz."
+DLG_REGC_008 = "Online kayýt sitemizden yapýlmaktadýr"
+DLG_REGC_009 = "Posta ile kayýt"
+DLG_REGC_010 = "Tel:"
+DLG_REGC_011 = "Fax:"
+DLG_REGC_012 = "Bu pencereyi baþlangýçta göster"
+
+********************
+* ORDER PAPER FORM *
+********************
+
+DLG_REGPF_000
+DLG_REGPF_001 = "GUITAR PRO ÝSTEK FORMU(ÇEK yada EUROÇEK ile)"
+DLG_REGPF_002 = "Lütfen formdaki [ ] alanlarý doldurun ,"
+DLG_REGPF_003 = "yazdýrýn, ve bize postalayýn :"
+DLG_REGPF_004 = "ödemeniz çek yada Euroçek ile ise"
+DLG_REGPF_005 = "%s þirketine."
+DLG_REGPF_006 = "SÝPARÝÞ"
+DLG_REGPF_007 = "Guitar Pro %s e-mail ile (güncelleme)"
+DLG_REGPF_008 = "Guitar Pro %s e-mail ile"
+DLG_REGPF_009 = "Guitar Pro %s CDROM + nakliye"
+DLG_REGPF_010 = "Sorularýnýz için bizimle iletiþim kuramaya çekinmeyin"
+DLG_REGPF_011 = "BAÞVURU BÝLGÝLERÝNÝZ"
+DLG_REGPF_012 = "Doðum Tarihi:"
+DLG_REGPF_013 = "Ad:"
+DLG_REGPF_014 = "Soyad:"
+DLG_REGPF_015 = "Kullancý No:"
+DLG_REGPF_016 = "Þifre:"
+DLG_REGPF_017 = "Adres:"
+DLG_REGPF_018 = "Postal Code:"
+DLG_REGPF_019 = "Þehir:"
+DLG_REGPF_020 = "Ýl:"
+DLG_REGPF_021 = "Ülke:"
+DLG_REGPF_022 = "Tel:"
+DLG_REGPF_023 = "Fax:"
+DLG_REGPF_024 = "E-mail:"
+DLG_REGPF_025 = "Görüþleriniz:"
+DLG_REGPF_026 = "(Eðer CD-ROM istemiyorsanýz zorunlu)"
+DLG_REGPF_027 = "Yazýlým e-mail ile 24s. içinde ve CD-ROM için de 15 günde elinize ulaþacaktýr."
+DLG_REGPF_028 = "(Güncellemek isterseniz)"
+
+*********************************
+* REGISTER YOUR COPY PAPER FORM *
+*********************************
+
+DLG_REGCPF_000
+DLG_REGCPF_001 = "KAYIT OLMA - GUITAR PRO YAZILIM"
+DLG_REGCPF_002 = "Lütfen form üzerindeki [ ] boþluklarý doldurun,"
+DLG_REGCPF_003 = "yazdýrýn, ve bize postalayýn :"
+DLG_REGCPF_004 = "Fransa'dan"  { fax numarasý için }
+DLG_REGCPF_005 = "yurtdýþýndan"  { fax numarasý için }
+DLG_REGCPF_006 = "BAÞVURU BÝLGÝLERÝNÝZ"
+DLG_REGCPF_007 = "Tarih:"
+DLG_REGCPF_008 = "Sürüm:"
+DLG_REGCPF_009 = "Ad:"
+DLG_REGCPF_010 = "SOYAD:"
+DLG_REGCPF_011 = "Adres:"
+DLG_REGCPF_012 = "Posta Kodu:"
+DLG_REGCPF_013 = "Þehir:"
+DLG_REGCPF_014 = "Ýl:"
+DLG_REGCPF_015 = "Ülke:"
+DLG_REGCPF_016 = "Tel:"
+DLG_REGCPF_017 = "Fax:"
+DLG_REGCPF_018 = "E-mail:"
+DLG_REGCPF_019 = "(Yazýlýmýn kutusuna bakýnýz)"
+DLG_REGCPF_020 = "Seçmeli Sorular (lütfen Ýngilizce yada Fransýzca cevaplayýn)"
+DLG_REGCPF_021 = "Guitar Pro'yla nasýl tanýþtýnýz?"
+DLG_REGCPF_022 = "Guitar Pro'yu satýn almaya karar vermeden önce ne kadar süre kullandýnýz?"
+DLG_REGCPF_023 = "Guitar Pro'yu nasýl kullanýyorsunuz (notalar, etüt, vs...) ?"
+DLG_REGCPF_024 = "Hangi maðzadan yada hangi Internet sitesinden Guitar Pro'yu satýn aldýnýz ?"
+DLG_REGCPF_025 = "Görüþleriniz, önerileriniz, ..."
+
+********************
+* v3.0 BEND WINDOW *
+********************
+
+DLG300_BEND_000
+DLG300_BEND_001 = "Bend Tipi"
+DLG300_BEND_002 = "Çaldýr"
+DLG300_BEND_003 = "Bend Tipini seçin :"
+DLG300_BEND_004 = "Sola týklayarak noktalarý deðiþtebilirsiniz.(sað týklama = vibrato) :"
+DLG300_BEND_005 = "Nota deðeri = "
+DLG300_BEND_006 = "Efekt çalýnamýyor çünkü Midi Düzeninden bend tipi limiti efekti 1 ton seçilmiþ(menü Seçenekler|Midi Düzeni)."
+DLG300_BEND_007 = "Bu seçenek için temel ses kartý gerekli."
+
+**************************
+* v3.0 GRACE NOTE WINDOW *
+**************************
+
+DLG300_GRACE_000
+DLG300_GRACE_001 = "Geçiþ"
+DLG300_GRACE_002 = "Hiçbiri"
+DLG300_GRACE_003 = "Slide"
+DLG300_GRACE_004 = "Bend"
+DLG300_GRACE_005 = "Hammer"
+
+***********************
+* v3.0 MARKERS WINDOW *
+***********************
+
+DLG300_MARKERS_000
+DLG300_MARKERS_001 = "Ýþaretleyici Listesi"
+DLG300_MARKERS_002 = "Ölçü"
+DLG300_MARKERS_003 = "Ad"
+DLG300_MARKERS_004 = "Ekle"
+DLG300_MARKERS_005 = "Düzenle"
+DLG300_MARKERS_006 = "Sil"
+DLG300_MARKERS_007 = "Git"
+DLG300_MARKERS_008 = "%s silinsin mi?"
+DLG300_MARKERS_009 = "Ýþaretleyici Ekle"
+DLG300_MARKERS_010 = "Ýþaretleyici Düzenle"
+DLG300_MARKERS_011 = "Ölçü :"
+DLG300_MARKERS_012 = "Renk :"
+DLG300_MARKERS_013 = "Ad :"
+DLG300_MARKERS_014 = "Kesit"
+
+********************************
+* v3.0 MIDI IMPORTATION WINDOW *
+********************************
+
+DLG300_IMPM_000
+DLG300_IMPM_001 = "MIDI Alma"
+DLG300_IMPM_002 = "MIDI izleri :"
+DLG300_IMPM_003 = "Akor pozisyonu biçimi"
+DLG300_IMPM_004 = "Nota deðeri biçimi"
+DLG300_IMPM_005 = "Bir alt oktav transpoze et"
+DLG300_IMPM_006 = "Hýzlý Aktarma"
+DLG300_IMPM_007 = "Bu yol seçili tüm izleri yeni dosyaya aktarýr."
+DLG300_IMPM_008 = "Ton ve hýz  iz'in özelliklerine göre kendiliðinden ayarlanýr."
+DLG300_IMPM_009 = "Ýz baþýna 2 kanal kullan"
+DLG300_IMPM_010 = "Aktar !"
+DLG300_IMPM_011 = "Adým Adým Aktarma"
+DLG300_IMPM_012 = "Bu yolla deðiþik dosyalarýn izlerini birleþtirip ayýrabilirsiniz."
+DLG300_IMPM_013 = "Parçanýn adýný ve tepmosunu Aktar."
+DLG300_IMPM_014 = "Ýz ekle(Guitar Pro içinde) ..."
+DLG300_IMPM_015 = "Seçili Ýz(ler)'i geçerli iz'e aktar."
+DLG300_IMPM_016 = "Deneme sürümü sýnýrý 50 nota."
+DLG300_IMPM_017 = "Eðer memnun kaldýysanýz,lütfen kayýt olun."
+DLG300_IMPM_018 = "Penceryi Göster"
+DLG300_IMPM_019 = "Penceryi Sakla"
+DLG300_IMPM_020 = "MIDI biçimi %s desteklenmiyor.Lütfen 0 veya 1 MIDI biçimini kullanýn."
+DLG300_IMPM_021 = "Please select at least one MIDI track."
+DLG300_IMPM_022 = "Bütün Ýz'leri Al"
+DLG300_IMPM_023 = "Bütün Ýz'leri Býrak"
+DLG300_IMPM_024 = "Seçili Ýz'leri Çaldýr"
+DLG300_IMPM_025 = "Durdur"
+DLG300_IMPM_026 = "Baþka Dosya Aç"
+
+**************************
+* v3.0 MIDI SETUP WINDOW *
+**************************
+
+DLG300_MIDISETUP_000
+DLG300_MIDISETUP_001 = "MIDI Düzeni"
+DLG300_MIDISETUP_002 = "MIDI Çýkýþ"
+DLG300_MIDISETUP_003 = "Giriþ"
+DLG300_MIDISETUP_004 = "Aygýt"
+DLG300_MIDISETUP_005 = "Enstrüman Yamasý"
+DLG300_MIDISETUP_006 = "Ses perdesi deðiþtirme miktarý"
+DLG300_MIDISETUP_007 = "Bu çýkýþtan örnek çaldýr"
+DLG300_MIDISETUP_008 = "Eðer Bend veya slide efekt sesleri hatalýysa 'Ses pedesi deðiþtirme miktarý' seçeneðini kullanýn."
+DLG300_MIDISETUP_009 = "Bazý ses kartlarý 1 ton'dan yukarsýný desteklemez."
+DLG300_MIDISETUP_010 = "Deðiþik giriþler için ayný aygýtý kullanamasýnýz."
+
+**************************
+* v3.0 SCORE INFO WINDOW *
+**************************
+
+DLG300_SCORE_INFO_000
+DLG300_SCORE_INFO_001 = "Sayfa Bilgisi"
+DLG300_SCORE_INFO_002 = "Varsayýlan Bilgi"
+DLG300_SCORE_INFO_003 = "Baþlýk"
+DLG300_SCORE_INFO_004 = "AltBaþlýk"
+DLG300_SCORE_INFO_005 = "Sanatçý"
+DLG300_SCORE_INFO_006 = "Albüm"
+DLG300_SCORE_INFO_007 = "Yazar"
+DLG300_SCORE_INFO_008 = "TelifHakký"
+DLG300_SCORE_INFO_009 = "Tab"
+DLG300_SCORE_INFO_010 = "Bilgi"
+DLG300_SCORE_INFO_011 = "Uyarý"
+DLG300_SCORE_INFO_012 = "Shuffle rhy. :"
+DLG300_SCORE_INFO_013 = "Varsayýlan olarak kullanýlmasýný istediðiniz bilgileri yazýnýz:"
+
+**************************
+* v3.0 TRACK INFO WINDOW *
+**************************
+
+DLG300_TRACK_INFO_000
+DLG300_TRACK_INFO_001 = "Ýz Ekle"
+DLG300_TRACK_INFO_002 = "Tipi"
+DLG300_TRACK_INFO_003 = "Enstrüman"
+DLG300_TRACK_INFO_004 = "Konumu"
+DLG300_TRACK_INFO_005 = "En baþa"
+DLG300_TRACK_INFO_006 = "En sona"
+DLG300_TRACK_INFO_007 = "Öncekine"
+DLG300_TRACK_INFO_008 = "Sonrakine"
+DLG300_TRACK_INFO_009 = "Ýz'in özellikleri"
+DLG300_TRACK_INFO_010 = "Renk"
+DLG300_TRACK_INFO_011 = "Sadece Banjo 5 telli için"
+DLG300_TRACK_INFO_012 = "Ýz'i yeni tonda transpoze etmek ister misiniz ?"
+
+***************************
+* v3.0 PREFERENCES WINDOW *
+***************************
+
+DLG300_PREF_000
+DLG300_PREF_001 = "Çaldýrýrken Nota Takibi"
+DLG300_PREF_002 = "Ölçünün etrafýnda kesik çizgiler"
+DLG300_PREF_003 = "Notalarýn altýnda üçgen"
+DLG300_PREF_004 = "Notalarý renkli göster"
+
+*********************************
+* v3.0 ASCII IMPORTATION WINDOW *
+*********************************
+
+DLG300_IMPA_000
+DLG300_IMPA_001 = "Tellerin sayýsý geçerli izdekinden farklý."
+DLG300_IMPA_002 = "Lütfen geçerli izdeki ilk teli deðiþtirin."
+
+****************
+* v3.0 GENERAL *
+****************
+
+GENE300_000
+GENE300_001 = "Desteklenen azim izler :"
+GENE300_002 = "Ýz %s silinsin mi ?"
+GENE300_003 = "Demo sürümünde sayfa bilgisi yazdýrýlamaz."
+GENE300_004 = "hiçbiri" { for the MIDI ports }
+GENE300_005 = " MIDI giriþi [%s] açýlamýyor."
+GENE300_006 = "Lütfen diðer Midi yazýlýmýný kapayýn yada Midi düzenini deðiþtirin."
+GENE300_007 = "Herhangi bir yama seçilmedi" { enstrüman yamasý }
+GENE300_008 = "Yama bulunamadý" { enstrüman yamasý }
+GENE300_009 = "%s'i çaldýr"
+GENE300_010 = "Git %s"
+GENE300_011 = "Drum Kit"
+GENE300_012 = "Sadece Davul Ýz'i "
+GENE300_013 = "%s'e baðlý"
+GENE300_014 = "%s'e ayýrtýlmýþ"
+GENE300_015 = "serbest"
+GENE300_016 = "Deneme sürümünde GP 2.2 biçimine gönderme yapamazsýnýz eðer dosya deðiþtirilmemiþse."
+GENE300_017 = "Ýlk önce düzenlemeyi GP 3.0 biçimine kaydedin ve sonra bu iþlevi kullanýn."
+GENE300_018 = "Guitar Pro 2.2 Dosyalarý"
+
+******************
+* v3.0 MIX TABLE *
+******************
+
+MIXT300_000
+MIXT300_001 = "Hepsini Azalt"
+MIXT300_002 = "Hepsini Yükselt"
+MIXT300_003 = "Solo"
+MIXT300_004 = "S" {abreviation of "Solo"}
+MIXT300_005 = "Mute"
+MIXT300_006 = "M" {abreviation of "Mute"}
+MIXT300_007 = "Ýsim" {of the track}
+MIXT300_008 = "Giriþ"
+MIXT300_009 = "Giriþ" {abreviation of "Port"}
+MIXT300_010 = "Giriþ Seçimi"
+MIXT300_011 = "Ana Kanal"
+MIXT300_012 = "Ka" {abreviation of "Main Channel"}
+MIXT300_013 = "Ana Kanal Seçimi"
+MIXT300_014 = "Effect Channel"
+MIXT300_015 = "Ka2" {abreviation of "Effects Channel"}
+MIXT300_016 = "Efekt kanal seçimi"
+MIXT300_017 = "Enstrüman"
+MIXT300_018 = "Ses"
+MIXT300_019 = "Kolon"
+MIXT300_020 = "Chorus"
+MIXT300_021 = "Reverb"
+MIXT300_022 = "Phaser"
+MIXT300_023 = "Tremolo"
+MIXT300_024 = "Tamlanmamýþ Yama"
+MIXT300_025 = "Herhangi bir yama seçilmemiþ"
+MIXT300_026 = "Drum Kit"
+
+*********************************
+* v3.0 DYNAMIC ASSISTANT WINDOW *
+*********************************
+
+DLG300_ASS_DY_000
+DLG300_ASS_DY_001 = "Dinamik Seçenekleri"
+DLG300_ASS_DY_002 = "Bu yardýmcý dinamik deðer seçeneðinde bir grup notayý tek harekette deðiþtirenize müsade eder."
+DLG300_ASS_DY_003 = "Ölçü Sýrasý:"
+DLG300_ASS_DY_004 = "arasý"
+DLG300_ASS_DY_005 = "Telleri etkilendir:"
+DLG300_ASS_DY_006 = "Dinamik deðer:"
+DLG300_ASS_DY_007 = "Hiç tel seçilmemiþ."
+
+**********************
+* v3.0 MENUS & HINTS *
+**********************
+
+MN300_000
+MN300_001 = "Sayfa Bilgisi"
+MN300_002 = "En Baþa" {for the track}
+MN300_003 = "Öncekine" {for the track}
+MN300_004 = "Sonrakine" {for the track}
+MN300_005 = "En sona" {for the track}
+MN300_006 = "Önceki Ýz'e"
+MN300_007 = "Sýradaki Ýz'e"
+MN300_008 = "Özellikler" {for the track}
+MN300_009 = "Ýz'in Özellikleri"
+MN300_010 = "Ekle" {for a track}
+MN300_011 = "Ýz Ekle"
+MN300_012 = "Ýptal et" {for the track}
+MN300_013 = "Ýlk" {for the bar}
+MN300_014 = "Önceki" {for the bar}
+MN300_015 = "Sonraki" {ölçü için}
+MN300_016 = "Son" {ölçü için}
+MN300_017 = "Uzatma baðý(vuruþ)"
+MN300_018 = "Uzatma baðý(nota)"
+MN300_019 = "Vuruþ süresi"
+MN300_020 = "Nota süresi"
+MN300_021 = "-none-" {means "no" triolet, -3-, -5-, ...}
+MN300_022 = "n-tuplet"
+MN300_023 = "vuruþ" {n-tuplet on the beat}
+MN300_024 = "nota" {n-tuplet on the note}
+MN300_025 = "Bend Tipi" {includes all "Bend" type effects}
+MN300_026 = "Ýþaretleyici"
+MN300_027 = "Ýþaretleyici ekle"
+MN300_028 = "Ekle"
+MN300_029 = "Ýþaretleyci Listesi"
+MN300_030 = "Liste"
+MN300_031 = "Önceki Ýþaretleyiciye git"
+MN300_032 = "Önceki"
+MN300_033 = "Ýþaretleyiciye git"
+MN300_034 = "Git"
+MN300_035 = "Sonraki Ýþaretleyiciye git"
+MN300_036 = "Sonraki"
+MN300_037 = "Ýþaretleyici yok"
+MN300_038 = "Ýþaretli yerden çaldýr"
+MN300_039 = "Geçerli konumdan itibaren çaldýr (Space)"
+MN300_040 = "Araçlar"
+MN300_041 = "Geri Sayým"
+MN300_042 = "Katsayýyý Tempo'ya uygula"
+MN300_043 = "ÇokluÝz Görünümü"
+MN300_044 = "Dikey Ölçüler"
+MN300_045 = "Yatay Ölçüler"
+MN300_046 = "Notalar arasýnda sabit mesafe"
+MN300_047 = "Panel Alt-Üst"
+MN300_048 = "Araç Çubuklarý"
+MN300_049 = "Standart" {name of the toolbar}
+MN300_050 = "Ölçü" {name of the toolbar}
+MN300_051 = "Ýþaretleyiciler" {name of the toolbar}
+MN300_052 = "Görünüm" {name of the toolbar}
+MN300_053 = "Vuruþ Süresi" {name of the toolbar}
+MN300_054 = "Nota Süresi" {name of the toolbar}
+MN300_055 = "Çaldýr" {name of the toolbar}
+MN300_056 = "Tempo" {name of the toolbar}
+MN300_057 = "Efektler" {name of the toolbar}
+MN300_058 = "Dinamik" {name of the toolbar}
+MN300_059 = "Hepsi" {afficher toutes les barres d'outils}
+MN300_060 = "Hiçbiri" {n'afficher aucune barre d'outil}
+MN300_061 = "Varsayýlaný Kullan" {des barres d'outil}
+MN300_062 = "MIDI Düzeni"
+MN300_063 = "Çalarken izi görünür kýl"
+MN300_064 = "Guitar Pro 2.2 Format"
+MN300_065 = "Seçenekler"
+MN300_066 = "Hammer On / Pull Off"
+MN300_067 = "Slide"
+MN300_068 = "Tempo"
+MN300_069 = "Dinamik Seçenekleri"
+MN300_070 = "Baþa git"
+MN300_071 = "Sona git"
+MN300_072 = "Hýzlý Geri"
+MN300_073 = "Hýzlý Ýleri"
+MN300_074 = "Adým adým Geri"
+MN300_075 = "Adým adým Ýleri"
+
+******************
+* v3.0 GP ONLINE *
+******************
+
+DLG300_GPONLINE_000
+DLG300_GPONLINE_001 = "GP Online"
+DLG300_GPONLINE_002 = "GP Online Anýmsatýcý:"
+DLG300_GPONLINE_003 = "Hatýrlatma"
+DLG300_GPONLINE_004 = "2 haftada bir"
+DLG300_GPONLINE_005 = "Ayda bir"
+DLG300_GPONLINE_006 = "3 ayda bir"
+DLG300_GPONLINE_007 = "6 ayda bir"
+DLG300_GPONLINE_008 = "Internet baðlantýnýz varsa yeni sürümünü hýzlýca kontrol eder"
+DLG300_GPONLINE_009 = "Guitar Pro'nun yeni sürümünü  web üzerinden  bulabilirsiniz!"
+DLG300_GPONLINE_010 = "GP Online'ý baþlatmak ister misiniz?"
+DLG300_GPONLINE_011 = "Not : Doðrulamayý durdurmak için,GP Online'ý çalýþtýrýn yada [Seçenekler|Tercihler] komutlarýný kullanýn."
+DLG300_GPONLINE_012 = "GP Online %s gün kullanýlmamýþ."
+DLG300_GPONLINE_013 = "Not:GP Online Anýmsatýcý'yý görmemek için, [Seçenekler|Tercihler] komutlarýný kullanýn."
+
+***********************************
+* v4.0 PALM MUTE ASSISTANT WINDOW *
+***********************************
+ 
+DLG400_ASS_PM_000
+DLG400_ASS_PM_001 = "Palm Mute Seçenekleri"
+DLG400_ASS_PM_002 = "Bu asistan tek bir hareketle bir grup nota için Palm Mute seçeneklerini deðiþtirmenizi saðlar."
+DLG400_ASS_PM_003 = "Ölçü Alaný:"
+DLG400_ASS_PM_004 = "arasý"
+DLG400_ASS_PM_005 = "Ýlgili Teller:"
+DLG400_ASS_PM_006 = "Palm Mute Seçenekleri:"
+DLG400_ASS_PM_007 = "Evet	"
+DLG400_ASS_PM_008 = "Hayýr	"
+DLG400_ASS_PM_009 = "Tel seçili deðil"
+ 
+*****************************
+* v4.0 PERCUSSION ASSISTANT *
+*****************************
+ 
+DLG400_ASS_PERCU_000
+DLG400_ASS_PERCU_001 = "Eðer varsa elektronik sesleri kullan"
+ 
+*******************************
+* v4.0 MIX TABLE EVENT WINDOW *
+*******************************
+ 
+DLG400_MIX_000
+DLG400_MIX_001 = "Tüm izler"
+ 
+*********************
+* v4.0 CHORD WINDOW *
+*********************
+ 
+DLG400_CHORD_000
+DLG400_CHORD_001 = "Parmaklandýrma"
+ 
+*********************
+* v4.0 BRUSH WINDOW *
+*********************
+ 
+DLG400_BRUSH_000
+DLG400_BRUSH_001 = "Rasgueado"
+ 
+**************************
+* v4.0 TREMOLOBAR WINDOW *
+**************************
+ 
+DLG400_TREMOLOBAR_000
+DLG400_TREMOLOBAR_001 = "Tremolo Bar"
+DLG400_TREMOLOBAR_002 = "Bir biçim seçiniz:";
+ 
+*********************
+* v4.0 TRILL WINDOW *
+*********************
+ 
+DLG400_TRILL_000
+DLG400_TRILL_001 = "Trill"
+DLG400_TRILL_002 = "Trill Notasý"
+DLG400_TRILL_003 = "Periyod"
+DLG400_TRILL_004 = "Perde:"
+ 
+*******************************
+* v4.0 BMP EXPORTATION WINDOW *
+*******************************
+ 
+DLG400_EXPBMP_000
+DLG400_EXPBMP_001 = "BMP Gönderme"
+DLG400_EXPBMP_002 = "Gönder"
+DLG400_EXPBMP_003 = "Bitmap Dosyalarý"
+ 
+*******************************
+* v4.0 BMP EXPORTATION WINDOW *
+*******************************
+ 
+DLG400_EXPWAV_000
+DLG400_EXPWAV_001 = "WAVE Gönderme"
+DLG400_EXPWAV_002 = "Gönder"
+DLG400_EXPWAV_003 = "Kalite:"
+DLG400_EXPWAV_004 = "WAVE Dosyalarý"
+ 
+*************************
+* v4.0 FRETBOARD WINDOW *
+*************************
+ 
+DLG400_FRETBOARD_000
+DLG400_FRETBOARD_001 = "Görüntüleme Modu Seçimi"
+DLG400_FRETBOARD_002 = "Gösterim [Vuruþ]"
+DLG400_FRETBOARD_003 = "Gösterim [Vuruþ] + [Ölçü]"
+DLG400_FRETBOARD_004 = "Gösterim [Vuruþ] + [Diagram]"
+DLG400_FRETBOARD_005 = "Gösterim [Vuruþ] + [Sonraki Vuruþ]"
+DLG400_FRETBOARD_006 = "Gösterim [Vuruþ] + [Gam]"
+DLG400_FRETBOARD_007 = "Gösterim [Nota Adý]"
+DLG400_FRETBOARD_008 = "Gösterim [Ýnterval]"
+DLG400_FRETBOARD_009 = "Gösterim [Derece]"
+DLG400_FRETBOARD_010 = "Nota adýnýn gösterimi"
+DLG400_FRETBOARD_011 = "Ýsimsiz"
+DLG400_FRETBOARD_012 = "Ýsim [Vuruþ]"
+DLG400_FRETBOARD_013 = "Ýsim [Vuruþ] + [...]"
+DLG400_FRETBOARD_014 = "Klavyenin arkaplan resmi"
+DLG400_FRETBOARD_015 = "Elektrik"
+DLG400_FRETBOARD_016 = "Akustik"
+DLG400_FRETBOARD_017 = "Klasik"
+DLG400_FRETBOARD_018 = "Temel"
+DLG400_FRETBOARD_019 = "Kalvyeyi ters çevir"
+DLG400_FRETBOARD_020 = "Gam aracýný aç"
+DLG400_FRETBOARD_021 = "Gamlar"
+DLG400_FRETBOARD_022 = "Sola Geç"
+DLG400_FRETBOARD_023 = "Saða Geç"
+ 
+************************
+* v4.0 KEYBOARD WINDOW *
+************************
+ 
+DLG400_KEYBOARD_000
+DLG400_KEYBOARD_001 = "Görüntüleme Modu Seçimi"
+DLG400_KEYBOARD_002 = "Gösterim [Vuruþ]"
+DLG400_KEYBOARD_003 = "Gösterim [Vuruþ] + [Ölçü]"
+DLG400_KEYBOARD_004 = "Gösterim [Vuruþ] + [Sonraki Vuruþ]"
+DLG400_KEYBOARD_005 = "Gösterim [Vuruþ] + [Gam]"
+DLG400_KEYBOARD_006 = "Gam aracýný aç"
+DLG400_KEYBOARD_007 = "Gamlar"
+DLG400_KEYBOARD_008 = "Sola Geç"
+DLG400_KEYBOARD_009 = "Saða Geç"
+ 
+******************************
+* v4.0 KEY SIGNATURE WINDOW *
+******************************
+ 
+DLG400_KEYSIGN_000
+DLG400_KEYSIGN_001 = "Anahtar"
+DLG400_KEYSIGN_002 = "Sonuna kadar"
+DLG400_KEYSIGN_003 = "Mod"
+DLG400_KEYSIGN_004 = "majör"
+DLG400_KEYSIGN_005 = "minör"
+ 
+***************************
+* v4.0 NEW TUNING WINDOW *
+***************************
+ 
+DLG400_NEWTUNE_000
+DLG400_NEWTUNE_001 = "Yeni Akort"
+DLG400_NEWTUNE_002 = "Bu yeni akort için bir isim seçiniz:"
+ 
+**************************
+* v4.0 SCORE INFO WINDOW *
+**************************
+ 
+DLG400_SCORE_INFO_000
+DLG400_SCORE_INFO_001 = "Lirikler"
+DLG400_SCORE_INFO_002 = "Ýze uygula:"
+DLG400_SCORE_INFO_003 = "Partisyonu modifiye ettiyseniz, bu pencereye geri dönünün ve lirikleri güncellemek için tamama basýn ."
+DLG400_SCORE_INFO_004 = "Satýr %s"
+DLG400_SCORE_INFO_005 = "Þu ölçüden baþla:"
+DLG400_SCORE_INFO_006 = "Özel semboller kullanmak için yardým dökümanýný okuyunuz: -, + ve []"
+DLG400_SCORE_INFO_007 = "Kes"
+DLG400_SCORE_INFO_008 = "Kopyala"
+DLG400_SCORE_INFO_009 = "Yapýþtýr"
+ 
+**************************
+* v4.0 TRACK INFO WINDOW *
+**************************
+ 
+DLG400_TRACK_INFO_000
+DLG400_TRACK_INFO_001 = "Bu akordu ekle"
+DLG400_TRACK_INFO_002 = "Bu akordu sil"
+DLG400_TRACK_INFO_003 = "Ýlk olarak silmek istediðiniz akordu seçiniz."
+DLG400_TRACK_INFO_004 = "%s Akordunun silinmesini onaylýyor musunuz?"
+DLG400_TRACK_INFO_005 = "Ýlk önce yeni akordu belirtmeli, daha sonra onu isimlendirmek için Ekle tuþuna basmalýsýnýz."
+DLG400_TRACK_INFO_006 = "Bu yeni akort için bir isim seçmelisiniz."
+DLG400_TRACK_INFO_007 = "Bu isim kullanýlmaktadýr."
+ 
+***************************
+* v4.0 PREFERENCES WINDOW *
+***************************
+ 
+DLG400_PREF_000
+DLG400_PREF_001 = "Otomatik Yedekleme"
+DLG400_PREF_002 = "Hepsi"
+DLG400_PREF_003 = "Eylemler"
+DLG400_PREF_004 = "Lirikler:"
+DLG400_PREF_005 = "Geri Al/Yinele"
+DLG400_PREF_006 = "Ýptal et Geri al/Yinele (yavaþ bilgisayarlar)"
+ 
+***********************************
+* v4.0 TRANSPOSE ASSISTANT WINDOW *
+***********************************
+ 
+DLG400_ASS_TR_000
+DLG400_ASS_TR_001 = "Tüm izleri transpoze et"
+ 
+*********************************
+* v4.0 SEARCH ON THE WEB WINDOW *
+*********************************
+ 
+DLG400_SEARCHONWEB_000
+DLG400_SEARCHONWEB_001 = "Web'de ara"
+DLG400_SEARCHONWEB_002 = "Arama:"
+DLG400_SEARCHONWEB_003 = "'satriani' veya 'elise' gibi basit bir yazý giriniz"
+DLG400_SEARCHONWEB_004 = "on:"
+DLG400_SEARCHONWEB_005 = "Arama!"
+DLG400_SEARCHONWEB_006 = "Arama siteleri listesini güncelle"
+DLG400_SEARCHONWEB_007 = "%s site bulundu."
+DLG400_SEARCHONWEB_008 = "Aramayý baþlatmak için bir yazý girmelisiniz."
+DLG400_SEARCHONWEB_009 = "Guitar Pro sitesiyle baðlantý kurulamýyor."
+ 
+***************************
+* v4.0 SCALES TOOL WINDOW *
+***************************
+ 
+DLG400_SCALES_000
+DLG400_SCALES_001 = "Gamlar"
+DLG400_SCALES_002 = "Dinle"
+DLG400_SCALES_003 = "Gam Bulucu"
+DLG400_SCALES_004 = "Ölçüden Tara:"
+DLG400_SCALES_005 = "arasý"
+DLG400_SCALES_006 = "Bul!"
+ 
+**********************
+* v4.0 MENUS & HINTS *
+**********************
+ 
+MN400_000
+MN400_001 = "Ýlk Ýz"
+MN400_002 = "Son Ýz"
+MN400_003 = "Ýzi Sil"
+MN400_004 = "Ölçü Ekle"
+MN400_005 = "Ölçüleri Kes"
+MN400_006 = "Ölçüleri Kopyala"
+MN400_007 = "Ölçüleri Yapýþtýr"
+MN400_008 = "Boþ ölçüler"
+MN400_009 = "Anahtar"
+MN400_010 = "Çift Ölçü"
+MN400_011 = "Geri Al"
+MN400_012 = "Yinele"
+MN400_013 = "Yarýmton yukarý"
+MN400_014 = "Yarýmton aþaðý"
+MN400_015 = "Sol El Parmaklandýrýmý"
+MN400_016 = "Sað El Parmaklandýrýmý"
+MN400_017 = "Yukarý Pena Vuruþu"
+MN400_018 = "Aþaðý Pena Vuruþu"
+MN400_019 = "Vurgulu Nota"
+MN400_020 = "Harmonik"
+MN400_021 = "Naturel Harmonik"
+MN400_022 = "Artificial Harmonik"
+MN400_023 = "Tapped Harmonik"
+MN400_024 = "Tam Harmonik"
+MN400_025 = "Yarým Harmonik"
+MN400_026 = "Bend"
+MN400_027 = "Tremolo Bar"
+MN400_028 = "Slide"
+MN400_029 = "Shift Slide"
+MN400_030 = "Legato Slide"
+MN400_031 = "Aþaðýdan Slide In"
+MN400_032 = "Yukarýdan Slide In"
+MN400_033 = "Aþaðý Slide Out"
+MN400_034 = "Yukarý Slide Out"
+MN400_035 = "Wide Vibrato"
+MN400_036 = "Trill"
+MN400_037 = "Tremolo Vuruþu"
+MN400_038 = "Palm Mute"
+MN400_039 = "Staccato"
+MN400_040 = "Dijital Gitar Tuner"
+MN400_041 = "Gamlar"
+MN400_042 = "Palm Mute Özellikleri"
+MN400_043 = "Standart Notasyon"
+MN400_044 = "Kalvye"
+MN400_045 = "Keyboard"
+MN400_046 = "Menüler && Araç Çubuklarý"
+MN400_047 = "Özelleþtir"
+MN400_048 = "Araç Çubuðu Pozisyonlarýný Sýfýrla"
+MN400_049 = "Eski GP3 Glyph"
+MN400_050 = "XP Araç Çubuðu Tarzý"
+MN400_051 = "Guitar Pro 3.0 Formatý"
+MN400_052 = "WAVE Dosyasý (Ses)"
+MN400_053 = "BMP Dosyasý (Resim)"
+MN400_054 = "Menü" {name of the toolbar}
+MN400_055 = "Nota" {name of the toolbar}
+MN400_056 = "Klavye" {name of the toolbar}
+MN400_057 = "Keyboard" {name of the toolbar}
+MN400_058 = "Ýz Seçici" {name of the toolbar}
+MN400_059 = "Durum Çubuðu" {name of the toolbar}
+MN400_060 = "Windows Ses Kontrolü"
+
+*********************
+* v4.0 INTRO WINDOW *
+*********************
+
+DLG400_INTRO_000
+DLG400_INTRO_001 = "%s2 günlük deðerlendirme periyodunuzun %s1. günündesiniz."
+DLG400_INTRO_002 = "Deðerlendirme periyodu bitmiþtir. Kayýt olmayý deneyin."
+ 
+****************
+* v4.0 GENERAL *
+****************
+ 
+GENE400_000
+GENE400_001 = "Demo versiyonunda eðer dosya deðiþtirilmiþ ise GP 3.0 formatýnda gönderemezsiniz."
+GENE400_002 = "Dosyayý açmalý ve bu gönderme fonksiyonunu kullanmalýsýnýz."
+GENE400_003 = "Guitar Pro 3.0 Dosyalarý"
+GENE400_004 = "Guitar Pro en son oturumda doðru bir þekilde kapatýlmadý, ya da baþka bir oturum þuan açýlmýþ durumda."
+GENE400_005 = "En son yedekleme dosyasýný çaðrýlsýn mý?"
+GENE400_006 = "Demo versiyonda BMP formatýnda dönüþüm yapamazsýnýz."
+GENE400_007 = "Araç Çubuðunun kendi pozisyonlarýný sýfýrlamak için, Guitar Pro'yu kapatýn ve yeniden baþlatýn."
+GENE400_008 = "Baþlat/Durdur tuþunu kayýdý baþlatmak veya durdurmak için kullanabilirsiniz."
+GENE400_009 = "BMP dönüþümünü kullanmak için yatay geçiþ modunda olmalýsýnýz."
+GENE400_010 = "Kes/Kopyala/Yapýþtýr özellikleri demo versiyonda 24.ölçüde sýnýrlandýrýlmýþtýr."
+GENE400_011 = "Clipboard Boþ."
+GENE400_012 = "Clipboard içeriði izlerle uyumlu deðil."
+GENE400_013 = "[%s] doyasý kaydedildi."
+GENE400_014 = "[%s] klasörü yaratýlamýyor. Yükleme iptal edildi."
+GENE400_015 = "Guitar Pro yasaklanmýþ bir [Code %s] modifikasyonu buldu. Yükleme iptal edildi."
+GENE400_016 = "[%s] fontu doðru yüklenmemiþ. Guitar Pro'yu yeniden yüklemenizi öneririz."
+
+*********************************
+* v4.0 WAVE EXPORT SETUP WINDOW *
+*********************************
+
+DLG400_WAVEEXPSETUP_000
+DLG400_WAVEEXPSETUP_001 = "WAVE Gönderme Ayarlarý"
+DLG400_WAVEEXPSETUP_002 = "WAVE Input"
+DLG400_WAVEEXPSETUP_003 = "MIDI outputunu kaydetmek için kullanýlacak hat:"
+DLG400_WAVEEXPSETUP_004 = "Ýpucu: Eðer gönderilmiþ WAVE dosyasýnýn sesi yoksa, baþka bir hat deneyin."
+DLG400_WAVEEXPSETUP_005 = "Bir hat seçmelisiniz."
+
+****************
+* v4.1 MIDI IN *
+****************
+ 
+MI410_000
+MI410_001 = "MIDI Input Aktif"
+MI410_002 = "MIDI In aygýtý açýlamýyor. Menü özelliklerindeki konfigürasyonu doðrulayýn | MIDI Ayarlarý."
+MI410_003 = "MIDI Input (Nota Nota)"
+MI410_004 = "Aygýt"
+MI410_005 = "Duyarlýlýk"
+MI410_006 = "ms  (2 ayrý notaya ertele)" { "ms" for milliseconds }
+MI410_007 = "Kanal Belirlemesi ile Tel Etkilenmesi "
+MI410_008 = "Enüst tel için ilk kanal"
+MI410_009 = "Enalt tel için ilk kanal"
+MI410_010 = "Kanal Belirlemesi Kapalý (Otomatik Parmaklandýrma)"
+MI410_011 = "Ýpucu: MIDI enstrümanýnýz tarafýndan çalýnan notalarý yakalamak için [Ses | MIDI Input Aktif] menüsünü kullanýn."
+
+*********************
+* v5.0 ABOUT WINDOW *
+*********************
+ 
+DLG500_ABOUT_000
+DLG500_ABOUT_001 = "%s ve %t kayýtlý ticari markadýr veya Fransa ve / veya baþka bir ülkenin ticari markasýdýr."
+DLG500_ABOUT_002 = "Bütün ticari markalar ve kayýtlý ticari markalar kendi sahiplerinin malýdýr, %s ile hiçbir ilgisi ve baðý yoktur."
+DLG500_ABOUT_003 = "Guitar Pro Takýmý"
+DLG500_ABOUT_004 = "Orjinal Konsept && Yazýlým"
+DLG500_ABOUT_005 = "RSE Orjinal Konsept && Ses Örnekleri"
+DLG500_ABOUT_006 = "Geliþtirme"
+DLG500_ABOUT_007 = "Dizayn"
+DLG500_ABOUT_008 = "Çeviri [%s]"
+DLG500_ABOUT_009 = "Teþekkürler"
+DLG500_ABOUT_010 = "Ses Teknolojileri"
+
+*********************************
+* v5.0 DYNAMIC ASSISTANT WINDOW *
+*********************************
+ 
+DLG500_ASS_DY_000
+DLG500_ASS_DY_001 = "Seçim"
+DLG500_ASS_DY_002 = "Sesler:"
+DLG500_ASS_DY_003 = "Hepsi"
+DLG500_ASS_DY_004 = "Lead"
+DLG500_ASS_DY_005 = "Bass"
+
+**********************************
+* v5.0 LET RING ASSISTANT WINDOW *
+**********************************
+ 
+DLG500_ASS_LR_000
+DLG500_ASS_LR_001 = "Seçim"
+DLG500_ASS_LR_002 = "Sesler:"
+DLG500_ASS_LR_003 = "Hepsi"
+DLG500_ASS_LR_004 = "Lead"
+DLG500_ASS_LR_005 = "Bass"
+
+***********************************
+* v5.0 PALM MUTE ASSISTANT WINDOW *
+***********************************
+ 
+DLG500_ASS_PM_000
+DLG500_ASS_PM_001 = "Seçim"
+DLG500_ASS_PM_002 = "Sesler:"
+DLG500_ASS_PM_003 = "Hepsi"
+DLG500_ASS_PM_004 = "Lead"
+DLG500_ASS_PM_005 = "Bass"
+
+*******************************
+* v5.0 MIX TABLE EVENT WINDOW *
+*******************************
+ 
+DLG500_MIX_000
+DLG500_MIX_001 = "MIDI Kullan"
+DLG500_MIX_002 = "MIDI Bankasý:"
+DLG500_MIX_003 = "RSE Kullan"
+DLG500_MIX_004 = "None" { used for Sound Bank list }
+DLG500_MIX_005 = "None" { used for Effects list }
+
+***************************
+* v5.0 INSTRUMENTS WINDOW *
+***************************
+ 
+DLG500_INSTR_000
+DLG500_INSTR_001 = "MIDI Kullan"
+DLG500_INSTR_002 = "MIDI Bankasý:"
+DLG500_INSTR_003 = "RSE Kullan"
+DLG500_INSTR_004 = "Dinle"
+DLG500_INSTR_005 = "Ses Bankasý"
+DLG500_INSTR_006 = "None" { used for Sound Bank list }
+DLG500_INSTR_007 = "Efektt"
+DLG500_INSTR_008 = "None" { used for Effects list }
+DLG500_INSTR_009 = "Vuruþta Otomatik Vurgulama" 
+DLG500_INSTR_010 = "None" { used for AutoAccentuation }
+DLG500_INSTR_011 = "Çok Yumuþak"
+DLG500_INSTR_012 = "Yumuþak"
+DLG500_INSTR_013 = "Orta"
+DLG500_INSTR_014 = "Sert"
+DLG500_INSTR_015 = "Çok Sert"
+DLG500_INSTR_016 = "Ýnsan Çalýþý"
+DLG500_INSTR_017 = "Tüm enstrümanlar, ampliler ve efektler kendi sahiplerinin ticari markasý veya kayýtlý ticari markasýdýr, %s ile hiçbir baðý veya iliþkisi yoktur."
+
+*****************************
+* v5.0 NOTE DURATION WINDOW *
+*****************************
+ 
+DLG500_NOTE_DURATION_000
+DLG500_NOTE_DURATION_001 = "Ses Sürekliliði"
+
+**************************
+* v5.0 GRACE NOTE WINDOW *
+**************************
+
+DLG500_GRACE_000
+DLG500_GRACE_001 = "Pozisyon"
+DLG500_GRACE_002 = "Vuruþtan Önce"
+DLG500_GRACE_003 = "Vuruþ Üzerinde"
+
+************************
+* v5.0 HARMONIC WINDOW *
+************************
+
+DLG500_HARM_000
+DLG500_HARM_001 = "Artifical Harmonic"
+DLG500_HARM_002 = "Artifical Harmonic Tipi"
+DLG500_HARM_003 = "Artifical Harmonic"
+DLG500_HARM_004 = "Tapped Harmonic"
+DLG500_HARM_005 = "Tam Harmonik"
+DLG500_HARM_006 = "Yarým Harmonik"
+DLG500_HARM_007 = "Sol El:"
+DLG500_HARM_008 = "Sað El:"
+
+**************************
+* v5.0 SCORE INFO WINDOW *
+**************************
+ 
+DLG500_SCORE_INFO_000
+DLG500_SCORE_INFO_001 = "Sözler"
+DLG500_SCORE_INFO_002 = "Müzik"
+DLG500_SCORE_INFO_003 = "RSE Master Efekti (tüm izlere uygulanýr)"
+DLG500_SCORE_INFO_004 = "Efekt:"
+
+*********************
+* v5.0 PRINT WINDOW *
+*********************
+
+DLG500_PRT_000
+DLG500_PRT_001 = "Pozisyon"
+DLG500_PRT_002 = "Gam:"
+DLG500_PRT_003 = "Sayfaya Sýðdýr"
+DLG500_PRT_004 = "Ortalanmýþ Döküman"
+
+********************************
+* v5.0 WAVE EXPORTATION WINDOW *
+********************************
+ 
+DLG500_EXPWAV_000
+DLG500_EXPWAV_001 = "WAVE Gönderimi"
+DLG500_EXPWAV_002 = "Kayýt Sürücüsü"
+DLG500_EXPWAV_003 = "Kalite"
+DLG500_EXPWAV_004 = "Hz"
+DLG500_EXPWAV_005 = "bit"
+
+*******************************
+* v5.0 PAGE PROPERTIES WINDOW *
+*******************************
+ 
+DLG500_PAGE_PROP_000
+DLG500_PAGE_PROP_001 = "Sayfa Ayarlarý"
+DLG500_PAGE_PROP_002 = "Partisyonu Tazele"
+DLG500_PAGE_PROP_003 = "Varsayýlan Ayarlar Olarak Kaydet"
+DLG500_PAGE_PROP_004 = "Varsayýlan Ayarlarý Uygula"
+DLG500_PAGE_PROP_005 = "Sayfa Formatý"
+DLG500_PAGE_PROP_006 = "Oryantasyon"
+DLG500_PAGE_PROP_007 = "Portre"
+DLG500_PAGE_PROP_008 = "Peyzaj"
+DLG500_PAGE_PROP_009 = "Partisyon Ebadý"
+DLG500_PAGE_PROP_010 = "Proporsiyon:"
+DLG500_PAGE_PROP_011 = "Kenarlar"
+DLG500_PAGE_PROP_012 = "Sol"
+DLG500_PAGE_PROP_013 = "Sað"
+DLG500_PAGE_PROP_014 = "Üst"
+DLG500_PAGE_PROP_015 = "Alt"
+DLG500_PAGE_PROP_016 = "Sayfa Baþlýðý && Alt Yazý"
+DLG500_PAGE_PROP_017 = "Baþlýk"
+DLG500_PAGE_PROP_018 = "Altbaþlýk"
+DLG500_PAGE_PROP_019 = "Artist"
+DLG500_PAGE_PROP_020 = "Albüm"
+DLG500_PAGE_PROP_021 = "Sözler"
+DLG500_PAGE_PROP_022 = "Müzik"
+DLG500_PAGE_PROP_023 = "Sözler && Müzik"
+DLG500_PAGE_PROP_024 = "Telifhakký"
+DLG500_PAGE_PROP_025 = "Sayfa Numarasý"
+
+******************************
+* v5.0 TIME SIGNATURE WINDOW *
+******************************
+
+DLG500_TIMES_000
+DLG500_TIMES_001 = "Beam Eighth Notes By"
+DLG500_TIMES_002 = "Total"
+
+***********************
+* v5.0 SYNCOPE WINDOW *
+***********************
+
+DLG500_SYNCOPE_000
+DLG500_SYNCOPE_001 = "Triplet Hissi"
+DLG500_SYNCOPE_002 = "Triplet Hissi Yok"
+DLG500_SYNCOPE_003 = "8. Triplet"
+DLG500_SYNCOPE_004 = "16.Triplet"
+DLG500_SYNCOPE_005 = "Sonuna Kadar"
+
+**************************
+* v5.0 TRACK INFO WINDOW *
+**************************
+ 
+DLG500_TRACK_INFO_000
+DLG500_TRACK_INFO_001 = "Notasyon"
+DLG500_TRACK_INFO_002 = "Standart Notasyon"
+DLG500_TRACK_INFO_003 = "Tablatür"
+DLG500_TRACK_INFO_004 = "Tablatür [perde = midi notasý]"
+DLG500_TRACK_INFO_005 = "Stil"
+DLG500_TRACK_INFO_006 = "Akordu Partisyonda Göster"
+DLG500_TRACK_INFO_007 = "Tab ile Ritmik Göster"
+DLG500_TRACK_INFO_008 = "Force Horizontal Beams"
+DLG500_TRACK_INFO_009 = "Diagramlarý Partisyonun Üstünde Listele"
+DLG500_TRACK_INFO_010 = "Partisyondaki Diagramlar"
+DLG500_TRACK_INFO_011 = "Standart Notasyon Altýnda Diagramlar/Akorlar "
+DLG500_TRACK_INFO_012 = "Kanallar"
+DLG500_TRACK_INFO_013 = "Kanallarý 11'den 16'ya zorla"
+
+***************************
+* v5.0 PREFERENCES WINDOW *
+***************************
+ 
+DLG500_PREF_000
+DLG500_PREF_001 = "Baþlangýç"
+DLG500_PREF_002 = "Baþlangýç Penceresini Göster"
+DLG500_PREF_003 = "Son Dosyayý Otomatik Aç"
+DLG500_PREF_004 = "Görünüm"
+DLG500_PREF_005 = "Çoklu Ýz Görünümüne Otomatik Geç"
+DLG500_PREF_006 = "Playback"
+DLG500_PREF_007 = "Redaksiyon Sýrasýna Playback"
+DLG500_PREF_008 = "Redaksiyon Sýrasýnda Playbacki Zorla"
+
+*********************
+* v5.0 ORDER WINDOW *
+*********************
+
+DLG500_REG_000
+DLG500_REG_001 = "5.x versiyonu için bedava güncellemelerden faydalanýn"
+DLG500_REG_002 = "6. Versiyona geçiþ için özel bir teklif kazanýn"
+
+**********************************
+* v5.0 REGISTER YOUR COPY WINDOW *
+**********************************
+
+DLG500_REGC_000
+DLG500_REGC_001 = "5.x versiyonu için bedava güncellemelerden faydalanýn"
+DLG500_REGC_002 = "6. Versiyona geçiþ için özel bir teklif kazanýn"
+
+************
+* v5.0 RSE *
+************
+
+RSE500_000
+RSE500_001 = "RSE Yükleniyor"
+RSE500_002 = "%s Yükleniyor"
+RSE500_003 = "RSE Hatasý %s"
+RSE500_004 = "%s Ýzi Ýçin Varsayýlan Bir Preset Yok"
+RSE500_005 = "RSE CPU:"
+
+********************
+* v5.0 LOOP WINDOW *
+********************
+
+DLG500_LOOP_000
+DLG500_LOOP_001 = "Dolaplý Çal / Hýz Çalýþtýrýcý"
+DLG500_LOOP_002 = "Basit Dolap"
+DLG500_LOOP_003 = "Hýz Çalýþtýrýcý"
+
+***********************************
+* v5.0 TRANSPOSE ASSISTANT WINDOW *
+***********************************
+
+DLG500_ASS_TR_000
+DLG500_ASS_TR_001 = "Mümkün Olduðunda Parmaklandýrmayý Sakla"
+
+**********************
+* v5.0 IMPORT WINDOW *
+**********************
+
+DLG500_IMPORT_000
+DLG500_IMPORT_001 = "%s Aktar"
+DLG500_IMPORT_002 = "Bilgi"
+DLG500_IMPORT_003 = "Dosya Adý:"
+DLG500_IMPORT_004 = "Dosya Formatý:"
+DLG500_IMPORT_005 = "Partisyon Baþlýðý:"
+DLG500_IMPORT_006 = "Partisyon Yazarý:"
+DLG500_IMPORT_007 = "Versiyon:"
+DLG500_IMPORT_008 = "Ýlerleme"
+DLG500_IMPORT_009 = "Sonuç"
+
+**************************
+* v5.0 PTB IMPORT WINDOW *
+**************************
+
+DLG500_PTB_IMP_000
+DLG500_PTB_IMP_001 = "PowerTab Aktarýmý"
+DLG500_PTB_IMP_002 = "Aktarým Modu"
+DLG500_PTB_IMP_003 = "Partisyonu Tamamla"
+DLG500_PTB_IMP_004 = "Sadece Gitarlar"
+DLG500_PTB_IMP_005 = "Sadece Basslar"
+DLG500_PTB_IMP_006 = "Seçenekler"
+DLG500_PTB_IMP_007 = "Break Lines'ý Sakla"
+DLG500_PTB_IMP_008 = "[%s] dosyasý bulunamadý"
+DLG500_PTB_IMP_009 = "[%s] dosyasý geçerli bir PowerTab dosyasý deðil"
+DLG500_PTB_IMP_010 = "Sadece v1.7 dosyalarý desteklenmektedir"
+DLG500_PTB_IMP_011 = "Geçersiz Data"
+DLG500_PTB_IMP_012 = "[%s] elementini çaðýrýrkenken hata oluþtu - Geçersiz PowerTab Dosyasý"
+DLG500_PTB_IMP_013 = "Geçersiz Data [ReleaseType]"
+DLG500_PTB_IMP_014 = "Data eþitlenirken sorun yaþandý. Dosya geçerli deðil"
+DLG500_PTB_IMP_015 = "Baþlýk Eþitleniyor..."
+DLG500_PTB_IMP_016 = "Gitar Ýleri Eþitleniyor..."
+DLG500_PTB_IMP_017 = "Bass izleri Eþitleniyor..."
+DLG500_PTB_IMP_018 = "Fontlar Eþitleniyor..."
+DLG500_PTB_IMP_019 = "Eþitleme Tamamlandý"
+DLG500_PTB_IMP_020 = "Baþlýk Çevriliyor..."
+DLG500_PTB_IMP_021 = "Gitar Ýzleri Çevriliyor..."
+DLG500_PTB_IMP_022 = "Bass Ýzleri Çevriliyor..."
+DLG500_PTB_IMP_023 = "Aktarým Tamamlandý"
+DLG500_PTB_IMP_024 = "Aktarým Ýptal Edildi"
+
+**************************
+* v5.0 TEF IMPORT WINDOW *
+**************************
+
+DLG500_TEF_IMP_000
+DLG500_TEF_IMP_001 = "[%s] dosyasý bir TablEdit dosyasý deðil."
+DLG500_TEF_IMP_002 = "[%s] dosyasý açýlamýyor."
+DLG500_TEF_IMP_003 = "Olmayan bir akora eriþim"
+DLG500_TEF_IMP_004 = "Olmayan bir ölçüye eriþim"
+DLG500_TEF_IMP_005 = "Tellerin sayýsý %s olamaz - Hatalý TablEdit dosyasý"
+DLG500_TEF_IMP_006 = "Harmonikanýn izi aktarýlmadý"
+DLG500_TEF_IMP_007 = "Akordeon izi aktarýlmadý"
+DLG500_TEF_IMP_008 = "'syncopation change'den 'triplet feel 8th'e dönüþüm"
+DLG500_TEF_IMP_009 = "%t. izin %s. ölçüsünde Triolet hatasý"
+DLG500_TEF_IMP_010 = "%t. izin ikinci sesinin %s. ölçüsünde Triolet hatasý"
+DLG500_TEF_IMP_011 = "%t. izin %s. ölçüsünde Ritmik Modifikasyon (duble uzayan nota simülasyonu)."
+DLG500_TEF_IMP_012 = "%t. izin %s. ölçüsünde Ritmik Modifikasyon"
+DLG500_TEF_IMP_013 = "Hata Yok"
+
+**************************
+* v5.0 XML IMPORT WINDOW *
+**************************
+
+DLG500_XML_IMP_000
+DLG500_XML_IMP_001 = "Aktarým Baþarýsýz: PARTWISE veya TIMEWISE olmalý."
+DLG500_XML_IMP_002 = "Geçersiz XML dosyasý."
+
+**************************
+* v5.0 PDF EXPORT WINDOW *
+**************************
+
+DLG500_PDF_EXP_000
+DLG500_PDF_EXP_001 = "PDF Dökümaný PDF görüntüleyiciyle açýlmýþ durumda. PDF Gönerimi yapmadan önce onu görüntüleyiciyi kapayýn."
+
+**************************
+* v5.0 BMP EXPORT WINDOW *
+**************************
+
+DLG500_BMP_EXP_000
+DLG500_BMP_EXP_001 = "Dosyaya yazýlamýyor. BMP Gönderimi Ýptal Edildi."
+DLG500_BMP_EXP_002 = "Hafýza Yetersiz. BMP Gönderimi Ýptal Edildi."
+
+*********************************
+* v5.0 SEARCH ON THE WEB WINDOW *
+*********************************
+
+DLG500_TAB_WEB_000
+DLG500_TAB_WEB_001 = "Akif site yok. Lütfen ilk önce [Arama Siteleri Listesini Güncelle] butonunu kullanýn."
+
+***************************
+*  v5.0 NEW TUNING WINDOW *
+***************************
+
+DLG500_NEWTUNE_000
+DLG500_NEWTUNE_001 = "Partisyon Üzerindeki Etiket:"
+DLG500_NEWTUNE_002 = "Varsayýlan MIDI Enstrümaný:"
+
+****************************************
+* v5.0 CHECK DURATION ASSISTANT WINDOW *
+****************************************
+
+DLG500_ASS_CD_000
+DLG500_ASS_CD_001 = "Geçersiz Ölçü-%s ölçüsünün uzunluðu - %s izi - %s sesi."
+
+****************
+* v5.0 GENERAL *
+****************
+ 
+GENE500_000
+GENE500_001 = "Demo versiyonda eðer dosya modifiye edilmiþse GP 4 formatýnda gönderim yapamazsýnýz"
+GENE500_002 = "Dosyayý açmalý ve doðrudan gönderim özellðini kullanmalýsýnýz."
+GENE500_003 = "Guitar Pro 4 Dosyalarý"
+GENE500_004 = "Bitmap Dosyalarý"
+GENE500_005 = "Wave Dosyalarý"
+GENE500_006 = "PDF Dosyalarý"
+GENE500_007 = "PowerTab Dosyalarý"
+GENE500_008 = "TablEdit Dosyalarý"
+GENE500_009 = "MusicXML Dosyalarý"
+
+**********************
+* v5.0 MENUS & HINTS *
+**********************
+
+MN500_000
+MN500_001 = "Guitar Pro 4 Formatý"
+MN500_002 = "Sayfa Düzeni"
+MN500_003 = "Düzen"
+MN500_004 = "Tümünü Seç"
+MN500_005 = "Sesler"
+MN500_006 = "1. Sesi Düzenle [Lead]"
+MN500_007 = "2. Sesi Düzenle [Bass]"
+MN500_008 = "Gri Ýnaktif Ses"
+MN500_009 = "Triplet Hissi"
+MN500_010 = "Müzikal Talimatlar"
+MN500_011 = "Break Line"
+MN500_012 = "Break Line'ý Zorla"
+MN500_013 = "Break Line'ý Koru"
+MN500_014 = "Ölçü Organizasyonunu Sýfýrla"
+MN500_015 = "Enstrüman"
+MN500_016 = "Yukarý Taþý"
+MN500_017 = "Aþaðý Taþý"
+MN500_018 = "Süreklilik"
+MN500_019 = "Uzatýlmýþ Nota"
+MN500_020 = "Tuplet Ayracýný Zorla"
+MN500_021 = "Otomatik Sinyal"
+MN500_022 = "Sinyalleri Zorla "
+MN500_023 = "Sinyalleri Kes"
+MN500_024 = "ikinci Sinyalleri Kes"
+MN500_025 = "Otomatik Talimatlar"
+MN500_026 = "Sýra Deðiþtirme Talimatlarý"
+MN500_027 = "Güçlü Vurgulu Nota"
+MN500_028 = "Kapa" { for WahWah }
+MN500_029 = "Aç" { for WahWah }
+MN500_030 = "Göster [Wah On]" { for WahWah => do not change term [Wah On]}
+MN500_031 = "Kapalý" { for WahWah }
+MN500_032 = "Dolaplý Çal / Hýz Çalýþtýrýcýsý"
+MN500_033 = "RSE kullan [Realistic Sound Engine]"
+MN500_034 = "Sayfa Modu"
+MN500_035 = "Parþömen Modu"
+MN500_036 = "Dikey Ekran Modu"
+MN500_037 = "Yatay Ekran Modu"
+MN500_038 = "Standart Notasyonu Gizle"
+MN500_039 = "Tablatürü Gizle"
+MN500_040 = "Arayüz"
+MN500_041 = "Ses Sürekliliði"
+MN500_042 = "Notasyon" {name of the toolbar}
+MN500_043 = "Transpozisyon" {name of the toolbar}
+
+**************************
+* v5.0 REPEAT END WINDOW *
+**************************
+
+DLG500_REPE_000
+DLG500_REPE_001 = "Oynat"
+DLG500_REPE_002 = "Sayý"
+
+******************
+* v5.0 ADDTIONAL *
+******************
+
+ADD500_000
+ADD500_001 = "Oynat"
+ADD500_002 = "Kapo"
+ADD500_003 = "Ýnternette Guitar Pro"
+ADD500_004 = "Sanatçý:"
+
+*************
+* v5.0 DEMO *
+*************
+
+DEMO500_000
+DEMO500_001 = "Demo versiyonu MusicXML formatýndaki dosyalarýn çýkartýlmasýna izin vermez."
+DEMO500_002 = "RSE nedir?" { instrument window }
+DEMO500_003 = "Deðerlendirme süresi sona ermiþtir"
+DEMO500_004 = "Kaydetmek 24 ölçü ile sýnýrlandýrýlmýþtýr."
+DEMO500_005 = "[Demo Version] Yazdýrma ve Çýkartým ile ilgili" 
+DEMO500_006 = "MusicXML çýkarýmý inaktif"
+DEMO500_007 = "RSE [Realistic Sound Engine] inaktif"
+DEMO500_008 = "RSE [Realistic Sound Engine] özel bir ses kartý veya ekstra metaryal olmadan, gerçek zamanlý eþsiz bir pleybek saðlar."
+DEMO500_009 = "Sadece Guitar Pro'nun orjinal sürümünde"
+DEMO500_010 = "Standard MIDI Pleybek kullanarak sample et"
+DEMO500_011 = "RSE Pleybek kullanarak sample et"
+DEMO500_012 = "Buraya Týklayarak" { clickable part of the sentence }
+DEMO500_013 = "daha çok RSE örneði dinleyebilirsiniz." { end of the sentence }
+
+**********************
+* v5.1 MENUS & HINTS *
+*********************
+
+MN510_000
+MN510_001 = "Tesadüfi Deðiþiklik"
+MN510_002 = "Ses Ayarlarý(MIDI/RSE)"
+
+********************************
+* v5.1 WAVE EXPORTATION WINDOW *
+********************************
+ 
+DLG510_EXPWAV_000
+DLG510_EXPWAV_001 = "Bilgiler"
+DLG510_EXPWAV_002 = "Kalite:"
+DLG510_EXPWAV_003 = "Yardým:"
+DLG510_EXPWAV_004 = "- [Stereo Mix] hattýnýn kontrol edildiðinden emin olun"
+DLG510_EXPWAV_005 = "- Seviyenin çok düþük olmadýðýndan emin olun."
+DLG510_EXPWAV_006 = "Windows Record Mixtable'ý açmak için resmin üzerine týklayýn."
+
+*********************
+* v5.1 DEBUG WINDOW *
+*********************
+ 
+DLG510_DEBUG_000
+DLG510_DEBUG_001 = "Sorun Gider"
+DLG510_DEBUG_002 = "Guitar Pro Desteðine Giriþ yap"
+DLG510_DEBUG_003 = "Guitar Pro'yu Kapat"
+DLG510_DEBUG_004 = "Guitar Pro'yu Kullanmaya Devam Et"
+DLG510_DEBUG_005 = "Tehlikeli Hata"
+DLG510_DEBUG_006 = "EÐER GUITAR PRO DESTEÐÝ ÝLE BAÐLANTI KURMAK ÝSTERSENÝZ,"
+DLG510_DEBUG_007 = "LÜTFEN AÞAÐIDAKÝ BÜTONA BASIN VE"
+DLG510_DEBUG_008 = "MESAJINIZDAKÝ BU RAPORU [CTRL+V] TUÞLARINI KULLANARAK YAPIÞTIRIN."
+DLG510_DEBUG_009 = "AYRICA ÜZERÝNDE ÇALIÞTIÐINIZ GUITAR PRO DOSYASINI VE"
+DLG510_DEBUG_010 = "SON ÝÞLEMENÝN AÇIKLAMASINI DA EKLEYEBÝLÝRSÝNÝZ."
+
+***************************
+* v5.1 INSTRUMENTS WINDOW *
+***************************
+ 
+DLG510_INSTR_000
+DLG510_INSTR_001 = "Varsayýlan olarak ayarla"
+DLG510_INSTR_002 = "[%s] sesi varsayýlan midi enstrümaný [%t] tarafýndan etkilenecektir. Onaylýyor musunuz?"
+DLG510_INSTR_003 = "Otomatik"
+DLG510_INSTR_004 = "Oto-Let Ring"
+DLG510_INSTR_005 = "Oto-Brush"
+DLG510_INSTR_006 = "3-Bant EQ"
+DLG510_INSTR_007 = "Low" 
+DLG510_INSTR_008 = "Mid"
+DLG510_INSTR_009 = "High" 
+DLG510_INSTR_010 = "PRE" { means "PRE-AMP" }
+
+**************************
+* v5.1 MIDI SETUP WINDOW *
+**************************
+
+DLG510_MIDISETUP_000
+DLG510_MIDISETUP_001 = "Ses Ayarlarý"
+DLG510_MIDISETUP_002 = "RSE Ayarlarý"
+DLG510_MIDISETUP_003 = "Output"
+DLG510_MIDISETUP_004 = "Ses"
+DLG510_MIDISETUP_005 = "Ses Kartý"
+DLG510_MIDISETUP_006 = "DSP/VST Buffer"
+DLG510_MIDISETUP_007 = "Buffer Uzunluðu (in sample)"
+DLG510_MIDISETUP_008 = "Buffer Sayýsý"
+DLG510_MIDISETUP_009 = "Format"
+DLG510_MIDISETUP_010 = "Frekans"
+DLG510_MIDISETUP_011 = "Kanallar"
+DLG510_MIDISETUP_012 = "Çözünürlük"
+DLG510_MIDISETUP_013 = "Resample Methodu"
+DLG510_MIDISETUP_014 = "Sanal Sesler"
+DLG510_MIDISETUP_015 = "Gecikme"
+DLG510_MIDISETUP_016 = "Varsayýlan"
+DLG510_MIDISETUP_017 = "Mono"
+DLG510_MIDISETUP_018 = "Stereo"
+DLG510_MIDISETUP_019 = "No Interpolation"
+DLG510_MIDISETUP_020 = "Linear Interpolation"
+DLG510_MIDISETUP_021 = "Cubic Interpolation"
+DLG510_MIDISETUP_022 = "5 point Spline Interpolation"
+
+**************************
+* v5.1 SCORE INFO WINDOW *
+**************************
+ 
+DLG510_SCORE_INFO_000
+DLG510_SCORE_INFO_001 = "Sol"
+DLG510_SCORE_INFO_002 = "Spektrum"
+DLG510_SCORE_INFO_003 = "Sað"
+DLG510_SCORE_INFO_004 = "Master Volume"
+DLG510_SCORE_INFO_005 = "Master Reverb"
+DLG510_SCORE_INFO_006 = "10-Band Master EQ"
+DLG510_SCORE_INFO_007 = "PRE" { means "PRE-AMP" }
+DLG510_SCORE_INFO_008 = "- Ekolayzýr kapalý -"
+
+**************************
+* v5.1 TRACK INFO WINDOW *
+**************************
+ 
+DLG510_TRACK_INFO_000
+DLG510_TRACK_INFO_001 = "Ritimleri Tab Ýçinde Geniþlet"
+
+*********************************
+* v5.1 SEARCH ON THE WEB WINDOW *
+*********************************
+ 
+DLG510_SEARCHONWEB_000
+DLG510_SEARCHONWEB_001 = "Þarký Adýyla"
+DLG510_SEARCHONWEB_002 = "Þarkýcý Adýyla"
+
+*********************
+* v5.1 TEMPO WINDOW *
+*********************
+ 
+DLG510_TEMPO_000
+DLG510_TEMPO_001 = "Sakla"
+
+*********************************************
+* v5.1 MAC MAIN TOOLBAR TEXTS UNDER BUTTONS *
+*********************************************
+
+MAC510_MAINTOOLBAR_000
+MAC510_MAINTOOLBAR_001 = "Yeni"
+MAC510_MAINTOOLBAR_002 = "Aç"
+MAC510_MAINTOOLBAR_003 = "Bilgi"
+MAC510_MAINTOOLBAR_004 = "Sayfa Ayarlarý"
+MAC510_MAINTOOLBAR_005 = "Yazdýr"
+MAC510_MAINTOOLBAR_006 = "Geri Al"
+MAC510_MAINTOOLBAR_007 = "Yinele"
+MAC510_MAINTOOLBAR_008 = "Kes"
+MAC510_MAINTOOLBAR_009 = "Kopyala"
+MAC510_MAINTOOLBAR_010 = "Yapýþtýr"
+MAC510_MAINTOOLBAR_011 = "Ýz Özellikleri"
+MAC510_MAINTOOLBAR_012 = "Enstrüman"
+MAC510_MAINTOOLBAR_013 = "Özellikler"
+MAC510_MAINTOOLBAR_014 = "Çal"
+MAC510_MAINTOOLBAR_015 = "Durdur"
+MAC510_MAINTOOLBAR_016 = "Ýlk Ölçü"
+MAC510_MAINTOOLBAR_017 = "Önceki Ölçü"
+MAC510_MAINTOOLBAR_018 = "Sonraki Ölçü"
+MAC510_MAINTOOLBAR_019 = "Son ölçü"
+
+*************************
+* v5.1 MAC ALERT PANELS *
+*************************
+
+MAC510_ALERTPANEL_000
+MAC510_ALERTPANEL_001 = "Doküman üzerinde yaptýðýnýz deðiþiklikleri kaydetmek istiyor musunuz?"
+MAC510_ALERTPANEL_002 = "Eðer kayýt etmezseniz yaptýðýnýz deðiþiklikler silinecektir."
+MAC510_ALERTPANEL_003 = "Kaydetme"
+MAC510_ALERTPANEL_004 = "Ýptal"
+MAC510_ALERTPANEL_005 = "Kaydet"
+MAC510_ALERTPANEL_006 = "Skin bulunamadý"
+
+****************************
+* v5.1 MAC GUITAR PRO MENU *
+****************************
+
+MAC510_GUITARPROMENU_000
+MAC510_GUITARPROMENU_001 = "Guitar Pro Hakkýnda"
+MAC510_GUITARPROMENU_002 = "Guitar Pro'yu Sakla"
+MAC510_GUITARPROMENU_003 = "Diðerlerini Sakla"
+MAC510_GUITARPROMENU_004 = "Hepsini Göster"
+MAC510_GUITARPROMENU_005 = "Guitar Pro'dan Çýk"
+
+**********************
+* v5.1 MAC FILE MENU *
+**********************
+
+MAC510_FILEMENU_000
+MAC510_FILEMENU_001 = "Varolaný Aç"
+MAC510_FILEMENU_002 = "Menüyü Temizle"
+MAC510_FILEMENU_003 = "Kapat"
+MAC510_FILEMENU_004 = "Yazýcý Ayarlarý..."
+
+***********************
+* v5.1 MAC SOUND MENU *
+***********************
+
+MAC510_SOUNDMENU_000
+MAC510_SOUNDMENU_001 = "RSE Ayarlarý..."
+MAC510_SOUNDMENU_002 = "Tempo = "
+
+************************
+* v5.1 MAC WINDOW MENU *
+************************
+
+MAC510_WINDOWMENU_000
+MAC510_WINDOWMENU_001 = "Pencere"
+MAC510_WINDOWMENU_002 = "Küçült"
+MAC510_WINDOWMENU_003 = "Zoom"
+MAC510_WINDOWMENU_004 = "Araçlar Penceresi"
+MAC510_WINDOWMENU_005 = "Çal"
+MAC510_WINDOWMENU_006 = "Ýzler"
+MAC510_WINDOWMENU_007 = "Çekmece"
+MAC510_WINDOWMENU_008 = "Araç çubuðunu özelleþtir..."
+MAC510_WINDOWMENU_009 = "Hepsini Öne Al"
+
+**********************
+* v5.1 MAC HELP MENU *
+**********************
+
+MAC510_HELPMENU_000
+MAC510_HELPMENU_001 = "Guitar Pro Yardým"

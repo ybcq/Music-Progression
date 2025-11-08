@@ -1,0 +1,139 @@
+﻿<html>
+	
+<head>
+	<title>Chord Panel</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("ChordPanel");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Chord Panel</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="GettingStarted.html">Getting Started</a> &rsaquo;&rsaquo; <a href="MainScoreWindow.html">Main Score Window</a> &rsaquo;&rsaquo; <a href="TheControlbar.html">The Control bar</a> &rsaquo;&rsaquo; <a href="ScoreToolsPanel.html">Score Tools Panel</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="ScoreToolsPanel.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="PartExtractionText.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="Settings.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<p class="rvps2"><img alt="" style="vertical-align: middle; padding : 1px;" src="lib/NewItem76.png"><span class="rvts6"> </span><span class="rvts12">Tools Panel - Chords</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts6">If Tools Panel is not showing click on the </span><span class="rvts12">Score Tools</span><span class="rvts6"> button at top left of Control Bar and then click on the Chord section in the header if it's not active.</span></p>
+<p class="rvps2"><span class="rvts6">You can also type "Ctrl[</span><span class="rvts13">Cmd]</span><span class="rvts6">-Shift-C" to go directly to the Chord section.</span></p>
+<p class="rvps2"><span class="rvts6">.</span></p>
+<div class="rvps12"><table border="0" cellpadding="1" cellspacing="2" style="border-width: 0px; border-spacing: 2px;">
+<tr valign="top">
+<td width="50" style="padding: 1px;"><p class="rvps12"><img alt="" style="padding : 1px;" src="lib/NewItem79.png"></p>
+</td>
+<td width="1067" style="padding: 1px;"><p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Tabs </span><span class="rvts6">- allows you to choose different options to set</span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts12">Chords</span><span class="rvts6"> - The chord to be entered into the score using pencil cursor.</span></li>
+<li class="rvps2"><span class="rvts12">Settings</span><span class="rvts6"> - Various settings on how chords are displayed.</span></li>
+<li class="rvps2"><span class="rvts12">Font</span><span class="rvts6"> - Font settings for different parts of the chord.</span></li>
+<li class="rvps2"><span class="rvts12">Interval - </span><span class="rvts6">Click on the note's button value to set default interval between chords.</span><br/><span class="rvts6">When on typing the space bar will move this distance in the score.</span><br/><span class="rvts6">When not set, typing the space bar will move to the next note's position.</span></li>
+<li class="rvps2"><span class="rvts12">MIDI</span><span class="rvts6"> - Click this button to enable/disable inputting chords using your MIDI keyboard.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Chord Name and Type </span><span class="rvts6">- The chord appearance</span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts12">Root</span><span class="rvts6"> - The chord's root.</span></li>
+<li class="rvps2"><span class="rvts12">Suffix</span><span class="rvts6"> - The chords suffix or type.</span></li>
+<li class="rvps2"><span class="rvts12">Tuning</span><span class="rvts6"> - The chord's guitar tuning.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Fingerings</span><span class="rvts6"> - The different fingerings for this chord.</span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts6">Select the guitar chord fingering for this type of chord.</span></li>
+<li class="rvps2"><span class="rvts6">You can drag and drop these directly on the score.</span></li>
+<li class="rvps2"><span class="rvts6">Double click to change the fingering.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Note</span><span class="rvts6">: Once a chord has been entered into a score, it's fingering can be edited by double clicking on the chord.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+</td>
+</tr>
+</table>
+</div>
+<h6 class="rvps14"><span class="rvts0"><span class="rvts22">To enter chords with the mouse:</span></span></h6>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" class="rvps2"><span class="rvts6">Select the chord name and type using the pull down menus or by typing its name like Cm7</span></li>
+<li value="2" class="rvps2"><span class="rvts6">Click on the chord's fingering and drag and drop the chord onto your score.</span></li>
+</ol>
+<h6 class="rvps14"><span class="rvts0"><span class="rvts22">To enter chords with the the computer keyboard:</span></span></h6>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" class="rvps2"><span class="rvts6">Choose the pencil tool using button on control bar.</span></li>
+<li value="2" class="rvps2"><span class="rvts6">Click on the score where you wish to start entering chords. A small text entry box appears.</span></li>
+<li value="3" class="rvps2"><span class="rvts6">Type in the chord to be entered, using typical symbols, CM7 for C major 7, Am7 for A minor 7, etc.</span></li>
+<li value="4" class="rvps2"><span class="rvts6">Press the space bar to enter the chord and move to the next position.</span></li>
+</ol>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Note: While typing, type the the back space key to remove type characters.</span></p>
+<p class="rvps2"><span class="rvts6">If there are no more characters, the chord will be deleted and the location will be moved to the previous chord position.</span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

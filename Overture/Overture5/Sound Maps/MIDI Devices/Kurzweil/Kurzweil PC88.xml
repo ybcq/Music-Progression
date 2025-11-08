@@ -1,0 +1,294 @@
+
+<VSTNameDocument name="Kurzweil PC88">
+<Version>1</Version>
+<Author>Sonic Scores</Author>
+<Device type="MIDI"/>
+<Instruments>
+  <Section name="Voices IN" bankHigh="0" bankLow="0" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="Classical Piano" prgChg="1"/>
+    <Instrument name="Stage Piano" prgChg="2"/>
+    <Instrument name="Classic E Piano" prgChg="3"/>
+    <Instrument name="Digital E Piano" prgChg="4"/>
+    <Instrument name="Digital E Grand" prgChg="5"/>
+    <Instrument name="Stage Piano &amp; Str" prgChg="6"/>
+    <Instrument name="Strings 1" prgChg="7"/>
+    <Instrument name="Harpsichord" prgChg="8"/>
+    <Instrument name="Acoustic Guitar" prgChg="9"/>
+    <Instrument name="Clav 1" prgChg="10"/>
+    <Instrument name="Rock Organ 1" prgChg="11"/>
+    <Instrument name="Jazz Organ 1" prgChg="12"/>
+    <Instrument name="St Trem Vibes" prgChg="13"/>
+    <Instrument name="Acoustic Bass" prgChg="14"/>
+    <Instrument name="Dual E Bass" prgChg="15"/>
+    <Instrument name="Stereo Strings" prgChg="16"/>
+    <Instrument name="ClassPiano 440" prgChg="17"/>
+    <Instrument name="Stage Piano 440" prgChg="18"/>
+    <Instrument name="Dyn Hard E Piano" prgChg="19"/>
+    <Instrument name="St Trem Digital" prgChg="20"/>
+    <Instrument name="Warm E Grand" prgChg="21"/>
+    <Instrument name="Dyn Pno &amp; Str Pad" prgChg="22"/>
+    <Instrument name="Att Vel Strings" prgChg="23"/>
+    <Instrument name="Stereo Harpsi" prgChg="24"/>
+    <Instrument name="12-str Guitar" prgChg="25"/>
+    <Instrument name="Stereo Clav" prgChg="26"/>
+    <Instrument name="Rock Organ 2" prgChg="27"/>
+    <Instrument name="Jazz Organ 2" prgChg="28"/>
+    <Instrument name="Simple Vibes" prgChg="29"/>
+    <Instrument name="A Bass &amp; Ride" prgChg="30"/>
+    <Instrument name="E Bass  &amp; Ride" prgChg="31"/>
+    <Instrument name="Slo String Pad" prgChg="32"/>
+    <Instrument name="Sustain Piano" prgChg="33"/>
+    <Instrument name="Bright Piano" prgChg="34"/>
+    <Instrument name="Soft E Piano" prgChg="35"/>
+    <Instrument name="Fm &amp; Marimba" prgChg="36"/>
+    <Instrument name="Tight E Grand" prgChg="37"/>
+    <Instrument name="Digi Pno &amp; Str Pad" prgChg="38"/>
+    <Instrument name="Touch strings" prgChg="39"/>
+    <Instrument name="8ve Harpsichord" prgChg="40"/>
+    <Instrument name="Fluid Gtr" prgChg="41"/>
+    <Instrument name="Super Clav" prgChg="42"/>
+    <Instrument name="Ballad Organ 1" prgChg="43"/>
+    <Instrument name="Ballad Organ 2" prgChg="44"/>
+    <Instrument name="Marimba" prgChg="45"/>
+    <Instrument name="Legato A Bass" prgChg="46"/>
+    <Instrument name="Sustain E Bass" prgChg="47"/>
+    <Instrument name="Slo Vibes" prgChg="48"/>
+    <Instrument name="Sus Piano 440" prgChg="49"/>
+    <Instrument name="Tack Piano" prgChg="50"/>
+    <Instrument name="Suitcase E Piano" prgChg="51"/>
+    <Instrument name="E Pno &amp; Marimba" prgChg="52"/>
+    <Instrument name="St Elec Grand" prgChg="53"/>
+    <Instrument name="Ac Gtr&amp; Str Pad" prgChg="54"/>
+    <Instrument name="...&amp; Strings" prgChg="55"/>
+    <Instrument name="Pedals Harpsichord" prgChg="56"/>
+    <Instrument name="St Clav Guitar" prgChg="57"/>
+    <Instrument name="Organi Clav" prgChg="58"/>
+    <Instrument name="Full Pipes" prgChg="59"/>
+    <Instrument name="Chiffy Pipes" prgChg="60"/>
+    <Instrument name="Metal Marimba" prgChg="61"/>
+    <Instrument name="Leg Bass &amp; Ride" prgChg="62"/>
+    <Instrument name="Slap E Bass" prgChg="63"/>
+    <Instrument name="Slow Digital Pad" prgChg="64"/>
+  </Section>
+  <Section name="Voices GM" bankHigh="0" bankLow="1" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="Grand Piano" prgChg="1"/>
+    <Instrument name="Bright Piano" prgChg="2"/>
+    <Instrument name="Electric Grand" prgChg="3"/>
+    <Instrument name="Honky-Tonk Piano" prgChg="4"/>
+    <Instrument name="Electric Piano 1" prgChg="5"/>
+    <Instrument name="Electric Piano 2" prgChg="6"/>
+    <Instrument name="HarpsiChord" prgChg="7"/>
+    <Instrument name="Clavinet" prgChg="8"/>
+    <Instrument name="Celesta" prgChg="9"/>
+    <Instrument name="Glockenspiel" prgChg="10"/>
+    <Instrument name="Music Box" prgChg="11"/>
+    <Instrument name="Vibraphone" prgChg="12"/>
+    <Instrument name="Marimba" prgChg="13"/>
+    <Instrument name="Xylophone" prgChg="14"/>
+    <Instrument name="Tubular Bells" prgChg="15"/>
+    <Instrument name="Dulcimer" prgChg="16"/>
+    <Instrument name="Drawbar Organ" prgChg="17"/>
+    <Instrument name="Perc Organ" prgChg="18"/>
+    <Instrument name="Rock Organ" prgChg="19"/>
+    <Instrument name="Church Organ" prgChg="20"/>
+    <Instrument name="Reed Organ" prgChg="21"/>
+    <Instrument name="Accordian" prgChg="22"/>
+    <Instrument name="Harmonica" prgChg="23"/>
+    <Instrument name="Bandoneon" prgChg="24"/>
+    <Instrument name="Nylon Str Guitar" prgChg="25"/>
+    <Instrument name="Steel Str Guitar" prgChg="26"/>
+    <Instrument name="Jazz Guitar" prgChg="27"/>
+    <Instrument name="Clean Guitar" prgChg="28"/>
+    <Instrument name="Muted Guitar" prgChg="29"/>
+    <Instrument name="Overdrive Guitar" prgChg="30"/>
+    <Instrument name="Distorted Guitar" prgChg="31"/>
+    <Instrument name="Guitar Harmonics" prgChg="32"/>
+    <Instrument name="Acoustic Bass" prgChg="33"/>
+    <Instrument name="Fingered Bass" prgChg="34"/>
+    <Instrument name="Picked Bass" prgChg="35"/>
+    <Instrument name="Fretless Bass" prgChg="36"/>
+    <Instrument name="Slap Bass 1" prgChg="37"/>
+    <Instrument name="Slap Bass 2" prgChg="38"/>
+    <Instrument name="Synth Bass 1" prgChg="39"/>
+    <Instrument name="Synth Bass 2" prgChg="40"/>
+    <Instrument name="Violin" prgChg="41"/>
+    <Instrument name="Viola" prgChg="42"/>
+    <Instrument name="Cello" prgChg="43"/>
+    <Instrument name="Contrabass" prgChg="44"/>
+    <Instrument name="Tremolo Strings" prgChg="45"/>
+    <Instrument name="Pizzicato Strings" prgChg="46"/>
+    <Instrument name="Plucked Harps" prgChg="47"/>
+    <Instrument name="Timpani" prgChg="48"/>
+    <Instrument name="Ensemble Strings" prgChg="49"/>
+    <Instrument name="Slow Strings" prgChg="50"/>
+    <Instrument name="Synth Strings 1" prgChg="51"/>
+    <Instrument name="Synth Strings 2" prgChg="52"/>
+    <Instrument name="Choir Oohs" prgChg="53"/>
+    <Instrument name="Voice Oohs" prgChg="54"/>
+    <Instrument name="Synth Vox" prgChg="55"/>
+    <Instrument name="Orchestra Hit" prgChg="56"/>
+    <Instrument name="Trumpet" prgChg="57"/>
+    <Instrument name="Trombone" prgChg="58"/>
+    <Instrument name="Tuba" prgChg="59"/>
+    <Instrument name="Muted Trumpet" prgChg="60"/>
+    <Instrument name="French Horn" prgChg="61"/>
+    <Instrument name="Brass Section" prgChg="62"/>
+    <Instrument name="Synth Brass 1" prgChg="63"/>
+    <Instrument name="Synth Brass 2" prgChg="64"/>
+    <Instrument name="Soprano Sax" prgChg="65"/>
+    <Instrument name="Alto Sax" prgChg="66"/>
+    <Instrument name="Tenor Sax" prgChg="67"/>
+    <Instrument name="Baritone Sax" prgChg="68"/>
+    <Instrument name="Oboe" prgChg="69"/>
+    <Instrument name="English Horn" prgChg="70"/>
+    <Instrument name="Bassoon" prgChg="71"/>
+    <Instrument name="Clarinet" prgChg="72"/>
+    <Instrument name="Piccolo" prgChg="73"/>
+    <Instrument name="Flute" prgChg="74"/>
+    <Instrument name="Recorder" prgChg="75"/>
+    <Instrument name="Pan Flute" prgChg="76"/>
+    <Instrument name="Blown Bottle" prgChg="77"/>
+    <Instrument name="Shakuhachi" prgChg="78"/>
+    <Instrument name="Whistle" prgChg="79"/>
+    <Instrument name="Ocarnia" prgChg="80"/>
+    <Instrument name="Square Wave" prgChg="81"/>
+    <Instrument name="Sawtooth Wave" prgChg="82"/>
+    <Instrument name="Synth Calliope" prgChg="83"/>
+    <Instrument name="Chiff Lead" prgChg="84"/>
+    <Instrument name="Charang" prgChg="85"/>
+    <Instrument name="Solo Vox" prgChg="86"/>
+    <Instrument name="Fifths Saw Wave" prgChg="87"/>
+    <Instrument name="Bass &amp; Lead Syn" prgChg="88"/>
+    <Instrument name="Fantasia Pad" prgChg="89"/>
+    <Instrument name="Warm Pad" prgChg="90"/>
+    <Instrument name="Poly Synth Pad" prgChg="91"/>
+    <Instrument name="Space Voice Pad" prgChg="92"/>
+    <Instrument name="Bowed Glass Pad" prgChg="93"/>
+    <Instrument name="Metallic Pad" prgChg="94"/>
+    <Instrument name="Halo Pad" prgChg="95"/>
+    <Instrument name="Sweep Pad" prgChg="96"/>
+    <Instrument name="Ice Rain" prgChg="97"/>
+    <Instrument name="Sound Track" prgChg="98"/>
+    <Instrument name="Crystal" prgChg="99"/>
+    <Instrument name="Atmospere" prgChg="100"/>
+    <Instrument name="Brightness" prgChg="101"/>
+    <Instrument name="Goblins" prgChg="102"/>
+    <Instrument name="Echo Drops" prgChg="103"/>
+    <Instrument name="Sci-fi Pad" prgChg="104"/>
+    <Instrument name="Sitar" prgChg="105"/>
+    <Instrument name="Banjo" prgChg="106"/>
+    <Instrument name="Shamisen" prgChg="107"/>
+    <Instrument name="Koto" prgChg="108"/>
+    <Instrument name="Kalimba" prgChg="109"/>
+    <Instrument name="Bagpipe" prgChg="110"/>
+    <Instrument name="Fiddle" prgChg="111"/>
+    <Instrument name="Shanai" prgChg="112"/>
+    <Instrument name="TInkle Bell" prgChg="113"/>
+    <Instrument name="Agogo" prgChg="114"/>
+    <Instrument name="Steel Drums" prgChg="115"/>
+    <Instrument name="Woodblock" prgChg="116"/>
+    <Instrument name="Taiko Drum" prgChg="117"/>
+    <Instrument name="Melodic Toms" prgChg="118"/>
+    <Instrument name="Synth Drums" prgChg="119"/>
+    <Instrument name="Reverse Cymbal" prgChg="120"/>
+    <Instrument name="Gtr Fret Noise" prgChg="121"/>
+    <Instrument name="Breathe Noise" prgChg="122"/>
+    <Instrument name="Seashore" prgChg="123"/>
+    <Instrument name="Birds" prgChg="124"/>
+    <Instrument name="Telephone" prgChg="125"/>
+    <Instrument name="Helicopter" prgChg="126"/>
+    <Instrument name="Applause" prgChg="127"/>
+    <Instrument name="Gun Shot" prgChg="128"/>
+  </Section>
+  <Section name="Voices EX" bankHigh="0" bankLow="2" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="Ragtime Piano" prgChg="1"/>
+    <Instrument name="Tack Piano 2" prgChg="2"/>
+    <Instrument name="St Trem E Piano" prgChg="3"/>
+    <Instrument name="Jazz  Organ 3" prgChg="4"/>
+    <Instrument name="Rock Organ 3" prgChg="5"/>
+    <Instrument name="Full Pipes 2" prgChg="6"/>
+    <Instrument name="Reed Pipes" prgChg="7"/>
+    <Instrument name="Church Pipes" prgChg="8"/>
+    <Instrument name="Chiff Pipes 2" prgChg="9"/>
+    <Instrument name="Acous Guitar 2" prgChg="10"/>
+    <Instrument name="12 Str Guitar 2" prgChg="11"/>
+    <Instrument name="Jazz Guitar" prgChg="12"/>
+    <Instrument name="Ch Jazz Guitar" prgChg="13"/>
+    <Instrument name="Ch Strat" prgChg="14"/>
+    <Instrument name="Muted&gt;Strat" prgChg="15"/>
+    <Instrument name="Legato Flute" prgChg="16"/>
+    <Instrument name="Dolce Flute" prgChg="17"/>
+    <Instrument name="Clarinet" prgChg="18"/>
+    <Instrument name="Vib Clarinet" prgChg="19"/>
+    <Instrument name="Bassoon/Oboe" prgChg="20"/>
+    <Instrument name="Slo Bsn/Oboe" prgChg="21"/>
+    <Instrument name="Solo Strings" prgChg="22"/>
+    <Instrument name="Legato Fiddle" prgChg="23"/>
+    <Instrument name="Legato Sax" prgChg="24"/>
+    <Instrument name="Baritone Sax" prgChg="25"/>
+    <Instrument name="Alto Sax" prgChg="26"/>
+    <Instrument name="Sax Section" prgChg="27"/>
+    <Instrument name="Vibrato Trumpet" prgChg="28"/>
+    <Instrument name="TrumpetSection" prgChg="29"/>
+    <Instrument name="Trombone" prgChg="30"/>
+    <Instrument name="Tuba/Fr.Horn" prgChg="31"/>
+    <Instrument name="Brass Section" prgChg="32"/>
+    <Instrument name="Soft Section" prgChg="33"/>
+    <Instrument name="Orchestra 1" prgChg="34"/>
+    <Instrument name="Orchestra 2" prgChg="35"/>
+    <Instrument name="Pizzy" prgChg="36"/>
+    <Instrument name="Pizzis" prgChg="37"/>
+    <Instrument name="8ve Strings" prgChg="38"/>
+    <Instrument name="Soft Strings" prgChg="39"/>
+    <Instrument name="Strings 2" prgChg="40"/>
+    <Instrument name="Att Vel Str 2" prgChg="41"/>
+    <Instrument name="Touch Strings2" prgChg="42"/>
+    <Instrument name="Stereo String2" prgChg="43"/>
+    <Instrument name="String Pad 2" prgChg="44"/>
+    <Instrument name="...&amp; Str Pad 2" prgChg="45"/>
+    <Instrument name="...&amp; Strings @" prgChg="46"/>
+    <Instrument name="Choir" prgChg="47"/>
+    <Instrument name="CathedralChoir" prgChg="48"/>
+    <Instrument name="...&amp; Choir" prgChg="49"/>
+    <Instrument name="Bells&amp;Strings" prgChg="50"/>
+    <Instrument name="Glass Pad" prgChg="51"/>
+    <Instrument name="Space Pad" prgChg="52"/>
+    <Instrument name="Synth Ensemble" prgChg="53"/>
+    <Instrument name="Synth Pad" prgChg="54"/>
+    <Instrument name="BrightSynBrass" prgChg="55"/>
+    <Instrument name="Fluty Lead" prgChg="56"/>
+    <Instrument name="Synth Fx 1" prgChg="57"/>
+    <Instrument name="Synth Fx 2" prgChg="58"/>
+    <Instrument name="Dual E Bass 2" prgChg="59"/>
+    <Instrument name="Synth Bass 1" prgChg="60"/>
+    <Instrument name="Dance Bass" prgChg="61"/>
+    <Instrument name="Timpani" prgChg="62"/>
+    <Instrument name="OrchPercussion" prgChg="63"/>
+    <Instrument name="LatinPerc" prgChg="64"/>
+    <Instrument name="Congatone" prgChg="65"/>
+    <Instrument name="Steel Drums" prgChg="66"/>
+    <Instrument name="Glockenspiel" prgChg="67"/>
+    <Instrument name="GM StandardKit" prgChg="68"/>
+    <Instrument name="GM Room Kit" prgChg="69"/>
+    <Instrument name="GM  Power Kit" prgChg="70"/>
+    <Instrument name="GM Elec Kit" prgChg="71"/>
+    <Instrument name="GM Synth Kit" prgChg="72"/>
+    <Instrument name="GM Brush Kit" prgChg="73"/>
+    <Instrument name="GM Orch Kit" prgChg="74"/>
+    <Instrument name="Kurz Clean Kit" prgChg="75"/>
+    <Instrument name="Kurz Amb Kit" prgChg="76"/>
+    <Instrument name="Kurz Synth Kit" prgChg="77"/>
+  </Section>
+  <Section name="Drums" bankHigh="0" bankLow="0" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="GM Standard Kit" prgChg="1"/>
+    <Instrument name="Room Kit" prgChg="9"/>
+    <Instrument name="Power Kit" prgChg="17"/>
+    <Instrument name="Electronic Kit" prgChg="25"/>
+    <Instrument name="Synth Kit" prgChg="26"/>
+    <Instrument name="GM Standard Kit" prgChg="33"/>
+    <Instrument name="Brush Kit" prgChg="41"/>
+    <Instrument name="Orchestra Kit" prgChg="49"/>
+  </Section>
+</Instruments>
+</VSTNameDocument>
+

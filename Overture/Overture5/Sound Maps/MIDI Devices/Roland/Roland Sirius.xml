@@ -1,0 +1,1185 @@
+
+<VSTNameDocument name="Roland Sirius">
+<Version>1</Version>
+<Author>Sonic Scores</Author>
+<Device type="MIDI"/>
+<Instruments>
+  <Section name="USER Kick/BD" bankHigh="0" bankLow="0" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="NAT: HipKick" prgChg="1"/>
+    <Instrument name="NAT: WetKick" prgChg="2"/>
+    <Instrument name="NAT: Stopped" prgChg="3"/>
+    <Instrument name="NAT: DeepKick" prgChg="4"/>
+    <Instrument name="NAT: Medium" prgChg="5"/>
+    <Instrument name="NAT: Dirty" prgChg="6"/>
+    <Instrument name="NAT: AttackBD" prgChg="7"/>
+    <Instrument name="NAT: Basket" prgChg="8"/>
+    <Instrument name="NAT: Staubig" prgChg="9"/>
+    <Instrument name="NAT: UltraDry" prgChg="10"/>
+    <Instrument name="NAT: Superdry" prgChg="11"/>
+    <Instrument name="NAT: NormalKc" prgChg="12"/>
+    <Instrument name="NAT: Classic" prgChg="13"/>
+    <Instrument name="NAT: Footkick" prgChg="14"/>
+    <Instrument name="NAT: Big Tom" prgChg="15"/>
+    <Instrument name="NAT: Rockick" prgChg="16"/>
+    <Instrument name="D.NAT: Ultra!" prgChg="17"/>
+    <Instrument name="D.NAT: Big Kick" prgChg="18"/>
+    <Instrument name="D.NAT: BigDirty" prgChg="19"/>
+    <Instrument name="D.NAT: Mondokic" prgChg="20"/>
+    <Instrument name="D.NAT: Boom" prgChg="21"/>
+    <Instrument name="D.NAT: Rat!" prgChg="22"/>
+    <Instrument name="D.NAT: Deeper" prgChg="23"/>
+    <Instrument name="D.NAT: ClipKick" prgChg="24"/>
+    <Instrument name="D.NAT: Mellokck" prgChg="25"/>
+    <Instrument name="D.NAT: Pump It" prgChg="26"/>
+    <Instrument name="D.NAT: NL-Kick" prgChg="27"/>
+    <Instrument name="D.NAT: The Grid" prgChg="28"/>
+    <Instrument name="D.NAT: Tamm BD" prgChg="29"/>
+    <Instrument name="D.NAT: Raffkick" prgChg="30"/>
+    <Instrument name="D.NAT: Blamkick" prgChg="31"/>
+    <Instrument name="D.NAT: Slamkick" prgChg="32"/>
+    <Instrument name="ELEC: CallKick" prgChg="33"/>
+    <Instrument name="ELEC: Pitch" prgChg="34"/>
+    <Instrument name="ELEC: Logikick" prgChg="35"/>
+    <Instrument name="ELEC: ToneKick" prgChg="36"/>
+    <Instrument name="ELEC: Dindada" prgChg="37"/>
+    <Instrument name="ELEC: Modular" prgChg="38"/>
+    <Instrument name="ELEC: Special" prgChg="39"/>
+    <Instrument name="ELEC: 606Kick" prgChg="40"/>
+    <Instrument name="ELEC: HardAttk" prgChg="41"/>
+    <Instrument name="ELEC: Staub" prgChg="42"/>
+    <Instrument name="ELEC: ZunchKic" prgChg="43"/>
+    <Instrument name="ELEC: Formant" prgChg="44"/>
+    <Instrument name="ELEC: Splatt" prgChg="45"/>
+    <Instrument name="ELEC: HiLo" prgChg="46"/>
+    <Instrument name="ELEC: Discus" prgChg="47"/>
+    <Instrument name="ELEC: Glidekik" prgChg="48"/>
+    <Instrument name="909: 909 1" prgChg="49"/>
+    <Instrument name="909: 909 2" prgChg="50"/>
+    <Instrument name="909: 909 3" prgChg="51"/>
+    <Instrument name="909: 909 4" prgChg="52"/>
+    <Instrument name="909: 909 5" prgChg="53"/>
+    <Instrument name="909: Dirty909" prgChg="54"/>
+    <Instrument name="909: Dirty 2" prgChg="55"/>
+    <Instrument name="909: Mod 909" prgChg="56"/>
+    <Instrument name="909: Knall:-)" prgChg="57"/>
+    <Instrument name="909: HouseKic" prgChg="58"/>
+    <Instrument name="909: Pump909" prgChg="59"/>
+    <Instrument name="909: DancKick" prgChg="60"/>
+    <Instrument name="909: Dutch" prgChg="61"/>
+    <Instrument name="909: Daftkick" prgChg="62"/>
+    <Instrument name="909: ZannZ BD" prgChg="63"/>
+    <Instrument name="909: House 1" prgChg="64"/>
+    <Instrument name="808: Dist-808" prgChg="65"/>
+    <Instrument name="808: 808 Kic2" prgChg="66"/>
+    <Instrument name="808: ReverbKk" prgChg="67"/>
+    <Instrument name="808: 808XFett" prgChg="68"/>
+    <Instrument name="808: 808 High" prgChg="69"/>
+    <Instrument name="808: Big 808" prgChg="70"/>
+    <Instrument name="808: BigPitch" prgChg="71"/>
+    <Instrument name="808: Pitcher" prgChg="72"/>
+    <Instrument name="808: Fluf808k" prgChg="73"/>
+    <Instrument name="808: Bumpi" prgChg="74"/>
+    <Instrument name="808: 808Kick1" prgChg="75"/>
+    <Instrument name="808: PunchKic" prgChg="76"/>
+    <Instrument name="808: Deep 808" prgChg="77"/>
+    <Instrument name="808: Gummm808" prgChg="78"/>
+    <Instrument name="808: Clean808" prgChg="79"/>
+    <Instrument name="808: C.P. 808" prgChg="80"/>
+    <Instrument name="SFX: PitchKic" prgChg="81"/>
+    <Instrument name="SFX: ElektroK" prgChg="82"/>
+    <Instrument name="SFX: ElekShot" prgChg="83"/>
+    <Instrument name="SFX: SFX-Kick" prgChg="84"/>
+    <Instrument name="SFX: Big &#194;&#165;" prgChg="85"/>
+    <Instrument name="SFX: DirtySFX" prgChg="86"/>
+    <Instrument name="SFX: Plusklas*" prgChg="87"/>
+    <Instrument name="SFX: DeepEnou" prgChg="88"/>
+    <Instrument name="SFX: HerzShig" prgChg="89"/>
+    <Instrument name="SFX: Far Noiz" prgChg="90"/>
+    <Instrument name="SFX: AW-Brain" prgChg="91"/>
+    <Instrument name="SFX: Lavasee" prgChg="92"/>
+    <Instrument name="SFX: Cascade" prgChg="93"/>
+    <Instrument name="SFX: Buckhard" prgChg="94"/>
+    <Instrument name="SFX: Lift-Off" prgChg="95"/>
+    <Instrument name="SFX: Calculat" prgChg="96"/>
+  </Section>
+  <Section name="PRE-A Kick/BD" bankHigh="0" bankLow="1" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="NAT: HipKick" prgChg="1"/>
+    <Instrument name="NAT: WetKick" prgChg="2"/>
+    <Instrument name="NAT: Stopped" prgChg="3"/>
+    <Instrument name="NAT: DeepKick" prgChg="4"/>
+    <Instrument name="NAT: Medium" prgChg="5"/>
+    <Instrument name="NAT: Dirty" prgChg="6"/>
+    <Instrument name="NAT: AttackBD" prgChg="7"/>
+    <Instrument name="NAT: Basket" prgChg="8"/>
+    <Instrument name="NAT: Staubig" prgChg="9"/>
+    <Instrument name="NAT: UltraDry" prgChg="10"/>
+    <Instrument name="NAT: Superdry" prgChg="11"/>
+    <Instrument name="NAT: NormalKc" prgChg="12"/>
+    <Instrument name="NAT: Classic" prgChg="13"/>
+    <Instrument name="NAT: Footkick" prgChg="14"/>
+    <Instrument name="NAT: Big Tom" prgChg="15"/>
+    <Instrument name="NAT: Rockick" prgChg="16"/>
+    <Instrument name="D.NAT: Ultra!" prgChg="17"/>
+    <Instrument name="D.NAT: Big Kick" prgChg="18"/>
+    <Instrument name="D.NAT: BigDirty" prgChg="19"/>
+    <Instrument name="D.NAT: Mondokic" prgChg="20"/>
+    <Instrument name="D.NAT: Boom" prgChg="21"/>
+    <Instrument name="D.NAT: Rat!" prgChg="22"/>
+    <Instrument name="D.NAT: Deeper" prgChg="23"/>
+    <Instrument name="D.NAT: ClipKick" prgChg="24"/>
+    <Instrument name="D.NAT: Mellokck" prgChg="25"/>
+    <Instrument name="D.NAT: Pump It" prgChg="26"/>
+    <Instrument name="D.NAT: NL-Kick" prgChg="27"/>
+    <Instrument name="D.NAT: The Grid" prgChg="28"/>
+    <Instrument name="D.NAT: Tamm BD" prgChg="29"/>
+    <Instrument name="D.NAT: Raffkick" prgChg="30"/>
+    <Instrument name="D.NAT: Blamkick" prgChg="31"/>
+    <Instrument name="D.NAT: Slamkick" prgChg="32"/>
+    <Instrument name="ELEC: CallKick" prgChg="33"/>
+    <Instrument name="ELEC: Pitch" prgChg="34"/>
+    <Instrument name="ELEC: Logikick" prgChg="35"/>
+    <Instrument name="ELEC: ToneKick" prgChg="36"/>
+    <Instrument name="ELEC: Dindada" prgChg="37"/>
+    <Instrument name="ELEC: Modular" prgChg="38"/>
+    <Instrument name="ELEC: Special" prgChg="39"/>
+    <Instrument name="ELEC: 606Kick" prgChg="40"/>
+    <Instrument name="ELEC: HardAttk" prgChg="41"/>
+    <Instrument name="ELEC: Staub" prgChg="42"/>
+    <Instrument name="ELEC: ZunchKic" prgChg="43"/>
+    <Instrument name="ELEC: Formant" prgChg="44"/>
+    <Instrument name="ELEC: Splatt" prgChg="45"/>
+    <Instrument name="ELEC: HiLo" prgChg="46"/>
+    <Instrument name="ELEC: Discus" prgChg="47"/>
+    <Instrument name="ELEC: Glidekik" prgChg="48"/>
+    <Instrument name="909: 909 1" prgChg="49"/>
+    <Instrument name="909: 909 2" prgChg="50"/>
+    <Instrument name="909: 909 3" prgChg="51"/>
+    <Instrument name="909: 909 4" prgChg="52"/>
+    <Instrument name="909: 909 5" prgChg="53"/>
+    <Instrument name="909: Dirty909" prgChg="54"/>
+    <Instrument name="909: Dirty 2" prgChg="55"/>
+    <Instrument name="909: Mod 909" prgChg="56"/>
+    <Instrument name="909: Knall:-)" prgChg="57"/>
+    <Instrument name="909: HouseKic" prgChg="58"/>
+    <Instrument name="909: Pump909" prgChg="59"/>
+    <Instrument name="909: DancKick" prgChg="60"/>
+    <Instrument name="909: Dutch" prgChg="61"/>
+    <Instrument name="909: Daftkick" prgChg="62"/>
+    <Instrument name="909: ZannZ BD" prgChg="63"/>
+    <Instrument name="909: House 1" prgChg="64"/>
+    <Instrument name="808: Dist-808" prgChg="65"/>
+    <Instrument name="808: 808 Kic2" prgChg="66"/>
+    <Instrument name="808: ReverbKk" prgChg="67"/>
+    <Instrument name="808: 808XFett" prgChg="68"/>
+    <Instrument name="808: 808 High" prgChg="69"/>
+    <Instrument name="808: Big 808" prgChg="70"/>
+    <Instrument name="808: BigPitch" prgChg="71"/>
+    <Instrument name="808: Pitcher" prgChg="72"/>
+    <Instrument name="808: Fluf808k" prgChg="73"/>
+    <Instrument name="808: Bumpi" prgChg="74"/>
+    <Instrument name="808: 808Kick1" prgChg="75"/>
+    <Instrument name="808: PunchKic" prgChg="76"/>
+    <Instrument name="808: Deep 808" prgChg="77"/>
+    <Instrument name="808: Gummm808" prgChg="78"/>
+    <Instrument name="808: Clean808" prgChg="79"/>
+    <Instrument name="808: C.P. 808" prgChg="80"/>
+    <Instrument name="SFX: PitchKic" prgChg="81"/>
+    <Instrument name="SFX: ElektroK" prgChg="82"/>
+    <Instrument name="SFX: ElekShot" prgChg="83"/>
+    <Instrument name="SFX: SFX-Kick" prgChg="84"/>
+    <Instrument name="SFX: Big &#194;&#165;" prgChg="85"/>
+    <Instrument name="SFX: DirtySFX" prgChg="86"/>
+    <Instrument name="SFX: Plusklas*" prgChg="87"/>
+    <Instrument name="SFX: DeepEnou" prgChg="88"/>
+    <Instrument name="SFX: HerzShig" prgChg="89"/>
+    <Instrument name="SFX: Far Noiz" prgChg="90"/>
+    <Instrument name="SFX: AW-Brain" prgChg="91"/>
+    <Instrument name="SFX: Lavasee" prgChg="92"/>
+    <Instrument name="SFX: Cascade" prgChg="93"/>
+    <Instrument name="SFX: Buckhard" prgChg="94"/>
+    <Instrument name="SFX: Lift-Off" prgChg="95"/>
+    <Instrument name="SFX: Calculat" prgChg="96"/>
+  </Section>
+  <Section name="USER Snare" bankHigh="0" bankLow="0" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="NAT: Shorty" prgChg="1"/>
+    <Instrument name="NAT: HipSnare" prgChg="2"/>
+    <Instrument name="NAT: Clear" prgChg="3"/>
+    <Instrument name="NAT: Linn1" prgChg="4"/>
+    <Instrument name="NAT: PCM Sna1" prgChg="5"/>
+    <Instrument name="NAT: ShortSnr" prgChg="6"/>
+    <Instrument name="NAT: Reverb" prgChg="7"/>
+    <Instrument name="NAT: DeepTras" prgChg="8"/>
+    <Instrument name="NAT: HipHopSD" prgChg="9"/>
+    <Instrument name="NAT: DrMnBsSd" prgChg="10"/>
+    <Instrument name="NAT: NatSnare" prgChg="11"/>
+    <Instrument name="NAT: MelloSnd" prgChg="12"/>
+    <Instrument name="NAT: 16 Toms" prgChg="13"/>
+    <Instrument name="NAT: DEgon Hal" prgChg="14"/>
+    <Instrument name="NAT: Hi Snare" prgChg="15"/>
+    <Instrument name="NAT: DB Snare" prgChg="16"/>
+    <Instrument name="D.NAT: DirtySht" prgChg="17"/>
+    <Instrument name="D.NAT: ShortBig" prgChg="18"/>
+    <Instrument name="D.NAT: NoiseSnr" prgChg="19"/>
+    <Instrument name="D.NAT: Noname" prgChg="20"/>
+    <Instrument name="D.NAT: Machine" prgChg="21"/>
+    <Instrument name="D.NAT: HighSnar" prgChg="22"/>
+    <Instrument name="D.NAT: LoFiSnar" prgChg="23"/>
+    <Instrument name="D.NAT: NoFiSnar" prgChg="24"/>
+    <Instrument name="D.NAT: Hallsnd" prgChg="25"/>
+    <Instrument name="D.NAT: SniffSnd" prgChg="26"/>
+    <Instrument name="D.NAT: RachgSnd" prgChg="27"/>
+    <Instrument name="D.NAT: MouthSnd" prgChg="28"/>
+    <Instrument name="D.NAT: Fats" prgChg="29"/>
+    <Instrument name="D.NAT: Delayed1" prgChg="30"/>
+    <Instrument name="D.NAT: Delayed2" prgChg="31"/>
+    <Instrument name="D.NAT: Metalead" prgChg="32"/>
+    <Instrument name="ELEC: Uniox" prgChg="33"/>
+    <Instrument name="ELEC: 606 Snar" prgChg="34"/>
+    <Instrument name="ELEC: 606Snar2" prgChg="35"/>
+    <Instrument name="ELEC: DryLow" prgChg="36"/>
+    <Instrument name="ELEC: MS 20Sna" prgChg="37"/>
+    <Instrument name="ELEC: NoiseSnr" prgChg="38"/>
+    <Instrument name="ELEC: Pactroni" prgChg="39"/>
+    <Instrument name="ELEC: Eventtic" prgChg="40"/>
+    <Instrument name="ELEC: LinnReso" prgChg="41"/>
+    <Instrument name="ELEC: Electro" prgChg="42"/>
+    <Instrument name="ELEC: Snipsnar" prgChg="43"/>
+    <Instrument name="ELEC: Ticker" prgChg="44"/>
+    <Instrument name="ELEC: Cliksnar" prgChg="45"/>
+    <Instrument name="ELEC: Rollsnar" prgChg="46"/>
+    <Instrument name="ELEC: Hypasnar" prgChg="47"/>
+    <Instrument name="ELEC: Noizclap" prgChg="48"/>
+    <Instrument name="909: 909 1" prgChg="49"/>
+    <Instrument name="909: 909 2" prgChg="50"/>
+    <Instrument name="909: 909 Hi" prgChg="51"/>
+    <Instrument name="909: 909 Hi2" prgChg="52"/>
+    <Instrument name="909: BadTuned" prgChg="53"/>
+    <Instrument name="909: FilterUL" prgChg="54"/>
+    <Instrument name="909: Pitch EG" prgChg="55"/>
+    <Instrument name="909: Pitch EG2" prgChg="56"/>
+    <Instrument name="909: MellwSnd" prgChg="57"/>
+    <Instrument name="909: HouseSnd" prgChg="58"/>
+    <Instrument name="909: DanceSnd" prgChg="59"/>
+    <Instrument name="909: 909 Snd" prgChg="60"/>
+    <Instrument name="909: Carpt909" prgChg="61"/>
+    <Instrument name="909: Short909" prgChg="62"/>
+    <Instrument name="909: Reso 909" prgChg="63"/>
+    <Instrument name="909: Velo 909" prgChg="64"/>
+    <Instrument name="808: 808 1" prgChg="65"/>
+    <Instrument name="808: 808 2" prgChg="66"/>
+    <Instrument name="808: DeepTund" prgChg="67"/>
+    <Instrument name="808: Stopped" prgChg="68"/>
+    <Instrument name="808: 808 3" prgChg="69"/>
+    <Instrument name="808: 808Hipas" prgChg="70"/>
+    <Instrument name="808: 808Hips2" prgChg="71"/>
+    <Instrument name="808: HighEnd" prgChg="72"/>
+    <Instrument name="808: 808Snar1" prgChg="73"/>
+    <Instrument name="808: 808Snar2" prgChg="74"/>
+    <Instrument name="808: 808Snar3" prgChg="75"/>
+    <Instrument name="808: 808Snar4" prgChg="76"/>
+    <Instrument name="808: 808Velo" prgChg="77"/>
+    <Instrument name="808: 808Snapp" prgChg="78"/>
+    <Instrument name="808: 808Bottm" prgChg="79"/>
+    <Instrument name="808: 808 HP" prgChg="80"/>
+    <Instrument name="SFX: Scratch!" prgChg="81"/>
+    <Instrument name="SFX: Modulate" prgChg="82"/>
+    <Instrument name="SFX: NoiseMod" prgChg="83"/>
+    <Instrument name="SFX: QM-High" prgChg="84"/>
+    <Instrument name="SFX: Short@&#194;&#165;&#194;&#165;" prgChg="85"/>
+    <Instrument name="SFX: Effector" prgChg="86"/>
+    <Instrument name="SFX: Reverse" prgChg="87"/>
+    <Instrument name="SFX: NoSense" prgChg="88"/>
+    <Instrument name="SFX: DropjeBB" prgChg="89"/>
+    <Instrument name="SFX: Dry Drop" prgChg="90"/>
+    <Instrument name="SFX: Blood" prgChg="91"/>
+    <Instrument name="SFX: WindSnar" prgChg="92"/>
+    <Instrument name="SFX: Djacka" prgChg="93"/>
+    <Instrument name="SFX: 1943" prgChg="94"/>
+    <Instrument name="SFX:WirbelXT" prgChg="95"/>
+    <Instrument name="SFX: SweepEA" prgChg="96"/>
+  </Section>
+  <Section name="PRE-A Snare" bankHigh="0" bankLow="1" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="NAT: Shorty" prgChg="1"/>
+    <Instrument name="NAT: HipSnare" prgChg="2"/>
+    <Instrument name="NAT: Clear" prgChg="3"/>
+    <Instrument name="NAT: Linn1" prgChg="4"/>
+    <Instrument name="NAT: PCM Sna1" prgChg="5"/>
+    <Instrument name="NAT: ShortSnr" prgChg="6"/>
+    <Instrument name="NAT: Reverb" prgChg="7"/>
+    <Instrument name="NAT: DeepTras" prgChg="8"/>
+    <Instrument name="NAT: HipHopSD" prgChg="9"/>
+    <Instrument name="NAT: DrMnBsSd" prgChg="10"/>
+    <Instrument name="NAT: NatSnare" prgChg="11"/>
+    <Instrument name="NAT: MelloSnd" prgChg="12"/>
+    <Instrument name="NAT: 16 Toms" prgChg="13"/>
+    <Instrument name="NAT: DEgon Hal" prgChg="14"/>
+    <Instrument name="NAT: Hi Snare" prgChg="15"/>
+    <Instrument name="NAT: DB Snare" prgChg="16"/>
+    <Instrument name="D.NAT: DirtySht" prgChg="17"/>
+    <Instrument name="D.NAT: ShortBig" prgChg="18"/>
+    <Instrument name="D.NAT: NoiseSnr" prgChg="19"/>
+    <Instrument name="D.NAT: Noname" prgChg="20"/>
+    <Instrument name="D.NAT: Machine" prgChg="21"/>
+    <Instrument name="D.NAT: HighSnar" prgChg="22"/>
+    <Instrument name="D.NAT: LoFiSnar" prgChg="23"/>
+    <Instrument name="D.NAT: NoFiSnar" prgChg="24"/>
+    <Instrument name="D.NAT: Hallsnd" prgChg="25"/>
+    <Instrument name="D.NAT: SniffSnd" prgChg="26"/>
+    <Instrument name="D.NAT: RachgSnd" prgChg="27"/>
+    <Instrument name="D.NAT: MouthSnd" prgChg="28"/>
+    <Instrument name="D.NAT: Fats" prgChg="29"/>
+    <Instrument name="D.NAT: Delayed1" prgChg="30"/>
+    <Instrument name="D.NAT: Delayed2" prgChg="31"/>
+    <Instrument name="D.NAT: Metalead" prgChg="32"/>
+    <Instrument name="ELEC: Uniox" prgChg="33"/>
+    <Instrument name="ELEC: 606 Snar" prgChg="34"/>
+    <Instrument name="ELEC: 606Snar2" prgChg="35"/>
+    <Instrument name="ELEC: DryLow" prgChg="36"/>
+    <Instrument name="ELEC: MS 20Sna" prgChg="37"/>
+    <Instrument name="ELEC: NoiseSnr" prgChg="38"/>
+    <Instrument name="ELEC: Pactroni" prgChg="39"/>
+    <Instrument name="ELEC: Eventtic" prgChg="40"/>
+    <Instrument name="ELEC: LinnReso" prgChg="41"/>
+    <Instrument name="ELEC: Electro" prgChg="42"/>
+    <Instrument name="ELEC: Snipsnar" prgChg="43"/>
+    <Instrument name="ELEC: Ticker" prgChg="44"/>
+    <Instrument name="ELEC: Cliksnar" prgChg="45"/>
+    <Instrument name="ELEC: Rollsnar" prgChg="46"/>
+    <Instrument name="ELEC: Hypasnar" prgChg="47"/>
+    <Instrument name="ELEC: Noizclap" prgChg="48"/>
+    <Instrument name="909: 909 1" prgChg="49"/>
+    <Instrument name="909: 909 2" prgChg="50"/>
+    <Instrument name="909: 909 Hi" prgChg="51"/>
+    <Instrument name="909: 909 Hi2" prgChg="52"/>
+    <Instrument name="909: BadTuned" prgChg="53"/>
+    <Instrument name="909: FilterUL" prgChg="54"/>
+    <Instrument name="909: Pitch EG" prgChg="55"/>
+    <Instrument name="909: Pitch EG2" prgChg="56"/>
+    <Instrument name="909: MellwSnd" prgChg="57"/>
+    <Instrument name="909: HouseSnd" prgChg="58"/>
+    <Instrument name="909: DanceSnd" prgChg="59"/>
+    <Instrument name="909: 909 Snd" prgChg="60"/>
+    <Instrument name="909: Carpt909" prgChg="61"/>
+    <Instrument name="909: Short909" prgChg="62"/>
+    <Instrument name="909: Reso 909" prgChg="63"/>
+    <Instrument name="909: Velo 909" prgChg="64"/>
+    <Instrument name="808: 808 1" prgChg="65"/>
+    <Instrument name="808: 808 2" prgChg="66"/>
+    <Instrument name="808: DeepTund" prgChg="67"/>
+    <Instrument name="808: Stopped" prgChg="68"/>
+    <Instrument name="808: 808 3" prgChg="69"/>
+    <Instrument name="808: 808Hipas" prgChg="70"/>
+    <Instrument name="808: 808Hips2" prgChg="71"/>
+    <Instrument name="808: HighEnd" prgChg="72"/>
+    <Instrument name="808: 808Snar1" prgChg="73"/>
+    <Instrument name="808: 808Snar2" prgChg="74"/>
+    <Instrument name="808: 808Snar3" prgChg="75"/>
+    <Instrument name="808: 808Snar4" prgChg="76"/>
+    <Instrument name="808: 808Velo" prgChg="77"/>
+    <Instrument name="808: 808Snapp" prgChg="78"/>
+    <Instrument name="808: 808Bottm" prgChg="79"/>
+    <Instrument name="808: 808 HP" prgChg="80"/>
+    <Instrument name="SFX: Scratch!" prgChg="81"/>
+    <Instrument name="SFX: Modulate" prgChg="82"/>
+    <Instrument name="SFX: NoiseMod" prgChg="83"/>
+    <Instrument name="SFX: QM-High" prgChg="84"/>
+    <Instrument name="SFX: Short@&#194;&#165;&#194;&#165;" prgChg="85"/>
+    <Instrument name="SFX: Effector" prgChg="86"/>
+    <Instrument name="SFX: Reverse" prgChg="87"/>
+    <Instrument name="SFX: NoSense" prgChg="88"/>
+    <Instrument name="SFX: DropjeBB" prgChg="89"/>
+    <Instrument name="SFX: Dry Drop" prgChg="90"/>
+    <Instrument name="SFX: Blood" prgChg="91"/>
+    <Instrument name="SFX: WindSnar" prgChg="92"/>
+    <Instrument name="SFX: Djacka" prgChg="93"/>
+    <Instrument name="SFX: 1943" prgChg="94"/>
+    <Instrument name="SFX:WirbelXT" prgChg="95"/>
+    <Instrument name="SFX: SweepEA" prgChg="96"/>
+  </Section>
+  <Section name="USER HiHat" bankHigh="0" bankLow="0" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="NAT: NatHiHat" prgChg="1"/>
+    <Instrument name="NAT: RockHiht" prgChg="2"/>
+    <Instrument name="NAT: NHiHat-1" prgChg="3"/>
+    <Instrument name="NAT: Blech" prgChg="4"/>
+    <Instrument name="NAT: HighPas1" prgChg="5"/>
+    <Instrument name="NAT: HighPas2" prgChg="6"/>
+    <Instrument name="NAT: HighPas3" prgChg="7"/>
+    <Instrument name="NAT: HighPas4" prgChg="8"/>
+    <Instrument name="NAT: Butter HH" prgChg="9"/>
+    <Instrument name="NAT: JazzHat" prgChg="10"/>
+    <Instrument name="NAT: Luschig" prgChg="11"/>
+    <Instrument name="NAT: TinHiHat" prgChg="12"/>
+    <Instrument name="NAT: Lofihat" prgChg="13"/>
+    <Instrument name="NAT: DynaLinn" prgChg="14"/>
+    <Instrument name="NAT: 8.8 Mono" prgChg="15"/>
+    <Instrument name="NAT: HAT mono" prgChg="16"/>
+    <Instrument name="D.NAT: Modulate" prgChg="17"/>
+    <Instrument name="D.NAT: Thor" prgChg="18"/>
+    <Instrument name="D.NAT: Shorty" prgChg="19"/>
+    <Instrument name="D.NAT: Takethis" prgChg="20"/>
+    <Instrument name="D.NAT: Pitch EG" prgChg="21"/>
+    <Instrument name="D.NAT: PitchEG2" prgChg="22"/>
+    <Instrument name="D.NAT: PitchEG3" prgChg="23"/>
+    <Instrument name="D.NAT: PitchEG4" prgChg="24"/>
+    <Instrument name="D.NAT: WolligHH" prgChg="25"/>
+    <Instrument name="D.NAT: Agressiv" prgChg="26"/>
+    <Instrument name="D.NAT: Mean HH" prgChg="27"/>
+    <Instrument name="D.NAT: BlechHH" prgChg="28"/>
+    <Instrument name="D.NAT: Dirtechno" prgChg="29"/>
+    <Instrument name="D.NAT: Highecho" prgChg="30"/>
+    <Instrument name="D.NAT: Glitsch" prgChg="31"/>
+    <Instrument name="D.NAT: Slitsch" prgChg="32"/>
+    <Instrument name="ELEC: Univox" prgChg="33"/>
+    <Instrument name="ELEC: Dirty" prgChg="34"/>
+    <Instrument name="ELEC: Natura" prgChg="35"/>
+    <Instrument name="ELEC: Modulate" prgChg="36"/>
+    <Instrument name="ELEC: Modulat2" prgChg="37"/>
+    <Instrument name="ELEC: MS 20" prgChg="38"/>
+    <Instrument name="ELEC: MS 20Pit" prgChg="39"/>
+    <Instrument name="ELEC: Sirius" prgChg="40"/>
+    <Instrument name="ELEC: DirtyHH1" prgChg="41"/>
+    <Instrument name="ELEC: Metalic" prgChg="42"/>
+    <Instrument name="ELEC: MesserHH" prgChg="43"/>
+    <Instrument name="ELEC: LongMS" prgChg="44"/>
+    <Instrument name="ELEC: Zippi" prgChg="45"/>
+    <Instrument name="ELEC: Crackle" prgChg="46"/>
+    <Instrument name="ELEC: NoizeHat" prgChg="47"/>
+    <Instrument name="ELEC: LFO-Hatt" prgChg="48"/>
+    <Instrument name="909: 909 Hat" prgChg="49"/>
+    <Instrument name="909: 909 High" prgChg="50"/>
+    <Instrument name="909: 909CutEG" prgChg="51"/>
+    <Instrument name="909: 909**-**" prgChg="52"/>
+    <Instrument name="909: HipHop" prgChg="53"/>
+    <Instrument name="909: Higher" prgChg="54"/>
+    <Instrument name="909: LFO" prgChg="55"/>
+    <Instrument name="909: Resonanc" prgChg="56"/>
+    <Instrument name="909: 909HP+" prgChg="57"/>
+    <Instrument name="909: Short909" prgChg="58"/>
+    <Instrument name="909: Norm-909" prgChg="59"/>
+    <Instrument name="909: Worm-909" prgChg="60"/>
+    <Instrument name="909: 909itsch" prgChg="61"/>
+    <Instrument name="909: HAT LFO1" prgChg="62"/>
+    <Instrument name="909: HAT LFO2" prgChg="63"/>
+    <Instrument name="909: 909 mono" prgChg="64"/>
+    <Instrument name="808: 808 1" prgChg="65"/>
+    <Instrument name="808: 808 2" prgChg="66"/>
+    <Instrument name="808: Short808" prgChg="67"/>
+    <Instrument name="808: Modulate" prgChg="68"/>
+    <Instrument name="808: Roque&#194;&#165;" prgChg="69"/>
+    <Instrument name="808: DJ Best" prgChg="70"/>
+    <Instrument name="808: Tricky" prgChg="71"/>
+    <Instrument name="808: Remix" prgChg="72"/>
+    <Instrument name="808: DanceHH" prgChg="73"/>
+    <Instrument name="808: Naturell" prgChg="74"/>
+    <Instrument name="808: 808Tick1" prgChg="75"/>
+    <Instrument name="808: SwiftHH" prgChg="76"/>
+    <Instrument name="808: CR-808" prgChg="77"/>
+    <Instrument name="808: 808 ??" prgChg="78"/>
+    <Instrument name="808: Delay808" prgChg="79"/>
+    <Instrument name="808: Bad808" prgChg="80"/>
+    <Instrument name="SFX: Modulat2" prgChg="81"/>
+    <Instrument name="SFX: PitchChg" prgChg="82"/>
+    <Instrument name="SFX: ShortTac" prgChg="83"/>
+    <Instrument name="SFX: UniKat" prgChg="84"/>
+    <Instrument name="SFX: Mad HH" prgChg="85"/>
+    <Instrument name="SFX: PingPong" prgChg="86"/>
+    <Instrument name="SFX: Gogo" prgChg="87"/>
+    <Instrument name="SFX: Q Wa Dis" prgChg="88"/>
+    <Instrument name="SFX: Indust" prgChg="89"/>
+    <Instrument name="SFX: ModulSnd" prgChg="90"/>
+    <Instrument name="SFX: Aua-HH" prgChg="91"/>
+    <Instrument name="SFX: God-HH" prgChg="92"/>
+    <Instrument name="SFX: MayBeam" prgChg="93"/>
+    <Instrument name="SFX: VinylHat" prgChg="94"/>
+    <Instrument name="SFX: Gongs" prgChg="95"/>
+    <Instrument name="SFX: Bubbles" prgChg="96"/>
+  </Section>
+  <Section name="PRE-A HiHat" bankHigh="0" bankLow="1" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="NAT: NatHiHat" prgChg="1"/>
+    <Instrument name="NAT: RockHiht" prgChg="2"/>
+    <Instrument name="NAT: NHiHat-1" prgChg="3"/>
+    <Instrument name="NAT: Blech" prgChg="4"/>
+    <Instrument name="NAT: HighPas1" prgChg="5"/>
+    <Instrument name="NAT: HighPas2" prgChg="6"/>
+    <Instrument name="NAT: HighPas3" prgChg="7"/>
+    <Instrument name="NAT: HighPas4" prgChg="8"/>
+    <Instrument name="NAT: Butter HH" prgChg="9"/>
+    <Instrument name="NAT: JazzHat" prgChg="10"/>
+    <Instrument name="NAT: Luschig" prgChg="11"/>
+    <Instrument name="NAT: TinHiHat" prgChg="12"/>
+    <Instrument name="NAT: Lofihat" prgChg="13"/>
+    <Instrument name="NAT: DynaLinn" prgChg="14"/>
+    <Instrument name="NAT: 8.8 Mono" prgChg="15"/>
+    <Instrument name="NAT: HAT mono" prgChg="16"/>
+    <Instrument name="D.NAT: Modulate" prgChg="17"/>
+    <Instrument name="D.NAT: Thor" prgChg="18"/>
+    <Instrument name="D.NAT: Shorty" prgChg="19"/>
+    <Instrument name="D.NAT: Takethis" prgChg="20"/>
+    <Instrument name="D.NAT: Pitch EG" prgChg="21"/>
+    <Instrument name="D.NAT: PitchEG2" prgChg="22"/>
+    <Instrument name="D.NAT: PitchEG3" prgChg="23"/>
+    <Instrument name="D.NAT: PitchEG4" prgChg="24"/>
+    <Instrument name="D.NAT: WolligHH" prgChg="25"/>
+    <Instrument name="D.NAT: Agressiv" prgChg="26"/>
+    <Instrument name="D.NAT: Mean HH" prgChg="27"/>
+    <Instrument name="D.NAT: BlechHH" prgChg="28"/>
+    <Instrument name="D.NAT: Dirtechno" prgChg="29"/>
+    <Instrument name="D.NAT: Highecho" prgChg="30"/>
+    <Instrument name="D.NAT: Glitsch" prgChg="31"/>
+    <Instrument name="D.NAT: Slitsch" prgChg="32"/>
+    <Instrument name="ELEC: Univox" prgChg="33"/>
+    <Instrument name="ELEC: Dirty" prgChg="34"/>
+    <Instrument name="ELEC: Natura" prgChg="35"/>
+    <Instrument name="ELEC: Modulate" prgChg="36"/>
+    <Instrument name="ELEC: Modulat2" prgChg="37"/>
+    <Instrument name="ELEC: MS 20" prgChg="38"/>
+    <Instrument name="ELEC: MS 20Pit" prgChg="39"/>
+    <Instrument name="ELEC: Sirius" prgChg="40"/>
+    <Instrument name="ELEC: DirtyHH1" prgChg="41"/>
+    <Instrument name="ELEC: Metalic" prgChg="42"/>
+    <Instrument name="ELEC: MesserHH" prgChg="43"/>
+    <Instrument name="ELEC: LongMS" prgChg="44"/>
+    <Instrument name="ELEC: Zippi" prgChg="45"/>
+    <Instrument name="ELEC: Crackle" prgChg="46"/>
+    <Instrument name="ELEC: NoizeHat" prgChg="47"/>
+    <Instrument name="ELEC: LFO-Hatt" prgChg="48"/>
+    <Instrument name="909: 909 Hat" prgChg="49"/>
+    <Instrument name="909: 909 High" prgChg="50"/>
+    <Instrument name="909: 909CutEG" prgChg="51"/>
+    <Instrument name="909: 909**-**" prgChg="52"/>
+    <Instrument name="909: HipHop" prgChg="53"/>
+    <Instrument name="909: Higher" prgChg="54"/>
+    <Instrument name="909: LFO" prgChg="55"/>
+    <Instrument name="909: Resonanc" prgChg="56"/>
+    <Instrument name="909: 909HP+" prgChg="57"/>
+    <Instrument name="909: Short909" prgChg="58"/>
+    <Instrument name="909: Norm-909" prgChg="59"/>
+    <Instrument name="909: Worm-909" prgChg="60"/>
+    <Instrument name="909: 909itsch" prgChg="61"/>
+    <Instrument name="909: HAT LFO1" prgChg="62"/>
+    <Instrument name="909: HAT LFO2" prgChg="63"/>
+    <Instrument name="909: 909 mono" prgChg="64"/>
+    <Instrument name="808: 808 1" prgChg="65"/>
+    <Instrument name="808: 808 2" prgChg="66"/>
+    <Instrument name="808: Short808" prgChg="67"/>
+    <Instrument name="808: Modulate" prgChg="68"/>
+    <Instrument name="808: Roque&#194;&#165;" prgChg="69"/>
+    <Instrument name="808: DJ Best" prgChg="70"/>
+    <Instrument name="808: Tricky" prgChg="71"/>
+    <Instrument name="808: Remix" prgChg="72"/>
+    <Instrument name="808: DanceHH" prgChg="73"/>
+    <Instrument name="808: Naturell" prgChg="74"/>
+    <Instrument name="808: 808Tick1" prgChg="75"/>
+    <Instrument name="808: SwiftHH" prgChg="76"/>
+    <Instrument name="808: CR-808" prgChg="77"/>
+    <Instrument name="808: 808 ??" prgChg="78"/>
+    <Instrument name="808: Delay808" prgChg="79"/>
+    <Instrument name="808: Bad808" prgChg="80"/>
+    <Instrument name="SFX: Modulat2" prgChg="81"/>
+    <Instrument name="SFX: PitchChg" prgChg="82"/>
+    <Instrument name="SFX: ShortTac" prgChg="83"/>
+    <Instrument name="SFX: UniKat" prgChg="84"/>
+    <Instrument name="SFX: Mad HH" prgChg="85"/>
+    <Instrument name="SFX: PingPong" prgChg="86"/>
+    <Instrument name="SFX: Gogo" prgChg="87"/>
+    <Instrument name="SFX: Q Wa Dis" prgChg="88"/>
+    <Instrument name="SFX: Indust" prgChg="89"/>
+    <Instrument name="SFX: ModulSnd" prgChg="90"/>
+    <Instrument name="SFX: Aua-HH" prgChg="91"/>
+    <Instrument name="SFX: God-HH" prgChg="92"/>
+    <Instrument name="SFX: MayBeam" prgChg="93"/>
+    <Instrument name="SFX: VinylHat" prgChg="94"/>
+    <Instrument name="SFX: Gongs" prgChg="95"/>
+    <Instrument name="SFX: Bubbles" prgChg="96"/>
+  </Section>
+  <Section name="USER Percussion" bankHigh="0" bankLow="0" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="NAT: Filterit" prgChg="1"/>
+    <Instrument name="NAT: Latin" prgChg="2"/>
+    <Instrument name="NAT: Dance" prgChg="3"/>
+    <Instrument name="NAT: ShortSet" prgChg="4"/>
+    <Instrument name="NAT: ResPerc" prgChg="5"/>
+    <Instrument name="NAT: Cut This" prgChg="6"/>
+    <Instrument name="NAT: Waves" prgChg="7"/>
+    <Instrument name="NAT: Shatter" prgChg="8"/>
+    <Instrument name="NAT: Percus1" prgChg="9"/>
+    <Instrument name="NAT: GroovSet" prgChg="10"/>
+    <Instrument name="NAT: HouseSet" prgChg="11"/>
+    <Instrument name="NAT: WeirdPec" prgChg="12"/>
+    <Instrument name="NAT: PowerTom" prgChg="13"/>
+    <Instrument name="NAT: Power" prgChg="14"/>
+    <Instrument name="NAT: Good For" prgChg="15"/>
+    <Instrument name="NAT: ClapClap" prgChg="16"/>
+    <Instrument name="D.NAT: Distorto" prgChg="17"/>
+    <Instrument name="D.NAT: Distort2" prgChg="18"/>
+    <Instrument name="D.NAT: Lambura" prgChg="19"/>
+    <Instrument name="D.NAT: Attack1" prgChg="20"/>
+    <Instrument name="D.NAT: Attack2" prgChg="21"/>
+    <Instrument name="D.NAT: LoFi 1" prgChg="22"/>
+    <Instrument name="D.NAT: LoFiPerc" prgChg="23"/>
+    <Instrument name="D.NAT: LoFi2" prgChg="24"/>
+    <Instrument name="D.NAT: Muffelig" prgChg="25"/>
+    <Instrument name="D.NAT: Be Fxed" prgChg="26"/>
+    <Instrument name="D.NAT: SomeFunk" prgChg="27"/>
+    <Instrument name="D.NAT: GrooveDT" prgChg="28"/>
+    <Instrument name="D.NAT: Maharish" prgChg="29"/>
+    <Instrument name="D.NAT: Aborigin" prgChg="30"/>
+    <Instrument name="D.NAT: Poona" prgChg="31"/>
+    <Instrument name="D.NAT: Mahamono" prgChg="32"/>
+    <Instrument name="ELEC: Linn Set" prgChg="33"/>
+    <Instrument name="ELEC: Linn 2" prgChg="34"/>
+    <Instrument name="ELEC: LinnShrt" prgChg="35"/>
+    <Instrument name="ELEC: TotalCon" prgChg="36"/>
+    <Instrument name="ELEC: DeepNoiz" prgChg="37"/>
+    <Instrument name="ELEC: X_Transf" prgChg="38"/>
+    <Instrument name="ELEC: Y_Transf" prgChg="39"/>
+    <Instrument name="ELEC: ZipZap" prgChg="40"/>
+    <Instrument name="ELEC: Electro2" prgChg="41"/>
+    <Instrument name="ELEC: Mega-Pec" prgChg="42"/>
+    <Instrument name="ELEC: Perfect" prgChg="43"/>
+    <Instrument name="ELEC: Mindburn" prgChg="44"/>
+    <Instrument name="ELEC: E-D-S" prgChg="45"/>
+    <Instrument name="ELEC: Pitching" prgChg="46"/>
+    <Instrument name="ELEC: Swishi" prgChg="47"/>
+    <Instrument name="ELEC: Sritshi" prgChg="48"/>
+    <Instrument name="909: Standard" prgChg="49"/>
+    <Instrument name="909: Mfc" prgChg="50"/>
+    <Instrument name="909: WestBam" prgChg="51"/>
+    <Instrument name="909: Bingo" prgChg="52"/>
+    <Instrument name="909: Reverse" prgChg="53"/>
+    <Instrument name="909: Short909" prgChg="54"/>
+    <Instrument name="909: Short HP" prgChg="55"/>
+    <Instrument name="909: Condensd" prgChg="56"/>
+    <Instrument name="909: HopSet 1" prgChg="57"/>
+    <Instrument name="909: GatePerc" prgChg="58"/>
+    <Instrument name="909: GroovSet" prgChg="59"/>
+    <Instrument name="909: FatePerc" prgChg="60"/>
+    <Instrument name="909: HiFreq9" prgChg="61"/>
+    <Instrument name="909: Daft1Set" prgChg="62"/>
+    <Instrument name="909: LoFi909" prgChg="63"/>
+    <Instrument name="909: Groov HP" prgChg="64"/>
+    <Instrument name="808: 808 Set" prgChg="65"/>
+    <Instrument name="808: Quasar" prgChg="66"/>
+    <Instrument name="808: Short808" prgChg="67"/>
+    <Instrument name="808: NewKits" prgChg="68"/>
+    <Instrument name="808: Plucked" prgChg="69"/>
+    <Instrument name="808: Pitched" prgChg="70"/>
+    <Instrument name="808: Lirasis" prgChg="71"/>
+    <Instrument name="808: Sirius" prgChg="72"/>
+    <Instrument name="808: DrmBass1" prgChg="73"/>
+    <Instrument name="808: DanceSet" prgChg="74"/>
+    <Instrument name="808: Tanz-Set" prgChg="75"/>
+    <Instrument name="808: MAD-Perc" prgChg="76"/>
+    <Instrument name="808: HiFreq 8" prgChg="77"/>
+    <Instrument name="808: Daft2Set" prgChg="78"/>
+    <Instrument name="808: LoFi808" prgChg="79"/>
+    <Instrument name="808: Groov FX" prgChg="80"/>
+    <Instrument name="SFX: Electro" prgChg="81"/>
+    <Instrument name="SFX: Modul" prgChg="82"/>
+    <Instrument name="SFX: MoreFun!" prgChg="83"/>
+    <Instrument name="SFX: SuperFX1" prgChg="84"/>
+    <Instrument name="SFX: SuperFX2" prgChg="85"/>
+    <Instrument name="SFX: SuperFX3" prgChg="86"/>
+    <Instrument name="SFX: Animals?" prgChg="87"/>
+    <Instrument name="SFX: Help!" prgChg="88"/>
+    <Instrument name="SFX: Effekted" prgChg="89"/>
+    <Instrument name="SFX: SatePerc" prgChg="90"/>
+    <Instrument name="SFX: Tablatoi" prgChg="91"/>
+    <Instrument name="SFX: strange" prgChg="92"/>
+    <Instrument name="SFX: L-R-U-D" prgChg="93"/>
+    <Instrument name="SFX: ARPEG-DR" prgChg="94"/>
+    <Instrument name="SFX: Vari FX1" prgChg="95"/>
+    <Instrument name="SFX: Vari FX2" prgChg="96"/>
+  </Section>
+  <Section name="PRA-A Percussion" bankHigh="0" bankLow="1" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="NAT: Filterit" prgChg="1"/>
+    <Instrument name="NAT: Latin" prgChg="2"/>
+    <Instrument name="NAT: Dance" prgChg="3"/>
+    <Instrument name="NAT: ShortSet" prgChg="4"/>
+    <Instrument name="NAT: ResPerc" prgChg="5"/>
+    <Instrument name="NAT: Cut This" prgChg="6"/>
+    <Instrument name="NAT: Waves" prgChg="7"/>
+    <Instrument name="NAT: Shatter" prgChg="8"/>
+    <Instrument name="NAT: Percus1" prgChg="9"/>
+    <Instrument name="NAT: GroovSet" prgChg="10"/>
+    <Instrument name="NAT: HouseSet" prgChg="11"/>
+    <Instrument name="NAT: WeirdPec" prgChg="12"/>
+    <Instrument name="NAT: PowerTom" prgChg="13"/>
+    <Instrument name="NAT: Power" prgChg="14"/>
+    <Instrument name="NAT: Good For" prgChg="15"/>
+    <Instrument name="NAT: ClapClap" prgChg="16"/>
+    <Instrument name="D.NAT: Distorto" prgChg="17"/>
+    <Instrument name="D.NAT: Distort2" prgChg="18"/>
+    <Instrument name="D.NAT: Lambura" prgChg="19"/>
+    <Instrument name="D.NAT: Attack1" prgChg="20"/>
+    <Instrument name="D.NAT: Attack2" prgChg="21"/>
+    <Instrument name="D.NAT: LoFi 1" prgChg="22"/>
+    <Instrument name="D.NAT: LoFiPerc" prgChg="23"/>
+    <Instrument name="D.NAT: LoFi2" prgChg="24"/>
+    <Instrument name="D.NAT: Muffelig" prgChg="25"/>
+    <Instrument name="D.NAT: Be Fxed" prgChg="26"/>
+    <Instrument name="D.NAT: SomeFunk" prgChg="27"/>
+    <Instrument name="D.NAT: GrooveDT" prgChg="28"/>
+    <Instrument name="D.NAT: Maharish" prgChg="29"/>
+    <Instrument name="D.NAT: Aborigin" prgChg="30"/>
+    <Instrument name="D.NAT: Poona" prgChg="31"/>
+    <Instrument name="D.NAT: Mahamono" prgChg="32"/>
+    <Instrument name="ELEC: Linn Set" prgChg="33"/>
+    <Instrument name="ELEC: Linn 2" prgChg="34"/>
+    <Instrument name="ELEC: LinnShrt" prgChg="35"/>
+    <Instrument name="ELEC: TotalCon" prgChg="36"/>
+    <Instrument name="ELEC: DeepNoiz" prgChg="37"/>
+    <Instrument name="ELEC: X_Transf" prgChg="38"/>
+    <Instrument name="ELEC: Y_Transf" prgChg="39"/>
+    <Instrument name="ELEC: ZipZap" prgChg="40"/>
+    <Instrument name="ELEC: Electro2" prgChg="41"/>
+    <Instrument name="ELEC: Mega-Pec" prgChg="42"/>
+    <Instrument name="ELEC: Perfect" prgChg="43"/>
+    <Instrument name="ELEC: Mindburn" prgChg="44"/>
+    <Instrument name="ELEC: E-D-S" prgChg="45"/>
+    <Instrument name="ELEC: Pitching" prgChg="46"/>
+    <Instrument name="ELEC: Swishi" prgChg="47"/>
+    <Instrument name="ELEC: Sritshi" prgChg="48"/>
+    <Instrument name="909: Standard" prgChg="49"/>
+    <Instrument name="909: Mfc" prgChg="50"/>
+    <Instrument name="909: WestBam" prgChg="51"/>
+    <Instrument name="909: Bingo" prgChg="52"/>
+    <Instrument name="909: Reverse" prgChg="53"/>
+    <Instrument name="909: Short909" prgChg="54"/>
+    <Instrument name="909: Short HP" prgChg="55"/>
+    <Instrument name="909: Condensd" prgChg="56"/>
+    <Instrument name="909: HopSet 1" prgChg="57"/>
+    <Instrument name="909: GatePerc" prgChg="58"/>
+    <Instrument name="909: GroovSet" prgChg="59"/>
+    <Instrument name="909: FatePerc" prgChg="60"/>
+    <Instrument name="909: HiFreq9" prgChg="61"/>
+    <Instrument name="909: Daft1Set" prgChg="62"/>
+    <Instrument name="909: LoFi909" prgChg="63"/>
+    <Instrument name="909: Groov HP" prgChg="64"/>
+    <Instrument name="808: 808 Set" prgChg="65"/>
+    <Instrument name="808: Quasar" prgChg="66"/>
+    <Instrument name="808: Short808" prgChg="67"/>
+    <Instrument name="808: NewKits" prgChg="68"/>
+    <Instrument name="808: Plucked" prgChg="69"/>
+    <Instrument name="808: Pitched" prgChg="70"/>
+    <Instrument name="808: Lirasis" prgChg="71"/>
+    <Instrument name="808: Sirius" prgChg="72"/>
+    <Instrument name="808: DrmBass1" prgChg="73"/>
+    <Instrument name="808: DanceSet" prgChg="74"/>
+    <Instrument name="808: Tanz-Set" prgChg="75"/>
+    <Instrument name="808: MAD-Perc" prgChg="76"/>
+    <Instrument name="808: HiFreq 8" prgChg="77"/>
+    <Instrument name="808: Daft2Set" prgChg="78"/>
+    <Instrument name="808: LoFi808" prgChg="79"/>
+    <Instrument name="808: Groov FX" prgChg="80"/>
+    <Instrument name="SFX: Electro" prgChg="81"/>
+    <Instrument name="SFX: Modul" prgChg="82"/>
+    <Instrument name="SFX: MoreFun!" prgChg="83"/>
+    <Instrument name="SFX: SuperFX1" prgChg="84"/>
+    <Instrument name="SFX: SuperFX2" prgChg="85"/>
+    <Instrument name="SFX: SuperFX3" prgChg="86"/>
+    <Instrument name="SFX: Animals?" prgChg="87"/>
+    <Instrument name="SFX: Help!" prgChg="88"/>
+    <Instrument name="SFX: Effekted" prgChg="89"/>
+    <Instrument name="SFX: SatePerc" prgChg="90"/>
+    <Instrument name="SFX: Tablatoi" prgChg="91"/>
+    <Instrument name="SFX: strange" prgChg="92"/>
+    <Instrument name="SFX: L-R-U-D" prgChg="93"/>
+    <Instrument name="SFX: ARPEG-DR" prgChg="94"/>
+    <Instrument name="SFX: Vari FX1" prgChg="95"/>
+    <Instrument name="SFX: Vari FX2" prgChg="96"/>
+  </Section>
+  <Section name="USER Patches" bankHigh="0" bankLow="0" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="BASS: WetBass2" prgChg="1"/>
+    <Instrument name="BASS: SineBass" prgChg="2"/>
+    <Instrument name="BASS: CoolBass" prgChg="3"/>
+    <Instrument name="BASS: ModuloBX" prgChg="4"/>
+    <Instrument name="BASS: Mod2Bass" prgChg="5"/>
+    <Instrument name="BASS: FatBoy" prgChg="6"/>
+    <Instrument name="BASS: Wetlong" prgChg="7"/>
+    <Instrument name="BASS: Wet&amp;Bass" prgChg="8"/>
+    <Instrument name="BASS: DiscoBass" prgChg="9"/>
+    <Instrument name="BASS: *Atom*" prgChg="10"/>
+    <Instrument name="BASS: PercSine" prgChg="11"/>
+    <Instrument name="BASS: ResoBass" prgChg="12"/>
+    <Instrument name="BASS: TranceBS" prgChg="13"/>
+    <Instrument name="BASS: Filter!" prgChg="14"/>
+    <Instrument name="BASS: Wave Bass" prgChg="15"/>
+    <Instrument name="BASS: DeepBass" prgChg="16"/>
+    <Instrument name="D.BAS: DirtSynt" prgChg="17"/>
+    <Instrument name="D.BAS: Dirt309" prgChg="18"/>
+    <Instrument name="D.BAS: LuckyBas" prgChg="19"/>
+    <Instrument name="D.BAS: SaverSex" prgChg="20"/>
+    <Instrument name="D.BAS: 303Velo" prgChg="21"/>
+    <Instrument name="D.BAS: VeryDirt" prgChg="22"/>
+    <Instrument name="D.BAS: MixOct" prgChg="23"/>
+    <Instrument name="D.BAS: ShortBas" prgChg="24"/>
+    <Instrument name="D.BAS: GuitarBs" prgChg="25"/>
+    <Instrument name="D.BAS: S-Faster" prgChg="26"/>
+    <Instrument name="D.BAS: FatDirty" prgChg="27"/>
+    <Instrument name="D.BAS: ZapBass" prgChg="28"/>
+    <Instrument name="D.BAS: SawBass" prgChg="29"/>
+    <Instrument name="D.BAS: PPG-Bass" prgChg="30"/>
+    <Instrument name="D.BAS: WetMoog!" prgChg="31"/>
+    <Instrument name="D.BAS: StringBs" prgChg="32"/>
+    <Instrument name="PAD: Shine On" prgChg="33"/>
+    <Instrument name="PAD: VS Chor" prgChg="34"/>
+    <Instrument name="PAD: Bright PD" prgChg="35"/>
+    <Instrument name="PAD: Shimmer" prgChg="36"/>
+    <Instrument name="PAD: Chor" prgChg="37"/>
+    <Instrument name="PAD: Mellotrn" prgChg="38"/>
+    <Instrument name="PAD: Sentinel" prgChg="39"/>
+    <Instrument name="PAD: TubularP" prgChg="40"/>
+    <Instrument name="PAD: TecPad" prgChg="41"/>
+    <Instrument name="PAD: Spektral" prgChg="42"/>
+    <Instrument name="PAD: GateSynt" prgChg="43"/>
+    <Instrument name="PAD: Swallow" prgChg="44"/>
+    <Instrument name="PAD: Orchestr" prgChg="45"/>
+    <Instrument name="PAD: Deep Pad" prgChg="46"/>
+    <Instrument name="PAD: Jet Pad1" prgChg="47"/>
+    <Instrument name="PAD: Big Pad" prgChg="48"/>
+    <Instrument name="PLUCK: Picant" prgChg="49"/>
+    <Instrument name="PLUCK: Clavonit" prgChg="50"/>
+    <Instrument name="PLUCK: Floating" prgChg="51"/>
+    <Instrument name="PLUCK: Quintchd" prgChg="52"/>
+    <Instrument name="PLUCK: ShortSeq" prgChg="53"/>
+    <Instrument name="PLUCK: ModSequa" prgChg="54"/>
+    <Instrument name="PLUCK: Block C" prgChg="55"/>
+    <Instrument name="PLUCK: Perco" prgChg="56"/>
+    <Instrument name="PLUCK: Spectacu" prgChg="57"/>
+    <Instrument name="PLUCK: Percular" prgChg="58"/>
+    <Instrument name="PLUCK: Bottom" prgChg="59"/>
+    <Instrument name="PLUCK: SequenzC" prgChg="60"/>
+    <Instrument name="PLUCK: Into Spa" prgChg="61"/>
+    <Instrument name="PLUCK: Ambient T" prgChg="62"/>
+    <Instrument name="PLUCK: ChorSeq!" prgChg="63"/>
+    <Instrument name="PLUCK: &lt;Synthi&#194;&#165;" prgChg="64"/>
+    <Instrument name="SOLO: Arpeggio" prgChg="65"/>
+    <Instrument name="SOLO: Trancer" prgChg="66"/>
+    <Instrument name="SOLO: Goa !" prgChg="67"/>
+    <Instrument name="SOLO: Arpeggi2" prgChg="68"/>
+    <Instrument name="SOLO: Trancer3" prgChg="69"/>
+    <Instrument name="SOLO: HardSeq!" prgChg="70"/>
+    <Instrument name="SOLO: SyncSynt" prgChg="71"/>
+    <Instrument name="SOLO: SequenzA" prgChg="72"/>
+    <Instrument name="SOLO: Techno!" prgChg="73"/>
+    <Instrument name="SOLO: FilterS1" prgChg="74"/>
+    <Instrument name="SOLO: HighSeq2" prgChg="75"/>
+    <Instrument name="SOLO: UpperCls" prgChg="76"/>
+    <Instrument name="SOLO: Syncer2" prgChg="77"/>
+    <Instrument name="SOLO: Orgelton" prgChg="78"/>
+    <Instrument name="SOLO: OrcSolo" prgChg="79"/>
+    <Instrument name="SOLO: PulsSolo" prgChg="80"/>
+    <Instrument name="EFX: VocoderC" prgChg="81"/>
+    <Instrument name="EFX: Filter!" prgChg="82"/>
+    <Instrument name="EFX: Zipper" prgChg="83"/>
+    <Instrument name="EFX: TinyDirt" prgChg="84"/>
+    <Instrument name="EFX: Swallow" prgChg="85"/>
+    <Instrument name="EFX: FXPad" prgChg="86"/>
+    <Instrument name="EFX: Pshycos*" prgChg="87"/>
+    <Instrument name="EFX: LushPad2" prgChg="88"/>
+    <Instrument name="EFX: RhythmFX" prgChg="89"/>
+    <Instrument name="EFX: Atmo" prgChg="90"/>
+    <Instrument name="EFX: Dreams" prgChg="91"/>
+    <Instrument name="EFX: AtomOrc" prgChg="92"/>
+    <Instrument name="EFX: Pshycoa" prgChg="93"/>
+    <Instrument name="EFX: Pre&lt;Nat" prgChg="94"/>
+    <Instrument name="EFX: Mello Up" prgChg="95"/>
+    <Instrument name="EFX: Cult" prgChg="96"/>
+  </Section>
+  <Section name="PRE-A Patches" bankHigh="0" bankLow="1" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="BASS: WetBass2" prgChg="1"/>
+    <Instrument name="BASS: SineBass" prgChg="2"/>
+    <Instrument name="BASS: CoolBass" prgChg="3"/>
+    <Instrument name="BASS: ModuloBX" prgChg="4"/>
+    <Instrument name="BASS: Mod2Bass" prgChg="5"/>
+    <Instrument name="BASS: FatBoy" prgChg="6"/>
+    <Instrument name="BASS: Wetlong" prgChg="7"/>
+    <Instrument name="BASS: Wet&amp;Bass" prgChg="8"/>
+    <Instrument name="BASS: DiscoBass" prgChg="9"/>
+    <Instrument name="BASS: *Atom*" prgChg="10"/>
+    <Instrument name="BASS: PercSine" prgChg="11"/>
+    <Instrument name="BASS: ResoBass" prgChg="12"/>
+    <Instrument name="BASS: TranceBS" prgChg="13"/>
+    <Instrument name="BASS: Filter!" prgChg="14"/>
+    <Instrument name="BASS: Wave Bass" prgChg="15"/>
+    <Instrument name="BASS: DeepBass" prgChg="16"/>
+    <Instrument name="D.BAS: DirtSynt" prgChg="17"/>
+    <Instrument name="D.BAS: Dirt309" prgChg="18"/>
+    <Instrument name="D.BAS: LuckyBas" prgChg="19"/>
+    <Instrument name="D.BAS: SaverSex" prgChg="20"/>
+    <Instrument name="D.BAS: 303Velo" prgChg="21"/>
+    <Instrument name="D.BAS: VeryDirt" prgChg="22"/>
+    <Instrument name="D.BAS: MixOct" prgChg="23"/>
+    <Instrument name="D.BAS: ShortBas" prgChg="24"/>
+    <Instrument name="D.BAS: GuitarBs" prgChg="25"/>
+    <Instrument name="D.BAS: S-Faster" prgChg="26"/>
+    <Instrument name="D.BAS: FatDirty" prgChg="27"/>
+    <Instrument name="D.BAS: ZapBass" prgChg="28"/>
+    <Instrument name="D.BAS: SawBass" prgChg="29"/>
+    <Instrument name="D.BAS: PPG-Bass" prgChg="30"/>
+    <Instrument name="D.BAS: WetMoog!" prgChg="31"/>
+    <Instrument name="D.BAS: StringBs" prgChg="32"/>
+    <Instrument name="PAD: Shine On" prgChg="33"/>
+    <Instrument name="PAD: VS Chor" prgChg="34"/>
+    <Instrument name="PAD: Bright PD" prgChg="35"/>
+    <Instrument name="PAD: Shimmer" prgChg="36"/>
+    <Instrument name="PAD: Chor" prgChg="37"/>
+    <Instrument name="PAD: Mellotrn" prgChg="38"/>
+    <Instrument name="PAD: Sentinel" prgChg="39"/>
+    <Instrument name="PAD: TubularP" prgChg="40"/>
+    <Instrument name="PAD: TecPad" prgChg="41"/>
+    <Instrument name="PAD: Spektral" prgChg="42"/>
+    <Instrument name="PAD: GateSynt" prgChg="43"/>
+    <Instrument name="PAD: Swallow" prgChg="44"/>
+    <Instrument name="PAD: Orchestr" prgChg="45"/>
+    <Instrument name="PAD: Deep Pad" prgChg="46"/>
+    <Instrument name="PAD: Jet Pad1" prgChg="47"/>
+    <Instrument name="PAD: Big Pad" prgChg="48"/>
+    <Instrument name="PLUCK: Picant" prgChg="49"/>
+    <Instrument name="PLUCK: Clavonit" prgChg="50"/>
+    <Instrument name="PLUCK: Floating" prgChg="51"/>
+    <Instrument name="PLUCK: Quintchd" prgChg="52"/>
+    <Instrument name="PLUCK: ShortSeq" prgChg="53"/>
+    <Instrument name="PLUCK: ModSequa" prgChg="54"/>
+    <Instrument name="PLUCK: Block C" prgChg="55"/>
+    <Instrument name="PLUCK: Perco" prgChg="56"/>
+    <Instrument name="PLUCK: Spectacu" prgChg="57"/>
+    <Instrument name="PLUCK: Percular" prgChg="58"/>
+    <Instrument name="PLUCK: Bottom" prgChg="59"/>
+    <Instrument name="PLUCK: SequenzC" prgChg="60"/>
+    <Instrument name="PLUCK: Into Spa" prgChg="61"/>
+    <Instrument name="PLUCK: Ambient T" prgChg="62"/>
+    <Instrument name="PLUCK: ChorSeq!" prgChg="63"/>
+    <Instrument name="PLUCK: &lt;Synthi&#194;&#165;" prgChg="64"/>
+    <Instrument name="SOLO: Arpeggio" prgChg="65"/>
+    <Instrument name="SOLO: Trancer" prgChg="66"/>
+    <Instrument name="SOLO: Goa !" prgChg="67"/>
+    <Instrument name="SOLO: Arpeggi2" prgChg="68"/>
+    <Instrument name="SOLO: Trancer3" prgChg="69"/>
+    <Instrument name="SOLO: HardSeq!" prgChg="70"/>
+    <Instrument name="SOLO: SyncSynt" prgChg="71"/>
+    <Instrument name="SOLO: SequenzA" prgChg="72"/>
+    <Instrument name="SOLO: Techno!" prgChg="73"/>
+    <Instrument name="SOLO: FilterS1" prgChg="74"/>
+    <Instrument name="SOLO: HighSeq2" prgChg="75"/>
+    <Instrument name="SOLO: UpperCls" prgChg="76"/>
+    <Instrument name="SOLO: Syncer2" prgChg="77"/>
+    <Instrument name="SOLO: Orgelton" prgChg="78"/>
+    <Instrument name="SOLO: OrcSolo" prgChg="79"/>
+    <Instrument name="SOLO: PulsSolo" prgChg="80"/>
+    <Instrument name="EFX: VocoderC" prgChg="81"/>
+    <Instrument name="EFX: Filter!" prgChg="82"/>
+    <Instrument name="EFX: Zipper" prgChg="83"/>
+    <Instrument name="EFX: TinyDirt" prgChg="84"/>
+    <Instrument name="EFX: Swallow" prgChg="85"/>
+    <Instrument name="EFX: FXPad" prgChg="86"/>
+    <Instrument name="EFX: Pshycos*" prgChg="87"/>
+    <Instrument name="EFX: LushPad2" prgChg="88"/>
+    <Instrument name="EFX: RhythmFX" prgChg="89"/>
+    <Instrument name="EFX: Atmo" prgChg="90"/>
+    <Instrument name="EFX: Dreams" prgChg="91"/>
+    <Instrument name="EFX: AtomOrc" prgChg="92"/>
+    <Instrument name="EFX: Pshycoa" prgChg="93"/>
+    <Instrument name="EFX: Pre&lt;Nat" prgChg="94"/>
+    <Instrument name="EFX: Mello Up" prgChg="95"/>
+    <Instrument name="EFX: Cult" prgChg="96"/>
+  </Section>
+  <Section name="PRE-B Patches" bankHigh="0" bankLow="2" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="BASS: WetBass" prgChg="1"/>
+    <Instrument name="BASS: Trancer" prgChg="2"/>
+    <Instrument name="BASS: WetFiltr" prgChg="3"/>
+    <Instrument name="BASS: ModuloBX" prgChg="4"/>
+    <Instrument name="BASS: Mod Bass" prgChg="5"/>
+    <Instrument name="BASS: FatBoy" prgChg="6"/>
+    <Instrument name="BASS: WetLong" prgChg="7"/>
+    <Instrument name="BASS: PercBass" prgChg="8"/>
+    <Instrument name="BASS: DiscoBass" prgChg="9"/>
+    <Instrument name="BASS: DA Hool" prgChg="10"/>
+    <Instrument name="BASS: SineBass" prgChg="11"/>
+    <Instrument name="BASS: XenoBass" prgChg="12"/>
+    <Instrument name="BASS: TranceBS" prgChg="13"/>
+    <Instrument name="BASS: Filter!" prgChg="14"/>
+    <Instrument name="BASS: WaveBass" prgChg="15"/>
+    <Instrument name="BASS: Stopped" prgChg="16"/>
+    <Instrument name="D.BAS: DownSwep" prgChg="17"/>
+    <Instrument name="D.BAS: Forte" prgChg="18"/>
+    <Instrument name="D.BAS: LuckyBas" prgChg="19"/>
+    <Instrument name="D.BAS: SaverSex" prgChg="20"/>
+    <Instrument name="D.BAS: 303Velo" prgChg="21"/>
+    <Instrument name="D.BAS: Detune!" prgChg="22"/>
+    <Instrument name="D.BAS: MixBass" prgChg="23"/>
+    <Instrument name="D.BAS: ShortBas" prgChg="24"/>
+    <Instrument name="D.BAS: Sunced!" prgChg="25"/>
+    <Instrument name="D.BAS: Jen Y?" prgChg="26"/>
+    <Instrument name="D.BAS: Bitterfd" prgChg="27"/>
+    <Instrument name="D.BAS: Eraser" prgChg="28"/>
+    <Instrument name="D.BAS: VoiceBas" prgChg="29"/>
+    <Instrument name="D.BAS: IntroBas" prgChg="30"/>
+    <Instrument name="D.BAS: Classic!" prgChg="31"/>
+    <Instrument name="D.BAS: Classic2" prgChg="32"/>
+    <Instrument name="PAD: VS Spect" prgChg="33"/>
+    <Instrument name="PAD: Fat Pad" prgChg="34"/>
+    <Instrument name="PAD: LushSpec" prgChg="35"/>
+    <Instrument name="PAD: Hohner" prgChg="36"/>
+    <Instrument name="PAD: AntiSwep" prgChg="37"/>
+    <Instrument name="PAD: HighSwep" prgChg="38"/>
+    <Instrument name="PAD: BigSwep" prgChg="39"/>
+    <Instrument name="PAD: Strings" prgChg="40"/>
+    <Instrument name="PAD: SeqPad" prgChg="41"/>
+    <Instrument name="PAD: Tangram" prgChg="42"/>
+    <Instrument name="PAD: PolySynt" prgChg="43"/>
+    <Instrument name="PAD: FastStrg" prgChg="44"/>
+    <Instrument name="PAD: HighSynt" prgChg="45"/>
+    <Instrument name="PAD: Long Pad" prgChg="46"/>
+    <Instrument name="PAD: Mod Pad1" prgChg="47"/>
+    <Instrument name="PAD: Rising" prgChg="48"/>
+    <Instrument name="PLUCK: Edgar F" prgChg="49"/>
+    <Instrument name="PLUCK: Clavinet" prgChg="50"/>
+    <Instrument name="PLUCK: Bells" prgChg="51"/>
+    <Instrument name="PLUCK: Sequent" prgChg="52"/>
+    <Instrument name="PLUCK: SoftSeq1" prgChg="53"/>
+    <Instrument name="PLUCK: ModPluck" prgChg="54"/>
+    <Instrument name="PLUCK: PCB" prgChg="55"/>
+    <Instrument name="PLUCK: PercoChd" prgChg="56"/>
+    <Instrument name="PLUCK: Spectral" prgChg="57"/>
+    <Instrument name="PLUCK: Percuter" prgChg="58"/>
+    <Instrument name="PLUCK: Kraftwer" prgChg="59"/>
+    <Instrument name="PLUCK: Sequenz1" prgChg="60"/>
+    <Instrument name="PLUCK: InMotion" prgChg="61"/>
+    <Instrument name="PLUCK: InMotio2" prgChg="62"/>
+    <Instrument name="PLUCK: Sequenz1" prgChg="63"/>
+    <Instrument name="PLUCK: Ancient" prgChg="64"/>
+    <Instrument name="SOLO: LuckySol" prgChg="65"/>
+    <Instrument name="SOLO: Filt Sol" prgChg="66"/>
+    <Instrument name="SOLO: FluteSol" prgChg="67"/>
+    <Instrument name="SOLO: SinSequ" prgChg="68"/>
+    <Instrument name="SOLO: Westwoop" prgChg="69"/>
+    <Instrument name="SOLO: Eastbam2" prgChg="70"/>
+    <Instrument name="SOLO: Eastbam3" prgChg="71"/>
+    <Instrument name="SOLO: EastbamC" prgChg="72"/>
+    <Instrument name="SOLO: DA Cool" prgChg="73"/>
+    <Instrument name="SOLO: HighSeq1" prgChg="74"/>
+    <Instrument name="SOLO: SynSequ" prgChg="75"/>
+    <Instrument name="SOLO: UpSync" prgChg="76"/>
+    <Instrument name="SOLO: Syncer" prgChg="77"/>
+    <Instrument name="SOLO: FatSolo" prgChg="78"/>
+    <Instrument name="SOLO: OrcSolo" prgChg="79"/>
+    <Instrument name="SOLO: DirtySol" prgChg="80"/>
+    <Instrument name="EFX: Effector" prgChg="81"/>
+    <Instrument name="EFX: Filter!" prgChg="82"/>
+    <Instrument name="EFX: Zipper" prgChg="83"/>
+    <Instrument name="EFX: Organ 1" prgChg="84"/>
+    <Instrument name="EFX: Swallow" prgChg="85"/>
+    <Instrument name="EFX: FXPad" prgChg="86"/>
+    <Instrument name="EFX: Guitar" prgChg="87"/>
+    <Instrument name="EFX: LushPad2" prgChg="88"/>
+    <Instrument name="EFX: RhythmFX" prgChg="89"/>
+    <Instrument name="EFX: Atmo" prgChg="90"/>
+    <Instrument name="EFX: Dreams" prgChg="91"/>
+    <Instrument name="EFX: AtomOrc" prgChg="92"/>
+    <Instrument name="EFX: ForceMa" prgChg="93"/>
+    <Instrument name="EFX: Pre Nat" prgChg="94"/>
+    <Instrument name="EFX: Mello Up" prgChg="95"/>
+    <Instrument name="EFX: FuturSir" prgChg="96"/>
+  </Section>
+  <Section name="PRE-C Patches" bankHigh="0" bankLow="3" clef="treble" lownote="c-1" highnote="c9">
+    <Instrument name="BASS: JunkyCP" prgChg="1"/>
+    <Instrument name="BASS: Glider" prgChg="2"/>
+    <Instrument name="BASS: AcidMod" prgChg="3"/>
+    <Instrument name="BASS: D+Bass" prgChg="4"/>
+    <Instrument name="BASS: PizzaBss" prgChg="5"/>
+    <Instrument name="BASS: OffBeat" prgChg="6"/>
+    <Instrument name="BASS: DeepHaus" prgChg="7"/>
+    <Instrument name="BASS: Funk-Man" prgChg="8"/>
+    <Instrument name="BASS: Frogger" prgChg="9"/>
+    <Instrument name="BASS: PhaseBas" prgChg="10"/>
+    <Instrument name="BASS: MKS-50Bs" prgChg="11"/>
+    <Instrument name="BASS: UltraBas" prgChg="12"/>
+    <Instrument name="BASS: Funky HK" prgChg="13"/>
+    <Instrument name="BASS: 202 Bass" prgChg="14"/>
+    <Instrument name="BASS: Slfobass" prgChg="15"/>
+    <Instrument name="BASS: ModBass" prgChg="16"/>
+    <Instrument name="D.BAS: SH-X" prgChg="17"/>
+    <Instrument name="D.BAS: NovaBass" prgChg="18"/>
+    <Instrument name="D.BAS: 80s Lead" prgChg="19"/>
+    <Instrument name="D.BAS: Board" prgChg="20"/>
+    <Instrument name="D.BAS: REBIRTH2" prgChg="21"/>
+    <Instrument name="D.BAS: 80s Bass" prgChg="22"/>
+    <Instrument name="D.BAS: Pad-Bass" prgChg="23"/>
+    <Instrument name="D.BAS: Bi-Bass" prgChg="24"/>
+    <Instrument name="D.BAS: Masse x" prgChg="25"/>
+    <Instrument name="D.BAS: 303like" prgChg="26"/>
+    <Instrument name="D.BAS: REBIRTH" prgChg="27"/>
+    <Instrument name="D.BAS: WeichBas" prgChg="28"/>
+    <Instrument name="D.BAS: Instable" prgChg="29"/>
+    <Instrument name="D.BAS: Bass ???" prgChg="30"/>
+    <Instrument name="D.BAS: Bassline" prgChg="31"/>
+    <Instrument name="D.BAS: 309 Bass" prgChg="32"/>
+    <Instrument name="PAD: X-Voice" prgChg="33"/>
+    <Instrument name="PAD: Koyaa" prgChg="34"/>
+    <Instrument name="PAD: StrangeP" prgChg="35"/>
+    <Instrument name="PAD: Enfrhmki" prgChg="36"/>
+    <Instrument name="PAD: Rel-Pad1" prgChg="37"/>
+    <Instrument name="PAD: D.I.Auge" prgChg="38"/>
+    <Instrument name="PAD: Deep-Pad" prgChg="39"/>
+    <Instrument name="PAD: Stoffich" prgChg="40"/>
+    <Instrument name="PAD: WunderPD" prgChg="41"/>
+    <Instrument name="PAD: DunePad1" prgChg="42"/>
+    <Instrument name="PAD: Feel It!" prgChg="43"/>
+    <Instrument name="PAD: Juno-Org" prgChg="44"/>
+    <Instrument name="PAD: Histring" prgChg="45"/>
+    <Instrument name="PAD: Portella" prgChg="46"/>
+    <Instrument name="PAD: Digistrx" prgChg="47"/>
+    <Instrument name="PAD: Digichor" prgChg="48"/>
+    <Instrument name="PLUCK: Psycorg2" prgChg="49"/>
+    <Instrument name="PLUCK: Tadavoc" prgChg="50"/>
+    <Instrument name="PLUCK: Mellows" prgChg="51"/>
+    <Instrument name="PLUCK: Madseq" prgChg="52"/>
+    <Instrument name="PLUCK: HouseOg1" prgChg="53"/>
+    <Instrument name="PLUCK: HouseOg2" prgChg="54"/>
+    <Instrument name="PLUCK: DigiDrm" prgChg="55"/>
+    <Instrument name="PLUCK: Shibuya" prgChg="56"/>
+    <Instrument name="PLUCK: OrbitPno" prgChg="57"/>
+    <Instrument name="PLUCK: Trancer" prgChg="58"/>
+    <Instrument name="PLUCK: WaterSyn" prgChg="59"/>
+    <Instrument name="PLUCK: PKS-50Bs" prgChg="60"/>
+    <Instrument name="PLUCK: SequBell" prgChg="61"/>
+    <Instrument name="PLUCK: Banjojo" prgChg="62"/>
+    <Instrument name="PLUCK: Psycorg" prgChg="63"/>
+    <Instrument name="PLUCK: Clavity" prgChg="64"/>
+    <Instrument name="SOLO: Solojam" prgChg="65"/>
+    <Instrument name="SOLO: Bigsolo" prgChg="66"/>
+    <Instrument name="SOLO: Hot Fat" prgChg="67"/>
+    <Instrument name="SOLO: Wheel it" prgChg="68"/>
+    <Instrument name="SOLO: Cosmic B" prgChg="69"/>
+    <Instrument name="SOLO: TecnoSyn" prgChg="70"/>
+    <Instrument name="SOLO: AngelVox" prgChg="71"/>
+    <Instrument name="SOLO: TechSeq" prgChg="72"/>
+    <Instrument name="SOLO: OrbiBell" prgChg="73"/>
+    <Instrument name="SOLO: MindSolo" prgChg="74"/>
+    <Instrument name="SOLO: VCASolo" prgChg="75"/>
+    <Instrument name="SOLO: FSOLseq" prgChg="76"/>
+    <Instrument name="SOLO: Quintor" prgChg="77"/>
+    <Instrument name="SOLO: Flange" prgChg="78"/>
+    <Instrument name="SOLO: ResoLead" prgChg="79"/>
+    <Instrument name="SOLO: Syncline" prgChg="80"/>
+    <Instrument name="EFX: FilterEG" prgChg="81"/>
+    <Instrument name="EFX: Galactic" prgChg="82"/>
+    <Instrument name="EFX: Kotzrobb" prgChg="83"/>
+    <Instrument name="EFX: Crazykor" prgChg="84"/>
+    <Instrument name="EFX: SpaceChr" prgChg="85"/>
+    <Instrument name="EFX: LFO-Pad" prgChg="86"/>
+    <Instrument name="EFX: FSOLbell" prgChg="87"/>
+    <Instrument name="EFX: UFO-Fly" prgChg="88"/>
+    <Instrument name="EFX: LophoLFO" prgChg="89"/>
+    <Instrument name="EFX: SpaceAmb" prgChg="90"/>
+    <Instrument name="EFX: Fat-Guit" prgChg="91"/>
+    <Instrument name="EFX: UFOworld" prgChg="92"/>
+    <Instrument name="EFX: LFO Noiz" prgChg="93"/>
+    <Instrument name="EFX: Funky FX" prgChg="94"/>
+    <Instrument name="EFX: LFOitsch" prgChg="95"/>
+    <Instrument name="EFX: GoaFix" prgChg="96"/>
+  </Section>
+</Instruments>
+</VSTNameDocument>
+

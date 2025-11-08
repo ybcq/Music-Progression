@@ -1,0 +1,506 @@
+﻿<html>
+	
+<head>
+	<title>Data View</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("DataView1");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Data View</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="GettingStarted.html">Getting Started</a> &rsaquo;&rsaquo; <a href="MainScoreWindow.html">Main Score Window</a> &rsaquo;&rsaquo; <a href="TheControlbar.html">The Control bar</a> &rsaquo;&rsaquo; <a href="ScoreViewButtons.html">Score View Buttons</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="ScoreViewButtons.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="ScoreView.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="MixerView.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<p class="rvps2"><img alt="" style="vertical-align: middle; padding : 1px;" src="lib/NewItem87.png"><span class="rvts6"> </span><span class="rvts12">Data View</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Choose this command to open or close the Data View.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">NOTE: If you Ctrl[</span><span class="rvts13">Cmd</span><span class="rvts6">] the Data View button while in Linear View, only the bottom half will appear.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><img width="819" height="451" alt="" src="lib/NewItem49.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Overture lets you edit the events in your songs in dozens of different ways. The Data View lets you add and edit notes, controllers, and automation data interactively, using a graphic display. Overture's many editing commands can improve the quality of recorded performances, filter out certain types of events, and modify the tempos and dynamics of your songs. </span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts6">The Data View Window is divided into two main views, the Track List and Graphic views.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Each view is described below</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Track list View</span></p>
+<p class="rvps2"><span class="rvts6">The Track list View displays each track with a header and a horizontal list of measures. Each track header displays the track name, track icon, and track controls for muting, soloing, and setting MIDI volume and Pan.</span></p>
+<p class="rvps2"><span class="rvts6">To select measures in the Track list double click inside the measure to select the entire measure or drag a rectangle over several measures. Selected measures will be outlined with a white rectangle.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">We may occasionally refer to the measures as track data.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">With selected measures, you can use the same Score View commands such as, copy, cut, erase, Transpose, etc..</span></p>
+<p class="rvps2"><span class="rvts6">In addition you can do several other commands with your mouse.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts6">To move selected measures, simply click and drag them to a new location. If the measures are moved to a new track, Overture automatically transposes the notes.</span></li>
+<li class="rvps2"><span class="rvts6">To move a copy of selected measures, hold down the Ctrl[</span><span class="rvts13">Cmd</span><span class="rvts6">] key and click and drag the measures as described above.</span></li>
+<li class="rvps2"><span class="rvts6">To view a track's plugin, double click on the track header's icon. This does not apply to tracks using MIDI devices for output.</span></li>
+<li class="rvps2"><span class="rvts6">To open the track's inspector, double click on the track header's number.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts6">To set track list view options click on the small arrow at the top of the track headers:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts6">Markers - Rehearsal Markers, Tempo, Key Signature, etc.</span></li>
+<li class="rvps2"><span class="rvts6">Track Heights - Choose this to quickly set all the tracks heights.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">NOTE</span><span class="rvts6">: You can also set the track heights and widths using small sliders at the right side of the Track list view or by using your mouse wheel and holding down the Alt[</span><span class="rvts13">Option</span><span class="rvts6">] key.</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<hr style="height: 1px; color : #000000;  background-color : #000000; border-width : 0px;">
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">The Graphic View</span></p>
+<p class="rvps2"><span class="rvts6">The Graphic view displays all notes and other events from a single track in a grid format using Overture's unique hybrid staff or a traditional sequencer piano roll. You can switch between the two views by clicking on the Piano Roll or Staff View buttons. </span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">The Graphic view has two main panes: the Note pane and the Controllers pane. When you first open the Graphic View, both note and controller panes are displayed. There is a horizontal divider bar that can be dragged to change the vertical distance of each pane. Double click on the divider to open or close the bottom (Controller pane) at the bottom. Drag the gray splitter bar up to display the Controllers pane.</span><br/><span class="rvts6"></span><br/><span class="rvts6">Notes are displayed as horizontal bars, and drum notes as diamonds. Pitch runs from bottom to top, with the left vertical margin indicating the pitches as piano keys or note names. Time runs left to right with vertical measure and beat boundaries. The Graphic window facilitates adding, editing, and deleting notes.</span></p>
+<p class="rvps2"><span class="rvts6"></span><br/><span class="rvts6">The Zoom tools at the right side of the view let you change the vertical and horizontal scale of the view. You can also use your mouse wheel by holding down the Alt[</span><span class="rvts13">Option</span><span class="rvts6">] key. </span><br/><span class="rvts6"></span><br/><span class="rvts6">The Snap Grid button snaps note start times and durations to the snap grid resolution. You can set the resolution to any note length in the Snap Grid pop-up menu.</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Selecting and Editing Notes</span></p>
+<p class="rvps2"><span class="rvts6">To select notes in the Graphics window:</span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li style="margin-left: 0px" class="rvps4"><span class="rvts6">Use the Select tool to select notes </span></li>
+</ul>
+<p class="rvps2"><span class="rvts6">or</span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li style="margin-left: 0px" class="rvps4"><span class="rvts6">Click or drag the piano keys to select all notes of the given pitch(es)</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Shift-click to add notes to the selection and Control[</span><span class="rvts13">Cmd</span><span class="rvts6">]-click to toggle between adding to or removing from the selection.</span><br/><span class="rvts6"></span><br/><span class="rvts6">You can add notes to your score by clicking in the Note pane with the pencil tool. Overture remembers the velocity, duration, and channel of the note that you most recently moved, edited, or deleted, and uses these same characteristics for new notes automatically. You can edit notes freely, using the mouse to change the start time, pitch, or duration. You can move and copy notes anywhere in the track.</span><br/><span class="rvts6"></span><br/><span class="rvts6">You can scrub the current track. The Scrub tool lets you drag a vertical bar over the view so that you can hear the notes in the track. You can scrub forward or backward at any speed. Scrubbing can be handy when you want to locate a bad note or listen to the effects of changes you have made without playing back at normal speed.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts25">IMPORTANT</span><span class="rvts6">: Overture allows you to change start and end times without changing the note's notation. EX. the end of a quarter note can be dragged to the duration of a half note. This can be very valuable when creating very accurate sounding scores. But, this can also result in unexpected playback. So be careful when changing start and end times. If you are unsure about your edits you can avoid this unexpected behavior by checking the </span><span class="rvts12">Auto-transcribe edits</span><span class="rvts6"> check box. If checked, Overture will automatically re transcribe notes whose start and end times have been changed.</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">To Select Notes with the Selection Tool</span></p>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Click to select the Arrow cursor. </span></span></li>
+<li value="2" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Select notes as shown in the table: </span></span></li>
+</ol>
+<div class="rvps2"><table border="0" cellpadding="0" cellspacing="0" style="border-width: 0px; border-spacing: 0px;">
+<tr valign="top">
+<td width="204" valign="middle" style="padding: 0px;"><p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">To do this</span></p>
+</td>
+<td width="306" valign="middle" style="padding: 0px;"><p class="rvps2"><span class="rvts12">Do this</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="204" valign="middle" style="padding: 0px;"><p class="rvps2"><span class="rvts6">Select a single note</span></p>
+</td>
+<td width="306" valign="middle" style="padding: 0px;"><p class="rvps2"><span class="rvts6">Click on the note</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="204" valign="middle" style="padding: 0px;"><p class="rvps2"><span class="rvts6">Select several notes at once</span></p>
+</td>
+<td width="306" valign="middle" style="padding: 0px;"><p class="rvps2"><span class="rvts6">Drag a rectangle around the notes you want to select</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="204" valign="middle" style="padding: 0px;"><p class="rvps2"><span class="rvts6">Add to the selection</span></p>
+</td>
+<td width="306" valign="middle" style="padding: 0px;"><p class="rvps2"><span class="rvts6">Hold the Shift key while selecting notes</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="204" valign="middle" style="padding: 0px;"><p class="rvps2"><span class="rvts6">Toggle the selection</span></p>
+</td>
+<td width="306" valign="middle" style="padding: 0px;"><p class="rvps2"><span class="rvts6">Hold the Control[</span><span class="rvts13">Cmd</span><span class="rvts6">] key while selecting notes</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts6">Selected notes are highlighted in the Piano Roll view, and the time selection is set to the range of note start times.</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">To Select All Notes of Certain Pitches</span></p>
+<p class="rvps2"><span class="rvts6">Click the piano keys or note names on the left side of the Note pane as shown in the table:</span></p>
+<div class="rvps2"><table border="0" cellpadding="0" cellspacing="0" style="border-width: 0px; border-spacing: 0px;">
+<tr valign="top">
+<td width="204" valign="middle" style="padding: 0px;"><p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">To do this</span></p>
+</td>
+<td width="306" valign="middle" style="padding: 0px;"><p class="rvps2"><span class="rvts12">Do this</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="204" valign="middle" style="padding: 0px;"><p class="rvps2"><span class="rvts6">Select all notes of a single pitch</span></p>
+</td>
+<td width="306" valign="middle" style="padding: 0px;"><p class="rvps2"><span class="rvts6">Click on the piano key or note name</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="204" valign="middle" style="padding: 0px;"><p class="rvps2"><span class="rvts6">Select all notes of several pitches</span></p>
+</td>
+<td width="306" valign="middle" style="padding: 0px;"><p class="rvps2"><span class="rvts6">Drag across the keys or note names</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="204" valign="middle" style="padding: 0px;"><p class="rvps2"><span class="rvts6">Add to the selection</span></p>
+</td>
+<td width="306" valign="middle" style="padding: 0px;"><p class="rvps2"><span class="rvts6">Hold the Shift key while clicking on a piano key or note name</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="204" valign="middle" style="padding: 0px;"><p class="rvps2"><span class="rvts6">Toggle the selection</span></p>
+</td>
+<td width="306" valign="middle" style="padding: 0px;"><p class="rvps2"><span class="rvts6">Hold the Control[</span><span class="rvts13">Cmd</span><span class="rvts6">] key while clicking on a piano key or note name</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">To Edit a Note</span></p>
+<p class="rvps2"><span class="rvts6">Choose the Pencil tool.</span></p>
+<div class="rvps2"><table border="0" cellpadding="0" cellspacing="0" style="border-width: 0px; border-spacing: 0px;">
+<tr valign="top">
+<td width="204" valign="middle" style="padding: 0px;"><p class="rvps2"><span class="rvts6"><br/></span></p>
+</td>
+<td width="306" style="padding: 0px;"><br/>
+</td>
+</tr>
+<tr valign="top">
+<td width="204" valign="middle" style="padding: 0px;"><p class="rvps2"><span class="rvts12">To do this</span></p>
+</td>
+<td width="306" valign="middle" style="padding: 0px;"><p class="rvps2"><span class="rvts12">Do this</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="204" valign="middle" style="padding: 0px;"><p class="rvps2"><span class="rvts6">Change the start time</span></p>
+</td>
+<td width="306" valign="middle" style="padding: 0px;"><p class="rvps2"><span class="rvts6">Drag the left edge of the note in either direction. The note duration stays the same, but the start time is shifted.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="204" valign="middle" style="padding: 0px;"><p class="rvps2"><span class="rvts6">Change the pitch</span></p>
+</td>
+<td width="306" valign="middle" style="padding: 0px;"><p class="rvps2"><span class="rvts6">Drag the middle of the note up or down.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="204" valign="middle" style="padding: 0px;"><p class="rvps2"><span class="rvts6">Change the duration</span></p>
+</td>
+<td width="306" valign="middle" style="padding: 0px;"><p class="rvps2"><span class="rvts6">Drag the right edge of the note in either direction.</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">To Change Note Velocity</span></p>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Select a note. </span></span></li>
+<li value="2" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Display the Controller's pane. </span></span></li>
+<li value="3" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Select the Controller you want in the Controllers menu. </span></span></li>
+<li value="4" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Select the pencil tool or type p. </span></span></li>
+<li value="5" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Drag the line corresponding to the note in the Controllers pane up or down to the value you want. </span></span></li>
+</ol>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">To Move Notes</span></p>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Click or type </span></span><span class="rvts0"><span class="rvts12">s</span></span><span class="rvts0"><span class="rvts6"> to choose the Select tool </span></span></li>
+<li value="2" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Select one or more notes </span></span></li>
+<li value="3" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Drag the selected notes to a new location </span></span></li>
+<li value="4" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Overture moves the selected notes </span></span></li>
+</ol>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">To Copy Notes</span></p>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Click or type </span></span><span class="rvts0"><span class="rvts12">s</span></span><span class="rvts0"><span class="rvts6"> to choose the Select tool. </span></span></li>
+<li value="2" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Select one or more notes. </span></span></li>
+<li value="3" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Press and hold the Control[</span></span><span class="rvts0"><span class="rvts13">Cmd</span></span><span class="rvts0"><span class="rvts6">] key. </span></span></li>
+<li value="4" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Drag the selected notes to a new location.</span></span><br/><span class="rvts0"><span class="rvts6">Overture copies the selected notes. </span></span></li>
+</ol>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">To Add a Note</span></p>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Click or type </span></span><span class="rvts0"><span class="rvts12">d</span></span><span class="rvts0"><span class="rvts6"> to choose the Pencil tool. </span></span></li>
+<li value="2" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Press and hold the left mouse button in the Notes pane. Overture adds a new note with the duration and velocity of the last note you edited. </span></span></li>
+<li value="3" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Drag the note to the desired location. </span></span></li>
+<li value="4" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Release the mouse button. </span></span></li>
+</ol>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">To Erase a Note</span></p>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Click or type </span></span><span class="rvts0"><span class="rvts12">e</span></span><span class="rvts0"><span class="rvts6"> to choose the Erase tool. </span></span></li>
+<li value="2" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Click on any note to delete it. </span></span></li>
+</ol>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">To Erase Several Notes</span></p>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Click or press </span></span><span class="rvts0"><span class="rvts12">e</span></span><span class="rvts0"><span class="rvts6"> to choose the Erase tool. </span></span></li>
+<li value="2" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Drag the cursor across notes to delete them. </span></span></li>
+<li value="3" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Release the mouse button when you are done. </span></span></li>
+</ol>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">To Select and Erase Notes</span></p>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Click or type </span></span><span class="rvts0"><span class="rvts12">s</span></span><span class="rvts0"><span class="rvts6"> to choose the Select tool </span></span></li>
+<li value="2" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Select one or more notes </span></span></li>
+<li value="3" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Press the Delete key to delete the notes. </span></span></li>
+</ol>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">To Scrub the Song</span></p>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Click the Scrub tool. </span></span></li>
+<li value="2" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Press and hold the left mouse button in the Graphics pane. Overture displays a vertical line and plays any notes that are underneath the line. </span></span></li>
+<li value="3" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Drag the line to the left or right, at any desired speed. </span></span></li>
+</ol>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Percussion, Drum Notes, and Note Names</span></p>
+<p class="rvps2"><span class="rvts6">If you are editing a track that is routed to a percussion instrument, the Graphics pane automatically configures itself in drum mode. In drum mode, the names of the various percussion instruments replace the piano keys. This means it is easy to change percussion notes from one instrument to another or to select and edit the notes played by a single percussion instrument.</span><br/><span class="rvts6"></span><br/><span class="rvts6">To display drum note names:</span></p>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Set the track to a percussion definition. </span></span></li>
+<li value="2" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Assign an instrument with defined note names. </span></span></li>
+</ol>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<hr style="height: 1px; color : #000000;  background-color : #000000; border-width : 0px;">
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Controllers View</span></p>
+<p class="rvps2"><span class="rvts6">The Controllers view, the lower half of the Graphics pane, lets you edit tempo and MIDI data such as controller, velocity, and pitch wheel. </span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Controllers</span></p>
+<p class="rvps2"><span class="rvts6">Overture lets you enter or edit controller and automation data using the Controllers pane in the Graphic pane.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">MIDI hardware and software use controllers, special types of events, to control the details of how MIDI music is played. They use automation data to adjust volume, pan, and other parameters of MIDI and audio tracks on the fly while playback is in progress.</span><br/><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Controllers are the pedals, knobs, and wheels on your electronic instrument that you use to change the sound while you're playing. For example, a sustain pedal and a modulation wheel are two controllers commonly found on keyboards. </span><br/><span class="rvts6"></span><br/><span class="rvts6">Controllers let you control the detail and character of your music. Say you're playing a guitar sound on your synthesizer, but it sounds lifeless and dull. That's partly because a guitar player doesn't just play notes one after another — he often bends or slides on the strings to put emotion into his playing. You can use controllers in the same way, creating bends, volume swells, and other effects that make sounds more realistic and more fun to listen to.</span><br/><span class="rvts6"></span><br/><span class="rvts6">Your computer can work the controllers on your electronic instrument by sending MIDI Controller messages. The MIDI specification allows for 128 different types of controllers, many of which have standard usages. For example, controller 7 is normally used for volume events, and controller 10 is normally used for pan. Every controller can take on a value ranging from 0 to 127.</span><br/><span class="rvts6"></span><br/><span class="rvts6">The Graphic window tool bar contains two drop-down lists, Data type and Controller, that let you choose the controller or data you want to see and edit. The contents of these lists depend on the port and channel settings and on the instrument assigned to that port and channel. Different instruments use controllers in different ways. Overture uses the information found in it's Instrument Definition files. These are assigned in the </span><a class="rvts11" href="MIDISettings.html">MIDI Settings</a><span class="rvts6"> dialog.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Overture has automatic search back for all continuous controller data to ensure that the correct controller values are in effect regardless of where you start playback. Suppose you start playback halfway through a song. Overture searches back from that point to find any earlier controller values that should still apply.</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Velocity, Pitch Wheel, and After touch</span></p>
+<p class="rvps2"><span class="rvts6">Overture lets you display and edit several other types of data the same way you do controller data. These data depend on your port and channel settings and on the instruments assigned to them. The may include, for example:</span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Velocity</span><span class="rvts6">. MIDI note velocities </span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Wheel</span><span class="rvts6">. MIDI pitch wheel or pitch-bend messages </span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">ChanAft</span><span class="rvts6">. MIDI channel aftertouch (ChanAft) values </span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Control</span><span class="rvts6">. MIDI Controller values </span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Tempo</span><span class="rvts6">. Song tempos</span></li>
+</ul>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">NOTE</span><span class="rvts6">: Hairpins, expressions, and dynamics that contain controller data will also be shown and can be edited, but they can not be entered in this view.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Note velocity is an attribute of each note and not a completely separate event. You cannot add or remove velocity events in the Controllers pane, but you can use the pencil and straight line tools to adjust the velocity values for existing notes. You can also edit velocities with the </span><span class="rvts12">Notes&gt;Modify Notes</span><span class="rvts24"> </span><span class="rvts6">command.</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Using the Controllers Pane</span></p>
+<p class="rvps2"><span class="rvts6">The Controllers pane is the most powerful and flexible way to edit data. The Controllers pane is the lower half of the Graphic window.</span><br/><span class="rvts6"></span><br/><span class="rvts6">To display the Controller pane, drag the splitter bar at the bottom of the Graphic window up.</span><br/><span class="rvts6"></span><br/><span class="rvts6">The Controllers pane looks like a graph; the horizontal axis represents time, and the vertical axis represents the event values. Each event appears as a single vertical line, and the height of this line shows the value of the event. The Controllers pane shows events for a single track. You can only see one type of controller at a time. You can zoom in and out on the Controllers pane using the zoom in and zoom out buttons in the scrollbar. To zoom all the way in or out in a single step, hold the Shift key while you click on the tool.</span><br/><span class="rvts6"></span><br/><span class="rvts6">Selection methods in the Controllers pane are similar to those in other views. Here is a summary:</span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li style="margin-left: 0px" class="rvps4"><span class="rvts6">Click a controller value to select it </span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts6">Shift-click to add other controller values to the selection </span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts6">Ctrl-click to toggle the selection state of a controller </span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts6">Drag a rectangle around several controller values to select them </span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">The Controllers pane has the same tools you use to edit notes; use them to add or modify controller events:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<div class="rvps2"><table width="100%" border="0" cellpadding="1" cellspacing="2" style="border-width: 0px; border-spacing: 2px;">
+<tr valign="top">
+<td width="75" style="padding: 1px;"><p class="rvps2"><span class="rvts12">Tool Name</span></p>
+</td>
+<td width="1283" style="padding: 1px;"><p class="rvps2"><span class="rvts12">How it's used</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="75" style="padding: 1px;"><p class="rvps2"><span class="rvts6">Select</span></p>
+</td>
+<td width="1283" style="padding: 1px;"><p class="rvps2"><span class="rvts6">Select controller events, so you can delete them</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="75" style="padding: 1px;"><p class="rvps2"><span class="rvts6">Pencil</span></p>
+</td>
+<td width="1283" style="padding: 1px;"><p class="rvps2"><span class="rvts6">Draw a custom curve indicating changes in controller value</span></p>
+<p class="rvps2"><span class="rvts6">There are several variations of the Pencil tool.</span></p>
+<p class="rvps2"><span class="rvts6">1. Straight line - Draws a straight line indicating a steady increase or decrease in controller value</span></p>
+<p class="rvps2"><span class="rvts6">2. Parabola - Draws a parabola line indicating a exponential increase or decrease in controller value</span></p>
+<p class="rvps2"><span class="rvts6">3. Random -- Changes values with the drawn rectangle.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="75" style="padding: 1px;"><p class="rvps2"><span class="rvts6">Erase</span></p>
+</td>
+<td width="1283" style="padding: 1px;"><p class="rvps2"><span class="rvts6">Erase controller changes already in place </span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="75" style="padding: 1px;"><p class="rvps2"><span class="rvts6">Scrub</span></p>
+</td>
+<td width="1283" style="padding: 1px;"><p class="rvps2"><span class="rvts6">Drag horizontally to hear the notes as you drag over them.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="75" style="padding: 1px;"><br/>
+</td>
+<td width="1283" style="padding: 1px;"><br/>
+</td>
+</tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts6">When you use a Draw tool, the density of controller events is set by the current grid setting and the speed at which you drag. To insert a larger number of controller events with relatively small changes in value, move the mouse slowly. To insert a smaller number of controller events with relatively large changes in value, drag the mouse quickly. </span><br/><span class="rvts6"></span><br/><span class="rvts6">Creating a change that sounds smooth does not always require making the value change by one on each unit. Bigger jumps may sound very gradual if the tempo is fast. Also, many devices round off the controller values. For example, many instruments respond to volume controller values of 100 and 101 with exactly the same loudness. Using too high a density of controller events can backfire by making the computer work so hard during playback that it is unable to keep up. This will usually cause hiccups or poor timing during playback.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Controller events are inserted using the current voice as set in the </span><a class="rvts11" href="ViewMenu.html">View Menu</a><span class="rvts6">. The data is drawn using the track's color as set in </span><a class="rvts11" href="Colors.html">Preferences Dialog</a><span class="rvts6">. When the current voice is set to </span><span class="rvts12">All Voices</span><span class="rvts6">, </span><span class="rvts12">Voice 1</span><span class="rvts6"> will be used when inserting and editing. When the current voices is set to a specific voice, it is drawn in the track's color and all other voices are drawn in light gray.</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">To Display Controller, Velocity, Pitch-Bend, After touch, or Tempo Data</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Select the track whose controller data you want to see by clicking the track number in the Track view. </span></span></li>
+<li value="2" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Drag the horizontal splitter bar so that the Controllers pane is visible. </span></span></li>
+<li value="3" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Choose the data you want to see according to the table: </span></span></li>
+</ol>
+<h1 class="rvps17"><span class="rvts0"><span class="rvts6"><br/></span></span></h1>
+<div class="rvps2"><table border="0" cellpadding="0" cellspacing="0" style="border-width: 0px; border-spacing: 0px;">
+<tr valign="top">
+<td width="173" valign="middle" style="padding: 0px;"><p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">To see this</span></p>
+</td>
+<td width="337" valign="middle" style="padding: 0px;"><p class="rvps2"><span class="rvts12">Do this</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="173" valign="top" style="padding: 0px;"><p class="rvps2"><span class="rvts6">Controller data</span></p>
+</td>
+<td width="337" valign="middle" style="padding: 0px;"><p class="rvps2"><span class="rvts6">Choose Control from the data type menu in the tool bar, and then choose the controller from the controller menu</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="173" valign="top" style="padding: 0px;"><p class="rvps2"><span class="rvts6">Velocity data</span></p>
+</td>
+<td width="337" valign="top" style="padding: 0px;"><p class="rvps2"><span class="rvts6">Choose Velocity from the data type menu in the tool bar</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="173" valign="top" style="padding: 0px;"><p class="rvps2"><span class="rvts6">Pitch-bend data</span></p>
+</td>
+<td width="337" valign="middle" style="padding: 0px;"><p class="rvps2"><span class="rvts6">Choose Wheel from the data type menu in the tool bar</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="173" valign="top" style="padding: 0px;"><p class="rvps2"><span class="rvts6">Aftertouch data</span></p>
+</td>
+<td width="337" valign="middle" style="padding: 0px;"><p class="rvps2"><span class="rvts6">Choose ChanAft from the data type menu in the tool bar</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="173" valign="top" style="padding: 0px;"><p class="rvps2"><span class="rvts6">Tempo data</span></p>
+</td>
+<td width="337" valign="middle" style="padding: 0px;"><p class="rvps2"><span class="rvts6">Choose Tempo from the data type menu in the tool bar</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Overture displays the data in the controllers pane.</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">To Insert a Controller Value</span></p>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Choose the data type and controller (if applicable) from the tool bar menus. </span></span></li>
+<li value="2" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Select the tool. </span></span></li>
+<li value="3" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Click in the Controllers pane view at any desired time point and value.</span></span><br/><span class="rvts0"><span class="rvts6">Overture adds a controller at the indicated point. </span></span></li>
+</ol>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">To Draw a Linear Series of Controllers</span></p>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Choose the data type and controller (if applicable) from the tool bar menus. </span></span></li>
+<li value="2" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Select the Pencil tool. </span></span></li>
+<li value="3" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Drag a line in the Controllers pane from the starting time and value to the ending time and value.</span></span><br/><span class="rvts0"><span class="rvts6">Overture adds a series of controllers and erases any existing controller values in the same time interval. </span></span></li>
+</ol>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">To Draw a Series of Controller Value Changes</span></p>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Choose the data type and controller (if applicable) from the tool bar menus. </span></span></li>
+<li value="2" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Select the Pencil tool. </span></span></li>
+<li value="3" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Drag the cursor across the Controllers pane, adjusting the value as you move left to right.</span></span><br/><span class="rvts0"><span class="rvts6">Overture adds a series of controllers and erases any existing controller values in the same time interval. </span></span></li>
+</ol>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">To Remove or Erase Controllers</span></p>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Choose the data type and controller (if applicable) from the tool bar menus. </span></span></li>
+<li value="2" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Select the Eraser tool. </span></span></li>
+<li value="3" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Drag the mouse over the desired region to highlight the region you want to erase. </span></span></li>
+<li value="4" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Release the mouse button when you have highlighted the desired region.</span></span><br/><span class="rvts0"><span class="rvts6">Overture deletes all controllers of the selected type. You cannot delete velocity events in the Controllers pane. You must delete the notes that have those velocities.</span></span></li>
+</ol>
+<h1 class="rvps16"><span class="rvts0"><span class="rvts6"><br/></span></span></h1>
+<p class="rvps2"><span class="rvts12">To Drag Controller Data</span></p>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Choose the data type and controller (if applicable) from the tool bar menus. </span></span></li>
+<li value="2" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Select the Selection tool. </span></span></li>
+<li value="3" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Drag the mouse over the desired region to highlight the region to select the data.. </span></span></li>
+<li value="4" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Release the mouse button when you have highlighted the desired region.</span></span></li>
+<li value="5" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Click on any of the selected data and drag to a new position.</span></span></li>
+<li value="6" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">All selected data will change by the dragged amount.</span></span></li>
+</ol>
+<h1 class="rvps17"><span class="rvts0"><span class="rvts6"><br/></span></span></h1>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

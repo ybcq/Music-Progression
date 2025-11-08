@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTNameDocument name="reFX Vanguard">
+  <Version>1</Version>
+  <Author>GenieSoft,Inc.</Author>
+  <Device name="reFX Vanguard" usesPatchNames="1" firstPatchNumber="0" />
+  <ControllerNames>
+    <Controller name="Cut-off frequency" cc="1" />
+    <Controller name="Volume" cc="7" />
+    <Controller name="AMP Spread" cc="8" />
+    <Controller name="AMP Pan" cc="10" />
+    <Controller name="Expression" cc="11" />
+    <Controller name="Oscillator1 waveform" cc="16" />
+    <Controller name="Oscillator2 waveform" cc="17" />
+    <Controller name="Oscillator3 waveform" cc="18" />
+    <Controller name="Fatness" cc="19" />
+    <Controller name="Trancegate Contour" cc="21" />
+    <Controller name="Vibrato Speed" cc="22" />
+    <Controller name="Vibrato Depth" cc="23" />
+    <Controller name="Oct1" cc="24" />
+    <Controller name="Oct2" cc="25" />
+    <Controller name="Oct3" cc="26" />
+    <Controller name="Env1 Attack" cc="28" />
+    <Controller name="Env1 Decay" cc="29" />
+    <Controller name="Env1 Sustain" cc="30" />
+    <Controller name="Env1 Release" cc="31" />
+    <Controller name="Env1 Volume" cc="48" />
+    <Controller name="Env1 Pwm" cc="49" />
+    <Controller name="Env1 Cutoff" cc="50" />
+    <Controller name="Env1 Detune" cc="51" />
+    <Controller name="Env2 Attack" cc="52" />
+    <Controller name="Env2 Decay" cc="53" />
+    <Controller name="Env2 Sustain" cc="54" />
+    <Controller name="Env2 Release" cc="55" />
+    <Controller name="Env2 Volume" cc="56" />
+    <Controller name="Env2 Pwm" cc="57" />
+    <Controller name="Env2 Cutoff" cc="58" />
+    <Controller name="Env2 Pitch" cc="59" />
+    <Controller name="Osc1 Volume" cc="60" />
+    <Controller name="Osc2 Volume" cc="61" />
+    <Controller name="Osc3 Volume" cc="62" />
+    <Controller name="Filter Resonance" cc="71" />
+    <Controller name="Filter Cutoff" cc="74" />
+    <Controller name="Reverb Mix" cc="85" />
+    <Controller name="Reverb Damp" cc="86" />
+    <Controller name="Amp Drive" cc="88" />
+    <Controller name="Amp Volume" cc="89" />
+    <Controller name="Delay Mix" cc="91" />
+    <Controller name="Delay Feedback" cc="92" />
+    <Controller name="Delay Damp" cc="93" />
+    <Controller name="LFO1 Speed" cc="102" />
+    <Controller name="LFO1 Detune" cc="103" />
+    <Controller name="LFO1 Pwm" cc="104" />
+    <Controller name="LFO1 Cutoff" cc="105" />
+    <Controller name="LFO1 Trigger" cc="106" />
+    <Controller name="LFO2 Speed" cc="108" />
+    <Controller name="LFO2 Detune" cc="109" />
+    <Controller name="LFO2 Pwm" cc="110" />
+    <Controller name="LFO2 Cutoff" cc="111" />
+    <Controller name="LFO2 Trigger" cc="112" />
+    <Controller name="LFO3 Speed" cc="114" />
+    <Controller name="LFO3 Detune" cc="115" />
+    <Controller name="LFO3 Pwm" cc="116" />
+    <Controller name="LFO3 Cutoff" cc="117" />
+    <Controller name="LFO3 Trigger" cc="118" />
+  </ControllerNames>
+  <Instruments>
+    <Section name="Vanguard Default Presets" title="Vanguard-Synth" clef="treble">
+      <Group name="Lead - LD" title="Lead Synth" abbr="Synth" lownote="c-1" highnote="c9" clef="treble">
+        <Instrument name="Welcome" prgChg="1" />
+        <Instrument name="AlphaOmega" prgChg="2" />
+        <Instrument name="AlphaLead" prgChg="3" />
+        <Instrument name="Ayla Lead" prgChg="4" />
+        <Instrument name="Coordinate" prgChg="5" />
+        <Instrument name="Corsten 01" prgChg="6" />
+        <Instrument name="Felix you?" prgChg="7" />
+        <Instrument name="Guardian" prgChg="8" />
+        <Instrument name="Kreissaege" prgChg="9" />
+        <Instrument name="More More" prgChg="10" />
+        <Instrument name="Powermesh" prgChg="11" />
+        <Instrument name="Rest in Peace" prgChg="12" />
+        <Instrument name="Scream 4 more" prgChg="13" />
+        <Instrument name="Short Punchy" prgChg="14" />
+        <Instrument name="SuperPulse" prgChg="15" />
+        <Instrument name="Synthworx" prgChg="16" />
+        <Instrument name="The Beast" prgChg="17" />
+        <Instrument name="Time Space" prgChg="18" />
+        <Instrument name="Top of the Club" prgChg="19" />
+        <Instrument name="Trance Angel" prgChg="20" />
+        <Instrument name="Utopia" prgChg="21" />
+        <Instrument name="Vintage Brass" prgChg="22" />
+        <Instrument name="Bontempi" prgChg="23" />
+        <Instrument name="Digital Odyssey" prgChg="24" />
+        <Instrument name="Dble Dominator" prgChg="25" />
+        <Instrument name="Central SQ" prgChg="26" />
+        <Instrument name="Hale Bopp" prgChg="27" />
+        <Instrument name="Hands Up!" prgChg="28" />
+        <Instrument name="KraftChord" prgChg="29" />
+        <Instrument name="Leslie meets V" prgChg="30" />
+        <Instrument name="Max Fun" prgChg="31" />
+        <Instrument name="Metal Horns" prgChg="32" />
+        <Instrument name="Moonraker One" prgChg="33" />
+        <Instrument name="Pure Pulse 1" prgChg="34" />
+        <Instrument name="PurePulse 2" prgChg="35" />
+        <Instrument name="Flying Saucer" prgChg="127" />
+      </Group>
+      <Group name="Basses - BS" title="Bass Synth" abbr="Synth" lownote="c-1" highnote="c9" clef="bass">
+        <Instrument name="Clubhopper" prgChg="36" />
+        <Instrument name="Cosmic Offbeat" prgChg="37" />
+        <Instrument name="CreamyBass" prgChg="38" />
+        <Instrument name="Direct Punch" prgChg="39" />
+        <Instrument name="Mooger" prgChg="40" />
+        <Instrument name="nrgBassline" prgChg="41" />
+        <Instrument name="SuperSQ" prgChg="42" />
+        <Instrument name="SuperSQ 2" prgChg="43" />
+        <Instrument name="SynBass" prgChg="44" />
+        <Instrument name="Trance Bass V1" prgChg="45" />
+        <Instrument name="Trance Bass V2" prgChg="46" />
+        <Instrument name="Trance Bass V3" prgChg="47" />
+        <Instrument name="Trance Bass V4" prgChg="48" />
+        <Instrument name="TronBass" prgChg="49" />
+        <Instrument name="ZombieBass" prgChg="50" />
+      </Group>
+      <Group name="Arp - ARP" title="Arp Synth" abbr="Synth" lownote="c-1" highnote="c9" clef="treble">
+        <Instrument name="1 Finger Bassline" prgChg="51" />
+        <Instrument name="1 Finger Bassline 2" prgChg="52" />
+        <Instrument name="Deep Bassline" prgChg="53" />
+        <Instrument name="Glassy" prgChg="54" />
+        <Instrument name="Magic" prgChg="55" />
+        <Instrument name="Overlord V2" prgChg="56" />
+        <Instrument name="Overlord V2" prgChg="57" />
+        <Instrument name="Phat Bassline" prgChg="58" />
+        <Instrument name="Sys Overload V1" prgChg="59" />
+        <Instrument name="Sys Overload V2" prgChg="60" />
+        <Instrument name="Phone Tipps" prgChg="61" />
+        <Instrument name="Use Cutoff" prgChg="62" />
+        <Instrument name="Use Cutoff 2" prgChg="63" />
+        <Instrument name="Vengeance" prgChg="64" />
+        <Instrument name="X-Tasy" prgChg="65" />
+      </Group>
+      <Group name="Gate - GAT" title="Gate Synth" abbr="Synth" lownote="c-1" highnote="c9" clef="treble">
+        <Instrument name="Classic" prgChg="66" />
+        <Instrument name="DanceLeader" prgChg="67" />
+        <Instrument name="deepHouse" prgChg="68" />
+        <Instrument name="Electra" prgChg="69" />
+        <Instrument name="Fracture Pad" prgChg="70" />
+        <Instrument name="Infinity" prgChg="71" />
+        <Instrument name="Metrically" prgChg="72" />
+        <Instrument name="Powergate 4k" prgChg="73" />
+        <Instrument name="Rising Delay" prgChg="74" />
+        <Instrument name="Singularity" prgChg="75" />
+        <Instrument name="Space Wah" prgChg="76" />
+        <Instrument name="Sphere" prgChg="77" />
+        <Instrument name="Synced" prgChg="78" />
+        <Instrument name="The Opening" prgChg="79" />
+        <Instrument name="The Wave" prgChg="80" />
+      </Group>
+      <Group name="Syn - SYN" title="Synth" abbr="Synth" lownote="c-1" highnote="c9" clef="treble">
+        <Instrument name="Adlib FM 2" prgChg="81" />
+        <Instrument name="Adlib FM" prgChg="82" />
+        <Instrument name="Harpsichord" prgChg="83" />
+        <Instrument name="Rezo Passby" prgChg="84" />
+        <Instrument name="Dark Atmos" prgChg="85" />
+        <Instrument name="DigiWave" prgChg="86" />
+        <Instrument name="Dirt Stab" prgChg="87" />
+        <Instrument name="Resofuzz" prgChg="88" />
+        <Instrument name="Synced Saws" prgChg="89" />
+        <Instrument name="Void" prgChg="90" />
+        <Instrument name="UK Vers" prgChg="125" />
+        <Instrument name="UK Vers 2" prgChg="126" />
+      </Group>
+      <Group name="303 - 303" title="303 Synth" abbr="Synth" lownote="c-1" highnote="c9" clef="treble">
+        <Instrument name="Cocaine" prgChg="91" />
+        <Instrument name="Cocaine V2" prgChg="92" />
+        <Instrument name="RadioHead" prgChg="93" />
+        <Instrument name="Teebee" prgChg="94" />
+        <Instrument name="Stylish" prgChg="95" />
+        <Instrument name="Stylish 2" prgChg="96" />
+      </Group>
+      <Group name="Pads - PAD" title="Pad Synth" abbr="Synth" lownote="c-1" highnote="c9" clef="treble">
+        <Instrument name="Anubis" prgChg="97" />
+        <Instrument name="Epic" prgChg="98" />
+        <Instrument name="SawLeadPad" prgChg="99" />
+        <Instrument name="SidPad" prgChg="100" />
+        <Instrument name="Silky" prgChg="101" />
+        <Instrument name="Silverstrings" prgChg="102" />
+        <Instrument name="Strings at Dawn" prgChg="103" />
+        <Instrument name="SuperWarm" prgChg="104" />
+        <Instrument name="SuperWarm V2" prgChg="105" />
+        <Instrument name="Synastasia" prgChg="106" />
+        <Instrument name="VintageBrass" prgChg="107" />
+        <Instrument name="Vintage" prgChg="108" />
+        <Instrument name="X Pad" prgChg="109" />
+        <Instrument name="Zero Phasor" prgChg="110" />
+      </Group>
+      <Group name="Effects - FX" title="Synth FX" abbr="Synth" lownote="c-1" highnote="c9" clef="treble">
+        <Instrument name="64 Percussion" prgChg="111" />
+        <Instrument name="64 Percussion 2" prgChg="112" />
+        <Instrument name="CL Highhat Line 2" prgChg="113" />
+        <Instrument name="CL HighhatLine" prgChg="114" />
+        <Instrument name="DaggaDah HH" prgChg="115" />
+        <Instrument name="Explode" prgChg="116" />
+        <Instrument name="FutureClap" prgChg="117" />
+        <Instrument name="Gabba" prgChg="118" />
+        <Instrument name="Highscore" prgChg="119" />
+        <Instrument name="Scratchin" prgChg="120" />
+        <Instrument name="Trapdoor" prgChg="121" />
+        <Instrument name="Tek Helicopter" prgChg="122" />
+        <Instrument name="Zap!" prgChg="123" />
+        <Instrument name="Floating" prgChg="124" />
+      </Group>
+    </Section>
+    <Section name="User Presets"></Section>
+  </Instruments>
+</VSTNameDocument>

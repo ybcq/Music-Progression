@@ -1,0 +1,475 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTNameDocument name="EWQL Symphonic Choirs">
+  <Version>1</Version>
+  <Author>Tatsu Nagao</Author>
+  <Device name="EWQL Symphonic Choirs" />
+  <ControllerNames>
+    <Controller name="Modulation" cc="1" />
+    <Controller name="Panning" cc="10" />
+    <Controller name="Sustain" cc="64" />
+    <ControllerSwitchList name="EWQLSC">
+      <Controller name="Volume" cc="7" />
+      <Controller name="Legato Time / Portamento Time" cc="5" />
+      <Controller name="Expression" cc="11" />
+      <Controller name="Portamento On/Off" cc="65" />
+      <Controller name="Legato On/Off" cc="68" />
+      <Controller name="Repetition On/Off" cc="69" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="EWQLSC DXF">
+      <Controller name="Volume (Modulation)" cc="1" />
+      <Controller name="Master Volume" cc="7" />
+      <Controller name="Legato Time / Portamento Time" cc="5" />
+      <Controller name="Expression" cc="11" />
+      <Controller name="Portamento On/Off" cc="65" />
+      <Controller name="Legato On/Off" cc="68" />
+      <Controller name="Repetition On/Off" cc="69" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="EWQLSC MOD">
+      <Controller name="Volume (Modulation)" cc="1" />
+      <Controller name="Master Volume" cc="7" />
+      <Controller name="Legato Time / Portamento Time" cc="5" />
+      <Controller name="Expression" cc="11" />
+      <Controller name="Portamento On/Off" cc="65" />
+      <Controller name="Legato On/Off" cc="68" />
+      <Controller name="Repetition On/Off" cc="69" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="EWQLSC MULTI">
+      <Controller name="Volume" cc="7" />
+      <Controller name="Legato Time / Portamento Time" cc="5" />
+      <Controller name="Expression" cc="11" />
+      <Controller name="Return to the Biginning" cc="20" />
+      <Controller name="Hold Syllable on/off" cc="21" />
+      <Controller name="Portamento On/Off" cc="65" />
+      <Controller name="Legato On/Off" cc="68" />
+      <Controller name="Repetition On/Off" cc="69" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="EWQLSC MULTI MOD">
+      <Controller name="Volume (Modulation)" cc="1" />
+      <Controller name="Master Volume" cc="7" />
+      <Controller name="Legato Time / Portamento Time" cc="5" />
+      <Controller name="Expression" cc="11" />
+      <Controller name="Return to the Biginning" cc="20" />
+      <Controller name="Hold Syllable on/off" cc="21" />
+      <Controller name="Portamento On/Off" cc="65" />
+      <Controller name="Legato On/Off" cc="68" />
+      <Controller name="Repetition On/Off" cc="69" />
+    </ControllerSwitchList>
+  </ControllerNames>
+  <KeySwitchNames>
+    <KeySwitchList name="EWQLSC Vowels">
+      <KeySwitch name="Normal" key="C1" />
+      <KeySwitch name="Legato" key="C#1" />
+      <KeySwitch name="Staccato" key="D1" />
+      <KeySwitch name="Slurred/Sliding" key="D#1" />
+    </KeySwitchList>
+    <KeySwitchList name="EWQLSC Boys Vowels">
+      <KeySwitch name="Normal" key="C1" />
+      <KeySwitch name="Legato" key="C#1" />
+    </KeySwitchList>
+    <KeySwitchList name="EWQLSC Alto Solo">
+      <KeySwitch name="ah Exp Vib" key="C1" />
+      <KeySwitch name="ah Non Vib" key="C#1" />
+      <KeySwitch name="ah Exp Vib Slur" key="D1" />
+      <KeySwitch name="oh Exp Vib Slur" key="D#1" />
+      <KeySwitch name="ee Exp Vib" key="E1" />
+      <KeySwitch name="mm Exp Vib" key="F1" />
+      <KeySwitch name="oh Exp Vib" key="F#1" />
+      <KeySwitch name="oh Non Vib" key="G1" />
+      <KeySwitch name="oh Exp Vib 2" key="G#1" />
+      <KeySwitch name="oo Non VibSus" key="A1" />
+      <KeySwitch name="oo Exp Vib" key="A#1" />
+    </KeySwitchList>
+    <KeySwitchList name="EWQLSC Boy Solo">
+      <KeySwitch name="oh Non Vib" key="C1" />
+      <KeySwitch name="ah Non Vib" key="C#1" />
+      <KeySwitch name="ah Non Vib Slur" key="D1" />
+      <KeySwitch name="oh Non Vib" key="D#1" />
+      <KeySwitch name="oh Non Vib Slur" key="E1" />
+      <KeySwitch name="oo Non Vib" key="F1" />
+      <KeySwitch name="Random Syllables 1" key="F#1" />
+      <KeySwitch name="Random Syllables 2" key="G1" />
+      <KeySwitch name="Random Syllables 3" key="G#1" />
+      <KeySwitch name="Random Syllables 4" key="A1" />
+    </KeySwitchList>
+    <KeySwitchList name="EWQLSC Sop Solo">
+      <KeySwitch name="ah Non Vib" key="C1" />
+      <KeySwitch name="ah Exp Vib" key="C#1" />
+      <KeySwitch name="mm Exp Vib" key="D1" />
+      <KeySwitch name="oh Non Vib" key="D#1" />
+      <KeySwitch name="oh Exp Vib" key="E1" />
+      <KeySwitch name="oo Non Vib" key="F1" />
+      <KeySwitch name="oo Exp Vib" key="F#1" />
+    </KeySwitchList>
+  </KeySwitchNames>
+  <ArticulationNames>
+    <Articulation name="Marcato" velocityAdd="10" durationPct="90" />
+    <Articulation name="Marcato Dot" velocityAdd="15" durationPct="40" />
+    <Articulation name="Heavy Attack" velocityAdd="10" durationPct="100" />
+    <Articulation name="SForzando" velocityAdd="20" />
+    <Articulation name="SForzando Dot" velocityAdd="20" durationPct="50" />
+    <Articulation name="Heavier Attack" velocityAdd="20" durationPct="100" />
+    <Articulation name="SForzando Inverted" velocityAdd="20" />
+    <Articulation name="SForzando Dot Inverted" velocityAdd="20" durationPct="50" />
+    <Articulation name="Staccatissimo" velocityAdd="15" durationPct="20" />
+    <Articulation name="Staccato" velocityAdd="15" durationPct="40" />
+    <Articulation name="Tenuto" durationPct="100" />
+    <Articulation name="Up Bow" />
+    <Articulation name="Down Bow" velocityAdd="5" />
+    <Articulation name="Up Bow Inverted" />
+    <Articulation name="Down Bow Inverted" velocityAdd="5" />
+    <Articulation name="Arpeggio" attackFrom="-90" attackTo="0" />
+    <Articulation name="Tremolo Eighths" tremoloNotes="1" />
+    <Articulation name="Tremolo Sixteenths" tremoloNotes="2" />
+    <Articulation name="Tremolo Thirty Seconds" tremoloNotes="3" />
+    <Articulation name="Tremolo Sixty Fourths" tremoloNotes="4" />
+    <Articulation name="pizz" />
+    <Articulation name="arco" durationPct="90" />
+    <Articulation name="legato" velocityPct="75" durationPct="100" />
+    <ArticulationSwitchList name="EWQLSC Vowels KS">
+      <Articulation name="Staccato" durationPct="80" keySwitch="D1" />
+      <Articulation name="legato" durationPct="100" onOffset="0" keySwitch="D#1" />
+    </ArticulationSwitchList>
+    <ArticulationSwitchList name="EWQLSC Boys Vowels KS">
+      <Articulation name="legato" durationPct="100" onOffset="0" keySwitch="C#1" />
+    </ArticulationSwitchList>
+    <ArticulationSwitchList name="EWQLSC Word Builder">
+      <Articulation name="Down Bow Inverted" onOffset="-1" ctrlNum="20" ctrlValue="127" />
+      <Articulation name="legato" durationPct="100" />
+    </ArticulationSwitchList>
+  </ArticulationNames>
+  <Instruments>
+    <Section name="Instruments" legato="on">
+      <Group name="ALTO cons" title="Alto" abbr="A" lownote="f3" highnote="a5" clef="alto">
+        <UsesControllerSwitchList name="EWQLSC" />
+        <Instrument name="ALTO b" />
+        <Instrument name="ALTO d" />
+        <Instrument name="ALTO g" />
+        <Instrument name="ALTO j" />
+        <Instrument name="ALTO l" />
+        <Instrument name="ALTO m" />
+        <Instrument name="ALTO n" />
+        <Instrument name="ALTO non-pitched" lownote="c4" highnote="a#4" />
+        <Instrument name="ALTO r" />
+        <Instrument name="ALTO rr" />
+        <Instrument name="ALTO th" />
+        <Instrument name="ALTO v" />
+        <Instrument name="ALTO w" />
+        <Instrument name="ALTO y" />
+        <Instrument name="ALTO z" />
+      </Group>
+      <Group name="ALTO fx" title="Alto" abbr="A" lownote="f3" highnote="a5" clef="alto">
+        <UsesControllerSwitchList name="EWQLSC" />
+        <Instrument name="ALTO ahiheh" />
+        <Instrument name="ALTO cluster fx" lownote="c4" highnote="g5" />
+        <Instrument name="ALTO cluster oh" lownote="g3" highnote="d5" />
+        <Instrument name="ALTO eeoheh" lownote="f3" highnote="a5" />
+        <Instrument name="ALTO falls" lownote="d4" highnote="g#4" />
+        <Instrument name="ALTO shouts" lownote="c4" highnote="g#4" />
+        <Instrument name="ALTO whiswrods" lownote="c4" highnote="g5" />
+      </Group>
+      <Group name="ALTO vowels" title="Alto" abbr="A" lownote="f3" highnote="a5" clef="alto">
+        <UsesControllerSwitchList name="EWQLSC DXF" />
+        <UsesArticulationSwitchList name="EWQLSC Vowels KS" />
+        <UsesKeySwitchList name="EWQLSC Vowels" />
+        <Instrument name="ALTO ah DXF" lownote="f3" highnote="a#5" />
+        <Instrument name="ALTO ee DXF" />
+        <Instrument name="ALTO eh DXF" />
+        <Instrument name="ALTO eu DXF" />
+        <Instrument name="ALTO ih DXF" />
+        <Instrument name="ALTO oh DXF" />
+        <Instrument name="ALTO oo DXF" />
+        <Instrument name="ALTO uh DXF" />
+      </Group>
+      <Group name="BASS cons" title="Bass" abbr="B" lownote="b1" highnote="d4" clef="bass">
+        <UsesControllerSwitchList name="EWQLSC" />
+        <Instrument name="BASS b" />
+        <Instrument name="BASS d" />
+        <Instrument name="BASS g" />
+        <Instrument name="BASS j" />
+        <Instrument name="BASS l" />
+        <Instrument name="BASS m" />
+        <Instrument name="BASS n" />
+        <Instrument name="BASS non-pitched" lownote="c4" highnote="a#4" />
+        <Instrument name="BASS r" />
+        <Instrument name="BASS rr" />
+        <Instrument name="BASS th" />
+        <Instrument name="BASS v" />
+        <Instrument name="BASS w" />
+        <Instrument name="BASS y" />
+        <Instrument name="BASS z" />
+      </Group>
+      <Group name="BASS fx" title="Bass" abbr="B" lownote="b1" highnote="d4" clef="bass">
+        <UsesControllerSwitchList name="EWQLSC" />
+        <Instrument name="BASS ahiheh" />
+        <Instrument name="BASS cluster fx" lownote="c4" highnote="d#5" />
+        <Instrument name="BASS cluster oh" lownote="c4" highnote="f5" />
+        <Instrument name="BASS eeoheh" />
+        <Instrument name="BASS falls" lownote="b2" highnote="c4" />
+        <Instrument name="BASS shouts" lownote="c4" highnote="g#4" />
+        <Instrument name="BASS whiswrods" lownote="c4" highnote="g5" />
+      </Group>
+      <Group name="BASS vowels" title="Bass" abbr="B" lownote="b1" highnote="d4" clef="bass">
+        <UsesControllerSwitchList name="EWQLSC DXF" />
+        <UsesArticulationSwitchList name="EWQLSC Vowels KS" />
+        <UsesKeySwitchList name="EWQLSC Vowels" />
+        <Instrument name="BASS ah DXF" />
+        <Instrument name="BASS ee DXF" />
+        <Instrument name="BASS eh DXF" />
+        <Instrument name="BASS eu DXF" />
+        <Instrument name="BASS ih DXF" />
+        <Instrument name="BASS oh DXF" />
+        <Instrument name="BASS oo DXF" />
+        <Instrument name="BASS uh DXF" />
+      </Group>
+      <Group name="BOYS cons" title="Boys" abbr="BS" lownote="c4" highnote="b5" clef="treble">
+        <UsesControllerSwitchList name="EWQLSC" />
+        <Instrument name="BOYS b" />
+        <Instrument name="BOYS d" />
+        <Instrument name="BOYS g" />
+        <Instrument name="BOYS j" />
+        <Instrument name="BOYS l" />
+        <Instrument name="BOYS m" />
+        <Instrument name="BOYS n" />
+        <Instrument name="BOYS non-pitched" lownote="c4" highnote="a#4" />
+        <Instrument name="BOYS r" />
+        <Instrument name="BOYS rr" />
+        <Instrument name="BOYS th" />
+        <Instrument name="BOYS v" />
+        <Instrument name="BOYS w" />
+        <Instrument name="BOYS y" />
+        <Instrument name="BOYS z" />
+      </Group>
+      <Group name="BOYS fx" title="Boys" abbr="BS" lownote="c4" highnote="b5" clef="treble">
+        <UsesControllerSwitchList name="EWQLSC" />
+        <Instrument name="BOYS ah stac" />
+        <Instrument name="BOYS cluster" lownote="c4" highnote="b4" />
+        <Instrument name="BOYS oh slur DXF">
+          <UsesControllerSwitchList name="EWQLSC DXF" />
+        </Instrument>
+        <Instrument name="BOYS shouts" lownote="c4" highnote="a4" />
+      </Group>
+      <Group name="BOYS vowels" title="Boys" abbr="BS" lownote="c4" highnote="b5" clef="treble">
+        <UsesControllerSwitchList name="EWQLSC DXF" />
+        <UsesArticulationSwitchList name="EWQLSC Boys Vowels KS" />
+        <UsesKeySwitchList name="EWQLSC Boys Vowels" />
+        <Instrument name="BOYS ah DXF" />
+        <Instrument name="BOYS ee DXF" />
+        <Instrument name="BOYS eh DXF" />
+        <Instrument name="BOYS eu DXF" />
+        <Instrument name="BOYS ih DXF" />
+        <Instrument name="BOYS oh DXF" />
+        <Instrument name="BOYS oo DXF" />
+        <Instrument name="BOYS uh DXF" />
+      </Group>
+      <Group name="Instruments Full Chorus" legato="on" clef="treble" title="Chorus" abbr="Cho." lownote="b1" highnote="e6">
+        <UsesControllerSwitchList name="EWQLSC MOD" />
+        <Instrument name="FULLCHORUS AH MOD" />
+        <Instrument name="FULLCHORUS MM MN MOD" />
+        <Instrument name="FULLCHORUS OH 2 MOD" />
+        <Instrument name="FULLCHORUS OH MOD" />
+      </Group>
+      <Group name="Soloists" legato="on">
+        <UsesControllerSwitchList name="EWQLSC" />
+        <Instrument name="ALTO Solo KS" clef="alto" title="Alto Solo" abbr="solo" lownote="e3" highnote="g4">
+          <UsesKeySwitchList name="EWQLSC Alto Solo" />
+        </Instrument>
+        <Instrument name="BOY Solo KS" clef="treble" title="Boy Solo" abbr="solo" lownote="b3" highnote="a#5">
+          <UsesKeySwitchList name="EWQLSC Boy Solo" />
+        </Instrument>
+        <Instrument name="SOP Solo KS" clef="treble" title="Sop Solo" abbr="solo" lownote="e4" highnote="d6">
+          <UsesKeySwitchList name="EWQLSC Sop Solo" />
+        </Instrument>
+      </Group>
+      <Group name="SOPR cons" title="Soprano" abbr="S" lownote="d4" highnote="e6" clef="treble">
+        <UsesControllerSwitchList name="EWQLSC" />
+        <Instrument name="SOPR b" />
+        <Instrument name="SOPR d" />
+        <Instrument name="SOPR g" />
+        <Instrument name="SOPR j" />
+        <Instrument name="SOPR l" />
+        <Instrument name="SOPR m" />
+        <Instrument name="SOPR n" />
+        <Instrument name="SOPR non-pitched" lownote="c4" highnote="a#4" />
+        <Instrument name="SOPR r" />
+        <Instrument name="SOPR rr" />
+        <Instrument name="SOPR th" />
+        <Instrument name="SOPR v" />
+        <Instrument name="SOPR w" />
+        <Instrument name="SOPR y" />
+        <Instrument name="SOPR z" />
+      </Group>
+      <Group name="SOPR fx" title="Soprano" abbr="S" lownote="d4" highnote="e6" clef="treble">
+        <UsesControllerSwitchList name="EWQLSC" />
+        <Instrument name="SOPR ahiheh" />
+        <Instrument name="SOPR cluster fx" lownote="c4" highnote="g5" />
+        <Instrument name="SOPR cluster oh" lownote="a4" highnote="e6" />
+        <Instrument name="SOPR eeoheh" />
+        <Instrument name="SOPR falls" />
+        <Instrument name="SOPR shouts" lownote="c4" highnote="g#4" />
+        <Instrument name="SOPR whiswrods" lownote="c4" highnote="g5" />
+      </Group>
+      <Group name="SOPR vowels" title="Soprano" abbr="S" lownote="d4" highnote="e6" clef="treble">
+        <UsesControllerSwitchList name="EWQLSC DXF" />
+        <UsesArticulationSwitchList name="EWQLSC Vowels KS" />
+        <UsesKeySwitchList name="EWQLSC Vowels" />
+        <Instrument name="SOPR ah DXF" />
+        <Instrument name="SOPR ee DXF" />
+        <Instrument name="SOPR eh DXF" />
+        <Instrument name="SOPR eu DXF" />
+        <Instrument name="SOPR ih DXF" />
+        <Instrument name="SOPR oh DXF" />
+        <Instrument name="SOPR oo DXF" />
+        <Instrument name="SOPR uh DXF" />
+      </Group>
+      <Group name="TENOR cons" title="Tenor" abbr="T" lownote="c3" highnote="d5" clef="bass">
+        <UsesControllerSwitchList name="EWQLSC" />
+        <Instrument name="TENOR b" />
+        <Instrument name="TENOR d" />
+        <Instrument name="TENOR g" />
+        <Instrument name="TENOR j" />
+        <Instrument name="TENOR l" />
+        <Instrument name="TENOR m" />
+        <Instrument name="TENOR n" />
+        <Instrument name="TENOR non-pitched" lownote="c4" highnote="a#4" />
+        <Instrument name="TENOR r" />
+        <Instrument name="TENOR rr" />
+        <Instrument name="TENOR th" />
+        <Instrument name="TENOR v" />
+        <Instrument name="TENOR w" />
+        <Instrument name="TENOR y" />
+        <Instrument name="TENOR z" />
+      </Group>
+      <Group name="TENOR fx" title="Tenor" abbr="T" lownote="c3" highnote="d5" clef="bass">
+        <UsesControllerSwitchList name="EWQLSC" />
+        <Instrument name="TENOR ahiheh" />
+        <Instrument name="TENOR cluster oh" lownote="d#3" highnote="b4" />
+        <Instrument name="TENOR cluster" lownote="c4" highnote="e5" />
+        <Instrument name="TENOR eeoheh" />
+        <Instrument name="TENOR falls" lownote="c3" highnote="f4" />
+        <Instrument name="TENOR shouts" lownote="c4" highnote="g#4" />
+        <Instrument name="TENOR whiswrods" lownote="c4" highnote="g5" />
+      </Group>
+      <Group name="TENOR vowels" title="Tenor" abbr="T" lownote="c3" highnote="d5" clef="bass">
+        <UsesControllerSwitchList name="EWQLSC DXF" />
+        <UsesArticulationSwitchList name="EWQLSC Vowels KS" />
+        <UsesKeySwitchList name="EWQLSC Vowels" />
+        <Instrument name="TENOR ah DXF" />
+        <Instrument name="TENOR ee DXF" />
+        <Instrument name="TENOR eh DXF" />
+        <Instrument name="TENOR eu DXF" />
+        <Instrument name="TENOR ih DXF" />
+        <Instrument name="TENOR oh DXF" />
+        <Instrument name="TENOR oo DXF" />
+        <Instrument name="TENOR uh DXF" />
+      </Group>
+    </Section>
+    <Section name="Multis" legato="on">
+      <UsesArticulationSwitchList name="EWQLSC Word Builder" />
+      <Group name="Altos WB" title="Alto" abbr="A" lownote="f3" highnote="a5" clef="alto">
+        <Instrument name="ALTO WB DYN MOD">
+          <UsesControllerSwitchList name="EWQLSC MULTI MOD" />
+        </Instrument>
+        <Instrument name="ALTO WB Hard MOD">
+          <UsesControllerSwitchList name="EWQLSC MULTI MOD" />
+        </Instrument>
+        <Instrument name="ALTO WB NV">
+          <UsesControllerSwitchList name="EWQLSC MULTI" />
+        </Instrument>
+        <Instrument name="ALTO WB Soft MOD">
+          <UsesControllerSwitchList name="EWQLSC MULTI MOD" />
+        </Instrument>
+        <Instrument name="ALTO WB VBF">
+          <UsesControllerSwitchList name="EWQLSC MULTI" />
+        </Instrument>
+        <Instrument name="ALTO WB VBM">
+          <UsesControllerSwitchList name="EWQLSC MULTI" />
+        </Instrument>
+      </Group>
+      <Group name="Basses WB" title="Bass" abbr="B" lownote="b1" highnote="d4" clef="bass">
+        <Instrument name="BASS WB DYN MOD">
+          <UsesControllerSwitchList name="EWQLSC MULTI MOD" />
+        </Instrument>
+        <Instrument name="BASS WB Hard MOD">
+          <UsesControllerSwitchList name="EWQLSC MULTI MOD" />
+        </Instrument>
+        <Instrument name="BASS WB NV">
+          <UsesControllerSwitchList name="EWQLSC MULTI" />
+        </Instrument>
+        <Instrument name="BASS WB Soft MOD">
+          <UsesControllerSwitchList name="EWQLSC MULTI MOD" />
+        </Instrument>
+        <Instrument name="BASS WB VBF">
+          <UsesControllerSwitchList name="EWQLSC MULTI" />
+        </Instrument>
+        <Instrument name="BASS WB VBM">
+          <UsesControllerSwitchList name="EWQLSC MULTI" />
+        </Instrument>
+      </Group>
+      <Group name="Boys WB" title="Boys" abbr="BS" lownote="c4" highnote="b5" clef="treble">
+        <Instrument name="BOYS WB DYN MOD">
+          <UsesControllerSwitchList name="EWQLSC MULTI MOD" />
+        </Instrument>
+        <Instrument name="BOYS WB Hard MOD">
+          <UsesControllerSwitchList name="EWQLSC MULTI MOD" />
+        </Instrument>
+        <Instrument name="BOYS WB Soft MOD">
+          <UsesControllerSwitchList name="EWQLSC MULTI MOD" />
+        </Instrument>
+      </Group>
+      <Group name="Mens and Womens WB" title="Chorus" abbr="Cho." clef="treble">
+        <Instrument name="MENS WB Hard MOD" lownote="b1" highnote="d5" clef="bass">
+          <UsesControllerSwitchList name="EWQLSC MULTI MOD" />
+        </Instrument>
+        <Instrument name="MENS WB Soft MOD" lownote="b1" highnote="d5" clef="bass">
+          <UsesControllerSwitchList name="EWQLSC MULTI MOD" />
+        </Instrument>
+        <Instrument name="WOMENS WB Hard MOD" lownote="f3" highnote="e6" clef="treble">
+          <UsesControllerSwitchList name="EWQLSC MULTI MOD" />
+        </Instrument>
+        <Instrument name="WOMENS WB Soft MOD" lownote="f3" highnote="e6" clef="treble">
+          <UsesControllerSwitchList name="EWQLSC MULTI MOD" />
+        </Instrument>
+      </Group>
+      <Group name="Sopranos WB" title="Soprano" abbr="S" lownote="d4" highnote="e6" clef="treble">
+        <Instrument name="SOPR WB DYN MOD">
+          <UsesControllerSwitchList name="EWQLSC MULTI MOD" />
+        </Instrument>
+        <Instrument name="SOPR WB Hard MOD">
+          <UsesControllerSwitchList name="EWQLSC MULTI MOD" />
+        </Instrument>
+        <Instrument name="SOPR WB NV">
+          <UsesControllerSwitchList name="EWQLSC MULTI" />
+        </Instrument>
+        <Instrument name="SOPR WB Soft MOD">
+          <UsesControllerSwitchList name="EWQLSC MULTI MOD" />
+        </Instrument>
+        <Instrument name="SOPR WB VBF">
+          <UsesControllerSwitchList name="EWQLSC MULTI" />
+        </Instrument>
+        <Instrument name="SOPR WB VBM">
+          <UsesControllerSwitchList name="EWQLSC MULTI" />
+        </Instrument>
+      </Group>
+      <Group name="Tenors WB" title="Tenor" abbr="T" lownote="c3" highnote="d5" clef="bass">
+        <Instrument name="TENOR WB DYN MOD">
+          <UsesControllerSwitchList name="EWQLSC MULTI MOD" />
+        </Instrument>
+        <Instrument name="TENOR WB Hard MOD">
+          <UsesControllerSwitchList name="EWQLSC MULTI MOD" />
+        </Instrument>
+        <Instrument name="TENOR WB NV">
+          <UsesControllerSwitchList name="EWQLSC MULTI" />
+        </Instrument>
+        <Instrument name="TENOR WB Soft MOD">
+          <UsesControllerSwitchList name="EWQLSC MULTI MOD" />
+        </Instrument>
+        <Instrument name="TENOR WB VBF">
+          <UsesControllerSwitchList name="EWQLSC MULTI" />
+        </Instrument>
+        <Instrument name="TENOR WB VBM">
+          <UsesControllerSwitchList name="EWQLSC MULTI" />
+        </Instrument>
+      </Group>
+    </Section>
+  </Instruments>
+</VSTNameDocument>

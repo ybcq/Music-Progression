@@ -1,0 +1,147 @@
+﻿<html>
+	
+<head>
+	<title>Set Time Signature</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("SetTimeSignature");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Set Time Signature</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="OvertureMenus.html">Overture Menus</a> &rsaquo;&rsaquo; <a href="MeasuresMenu.html">Measures Menu</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="MeasuresMenu.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="SetKeySignature.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="SetTempo.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<h6 class="rvps14"><span class="rvts0"><span class="rvts22">Measures&gt;Set Time Signature</span></span></h6>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Choose this command to specify a meter for the active measure and all measures up to the next meter change. The active measure is the one that contains the insertion point. When you choose </span><span class="rvts12">Measures&gt;Set Time Signature</span><span class="rvts6">, Overture opens the Set Meter dialog box.</span></p>
+<h6 class="rvps14"><span class="rvts0"><span class="rvts22">About the Set Meter Dialog Box</span></span></h6>
+<p class="rvps2"><span class="rvts6">There are numerous elements in the Set Meter dialog box. These are described in the following sections:</span></p>
+<h6 class="rvps14"><span class="rvts0"><span class="rvts22">Quick Meter Select Buttons</span></span></h6>
+<p class="rvps2"><span class="rvts6">Click one of these buttons to set the measure quickly to one of these common meters.</span></p>
+<p class="rvps2"><span class="rvts6">When you click a Meter Select button, Overture automatically selects a default number of pulses and a beaming pattern.</span></p>
+<h6 class="rvps14"><span class="rvts0"><span class="rvts22">Main Meter Options</span></span></h6>
+<p class="rvps2"><span class="rvts6">Use the Main Meter options to:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; margin-left: 48px; list-style-position: outside; list-style-type: disc;">
+<li style="margin-left: 0px" class="rvps4"><span class="rvts6">set a time signature for the measure</span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts6">determine how Overture displays the time signature</span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts6">select the number of pulses in the measure.</span></li>
+</ul>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Check the </span><span class="rvts12">Show</span><span class="rvts6"> option if you want Overture to show the inserted time signature. Generally, you want Overture to show the time signature unless you have created a composite meter and are showing it instead of the main meter.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Check the </span><span class="rvts12">Parentheses</span><span class="rvts6"> option if you want Overture to place the time signature in parentheses.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Use the time signature's </span><span class="rvts12">Numerator numerical </span><span class="rvts6">to set the number of beats per measure.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Use the time signature's </span><span class="rvts12">Denominator numerical</span><span class="rvts6"> to set the note value that receives one beat.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Use the </span><span class="rvts12">Pulses numerical</span><span class="rvts6"> to set the number of pulses in a meter, for example, 3/4 meter usually has three pulses, 6/8 frequently has two pulses. The </span><span class="rvts12">Pulses numerical</span><span class="rvts6"> also affects the number of clicks the metronome plays and the beaming pattern used by the measure.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Pulses are different from beats because pulses dictate the feel of a measure. For example, you can play a 6/8 measure as though it were three groups of eighth note pairs. The three groups make the measure feel as if it has three pulses.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">You can play that same 6/8 measure as though it were two groups of three eighth notes. The two groups make the measure feel as if it has two pulses.</span></p>
+<p class="rvps2"><span class="rvts6">Obviously, pulses are closely related to the measure's beaming pattern (as discussed in </span><span class="rvts6">Beam Pattern Options below</span><span class="rvts6">).</span></p>
+<h6 class="rvps14"><span class="rvts0"><span class="rvts22">Beam Pattern Options</span></span></h6>
+<p class="rvps2"><span class="rvts6">Beams create a visual representation of a measure's meter and its internal rhythmic divisions. Use the Set Meter dialog box's Beam Pattern options to define how you want Overture to beam notes.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Use the four beam group numericals to set the pattern in which notes are beamed. For example, in a 4/4 measure, a pattern of 4+4 automatically beams together the first four eighth notes, then the last four eighth notes.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">As another example, in a 4/4 measure, a pattern of 3+2+3 automatically beams together the first three eighth notes, then the middle two, then the last three eighth notes.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">You do not have to enter every element of a steady beaming pattern. For example, to enter a beaming pattern of 2+2+2+2, you only have to enter the first 2.</span></p>
+<h6 class="rvps14"><span class="rvts0"><span class="rvts22">The Show Before System</span></span><span class="rvts0"><span class="rvts35"> </span></span><span class="rvts0"><span class="rvts22">Break Option</span></span></h6>
+<p class="rvps2"><span class="rvts6">Check this option if you want Overture to provide a courtesy meter change warning automatically at the end of the previous system if the meter change occurs at a system break.</span></p>
+<h6 class="rvps14"><span class="rvts0"><span class="rvts22">The Is Pickup Option</span></span></h6>
+<p class="rvps2"><span class="rvts6">Check this option if you want Overture to recognize the active measure as a pickup measure.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Unlike other elements in the Set Meter dialog box, the Is Pickup option applies only to the active measure. This way you can define one measure as a pickup measure without defining the following measure as standard.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">When you define a measure as a pickup measure, the following things occur:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; margin-left: 48px; list-style-position: outside; list-style-type: disc;">
+<li style="margin-left: 0px" class="rvps4"><span class="rvts6">Overture right-justifies the notes in the measure.</span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts6">When Overture plays a pickup measure, it plays the measure exactly as written.</span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts6">Overture ignores pickup measures when numbering measures in a score. To learn about measure numbers, see </span><a class="rvts11" href="SetMeasureNumbers.html">Set Measure Numbers</a><span class="rvts6">.</span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts6">Overture ignores pickup measures when searching for incorrect rhythms. To learn how to search a Overture score for incorrect rhythms, see </span><a class="rvts11" href="IncorrectRhythms.html">Incorrect Rhythms</a><span class="rvts6">. </span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Re-barring scores destroys pickup measures. If you ask Overture to re-bar a score across pickup measures, it asks if you really want to re-bar the score. To learn about re-barring a score, see </span><a class="rvts11" href="Rebar.html">Rebar</a><span class="rvts6">.</span></p>
+<h6 class="rvps14"><span class="rvts0"><span class="rvts22">Using the Set Meter Command</span></span></h6>
+<p class="rvps2"><span class="rvts6">To insert a meter change into a Overture score:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ol style="text-indent: 0px; margin-left: 48px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Using the Arrow Cursor, click within a measure to make it the active measure. </span></span></li>
+<li value="2" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Choose</span></span><span class="rvts0"><span class="rvts12"> Measures&gt;Set Time Signature</span></span><span class="rvts0"><span class="rvts6">.</span></span><br/><span class="rvts0"><span class="rvts6">Overture opens the Set Meter dialog box. </span></span></li>
+<li value="3" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Use the dialog box (discussed earlier) to define the meter and its beaming options, then click the </span></span><span class="rvts0"><span class="rvts12">OK</span></span><span class="rvts0"><span class="rvts6"> button.</span></span><br/><span class="rvts0"><span class="rvts6">Overture applies the new meter to the active measure and all remaining measures up to the next meter change. </span></span></li>
+</ol>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

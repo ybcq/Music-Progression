@@ -1,0 +1,513 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTNameDocument name="Diva">
+  <Version>1</Version>
+  <Author>GenieSoft,Inc.</Author>
+  <Device name="Diva" />
+  <ArticulationNames>
+    <Articulation name="Marcato" velocityAdd="10" durationPct="90" />
+    <Articulation name="Marcato Dot" velocityAdd="15" durationPct="50" />
+    <Articulation name="Heavy Attack" velocityAdd="10" durationPct="100" />
+    <Articulation name="SForzando" velocityAdd="20" />
+    <Articulation name="SForzando Dot" velocityAdd="20" durationPct="50" />
+    <Articulation name="Heavier Attack" velocityAdd="20" durationPct="100" />
+    <Articulation name="SForzando Inverted" velocityAdd="20" />
+    <Articulation name="SForzando Dot Inverted" velocityAdd="20" durationPct="50" />
+    <Articulation name="Staccatissimo" velocityAdd="15" durationPct="30" />
+    <Articulation name="Staccato" velocityAdd="15" durationPct="50" />
+    <Articulation name="Tenuto" durationPct="100" />
+    <Articulation name="Up Bow" />
+    <Articulation name="Down Bow" velocityAdd="5" />
+    <Articulation name="Up Bow Inverted" />
+    <Articulation name="Down Bow Inverted" velocityAdd="5" />
+    <Articulation name="Arpeggio" attackFrom="-90" attackTo="0" />
+    <Articulation name="Tremolo Eighths" tremoloNotes="1" />
+    <Articulation name="Tremolo Sixteenths" tremoloNotes="2" />
+    <Articulation name="Tremolo Thirty Seconds" tremoloNotes="3" />
+    <Articulation name="Tremolo Sixty Fourths" tremoloNotes="4" />
+    <Articulation name="pizz" />
+    <Articulation name="arco" durationPct="90" />
+    <ArticulationSwitchList name="Staccato">
+      <Articulation name="Staccato" durationPct="90" />
+      <Articulation name="Staccatissimo" velocityAdd="15" durationPct="50" />
+    </ArticulationSwitchList>
+  </ArticulationNames>
+  <ControllerNames>
+				Controller name="Modulation" cc="1"/&gt;
+				Controller name="Volume" cc="7"/&gt;
+ 				Controller name="Panning" cc="10"/&gt;
+ 				Controller name="Sustain" cc="64"/&gt;
+			</ControllerNames>
+  <KeySwitchNames>
+    <KeySwitchList name="Sustained Vowels KS">
+      <KeySwitch name="Sustained Ah" key="c3" />
+      <KeySwitch name="Sustained Oh" key="c#3" />
+      <KeySwitch name="Sustained Oo" key="d3" />
+      <KeySwitch name="Sustained Ee" key="d#3" />
+      <KeySwitch name="Sustained Mm" key="e3" />
+    </KeySwitchList>
+    <KeySwitchList name="Crescendo KS">
+      <KeySwitch name="Cresc Diminuendo Ah" key="c3" />
+      <KeySwitch name="Cresc Diminuendo Oh" key="c#3" />
+      <KeySwitch name="Cresc Diminuendo Oo" key="d3" />
+      <KeySwitch name="Cresc Diminuendo Ee" key="d#3" />
+      <KeySwitch name="Cresc Diminuendo Mm" key="e3" />
+    </KeySwitchList>
+    <KeySwitchList name="Intervals KS">
+      <KeySwitch name="Minor 3rd" key="c2" />
+      <KeySwitch name="Major 3rd" key="c#2" />
+      <KeySwitch name="5th Interval" key="d2" />
+      <KeySwitch name="8th Interval" key="d#2" />
+    </KeySwitchList>
+    <KeySwitchList name="Intervals All KS">
+      <KeySwitch name="Minor 3rd Ah" key="c2" />
+      <KeySwitch name="Major 3rd Ah" key="c#2" />
+      <KeySwitch name="5th Interval Ah" key="d2" />
+      <KeySwitch name="8th Interval Ah" key="d#2" />
+      <KeySwitch name="Minor 3rd Oh" key="e2" />
+      <KeySwitch name="Major 3rd Oh" key="f2" />
+      <KeySwitch name="5th Interval Oh" key="f#2" />
+      <KeySwitch name="8th Interval Oh" key="g2" />
+      <KeySwitch name="Minor 3rd Oo" key="g#2" />
+      <KeySwitch name="Major 3rd Oo" key="a2" />
+      <KeySwitch name="5th Interval Oo" key="a#2" />
+      <KeySwitch name="8th Interval Oo" key="b2" />
+    </KeySwitchList>
+    <KeySwitchList name="Staccato KS">
+      <KeySwitch name="Staccato Ah" key="c2" />
+      <KeySwitch name="Staccato Ee" key="c#2" />
+      <KeySwitch name="Staccato Oh" key="d2" />
+      <KeySwitch name="Staccato Oo" key="d#2" />
+    </KeySwitchList>
+    <KeySwitchList name="Straight Tone KS">
+      <KeySwitch name="Ah" key="c2" />
+      <KeySwitch name="Ee" key="c#2" />
+      <KeySwitch name="Oh" key="d2" />
+    </KeySwitchList>
+    <KeySwitchList name="S1 Marcato KS">
+      <KeySwitch name="Marcato Ah" key="c3" />
+      <KeySwitch name="Marcato Oh" key="c#3" />
+      <KeySwitch name="Marcato Ee" key="d3" />
+    </KeySwitchList>
+    <KeySwitchList name="S1 Moving Vowels KS">
+      <KeySwitch name="Ah Nah Zoe" key="c3" />
+      <KeySwitch name="Lee Mah Stah" key="c#3" />
+      <KeySwitch name="Voh Sah Loh Vah" key="d3" />
+    </KeySwitchList>
+    <KeySwitchList name="S2 Marcato KS">
+      <KeySwitch name="Marcato Ah" key="c3" />
+      <KeySwitch name="Marcato Oo" key="c#3" />
+      <KeySwitch name="Marcato Mm" key="d3" />
+    </KeySwitchList>
+    <KeySwitchList name="S2 Moving Vowels KS">
+      <KeySwitch name="Loo Mah Sah" key="e1" />
+      <KeySwitch name="Thah Nye Voh" key="f#1" />
+      <KeySwitch name="Shah Meh Lah Foh" key="g#1" />
+    </KeySwitchList>
+    <KeySwitchList name="Ensembles 1234 KS">
+      <KeySwitch name="Ensemble 1" key="c3" />
+      <KeySwitch name="Ensemble 2" key="c#3" />
+      <KeySwitch name="Ensemble 3" key="d3" />
+      <KeySwitch name="Ensemble 4" key="d#3" />
+    </KeySwitchList>
+    <KeySwitchList name="Ensembles 1256 KS">
+      <KeySwitch name="Ensemble 1" key="c3" />
+      <KeySwitch name="Ensemble 2" key="c#3" />
+      <KeySwitch name="Ensemble 5" key="d3" />
+      <KeySwitch name="Ensemble 6" key="d#3" />
+    </KeySwitchList>
+    <KeySwitchList name="Ensembles 3456 KS">
+      <KeySwitch name="Ensemble 3" key="c3" />
+      <KeySwitch name="Ensemble 4" key="c#3" />
+      <KeySwitch name="Ensemble 5" key="d3" />
+      <KeySwitch name="Ensemble 6" key="d#3" />
+    </KeySwitchList>
+    <KeySwitchList name="Performances KS">
+      <KeySwitch name="Close Miked" key="c3" />
+      <KeySwitch name="Far Miked" key="c#3" />
+    </KeySwitchList>
+  </KeySwitchNames>
+  <ControllerNames>
+    <ControllerSwitchList name="Vowel XF">
+      <Controller name="Vowel Crossfade" cc="1" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="Slider XF">
+      <Controller name="Volume + XFade to Vib" cc="1" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="LFO">
+      <Controller name="Volume" cc="1" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="Vib XF">
+      <Controller name="Vibrato/Non-Vibrato XFade" cc="1" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="Vib Switch">
+      <Controller name="Vibrato/Non-Vibrato Switch" cc="1" />
+    </ControllerSwitchList>
+    <ControllerSwitchList name="Moving XF">
+      <Controller name="Moving Vowel XFade" cc="1" />
+    </ControllerSwitchList>
+  </ControllerNames>
+  <Instruments>
+    <Section name="Diva Vowels" clef="treble">
+      <Group name="Soloist One Sustained Vowels" title="Solo Voice" abbr="Solo" lownote="c4" highnote="a5">
+        <UsesKeySwitchList name="Sustained Vowels KS" />
+        <UsesControllerSwitchList name="Vowel XF" />
+        <Instrument name="S1 Sus V cls KS ah oh oo ee mm" />
+        <Instrument name="S1 Sus V cls XF ah oh oo ee" />
+        <Instrument name="S1 Sus V cls XF ah oh oo mm" />
+        <Instrument name="S1 Sus V cls XF mm ah oh oo" />
+        <Instrument name="S1 Sus V cls XF mm oh oo ee" />
+        <Instrument name="S1 Sus V far KS ah oh oo ee mm" />
+        <Instrument name="S1 Sus V far XF ah oh oo ee" />
+        <Instrument name="S1 Sus V far XF ah oh oo mm" />
+        <Instrument name="S1 Sus V far XF mm ah oh oo" />
+        <Instrument name="S1 Sus V far XF mm oh oo ee" />
+        <Instrument name="S1 Sust Vowels - ah close" />
+        <Instrument name="S1 Sust Vowels - ah far" />
+        <Instrument name="S1 Sust Vowels - ee close" />
+        <Instrument name="S1 Sust Vowels - ee far" />
+        <Instrument name="S1 Sust Vowels - mm close" />
+        <Instrument name="S1 Sust Vowels - mm far" />
+        <Instrument name="S1 Sust Vowels - oh close" />
+        <Instrument name="S1 Sust Vowels - oh far" />
+        <Instrument name="S1 Sust Vowels - oo close" />
+        <Instrument name="S1 Sust Vowels - oo far" />
+      </Group>
+    </Section>
+    <Section name="Diva Crescendo Diminuendo" clef="treble">
+      <Group name="Soloist One Crescendo Diminuendo" title="Solo Voice" abbr="Solo" lownote="c4" highnote="a5">
+        <UsesKeySwitchList name="Crescendo KS" />
+        <Instrument name="S1 Crescendo  Diminuedno - ee" />
+        <Instrument name="S1 Crescendo  Diminuedno - mm" />
+        <Instrument name="S1 Crescendo  Diminuedno - oo" />
+        <Instrument name="S1 Crescendo  Diminuedno - ah" />
+        <Instrument name="S1 Crescendo  Diminuedno - oh" />
+        <Instrument name="S1 Crs Dim KS ah oh oo ee mm" />
+      </Group>
+    </Section>
+    <Section name="Diva Extended" clef="treble">
+      <Group name="Ah Oh and Oo Intervals" title="Solo Voice" abbr="Solo" lownote="a3" highnote="a4">
+        <UsesKeySwitchList name="Intervals All KS" />
+        <Instrument name="Ah 3rd Maj Interval" />
+        <Instrument name="Ah 3rd Min Interval" />
+        <Instrument name="Ah 5th Interval" />
+        <Instrument name="Ah 8th Interval" />
+        <Instrument name="Ah Intervals All KS">
+          <UsesKeySwitchList name="Intervals KS" />
+        </Instrument>
+        <Instrument name="Ah, Oh and Oo Intervals KS" />
+        <Instrument name="Oh 3rd Maj Interval" />
+        <Instrument name="Oh 3rd Min Interval" />
+        <Instrument name="Oh 5th Interval" />
+        <Instrument name="Oh 8th Interval" />
+        <Instrument name="Oh Intervals All KS" />
+        <Instrument name="Oo 3rd Maj Interval" />
+        <Instrument name="Oo 3rd Min Interval" />
+        <Instrument name="Oo 5th Interval" />
+        <Instrument name="Oo 8th Interval" />
+        <Instrument name="Oo Intervals All KS" />
+      </Group>
+      <Group name="Staccato" title="Solo Voice" abbr="Solo" lownote="a3" highnote="a5" Articulation="Staccato, Staccatissimo">
+        <UsesArticulationSwitchList name="Staccato" />
+        <UsesKeySwitchList name="Staccato KS" />
+        <UsesControllerSwitchList name="Vowel XF" />
+        <Instrument name="Ah and Ee Stacc - XF " />
+        <Instrument name="Ah and Ee Stacc RT - XF " />
+        <Instrument name="Ah and Oh Stacc - XF " />
+        <Instrument name="Ah and Oh Stacc RT - XF " />
+        <Instrument name="Ah and Oo Stacc - XF " />
+        <Instrument name="Ah and Oo Stacc RT - XF " />
+        <Instrument name="Ah Ee Oh Oo Stacc - KS " />
+        <Instrument name="Ah Ee Oh Oo Stacc - Layer " />
+        <Instrument name="Ah Ee Oh Oo Stacc - XF " />
+        <Instrument name="Ah Ee Oh Oo Stacc RT - KS " />
+        <Instrument name="Ah Ee Oh Oo Stacc RT - Layer " />
+        <Instrument name="Ah Ee Oh Oo Stacc RT - XF " />
+        <Instrument name="Ah Oh Oo Stacc - Layer " />
+        <Instrument name="Ah Oh Oo Stacc RT - Layer " />
+        <Instrument name="Ah Staccato with RT " />
+        <Instrument name="Ah Staccato " />
+        <Instrument name="Ee and Oh Stacc - XF " />
+        <Instrument name="Ee and Oh Stacc RT - XF " />
+        <Instrument name="Ee and Oo Stacc - XF " />
+        <Instrument name="Ee and Oo Stacc RT - XF " />
+        <Instrument name="Ee Staccato with RT " />
+        <Instrument name="Ee Staccato " />
+        <Instrument name="Oh and Oo Stacc - XF " />
+        <Instrument name="Oh and Oo Stacc RT - XF " />
+        <Instrument name="Oh Staccato with RT " />
+        <Instrument name="Oh Staccato " />
+        <Instrument name="Oo Staccato with RT " />
+        <Instrument name="Oo Staccato " />
+      </Group>
+      <Group name="Straight Tone and Delayed Vibrato" title="Solo Voice" abbr="Solo" lownote="a3" highnote="a5">
+        <UsesKeySwitchList name="Straight Tone KS" />
+        <UsesControllerSwitchList name="Vowel XF" />
+        <Instrument name="Ah 1s Delayed Vibrato Looped" />
+        <Instrument name="Ah 2s Delayed Vibrato Unlooped" />
+        <Instrument name="Ah 4s Delayed Vibrato Unlooped" />
+        <Instrument name="Ah DV Straight Looped" />
+        <Instrument name="Ah Oh Oo 1s DV - KS" />
+        <Instrument name="Ah Oh Oo 1s DV - Layer" />
+        <Instrument name="Ah Oh Oo 1s DV - XF" />
+        <Instrument name="Ah Oh Oo 2s DV - KS" />
+        <Instrument name="Ah Oh Oo 2s DV - Layer" />
+        <Instrument name="Ah Oh Oo 2s DV - XF" />
+        <Instrument name="Ah Oh Oo 4s DV - KS" />
+        <Instrument name="Ah Oh Oo 4s DV - Layer" />
+        <Instrument name="Ah Oh Oo 4s DV - XF" />
+        <Instrument name="Ah Oh Oo DV Straight - KS" />
+        <Instrument name="Ah Oh Oo DV Straight - Layer" />
+        <Instrument name="Ah Oh Oo DV Straight - XF" />
+        <Instrument name="Ah Oh Oo Slider mw lfo - KS">
+          <UsesControllerSwitchList name="LFO" />
+        </Instrument>
+        <Instrument name="Ah Oh Oo Slider XF Vibrato - KS">
+          <UsesControllerSwitchList name="Slider XF" />
+        </Instrument>
+        <Instrument name="Ah Oh Oo Straight loop - KS" />
+        <Instrument name="Ah Oh Oo Straight loop - Layer" />
+        <Instrument name="Ah Oh Oo Straight loop - XF" />
+        <Instrument name="Ah Oh Oo Straight unlp - KS" />
+        <Instrument name="Ah Oh Oo Straight unlp - Layer" />
+        <Instrument name="Ah Oh Oo Straight unlp - XF" />
+        <Instrument name="Ah Oh Oo Strt Lyr lp_lp - KS" />
+        <Instrument name="Ah Oh Oo Strt Lyr unlp_lp - KS" />
+        <Instrument name="Ah Oh Oo Strt_Vib sw at - KS" />
+        <Instrument name="Ah Oh Oo XF 2 Strt mw Vib - KS">
+          <UsesControllerSwitchList name="Vib XF" />
+        </Instrument>
+        <Instrument name="Ah Oh Oo XF Strt_Vib Mix2 at - KS" />
+        <Instrument name="Ah Oh Oo XF Strt_Vib Mix2 mw - KS">
+          <UsesControllerSwitchList name="Vib XF" />
+        </Instrument>
+        <Instrument name="Ah Oh Oo XF Strt_Vib Mix at - KS" />
+        <Instrument name="Ah Oh Oo XF Strt_Vib Mix mw - KS">
+          <UsesControllerSwitchList name="Vib XF" />
+        </Instrument>
+        <Instrument name="Ah Oh Oo XF Strt_Vib sw mw - KS">
+          <UsesControllerSwitchList name="Vib Switch" />
+        </Instrument>
+        <Instrument name="Ah Slider mw lfo">
+          <UsesControllerSwitchList name="LFO" />
+        </Instrument>
+        <Instrument name="Ah Slider XF Vibrato">
+          <UsesControllerSwitchList name="Slider XF" />
+        </Instrument>
+        <Instrument name="Ah Straight Looped" />
+        <Instrument name="Ah Straight Unlooped" />
+        <Instrument name="Ah Straights Layer Lp_Lp" />
+        <Instrument name="Ah Straights Layer Unlp_Lp" />
+        <Instrument name="Ah XF 2 Straights mw Vibrato ">
+          <UsesControllerSwitchList name="Vib XF" />
+        </Instrument>
+        <Instrument name="Ah XF Straight and Vib Mix2 at" />
+        <Instrument name="Ah XF Straight and Vib Mix at" />
+        <Instrument name="Ah XF Straight and Vib Mix mw">
+          <UsesControllerSwitchList name="Vib XF" />
+        </Instrument>
+        <Instrument name="Ah XF Straight and Vib Switch at">
+          <UsesControllerSwitchList name="Vib Switch" />
+        </Instrument>
+        <Instrument name="Ah XF Straight and Vib Switch mw">
+          <UsesControllerSwitchList name="Vib Switch" />
+        </Instrument>
+        <Instrument name="Oh 1s Delayed Vibrato Looped" />
+        <Instrument name="Oh 2s Delayed Vibrato Unlooped" />
+        <Instrument name="Oh 4s Delayed Vibrato Unlooped" />
+        <Instrument name="Oh DV Straight Looped" />
+        <Instrument name="Oh Slider mw lfo">
+          <UsesControllerSwitchList name="LFO" />
+        </Instrument>
+        <Instrument name="Oh Slider XF Vibrato">
+          <UsesControllerSwitchList name="Slider XF" />
+        </Instrument>
+        <Instrument name="Oh Straight Looped" />
+        <Instrument name="Oh Straight Unlooped" />
+        <Instrument name="Oh Straights Layer Lp_Lp" />
+        <Instrument name="Oh Straights Layer Unlp_Lp" />
+        <Instrument name="Oh XF 2 Straights mw Vibrato">
+          <UsesControllerSwitchList name="Vib XF" />
+        </Instrument>
+        <Instrument name="Oh XF Straight and Vib Mix2 at" />
+        <Instrument name="Oh XF Straight and Vib Mix at" />
+        <Instrument name="Oh XF Straight and Vib Mix mw">
+          <UsesControllerSwitchList name="Vib XF" />
+        </Instrument>
+        <Instrument name="Oh XF Straight and Vib Switch at">
+          <UsesControllerSwitchList name="Vib Switch" />
+        </Instrument>
+        <Instrument name="Oh XF Straight and Vib Switch mw">
+          <UsesControllerSwitchList name="Vib Switch" />
+        </Instrument>
+        <Instrument name="Oo 1s Delayed  Vibrato Looped" />
+        <Instrument name="Oo 2s Delayed  Vibrato Unlooped" />
+        <Instrument name="Oo 4s Delayed  Vibrato Unlooped" />
+        <Instrument name="Oo DV Straight Looped" />
+        <Instrument name="Oo Slider mw lfo">
+          <UsesControllerSwitchList name="LFO" />
+        </Instrument>
+        <Instrument name="Oo Slider XF Vibrato">
+          <UsesControllerSwitchList name="Slider XF" />
+        </Instrument>
+        <Instrument name="Oo Straight Looped" />
+        <Instrument name="Oo Straight Unlooped" />
+        <Instrument name="Oo Straights Layer Lp_Lp" />
+        <Instrument name="Oo Straights Layer Unlp_Lp" />
+        <Instrument name="Oo XF 2 Straights mw Vibrato">
+          <UsesControllerSwitchList name="Vib XF" />
+        </Instrument>
+        <Instrument name="Oo XF Straight and Vib Mix2 at" />
+        <Instrument name="Oo XF Straight and Vib Mix at" />
+        <Instrument name="Oo XF Straight and Vib Mix mw">
+          <UsesControllerSwitchList name="Vib XF" />
+        </Instrument>
+        <Instrument name="Oo XF Straight and Vib Switch at">
+          <UsesControllerSwitchList name="Vib Switch" />
+        </Instrument>
+        <Instrument name="Oo XF Straight and Vib Switch mw">
+          <UsesControllerSwitchList name="Vib Switch" />
+        </Instrument>
+      </Group>
+    </Section>
+    <Section name="Diva Soloist One" clef="treble">
+      <Group name="Soloist One Marcato" title="Solo Voice" abbr="Solo" lownote="c4" highnote="c5">
+        <UsesKeySwitchList name="S1 Marcato KS" />
+        <Instrument name="S1 Marc cls KS ah oh ee" />
+        <Instrument name="S1 Marc far KS ah oh ee" />
+        <Instrument name="S1 Marc far-rel KS ah oh ee" />
+        <Instrument name="Soloist 1 Marcato - ah close" />
+        <Instrument name="Soloist 1 Marcato - ah far release" />
+        <Instrument name="Soloist 1 Marcato - ah far" />
+        <Instrument name="Soloist 1 Marcato - ee close" />
+        <Instrument name="Soloist 1 Marcato - ee far release" />
+        <Instrument name="Soloist 1 Marcato - ee far" />
+        <Instrument name="Soloist 1 Marcato - oh close" />
+        <Instrument name="Soloist 1 Marcato - oh far release" />
+        <Instrument name="Soloist 1 Marcato - oh far" />
+      </Group>
+      <Group name="Soloist One Moving Vowels" title="Solo Voice" abbr="Solo" lownote="c4" highnote="c5">
+        <UsesKeySwitchList name="S1 Moving Vowels KS" />
+        <UsesControllerSwitchList name="Moving XF" />
+        <Instrument name="S1 Moving - ah nah zoe - close " />
+        <Instrument name="S1 Moving - ah nah zoe - far " />
+        <Instrument name="S1 Moving - lee mah stah - close" />
+        <Instrument name="S1 Moving - lee mah stah - far " />
+        <Instrument name="S1 Moving - voh sah loh vah - close " />
+        <Instrument name="S1 Moving - voh sah loh vah - far " />
+        <Instrument name="S1 Moving Vowels cls KS" />
+        <Instrument name="S1 Moving Vowels cls XF" />
+        <Instrument name="S1 Moving Vowels far KS" />
+        <Instrument name="S1 Moving Vowels far XF" />
+      </Group>
+      <Group name="Soloist One Syllables" title="Solo Voice" abbr="Solo" lownote="c4" highnote="c5">
+        <Instrument name="S1 Syllables - sect 1 - close" />
+        <Instrument name="S1 Syllables - sect 1 - far" />
+        <Instrument name="S1 Syllables - sect 2 - close" />
+        <Instrument name="S1 Syllables - sect 2 - far" />
+        <Instrument name="S1 Syllables - sect 3 - close" />
+        <Instrument name="S1 Syllables - sect 3 - far" />
+        <Instrument name="S1 Syllables - sect 4 - close" />
+        <Instrument name="S1 Syllables - sect 4 - far" />
+        <Instrument name="S1 Syllables All Keyswitch" />
+        <Instrument name="S1 Syllables Close Keyswitch" />
+        <Instrument name="S1 Syllables Far Keyswitch" />
+      </Group>
+    </Section>
+    <Section name="Diva Soloist Two" clef="treble">
+      <Group name="Soloist Two Marcato" title="Solo Voice" abbr="Solo" lownote="c4" highnote="c5">
+        <UsesKeySwitchList name="S2 Marcato KS" />
+        <Instrument name="S2 Marc cls KS ah oo mm" />
+        <Instrument name="S2 Marc far KS ah oo mm" />
+        <Instrument name="S2 Marc far-rel KS ah oo mm" />
+        <Instrument name="Soloist 2 Marcato - ah close" />
+        <Instrument name="Soloist 2 Marcato - ah far release" />
+        <Instrument name="Soloist 2 Marcato - ah far" />
+        <Instrument name="Soloist 2 Marcato - mm close" />
+        <Instrument name="Soloist 2 Marcato - mm far release" />
+        <Instrument name="Soloist 2 Marcato - mm far" />
+        <Instrument name="Soloist 2 Marcato - oo close" />
+        <Instrument name="Soloist 2 Marcato - oo far release" />
+        <Instrument name="Soloist 2 Marcato - oo far" />
+      </Group>
+      <Group name="Soloist Two Moving Vowels" title="Solo Voice" abbr="Solo" lownote="c4" highnote="c5">
+        <UsesKeySwitchList name="S2 Moving Vowels KS" />
+        <UsesControllerSwitchList name="Moving XF" />
+        <Instrument name="S2 Moving - loo mah sah - close " />
+        <Instrument name="S2 Moving - loo mah sah - far " />
+        <Instrument name="S2 Moving - shoh meh lah foh - close " />
+        <Instrument name="S2 Moving - shoh meh lah foh - far " />
+        <Instrument name="S2 Moving - thah nye voh - close" />
+        <Instrument name="S2 Moving - thah nye voh - far " />
+        <Instrument name="S2 Moving Vowels - cls - KS" />
+        <Instrument name="S2 Moving Vowels - cls - XF" />
+        <Instrument name="S2 Moving Vowels - far - KS" />
+        <Instrument name="S2 Moving Vowels - far - XF" />
+      </Group>
+      <Group name="Soloist Two Syllables" title="Solo Voice" abbr="Solo" lownote="c4" highnote="c5">
+        <Instrument name="S2 Syllables - section 1 - close mic" />
+        <Instrument name="S2 Syllables - section 1 - far mic" />
+        <Instrument name="S2 Syllables - section 2 - close mic" />
+        <Instrument name="S2 Syllables - section 2 - far mic" />
+        <Instrument name="S2 Syllables - section 3 - close mic" />
+        <Instrument name="S2 Syllables - section 3 - far mic" />
+        <Instrument name="S2 Syllables - section 4 - close mic" />
+        <Instrument name="S2 Syllables - section 4 - far mic" />
+        <Instrument name="S2 Syllables ALL Keyswitch" />
+        <Instrument name="S2 Syllables Close Keyswitch" />
+        <Instrument name="S2 Syllables Far Keyswitch" />
+      </Group>
+    </Section>
+    <Section name="Diva Ensembles" clef="treble">
+      <Group name="Diva Ensembles" title="Ensemble Voices" abbr="Chor." lownote="c4" highnote="a5">
+        <Instrument name="Diva Ensemble 01" />
+        <Instrument name="Diva Ensemble 02" />
+        <Instrument name="Diva Ensemble 03" />
+        <Instrument name="Diva Ensemble 04" />
+        <Instrument name="Diva Ensemble 05" />
+        <Instrument name="Diva Ensemble 06" />
+        <Instrument name="Diva Ensemble KS 1 2 3 4">
+          <UsesKeySwitchList name="Ensembles 1234 KS" />
+        </Instrument>
+        <Instrument name="Diva Ensemble KS 1 2 5 6">
+          <UsesKeySwitchList name="Ensembles 1256 KS" />
+        </Instrument>
+        <Instrument name="Diva Ensemble KS 3 4 5 6">
+          <UsesKeySwitchList name="Ensembles 3456 KS" />
+        </Instrument>
+      </Group>
+    </Section>
+    <Section name="Diva Performance Files" clef="treble">
+      <UsesKeySwitchList name="Performances KS" />
+      <Group name="Curse of the Crow" title="Solo Voice" abbr="Solo" lownote="c4" highnote="f6">
+        <Instrument name="Curse of the Crow - close mic" />
+        <Instrument name="Curse of the Crow - far mic" />
+        <Instrument name="Curse of the Crow - key all" />
+      </Group>
+      <Group name="Mournful Cry" title="Solo Voice" abbr="Solo" lownote="c4" highnote="f6">
+        <Instrument name="Mournful Cry - close mic" />
+        <Instrument name="Mournful Cry - far mic" />
+        <Instrument name="Mournful Cry - key all" />
+      </Group>
+      <Group name="Soul of Spirits" title="Solo Voice" abbr="Solo" lownote="c4" highnote="f6">
+        <Instrument name="Soul of Spirits - close mic" />
+        <Instrument name="Soul of Spirits - far mic" />
+        <Instrument name="Soul of Spirits - key all" />
+      </Group>
+      <Group name="Diva Effects" title="Solo Voice" abbr="Solo" lownote="c4" highnote="f6">
+        <Instrument name="Diva Effects" />
+      </Group>
+    </Section>
+    <Section name="Bonus File" clef="treble">
+      <Group name="Performance Harp" title="Harp" abbr="Hrp." lownote="a#1" highnote="c7">
+        <Instrument name="Performance Harp" />
+      </Group>
+    </Section>
+    <Section name="Moving Vowels Latin" clef="treble">
+      <Group name="Moving Vowels Latin" title="Solo Voice" abbr="Solo." lownote="c4" highnote="e5">
+        <Instrument name="Soloist One Dies Irae" />
+        <Instrument name="Soloist One Latin Mix" />
+        <Instrument name="Soloist One Lux Aeter Na" />
+      </Group>
+    </Section>
+  </Instruments>
+</VSTNameDocument>

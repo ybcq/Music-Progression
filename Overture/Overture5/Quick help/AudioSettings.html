@@ -1,0 +1,96 @@
+﻿<html>
+	
+<head>
+	<title>Audio Settings</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("AudioSettings");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Audio Settings</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="OvertureMenus.html">Overture Menus</a> &rsaquo;&rsaquo; <a href="AudioMIDI.html">Audio/MIDI</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="AudioMIDI.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="AudioMIDI.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="MIDISettings.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<h6 class="rvps14"><span class="rvts0"><span class="rvts22">Audio/MIDI&gt;Audio Settings</span></span></h6>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Choose this command to set the audio driver, sample rate, and buffer size for audio playback.</span></p>
+<p class="rvps2"><span class="rvts6">When you choose the Audio Settings command, an </span><span class="rvts12">Audio Settings</span><span class="rvts6"> dialog box appears. </span></p>
+<p class="rvps2"><span class="rvts6">There are several elements in the Audio Settings dialog box. These are described, below:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Audio Device Type -</span><span class="rvts6"> Use this pop-up menu to choose which Audio driver to use for your sound card. If your audio sound card has a dedicated ASIO driver, you should use this driver and not the Multimedia or DirectX(PC only) drivers.</span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Output</span><span class="rvts6"> - Use this pop-up menu to choose where to send the audio.</span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Output Channels</span><span class="rvts6"> - Choose which audio out channels to use.</span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Sample Rate -</span><span class="rvts6"> Use this pop-up menu to choose the sample rate. The sample rate determines the quality of your sound and recordings. A higher sample rate produces higher quality sound but requires more disk space and CPU usage. You may have to experiment to find the setting that works best with your setup. The options are:</span><br/><span class="rvts6"></span><br/><span class="rvts12">44.100 khz</span><span class="rvts6"> - The standard sample rate used on most audio CDs.</span><br/><span class="rvts12">48.000 khz</span><span class="rvts6"> - A common sample rate, sometimes used on DAT recorders.</span><br/><span class="rvts12">96.000 khz</span><span class="rvts6"> - A very high sample rate used for professional audio recordings.</span><br/><span class="rvts12"></span><br/><span class="rvts12">Note</span><span class="rvts6">: Not all sound cards support all these sample rates.</span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Buffer Size -</span><span class="rvts6"> Use this pop-up menu to choose the buffer size. The buffer size also determines the quality of your sound and recordings. A lower number gives better sound but requires more CPU usage.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

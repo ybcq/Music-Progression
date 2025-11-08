@@ -1,0 +1,198 @@
+<VSTNameDocument>
+	<Version>1</Version>
+	<Author>GenieSoft,Inc.</Author>
+
+	<Device name="Crystal" usesPatchNames="1" firstPatchNumber="0">
+
+		<ControllerNames>	
+			<Controller name="Programming User Defined" cc="0"/>			
+ 			<Controller name="Expression" cc="11"/>
+ 			<Controller name="Volume" cc="7"/>
+			<Controller name="Panning" cc="10"/>
+ 			<Controller name="Pedal (Sustain)" cc="64"/>
+ 			<Controller name="Modulation" cc="1"/>
+			<Controller name="Breath" cc="2"/>
+			<Controller name="Foot Controller" cc="4"/>
+			<Controller name="Portamento Time" cc="5"/>
+			<Controller name="Balance" cc="8"/>
+			<Controller name="Portamento" cc="65"/>
+			<Controller name="Pedal (Sostenuto)" cc="66"/>
+			<Controller name="Pedal (Soft)" cc="67"/>
+			<Controller name="Hold 2" cc="69"/>
+			<Controller name="External Effects Depth" cc="91"/>
+			<Controller name="Tremolo Depth" cc="92"/>
+			<Controller name="Chorus Depth" cc="93"/>
+			<Controller name="Celeste Detune Depth" cc="94"/>
+			<Controller name="Phaser Depth" cc="95"/>
+		</ControllerNames>	
+ 
+		<Instruments>
+
+			<Section name="Standard Presets" clef="treble" lownote="c-1" highnote="c9">
+				
+				<Group name="Atmosphere" title="Atmospheric Synth" abbr="Synth">
+					<Instrument name="Atmosphere" prgChg="1"/>
+					<Instrument name="Swept Away" prgChg="2"/>
+					<Instrument name="Ghost in the Synth" prgChg="3"/>
+					<Instrument name="Oyster Shell" prgChg="4"/>
+					<Instrument name="Method" prgChg="5"/>
+					<Instrument name="Siberian Night" prgChg="6"/>
+					<Instrument name="Beast Belly" prgChg="7"/>
+					<Instrument name="Strange Cries" prgChg="8"/>
+					<Instrument name="Dream of Jungle" prgChg="9"/>
+					<Instrument name="Southern Extreme" prgChg="10"/>
+					<Instrument name="Voice of the Whale" prgChg="11"/>
+				</Group>
+
+				<Group name="Vintage" title="Vintage Synth" abbr="Synth">
+					<Instrument name="Vintage" prgChg="12"/>
+					<Instrument name="Full House" prgChg="13"/>
+					<Instrument name="Bigness MW" prgChg="14"/>
+					<Instrument name="JP" prgChg="15"/>
+					<Instrument name="Off the Mark" prgChg="16"/>
+					<Instrument name="Come on Down" prgChg="17"/>
+					<Instrument name="Acid Trumpet" prgChg="18"/>
+					<Instrument name="Full of Bullets" prgChg="19"/>
+					<Instrument name="Lucky I Guess" prgChg="20"/>
+					<Instrument name="AtmoEPiano" prgChg="21"/>
+					<Instrument name="Fatness" prgChg="22"/>
+				</Group>
+
+				<Group name="Tempo Synced" title="Synth" abbr="Synth">
+					<Instrument name="Tempo Synced" prgChg="23"/>
+					<Instrument name="Move Along" prgChg="24"/>
+					<Instrument name="Labor" prgChg="25"/>
+					<Instrument name="Atomic" prgChg="26"/>
+					<Instrument name="Moon March" prgChg="27"/>
+					<Instrument name="Rave Master" prgChg="28"/>
+					<Instrument name="Potomac Toms" prgChg="29"/>
+					<Instrument name="Satuloop" prgChg="30"/>
+					<Instrument name="PongPing" prgChg="31"/>
+					<Instrument name="Rattler" prgChg="32"/>
+					<Instrument name="Edge of Table" prgChg="33"/>
+				</Group>
+
+				<Group name="Pads" title="Synth Pad" abbr="Synth">
+					<Instrument name="Pads" prgChg="34"/>
+					<Instrument name="Swirly Q" prgChg="35"/>
+					<Instrument name="Aunty Em" prgChg="36"/>
+					<Instrument name="In the Can" prgChg="37"/>
+					<Instrument name="Wider Pulse" prgChg="38"/>
+					<Instrument name="String and Ice" prgChg="39"/>
+					<Instrument name="Theatre Voice" prgChg="40"/>
+					<Instrument name="VoxEnsemble" prgChg="41"/>
+					<Instrument name="Mellow" prgChg="42"/>
+					<Instrument name="AstroStrings" prgChg="43"/>
+					<Instrument name="Saddest Strings" prgChg="44"/>
+				</Group>
+
+				<Group name="Swells" title="Synth" abbr="Synth">
+					<Instrument name="Swells" prgChg="45"/>
+					<Instrument name="Swell 1" prgChg="46"/>
+					<Instrument name="Swell 2" prgChg="47"/>
+					<Instrument name="Swell 3" prgChg="48"/>
+					<Instrument name="Swell 4" prgChg="49"/>
+					<Instrument name="Swell 5" prgChg="50"/>
+					<Instrument name="Swell 6" prgChg="51"/>
+					<Instrument name="Swell 7" prgChg="52"/>
+					<Instrument name="Swell 8" prgChg="53"/>
+					<Instrument name="Swell 9" prgChg="54"/>
+					<Instrument name="Swell 10" prgChg="55"/>
+				</Group>
+
+				<Group name="Bells" title="Bell Synth" abbr="Synth">
+					<Instrument name="Bells" prgChg="56"/>
+					<Instrument name="Space Chimes" prgChg="57"/>
+					<Instrument name="Tree" prgChg="58"/>
+					<Instrument name="Circus" prgChg="59"/>
+					<Instrument name="Gong Slave" prgChg="60"/>
+					<Instrument name="Chimney Bells" prgChg="61"/>
+					<Instrument name="Balloons" prgChg="62"/>
+					<Instrument name="Trad Bells" prgChg="63"/>
+					<Instrument name="Howl" prgChg="64"/>
+					<Instrument name="Trio" prgChg="65"/>
+					<Instrument name="Trouble" prgChg="66"/>
+				</Group>
+
+				<Group name="Ambient" title="Ambient Synth" abbr="Synth">
+					<Instrument name="Ambient" prgChg="67"/>
+					<Instrument name="Belfry Bats" prgChg="68"/>
+					<Instrument name="Haymaker" prgChg="69"/>
+					<Instrument name="Long Journey" prgChg="70"/>
+					<Instrument name="Who's In There" prgChg="71"/>
+					<Instrument name="Ping From the North" prgChg="72"/>
+					<Instrument name="Pennzoil" prgChg="73"/>
+					<Instrument name="Big Butterflys" prgChg="74"/>
+					<Instrument name="Mercury Steriods" prgChg="75"/>
+					<Instrument name="Jungle Tickle" prgChg="76"/>
+					<Instrument name="Brush With Death" prgChg="77"/>
+				</Group>
+
+				<Group name="Basses" title="Bass Synth" abbr="Synth">
+					<Instrument name="Basses" prgChg="78"/>
+					<Instrument name="Comb Bass" prgChg="79"/>
+					<Instrument name="Basso" prgChg="80"/>
+					<Instrument name="Bottle Bass" prgChg="81"/>
+					<Instrument name="Many More Times" prgChg="82"/>
+					<Instrument name="Pulse Bass" prgChg="83"/>
+					<Instrument name="At the Edge" prgChg="84"/>
+					<Instrument name="Monsters" prgChg="85"/>
+					<Instrument name="Dark Shot" prgChg="86"/>
+					<Instrument name="Enhanced FM Bass" prgChg="87"/>
+					<Instrument name="Androids R Us" prgChg="88"/>
+				</Group>
+
+				<Group name="Motifs" title="Motif Synth" abbr="Synth">
+					<Instrument name="Motifs" prgChg="89"/>
+					<Instrument name="Harmonic Motion" prgChg="90"/>
+					<Instrument name="Mushroom" prgChg="91"/>
+					<Instrument name="Sync This" prgChg="92"/>
+					<Instrument name="Midnight Run" prgChg="93"/>
+					<Instrument name="Lit Fuse" prgChg="94"/>
+					<Instrument name="Ferns Above Us" prgChg="95"/>
+					<Instrument name="Phased to Meet You" prgChg="96"/>
+					<Instrument name="Aligned Arp" prgChg="97"/>
+					<Instrument name="Red Shoes" prgChg="98"/>
+					<Instrument name="Acidified" prgChg="99"/>
+				</Group>
+
+				<Group name="Wave Sequences" title="Synth" abbr="Synth">
+					<Instrument name="Wave Sequences" prgChg="100"/>
+					<Instrument name="Antartica" prgChg="101"/>
+					<Instrument name="Crystal on Wheels" prgChg="102"/>
+					<Instrument name="Debussy" prgChg="103"/>
+					<Instrument name="Entropic" prgChg="104"/>
+					<Instrument name="40 sec Invasion" prgChg="105"/>
+					<Instrument name="By the Numbers" prgChg="106"/>
+					<Instrument name="Northern Pole" prgChg="107"/>
+					<Instrument name="Ancient Darkness" prgChg="108"/>
+					<Instrument name="SaturnScape" prgChg="109"/>
+					<Instrument name="Mirage In Motion" prgChg="110"/>
+				</Group>
+
+				<Group name="Granular" title="Granular Synth" abbr="Synth">
+					<Instrument name="Granular" prgChg="111"/>
+					<Instrument name="Hit and Run" prgChg="112"/>
+					<Instrument name="Return to Bali" prgChg="113"/>
+					<Instrument name="When Did I Know" prgChg="114"/>
+					<Instrument name="Across a Street" prgChg="115"/>
+					<Instrument name="Morning Caffeine" prgChg="116"/>
+					<Instrument name="Light From Saturn" prgChg="117"/>
+					<Instrument name="Speed Bump" prgChg="118"/>
+					<Instrument name="Deep Padding" prgChg="119"/>
+					<Instrument name="Wood Delivery" prgChg="120"/>
+					<Instrument name="Mortified" prgChg="121"/>
+					<Instrument name="Morph Source 1" prgChg="122"/>
+					<Instrument name="Morph MW" prgChg="123"/>
+					<Instrument name="Morph Source 2" prgChg="124"/>
+				</Group>
+	
+			</Section>
+
+			<Section name="Crystal User Banks" clef="treble" lownote="c-1" highnote="c9">
+			</Section>
+
+		</Instruments>
+	</Device>
+	
+</VSTNameDocument>

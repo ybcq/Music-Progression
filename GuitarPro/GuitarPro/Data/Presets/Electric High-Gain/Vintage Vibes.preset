@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<variation version="1.0">
+<description><name>Variation 0</name></description> 
+<slots>
+<slot index="0" effect="E06_DistortionRat" bypass="0" >
+<parameters><parameter id="0" value="0.68"/>
+<parameter id="1" value="0.64"/>
+<parameter id="2" value="0.82"/>
+</parameters>
+</slot>
+<slot index="1" effect="A03_ComboAmericanTweed" bypass="0" >
+<parameters><parameter id="0" value="0.65"/>
+<parameter id="1" value="0.18"/>
+<parameter id="2" value="0.63"/>
+<parameter id="3" value="0.78"/>
+<parameter id="4" value="0.62"/>
+</parameters>
+</slot>
+<slot index="2" effect="E22_VibratoVibe" bypass="0" >
+<parameters><parameter id="0" value="0"/>
+<parameter id="1" value="0.65"/>
+<parameter id="2" value="1"/>
+</parameters>
+</slot>
+</slots>
+</variation>

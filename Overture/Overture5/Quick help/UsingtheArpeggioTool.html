@@ -1,0 +1,94 @@
+﻿<html>
+	
+<head>
+	<title>Using the Arpeggio Tool</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("UsingtheArpeggioTool");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Using the Arpeggio Tool</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="SymbolPalettes.html">Symbol Palettes</a> &rsaquo;&rsaquo; <a href="ArticulationsPalette.html">Articulations Palette</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="ArticulationsPalette.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="UsingtheArticulationsPalette.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="UsingtheTremoloTool.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<p class="rvps2"><span class="rvts6">To insert an arpeggio:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Select the arpeggio tool from the Articulations palette.</span></span><br/><span class="rvts0"><span class="rvts6">The cursor becomes a cross hair when you move it over the Score View. </span></span></li>
+<li value="2" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Click any note in a chord.</span></span><br/><span class="rvts0"><span class="rvts6">Overture places an arpeggio mark to the left of the chord that spans the entire length of the chord. </span></span></li>
+<li value="3" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">If you need to move the arpeggio symbol, drag the top of it to a new location.</span></span><br/><span class="rvts0"><span class="rvts6">Overture repositions the arpeggio wherever you release the mouse button. </span></span></li>
+<li value="4" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">If you need to resize an arpeggio, drag the bottom of it to the desired length. </span></span></li>
+</ol>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Overture lengthens or shortens the wavy arpeggio line when you release the mouse button.</span></p>
+<p class="rvps2"><span class="rvts6">If you add notes to or delete notes from an arpeggiated chord, Overture automatically resizes the arpeggio to span the entire length of the chord.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

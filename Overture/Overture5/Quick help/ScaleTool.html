@@ -1,0 +1,128 @@
+﻿<html>
+	
+<head>
+	<title>Scale Tool</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("ScaleTool");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Scale Tool</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="GettingStarted.html">Getting Started</a> &rsaquo;&rsaquo; <a href="MainScoreWindow.html">Main Score Window</a> &rsaquo;&rsaquo; <a href="TheControlbar.html">The Control bar</a> &rsaquo;&rsaquo; <a href="SelectionButton.html">Selection Button</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="SelectionButton.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="HandTool.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="ZoomTool.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<p class="rvps2"><span class="rvts6">Select the Scale Tool menu option under the Selection button to select the Scale tool. The cursor becomes a percent sign () when you move it over the Score View. Use the Scale tool to resize notes, staves, clefs and dynamics.</span></p>
+<p class="rvps2"><span class="rvts6">To use the Scale tool:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Click the Scale button. </span></span></li>
+<li value="2" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">In the Score View, select the staff, notes, clef or dynamics you wish to scale.</span></span><br/><span class="rvts0"><span class="rvts6">Overture produces the Set Scale Factor dialog box. </span></span></li>
+<li value="3" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Enter the desired scale factor in the dialog box and click the </span></span><span class="rvts0"><span class="rvts12">OK</span></span><span class="rvts0"><span class="rvts6"> button.</span></span><br/><span class="rvts0"><span class="rvts6">Overture scales the selected symbol(s) by the indicated factor. </span></span></li>
+</ol>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Scaling Staves</span></p>
+<p class="rvps2"><span class="rvts6">It is sometimes desirable to create auxiliary staves that are smaller than other staves. Auxiliary staves are often used in chamber music as “cue” lines, showing what all the instruments are playing. Auxiliary staves are also used to notate suggested alternatives, corrections or embellishments to a section of the score. Overture allows you to scale staves from 25% to 250% of their normal size. To do so:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Using the Scale tool, drag a rectangle around the left edge of the staff.</span></span></li>
+<li value="2" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Select a scale factor in the Scale Factor dialog box, then click the </span></span><span class="rvts0"><span class="rvts12">OK</span></span><span class="rvts0"><span class="rvts6"> button.</span></span><br/><span class="rvts0"><span class="rvts6">Overture scales the selected staff (and all musical symbols on that staff) by the indicated factor. </span></span></li>
+</ol>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Scaling Multiple Staves</span></p>
+<p class="rvps2"><span class="rvts6">You can scale multiple staves by dragging a rectangle around the left edge of the staves you want scaled. </span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Scaling Notes</span></p>
+<p class="rvps2"><span class="rvts6">Sometimes alternate passages aren’t notated on a separate staff, but on the same staff as the main score. This is common in popular vocal music when repeated sections have slightly different melody lines. To indicate the alternate passage, use small notes. Overture allows you to scale notes from 25% to 250% of their normal size. To do so:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Using the Scale tool, click a note or drag a rectangle around a group of notes.</span></span><br/><span class="rvts0"><span class="rvts6">Overture opens the Set Scale Factor dialog box. </span></span></li>
+<li value="2" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Select a scale factor in the Scale Factor dialog box and click the </span></span><span class="rvts0"><span class="rvts12">OK</span></span><span class="rvts0"><span class="rvts6"> button.</span></span><br/><span class="rvts0"><span class="rvts6">Overture scales the selected note(s) by the indicated factor. </span></span></li>
+</ol>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">It’s also common to use small notes to indicate rapid note passages or other types of melodic ornamentation.</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Scaling Clefs</span></p>
+<p class="rvps2"><span class="rvts6">To scale clefs:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Using the Scale tool, click a clef.</span></span><br/><span class="rvts0"><span class="rvts6">You cannot scale the first clef in a score; you can only scale clefs in the middle of a score. </span></span></li>
+<li value="2" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Select a scale factor in the Scale Factor dialog box and click the </span></span><span class="rvts0"><span class="rvts12">OK</span></span><span class="rvts0"><span class="rvts6"> button.</span></span><br/><span class="rvts0"><span class="rvts6">Overture scales the selected clef by the indicated factor. </span></span></li>
+</ol>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Scaling Dynamics</span></p>
+<p class="rvps2"><span class="rvts6">Sometimes different voices on a staff have different dynamics levels. You can scale the various dynamic markings to indicate more clearly which dynamics refer to which voice. To do so:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Using the Scale tool, click a dynamics marking (or draw a rectangle around a group of dynamics). </span></span></li>
+<li value="2" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Select a scale factor in the Scale Factor dialog box and click the </span></span><span class="rvts0"><span class="rvts12">OK</span></span><span class="rvts0"><span class="rvts6"> button.</span></span><br/><span class="rvts0"><span class="rvts6">Overture scales the selected dynamic(s) by the indicated factor. </span></span></li>
+</ol>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

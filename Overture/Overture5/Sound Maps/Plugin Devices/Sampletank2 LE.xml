@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTNameDocument name="SampleTank2 LE">
+  <Version>1.x</Version>
+  <Author>Sonic Scores</Author>
+  <Device name="SampleTank2 LE" usesPatchNames="1" firstPatchNumber="0" />
+  <ControllerNames>
+    <Controller name="Expression" cc="11" />
+    <Controller name="Volume" cc="7" />
+    <Controller name="Panning" cc="10" />
+    <Controller name="Sustain" cc="64" />
+    <Controller name="Modulation" cc="1" />
+  </ControllerNames>
+  <Instruments>
+    <Section name="OmniSynth GM Bank (with Auto-Load)" clef="treble" lownote="c-1" highnote="c9">
+      <Group name="001-8 Pianos">
+        <Instrument name="1-Grand Piano Dry" title="Piano" abbr="Pf." prgChg="1" />
+        <Instrument name="2-Bright Piano Dry" title="Piano" abbr="Pf." prgChg="2" />
+        <Instrument name="3-Electric Grand Dry" title="Piano" abbr="Pf." prgChg="3" />
+        <Instrument name="4-Honky-Tonk Dry" title="Piano" abbr="Pf." prgChg="4" />
+        <Instrument name="5-EP Rhodes Dry" title="Electric Piano" abbr="ElPf." prgChg="5" />
+        <Instrument name="6-EP 2 FM Dry" title="Electric Piano" abbr="ElPf." prgChg="6" />
+        <Instrument name="7-Harpsichord Dry" title="Harpsichord" abbr="Hpd." prgChg="7" />
+        <Instrument name="8-Clavinet D6 Dry" title="Clavinet" abbr="Clav." prgChg="8" />
+      </Group>
+      <Group name="009-16 Chromatic Percussion">
+        <Instrument name="9-Celeste Dry" title="Celeste" abbr="Cel." prgChg="9" transpose="-12" pitchOffset="12" />
+        <Instrument name="10-Glockenspiel Dry" title="Glockenspiel" abbr="Glsp." prgChg="10" transpose="-24" pitchOffset="24" />
+        <Instrument name="11-Music Box Dry" title="Music Box" abbr="MscBx." prgChg="11" />
+        <Instrument name="12-Vibraphone Dry" title="Vibraphone" abbr="Vibes" prgChg="12" />
+        <Instrument name="13-Marimba Dry" title="Marimba" abbr="Mba." clef="grandStaff" prgChg="13" />
+        <Instrument name="14-Xylophone Dry" title="Xylophone" abbr="Xylo." prgChg="14" transpose="-12" pitchOffset="12" />
+        <Instrument name="15-Tubular Bells Dry" title="Tubular Bells" abbr="Bells" prgChg="15" />
+        <Instrument name="16-Dulcimer Dry" title="Dulcimer" abbr="Dulc." prgChg="16" />
+      </Group>
+      <Group name="017-24 Organs">
+        <Instrument name="17-Drawbar Organ Dry" title="Drawbar Organ" abbr="Org." prgChg="17" />
+        <Instrument name="18-Perc Organ Dry" title="Perc Organ" abbr="Org." prgChg="18" />
+        <Instrument name="19-Rock Organ Dry" title="Rock Organ" abbr="Org." prgChg="19" />
+        <Instrument name="20-Church Organ Dry" title="Church Organ" abbr="Org." prgChg="20" />
+        <Instrument name="21-Reed Organ Dry" title="Reed Organ" abbr="Org." prgChg="21" />
+        <Instrument name="22-Accordian Dry" title="Accordian" abbr="Acn." prgChg="22" />
+        <Instrument name="23-Harmonica Dry" title="Harmonica" abbr="Hca." prgChg="23" />
+        <Instrument name="24-Tango Accordian Dry" title="Tango Accordian" abbr="Acn." prgChg="24" />
+      </Group>
+      <Group name="025-32 Guitars">
+        <Instrument name="25-Ac. GTR (Nylon) Dry" title="Acoustic Guitar" abbr="Gtr." prgChg="25" />
+        <Instrument name="26-Ac. GTR (Steel) Dry" title="Acoustic Guitar" abbr="Gtr." prgChg="26" />
+        <Instrument name="27-Jazz Guitar Dry" title="Electric Guitar" abbr="Gtr." prgChg="27" />
+        <Instrument name="28-Clean Electric Gtr Dry" title="Electric Guitar" abbr="Gtr." prgChg="28" />
+        <Instrument name="29-Mute Electric Gtr Dry" title="Electric Guitar" abbr="Gtr." prgChg="29" />
+        <Instrument name="30-Overdriven Gtr Dry" title="Electric Guitar" abbr="Gtr." prgChg="30" />
+        <Instrument name="31-Distortion Gtr Dry" title="Electric Guitar" abbr="Gtr." prgChg="31" />
+        <Instrument name="32-Gtr Harmonics Dry" title="Electric Guitar" abbr="Gtr." prgChg="32" />
+      </Group>
+      <Group name="033-40 Basses">
+        <Instrument name="33-Upright Bass Dry" title="Upright Bass" abbr="BGtr." clef="bass" prgChg="33" />
+        <Instrument name="34-Finger El. Bass Dry" title="Electric Bass" abbr="BGtr." clef="bass" prgChg="34" />
+        <Instrument name="35-Picked El. Bass Dry" title="Electric Bass" abbr="BGtr." clef="bass" prgChg="35" />
+        <Instrument name="36-Fretless Bass Dry" title="Fretless Bass" abbr="BGtr." clef="bass" prgChg="36" />
+        <Instrument name="37-Slap Bass 1 Dry" title="Slap Bass" abbr="BGtr." clef="bass" prgChg="37" />
+        <Instrument name="38-Slap Bass 2 Dry" title="Slap Bass" abbr="BGtr." clef="bass" prgChg="38" />
+        <Instrument name="39-Synth Bass 1 Dry" title="Synth Bass" abbr="Synth." clef="bass" prgChg="39" />
+        <Instrument name="40-Synth Bass 2 Dry" title="Synth Bass" abbr="Synth." clef="bass" prgChg="40" />
+      </Group>
+      <Group name="041-48 Strings">
+        <Instrument name="41-Violin Dry" title="Violin" abbr="Vn." prgChg="41" />
+        <Instrument name="42-Viola Dry" title="Viola" abbr="Vl." clef="alto" prgChg="42" />
+        <Instrument name="43-Cello Dry" title="Cello" abbr="Vc." clef="bass" prgChg="43" />
+        <Instrument name="44-Contrabass Dry" title="Double Bass" abbr="Db." clef="bass" pitchOffset="-12" prgChg="44" />
+        <Instrument name="45-Tremelo Strings Dry" title="Tremelo Strings" abbr="Str." prgChg="45" />
+        <Instrument name="46-Pizzicato Strings Dry" title="Pizzicato Strings" abbr="Pizz." prgChg="46" />
+        <Instrument name="47-Harp Dry" title="Harp" abbr="Hrp." prgChg="47" />
+        <Instrument name="48-Timpani Dry" title="Timpani" abbr="Timp." clef="bass" prgChg="48" />
+      </Group>
+      <Group name="049-56 Ensembles">
+        <Instrument name="49-String Ensemble 1 Dry" title="String Ens. 1" abbr="Str 1." prgChg="49" />
+        <Instrument name="50-String Ensemble 2 Dry" title="String Ens. 2" abbr="Str 2." prgChg="50" />
+        <Instrument name="51-Synth Strings 1 Dry" title="Synth Strings 1" abbr="Synth." prgChg="51" />
+        <Instrument name="52-Synth Strings 2 Dry" title="Synth Strings 2" abbr="Synth." prgChg="52" />
+        <Instrument name="53-Choir Aahs Dry" title="Choir" abbr="Chor." prgChg="53" />
+        <Instrument name="54-Voice Oohs Dry" title="Choir" abbr="Chor." prgChg="54" />
+        <Instrument name="55-Synth Voice Dry" title="Synth Voice" abbr="Synth." prgChg="55" />
+        <Instrument name="56-Orchestra Hit Dry" title="Orchestra Hit" abbr="OrchHit." prgChg="56" />
+      </Group>
+      <Group name="057-64 Brass">
+        <Instrument name="57-Trumpet Dry" title="Trumpet" abbr="Tpt." prgChg="57" />
+        <Instrument name="58-Trombone Dry" title="Trombone" abbr="Tbn." clef="bass" prgChg="58" />
+        <Instrument name="59-Tuba Dry" title="Tuba" abbr="Tba." prgChg="59" />
+        <Instrument name="60-Muted Trumpet Dry" title="Muted Trumpet" abbr="Tpt." prgChg="60" />
+        <Instrument name="61-French Horn Dry" title="French Horn" abbr="FHn." transpose="7" pitch="-7" prgChg="61" />
+        <Instrument name="62-Brass Section Dry" title="Brass Section" abbr="Brass." prgChg="62" />
+        <Instrument name="63-Synth Brass 1 Dry" title="Synth Brass 1" abbr="Synth." prgChg="63" />
+        <Instrument name="64-Synth Brass 2 Dry" title="Synth Brass 2" abbr="Synth." prgChg="64" />
+      </Group>
+      <Group name="065-72 Reeds">
+        <Instrument name="65-Soprano Sax Dry" title="Soprano Sax" abbr="SSx." transpose="2" pitch="-2" prgChg="65" />
+        <Instrument name="66-Alto Sax Dry" title="Alto Sax" abbr="ASx." transpose="9" pitch="-9" prgChg="66" />
+        <Instrument name="67-Tenor Sax Dry" title="Tenor Sax" abbr="TSx." transpose="14" pitch="-14" prgChg="67" />
+        <Instrument name="68-Baritone Sax Dry" title="Baritone Sax" transpose="21" pitch="-21" abbr="BarSx." prgChg="68" />
+        <Instrument name="69-Oboe Dry" title="Oboe" abbr="Ob." prgChg="69" />
+        <Instrument name="70-English Horn Dry" title="English Horn" abbr="EHn." transpose="7" pitch="-7" prgChg="70" />
+        <Instrument name="71-Bassoon Dry" title="Bassoon" abbr="Bn." clef="bass" prgChg="71" />
+        <Instrument name="72-Clarinet Dry" title="Clarinet" abbr="Cl." transpose="2" pitch="-2" prgChg="72" />
+      </Group>
+      <Group name="073-80 Pipes">
+        <Instrument name="73-Piccolo Dry" title="Piccolo" abbr="PicFl." pitchOffset="12" prgChg="73" />
+        <Instrument name="74-Flute Dry" title="Flute" abbr="Fl." prgChg="74" />
+        <Instrument name="75-Recorder Dry" title="Recorder" abbr="Rec." prgChg="75" />
+        <Instrument name="76-Pan Flute Dry" title="Pan Flute" abbr="Fl." prgChg="76" />
+        <Instrument name="77-Blown Bottle Dry" title="Blown Bottle" abbr="Bottle" prgChg="77" />
+        <Instrument name="78-Shakuhachi Dry" title="Shakuhachi" abbr="Shk." prgChg="78" />
+        <Instrument name="79-Human Whistle Dry" title="Whistle" abbr="Whstl." prgChg="79" />
+        <Instrument name="80-Ocarina Dry" title="Ocarina" abbr="Ocr." prgChg="80" />
+      </Group>
+      <Group name="081-88 Synth Leads">
+        <Instrument name="81-Square Lead Dry" title="Synth Lead" abbr="Synth." prgChg="81" />
+        <Instrument name="82-Saw Lead Dry" title="Synth Lead" abbr="Synth." prgChg="82" />
+        <Instrument name="83-Calliope Lead Dry" title="Synth Lead" abbr="Synth." prgChg="83" />
+        <Instrument name="84-Chiff Lead Dry" title="Synth Lead" abbr="Synth." prgChg="84" />
+        <Instrument name="85-Distorted Lead Dry" title="Synth Lead" abbr="Synth." prgChg="85" />
+        <Instrument name="86-Airvox Lead Dry" title="Synth Lead" abbr="Synth." prgChg="86" />
+        <Instrument name="87-Fifths Lead Dry" title="Synth Lead" abbr="Synth." prgChg="87" />
+        <Instrument name="88-Bass Lead Dry" title="Synth Lead" abbr="Synth." prgChg="88" />
+      </Group>
+      <Group name="089-96 Synth Pads">
+        <Instrument name="89-Pad 1 (New Age) Dry" title="Synth Pad" abbr="Synth." prgChg="89" />
+        <Instrument name="90-Pad 2 (Warm) Dry" title="Synth Pad" abbr="Synth." prgChg="90" />
+        <Instrument name="91-Pad 3 (Polysynth) Dry" title="Synth Pad" abbr="Synth." prgChg="91" />
+        <Instrument name="92-Pad 4 (Space) Dry" title="Synth Pad" abbr="Synth." prgChg="92" />
+        <Instrument name="93-Pad 5 (Glass) Dry" title="Synth Pad" abbr="Synth." prgChg="93" />
+        <Instrument name="94-Pad 6 (Metallic) Dry" title="Synth Pad" abbr="Synth." prgChg="94" />
+        <Instrument name="95-Pad 7 (Halo) Dry" title="Synth Pad" abbr="Synth." prgChg="95" />
+        <Instrument name="96-Pad 8 (Sweep) Dry" title="Synth Pad" abbr="Synth." prgChg="96" />
+      </Group>
+      <Group name="097-104 Synth Effects">
+        <Instrument name="97-FX (Ice) Dry" title="Rain FX" abbr="SFx." prgChg="97" />
+        <Instrument name="98-FX (Soundtrack) Dry" title="Effects" abbr="SFx." prgChg="98" />
+        <Instrument name="99-FX (Crystal) Dry" title="Effects" abbr="SFx." prgChg="99" />
+        <Instrument name="100-FX (Atmosphere) Dry" title="Effects" abbr="SFx." prgChg="100" />
+        <Instrument name="101-FX (Brightness) Dry" title="Effects" abbr="SFx." prgChg="101" />
+        <Instrument name="102-FX (Goblins) Dry" title="Effects" abbr="SFx." prgChg="102" />
+        <Instrument name="103-FX (Echoes) Dry" title="Effects" abbr="SFx." prgChg="103" />
+        <Instrument name="104-FX (Sci-Fi) Dry" title="Effects" abbr="SFx." prgChg="104" />
+      </Group>
+      <Group name="105-112 Ethnic">
+        <Instrument name="105-Sitar Dry" title="Sitar" abbr="Sit." prgChg="105" />
+        <Instrument name="106-Banjo Dry" title="Banjo" abbr="Bjo." prgChg="106" />
+        <Instrument name="107-Shamisen Dry" title="Shamisen" abbr="Shami." prgChg="107" />
+        <Instrument name="108-Koto Dry" title="Koto" abbr="Koto" prgChg="108" />
+        <Instrument name="109-Kalimba Dry" title="Kalimba" abbr="Kali." prgChg="109" />
+        <Instrument name="110-Bagpipe Dry" title="Bagpipe" abbr="Pipes." prgChg="110" />
+        <Instrument name="111-Fiddle Dry" title="Fiddle" abbr="Fdl." prgChg="111" />
+        <Instrument name="112-Shehnai Dry" title="Shehnai" abbr="Sheh." prgChg="112" />
+      </Group>
+      <Group name="113-120 Percussive">
+        <Instrument name="113-TinkerBell Dry" title="Tinker Bell" abbr="Bells." prgChg="113" />
+        <Instrument name="114-Agogo Bells Dry" title="Agogo Bells" abbr="Bells." prgChg="114" />
+        <Instrument name="115-Steeldrum Dry" title="Steel Drum" abbr="StlDr." prgChg="115" />
+        <Instrument name="116-WoodBlock Dry" title="Wood Block" abbr="Perc." prgChg="116" />
+        <Instrument name="117-Taiko Drums Dry" title="Taiko Drums" abbr="Taikos." clef="bass" prgChg="117" />
+        <Instrument name="118-Melodic Toms Dry" title="Toms" abbr="Perc." prgChg="118" />
+        <Instrument name="119-Synth Toms Dry" title="Synth Toms" abbr="Synth." prgChg="119" />
+        <Instrument name="120-Reverse Cymbal Dry" title="Cymbal" abbr="Cym." prgChg="120" />
+      </Group>
+      <Group name="121-128 Sound Effects">
+        <Instrument name="121-Guitar Fret Noise Dry" title="Guitar Fx" abbr="Gtr." prgChg="121" />
+        <Instrument name="122-Human Breath Dry" title="Breath Fx" abbr="SFx." prgChg="122" />
+        <Instrument name="123-Seashore Dry" title="Seashore Fx" abbr="SFx." prgChg="123" />
+        <Instrument name="124-Bird Tweet Dry" title="Bird Tweet" abbr="SFx." prgChg="124" />
+        <Instrument name="125-Telephone Dry" title="Telephone Fx" abbr="SFx." prgChg="125" />
+        <Instrument name="126-Helicopter Dry" title="Helecopter Fx" abbr="SFx." prgChg="126" />
+        <Instrument name="127-Applause Dry" title="Applause SFx" abbr="SFx." prgChg="127" />
+        <Instrument name="128-Gun Shots Dry" title="Gun Shot SFx" abbr="SFx." prgChg="128" />
+      </Group>
+    </Section>
+    <Section name="Acoustic Guitar Capsule" clef="treble">
+      <Group name="Larivee acoustic">
+        <Instrument name="LariV 3D Perf1 FX1" title="Larivee" prgChg="1" />
+        <Instrument name="LariV 3D Perf1 FX2" title="Larivee" prgChg="2" />
+        <Instrument name="LariV 3D Perf2 FX1" title="Larivee" prgChg="3" />
+        <Instrument name="LariV 3D Perf2 FX2" title="Larivee" prgChg="4" />
+        <Instrument name="LariV 3D Perf3 FX1" title="Larivee" prgChg="5" />
+        <Instrument name="LariV 3D Perf3 FX3" title="Larivee" prgChg="6" />
+        <Instrument name="LariV 3D Perf4sld fx1" title="Larivee" prgChg="7" />
+        <Instrument name="LariV 3D Perf4sld FX2" title="Larivee" prgChg="8" />
+        <Instrument name="LariV 3D Perf5" title="Larivee" prgChg="9" />
+        <Instrument name="LariV 3D Pickd FX1" title="Larivee" prgChg="10" />
+        <Instrument name="LariV 3D Pickd FX2" title="Larivee" prgChg="11" />
+        <Instrument name="LariV F Pickd FX1" title="Larivee" prgChg="12" />
+        <Instrument name="LariV F Pickd FX2" title="Larivee" prgChg="13" />
+        <Instrument name="LariV FF Pickd FX1" title="Larivee" prgChg="14" />
+        <Instrument name="LariV FF Pickd FX2" title="Larivee" prgChg="15" />
+        <Instrument name="LariV Fing 2D FX1" title="Larivee" prgChg="16" />
+        <Instrument name="LariV Fing 2D FX2" title="Larivee" prgChg="17" />
+        <Instrument name="LariV Fing F flt FX1" title="Larivee" prgChg="18" />
+        <Instrument name="LariV Fing F flt FX2" title="Larivee" prgChg="19" />
+        <Instrument name="LariV Fing F FX1" title="Larivee" prgChg="20" />
+        <Instrument name="LariV Fing F FX2" title="Larivee" prgChg="21" />
+        <Instrument name="LariV Fing M FX1" title="Larivee" prgChg="22" />
+        <Instrument name="LariV Fing M FX2" title="Larivee" prgChg="23" />
+        <Instrument name="LariV Hrmnx 2D FX1" title="Larivee" prgChg="24" />
+        <Instrument name="LariV Hrmnx 2D FX2" title="Larivee" prgChg="25" />
+        <Instrument name="LariV Hrmnx F FX1" title="Larivee" prgChg="26" />
+        <Instrument name="LariV Hrmnx F FX2" title="Larivee" prgChg="27" />
+        <Instrument name="LariV Hrmnx P FX1" title="Larivee" prgChg="28" />
+        <Instrument name="LariV Hrmnx P FX2" title="Larivee" prgChg="29" />
+        <Instrument name="LariV MF Pickd FX1" title="Larivee" prgChg="30" />
+        <Instrument name="LariV MF Pickd FX2" title="Larivee" prgChg="31" />
+        <Instrument name="LariV Mute 3Dpck FX1" title="Larivee" prgChg="32" />
+        <Instrument name="LariV Mute 3Dpck FX2" title="Larivee" prgChg="33" />
+        <Instrument name="LariV Mute F FX1" title="Larivee" prgChg="34" />
+        <Instrument name="LariV Mute F FX2" title="Larivee" prgChg="35" />
+        <Instrument name="LariV Mute M FX1" title="Larivee" prgChg="36" />
+        <Instrument name="LariV Mute M FX2" title="Larivee" prgChg="37" />
+        <Instrument name="LariV Muted FX1" title="Larivee" prgChg="38" />
+        <Instrument name="LariV Muted FX2" title="Larivee" prgChg="39" />
+        <Instrument name="LariV SlideUps FX1" title="Larivee" prgChg="40" />
+        <Instrument name="LariV SlideUps FX2" title="Larivee" prgChg="41" />
+        <Instrument name="Lariv MtStrum1" title="Larivee" prgChg="42" />
+        <Instrument name="Lariv MtStrum2" title="Larivee" prgChg="43" />
+        <Instrument name="Lariv MtStrumenu" title="Larivee" prgChg="44" />
+        <Instrument name="Lariv MutesNZ" title="Larivee" prgChg="45" />
+        <Instrument name="Lariv Noises 1" title="Larivee" prgChg="46" />
+        <Instrument name="Lariv Noises 2" title="Larivee" prgChg="47" />
+        <Instrument name="Lariv PrfElem" title="Larivee" prgChg="48" />
+        <Instrument name="Lariv PrfElemlite" title="Larivee" prgChg="49" />
+        <Instrument name="Lariv Knock" title="Larivee" prgChg="50" />
+      </Group>
+      <Group name="Martin 12 string">
+        <Instrument name="Martn 12 2D FX1" title="Martin 12 string" prgChg="51" />
+        <Instrument name="Martn 12 2D FX2" title="Martin 12 string" prgChg="52" />
+        <Instrument name="Martn 12 F FX1" title="Martin 12 string" prgChg="53" />
+        <Instrument name="Martn 12 F FX2" title="Martin 12 string" prgChg="54" />
+        <Instrument name="Martn 12 P FX1" title="Martin 12 string" prgChg="55" />
+        <Instrument name="Martn 12 P FX2" title="Martin 12 string" prgChg="56" />
+      </Group>
+      <Group name="Martin 6 string">
+        <Instrument name="Martn 6 Steel 2D FX1" title="Martin" prgChg="57" />
+        <Instrument name="Martn 6 Steel 2D FX2" title="Martin" prgChg="58" />
+        <Instrument name="Martn 6 Steel F FX1" title="Martin" prgChg="59" />
+        <Instrument name="Martn 6 Steel F FX2" title="Martin" prgChg="60" />
+        <Instrument name="Martn 6 Steel MF FX1" title="Martin" prgChg="61" />
+        <Instrument name="Martn 6 Steel MF FX2" title="Martin" prgChg="62" />
+        <Instrument name="Mtn6 FngHrmnx 2D FX1" title="Martin" prgChg="63" />
+        <Instrument name="Mtn6 FngHrmnx 2D FX2" title="Martin" prgChg="64" />
+        <Instrument name="Mtn6 FngHrmnxF FX1" title="Martin" prgChg="65" />
+        <Instrument name="Mtn6 FngHrmnxF" title="Martin" prgChg="66" />
+        <Instrument name="Mtn6 Fng HrmnxM FX2" title="Martin" prgChg="67" />
+        <Instrument name="Mtn6 FngHrmnxM FX1" title="Martin" prgChg="68" />
+        <Instrument name="Mtn6 FngHrmRv2D FX1" title="Martin" prgChg="69" />
+        <Instrument name="Mtn6 FngHrmRv2D FX2" title="Martin" prgChg="70" />
+        <Instrument name="Martn Noises" title="Martin" prgChg="71" />
+      </Group>
+      <Group name="Classic nylon-string">
+        <Instrument name="Nylon Classic FX1" title="Nylon string" prgChg="72" />
+        <Instrument name="Nylon Classic FX2" title="Nylon string" prgChg="73" />
+        <Instrument name="Nylon Cust2 wHarm FX1" title="Nylon string" prgChg="74" />
+        <Instrument name="Nylon Cust2 wHarm FX2" title="Nylon string" prgChg="75" />
+        <Instrument name="Nylon Custom 1 FX1" title="Nylon string" prgChg="76" />
+        <Instrument name="Nylon Custom 1 FX2" title="Nylon string" prgChg="77" />
+      </Group>
+      <Group name="Taylor acoustic">
+        <Instrument name="Taylr Acstc 3D FX1" title="Taylor" prgChg="78" />
+        <Instrument name="Taylr Acstc 3D FX2" title="Taylor" prgChg="79" />
+        <Instrument name="Taylr Acstc F Dn FX1" title="Taylor" prgChg="80" />
+        <Instrument name="Taylr Acstc F Dn FX2" title="Taylor" prgChg="81" />
+        <Instrument name="Taylr Acstc M Dn FX1" title="Taylor" prgChg="82" />
+        <Instrument name="Taylr Acstc M Dn" title="Taylor" prgChg="83" />
+        <Instrument name="Taylr Acstc Mute FX1" title="Taylor" prgChg="84" />
+        <Instrument name="Taylr Acstc Mute FX2" title="Taylor" prgChg="85" />
+        <Instrument name="Taylr Acstc P Dn FX1" title="Taylor" prgChg="86" />
+        <Instrument name="Taylr Acstc P Dn FX2" title="Taylor" prgChg="87" />
+        <Instrument name="Taylr Bridge Shrt FX1" title="Taylor" prgChg="88" />
+        <Instrument name="Taylr Bridge Shrt FX2" title="Taylor" prgChg="89" />
+        <Instrument name="Taylr Capo FstA FX1" title="Taylor" prgChg="90" />
+        <Instrument name="Taylr Capo FstA FX2" title="Taylor" prgChg="91" />
+        <Instrument name="Taylr Capo FstB FX1" title="Taylor" prgChg="92" />
+        <Instrument name="Taylr Capo FstB FX2" title="Taylor" prgChg="93" />
+        <Instrument name="Taylr Finger 2D FX1" title="Taylor" prgChg="94" />
+        <Instrument name="Taylr Finger 2D FX2" title="Taylor" prgChg="95" />
+        <Instrument name="Taylr Finger F FX1" title="Taylor" prgChg="96" />
+        <Instrument name="Taylr Finger F FX2" title="Taylor" prgChg="97" />
+        <Instrument name="Taylr Finger M FX1" title="Taylor" prgChg="98" />
+        <Instrument name="Taylr Finger M FX2" title="Taylor" prgChg="99" />
+        <Instrument name="Taylr Harm F FX1" title="Taylor" prgChg="100" />
+        <Instrument name="Taylr Harm F FX2" title="Taylor" prgChg="101" />
+        <Instrument name="Taylr Harm P FX1" title="Taylor" prgChg="102" />
+        <Instrument name="Taylr Harm P FX2" title="Taylor" prgChg="103" />
+        <Instrument name="Taylr Hrmnx 2D FX1" title="Taylor" prgChg="104" />
+        <Instrument name="Taylr Hrmnx 2D FX2" title="Taylor" prgChg="105" />
+        <Instrument name="Taylr Med Harmnx FX1" title="Taylor" prgChg="106" />
+        <Instrument name="Taylr Med Harmnx FX2" title="Taylor" prgChg="107" />
+        <Instrument name="Taylr fing slides" title="Taylor" prgChg="108" />
+        <Instrument name="Taylr noises" title="Taylor" prgChg="109" />
+      </Group>
+      <Group name="Warm nylon-string">
+        <Instrument name="Warm Nylon FX1" title="Warm nylon" prgChg="110" />
+        <Instrument name="Warm Nylon FX2" title="Warm nylon" prgChg="111" />
+      </Group>
+    </Section>
+    <Section name="Percussion Bank 128" abbr="Std." bank="128" lownote="c-1" highnote="c9">
+      <Instrument name="Standard-0" prgChg="1" />
+      <Instrument name="Marching Drums" title="Marching Drums" abbr="M.D." prgChg="2" />
+      <Instrument name="Standard-8" prgChg="9" />
+      <Instrument name="Standard-16" prgChg="17" />
+      <Instrument name="Standard-32" prgChg="33" />
+      <Instrument name="Standard-40" prgChg="41" />
+      <Instrument name="Orchestra" prgChg="49" />
+    </Section>
+    <Section name="Other Libraries"></Section>
+  </Instruments>
+</VSTNameDocument>

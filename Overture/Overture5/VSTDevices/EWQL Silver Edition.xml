@@ -1,0 +1,1098 @@
+<VSTNameDocument>
+	<Version>1</Version>
+	<Author>GenieSoft,Inc.</Author>
+
+	<Device name="EWQLSO Silver Edition">
+	
+	<ArticulationNames>			
+				<Articulation name="Marcato" velocityAdd="10" durationPct="90"/>
+				<Articulation name="Marcato Dot" velocityAdd="15" durationPct="50"/>
+				<Articulation name="Heavy Attack" velocityAdd="10" durationPct="100"/>
+				<Articulation name="SForzando" velocityAdd="20"/>
+				<Articulation name="SForzando Dot" velocityAdd="20" durationPct="50"/>
+				<Articulation name="Heavier Attack" velocityAdd="20" durationPct="100"/>
+				<Articulation name="SForzando Inverted" velocityAdd="20"/>
+				<Articulation name="SForzando Dot Inverted" velocityAdd="20" durationPct="50"/>
+				<Articulation name="Staccatissimo" velocityAdd="15" durationPct="30"/>
+				<Articulation name="Staccato" velocityAdd="15" durationPct="50"/>
+				<Articulation name="Tenuto" durationPct="100"/>
+				<Articulation name="Up Bow"/>
+				<Articulation name="Down Bow" velocityAdd="5"/>
+				<Articulation name="Up Bow Inverted"/>
+				<Articulation name="Down Bow Inverted" velocityAdd="5"/>
+				<Articulation name="Arpeggio" attackFrom="-90" attackTo="0"/>
+				<Articulation name="Tremolo Eighths" tremoloNotes="1"/>
+				<Articulation name="Tremolo Sixteenths" tremoloNotes="2"/>
+				<Articulation name="Tremolo Thirty Seconds" tremoloNotes="3"/>
+				<Articulation name="Tremolo Sixty Fourths" tremoloNotes="4"/>
+				<Articulation name="pizz"/>
+				<Articulation name="arco" durationPct="90"/>
+				<Articulation name="legato" durationPct="100" onOffset="10"/>
+				
+				<ArticulationSwitchList name="Legato Mode">
+					<Articulation name="legato" ctrlNum="64" ctrlValue="127" ctrlOffValue="0"/>
+				</ArticulationSwitchList>
+				
+				<ArticulationSwitchList name="Tremolo">
+					<Articulation name="Tremolo Thirty Seconds" tremoloNotes="0"/>
+				</ArticulationSwitchList>
+				
+				<ArticulationSwitchList name="Cellos Violas">
+					<Articulation name="Staccato" keySwitch="D1" durationPct="90"/>
+					<Articulation name="Staccatissimo" keySwitch="D#1" durationPct="50"/>
+					<Articulation name="Tenuto" keySwitch="E1" durationPct="100"/>
+					<Articulation name="Heavy Attack" keySwitch="E1" velocityAdd="5" durationPct="100"/>
+					<Articulation name="Marcato" keySwitch="E1" velocityAdd="5" durationPct="90"/>
+					<Articulation name="Marcato Dot" keySwitch="E1" velocityAdd="10" durationPct="50"/>
+					<Articulation name="Heavier Attack" keySwitch="E1" velocityAdd="15" durationPct="50"/>
+					<Articulation name="Tremolo Thirty Seconds" keySwitch="F1" tremoloNotes="0"/>
+				</ArticulationSwitchList>
+				
+				<ArticulationSwitchList name="11 Violins">
+					<Articulation name="Staccato" keySwitch="D1" durationPct="90"/>
+					<Articulation name="Staccatissimo" keySwitch="F1" durationPct="90"/>
+					<Articulation name="Tenuto" keySwitch="C#1" durationPct="100"/>
+					<Articulation name="Heavy Attack" keySwitch="C#1" velocityAdd="5" durationPct="100"/>
+					<Articulation name="Marcato" keySwitch="C#1" velocityAdd="5" durationPct="90"/>
+					<Articulation name="Marcato Dot" keySwitch="C#1" velocityAdd="10" durationPct="50"/>
+					<Articulation name="Heavier Attack" keySwitch="C#1" velocityAdd="15" durationPct="50"/>
+				</ArticulationSwitchList>
+				
+				<ArticulationSwitchList name="18 Violins">
+					<Articulation name="Staccato" keySwitch="D1" durationPct="90"/>
+					<Articulation name="Staccatissimo" keySwitch="D#1" durationPct="50"/>
+					<Articulation name="Tenuto" keySwitch="C#1" durationPct="100"/>
+					<Articulation name="Heavy Attack" keySwitch="C#1" velocityAdd="5" durationPct="100"/>
+					<Articulation name="Marcato" keySwitch="C#1" velocityAdd="5" durationPct="90"/>
+					<Articulation name="Marcato Dot" keySwitch="C#1" velocityAdd="10" durationPct="50"/>
+					<Articulation name="Heavier Attack" keySwitch="C#1" velocityAdd="15" durationPct="50"/>
+					<Articulation name="Tremolo Thirty Seconds" keySwitch="F1" tremoloNotes="0"/>
+				</ArticulationSwitchList>
+				
+				<ArticulationSwitchList name="Basses">
+					<Articulation name="Staccato" keySwitch="D0" durationPct="90"/>
+					<Articulation name="Staccatissimo" keySwitch="D#0" durationPct="50"/>
+					<Articulation name="Tenuto" keySwitch="C#0" durationPct="100"/>
+					<Articulation name="Heavy Attack" keySwitch="C#0" velocityAdd="5" durationPct="100"/>
+					<Articulation name="Marcato" keySwitch="C#0" velocityAdd="5" durationPct="90"/>
+					<Articulation name="Marcato Dot" keySwitch="C#0" velocityAdd="10" durationPct="50"/>
+					<Articulation name="Heavier Attack" keySwitch="C#0" velocityAdd="15" durationPct="50"/>
+				</ArticulationSwitchList>
+				
+				<ArticulationSwitchList name="Solo Violin Cello">
+					<Articulation name="Staccato" keySwitch="D1" durationPct="90"/>
+					<Articulation name="Staccatissimo" keySwitch="D#1" durationPct="50"/>
+					<Articulation name="Tenuto" keySwitch="C#1" durationPct="100"/>
+					<Articulation name="Heavy Attack" keySwitch="C#1" velocityAdd="5" durationPct="100"/>
+					<Articulation name="Marcato" keySwitch="C#1" velocityAdd="5" durationPct="90"/>
+					<Articulation name="Marcato Dot" keySwitch="C#1" velocityAdd="10" durationPct="50"/>
+					<Articulation name="Heavier Attack" keySwitch="C#1" velocityAdd="15" durationPct="50"/>
+				</ArticulationSwitchList>
+				
+				<ArticulationSwitchList name="High Winds Brass">
+					<Articulation name="Staccato" keySwitch="D1" durationPct="90"/>
+					<Articulation name="Staccatissimo" keySwitch="D#1" durationPct="50"/>
+					<Articulation name="Tenuto" keySwitch="C#1" durationPct="100"/>
+					<Articulation name="Heavy Attack" keySwitch="C#1" velocityAdd="5" durationPct="100"/>
+					<Articulation name="Marcato" keySwitch="C#1" velocityAdd="5" durationPct="90"/>
+					<Articulation name="Marcato Dot" keySwitch="C#1" velocityAdd="10" durationPct="50"/>
+					<Articulation name="Heavier Attack" keySwitch="C#1" velocityAdd="15" durationPct="50"/>
+				</ArticulationSwitchList>
+				
+				<ArticulationSwitchList name="Low Winds Brass">
+					<Articulation name="Staccato" keySwitch="D0" durationPct="90"/>
+					<Articulation name="Staccatissimo" keySwitch="D#0" durationPct="50"/>
+					<Articulation name="Tenuto" keySwitch="C#0" durationPct="100"/>
+					<Articulation name="Heavy Attack" keySwitch="C#0" velocityAdd="5" durationPct="100"/>
+					<Articulation name="Marcato" keySwitch="C#0" velocityAdd="5" durationPct="90"/>
+					<Articulation name="Marcato Dot" keySwitch="C#0" velocityAdd="10" durationPct="50"/>
+					<Articulation name="Heavier Attack" keySwitch="C#0" velocityAdd="15" durationPct="50"/>
+				</ArticulationSwitchList>
+				
+				<ArticulationSwitchList name="Attack Accent">
+					<Articulation name="Heavy Attack" ctrlNum="1" ctrlValue="100" durationPct="100"/>
+					<Articulation name="Marcato" ctrlNum="1" ctrlValue="100" durationPct="90"/>
+					<Articulation name="Marcato Dot" ctrlNum="1" ctrlValue="127" durationPct="50"/>
+					<Articulation name="Heavier Attack" ctrlNum="1" ctrlValue="127" durationPct="50"/>
+				</ArticulationSwitchList>
+				
+				<ArticulationSwitchList name="Marc Mart Short">
+					<Articulation name="Marcato Dot" durationPct="90"/>
+				</ArticulationSwitchList>
+				
+				<ArticulationSwitchList name="Staccato">
+					<Articulation name="Staccato" durationPct="90"/>
+					<Articulation name="Staccatissimo" durationPct="50"/>
+				</ArticulationSwitchList>
+				
+				<ArticulationSwitchList name="Staccatissimo">
+					<Articulation name="Staccatissimo" durationPct="90"/>
+				</ArticulationSwitchList>
+				
+		</ArticulationNames>
+
+		<KeySwitchNames>
+
+		<KeySwitchList name="10 Cellos Master">
+				<KeySwitch name="Soft Sustain" key="c1"/>
+				<KeySwitch name="Hard Sustain" key="c#1"/>
+				<KeySwitch name="Staccato Up" key="d1"/>
+				<KeySwitch name="Staccato Down" key="d#1"/>
+				<KeySwitch name="Faster Attack Sustain" key="e1"/>
+				<KeySwitch name="Tremolo" key="f1"/>
+				<KeySwitch name="Half-step Trill" key="f#1"/>
+				<KeySwitch name="Whole-step Trill" key="g1"/>
+    		</KeySwitchList>
+
+		<KeySwitchList name="10 Violas Master">
+				<KeySwitch name="Soft Sustain" key="c1"/>
+				<KeySwitch name="Hard Sustain" key="c#1"/>
+				<KeySwitch name="Staccato Up" key="d1"/>
+				<KeySwitch name="Staccato Down" key="d#1"/>
+				<KeySwitch name="Faster Attack Sustain" key="e1"/>
+    		</KeySwitchList>
+
+		<KeySwitchList name="11 Violins Master">
+				<KeySwitch name="Soft Sustain" key="c1"/>
+				<KeySwitch name="Hard Sustain" key="c#1"/>
+				<KeySwitch name="Staccato Up" key="d1"/>
+				<KeySwitch name="Staccato Down" key="d#1"/>
+				<KeySwitch name="Expressive Sustain" key="e1"/>
+				<KeySwitch name="Spiccato" key="f1"/>
+				<KeySwitch name="Half-step Trill" key="f#1"/>
+				<KeySwitch name="Whole-step Trill" key="g1"/>
+    		</KeySwitchList>
+
+		<KeySwitchList name="18 Violins Master">
+				<KeySwitch name="Soft Sustain" key="c1"/>
+				<KeySwitch name="Hard Sustain" key="c#1"/>
+				<KeySwitch name="Staccato Up" key="d1"/>
+				<KeySwitch name="Staccato Down" key="d#1"/>
+				<KeySwitch name="Expressive Sustain" key="e1"/>
+				<KeySwitch name="Tremolo" key="f1"/>
+				<KeySwitch name="Sordino" key="f#1"/>
+				<KeySwitch name="Expressive Sordino" key="g1"/>
+    		</KeySwitchList>
+
+		<KeySwitchList name="9 Basses Master">
+				<KeySwitch name="Soft Sustain" key="c0"/>
+				<KeySwitch name="Hard Sustain" key="c#0"/>
+				<KeySwitch name="Staccato Up" key="d0"/>
+				<KeySwitch name="Staccato Down" key="d#0"/>
+				<KeySwitch name="Expressive Sustain" key="e0"/>
+				<KeySwitch name="Forte Piano" key="f0"/>
+    		</KeySwitchList>
+
+		<KeySwitchList name="Violin Master">
+				<KeySwitch name="Soft Sustain" key="c1"/>
+				<KeySwitch name="Hard Sustain" key="c#1"/>
+				<KeySwitch name="Staccato Up" key="d1"/>
+				<KeySwitch name="Staccato Down" key="d#1"/>
+				<KeySwitch name="Expressive Sustain" key="e1"/>
+				<KeySwitch name="Non-Vibrato" key="f1"/>
+    		</KeySwitchList>
+
+		<KeySwitchList name="Cello Master">
+				<KeySwitch name="Soft Sustain" key="c1"/>
+				<KeySwitch name="Hard Sustain" key="c#1"/>
+				<KeySwitch name="Staccato Up" key="d1"/>
+				<KeySwitch name="Staccato Down" key="d#1"/>
+				<KeySwitch name="Expressive Sustain" key="e1"/>
+    		</KeySwitchList>
+
+		<KeySwitchList name="3 Clarinets Master">
+				<KeySwitch name="Soft Sustain" key="c1"/>
+				<KeySwitch name="Hard Sustain" key="c#1"/>
+				<KeySwitch name="Staccato 1 (Slower Attack)" key="d1"/>
+				<KeySwitch name="Staccato 2 (Faster Attack)" key="d#1"/>
+				<KeySwitch name="Expressive Sustain" key="e1"/>
+    		</KeySwitchList>
+
+		<KeySwitchList name="3 Flutes Master">
+				<KeySwitch name="Soft Sustain" key="c1"/>
+				<KeySwitch name="Hard Sustain" key="c#1"/>
+				<KeySwitch name="Staccato 1 (Slower Attack)" key="d1"/>
+				<KeySwitch name="Staccato 2 (Faster Attack)" key="d#1"/>
+				<KeySwitch name="Expressive Sustain" key="e1"/>
+				<KeySwitch name="Half-step Trill" key="f#1"/>
+				<KeySwitch name="Whole-step Trill" key="g1"/>
+    		</KeySwitchList>
+
+		<KeySwitchList name="3 Oboes Master">
+				<KeySwitch name="Soft Sustain" key="c1"/>
+				<KeySwitch name="Hard Sustain" key="c#1"/>
+				<KeySwitch name="Staccato 1 (Slower Attack)" key="d1"/>
+				<KeySwitch name="Staccato 2 (Faster Attack)" key="d#1"/>
+				<KeySwitch name="Expressive Sustain" key="e1"/>
+    		</KeySwitchList>
+
+		<KeySwitchList name="Alto Flute Master">
+				<KeySwitch name="Soft Sustain" key="c1"/>
+				<KeySwitch name="Hard Sustain" key="c#1"/>
+				<KeySwitch name="Staccato 1 (Slower Attack)" key="d1"/>
+				<KeySwitch name="Staccato 2 (Faster Attack)" key="d#1"/>
+				<KeySwitch name="Expressive Sustain" key="e1"/>
+    		</KeySwitchList>
+
+		<KeySwitchList name="Bass Clarinet Master">
+				<KeySwitch name="Soft Sustain" key="c0"/>
+				<KeySwitch name="Hard Sustain" key="c#0"/>
+				<KeySwitch name="Staccato 1 (Slower Attack)" key="d0"/>
+				<KeySwitch name="Staccato 2 (Faster Attack)" key="d#0"/>
+				<KeySwitch name="Expressive Sustain" key="e0"/>
+    		</KeySwitchList>
+
+		<KeySwitchList name="Bassoon Master">
+				<KeySwitch name="Soft Sustain" key="c0"/>
+				<KeySwitch name="Hard Sustain" key="c#0"/>
+				<KeySwitch name="Staccato 1 (Slower Attack)" key="d0"/>
+				<KeySwitch name="Staccato 2 (Faster Attack)" key="d#0"/>
+				<KeySwitch name="Expressive Sustain" key="e0"/>
+    		</KeySwitchList>
+
+		<KeySwitchList name="Clarinet Master">
+				<KeySwitch name="Soft Sustain" key="c1"/>
+				<KeySwitch name="Hard Sustain" key="c#1"/>
+				<KeySwitch name="Staccato 1 (Slower Attack)" key="d1"/>
+				<KeySwitch name="Staccato 2 (Faster Attack)" key="d#1"/>
+				<KeySwitch name="Expressive Sustain" key="e1"/>
+    		</KeySwitchList>
+
+		<KeySwitchList name="Flute Master">
+				<KeySwitch name="Soft Sustain" key="c1"/>
+				<KeySwitch name="Hard Sustain" key="c#1"/>
+				<KeySwitch name="Staccato 1 (Slower Attack)" key="d1"/>
+				<KeySwitch name="Staccato 2 (Faster Attack)" key="d#1"/>
+				<KeySwitch name="Expressive Sustain" key="e1"/>
+    		</KeySwitchList>
+
+		<KeySwitchList name="Contrabassoon Master">
+				<KeySwitch name="Soft Sustain" key="c0"/>
+				<KeySwitch name="Hard Sustain" key="c#0"/>
+				<KeySwitch name="Staccato 1 (Slower Attack)" key="d0"/>
+				<KeySwitch name="Staccato 2 (Faster Attack)" key="d#0"/>
+				<KeySwitch name="Expressive Sustain" key="e0"/>
+    		</KeySwitchList>
+
+		<KeySwitchList name="English Horn Master">
+				<KeySwitch name="Soft Sustain" key="c1"/>
+				<KeySwitch name="Hard Sustain" key="c#1"/>
+				<KeySwitch name="Staccato 1 (Slower Attack)" key="d1"/>
+				<KeySwitch name="Staccato 2 (Faster Attack)" key="d#1"/>
+				<KeySwitch name="Expressive Sustain" key="e1"/>
+    		</KeySwitchList>
+
+		<KeySwitchList name="Oboe Master">
+				<KeySwitch name="Soft Sustain" key="c1"/>
+				<KeySwitch name="Hard Sustain" key="c#1"/>
+				<KeySwitch name="Staccato 1 (Slower Attack)" key="d1"/>
+				<KeySwitch name="Staccato 2 (Faster Attack)" key="d#1"/>
+				<KeySwitch name="Expressive Sustain" key="e1"/>
+				<KeySwitch name="Half-step Trill" key="f#1"/>
+				<KeySwitch name="Whole-step Trill" key="g1"/>
+    		</KeySwitchList>
+
+		<KeySwitchList name="Piccolo Master">
+				<KeySwitch name="Soft Sustain" key="c1"/>
+				<KeySwitch name="Hard Sustain" key="c#1"/>
+				<KeySwitch name="Staccato 1 (Slower Attack)" key="d1"/>
+				<KeySwitch name="Staccato 2 (Faster Attack)" key="d#1"/>
+				<KeySwitch name="Expressive Sustain" key="e1"/>
+    		</KeySwitchList>
+
+		<KeySwitchList name="4 Trombones Master">
+				<KeySwitch name="Soft Sustain" key="c1"/>
+				<KeySwitch name="Hard Sustain" key="c#1"/>
+				<KeySwitch name="Staccato 1 (Slower Attack)" key="d1"/>
+				<KeySwitch name="Staccato 2 (Faster Attack)" key="d#1"/>
+				<KeySwitch name="Expressive Sustain" key="e1"/>
+    		</KeySwitchList>
+
+		<KeySwitchList name="4 Trumpets Master">
+				<KeySwitch name="Soft Sustain" key="c1"/>
+				<KeySwitch name="Hard Sustain" key="c#1"/>
+				<KeySwitch name="Staccato 1 (Slower Attack)" key="d1"/>
+				<KeySwitch name="Staccato 2 (Faster Attack)" key="d#1"/>
+				<KeySwitch name="Expressive Sustain" key="e1"/>
+    		</KeySwitchList>
+
+		<KeySwitchList name="6 French Horns Master">
+				<KeySwitch name="Soft Sustain" key="c1"/>
+				<KeySwitch name="Hard Sustain" key="c#1"/>
+				<KeySwitch name="Staccato 1 (Slower Attack)" key="d1"/>
+				<KeySwitch name="Staccato 2 (Faster Attack)" key="d#1"/>
+				<KeySwitch name="Expressive Sustain" key="e1"/>
+    		</KeySwitchList>
+
+		<KeySwitchList name="French Horn Master">
+				<KeySwitch name="Soft Sustain" key="c1"/>
+				<KeySwitch name="Hard Sustain" key="c#1"/>
+				<KeySwitch name="Staccato 1 (Slower Attack)" key="d1"/>
+				<KeySwitch name="Staccato 2 (Faster Attack)" key="d#1"/>
+				<KeySwitch name="Expressive Sustain" key="e1"/>
+    		</KeySwitchList>
+
+		<KeySwitchList name="Trombone Master">
+				<KeySwitch name="Soft Sustain" key="c1"/>
+				<KeySwitch name="Hard Sustain" key="c#1"/>
+				<KeySwitch name="Staccato 1 (Slower Attack)" key="d1"/>
+				<KeySwitch name="Staccato 2 (Faster Attack)" key="d#1"/>
+				<KeySwitch name="Expressive Sustain" key="e1"/>
+    		</KeySwitchList>
+
+		<KeySwitchList name="Trumpet Master">
+				<KeySwitch name="Soft Sustain" key="c1"/>
+				<KeySwitch name="Hard Sustain" key="c#1"/>
+				<KeySwitch name="Staccato 1 (Slower Attack)" key="d1"/>
+				<KeySwitch name="Staccato 2 (Faster Attack)" key="d#1"/>
+				<KeySwitch name="Expressive Sustain" key="e1"/>
+    		</KeySwitchList>
+
+		<KeySwitchList name="Tuba Master">
+				<KeySwitch name="Soft Sustain" key="c0"/>
+				<KeySwitch name="Hard Sustain" key="c#0"/>
+				<KeySwitch name="Staccato 1 (Slower Attack)" key="d0"/>
+				<KeySwitch name="Staccato 2 (Faster Attack)" key="d#0"/>
+				<KeySwitch name="Expressive Sustain" key="e0"/>
+    		</KeySwitchList>
+
+		<KeySwitchList name="Pedal Legato">
+				<KeySwitch name="Normal attack" key="c1"/>
+				<KeySwitch name="Faster attack" key="c#1"/>
+				<KeySwitch name="Faster with hard attack" key="d1"/>
+    		</KeySwitchList>
+
+		<KeySwitchList name="Pedal Legato 2">
+				<KeySwitch name="Normal attack" key="c0"/>
+				<KeySwitch name="Faster attack" key="c#0"/>
+				<KeySwitch name="Faster with hard attack" key="d0"/>
+    		</KeySwitchList>
+
+		</KeySwitchNames>
+
+		<ControllerNames>				
+ 			<Controller name="Volume Control (Expression)" cc="11"/>
+ 			<Controller name="(Optional) Volume" cc="7"/>
+			<Controller name="(Optional) Panning" cc="10"/>
+ 			<Controller name="Modulation" cc="1"/>
+			<Controller name="Legato" cc="64" on="127" off="0"/>
+			
+			<ControllerSwitchList name="Pedal">
+				<Controller name="Dynamic Volume Crossfade" cc="1"/>
+ 				<Controller name="Legato" cc="64" on="127" off="0"/>
+			</ControllerSwitchList>
+
+			<ControllerSwitchList name="DXF">
+ 				<Controller name="Dynamic Volume XFade" cc="1"/>
+			</ControllerSwitchList> 
+
+			<ControllerSwitchList name="EXP">
+ 				<Controller name="Dynamic Expression Control" cc="11"/>
+			</ControllerSwitchList> 
+	
+			<ControllerSwitchList name="Mod Attack">
+ 				<Controller name="Attack Accent" cc="1"/>
+			</ControllerSwitchList> 
+
+			<ControllerSwitchList name="XF Vib">
+ 				<Controller name="XFade to Vibrato" cc="1"/>
+			</ControllerSwitchList> 
+
+			<ControllerSwitchList name="XF Trem">
+ 				<Controller name="XFade to Tremolo" cc="1"/>
+			</ControllerSwitchList> 
+
+			<ControllerSwitchList name="XF EXP Vib">
+ 				<Controller name="XFade to Exp. Vibrato" cc="1"/>
+			</ControllerSwitchList> 
+
+			<ControllerSwitchList name="Volume + Crossfade">
+ 				<Controller name="Volume + Crossfade" cc="1"/>
+			</ControllerSwitchList> 
+
+			<ControllerSwitchList name="Slaps">
+ 				<Controller name="Add Bow Slaps" cc="1"/>
+			</ControllerSwitchList> 
+
+			<ControllerSwitchList name="XF Non Vib">
+ 				<Controller name="XFade to Non Vibrato" cc="1"/>
+			</ControllerSwitchList> 
+			
+			<ControllerSwitchList name="Volume XF Vib">
+ 				<Controller name="Volume XFade to Vibrato" cc="1"/>
+			</ControllerSwitchList> 
+		
+			<ControllerSwitchList name="Add Flutter">
+ 				<Controller name="Add Flutter-tounging" cc="1"/>
+			</ControllerSwitchList> 
+
+			<ControllerSwitchList name="XF Accent">
+ 				<Controller name="XFade to Accented" cc="1"/>
+			</ControllerSwitchList> 
+
+			<ControllerSwitchList name="XF Port">
+ 				<Controller name="XFade to Portato" cc="1"/>
+			</ControllerSwitchList> 
+
+			<ControllerSwitchList name="XF Stac">
+ 				<Controller name="XFade to Stacatto" cc="1"/>
+			</ControllerSwitchList> 
+
+			<ControllerSwitchList name="Dynamic Attack">
+ 				<Controller name="Dynamic Attack Accent" cc="1"/>
+			</ControllerSwitchList> 
+
+			<ControllerSwitchList name="Double Tounge Attk">
+ 				<Controller name="Dble Tounging Attk Accent" cc="1"/>
+			</ControllerSwitchList> 
+
+			<ControllerSwitchList name="Handmuff">
+ 				<Controller name="Handmuffle Percussion" cc="1"/>
+			</ControllerSwitchList> 
+
+			<ControllerSwitchList name="Keyswitches">
+ 				<Controller name="Various Crossfade Controls" cc="1"/>
+			</ControllerSwitchList> 
+
+			<ControllerSwitchList name="EXP MW Attk">
+ 				<Controller name="Attack Accent" cc="1"/>
+				<Controller name="Dynamic Expression Control" cc="11"/>
+			</ControllerSwitchList> 
+
+			<ControllerSwitchList name="EXP DXF">
+ 				<Controller name="Dynamic Volume XFade" cc="1"/>
+				<Controller name="Dynamic Expression Control" cc="11"/>
+			</ControllerSwitchList> 
+
+			<ControllerSwitchList name="XF Sus">
+ 				<Controller name="XFade to Sustain" cc="1"/>
+			</ControllerSwitchList> 
+
+			<ControllerSwitchList name="Choir Mod">
+ 				<Controller name="Crossfade Vowel" cc="1"/>
+			</ControllerSwitchList>
+
+			<ControllerSwitchList name="Piano">
+ 				<Controller name="Sustain Pedal" cc="64"/>
+			</ControllerSwitchList>
+
+		</ControllerNames>	
+ 
+		<Instruments>
+			<Section name="Woodwind Sections" clef="treble">
+				
+				<Group name="3 Flutes" title="Flutes" abbr="Fls." lownote="b3" highnote="c7">
+					<Instrument name="3Fl Sus DXF Acc Vel">
+						<UsesControllerSwitchList name="DXF"/>
+					</Instrument>
+					<Instrument name="3Fl Sus"/>
+					<Instrument name="3Fl Trill H"/>
+					<Instrument name="3Fl Trill W"/>
+					<Instrument name="3Fl Master KS">
+						<UsesKeyswitchList name="3 Flutes Master"/>
+						<UsesArticulationSwitchList name="High Winds Brass"/>
+					</Instrument>
+					<Instrument name="3Fl Sus DXF Leg PDL KS" Articulation="legato">
+						<UsesArticulationSwitchList name="Legato Mode"/>
+						<UsesControllerSwitchList name="Pedal"/>
+						<UsesKeySwitchList name="Pedal Legato"/>
+					</Instrument>
+				</Group>
+
+				<Group name="3 Clarinets" title="Clarinets" abbr="Cls." lownote="d3" highnote="g6" transpose="2">
+					<Instrument name="3Cl Stac" Articulation="Staccato, Staccatissimo">
+						<UsesArticulationSwitchList name="Staccato"/>
+					</Instrument>
+					<Instrument name="3Cl Sus DXF Acc Vel">
+						<UsesControllerSwitchList name="DXF"/>
+					</Instrument>
+					<Instrument name="3Cl Sus"/>
+					<Instrument name="3Cl Master KS">
+						<UsesKeySwitchList name="3 Clarinets Master"/>
+						<UsesArticulationSwitchList name="High Winds Brass"/>
+					</Instrument>
+					<Instrument name="3Cl Sus DXF Leg PDL KS" Articulation="legato">
+						<UsesArticulationSwitchList name="Legato Mode"/>
+						<UsesControllerSwitchList name="Pedal"/>
+						<UsesKeySwitchList name="Pedal Legato"/>
+					</Instrument>
+				</Group>
+  				
+				<Group name="3 Oboes" title="Oboes" abbr="Obs." lownote="a#3" highnote="f6">
+					<Instrument name="3Ob DXF Sus">
+						<UsesControllerSwitchList name="DXF"/>
+					</Instrument>
+					<Instrument name="3Ob Sus Vib"/>
+					<Instrument name="3Ob Master KS">
+						<UsesKeySwitchList name="3 Oboes Master"/>
+						<UsesArticulationSwitchList name="High Winds Brass"/>
+					</Instrument>
+					<Instrument name="3Ob Sus DXF Leg PDL KS" Articulation="legato">
+						<UsesArticulationSwitchList name="Legato Mode"/>
+						<UsesControllerSwitchList name="Pedal"/>
+						<UsesKeySwitchList name="Pedal Legato"/>
+					</Instrument>
+				</Group>
+			</Section>
+			
+			<Section name="Solo Woodwinds" clef="treble">
+
+				<Group name="Piccolo Flute" title="Piccolo Flute" abbr="PiccFl." lownote="d5" highnote="a7" transpose="-12" pitch="12">
+					<Instrument name="PFl Stac" Articulation="Staccato, Staccatissimo">
+						<UsesArticulationSwitchList name="Staccato"/>
+					</Instrument>
+					<Instrument name="PFl Sus Vib"/>
+					<Instrument name="PFl Master KS">
+						<UsesKeySwitchList name="Piccolo Master"/>
+						<UsesArticulationSwitchList name="High Winds Brass"/>
+					</Instrument>
+					<Instrument name="PFl Sus Vib DXF Leg PDL KS" Articulation="legato">
+						<UsesArticulationSwitchList name="Legato Mode"/>
+						<UsesControllerSwitchList name="Pedal"/>
+						<UsesKeySwitchList name="Pedal Legato"/>
+					</Instrument>
+				</Group>
+
+				<Group name="Alto Flute" title="Alto Flute" abbr="AFl." lownote="g3" highnote="a5" transpose="5">
+					<Instrument name="AFl Sus Vib"/>
+					<Instrument name="AFl Master KS">
+						<UsesKeySwitchList name="Alto Flute Master"/>
+						<UsesArticulationSwitchList name="High Winds Brass"/>
+					</Instrument>
+					<Instrument name="AFl Sus Vib DXF Leg PDL KS" Articulation="legato">
+						<UsesArticulationSwitchList name="Legato Mode"/>
+						<UsesControllerSwitchList name="Pedal"/>
+						<UsesKeySwitchList name="Pedal Legato"/>
+					</Instrument>
+				</Group>
+
+				<Group name="Concert Flute" title="Concert Flute" abbr="Fl." lownote="b3" highnote="a#6">
+					<Instrument name="SFl Accent Mod" Articulation="Marcato, Heavy Attack, Marcato Dot, Heavier Attack">
+						<UsesArticulationSwitchList name="Accent Attack"/>
+						<UsesControllerSwitchList name="Mod Attack"/>
+					</Instrument>
+					<Instrument name="SFl Stac" Articulation="Staccato, Staccatissimo">
+						<UsesArticulationSwitchList name="Staccato"/>
+					</Instrument>
+					<Instrument name="SFl Sus Vib"/>
+					<Instrument name="SFl Master KS">
+						<UsesKeySwitchList name="Flute Master"/>
+						<UsesArticulationSwitchList name="High Winds Brass"/>
+					</Instrument>
+					<Instrument name="SFl Sus Vib DXF Leg PDL KS" Articulation="legato">
+						<UsesArticulationSwitchList name="Legato Mode"/>
+						<UsesControllerSwitchList name="Pedal"/>
+						<UsesKeySwitchList name="Pedal Legato"/>
+					</Instrument>
+				</Group>
+
+				<Group name="Clarinet" title="Clarinet" abbr="Cl." lownote="d3" highnote="g6" transpose="2">
+					<Instrument name="SCl Non Vib"/>
+					<Instrument name="SCl Stac" Articulation="Staccato, Staccatissimo">
+						<UsesArticulationSwitchList name="Staccato"/>
+					</Instrument>
+					<Instrument name="SCl Master KS">
+						<UsesKeySwitchList name="Clarinet Master"/>
+						<UsesArticulationSwitchList name="High Winds Brass"/>
+					</Instrument>
+					<Instrument name="SCl Non Vib DXF Leg PDL KS" Articulation="legato">
+						<UsesArticulationSwitchList name="Legato Mode"/>
+						<UsesControllerSwitchList name="Pedal"/>
+						<UsesKeySwitchList name="Pedal Legato"/>
+					</Instrument>
+				</Group>		
+				
+				<Group name="Bass Clarinet" title="Bass Clarinet" abbr="BCl." lownote="c#2" highnote="f5" transpose="2" pitch="-12">
+					<Instrument name="BCl Stac" Articulation="Staccato, Staccatissimo">
+						<UsesArticulationSwitchList name="Staccato"/>
+					</Instrument>
+					<Instrument name="BCl Sus Hard"/>
+					<Instrument name="BCl Sus Medium"/>
+					<Instrument name="BCl Sus Soft"/>
+					<Instrument name="BCl Master KS">
+						<UsesKeySwitchList name="Bass Clarinet Master"/>
+						<UsesArticulationSwitchList name="Low Winds Brass"/>
+					</Instrument>
+					<Instrument name="BCl Sus DXF Leg PDL KS" Articulation="legato">
+						<UsesArticulationSwitchList name="Legato Mode"/>
+						<UsesControllerSwitchList name="Pedal"/>
+						<UsesKeySwitchList name="Pedal Legato 2"/>
+					</Instrument>
+				</Group>
+
+				<Group name="Oboe" title="Oboe" abbr="Ob." lownote="a#3" highnote="f6">
+					<Instrument name="SOb Stac" Articulation="Staccato, Staccatissimo">
+						<UsesArticulationSwitchList name="Staccato"/>
+					</Instrument>
+					<Instrument name="SOb Sus Vib"/>
+					<Instrument name="SOb Trill H"/>
+					<Instrument name="SOb Trill W"/>
+					<Instrument name="SOb Master KS">
+						<UsesKeySwitchList name="Oboe Master"/>
+						<UsesArticulationSwitchList name="High Winds Brass"/>
+					</Instrument>
+					<Instrument name="SOb Sus Vib DXF Leg PDL KS" Articulation="legato">
+						<UsesArticulationSwitchList name="Legato Mode"/>
+						<UsesControllerSwitchList name="Pedal"/>
+						<UsesKeySwitchList name="Pedal Legato"/>
+					</Instrument>
+				</Group>
+				
+				
+				<Group name="English Horn" title="English Horn" abbr="E Hn." lownote="e3" highnote="a#5" transpose="7">
+					<Instrument name="EHn Sus Vib"/>
+					<Instrument name="EHn Master KS">
+						<UsesKeySwitchList name="English Horn Master"/>
+						<UsesArticulationSwitchList name="High Winds Brass"/>
+					</Instrument>
+					<Instrument name="EHn Sus Vib DXF Leg PDL KS" Articulation="legato">
+						<UsesArticulationSwitchList name="Legato Mode"/>
+						<UsesControllerSwitchList name="Pedal"/>
+						<UsesKeySwitchList name="Pedal Legato"/>
+					</Instrument>
+				</Group>
+  				
+				<Group name="Bassoon"  lownote="a#1" highnote="d#5" clef="bass">
+					<Instrument name="BSN Stac" Articulation="Staccato, Staccatissimo">
+						<UsesArticulationSwitchList name="Staccato"/>
+					</Instrument>
+					<Instrument name="BSN Sus Vib"/>
+					<Instrument name="BSN Master KS">
+						<UsesKeySwitchList name="Bassoon Master"/>
+						<UsesArticulationSwitchList name="Low Winds Brass"/>
+					</Instrument>
+					<Instrument name="BSN Sus Vib DXF Leg PDL KS" Articulation="legato">
+						<UsesArticulationSwitchList name="Legato Mode"/>
+						<UsesControllerSwitchList name="Pedal"/>
+						<UsesKeySwitchList name="Pedal Legato 2"/>
+					</Instrument>
+				</Group>
+
+				<Group name="Contrabassoon" title="Contrabassoon" abbr="CBn." lownote="a#0" highnote="a#2" clef="bass" pitch="-12" transpose="12">
+					<Instrument name="CTb Stac" Articulation="Staccato, Staccatissimo">
+						<UsesArticulationSwitchList name="Staccato"/>
+					</Instrument>
+					<Instrument name="CTb Sus"/>
+					<Instrument name="CTb Master KS">
+						<UsesKeySwitchList name="Contrabassoon Master"/>
+						<UsesArticulationSwitchList name="Low Winds Brass"/>
+					</Instrument>
+					<Instrument name="CTb Sus DXF Leg PDL KS" Articulation="legato">
+						<UsesArticulationSwitchList name="Legato Mode"/>
+						<UsesControllerSwitchList name="Pedal"/>
+						<UsesKeySwitchList name="Pedal Legato 2"/>
+					</Instrument>
+				</Group>
+			</Section>
+
+			<Section name="Brass Sections" clef="treble">
+				
+				<Group name="4 Trumpets" title="Trumpets" abbr="Tpts." lownote="e3" highnote="e6">
+					<Instrument name="4Tp Sus DXF">
+						<UsesControllerSwitchList name="DXF"/>
+					</Instrument>
+					<Instrument name="4Tp Stac" Articulation="Staccato, Staccatissimo">
+						<UsesArticulationSwitchList name="Staccato"/>
+					</Instrument>
+					<Instrument name="4Tp Sus Accent Mod" Articulation="Marcato, Heavy Attack, Marcato Dot, Heavier Attack">
+						<UsesArticulationSwitchList name="Accent Attack"/>
+						<UsesControllerSwitchList name="Mod Attack"/>
+					</Instrument>
+					<Instrument name="4Tp Sus"/>
+					<Instrument name="4Tp Master KS">
+						<UsesKeySwitchList name="4 Trumpets Master"/>
+						<UsesArticulationSwitchList name="High Winds Brass"/>
+					</Instrument>
+					<Instrument name="4Tp Sus DXF Leg PDL KS" Articulation="legato">
+						<UsesArticulationSwitchList name="Legato Mode"/>
+						<UsesControllerSwitchList name="Pedal"/>
+						<UsesKeySwitchList name="Pedal Legato"/>
+					</Instrument>
+				</Group>
+ 				
+				<Group name="6 French Horns" title="French Horns" abbr="F Hns." lownote="c2" highnote="f5" transpose="7">
+					<Instrument name="6FH Stac" Articulation="Staccato, Staccatissimo">
+						<UsesArticulationSwitchList name="Staccato"/>
+					</Instrument>
+					<Instrument name="6FH Sus 4 Lay Smooth"/>
+					<Instrument name="6FH Sus Acc Vel DXF 2">
+						<UsesControllerSwitchList name="DXF"/>
+					</Instrument>
+					<Instrument name="6FH Sus Mellow"/>
+					<Instrument name="6FH Master KS">
+						<UsesKeySwitchList name="6 French Horns Master"/>
+						<UsesArticulationSwitchList name="High Winds Brass"/>
+					</Instrument>
+					<Instrument name="6FH Sus DXF Leg PDL KS" Articulation="legato">
+						<UsesArticulationSwitchList name="Legato Mode"/>
+						<UsesControllerSwitchList name="Pedal"/>
+						<UsesKeySwitchList name="Pedal Legato"/>
+					</Instrument>
+					<Instrument name="6FH Sus DXF 2 Leg PDL KS" Articulation="legato">
+						<UsesArticulationSwitchList name="Legato Mode"/>
+						<UsesControllerSwitchList name="Pedal"/>
+						<UsesKeySwitchList name="Pedal Legato"/>
+					</Instrument>
+				</Group>
+				
+				<Group name="4 Trombones" title="Trombones" abbr="Tbns." lownote="e1" highnote="c5" clef="bass">
+					<Instrument name="4Tb Stac Fast" Articulation="Staccato, Staccatissimo">
+						<UsesArticulationSwitchList name="Staccato"/>
+					</Instrument>
+					<Instrument name="4Tb Sus X-Fade">
+						<UsesControllerSwitchList name="Volume + Crossfade"/>
+					</Instrument>
+					<Instrument name="4Tb Sus"/>
+					<Instrument name="4Tb Master KS">
+						<UsesKeySwitchList name="4 Trombones Master"/>
+						<UsesArticulationSwitchList name="Low Winds Brass"/>
+					</Instrument>
+					<Instrument name="4Tb Sus DXF Leg PDL KS" Articulation="legato">
+						<UsesArticulationSwitchList name="Legato Mode"/>
+						<UsesControllerSwitchList name="Pedal"/>
+						<UsesKeySwitchList name="Pedal Legato"/>
+					</Instrument>
+				</Group>
+			</Section>
+
+			<Section name="Solo Brass" clef="treble">
+ 				
+				<Group name="Trumpet" title="Trumpet" abbr="Tpt." lownote="e3" highnote="e6">
+					<Instrument name="STp EXP">
+						<UsesControllerSwitchList name="EXP"/>
+					</Instrument>
+					<Instrument name="STp Stac" Articulation="Staccato, Staccatissimo">
+						<UsesArticulationSwitchList name="Staccato"/>
+					</Instrument>
+					<Instrument name="STp Sus Vib"/>
+					<Instrument name="STp Sus"/>
+					<Instrument name="STp Master KS">
+						<UsesKeySwitchList name="Trumpet Master"/>
+						<UsesArticulationSwitchList name="High Winds Brass"/>
+					</Instrument>
+					<Instrument name="STp Sus DXF Leg PDL KS" Articulation="legato">
+						<UsesArticulationSwitchList name="Legato Mode"/>
+						<UsesControllerSwitchList name="Pedal"/>
+						<UsesKeySwitchList name="Pedal Legato"/>
+					</Instrument>
+					<Instrument name="STp Sus Vib DXF Leg PDL KS" Articulation="legato">
+						<UsesArticulationSwitchList name="Legato Mode"/>
+						<UsesControllerSwitchList name="Pedal"/>
+						<UsesKeySwitchList name="Pedal Legato"/>
+					</Instrument>
+				</Group>
+ 				
+				<Group name="French Horn" title="French Horn" abbr="F Hn." lownote="c2" highnote="a5" transpose="7">
+					<Instrument name="SFH Stac" Articulation="Staccato, Staccatissimo">
+						<UsesArticulationSwitchList name="Staccato"/>
+					</Instrument>
+					<Instrument name="SFH Sus Accent"/>
+					<Instrument name="SFH Sus"/>
+					<Instrument name="SFH Master KS">
+						<UsesKeySwitchList name="French Horn Master"/>
+						<UsesArticulationSwitchList name="High Winds Brass"/>
+					</Instrument>
+					<Instrument name="SFH Sus DXF Leg PDL KS" Articulation="legato">
+						<UsesArticulationSwitchList name="Legato Mode"/>
+						<UsesControllerSwitchList name="Pedal"/>
+						<UsesKeySwitchList name="Pedal Legato"/>
+					</Instrument>
+				</Group>
+				
+				<Group name="Trombone" title="Trombone" abbr="Tbn." lownote="e1" highnote="e5" clef="bass">
+					<Instrument name="STb Stac" Articulation="Staccato, Staccatissimo">
+						<UsesArticulationSwitchList name="Staccato"/>
+					</Instrument>
+					<Instrument name="STb Sus"/>
+					<Instrument name="STb Master KS">
+						<UsesKeySwitchList name="Trombone Master"/>
+						<UsesArticulationSwitchList name="Low Winds Brass"/>
+					</Instrument>
+					<Instrument name="STb Sus DXF Leg PDL KS" Articulation="legato">
+						<UsesArticulationSwitchList name="Legato Mode"/>
+						<UsesControllerSwitchList name="Pedal"/>
+						<UsesKeySwitchList name="Pedal Legato"/>
+					</Instrument>
+				</Group>
+				
+				<Group name="Tuba" title="Tuba" abbr="Tba." lownote="b0" highnote="e4" clef="bass">				
+					<Instrument name="STu Master KS">
+						<UsesKeySwitchList name="Tuba Master"/>
+						<UsesArticulationSwitchList name="Low Winds Brass"/>
+					</Instrument>
+					<Instrument name="STu Sus DXF Leg PDL KS" Articulation="legato">
+						<UsesArticulationSwitchList name="Legato Mode"/>
+						<UsesControllerSwitchList name="Pedal"/>
+						<UsesKeySwitchList name="Pedal Legato 2"/>
+					</Instrument>
+				</Group>
+			</Section>
+
+			<Section name="Section Strings" clef="treble">
+        		<UsesKeySwitchList name="Section Strings"/>
+				<UsesControllerSwitchList name="Section Strings"/>	
+
+				<Group name="10 Cellos" title="Cellos" abbr="Vcs." lownote="c2" highnote="c6" clef="bass">
+        			<Instrument name="VCS Quick Up Dn" Articulation="Staccato, Staccatissimo">
+						<UsesArticulationSwitchList name="Staccato"/>
+					</Instrument>
+           			<Instrument name="VCS Sus Accent Mod" Articulation="Marcato, Heavy Attack, Marcato Dot, Heavier Attack">
+						<UsesArticulationSwitchList name="Accent Attack"/>
+						<UsesControllerSwitchList name="Mod Attack"/>
+					</Instrument>
+        			<Instrument name="VCS Sus Vib Hard"/>
+        			<Instrument name="VCS Sus Vib Soft"/>
+        			<Instrument name="VCS Trem" Articulation="Tremolo Thirty Seconds">
+					<UsesArticulationSwitchList name="Tremolo"/>
+				</Instrument>
+        			<Instrument name="VCS Trill H"/>
+        			<Instrument name="VCS Trill W"/>
+				<Instrument name="VCS Master KS">
+					<UsesKeySwitchList name="10 Cellos Master"/>
+					<UsesArticulationSwitchList name="Cellos Violas"/>
+				</Instrument>
+				<Instrument name="VCS Sus Vib DXF Leg PDL KS W" Articulation="legato">
+						<UsesArticulationSwitchList name="Legato Mode"/>
+						<UsesControllerSwitchList name="Pedal"/>
+						<UsesKeySwitchList name="Pedal Legato"/>
+					</Instrument>
+				</Group>
+
+				<Group name="10 Violas" title="Violas" abbr="Vas." lownote="c3" highnote="d6" clef="alto">
+         		<Instrument name="VAS EXP Fst">
+						<UsesControllerSwitchList name="EXP"/>
+					</Instrument>
+         		<Instrument name="VAS Leg EXP Acc Mod" Articulation="Marcato, Heavy Attack, Marcato Dot, Heavier Attack">
+						<UsesArticulationSwitchList name="Accent Attack"/>
+						<UsesControllerSwitchList name="EXP MW Attk"/>
+					</Instrument>
+         		<Instrument name="VAS Leg EXP DXF Ac Vl">
+						<UsesControllerSwitchList name="EXP DXF"/>
+					</Instrument>
+         		<Instrument name="VAS Shrt Mart Up Dn" Articulation="Marcato Dot">
+					<UsesArticulationSwitchList name="Marc Mart Short"/>
+				</Instrument>
+          		<Instrument name="VAS Master KS">
+					<UsesKeySwitchList name="10 Violas Master"/>
+					<UsesArticulationSwitchList name="Cellos Violas"/>
+				</Instrument>
+				<Instrument name="VAS EXP DXF Leg PDL KS" Articulation="legato">
+						<UsesArticulationSwitchList name="Legato Mode"/>
+						<UsesControllerSwitchList name="Pedal"/>
+						<UsesKeySwitchList name="Pedal Legato"/>
+					</Instrument>
+				</Group>
+				
+				<Group name="18 First Violins" title="Violins 1" abbr="Vns. 1" lownote="g3" highnote="c7">
+         		<Instrument name="18v Sus Vib Hard"/>
+         		<Instrument name="18v Sus Vib Soft"/>
+         		<Instrument name="18v Trem" Articulation="Tremolo Thirty Seconds">
+					<UsesArticulationSwitchList name="Tremolo"/>
+				</Instrument>
+         		<Instrument name="18v Accen Sus Mod" Articulation="Marcato, Heavy Attack, Marcato Dot, Heavier Attack">
+						<UsesArticulationSwitchList name="Accent Attack"/>
+						<UsesControllerSwitchList name="Mod Attack"/>
+					</Instrument>
+         		<Instrument name="18v Sord Mod XFD DYN">
+						<UsesControllerSwitchList name="Volume + Crossfade"/>
+					</Instrument>
+				<Instrument name="18v Master KS">
+					<UsesKeySwitchlist name="18 Violins Master"/>
+					<UsesArticulationSwitchList name="18 Violins"/>
+				</Instrument>
+				<Instrument name="18v Sord DXF Leg PDL KS" Articulation="legato">
+						<UsesArticulationSwitchList name="Legato Mode"/>
+						<UsesControllerSwitchList name="Pedal"/>
+						<UsesKeySwitchList name="Pedal Legato"/>
+					</Instrument>
+				<Instrument name="18v Sus Vib DXF Leg PDL KS" Articulation="legato">
+						<UsesArticulationSwitchList name="Legato Mode"/>
+						<UsesControllerSwitchList name="Pedal"/>
+						<UsesKeySwitchList name="Pedal Legato"/>
+					</Instrument>
+				<Instrument name="18v Sus Vib Gold"/>
+			</Group>
+				
+				<Group name="11 Second Violins" title="Violins 2" abbr="Vns. 2" lownote="g3" highnote="c7">
+           		<Instrument name="11v Lyr A"/>
+           		<Instrument name="11v Quick Up Dn" Articulation="Staccato, Staccatissimo">
+						<UsesArticulationSwitchList name="Staccato"/>
+					</Instrument>
+           		<Instrument name="11v Spic" Articulation="Staccatissimo">
+						<UsesArticulationSwitchList name="Staccatissimo"/>
+					</Instrument>
+           		<Instrument name="11v Trill H"/>
+           		<Instrument name="11v Trill W"/>
+				<Instrument name="11v Master KS">
+					<UsesKeySwitchList name="11 Violins Master"/>
+					<UsesArticulationSwitchList name="11 Violins"/>
+				</Instrument>
+				<Instrument name="11v DXF Leg PDL KS" Articulation="legato">
+						<UsesArticulationSwitchList name="Legato Mode"/>
+						<UsesControllerSwitchList name="Pedal"/>
+						<UsesKeySwitchList name="Pedal Legato"/>
+					</Instrument>
+				</Group>
+				
+				<Group name="9 Double Basses" title="Basses" abbr="Dbs." lownote="c1" highnote="g3" clef="bass" pitch="-12" transpose="12">
+           		<Instrument name="CBS Forte Piano"/>
+           		<Instrument name="CBS Quick Up Dn" Articulation="Staccato, Staccatissimo">
+						<UsesArticulationSwitchList name="Staccato"/>
+					</Instrument>
+           		<Instrument name="CBS Sus Accent Mod" Articulation="Marcato, Heavy Attack, Marcato Dot, Heavier Attack">
+						<UsesArticulationSwitchList name="Accent Attack"/>
+						<UsesControllerSwitchList name="Mod Attack"/>
+					</Instrument>
+           		<Instrument name="CBS Sus Vib Hard"/>
+           		<Instrument name="CBS Sus Vib Soft"/>
+           		<Instrument name="CBS Sus Vib X-Fade">
+						<UsesControllerSwitchList name="XF Non Vib"/>
+					</Instrument>
+           		<Instrument name="CBS Master KS">
+					<UsesKeySwitchList name="9 Basses Master"/>
+					<UsesArticulationSwitchList name="Basses"/>
+				</Instrument>
+           		<Instrument name="CBS Sus Vib DXF Leg PDL KS" Articulation="legato">
+						<UsesArticulationSwitchList name="Legato Mode"/>
+						<UsesControllerSwitchList name="Pedal"/>
+						<UsesKeySwitchList name="Pedal Legato 2"/>
+					</Instrument>
+				</Group>
+				
+				<Group name="Large String Section" title="Strings" abbr="Str." lownote="c1" highnote="c7"> 
+					<Instrument name="60 Piece Str Sec Pizz" Articulation="pizz"/>
+				</Group>
+			</Section>
+
+			<Section name="Solo Strings" clef="treble">
+				<UsesKeySwitchList name="Solo Strings"/>
+        			<UsesControllerValueList name="Solo Strings"/>  
+				
+				<Group name="Solo Violin" lownote="g3" highnote="c7">
+					<Instrument name="SVL EXP 2" title="Violin" abbr="Vn."/>
+					<Instrument name="SVL Leg Vib" title="Violin" abbr="Vn."/>
+					<Instrument name="SVL Non Vib Hard" title="Violin" abbr="Vn."/>
+					<Instrument name="SVL Sus Vib Hard" title="Violin" abbr="Vn."/>
+					<Instrument name="SVL Master KS" title="Violin" abbr="Vn.">
+						<UsesKeySwitchList name="Violin Master"/>
+						<UsesArticulationSwitchList name="Solo Violin Cello"/>
+					</Instrument>
+					<Instrument name="SVL Sus Vib DXF Leg PDL KS" title="Violin" abbr="Vn." Articulation="legato">
+						<UsesArticulationSwitchList name="Legato Mode"/>
+						<UsesControllerSwitchList name="Pedal"/>
+						<UsesKeySwitchList name="Pedal Legato"/>
+					</Instrument>
+       			</Group>
+				
+				<Group name="Solo Cello" lownote="c2" highnote="d6" clef="bass">
+					<Instrument name="SVC Double Bow EXP" title="Cello" abbr="Vc.">
+						<UsesControllerSwitchList name="EXP"/>
+					</Instrument>
+					<Instrument name="SVC Leg Vib" title="Cello" abbr="Vc."/>
+					<Instrument name="SVC Sus Vib Hard" title="Cello" abbr="Vc."/>
+					<Instrument name="SVC Sus Vib Smooth" title="Cello" abbr="Vc."/>
+					<Instrument name="SVC Master KS" title="Cello" abbr="Vc.">
+						<UsesKeySwitchList name="Cello Master"/>
+						<UsesArticulationSwitchList name="Solo Violin Cello"/>
+					</Instrument>
+					<Instrument name="SVC Sus DXF Leg PDL KS" title="Cello" abbr="Vc." Articulation="legato">
+						<UsesArticulationSwitchList name="Legato Mode"/>
+						<UsesControllerSwitchList name="Pedal"/>
+						<UsesKeySwitchList name="Pedal Legato"/>
+					</Instrument>
+        			</Group>
+				
+			</Section>
+
+			<Section name="Percussion" lownote="c-1" highnote="c9" clef="treble" legato="off" velocity="on">
+				<UsesKeySwitchList name="Percussion"/>
+				<UsesControllerSwitchList name="Percussion"/>
+
+			<Group name="Cymbals">
+				<Instrument name="16 German Cymbal" title="Cymbals" abbr="Cym."/>
+				<Instrument name="18 Viennese Cymbal" title="Cymbals" abbr="Cym."/>
+				<Instrument name="20 Cymbal" title="Cymbals" abbr="Cym."/>
+			</Group>
+			
+			<Group name="Gongs">
+				<Instrument name="23 Gong" title="Gongs" abbr="Gong"/>
+				<Instrument name="28 Gong" title="Gongs" abbr="Gong"/>
+			</Group>
+
+			<Group name="Anvils">
+				<Instrument name="Anvil" title="Anvils" abbr="Anvil"/>
+			</Group>
+
+			<Group name="Bass Drum">
+				<Instrument name="Bass Drum Concert" title="Bass Drum" abbr="Bdm." clef="bass"/>
+			</Group>
+
+			<Group name="Snares">
+				<Instrument name="3 Snares - Hits + Rolls" title="Snare Drums" abbr="Sd."/>
+			</Group>
+
+
+			<Group name="Timpani">
+				<Instrument name="Timp Hits" title="Timpani" abbr="Timp." clef="bass"/>
+			</Group>
+
+			<Group name="Other Percussion">
+				<Instrument name="Crotales" title="Crotales" abbr="Crot."/>
+				<Instrument name="Orch Chimes" title="Orch. Chimes" abbr="OChm."/>
+				<Instrument name="Various Metals" title="Bells" abbr="Bells"/>
+				<Instrument name="Various Perc" title="Percussion" abbr="Perc."/>
+			</Group>
+				
+			<Group name="Glock, Vibes, Xylo">
+				<Instrument name="Glock Mellow" title="Glockenspiel" abbr="Glsp." pitch="24"/>
+				<Instrument name="Glock" title="Glockenspiel" abbr="Glsp." pitch="24"/>
+				<Instrument name="Xylophone" title="Xylophone" abbr="Xylo." pitch="12"/>
+			</Group>
+
+			</Section>
+
+			<Section name="Harp" title="Harp" abbr="Hrp." lownote="c1" highnote="g7" clef="treble" legato="off" velocity="on">
+				<Instrument name="Harp Pluck Short" title="Harp" abbr="Hrp."/>
+			</Section>
+
+			<Section name="Steinway B Grand Piano" title="Piano" abbr="Pn." lownote="c0" highnote="c9" clef="treble" legato="off" velocity="on">
+			<UsesControllerSwitchList name="Piano"/>
+				<Instrument name="Steinway bright" title="Piano" abbr="Pn."/>
+				<Instrument name="Steinway dark" title="Piano" abbr="Pn."/>
+				<Instrument name="Steinway pop-jazz" title="Piano" abbr="Pn."/>
+			</Section>
+
+			<Section name="Pipe Organ" title="Organ" abbr="Org." lownote="c0" highnote="c9" clef="treble" legato="off">
+				<Instrument name="BRUSTWERKSTP 4" title="Organ" abbr="Org."/>
+				<Instrument name="BRUSTWERKSTP" title="Organ" abbr="Org."/>
+				<Instrument name="FLUTES 4" title="Organ" abbr="Org."/>
+				<Instrument name="FLUTES" title="Organ" abbr="Org."/>
+				<Instrument name="HAUPTW STOPS 4" title="Organ" abbr="Org."/>
+				<Instrument name="HAUPTW STOPS" title="Organ" abbr="Org."/>
+				<Instrument name="HAUPTWERKMIX" title="Organ" abbr="Org."/>
+				<Instrument name="POSITIV IV" title="Organ" abbr="Org."/>
+				<Instrument name="PRINZIPAL #4" title="Organ" abbr="Org."/>
+				<Instrument name="toccata" title="Organ" abbr="Org."/>
+			</Section>
+
+			<Section name="Choirs" title="Choirs" abbr="Chor." lownote="c0" highnote="c9" clef="treble">
+				<Instrument name="Angels nonvib oo-oh (FX)" title="Choir" abbr="Chor."/>
+				<Instrument name="Angels nonvib oo-oh" title="Choir" abbr="Chor."/>
+				<Instrument name="MC ah-eh MOD small" title="Choir" abbr="Chor." clef="bass">
+					<UsesControllerSwitchList name="Choir Mod"/>
+				</Instrument>
+				<Instrument name="MC Staccato Ah" title="Choir" abbr="Chor." clef="bass" Articulation="Staccato, Staccatissimo">
+					<UsesArticulationSwitchList name="Staccato"/>
+				</Instrument>
+				<Instrument name="WC ah-eh MOD small" title="Choir" abbr="Chor.">
+					<UsesControllerSwitchList name="Choir Mod"/>
+				</Instrument>
+				<Instrument name="WC staccato ah" title="Choir" abbr="Chor." Articulation="Staccato, Staccatissimo">
+					<UsesArticulationSwitchList name="Staccato"/>
+				</Instrument>
+			</Section>
+
+		</Instruments>
+	</Device>
+	
+</VSTNameDocument>

@@ -1,0 +1,472 @@
+<VSTNameDocument>
+	<Version>1</Version>
+	<Author>GenieSoft,Inc.</Author>
+
+	<Device name="Orchestral" usesPatchNames="1">
+	
+		<ArticulationNames>			
+				<Articulation name="Marcato" velocityAdd="10" durationPct="90"/>
+				<Articulation name="Marcato Dot" velocityAdd="15" durationPct="50"/>
+				<Articulation name="Heavy Attack" velocityAdd="10" durationPct="100"/>
+				<Articulation name="SForzando" velocityAdd="20"/>
+				<Articulation name="SForzando Dot" velocityAdd="20" durationPct="50"/>
+				<Articulation name="Heavier Attack" velocityAdd="20" durationPct="100"/>
+				<Articulation name="SForzando Inverted" velocityAdd="20"/>
+				<Articulation name="SForzando Dot Inverted" velocityAdd="20" durationPct="50"/>
+				<Articulation name="Staccatissimo" velocityAdd="15" durationPct="30"/>
+				<Articulation name="Staccato" velocityAdd="15" durationPct="50"/>
+				<Articulation name="Tenuto" durationPct="100"/>
+				<Articulation name="Up Bow"/>
+				<Articulation name="Down Bow" velocityAdd="5"/>
+				<Articulation name="Up Bow Inverted"/>
+				<Articulation name="Down Bow Inverted" velocityAdd="5"/>
+				<Articulation name="Arpeggio" attackFrom="-90" attackTo="0"/>
+				<Articulation name="Tremolo Eighths" tremoloNotes="1"/>
+				<Articulation name="Tremolo Sixteenths" tremoloNotes="2"/>
+				<Articulation name="Tremolo Thirty Seconds" tremoloNotes="3"/>
+				<Articulation name="Tremolo Sixty Fourths" tremoloNotes="4"/>
+				<Articulation name="pizz"/>
+				<Articulation name="arco" durationPct="90"/>
+				<Articulation name="legato" durationPct="100"/>
+				
+				<ArticulationSwitchList name="Violins">
+					<Articulation name="Staccato" durationPct="90" prgChg="5"/>
+					<Articulation name="Staccatissimo" durationPct="50" prgChg="5"/>
+					<Articulation name="pizz" prgChg="6"/>
+					<Articulation name="Marcato" prgChg="4" velocityAdd="40" durationPct="90"/>
+					<Articulation name="Marcato Dot" prgChg="4" velocityAdd="50" durationPct="50"/>
+					<Articulation name="Heavy Attack" prgChg="4" velocityAdd="40" durationPct="100"/>
+					<Articulation name="SForzando" prgChg="4" velocityAdd="50"/>
+					<Articulation name="SForzando Dot" prgChg="4" velocityAdd="60" durationPct="50"/>
+					<Articulation name="Heavier Attack" prgChg="4" velocityAdd="50" durationPct="100"/>
+					<Articulation name="SForzando Inverted" prgChg="4" velocityAdd="50"/>
+					<Articulation name="SForzando Dot Inverted" prgChg="4" velocityAdd="60" durationPct="50"/>
+					<Articulation name="legato" durationPct="100" prgChg="2"/>
+				</ArticulationSwitchList>
+				
+				<ArticulationSwitchList name="Violas">
+					<Articulation name="Staccato" durationPct="90" prgChg="12"/>
+					<Articulation name="Staccatissimo" durationPct="50" prgChg="12"/>
+					<Articulation name="pizz" prgChg="13"/>
+					<Articulation name="Marcato" prgChg="11" velocityAdd="40" durationPct="90"/>
+					<Articulation name="Marcato Dot" prgChg="11" velocityAdd="50" durationPct="50"/>
+					<Articulation name="Heavy Attack" prgChg="11" velocityAdd="40" durationPct="100"/>
+					<Articulation name="SForzando" prgChg="11" velocityAdd="50"/>
+					<Articulation name="SForzando Dot" prgChg="11" velocityAdd="60" durationPct="50"/>
+					<Articulation name="Heavier Attack" prgChg="11" velocityAdd="50" durationPct="100"/>
+					<Articulation name="SForzando Inverted" prgChg="11" velocityAdd="50"/>
+					<Articulation name="SForzando Dot Inverted" prgChg="11" velocityAdd="60" durationPct="50"/>
+					<Articulation name="legato" durationPct="100" prgChg="9"/>
+				</ArticulationSwitchList>
+				
+				<ArticulationSwitchList name="Cellos">
+					<Articulation name="Staccato" durationPct="90" prgChg="18"/>
+					<Articulation name="Staccatissimo" durationPct="50" prgChg="18"/>
+					<Articulation name="pizz" prgChg="19"/>
+					<Articulation name="Marcato" prgChg="17" velocityAdd="40" durationPct="90"/>
+					<Articulation name="Marcato Dot" prgChg="17" velocityAdd="50" durationPct="50"/>
+					<Articulation name="Heavy Attack" prgChg="17" velocityAdd="40" durationPct="100"/>
+					<Articulation name="SForzando" prgChg="17" velocityAdd="50"/>
+					<Articulation name="SForzando Dot" prgChg="17" velocityAdd="60" durationPct="50"/>
+					<Articulation name="Heavier Attack" prgChg="17" velocityAdd="50" durationPct="100"/>
+					<Articulation name="SForzando Inverted" prgChg="17" velocityAdd="50"/>
+					<Articulation name="SForzando Dot Inverted" prgChg="17" velocityAdd="60" durationPct="50"/>
+					<Articulation name="legato" durationPct="100" prgChg="15"/>
+				</ArticulationSwitchList>
+				
+				<ArticulationSwitchList name="Contrabasses">
+					<Articulation name="Staccato" durationPct="90" prgChg="22"/>
+					<Articulation name="Staccatissimo" durationPct="50" prgChg="22"/>
+					<Articulation name="pizz" prgChg="23"/>
+				</ArticulationSwitchList>
+				
+				<ArticulationSwitchList name="Combinations">
+					<Articulation name="Staccato" durationPct="90" prgChg="27"/>
+					<Articulation name="Staccatissimo" durationPct="50" prgChg="27"/>
+					<Articulation name="pizz" prgChg="28"/>
+				</ArticulationSwitchList>
+				
+				<ArticulationSwitchList name="Full Strings">
+					<Articulation name="Staccato" durationPct="90" prgChg="33"/>
+					<Articulation name="Staccatissimo" durationPct="50" prgChg="33"/>
+					<Articulation name="pizz" prgChg="34"/>
+					<Articulation name="legato" durationPct="100" prgChg="30"/>
+				</ArticulationSwitchList>
+				
+				<ArticulationSwitchList name="Violin">
+					<Articulation name="Staccato" durationPct="90" prgChg="5"/>
+					<Articulation name="Staccatissimo" durationPct="50" prgChg="5"/>
+					<Articulation name="pizz" prgChg="6"/>
+					<Articulation name="Marcato" prgChg="4" velocityAdd="40" durationPct="90"/>
+					<Articulation name="Marcato Dot" prgChg="4" velocityAdd="50" durationPct="50"/>
+					<Articulation name="Heavy Attack" prgChg="4" velocityAdd="40" durationPct="100"/>
+					<Articulation name="SForzando" prgChg="4" velocityAdd="50"/>
+					<Articulation name="SForzando Dot" prgChg="4" velocityAdd="60" durationPct="50"/>
+					<Articulation name="Heavier Attack" prgChg="4" velocityAdd="50" durationPct="100"/>
+					<Articulation name="SForzando Inverted" prgChg="4" velocityAdd="50"/>
+					<Articulation name="SForzando Dot Inverted" prgChg="4" velocityAdd="60" durationPct="50"/>
+				</ArticulationSwitchList>
+				
+				<ArticulationSwitchList name="Viola">
+					<Articulation name="Staccato" durationPct="90" prgChg="12"/>
+					<Articulation name="Staccatissimo" durationPct="50" prgChg="12"/>
+					<Articulation name="pizz" prgChg="13"/>
+					<Articulation name="Marcato" prgChg="11" velocityAdd="40" durationPct="90"/>
+					<Articulation name="Marcato Dot" prgChg="11" velocityAdd="50" durationPct="50"/>
+					<Articulation name="Heavy Attack" prgChg="11" velocityAdd="40" durationPct="100"/>
+					<Articulation name="SForzando" prgChg="11" velocityAdd="50"/>
+					<Articulation name="SForzando Dot" prgChg="11" velocityAdd="60" durationPct="50"/>
+					<Articulation name="Heavier Attack" prgChg="11" velocityAdd="50" durationPct="100"/>
+					<Articulation name="SForzando Inverted" prgChg="11" velocityAdd="50"/>
+					<Articulation name="SForzando Dot Inverted" prgChg="11" velocityAdd="60" durationPct="50"/>
+				</ArticulationSwitchList>
+				
+				<ArticulationSwitchList name="Cello">
+					<Articulation name="Staccato" durationPct="90" prgChg="19"/>
+					<Articulation name="Staccatissimo" durationPct="50" prgChg="19"/>
+					<Articulation name="pizz" prgChg="20"/>
+					<Articulation name="Marcato" prgChg="18" velocityAdd="40" durationPct="90"/>
+					<Articulation name="Marcato Dot" prgChg="18" velocityAdd="50" durationPct="50"/>
+					<Articulation name="Heavy Attack" prgChg="18" velocityAdd="40" durationPct="100"/>
+					<Articulation name="SForzando" prgChg="18" velocityAdd="50"/>
+					<Articulation name="SForzando Dot" prgChg="18" velocityAdd="60" durationPct="50"/>
+					<Articulation name="Heavier Attack" prgChg="18" velocityAdd="50" durationPct="100"/>
+					<Articulation name="SForzando Inverted" prgChg="18" velocityAdd="50"/>
+					<Articulation name="SForzando Dot Inverted" prgChg="18" velocityAdd="60" durationPct="50"/>
+				</ArticulationSwitchList>
+				
+				<ArticulationSwitchList name="Contrabass">
+					<Articulation name="Staccato" durationPct="90" prgChg="26"/>
+					<Articulation name="Staccatissimo" durationPct="50" prgChg="26"/>
+					<Articulation name="pizz" prgChg="27"/>
+					<Articulation name="Marcato" prgChg="25" velocityAdd="40" durationPct="90"/>
+					<Articulation name="Marcato Dot" prgChg="25" velocityAdd="50" durationPct="50"/>
+					<Articulation name="Heavy Attack" prgChg="25" velocityAdd="40" durationPct="100"/>
+					<Articulation name="SForzando" prgChg="25" velocityAdd="50"/>
+					<Articulation name="SForzando Dot" prgChg="25" velocityAdd="60" durationPct="50"/>
+					<Articulation name="Heavier Attack" prgChg="25" velocityAdd="50" durationPct="100"/>
+					<Articulation name="SForzando Inverted" prgChg="25" velocityAdd="50"/>
+					<Articulation name="SForzando Dot Inverted" prgChg="25" velocityAdd="60" durationPct="50"/>
+				</ArticulationSwitchList>
+				
+				<ArticulationSwitchList name="Trumpets">
+					<Articulation name="Staccato" durationPct="90" prgChg="4"/>
+					<Articulation name="Staccatissimo" durationPct="50" prgChg="4"/>
+				</ArticulationSwitchList>
+				
+				<ArticulationSwitchList name="Trombones">
+					<Articulation name="Staccato" durationPct="90" prgChg="8"/>
+					<Articulation name="Staccatissimo" durationPct="50" prgChg="8"/>
+				</ArticulationSwitchList>
+				
+				<ArticulationSwitchList name="FHorns">
+					<Articulation name="Staccato" durationPct="90" prgChg="15"/>
+					<Articulation name="Staccatissimo" durationPct="50" prgChg="15"/>
+					<Articulation name="Marcato" prgChg="14" velocityAdd="20" durationPct="90"/>
+					<Articulation name="Marcato Dot" prgChg="14" velocityAdd="30" durationPct="50"/>
+					<Articulation name="Heavy Attack" prgChg="14" velocityAdd="20" durationPct="100"/>
+					<Articulation name="SForzando" prgChg="14" velocityAdd="40"/>
+					<Articulation name="SForzando Dot" prgChg="14" velocityAdd="50" durationPct="50"/>
+					<Articulation name="Heavier Attack" prgChg="14" velocityAdd="40" durationPct="100"/>
+					<Articulation name="SForzando Inverted" prgChg="14" velocityAdd="40"/>
+					<Articulation name="SForzando Dot Inverted" prgChg="14" velocityAdd="50" durationPct="50"/>
+				</ArticulationSwitchList>
+				
+				<ArticulationSwitchList name="Tuba">
+					<Articulation name="Staccato" durationPct="90" prgChg="12"/>
+					<Articulation name="Staccatissimo" durationPct="50" prgChg="12"/>
+				</ArticulationSwitchList>
+		</ArticulationNames>
+
+		<ControllerNames>				
+			<Controller name="Modulation" cc="1"/>
+ 			<Controller name="Volume (Expression)" cc="11"/>
+ 			<Controller name="Part Volume" cc="7"/>
+			<Controller name="Part Panning" cc="10"/>
+ 			<Controller name="Pedal (Sustain)" cc="64"/>
+ 			<Controller name="Sostenuto" cc="66"/>
+			<Controller name="Soft (Piano)" cc="67"/>
+			<Controller name="Master Volume" cc="3"/>
+			<Controller name="Portamento Time" cc="5"/>			
+			<Controller name="Part Course Tuning" cc="16"/>
+			<Controller name="Part Fine Tuning" cc="17"/>
+			<Controller name="Character" cc="18"/>
+			<Controller name="Pan Keyfollow" cc="19"/>
+			<Controller name="Velocity Sens Dynamics" cc="20"/>
+			<Controller name="Velocity Switch Sens" cc="21"/>
+			<Controller name="Velocity Switch Attack" cc="22"/>
+			<Controller name="Modulation Depth" cc="23"/>
+			<Controller name="Random Modulation Rate" cc="24"/>
+			<Controller name="Random Modulation Depth" cc="25"/>
+			<Controller name="Bend Range" cc="26"/>
+			<Controller name="EQ Switch" cc="27"/>
+			<Controller name="EQ Low Gain" cc="28"/>
+			<Controller name="EQ Mid Gain" cc="29"/>
+			<Controller name="EQ High Gain" cc="30"/>
+			<Controller name="Legato Retrigger Switch" cc="31"/>
+			<Controller name="Patch Stereo Mode" cc="33"/>
+			<Controller name="Portamento Switch" cc="65"/>
+			<Controller name="Patch Decrement" cc="68"/>
+			<Controller name="Patch Increment" cc="69"/>
+			<Controller name="Filter Resonance" cc="71"/>
+			<Controller name="Envelope Release Time" cc="72"/>
+			<Controller name="Envelope Attack Time" cc="73"/>
+			<Controller name="Filter Cutoff" cc="74"/>
+			<Controller name="Envelope Decay Time" cc="75"/>
+			<Controller name="Vibrato Rate" cc="76"/>
+			<Controller name="Vibrato Depth" cc="77"/>
+			<Controller name="Vibrato Delay" cc="78"/>
+			<Controller name="Part Reverb Send" cc="91"/>
+			<Controller name="Part Chorus Send" cc="93"/>
+		</ControllerNames>
+		 
+		<Instruments>
+
+			<Section name="String Sections" bank="0" clef="treble">
+				<Group name="Violin Section" title="Violins" abbr="Vns." lownote="c-1" highnote="c9" clef="treble">
+				<UsesArticulationSwitchList name="Violins"/>
+					<Instrument name="Violin Warm Section" prgChg="1"/>		
+					<Instrument name="Slow Violin Section" prgChg="2" Articulation="legato"/>		
+					<Instrument name="Violin Section" prgChg="3"/>
+					<Instrument name="Violin Section VSW" prgChg="4" Articulation="Marcato, Marcato Dot, Sforzando, Sforzando Dot, Heavy Attack, Heavier Attack"/>
+					<Instrument name="Violins Spiccato" prgChg="5" Articulation="Staccato, Staccatissimo"/>
+					<Instrument name="Violins Pizzicato" prgChg="6" Articulation="pizz"/>
+					<Instrument name="Tremolo Violins" prgChg="7" Articulation="Tremolo Thirty Seconds"/>
+				</Group>
+				<Group name="Viola Section" title="Violas" abbr="Vas." lownote="c-1" highnote="c9" clef="alto">
+				<UsesArticulationSwitchList name="Violas"/>
+					<Instrument name="Viola Warm Section" prgChg="8"/>		
+					<Instrument name="Slow Viola Section" prgChg="9" Articulation="legato"/>		
+					<Instrument name="Viola Section" prgChg="10"/>
+					<Instrument name="Viola Section VSW" prgChg="11" Articulation="Marcato, Marcato Dot, Sforzando, Sforzando Dot, Heavy Attack, Heavier Attack"/>
+					<Instrument name="Violas Spiccato" prgChg="12" Articulation="Staccato, Staccatissimo"/>
+					<Instrument name="Violas Pizzicato" prgChg="13" Articulation="pizz"/>
+					<Instrument name="Tremolo Violas" prgChg="14" Articulation="Tremolo Thirty Seconds"/>
+				</Group>
+				<Group name="Cello Section" title="Cellos" abbr="Vcs." lownote="c-1" highnote="c9" clef="bass">
+				<UsesArticulationSwitchList name="Cellos"/>
+					<Instrument name="Cello Warm Section" prgChg="15"/>			
+					<Instrument name="Cello Section" prgChg="16"/>
+					<Instrument name="Cello Section VSW" prgChg="17" Articulation="Marcato, Marcato Dot, Sforzando, Sforzando Dot, Heavy Attack, Heavier Attack"/>
+					<Instrument name="Cellos Spiccato" prgChg="18" Articulation="Staccato, Staccatissimo"/>
+					<Instrument name="Cellos Pizzicato" prgChg="19" Articulation="pizz"/>
+					<Instrument name="Tremolo Cellos" prgChg="20" Articulation="Tremolo Thirty Seconds"/>
+				</Group>
+				<Group name="Contrabass Section" title="Double Basses" abbr="Dbs." lownote="c-1" highnote="c9" pitch="-12" clef="bass">
+				<UsesArticulationSwitchList name="Contrabasses"/>
+					<Instrument name="Contrabass Section" prgChg="21"/>			
+					<Instrument name="Contrabasses Spiccato" prgChg="22" Articulation="Staccato, Staccatissimo"/>
+					<Instrument name="Contrabasses Pizzicato" prgChg="23" Articulation="pizz"/>
+					<Instrument name="Tremolo Contrabasses" prgChg="24" Articulation="Tremolo Thirty Seconds"/>
+				</Group>
+				<Group name="Combinations" lownote="c-1" highnote="c9" clef="bass">
+				<UsesArticulationSwitchList name="Combinations"/>
+					<Instrument name="Contrabass and Contrabassoon" prgChg="25"/>			
+					<Instrument name="Contrabasses and Cellos" prgChg="26"/>
+					<Instrument name="Cbs/Vcs Spiccato" prgChg="27" Articulation="Staccato, Staccatissimo"/>
+					<Instrument name="Cbs/Vcs Pizzicato" prgChg="28" Articulation="pizz"/>
+					<Instrument name="Cbs/Vcs Tremolo" prgChg="29" Articulation="Tremolo Thirty Seconds"/>
+				</Group>
+				<Group name="Full Strings" title="Strings" abbr="Str." lownote="c-1" highnote="c9">
+				<UsesArticulationSwitchList name="Full Strings"/>
+					<Instrument name="Slow Strings" prgChg="30" Articulation="legato"/>			
+					<Instrument name="Full Strings" prgChg="31"/>
+					<Instrument name="Full Strings Tremolo" prgChg="32" Articulation="Tremolo Thirty Seconds"/>
+					<Instrument name="Full Strings Spiccato" prgChg="33" Articulation="Staccato, Staccatissimo"/>
+					<Instrument name="Full Strings Pizzicato" prgChg="34" Articulation="pizz"/>
+				</Group>
+			</Section>
+			
+			<Section name="Solo Strings" bank="1" clef="treble">
+				<Group name="Violin" title="Violin" abbr="Vn." lownote="c-1" highnote="c9" clef="treble">
+				<UsesArticulationSwitchList name="Violin"/>
+					<Instrument name="Violin Vibrato" prgChg="1"/>		
+					<Instrument name="Violin" prgChg="2"/>		
+					<Instrument name="Violin MSW" prgChg="3"/>
+					<Instrument name="Violin VSW" prgChg="4" Articulation="Marcato, Marcato Dot, Sforzando, Sforzando Dot, Heavy Attack, Heavier Attack"/>
+					<Instrument name="Violin Spiccato" prgChg="5" Articulation="Staccato, Staccatissimo"/>
+					<Instrument name="Violin Pizzicato" prgChg="6" Articulation="pizz"/>
+					<Instrument name="Violin Harmonics" prgChg="7"/>
+				</Group>
+				<Group name="Viola" title="Viola" abbr="Va." lownote="c-1" highnote="c9" clef="alto">
+				<UsesArticulationSwitchList name="Viola"/>
+					<Instrument name="Viola Vibrato" prgChg="8"/>		
+					<Instrument name="Viola" prgChg="9"/>		
+					<Instrument name="Viola MSW" prgChg="10"/>
+					<Instrument name="Viola VSW" prgChg="11" Articulation="Marcato, Marcato Dot, Sforzando, Sforzando Dot, Heavy Attack, Heavier Attack"/>
+					<Instrument name="Viola Spiccato" prgChg="12" Articulation="Staccato, Staccatissimo"/>
+					<Instrument name="Viola Pizzicato" prgChg="13" Articulation="pizz"/>
+					<Instrument name="Viola Harmonics" prgChg="14"/>
+				</Group>
+				<Group name="Cello" title="Cello" abbr="Vc." lownote="c-1" highnote="c9" clef="bass">
+				<UsesArticulationSwitchList name="Cello"/>
+					<Instrument name="Cello Vibrato" prgChg="15"/>			
+					<Instrument name="Cello" prgChg="16"/>
+					<Instrument name="Cello MSW" prgChg="17"/>
+					<Instrument name="Cello VSW" prgChg="18" Articulation="Marcato, Marcato Dot, Sforzando, Sforzando Dot, Heavy Attack, Heavier Attack"/>
+					<Instrument name="Cello Spiccato" prgChg="19" Articulation="Staccato, Staccatissimo"/>
+					<Instrument name="Cello Pizzicato" prgChg="20" Articulation="pizz"/>
+					<Instrument name="Cello Harmonics" prgChg="21"/>
+				</Group>
+				<Group name="Contrabass" title="Double Bass" abbr="Db." lownote="c-1" highnote="c9" pitch="-12" clef="bass">
+				<UsesArticulationSwitchList name="Contrabass"/>
+					<Instrument name="Contrabass Vibrato" prgChg="22"/>			
+					<Instrument name="Contrabass" prgChg="23"/>
+					<Instrument name="Contrabass MSW" prgChg="24"/>
+					<Instrument name="Contrabass VSW" prgChg="25" Articulation="Marcato, Marcato Dot, Sforzando, Sforzando Dot, Heavy Attack, Heavier Attack"/>
+					<Instrument name="Contrabass Spiccato" prgChg="26" Articulation="Staccato, Staccatissimo"/>
+					<Instrument name="Contrabass Pizzicato" prgChg="27" Articulation="pizz"/>
+					<Instrument name="Contrabass Harmonics" prgChg="28"/>
+				</Group>
+				<Group name="Harp" title="Harp" abbr="Hrp." lownote="c-1" highnote="c9">
+					<Instrument name="Harp 1" prgChg="29"/>			
+					<Instrument name="Harp 2" prgChg="30"/>
+				</Group>
+			</Section>
+			
+			<Section name="Brass Sections" bank="2" clef="treble">
+				<Group name="Trumpet Section" title="Trumpets" abbr="Tpts." lownote="c-1" highnote="c9" clef="treble">
+				<UsesArticulationSwitchList name="Trumpets"/>
+					<Instrument name="Trumpet Section 1" prgChg="1"/>		
+					<Instrument name="Trumpet Section 2" prgChg="2"/>		
+					<Instrument name="Trumpet Section 3" prgChg="3"/>
+					<Instrument name="Trumpets Staccato" prgChg="4" Articulation="Staccato, Staccatissimo"/>
+				</Group>
+				<Group name="Trombone Section" title="Trombones" abbr="Tbns." lownote="c-1" highnote="c9" clef="bass">
+				<UsesArticulationSwitchList name="Trombones"/>
+					<Instrument name="Trombone Section 1" prgChg="5"/>		
+					<Instrument name="Trombone Section 2" prgChg="6"/>		
+					<Instrument name="Trombone Section 3" prgChg="7"/>
+					<Instrument name="Trombones Staccato" prgChg="8" Articulation="Staccato, Staccatissimo"/>
+					<Instrument name="Trombones Slide" prgChg="9"/>
+				</Group>
+				<Group name="French Horn Section" title="French Horns" abbr="F Hns." lownote="c-1" highnote="c9" transpose="7" clef="treble">
+				<UsesArticulationSwitchList name="FHorns"/>
+					<Instrument name="French Horn Section" prgChg="13"/>		
+					<Instrument name="French Horns Accent" prgChg="14" Articulation="Marcato, Marcato Dot, Sforzando, Sforzando Dot, Heavy Attack, Heavier Attack"/>		
+					<Instrument name="French Horns Attack" prgChg="15" Articulation="Staccato, Staccatissimo"/>
+					<Instrument name="French Horns Fat" prgChg="16"/>
+					<Instrument name="French Horns Mute" prgChg="17"/>
+					<Instrument name="French Horns Swell" prgChg="18"/>
+					<Instrument name="French Horns Rip" prgChg="19"/>
+				</Group>
+				<Group name="Combination" lownote="c-1" highnote="c9" clef="treble">
+					<Instrument name="Bass Trombone and Tuba" prgChg="10"/>		
+					<Instrument name="Bass Trombone and Trombone Section" prgChg="11"/>		
+					<Instrument name="Tuba and Trombones Staccato" prgChg="12"/>
+				</Group>
+				<Group name="Full Brass" title="Orchestral Brass" abbr="Brass" lownote="c-1" highnote="c9" clef="treble">
+					<Instrument name="Orchestra Ensemble" prgChg="20"/>		
+				</Group>
+			</Section>
+			
+			<Section name="Solo Brasses" bank="3" clef="treble">
+				<Group name="Trumpet" title="Trumpet" abbr="Tpt." lownote="c-1" highnote="c9" clef="treble">
+					<Instrument name="Classical Trumpet" prgChg="1"/>		
+					<Instrument name="Trumpet 1" title="Trumpet 1" abbr="Tpt. 1" prgChg="2"/>		
+					<Instrument name="Trumpet 2" title="Trumpet 2" abbr="Tpt. 2" prgChg="3"/>
+					<Instrument name="Trumpet Mute" prgChg="4"/>
+					<Instrument name="Piccolo Trumpet" prgChg="5"/>
+					<Instrument name="Cornet" prgChg="6" transpose="2"/>
+				</Group>
+				<Group name="Trombone" title="Trombone" abbr="Tbn." lownote="c-1" highnote="c9" clef="bass">
+					<Instrument name="Trombone" prgChg="7"/>		
+					<Instrument name="Trombone Mute" prgChg="8"/>		
+					<Instrument name="Alto Trombone" prgChg="9" clef="alto"/>
+					<Instrument name="Bass Trombone" prgChg="10"/>
+				</Group>
+				<Group name="Tuba" title="Tuba" abbr="Tba." lownote="c-1" highnote="c9" clef="bass">
+				<UsesArticulationSwitchList name="Tuba"/>
+					<Instrument name="Tuba" prgChg="11"/>		
+					<Instrument name="Tuba Staccato" prgChg="12" Articulation="Staccato, Staccatissimo"/>		
+				</Group>
+				<Group name="French Horn" title="French Horns" abbr="F Hns." lownote="c-1" highnote="c9" transpose="7" clef="treble">
+					<Instrument name="French Horn" prgChg="13"/>		
+					<Instrument name="French Horn Stop" prgChg="14"/>		
+					<Instrument name="French Horn Mute" prgChg="15"/>
+				</Group>
+				<Group name="Flugelhorn" title="Flugelhorn" abbr="Flg." lownote="c-1" highnote="c9" transpose="2" clef="treble">
+					<Instrument name="Flugelhorn" prgChg="16"/>		
+				</Group>
+				<Group name="Euphonium" title="Euphonium" abbr="Euph." lownote="c-1" highnote="c9" clef="bass">
+					<Instrument name="Euphonium" prgChg="17"/>		
+				</Group>
+			</Section>
+			
+			<Section name="Woodwinds" bank="4" clef="treble">
+				<Group name="Piccolo" title="Piccolo" abbr="Picc." lownote="c-1" highnote="c9" pitch="12" clef="treble">
+					<Instrument name="Piccolo Vibrato" prgChg="1"/>		
+					<Instrument name="Piccolo Flute 1" title="Piccolo Flute 1" abbr="PiccFl. 1" prgChg="2"/>		
+					<Instrument name="Piccolo Flute 2" title="Piccolo Flute 1" abbr="PiccFl. 2" prgChg="3"/>
+				</Group>
+				<Group name="Flute" title="Flute" abbr="Fl." lownote="c-1" highnote="c9" clef="treble">
+					<Instrument name="Flute Vibrato" title="Flute 1" abbr="Fl. 1" prgChg="4"/>		
+					<Instrument name="Flute Vibrato 2"  title="Flute 2" abbr="Fl. 2" prgChg="5"/>		
+					<Instrument name="Flute" prgChg="6"/>
+					<Instrument name="Flute MSW" prgChg="7"/>
+					<Instrument name="Flute and Piccolo" prgChg="8"/>
+					<Instrument name="Flute and Piccolo Vibrato" prgChg="9"/>
+					<Instrument name="Alto Flute Vibrato" title="Alto Flute" abbr="AFl." transpose="5" prgChg="10"/>
+					<Instrument name="Alto Flute"  title="Alto Flute" abbr="AFl." transpose="5" prgChg="11"/>
+					<Instrument name="Alto Flute MSW"  title="Alto Flute" abbr="AFl." transpose="5" prgChg="12"/>
+					<Instrument name="Bass Flute Vibrato"  title="Bass Flute" abbr="BFl." pitch="-12" prgChg="13"/>
+					<Instrument name="Bass Flute"  title="Bass Flute" abbr="BFl." pitch="-12" prgChg="14"/>
+					<Instrument name="Bass Flute MSW"  title="Bass Flute" abbr="BFl." pitch="-12" prgChg="15"/>
+				</Group>
+				<Group name="Clarinet" title="Clarinet" abbr="Cl." lownote="c-1" highnote="c9" transpose="2" clef="treble">
+					<Instrument name="Clarinet 1" title="Clarinet 1" abbr="Cl. 1" prgChg="16"/>	
+					<Instrument name="Clarinet 2" title="Clarinet 2" abbr="Cl. 2" prgChg="17"/>	
+					<Instrument name="Bass Clarinet" title="Bass Clarinet" abbr="BCl. 1" prgChg="18" transpose="2" pitch="-12"/>
+				</Group>
+				<Group name="Oboe" title="Oboe" abbr="Ob." lownote="c-1" highnote="c9" clef="treble">
+					<Instrument name="Oboe Vibrato" prgChg="19"/>		
+					<Instrument name="Oboe 1" prgChg="20" title="Oboe 1" abbr="Ob. 1"/>
+					<Instrument name="Oboe 2" prgChg="21" title="Oboe 2" abbr="Ob. 2"/>
+					<Instrument name="Oboe MSW" prgChg="22"/>
+				</Group>
+				<Group name="English Horn" title="English Horn" abbr="EHn." lownote="c-1" highnote="c9" transpose="7" clef="treble">
+					<Instrument name="English Horn Vibrato" prgChg="23"/>		
+					<Instrument name="English Horn 1" prgChg="24" title="English Horn 1" abbr="EHn. 1"/>
+					<Instrument name="English Horn 2" prgChg="25" title="English Horn 2" abbr="EHn. 2"/>
+				</Group>
+				<Group name="Bassoon" title="Bassoon" abbr="Bsn." lownote="c-1" highnote="c9" clef="bass">
+					<Instrument name="Contrabassoon" title="Contrabassoon" abbr="CBsn." prgChg="26" pitch="-12"/>		
+					<Instrument name="Bassoon" prgChg="27"/>
+				</Group>
+				<Group name="Sax" title="Alto Sax" abbr="ASx." lownote="c-1" highnote="c9" transpose="9" clef="treble">
+					<Instrument name="Alto Sax" prgChg="28"/>		
+				</Group>
+			</Section>
+			
+			<Section name="Key and Percussion" bank="5" clef="treble" velocity="on">
+				<Group name="Keyboard" lownote="c-1" highnote="c9" clef="treble">
+					<Instrument name="Concert Piano" title="Piano" abbr="Pf." prgChg="1"/>		
+					<Instrument name="Harpsichord" title="Harpsichord" abbr="Hpd." prgChg="2"/>		
+				</Group>
+				<Group name="Chromatic Percussion" lownote="c-1" highnote="c9" clef="treble">
+					<Instrument name="Celesta" title="Celeste" abbr="Cel." pitch="12" transpose="-12" prgChg="3"/>		
+					<Instrument name="Marimba"  title="Marimba" abbr="Mba." prgChg="4"/>		
+					<Instrument name="Bass Marimba" title="Bass Marimba" abbr="BMba." prgChg="5"/>
+					<Instrument name="Xylophone" title="Xylophone" abbr="Xylo." pitch="12" transpose="-12" prgChg="6"/>
+					<Instrument name="Glocken 1" title="Glockenspiel" abbr="Glsp." pitch="24" transpose="-24" prgChg="7"/>
+					<Instrument name="Glocken 2" title="Glockenspiel" abbr="Glsp." pitch="24" transpose="-24" prgChg="8"/>
+					<Instrument name="Tubular-bell" title="Tubular Bells" abbr="T Bells" prgChg="9"/>
+					<Instrument name="Tubular-bell2" title="Tubular Bells" abbr="T Bells" prgChg="10"/>
+				</Group>
+				<Group name="Timpani" title="Timpani" abbr="Timp." lownote="c-1" highnote="c9" clef="bass">
+					<Instrument name="Timpani" prgChg="11"/>	
+					<Instrument name="Timpani Roll" prgChg="12"/>	
+					<Instrument name="Timpani/Roll" prgChg="13"/>
+				</Group>
+			</Section>
+			
+			<Section name="Rhythm Set" bank="6" title="Percussion" abbr="Perc." clef="percussion" lownote="c-1" highnote="c9" velocity="on">
+					<Instrument name="Orchestra Kit" prgChg="1"/>		
+					<Instrument name="Marching Kit" prgChg="2"/>		
+					<Instrument name="Timpani Kit" prgChg="3"/>		
+			</Section>
+
+		</Instruments>
+	</Device>
+	
+</VSTNameDocument>

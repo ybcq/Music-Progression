@@ -1,0 +1,117 @@
+﻿<html>
+	
+<head>
+	<title>Quantize</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("Quantize");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Quantize</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="OvertureMenus.html">Overture Menus</a> &rsaquo;&rsaquo; <a href="NotesMenu.html">Notes Menu</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="NotesMenu.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="Humanize.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="RedoPitches.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<p class="rvps2"><span class="rvts6">Choose this command to </span><span class="rvts17">quantize</span><span class="rvts6"> selected notes, that is, to round off their start times and durations to even beats so they can display reasonably on a staff or play back with precision, rather than with irregularities, the way humans play them. When you choose the </span><span class="rvts12">Quantize</span><span class="rvts6"> command, Overture produces the Quantize dialog box.</span></p>
+<h3 class="rvps13"><span class="rvts0"><span class="rvts21">About the Quantize Dialog Box</span></span></h3>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NewItem43.png"></p>
+<h3 class="rvps13"><span class="rvts0"><span class="rvts21">Resolution</span></span></h3>
+<p class="rvps2"><span class="rvts6">In this section of the Quantize dialog box specify the granularity of the quantization. You can use any value from a half note down to a thirty-second note triplet. Select a resolution that matches the smallest note in the region you are quantizing. If you are quantizing a run of sixteenth notes, use a sixteenth note as the resolution.</span></p>
+<h3 class="rvps13"><span class="rvts0"><span class="rvts21">Change</span></span></h3>
+<p class="rvps2"><span class="rvts6">In this section of the Quantize dialog box, choose to move the start times of notes, their durations, or both.</span></p>
+<h3 class="rvps13"><span class="rvts0"><span class="rvts21">Options</span></span></h3>
+<p class="rvps2"><span class="rvts6">In this section specify how, exactly, you want the selected notes quantized, in several dimensions.</span></p>
+<p class="rvps2"><span class="rvts17"><br/></span></p>
+<p class="rvps2"><span class="rvts17">Strength</span><span class="rvts6">. The human ear is tuned to the slight imperfections we hear from most musicians. If you quantize a song so that all notes are perfectly in position, it may end up sounding mechanical or rigid. To avoid this, Overture lets you adjust the strength of the adjustment. A strength of 100 percent indicates that all notes are moved so that they are in perfect time, while a strength of 50 percent means that all notes are moved half-way towards the desired position. This lets you tighten up the timing as much as you want, without going too far.</span></p>
+<p class="rvps2"><span class="rvts17"><br/></span></p>
+<p class="rvps2"><span class="rvts17">Swing</span><span class="rvts6">. Many songs do not have notes positioned perfectly evenly. For example, songs with a swing feel, though they may be written all using eighth notes, are often played more like eighth note triplets, with the first note extended and the second one shortened. The swing option lets you distort the timing so each pair of notes is spaced unevenly, giving the quantized material a swing feel.</span></p>
+<p class="rvps2"><span class="rvts6">A swing value of 50 percent (the default) means that the timing is even. A value of 67 percent means that the time between the first and second evenly spaced notes is twice as long as the time between the second and third. </span></p>
+<p class="rvps2"><span class="rvts17"><br/></span></p>
+<p class="rvps2"><span class="rvts17">Window</span><span class="rvts6">. When you quantize some portion of a song, notes that are very far from the specified timing should probably not be moved at all. The window, or sensitivity setting, lets you choose how close to the resolution a note must be for quantize to move it. </span></p>
+<p class="rvps2"><span class="rvts6">A window of 100 percent includes all notes, and guarantees that all notes will shift to lie exactly on the resolution timing. The window extends half the resolution distance before and after the quantization point. A window of 50 percent extends only a quarter of the way toward the adjacent quantization points.</span></p>
+<p class="rvps2"><span class="rvts17"><br/></span></p>
+<p class="rvps2"><span class="rvts17">Offset</span><span class="rvts6">. Normally, the resolution grid is aligned evenly with the start of measures and beats. As an option, you can shift the grid earlier or later by any number of clock ticks. If the resolution is a quarter note, and you've set the offset to +3 ticks, then a note that is originally near the beat would be moved three ticks beyond the beat boundary.</span></p>
+<h3 class="rvps13"><span class="rvts0"><span class="rvts21">Using the Notes/Quantize Command</span></span></h3>
+<p class="rvps2"><span class="rvts6">To </span><span class="rvts17">quantize</span><span class="rvts6"> selected notes:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Using the Arrow cursor, click the first note in the passage to select it (highlighting it). </span></span></li>
+<li value="2" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Shift-click the final note in the passage to select it (highlighting all the notes between). </span></span></li>
+<li value="3" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Choose </span></span><span class="rvts0"><span class="rvts12">Notes/Quantize</span></span><span class="rvts0"><span class="rvts6">.</span></span><br/><span class="rvts0"><span class="rvts6">The Quantize dialog box appears. </span></span></li>
+<li value="4" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Click the radio button next to the resolution note size you need. </span></span></li>
+<li value="5" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Click one or both check boxes to specify whether you want to quantize start times, note durations, or both. </span></span></li>
+<li value="6" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Specify percentages for the options Strength, Swing, and Window, and ticks for the Offset option. </span></span></li>
+<li value="7" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Click the </span></span><span class="rvts0"><span class="rvts12">OK</span></span><span class="rvts0"><span class="rvts6"> button. </span></span></li>
+</ol>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Overture quantizes the selected notes in your score.</span></p>
+<p class="rvps2"><span class="rvts6">This command affects start and end times of notes only, not the notated note value. To change note value, see </span><a class="rvts11" href="Transcribe.html">Transcribe</a><span class="rvts6">.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

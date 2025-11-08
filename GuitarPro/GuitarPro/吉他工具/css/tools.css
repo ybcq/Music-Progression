@@ -1,0 +1,121 @@
+@charset "utf-8";
+body{color:#666;font-family:Arial, Helvetica, sans-serif;font-size:12px;  overflow-x:hidden}
+.main-col{width:1000px;margin:0 auto;}
+.stream {margin:0px auto;}
+.stream h1{margin:10px 0 20px;font:normal 24px YaHeiConsolas,"Microsoft YaHei","微软雅黑","宋体";text-align:center;color:#c00;}
+
+/*面包屑*/
+.address a{ padding:0px 5px;}
+.help-info{ line-height:26px; font-size:14px;}
+
+/****吉他音阶****/
+#yinjie {height:260px;text-align: center; position:relative}
+#yinjie #notasEscala {position: absolute; left:15px; top:15px;margin-top: 35px;	width: 960px;}
+#yinjie .fretnum {padding-left: 0px;clear: both;}
+#yinjie .fretnum .fret {border-right-color: white;}
+#yinjie .fretnum .finger {border-right-color: white;opacity: 0.4;background-color: #369;}
+#yinjie .string {height: 25px;border-top: solid 3px #888;position: relative;background-color: white;}
+#yinjie .string_0 {height: 0 !important;}
+#yinjie .string_0 .fret {border-color: transparent;}
+#yinjie .fret {height: 28px;text-align: center;float: left;border-right: 3px double #ccc;overflow: visible;	margin-right: -5px;}
+#yinjie .fret_0 {width: 26px;border-right: 6px solid #777;}
+#yinjie .fret_1 {width: 75px;}
+#yinjie .fret_2 {width: 70px;}
+#yinjie .fret_3 {width: 65px;}
+#yinjie .fret_4 {width: 55px;}
+#yinjie .fret_5 {width: 53px;}
+#yinjie .fret_6, .fret_7, .fret_8 {width: 50px;}
+#yinjie .fret_9, .fret_10 {width: 48px;}
+#yinjie .fret_11, .fret_12 {width: 45px;}
+#yinjie .fret_13, .fret_14 {width: 43px;}
+#yinjie .fret_15, .fret_16, .fret_17, .fret_18 {width: 40px;}
+#yinjie .fret_19, .fret_20 {width: 35px;}
+#yinjie .fret_20 {border-right: 0;}
+#yinjie .fret a {width: 80%;margin: -12px auto 0 auto;	height: 20px;display: block;}
+#yinjie .finger {width: 20px;height: 100%;display: block;margin: 0 auto;font-family: Verdana,Arial,Helvetica,sans-serif;line-height: 19px;font-size: 11px;text-align: center;-webkit-border-radius: 13px;-moz-border-radius: 13px;border-radius: 13px;	background-color: #666;color: white;}
+#yinjie .firstfret {opacity: 0.4;display: block;color: white!important;}
+#yinjie .fret a:hover {	text-decoration: none;}
+#yinjie .fret a:hover .finger {display: block;opacity: 1.0;	color: white;-moz-box-shadow: 0px 0px 4px #333;	-webkit-box-shadow: 0px 0px 4px #333;box-shadow: 0px 0px 4px #333;}
+#yinjie .fret .hidden {display: none;}
+#yinjie .fret .dot {color: #666;}
+#yinjie .fret .tonicdot {background-color: #009000;	color: #009000;}
+#yinjie .fret .tonic {background-color: #009000;}
+
+.notetable {width:100%;margin-bottom:20px;text-align: center; font-size:12px;	border: 1px solid #666;	background: #EEE;border-collapse: collapse;}
+.notetable caption h2 {color: #333;height:24px;text-align: center; line-height:24px;font-size:16px;}
+.notetable th {	text-align: center;}
+.notetable thead .t1 {height: 25px;background: #369;color: white;}
+.notetable thead .t2 {height: 25px;background: #91C718;color: white;width: 60px;}
+.notetable tbody tr {height: 28px;}
+.notetable tr.color1 {background-color: #EEE;color: #333;}
+.notetable tr.color2 {background-color: #DDD;color: #333;}
+
+/***五度圈***/
+#PageContent{ height:560px}
+.LoadingMessage {width:100%;height:100%}
+.LoadingMessage TD {font-size: 21px; vertical-align: middle; font-family: "arial black", arial, helvetica; text-align: center}
+.DocumentationLink A {font-weight: bold; font-size: 15px; color: black; font-family: arial, helvetica; text-decoration: none}
+.DocumentationLink A:hover {text-decoration: underline}
+.Circle {position:absolute;margin-left:360px;*margin-left:-260px;}
+.CirclePart {width:550px;height:550px;position:absolute; }
+.TonicTable,.ModeTable {width:100px;border:1px solid #333;border-collapse:collapse;float:left;}
+.ModeTable {width:200px;margin-left:20px;}
+.TonicTable TD,.ModeTable TD {padding:3px 0;font:bold 14px arial;color:black;border:1px solid #333;white-space: nowrap;background-color:white; text-align: center}
+.TonicTable THEAD TD, .ModeTable THEAD TD{color: white; background-color:#900;}
+.TonicTable TBODY TD {cursor: pointer}
+.ModeTable TBODY TD {cursor: pointer;font:bold 12px arial;}
+.TonicTable TBODY TD.obscure {background-color: #e8e8e8}
+.ModeTable TBODY TD.obscure {background-color: #e8e8e8}
+.TonicTable TBODY TD.selected {background-color: #efb5b0}
+.ModeTable TBODY TD.selected {background-color: #efb5b0}
+.NoteName {font-size: 43px; width: 100px; color: black; font-family: "arial black", arial, helvetica; position: absolute; text-align: center}
+.Note1 {LEFT: 325px; TOP: 70px}
+.Note2 {LEFT: 400px; TOP: 140px}
+.Note3 {LEFT: 425px; TOP: 243px}
+.Note4 {LEFT: 400px; TOP: 346px}
+.Note5 {LEFT: 325px; TOP: 417px}
+.Note6 {LEFT: 225px; TOP: 445px}
+.Note7 {LEFT: 125px; TOP: 417px}
+.Note8 {LEFT: 50px; TOP: 346px}
+.Note9 {LEFT: 25px; TOP: 243px}
+.Note10 {LEFT: 50px; TOP: 140px}
+.Note11 {LEFT: 125px; TOP: 70px}
+.Note12 {LEFT: 225px; TOP: 42px}
+.Degree {FONT-SIZE: 27px; WIDTH: 100px; COLOR: black; FONT-FAMILY: "Arial Black", Arial, Helvetica; POSITION: absolute; TEXT-ALIGN: center}
+.Degree1 {LEFT: 290px; TOP: 148px}
+.Degree2 {LEFT: 334px; TOP: 192px}
+.Degree3 {LEFT: 350px; TOP: 255px}
+.Degree4 {LEFT: 334px; TOP: 317px}
+.Degree5 {LEFT: 290px; TOP: 362px}
+.Degree6 {LEFT: 225px; TOP: 377px}
+.Degree7 {LEFT: 160px; TOP: 362px}
+.Degree8 {LEFT: 116px; TOP: 317px}
+.Degree9 {LEFT: 103px; TOP: 255px}
+.Degree10 {LEFT: 116px; TOP: 192px}
+.Degree11 {LEFT: 160px; TOP: 148px}
+.Degree12 {LEFT: 225px; TOP: 132px}
+.Sharp_15px {WIDTH: 5px; POSITION: relative; TOP: 2px; HEIGHT: 15px}
+.Sharp_43px {WIDTH: 14px; POSITION: relative; TOP: 4px; HEIGHT: 40px}
+.DoubleFlat_43px {WIDTH: 33px; HEIGHT: 32px}
+.DoubleSharp_43px {WIDTH: 15px; POSITION: relative; TOP: -6px; HEIGHT: 15px}
+.Flat_15px {WIDTH: 7px; HEIGHT: 12px}
+.Flat_43px {WIDTH: 19px; HEIGHT: 32px}
+
+/*吉他常用和弦*/
+.ctable {width:100%;}
+.ctable thead th {height:40px;line-height:40px;width:10%;font:bold 14px arial;text-align:center;vertical-align:middle;color:#369;}
+.ctable tbody th {height:160px;line-height:160px;width:10%;font:bold 14px arial;text-align:center;vertical-align:middle;color:#369;}
+.ctable tbody th span {font:bold 22px arial;padding-right:3px;}
+.ctable tbody .tr1 {background:#eee;}
+.ctable tbody .tr2 {background:#ddd;}
+
+.acordes {position:relative;}
+.acordes .ss { width:120px; height:160px; display:block; position:relative; left:0px;top:0px;}
+
+.acordes span img.arra{cursor:move}
+.acorde {position:absolute;top:5px;left:2px;}
+.notas {position:absolute; line-height:8px;font-size:10px; top:6px; left:20px; *margin-top:-5px;}
+
+.smalltext {font-size:12px;}
+.smalltext b {color:#69f;font:bold 14px arial;}
+

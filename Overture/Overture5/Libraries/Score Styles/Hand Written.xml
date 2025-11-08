@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ScoreStyle>
+  <Engraver BarsPerLine="6" LinesPerPage="6" StaffSpace="700" SystemSpace="1200"
+            GroupSpace="800" BarLineUnits="18" BeamGapUnits="25" BeamLineUnits="50"
+            StemLineUnits="18" StaffLineUnits="14" LegerLineUnits="8" StaffIndent="1200"
+            BarToClef="100" BarToOther="100" ClefToNote="225" ClefToOther="75"
+            KeyToNote="250" KeyToOther="75" MeterToOther="150" EndOfBarSpace="100"
+            AccToNote="4" AccGap="0" GracePct="60" SmallClefPct="65" MinMultiBar="2"
+            MaxMultiBar="16" TieXOffset="0" TieYOffset="0" TieHeight="0"
+            TieThickness="16" SlurThickness="16" HairpinThickness="12" TupletThickness="9"/>
+  <NoteSpacing WholeNormal="600" WholeDotted="600" WholeTriplet="600" HalfNormal="400"
+               HalfDotted="500" HalfTriplet="350" QuarterNormal="300" QuarterDotted="400"
+               QuarterTriplet="250" EighthNormal="200" EighthDotted="300" EighthTriplet="175"
+               SixteenthNormal="170" SixteenthDotted="200" SixteenthTriplet="150"
+               ThirtySecondNormal="125" ThirtySecondDotted="150" ThirtySecondTriplet="125"
+               SixtyFourthNormal="100" SixtyFourthDotted="125" SixtyFourthTriplet="100"/>
+  <Fonts BarNumFont="Times New Roman,9,0" TrackNameFont="Times New Roman,12,0"
+         TrackAbbrFont="Times New Roman,12,0" GuitarFont="Times New Roman,10,0"
+         MultiRestFont="Times New Roman,12,1" AltMeterFont="Times New Roman,25,0"
+         EndingsFont="Times New Roman,18,0" MeasureTextFont="Times New Roman,12,0"
+         SystemTextFont="Times New Roman,12,0" RehearsaltextFont="Times New Roman,12,0"
+         PageTextFont="Times New Roman,12,0"/>
+</ScoreStyle>

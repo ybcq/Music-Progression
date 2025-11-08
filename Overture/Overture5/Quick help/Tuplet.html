@@ -1,0 +1,112 @@
+﻿<html>
+	
+<head>
+	<title>Tuplet</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("Tuplet");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Tuplet</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="OvertureMenus.html">Overture Menus</a> &rsaquo;&rsaquo; <a href="NotesMenu.html">Notes Menu</a> &rsaquo;&rsaquo; <a href="Group.html">Group</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="Group.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="Ottava.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="Triplet.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<h6 class="rvps14"><span class="rvts0"><span class="rvts22">Notes&gt;Group&gt;Tuplet</span></span></h6>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Choose this command to group the selected notes into tuplets. When you choose the </span><span class="rvts12">Tuplet</span><span class="rvts6"> command, Overture produces the Tuplets dialog box.</span></p>
+<h3 class="rvps13"><span class="rvts0"><span class="rvts21">About the Tuplets Dialog Box</span></span></h3>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">The Tuplets dialog box contains three separate areas:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; margin-left: 48px; list-style-position: outside; list-style-type: disc;">
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Tuplet Value</span><span class="rvts6">. Set the tuplet value using the top two fields; the first field sets the number of notes and the second field sets the duration of the tuplet.</span><br/><span class="rvts6">For example, to group three notes into a triplet that would play in the time of two eighth notes, you would set the Tuplet value to 3/2 (three notes in the time of two). </span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Tuplet Style</span><span class="rvts6">. Click one of the illustrated styles to notate your tuplet in that style.</span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Tuplet Options</span><span class="rvts6">. There are two check boxes for two separate options. Check the </span><span class="rvts12">Show 2nd Number</span><span class="rvts6"> check box if you want the second number (the “in the time of” number) to appear in the score. Check the </span><span class="rvts12">Change playback durations</span><span class="rvts6"> check box if you want to change the actual MIDI playback times of the notes you grouped into a tuplet. </span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Overture remembers the most recent parameters set in the Tuplets dialog box and opens with these settings the next time you choose the command.</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Using the Tuplet Command</span></p>
+<p class="rvps2"><span class="rvts6">To create tuplets with the </span><span class="rvts12">Tuplet</span><span class="rvts6"> command:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">1.Select those notes you want grouped into a tuplet. </span></span></li>
+<li value="2" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Choose </span></span><span class="rvts0"><span class="rvts12">Notes&gt;Group&gt;Tuplet</span></span><span class="rvts0"><span class="rvts6">.</span></span><br/><span class="rvts0"><span class="rvts6">Overture produces the Tuplets dialog box. </span></span></li>
+<li value="3" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Enter the desired tuplet value. </span></span></li>
+<li value="4" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Click the desired tuplet style. </span></span></li>
+<li value="5" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Check the desired tuplet options. </span></span></li>
+<li value="6" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Click the </span></span><span class="rvts0"><span class="rvts12">OK</span></span><span class="rvts0"><span class="rvts6"> button. </span></span></li>
+</ol>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Overture groups the selected notes into a tuplet of the specified value using the notation and playback options selected in the Tuplets dialog box.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

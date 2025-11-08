@@ -1,0 +1,128 @@
+﻿<html>
+	
+<head>
+	<title>Adjusting Note Spacing</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("AdjustingNoteSpacing");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Adjusting Note Spacing</h1>
+				
+				</div>
+			<div id="topic_header_nav">
+				<a href="ArrangingStavesandSystems.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="EditHairpinDialog.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<p class="rvps2"><span class="rvts6">There are numerous ways to adjust the spacing of notes in the Score View:</span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li style="margin-left: 0px" class="rvps4"><span class="rvts6">Drag notes (or groups of notes) to change their position relative to other notes. </span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts6">Nudge notes (or groups of notes) with the arrow keys to make small changes in their position relative to other notes. </span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts6">Change the bar width to expand or contract the spacing of notes in a measure. </span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts6">Automatically position notes. There are two ways to do this: </span></li>
+</ul>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px; text-indent: 0px" class="rvps27"><span class="rvts0"><span class="rvts6">Automatically align existing notes (using the </span></span><span class="rvts0"><span class="rvts12">Measures&gt;Justify </span></span><span class="rvts0"><span class="rvts6">command). </span></span></li>
+<li value="2" style="margin-left: 0px; text-indent: 0px" class="rvps27"><span class="rvts0"><span class="rvts6">Automatically adjust measure width and spacing (using the </span></span><span class="rvts0"><span class="rvts12">Score&gt;Recalc Layout</span></span><span class="rvts0"><span class="rvts6"> command).</span></span></li>
+</ol>
+<h1 class="rvps26"><span class="rvts0"><span class="rvts6"><br/></span></span></h1>
+<p class="rvps2"><span class="rvts6">The following sections detail each of the preceding techniques.</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Dragging Notes</span></p>
+<p class="rvps2"><span class="rvts6">You can drag a note to change its position relative to other notes.</span></p>
+<p class="rvps2"><span class="rvts6">Also, you can drag any note in a chord to change the horizontal spacing of the entire chord.</span></p>
+<p class="rvps2"><span class="rvts6">You can select and drag notes and chords, as well as dynamics, hairpins, text repeats, and Graphics palette objects as a group.</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Nudging Notes</span></p>
+<p class="rvps2"><span class="rvts6">You can nudge notes either left or right in small increments. To do so:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" class="rvps17"><span class="rvts0"><span class="rvts6">Select the note (or notes) you want to nudge. </span></span></li>
+<li value="2" class="rvps17"><span class="rvts0"><span class="rvts6">Type the left arrow key to nudge the notes to the left. Type the right arrow key to nudge the notes to the right.</span></span></li>
+</ol>
+<h1 class="rvps16"><span class="rvts0"><span class="rvts6"><br/></span></span></h1>
+<h1 class="rvps17"><span class="rvts0"><span class="rvts6">Each horizontal nudge moves the symbol approximately a single pixel. Overture prints at a resolution of 1/72 of an inch so, at 100% scaling, you can nudge symbols at a resolution of 1/72 of an inch on the printed page.</span></span></h1>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Changing Bar Widths</span></p>
+<p class="rvps2"><span class="rvts6">You can proportionally compress or expand the spacing between all notes in a measure by changing the width of the bar. To do so:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Select </span></span><span class="rvts0"><span class="rvts12">Options&gt;Show&gt;Handles</span></span><span class="rvts0"><span class="rvts6">.</span></span><br/><span class="rvts0"><span class="rvts6">This is an optional step. Once you learn where to click on a staff or barline, you won't need to select this option. Handles are always available, they're just normally invisible. Selecting this option shows you where to click a staff or barline to edit it. </span></span></li>
+<li value="2" style="margin-left: 0px" class="rvps16"><span class="rvts0"><span class="rvts6">Drag the desired bar's handle to the left or right. </span></span></li>
+</ol>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">The figure shows the middle bar dragged to the left. This results in tighter spacing in the first measure and wider spacing in the second.</span></p>
+<p class="rvps2"><span class="rvts6">Bar widths also change when you use the </span><span class="rvts12">Measures&gt;Increase on System</span><span class="rvts6"> or </span><span class="rvts12">Measures&gt;Decrease on System</span><span class="rvts6"> commands since these actions place a different number of bars on a single, fixed width line. For more information about wrapping measures, see </span><a class="rvts11" href="IncreaseMeasuresonSystem.html">Measures&gt;Increase on System</a><span class="rvts6"> and </span><a class="rvts11" href="DecreaseMeasuresonSystem.html">Measures&gt;Decrease on System</a><span class="rvts6">.</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Automatic Positioning</span></p>
+<p class="rvps2"><span class="rvts6">There are two ways to space notes automatically in a score. The following discusses the differences between these three automatic note spacing algorithms:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Measures&gt;Justify</span><span class="rvts6">: When you choose this command, Overture calculates a </span><span class="rvts17">new</span><span class="rvts6"> spacing based on the note values and the amount of space allocated to them internally. It then spaces notes accordingly (without changing the width of the measure)</span><br/><span class="rvts6">For a detailed discussion of the </span><span class="rvts12">Measures&gt;Justify</span><span class="rvts6"> command, see </span><a class="rvts11" href="Justify.html">Justify</a><span class="rvts6">.</span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Score&gt;Recalc Layout</span><span class="rvts6">: When you choose this command, Overture layouts the pages using the inter calculated measure widths. </span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">For a detailed discussion of the </span><span class="rvts12">Score&gt;Recalc Layout</span><span class="rvts6"> command, see </span><a class="rvts11" href="RecalcLayout.html">Recalc Layout</a><span class="rvts6">.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

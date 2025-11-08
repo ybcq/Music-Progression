@@ -1,0 +1,153 @@
+﻿<html>
+	
+<head>
+	<title>Mixer View</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("MixerView");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Mixer View</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="GettingStarted.html">Getting Started</a> &rsaquo;&rsaquo; <a href="MainScoreWindow.html">Main Score Window</a> &rsaquo;&rsaquo; <a href="TheControlbar.html">The Control bar</a> &rsaquo;&rsaquo; <a href="ScoreViewButtons.html">Score View Buttons</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="ScoreViewButtons.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="DataView1.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="SelectionButton.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<p class="rvps2"><img alt="" style="vertical-align: middle; padding : 1px;" src="lib/NewItem71.png"><span class="rvts6"> </span><span class="rvts12">Mixer View</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">If the Mixer view is not showing click on the </span><span class="rvts12">Mixer</span><span class="rvts6"> button at top left of Control Bar or type "Shift-M" to open the panel.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">A mixing strip will appear at the bottom of your current view. The mixer contains a master channel strip and one channel strip for each track.</span></p>
+<p class="rvps2"><span class="rvts6">The Mixer is where you adjust volume, pan, and other channel strip settings. </span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><img width="801" height="292" alt="" style="padding : 1px;" src="lib/NewItem29.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">MIDI Button - </span><span class="rvts6">Click on the MIDI button to use the mixer as a MIDI mixer.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Usage - To set default MIDI Reverb, Chorus, Modulation, and Expression for a track, click and drag the appropriate slider. If you drag the slider all the way to the left, nothing will be sent.</span></p>
+<p class="rvps2"><span class="rvts12">Note</span><span class="rvts6">: If is a good idea to always set and an initial volume and expression for each track.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">The following sections are used when the MIDI button is enabled.</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts12">Device</span><span class="rvts6"> - Displays the name of the MIDI device sending data to this track's channel strip.</span></li>
+<li class="rvps2"><span class="rvts12">Sends</span><span class="rvts6"> - Click and drag each slider to set the track's initial MIDI Reverb, Chorus, Modulation, and Expression.</span></li>
+<li class="rvps2"><span class="rvts12">Mute/Solo - </span><span class="rvts6">Click on Solo/Mute to set the track's solo or mute state. Alt[</span><span class="rvts13">option</span><span class="rvts6">] click to set solo/mute on all tracks.</span></li>
+<li class="rvps2"><span class="rvts12">Pan</span><span class="rvts6"> - Click and drag the Pan knob to set the track's initial MIDI pan.</span></li>
+<li class="rvps2"><span class="rvts12">Volume</span><span class="rvts6"> - Click and drag the Volume slider to set the track's initial MIDI volume.</span></li>
+<li class="rvps2"><span class="rvts12">Name</span><span class="rvts6"> - The track's given name. Double click the name to open the tracks' plugin window.</span></li>
+<li class="rvps2"><span class="rvts12">Bus Out</span><span class="rvts6"> - For the internal GM Players the sound is sent to the Master Bus. For all other MIDI devices the name of the device connected to your system.</span><br/><span class="rvts6">See the </span><a class="rvts11" href="MIDISettings.html">MIDI Settings</a><span class="rvts6"> dialog for a list of MIDI devices currently being used by Overture.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts26">Group Channel Strips</span><span class="rvts6">:</span><br/><span class="rvts6">To show or hide all group channel strips click on the Groups button.</span></p>
+<p class="rvps2"><span class="rvts6">Groups strips are used to adjust the MIDI settings for a family of instruments.</span></p>
+<p class="rvps2"><span class="rvts6">This makes it easy to change for instance, the volume of all the strings.</span></p>
+<p class="rvps2"><span class="rvts6">To add a group strip, click on the Groups' plus button.</span></p>
+<p class="rvps2"><span class="rvts6">To send a track's output to a group, click on the track's output at the bottom of the strip.</span></p>
+<p class="rvps2"><span class="rvts6">Set the group channel strip MIDI settings just like the track channel strip.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<hr style="height: 1px; color : #000000;  background-color : #000000; border-width : 0px;">
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Audio Button - </span><span class="rvts6">Click on the Audio button to use the mixer as an audio mixer.</span></p>
+<p class="rvps2"><span class="rvts12">Note</span><span class="rvts6">: The strips will only switch to audio settings if the corresponding track is using an VST/AU plugin.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts6"> &nbsp; Track channel strips</span><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts6"> &nbsp; &nbsp;Group channel strips</span><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts6"> &nbsp; Effect channel strips</span></p>
+<p class="rvps2"><img width="690" height="240" alt="" style="padding : 1px;" src="lib/NewItem127.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">The controls in audio channel strips control the track's audio signal not the MIDI settings.</span></p>
+<p class="rvps2"><span class="rvts6">The sections are described below:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts12">Bus</span><span class="rvts6"> - At the top of each channel strip is where you choose which bus to receive audio from the track's plugin.</span><br/><span class="rvts6">The number of choices depend on the number of output buses the track's plugin is providing.</span></li>
+<li class="rvps2"><span class="rvts12">Effects</span><span class="rvts6"> - This is where you load individual effects for each track, such as reverbs, flangers, etc.</span><br/><span class="rvts6">You can enable/disable the effect at any time by clicking on the small button next to the effects name.</span><br/><span class="rvts6">To load/unload an effect click on the name and choose from the pop-up menu list.</span></li>
+<li class="rvps2"><span class="rvts12">Sends</span><span class="rvts6"> - The sends section allows you to send part or all of the audio signal to one of four effects channel strips.</span><br/><span class="rvts6">Click and drag each slider to set the amount of signal to be sent.</span></li>
+<li class="rvps2"><span class="rvts12">Mute/Solo - </span><span class="rvts6">Click on Solo/Mute to set the track's solo or mute state. Alt[</span><span class="rvts13">option</span><span class="rvts6">] click to set solo/mute on all tracks.</span></li>
+<li class="rvps2"><span class="rvts12">Pan</span><span class="rvts6"> - Click and drag the Pan knob to set the track's audio panning.</span></li>
+<li class="rvps2"><span class="rvts12">Volume</span><span class="rvts6"> - This controls the db level of the audio leaving the audio channel strip.</span></li>
+<li class="rvps2"><span class="rvts12">Name</span><span class="rvts6"> - The track's given name. Double click the name to open the tracks' plugin window.</span></li>
+<li class="rvps2"><span class="rvts12">Bus Out</span><span class="rvts6"> - The destination for audio leaving the channel strip. It can be either the Master Bus or a Group Bus.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts26">Group Channel Strips</span><span class="rvts6">:</span><br/><span class="rvts6">To show or hide all group channel strips click on the Groups button.</span></p>
+<p class="rvps2"><span class="rvts6">Groups strips are used to adjust the settings for a family of instruments.</span></p>
+<p class="rvps2"><span class="rvts6">This makes it easy to change for instance, the volume of all the strings.</span></p>
+<p class="rvps2"><span class="rvts6">To add a group strip, click on the Groups' plus button.</span></p>
+<p class="rvps2"><span class="rvts6">To send a track's output to a group, click on the track's output at the bottom of the strip.</span></p>
+<p class="rvps2"><span class="rvts6">The effect channel strip are similar to the track channel strips</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts26">Effect Channel Strips</span><span class="rvts6">:</span><br/><span class="rvts6">To show or hide all effect channel strips click on the Effects button.</span></p>
+<p class="rvps2"><span class="rvts6">Effect strips are used to share VST/AU effects among several tracks. This is more efficient on your CPU usage.</span><br/><span class="rvts6">This also makes it easy to change effects for multiple tracks in one place.</span></p>
+<p class="rvps2"><span class="rvts6">The effect channel strip are similar to the track channel strips, except there are no sends.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

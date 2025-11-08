@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTNameDocument name="Vienna Epic Orchestra">
+  <Version>2</Version>
+  <Author>Sonic Scores, Inc.</Author>
+  <Device name="Vienna Instruments" usesPatchNames="1" firstPatchNumber="0" middleC="c4" />
+  <ArticulationNames>
+    <Articulation name="Marcato" velocityAdd="10" durationPct="90" />
+    <Articulation name="Marcato Dot" velocityAdd="10" durationPct="50" />
+    <Articulation name="Heavy Attack" velocityAdd="10" durationPct="100" />
+    <Articulation name="SForzando" velocityAdd="10" />
+    <Articulation name="SForzando Dot" velocityAdd="10" durationPct="50" />
+    <Articulation name="Heavier Attack" velocityAdd="30" durationPct="100" />
+    <Articulation name="SForzando Inverted" velocityAdd="10" />
+    <Articulation name="SForzando Dot Inverted" velocityAdd="10" durationPct="50" />
+    <Articulation name="Staccatissimo" durationPct="50" />
+    <Articulation name="Staccato" durationPct="70" />
+    <Articulation name="Tenuto" durationPct="100" />
+    <Articulation name="Up Bow" />
+    <Articulation name="Down Bow" />
+    <Articulation name="Up Bow Inverted" />
+    <Articulation name="Down Bow Inverted" />
+    <Articulation name="Arpeggio" attackFrom="-90" attackTo="0" />
+    <Articulation name="Tremolo Eighths" tremoloNotes="1" />
+    <Articulation name="Tremolo Sixteenths" tremoloNotes="2" />
+    <Articulation name="Tremolo Thirty Seconds" tremoloNotes="3" />
+    <Articulation name="Tremolo Sixty Fourths" tremoloNotes="4" />
+    <Articulation name="pizz" />
+    <Articulation name="arco" durationPct="0" />
+    <Articulation name="legato" durationPct="100" onOffset="0" />
+    <ArticulationSwitchList name="Legato Mode">
+      <Articulation name="legato" durationPct="105" onOffset="0" />
+    </ArticulationSwitchList>
+    <ArticulationSwitchList name="Tremolo">
+      <Articulation name="Tremolo Thirty Seconds" tremoloNotes="0" />
+    </ArticulationSwitchList>
+    <ArticulationSwitchList name="Strings">
+      <Articulation name="Marcato Dot" ksIndex="3" velocityAdd="30" durationPct="70" />
+      <Articulation name="Staccatissimo" ksIndex="9" durationPct="50" />
+      <Articulation name="Staccato" ksIndex="9" durationPct="70" />
+      <Articulation name="SForzando Dot" ksIndex="2" velocityAdd="30" durationPct="70" />
+      <Articulation name="Tremolo Thirty Seconds" ksIndex="4" />
+      <Articulation name="pizz" ksIndex="20" />
+    </ArticulationSwitchList>
+    <ArticulationSwitchList name="Woodwinds">
+      <Articulation name="Marcato Dot" ksIndex="3" velocityAdd="30" durationPct="70" />
+      <Articulation name="Staccatissimo" ksIndex="9" durationPct="50" />
+      <Articulation name="Staccato" ksIndex="9" durationPct="70" />
+      <Articulation name="SForzando Dot" ksIndex="2" velocityAdd="30" durationPct="70" />
+    </ArticulationSwitchList>
+    <ArticulationSwitchList name="Brass">
+      <Articulation name="Marcato Dot" ksIndex="3" velocityAdd="30" durationPct="70" />
+      <Articulation name="Staccatissimo" ksIndex="9" durationPct="50" />
+      <Articulation name="Staccato" ksIndex="9" durationPct="70" />
+      <Articulation name="SForzando Dot" ksIndex="2" velocityAdd="30" durationPct="70" />
+    </ArticulationSwitchList>
+  </ArticulationNames>
+  <KeySwitchNames>
+    <KeySwitchList name="Strings">
+      <KeySwitch name="Sustained" key="g#7"/>
+      <KeySwitch name="Sustained, fast attack" key="a7" />
+      <KeySwitch name="Sforzato" key="a#7" />
+      <KeySwitch name="Staccato" key="g7" ksIndex="9" />
+      <KeySwitch name="Tremolo" key="b7" />
+      <KeySwitch name="Pizzicato" key="c8" ksIndex="20" />
+    </KeySwitchList>
+    <KeySwitchList name="Woodwinds">
+      <KeySwitch name="Sustained" key="b0" />
+      <KeySwitch name="Staccato" key="a0" ksIndex="9" />
+    </KeySwitchList>
+    <KeySwitchList name="Oboe">
+      <KeySwitch name="Sustained" key="d1" />
+      <KeySwitch name="Staccato" key="c1" ksIndex="9" />
+      <KeySwitch name="Legato" key="e1" ksIndex="22" />
+    </KeySwitchList>
+    <KeySwitchList name="Cornet">
+      <KeySwitch name="Sustained" key="d1" />
+      <KeySwitch name="Staccato" key="c1" ksIndex="9" />
+      <KeySwitch name="Legato" key="e1" ksIndex="22" />
+      <KeySwitch name="Portamento" key="f1" />
+    </KeySwitchList>
+    <KeySwitchList name="Trumpets">
+      <KeySwitch name="Sustained" key="d0" />
+      <KeySwitch name="Staccato" key="c0" ksIndex="9" />
+    </KeySwitchList>
+    <KeySwitchList name="Horns">
+      <KeySwitch name="Sustained" key="d1" />
+      <KeySwitch name="Staccato" key="c1" ksIndex="9" />
+    </KeySwitchList>
+  </KeySwitchNames>
+ <NoteNames>
+    <NoteNameList name="Bass Drum">
+      <NoteName name="Single Hits L" pitch="C5" pos="-3" head="0" voice="1" />
+      <NoteName name="Single Hits R" pitch="C#5" pos="-3" head="0" voice="1" />
+      <NoteName name="Single Hits Secco L" pitch="D5" pos="-3" head="0" voice="1" />
+      <NoteName name="Single Hits Secco R" pitch="D#5" pos="-3" head="0" voice="1" />
+      <NoteName name="Tremolo" pitch="E5" pos="-3" head="0" />
+    </NoteNameList>
+     <NoteNameList name="Snare Drum">
+      <NoteName name="Single Hits L" pitch="F5" pos="1" head="0" voice="0" />
+      <NoteName name="Single Hits R" pitch="G5" pos="1" head="0" voice="0" />
+      <NoteName name="Tremolo" pitch="A5" pos="1" head="0" voice="0" />
+     </NoteNameList>
+     <NoteNameList name="Piatti">
+      <NoteName name="Single Hits, normal" pitch="C6" pos="1" head="0" voice="0" />
+      <NoteName name="Single Hits, slow" pitch="C#6" pos="1" head="0" voice="0" />
+      <NoteName name="Single Hits damped, normal" pitch="D6" pos="1" head="0" voice="0" />
+      <NoteName name="Single Hits damped, slow" pitch="D#6" pos="1" head="0" voice="0" />
+    </NoteNameList>
+    <NoteNameList name="Tambourine">
+      <NoteName name="Single Hits, middle, var 1" pitch="F6" pos="1" head="0" voice="0" />
+      <NoteName name="Single Hits, middle, var 2" pitch="F#6" pos="1" head="0" voice="0" />
+      <NoteName name="Single Hits rim, var 1" pitch="G6" pos="1" head="0" voice="0" />
+      <NoteName name="Single Hits rim, var 2" pitch="G#6" pos="1" head="0" voice="0" />
+      <NoteName name="Tremolo" pitch="A6" pos="1" head="0" voice="0" />
+    </NoteNameList>
+    <NoteNameList name="Triangle">
+      <NoteName name="Single Hits, var 1" pitch="C7" pos="1" head="0" voice="0" />
+      <NoteName name="Single Hits, var 2" pitch="C#7" pos="1" head="0" voice="0" />
+      <NoteName name="Single Hits damped, var 1" pitch="D7" pos="1" head="0" voice="0" />
+      <NoteName name="Single Hits damped, var 2" pitch="D#7" pos="1" head="0" voice="0" />
+      <NoteName name="Tremolo" pitch="E7" pos="1" head="0" voice="0" />
+    </NoteNameList>
+    <NoteNameList name="Tam-tam">
+      <NoteName name="Single Hits L" pitch="F7" pos="1" head="0" voice="0" />
+      <NoteName name="Single Hits R" pitch="G7" pos="1" head="0" voice="0" />
+      <NoteName name="Tremolo" pitch="G#7" pos="1" head="0" voice="0" />
+    </NoteNameList>
+     <NoteNameList name="Cymbal">
+      <NoteName name="Single Hits, soft mallet var 1" pitch="A7" pos="1" head="0" voice="0" />
+      <NoteName name="Single Hits, soft mallet var 2" pitch="B7" pos="1" head="0" voice="0" />
+      <NoteName name="Tremolo" pitch="C8" pos="1" head="0" voice="0" />
+    </NoteNameList>
+</NoteNames>
+  <ControllerNames>
+    <Controller name="Volume" cc="7" />
+    <Controller name="Panning" cc="10" />
+    <Controller name="Sustain" cc="64" />
+  </ControllerNames>
+  <Instruments>
+    <Menu name="Epic Orchestra">
+      <Section name="Strings" clef="treble" lownote="b0" highnote="d#7" >
+        <Instrument name="App-Strings" title="Strings" abbr="Strs." keySwitchList="Strings" soundID="strings.string orchestra" />
+      </Section>
+      <Section name="Woodwinds" clef="treble" lownote="a0" highnote="c8" >
+         <Instrument name="Woodwinds" title="Woodwinds" abbr="Wnds." keySwitchList="Woodwinds" soundID="wind.woodwinds" />
+      </Section>
+      <Section name="Oboe d'amore" clef="treble" lownote="g3" highnote="d6" >
+        <Instrument name="Oboe" title="Oboe" abbr="Ob." keySwitchList="Oboe" soundID="wind.oboes.oboe" />
+      </Section>
+      <Section name="Cornet" clef="treble" lownote="e3" highnote="d6">
+        <Instrument name="Cornet" title="Cornet" abbr="Cor." transpose="2" keySwitchList="Cornet" soundID="brass.trumpets.cornet" />
+      </Section>
+       <Section name="Trumpets (6)" clef="treble" lownote="f#3" highnote="c6">
+          <Instrument name="Trumpets" title="Trumpets" abbr="Tpts." transpose="2" keySwitchList="Trumpets" soundID="brass.trumpets.trumpet" />
+      </Section>
+     <Section name="Horns (8)" clef="Grand" lownote="a#1" highnote="e5" >
+       <Instrument name="Horns" title="Horns" abbr="Hrns." keySwitchList="Horns" soundID="brass.horns" />
+      </Section>
+      <Section name="Timpani" title="Timpani" name="Timpani" abbr="Timp."clef="bass" lownote="a#1" highnote="c4" soundID="pitched.percussion.drum.timpani">
+       <Instrument noteNameList="Timpani" soundID="pitched.percussion.drum.timpani" />
+      </Section>
+      <Section name="Percussion" lownote="c5" highnote="c8" clef="percussion" >
+        <Instrument name="Bass Drum" title="Bass Drum" abbr="B. Dr." lownote="c5" highnote="e5" noteNameList="Bass Drum" soundID="unpitched.percussion.drum.low.bass drum.concert" />
+        <Instrument name="Snare Drum" title="Snare Drum" abbr="Sd." lownote="f5" highnote="a5" noteNameList="Snare Drum" soundID="unpitched.percussion.drum.snare drum.snare" />     
+	<Instrument name="Piatti" title="Piatti" abbr="Pi." lownote="c6" highnote="d#6" noteNameList="Piatti" soundID="unpitched.percussion.drum.piatti" />
+        <Instrument name="Tambourine" title="Tambourine" abbr="Tam." lownote="f6" highnote="a6" noteNameList="Tambourine" soundID="unpitched.percussion.tambourine" />
+        <Instrument name="Triangle" title="Triangle" abbr="Sd." lownote="c7" highnote="e7" noteNameList="Triangle" soundID="unpitched.percussion.triangle" />
+        <Instrument name="Tam-tam" title="Tam-tam" abbr="Tt." lownote="f7" highnote="g#7" noteNameList="Tam-tam" soundID="unpitched.percussion.tam-tam" />
+        <Instrument name="High cymbal" title="Cymbal" abbr="Sd." lownote="a7" highnote="c8" noteNameList="Cymbal" soundID="unpitched.percussion.cymbal.high" />
+      </Section>
+ </Menu>
+  </Instruments>
+</VSTNameDocument>

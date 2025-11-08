@@ -1,0 +1,134 @@
+﻿<html>
+	
+<head>
+	<title>Symbols Panel</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="Entering symbols">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("SymbolsPanel");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Symbols Panel</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="GettingStarted.html">Getting Started</a> &rsaquo;&rsaquo; <a href="MainScoreWindow.html">Main Score Window</a> &rsaquo;&rsaquo; <a href="TheControlbar.html">The Control bar</a> &rsaquo;&rsaquo; <a href="ScoreToolsPanel.html">Score Tools Panel</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="ScoreToolsPanel.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="ScoreToolsPanel.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="TextPanel.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<p class="rvps2"><img alt="" style="vertical-align: middle; padding : 1px;" src="lib/NewItem76.png"><span class="rvts6"> </span><span class="rvts12">Tools Panel - Symbols</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts6">If Tools Panel is not showing click on the </span><span class="rvts12">Score Tools</span><span class="rvts6"> button at top left and then click on the Symbols section in the header if it's not active.</span></p>
+<p class="rvps2"><span class="rvts6">You can also type "Ctrl (</span><span class="rvts13">Cmd</span><span class="rvts6">)-Shift-S" to go directly to the Symbols section.</span></p>
+<p class="rvps12"><span class="rvts6"><br/></span></p>
+<div class="rvps12"><table border="0" cellpadding="1" cellspacing="2" style="border-width: 0px; border-spacing: 2px;">
+<tr valign="top">
+<td width="50" style="padding: 1px;"><p class="rvps12"><img alt="" style="padding : 1px;" src="lib/ToolsPanel.png"></p>
+</td>
+<td width="1067" style="padding: 1px;"><p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Mixer -</span><span class="rvts6"> A quick way to change the track's MIDI settings.</span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts6">Mute/Solo - Enable/Disable mute or solo playback of this track.</span></li>
+<li class="rvps2"><span class="rvts6">Pan - Set tracks MIDI pan value to be sent to playback device.</span></li>
+<li class="rvps2"><span class="rvts6">Volume Slider -Send MIDI volume to playback device.</span></li>
+<li class="rvps2"><span class="rvts6">MIDI Patch - This button lets you choose the current MIDI program for this track.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Palettes </span><span class="rvts6">- A set of palettes containing the symbols you enter in your score:</span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts6">Notes - Standard notation symbols</span></li>
+<li class="rvps2"><span class="rvts6">Groups - Groups notes together,</span></li>
+<li class="rvps2"><span class="rvts6">Articulations - Affects playback of note's timing.</span></li>
+<li class="rvps2"><span class="rvts6">Ornaments - Affects playback of note's pitch.</span></li>
+<li class="rvps2"><span class="rvts6">Dynamics - Controls playback volume</span></li>
+<li class="rvps2"><span class="rvts6">Bar Lines - Changes barline types including repeats.</span></li>
+<li class="rvps2"><span class="rvts6">Clefs - Insert a clef change in middle of score.</span></li>
+<li class="rvps2"><span class="rvts6">Graphics - Adds graphic symbols to your score.</span></li>
+<li class="rvps2"><span class="rvts6">Note Heads - Changes a note head type.</span></li>
+<li class="rvps2"><span class="rvts6">Guitar - Adds guitar markings.</span></li>
+<li class="rvps2"><span class="rvts6">Jazz - Some typical jazz symbols.</span></li>
+<li class="rvps2"><span class="rvts6">Drums - Adds percussion markings.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+</td>
+</tr>
+</table>
+</div>
+<h4 class="rvps8"><span class="rvts0"><span class="rvts18">To insert a symbol:</span></span></h4>
+<ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" class="rvps2"><span class="rvts6">To open a palette, double click on it's title bar or click on the open icon at top right.</span></li>
+<li value="2" class="rvps2"><span class="rvts6">Click on the desired symbol to select it.</span></li>
+<li value="3" class="rvps2"><span class="rvts6">Click in the score at the location to enter the symbol.</span><br/><span class="rvts6">Note: For most symbols, if you hold the mouse after clicking, you can drag the symbol to a different location.</span><br/><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp; Also, some symbols, like hairpins allow you to drag the symbol's end position.</span></li>
+<li value="4" class="rvps2"><span class="rvts6">Finally you can double click on some symbols to change it's settings.</span></li>
+</ol>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">For more information </span><a class="rvts11" href="Enteringsymbols.html">Entering symbols</a><span class="rvts6"> or </span><a class="rvts11" href="Enteringnotes.html">Entering notes.</a></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">To enter notes using Step Input see </span><a class="rvts11" href="UsingStepInput.html">Using Step Input.</a></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

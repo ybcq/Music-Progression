@@ -1,0 +1,2173 @@
+GUITAR PRO 5.1 TRANSLATION FILE
+
+### PATCH CONFIGURATION ###
+AUTHOR NAMES = "Zoran Banoviæ - Denis Primc"
+AUTHOR E-MAIL = "zoran.banovic@mojmikro.si - denis.primc@email.si"
+VERSION = "5.1"
+AUTOMATIC SHORTCUTS
+ENCODING = "WindowsLatin2"
+###########################
+
+You can use this file to create your own translation file for Guitar Pro.
+To do it, translate ONLY the words between the symbols " ". DON'T CHANGE
+ANYTHING ELSE. Note that the symbols %s, %t... are used to indicate a dynamic value,
+which will be attribuated at running, so do not change it.
+
+The words between the symbols { } are some indications to help you to
+understand the context, don't change it.
+
+After having changing the translations, save the file under your language
+name with the extension .gpl (ie "English.gpl"). Place it in the
+Guitar Pro directory, restart Guitar Pro and you'll have the new language
+proposed in the menu OPTIONS | LANGUAGE.
+
+Don't hesitate to send us your translation files, we'll add them on the site
+for other users.
+
+***********
+* DIALOGS *
+***********
+
+DLG_000
+DLG_001 = "Potrdi"
+DLG_002 = "Preklièi"
+DLG_003 = "Da"
+DLG_004 = "Ne"
+DLG_005 = "Pomoè"
+DLG_006 = "Poèisti"
+DLG_007 = "Zapri"
+DLG_008 = "Informacije"
+DLG_009 = "Potrditev"
+DLG_010 = "Opozorilo"
+DLG_011 = "Opozorilo"
+DLG_012 = "Napaka"
+DLG_013 = "Napaka v tipkanju"
+
+***********
+* GENERAL *
+***********
+
+GENE_000
+GENE_001 = "Razlièica"
+GENE_002 = "Vse pravice pridržane"
+GENE_003 = "Napaèna licenca."
+GENE_004 = "Guitar Pro - Preizkusna razlièica"
+GENE_005 = "Preizkusna razlièica omejena na 24 taktov."
+GENE_006 = "Èe vam je program všeè, se prosim registrirajte."
+GENE_007 = "Steza"
+GENE_008 = "Tolkala"
+GENE_009 = "Takt dokonèan"
+GENE_010 = "Nedokonèan takt"
+GENE_011 = "Takt prenatrpan"
+GENE_012 = "NEREGISTRIRAN UPORABNIK"
+
+*****************
+* MENUS & HINTS *
+*****************
+
+MN_000
+MN_001 = "Datoteka"
+MN_002 = "Nova"
+MN_003 = "Odpri"
+MN_004 = "Raziskovalec"
+MN_005 = "Shrani"
+MN_006 = "Shrani kot"
+MN_007 = "Lastnosti"
+MN_008 = "Nastavitve"
+MN_009 = "Uvozi"
+MN_010 = "Izvozi"
+MN_011 = "MIDI"
+MN_012 = "ASCII Tab"
+MN_013 = "Natisni"
+MN_014 = "Predogled tiskanja"
+MN_015 = "Nastavitve tiskalnika"
+MN_016 = "Izhod"
+MN_017 = "Uredi"
+MN_018 = "Izreži"
+MN_019 = "Kopiraj"
+MN_020 = "Prilepi"
+MN_021 = "Vstavi"
+MN_022 = "Poèisti"
+MN_023 = "Mešalna miza"
+MN_024 = "Steza"
+MN_025 = "Takt"
+MN_026 = "Prvi"
+MN_027 = "Prvi takt"
+MN_028 = "Prejšnji"
+MN_029 = "Prejšnji takt"
+MN_030 = "Pojdi"
+MN_031 = "Pojdi na takt"
+MN_032 = "Naslednji"
+MN_033 = "Naslednji takt"
+MN_034 = "Zadnji"
+MN_035 = "Zadnji takt"
+MN_036 = "Taktovski naèin"
+MN_037 = "Èasovni zaznamek takta"
+MN_038 = "Zaèetek ponovitve"
+MN_039 = "Konec ponovitve"
+MN_040 = "Posebni zakljuèki"
+MN_041 = "Nota"
+MN_042 = "Celinka"
+MN_043 = "Polovinka"
+MN_044 = "Èetrtinka"
+MN_045 = "Osminka"
+MN_046 = "Šestnajstinka"
+MN_047 = "Dvaintridesetinka"
+MN_048 = "Štiriinšestdesetinka"
+MN_049 = "Nota s piko"
+MN_050 = "Akord"
+MN_051 = "Besedilo"
+MN_052 = "Zadušena nota"
+MN_053 = "Pavza"
+MN_054 = "Triola"
+MN_055 = "Poveži s prejšnjim ritmom"
+MN_056 = "Vstavi ritem"
+MN_057 = "Izbriši ritem"
+MN_058 = "Kopiraj ritem/Triola na koncu"
+MN_059 = "Dvigni"
+MN_060 = "Dvigni eno noto navzgor"
+MN_061 = "Spusti"
+MN_062 = "Spusti eno noto navzdol"
+MN_063 = "Uèinki"
+MN_064 = "Vezava navzgor"
+MN_065 = "Vezava navzdol"
+MN_066 = "Zdrs navzgor"
+MN_067 = "Zdrs navzdol"
+MN_068 = "Zavij"
+MN_069 = "Zavij in sprosti"
+MN_070 = "Pusti zveneti"
+MN_071 = "Trzna nota"
+MN_072 = "Neslišna nota"
+MN_073 = "Vibrato"
+MN_074 = "Tremolo"
+MN_075 = "Opusti s tremolom"
+MN_076 = "Naravna harmonija"
+MN_077 = "Umetna harmonija"
+MN_078 = "Narašèanje"
+MN_079 = "Tapping"
+MN_080 = "Slapping (Bass)"
+MN_081 = "Popping (Bass)"
+MN_082 = "Razložen akord navzdol"
+MN_083 = "Razložen akord navzgor"
+MN_084 = "Dinamika"
+MN_085 = "Pomoènik"
+MN_086 = "Transponiraj"
+MN_087 = "Urejanje taktov"
+MN_088 = "Dokonèaj/zmanjšaj takte s premori"
+MN_089 = "Samodejni prstni red"
+MN_090 = "Nastavitve 'pusti zveneti'"
+MN_091 = "Preveri dolžino takta"
+MN_092 = "Navaden notni zapis"
+MN_093 = "Tolkala"
+MN_094 = "Urjenje hitrosti"
+MN_095 = "Zvok"
+MN_096 = "Predvajaj od zaèetka"
+MN_097 = "Predvajaj od zaèetka (Presledek)"
+MN_098 = "Predvajaj od trenutnega takta"
+MN_099 = "Predvajaj od trenutnega takta (Ctrl+Presledek)"
+MN_100 = "Predvajaj trenutni takt"
+MN_101 = "Predvajaj trenutni takt (Maj+Ctrl+Presledek)"
+MN_102 = "Stop"
+MN_103 = "Stop (Presledek)"
+MN_104 = "Ponavljaj"
+MN_105 = "Metronom"
+MN_106 = "Igraj med urejanjem"
+MN_107 = "Pogled"
+MN_108 = "Skrij okno za urejanje"
+MN_109 = "Pokaži 'pusti zveneti' note"
+MN_110 = "Pokaži note z 'dinamiko'"
+MN_111 = "Jezik"
+MN_112 = "Jezik pomoèi"
+MN_113 = "Pomoè"
+MN_114 = "Kazalo"
+MN_115 = "Naroèi Guitar Pro!"
+MN_116 = "Registriraj svojo kopijo!"
+MN_117 = "O programu"
+
+*********************
+* PROPERTIES WINDOW *
+*********************
+
+DLG_PROP_000
+DLG_PROP_001 = "Nastavitve partiture"
+DLG_PROP_002 = "Naslov"
+DLG_PROP_003 = "Avtor"
+DLG_PROP_004 = "Komentar"
+DLG_PROP_005 = "Tempo"
+DLG_PROP_006 = "Menjave ritma:"
+DLG_PROP_007 = "Naslov steze"
+DLG_PROP_008 = "Glasbilo"
+DLG_PROP_009 = "Seznam glasbil"
+DLG_PROP_010 = "Knjižnica uglaševanja"
+DLG_PROP_011 = "Strune"
+DLG_PROP_012 = "Uglasitev"
+DLG_PROP_013 = "Preèke"
+DLG_PROP_014 = "Solo"
+DLG_PROP_015 = "Utišaj stezo"
+DLG_PROP_016 = "Ne izvažaj"
+DLG_PROP_017 = "Simuliraj 12- strunsko kitaro"
+DLG_PROP_018 = "Glasnost"
+DLG_PROP_019 = "Pan"
+DLG_PROP_020 = "Chorus"
+DLG_PROP_021 = "Reverb"
+DLG_PROP_022 = "Steza rezervirana za tolkala"
+DLG_PROP_023 = "Uporabi note od 27 do 87"
+DLG_PROP_024 = "na èrtah tablatur."
+DLG_PROP_025 = "Ena ali veè not v taktu %s ne more biti nastavljena na %s strun."
+
+***************************
+* MIDI IMPORTATION WINDOW *
+***************************
+
+DLG_IMPM_000
+DLG_IMPM_001 = "MIDI Uvoz"
+DLG_IMPM_002 = "Izberi steze za uvoz:"
+DLG_IMPM_003 = "Poèisti steze za uvoz"
+DLG_IMPM_004 = "Pretvori v nižjo oktavo"
+DLG_IMPM_005 = "Stopnjevanje:"
+DLG_IMPM_006 = "Opozorilo: Uvožena steza za tolkala" { end at 007 }
+DLG_IMPM_007 = "se lahko zapiše samo na stezo 8/kanal 10."
+DLG_IMPM_008 = "Demo razlièica Guitar Pro je omejena na uvoz 30 not."
+DLG_IMPM_009 = "Registrirajte se."
+DLG_IMPM_010 = "Išèem steze..."
+DLG_IMPM_011 = "Nedefinirano"
+DLG_IMPM_012 = "Berem steze..."
+DLG_IMPM_013 = "Ustvarjam partituro..."
+DLG_IMPM_014 = "Optimizacija prstnih pozicij..."
+DLG_IMPM_015 = "Format MIDI  ni prepoznan."
+
+***************************
+* MIDI EXPORTATION WINDOW *
+***************************
+
+DLG_EXPM_000
+DLG_EXPM_001 = "MIDI izvoz"
+DLG_EXPM_002 = "Pisanje datoteke nemogoèe. Shranjevanje preklicano."
+
+****************************
+* ASCII IMPORTATION WINDOW *
+****************************
+
+DLG_IMPA_000
+DLG_IMPA_001 = "ASCII Tab uvoz"
+DLG_IMPA_002 = "Nemogoè dostop do datoteke. Uvoz preklican."
+DLG_IMPA_003 = "Uvoz"
+DLG_IMPA_004 = "Odpri"
+DLG_IMPA_005 = "Natisni"
+DLG_IMPA_006 = "Uvozi z:"
+DLG_IMPA_007 = "Pozor: Uvoz narejen na aktivni stezi"
+DLG_IMPA_008 = "Guitar Pro preizkusna razlièica je omejena na uvoz 50 not."
+DLG_IMPA_009 = "Èe hoèete popoln Guitar Pro, se registrirajte."
+DLG_IMPA_010 = "<variabilen>"
+DLG_IMPA_011 = "Polovinke"
+DLG_IMPA_012 = "Èetrtinke"
+DLG_IMPA_013 = "Osminke"
+DLG_IMPA_014 = "Šestnajstinke"
+
+****************************
+* ASCII EXPORTATION WINDOW *
+****************************
+
+DLG_EXPA_000
+DLG_EXPA_001 = "Izvoz v ASCII Tab"
+DLG_EXPA_002 = "Izvoz"
+DLG_EXPA_003 = "Natisni"
+DLG_EXPA_004 = "Stolpci:"
+DLG_EXPA_005 = "Osveži partituro"
+DLG_EXPA_006 = "Ritem"
+DLG_EXPA_007 = "Pisanje datoteke nemogoèe. Izvoz preklican."
+
+**********************
+* PREFERENCES WINDOW *
+**********************
+
+DLG_PREF_000
+DLG_PREF_001 = "Nastavitve"
+DLG_PREF_002 = "Splošno"
+DLG_PREF_003 = "Zaèetna glasba"
+DLG_PREF_004 = "Niè"
+DLG_PREF_005 = "Izberi datoteko Wave"
+DLG_PREF_006 = "Datoteka Wave"
+DLG_PREF_007 = "Pomanjšano med predvajanjem"
+DLG_PREF_008 = "Zaslon na zaslon"
+DLG_PREF_009 = "List na list"
+DLG_PREF_010 = "Metronom"
+DLG_PREF_011 = "Glasnost"
+DLG_PREF_012 = "V partituri"
+DLG_PREF_013 = "Števec"
+DLG_PREF_014 = "Poudari prvi udarec"
+DLG_PREF_015 = "Vedno uporabljaj metronom med 'hitrostnim trenerjem'"
+DLG_PREF_016 = "Predvajaj"
+DLG_PREF_017 = "Uvozi (MIDI)"
+DLG_PREF_018 = "Uèinki"
+DLG_PREF_019 = "Ponavljanja"
+DLG_PREF_020 = "Zvoèna kartica"
+DLG_PREF_021 = "Omeji zavijanje na 1 ton"
+DLG_PREF_022 = "Uporabi to opcijo, èe zavijanje ni pravilno."
+DLG_PREF_023 = "Prepoznavanje akordov"
+DLG_PREF_024 = "Vedno dodaj ime basa k imenu akorda, èe se razlikuje od osnove"
+DLG_PREF_025 = "Privzeto"
+DLG_PREF_026 = "Pogled"
+DLG_PREF_027 = "Levi rob"
+DLG_PREF_028 = "Desni rob"
+DLG_PREF_029 = "Prostor med èrtami"
+DLG_PREF_030 = "Prostor med sistemi"
+DLG_PREF_031 = "Položaj diagrama akorda"
+DLG_PREF_032 = "Položaj imena akorda"
+DLG_PREF_033 = "Pozicija besedila"
+DLG_PREF_034 = "Širina vodoravnih èrt ritma"
+DLG_PREF_035 = "Pisava not:"
+DLG_PREF_036 = "Pisava imena akorda:"
+DLG_PREF_037 = "Pisava besedila:"
+DLG_PREF_038 = "Pisava oznake ritma:"
+DLG_PREF_039 = "Pisava številke takta:"
+DLG_PREF_040 = "Pisava ponavljanja:"
+DLG_PREF_041 = "Velikost diagrama:"
+DLG_PREF_042 = "Barva diagrama akorda:"
+DLG_PREF_043 = "Barva èrte:"
+DLG_PREF_044 = "Barva èrt za ritem:"
+DLG_PREF_045 = "Barva uèinka:"
+DLG_PREF_046 = "Barva ozadja:"
+DLG_PREF_047 = "Barva nepravilnega takta:"
+DLG_PREF_048 = "Barva izbire:"
+DLG_PREF_049 = "Diagrami akordov"
+DLG_PREF_050 = "Imena akordov"
+DLG_PREF_051 = "Seznam akordov na vrhu"
+DLG_PREF_052 = "Besedilo"
+DLG_PREF_053 = "Uèinki"
+DLG_PREF_054 = "Èrte za ritem"
+DLG_PREF_055 = "Število taktov"
+DLG_PREF_056 = "Prostor med notami"
+DLG_PREF_057 = "Sorazmerje ritmov"
+DLG_PREF_058 = "Upora. #1"
+DLG_PREF_059 = "Upora. #2"
+DLG_PREF_060 = "Upora. #3"
+DLG_PREF_061 = "Poglej"
+DLG_PREF_062 = "Tiskanje"
+DLG_PREF_063 = "Zgornji rob"
+DLG_PREF_064 = "Spodnji rob"
+DLG_PREF_065 = "Levi rob"
+DLG_PREF_066 = "Desni rob"
+DLG_PREF_067 = "Podroèje tiskanja je cela stran"
+DLG_PREF_068 = "Izbrano podroèje tiskanja:"
+DLG_PREF_069 = "Širina"
+DLG_PREF_070 = "Višina"
+DLG_PREF_071 = "Sredina površine"
+DLG_PREF_072 = "Natisni meje tiskanja"
+DLG_PREF_073 = "Splošne dimenzije"
+DLG_PREF_074 = "Prostor med tablaturami"
+DLG_PREF_075 = "Prostor med notami"
+DLG_PREF_076 = "Razmerje ritma"
+DLG_PREF_077 = "Velikost diagrama akordov"
+DLG_PREF_078 = "Pozicija diagrama"
+DLG_PREF_079 = "Pozicija imena akorda"
+DLG_PREF_080 = "Pozicija besedila"
+DLG_PREF_081 = "Prostor med naslovom in avtorjem"
+DLG_PREF_082 = "Prostor med avtorjem in tablaturami"
+DLG_PREF_083 = "Pisava naslova:"
+DLG_PREF_084 = "Pisava avtorja:"
+DLG_PREF_085 = "Pisava opombe:"
+DLG_PREF_086 = "Pisava številke strani:"
+DLG_PREF_087 = "Pisava note:"
+DLG_PREF_088 = "Pisava imena akorda:"
+DLG_PREF_089 = "Pisava diagrama akorda:"
+DLG_PREF_090 = "Pisava besedila:"
+DLG_PREF_091 = "Pisava oznake ritma:"
+DLG_PREF_092 = "Pisava ponavljanja:"
+DLG_PREF_093 = "Naslov"
+DLG_PREF_094 = "Avtor"
+DLG_PREF_095 = "Opombe"
+DLG_PREF_096 = "Menjave ritma, uglasitev..."
+DLG_PREF_097 = "Številka strani"
+DLG_PREF_098 = "Število taktov"
+DLG_PREF_099 = "Diagram akorda"
+DLG_PREF_100 = "Ime akorda"
+DLG_PREF_101 = "Seznam akordov na vrhu"
+DLG_PREF_102 = "Besedilo"
+DLG_PREF_103 = "Uèinki"
+DLG_PREF_104 = "Èrte ritma"
+DLG_PREF_105 = "Preveri, èe je vse besedilo kot èrni kvadratki"
+DLG_PREF_106 = "Predogled"
+DLG_PREF_107 = "Force x Bars per Staff:"
+
+*****************
+* BROWSE WINDOW *
+*****************
+
+DLG_BROWSE_000
+DLG_BROWSE_001 = "Raziskovalec"
+DLG_BROWSE_002 = "Zapri"
+DLG_BROWSE_003 = "Preišèi podmape"
+DLG_BROWSE_004 = "Predvajaj izbrano datoteko"
+DLG_BROWSE_005 = "Brez skokov"
+DLG_BROWSE_006 = "Skok po enem taktu"
+DLG_BROWSE_007 = "Skok po 2 taktih"
+DLG_BROWSE_008 = "Skok po 5 taktih"
+DLG_BROWSE_009 = "Skok po 10 taktih"
+DLG_BROWSE_010 = "Skok po 25 taktih"
+DLG_BROWSE_011 = "Skok po partituri"
+DLG_BROWSE_012 = "Naslov:"
+DLG_BROWSE_013 = "Avtor:"
+DLG_BROWSE_014 = "Nota:"
+DLG_BROWSE_015 = "Takt(i):"
+DLG_BROWSE_016 = "K/B/T:" { K=Kitara / B=Bas / T=Tolkala }
+DLG_BROWSE_017 = "Ime"
+DLG_BROWSE_018 = "Velikost"
+DLG_BROWSE_019 = "Spremenjeno"
+DLG_BROWSE_020 = "Mapa"
+DLG_BROWSE_021 = "Datoteka(e)"
+DLG_BROWSE_022 = "Berem..."
+DLG_BROWSE_023 = "Stop"
+DLG_BROWSE_024 = "Preišèi podmape"
+DLG_BROWSE_025 = "Berem datoteko..."
+
+****************
+* BRUSH WINDOW *
+****************
+
+DLG_BRUSH_000
+DLG_BRUSH_001 = "Udarec"
+DLG_BRUSH_002 = "Dolžina udarca"
+
+**************************
+* MIX TABLE EVENT WINDOW *
+**************************
+
+DLG_MIX_000
+DLG_MIX_001 = "Mešalna miza"
+DLG_MIX_002 = "Izberi parametre za spremembo ritma in ko bodo spremembe sprejete:"
+DLG_MIX_003 = "Glasbilo"
+DLG_MIX_004 = "Glasnost"
+DLG_MIX_005 = "Pan"
+DLG_MIX_006 = "Chorus"
+DLG_MIX_007 = "Reverb"
+DLG_MIX_008 = "Tempo"
+DLG_MIX_009 = "Nemudoma"
+DLG_MIX_010 = "1 udarec"
+DLG_MIX_011 = "%s udarcev" { use plurial }
+DLG_MIX_012 = "Nova vrednost"
+DLG_MIX_013 = "Zamenjava"
+
+************************************
+* COMPLETE/REDUCE ASSISTANT WINDOW *
+************************************
+
+DLG_ASS_CR_000
+DLG_ASS_CR_001 = "Uredim takte?"
+
+*****************************
+* LET RING ASSISTANT WINDOW *
+*****************************
+
+DLG_ASS_LR_000
+DLG_ASS_LR_001 = "Nastavitve opcije 'Pusti zveneti'"
+DLG_ASS_LR_002 = "Ta pomoènik omogoèa uporabo 'Pusti zveneti' opcije za veèjo skupino not hkrati."
+DLG_ASS_LR_003 = "Takti:"
+DLG_ASS_LR_004 = "Do"
+DLG_ASS_LR_005 = "Uporabim strune:"
+DLG_ASS_LR_006 = "Opcija 'Pusti zveneti':"
+DLG_ASS_LR_007 = "Da"
+DLG_ASS_LR_008 = "Ne"
+DLG_ASS_LR_009 = "Izberi vsaj eno struno."
+
+******************************
+* FINGERING ASSISTANT WINDOW *
+******************************
+
+DLG_ASS_FG_000
+DLG_ASS_FG_001 = "Automatsko nastavljanje"
+DLG_ASS_FG_002 = "Takti:"
+DLG_ASS_FG_003 = "Do"
+
+******************************
+* TRANSPOSE ASSISTANT WINDOW *
+******************************
+
+DLG_ASS_TR_000
+DLG_ASS_TR_001 = "Transponiraj"
+DLG_ASS_TR_002 = "Transponiranje:"
+DLG_ASS_TR_003 = "Poltoni"
+
+***********************************
+* CHECK DURATION ASSISTANT WINDOW *
+***********************************
+
+DLG_ASS_CD_000
+DLG_ASS_CD_001 = "Preverjanje konèano."
+DLG_ASS_CD_002 = "Nepravilen takt-Dolžina %s - Steza %s."
+
+**********************************
+* SPEED TRAINER ASSISTANT WINDOW *
+**********************************
+
+DLG_ASS_ST_000
+DLG_ASS_ST_001 = "Trener hitrosti"
+DLG_ASS_ST_002 = "Takti:"
+DLG_ASS_ST_003 = "Tempo:"
+DLG_ASS_ST_004 = "Do"
+DLG_ASS_ST_005 = "Poveèaj tempo za vsak krog:"
+
+**************
+* CUT WINDOW *
+**************
+
+DLG_CUT_000
+DLG_CUT_001 = "Izreži"
+DLG_CUT_002 = "Takti:"
+DLG_CUT_003 = "Do"
+DLG_CUT_004 = "Ta ukaz izreže takte na vseh stezah. "
+DLG_CUT_005 = "Za izrez takta na samo eni stezi uporabi ukaza kopiraj/prilepi."
+
+**********************
+* COPY/CLEAR WINDOWS *
+**********************
+
+DLG_COPY_000
+DLG_COPY_001 = "Kopiraj"
+DLG_COPY_002 = "Poèisti"
+DLG_COPY_003 = "Takti:"
+DLG_COPY_004 = "do"
+DLG_COPY_005 = "Vse steze"
+DLG_COPY_006 = "Samo trenutna steza"
+
+*****************
+* PASTE WINDOWS *
+*****************
+
+DLG_PASTE_000
+DLG_PASTE_001 = "Prilepi"
+DLG_PASTE_002 = "Prilepim %s takt(ov) na trenutno stezo?"
+DLG_PASTE_003 = "Prilepim %s takt(ov) na vse steze?"
+DLG_PASTE_004 = "Kopirano prilepi na izbrano podroèje"
+DLG_PASTE_005 = "Vstavi kopirano pred izbranim podroèjem"
+DLG_PASTE_006 = "Dodaj kopirano na konec partiture"
+DLG_PASTE_007 = "Število lepljenj"
+DLG_PASTE_008 = "Lepljenje podatkov za tolkala na steze od 1-7 ni mogoèe."
+DLG_PASTE_009 = "Lepljenje podatkov iz stez od 1-7 na stezo za tolkala ni dovoljeno."
+DLG_PASTE_010 = "Lepljenje ni mogoèe: število strun je veèje od originalne steze."
+
+******************
+* DYNAMIC WINDOW *
+******************
+
+DLG_DYNA_000
+DLG_DYNA_001 = "Dinamika"
+DLG_DYNA_002 = "Nastavi privzeto"
+DLG_DYNA_003 = "Trenutno dinamiko nastavi kot privzeto za vse note"
+DLG_DYNA_004 = "Uporabi za akord"
+DLG_DYNA_005 = "Uporabi dinamiko za celoten akord"
+
+*********************
+* GRACE NOTE WINDOW *
+*********************
+
+DLG_GRACE_000
+DLG_GRACE_001 = "Trzna nota"
+DLG_GRACE_002 = "Nota"
+DLG_GRACE_003 = "Dolžina"
+DLG_GRACE_004 = "Dinamika"
+DLG_GRACE_005 = "Mrtva nota: X"
+DLG_GRACE_006 = "Preèka:"
+
+****************
+* INTRO WINDOW *
+****************
+
+DLG_INTRO_000
+DLG_INTRO_001 = "Uporabljate preizkusno razlièico Guitar Pro, ki je omejena na %s dni."
+DLG_INTRO_002 = "Po izteku roka morate, v kolikor želite program še naprej uporabljati, Guitar Pro registrirati."
+DLG_INTRO_003 = "Naroèi Guitar Pro!"
+DLG_INTRO_004 = "Preizkus..."
+DLG_INTRO_005 = "Omejitve v tej razlièici:"
+DLG_INTRO_006 = "- Shranjevanje omejeno na 24 taktov"
+DLG_INTRO_007 = "- Tiskanje ni mogoèe"
+DLG_INTRO_008 = "- MIDI in ASCII uvoz omejen na 50 not"
+
+******************
+* LICENSE WINDOW *
+******************
+
+DLG_LIC_000
+DLG_LIC_001 = "Licenca"
+DLG_LIC_002 = "Pozdravljeni, hvala ker ste izbrali Guitar Pro."
+DLG_LIC_003 = "Upamo, da boste z njim zadovoljni."
+DLG_LIC_004 = "Za uporabo programa morate vpisati USER ID in KEY ID ."
+DLG_LIC_005 = "Najdete ju na ovitku programa in na namestitvenem CDju."
+DLG_LIC_006 = "Trenutno uporabljate ZAÈASNO licenco. Prosim, vpišite svojo konèno kodo USER ID in KEY ID takoj, ko ju dobite."
+
+************************
+* PRINT PREVIEW WINDOW *
+************************
+
+DLG_PRW_000
+DLG_PRW_001 = "Predogled tiskanja"
+DLG_PRW_002 = "Natisni"
+DLG_PRW_003 = "Nastavitve"
+
+****************
+* PRINT WINDOW *
+****************
+
+DLG_PRT_000
+DLG_PRT_001 = "Natisni"
+DLG_PRT_002 = "Tiskalnik:"
+DLG_PRT_003 = "Vse"
+DLG_PRT_004 = "Strani:"
+DLG_PRT_005 = "Do"
+DLG_PRT_006 = "Nastavi..."
+
+****************
+* CHORD WINDOW *
+****************
+
+DLG_CHORD_000
+DLG_CHORD_001 = "Akord"
+DLG_CHORD_002 = "Preprost"
+DLG_CHORD_003 = "Srednji"
+DLG_CHORD_004 = "Vsi"
+DLG_CHORD_005 = "Oblike"
+DLG_CHORD_006 = "Bas"
+DLG_CHORD_007 = "Izberi opustitev"
+DLG_CHORD_008 = "Druga imena"
+DLG_CHORD_009 = "Uporabljen"
+DLG_CHORD_010 = "Na vrhu"
+DLG_CHORD_011 = "Knjižnica"
+DLG_CHORD_012 = "Uporabi diagram"
+DLG_CHORD_013 = "Dodaj"
+DLG_CHORD_014 = "Izbriši"
+DLG_CHORD_015 = "Zamenjaj"
+DLG_CHORD_016 = "Pomakni navzgor"
+DLG_CHORD_017 = "Pomakni navzdol"
+DLG_CHORD_018 = "Poslušaj"
+DLG_CHORD_019 = "Uporabnik"
+DLG_CHORD_020 = "Najprej poimenuj akord."
+DLG_CHORD_021 = "Najprej izberi akord za brisanje."
+DLG_CHORD_022 = "Izbrišem akord %s?"
+DLG_CHORD_023 = "Najprej izberi akord za nadgradnjo."
+DLG_CHORD_024 = "Najprej izberi akord za premikanje."
+
+***************
+* TEXT WINDOW *
+***************
+
+DLG_TXT_000
+DLG_TXT_001 = "Besedilo" {Title of the window}
+DLG_TXT_002 = "Besedilo"
+
+********************
+* GO TO BAR WINDOW *
+********************
+
+DLG_GOTOB_000
+DLG_GOTOB_001 = "Pojdi na takt..."
+DLG_GOTOB_002 = "Takt"
+
+***************
+* BEND WINDOW *
+***************
+
+DLG_BEND_000
+DLG_BEND_001 = "Zavij"
+DLG_BEND_002 = "Zavij in sprosti"
+DLG_BEND_003 = "Vrednost"
+
+*********************
+* STROKE VIB WINDOW *
+*********************
+
+DLG_STROKV_000
+DLG_STROKV_001 = "Opusti s tremolom"
+DLG_STROKV_002 = "Vrednost"
+
+**********************
+* INSTRUMENTS WINDOW *
+**********************
+
+DLG_INSTR_000
+DLG_INSTR_001 = "Glasbilo"
+
+*************************
+* TIME SIGNATURE WINDOW *
+*************************
+
+DLG_TIMES_000
+DLG_TIMES_001 = "Oznaka ritma"
+DLG_TIMES_002 = "Do konca"
+
+*********************
+* REPEAT END WINDOW *
+*********************
+
+DLG_REPE_000
+DLG_REPE_001 = "Ponavljaj"
+DLG_REPE_002 = "Število ponavljanj"
+
+****************************
+* ALTERNATE ENDINGS WINDOW *
+****************************
+
+DLG_DIFE_000
+DLG_DIFE_001 = "Posebnen konec"
+DLG_DIFE_002 = "Do"
+
+*********
+* FILES *
+*********
+
+FILES_000
+FILES_001 = "Shranim spremembe v %s?"
+FILES_002 = "Datoteke %s ni mogoèe najti."
+FILES_003 = "Datoteka %s že obstaja."
+FILES_004 = "Jo želite zamenjati?"
+FILES_005 = "<neimenovana>" { name for a new file }
+FILES_006 = "Dostop do datoteke ni mogoè. Nalaganje prekinjeno."
+FILES_007 = "Neznana datoteka. Nalaganje prekinjeno."
+FILES_008 = "Z uporabo te datoteke nadgradite program."
+FILES_009 = "Napaka - MIDI"
+FILES_010 = "MIDI format ni prepoznan."
+FILES_011 = "Datoteke Guitar Pro"
+FILES_012 = "Datoteke MIDI"
+FILES_013 = "Datoteke ASCII Tab"
+FILES_014 = "Vse datoteke"
+FILES_015 = "Uvoz MIDI"
+FILES_016 = "Izvoz MIDI"
+FILES_017 = "Uvoz ASCII Tab"
+FILES_018 = "Izvoz ASCII Tab"
+
+****************
+* ORDER WINDOW *
+****************
+
+DLG_REG_000
+DLG_REG_001 = "Vam je Guitar Pro 5.0 všeè in bi radi popolno razlièico?"
+DLG_REG_002 = "Zakaj bi èakali? Naroèite in prejmite popolno razlièico v prej kot dveh minutah!"
+DLG_REG_003 = "Poleg odprave vseh omejitev vam registracija omogoèa številne prednosti:"
+DLG_REG_004 = "Dostop do tehniène pomoèi"
+DLG_REG_005 = "Brezplaèna nadgradnja na razlièice 4.x"
+DLG_REG_006 = "Posebna ponudba za nadgradnjo na razlièice 5.x"
+DLG_REG_007 = "Za informacije o ceni izdelka, naèinih plaèila in prodajalcih, obišlite našo spletno stran:"
+
+*****************************
+* REGISTER YOUR COPY WINDOW *
+*****************************
+
+DLG_REGC_000
+DLG_REGC_001 = "Registrirajte svojo kopijo!"
+DLG_REGC_002 = "Priporoèamo, da registrirate svojo kopijo programa Guitar Pro."
+DLG_REGC_003 = "Registracija je gotova v nekaj minutah, z njo pa lahko pridobite veliko:"
+DLG_REGC_004 = "Dostop do tehniène pomoèi"
+DLG_REGC_005 = "Brezplaèno nadgradnjo na razlièice 4.x"
+DLG_REGC_006 = "Posebno ponudbo za nadgradnjo na razlièice 5.x"
+DLG_REGC_007 = "Pomembno: Èe izgubite namestitveno datoteko ali licenène podatke, ju lahko ponovno pridobite le, èe se registirate."
+DLG_REGC_008 = "Internetna registracija na naši strani"
+DLG_REGC_009 = "Registracija preko e-pošte"
+DLG_REGC_010 = "Tel:"
+DLG_REGC_011 = "Faks:"
+DLG_REGC_012 = "Pokaži to okno ob zagonu"
+
+********************
+* ORDER PAPER FORM *
+********************
+
+DLG_REGPF_000
+DLG_REGPF_001 = "GUITAR PRO OBRAZEC ZA NAROÈILO (S ÈEKOM ALI EVROÈEKOM v EVRIH)"
+DLG_REGPF_002 = "Prosimo izpolnite polja [ ] v tem obrazcu,"
+DLG_REGPF_003 = "Natisnite in pošljite na:"
+DLG_REGPF_004 = "Skupaj z vašim plaèilom preko èeka ali evroèeka v EVRIH"
+DLG_REGPF_005 = "Do %s."
+DLG_REGPF_006 = "NAROÈI"
+DLG_REGPF_007 = "Guitar Pro %s preko e-pošte (nadgradnja)"
+DLG_REGPF_008 = "Guitar Pro %s preko e-pošte"
+DLG_REGPF_009 = "Guitar Pro %s na CDROMu + dostava"
+DLG_REGPF_010 = "Ne odlašajte z vprašanji"
+DLG_REGPF_011 = "VAŠI PODATKI"
+DLG_REGPF_012 = "Datum:"
+DLG_REGPF_013 = "Ime:"
+DLG_REGPF_014 = "Priimek:"
+DLG_REGPF_015 = "USER ID:"
+DLG_REGPF_016 = "KEY ID:"
+DLG_REGPF_017 = "Naslov:"
+DLG_REGPF_018 = "Poštna številka:"
+DLG_REGPF_019 = "Kraj:"
+DLG_REGPF_020 = "Zvezna država (ZDA):"
+DLG_REGPF_021 = "Država:"
+DLG_REGPF_022 = "Tel:"
+DLG_REGPF_023 = "Faks:"
+DLG_REGPF_024 = "E-pošta:"
+DLG_REGPF_025 = "Opombe:"
+DLG_REGPF_026 = "(Nujno, èe ne naroèate CD-ROMa)"
+DLG_REGPF_027 = "Program boste prejeli v 24-ih urah po e-pošti ali v 15 dneh, èe ste naroèili CD-ROM"
+DLG_REGPF_028 = "(Ob naroèilu nadgradnje)"
+
+*********************************
+* REGISTER YOUR COPY PAPER FORM *
+*********************************
+
+DLG_REGCPF_000
+DLG_REGCPF_001 = "REGISTRACIJA - PROGRAM GUITAR PRO"
+DLG_REGCPF_002 = "Prosimo izpolnite polja [ ] v tem obrazcu,"
+DLG_REGCPF_003 = "Natisnite in pošljite na:"
+DLG_REGCPF_004 = "iz Francije"  { for the fax number }
+DLG_REGCPF_005 = "od drugod"  { for the fax number }
+DLG_REGCPF_006 = "VAŠI PODATKI"
+DLG_REGCPF_007 = "Datum:"
+DLG_REGCPF_008 = "Razlièica:"
+DLG_REGCPF_009 = "Ime:"
+DLG_REGCPF_010 = "PRIIMEK:"
+DLG_REGCPF_011 = "Naslov:"
+DLG_REGCPF_012 = "Poštna številka:"
+DLG_REGCPF_013 = "Kraj:"
+DLG_REGCPF_014 = "Zvezna država (ZDA):"
+DLG_REGCPF_015 = "Država:"
+DLG_REGCPF_016 = "Tel:"
+DLG_REGCPF_017 = "Fax:"
+DLG_REGCPF_018 = "E-mail:"
+DLG_REGCPF_019 = "(poglejte paket s programom)"
+DLG_REGCPF_020 = "MOREBITNA VPRAŠANJA (prosim ODGOVORITE v anglešèini ali francošèini)"
+DLG_REGCPF_021 = "Kje ste slišali za Guitar Pro?"
+DLG_REGCPF_022 = "Kako dolgo ste preizkušai Guitar Pro, preden ste se odloèili za nakup?"
+DLG_REGCPF_023 = "Kako uporabljate Guitar Pro (notacija, vaja, ipd...)?"
+DLG_REGCPF_024 = "V kateri trgovini ali preko katere spletne strani ste kupili Guitar Pro?"
+DLG_REGCPF_025 = "Opazke, predlogi, ..."
+
+********************
+* v3.0 BEND WINDOW *
+********************
+
+DLG300_BEND_000
+DLG300_BEND_001 = "Vrsta upogibanja (bend)"
+DLG300_BEND_002 = "Predvajaj"
+DLG300_BEND_003 = "Izberi vrsto upogibanja (bend):"
+DLG300_BEND_004 = "Klikni za dodajanje ali dodajanje toèk (desni klik = vibrato):"
+DLG300_BEND_005 = "Trajanje note = "
+DLG300_BEND_006 = "Efekt ne more biti odigran, saj ste v nastavitvah MIDI doloèili omejitev upogibanja na en ton(meni Nastavitve|Midi Nastavitve)."
+DLG300_BEND_007 = "Možnost je potrebna pri manj zmogljivih zvoènih karticah."
+
+**************************
+* v3.0 GRACE NOTE WINDOW *
+**************************
+
+DLG300_GRACE_000
+DLG300_GRACE_001 = "Prehod"
+DLG300_GRACE_002 = "Brez"
+DLG300_GRACE_003 = "Zdrs (Slide)"
+DLG300_GRACE_004 = "Upogib (bend)"
+DLG300_GRACE_005 = "Hammer"
+
+***********************
+* v3.0 MARKERS WINDOW *
+***********************
+
+DLG300_MARKERS_000
+DLG300_MARKERS_001 = "Seznam oznak"
+DLG300_MARKERS_002 = "Položaj"
+DLG300_MARKERS_003 = "Ime"
+DLG300_MARKERS_004 = "Dodaj"
+DLG300_MARKERS_005 = "Uredi"
+DLG300_MARKERS_006 = "Briši"
+DLG300_MARKERS_007 = "Pojdi"
+DLG300_MARKERS_008 = "Potrdi brisanje oznake %s?"
+DLG300_MARKERS_009 = "Vstavi oznako"
+DLG300_MARKERS_010 = "Uredi oznako"
+DLG300_MARKERS_011 = "Takt:"
+DLG300_MARKERS_012 = "Barva:"
+DLG300_MARKERS_013 = "Ime:"
+DLG300_MARKERS_014 = "Odsek"
+
+********************************
+* v3.0 MIDI IMPORTATION WINDOW *
+********************************
+
+DLG300_IMPM_000
+DLG300_IMPM_001 = "Uvoz MIDI"
+DLG300_IMPM_002 = "Steze MIDI:"
+DLG300_IMPM_003 = "Chord Position Quantize"
+DLG300_IMPM_004 = "Note Duration Quantize"
+DLG300_IMPM_005 = "Transponiraj na nižjo oktavo"
+DLG300_IMPM_006 = "Hiter uvoz"
+DLG300_IMPM_007 = "V tem naèinu boste uvozili izbrane steze v novo datoteko."
+DLG300_IMPM_008 = "Uglaševanje je izbrano samodejno glede na ime steze MIDI."
+DLG300_IMPM_009 = "Uporabi dva kanala na sezo"
+DLG300_IMPM_010 = "Uvozi!"
+DLG300_IMPM_011 = "Uvažanje korak po korak"
+DLG300_IMPM_012 = "Ta naèin omogoèa veè nadzora nad uvozom in omogoèa zlitje posameznih stez."
+DLG300_IMPM_013 = "Uvozi naslov in taktovski naèin."
+DLG300_IMPM_014 = "Dodaj stezo v Guitar Pro..."
+DLG300_IMPM_015 = "Uvozi izbrane steze v trenutno stezo Guitar Pro."
+DLG300_IMPM_016 = "Preizkusna razlièica Guitar Pro je omejena na 50 uvoženih not."
+DLG300_IMPM_017 = "Èe vam je Guitar Pro všeè, se prosim registrirajte."
+DLG300_IMPM_018 = "Prikaži okno"
+DLG300_IMPM_019 = "Skrij okno"
+DLG300_IMPM_020 = "Format MIDI %s no podprt. Uporabiti format MIDI 0 ali 1."
+DLG300_IMPM_021 = "Izberite vsaj eno stezo MIDI."
+DLG300_IMPM_022 = "Izberi vse steze"
+DLG300_IMPM_023 = "Odznaèi sve steze"
+DLG300_IMPM_024 = "Predvajaj izbrane steze"
+DLG300_IMPM_025 = "Stop"
+DLG300_IMPM_026 = "Odpri drugo datoteko"
+
+**************************
+* v3.0 MIDI SETUP WINDOW *
+**************************
+
+DLG300_MIDISETUP_000
+DLG300_MIDISETUP_001 = "Nastavitve MIDI"
+DLG300_MIDISETUP_002 = "Izhodi MIDI"
+DLG300_MIDISETUP_003 = "Vrata"
+DLG300_MIDISETUP_004 = "Naprava"
+DLG300_MIDISETUP_005 = "Popravek instrumenta"
+DLG300_MIDISETUP_006 = "Omeji variacije višine tona"
+DLG300_MIDISETUP_007 = "Predvajaj vzorec s tem izhodom"
+DLG300_MIDISETUP_008 = "Uporabi 'Omeji variacije višine tona' èe upogib ali zdrs ne zvenita dobro."
+DLG300_MIDISETUP_009 = "Manj zmogljive zvoène kartice ne omogoèajo variacije višine veè kot enega tona."
+DLG300_MIDISETUP_010 = "Ni mogoèe uporabiti iste naprave na razliènih vratih."
+
+**************************
+* v3.0 SCORE INFO WINDOW *
+**************************
+
+DLG300_SCORE_INFO_000
+DLG300_SCORE_INFO_001 = "Informacije o partituri"
+DLG300_SCORE_INFO_002 = "Privzete informacije"
+DLG300_SCORE_INFO_003 = "Naslov"
+DLG300_SCORE_INFO_004 = "Podnaslov"
+DLG300_SCORE_INFO_005 = "Izvajalec"
+DLG300_SCORE_INFO_006 = "Album"
+DLG300_SCORE_INFO_007 = "Avtor"
+DLG300_SCORE_INFO_008 = "Avtor. prav."
+DLG300_SCORE_INFO_009 = "Avtor tablatur"
+DLG300_SCORE_INFO_010 = "Navodila"
+DLG300_SCORE_INFO_011 = "Opombe"
+DLG300_SCORE_INFO_012 = "Premešaj ritem:"
+DLG300_SCORE_INFO_013 = "Tu vstavite informacije, ki bi jih radi imeli kot privzete:"
+
+**************************
+* v3.0 TRACK INFO WINDOW *
+**************************
+
+DLG300_TRACK_INFO_000
+DLG300_TRACK_INFO_001 = "Dodaj stezo"
+DLG300_TRACK_INFO_002 = "Tip"
+DLG300_TRACK_INFO_003 = "Instrument"
+DLG300_TRACK_INFO_004 = "Položaj"
+DLG300_TRACK_INFO_005 = "Prvi"
+DLG300_TRACK_INFO_006 = "Zadnji"
+DLG300_TRACK_INFO_007 = "Pred"
+DLG300_TRACK_INFO_008 = "Za"
+DLG300_TRACK_INFO_009 = "Lastnosti steze"
+DLG300_TRACK_INFO_010 = "Barva"
+DLG300_TRACK_INFO_011 = "Posebej za 5-strunski banjo"
+DLG300_TRACK_INFO_012 = "Ali želite transponirati stezo v novi uglasitvi?"
+
+***************************
+* v3.0 PREFERENCES WINDOW *
+***************************
+
+DLG300_PREF_000
+DLG300_PREF_001 = "Nota, ki bo naslednja"
+DLG300_PREF_002 = "Pravokotnik okoli takta"
+DLG300_PREF_003 = "Trokotnik pod noto"
+DLG300_PREF_004 = "Oznaèevanje not"
+
+*********************************
+* v3.0 ASCII IMPORTATION WINDOW *
+*********************************
+
+DLG300_IMPA_000
+DLG300_IMPA_001 = "The number of string is different than the current track."
+DLG300_IMPA_002 = "Please modify first the number of strings of the current track."
+
+****************
+* v3.0 GENERAL *
+****************
+
+GENE300_000
+GENE300_001 = "Maximum tracks supported:"
+GENE300_002 = "Confirm the deletion of the track %s?"
+GENE300_003 = "The demo version do not allow to print the score."
+GENE300_004 = "none" { for the MIDI ports }
+GENE300_005 = "Impossible to open the MIDI port [%s]."
+GENE300_006 = "Please close other MIDI software or modify your MIDI setup."
+GENE300_007 = "No patch selected" { instrument patch }
+GENE300_008 = "Patch not found" { instrument patch }
+GENE300_009 = "Play from %s"
+GENE300_010 = "Go to %s"
+GENE300_011 = "Drum Kit"
+GENE300_012 = "Drum tracks only"
+GENE300_013 = "Link with %s"
+GENE300_014 = "Reserved by %s"
+GENE300_015 = "free"
+GENE300_016 = "In the demo version you can't export into GP 2.2 format if the file has been modified."
+GENE300_017 = "First save the modifications into GP 3.0 format and then use this function."
+GENE300_018 = "Guitar Pro 2.2 Files"
+
+******************
+* v3.0 MIX TABLE *
+******************
+
+MIXT300_000
+MIXT300_001 = "Reduce All"
+MIXT300_002 = "Expand All"
+MIXT300_003 = "Solo"
+MIXT300_004 = "S" {abreviation of "Solo"}
+MIXT300_005 = "Mute"
+MIXT300_006 = "M" {abreviation of "Mute"}
+MIXT300_007 = "Name" {of the track}
+MIXT300_008 = "Port"
+MIXT300_009 = "Port" {abreviation of "Port"}
+MIXT300_010 = "Port Selection"
+MIXT300_011 = "Main Channel"
+MIXT300_012 = "Ch" {abreviation of "Main Channel"}
+MIXT300_013 = "Main Channel Selection"
+MIXT300_014 = "Effect Channel"
+MIXT300_015 = "Ch2" {abreviation of "Effects Channel"}
+MIXT300_016 = "Effect Channel Selection"
+MIXT300_017 = "Instrument"
+MIXT300_018 = "Volume"
+MIXT300_019 = "Pan"
+MIXT300_020 = "Chorus"
+MIXT300_021 = "Reverb"
+MIXT300_022 = "Phaser"
+MIXT300_023 = "Tremolo"
+MIXT300_024 = "Incomplete Patch"
+MIXT300_025 = "No Patch Selected"
+MIXT300_026 = "Drum Kit"
+
+*********************************
+* v3.0 DYNAMIC ASSISTANT WINDOW *
+*********************************
+
+DLG300_ASS_DY_000
+DLG300_ASS_DY_001 = "Možnosti dinamike "
+DLG300_ASS_DY_002 = "Pomoènik omogoèa spreminjanje dinamike skupine not."
+DLG300_ASS_DY_003 = "Takti:"
+DLG300_ASS_DY_004 = "do"
+DLG300_ASS_DY_005 = "Uporabim strune:"
+DLG300_ASS_DY_006 = "Dinamièna vrednost:"
+DLG300_ASS_DY_007 = "Ni izbranih strun."
+
+**********************
+* v3.0 MENUS & HINTS *
+**********************
+
+MN300_000
+MN300_001 = "Informacije o partituri"
+MN300_002 = "Prva" {for the track}
+MN300_003 = "Prejšnja" {for the track}
+MN300_004 = "Naslednja" {for the track}
+MN300_005 = "Zadnja" {for the track}
+MN300_006 = "Prejšnja steza"
+MN300_007 = "Naslednja steza"
+MN300_008 = "Lastnosti" {for the track}
+MN300_009 = "Lastnosti steze"
+MN300_010 = "Dodaj" {for a track}
+MN300_011 = "Dodaj stezo"
+MN300_012 = "Izbriši" {for the track}
+MN300_013 = "Prvi" {for the bar}
+MN300_014 = "Prejšnji" {for the bar}
+MN300_015 = "Naslednji" {for the bar}
+MN300_016 = "Zadnji" {for the bar}
+MN300_017 = "Poveži udarec"
+MN300_018 = "Poveži noto"
+MN300_019 = "Dolžina udarca"
+MN300_020 = "Dolžina note"
+MN300_021 = "-brez-" {means "no" triolet, -3-, -5-, ...}
+MN300_022 = "n-plet"
+MN300_023 = "Udarec" {n-tuplet on the beat}
+MN300_024 = "Nota" {n-tuplet on the note}
+MN300_025 = "Naèin zavijanja" {includes all "Bend" type effects}
+MN300_026 = "Oznaèbe"
+MN300_027 = "Vstavi oznaèbo"
+MN300_028 = "Vstavi"
+MN300_029 = "Seznam oznaèb"
+MN300_030 = "Seznam"
+MN300_031 = "Pojdi na prejšnjo oznaèbo"
+MN300_032 = "Prejšnja"
+MN300_033 = "Pojdi na oznaèbo"
+MN300_034 = "Pojdi"
+MN300_035 = "Pojdi na naslednjo oznaèbo"
+MN300_036 = "Naslednja"
+MN300_037 = "Ni oznaèb"
+MN300_038 = "Predvajaj od oznaèbe"
+MN300_039 = "Predvajaj od trenutne pozicije (Space)"
+MN300_040 = "Orodja"
+MN300_041 = "Odštevaj"
+MN300_042 = "Daj tempu koeficient"
+MN300_043 = "Multitrack pogled"
+MN300_044 = "Verticalen prikaz"
+MN300_045 = "Horizontalen prikaz"
+MN300_046 = "Ustaljeno razmikanje not"
+MN300_047 = "Spremeni pogled"
+MN300_048 = "Orodne vrstice"
+MN300_049 = "Standard" {name of the toolbar}
+MN300_050 = "Takt" {name of the toolbar}
+MN300_051 = "Oznaèbe" {name of the toolbar}
+MN300_052 = "Pogled" {name of the toolbar}
+MN300_053 = "Trajanje udarca" {name of the toolbar}
+MN300_054 = "Trajanje note" {name of the toolbar}
+MN300_055 = "Predvajaj" {name of the toolbar}
+MN300_056 = "Tempo" {name of the toolbar}
+MN300_057 = "Uèinki" {name of the toolbar}
+MN300_058 = "Dinamika" {name of the toolbar}
+MN300_059 = "Vse" {afficher toutes les barres d'outils}
+MN300_060 = "Brez" {n'afficher aucune barre d'outil}
+MN300_061 = "Privzeta pozicija" {des barres d'outil}
+MN300_062 = "MIDI nastavitve"
+MN300_063 = "Ohrani trenuten takt viden med predvajanjem"
+MN300_064 = "Guitar Pro 2.2 Format"
+MN300_065 = "Nastavitve"
+MN300_066 = "Vezava navzgor / vezava navzdol"
+MN300_067 = "Zdrs"
+MN300_068 = "Tempo"
+MN300_069 = "Nastavitve dinamike"
+MN300_070 = "Pojdi na zaèetek"
+MN300_071 = "Pojdi na konec"
+MN300_072 = "Hito nazaj"
+MN300_073 = "Hitro naprej"
+MN300_074 = "Razveljavi"
+MN300_075 = "Uveljavi"
+
+******************
+* v3.0 GP ONLINE *
+******************
+
+DLG300_GPONLINE_000
+DLG300_GPONLINE_001 = "GP na spletu"
+DLG300_GPONLINE_002 = "GP spletni opomnik:"
+DLG300_GPONLINE_003 = "Nikoli"
+DLG300_GPONLINE_004 = "2 tedna"
+DLG300_GPONLINE_005 = "1 mesec"
+DLG300_GPONLINE_006 = "3 mesece"
+DLG300_GPONLINE_007 = "6 mesecev"
+DLG300_GPONLINE_008 = "Èe je internetna povezava aktivna, dovoli hitro preverjanje za novo razlièico ob zagonu."
+DLG300_GPONLINE_009 = "Nova razlièica Guitar Pro je na voljo na spletu!"
+DLG300_GPONLINE_010 = "Hoèete zagnati GP Online?"
+DLG300_GPONLINE_011 = "Note: To stop this verification, start GP Online or go to the [Options|Preferences] menu item."
+DLG300_GPONLINE_012 = "You haven't used GP Online for %s days."
+DLG300_GPONLINE_013 = "Note: To stop using GP Online Reminder, go to the [Options|Preferences] menu item."
+
+***********************************
+* v4.0 PALM MUTE ASSISTANT WINDOW *
+***********************************
+ 
+DLG400_ASS_PM_000
+DLG400_ASS_PM_001 = "Nastavitve 'dušenja z dlanjo'"
+DLG400_ASS_PM_002 = "Ta pomoènik omogoèa uporabo 'Dušenja z dlanjo' za skupino not v eni potezi."
+DLG400_ASS_PM_003 = "Takt:"
+DLG400_ASS_PM_004 = "Do"
+DLG400_ASS_PM_005 = "Uporabim strune:"
+DLG400_ASS_PM_006 = "Opcija 'Dušenje z dlanjo':"
+DLG400_ASS_PM_007 = "Da"
+DLG400_ASS_PM_008 = "Ne"
+DLG400_ASS_PM_009 = "Izberite struno."
+ 
+*****************************
+* v4.0 PERCUSSION ASSISTANT *
+*****************************
+ 
+DLG400_ASS_PERCU_000
+DLG400_ASS_PERCU_001 = "Uporabi elektriène zvoke, kadar je mogoèe"
+ 
+*******************************
+* v4.0 MIX TABLE EVENT WINDOW *
+*******************************
+ 
+DLG400_MIX_000
+DLG400_MIX_001 = "Vse steze"
+ 
+*********************
+* v4.0 CHORD WINDOW *
+*********************
+ 
+DLG400_CHORD_000
+DLG400_CHORD_001 = "S prsti"
+ 
+*********************
+* v4.0 BRUSH WINDOW *
+*********************
+ 
+DLG400_BRUSH_000
+DLG400_BRUSH_001 = "Rasgueado"
+ 
+**************************
+* v4.0 TREMOLOBAR WINDOW *
+**************************
+ 
+DLG400_TREMOLOBAR_000
+DLG400_TREMOLOBAR_001 = "Tremolo takt"
+DLG400_TREMOLOBAR_002 = "Izberi ostrino:";
+ 
+*********************
+* v4.0 TRILL WINDOW *
+*********************
+ 
+DLG400_TRILL_000
+DLG400_TRILL_001 = "Trilèek"
+DLG400_TRILL_002 = "Trilèek Nota"
+DLG400_TRILL_003 = "Doba"
+DLG400_TRILL_004 = "Preèka:"
+ 
+*******************************
+* v4.0 BMP EXPORTATION WINDOW *
+*******************************
+ 
+DLG400_EXPBMP_000
+DLG400_EXPBMP_001 = "BMP Izvoz"
+DLG400_EXPBMP_002 = "Izvoz"
+DLG400_EXPBMP_003 = "Bitmap datoteke"
+ 
+*******************************
+* v4.0 BMP EXPORTATION WINDOW *
+*******************************
+ 
+DLG400_EXPWAV_000
+DLG400_EXPWAV_001 = "WAVE Izvoz"
+DLG400_EXPWAV_002 = "Izvoz"
+DLG400_EXPWAV_003 = "Kvaliteta:"
+DLG400_EXPWAV_004 = "WAVE Datoteke"
+ 
+*************************
+* v4.0 FRETBOARD WINDOW *
+*************************
+ 
+DLG400_FRETBOARD_000
+DLG400_FRETBOARD_001 = "Izbira naèina pogleda"
+DLG400_FRETBOARD_002 = "Pokaži [ritem]"
+DLG400_FRETBOARD_003 = "Pokaži [ritem] + [takt]"
+DLG400_FRETBOARD_004 = "Pokaži [ritem] + [Diagram]"
+DLG400_FRETBOARD_005 = "Pokaži [ritem] + [Naslednji ritem]"
+DLG400_FRETBOARD_006 = "Pokaži [ritem] + [lestvica]"
+DLG400_FRETBOARD_007 = "Pokaži [Ime note]"
+DLG400_FRETBOARD_008 = "Pokaži [Interval]"
+DLG400_FRETBOARD_009 = "Pokaži [Stopnja]"
+DLG400_FRETBOARD_010 = "Indikacija imena note"
+DLG400_FRETBOARD_011 = "Brez imena"
+DLG400_FRETBOARD_012 = "Ime za [ritem]"
+DLG400_FRETBOARD_013 = "Ime za [ritem] + [...]"
+DLG400_FRETBOARD_014 = "Slika za ozadje vratu."
+DLG400_FRETBOARD_015 = "Elekrièna"
+DLG400_FRETBOARD_016 = "Akustièna"
+DLG400_FRETBOARD_017 = "Klasièna"
+DLG400_FRETBOARD_018 = "Osnovna"
+DLG400_FRETBOARD_019 = "Obrni vrat"
+DLG400_FRETBOARD_020 = "Odpri orodje za lestvico"
+DLG400_FRETBOARD_021 = "Lestvice"
+DLG400_FRETBOARD_022 = "Premakni levo"
+DLG400_FRETBOARD_023 = "Premakni desno"
+ 
+************************
+* v4.0 KEYBOARD WINDOW *
+************************
+ 
+DLG400_KEYBOARD_000
+DLG400_KEYBOARD_001 = "Izbira naèina pogleda"
+DLG400_KEYBOARD_002 = "Pokaži [ritem]"
+DLG400_KEYBOARD_003 = "Pokaži [ritem] + [takt]"
+DLG400_KEYBOARD_004 = "Pokaži [ritem] + [Naslednji ritem]"
+DLG400_KEYBOARD_005 = "Pokaži [ritem] + [lestvica]"
+DLG400_KEYBOARD_006 = "Odpri orodje za lestvico"
+DLG400_KEYBOARD_007 = "Lestvice"
+DLG400_KEYBOARD_008 = "Move Left"
+DLG400_KEYBOARD_009 = "Move Right"
+ 
+******************************
+* v4.0 KEY SIGNATURE WINDOW *
+******************************
+ 
+DLG400_KEYSIGN_000
+DLG400_KEYSIGN_001 = "Oznaka tipk"
+DLG400_KEYSIGN_002 = "Do konca"
+DLG400_KEYSIGN_003 = "Naèin"
+DLG400_KEYSIGN_004 = "Dur"
+DLG400_KEYSIGN_005 = "Mol"
+ 
+***************************
+* v4.0 NEW TUNING WINDOW *
+***************************
+ 
+DLG400_NEWTUNE_000
+DLG400_NEWTUNE_001 = "Nova uglasitev"
+DLG400_NEWTUNE_002 = "Ime za to uglasitev:"
+ 
+**************************
+* v4.0 SCORE INFO WINDOW *
+**************************
+ 
+DLG400_SCORE_INFO_000
+DLG400_SCORE_INFO_001 = "Besedilo"
+DLG400_SCORE_INFO_002 = "Uporabi na stezi:"
+DLG400_SCORE_INFO_003 = "Èe spreminjaš partituro, pojdi nazaj na to okno in pritisni 'Potrdi' za osvežitev besedila."
+DLG400_SCORE_INFO_004 = "Vrsta %s"
+DLG400_SCORE_INFO_005 = "Zaèni od takta:"
+DLG400_SCORE_INFO_006 = "Preberi datoteko pomoèi za uporabo posebnih simbolov: -, + in []"
+DLG400_SCORE_INFO_007 = "Izreži"
+DLG400_SCORE_INFO_008 = "Kopiraj"
+DLG400_SCORE_INFO_009 = "Prilepi"
+ 
+**************************
+* v4.0 TRACK INFO WINDOW *
+**************************
+ 
+DLG400_TRACK_INFO_000
+DLG400_TRACK_INFO_001 = "Dodaj to uglasitev"
+DLG400_TRACK_INFO_002 = "Izbriši to uglasitev"
+DLG400_TRACK_INFO_003 = "Najprej izberi uglasitev za brisanje."
+DLG400_TRACK_INFO_004 = "Brišem uglasitev %s?"
+DLG400_TRACK_INFO_005 = "Najprej definiraj novo uglasitev, šele potem klikni na 'Dodaj' za poimenovanje."
+DLG400_TRACK_INFO_006 = "Izberi ime za novo uglasitev."
+DLG400_TRACK_INFO_007 = "To ime je že uporabljeno."
+ 
+***************************
+* v4.0 PREFERENCES WINDOW *
+***************************
+ 
+DLG400_PREF_000
+DLG400_PREF_001 = "Samodejno varnostno kopiranje"
+DLG400_PREF_002 = "Vsakih"
+DLG400_PREF_003 = "dejanj"
+DLG400_PREF_004 = "Besedilo:"
+DLG400_PREF_005 = "Razveljavi/Uveljavi"
+DLG400_PREF_006 = "Onemogoèi Razveljavi/Uveljavi"
+ 
+***********************************
+* v4.0 TRANSPOSE ASSISTANT WINDOW *
+***********************************
+ 
+DLG400_ASS_TR_000
+DLG400_ASS_TR_001 = "Transponiraj vse steze"
+ 
+*********************************
+* v4.0 SEARCH ON THE WEB WINDOW *
+*********************************
+ 
+DLG400_SEARCHONWEB_000
+DLG400_SEARCHONWEB_001 = "Išèi na spletu"
+DLG400_SEARCHONWEB_002 = "Išèi:"
+DLG400_SEARCHONWEB_003 = "Vpiši preprosto besedilo, kot na primer 'satriani' ali 'elise'"
+DLG400_SEARCHONWEB_004 = "Na:"
+DLG400_SEARCHONWEB_005 = "Išèi!"
+DLG400_SEARCHONWEB_006 = "Nadgradi seznam iskanih strani"
+DLG400_SEARCHONWEB_007 = "Najdenih %s strani."
+DLG400_SEARCHONWEB_008 = "Vtipkaj besedilo, za prièetek iskanja."
+DLG400_SEARCHONWEB_009 = "Prikljuèitev na spletno stran ni mogoèa."
+ 
+***************************
+* v4.0 SCALES TOOL WINDOW *
+***************************
+ 
+DLG400_SCALES_000
+DLG400_SCALES_001 = "Lestvice"
+DLG400_SCALES_002 = "Poslušaj"
+DLG400_SCALES_003 = "Iskalec lestvic"
+DLG400_SCALES_004 = "Išèi iz takta:"
+DLG400_SCALES_005 = "Do"
+DLG400_SCALES_006 = "Najdi!"
+ 
+**********************
+* v4.0 MENUS & HINTS *
+**********************
+ 
+MN400_000
+MN400_001 = "Prva steza"
+MN400_002 = "Zadnja steza"
+MN400_003 = "Izbriši stezo"
+MN400_004 = "Vstavi takt"
+MN400_005 = "Izreži takte"
+MN400_006 = "Kopiraj takte"
+MN400_007 = "Prilepi takte"
+MN400_008 = "Izprazni takte"
+MN400_009 = "Tonski naèin"
+MN400_010 = "Dvojni takt"
+MN400_011 = "Razveljavi"
+MN400_012 = "Uveljavi"
+MN400_013 = "Zvišaj za polton"
+MN400_014 = "Znižaj za polton"
+MN400_015 = "Levoroèno igranje"
+MN400_016 = "Desnoorèno igranje"
+MN400_017 = "PickStroke gor"
+MN400_018 = "PickStroke dol"
+MN400_019 = "Poudarjena nota"
+MN400_020 = "Harmonija"
+MN400_021 = "Naravna harmonija"
+MN400_022 = "Umetna harmonija"
+MN400_023 = "Okrnjena harmonija"
+MN400_024 = "Uglašena harmonija"
+MN400_025 = "Vmesna harmonija"
+MN400_026 = "Zavij"
+MN400_027 = "Tremolo takt"
+MN400_028 = "Zdrs"
+MN400_029 = "Dvignjen zdrs"
+MN400_030 = "Legato zdrs"
+MN400_031 = "Zdrs do note od spodaj"
+MN400_032 = "Zdrs do note od zgoraj"
+MN400_033 = "Zdrs od note navzdol"
+MN400_034 = "Zdrs od note navzgor"
+MN400_035 = "Širok Vibrato"
+MN400_036 = "Trilèek"
+MN400_037 = "Tremolo ubiranje"
+MN400_038 = "Dušenje z dlanjo"
+MN400_039 = "Staccato"
+MN400_040 = "Digitalni kitarski uglaševalec"
+MN400_041 = "Lestvice"
+MN400_042 = "Nastavitve 'dušenja z dlanjo'"
+MN400_043 = "Klasièna notacija"
+MN400_044 = "Vrat"
+MN400_045 = "Klaviatura"
+MN400_046 = "Meniji in orodne vrstice"
+MN400_047 = "Samonastavi"
+MN400_048 = "Povrni orodne vrstice v prvotno stanje"
+MN400_049 = "Stari GP3 žlebièi"
+MN400_050 = "V slogu XP orodne vrstice"
+MN400_051 = "Guitar Pro 3.0 Format"
+MN400_052 = "Datoteka WAVE (Audio)"
+MN400_053 = "Datoteka BMP (Slika)"
+MN400_054 = "Meni" {name of the toolbar}
+MN400_055 = "Nota" {name of the toolbar}
+MN400_056 = "Vrat" {name of the toolbar}
+MN400_057 = "Klaviatura" {name of the toolbar}
+MN400_058 = "Izbirnik stez" {name of the toolbar}
+MN400_059 = "Statusna vrstica" {name of the toolbar}
+MN400_060 = "Windows nastavitev glasnosti"
+
+*********************
+* v4.0 INTRO WINDOW *
+*********************
+
+DLG400_INTRO_000
+DLG400_INTRO_001 = "Program uporabljate %s1 dan od %s2 dni do izteka roka."
+DLG400_INTRO_002 = "Rok se je iztekel. Mislite na registracijo."
+ 
+****************
+* v4.0 GENERAL *
+****************
+ 
+GENE400_000
+GENE400_001 = "V demo verziji ne morete izvažati v GP 3.0 format, èe je bila datoteka spremenjena."
+GENE400_002 = "Datoteko morate odpreti in izvoz uporabiti direktno."
+GENE400_003 = "Guitar Pro 3.0 datoteke"
+GENE400_004 = "Guitar Pro se je nepravilno zaprl med prejšnjim projektom, ali pa je odprt drug projekt."
+GENE400_005 = "Želite obnoviti prejšnje varnostne kopije?"
+GENE400_006 = "Demo razlièica ne dovoljuje izvoza v BMP format."
+GENE400_007 = "Zaprite Guitar Pro in ga ponovno zaženite za namestitev orodnih vrstic na prvotna mesta."
+GENE400_008 = "Zdaj lahko uporabite gumb Predvajaj/Stop za zaèetek in konec snemanja."
+GENE400_009 = "Vkljuèen mora biti vertikalen prikaz za uporabo izvoza v BMP format."
+GENE400_010 = "Izreži/Kopiraj/prilepi so omejeni na 24 taktov v demo razlièici."
+GENE400_011 = "Odložišèe je prazno."
+GENE400_012 = "Vsebina odložišèa ni kompatibilna s stezami."
+GENE400_013 = "Datoteka [%s] je bila posneta."
+GENE400_014 = "Mape ni mogoèe ustvariti [%s]. Nalaganje prekinjeno."
+GENE400_015 = "Guitar Pro zaznal prepovedano spremembo [Coda %s]. Nalaganje prekinjeno."
+GENE400_016 = "Pisava [%s] ni pravilno naložena. Še enkrat Instalirajte Guitar Pro."
+
+
+*********************************
+* v4.0 WAVE EXPORT SETUP WINDOW *
+*********************************
+
+DLG400_WAVEEXPSETUP_000
+DLG400_WAVEEXPSETUP_001 = "WAVE Export Setup"
+DLG400_WAVEEXPSETUP_002 = "WAVE Input"
+DLG400_WAVEEXPSETUP_003 = "Line to use to record the MIDI output:"
+DLG400_WAVEEXPSETUP_004 = "Tip: If the WAVE exported file has no sound, test another line."
+DLG400_WAVEEXPSETUP_005 = "You must select a line."
+
+****************
+* v4.1 MIDI IN *
+****************
+ 
+MI410_000
+MI410_001 = "MIDI vnos aktiven"
+MI410_002 = "Ne more odpreti naprave MIDI IN. Preverite nastavitve v meniju Nastavitve / Nastavitve MIDI."
+MI410_003 = "MIDI vnos (posamezne note)"
+MI410_004 = "Naprava"
+MI410_005 = "Obèutljivost"
+MI410_006 = "ms  (zamik za loèevanje dveh not)" { "ms" za milisekunde }
+MI410_007 = "Popaèenje strun s pomoèjo prepoznave kanala"
+MI410_008 = "Prvi kanal za najvišjo struno"
+MI410_009 = "Prvi kanal za najnižjo struno"
+MI410_010 = "Brez prepoznavanja kanala (samodejni prstni red)"
+MI410_011 = "Nasvet: Uporabite meni [Zvok/MIDI vnos aktiven] za zajem not iz vašega MIDI-instumenta."
+
+*********************
+* v5.0 ABOUT WINDOW *
+*********************
+ 
+DLG500_ABOUT_000
+DLG500_ABOUT_001 = "%s in %t sta registrirani blagovni znamki ali blagovni  %s za Francijo in / ali druge države."
+DLG500_ABOUT_002 = "Vse blagovne ali registrirane blagovne znamke so last pravnih lastnikov, ki niso povezani z %s."
+DLG500_ABOUT_003 = "Ekipa Guitar Pro"
+DLG500_ABOUT_004 = "Originalna zasnova programa &&"
+DLG500_ABOUT_005 = "RSE Originalna zasnova && zvoèni vzorci"
+DLG500_ABOUT_006 = "Razvoj"
+DLG500_ABOUT_007 = "Oblikovanje"
+DLG500_ABOUT_008 = "Prevod [%s]"
+DLG500_ABOUT_009 = "Posebna zahvala"
+DLG500_ABOUT_010 = "Zvoène tehnologije"
+
+*********************************
+* v5.0 DYNAMIC ASSISTANT WINDOW *
+*********************************
+ 
+DLG500_ASS_DY_000
+DLG500_ASS_DY_001 = "Izbor"
+DLG500_ASS_DY_002 = "Glasovi:"
+DLG500_ASS_DY_003 = "Vse"
+DLG500_ASS_DY_004 = "Lead"
+DLG500_ASS_DY_005 = "Bass"
+
+**********************************
+* v5.0 LET RING ASSISTANT WINDOW *
+**********************************
+ 
+DLG500_ASS_LR_000
+DLG500_ASS_LR_001 = "Izbor"
+DLG500_ASS_LR_002 = "Glasovi:"
+DLG500_ASS_LR_003 = "Vse"
+DLG500_ASS_LR_004 = "Lead"
+DLG500_ASS_LR_005 = "Bass"
+
+***********************************
+* v5.0 PALM MUTE ASSISTANT WINDOW *
+***********************************
+ 
+DLG500_ASS_PM_000
+DLG500_ASS_PM_001 = "Izbor"
+DLG500_ASS_PM_002 = "Glasovi:"
+DLG500_ASS_PM_003 = "Vse"
+DLG500_ASS_PM_004 = "Lead"
+DLG500_ASS_PM_005 = "Bass"
+
+*******************************
+* v5.0 MIX TABLE EVENT WINDOW *
+*******************************
+ 
+DLG500_MIX_000
+DLG500_MIX_001 = "Uporabi MIDI"
+DLG500_MIX_002 = "MIDI Bank:"
+DLG500_MIX_003 = "Uporabi RSE"
+DLG500_MIX_004 = "Brez" { used for Sound Bank list }
+DLG500_MIX_005 = "Brez" { used for Effects list }
+
+***************************
+* v5.0 INSTRUMENTS WINDOW *
+***************************
+ 
+DLG500_INSTR_000
+DLG500_INSTR_001 = "Uporabi MIDI"
+DLG500_INSTR_002 = "MIDI Bank:"
+DLG500_INSTR_003 = "Uporabi RSE"
+DLG500_INSTR_004 = "Poslušaj"
+DLG500_INSTR_005 = "Sound Bank"
+DLG500_INSTR_006 = "Brez" { used for Sound Bank list }
+DLG500_INSTR_007 = "Efekt"
+DLG500_INSTR_008 = "Brez" { used for Effects list }
+DLG500_INSTR_009 = "Samodejno poudarjanje na taktu" 
+DLG500_INSTR_010 = "Brez" { used for AutoAccentuation }
+DLG500_INSTR_011 = "Zelo mehko"
+DLG500_INSTR_012 = "Mehko"
+DLG500_INSTR_013 = "Srednje"
+DLG500_INSTR_014 = "Moèno"
+DLG500_INSTR_015 = "Zelo moèno"
+DLG500_INSTR_016 = "Igranje v živo"
+DLG500_INSTR_017 = "Vse blagovne ali registrirane blagovne znamke instrumentov, ojaèevalcev in efektov so last pravnih lastnikov, ki niso povezani z  %s."
+
+*****************************
+* v5.0 NOTE DURATION WINDOW *
+*****************************
+ 
+DLG500_NOTE_DURATION_000
+DLG500_NOTE_DURATION_001 = "Trajanje zvoka"
+
+**************************
+* v5.0 GRACE NOTE WINDOW *
+**************************
+
+DLG500_GRACE_000
+DLG500_GRACE_001 = "Položaj"
+DLG500_GRACE_002 = "Pred taktom"
+DLG500_GRACE_003 = "Na taktu"
+
+************************
+* v5.0 HARMONIC WINDOW *
+************************
+
+DLG500_HARM_000
+DLG500_HARM_001 = "Umetni harmonik"
+DLG500_HARM_002 = "Vrsta umetnega harmonika"
+DLG500_HARM_003 = "Umetni harmonik"
+DLG500_HARM_004 = "Rahel harmonik"
+DLG500_HARM_005 = "Prišèipnjen harmonik"
+DLG500_HARM_006 = "Polovièen harmonic"
+DLG500_HARM_007 = "Leva roka:"
+DLG500_HARM_008 = "Desna roka:"
+
+**************************
+* v5.0 SCORE INFO WINDOW *
+**************************
+ 
+DLG500_SCORE_INFO_000
+DLG500_SCORE_INFO_001 = "Besedilo"
+DLG500_SCORE_INFO_002 = "Glasba"
+DLG500_SCORE_INFO_003 = "RSE Master Effect (za vse instrumente)"
+DLG500_SCORE_INFO_004 = "Efekt:"
+
+*********************
+* v5.0 PRINT WINDOW *
+*********************
+
+DLG500_PRT_000
+DLG500_PRT_001 = "Položaj"
+DLG500_PRT_002 = "Velikost:"
+DLG500_PRT_003 = "Prilagodi na stran"
+DLG500_PRT_004 = "Na sredino"
+
+********************************
+* v5.0 WAVE EXPORTATION WINDOW *
+********************************
+ 
+DLG500_EXPWAV_000
+DLG500_EXPWAV_001 = "Izvoz WAVE"
+DLG500_EXPWAV_002 = "Gonilnim za snemanje"
+DLG500_EXPWAV_003 = "Kakovost"
+DLG500_EXPWAV_004 = "Hz"
+DLG500_EXPWAV_005 = "bitov"
+
+*******************************
+* v5.0 PAGE PROPERTIES WINDOW *
+*******************************
+ 
+DLG500_PAGE_PROP_000
+DLG500_PAGE_PROP_001 = "Priprava strani"
+DLG500_PAGE_PROP_002 = "Osveži partituro"
+DLG500_PAGE_PROP_003 = "Shrani kot privzeto"
+DLG500_PAGE_PROP_004 = "Uporabi privzeto"
+DLG500_PAGE_PROP_005 = "Velikost strani"
+DLG500_PAGE_PROP_006 = "Orientacija"
+DLG500_PAGE_PROP_007 = "Pokonèno"
+DLG500_PAGE_PROP_008 = "Ležeèe"
+DLG500_PAGE_PROP_009 = "Velikost partiture"
+DLG500_PAGE_PROP_010 = "Razmerje:"
+DLG500_PAGE_PROP_011 = "Robovi"
+DLG500_PAGE_PROP_012 = "Levo"
+DLG500_PAGE_PROP_013 = "Desno"
+DLG500_PAGE_PROP_014 = "Zgoraj"
+DLG500_PAGE_PROP_015 = "Spodaj"
+DLG500_PAGE_PROP_016 = "Glava && Noga"
+DLG500_PAGE_PROP_017 = "Naslov"
+DLG500_PAGE_PROP_018 = "Podnaslov"
+DLG500_PAGE_PROP_019 = "Izvajalec"
+DLG500_PAGE_PROP_020 = "Album"
+DLG500_PAGE_PROP_021 = "Besedilo"
+DLG500_PAGE_PROP_022 = "Glasba"
+DLG500_PAGE_PROP_023 = "Besedilo && Glasba"
+DLG500_PAGE_PROP_024 = "Avtorske pravice"
+DLG500_PAGE_PROP_025 = "Številka strani"
+
+******************************
+* v5.0 TIME SIGNATURE WINDOW *
+******************************
+
+DLG500_TIMES_000
+DLG500_TIMES_001 = "Poveži število osmink"
+DLG500_TIMES_002 = "Skupaj"
+
+***********************
+* v5.0 SYNCOPE WINDOW *
+***********************
+
+DLG500_SYNCOPE_000
+DLG500_SYNCOPE_001 = "Uèinek triole"
+DLG500_SYNCOPE_002 = "Brez uèinka triole"
+DLG500_SYNCOPE_003 = "Triola osmink"
+DLG500_SYNCOPE_004 = "Triola 16-ink"
+DLG500_SYNCOPE_005 = "Do konca"
+
+**************************
+* v5.0 TRACK INFO WINDOW *
+**************************
+ 
+DLG500_TRACK_INFO_000
+DLG500_TRACK_INFO_001 = "Notacija"
+DLG500_TRACK_INFO_002 = "Standardna notacija"
+DLG500_TRACK_INFO_003 = "Tablatura"
+DLG500_TRACK_INFO_004 = "Tablatura [preèka = midi nota]"
+DLG500_TRACK_INFO_005 = "Naèin"
+DLG500_TRACK_INFO_006 = "Oznaèi uglasitev v tablaturi"
+DLG500_TRACK_INFO_007 = "Pokaži ritmiène oznake"
+DLG500_TRACK_INFO_008 = "Vsili vodoravne preèke nad notami"
+DLG500_TRACK_INFO_009 = "Seznam akordov na vrhu"
+DLG500_TRACK_INFO_010 = "Akordi v partituri"
+DLG500_TRACK_INFO_011 = "Akordi pod standardno notacijo"
+DLG500_TRACK_INFO_012 = "Kanali"
+DLG500_TRACK_INFO_013 = "Vsili kanale 11 do 16"
+
+***************************
+* v5.0 PREFERENCES WINDOW *
+***************************
+ 
+DLG500_PREF_000
+DLG500_PREF_001 = "Zagon"
+DLG500_PREF_002 = "Prikaži zagonsko okno"
+DLG500_PREF_003 = "Samodejno odpri zadnjo datoteko"
+DLG500_PREF_004 = "Pogled"
+DLG500_PREF_005 = "Samodejni preklop na veèstezni pogled"
+DLG500_PREF_006 = "Predvajanje"
+DLG500_PREF_007 = "Predvajaj med urejanjem"
+DLG500_PREF_008 = "Vsili MIDI-predvajanje med urejanjem"
+
+*********************
+* v5.0 ORDER WINDOW *
+*********************
+
+DLG500_REG_000
+DLG500_REG_001 = "Možnost brezplaène nadgradnje na razlièice 5.x"
+DLG500_REG_002 = "Možnost posebne ponudbe za nadgradnjo na razlièico 6"
+
+**********************************
+* v5.0 REGISTER YOUR COPY WINDOW *
+**********************************
+
+DLG500_REGC_000
+DLG500_REGC_001 = "Možnost brezplaène nadgradnje na razlièice 5.x"
+DLG500_REGC_002 = "Možnost posebne ponudbe za nadgradnjo na razlièico 6"
+
+************
+* v5.0 RSE *
+************
+
+RSE500_000
+RSE500_001 = "Nalaganje RSE"
+RSE500_002 = "Nalagam %s"
+RSE500_003 = "Napaka RSE %s"
+RSE500_004 = "Ni privzete nastavitve za stezo %s"
+RSE500_005 = "RSE CPU:"
+
+********************
+* v5.0 LOOP WINDOW *
+********************
+
+DLG500_LOOP_000
+DLG500_LOOP_001 = "Predvajaj v zanki / Urjenje hitrosti"
+DLG500_LOOP_002 = "Enostavna zanka"
+DLG500_LOOP_003 = "Urjenje hitrosti"
+
+***********************************
+* v5.0 TRANSPOSE ASSISTANT WINDOW *
+***********************************
+
+DLG500_ASS_TR_000
+DLG500_ASS_TR_001 = "Obdrži prstni red, èe je mogoèe"
+
+**********************
+* v5.0 IMPORT WINDOW *
+**********************
+
+DLG500_IMPORT_000
+DLG500_IMPORT_001 = "%s uvoz"
+DLG500_IMPORT_002 = "Informacije"
+DLG500_IMPORT_003 = "Ime datoteke:"
+DLG500_IMPORT_004 = "Format datoteke:"
+DLG500_IMPORT_005 = "Naslov partiture:"
+DLG500_IMPORT_006 = "Avtor partiture:"
+DLG500_IMPORT_007 = "Razlièica:"
+DLG500_IMPORT_008 = "Napredovanje"
+DLG500_IMPORT_009 = "Rezultat"
+
+**************************
+* v5.0 PTB IMPORT WINDOW *
+**************************
+
+DLG500_PTB_IMP_000
+DLG500_PTB_IMP_001 = "Uvozi PowerTab"
+DLG500_PTB_IMP_002 = "Naèin uvoza"
+DLG500_PTB_IMP_003 = "Cela partitura"
+DLG500_PTB_IMP_004 = "Samo kitare"
+DLG500_PTB_IMP_005 = "Samo basi"
+DLG500_PTB_IMP_006 = "Možnosti"
+DLG500_PTB_IMP_007 = "Obdrži prelome"
+DLG500_PTB_IMP_008 = "Datoteke [%s] ni mogoèe najti"
+DLG500_PTB_IMP_009 = "Datoteka [%s] ni vrste PowerTab"
+DLG500_PTB_IMP_010 = "Podprte le datoteke razlièice 1.7"
+DLG500_PTB_IMP_011 = "Neveljavni podatki"
+DLG500_PTB_IMP_012 = "Napaka v uvozu elementa [%s] - neveljavna datoteka Powertab"
+DLG500_PTB_IMP_013 = "Neveljavni podatki [ReleaseType]"
+DLG500_PTB_IMP_014 = "Težave pri analizi podatkov. Datoteka je verjetno neveljavna"
+DLG500_PTB_IMP_015 = "Analiza zaglavja..."
+DLG500_PTB_IMP_016 = "Analiza kitarskih stez..."
+DLG500_PTB_IMP_017 = "Analiza basovskih stez..."
+DLG500_PTB_IMP_018 = "Analiza pisav..."
+DLG500_PTB_IMP_019 = "Analiza konèana"
+DLG500_PTB_IMP_020 = "Pretvorba zaglavja..."
+DLG500_PTB_IMP_021 = "Pretvorba kitarskih stez..."
+DLG500_PTB_IMP_022 = "Pretvorba basovskih stez..."
+DLG500_PTB_IMP_023 = "Uvoz zakljuèen"
+DLG500_PTB_IMP_024 = "Uvoz prekinjen"
+
+**************************
+* v5.0 TEF IMPORT WINDOW *
+**************************
+
+DLG500_TEF_IMP_000
+DLG500_TEF_IMP_001 = "Datoteka [%s] ni vrste TablEdit."
+DLG500_TEF_IMP_002 = "Ne morem odpreti datoteke [%s]."
+DLG500_TEF_IMP_003 = "Dostop do neobstojeèega akorda"
+DLG500_TEF_IMP_004 = "Dostop do neobstojeèega takta"
+DLG500_TEF_IMP_005 = "Število strun ne more biti %s - napaèna datoteka TablEdit"
+DLG500_TEF_IMP_006 = "Steze ustne harmonike ni bilo mogoèe uvoziti"
+DLG500_TEF_IMP_007 = "Steze harmonike ni bilo mogoèe uvoziti"
+DLG500_TEF_IMP_008 = "Pretvorba iz sinkope v triole osmink"
+DLG500_TEF_IMP_009 = "Napaka v trioli v taktu %s steze %t"
+DLG500_TEF_IMP_010 = "Napaka v trioli v taktu %s drugega glasu steze %t"
+DLG500_TEF_IMP_011 = "Ritmièna sprememba takta %s steze %t (simlacija dvojno podaljšane note)."
+DLG500_TEF_IMP_012 = "Ritmièna sprememba takta %s steze %t"
+DLG500_TEF_IMP_013 = "Ni napak"
+
+**************************
+* v5.0 XML IMPORT WINDOW *
+**************************
+
+DLG500_XML_IMP_000
+DLG500_XML_IMP_001 = "Neuspešen uvoz: doloèite PARTWISE ali TIMEWISE."
+DLG500_XML_IMP_002 = "Neveljavna datoteka XML."
+
+**************************
+* v5.0 PDF EXPORT WINDOW *
+**************************
+
+DLG500_PDF_EXP_000
+DLG500_PDF_EXP_001 = "Dokument PDF je že odprt v pregledovalniku datotek PDF. Zaprite ga pred izvozom v PDF."
+
+**************************
+* v5.0 BMP EXPORT WINDOW *
+**************************
+
+DLG500_BMP_EXP_000
+DLG500_BMP_EXP_001 = "Ne morem zapisati datoteke BMP. Izvoz v BMP prekinjen."
+DLG500_BMP_EXP_002 = "Pomanjkanje pomnilnika. Izvoz v BMP prekinjen."
+
+*********************************
+* v5.0 SEARCH ON THE WEB WINDOW *
+*********************************
+
+DLG500_TAB_WEB_000
+DLG500_TAB_WEB_001 = "Stran ni na voljo. Uporabite prvi gumb [Posodobi seznam iskalnih strani]."
+
+***************************
+*  v5.0 NEW TUNING WINDOW *
+***************************
+
+DLG500_NEWTUNE_000
+DLG500_NEWTUNE_001 = "Oznaka na partituri:"
+DLG500_NEWTUNE_002 = "Privzet instument MIDI:"
+
+****************************************
+* v5.0 CHECK DURATION ASSISTANT WINDOW *
+****************************************
+
+DLG500_ASS_CD_000
+DLG500_ASS_CD_001 = "Neveljavna dolžina takta %s - steze %s - glasu %s."
+
+****************
+* v5.0 GENERAL *
+****************
+ 
+GENE500_000
+GENE500_001 = "V demo razlièici je onemogoèen izvoz v format GP4, èe je bila datoteka spremenjena."
+GENE500_002 = "Ponovno odprite datoteko in uporabite funkcijo izvoza."
+GENE500_003 = "Datoteke Guitar Pro 4"
+GENE500_004 = "Slikovne datoteke"
+GENE500_005 = "Datoteke Wave"
+GENE500_006 = "Datoteke PDF"
+GENE500_007 = "Datoteke PowerTab"
+GENE500_008 = "Datoteke TablEdit"
+GENE500_009 = "Datoteke MusicXML"
+
+**********************
+* v5.0 MENUS & HINTS *
+**********************
+
+MN500_000
+MN500_001 = "Format Guitar Pro 4"
+MN500_002 = "Priprava strani"
+MN500_003 = "Uredi"
+MN500_004 = "Izberi vse"
+MN500_005 = "Glasovi"
+MN500_006 = "Uredi Glas 1 [Lead]"
+MN500_007 = "Uredi Glas 2 [Bass]"
+MN500_008 = "Siv neaktiven glas"
+MN500_009 = "Uèinek triole"
+MN500_010 = "Oznake okrajšav"
+MN500_011 = "Vrstica preloma"
+MN500_012 = "Vsili vrstico preloma"
+MN500_013 = "Prepreèi vrstico preloma"
+MN500_014 = "Ponovno zaženi postavitev taktov"
+MN500_015 = "Instrument"
+MN500_016 = "Premakni navzgor"
+MN500_017 = "Premakni navzol"
+MN500_018 = "Trajanje"
+MN500_019 = "Podaljšana nota"
+MN500_020 = "Vsili triole"
+MN500_021 = "Samodejne preèke"
+MN500_022 = "Vsili preèke"
+MN500_023 = "Odstrani preèke"
+MN500_024 = "Odstrani sekundarne preèke"
+MN500_025 = "Samodejna smer"
+MN500_026 = "Obrni smer"
+MN500_027 = "Moèno poudarjena nota"
+MN500_028 = "Zapri" { za WahWah }
+MN500_029 = "Odpri" { za WahWah }
+MN500_030 = "Prikaži [Wah On]" { za WahWah => do not change term [Wah On]}
+MN500_031 = "Izklop" { za WahWah }
+MN500_032 = "Predvajaj v zanki / Urjenje hitrosti"
+MN500_033 = "Uporabi RSE [Realistic Sound Engine]"
+MN500_034 = "Vrsta strani"
+MN500_035 = "Pergamentni"
+MN500_036 = "Navpièni zaslon"
+MN500_037 = "Vodoravni zaslon"
+MN500_038 = "Skrij standardno notacijo"
+MN500_039 = "Skrij tablaturo"
+MN500_040 = "Izgled"
+MN500_041 = "Trajanje zvoka"
+MN500_042 = "Notacija" {ime orodne vrstice}
+MN500_043 = "Transponiranje" {ime orodne vrstice}
+
+**************************
+* v5.0 REPEAT END WINDOW *
+**************************
+
+DLG500_REPE_000
+DLG500_REPE_001 = "Predvajaj"
+DLG500_REPE_002 = "trajanje"
+
+******************
+* v5.0 ADDTIONAL *
+******************
+
+ADD500_000
+ADD500_001 = "Predvajaj"
+ADD500_002 = "Capo"
+ADD500_003 = "Guitar Pro na spletu"
+ADD500_004 = "Izvajalec:"
+
+*************
+* v5.0 DEMO *
+*************
+
+DEMO500_000
+DEMO500_001 = "The demo version does not allow you to export into MusicXML format."
+DEMO500_002 = "What's RSE?" { instrument window }
+DEMO500_003 = "The evaluation period has ended."
+DEMO500_004 = "Saving limited to 24 bars"
+DEMO500_005 = "[Demo Version] mention on the Printing and Exports"
+DEMO500_006 = "MusicXML Export disabled"
+DEMO500_007 = "RSE [Realistic Sound Engine] disabled"
+DEMO500_008 = "The RSE [Realistic Sound Engine] offers a unique playback rendering in real time, without any special sound card or additional material."
+DEMO500_009 = "It is only available in the complete version of Guitar Pro."
+DEMO500_010 = "Sample using Standard MIDI Playback"
+DEMO500_011 = "Sample using RSE Playback"
+DEMO500_012 = "Click here" { clickable part of the sentence }
+DEMO500_013 = "to listen to more RSE Samples" { end of the sentence }
+
+**********************
+* v5.1 MENUS & HINTS *
+*********************
+
+MN510_000
+MN510_001 = "Spremeni predznak"
+MN510_002 = "Nastavitve zvoka (MIDI/RSE)"
+
+********************************
+* v5.1 WAVE EXPORTATION WINDOW *
+********************************
+ 
+DLG510_EXPWAV_000
+DLG510_EXPWAV_001 = "Informacije"
+DLG510_EXPWAV_002 = "Kakovost:"
+DLG510_EXPWAV_003 = "Pomoè:"
+DLG510_EXPWAV_004 = "- Preprièajte se, èe je vrstica [Stereo Mix] vkljuèena"
+DLG510_EXPWAV_005 = "- Preprièajte se, èe nivo ni prenizek"
+DLG510_EXPWAV_006 = "Kliknite na sliko za zagon Windows Record Mixtable."
+
+*********************
+* v5.1 DEBUG WINDOW *
+*********************
+ 
+DLG510_DEBUG_000
+DLG510_DEBUG_001 = "Debug"
+DLG510_DEBUG_002 = "prijavite se v podporo za Guitar Pro"
+DLG510_DEBUG_003 = "Zapri Guitar Pro"
+DLG510_DEBUG_004 = "Nadaljuj delo z Guitar Pro"
+DLG510_DEBUG_005 = "KRITIÈNA NAPAKA"
+DLG510_DEBUG_006 = "ÈE ŽELITE KONTAKTIRATI PODPORO ZA GUITAR PRO,"
+DLG510_DEBUG_007 = "PROSIM KLIKNITE SPODNJI GUMB IN PRILEPITE"
+DLG510_DEBUG_008 = "TO POROÈILO V SVOJE SPOROÈILO [CTRL+V]."
+DLG510_DEBUG_009 = "PRIPNETE LAHKO TUDI DATOTEKO GUITAR PRO, S KATERO DELATE"
+DLG510_DEBUG_010 = "IN OPIŠETE ZADNJE DEJAVNOSTI (v anglešèini ali francošèini)."
+
+***************************
+* v5.1 INSTRUMENTS WINDOW *
+***************************
+ 
+DLG510_INSTR_000
+DLG510_INSTR_001 = "Nastavi kot privzeto"
+DLG510_INSTR_002 = "MIDI inštrument [%t] bo privzeto vplival na zvok [%s]. Potrdi?"
+DLG510_INSTR_003 = "Samodejno"
+DLG510_INSTR_004 = "Auto-Let Ring"
+DLG510_INSTR_005 = "Auto-Brush"
+DLG510_INSTR_006 = "3-stezni izenaèevalnik"
+DLG510_INSTR_007 = "Low" 
+DLG510_INSTR_008 = "Mid"
+DLG510_INSTR_009 = "High" 
+DLG510_INSTR_010 = "PRE" { means "PRE-AMP" }
+
+**************************
+* v5.1 MIDI SETUP WINDOW *
+**************************
+
+DLG510_MIDISETUP_000
+DLG510_MIDISETUP_001 = "Nastavitve zvoka"
+DLG510_MIDISETUP_002 = "Nastavitve RSE"
+DLG510_MIDISETUP_003 = "Izhod"
+DLG510_MIDISETUP_004 = "Zvok"
+DLG510_MIDISETUP_005 = "Zvoèna kartica"
+DLG510_MIDISETUP_006 = "DSP/VST pomnilniki"
+DLG510_MIDISETUP_007 = "Velikos predpomnilnika (v vzorcu)"
+DLG510_MIDISETUP_008 = "Število prepomnilnikov"
+DLG510_MIDISETUP_009 = "Format"
+DLG510_MIDISETUP_010 = "Frekvenca"
+DLG510_MIDISETUP_011 = "Kanali"
+DLG510_MIDISETUP_012 = "Loèljivost"
+DLG510_MIDISETUP_013 = "Metoda vzorèenja"
+DLG510_MIDISETUP_014 = "Navidezni zvoki"
+DLG510_MIDISETUP_015 = "Latenca"
+DLG510_MIDISETUP_016 = "Privzeto"
+DLG510_MIDISETUP_017 = "Mono"
+DLG510_MIDISETUP_018 = "Stereo"
+DLG510_MIDISETUP_019 = "Brez Interpolacije"
+DLG510_MIDISETUP_020 = "Linearna Interpolacija"
+DLG510_MIDISETUP_021 = "Kubièna Interpolacija"
+DLG510_MIDISETUP_022 = "5 toèkovna Interpolacija (Spline)"
+
+**************************
+* v5.1 SCORE INFO WINDOW *
+**************************
+ 
+DLG510_SCORE_INFO_000
+DLG510_SCORE_INFO_001 = "Levo"
+DLG510_SCORE_INFO_002 = "Spekter"
+DLG510_SCORE_INFO_003 = "Desno"
+DLG510_SCORE_INFO_004 = "Skupna glasnost"
+DLG510_SCORE_INFO_005 = "Skupni Reverb"
+DLG510_SCORE_INFO_006 = "10-stezni glavni izenaèevalnik"
+DLG510_SCORE_INFO_007 = "Predojaèevalnik" { means "PRE-AMP" }
+DLG510_SCORE_INFO_008 = "- brez izenaèevalnika -"
+
+**************************
+* v5.1 TRACK INFO WINDOW *
+**************************
+ 
+DLG510_TRACK_INFO_000
+DLG510_TRACK_INFO_001 = "Razširi ritmiko znotraj tablature"
+
+*********************************
+* v5.1 SEARCH ON THE WEB WINDOW *
+*********************************
+ 
+DLG510_SEARCHONWEB_000
+DLG510_SEARCHONWEB_001 = "v naslovu pesmi"
+DLG510_SEARCHONWEB_002 = "v naslovu avtorja"
+
+*********************
+* v5.1 TEMPO WINDOW *
+*********************
+ 
+DLG510_TEMPO_000
+DLG510_TEMPO_001 = "Skrij"
+
+*********************************************
+* v5.1 MAC MAIN TOOLBAR TEXTS UNDER BUTTONS *
+*********************************************
+
+MAC510_MAINTOOLBAR_000
+MAC510_MAINTOOLBAR_001 = "Nov"
+MAC510_MAINTOOLBAR_002 = "Odpri"
+MAC510_MAINTOOLBAR_003 = "Info"
+MAC510_MAINTOOLBAR_004 = "Nastavitev strani"
+MAC510_MAINTOOLBAR_005 = "Natisni"
+MAC510_MAINTOOLBAR_006 = "Razveljavi"
+MAC510_MAINTOOLBAR_007 = "uveljavi"
+MAC510_MAINTOOLBAR_008 = "Izreži"
+MAC510_MAINTOOLBAR_009 = "Kopiraj"
+MAC510_MAINTOOLBAR_010 = "Prilepi"
+MAC510_MAINTOOLBAR_011 = "Lastnosti steze"
+MAC510_MAINTOOLBAR_012 = "Inštrument"
+MAC510_MAINTOOLBAR_013 = "Nastavitve"
+MAC510_MAINTOOLBAR_014 = "Play"
+MAC510_MAINTOOLBAR_015 = "Stop"
+MAC510_MAINTOOLBAR_016 = "Prvi takt"
+MAC510_MAINTOOLBAR_017 = "Prejšnji takt"
+MAC510_MAINTOOLBAR_018 = "Naslednji takt"
+MAC510_MAINTOOLBAR_019 = "Zadnji takt"
+
+*************************
+* v5.1 MAC ALERT PANELS *
+*************************
+
+MAC510_ALERTPANEL_000
+MAC510_ALERTPANEL_001 = "Ali želite shraniti spremembe v dokumentu?"
+MAC510_ALERTPANEL_002 = "Spremembe bodo izgubljene, èe jih ne shranite."
+MAC510_ALERTPANEL_003 = "Ne shrani"
+MAC510_ALERTPANEL_004 = "Preklièi"
+MAC510_ALERTPANEL_005 = "Shrani"
+MAC510_ALERTPANEL_006 = "Ne najdem preobleke"
+
+****************************
+* v5.1 MAC GUITAR PRO MENU *
+****************************
+
+MAC510_GUITARPROMENU_000
+MAC510_GUITARPROMENU_001 = "O Guitar Pro"
+MAC510_GUITARPROMENU_002 = "Skrij Guitar Pro"
+MAC510_GUITARPROMENU_003 = "Skrij drugo"
+MAC510_GUITARPROMENU_004 = "Pokaži vse"
+MAC510_GUITARPROMENU_005 = "Zapri Guitar Pro"
+
+**********************
+* v5.1 MAC FILE MENU *
+**********************
+
+MAC510_FILEMENU_000
+MAC510_FILEMENU_001 = "Odpri nedavne"
+MAC510_FILEMENU_002 = "Poèisti meni"
+MAC510_FILEMENU_003 = "Zapri"
+MAC510_FILEMENU_004 = "Nastavitve tiskalnika..."
+
+***********************
+* v5.1 MAC SOUND MENU *
+***********************
+
+MAC510_SOUNDMENU_000
+MAC510_SOUNDMENU_001 = "Nastavitve RSE..."
+MAC510_SOUNDMENU_002 = "Tempo = "
+
+************************
+* v5.1 MAC WINDOW MENU *
+************************
+
+MAC510_WINDOWMENU_000
+MAC510_WINDOWMENU_001 = "Okno"
+MAC510_WINDOWMENU_002 = "Minimiraj"
+MAC510_WINDOWMENU_003 = "Poveèaj"
+MAC510_WINDOWMENU_004 = "Okno orodij"
+MAC510_WINDOWMENU_005 = "Predvajaj"
+MAC510_WINDOWMENU_006 = "Steze"
+MAC510_WINDOWMENU_007 = "Predal"
+MAC510_WINDOWMENU_008 = "Prilagodi orodno vrstico..."
+MAC510_WINDOWMENU_009 = "Prenesi vse naprej"
+
+**********************
+* v5.1 MAC HELP MENU *
+**********************
+
+MAC510_HELPMENU_000
+MAC510_HELPMENU_001 = "Guitar Pro pomoè"

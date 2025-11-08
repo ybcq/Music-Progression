@@ -1,0 +1,115 @@
+﻿<html>
+	
+<head>
+	<title>Overture Terms</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("OvertureTerms");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Overture Terms</h1>
+				
+				</div>
+			<div id="topic_header_nav">
+				<a href="WhatsNewinOverture5.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="OfflineActivation.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<p class="rvps2"><span class="rvts6">Overture uses terms common to both standard musical notation and MIDI sequencing. Overture requires this mix of terminology because of its immense power to both notate and play a musical score. You must know these terms before proceeding with the remaining chapters in this manual.</span></p>
+<h4 class="rvps8"><span class="rvts0"><span class="rvts18">Control Bar</span></span></h4>
+<p class="rvps2"><span class="rvts6">Overture</span><span class="rvts6"> uses a control bar located at the top of the main window to open and close panel, vies, and some global settings.</span></p>
+<h4 class="rvps8"><span class="rvts0"><span class="rvts18">Panel</span></span></h4>
+<p class="rvps2"><span class="rvts6">A panel is a section located on the left or right side of the main window containing tools and settings.</span></p>
+<h4 class="rvps8"><span class="rvts0"><span class="rvts18">Tool</span></span></h4>
+<p class="rvps2"><span class="rvts6">Tools allow you to perform very specific Overture functions. Different tools allow you to insert notes and other symbols, to group various notes, to add staves, alter note heads, create lyrics, and to perform many other useful tasks. You use Overture's Symbol panel to access individual tools.</span></p>
+<h4 class="rvps8"><span class="rvts0"><span class="rvts18">Symbol</span></span></h4>
+<p class="rvps2"><span class="rvts6">This term is applied loosely to any note, rest, beam, tie, ornament, etc. included in a musical score.</span></p>
+<h4 class="rvps8"><span class="rvts0"><span class="rvts18">Staff</span></span></h4>
+<p class="rvps2"><span class="rvts6">A staff is a set of horizontal lines on which symbols are placed to represent music.</span></p>
+<p class="rvps2"><span class="rvts6">Most musical instruments require only a single staff to notate their lines.</span></p>
+<p class="rvps2"><span class="rvts6">Harps and most keyboard instruments (such as piano or harpsichord) use two staves (called a grand staff)</span></p>
+<p class="rvps2"><span class="rvts6">Organs often use three staves (adding the third for the bass pedals).</span></p>
+<h4 class="rvps8"><span class="rvts0"><span class="rvts18">Track</span></span></h4>
+<p class="rvps2"><span class="rvts6">A track is very related to a musical staff; staves notate the MIDI data contained in tracks.</span></p>
+<h4 class="rvps8"><span class="rvts0"><span class="rvts18">Voice</span></span></h4>
+<p class="rvps2"><span class="rvts6">A voice is a single melodic or rhythmic line within a track. Some tracks require more than one voice to notate and playback correctly. Specifically: </span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li style="margin-left: 0px" class="rvps4"><span class="rvts6">If you notate more than one instrument per staff, you'll need to use multiple voices to distinguish between the multiple instruments.</span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts6">If you notate a polyphonic instrument (such as a piano) that plays different melodic and rhythmic lines simultaneously, you'll need to use multiple voices to distinguish between the multiple rhythmic lines. </span></li>
+</ul>
+<p class="rvps2"><span class="rvts6">If you score an instrument such that it plays only a single melodic line, you'll need to assign only one voice to the staff.</span></p>
+<p class="rvps2"><span class="rvts6">If you assign two or more instruments to a single staff (or notate a polyphonic instrument playing different melodic or rhythmic lines), you'll need to assign different voices to each instrument or melodic or rhythmic line.</span></p>
+<p class="rvps2"><span class="rvts6">Overture allows you to assign up to eight voices to a single track. This supports even the most complicated melodic or rhythmic intricacies.</span></p>
+<h4 class="rvps8"><span class="rvts0"><span class="rvts18">System</span></span></h4>
+<p class="rvps2"><span class="rvts6">A system is a group of staves, each of which is played at the same time as all the other staves in the system. All staves in a system are joined by a single vertical line connecting their left sides.</span></p>
+<h4 class="rvps8"><span class="rvts0"><span class="rvts18">Palette</span></span></h4>
+<p class="rvps2"><span class="rvts6">Palettes contain groups of related tools. For instance, the Dynamics palette contains all the individual dynamics tools (such as the Pianissimo Tool, Mezzo Forte Tool, Forte Tools, etc.).</span></p>
+<h4 class="rvps8"><span class="rvts0"><span class="rvts18">Numerical</span></span></h4>
+<p class="rvps2"><span class="rvts6">Numericals are variables that you can edit on the screen. Numericals usually contain numeric data.</span></p>
+<p class="rvps2"><span class="rvts6">There are a couple ways to edit the value of a numerical: </span></p>
+<ul style="text-indent: 0px; margin-left: 48px; list-style-position: outside; list-style-type: disc;">
+<li style="margin-left: 0px" class="rvps4"><span class="rvts6">Use the mouse as a slider</span><br/><span class="rvts6">To change a numerical in this way, press and hold the mouse button over the numerical, then drag the mouse in a vertical direction. Pushing the mouse away from you increases values; pulling it toward you decreases values </span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts6">Type to set values</span><br/><span class="rvts6">Click the numerical, then type the desired value. The numerical changes to reflect the new value. You can not enter invalid values</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

@@ -1,0 +1,162 @@
+<VSTNameDocument>
+	<Version>1</Version>
+	<Author>GenieSoft,Inc.</Author>
+
+	<Device name="ComboSister" usesPatchNames="1" firstPatchNumber="0"> 
+
+		<ControllerNames>				
+ 			<Controller name="User Defined" cc="0"/>
+			<Controller name="Volume" cc="7"/>
+			<Controller name="Panning" cc="10"/>
+		</ControllerNames>
+ 		
+		<Instruments>
+			<Section name="Default Presets" title="Organ" abbr="Org." lownote="c-1" highnote="c9" clef="treble">
+			<Group name="Presets 1-20" title="Organ" abbr="Org." lownote="c-1" highnote="c9" clef="treble">					
+				<Instrument name="Default" prgChg="1"/>
+				<Instrument name="Pop" prgChg="2"/>
+				<Instrument name="Rocker"  prgChg="3"/>
+				<Instrument name="Fast Cheese" prgChg="4"/>
+				<Instrument name="Boogie"  prgChg="5"/>
+				<Instrument name="Sweet Sugar"  prgChg="6"/>
+				<Instrument name="Cheesy Lead"  prgChg="7"/>
+				<Instrument name="Fuzz Key" prgChg="8"/>
+				<Instrument name="Velo Key" prgChg="9"/>
+				<Instrument name="Pretty Combo" prgChg="10"/>
+				<Instrument name="Ethereal Combo" prgChg="11"/>
+				<Instrument name="Old or Vintage" prgChg="12"/>
+				<Instrument name="Bass Player" prgChg="13"/>
+				<Instrument name="Church Rock" prgChg="14"/>
+				<Instrument name="Pipe of Electro" prgChg="15"/>
+				<Instrument name="Pun" prgChg="16"/>
+				<Instrument name="Bright Chords" prgChg="17"/>
+				<Instrument name="Eastern Combo" prgChg="18"/>
+				<Instrument name="Hollow Mood" prgChg="19"/>
+				<Instrument name="Crazy Cheese" prgChg="20"/>
+			</Group>
+			<Group name="Presets 21-40" title="Organ" abbr="Org." lownote="c-1" highnote="c9" clef="treble">
+				<Instrument name="Top Ranks"  prgChg="21"/>
+				<Instrument name="Expressive" prgChg="22"/>
+				<Instrument name="Formaggio" prgChg="23"/>
+				<Instrument name="Shimmer" prgChg="24"/>
+				<Instrument name="Funky" prgChg="25"/>
+				<Instrument name="Toy Box" prgChg="26"/>
+				<Instrument name="Horror"  prgChg="27"/>
+				<Instrument name="Old Jazz" prgChg="28"/>
+				<Instrument name="Strings"  prgChg="29"/>
+				<Instrument name="Glass"  prgChg="30"/>
+				<Instrument name="A Little Bit Me"  prgChg="31"/>
+				<Instrument name="Baladeer" prgChg="32"/>
+				<Instrument name="Believer" prgChg="33"/>
+				<Instrument name="Club" prgChg="34"/>
+				<Instrument name="Cool" prgChg="35"/>
+				<Instrument name="Deep Reed" prgChg="36"/>
+				<Instrument name="Doors-a-like" prgChg="37"/>
+				<Instrument name="Fareed" prgChg="38"/>
+				<Instrument name="Gogo" prgChg="39"/>
+				<Instrument name="Mary Jo" prgChg="40"/>
+			</Group>
+			<Group name="Presets 41-60" title="Organ" abbr="Org." lownote="c-1" highnote="c9" clef="treble">
+				<Instrument name="OldRaver" prgChg="41"/>
+				<Instrument name="Plane" prgChg="42"/>
+				<Instrument name="Pump It Up" prgChg="43"/>
+				<Instrument name="Suspension" prgChg="44"/>
+				<Instrument name="Night Movies"  prgChg="45"/>
+				<Instrument name="Bad Movie" prgChg="46"/>
+				<Instrument name="Chrystal Organ" prgChg="47"/>
+				<Instrument name="Romance" prgChg="48"/>
+				<Instrument name="Vibrato" prgChg="49"/>
+				<Instrument name="Leslie Like" prgChg="50"/>
+				<Instrument name="Garage Rock"  prgChg="51"/>
+				<Instrument name="High Life" prgChg="52"/>
+				<Instrument name="Full Register"  prgChg="53"/>
+				<Instrument name="Plain Register"  prgChg="54"/>
+				<Instrument name="Jazz Club"  prgChg="55"/>
+				<Instrument name="Fast Attack" prgChg="56"/>
+				<Instrument name="Flute Organ" prgChg="57"/>
+				<Instrument name="La Percussion" prgChg="58"/>
+				<Instrument name="Arp Strings" prgChg="59"/>
+				<Instrument name="Old 70s" prgChg="60"/>
+			</Group>
+			<Group name="Presets 61-80" title="Organ" abbr="Org." lownote="c-1" highnote="c9" clef="treble">
+				<Instrument name="Le Organ" prgChg="61"/>
+				<Instrument name="Vintage Riff" prgChg="62"/>
+				<Instrument name="Bells" prgChg="63"/>
+				<Instrument name="Arp Strings 2" prgChg="64"/>
+				<Instrument name="Clean B" prgChg="65"/>
+				<Instrument name="B3 Like" prgChg="66"/>
+				<Instrument name="Low Boost" prgChg="67"/>
+				<Instrument name="Fast Arp" prgChg="68"/>
+				<Instrument name="Pink Organ"  prgChg="69"/>
+				<Instrument name="Low Boost" prgChg="70"/>
+				<Instrument name="Jumping Jazz" prgChg="71"/>
+				<Instrument name="Clean B Emu" prgChg="72"/>
+				<Instrument name="Palmer B3" prgChg="73"/>
+				<Instrument name="Red Reed" prgChg="74"/>
+				<Instrument name="B Organ Percussion" prgChg="75"/>
+				<Instrument name="Low B" prgChg="76"/>
+				<Instrument name="Mike Reeds" prgChg="77"/>
+				<Instrument name="Classic Percussion" prgChg="78"/>
+				<Instrument name="ARP Saws"  prgChg="79"/>
+				<Instrument name="ARP Chords" prgChg="80"/>
+			</Group>
+			<Group name="Presets 81-100" title="Organ" abbr="Org." lownote="c-1" highnote="c9" clef="treble">
+				<Instrument name="Vibrato ARP" prgChg="81"/>
+				<Instrument name="Vibrato Omni" prgChg="82"/>
+				<Instrument name="Sunday Church" prgChg="83"/>
+				<Instrument name="Percussion 42" prgChg="84"/>
+				<Instrument name="ARP Omni Reeds"  prgChg="85"/>
+				<Instrument name="Saw Strings" prgChg="86"/>
+				<Instrument name="Pink Action"  prgChg="87"/>
+				<Instrument name="Second Attack"  prgChg="88"/>
+				<Instrument name="Celebration"  prgChg="89"/>
+				<Instrument name="Gaitas" prgChg="90"/>
+				<Instrument name="Soft Reed" prgChg="91"/>
+				<Instrument name="Distortion Band" prgChg="92"/>
+				<Instrument name="Smoth Leslie" prgChg="93"/>
+				<Instrument name="Another Organ" prgChg="94"/>
+				<Instrument name="Happy Times" prgChg="95"/>
+				<Instrument name="Vibrato Waves" prgChg="96"/>
+				<Instrument name="A Boosted Sound" prgChg="97"/>
+				<Instrument name="Percussion Bell" prgChg="98"/>
+				<Instrument name="Boost It" prgChg="99"/>
+				<Instrument name="Fast Saws" prgChg="100"/>
+			</Group>
+			<Group name="Presets 101-127" title="Organ" abbr="Org." lownote="c-1" highnote="c9" clef="treble">
+				<Instrument name="Bad Keys" prgChg="101"/>
+				<Instrument name="Low Noises" prgChg="102"/>
+				<Instrument name="Sub B3"  prgChg="103"/>
+				<Instrument name="Another B3 Bell" prgChg="104"/>
+				<Instrument name="In Perc" prgChg="105"/>
+				<Instrument name="Percussion Saws 42" prgChg="106"/>
+				<Instrument name="Mid Percussion 48" prgChg="107"/>
+				<Instrument name="The Mid Ranges" prgChg="108"/>
+				<Instrument name="The Higher Ranges"  prgChg="109"/>
+				<Instrument name="The All Ranges" prgChg="110"/>
+				<Instrument name="The Leslie Action"  prgChg="111"/>
+				<Instrument name="Circular Square"  prgChg="112"/>
+				<Instrument name="Hyper Organ"  prgChg="113"/>
+				<Instrument name="Ultra Low Action" prgChg="114"/>
+				<Instrument name="Sustain This" prgChg="115"/>
+				<Instrument name="Jazzy Jazz" prgChg="116"/>
+				<Instrument name="Not Pure" prgChg="117"/>
+				<Instrument name="Vibrato 82" prgChg="118"/>
+				<Instrument name="Percussion 82" prgChg="119"/>
+				<Instrument name="Two Hundred" prgChg="120"/>
+				<Instrument name="Strings 82" prgChg="121"/>
+				<Instrument name="Das Bell 82" prgChg="122"/>
+				<Instrument name="Try Another Time" prgChg="123"/>
+				<Instrument name="Bad Keys 84" prgChg="124"/>
+				<Instrument name="Strings 92" prgChg="125"/>
+				<Instrument name="Reed Flute and Soft" prgChg="126"/>
+				<Instrument name="Soft Organ 96"  prgChg="127"/>
+			</Group>
+			</Section>
+			
+			<Section name="User Presets" clef="treble">
+			</Section>
+		
+		</Instruments>
+	</Device>
+
+</VSTNameDocument>

@@ -1,0 +1,2172 @@
+GUITAR PRO 5.1 TRANSLATION FILE
+
+### PATCH CONFIGURATION ###
+AUTHOR NAMES = "Peer Juel Rasmussen, Heine Svendsen"
+AUTHOR E-MAIL = "gp@indigo2.dk"
+VERSION = "5.1"
+AUTOMATIC SHORTCUTS
+ENCODING = "WindowsLatin1"
+###########################
+
+You can use this file to create your own translation file for Guitar Pro.
+To do it, translate ONLY the words between the symbols " ". DON'T CHANGE
+ANYTHING ELSE. Note that the symbols %s, %t... are used to indicate a dynamic value,
+which will be attribuated at running, so do not change it.
+
+The words between the symbols { } are some indications to help you to
+understand the context, don't change it.
+
+After having changing the translations, save the file under your language
+name with the extension .gpl (ie "English.gpl"). Place it in the
+Guitar Pro directory, restart Guitar Pro and you'll have the new language
+proposed in the menu OPTIONS | LANGUAGE.
+
+Don't hesitate to send us your translation files, we'll add them on the site
+for other users.
+
+***********
+* DIALOGS *
+***********
+
+DLG_000
+DLG_001 = "OK"
+DLG_002 = "Annuller"
+DLG_003 = "Ja"
+DLG_004 = "Nej"
+DLG_005 = "Hjælp"
+DLG_006 = "Ryd"
+DLG_007 = "Luk"
+DLG_008 = "Information"
+DLG_009 = "Bekræftelse"
+DLG_010 = "Advarsel"
+DLG_011 = "Advarsel"
+DLG_012 = "Fejl"
+DLG_013 = "Forkert indtastning."
+
+***********
+* GENERAL *
+***********
+
+GENE_000
+GENE_001 = "version"
+GENE_002 = "Alle rettigheder forbeholdes"
+GENE_003 = "Ugyldig licens."
+GENE_004 = "Guitar Pro - Prøve version"
+GENE_005 = "Prøve version af Guitar Pro begrænset til 24 takter."
+GENE_006 = "Hvis du kan lide Guitar Pro, registrer venligst."
+GENE_007 = "Spor"
+GENE_008 = "Percussion"
+GENE_009 = "Komplet takt"
+GENE_010 = "Ukomplet takt"
+GENE_011 = "Takt overskredet"
+GENE_012 = "UREGISTRERET BRUGER"
+
+*****************
+* MENUS & HINTS *
+*****************
+
+MN_000
+MN_001 = "Fil"
+MN_002 = "Ny"
+MN_003 = "Åbn"
+MN_004 = "Browser"
+MN_005 = "Gem"
+MN_006 = "Gem som"
+MN_007 = "Egenskaber"
+MN_008 = "Indstillinger"
+MN_009 = "Import"
+MN_010 = "Export"
+MN_011 = "MIDI"
+MN_012 = "ASCII Tab"
+MN_013 = "Udskriv"
+MN_014 = "Vis udskrift"
+MN_015 = "Indstil Printer"
+MN_016 = "Afslut"
+MN_017 = "Redigér"
+MN_018 = "Klip"
+MN_019 = "Kopier"
+MN_020 = "Sæt ind"
+MN_021 = "Indsæt"
+MN_022 = "Ryd"
+MN_023 = "Mix table"
+MN_024 = "Spor"
+MN_025 = "Takt"
+MN_026 = "Første"
+MN_027 = "Første takt"
+MN_028 = "Foregående"
+MN_029 = "Foregående takt"
+MN_030 = "Gå til"
+MN_031 = "Gå til takt"
+MN_032 = "Næste"
+MN_033 = "Næste takt"
+MN_034 = "Sidste"
+MN_035 = "Sidste takt"
+MN_036 = "Taktart"
+MN_037 = "Taktens taktart"
+MN_038 = "Gentag åbn"
+MN_039 = "Gentag lukket"
+MN_040 = "Alternativ slutning"
+MN_041 = "Node"
+MN_042 = "Helnode"
+MN_043 = "Halvnode"
+MN_044 = "Fjerdedelsnode"
+MN_045 = "Ottendedelsnode"
+MN_046 = "Sekstendedelsnode"
+MN_047 = "Toogtredivtedelsnode"
+MN_048 = "Fireogtresindstyvendedelsnode"
+MN_049 = "Punkteret"
+MN_050 = "Akkord"
+MN_051 = "Tekst"
+MN_052 = "Død node"
+MN_053 = "Pause"
+MN_054 = "Triol"
+MN_055 = "Overbinding med foregående takt"
+MN_056 = "Indsæt et taktslag"
+MN_057 = "Slet taktslag"
+MN_058 = "Kopier takt/triol i slutningen"
+MN_059 = "Flyt op"
+MN_060 = "Flyt noden opad"
+MN_061 = "Flyt ned"
+MN_062 = "Flyt noden nedad"
+MN_063 = "Effekter"
+MN_064 = "Hammer on"
+MN_065 = "Pull off"
+MN_066 = "Slide up"
+MN_067 = "Slide down"
+MN_068 = "Bend"
+MN_069 = "Bend && Release"
+MN_070 = "Lad klinge"
+MN_071 = "Forslag/forsiring"
+MN_072 = "Spøgelsesnode"
+MN_073 = "Vibrato"
+MN_074 = "Whammy takt"
+MN_075 = "Dive og returnér med Whammy takt"
+MN_076 = "Naturlig overtone"
+MN_077 = "Kunstig overtone"
+MN_078 = "Fade In"
+MN_079 = "Tapping"
+MN_080 = "Slapping (Bass)"
+MN_081 = "Popping (Bass)"
+MN_082 = "Opadgående anslag"
+MN_083 = "Nedadgående anslag"
+MN_084 = "Dynamik"
+MN_085 = "Assistenter"
+MN_086 = "Transponér"
+MN_087 = "Arrangér takt"
+MN_088 = "Færdiggør/reducér ufuldendte takter"
+MN_089 = "Automatisk finger placering"
+MN_090 = "Klang muligheder"
+MN_091 = "Check takt varighed"
+MN_092 = "Standard notation"
+MN_093 = "Percussion"
+MN_094 = "Hastigheds træner"
+MN_095 = "Lyd"
+MN_096 = "Afspil fra begyndelsen"
+MN_097 = "Afspil fra begyndelsen (Ctrl+Space)"
+MN_098 = "Afspil fra aktuelle takt"
+MN_099 = "Afspil fra aktuelle Takt (Space)"
+MN_100 = "Afspil den aktuelle Takt"
+MN_101 = "Afspil den aktuelle Takt (Maj+Ctrl+Space)"
+MN_102 = "Stop"
+MN_103 = "Stop (Space)"
+MN_104 = "Spil Loop"
+MN_105 = "Metronom"
+MN_106 = "Afspilning under editering"
+MN_107 = "View"
+MN_108 = "Skjul editeringsvinduet"
+MN_109 = "Vis 'klang' noder"
+MN_110 = "Vis 'dynamiske' noder"
+MN_111 = "Sprog"
+MN_112 = "Hjælpe sprog"
+MN_113 = "Hjælp"
+MN_114 = "Indeks"
+MN_115 = "Bestil Guitar Pro!"
+MN_116 = "Registrer din kopi!"
+MN_117 = "Om"
+
+*********************
+* PROPERTIES WINDOW *
+*********************
+
+DLG_PROP_000
+DLG_PROP_001 = "Egenskaber for melodien"
+DLG_PROP_002 = "Titel"
+DLG_PROP_003 = "Forfatter"
+DLG_PROP_004 = "Kommentar"
+DLG_PROP_005 = "Tempo"
+DLG_PROP_006 = "Shuffle rytme:"
+DLG_PROP_007 = "Navnet på sporet"
+DLG_PROP_008 = "Instrument"
+DLG_PROP_009 = "Instrument liste"
+DLG_PROP_010 = "Gemte tuninger"
+DLG_PROP_011 = "Strenge"
+DLG_PROP_012 = "Tuning"
+DLG_PROP_013 = "Bånd"
+DLG_PROP_014 = "Solo"
+DLG_PROP_015 = "Mute spor"
+DLG_PROP_016 = "Exportér ikke"
+DLG_PROP_017 = "Simulér 12 strenget guitar"
+DLG_PROP_018 = "Lydstyrke"
+DLG_PROP_019 = "Pan"
+DLG_PROP_020 = "Chorus"
+DLG_PROP_021 = "Reverb"
+DLG_PROP_022 = "Spor reserveret til percussion"
+DLG_PROP_023 = "Brug node 27 til 87"
+DLG_PROP_024 = "på tabulaturlinjerne."
+DLG_PROP_025 = "Én eller flere noder i takt %s kan ikke placeres på %s strenge."
+
+***************************
+* MIDI IMPORTATION WINDOW *
+***************************
+
+DLG_IMPM_000
+DLG_IMPM_001 = "MIDI import"
+DLG_IMPM_002 = "Vælg spor til import:"
+DLG_IMPM_003 = "Fravælg sporet"
+DLG_IMPM_004 = "Transponér til underliggende oktav"
+DLG_IMPM_005 = "Kvantisering:"
+DLG_IMPM_006 = "Advarsel: et importeret percussion spor" { end at 007 }
+DLG_IMPM_007 = "kan kun skrives i spor 8/kanal 10."
+DLG_IMPM_008 = "Prøve version af Guitar Pro begrænset til 50 noders import."
+DLG_IMPM_009 = "Hvis du kan lide Guitar Pro, register venligst."
+DLG_IMPM_010 = "Søg spor..."
+DLG_IMPM_011 = "uspecificeret"
+DLG_IMPM_012 = "Læser spor..."
+DLG_IMPM_013 = "Opretter melodi..."
+DLG_IMPM_014 = "Optimimerer finger positioner..."
+DLG_IMPM_015 = "MIDI format ikke genkendt."
+
+***************************
+* MIDI EXPORTATION WINDOW *
+***************************
+
+DLG_EXPM_000
+DLG_EXPM_001 = "MIDI export"
+DLG_EXPM_002 = "Umuligt at skrive filen. Ikke gemt."
+
+****************************
+* ASCII IMPORTATION WINDOW *
+****************************
+
+DLG_IMPA_000
+DLG_IMPA_001 = "ASCII Tab import"
+DLG_IMPA_002 = "Umuligt at få adgang til filen. Import annuleret."
+DLG_IMPA_003 = "Import"
+DLG_IMPA_004 = "Åbn"
+DLG_IMPA_005 = "Udskriv"
+DLG_IMPA_006 = "Importér med:"
+DLG_IMPA_007 = "Bemærk: Import lavet til det aktive spor"
+DLG_IMPA_008 = "Prøve version af Guitar Pro begrænset til 50 noders import."
+DLG_IMPA_009 = "Hvis du kan lide Guitar Pro, register venligst."
+DLG_IMPA_010 = "<variabel>"
+DLG_IMPA_011 = "halvnoder"
+DLG_IMPA_012 = "fjerdedelsnoder"
+DLG_IMPA_013 = "ottendedelsnoder"
+DLG_IMPA_014 = "sektendedelsnoder"
+
+****************************
+* ASCII EXPORTATION WINDOW *
+****************************
+
+DLG_EXPA_000
+DLG_EXPA_001 = "ASCII Tab export"
+DLG_EXPA_002 = "Export"
+DLG_EXPA_003 = "Udskriv"
+DLG_EXPA_004 = "Kolonner:"
+DLG_EXPA_005 = "Opdatér melodi"
+DLG_EXPA_006 = "Rytme"
+DLG_EXPA_007 = "Umuligt at skrive filen. Export annuleret."
+
+**********************
+* PREFERENCES WINDOW *
+**********************
+
+DLG_PREF_000
+DLG_PREF_001 = "Indstillinger"
+DLG_PREF_002 = "Generelt"
+DLG_PREF_003 = "Opstarts musik"
+DLG_PREF_004 = "Ingenting"
+DLG_PREF_005 = "Vælg en WAVE fil"
+DLG_PREF_006 = "Wave fil"
+DLG_PREF_007 = "Scroll mode under afspilning"
+DLG_PREF_008 = "Skærm for skærm"
+DLG_PREF_009 = "nodesystem for nodesystem"
+DLG_PREF_010 = "Metronom"
+DLG_PREF_011 = "Lydstyrke"
+DLG_PREF_012 = "Under melodien"
+DLG_PREF_013 = "Indtælling"
+DLG_PREF_014 = "Betoning af første taktslag"
+DLG_PREF_015 = "Brug altid metronom indtælling med Hastigheds Træner"
+DLG_PREF_016 = "Afspil"
+DLG_PREF_017 = "Export (MIDI)"
+DLG_PREF_018 = "Effekter"
+DLG_PREF_019 = "Gentagelser"
+DLG_PREF_020 = "Lydkort"
+DLG_PREF_021 = "Begræns bending til 1 tone"
+DLG_PREF_022 = "Brug denne funktion hvis bend effekten lyder forkert."
+DLG_PREF_023 = "Akkord genkendelse"
+DLG_PREF_024 = "Tilføj altid bas noden til akkord-navnet, hvis den er forskelligt fra roden"
+DLG_PREF_025 = "Normal"
+DLG_PREF_026 = "Display"
+DLG_PREF_027 = "Venstre margin"
+DLG_PREF_028 = "Højre margin"
+DLG_PREF_029 = "Afst. mellem linjer"
+DLG_PREF_030 = "Afst. mel. nodesys."
+DLG_PREF_031 = "Akkord (diagram) position"
+DLG_PREF_032 = "Akkord (kun navn) position"
+DLG_PREF_033 = "Tekst position"
+DLG_PREF_034 = "Rytme vandret linje bredde"
+DLG_PREF_035 = "Node font:"
+DLG_PREF_036 = "Akkord navn font:"
+DLG_PREF_037 = "Tekst font:"
+DLG_PREF_038 = "Taktart font:"
+DLG_PREF_039 = "Takt nr. font:"
+DLG_PREF_040 = "Gentage font:"
+DLG_PREF_041 = "Diag. størrelse:"
+DLG_PREF_042 = "Akkord diagram farve:"
+DLG_PREF_043 = "Tab linje farve:"
+DLG_PREF_044 = "Rytme linje farve:"
+DLG_PREF_045 = "Effekt farve:"
+DLG_PREF_046 = "Baggrunds farve:"
+DLG_PREF_047 = "Ufuldendt takt farve:"
+DLG_PREF_048 = "Markerings farve:"
+DLG_PREF_049 = "Akkord diagrammer"
+DLG_PREF_050 = "Akkord navne"
+DLG_PREF_051 = "Akkord liste i toppen"
+DLG_PREF_052 = "Tekst"
+DLG_PREF_053 = "Effekter"
+DLG_PREF_054 = "Rytme linjer"
+DLG_PREF_055 = "Nummer på takter"
+DLG_PREF_056 = "Afst. mellem noder"
+DLG_PREF_057 = "Rytme proportioner"
+DLG_PREF_058 = "Bruger #1"
+DLG_PREF_059 = "Bruger #2"
+DLG_PREF_060 = "Bruger #3"
+DLG_PREF_061 = "Se"
+DLG_PREF_062 = "Udskrivning"
+DLG_PREF_063 = "Top margin"
+DLG_PREF_064 = "Bund margin"
+DLG_PREF_065 = "Højre margin"
+DLG_PREF_066 = "Venstre margin"
+DLG_PREF_067 = "Hel sides udskrifts område"
+DLG_PREF_068 = "Angivet udskrifts område:"
+DLG_PREF_069 = "Bredde"
+DLG_PREF_070 = "Højde"
+DLG_PREF_071 = "Centrér området"
+DLG_PREF_072 = "Udskriv kanten"
+DLG_PREF_073 = "Globale proportioner"
+DLG_PREF_074 = "Afstand mellem tabs"
+DLG_PREF_075 = "Afstand mellem noder"
+DLG_PREF_076 = "Rytme proportioner"
+DLG_PREF_077 = "Akkord diagram størrelse"
+DLG_PREF_078 = "Diagram position"
+DLG_PREF_079 = "Akkord navn position"
+DLG_PREF_080 = "Tekst position"
+DLG_PREF_081 = "Titel/forfatter plads"
+DLG_PREF_082 = "Forfatter/Tab plads"
+DLG_PREF_083 = "Titel font:"
+DLG_PREF_084 = "Forfatter font:"
+DLG_PREF_085 = "Kommentar font:"
+DLG_PREF_086 = "Side nr. font:"
+DLG_PREF_087 = "Node font:"
+DLG_PREF_088 = "Akkord navn font:"
+DLG_PREF_089 = "Akkord diagram font:"
+DLG_PREF_090 = "Tekst font:"
+DLG_PREF_091 = "Taktart. font:"
+DLG_PREF_092 = "Gentag font:"
+DLG_PREF_093 = "Titel"
+DLG_PREF_094 = "Forfatter"
+DLG_PREF_095 = "Kommentar"
+DLG_PREF_096 = "Shuffle rytme, tuning..."
+DLG_PREF_097 = "Side nr."
+DLG_PREF_098 = "Antal takter"
+DLG_PREF_099 = "Akkord diagrammer"
+DLG_PREF_100 = "Akkord navne"
+DLG_PREF_101 = "Akkord liste i toppen"
+DLG_PREF_102 = "Tekst"
+DLG_PREF_103 = "Effekter"
+DLG_PREF_104 = "Rytme linjer"
+DLG_PREF_105 = "Check hvis al tekst er som sorte bokse"
+DLG_PREF_106 = "Vis udskrift"
+DLG_PREF_107 = "Lav x takter per stemme:"
+
+*****************
+* BROWSE WINDOW *
+*****************
+
+DLG_BROWSE_000
+DLG_BROWSE_001 = "Browser"
+DLG_BROWSE_002 = "Luk"
+DLG_BROWSE_003 = "Gennemse underbiblioteker"
+DLG_BROWSE_004 = "Afspil den valgte fil"
+DLG_BROWSE_005 = "Ingen hop"
+DLG_BROWSE_006 = "Hop efter 1 takt"
+DLG_BROWSE_007 = "Hop efter 2 takt"
+DLG_BROWSE_008 = "Hop efter 5 takt"
+DLG_BROWSE_009 = "Hop efter 10 takt"
+DLG_BROWSE_010 = "Hop efter 25 takt"
+DLG_BROWSE_011 = "Hop efter melodien"
+DLG_BROWSE_012 = "Titel:"
+DLG_BROWSE_013 = "Forfatter:"
+DLG_BROWSE_014 = "Node:"
+DLG_BROWSE_015 = "Takt(er):"
+DLG_BROWSE_016 = "G/B/P:" { G=Guitar / B=Bass / P=Percussion }
+DLG_BROWSE_017 = "Navn"
+DLG_BROWSE_018 = "Størrelse"
+DLG_BROWSE_019 = "Ændret"
+DLG_BROWSE_020 = "Bibliotek"
+DLG_BROWSE_021 = "fil(er)"
+DLG_BROWSE_022 = "Scanner..."
+DLG_BROWSE_023 = "Stop"
+DLG_BROWSE_024 = "Gennemse underbiblioteker"
+DLG_BROWSE_025 = "Læser filen..."
+
+****************
+* BRUSH WINDOW *
+****************
+
+DLG_BRUSH_000
+DLG_BRUSH_001 = "Anslag"
+DLG_BRUSH_002 = "Anslagsvarighed"
+
+**************************
+* MIX TABLE EVENT WINDOW *
+**************************
+
+DLG_MIX_000
+DLG_MIX_001 = "Mix Table"
+DLG_MIX_002 = "Vælg de parametre, der skal ændres fra denne takt og hvornår disse ændringer skal anvendes:"
+DLG_MIX_003 = "Instrument"
+DLG_MIX_004 = "Lydstyrke"
+DLG_MIX_005 = "Pan"
+DLG_MIX_006 = "Chorus"
+DLG_MIX_007 = "Reverb"
+DLG_MIX_008 = "Tempo"
+DLG_MIX_009 = "Straks"
+DLG_MIX_010 = "1 taktslag"
+DLG_MIX_011 = "%s taktslag" { use plurial }
+DLG_MIX_012 = "Ny værdi"
+DLG_MIX_013 = "Overgang"
+
+************************************
+* COMPLETE/REDUCE ASSISTANT WINDOW *
+************************************
+
+DLG_ASS_CR_000
+DLG_ASS_CR_001 = "Bekræft arrangering af takter?"
+
+*****************************
+* LET RING ASSISTANT WINDOW *
+*****************************
+
+DLG_ASS_LR_000
+DLG_ASS_LR_001 = "'Klang' muligheder"
+DLG_ASS_LR_002 = "Denne assistent giver dig mulighed for at ændre 'klang' mulighederne for en gruppe af noder på én gang."
+DLG_ASS_LR_003 = "Takt:"
+DLG_ASS_LR_004 = "til"
+DLG_ASS_LR_005 = "Strenge der skal påvirkes:"
+DLG_ASS_LR_006 = "'klang' mulighed:"
+DLG_ASS_LR_007 = "Ja"
+DLG_ASS_LR_008 = "Nej"
+DLG_ASS_LR_009 = "Ingen strenge valgt."
+
+******************************
+* FINGERING ASSISTANT WINDOW *
+******************************
+
+DLG_ASS_FG_000
+DLG_ASS_FG_001 = "Automatisk placering"
+DLG_ASS_FG_002 = "Takt:"
+DLG_ASS_FG_003 = "til"
+
+******************************
+* TRANSPOSE ASSISTANT WINDOW *
+******************************
+
+DLG_ASS_TR_000
+DLG_ASS_TR_001 = "Transponér"
+DLG_ASS_TR_002 = "Transponering:"
+DLG_ASS_TR_003 = "halvtoner"
+
+***********************************
+* CHECK DURATION ASSISTANT WINDOW *
+***********************************
+
+DLG_ASS_CD_000
+DLG_ASS_CD_001 = "Tjek fuldendt."
+DLG_ASS_CD_002 = "Ugyldig takt-længde i takt %s - spor %s."
+
+**********************************
+* SPEED TRAINER ASSISTANT WINDOW *
+**********************************
+
+DLG_ASS_ST_000
+DLG_ASS_ST_001 = "Hastigheds Træner"
+DLG_ASS_ST_002 = "Takt:"
+DLG_ASS_ST_003 = "Tempo:"
+DLG_ASS_ST_004 = "til"
+DLG_ASS_ST_005 = "Forøg tempo for hver gentagelse:"
+
+**************
+* CUT WINDOW *
+**************
+
+DLG_CUT_000
+DLG_CUT_001 = "Klip"
+DLG_CUT_002 = "Takt:"
+DLG_CUT_003 = "til"
+DLG_CUT_004 = "Denne funktion klipper de valgte takter ud på alle sporene. "
+DLG_CUT_005 = "For at klippe en takt ud på et enkelt spor, brug 'Kopier/Sæt ind' funktionerne."
+
+**********************
+* COPY/CLEAR WINDOWS *
+**********************
+
+DLG_COPY_000
+DLG_COPY_001 = "Kopier"
+DLG_COPY_002 = "Ryd"
+DLG_COPY_003 = "Takt:"
+DLG_COPY_004 = "til"
+DLG_COPY_005 = "Alle sporene"
+DLG_COPY_006 = "Kun det nuværende spor"
+
+*****************
+* PASTE WINDOWS *
+*****************
+
+DLG_PASTE_000
+DLG_PASTE_001 = "Sæt ind"
+DLG_PASTE_002 = "Bekræft indsætningen af %s takt(er) til det nuværende spor?"
+DLG_PASTE_003 = "Bekræft indsætningen af %s takt(er) til alle spor?"
+DLG_PASTE_004 = "Placér udklippet på det valgte sted"
+DLG_PASTE_005 = "Placér udklippet før det valgte sted"
+DLG_PASTE_006 = "Placér udklippet i slutningen af melodien"
+DLG_PASTE_007 = "Antal indsætninger"
+DLG_PASTE_008 = "Indsætning af percussion data i spor 1-7 er ikke tilladt."
+DLG_PASTE_009 = "Indsætning af data fra spor 1-7 i percussion sporet er ikke tilladt."
+DLG_PASTE_010 = "'Sæt ind' kommandoen er ikke mulig: Antallet af strenge er forskelligt fra det originale spor."
+
+******************
+* DYNAMIC WINDOW *
+******************
+
+DLG_DYNA_000
+DLG_DYNA_001 = "Dynamik"
+DLG_DYNA_002 = "Sæt som normal"
+DLG_DYNA_003 = "Sæt nuværende dynamik som normal dynamik for nye noder"
+DLG_DYNA_004 = "Tilføj til akkorden"
+DLG_DYNA_005 = "Tilføj dynamikken til hele akkorden"
+
+*********************
+* GRACE NOTE WINDOW *
+*********************
+
+DLG_GRACE_000
+DLG_GRACE_001 = "Forsiring"
+DLG_GRACE_002 = "Node"
+DLG_GRACE_003 = "Varighed"
+DLG_GRACE_004 = "Dynamik"
+DLG_GRACE_005 = "Død node: X"
+DLG_GRACE_006 = "Bånd:"
+
+****************
+* INTRO WINDOW *
+****************
+
+DLG_INTRO_000
+DLG_INTRO_001 = "Du bruger en prøveversion af Guitar Pro, der er begrænset til %s dage."
+DLG_INTRO_002 = "Efter den periode må du registrere for at kunne forsætte med at bruge Guitar Pro."
+DLG_INTRO_003 = "Bestil Guitar Pro!"
+DLG_INTRO_004 = "Lad mig prøve først..."
+DLG_INTRO_005 = "Begrænsningerne i denne prøve version er:"
+DLG_INTRO_006 = "- Man kan højst gemme 24 takter"
+DLG_INTRO_007 = "- Udskrivning ikke muligt"
+DLG_INTRO_008 = "- MIDI og ASCII import begrænset til 50 noder"
+
+******************
+* LICENSE WINDOW *
+******************
+
+DLG_LIC_000
+DLG_LIC_001 = "Licens"
+DLG_LIC_002 = "Hej, tak for at du vælger Guitar Pro!"
+DLG_LIC_003 = "Vi håber, du bliver tilfreds med det."
+DLG_LIC_004 = "For at bruge softwaren skal du skrive din USER ID og KEY ID."
+DLG_LIC_005 = "De findes på Guitar Pro pakningen eller på installations disketten."
+DLG_LIC_006 = "Du bruger en MIDLERTIDIG	licens. Venligst skriv dit endelige USER ID og KEY ID ind, så snart du modtager dem."
+
+************************
+* PRINT PREVIEW WINDOW *
+************************
+
+DLG_PRW_000
+DLG_PRW_001 = "Vis udskrift"
+DLG_PRW_002 = "Udskriv"
+DLG_PRW_003 = "Indst."
+
+****************
+* PRINT WINDOW *
+****************
+
+DLG_PRT_000
+DLG_PRT_001 = "Udskriv"
+DLG_PRT_002 = "Printer:"
+DLG_PRT_003 = "Alle"
+DLG_PRT_004 = "Sider:"
+DLG_PRT_005 = "til"
+DLG_PRT_006 = "Konfigurér..."
+
+****************
+* CHORD WINDOW *
+****************
+
+DLG_CHORD_000
+DLG_CHORD_001 = "Akkord"
+DLG_CHORD_002 = "Simpel"
+DLG_CHORD_003 = "Mellem"
+DLG_CHORD_004 = "Alle"
+DLG_CHORD_005 = "Invertering"
+DLG_CHORD_006 = "Bas"
+DLG_CHORD_007 = "Vælg venligst udeladelser"
+DLG_CHORD_008 = "Alternative navne"
+DLG_CHORD_009 = "Brugte"
+DLG_CHORD_010 = "Øverst"
+DLG_CHORD_011 = "Bibliotek"
+DLG_CHORD_012 = "Brug diagram"
+DLG_CHORD_013 = "Tilføj"
+DLG_CHORD_014 = "Slet"
+DLG_CHORD_015 = "Udskift"
+DLG_CHORD_016 = "Flyt op"
+DLG_CHORD_017 = "Flyt ned"
+DLG_CHORD_018 = "Hør"
+DLG_CHORD_019 = "Bruger"
+DLG_CHORD_020 = "Først, navngiv venligst denne akkord."
+DLG_CHORD_021 = "Først, vælg hvilken akkord der skal slettes."
+DLG_CHORD_022 = "Bekræft sletningen af akkord %s ?"
+DLG_CHORD_023 = "Først, vælg venligst akkorden, der skal opdateres."
+DLG_CHORD_024 = "Først, vælg venligst akkorden, der skal flyttes."
+
+***************
+* TEXT WINDOW *
+***************
+
+DLG_TXT_000
+DLG_TXT_001 = "Tekst" {Title of the window}
+DLG_TXT_002 = "Tekst"
+
+********************
+* GO TO BAR WINDOW *
+********************
+
+DLG_GOTOB_000
+DLG_GOTOB_001 = "Gå til takt..."
+DLG_GOTOB_002 = "Takt"
+
+***************
+* BEND WINDOW *
+***************
+
+DLG_BEND_000
+DLG_BEND_001 = "Bend"
+DLG_BEND_002 = "Bend && Release"
+DLG_BEND_003 = "Værdi"
+
+*********************
+* STROKE VIB WINDOW *
+*********************
+
+DLG_STROKV_000
+DLG_STROKV_001 = "Dive && Return med Whammy takt"
+DLG_STROKV_002 = "Værdi"
+
+**********************
+* INSTRUMENTS WINDOW *
+**********************
+
+DLG_INSTR_000
+DLG_INSTR_001 = "Instrument"
+
+*************************
+* TIME SIGNATURE WINDOW *
+*************************
+
+DLG_TIMES_000
+DLG_TIMES_001 = "Taktart"
+DLG_TIMES_002 = "Indtil slutningen"
+
+*********************
+* REPEAT END WINDOW *
+*********************
+
+DLG_REPE_000
+DLG_REPE_001 = "Gentag lukket"
+DLG_REPE_002 = "Antal gentagelser"
+
+****************************
+* ALTERNATE ENDINGS WINDOW *
+****************************
+
+DLG_DIFE_000
+DLG_DIFE_001 = "Alternativ slutning"
+DLG_DIFE_002 = "til"
+
+*********
+* FILES *
+*********
+
+FILES_000
+FILES_001 = "Vil du gemme ændringerne i %s ?"
+FILES_002 = "Filen %s kan ikke findes."
+FILES_003 = "Filen %s eksisterer allerede."
+FILES_004 = "Skal den eksisterende fil erstattes?"
+FILES_005 = "<Ikke-navngivet>" { name for a new file }
+FILES_006 = "Filen kunne ikke åbnes. Åbning afbrudt."
+FILES_007 = "Ukendt fil. Åbning afbrudt."
+FILES_008 = "For at åbne denne fil, opdater venligst din Guitar Pro software."
+FILES_009 = "MIDI fejl"
+FILES_010 = "MIDI format ikke genkendt."
+FILES_011 = "Guitar Pro filer"
+FILES_012 = "MIDI filer"
+FILES_013 = "ASCII Tab filer"
+FILES_014 = "All filer"
+FILES_015 = "MIDI import"
+FILES_016 = "MIDI export"
+FILES_017 = "ASCII Tab import"
+FILES_018 = "ASCII Tab export"
+
+****************
+* ORDER WINDOW *
+****************
+
+DLG_REG_000
+DLG_REG_001 = "Kan du lide Guitar Pro og ønsker du at bruge den fulde version?"
+DLG_REG_002 = "Så bestil nu og modtag din fulde version indenfor 24 timer!"
+DLG_REG_003 = "Ud over at fjerne begrænsningerne, giver registrationen flere fordele som fx.:"
+DLG_REG_004 = "Adgang til teknisk support"
+DLG_REG_005 = "Få gratis opgraderinger til 4.x versionerne"
+DLG_REG_006 = "Få special tilbud på opgraderinger til den næste 5.x version"
+DLG_REG_007 = "For oplysning om pris, betalingsmetoder og forhandlere, besøg venligst vores hjemmeside:"
+
+*****************************
+* REGISTER YOUR COPY WINDOW *
+*****************************
+
+DLG_REGC_000
+DLG_REGC_001 = "Registrér din kopi!"
+DLG_REGC_002 = "Vi anbefaler, at du registrerer din fulde version af Guitar Pro."
+DLG_REGC_003 = "Det tager kun et par minuter og det vil giver dig flere fordele som f.eks.:"
+DLG_REGC_004 = "Adgang til teknisk support"
+DLG_REGC_005 = "Få gratis opgraderinger til 4.x versionerne"
+DLG_REGC_006 = "Få special tilbud på opgraderinger til den næste 5.x version"
+DLG_REGC_007 = "Vigtigt: Hvis du mister installations filen eller din licens, vil du KUN have mulighed for at få den igen, hvis du har registreret din software."
+DLG_REGC_008 = "Online registrering fra vores hjemmeside"
+DLG_REGC_009 = "Post registrering"
+DLG_REGC_010 = "Tlf:"
+DLG_REGC_011 = "Fax:"
+DLG_REGC_012 = "Vis dette vindue ved opstart"
+
+********************
+* ORDER PAPER FORM *
+********************
+
+DLG_REGPF_000
+DLG_REGPF_001 = "GUITAR PRO ORDRE FORMULAR (EUROCHECK I EURO)"
+DLG_REGPF_002 = "Venligst udfyld felterne [ ] i denne formular,"
+DLG_REGPF_003 = "print den, og send den med post til:"
+DLG_REGPF_004 = "med betalingen vedlagt som eurocheck i EURO"
+DLG_REGPF_005 = "til %s."
+DLG_REGPF_006 = "ORDRE"
+DLG_REGPF_007 = "Guitar Pro %s som e-mail (opdatering)"
+DLG_REGPF_008 = "Guitar Pro %s som e-mail"
+DLG_REGPF_009 = "Guitar Pro %s på CDROM + forsendelse"
+DLG_REGPF_010 = "Tøv ikke med at kontakte os, hvis du har spørgsmål"
+DLG_REGPF_011 = "DINE REFERENCER"
+DLG_REGPF_012 = "Dato:"
+DLG_REGPF_013 = "Fornavn:"
+DLG_REGPF_014 = "Efternavn:"
+DLG_REGPF_015 = "USER ID:"
+DLG_REGPF_016 = "KEY ID:"
+DLG_REGPF_017 = "Addresse:"
+DLG_REGPF_018 = "Postnr.:"
+DLG_REGPF_019 = "By:"
+DLG_REGPF_020 = "State/Province:"
+DLG_REGPF_021 = "Land:"
+DLG_REGPF_022 = "Tlf:"
+DLG_REGPF_023 = "Fax:"
+DLG_REGPF_024 = "E-mail:"
+DLG_REGPF_025 = "Bemærkninger:"
+DLG_REGPF_026 = "(nødvendig hvis du ikke bestiller CD'en)"
+DLG_REGPF_027 = "Du vil modtage softwaren i løbet af 24 timer med e-mail og 15 dage for CD'en"
+DLG_REGPF_028 = "(hvis du bestiller en opdatering)"
+
+*********************************
+* REGISTER YOUR COPY PAPER FORM *
+*********************************
+
+DLG_REGCPF_000
+DLG_REGCPF_001 = "REGISTRERING - GUITAR PRO SOFTWARE"
+DLG_REGCPF_002 = "Venligst udfyld felterne [ ] i denne formular,"
+DLG_REGCPF_003 = "print den, og send den med post til:"
+DLG_REGCPF_004 = "fra Frankrig"  { for the fax number }
+DLG_REGCPF_005 = "fra andre lande"  { for the fax number }
+DLG_REGCPF_006 = "DINE REFERENCER"
+DLG_REGCPF_007 = "Dato:"
+DLG_REGCPF_008 = "Version:"
+DLG_REGCPF_009 = "Fornavn:"
+DLG_REGCPF_010 = "Efternavn:"
+DLG_REGCPF_011 = "Addresse:"
+DLG_REGCPF_012 = "Postnr.:"
+DLG_REGCPF_013 = "By:"
+DLG_REGCPF_014 = "State/Province:"
+DLG_REGCPF_015 = "Land:"
+DLG_REGCPF_016 = "Tlf:"
+DLG_REGCPF_017 = "Fax:"
+DLG_REGCPF_018 = "E-mail:"
+DLG_REGCPF_019 = "(se på software emballagen)"
+DLG_REGCPF_020 = "VALGFRIE SPØRGSMÅL (Svar venligst på engelsk eller fransk)"
+DLG_REGCPF_021 = "Hvordan opdagede du Guitar Pro?"
+DLG_REGCPF_022 = "Hvor længe testede du Guitar Pro, før du besluttede at købe det?"
+DLG_REGCPF_023 = "Hvordan bruger du Guitar Pro (notationer, træning etc...)?"
+DLG_REGCPF_024 = "I hvilken butik eller på hvilken Internet side købte du Guitar Pro?"
+DLG_REGCPF_025 = "Bemærkninger, forslag, ..."
+
+********************
+* v3.0 BEND WINDOW *
+********************
+
+DLG300_BEND_000
+DLG300_BEND_001 = "Bend Type"
+DLG300_BEND_002 = "Afspil"
+DLG300_BEND_003 = "Vælg Bend type:"
+DLG300_BEND_004 = "Klik for at tilføje eller fjerne nogle punkter (højre klik = vibratoer):"
+DLG300_BEND_005 = "Node varighed = "
+DLG300_BEND_006 = "Effekten kan ikke afspilles, da du har valgt at begrænse bending effekten til 1 tone i Midi Setup (menu Options|Midi Setup)."
+DLG300_BEND_007 = "Dette er nødvendigt for mindre lyd-kort."
+
+**************************
+* v3.0 GRACE NOTE WINDOW *
+**************************
+
+DLG300_GRACE_000
+DLG300_GRACE_001 = "Overgang"
+DLG300_GRACE_002 = "Ingen"
+DLG300_GRACE_003 = "Slide"
+DLG300_GRACE_004 = "Bend"
+DLG300_GRACE_005 = "Hammer"
+
+***********************
+* v3.0 MARKERS WINDOW *
+***********************
+
+DLG300_MARKERS_000
+DLG300_MARKERS_001 = "Mærke liste"
+DLG300_MARKERS_002 = "Pos"
+DLG300_MARKERS_003 = "Navn"
+DLG300_MARKERS_004 = "Tilføj"
+DLG300_MARKERS_005 = "Rediger"
+DLG300_MARKERS_006 = "Slet"
+DLG300_MARKERS_007 = "Gå til"
+DLG300_MARKERS_008 = "Bekræft sletningen af mærket %s ?"
+DLG300_MARKERS_009 = "Indsæt et Mærke"
+DLG300_MARKERS_010 = "Redigér et Mærke"
+DLG300_MARKERS_011 = "Takt:"
+DLG300_MARKERS_012 = "Farve:"
+DLG300_MARKERS_013 = "Navn:"
+DLG300_MARKERS_014 = "Sektion"
+
+********************************
+* v3.0 MIDI IMPORTATION WINDOW *
+********************************
+
+DLG300_IMPM_000
+DLG300_IMPM_001 = "MIDI import"
+DLG300_IMPM_002 = "MIDI spor:"
+DLG300_IMPM_003 = "Akkord position kvantisering"
+DLG300_IMPM_004 = "Node varighed kvantisering"
+DLG300_IMPM_005 = "Transponér til underliggende oktav"
+DLG300_IMPM_006 = "Hurtig import"
+DLG300_IMPM_007 = "Denne 'mode' importerer de valgte spor i en ny fil."
+DLG300_IMPM_008 = "Tuning er automatisk valgt afhænging af navnet på MIDI sporet.
+DLG300_IMPM_009 = "Brug 2 kanaler per spor"
+DLG300_IMPM_010 = "Import!"
+DLG300_IMPM_011 = "Skridt for skridt import"
+DLG300_IMPM_012 = "Dette giver dig bedre kontrol over importen og muliggør sammensætning af spor."
+DLG300_IMPM_013 = "Importér titel and taktart ændringer."
+DLG300_IMPM_014 = "Tilføj et spor i Guitar Pro..."
+DLG300_IMPM_015 = "Importér de valgte spor til det nuværende spor i Guitar Pro."
+DLG300_IMPM_016 = "Prøve version af Guitar Pro, import begrænset til 50 noder."
+DLG300_IMPM_017 = "Hvis du kan lide Guitar Pro, registrér venligst."
+DLG300_IMPM_018 = "Vis Vindue"
+DLG300_IMPM_019 = "Luk Vindue"
+DLG300_IMPM_020 = "MIDI format %s ikke understøttet. Brug venligst MIDI format 0 eller 1."
+DLG300_IMPM_021 = "Vælg mindst et MIDI spor."
+DLG300_IMPM_022 = "Vælg alle spor"
+DLG300_IMPM_023 = "Fravælg alle spor"
+DLG300_IMPM_024 = "Spil de valgte spor"
+DLG300_IMPM_025 = "Stop"
+DLG300_IMPM_026 = "Åbn en anden fil"
+
+**************************
+* v3.0 MIDI SETUP WINDOW *
+**************************
+
+DLG300_MIDISETUP_000
+DLG300_MIDISETUP_001 = "MIDI Setup"
+DLG300_MIDISETUP_002 = "MIDI Outputs"
+DLG300_MIDISETUP_003 = "Port"
+DLG300_MIDISETUP_004 = "Device"
+DLG300_MIDISETUP_005 = "Instrument Patch"
+DLG300_MIDISETUP_006 = "Begræns pitch variationer"
+DLG300_MIDISETUP_007 = "Spil en prøve med dette output"
+DLG300_MIDISETUP_008 = "Brug 'Begræns pitch variationer' hvis bend eller slide effekten lyder forkert."
+DLG300_MIDISETUP_009 = "Mindre lydkort understøtter ikke pitch variationer højere end 1 tone."
+DLG300_MIDISETUP_010 = "Du kan ikke bruge den samme device på forskellige porte."
+
+**************************
+* v3.0 SCORE INFO WINDOW *
+**************************
+
+DLG300_SCORE_INFO_000
+DLG300_SCORE_INFO_001 = "Melodi Information"
+DLG300_SCORE_INFO_002 = "Gemte Informationer"
+DLG300_SCORE_INFO_003 = "Titel"
+DLG300_SCORE_INFO_004 = "Undertitel"
+DLG300_SCORE_INFO_005 = "Kunstner"
+DLG300_SCORE_INFO_006 = "Album"
+DLG300_SCORE_INFO_007 = "forfatter"
+DLG300_SCORE_INFO_008 = "Copyright"
+DLG300_SCORE_INFO_009 = "Tab"
+DLG300_SCORE_INFO_010 = "Instruktioner"
+DLG300_SCORE_INFO_011 = "Bemærk"
+DLG300_SCORE_INFO_012 = "Shuffle rytme:"
+DLG300_SCORE_INFO_013 = "Skriv her de informationer, du vil have der skal stå når du opretter en ny melodi:"
+
+**************************
+* v3.0 TRACK INFO WINDOW *
+**************************
+
+DLG300_TRACK_INFO_000
+DLG300_TRACK_INFO_001 = "Tilføj et spor"
+DLG300_TRACK_INFO_002 = "Type"
+DLG300_TRACK_INFO_003 = "Instrument"
+DLG300_TRACK_INFO_004 = "Position"
+DLG300_TRACK_INFO_005 = "Først"
+DLG300_TRACK_INFO_006 = "Sidst"
+DLG300_TRACK_INFO_007 = "Før"
+DLG300_TRACK_INFO_008 = "Efter"
+DLG300_TRACK_INFO_009 = "Egenskaber for sporet"
+DLG300_TRACK_INFO_010 = "Farve"
+DLG300_TRACK_INFO_011 = "Specielt for 5 strenget Banjo"
+DLG300_TRACK_INFO_012 = "Vil du overflytte sporet til den nye tuning?"
+
+***************************
+* v3.0 PREFERENCES WINDOW *
+***************************
+
+DLG300_PREF_000
+DLG300_PREF_001 = "Afspillet Node 'Følger'"
+DLG300_PREF_002 = "Firkant rund om Takten"
+DLG300_PREF_003 = "Trekant under Noden"
+DLG300_PREF_004 = "Node oplysning"
+
+*********************************
+* v3.0 ASCII IMPORTATION WINDOW *
+*********************************
+
+DLG300_IMPA_000
+DLG300_IMPA_001 = "Antallet af strenge er forskelligt fra det valgte spor."
+DLG300_IMPA_002 = "Ændre venligst antallet af strenge i det valgte spor."
+
+****************
+* v3.0 GENERAL *
+****************
+
+GENE300_000
+GENE300_001 = "Maximum antal spor understøttet:"
+GENE300_002 = "Bekræft sletningen af spor %s ?"
+GENE300_003 = "Demo versionen tillader ikke at udskrive melodien."
+GENE300_004 = "ingen" { for the MIDI ports }
+GENE300_005 = "Ikke muligt at åbne MIDI porten [%s]."
+GENE300_006 = "Luk venligst andet MIDI software eller ændre din MIDI setup."
+GENE300_007 = "Ingen patch valgt" { instrument patch }
+GENE300_008 = "Patch ikke fundet" { instrument patch }
+GENE300_009 = "Spil fra %s"
+GENE300_010 = "Gå til %s"
+GENE300_011 = "Trommesæt"
+GENE300_012 = "Kun tromme spor"
+GENE300_013 = "Forbind med %s"
+GENE300_014 = "Reserveret af %s"
+GENE300_015 = "Fri"
+GENE300_016 = "I demo versionen kan du ikke exportere til GP 2.2 format hvis filen er blevet ændret."
+GENE300_017 = "Gem først ændringerne i GP 3.0 format og brug så denne funktion."
+GENE300_018 = "Guitar Pro 2.2 filer"
+
+******************
+* v3.0 MIX TABLE *
+******************
+
+MIXT300_000
+MIXT300_001 = "Reducér alt"
+MIXT300_002 = "Forstør alt"
+MIXT300_003 = "Solo"
+MIXT300_004 = "S" {abreviation of "Solo"}
+MIXT300_005 = "Mute"
+MIXT300_006 = "M" {abreviation of "Mute"}
+MIXT300_007 = "Navn" {of the track}
+MIXT300_008 = "Port"
+MIXT300_009 = "Port" {abreviation of "Port"}
+MIXT300_010 = "Port valg"
+MIXT300_011 = "Hoved kanal"
+MIXT300_012 = "Ch" {abreviation of "Main Channel"}
+MIXT300_013 = "Hoved kanal valg"
+MIXT300_014 = "Effekt kanal"
+MIXT300_015 = "Ch2" {abreviation of "Effects Channel"}
+MIXT300_016 = "Effekt kanal valg"
+MIXT300_017 = "Instrument"
+MIXT300_018 = "Lydstyrke"
+MIXT300_019 = "Pan"
+MIXT300_020 = "Chorus"
+MIXT300_021 = "Reverb"
+MIXT300_022 = "Phaser"
+MIXT300_023 = "Tremolo"
+MIXT300_024 = "Ukomplet patch"
+MIXT300_025 = "Ingen patch valgt"
+MIXT300_026 = "Trommesæt"
+
+*********************************
+* v3.0 DYNAMIC ASSISTANT WINDOW *
+*********************************
+
+DLG300_ASS_DY_000
+DLG300_ASS_DY_001 = "Dynamiske indstilliger"
+DLG300_ASS_DY_002 = "Denne funktion lader dig ændre de dynamiske værdier for en gruppe af noder på én gang."
+DLG300_ASS_DY_003 = "Takt:"
+DLG300_ASS_DY_004 = "til"
+DLG300_ASS_DY_005 = "Strenge der skal påvirkes:"
+DLG300_ASS_DY_006 = "Dynamisk værdi:"
+DLG300_ASS_DY_007 = "ingen strenge valgt."
+
+**********************
+* v3.0 MENUS & HINTS *
+**********************
+
+MN300_000
+MN300_001 = "Melodi informationer"
+MN300_002 = "Første" {for the track}
+MN300_003 = "Forudgående" {for the track}
+MN300_004 = "Næste" {for the track}
+MN300_005 = "Sidste" {for the track}
+MN300_006 = "Forudgående spor"
+MN300_007 = "Næste spor"
+MN300_008 = "Egenskaber" {for the track}
+MN300_009 = "Egenskaber for sporet"
+MN300_010 = "Tilføj" {for a track}
+MN300_011 = "Tilføj et spor"
+MN300_012 = "Slet" {for the track}
+MN300_013 = "Første" {for the bar}
+MN300_014 = "Forrige" {for the bar}
+MN300_015 = "Næste" {for the bar}
+MN300_016 = "Sidste" {for the bar}
+MN300_017 = "Overbind taktslag"
+MN300_018 = "Overbind node"
+MN300_019 = "Taktslags varighed"
+MN300_020 = "Node varighed"
+MN300_021 = "-ingen-" {means "no" triolet, -3-, -5-, ...}
+MN300_022 = "n-tuplet"
+MN300_023 = "taktslag" {n-tuplet on the beat}
+MN300_024 = "node" {n-tuplet on the note}
+MN300_025 = "Bend type" {includes all "Bend" type effects}
+MN300_026 = "Markører"
+MN300_027 = "Indsæt en markør"
+MN300_028 = "Indsæt"
+MN300_029 = "Markør liste"
+MN300_030 = "Liste"
+MN300_031 = "Gå til den foregående markør"
+MN300_032 = "Foregående"
+MN300_033 = "Gå til markøren"
+MN300_034 = "Gå til"
+MN300_035 = "Gå til den næste markør"
+MN300_036 = "Næste"
+MN300_037 = "Ingen markører defineret"
+MN300_038 = "Spil fra markøren"
+MN300_039 = "Spil fra den nuværende position (mellemrum)"
+MN300_040 = "Redskaber"
+MN300_041 = "Nedtælling"
+MN300_042 = "Brug koefficienten til tempoet"
+MN300_043 = "Multispors overblik"
+MN300_044 = "Lodret scrolling"
+MN300_045 = "Vandret scrolling"
+MN300_046 = "Fast mellemrum mellem noder"
+MN300_047 = "Skift udseende"
+MN300_048 = "Toolbars"
+MN300_049 = "Standard" {name of the toolbar}
+MN300_050 = "Takt" {name of the toolbar}
+MN300_051 = "Markører" {name of the toolbar}
+MN300_052 = "View" {name of the toolbar}
+MN300_053 = "Takt varighed" {name of the toolbar}
+MN300_054 = "Node varighed" {name of the toolbar}
+MN300_055 = "Afspil" {name of the toolbar}
+MN300_056 = "Tempo" {name of the toolbar}
+MN300_057 = "Effekter" {name of the toolbar}
+MN300_058 = "Dynamik" {name of the toolbar}
+MN300_059 = "Alle" {display all toolbars}
+MN300_060 = "Ingen" {hide all toolbars}
+MN300_061 = "Normal position" {of tools bars}
+MN300_062 = "MIDI setup"
+MN300_063 = "Lad den nuværende takt være synlig ved afspilning"
+MN300_064 = "Guitar Pro 2.2 format"
+MN300_065 = "Funktioner"
+MN300_066 = "Hammer On / Pull Off"
+MN300_067 = "Slide"
+MN300_068 = "Tempo"
+MN300_069 = "Dynamiske funktioner"
+MN300_070 = "Gå til begyndelsen"
+MN300_071 = "Gå til enden"
+MN300_072 = "Hurtigt tilbage"
+MN300_073 = "Hurtigt frem"
+MN300_074 = "Skridt tilbage"
+MN300_075 = "Skridt frem"
+
+******************
+* v3.0 GP ONLINE *
+******************
+
+DLG300_GPONLINE_000
+DLG300_GPONLINE_001 = "GP Online"
+DLG300_GPONLINE_002 = "GP Online påminder:"
+DLG300_GPONLINE_003 = "Aldrig"
+DLG300_GPONLINE_004 = "2 uger"
+DLG300_GPONLINE_005 = "1 måneder"
+DLG300_GPONLINE_006 = "3 måneder"
+DLG300_GPONLINE_007 = "6 måneder"
+DLG300_GPONLINE_008 = "Tillader hurtigt check for nye versioner ved opstart hvis internet opkoplingen er fundet"
+DLG300_GPONLINE_009 = "En ny version af Guitar Pro er tilgængelig på internettet!"
+DLG300_GPONLINE_010 = "Vil du starte GP Online?"
+DLG300_GPONLINE_011 = "Notits: For at stoppe denne bekræftelse, start GP Online eller gå til [Funktioner|Indstillinger] menuen."
+DLG300_GPONLINE_012 = "Du har ikke brugt GP Online i %s dage."
+DLG300_GPONLINE_013 = "Notits: For at stoppe med at bruge GP Online påminder, gå til [Funktioner|Indstillinger] menuen."
+
+***********************************
+* v4.0 PALM MUTE ASSISTANT WINDOW *
+***********************************
+ 
+DLG400_ASS_PM_000
+DLG400_ASS_PM_001 = "Palm Mute muligheder"
+DLG400_ASS_PM_002 = "Denne assistant lader dig ændre Palm Mute mulighederne for en gruppe af noder med blot én bevægelse."
+DLG400_ASS_PM_003 = "Fra takt:"
+DLG400_ASS_PM_004 = "til"
+DLG400_ASS_PM_005 = "Strenge som påvirkes:"
+DLG400_ASS_PM_006 = "Palm Mute muligheder:"
+DLG400_ASS_PM_007 = "Ja"
+DLG400_ASS_PM_008 = "Nej"
+DLG400_ASS_PM_009 = "Der er ikke valgt en streng."
+ 
+*****************************
+* v4.0 PERCUSSION ASSISTANT *
+*****************************
+ 
+DLG400_ASS_PERCU_000
+DLG400_ASS_PERCU_001 = "Brug elektrisk lyd når det er muligt"
+ 
+*******************************
+* v4.0 MIX TABLE EVENT WINDOW *
+*******************************
+ 
+DLG400_MIX_000
+DLG400_MIX_001 = "Alle spor"
+ 
+*********************
+* v4.0 CHORD WINDOW *
+*********************
+ 
+DLG400_CHORD_000
+DLG400_CHORD_001 = "Fingersætning"
+ 
+*********************
+* v4.0 BRUSH WINDOW *
+*********************
+ 
+DLG400_BRUSH_000
+DLG400_BRUSH_001 = "Rasgueado"
+ 
+**************************
+* v4.0 TREMOLOBAR WINDOW *
+**************************
+ 
+DLG400_TREMOLOBAR_000
+DLG400_TREMOLOBAR_001 = "Tremolo takt"
+DLG400_TREMOLOBAR_002 = "Vælg en kurve:";
+ 
+*********************
+* v4.0 TRILL WINDOW *
+*********************
+ 
+DLG400_TRILL_000
+DLG400_TRILL_001 = "Trille"
+DLG400_TRILL_002 = "Trille"
+DLG400_TRILL_003 = "Periode"
+DLG400_TRILL_004 = "Fret:"
+ 
+*******************************
+* v4.0 BMP EXPORTATION WINDOW *
+*******************************
+ 
+DLG400_EXPBMP_000
+DLG400_EXPBMP_001 = "BMP export"
+DLG400_EXPBMP_002 = "Export"
+DLG400_EXPBMP_003 = "Bitmap filer"
+ 
+*******************************
+* v4.0 BMP EXPORTATION WINDOW *
+*******************************
+ 
+DLG400_EXPWAV_000
+DLG400_EXPWAV_001 = "WAVE export"
+DLG400_EXPWAV_002 = "Export"
+DLG400_EXPWAV_003 = "Kvalitet:"
+DLG400_EXPWAV_004 = "WAVE filer"
+ 
+*************************
+* v4.0 FRETBOARD WINDOW *
+*************************
+ 
+DLG400_FRETBOARD_000
+DLG400_FRETBOARD_001 = "Vælg visning"
+DLG400_FRETBOARD_002 = "Vis [Beat]"
+DLG400_FRETBOARD_003 = "Vis [Beat] + [Takt]"
+DLG400_FRETBOARD_004 = "Vis [Beat] + [Diagram]"
+DLG400_FRETBOARD_005 = "Vis [Beat] + [Next beat]"
+DLG400_FRETBOARD_006 = "Vis [Beat] + [Skala]"
+DLG400_FRETBOARD_007 = "Vis [Node navn]"
+DLG400_FRETBOARD_008 = "Vis [Interval]"
+DLG400_FRETBOARD_009 = "Vis [Degree]"
+DLG400_FRETBOARD_010 = "Indikation af nodens navn"
+DLG400_FRETBOARD_011 = "Ingen navn"
+DLG400_FRETBOARD_012 = "Navn for [Beat]"
+DLG400_FRETBOARD_013 = "Navn for [Beat] + [...]"
+DLG400_FRETBOARD_014 = "Baggrundsbillede for gribebræt"
+DLG400_FRETBOARD_015 = "Elektrisk"
+DLG400_FRETBOARD_016 = "Akustisk"
+DLG400_FRETBOARD_017 = "Klassisk"
+DLG400_FRETBOARD_018 = "Basal"
+DLG400_FRETBOARD_019 = "Vend gribebræt"
+DLG400_FRETBOARD_020 = "Åbn skala værktøjet"
+DLG400_FRETBOARD_021 = "Skalaer"
+DLG400_FRETBOARD_022 = "Flyt til venstre"
+DLG400_FRETBOARD_023 = "Flyt til højre"
+ 
+************************
+* v4.0 KEYBOARD WINDOW *
+************************
+ 
+DLG400_KEYBOARD_000
+DLG400_KEYBOARD_001 = "Valg af visning"
+DLG400_KEYBOARD_002 = "Vis [Beat]"
+DLG400_KEYBOARD_003 = "Vis [Beat] + [Takt]"
+DLG400_KEYBOARD_004 = "Vis [Beat] + [Next Beat]"
+DLG400_KEYBOARD_005 = "Vis [Beat] + [Skala]"
+DLG400_KEYBOARD_006 = "Åbn skala værktøjet"
+DLG400_KEYBOARD_007 = "Skalaer"
+DLG400_KEYBOARD_008 = "Flyt til venstre"
+DLG400_KEYBOARD_009 = "Flyt til højre"
+ 
+******************************
+* v4.0 KEY SIGNATURE WINDOW *
+******************************
+ 
+DLG400_KEYSIGN_000
+DLG400_KEYSIGN_001 = "Toneart"
+DLG400_KEYSIGN_002 = "Indtil slutningen"
+DLG400_KEYSIGN_003 = "Mode"
+DLG400_KEYSIGN_004 = "Dur"
+DLG400_KEYSIGN_005 = "Mol"
+ 
+***************************
+* v4.0 NEW TUNING WINDOW *
+***************************
+ 
+DLG400_NEWTUNE_000
+DLG400_NEWTUNE_001 = "Ny tuning"
+DLG400_NEWTUNE_002 = "vælg navn for ny tuning:"
+ 
+**************************
+* v4.0 SCORE INFO WINDOW *
+**************************
+ 
+DLG400_SCORE_INFO_000
+DLG400_SCORE_INFO_001 = "tekster"
+DLG400_SCORE_INFO_002 = "Tilføj til spor:"
+DLG400_SCORE_INFO_003 = "Hvis du ændrer noden, gå da tilbage til dette vindue og tast OK for at opdatere 'lyrics'."
+DLG400_SCORE_INFO_004 = "Linie %s"
+DLG400_SCORE_INFO_005 = "Start fra takt:"
+DLG400_SCORE_INFO_006 = "Læs hjælpefilen om at benytte specielle symboler: -, + and []"
+DLG400_SCORE_INFO_007 = "klip"
+DLG400_SCORE_INFO_008 = "kopier"
+DLG400_SCORE_INFO_009 = "sæt ind"
+ 
+**************************
+* v4.0 TRACK INFO WINDOW *
+**************************
+ 
+DLG400_TRACK_INFO_000
+DLG400_TRACK_INFO_001 = "tilføj denne Tuning"
+DLG400_TRACK_INFO_002 = "slet denne Tuning"
+DLG400_TRACK_INFO_003 = "Først vælg den Tuning, du vil slette."
+DLG400_TRACK_INFO_004 = "Bekræft sletning af Tuning %s?"
+DLG400_TRACK_INFO_005 = "Du skal først definereden nye Tuning, og så trykke på ADD knappen for at navngive den."
+DLG400_TRACK_INFO_006 = "Vælg et navn for den nye Tuning."
+DLG400_TRACK_INFO_007 = "Dette navn er allerede i brug."
+ 
+***************************
+* v4.0 PREFERENCES WINDOW *
+***************************
+ 
+DLG400_PREF_000
+DLG400_PREF_001 = "Automatisk backup"
+DLG400_PREF_002 = "Hver"
+DLG400_PREF_003 = "handling"
+DLG400_PREF_004 = "Lyrik:"
+DLG400_PREF_005 = "Undo/Redo"
+DLG400_PREF_006 = "Disable Undo/Redo"
+ 
+***********************************
+* v4.0 TRANSPOSE ASSISTANT WINDOW *
+***********************************
+ 
+DLG400_ASS_TR_000
+DLG400_ASS_TR_001 = "Transponér alle spor"
+ 
+*********************************
+* v4.0 SEARCH ON THE WEB WINDOW *
+*********************************
+ 
+DLG400_SEARCHONWEB_000
+DLG400_SEARCHONWEB_001 = "Søg på internettet"
+DLG400_SEARCHONWEB_002 = "Søg efter:"
+DLG400_SEARCHONWEB_003 = "Skriv en simpel tekst som 'satriani' eller 'elise'"
+DLG400_SEARCHONWEB_004 = "på:"
+DLG400_SEARCHONWEB_005 = "Søg!"
+DLG400_SEARCHONWEB_006 = "Opdatér listen over Internetsteder"
+DLG400_SEARCHONWEB_007 = "%s side(r) fundet."
+DLG400_SEARCHONWEB_008 = "Du skal skrive en tekst for at starte søgningen."
+DLG400_SEARCHONWEB_009 = "Ikke muligt at skabe forbindelse til Guitar Pro siden."
+ 
+***************************
+* v4.0 SCALES TOOL WINDOW *
+***************************
+ 
+DLG400_SCALES_000
+DLG400_SCALES_001 = "Skala"
+DLG400_SCALES_002 = "Lyt"
+DLG400_SCALES_003 = "Skala Finder"
+DLG400_SCALES_004 = "Scan fra takt:"
+DLG400_SCALES_005 = "til"
+DLG400_SCALES_006 = "Find!"
+ 
+**********************
+* v4.0 MENUS & HINTS *
+**********************
+ 
+MN400_000
+MN400_001 = "Første nummer"
+MN400_002 = "sidste nummer"
+MN400_003 = "slet nummer"
+MN400_004 = "Indsæt en takt"
+MN400_005 = "klip takter"
+MN400_006 = "kopier takter"
+MN400_007 = "indsæt takter"
+MN400_008 = "tøm takter"
+MN400_009 = "Toneart"
+MN400_010 = "Dobbelt taktstreg"
+MN400_011 = "Undo"
+MN400_012 = "Redo"
+MN400_013 = "En halvtone op"
+MN400_014 = "En halvtone ned"
+MN400_015 = "Venstre hånd fingersætning"
+MN400_016 = "Højre hånd fingersætning"
+MN400_017 = "Plekterslag op"
+MN400_018 = "Plekterslag ned"
+MN400_019 = "Accentueret node"
+MN400_020 = "Harmonisk"
+MN400_021 = "Naturlig harmonisk"
+MN400_022 = "Kunstig harmonisk"
+MN400_023 = "Tapped harmonisk"
+MN400_024 = "Pitch harmonisk"
+MN400_025 = "Semi harmonisk"
+MN400_026 = "Bend"
+MN400_027 = "Tremolo takt"
+MN400_028 = "Slide"
+MN400_029 = "Shift Slide"
+MN400_030 = "Legato Slide"
+MN400_031 = "Slide In fra neden"
+MN400_032 = "Slide In fra oven"
+MN400_033 = "Slide Out nedad"
+MN400_034 = "Slide Out opad"
+MN400_035 = "Wide Vibrato"
+MN400_036 = "Trille"
+MN400_037 = "Tremolo Picking"
+MN400_038 = "Palm Mute"
+MN400_039 = "Staccato"
+MN400_040 = "Digital guitar tuner"
+MN400_041 = "Skalaer"
+MN400_042 = "Palm Mute muligheder"
+MN400_043 = "Standard notation"
+MN400_044 = "Gribebræt"
+MN400_045 = "Keyboard"
+MN400_046 = "Menus && Toolbars"
+MN400_047 = "Customize"
+MN400_048 = "Reset Toolbars Positions"
+MN400_049 = "Old GP3 Glyphs"
+MN400_050 = "XP Toolbar Style"
+MN400_051 = "Guitar Pro 3.0 format"
+MN400_052 = "WAVE File (audio)"
+MN400_053 = "BMP File (billede)"
+MN400_054 = "Menu" {name of the toolbar}
+MN400_055 = "Note" {name of the toolbar}
+MN400_056 = "Gribebræt" {name of the toolbar}
+MN400_057 = "Keyboard" {name of the toolbar}
+MN400_058 = "Spor vælger" {name of the toolbar}
+MN400_059 = "Status Bar" {name of the toolbar}
+MN400_060 = "Windows Volume Control"
+
+*********************
+* v4.0 INTRO WINDOW *
+*********************
+
+DLG400_INTRO_000
+DLG400_INTRO_001 = "Du er på dag %s1 af din %s2 dages evaluerings periode."
+DLG400_INTRO_002 = "Evaluerings perioden er slut. Overvej at registere."
+ 
+****************
+* v4.0 GENERAL *
+****************
+ 
+GENE400_000
+GENE400_001 = "I demo versionen kan du ikke exportere GP 3.0 format hvis filen er blevet ændret."
+GENE400_002 = "Du skal åbne filen og direkte benytte denne export feature."
+GENE400_003 = "Guitar Pro 3.0 filer"
+GENE400_004 = "Guitar Pro blev ikke lukket korrekt i løbet af den sidste session, eller en anden session er allerede åben."
+GENE400_005 = "Ønsker du at genskabe den sidste backup fil?"
+GENE400_006 = "Demo versionen tillader ikke eksport til BMP format."
+GENE400_007 = "Luk Guitar Pro nu og genstart for at nulstille Toolbars' respektive positioner."
+GENE400_008 = "Du kan nu benytte PLAY/STOP knappen for at starte og stoppe optagelsen."
+GENE400_009 = "Du skal være i lodret 'scrolling mode' for at exportere i BMP format."
+GENE400_010 = "Cut/Copy/Paste features er begrænset til de 24 første takter i demo versionen."
+GENE400_011 = "Clipboard er tomt."
+GENE400_012 = "Clipboard indhold er ikke kompatibelt med sporet(ene)."
+GENE400_013 = "Filen [%s] er optaget."
+GENE400_014 = "Ikke muligt at oprette folderen [%s]. Loading afbrudt."
+GENE400_015 = "Guitar Pro har fundet en forbudt modification [Code %s]. Loading afbrudt."
+GENE400_016 = "Font'en [%s] er ikke korrekt installeret. Vi anbefaler at du installerer Guitar Pro igen."
+
+*********************************
+* v4.0 WAVE EXPORT SETUP WINDOW *
+*********************************
+
+DLG400_WAVEEXPSETUP_000
+DLG400_WAVEEXPSETUP_001 = "WAVE export setup"
+DLG400_WAVEEXPSETUP_002 = "WAVE input"
+DLG400_WAVEEXPSETUP_003 = "Linie for at indspille MIDI output:"
+DLG400_WAVEEXPSETUP_004 = "Tip: Hvis den exporterede Wave-fil ikke har lyd, test da en anden linie."
+DLG400_WAVEEXPSETUP_005 = "Du skal vælge en linie."
+
+****************
+* v4.1 MIDI IN *
+****************
+ 
+MI410_000
+MI410_001 = "MIDI input aktiv"
+MI410_002 = "Ikke muligt at åbne MIDI In device. Bekræft konfigurationen i menuen Funktioner|Audio indstilling."
+MI410_003 = "MIDI input (node for node)"
+MI410_004 = "Device"
+MI410_005 = "Følsomhed"
+MI410_006 = "ms (forsinkelse til at adskille 2 noder)" { "ms" for millisekunder }
+MI410_007 = "String Affectation using Channel Detection"
+MI410_008 = "Første kanal for den højeste streng"
+MI410_009 = "Første kanal for den laveste streng"
+MI410_010 = "Ingen kanal (automatisk fingersætning)"
+MI410_011 = "Tips: Brug menuen [Lyd|MIDI Input Active] for at optage noder spillet med dit MIDI Instrument."
+
+*********************
+* v5.0 ABOUT WINDOW *
+*********************
+ 
+DLG500_ABOUT_000
+DLG500_ABOUT_001 = "%s og %t  er enten registrerede varemærker eller varemærker for %s for Frankrig og / eller andre lande."
+DLG500_ABOUT_002 = "Alle varemærker og registrerede varemærker tilhører deres respektive ejere, som på ingen måde er tilknyttet %s."
+DLG500_ABOUT_003 = "Guitar Pro Team"
+DLG500_ABOUT_004 = "Original Concept && Software"
+DLG500_ABOUT_005 = "RSE Original Concept && Sound Samples"
+DLG500_ABOUT_006 = "Udvikling"
+DLG500_ABOUT_007 = "Design"
+DLG500_ABOUT_008 = "Oversættelse [%s]"
+DLG500_ABOUT_009 = "Speciel Tak"
+DLG500_ABOUT_010 = "Audio Relaterede Teknologier"
+
+*********************************
+* v5.0 DYNAMIC ASSISTANT WINDOW *
+*********************************
+ 
+DLG500_ASS_DY_000
+DLG500_ASS_DY_001 = "Valg"
+DLG500_ASS_DY_002 = "Stemmer:"
+DLG500_ASS_DY_003 = "Alle"
+DLG500_ASS_DY_004 = "Lead"
+DLG500_ASS_DY_005 = "Bass"
+
+**********************************
+* v5.0 LET RING ASSISTANT WINDOW *
+**********************************
+ 
+DLG500_ASS_LR_000
+DLG500_ASS_LR_001 = "Valg"
+DLG500_ASS_LR_002 = "Stemmer:"
+DLG500_ASS_LR_003 = "Alle"
+DLG500_ASS_LR_004 = "Lead"
+DLG500_ASS_LR_005 = "Bass"
+
+***********************************
+* v5.0 PALM MUTE ASSISTANT WINDOW *
+***********************************
+ 
+DLG500_ASS_PM_000
+DLG500_ASS_PM_001 = "Valg"
+DLG500_ASS_PM_002 = "Stemmer:"
+DLG500_ASS_PM_003 = "Alle"
+DLG500_ASS_PM_004 = "Lead"
+DLG500_ASS_PM_005 = "Bass"
+
+*******************************
+* v5.0 MIX TABLE EVENT WINDOW *
+*******************************
+ 
+DLG500_MIX_000
+DLG500_MIX_001 = "Brug MIDI"
+DLG500_MIX_002 = "MIDI bank:"
+DLG500_MIX_003 = "Brug RSE"
+DLG500_MIX_004 = "Ingen" { used for Sound Bank list }
+DLG500_MIX_005 = "Ingen" { used for Effects list }
+
+***************************
+* v5.0 INSTRUMENTS WINDOW *
+***************************
+ 
+DLG500_INSTR_000
+DLG500_INSTR_001 = "Brug MIDI"
+DLG500_INSTR_002 = "MIDI bank:"
+DLG500_INSTR_003 = "Brug RSE"
+DLG500_INSTR_004 = "Lyt"
+DLG500_INSTR_005 = "Lyd bank"
+DLG500_INSTR_006 = "Ingen" { used for Sound Bank list }
+DLG500_INSTR_007 = "Effekt"
+DLG500_INSTR_008 = "Ingen" { used for Effects list }
+DLG500_INSTR_009 = "Auto-Accentuation on the Beat" 
+DLG500_INSTR_010 = "Ingen" { used for AutoAccentuation }
+DLG500_INSTR_011 = "Meget blødt"
+DLG500_INSTR_012 = "Blødt"
+DLG500_INSTR_013 = "Medium"
+DLG500_INSTR_014 = "Stærkt"
+DLG500_INSTR_015 = "Meget stærkt"
+DLG500_INSTR_016 = "Human Playing"
+DLG500_INSTR_017 = "Alle instrumenter, forstærkere og effekt varemærker tilhører deres respektive ejere, som på ingen måde er tilknyttet %s."
+
+*****************************
+* v5.0 NOTE DURATION WINDOW *
+*****************************
+ 
+DLG500_NOTE_DURATION_000
+DLG500_NOTE_DURATION_001 = "Varighed af lyd"
+
+**************************
+* v5.0 GRACE NOTE WINDOW *
+**************************
+
+DLG500_GRACE_000
+DLG500_GRACE_001 = "Position"
+DLG500_GRACE_002 = "Før slaget"
+DLG500_GRACE_003 = "På slaget"
+
+************************
+* v5.0 HARMONIC WINDOW *
+************************
+
+DLG500_HARM_000
+DLG500_HARM_001 = "Kunstig harmonisk"
+DLG500_HARM_002 = "Type af kunstig harmonisk"
+DLG500_HARM_003 = "Kunstig harmonisk"
+DLG500_HARM_004 = "Tapped harmonisk"
+DLG500_HARM_005 = "Pinch harmonisk"
+DLG500_HARM_006 = "Semi harmonisk"
+DLG500_HARM_007 = "Venstre hånd:"
+DLG500_HARM_008 = "Højre hånd:"
+
+**************************
+* v5.0 SCORE INFO WINDOW *
+**************************
+ 
+DLG500_SCORE_INFO_000
+DLG500_SCORE_INFO_001 = "ord"
+DLG500_SCORE_INFO_002 = "Musik"
+DLG500_SCORE_INFO_003 = "RSE Master Effect (bruges på alle spor)"
+DLG500_SCORE_INFO_004 = "Effekter:"
+
+*********************
+* v5.0 PRINT WINDOW *
+*********************
+
+DLG500_PRT_000
+DLG500_PRT_001 = "Position"
+DLG500_PRT_002 = "Skala:"
+DLG500_PRT_003 = "Tilpas til siden"
+DLG500_PRT_004 = "Centeret dokument"
+
+********************************
+* v5.0 WAVE EXPORTATION WINDOW *
+********************************
+ 
+DLG500_EXPWAV_000
+DLG500_EXPWAV_001 = "WAVE export"
+DLG500_EXPWAV_002 = "Record driver"
+DLG500_EXPWAV_003 = "Kvalitet"
+DLG500_EXPWAV_004 = "Hz"
+DLG500_EXPWAV_005 = "bits"
+
+*******************************
+* v5.0 PAGE PROPERTIES WINDOW *
+*******************************
+ 
+DLG500_PAGE_PROP_000
+DLG500_PAGE_PROP_001 = "Side opsætning"
+DLG500_PAGE_PROP_002 = "Opdater noden"
+DLG500_PAGE_PROP_003 = "Gem som standard setup"
+DLG500_PAGE_PROP_004 = "Default setup"
+DLG500_PAGE_PROP_005 = "Side format"
+DLG500_PAGE_PROP_006 = "Retning"
+DLG500_PAGE_PROP_007 = "Vertikalt"
+DLG500_PAGE_PROP_008 = "Horisontalt"
+DLG500_PAGE_PROP_009 = "Score størrelse"
+DLG500_PAGE_PROP_010 = "Proportion:"
+DLG500_PAGE_PROP_011 = "Margin"
+DLG500_PAGE_PROP_012 = "Venstre"
+DLG500_PAGE_PROP_013 = "Højre"
+DLG500_PAGE_PROP_014 = "Top"
+DLG500_PAGE_PROP_015 = "Bund"
+DLG500_PAGE_PROP_016 = "Hoved && fod"
+DLG500_PAGE_PROP_017 = "Titel"
+DLG500_PAGE_PROP_018 = "Undertekst"
+DLG500_PAGE_PROP_019 = "Artist"
+DLG500_PAGE_PROP_020 = "Album"
+DLG500_PAGE_PROP_021 = "Tekst"
+DLG500_PAGE_PROP_022 = "Musik"
+DLG500_PAGE_PROP_023 = "Tekst && musik"
+DLG500_PAGE_PROP_024 = "Copyright"
+DLG500_PAGE_PROP_025 = "Sidenummer"
+
+******************************
+* v5.0 TIME SIGNATURE WINDOW *
+******************************
+
+DLG500_TIMES_000
+DLG500_TIMES_001 = "Bind ottendedelsnoder med"
+DLG500_TIMES_002 = "I alt"
+
+***********************
+* v5.0 SYNCOPE WINDOW *
+***********************
+
+DLG500_SYNCOPE_000
+DLG500_SYNCOPE_001 = "Triol følelse"
+DLG500_SYNCOPE_002 = "Ingen triol følelse"
+DLG500_SYNCOPE_003 = "Triol 8th"
+DLG500_SYNCOPE_004 = "Triol 16th"
+DLG500_SYNCOPE_005 = "til slutningen"
+
+**************************
+* v5.0 TRACK INFO WINDOW *
+**************************
+ 
+DLG500_TRACK_INFO_000
+DLG500_TRACK_INFO_001 = "Notation"
+DLG500_TRACK_INFO_002 = "Standard notation"
+DLG500_TRACK_INFO_003 = "Tablatur"
+DLG500_TRACK_INFO_004 = "Tablatur [Bånd = midi note]"
+DLG500_TRACK_INFO_005 = "Style"
+DLG500_TRACK_INFO_006 = "Indiker stemme på partituret"
+DLG500_TRACK_INFO_007 = "Vis rytmik med Tab"
+DLG500_TRACK_INFO_008 = "Tving vandrette bjælker"
+DLG500_TRACK_INFO_009 = "Diagram liste på toppen af partituret"
+DLG500_TRACK_INFO_010 = "Diagrammer i partituret"
+DLG500_TRACK_INFO_011 = "Diagrammer/akkorder under standard nodesystem"
+DLG500_TRACK_INFO_012 = "Kanaler"
+DLG500_TRACK_INFO_013 = "Tving kanaler 11 til 16"
+
+***************************
+* v5.0 PREFERENCES WINDOW *
+***************************
+ 
+DLG500_PREF_000
+DLG500_PREF_001 = "Starter"
+DLG500_PREF_002 = "Vis Splash"
+DLG500_PREF_003 = "Auto åbn seneste fil"
+DLG500_PREF_004 = "Se"
+DLG500_PREF_005 = "Auto Switch Multitrack View"
+DLG500_PREF_006 = "Afspil"
+DLG500_PREF_007 = "Afspil samtidig med editering"
+DLG500_PREF_008 = "Tving MIDI afspil samtidig med editering"
+
+*********************
+* v5.0 ORDER WINDOW *
+*********************
+
+DLG500_REG_000
+DLG500_REG_001 = "Få gratis opgraderinger til 5.x versioner"
+DLG500_REG_002 = "Få specielle tilbud på opgradering til version 6"
+
+**********************************
+* v5.0 REGISTER YOUR COPY WINDOW *
+**********************************
+
+DLG500_REGC_000
+DLG500_REGC_001 = "Få gratis opgraderinger til 5.x versioner"
+DLG500_REGC_002 = "Få specielle tilbud på opgradering til version 6"
+
+************
+* v5.0 RSE *
+************
+
+RSE500_000
+RSE500_001 = "RSE indlæser"
+RSE500_002 = "Indlæser %s"
+RSE500_003 = "RSE fejl %s"
+RSE500_004 = "Ingen Default Preset for spor %s"
+RSE500_005 = "RSE CPU:"
+
+********************
+* v5.0 LOOP WINDOW *
+********************
+
+DLG500_LOOP_000
+DLG500_LOOP_001 = "Spil Looped / hastigheds træner"
+DLG500_LOOP_002 = "Simpel Loop"
+DLG500_LOOP_003 = "Hastigheds træner"
+
+***********************************
+* v5.0 TRANSPOSE ASSISTANT WINDOW *
+***********************************
+
+DLG500_ASS_TR_000
+DLG500_ASS_TR_001 = "Bevar fingersætningen hvis muligt"
+
+**********************
+* v5.0 IMPORT WINDOW *
+**********************
+
+DLG500_IMPORT_000
+DLG500_IMPORT_001 = "%s Import"
+DLG500_IMPORT_002 = "Information"
+DLG500_IMPORT_003 = "Fil navn:"
+DLG500_IMPORT_004 = "Fil format:"
+DLG500_IMPORT_005 = "Node titel:"
+DLG500_IMPORT_006 = "Node forfatter:"
+DLG500_IMPORT_007 = "Version:"
+DLG500_IMPORT_008 = "Progression"
+DLG500_IMPORT_009 = "Resultat"
+
+**************************
+* v5.0 PTB IMPORT WINDOW *
+**************************
+
+DLG500_PTB_IMP_000
+DLG500_PTB_IMP_001 = "PowerTab import"
+DLG500_PTB_IMP_002 = "Import Mode"
+DLG500_PTB_IMP_003 = "Hele noden"
+DLG500_PTB_IMP_004 = "Kun guitar"
+DLG500_PTB_IMP_005 = "Kun bas"
+DLG500_PTB_IMP_006 = "Muligheder"
+DLG500_PTB_IMP_007 = "Behold linieskift"
+DLG500_PTB_IMP_008 = "Fil [%s] ikke fundet"
+DLG500_PTB_IMP_009 = "Fil [%s] er ikke en gyldig PowerTab fil"
+DLG500_PTB_IMP_010 = "Kun v1.7 filer er understøttet"
+DLG500_PTB_IMP_011 = "Ugyldig data"
+DLG500_PTB_IMP_012 = "Fejl mens elementet blev hentet [%s] - ugyldig Powertab fil"
+DLG500_PTB_IMP_013 = "Ugyldig data [ReleaseType]"
+DLG500_PTB_IMP_014 = "Problem mens data blev parset. Filen er sikkert ugyldig"
+DLG500_PTB_IMP_015 = "Analyserer header..."
+DLG500_PTB_IMP_016 = "Analyserer guitar spor..."
+DLG500_PTB_IMP_017 = "Analyserer bas spor..."
+DLG500_PTB_IMP_018 = "Analyserer fonte..."
+DLG500_PTB_IMP_019 = "Analyse færdig"
+DLG500_PTB_IMP_020 = "Konverterer header..."
+DLG500_PTB_IMP_021 = "Konverterer guitar spor..."
+DLG500_PTB_IMP_022 = "Konverterer bas spor..."
+DLG500_PTB_IMP_023 = "Import færdig"
+DLG500_PTB_IMP_024 = "Import afbrudt"
+
+**************************
+* v5.0 TEF IMPORT WINDOW *
+**************************
+
+DLG500_TEF_IMP_000
+DLG500_TEF_IMP_001 = "Filen [%s] er ikke en TablEdit fil."
+DLG500_TEF_IMP_002 = "Kan ikke åbne filen [%s]."
+DLG500_TEF_IMP_003 = "Adgang til en ikke-eksisterende chord"
+DLG500_TEF_IMP_004 = "Adgang til en ikke-eksisterende takt"
+DLG500_TEF_IMP_005 = "Antallet af strenge kan ikke være %s - fejlbehæftet TablEdit fil"
+DLG500_TEF_IMP_006 = "Harmonikaens spor er ikke blevet importeret"
+DLG500_TEF_IMP_007 = "Accordionens spor er ikke blevet importeret"
+DLG500_TEF_IMP_008 = "Transformation fra 'syncopation change' til 'triol følelse 8th'"
+DLG500_TEF_IMP_009 = "Triol fejl i takt %s på spor %t"
+DLG500_TEF_IMP_010 = "Triol fejl i takt %s i den anden stemme på spor %t"
+DLG500_TEF_IMP_011 = "Rytmisk ændring i takt %s på spor %t (double dotted note simulation)."
+DLG500_TEF_IMP_012 = "Rytmisk ændring i takt %s på spor %t"
+DLG500_TEF_IMP_013 = "Ingen fejl"
+
+**************************
+* v5.0 XML IMPORT WINDOW *
+**************************
+
+DLG500_XML_IMP_000
+DLG500_XML_IMP_001 = "Import mislykkedes: skal være PARTWISE eller TIMEWISE."
+DLG500_XML_IMP_002 = "Ugyldig XML fil."
+
+**************************
+* v5.0 PDF EXPORT WINDOW *
+**************************
+
+DLG500_PDF_EXP_000
+DLG500_PDF_EXP_001 = "PDF dokument er allerede åbent i PDF viewer. Luk det før PDF export benyttes."
+
+**************************
+* v5.0 BMP EXPORT WINDOW *
+**************************
+
+DLG500_BMP_EXP_000
+DLG500_BMP_EXP_001 = "Ikke muligt at skrive til filen. BMP Export afbrudt."
+DLG500_BMP_EXP_002 = "Ikke nok hukommelse. BMP export afbrudt."
+
+*********************************
+* v5.0 SEARCH ON THE WEB WINDOW *
+*********************************
+
+DLG500_TAB_WEB_000
+DLG500_TAB_WEB_001 = "Ingen side tilgængelig. Venligst benyt den første [Update the Search Site List] knap."
+
+***************************
+*  v5.0 NEW TUNING WINDOW *
+***************************
+
+DLG500_NEWTUNE_000
+DLG500_NEWTUNE_001 = "Label på noden:"
+DLG500_NEWTUNE_002 = "Default MIDI instrument:"
+
+****************************************
+* v5.0 CHECK DURATION ASSISTANT WINDOW *
+****************************************
+
+DLG500_ASS_CD_000
+DLG500_ASS_CD_001 = "Ugyldig takt-længde ved takt %s - spor %s - stemme %s."
+
+****************
+* v5.0 GENERAL *
+****************
+ 
+GENE500_000
+GENE500_001 = "I demo versionen er det ikke muligt at exportere i GP4 format hvis filen er blevet ændret."
+GENE500_002 = "Åbn filen og benyt export featuren direkte."
+GENE500_003 = "Guitar Pro 4 filer"
+GENE500_004 = "Bitmap filer"
+GENE500_005 = "Wave filer"
+GENE500_006 = "PDF filer"
+GENE500_007 = "PowerTab filer"
+GENE500_008 = "TablEdit filer"
+GENE500_009 = "MusicXML filer"
+
+**********************
+* v5.0 MENUS & HINTS *
+**********************
+
+MN500_000
+MN500_001 = "Guitar Pro 4 format"
+MN500_002 = "Side opsætning"
+MN500_003 = "Edit"
+MN500_004 = "Vælg alle"
+MN500_005 = "Stemmer"
+MN500_006 = "Tilret stemme 1 [Lead]"
+MN500_007 = "Tilret stemme 2 [Bass]"
+MN500_008 = "Grå inaktiv stemme"
+MN500_009 = "Triol følelse"
+MN500_010 = "Musik retninger"
+MN500_011 = "Pause linie"
+MN500_012 = "Tving 'Pause linie'"
+MN500_013 = "Undgå 'Pause linie'"
+MN500_014 = "Reset takt organisering"
+MN500_015 = "Instrument"
+MN500_016 = "Flyt op"
+MN500_017 = "Flyt ned"
+MN500_018 = "Varighed"
+MN500_019 = "Punkteret node"
+MN500_020 = "Tving tuplet paranteser"
+MN500_021 = "Automatiske bjælker"
+MN500_022 = "Tving bjælker"
+MN500_023 = "Bryd bjælker"
+MN500_024 = "Bryd sekundære bjælker"
+MN500_025 = "Automatisk retning"
+MN500_026 = "Vend retning"
+MN500_027 = "Tungt akcentueret node"
+MN500_028 = "Luk" { for WahWah }
+MN500_029 = "Åbn" { for WahWah }
+MN500_030 = "Vis [Wah On]" { for WahWah => do not change term [Wah On]}
+MN500_031 = "Off" { for WahWah }
+MN500_032 = "Spil gentaget / Hastighed træner"
+MN500_033 = "Benyt RSE [Realistic Sound Engine]"
+MN500_034 = "Side Mode"
+MN500_035 = "Pergament Mode"
+MN500_036 = "Lodret skærm Mode"
+MN500_037 = "Vandret skærm Mode"
+MN500_038 = "Gem standard notation"
+MN500_039 = "Gem tablatur"
+MN500_040 = "Skin"
+MN500_041 = "Varighed af lyd"
+MN500_042 = "Notation" {name of the toolbar}
+MN500_043 = "Transposition" {name of the toolbar}
+
+**************************
+* v5.0 REPEAT END WINDOW *
+**************************
+
+DLG500_REPE_000
+DLG500_REPE_001 = "Spil"
+DLG500_REPE_002 = "gange"
+
+******************
+* v5.0 ADDTIONAL *
+******************
+
+ADD500_000
+ADD500_001 = "Spil"
+ADD500_002 = "Capo"
+ADD500_003 = "Guitar Pro på Internettet"
+ADD500_004 = "Artist:"
+
+*************
+* v5.0 DEMO *
+*************
+
+DEMO500_000
+DEMO500_001 = "Demo-versionen kan ikke eksportere i MusicXML format."
+DEMO500_002 = "Hvad er RSE?" { instrument window }
+DEMO500_003 = "Prøvetiden er udløbet."
+DEMO500_004 = "Gem er begrænset til 24 takter"
+DEMO500_005 = "[Demo Version] skrives på udskriften og i export"
+DEMO500_006 = "MusicXML export disabled"
+DEMO500_007 = "RSE [Realistic Sound Engine] disabled"
+DEMO500_008 = "RSE [Realistic Sound Engine] giver en enestående instrumentlyd i real time uden noget specielt lydkort eller andet ekstra software."
+DEMO500_009 = "Det er kun tilgængeligt i den fulde version af Guitar Pro."
+DEMO500_010 = "Prøve med Standard MIDI Playback"
+DEMO500_011 = "Prøve med RSE Playback"
+DEMO500_012 = "Klik her" { clickable part of the sentence }
+DEMO500_013 = "for at høre flere RSE instrumenter" { end of the sentence }
+
+**********************
+* v5.1 MENUS & HINTS *
+**********************
+
+MN510_000
+MN510_001 = "Skift fortegn"
+MN510_002 = "Audio indstilling (MIDI/RSE)"
+
+********************************
+* v5.1 WAVE EXPORTATION WINDOW *
+********************************
+ 
+DLG510_EXPWAV_000
+DLG510_EXPWAV_001 = "Informationer"
+DLG510_EXPWAV_002 = "Kvalitet:"
+DLG510_EXPWAV_003 = "Hjælp:"
+DLG510_EXPWAV_004 = "- Sæt flueben i [Stereo mix] eller [Wave out-mix]"
+DLG510_EXPWAV_005 = "- Lydstyrken må ikke være sat for lavt"
+DLG510_EXPWAV_006 = "Klik på billedet for at åbne Windows Indspilnings Mixer."
+
+*********************
+* v5.1 DEBUG WINDOW *
+*********************
+ 
+DLG510_DEBUG_000
+DLG510_DEBUG_001 = "Debug"
+DLG510_DEBUG_002 = "Log på Guitar Pro Support"
+DLG510_DEBUG_003 = "Luk Guitar Pro"
+DLG510_DEBUG_004 = "Fortsæt med at køre Guitar Pro"
+DLG510_DEBUG_005 = "ALVORLIG FEJL"
+DLG510_DEBUG_006 = "HVIS DU ØNSKER AT KONTAKTE GUITAR PRO SUPPORT,"
+DLG510_DEBUG_007 = "SÅ KLIK PÅ KNAPPEN HER UNDER OG KOPIER DENNE"
+DLG510_DEBUG_008 = "RAPPORT IND I DIN BESKED MED TASTERNE [CTRL+V]."
+DLG510_DEBUG_009 = "DU KAN OGSÅ VEDHÆFTE DEN AKTUELLE GUITAR PRO FIL"
+DLG510_DEBUG_010 = "OG FORKLARE, HVAD DU GJORDE, DA FEJLEN OPSTOD."
+
+***************************
+* v5.1 INSTRUMENTS WINDOW *
+***************************
+ 
+DLG510_INSTR_000
+DLG510_INSTR_001 = "Sæt som Default"
+DLG510_INSTR_002 = "Lyden [%s] vil blive sat per default til midi instrument [%t]. OK?"
+DLG510_INSTR_003 = "Automatisk"
+DLG510_INSTR_004 = "Auto-Let Ring"
+DLG510_INSTR_005 = "Auto-Brush"
+DLG510_INSTR_006 = "3-Band EQ"
+DLG510_INSTR_007 = "Low" 
+DLG510_INSTR_008 = "Mid"
+DLG510_INSTR_009 = "High" 
+DLG510_INSTR_010 = "PRE" { means "PRE-AMP" }
+
+**************************
+* v5.1 MIDI SETUP WINDOW *
+**************************
+
+DLG510_MIDISETUP_000
+DLG510_MIDISETUP_001 = "Audio indstillinger"
+DLG510_MIDISETUP_002 = "RSE indstillinger"
+DLG510_MIDISETUP_003 = "Output"
+DLG510_MIDISETUP_004 = "Audio"
+DLG510_MIDISETUP_005 = "Lydkort"
+DLG510_MIDISETUP_006 = "DSP/VST Buffers"
+DLG510_MIDISETUP_007 = "Buffer længde (i samples)"
+DLG510_MIDISETUP_008 = "Antal Buffers"
+DLG510_MIDISETUP_009 = "Format"
+DLG510_MIDISETUP_010 = "Frekvens"
+DLG510_MIDISETUP_011 = "Kanaler"
+DLG510_MIDISETUP_012 = "Opløsning"
+DLG510_MIDISETUP_013 = "Resample metode"
+DLG510_MIDISETUP_014 = "Virtuelle stemmer"
+DLG510_MIDISETUP_015 = "Latency"
+DLG510_MIDISETUP_016 = "Default"
+DLG510_MIDISETUP_017 = "Mono"
+DLG510_MIDISETUP_018 = "Stereo"
+DLG510_MIDISETUP_019 = "Ingen interpolation"
+DLG510_MIDISETUP_020 = "Lineær interpolation"
+DLG510_MIDISETUP_021 = "Cubic interpolation"
+DLG510_MIDISETUP_022 = "5 punkts spline interpolation"
+
+**************************
+* v5.1 SCORE INFO WINDOW *
+**************************
+ 
+DLG510_SCORE_INFO_000
+DLG510_SCORE_INFO_001 = "Venstre"
+DLG510_SCORE_INFO_002 = "Spektrum"
+DLG510_SCORE_INFO_003 = "Højre"
+DLG510_SCORE_INFO_004 = "Master volume"
+DLG510_SCORE_INFO_005 = "Master reverb"
+DLG510_SCORE_INFO_006 = "10-bånds master EQ"
+DLG510_SCORE_INFO_007 = "PRE" { means "PRE-AMP" }
+DLG510_SCORE_INFO_008 = "- ingen equalization -"
+
+**************************
+* v5.1 TRACK INFO WINDOW *
+**************************
+ 
+DLG510_TRACK_INFO_000
+DLG510_TRACK_INFO_001 = "Udvid rytmiken i tab'en"
+
+*********************************
+* v5.1 SEARCH ON THE WEB WINDOW *
+*********************************
+ 
+DLG510_SEARCHONWEB_000
+DLG510_SEARCHONWEB_001 = "i Sang Titel"
+DLG510_SEARCHONWEB_002 = "i Kunstner Navn"
+
+*********************
+* v5.1 TEMPO WINDOW *
+*********************
+ 
+DLG510_TEMPO_000
+DLG510_TEMPO_001 = "Skjul"
+
+*********************************************
+* v5.1 MAC MAIN TOOLBAR TEXTS UNDER BUTTONS *
+*********************************************
+
+MAC510_MAINTOOLBAR_000
+MAC510_MAINTOOLBAR_001 = "Ny"
+MAC510_MAINTOOLBAR_002 = "Åbn"
+MAC510_MAINTOOLBAR_003 = "Info"
+MAC510_MAINTOOLBAR_004 = "Side opsætning"
+MAC510_MAINTOOLBAR_005 = "Print"
+MAC510_MAINTOOLBAR_006 = "Undo"
+MAC510_MAINTOOLBAR_007 = "Redo"
+MAC510_MAINTOOLBAR_008 = "Klip"
+MAC510_MAINTOOLBAR_009 = "Kopier"
+MAC510_MAINTOOLBAR_010 = "Sæt ind"
+MAC510_MAINTOOLBAR_011 = "Spor egenskaber"
+MAC510_MAINTOOLBAR_012 = "Instrument"
+MAC510_MAINTOOLBAR_013 = "Indstillinger"
+MAC510_MAINTOOLBAR_014 = "Play"
+MAC510_MAINTOOLBAR_015 = "Stop"
+MAC510_MAINTOOLBAR_016 = "Første takt"
+MAC510_MAINTOOLBAR_017 = "Forrige takt"
+MAC510_MAINTOOLBAR_018 = "Næste takt"
+MAC510_MAINTOOLBAR_019 = "Sidste takt"
+
+*************************
+* v5.1 MAC ALERT PANELS *
+*************************
+
+MAC510_ALERTPANEL_000
+MAC510_ALERTPANEL_001 = "Ønsker du at gemme dine ændringer?"
+MAC510_ALERTPANEL_002 = "Dine ændringer går tabt, hvis du ikke gemmer dem."
+MAC510_ALERTPANEL_003 = "Gem ikke"
+MAC510_ALERTPANEL_004 = "Annuller"
+MAC510_ALERTPANEL_005 = "Gem"
+MAC510_ALERTPANEL_006 = "Skin ikke fundet"
+
+****************************
+* v5.1 MAC GUITAR PRO MENU *
+****************************
+
+MAC510_GUITARPROMENU_000
+MAC510_GUITARPROMENU_001 = "Om Guitar Pro"
+MAC510_GUITARPROMENU_002 = "Skjul Guitar Pro"
+MAC510_GUITARPROMENU_003 = "Skjul andre"
+MAC510_GUITARPROMENU_004 = "Vis alle"
+MAC510_GUITARPROMENU_005 = "Afslut Guitar Pro"
+
+**********************
+* v5.1 MAC FILE MENU *
+**********************
+
+MAC510_FILEMENU_000
+MAC510_FILEMENU_001 = "Åbn seneste"
+MAC510_FILEMENU_002 = "Ryd Menu"
+MAC510_FILEMENU_003 = "Luk"
+MAC510_FILEMENU_004 = "Printer setup..."
+
+***********************
+* v5.1 MAC SOUND MENU *
+***********************
+
+MAC510_SOUNDMENU_000
+MAC510_SOUNDMENU_001 = "RSE setup..."
+MAC510_SOUNDMENU_002 = "Tempo = "
+
+************************
+* v5.1 MAC WINDOW MENU *
+************************
+
+MAC510_WINDOWMENU_000
+MAC510_WINDOWMENU_001 = "Vindue"
+MAC510_WINDOWMENU_002 = "Minimér"
+MAC510_WINDOWMENU_003 = "Zoom"
+MAC510_WINDOWMENU_004 = "Tools Window"
+MAC510_WINDOWMENU_005 = "Play"
+MAC510_WINDOWMENU_006 = "Spor"
+MAC510_WINDOWMENU_007 = "Skuffe"
+MAC510_WINDOWMENU_008 = "Tilpas Toolbar..."
+MAC510_WINDOWMENU_009 = "Bring alt øverst"
+
+**********************
+* v5.1 MAC HELP MENU *
+**********************
+
+MAC510_HELPMENU_000
+MAC510_HELPMENU_001 = "Guitar Pro hjælp"

@@ -1,0 +1,139 @@
+﻿<html>
+	
+<head>
+	<title>Active Parts Panel</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("ActivePartsPanel");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Active Parts Panel</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="GettingStarted.html">Getting Started</a> &rsaquo;&rsaquo; <a href="MainScoreWindow.html">Main Score Window</a> &rsaquo;&rsaquo; <a href="ScoreLayoutPanel.html">Score Layout Panel</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="ScoreLayoutPanel.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="Background.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="Page.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<p class="rvps2"><img alt="" style="vertical-align: middle; padding : 1px;" src="lib/NewItem89.png"><span class="rvts6"> </span><span class="rvts27">Score Layout Panel - Active Parts Panel</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">If the Score Layout panel is not showing click on the </span><span class="rvts12">Layout</span><span class="rvts6"> button at top right of Control Bar or type "Shift-L" to open the panel.</span></p>
+<p class="rvps2"><span class="rvts6">Then choose the Active Parts panel.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">The Active Parts Panel is where you set the layout and appearance of your master score and each active part.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<div class="rvps2"><table border="0" cellpadding="1" cellspacing="2" style="border-width: 0px; border-spacing: 2px;">
+<tr valign="top">
+<td width="299" style="padding: 1px;"><p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NewItem150.png"></p>
+</td>
+<td width="1101" style="padding: 1px;"><p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Active Parts </span><span class="rvts6">- allows you to choose the Master Score or individual part to edit/</span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts6">Buttons - Buttons for printing saving, deleting, creating, and adding instruments to score parts.</span></li>
+<li class="rvps2"><span class="rvts6">Copy - Uses this pop-up menu to copy current parts settings to all parts.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Parts Table </span><span class="rvts6">- allows you to choose the Master Score or individual part to edit</span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts6">A list of each score part - Click to select the part to be edited. Double click the name to change part name and track names.</span></li>
+<li class="rvps2"><span class="rvts6">Voice - Click to choose what voices are included on the selected part.</span></li>
+<li class="rvps2"><span class="rvts6">Divisi - If on, split chords/voices into individual parts. Double click to set how chord and voices are included.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Layout Tabs </span><span class="rvts6">- allows you to choose the area of the score to edit.</span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts6">Page - The basic setting for paper size, score scaling, etc..</span></li>
+<li class="rvps2"><span class="rvts6">Layout - Score layout such as systems per page, bars per system, bar number positions, etc.</span></li>
+<li class="rvps2"><span class="rvts6">Title - The title, copyright, instructions, and composer text at top center of page.</span></li>
+<li class="rvps2"><span class="rvts6">Header - Header text at top left and right of page.</span></li>
+<li class="rvps2"><span class="rvts6">Footer - Footer text at bottom of page</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Paper Size</span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts6">Portrait, Landscape - Sets the orientation of the paper.</span></li>
+<li class="rvps2"><span class="rvts6">Choose paper size - Sets paper width and height.</span></li>
+<li class="rvps2"><span class="rvts6">Score Size slider - Use this to get more elements onto the page.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Page Margins </span><span class="rvts6">- allows you to choose the margins for all pages.</span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts6">Same - Each page will have the same margins.</span></li>
+<li class="rvps2"><span class="rvts6">Mirrored - Mirrored margins are normally used in printing manuals. Normally there is a larger margin on the side nearest to the binding.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTNameDocument name="TubiLeSax">
+  <Version>1</Version>
+  <Author>GenieSoft,Inc.</Author>
+  <Device name="TubiLeSax" usesPatchNames="1" firstPatchNumber="0" />
+  <ControllerNames>
+    <Controller name="User Defined" cc="0" />
+    <Controller name="Volume" cc="7" />
+    <Controller name="Panning" cc="10" />
+  </ControllerNames>
+  <Instruments>
+    <Section name="Default Presets" clef="treble" lownote="c-1" highnote="c9">
+      <Instrument name="My First Sax" title="Saxaphone" abbr="Sx." prgChg="1" />
+      <Instrument name="Velocity Sax" title="Saxaphone" abbr="Sx." prgChg="2" />
+      <Instrument name="Alto Sax 1" title="Alto Saxaphone" abbr="ASx." transpose="9" prgChg="3" />
+      <Instrument name="Tenor Sax 1" title="Tenor Saxaphone" abbr="TSx." transpose="14" prgChg="4" />
+      <Instrument name="Alto Sax 2" title="Alto Saxaphone" abbr="ASx." transpose="9" prgChg="5" />
+      <Instrument name="Alto Sax Alterne" title="Alto Saxaphone" abbr="ASx." transpose="9" prgChg="6" />
+      <Instrument name="Sub Bass Sax" title="Saxaphone" abbr="Sx." clef="bass" prgChg="7" />
+      <Instrument name="Funk Sax" title="Saxaphone" abbr="Sx." prgChg="8" />
+      <Instrument name="Funk Sax 2" title="Saxaphone" abbr="Sx." prgChg="9" />
+      <Instrument name="Soft Jazz" title="Saxaphone" abbr="Sx." prgChg="10" />
+      <Instrument name="Poor Sax Glided" title="Saxaphone" abbr="Sx." prgChg="11" />
+      <Instrument name="Arpegio Sax" title="Saxaphone" abbr="Sx." prgChg="12" />
+      <Instrument name="Unison 1" title="Saxaphone 1" abbr="Sx. 1" prgChg="13" />
+      <Instrument name="Unison 2" title="Saxaphone 2" abbr="Sx. 2" prgChg="14" />
+      <Instrument name="Unison 3" title="Saxaphone 3" abbr="Sx. 3" prgChg="15" />
+      <Instrument name="Another Scale" title="Saxaphone" abbr="Sx." prgChg="16" />
+      <Instrument name="Hammond and Me" title="Saxaphone" abbr="Sx." prgChg="17" />
+      <Instrument name="Drunk Blues" title="Saxaphone" abbr="Sx." prgChg="18" />
+      <Instrument name="Tenor Sax 2" title="Tenor Saxaphone" abbr="TSx." transpose="14" prgChg="19" />
+      <Instrument name="Tenor Sax 3" title="Tenor Saxaphone" abbr="TSx." transpose="14" prgChg="20" />
+      <Instrument name="Alto Sax 3" title="Alto Saxaphone" abbr="ASx." transpose="9" prgChg="21" />
+      <Instrument name="Leslie Sax" title="Saxaphone" abbr="Sx." prgChg="22" />
+      <Instrument name="Flute" title="Flute" abbr="Fl." prgChg="23" />
+      <Instrument name="Vibrato Flute" title="Flute" abbr="Fl." prgChg="24" />
+    </Section>
+    <Section name="User Presets" clef="treble"></Section>
+  </Instruments>
+</VSTNameDocument>

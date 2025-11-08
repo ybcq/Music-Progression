@@ -1,0 +1,112 @@
+﻿<html>
+	
+<head>
+	<title>Playback</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Overture 5.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("Playback");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Playback</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="OvertureMenus.html">Overture Menus</a> &rsaquo;&rsaquo; <a href="OptionsMenu.html">Options Menu</a> &rsaquo;&rsaquo; <a href="Preferences.html">Preferences</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="Preferences.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="General.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="Record.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<h4 class="rvps8"><span class="rvts0"><span class="rvts18">Preferences&gt;Playback tab</span></span></h4>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><img width="576" height="356" alt="" style="padding : 1px;" src="lib/NewItem121.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Use the check boxes to enable (check) or disabled (uncheck) various playback options. These playback options are discussed in the following sections.</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Play Notes While Inserting/Dragging</span></p>
+<p class="rvps2"><span class="rvts6">Use this option to determine whether or not Overture sends MIDI data when inserting or dragging notes. You can choose to either check or uncheck this option:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Checked</span><span class="rvts6">. When you insert a note or drag it in a score, Overture sends MIDI data to an external sound module, this gives you audible feedback of the note's pitch. Select a chord and click any note in it to get audible feedback of the entire chord. </span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Unchecked</span><span class="rvts6">. Overture does not play a note when you insert it or drag it in the Score View, therefore you receive no audible feedback of the note's pitch. </span></li>
+</ul>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Play Entire Chord While Dragging</span></p>
+<p class="rvps2"><span class="rvts6">Use this option to tell Overture whether to play just the note you are dragging or the entire chord that the note belongs to. You can choose either to check or to uncheck this option:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Checked</span><span class="rvts6">. When you drag a note that is a member of a chord, the entire chord is played. </span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts12">Unchecked</span><span class="rvts6">. When you drag a note that is a member of a chord, only the selected note is played. </span></li>
+</ul>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Send Sync On</span></p>
+<p class="rvps2"><span class="rvts6">Use this option to determine which device to send MIDI sync information to.</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Send Local Off at Startup</span></p>
+<p class="rvps2"><span class="rvts6">Use this option to have Overture send MIDI Local off at startup.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts12">Send Local On at Exit</span></p>
+<p class="rvps2"><span class="rvts6">Use this option to have Overture send MIDI Local on when exiting.</span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2016 by Sonic Scores, Inc. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+
